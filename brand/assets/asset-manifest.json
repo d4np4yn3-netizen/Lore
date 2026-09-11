@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-audit",
+  "date": "2026-09-11",
+  "release_status": "BLOCKED_PENDING_EXPORT_APPROVAL",
+  "approved_exports": [],
+  "review_exports_in_repository": [],
+  "withdrawn_bundles": [
+    {
+      "name": "lore-brand-assets-v1.zip",
+      "location": "Earlier conversation attachment; not a repository path",
+      "status": "REJECTED",
+      "reason": "Clipped artwork, contaminated extraction and incorrectly described approval status."
+    },
+    {
+      "name": "lore-production-assets-v1",
+      "location": "Earlier conversation exports; not an uploaded repository directory",
+      "status": "REJECTED",
+      "reason": "Unapproved copy in the generated board; panel borders and clipped strokes in isolated PNGs."
+    }
+  ],
+  "not_approved_repository_files": [
+    "brand/assets/lore-brand-identity-v1.jpg",
+    "brand/assets-src/lore-crown-gold.png.b64"
+  ],
+  "review_note": "A corrected PNG proof and individual exports were prepared in the working session. They are review-only and are not registered here as uploaded or approved masters.",
+  "required_fields_for_approval": [
+    "path", "sha256", "dimensions_px", "role", "source_master_sha256",
+    "technical_qa_record", "approval_record", "approved_by", "approved_at"
+  ]
+}

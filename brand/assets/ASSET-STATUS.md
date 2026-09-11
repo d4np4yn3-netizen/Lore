@@ -1,14 +1,15 @@
 # Asset Status
 
-The approved visual board and logo assets are being stored as PNG masters in this folder. The written brand rules remain the source of truth for usage; PNGs are working prototype masters until final custom vector artwork is produced.
+Updated 2026-09-11 after user-reported clipping and copy drift.
 
-## Approved production set
+| Item | Status |
+|---|---|
+| LORE name and three exact brand lines | Locked |
+| 01 / The Mark visual direction | Locked |
+| Earlier v1 isolated PNG exports | Rejected; do not reuse |
+| Last generated asset boards as complete brand specifications | Rejected; contain unapproved copy |
+| Corrected session PNG exports | Review only; not production-approved or recorded as uploaded masters |
+| Production vector master | Pending |
+| Approved reusable PNGs in the repository register | None |
 
-- Primary white + gold logo on transparent background
-- Primary black + gold logo on transparent background
-- White wordmark on transparent background
-- Black wordmark on transparent background
-- Gold crown mark on transparent background
-- Approved brand identity board PNG
-
-Do not use the earlier broken JPEG as a master asset.
+Written approval of a concept is not a claim that extracted files passed QA. Do not describe the folder as an approved production asset pack until the manifest contains validated files and their approval records.

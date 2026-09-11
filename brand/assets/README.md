@@ -1,23 +1,21 @@
 # LORE Brand Assets
 
-This folder contains the approved visual reference and reusable production PNG assets.
+**Do not use the earlier v1 exports.** Their approval status has been withdrawn following the user's inspection.
 
-## Required master assets
+Read [ASSET-STATUS.md](ASSET-STATUS.md) and [asset-manifest.json](asset-manifest.json) first. There are currently no approved reusable PNG masters in the register. The legacy JPEG and encoded crown file are not approved masters.
 
-- `lore-brand-identity-v1-preview.png` — approved brand-board visual reference.
-- `lore-logo-primary-white-gold.png` — primary logo for dark/photographic backgrounds.
-- `lore-logo-primary-black-gold.png` — primary logo for light backgrounds.
-- `lore-wordmark-white.png` — white wordmark only.
-- `lore-wordmark-black.png` — black wordmark only.
-- `lore-crown-gold.png` — standalone crown mark for card corners, app icons and packaging details.
+## What stays locked
 
-## Usage rule
+LORE
 
-These PNGs are the working visual masters for prototypes. Do not redraw, recolour, stretch, add effects to, or replace them ad hoc. Future production artwork should preserve this silhouette and direction until a final custom vector master is commissioned.
+COLLECT THE INTERNET.
 
-The primary brand language remains:
+ICONS ARE MADE OF MOMENTS.
 
-**LORE**  
-**COLLECT THE INTERNET.**  
-**ICONS ARE MADE OF MOMENTS.**  
-**SIX MOMENTS. ONE ICON.**
+SIX MOMENTS. ONE ICON.
+
+## What changes in the workflow
+
+Prepare isolated components, inspect them on light and dark backgrounds, obtain approval of the exact files, then register and reuse those files. All colourways share the same underlying geometry. Apply approved logo and text assets to illustrations after illustration generation.
+
+See [../ASSET-QA.md](../ASSET-QA.md). A visual board remains a presentation only, never the automatic source of new taglines or unapproved logos.
