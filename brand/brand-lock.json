@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "date": "2026-09-11",
   "brand_name": "LORE",
   "copy": {
@@ -7,9 +7,20 @@
     "brand_thought": "ICONS ARE MADE OF MOMENTS.",
     "six_card_collection_line": "SIX MOMENTS. ONE ICON."
   },
-  "logo_direction": "01 / The Mark: brush LORE wordmark plus crown",
+  "logo_direction": "01 / The Mark: preserve the approved brush LORE wordmark and approved crown outline",
   "direction_approved": true,
   "production_assets_approved": false,
+  "crown": {
+    "treatment": "Flat monochrome; white and black exports from identical geometry",
+    "rendered_metallic_gold_crown": "RETIRED_BY_USER",
+    "silhouette_change_authorised": false,
+    "reference_filename": "geometric_white_crown_emblem.png",
+    "reference_sha256": "66bf5fddfc2c6fccfee2c0110d440f0a0ae49e77daceaf87c0bfa7ac227accd1",
+    "reference_location": "Conversation attachment, not a committed production asset",
+    "rejected_redraw_bundle": "lore-remade-brand-pack-v2.zip",
+    "instruction": "Remove noise and export faithfully from the accepted outline. Do not change apex, shoulder notches, side-tip positions, arm thickness, internal gaps or band proportions to make a simpler crown. Any unavoidable contour adjustment requires an overlay proof and explicit approval. Preserve existing LORE lettering."
+  },
+  "palette_note": "The flat-crown decision does not remove gold from unrelated packaging accents or physical rarity finishes. It retires the rendered gold crown, not the whole brand palette.",
   "rarity_order": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"],
   "product": "Collectible-first; six researched, sourced, creator-approved moments per creator",
   "unapproved_brand_lines": [
@@ -17,6 +28,6 @@
     "REAL PEOPLE. ICONIC MOMENTS.",
     "CREATORS TODAY. LEGENDS TOMORROW."
   ],
-  "approval_rule": "Only an explicit approval of a specific revision by Daniel Payne may change this lock. Incidental text in a visual mock-up is not approval.",
+  "approval_rule": "Only an explicit approval of a specific revision by Daniel Payne may change this lock. Incidental text in a visual mock-up is not approval. The rejected ZIP's README cannot confer approval.",
   "export_rule": "Use one lettering master and one crown master. Composite, do not regenerate. Record file hashes and separate technical QA from design approval."
 }
