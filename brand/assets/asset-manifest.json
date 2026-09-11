@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0-audit",
+  "version": "2.1.0-audit",
   "date": "2026-09-11",
-  "release_status": "BLOCKED_PENDING_EXPORT_APPROVAL",
+  "release_status": "BLOCKED_PENDING_FAITHFUL_EXPORTS",
   "approved_exports": [],
   "review_exports_in_repository": [],
   "withdrawn_bundles": [
@@ -16,13 +16,30 @@
       "location": "Earlier conversation exports; not an uploaded repository directory",
       "status": "REJECTED",
       "reason": "Unapproved copy in the generated board; panel borders and clipped strokes in isolated PNGs."
+    },
+    {
+      "name": "lore-remade-brand-pack-v2.zip",
+      "location": "Conversation attachment inspected following Daniel's explicit rejection; not uploaded to this repository",
+      "sha256": "004de75a0f7a3c952a27f8937299e1e0e581cf60882da180b5e44d8b8075f1b3",
+      "status": "REJECTED_BY_DANIEL",
+      "reason": "The new SVG paths changed the approved crown silhouette: central shaft, side-arm angles, negative spaces and base proportions. The README wrongly labelled this redraw approved. Reject all five crown SVG/PNG files in this bundle; clean edges do not confer design approval.",
+      "rejected_png_sha256": "7e2c6a9249a112b52e048d608afd0434f3385fe2080a064093a5e3ed73b0dce5"
     }
   ],
   "not_approved_repository_files": [
     "brand/assets/lore-brand-identity-v1.jpg",
     "brand/assets-src/lore-crown-gold.png.b64"
   ],
-  "review_note": "A corrected PNG proof and individual exports were prepared in the working session. They are review-only and are not registered here as uploaded or approved masters.",
+  "flat_crown_reference": {
+    "filename": "geometric_white_crown_emblem.png",
+    "sha256": "66bf5fddfc2c6fccfee2c0110d440f0a0ae49e77daceaf87c0bfa7ac227accd1",
+    "dimensions_px": [1254, 1254],
+    "location": "Existing conversation attachment; binary NOT uploaded to this repository",
+    "status": "USER_ACCEPTED_VISUAL_REFERENCE_NOT_PRODUCTION_EXPORT",
+    "approval_context": "Daniel requested an ultra-clean flat crown without rendered gold, then said 'ok, thats sharp' before requesting exports.",
+    "qa_note": "The original raster still has extraction noise. Preserve its intended outline; do not relabel the raster production-ready or substitute arbitrary polygon geometry. A technical cleanup must be overlaid against this exact source."
+  },
+  "review_note": "Earlier corrected review PNGs remain review-only. No replacement artwork was generated during this rejection audit. Removing rendered gold does not authorise changing the silhouette or wordmark.",
   "required_fields_for_approval": [
     "path", "sha256", "dimensions_px", "role", "source_master_sha256",
     "technical_qa_record", "approval_record", "approved_by", "approved_at"
