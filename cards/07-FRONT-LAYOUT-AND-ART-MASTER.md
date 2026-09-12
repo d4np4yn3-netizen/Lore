@@ -79,7 +79,7 @@ The actual six v3 images are the visual authority; percentages are working guide
 
 ## What may change for the next creator
 
-Creator name, two editorially chosen title lines, one short factual context line, moment number, set identifier, source-backed illustration and confirmed LORE moment URL may change. Choose the existing rarity template for the card.
+Creator name, two editorially chosen title lines, one short phrase from the represented moment, moment number, set identifier, source-backed illustration and confirmed LORE moment URL may change. Choose the existing rarity template for the card. Follow [the moment phrase standard](11-MOMENT-PHRASE-STANDARD.md): select authentic source wording with Dan and keep it in the existing `context` / `moment-context` element. This changes the editorial role of the line; its geometry and typography remain locked.
 
 Keep the title within its allocated left column. If copy does not fit, propose a shorter truthful title or a reviewed exception. Do not silently shrink fonts, squeeze letters, move the QR, add a third line or increase the title panel. A longer creator name also needs an explicit fit review.
 

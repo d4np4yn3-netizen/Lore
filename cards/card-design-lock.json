@@ -170,5 +170,15 @@
     "corner_radius_mm": null,
     "cutting_tolerance_mm": null,
     "safe_inset_mm": null
+  },
+  "context_line": {
+    "role": "short_phrase_from_represented_moment",
+    "standard": "cards/11-MOMENT-PHRASE-STANDARD.md",
+    "data_field": "context",
+    "svg_element_id": "moment-context",
+    "geometry_and_typography_unchanged": true,
+    "requires_dan_wording_agreement": true,
+    "primary_source_evidence_required": true,
+    "editorial_rule_approved_at": "2026-09-12"
   }
 }

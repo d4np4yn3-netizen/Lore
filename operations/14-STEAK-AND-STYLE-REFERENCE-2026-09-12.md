@@ -1,5 +1,7 @@
 # Steak selection and illustration consistency — 2026-09-12
 
+> Subsequent decision: [v2 is visually signed off with the selected moment phrase](15-STEAK-V2-VISUAL-SIGNOFF-2026-09-12.md). The approval sequence below is historical.
+
 Daniel Payne selected the $2 steak cooking moment for Asmongold's collection and supplied source screenshots to correct the outfit, old kitchen, Worcestershire sauce, steak, pan and potato details.
 
 He asked for a more hand-drawn anime treatment, reattached the original v3 Common, Rare, Epic and Legendary fronts, and said those were almost perfect and should be matched throughout the cards. He then requested a steak redraw and updates to GitHub and memory to prevent drift.

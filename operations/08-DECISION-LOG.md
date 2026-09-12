@@ -95,3 +95,9 @@ See [LORE-SIZE-v1.0](../cards/09-PHYSICAL-SIZE-STANDARD.md) and [the approval re
 ## 2026-09-12 — steak artwork selected; original drawing style reaffirmed
 
 Daniel selected the steak cooking subject, reaffirmed the original v3 art references and approved the specifically attached anime steak illustration with “This is the one!” Preserve that exact art. A normal-template card crop is supplied for review. [Decision and approval scope](14-STEAK-AND-STYLE-REFERENCE-2026-09-12.md) · [Selected artwork](../cards/creators/asmongold/steak-master-01/README.md) · [Consistency standard](../cards/10-ILLUSTRATION-CONSISTENCY.md). Mandatory project memory and hashed references now carry the decisions into future work; the remaining five subjects and final rarity allocation remain open.
+
+## 2026-09-12 — steak v2 visual signed off; moment phrases adopted
+
+Dan chose **I’M A SIMPLE MAN.** to replace `THE COOKING VIDEO` and requested sign-off of the otherwise unchanged card. v2 is the current visual master; original art, placement and fixed layout remain exact. [Approval record](15-STEAK-V2-VISUAL-SIGNOFF-2026-09-12.md).
+
+For future cards, the small line beneath the title uses a short phrase from the specific moment, researched and agreed with Dan. [Phrase standard](../cards/11-MOMENT-PHRASE-STANDARD.md). User selection and primary quotation verification are distinct; the steak phrase’s audio/timestamp check remains open.
