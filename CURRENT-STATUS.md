@@ -4,6 +4,16 @@ Updated 2026-09-12. Read this first with AGENTS.md; use PROJECT-MEMORY.md for de
 
 ## Current delivery: COMPLETE
 
+### Mail Muncher card
+
+Dan approved the **Epic v4 visual** and explicitly requested locking and uploading it. Exact files and approval evidence are together in `cards/creators/asmongold/mail-muncher-master-01/`.
+
+- `art.png` — Git blob `8b7feba5ab2dd3f199a08236464b384d696a8237`
+- `LORE-Asmongold-Mail-Muncher-Epic-Layout-Review-v4.png` — Git blob `4e316cf3441a6413de36569ba05a9769ddd8695f`
+- `LORE-Asmongold-Mail-Muncher-Epic-Layout-Review-v4.svg` — Git blob `2211f5c10fd4c17478bdf666f31e35698db34b26`
+
+The exact reviewed bytes are preserved, with SHA-256 and local checks in `manifest.json`; the SVG embeds the same approved `art.png`. Original `Layout-Review-v4` filenames are retained. Phrase: **199 ATTEMPTS!** The approved version includes whole-scene anime styling, corrected moonlight, side-edge space and the removed foreground QR-area tower. Count/source verification, live QR, final numbering, commercial permissions and print release remain open.
+
 ### Shower card
 
 Dan approved the shower visual and manually uploaded the unchanged PNG, SVG and approval README in commit `938aa3a93b1733e8ccd66edededd3f68bdfa88d2`. They are filed together in `cards/creators/asmongold/shower-master-01/`. The parent collection README was restored as an index with links to both cards.
