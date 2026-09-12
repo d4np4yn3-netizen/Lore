@@ -1,17 +1,49 @@
 {
-  "revision": "LORE-FRONT-v3",
+  "revision": "LORE-CARD-v1.0",
   "date": "2026-09-12",
-  "status": "FRONT_REFERENCE_FROZEN_BACK_REVIEW_PENDING",
-  "record": "operations/11-FRONT-V3-REFERENCE-2026-09-12.md",
+  "status": "VISUAL_DESIGN_LOCKED",
+  "record": "operations/12-SHARED-BACK-V5-APPROVAL-2026-09-12.md",
   "selected_by": "Daniel Payne",
-  "scope": "Exact v3 front layout and illustrated treatment retained as the selected baseline. Complete card-system lock follows specific back approval.",
+  "scope": "Exact LORE-FRONT-v3 layout and illustration style plus approved LORE-BACK-v5 universal back. Visual card system locked; manufacturing and release gates remain pending.",
   "front_reference": "cards/master/front-v3/references/LORE-Asmongold-Six-Cards-v3.png",
   "standard": "cards/07-FRONT-LAYOUT-AND-ART-MASTER.md",
   "master_directory": "cards/master/front-v3",
   "manifest": "cards/master/front-v3/manifest.json",
   "back": {
-    "status": "REVIEW_PENDING",
-    "proposal": "cards/review/shared-back-v3/README.md"
+    "revision": "LORE-BACK-v5",
+    "status": "APPROVED",
+    "approved_by": "Daniel Payne",
+    "approved_at": "2026-09-12",
+    "approval_record": "operations/12-SHARED-BACK-V5-APPROVAL-2026-09-12.md",
+    "standard": "cards/08-SHARED-BACK-MASTER.md",
+    "master_directory": "cards/master/shared-back-v5",
+    "manifest": "cards/master/shared-back-v5/manifest.json",
+    "svg": "cards/master/shared-back-v5/LORE-Shared-Back-v5.svg",
+    "png": "cards/master/shared-back-v5/LORE-Shared-Back-v5.png",
+    "svg_sha256": "bf524bb6ab686daa57c07db70a48fea232e9e475ed37435af4fa52c5a144b056",
+    "png_sha256": "34e93d7eb67f9c40c0d3114fd4696078b6b05d4299d829bf69de552496c3aa9a",
+    "universal_across_creators_and_rarities": true,
+    "diamond": false,
+    "outer_border": {
+      "x": 14,
+      "y": 14,
+      "width": 872,
+      "height": 1232,
+      "corner_radius": 22,
+      "stroke_width": 14,
+      "colour": "#D4AF37",
+      "opacity": 1
+    },
+    "inner_border": {
+      "x": 35,
+      "y": 35,
+      "width": 830,
+      "height": 1190,
+      "corner_radius": 16,
+      "stroke_width": 2,
+      "colour": "#D4AF37",
+      "opacity": 0.6
+    }
   },
   "brand_revision": "LORE-04-v1.0",
   "canvas": {
@@ -101,12 +133,15 @@
   },
   "change_rule": "Changing geometry, font sizes, typefaces, title line count, colours or the illustration treatment needs an explicit reviewed revision. New creator content must fit the pinned template.",
   "release": {
-    "complete_card_system_locked": false,
-    "back_approved": false,
+    "complete_card_system_locked": true,
+    "back_approved": true,
     "creator_permission_recorded": false,
     "moment_selection_final": false,
     "physical_print_proof": false,
     "physical_qr_scan_test": false,
-    "live_qr_routes": false
-  }
+    "live_qr_routes": false,
+    "lock_scope": "Visual design only; physical manufacturing and release gates remain pending."
+  },
+  "front_revision": "LORE-FRONT-v3",
+  "front_reference_record": "operations/11-FRONT-V3-REFERENCE-2026-09-12.md"
 }

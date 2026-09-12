@@ -35,4 +35,4 @@ The JSON fields are `rarity`, `creator`, `title_line_1`, `title_line_2`, `contex
 
 Text overflow is rejected rather than shrinking or moving the master layout. A renderer success is not artistic approval: review the illustration, likeness, moment accuracy and the full set. New QR lengths can increase density; decode the export and test the final physical card before release.
 
-The front SVG compositions embed raster art. They are editable mixed-media files, not entirely vector illustrations. The common back is outside this master directory because it remains under review.
+The front SVG compositions embed raster art. They are editable mixed-media files, not entirely vector illustrations. The approved universal [LORE-BACK-v5](../shared-back-v5/README.md) has its own master directory and approval record. Together they form the locked visual card system.

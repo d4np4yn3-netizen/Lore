@@ -20,9 +20,9 @@ The card must feel like a premium collectible first.
 
 ## Back of card
 
-A universal shared LORE back is under review following the selection of the front QR layout. See [the current back proposal](review/shared-back-v3/README.md). It is not yet approved. The earlier recommendation to put card-specific stories and the QR on every back is superseded by this review direction; do not continue producing those earlier six different backs by default.
+The universal shared **LORE-BACK-v5** is approved. Use [the exact back standard](08-SHARED-BACK-MASTER.md) and its PNG/SVG master: no diamond, thick gold outer border, clearer thin inner border and the preserved gold/white brand lockup. The earlier card-specific backs and diamond proposals are superseded.
 
-The current proposal uses the same brand design across creators and rarities. Card-specific story, dates and sources are carried by the moment page reached from the front. Production/legal marks and any concealed-claim mechanism must be resolved separately before manufacture.
+The approved back uses the same brand design across creators and rarities. Card-specific story, dates and sources are carried by the moment page reached from the front. Production/legal marks and any concealed-claim mechanism must be resolved separately before manufacture.
 
 ## Public QR
 

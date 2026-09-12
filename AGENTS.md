@@ -20,7 +20,7 @@ Read these files from the current repository before any brand, card, packaging o
 
 ## Assets and delivery
 
-- `approved_exports` in the manifest is the only approved reusable file list. Empty means there is NO approved reusable production pack yet.
+- `approved_exports` in the brand manifest is the approved reusable brand file list. Card masters are separately identified by `cards/card-design-lock.json` and their own master manifests. Never infer production/print approval from a visual design lock.
 - Rejected v1 files must not be used. Do not infer that a file exists because it appears in a README.
 - Run the QA checklist on actual files, not just on a generated showcase. Check crown apex, both outer tips and BOTH lower base edges, complete brush strokes, true alpha, panel-border contamination, placement collisions and safe margins.
 - Open exports on dark and light backgrounds. Record dimensions, SHA-256, visual inspection and approval independently.
@@ -30,4 +30,4 @@ Read these files from the current repository before any brand, card, packaging o
 
 ## Selected card front reference
 
-Before card art, templates or new creator sets, also read `cards/card-design-lock.json` and `cards/07-FRONT-LAYOUT-AND-ART-MASTER.md`. The selected front baseline is the exact Asmongold v3 front-QR set, including its increased headroom. Use the pinned templates, font files and visual references; fill new creator content into the existing layout. Do not regenerate the whole card or silently substitute fonts. The shared-back proposal is still awaiting review; do not infer complete-card or print approval from the frozen front reference.
+Before card art, templates or new creator sets, also read `cards/card-design-lock.json` and `cards/07-FRONT-LAYOUT-AND-ART-MASTER.md`. The selected front baseline is the exact Asmongold v3 front-QR set, including its increased headroom. Use the pinned templates, font files and visual references; fill new creator content into the existing layout. Do not regenerate the whole card or silently substitute fonts. The universal LORE-BACK-v5 is explicitly approved; also read `cards/08-SHARED-BACK-MASTER.md`. Use its exact PNG/SVG and manifest in `cards/master/shared-back-v5`: no diamond, thick gold outer border, clearer thin inner border. LORE-CARD-v1.0 locks the visual front and back system. Manufacturing/print approval remains separate; do not silently alter the back to invent a cutting allowance.

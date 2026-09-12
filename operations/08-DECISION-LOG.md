@@ -78,4 +78,10 @@ Daniel selected **04 / Rising Strokes**, preserving the LORE brush wordmark and 
 
 Daniel selected the bottom-right front QR layout, requested the six Asmongold illustrations be composed around it with more headroom, and liked the resulting v3 set. Preserve that exact front layout and illustrated treatment for future creators using [the pinned master](../cards/07-FRONT-LAYOUT-AND-ART-MASTER.md).
 
-The universal shared-back proposal is still under review. Complete card-system approval, print/foil proof, live moment routes, creator permission and final moment selection are not implied. See [the scope record](11-FRONT-V3-REFERENCE-2026-09-12.md).
+At this stage the universal shared-back proposal remained under review. See [the historical front scope record](11-FRONT-V3-REFERENCE-2026-09-12.md); the later back approval below completes the visual design lock.
+
+## 2026-09-12 — shared back v5 approved; visual card system locked
+
+Daniel approved the exact v5 back and requested the GitHub update. **LORE-BACK-v5** removes the diamond, uses a thicker gold outer border and a clearer thin inner border, and preserves the approved logo/tagline placement. It is shared across all creators and rarities.
+
+Together with the unchanged LORE-FRONT-v3 layout and art reference, this locks **LORE-CARD-v1.0** as the visual design system. Use [the back master](../cards/08-SHARED-BACK-MASTER.md) and [explicit approval record](12-SHARED-BACK-V5-APPROVAL-2026-09-12.md). Printer trim/bleed/cutting tolerance, physical proof, live routes, creator permission and final moments remain pending.

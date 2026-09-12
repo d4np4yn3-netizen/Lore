@@ -2,7 +2,7 @@
 
 **Reference: LORE-FRONT-v3 / Asmongold front-QR set, 12 September 2026.**
 
-Daniel liked the exact six v3 fronts and requested that this layout and illustration style be retained for future cards. These files are now the frozen front reference. The shared back is still under review; this record does not approve the back, manufacturing specifications, creator rights, or the six Asmongold moments for release.
+Daniel liked the exact six v3 fronts and requested that this layout and illustration style be retained for future cards. These files are now the frozen front reference. The [LORE-BACK-v5 shared back](08-SHARED-BACK-MASTER.md) was subsequently approved, completing the LORE-CARD-v1.0 visual design lock. Manufacturing specifications, creator rights and the six Asmongold moments remain separate release decisions.
 
 ![Selected six-card front reference](master/front-v3/references/LORE-Asmongold-Six-Cards-v3.png)
 
@@ -100,6 +100,6 @@ Any approved change creates a new numbered revision with a new manifest and expl
 
 ## Back and physical-production status
 
-The [universal shared-back proposal](review/shared-back-v3/README.md) is presented separately. Do not infer back approval from approval of the front or from its presence in this repository.
+The [universal LORE-BACK-v5](08-SHARED-BACK-MASTER.md) has its own explicit approval and exact master assets. Use that version across creators and rarities. The front and back visual designs are locked; physical production specifications remain pending.
 
 The reference QR squares currently encode reserved example.com demo URLs. They do not open LORE moment pages or grant ownership. At 63 mm card width the square would be about 13.9 mm including its clear margin; that is a scale calculation, not an approved print size. Physical readability may require a separately reviewed adjustment. Ownership claiming still requires a separate concealed one-time credential.

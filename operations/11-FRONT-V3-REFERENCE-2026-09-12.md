@@ -1,5 +1,7 @@
 # Front v3 reference and back review — 12 September 2026
 
+**Historical scope record.** Back review was completed later the same day with [explicit v5 approval](12-SHARED-BACK-V5-APPROVAL-2026-09-12.md). The current visual system is locked in [card-design-lock.json](../cards/card-design-lock.json); the original scope below records the preceding front-only step.
+
 Daniel selected the bottom-right front QR layout and requested six recomposed Asmongold illustrations with more headroom. The resulting v3 set was presented as `LORE-Asmongold-Six-Cards-v3.png`.
 
 His subsequent direction was: “I like them … look at the back of the cards … lock this exact layout in art style, so we don't get any design drift when we design other cards.”

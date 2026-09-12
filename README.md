@@ -41,11 +41,11 @@ Rarity changes scarcity, finish, presentation and collectability — not the imp
 - Official six-card creator display frames
 - QR links back to the original post, video, stream or source moment
 
-## Selected card front reference
+## Locked card design
 
 The Asmongold v3 set is the selected reference for the front QR layout, illustration style and headroom. Use the [front design standard](cards/07-FRONT-LAYOUT-AND-ART-MASTER.md), [reusable master templates](cards/master/front-v3/README.md) and [design lock](cards/card-design-lock.json) for future creator cards.
 
-The [shared LORE back](cards/review/shared-back-v3/README.md) is a proposal awaiting review. Physical print approval and live QR routes remain pending.
+**LORE-CARD-v1.0 is visually locked:** the selected v3 fronts and the approved [shared LORE back v5](cards/08-SHARED-BACK-MASTER.md). The back has no diamond, a thicker gold outer border and a clearer thin inner border. [Download its PNG and SVG](cards/master/shared-back-v5/README.md). Physical print approval and live QR routes remain pending.
 
 ## Source of truth
 
