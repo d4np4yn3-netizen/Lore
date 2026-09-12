@@ -1,0 +1,69 @@
+{
+  "revision": "LORE-ILLUSTRATION-CONSISTENCY-v1.0",
+  "date": "2026-09-12",
+  "status": "ORIGINAL_V3_REAFFIRMED_WITH_SPECIFIC_STEAK_ART_APPROVAL",
+  "selected_by": "Daniel Payne",
+  "baseline": "LORE-FRONT-v3",
+  "standard": "cards/10-ILLUSTRATION-CONSISTENCY.md",
+  "original_references": [
+    {
+      "name": "03-rare",
+      "role": "expressive drawn face and eye design",
+      "art": {
+        "path": "cards/master/front-v3/references/art/03-rare.png",
+        "sha256": "51d77780557147a90e0dcbb5b20e351a8bfec0a0b1582376d5547fe203538935"
+      },
+      "front": {
+        "path": "cards/master/front-v3/references/fronts/03-rare.png",
+        "sha256": "6362230f943a18cb11d93e764454115e57b1cf1601fe2bb10707eba729790cdc"
+      }
+    },
+    {
+      "name": "04-epic",
+      "role": "dynamic anime expression and ink",
+      "art": {
+        "path": "cards/master/front-v3/references/art/04-epic.png",
+        "sha256": "52e16211829f7c6ef065ea276e96c60a0e84a73756f75895a1c9d4aec9218065"
+      },
+      "front": {
+        "path": "cards/master/front-v3/references/fronts/04-epic.png",
+        "sha256": "3d81d673af029cbe6a7976791fbf23d9428d2b1680f263de745eacba7d645c73"
+      }
+    },
+    {
+      "name": "05-legendary",
+      "role": "scene detail and cinematic illustrated lighting",
+      "art": {
+        "path": "cards/master/front-v3/references/art/05-legendary.png",
+        "sha256": "2d452b3251c42637e5f595fec20249c5fc813b95242194a8f3e5b0988acd82e9"
+      },
+      "front": {
+        "path": "cards/master/front-v3/references/fronts/05-legendary.png",
+        "sha256": "400c9252d3e6ad3a3e89a4e5b89a0e78de68194aabba2b2b7f6bc44be1c14d00"
+      }
+    },
+    {
+      "name": "01-common",
+      "role": "warm ink treatment; not factual steak setting",
+      "art": {
+        "path": "cards/master/front-v3/references/art/01-common.png",
+        "sha256": "45b1e949b557c39606442a4f6c84e36585f4e247e2a9a2ed2cb244d510503860"
+      },
+      "front": {
+        "path": "cards/master/front-v3/references/fronts/01-common.png",
+        "sha256": "fa601bbfa35e76d15705e7ec36d00033ad21f85574772c9f3e693dda3bff27e1"
+      }
+    }
+  ],
+  "approved_steak": {
+    "art": "cards/creators/asmongold/steak-master-01/art.png",
+    "art_sha256": "109b68cc5c662feb5ee587d7e3bb935b02cfdcf6f59a72ff9202902a46680d61",
+    "exact_user_selection": "cards/creators/asmongold/steak-master-01/approved-user-reference.jpeg",
+    "selection_sha256": "0a48548d4559cb6cf6c0c4452944e479edba330178eeb447957c4f82e3fb0306",
+    "approval_quote": "This is the one!",
+    "scope": "Uncropped illustration approved; user authorised slight image move/rescale for final assembly; delivered composition awaits confirmation",
+    "delivered_front": "cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v1.png",
+    "placement": {"translate_x": 0, "translate_y": -70, "additional_scale": 1}
+  },
+  "reference_rule": "Use original approved art references throughout all revisions; factual screenshots supply facts, not rendering style."
+}

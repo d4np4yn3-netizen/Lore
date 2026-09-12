@@ -132,7 +132,10 @@
     "style": "Hand-drawn anime/manga with confident variable ink lines, expressive likeness, cel shading, grouped hair and controlled texture",
     "layout": "Entire head clear of header; focal expression, gesture and key object above title/QR; full-bleed 5:7 art",
     "generate_branding_in_art": false,
-    "reference_prompts": "cards/master/front-v3/source/asmongold-v3-edit-prompts.md"
+    "reference_prompts": "cards/master/front-v3/source/asmongold-v3-edit-prompts.md",
+    "consistency_standard": "cards/10-ILLUSTRATION-CONSISTENCY.md",
+    "reference_manifest": "cards/style-reference-lock.json",
+    "approved_steak_art": "cards/creators/asmongold/steak-master-01/art.png"
   },
   "change_rule": "Changing geometry, font sizes, typefaces, title line count, colours or the illustration treatment needs an explicit reviewed revision. New creator content must fit the pinned template.",
   "release": {

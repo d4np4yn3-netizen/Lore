@@ -2,6 +2,8 @@
 
 Recorded: 12 September 2026.
 
+> **Recovery resolved in the subsequent artwork delivery.** The exact attached approval reference and original PNG have been recovered and registered in [the steak master directory](../cards/creators/asmongold/steak-master-01/README.md). Daniel also authorised a slight image placement adjustment for the final card. The current assembly shifts only the approved artwork upward 70 SVG units to clear the potato; fixed template elements are unchanged. See [the follow-up record](14-STEAK-AND-STYLE-REFERENCE-2026-09-12.md). The remaining text is the historical handover, not the current asset-recovery status.
+
 ## Decision carried forward
 
 Daniel selected the final steak illustration in the preceding project chat, **Continue Lore Collection**, with: **“This is the one!”** His preceding instruction was to match the four supplied illustrated card references and update GitHub and project memory so the collection does not drift.

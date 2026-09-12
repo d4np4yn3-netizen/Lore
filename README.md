@@ -49,6 +49,8 @@ The Asmongold v3 set is the selected reference for the front QR layout, illustra
 
 ## Source of truth
 
+**Latest artwork selection:** [Asmongold — The $2 Steak](cards/creators/asmongold/steak-master-01/README.md). The illustration is approved; its card crop is shown for review. Use the [illustration consistency standard](cards/10-ILLUSTRATION-CONSISTENCY.md) and [project memory](PROJECT-MEMORY.md) to preserve the selected style across future cards.
+
 This repository is the canonical source for LORE branding, card standards, creator research, physical-product rules and digital-product direction.
 
 Do not rely on chat memory or old mockups when they conflict with a locked document in this repository.

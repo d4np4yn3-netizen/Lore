@@ -91,3 +91,7 @@ Together with the unchanged LORE-FRONT-v3 layout and art reference, this locks *
 Daniel approved **63 × 88 mm finished size**, matching the standard Pokémon/Magic TCG format. This applies to all standard LORE fronts and backs. The approved visual masters remain unchanged; future print derivatives use the locked trim size and the selected printer's bleed/cutting template.
 
 See [LORE-SIZE-v1.0](../cards/09-PHYSICAL-SIZE-STANDARD.md) and [the approval record](13-CARD-SIZE-APPROVAL-2026-09-12.md). This resolves the earlier pending physical dimensions; printer-specific preparation and physical proof remain open.
+
+## 2026-09-12 — steak artwork selected; original drawing style reaffirmed
+
+Daniel selected the steak cooking subject, reaffirmed the original v3 art references and approved the specifically attached anime steak illustration with “This is the one!” Preserve that exact art. A normal-template card crop is supplied for review. [Decision and approval scope](14-STEAK-AND-STYLE-REFERENCE-2026-09-12.md) · [Selected artwork](../cards/creators/asmongold/steak-master-01/README.md) · [Consistency standard](../cards/10-ILLUSTRATION-CONSISTENCY.md). Mandatory project memory and hashed references now carry the decisions into future work; the remaining five subjects and final rarity allocation remain open.

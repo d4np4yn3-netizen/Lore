@@ -1,0 +1,166 @@
+{
+  "revision": "LORE-ASM-STEAK-ART-v1.0",
+  "date": "2026-09-12",
+  "artwork_status": "APPROVED",
+  "approved_by": "Daniel Payne",
+  "approval_quote": "This is the one!",
+  "approved_selection_file": "approved-user-reference.jpeg",
+  "source_png": "art.png",
+  "png_jpeg_relationship": "Same composition at different resolution/encoding; not byte-identical",
+  "front_status": "FINAL_ASSEMBLY_AWAITING_USER_CONFIRMATION",
+  "rarity_status": "PROVISIONAL_COMMON",
+  "template": "cards/master/front-v3/templates/common.svg",
+  "svg_type": "Vector card elements with embedded raster artwork",
+  "checks": {
+    "exact_uploaded_jpeg_preserved": true,
+    "original_generated_png_preserved": true,
+    "fixed_template_structure_identical": true,
+    "front_dimensions": [
+      900,
+      1260
+    ],
+    "decoded_qr": [
+      "https://example.com/m/asm/01"
+    ],
+    "qr_is_demo": true,
+    "visual_inspection": "Final PNG inspected: entire potato is above the unchanged QR square and caption; pan, steak, face and hands are clear. Head/hair remain inside the card, clear of the actual badge, counter and logo. Art shifted only; fixed overlay unchanged.",
+    "print_proof": false
+  },
+  "assets": [
+    {
+      "path": "LORE-Asmongold-Steak-Final-v1.png",
+      "bytes": 1594504,
+      "sha256": "26005f492891a3d8722017dd46e86f0c6ea82bd0b8edb2be3910e41ac51371f1",
+      "dimensions": [
+        900,
+        1260
+      ]
+    },
+    {
+      "path": "LORE-Asmongold-Steak-Final-v1.svg",
+      "bytes": 3493484,
+      "sha256": "ecb22e08a828d734ef0b5372f4d171c0cadf4ad34cc5100780e3f78dec0044fd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2246,
+      "sha256": "2cc4db8cc5f5be02ed23f8b61c4c15dfd66fb680e9634c74f6f6c32b6e60f04d"
+    },
+    {
+      "path": "approved-user-reference.jpeg",
+      "bytes": 573490,
+      "sha256": "0a48548d4559cb6cf6c0c4452944e479edba330178eeb447957c4f82e3fb0306",
+      "dimensions": [
+        878,
+        1536
+      ]
+    },
+    {
+      "path": "art.png",
+      "bytes": 2594738,
+      "sha256": "109b68cc5c662feb5ee587d7e3bb935b02cfdcf6f59a72ff9202902a46680d61",
+      "dimensions": [
+        948,
+        1659
+      ]
+    },
+    {
+      "path": "build-final-front.py",
+      "bytes": 1704,
+      "sha256": "e697dccca751181e2c1b1a46aa67bcf2526b795fb0e8018540c1694ca62238a9"
+    },
+    {
+      "path": "comparison.png",
+      "bytes": 1191675,
+      "sha256": "5646c0831a47735e4b9b181b6b8d687318625dc3d9e16d2f3f1fcfcb7e97f33a",
+      "dimensions": [
+        1600,
+        550
+      ]
+    },
+    {
+      "path": "comparison.svg",
+      "bytes": 1442,
+      "sha256": "f2c0e9b908aabbde13b68cbb23110105acb79ec755b53ab6672457e478e7cf50"
+    },
+    {
+      "path": "final-qa.json",
+      "bytes": 1635,
+      "sha256": "6d80591f21e9b9d0a5f67fc3388b2fbf2e6cc00a05d1efebeaaff8b864e5426c"
+    },
+    {
+      "path": "front.png",
+      "bytes": 1580465,
+      "sha256": "a43e3665b7f06ac0b296e127042020936a3226b19ef4459fab491d8f0d24dc4e",
+      "dimensions": [
+        900,
+        1260
+      ]
+    },
+    {
+      "path": "front.svg",
+      "bytes": 3493455,
+      "sha256": "31abb27d396965b6f414c508b8e1aede1c503e68f753e08d8aa652a33ef2f965"
+    },
+    {
+      "path": "generation-prompts.md",
+      "bytes": 7344,
+      "sha256": "fa06f7af2ab8b5149851dbac49b989152db9f0561dadee56cccaea0c7e1574bf"
+    },
+    {
+      "path": "render-data.json",
+      "bytes": 320,
+      "sha256": "35f16bf62ef22fbba38471adf753dc99adae6c6bf3c98479ee971bf3dc68a857"
+    },
+    {
+      "path": "source-notes.md",
+      "bytes": 2832,
+      "sha256": "c01652f40f3f277f7646326821b473a521a97d9b7bba42b2369a18757460bfe6"
+    },
+    {
+      "path": "sources/microwave-and-clothing.png",
+      "bytes": 1320553,
+      "sha256": "bdfd1972816873f1f73c1fea5f20076ce6c5120a70d355ea77200ca787634ba6",
+      "dimensions": [
+        1330,
+        777
+      ]
+    },
+    {
+      "path": "sources/sauce-and-kitchen.png",
+      "bytes": 1359599,
+      "sha256": "07d6744968e4bffd6165ceb9250422d41f57067a5ea93e4b661247598dd07fed",
+      "dimensions": [
+        1328,
+        757
+      ]
+    },
+    {
+      "path": "sources/steak-and-pan.png",
+      "bytes": 1392934,
+      "sha256": "a7d1d4103b0678fdd103be479deb1a7124d0a4804572c95132ea3d4bae1106b5",
+      "dimensions": [
+        1332,
+        746
+      ]
+    },
+    {
+      "path": "verify-final-front.py",
+      "bytes": 4803,
+      "sha256": "fdc1060f581fd5ecef4d84495c5ea0390bad97141394e66bcd9b3d9241f6d111"
+    }
+  ],
+  "current_front": "LORE-Asmongold-Steak-Final-v1.png",
+  "current_svg": "LORE-Asmongold-Steak-Final-v1.svg",
+  "placement_authorised_by_user": true,
+  "placement": {
+    "translate_x": 0,
+    "translate_y": -70,
+    "additional_scale": 1
+  },
+  "final_qa": "final-qa.json",
+  "historical_crop_proofs": [
+    "front.png",
+    "front.svg"
+  ]
+}

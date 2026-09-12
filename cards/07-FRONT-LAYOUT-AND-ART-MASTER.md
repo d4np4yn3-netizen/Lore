@@ -103,3 +103,7 @@ Any approved change creates a new numbered revision with a new manifest and expl
 The [universal LORE-BACK-v5](08-SHARED-BACK-MASTER.md) has its own explicit approval and exact master assets. Use that version across creators and rarities. The front and back visual designs are locked; physical production specifications remain pending.
 
 The reference QR squares currently encode reserved example.com demo URLs. They do not open LORE moment pages or grant ownership. At the locked 63 mm card width, uniform scaling gives a QR square of about 13.9 mm including its clear margin; final scan performance still requires the printer-prepared physical proof. Physical readability may require a separately reviewed adjustment. Ownership claiming still requires a separate concealed one-time credential.
+
+## Reaffirmed illustration references — 2026-09-12
+
+Read [the illustration consistency standard](10-ILLUSTRATION-CONSISTENCY.md) and [hashed reference register](style-reference-lock.json). Daniel reaffirmed the original v3 art and selected the specific source-informed steak illustration as an additional approved reference. Original front masters remain unchanged; the selected steak art is preserved separately from its card-crop proof.
