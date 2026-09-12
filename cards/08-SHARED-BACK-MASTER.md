@@ -32,6 +32,6 @@ All dimensions above are SVG units, not an approved physical print specification
 
 ## Production adaptation
 
-The approval locks the visual design. Final trim size, bleed, safe inset, corner die, registration tolerance, substrate, colour and foil remain unapproved. Use the chosen printer's actual template and physical proof to settle these. A thicker border is not itself a verified cutting allowance. Any visible adjustment must be presented as a new proof; this master must stay reproducible.
+The visual design and [63 × 88 mm finished size](09-PHYSICAL-SIZE-STANDARD.md) are locked. Bleed, safe inset, corner die, registration tolerance, substrate, colour and foil remain unapproved. Use the chosen printer's actual template and physical proof to settle these. A thicker border is not itself a verified cutting allowance. Any visible adjustment must be presented as a new proof; this master must stay reproducible.
 
 Creator permission, final moments, live moment routes, physical QR testing and the concealed ownership-claim mechanism remain separate release items in [card-design-lock.json](card-design-lock.json).

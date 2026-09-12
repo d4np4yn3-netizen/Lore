@@ -85,3 +85,9 @@ At this stage the universal shared-back proposal remained under review. See [the
 Daniel approved the exact v5 back and requested the GitHub update. **LORE-BACK-v5** removes the diamond, uses a thicker gold outer border and a clearer thin inner border, and preserves the approved logo/tagline placement. It is shared across all creators and rarities.
 
 Together with the unchanged LORE-FRONT-v3 layout and art reference, this locks **LORE-CARD-v1.0** as the visual design system. Use [the back master](../cards/08-SHARED-BACK-MASTER.md) and [explicit approval record](12-SHARED-BACK-V5-APPROVAL-2026-09-12.md). Printer trim/bleed/cutting tolerance, physical proof, live routes, creator permission and final moments remain pending.
+
+## 2026-09-12 — standard physical card size approved
+
+Daniel approved **63 × 88 mm finished size**, matching the standard Pokémon/Magic TCG format. This applies to all standard LORE fronts and backs. The approved visual masters remain unchanged; future print derivatives use the locked trim size and the selected printer's bleed/cutting template.
+
+See [LORE-SIZE-v1.0](../cards/09-PHYSICAL-SIZE-STANDARD.md) and [the approval record](13-CARD-SIZE-APPROVAL-2026-09-12.md). This resolves the earlier pending physical dimensions; printer-specific preparation and physical proof remain open.

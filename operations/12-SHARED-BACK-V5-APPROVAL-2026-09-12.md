@@ -1,5 +1,7 @@
 # Shared back v5 approval — 12 September 2026
 
+**Subsequent size decision:** Daniel later locked [63 × 88 mm finished dimensions](13-CARD-SIZE-APPROVAL-2026-09-12.md). The original approval scope below records the preceding back-design step.
+
 ## Explicit decision
 
 Daniel requested removal of the diamond, a thicker outer gold border and a more visible thin inner border. The resulting `LORE-Shared-Back-v5.png` was presented in full, with the corresponding native SVG retained.

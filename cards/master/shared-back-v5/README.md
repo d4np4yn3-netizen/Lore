@@ -12,4 +12,4 @@ The PNG and SVG are the exact bytes shown for v5 approval. The SVG contains real
 
 `manifest.json` records hashes and explicit approval; `qa.json` records export validation. The v3 back and v4 diamond comparison are superseded. Use Git history for historical assets.
 
-The visual design is locked. Physical trim, bleed, border inset, substrate, ink/foil treatment and cutting tolerance still require the chosen printer's template and proof. A wider border alone does not certify manufacturing tolerance. Present any visible production adjustment for review instead of silently changing this master.
+The visual design and [63 × 88 mm finished size](../../09-PHYSICAL-SIZE-STANDARD.md) are locked. Bleed, border inset, substrate, ink/foil treatment and cutting tolerance still require the chosen printer's template and proof. A wider border alone does not certify manufacturing tolerance. Present any visible production adjustment for review instead of silently changing this master.

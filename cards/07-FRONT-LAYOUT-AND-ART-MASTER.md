@@ -10,7 +10,7 @@ Use [card-design-lock.json](card-design-lock.json), the six [SVG templates](mast
 
 ## What is fixed
 
-- 900 × 1260 composition, 5:7 aspect ratio. Physical trim size, bleed, stock and finishes await a printer proof.
+- 900 × 1260 reference composition, 5:7 aspect ratio. The finished card size is locked at [63 × 88 mm](09-PHYSICAL-SIZE-STANDARD.md); print derivatives must account for the small aspect-ratio difference. Bleed, stock and finishes await printer specifications and proof.
 - The exact approved LORE-04-v1.0 compact gold/white logo, its whole-asset scale and its upper-right position. No regenerated logos, alternate crowns or rarity-coloured wordmarks.
 - Rarity badge and moment counter upper left; creator and two-line moment title lower left; public moment QR lower right; small set counter at the foot.
 - The template's rounded outline, thin inner corner lines, line weights, gradients, artwork crop and text alignment.
@@ -102,4 +102,4 @@ Any approved change creates a new numbered revision with a new manifest and expl
 
 The [universal LORE-BACK-v5](08-SHARED-BACK-MASTER.md) has its own explicit approval and exact master assets. Use that version across creators and rarities. The front and back visual designs are locked; physical production specifications remain pending.
 
-The reference QR squares currently encode reserved example.com demo URLs. They do not open LORE moment pages or grant ownership. At 63 mm card width the square would be about 13.9 mm including its clear margin; that is a scale calculation, not an approved print size. Physical readability may require a separately reviewed adjustment. Ownership claiming still requires a separate concealed one-time credential.
+The reference QR squares currently encode reserved example.com demo URLs. They do not open LORE moment pages or grant ownership. At the locked 63 mm card width, uniform scaling gives a QR square of about 13.9 mm including its clear margin; final scan performance still requires the printer-prepared physical proof. Physical readability may require a separately reviewed adjustment. Ownership claiming still requires a separate concealed one-time credential.

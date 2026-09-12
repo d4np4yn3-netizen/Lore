@@ -45,7 +45,7 @@ Rarity changes scarcity, finish, presentation and collectability — not the imp
 
 The Asmongold v3 set is the selected reference for the front QR layout, illustration style and headroom. Use the [front design standard](cards/07-FRONT-LAYOUT-AND-ART-MASTER.md), [reusable master templates](cards/master/front-v3/README.md) and [design lock](cards/card-design-lock.json) for future creator cards.
 
-**LORE-CARD-v1.0 is visually locked:** the selected v3 fronts and the approved [shared LORE back v5](cards/08-SHARED-BACK-MASTER.md). The back has no diamond, a thicker gold outer border and a clearer thin inner border. [Download its PNG and SVG](cards/master/shared-back-v5/README.md). Physical print approval and live QR routes remain pending.
+**LORE-CARD-v1.0 is visually locked:** the selected v3 fronts and the approved [shared LORE back v5](cards/08-SHARED-BACK-MASTER.md). The back has no diamond, a thicker gold outer border and a clearer thin inner border. [Download its PNG and SVG](cards/master/shared-back-v5/README.md). **Finished card size is locked at [63 × 88 mm](cards/09-PHYSICAL-SIZE-STANDARD.md)**, the standard Pokémon/Magic TCG format. Printer-specific bleed, physical print approval and live QR routes remain pending.
 
 ## Source of truth
 
