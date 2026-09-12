@@ -2,6 +2,10 @@
 
 **COLLECT THE INTERNET.**
 
+[![LORE — approved Rising Strokes identity](brand/previews/LORE-Brand-Guide.png)](brand/README.md)
+
+**Brand locked: 04 / Rising Strokes.** [Branding page](brand/README.md) · [PNG + SVG pack](brand/downloads/LORE-Brand-Pack-v1.0.zip) · [Individual assets](brand/assets/README.md)
+
 LORE is a premium creator-collectible brand that turns defining moments from internet culture into physical and digital collectible cards.
 
 ## Locked brand language

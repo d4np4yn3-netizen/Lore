@@ -69,3 +69,7 @@ Collector Vault + creator collection pages + population tracking + serial tracki
 ### Crypto / NFT
 
 Not part of the initial product direction.
+
+### Final logo approval — later on 2026-09-11
+
+Daniel selected **04 / Rising Strokes**, preserving the LORE brush wordmark and the increased crown-to-L separation in that proof. Gold, white and black crown variants and deterministic PNG/SVG exports are authorised. **LORE-04-v1.0** supersedes the previous geometric crown, review alternatives and export hold. See [the exact approval and release record](10-BRAND-APPROVAL-04.md).

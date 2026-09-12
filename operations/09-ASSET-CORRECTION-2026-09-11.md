@@ -1,5 +1,7 @@
 # Asset/copy correction — 2026-09-11
 
+> Historical incident record. Its export hold and crown reference were superseded by [the option 04 approval](10-BRAND-APPROVAL-04.md). The current release is LORE-04-v1.0; use the active asset register.
+
 ## User correction
 
 The user reported unapproved slogan drift and a cut lower-right crown edge, and instructed that GitHub must prevent this drift.
@@ -28,6 +30,6 @@ SHA-256: `fe5661a5dd8da2aef491ca1fba4c84f56b9cbbe2fa500ac67651a3c2082009c1`
 
 Use the complete standalone crown and complete lettering specimen as visual material only. Other wording in this generated sheet is not approved. The newer `a_polished_dark_themed_brand_asset_presentation_po.png` is not an approved replacement brand specification.
 
-## Still required
+## Outstanding at the time of this correction
 
 Approval of the specific clean standalone exports; real binary upload and round-trip verification; production vector preparation and physical print proofs. Do not mark these tasks complete on the basis of a presentation image.

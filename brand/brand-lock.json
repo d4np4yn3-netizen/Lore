@@ -1,27 +1,57 @@
 {
-  "version": "1.2.0",
+  "version": "2.0.0",
   "date": "2026-09-11",
+  "revision": "LORE-04-v1.0",
   "brand_name": "LORE",
   "copy": {
     "master_tagline": "COLLECT THE INTERNET.",
     "brand_thought": "ICONS ARE MADE OF MOMENTS.",
     "six_card_collection_line": "SIX MOMENTS. ONE ICON."
   },
-  "logo_direction": "01 / The Mark: preserve the approved brush LORE wordmark and approved crown outline",
+  "logo_direction": "04 / Rising Strokes crown with the preserved approved brush LORE wordmark",
   "direction_approved": true,
-  "production_assets_approved": false,
-  "crown": {
-    "treatment": "Flat monochrome; white and black exports from identical geometry",
-    "rendered_metallic_gold_crown": "RETIRED_BY_USER",
-    "silhouette_change_authorised": false,
-    "reference_filename": "geometric_white_crown_emblem.png",
-    "reference_sha256": "66bf5fddfc2c6fccfee2c0110d440f0a0ae49e77daceaf87c0bfa7ac227accd1",
-    "reference_location": "Conversation attachment, not a committed production asset",
-    "rejected_redraw_bundle": "lore-remade-brand-pack-v2.zip",
-    "instruction": "Remove noise and export faithfully from the accepted outline. Do not change apex, shoulder notches, side-tip positions, arm thickness, internal gaps or band proportions to make a simpler crown. Any unavoidable contour adjustment requires an overlay proof and explicit approval. Preserve existing LORE lettering."
+  "production_assets_approved": true,
+  "approval": {
+    "approved_by": "Daniel Payne",
+    "approved_at": "2026-09-11",
+    "record": "operations/10-BRAND-APPROVAL-04.md",
+    "scope": "Exact selected master and deterministic colourway/lockup PNG and SVG exports; updated branding page"
   },
-  "palette_note": "The flat-crown decision does not remove gold from unrelated packaging accents or physical rarity finishes. It retires the rendered gold crown, not the whole brand palette.",
-  "rarity_order": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"],
+  "crown": {
+    "name": "04 / Rising Strokes",
+    "treatment": "Flat gold, white or black; identical path geometry",
+    "gold_hex": "#D4AF37",
+    "geometry_sha256": "ae3f7c9ead85bfa74eaf828e6ccc5ac43b85ead05ef22fd703f48a1a11ac745d",
+    "master": "brand/source/master-components.json",
+    "primary_placement": {
+      "x": 500,
+      "y": 110,
+      "width": 285
+    },
+    "silhouette_change_authorised": false,
+    "instruction": "Preserve the exact selected path and placement. The prior geometric and hand-drawn alternatives are superseded. Future redesign needs explicit approval."
+  },
+  "wordmark": {
+    "master": "brand/source/master-components.json",
+    "geometry_sha256": "81b01cbb0adee40c38b88dd33bee2e3a3012d1ee0e5ac02a0ce62e40d00be4eb",
+    "instruction": "Reuse the approved outlined artwork. Never substitute a font or regenerate it."
+  },
+  "palette": {
+    "obsidian": "#0B0B0B",
+    "bone": "#F5F2EB",
+    "gold": "#D4AF37",
+    "charcoal": "#1A1A1A",
+    "logo_white": "#FFFFFF",
+    "logo_black": "#000000"
+  },
+  "rarity_order": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary",
+    "Mythic"
+  ],
   "product": "Collectible-first; six researched, sourced, creator-approved moments per creator",
   "unapproved_brand_lines": [
     "THE PEOPLE. THE MOMENTS. THE LORE.",
@@ -29,5 +59,6 @@
     "CREATORS TODAY. LEGENDS TOMORROW."
   ],
   "approval_rule": "Only an explicit approval of a specific revision by Daniel Payne may change this lock. Incidental text in a visual mock-up is not approval. The rejected ZIP's README cannot confer approval.",
-  "export_rule": "Use one lettering master and one crown master. Composite, do not regenerate. Record file hashes and separate technical QA from design approval."
+  "export_rule": "Use one lettering master and one crown master. Composite, do not regenerate. Record file hashes and separate technical QA from design approval.",
+  "physical_finish_note": "Flat RGB colour assets are not a foil, CMYK or substrate proof."
 }

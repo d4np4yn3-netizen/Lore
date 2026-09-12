@@ -1,15 +1,16 @@
-# Asset Status
+# Asset status
 
-Updated 2026-09-11 after user-reported clipping and copy drift.
+**LORE-04-v1.0 — approved master and deterministic exports.**
 
 | Item | Status |
 |---|---|
-| LORE name and three exact brand lines | Locked |
-| 01 / The Mark visual direction | Locked |
-| Earlier v1 isolated PNG exports | Rejected; do not reuse |
-| Last generated asset boards as complete brand specifications | Rejected; contain unapproved copy |
-| Corrected session PNG exports | Review only; not production-approved or recorded as uploaded masters |
-| Production vector master | Pending |
-| Approved reusable PNGs in the repository register | None |
+| Name and three brand lines | Locked |
+| 04 / Rising Strokes crown and selected placement | Approved by Daniel Payne, 11 September 2026 |
+| Existing LORE wordmark and tagline outlines | Preserved |
+| SVG master and 28 SVG asset designs | Available |
+| 28 matching PNG exports | Available; real alpha except named social/app tiles |
+| Brand guide | Updated from the exact approved vectors |
+| Previous crown alternatives / v1 files | Superseded; excluded from the active tree and register |
+| Physical foil, colour conversion and substrate proof | Separate print-production decision |
 
-Written approval of a concept is not a claim that extracted files passed QA. Do not describe the folder as an approved production asset pack until the manifest contains validated files and their approval records.
+The [machine-readable register](asset-manifest.json) contains the authoritative file hashes and validation status. The [user approval record](../../operations/10-BRAND-APPROVAL-04.md) records authority; technical QA does not create that approval.

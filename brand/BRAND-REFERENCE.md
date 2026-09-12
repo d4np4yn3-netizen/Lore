@@ -1,35 +1,24 @@
-# LORE Brand Visual Reference
+# LORE — approved visual reference
 
-## Approved direction
+**Current master: LORE-04-v1.0 / 04 — Rising Strokes.**
 
-**01 / The Mark:** brush-lettered LORE wordmark with a crown. Preserve the selected character and silhouette; do not use an export request to create another concept.
+Daniel Payne approved option 04 on 11 September 2026 and authorised the PNG/SVG pack and GitHub replacement. The previous crown references and review alternatives are superseded.
 
-## Exact brand language
-
-- LORE
-- COLLECT THE INTERNET.
-- ICONS ARE MADE OF MOMENTS.
-- SIX MOMENTS. ONE ICON.
-
-The meaning and placement roles are defined in [01-BRAND-CORE.md](01-BRAND-CORE.md). Machine-readable values are in [brand-lock.json](brand-lock.json).
+Use the [brand page](README.md), [approved primary vector](source/approved-primary.svg), [component master](source/master-components.json) and [approved asset register](assets/asset-manifest.json).
 
 ## Source priority
 
-1. An explicit user approval of an identified revision.
-2. The locked specification and recorded decision.
-3. Individual validated assets listed in [assets/asset-manifest.json](assets/asset-manifest.json).
-4. Reference-board imagery for visual direction only.
+1. Explicit user approval of an identified revision, recorded in [the approval decision](../operations/10-BRAND-APPROVAL-04.md).
+2. [Brand lock](brand-lock.json) and [visual identity rules](02-VISUAL-IDENTITY.md).
+3. Validated individual exports in the current asset register.
+4. Presentation imagery for visual context.
 
-An old suggestion or incidental generated caption cannot override the approved wording. The previously suggested people/moments/lore slogan is NOT approved.
+The primary gold/white logo uses the exact selected crown, wordmark and placement. All variants reuse those paths. The brand guide is a presentation of the assets; it must never be cropped to recover a logo.
 
-## Reference versus master
+## Locked language
 
-The selected logo direction is approved, but the previous clipped and contaminated v1 PNG exports are withdrawn. There are currently no approved reusable production exports. A low-resolution preview is not a full-resolution or vector master. A checkerboard painted into an image is not transparency.
+- **Master tagline:** COLLECT THE INTERNET.
+- **Brand thought:** ICONS ARE MADE OF MOMENTS.
+- **Six-card collection line:** SIX MOMENTS. ONE ICON.
 
-Use [02-VISUAL-IDENTITY.md](02-VISUAL-IDENTITY.md) for style and [ASSET-QA.md](ASSET-QA.md) for technical checks. Do not rely on the obsolete references to non-existent `ART-DIRECTION.md` or `BRAND-CORE.md` files.
-
-## No drift
-
-One crown geometry; one wordmark geometry; consistent colourways. No added wording, brand colours, ornaments, game statistics, serial quantities or partner claims without approval. Do not regenerate the logo inside card or packaging art.
-
-**Status: brand direction locked; export release blocked pending file-level approval.**
+Use the roles in [Brand Core](01-BRAND-CORE.md). Compose approved brand assets over illustrations; do not regenerate them inside artwork.

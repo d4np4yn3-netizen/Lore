@@ -2,7 +2,7 @@
 
 ## Locked logo direction
 
-The approved direction is the **brush-lettered LORE wordmark with a simple crown mark above it**.
+The approved master is **LORE-04-v1.0: the brush-lettered LORE wordmark with the 04 / Rising Strokes crown**. Daniel approved the exact revision and its deterministic exports on 11 September 2026. See the [brand page](README.md) and [approval record](../operations/10-BRAND-APPROVAL-04.md).
 
 The logo should feel hand-drawn, energetic and instantly recognisable rather than corporate or polished to the point of losing personality.
 
@@ -17,13 +17,15 @@ Crown mark + LORE wordmark.
 ### Micro marks
 
 - Crown mark alone
-- Custom L mark for small spaces where the full wordmark becomes unreadable
+- Wordmark app icon
+
+No separate custom L monogram has been approved or supplied.
 
 ## Logo rules
 
-- The LORE wordmark must eventually be custom-drawn and owned as a unique silhouette.
+- Use the accepted outlined LORE artwork in `source/master-components.json`. It is the approved silhouette; do not redraw it or replace it with a font.
 - Do not use a generic brush font as the final production logo.
-- The crown should be simple enough to work at favicon/app-icon size.
+- Use the exact supplied crown for small marks. Refer to `qa/crown-detail-and-size-check.png` at the intended size; do not simplify its geometry without approval.
 - Avoid excessive Japanese text inside the core logo.
 - Japanese-inspired visual language may appear elsewhere in art direction and campaigns, but LORE is a global brand.
 - Do not permanently colour-code the master logo by rarity.
@@ -32,11 +34,13 @@ Crown mark + LORE wordmark.
 
 Primary system:
 
-- **Obsidian** — near-black foundation
-- **Bone** — warm off-white
-- **Gold** — premium accent
+- **Obsidian `#0B0B0B`** — near-black foundation
+- **Bone `#F5F2EB`** — warm off-white
+- **Gold `#D4AF37`** — flat crown and premium accent
+- **Charcoal `#1A1A1A`** — secondary dark surface
+- **White `#FFFFFF` / Black `#000000`** — monochrome logo artwork
 
-Secondary accents may include deep crimson, midnight blue and rarity-specific colours when relevant.
+Rarity-specific colours belong to the card system. They must not recolour the locked master logo.
 
 The brand itself should remain predominantly monochrome/gold so creator artwork and rarity finishes provide the colour.
 
@@ -81,3 +85,11 @@ Examples:
 - a challenge creator might use arenas, crowds, prizes or spectacle
 
 These motifs must come from creator research, not stereotypes alone.
+
+## Approved composition and output rules
+
+The gold/white primary logo preserves all transforms in `source/approved-primary.svg`: crown x=500, y=110, width=285 on a 1200 × 1020 canvas. Its increased separation from the L is locked. Primary and compact logos share the same crown and wordmark placement. Use whole lockups when possible. Scale uniformly and retain their built-in clear space.
+
+SVGs contain real paths and outlined brand lettering. Transparent PNGs carry real alpha; the five social/app tiles deliberately include backgrounds. Do not mistake the brand-guide backgrounds for transparency. Gold on Bone is a decorative variant; use black lettering for readable text on light surfaces.
+
+Body/UI typography is a recommendation, not a new font approval: a clear sans serif consistent with the board. The supplied logo and tagline outlines are fixed artwork.

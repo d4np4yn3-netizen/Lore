@@ -1,47 +1,2080 @@
 {
-  "version": "2.1.0-audit",
+  "revision": "LORE-04-v1.0",
   "date": "2026-09-11",
-  "release_status": "BLOCKED_PENDING_FAITHFUL_EXPORTS",
-  "approved_exports": [],
-  "review_exports_in_repository": [],
-  "withdrawn_bundles": [
+  "release_status": "APPROVED_MASTER_AND_DERIVED_EXPORTS",
+  "source_master": "brand/source/master-components.json",
+  "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+  "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+  "approved_by": "Daniel Payne",
+  "approved_at": "2026-09-11",
+  "approved_exports": [
     {
-      "name": "lore-brand-assets-v1.zip",
-      "location": "Earlier conversation attachment; not a repository path",
-      "status": "REJECTED",
-      "reason": "Clipped artwork, contaminated extraction and incorrectly described approval status."
+      "path": "brand/assets/svg/lore_crown_gold.svg",
+      "format": "SVG",
+      "sha256": "0e35909a03e6647fcb50125cf921eeaeb80661a16c2a8a0e1325a1ce4968c07f",
+      "byte_count": 947,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1200
+      ],
+      "role": "Crown",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
     },
     {
-      "name": "lore-production-assets-v1",
-      "location": "Earlier conversation exports; not an uploaded repository directory",
-      "status": "REJECTED",
-      "reason": "Unapproved copy in the generated board; panel borders and clipped strokes in isolated PNGs."
+      "path": "brand/assets/png/lore_crown_gold.png",
+      "format": "PNG",
+      "sha256": "465ef7bff03ac15961673c11cf7e90b366323e87e662f3fab817c7e2a7488c62",
+      "byte_count": 115971,
+      "dimensions_px": [
+        2048,
+        2048
+      ],
+      "viewbox": null,
+      "role": "Crown",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
     },
     {
-      "name": "lore-remade-brand-pack-v2.zip",
-      "location": "Conversation attachment inspected following Daniel's explicit rejection; not uploaded to this repository",
-      "sha256": "004de75a0f7a3c952a27f8937299e1e0e581cf60882da180b5e44d8b8075f1b3",
-      "status": "REJECTED_BY_DANIEL",
-      "reason": "The new SVG paths changed the approved crown silhouette: central shaft, side-arm angles, negative spaces and base proportions. The README wrongly labelled this redraw approved. Reject all five crown SVG/PNG files in this bundle; clean edges do not confer design approval.",
-      "rejected_png_sha256": "7e2c6a9249a112b52e048d608afd0434f3385fe2080a064093a5e3ed73b0dce5"
+      "path": "brand/assets/svg/lore_crown_white.svg",
+      "format": "SVG",
+      "sha256": "7589ad887ecdba071e83dda3fac08d8fcbd5a65c6e5107d389dcce9ffa1f08f9",
+      "byte_count": 947,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1200
+      ],
+      "role": "Crown",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_crown_white.png",
+      "format": "PNG",
+      "sha256": "27895b3f745ce625820d19b0b59d1ce1bdbbeaeed5df35765156f7abcd1cbca9",
+      "byte_count": 84629,
+      "dimensions_px": [
+        2048,
+        2048
+      ],
+      "viewbox": null,
+      "role": "Crown",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_crown_black.svg",
+      "format": "SVG",
+      "sha256": "5c24ed8bdc0f648a4ddcbb0bc961a90dada331765f8b329bcef25627fd5dc0b5",
+      "byte_count": 947,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1200
+      ],
+      "role": "Crown",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_crown_black.png",
+      "format": "PNG",
+      "sha256": "4c4c7d1adef20bd895ef558ce9d7a9b66ca4ed84a02e135a1b798d9b6c5c95b9",
+      "byte_count": 91167,
+      "dimensions_px": [
+        2048,
+        2048
+      ],
+      "viewbox": null,
+      "role": "Crown",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_primary_gold_white.svg",
+      "format": "SVG",
+      "sha256": "e1322c6f6eca4266921cbf9c3d28565c944ab5603155b340fe9ee576ed0d8f82",
+      "byte_count": 28310,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_primary_gold_white.png",
+      "format": "PNG",
+      "sha256": "68efb8f33b94aba57765ab92f5d098b96ff79b4cbd069f0008773cc8c38984db",
+      "byte_count": 270473,
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "viewbox": null,
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_compact_gold_white.svg",
+      "format": "SVG",
+      "sha256": "7ab0c09e95441ff4e1b903e540b5155ba88a6bb5d30868019aeec81d1d48828a",
+      "byte_count": 24028,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_compact_gold_white.png",
+      "format": "PNG",
+      "sha256": "535c93bf3301e9878e1bdff267b98d6b7e87094da90f455c5bff1c71e39d3a8d",
+      "byte_count": 251301,
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "viewbox": null,
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_lockup_horizontal_gold_white.svg",
+      "format": "SVG",
+      "sha256": "5d13fbcb7e373ca002b667aa84953574e393cacb1925de65bb6818cb49a80e4d",
+      "byte_count": 28219,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_lockup_horizontal_gold_white.png",
+      "format": "PNG",
+      "sha256": "c53c1cd6551a9055ced84682009e6952e62efae6fff6686debb2baf3de8f7ee8",
+      "byte_count": 200229,
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "viewbox": null,
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_primary_gold_black.svg",
+      "format": "SVG",
+      "sha256": "b1371d2520fd5630e495ff3ce85e1c2d38f47061b451ecd714c3bb7092ff4b25",
+      "byte_count": 28310,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_primary_gold_black.png",
+      "format": "PNG",
+      "sha256": "97a3f56c614337ed3d46e0b23a94a3225eaf119d33e79f6871d5cd2f18ab53f0",
+      "byte_count": 288539,
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "viewbox": null,
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_compact_gold_black.svg",
+      "format": "SVG",
+      "sha256": "4975ba2f7253058f7708b1a9d72d6bc938eb0df3c86b786bb66ea329e754c059",
+      "byte_count": 24028,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_compact_gold_black.png",
+      "format": "PNG",
+      "sha256": "532d0be940f9fd7080bd78d5b7aa3cdc0269530ee493ae2ee0fb41331b94518c",
+      "byte_count": 267461,
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "viewbox": null,
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_lockup_horizontal_gold_black.svg",
+      "format": "SVG",
+      "sha256": "68bdedacd3b12ffceea4e1e936c4c2efd38f52453cf34ceb111fdcf53b7614e9",
+      "byte_count": 28219,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_lockup_horizontal_gold_black.png",
+      "format": "PNG",
+      "sha256": "70163eabc8785ed5fc0e3ee55aa4306a6e0b7016a334c970df19e84703f98c70",
+      "byte_count": 214787,
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "viewbox": null,
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_primary_white.svg",
+      "format": "SVG",
+      "sha256": "b2bcd4e5ff216893d8bd36236e1bd53347146d82740d9fb1d7139d4f2dcf9888",
+      "byte_count": 28310,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_primary_white.png",
+      "format": "PNG",
+      "sha256": "46056ebc18301a5ba5fb74770e306f5d3867986995e21f6a7edb6899ccc7c468",
+      "byte_count": 248914,
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "viewbox": null,
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_compact_white.svg",
+      "format": "SVG",
+      "sha256": "034e7b84cbed4dc25975391b8b620ee2599d25186e23ca6b16441487d1f84b70",
+      "byte_count": 24028,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_compact_white.png",
+      "format": "PNG",
+      "sha256": "a4dac29b799f4f065484e8aa9b0377fe4e9e54e3e41e6fdb060bdeacc065cd86",
+      "byte_count": 229778,
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "viewbox": null,
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_lockup_horizontal_white.svg",
+      "format": "SVG",
+      "sha256": "5c7f031fc4f68fb22cab3d5c6a1910a7acdd848d1646943349bf3be973024f42",
+      "byte_count": 28219,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_lockup_horizontal_white.png",
+      "format": "PNG",
+      "sha256": "2ebe1188e458dc00741928ff103b9a02150c650e58b4a4d3eb63e06ec2c40ce0",
+      "byte_count": 184941,
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "viewbox": null,
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_primary_black.svg",
+      "format": "SVG",
+      "sha256": "458d5ea8d29a7db675ecfbe71f1ab154c200b3fb141f79f77d3faa61dca088b2",
+      "byte_count": 28310,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_primary_black.png",
+      "format": "PNG",
+      "sha256": "4784b2c11cff998d3beebdbd5303434886358a11837ae015776f5f1cd1407191",
+      "byte_count": 271416,
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "viewbox": null,
+      "role": "Primary logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_compact_black.svg",
+      "format": "SVG",
+      "sha256": "c7f067b6ba65de4c2d04b77739f5c65d8fff9402d8b1378e791d4d141a29e322",
+      "byte_count": 24028,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_logo_compact_black.png",
+      "format": "PNG",
+      "sha256": "6d4181f090c56cfee6b66b682d1f7224f42689f82840aafe30998c9b3e869538",
+      "byte_count": 250109,
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "viewbox": null,
+      "role": "Compact logo",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_lockup_horizontal_black.svg",
+      "format": "SVG",
+      "sha256": "b4e0ae01f790348916d6be50414cf69c51814ba5d8c3e2283cca67cd69a11240",
+      "byte_count": 28219,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_lockup_horizontal_black.png",
+      "format": "PNG",
+      "sha256": "c30a4077557597f361c05489cc2b04fd2987ab2210f255b9e75025969ff3bae9",
+      "byte_count": 202006,
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "viewbox": null,
+      "role": "Horizontal logo with tagline",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_wordmark_white.svg",
+      "format": "SVG",
+      "sha256": "d1c8ab750db9e60c1bc2989a3cf7deccf193e09cb44c2192b4868893e26ac608",
+      "byte_count": 23362,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        740
+      ],
+      "role": "Wordmark",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_wordmark_white.png",
+      "format": "PNG",
+      "sha256": "bce05641e35d8ef932d70fee6d9b2e70a32efaa0e031c56c2850dcbcc22c340a",
+      "byte_count": 177267,
+      "dimensions_px": [
+        4096,
+        2526
+      ],
+      "viewbox": null,
+      "role": "Wordmark",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_tagline_primary_white.svg",
+      "format": "SVG",
+      "sha256": "d6de2a7753dc6829d70c7c4d9909811918d127accee7b6bdbf7bd82632394c4f",
+      "byte_count": 4586,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "COLLECT THE INTERNET.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_tagline_primary_white.png",
+      "format": "PNG",
+      "sha256": "e67f099fe9204bc089483538afdf71ff2beb4858d21b0e9d86ac5cb41229e758",
+      "byte_count": 34914,
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "viewbox": null,
+      "role": "COLLECT THE INTERNET.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_brand_thought_white.svg",
+      "format": "SVG",
+      "sha256": "2f6becab7aad2370252da7df2ac71a15ada46cd28d8c2202500944e4c1a7acb2",
+      "byte_count": 8171,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "ICONS ARE MADE OF MOMENTS.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_brand_thought_white.png",
+      "format": "PNG",
+      "sha256": "a8695240a3765fc6b6f8b0ac70b1d7262d846f3927e2b9d49ac5e9cca6730cd0",
+      "byte_count": 52151,
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "viewbox": null,
+      "role": "ICONS ARE MADE OF MOMENTS.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_six_moments_one_icon_white.svg",
+      "format": "SVG",
+      "sha256": "af3ae5cec43f4baa3f32bf8d5d9aa4c9b107c491fc29f05b98f7165c50d15043",
+      "byte_count": 6653,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "SIX MOMENTS. ONE ICON.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_six_moments_one_icon_white.png",
+      "format": "PNG",
+      "sha256": "997fbe93f15b6f2edbcd8cb007055c9e0c51dffd0de018944678199911eba5a5",
+      "byte_count": 54201,
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "viewbox": null,
+      "role": "SIX MOMENTS. ONE ICON.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_wordmark_black.svg",
+      "format": "SVG",
+      "sha256": "26b58fd4e1e15583fe87490d4df6918c178a38489ba62d4b452b43c8f397a9f4",
+      "byte_count": 23362,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        740
+      ],
+      "role": "Wordmark",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_wordmark_black.png",
+      "format": "PNG",
+      "sha256": "052f59cef928d7e25eea86d2561a22c57f032dcc97a9151857b5f20d35a338f4",
+      "byte_count": 193320,
+      "dimensions_px": [
+        4096,
+        2526
+      ],
+      "viewbox": null,
+      "role": "Wordmark",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_tagline_primary_black.svg",
+      "format": "SVG",
+      "sha256": "17c3420d3a100e4ea9045d21ae174d65df735c907f279a081bd1660404a8bba3",
+      "byte_count": 4586,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "COLLECT THE INTERNET.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_tagline_primary_black.png",
+      "format": "PNG",
+      "sha256": "4d0f0ac3469eeb4c5176d9c9f9edba7e7d50db17d855443d8926d3d017f969b5",
+      "byte_count": 37152,
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "viewbox": null,
+      "role": "COLLECT THE INTERNET.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_brand_thought_black.svg",
+      "format": "SVG",
+      "sha256": "eb1c4651390cffea61bd7a3cab78b7dc3a0d08e6b2c672f2005d6bf11576d212",
+      "byte_count": 8171,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "ICONS ARE MADE OF MOMENTS.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_brand_thought_black.png",
+      "format": "PNG",
+      "sha256": "2f6d96f22e7a5431c1206e92d4a542e0930944391982db55f9fdcbe79edced8a",
+      "byte_count": 56354,
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "viewbox": null,
+      "role": "ICONS ARE MADE OF MOMENTS.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_six_moments_one_icon_black.svg",
+      "format": "SVG",
+      "sha256": "52a3a9d7430c98fbd475787e4dd2ad5204807402752d05171ddb28f6684db881",
+      "byte_count": 6653,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "SIX MOMENTS. ONE ICON.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_six_moments_one_icon_black.png",
+      "format": "PNG",
+      "sha256": "e4f4a927cef74900253795e259cf70d1ec5d1160a26e4b71dc88833ba7a4819e",
+      "byte_count": 58198,
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "viewbox": null,
+      "role": "SIX MOMENTS. ONE ICON.",
+      "transparent": true,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_avatar_gold_dark.svg",
+      "format": "SVG",
+      "sha256": "778eba3a9f41697ac4bee2fc82c0d82216e1e05d1e1b15e7b6690c6e9e5e7809",
+      "byte_count": 997,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_avatar_gold_dark.png",
+      "format": "PNG",
+      "sha256": "8ae63d8dbb9bfbecf0657e1ca01f9d3a6f4d8a75f99355be56376a9f8c386ce6",
+      "byte_count": 41513,
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "viewbox": null,
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_avatar_white_dark.svg",
+      "format": "SVG",
+      "sha256": "61aa263ea29ed0d04b978cbc73870f1da06a1f8b591ebccd1da634038c086bf8",
+      "byte_count": 997,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_avatar_white_dark.png",
+      "format": "PNG",
+      "sha256": "f1c7979ee830eed5551ed7a177a541c7ea0c6707a68aa158d36bd98791bf3e1d",
+      "byte_count": 42120,
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "viewbox": null,
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_avatar_black_light.svg",
+      "format": "SVG",
+      "sha256": "13ee019f4bd0381e9a9f6275e437ad94860b4e79455d0f9dc0cc35623c426461",
+      "byte_count": 997,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_avatar_black_light.png",
+      "format": "PNG",
+      "sha256": "ea9d7010a98c7d03d7122f603c540b5fc7827855f16b0edd6f2936c35a913dfb",
+      "byte_count": 43895,
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "viewbox": null,
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_avatar_gold_light.svg",
+      "format": "SVG",
+      "sha256": "1ac84ff6cc4522be556bff598ab92ca2e05aa78a882abc7ad018c21e671120de",
+      "byte_count": 997,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_avatar_gold_light.png",
+      "format": "PNG",
+      "sha256": "fa5524e7101f9bb8fe40e2fb0df117d0b6952540da2f7b90c8630f841112b9e4",
+      "byte_count": 40907,
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "viewbox": null,
+      "role": "Social avatar",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/svg/lore_app_icon_dark.svg",
+      "format": "SVG",
+      "sha256": "f3ff508897b442526a307afda255e4641259056276c6a76362f9978424500cfd",
+      "byte_count": 23406,
+      "dimensions_px": null,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "App icon",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
+    },
+    {
+      "path": "brand/assets/png/lore_app_icon_dark.png",
+      "format": "PNG",
+      "sha256": "daafd5bf53db90c807ad9c725b337a182b8bbaf18e49c3e0ee7f87f6732b391b",
+      "byte_count": 24214,
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "viewbox": null,
+      "role": "App icon",
+      "transparent": false,
+      "source_master_sha256": "e8d403debdfeda5a6393b15e02ddb007f11e0417e8447fd1c9e3e3363c28c322",
+      "technical_qa_record": "brand/qa/technical-qa.json",
+      "approval_record": "operations/10-BRAND-APPROVAL-04.md",
+      "approved_by": "Daniel Payne",
+      "approved_at": "2026-09-11"
     }
   ],
-  "not_approved_repository_files": [
-    "brand/assets/lore-brand-identity-v1.jpg",
-    "brand/assets-src/lore-crown-gold.png.b64"
+  "assets": [
+    {
+      "name": "lore_crown_gold",
+      "svg": "brand/assets/svg/lore_crown_gold.svg",
+      "png": "brand/assets/png/lore_crown_gold.png",
+      "png_width": 2048,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1200
+      ],
+      "role": "Crown",
+      "colours": [
+        "#D4AF37"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "0e35909a03e6647fcb50125cf921eeaeb80661a16c2a8a0e1325a1ce4968c07f",
+      "png_sha256": "465ef7bff03ac15961673c11cf7e90b366323e87e662f3fab817c7e2a7488c62",
+      "dimensions_px": [
+        2048,
+        2048
+      ],
+      "alpha_bbox": [
+        170,
+        337,
+        1878,
+        1711
+      ],
+      "transparent_margins_px": [
+        170,
+        337,
+        170,
+        337
+      ]
+    },
+    {
+      "name": "lore_crown_white",
+      "svg": "brand/assets/svg/lore_crown_white.svg",
+      "png": "brand/assets/png/lore_crown_white.png",
+      "png_width": 2048,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1200
+      ],
+      "role": "Crown",
+      "colours": [
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "7589ad887ecdba071e83dda3fac08d8fcbd5a65c6e5107d389dcce9ffa1f08f9",
+      "png_sha256": "27895b3f745ce625820d19b0b59d1ce1bdbbeaeed5df35765156f7abcd1cbca9",
+      "dimensions_px": [
+        2048,
+        2048
+      ],
+      "alpha_bbox": [
+        170,
+        337,
+        1878,
+        1711
+      ],
+      "transparent_margins_px": [
+        170,
+        337,
+        170,
+        337
+      ]
+    },
+    {
+      "name": "lore_crown_black",
+      "svg": "brand/assets/svg/lore_crown_black.svg",
+      "png": "brand/assets/png/lore_crown_black.png",
+      "png_width": 2048,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1200
+      ],
+      "role": "Crown",
+      "colours": [
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "5c24ed8bdc0f648a4ddcbb0bc961a90dada331765f8b329bcef25627fd5dc0b5",
+      "png_sha256": "4c4c7d1adef20bd895ef558ce9d7a9b66ca4ed84a02e135a1b798d9b6c5c95b9",
+      "dimensions_px": [
+        2048,
+        2048
+      ],
+      "alpha_bbox": [
+        170,
+        337,
+        1878,
+        1711
+      ],
+      "transparent_margins_px": [
+        170,
+        337,
+        170,
+        337
+      ]
+    },
+    {
+      "name": "lore_logo_primary_gold_white",
+      "svg": "brand/assets/svg/lore_logo_primary_gold_white.svg",
+      "png": "brand/assets/png/lore_logo_primary_gold_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "colours": [
+        "#D4AF37",
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "e1322c6f6eca4266921cbf9c3d28565c944ab5603155b340fe9ee576ed0d8f82",
+      "png_sha256": "68efb8f33b94aba57765ab92f5d098b96ff79b4cbd069f0008773cc8c38984db",
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        3097
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        385
+      ]
+    },
+    {
+      "name": "lore_logo_compact_gold_white",
+      "svg": "brand/assets/svg/lore_logo_compact_gold_white.svg",
+      "png": "brand/assets/png/lore_logo_compact_gold_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "colours": [
+        "#D4AF37",
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "7ab0c09e95441ff4e1b903e540b5155ba88a6bb5d30868019aeec81d1d48828a",
+      "png_sha256": "535c93bf3301e9878e1bdff267b98d6b7e87094da90f455c5bff1c71e39d3a8d",
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        2894
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        349
+      ]
+    },
+    {
+      "name": "lore_lockup_horizontal_gold_white",
+      "svg": "brand/assets/svg/lore_lockup_horizontal_gold_white.svg",
+      "png": "brand/assets/png/lore_lockup_horizontal_gold_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "colours": [
+        "#D4AF37",
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "5d13fbcb7e373ca002b667aa84953574e393cacb1925de65bb6818cb49a80e4d",
+      "png_sha256": "c53c1cd6551a9055ced84682009e6952e62efae6fff6686debb2baf3de8f7ee8",
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "alpha_bbox": [
+        262,
+        262,
+        3834,
+        1985
+      ],
+      "transparent_margins_px": [
+        262,
+        262,
+        262,
+        273
+      ]
+    },
+    {
+      "name": "lore_logo_primary_gold_black",
+      "svg": "brand/assets/svg/lore_logo_primary_gold_black.svg",
+      "png": "brand/assets/png/lore_logo_primary_gold_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "colours": [
+        "#D4AF37",
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "b1371d2520fd5630e495ff3ce85e1c2d38f47061b451ecd714c3bb7092ff4b25",
+      "png_sha256": "97a3f56c614337ed3d46e0b23a94a3225eaf119d33e79f6871d5cd2f18ab53f0",
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        3097
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        385
+      ]
+    },
+    {
+      "name": "lore_logo_compact_gold_black",
+      "svg": "brand/assets/svg/lore_logo_compact_gold_black.svg",
+      "png": "brand/assets/png/lore_logo_compact_gold_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "colours": [
+        "#D4AF37",
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "4975ba2f7253058f7708b1a9d72d6bc938eb0df3c86b786bb66ea329e754c059",
+      "png_sha256": "532d0be940f9fd7080bd78d5b7aa3cdc0269530ee493ae2ee0fb41331b94518c",
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        2894
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        349
+      ]
+    },
+    {
+      "name": "lore_lockup_horizontal_gold_black",
+      "svg": "brand/assets/svg/lore_lockup_horizontal_gold_black.svg",
+      "png": "brand/assets/png/lore_lockup_horizontal_gold_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "colours": [
+        "#D4AF37",
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "68bdedacd3b12ffceea4e1e936c4c2efd38f52453cf34ceb111fdcf53b7614e9",
+      "png_sha256": "70163eabc8785ed5fc0e3ee55aa4306a6e0b7016a334c970df19e84703f98c70",
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "alpha_bbox": [
+        262,
+        262,
+        3834,
+        1985
+      ],
+      "transparent_margins_px": [
+        262,
+        262,
+        262,
+        273
+      ]
+    },
+    {
+      "name": "lore_logo_primary_white",
+      "svg": "brand/assets/svg/lore_logo_primary_white.svg",
+      "png": "brand/assets/png/lore_logo_primary_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "colours": [
+        "#FFFFFF",
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "b2bcd4e5ff216893d8bd36236e1bd53347146d82740d9fb1d7139d4f2dcf9888",
+      "png_sha256": "46056ebc18301a5ba5fb74770e306f5d3867986995e21f6a7edb6899ccc7c468",
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        3097
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        385
+      ]
+    },
+    {
+      "name": "lore_logo_compact_white",
+      "svg": "brand/assets/svg/lore_logo_compact_white.svg",
+      "png": "brand/assets/png/lore_logo_compact_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "colours": [
+        "#FFFFFF",
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "034e7b84cbed4dc25975391b8b620ee2599d25186e23ca6b16441487d1f84b70",
+      "png_sha256": "a4dac29b799f4f065484e8aa9b0377fe4e9e54e3e41e6fdb060bdeacc065cd86",
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        2894
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        349
+      ]
+    },
+    {
+      "name": "lore_lockup_horizontal_white",
+      "svg": "brand/assets/svg/lore_lockup_horizontal_white.svg",
+      "png": "brand/assets/png/lore_lockup_horizontal_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "colours": [
+        "#FFFFFF",
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "5c7f031fc4f68fb22cab3d5c6a1910a7acdd848d1646943349bf3be973024f42",
+      "png_sha256": "2ebe1188e458dc00741928ff103b9a02150c650e58b4a4d3eb63e06ec2c40ce0",
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "alpha_bbox": [
+        262,
+        262,
+        3834,
+        1985
+      ],
+      "transparent_margins_px": [
+        262,
+        262,
+        262,
+        273
+      ]
+    },
+    {
+      "name": "lore_logo_primary_black",
+      "svg": "brand/assets/svg/lore_logo_primary_black.svg",
+      "png": "brand/assets/png/lore_logo_primary_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        1020
+      ],
+      "role": "Primary logo with tagline",
+      "colours": [
+        "#000000",
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "458d5ea8d29a7db675ecfbe71f1ab154c200b3fb141f79f77d3faa61dca088b2",
+      "png_sha256": "4784b2c11cff998d3beebdbd5303434886358a11837ae015776f5f1cd1407191",
+      "dimensions_px": [
+        4096,
+        3482
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        3097
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        385
+      ]
+    },
+    {
+      "name": "lore_logo_compact_black",
+      "svg": "brand/assets/svg/lore_logo_compact_black.svg",
+      "png": "brand/assets/png/lore_logo_compact_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        950
+      ],
+      "role": "Compact logo",
+      "colours": [
+        "#000000",
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "c7f067b6ba65de4c2d04b77739f5c65d8fff9402d8b1378e791d4d141a29e322",
+      "png_sha256": "6d4181f090c56cfee6b66b682d1f7224f42689f82840aafe30998c9b3e869538",
+      "dimensions_px": [
+        4096,
+        3243
+      ],
+      "alpha_bbox": [
+        341,
+        375,
+        3755,
+        2894
+      ],
+      "transparent_margins_px": [
+        341,
+        375,
+        341,
+        349
+      ]
+    },
+    {
+      "name": "lore_lockup_horizontal_black",
+      "svg": "brand/assets/svg/lore_lockup_horizontal_black.svg",
+      "png": "brand/assets/png/lore_lockup_horizontal_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1560,
+        860
+      ],
+      "role": "Horizontal logo with tagline",
+      "colours": [
+        "#000000",
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "b4e0ae01f790348916d6be50414cf69c51814ba5d8c3e2283cca67cd69a11240",
+      "png_sha256": "c30a4077557597f361c05489cc2b04fd2987ab2210f255b9e75025969ff3bae9",
+      "dimensions_px": [
+        4096,
+        2258
+      ],
+      "alpha_bbox": [
+        262,
+        262,
+        3834,
+        1985
+      ],
+      "transparent_margins_px": [
+        262,
+        262,
+        262,
+        273
+      ]
+    },
+    {
+      "name": "lore_wordmark_white",
+      "svg": "brand/assets/svg/lore_wordmark_white.svg",
+      "png": "brand/assets/png/lore_wordmark_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        740
+      ],
+      "role": "Wordmark",
+      "colours": [
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "d1c8ab750db9e60c1bc2989a3cf7deccf193e09cb44c2192b4868893e26ac608",
+      "png_sha256": "bce05641e35d8ef932d70fee6d9b2e70a32efaa0e031c56c2850dcbcc22c340a",
+      "dimensions_px": [
+        4096,
+        2526
+      ],
+      "alpha_bbox": [
+        341,
+        341,
+        3755,
+        2177
+      ],
+      "transparent_margins_px": [
+        341,
+        341,
+        341,
+        349
+      ]
+    },
+    {
+      "name": "lore_tagline_primary_white",
+      "svg": "brand/assets/svg/lore_tagline_primary_white.svg",
+      "png": "brand/assets/png/lore_tagline_primary_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "COLLECT THE INTERNET.",
+      "colours": [
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "d6de2a7753dc6829d70c7c4d9909811918d127accee7b6bdbf7bd82632394c4f",
+      "png_sha256": "e67f099fe9204bc089483538afdf71ff2beb4858d21b0e9d86ac5cb41229e758",
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "alpha_bbox": [
+        292,
+        321,
+        3804,
+        489
+      ],
+      "transparent_margins_px": [
+        292,
+        321,
+        292,
+        389
+      ]
+    },
+    {
+      "name": "lore_brand_thought_white",
+      "svg": "brand/assets/svg/lore_brand_thought_white.svg",
+      "png": "brand/assets/png/lore_brand_thought_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "ICONS ARE MADE OF MOMENTS.",
+      "colours": [
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "ICONS ARE MADE OF MOMENTS.",
+      "svg_sha256": "2f6becab7aad2370252da7df2ac71a15ada46cd28d8c2202500944e4c1a7acb2",
+      "png_sha256": "a8695240a3765fc6b6f8b0ac70b1d7262d846f3927e2b9d49ac5e9cca6730cd0",
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "alpha_bbox": [
+        292,
+        321,
+        3804,
+        453
+      ],
+      "transparent_margins_px": [
+        292,
+        321,
+        292,
+        425
+      ]
+    },
+    {
+      "name": "lore_six_moments_one_icon_white",
+      "svg": "brand/assets/svg/lore_six_moments_one_icon_white.svg",
+      "png": "brand/assets/png/lore_six_moments_one_icon_white.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "SIX MOMENTS. ONE ICON.",
+      "colours": [
+        "#FFFFFF"
+      ],
+      "transparent": true,
+      "copy": "SIX MOMENTS. ONE ICON.",
+      "svg_sha256": "af3ae5cec43f4baa3f32bf8d5d9aa4c9b107c491fc29f05b98f7165c50d15043",
+      "png_sha256": "997fbe93f15b6f2edbcd8cb007055c9e0c51dffd0de018944678199911eba5a5",
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "alpha_bbox": [
+        292,
+        321,
+        3804,
+        484
+      ],
+      "transparent_margins_px": [
+        292,
+        321,
+        292,
+        394
+      ]
+    },
+    {
+      "name": "lore_wordmark_black",
+      "svg": "brand/assets/svg/lore_wordmark_black.svg",
+      "png": "brand/assets/png/lore_wordmark_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1200,
+        740
+      ],
+      "role": "Wordmark",
+      "colours": [
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": null,
+      "svg_sha256": "26b58fd4e1e15583fe87490d4df6918c178a38489ba62d4b452b43c8f397a9f4",
+      "png_sha256": "052f59cef928d7e25eea86d2561a22c57f032dcc97a9151857b5f20d35a338f4",
+      "dimensions_px": [
+        4096,
+        2526
+      ],
+      "alpha_bbox": [
+        341,
+        341,
+        3755,
+        2177
+      ],
+      "transparent_margins_px": [
+        341,
+        341,
+        341,
+        349
+      ]
+    },
+    {
+      "name": "lore_tagline_primary_black",
+      "svg": "brand/assets/svg/lore_tagline_primary_black.svg",
+      "png": "brand/assets/png/lore_tagline_primary_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "COLLECT THE INTERNET.",
+      "colours": [
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "COLLECT THE INTERNET.",
+      "svg_sha256": "17c3420d3a100e4ea9045d21ae174d65df735c907f279a081bd1660404a8bba3",
+      "png_sha256": "4d0f0ac3469eeb4c5176d9c9f9edba7e7d50db17d855443d8926d3d017f969b5",
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "alpha_bbox": [
+        292,
+        321,
+        3804,
+        489
+      ],
+      "transparent_margins_px": [
+        292,
+        321,
+        292,
+        389
+      ]
+    },
+    {
+      "name": "lore_brand_thought_black",
+      "svg": "brand/assets/svg/lore_brand_thought_black.svg",
+      "png": "brand/assets/png/lore_brand_thought_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "ICONS ARE MADE OF MOMENTS.",
+      "colours": [
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "ICONS ARE MADE OF MOMENTS.",
+      "svg_sha256": "eb1c4651390cffea61bd7a3cab78b7dc3a0d08e6b2c672f2005d6bf11576d212",
+      "png_sha256": "2f6d96f22e7a5431c1206e92d4a542e0930944391982db55f9fdcbe79edced8a",
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "alpha_bbox": [
+        292,
+        321,
+        3804,
+        453
+      ],
+      "transparent_margins_px": [
+        292,
+        321,
+        292,
+        425
+      ]
+    },
+    {
+      "name": "lore_six_moments_one_icon_black",
+      "svg": "brand/assets/svg/lore_six_moments_one_icon_black.svg",
+      "png": "brand/assets/png/lore_six_moments_one_icon_black.png",
+      "png_width": 4096,
+      "viewbox": [
+        0,
+        0,
+        1400,
+        300
+      ],
+      "role": "SIX MOMENTS. ONE ICON.",
+      "colours": [
+        "#000000"
+      ],
+      "transparent": true,
+      "copy": "SIX MOMENTS. ONE ICON.",
+      "svg_sha256": "52a3a9d7430c98fbd475787e4dd2ad5204807402752d05171ddb28f6684db881",
+      "png_sha256": "e4f4a927cef74900253795e259cf70d1ec5d1160a26e4b71dc88833ba7a4819e",
+      "dimensions_px": [
+        4096,
+        878
+      ],
+      "alpha_bbox": [
+        292,
+        321,
+        3804,
+        484
+      ],
+      "transparent_margins_px": [
+        292,
+        321,
+        292,
+        394
+      ]
+    },
+    {
+      "name": "lore_avatar_gold_dark",
+      "svg": "brand/assets/svg/lore_avatar_gold_dark.svg",
+      "png": "brand/assets/png/lore_avatar_gold_dark.png",
+      "png_width": 1024,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "colours": [
+        "#D4AF37",
+        "#0B0B0B"
+      ],
+      "transparent": false,
+      "copy": null,
+      "svg_sha256": "778eba3a9f41697ac4bee2fc82c0d82216e1e05d1e1b15e7b6690c6e9e5e7809",
+      "png_sha256": "8ae63d8dbb9bfbecf0657e1ca01f9d3a6f4d8a75f99355be56376a9f8c386ce6",
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent_margins_px": null
+    },
+    {
+      "name": "lore_avatar_white_dark",
+      "svg": "brand/assets/svg/lore_avatar_white_dark.svg",
+      "png": "brand/assets/png/lore_avatar_white_dark.png",
+      "png_width": 1024,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "colours": [
+        "#FFFFFF",
+        "#0B0B0B"
+      ],
+      "transparent": false,
+      "copy": null,
+      "svg_sha256": "61aa263ea29ed0d04b978cbc73870f1da06a1f8b591ebccd1da634038c086bf8",
+      "png_sha256": "f1c7979ee830eed5551ed7a177a541c7ea0c6707a68aa158d36bd98791bf3e1d",
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent_margins_px": null
+    },
+    {
+      "name": "lore_avatar_black_light",
+      "svg": "brand/assets/svg/lore_avatar_black_light.svg",
+      "png": "brand/assets/png/lore_avatar_black_light.png",
+      "png_width": 1024,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "colours": [
+        "#000000",
+        "#F5F2EB"
+      ],
+      "transparent": false,
+      "copy": null,
+      "svg_sha256": "13ee019f4bd0381e9a9f6275e437ad94860b4e79455d0f9dc0cc35623c426461",
+      "png_sha256": "ea9d7010a98c7d03d7122f603c540b5fc7827855f16b0edd6f2936c35a913dfb",
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent_margins_px": null
+    },
+    {
+      "name": "lore_avatar_gold_light",
+      "svg": "brand/assets/svg/lore_avatar_gold_light.svg",
+      "png": "brand/assets/png/lore_avatar_gold_light.png",
+      "png_width": 1024,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "Social avatar",
+      "colours": [
+        "#D4AF37",
+        "#F5F2EB"
+      ],
+      "transparent": false,
+      "copy": null,
+      "svg_sha256": "1ac84ff6cc4522be556bff598ab92ca2e05aa78a882abc7ad018c21e671120de",
+      "png_sha256": "fa5524e7101f9bb8fe40e2fb0df117d0b6952540da2f7b90c8630f841112b9e4",
+      "dimensions_px": [
+        1024,
+        1024
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "transparent_margins_px": null
+    },
+    {
+      "name": "lore_app_icon_dark",
+      "svg": "brand/assets/svg/lore_app_icon_dark.svg",
+      "png": "brand/assets/png/lore_app_icon_dark.png",
+      "png_width": 512,
+      "viewbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "role": "App icon",
+      "colours": [
+        "#FFFFFF",
+        "#0B0B0B"
+      ],
+      "transparent": false,
+      "copy": null,
+      "svg_sha256": "f3ff508897b442526a307afda255e4641259056276c6a76362f9978424500cfd",
+      "png_sha256": "daafd5bf53db90c807ad9c725b337a182b8bbaf18e49c3e0ee7f87f6732b391b",
+      "dimensions_px": [
+        512,
+        512
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "transparent_margins_px": null
+    }
   ],
-  "flat_crown_reference": {
-    "filename": "geometric_white_crown_emblem.png",
-    "sha256": "66bf5fddfc2c6fccfee2c0110d440f0a0ae49e77daceaf87c0bfa7ac227accd1",
-    "dimensions_px": [1254, 1254],
-    "location": "Existing conversation attachment; binary NOT uploaded to this repository",
-    "status": "USER_ACCEPTED_VISUAL_REFERENCE_NOT_PRODUCTION_EXPORT",
-    "approval_context": "Daniel requested an ultra-clean flat crown without rendered gold, then said 'ok, thats sharp' before requesting exports.",
-    "qa_note": "The original raster still has extraction noise. Preserve its intended outline; do not relabel the raster production-ready or substitute arbitrary polygon geometry. A technical cleanup must be overlaid against this exact source."
-  },
-  "review_note": "Earlier corrected review PNGs remain review-only. No replacement artwork was generated during this rejection audit. Removing rendered gold does not authorise changing the silhouette or wordmark.",
-  "required_fields_for_approval": [
-    "path", "sha256", "dimensions_px", "role", "source_master_sha256",
-    "technical_qa_record", "approval_record", "approved_by", "approved_at"
-  ]
+  "technical_qa": "PASS",
+  "visual_inspection": "PASS"
 }

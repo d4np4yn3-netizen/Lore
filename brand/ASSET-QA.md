@@ -1,5 +1,7 @@
 # LORE Asset QA and approval gates
 
+Current approved revision: **LORE-04-v1.0 / 04 — Rising Strokes**, explicitly selected by Daniel Payne with authorisation to create its deterministic PNG/SVG exports. See [the approval record](../operations/10-BRAND-APPROVAL-04.md). These checks validate implementation of that decision; they cannot authorise a redesign.
+
 ## 1. Freeze the input
 
 Read AGENTS.md, the brand lock and the current asset register. Record source filename, source hash and approved revision. Record whether the task is an export or a redesign; default to export. Do not invent copy.
@@ -19,7 +21,7 @@ For recovery from a concept board, retain the source resolution and label the fi
 - Inspect every brush tip of LORE. Safe exterior padding does not repair pixels already lost in a source crop.
 - Reject rectangular panel lines, captions, ghost crowns, leftover tagline fragments and matte halos.
 - Ensure the crown and lettering do not hide or cut each other's geometry in a lockup.
-- Use at least 48 px transparent exterior padding for the current native-resolution review exports; final production spacing requires a separately approved specification.
+- Retain the approved lockup transforms and built-in exterior padding. The LORE-04-v1.0 transparent exports all exceed 48 px exterior padding. A future change to composition or clear space needs approval.
 - Compare black and white alpha masks; geometry must match. Compare shared crown placements across lockups.
 - Verify every displayed brand line against brand-lock.json. No alternative slogans.
 

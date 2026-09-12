@@ -11,7 +11,7 @@ Read these files from the current repository before any brand, card, packaging o
 
 - The locked name is LORE. The only approved brand lines are `COLLECT THE INTERNET.`, `ICONS ARE MADE OF MOMENTS.`, and `SIX MOMENTS. ONE ICON.` Use their assigned roles. Do not invent an alternative slogan, even in a mock-up.
 - Earlier chat suggestions and incidental copy inside generated reference boards do not override the lock.
-- The approved direction is 01 / The Mark: the brush LORE wordmark and crown. Direction approval is not approval of every pixel, caption, crop, colour value or logo variation in a generated sheet.
+- The approved master is LORE-04-v1.0: 04 / Rising Strokes crown with the preserved brush LORE wordmark. Daniel approved this exact revision and deterministic exports on 2026-09-11; see operations/10-BRAND-APPROVAL-04.md. Other generated-sheet content does not extend that approval.
 - Do not regenerate a logo, crown, tagline, serial number or QR inside a final illustration. Composite the exact approved separate assets and typeset approved text instead.
 - Produce new illustrations without brand lettering; apply the locked brand layer afterwards. An export request is not permission to redesign.
 - Generate every colourway and lockup from the SAME approved lettering geometry and the SAME approved crown geometry. No separately invented crowns.

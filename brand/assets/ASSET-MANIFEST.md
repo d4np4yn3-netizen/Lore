@@ -1,21 +1,11 @@
-# LORE Asset Manifest — v2 audit correction
+# LORE — approved asset manifest
 
-**Status: release blocked. The previous v1 asset family is withdrawn.**
+**Release: LORE-04-v1.0.**
 
-The previous manifest incorrectly called unverified exports an approved prototype/production family. Those entries must not be used as permission to place the files on cards, packaging or the website.
+The [machine-readable register](asset-manifest.json) is authoritative. The [download catalogue](README.md) links every PNG and SVG.
 
-The authoritative machine-readable register is [asset-manifest.json](asset-manifest.json). It currently contains **zero approved reusable exports**.
+The family contains **28 designs / 56 individual asset files**. All SVG artwork consists of paths, including outlined taglines. Transparent PNG exports have real alpha and retain exterior padding. Social avatars and the app icon deliberately have backgrounds.
 
-Brand direction and the three lines remain approved. File-level approval is separate.
+The same crown silhouette and wordmark geometry are used throughout. The primary gold/white composition matches the selected option 04 proof exactly. Monochrome and gold variants have identical alpha masks within each layout.
 
-## Required eventual exports
-
-Transparent white/gold and black/gold logos; white and black wordmarks; gold, white and black crowns; primary tagline lockups. Export them all from a single lettering master and a single crown master.
-
-A concept board, a filename, a base64 text file and a document listing PNG names are not a verified PNG upload.
-
-## Promotion requirements
-
-Check the actual binary, complete geometry, true alpha, unclipped tips/base, absence of sheet borders and text remnants, colourway consistency and readable placement. Record SHA-256 and dimensions. Obtain approval of the exact proof. Then commit the files, fetch/verify the committed result, and add them to the approved register.
-
-See [../ASSET-QA.md](../ASSET-QA.md) and [../brand-lock.json](../brand-lock.json).
+The register records path, SHA-256, dimensions, role, source master, approval record and QA report for each approved export. The exact master approval is [recorded here](../../operations/10-BRAND-APPROVAL-04.md); checks are [recorded here](../qa/technical-qa.json).
