@@ -4,6 +4,17 @@ Updated 2026-09-12. Read this first with AGENTS.md; use PROJECT-MEMORY.md for de
 
 ## Current delivery: COMPLETE
 
+### Shower card
+
+Dan approved the shower visual and manually uploaded the unchanged PNG, SVG and approval README in commit `938aa3a93b1733e8ccd66edededd3f68bdfa88d2`. They are filed together in `cards/creators/asmongold/shower-master-01/`. The parent collection README was restored as an index with links to both cards.
+
+- `LORE-Asmongold-Shower-Legendary-Review-v1.png` — Git blob `c8bc8c4b0c0070354ca6461acd586cc9966678f3`
+- `LORE-Asmongold-Shower-Legendary-Review-v1.svg` — Git blob `c6e6053d36de2a8a894c4ee8f58b4e2fe99907d7`
+
+Verification: the live uploaded PNG/SVG blob SHAs match the approved export hashes; the folder correction reuses those same blobs without changing image bytes. Approval and SHA-256 records: `cards/creators/asmongold/shower-master-01/README.md`. Original `Review-v1` filenames are retained despite visual approval. Phrase: **I’M A VERY CLEAN BOY.** The QR is still a demo; audio/timestamp checks, final numbering/rarity allocation and print release remain open.
+
+### Steak card
+
 Dan's approved Asmongold steak v2 PNG and SVG are on main. The context line is **I’M A SIMPLE MAN.** Exact approved art and layout are preserved.
 
 Directory: `cards/creators/asmongold/steak-master-01/`
