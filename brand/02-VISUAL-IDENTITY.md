@@ -93,3 +93,7 @@ The gold/white primary logo preserves all transforms in `source/approved-primary
 SVGs contain real paths and outlined brand lettering. Transparent PNGs carry real alpha; the five social/app tiles deliberately include backgrounds. Do not mistake the brand-guide backgrounds for transparency. Gold on Bone is a decorative variant; use black lettering for readable text on light surfaces.
 
 Body/UI typography is a recommendation, not a new font approval: a clear sans serif consistent with the board. The supplied logo and tagline outlines are fixed artwork.
+
+## Selected card illustration reference
+
+For card composition and illustration consistency, use [LORE-FRONT-v3](../cards/07-FRONT-LAYOUT-AND-ART-MASTER.md). Its six artwork references and pinned front templates retain the selected drawn style and header/QR clearance. This supplements the brand rules without changing the LORE-04 logo geometry. The shared back and physical finishes remain separate review items.

@@ -2,7 +2,7 @@
 
 ## Front of card
 
-The front should prioritise artwork.
+The front should prioritise artwork. The selected v3 front layout is specified in [the exact front master](07-FRONT-LAYOUT-AND-ART-MASTER.md) and [card-design-lock.json](card-design-lock.json).
 
 Required elements:
 
@@ -10,6 +10,7 @@ Required elements:
 - creator name
 - moment title
 - rarity indicator
+- bottom-right public moment QR with its clear margin and `WATCH MOMENT` caption
 - optional moment number / series identifier
 - optional serial number where relevant
 
@@ -19,23 +20,13 @@ The card must feel like a premium collectible first.
 
 ## Back of card
 
-The back carries the deeper story and digital bridge.
+A universal shared LORE back is under review following the selection of the front QR layout. See [the current back proposal](review/shared-back-v3/README.md). It is not yet approved. The earlier recommendation to put card-specific stories and the QR on every back is superseded by this review direction; do not continue producing those earlier six different backs by default.
 
-Recommended elements:
-
-- creator name
-- moment title
-- short factual context
-- date/year where useful
-- public QR code
-- series/set identifier
-- rarity
-- serial number if applicable
-- legal/production marks
+The current proposal uses the same brand design across creators and rarities. Card-specific story, dates and sources are carried by the moment page reached from the front. Production/legal marks and any concealed-claim mechanism must be resolved separately before manufacture.
 
 ## Public QR
 
-Each card should contain a small public QR code that resolves through a LORE-owned redirect URL rather than directly to X, YouTube or another platform.
+Each card front should contain a small public QR code that resolves through a LORE-owned redirect URL rather than directly to X, YouTube or another platform.
 
 Example conceptual route:
 

@@ -27,3 +27,7 @@ Read these files from the current repository before any brand, card, packaging o
 - Technical QA cannot confer user approval. Never self-approve a candidate or label an unreviewed file production-ready.
 - Read the current branch before writes, preserve unrelated work, and verify the committed file exists. A tool failure or local-only file must be reported accurately; never claim it was uploaded.
 - No creator is a partner until permission is recorded. A sourced moment is not automatically a licensed image/video asset.
+
+## Selected card front reference
+
+Before card art, templates or new creator sets, also read `cards/card-design-lock.json` and `cards/07-FRONT-LAYOUT-AND-ART-MASTER.md`. The selected front baseline is the exact Asmongold v3 front-QR set, including its increased headroom. Use the pinned templates, font files and visual references; fill new creator content into the existing layout. Do not regenerate the whole card or silently substitute fonts. The shared-back proposal is still awaiting review; do not infer complete-card or print approval from the frozen front reference.

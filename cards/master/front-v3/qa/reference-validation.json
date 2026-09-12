@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-12",
+  "reference_cards": [
+    {
+      "card": "01-common",
+      "unchanged_original_front_and_art_bytes": true,
+      "template_render_matches_every_rgba_pixel": true,
+      "decoded_demo_qr": "https://example.com/m/asm/01"
+    },
+    {
+      "card": "02-uncommon",
+      "unchanged_original_front_and_art_bytes": true,
+      "template_render_matches_every_rgba_pixel": true,
+      "decoded_demo_qr": "https://example.com/m/asm/02"
+    },
+    {
+      "card": "03-rare",
+      "unchanged_original_front_and_art_bytes": true,
+      "template_render_matches_every_rgba_pixel": true,
+      "decoded_demo_qr": "https://example.com/m/asm/03"
+    },
+    {
+      "card": "04-epic",
+      "unchanged_original_front_and_art_bytes": true,
+      "template_render_matches_every_rgba_pixel": true,
+      "decoded_demo_qr": "https://example.com/m/asm/04"
+    },
+    {
+      "card": "05-legendary",
+      "unchanged_original_front_and_art_bytes": true,
+      "template_render_matches_every_rgba_pixel": true,
+      "decoded_demo_qr": "https://example.com/m/asm/05"
+    },
+    {
+      "card": "06-mythic",
+      "unchanged_original_front_and_art_bytes": true,
+      "template_render_matches_every_rgba_pixel": true,
+      "decoded_demo_qr": "https://example.com/m/asm/06"
+    }
+  ],
+  "logo_path_geometry": "EXACT_MATCH",
+  "template_svg_parse": "PASS",
+  "font_mapping": "Pinned DejaVu Sans regular and bold; reproduces v3 reference pixels",
+  "visual_review": "Existing v3 fronts retained unchanged; shared back inspected separately and remains a proposal",
+  "physical_print_validation": "PENDING",
+  "complete_card_lock": "BACK_REVIEW_PENDING"
+}

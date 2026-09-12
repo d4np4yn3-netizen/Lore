@@ -73,3 +73,9 @@ Not part of the initial product direction.
 ### Final logo approval — later on 2026-09-11
 
 Daniel selected **04 / Rising Strokes**, preserving the LORE brush wordmark and the increased crown-to-L separation in that proof. Gold, white and black crown variants and deterministic PNG/SVG exports are authorised. **LORE-04-v1.0** supersedes the previous geometric crown, review alternatives and export hold. See [the exact approval and release record](10-BRAND-APPROVAL-04.md).
+
+## 2026-09-12 — selected front v3 reference
+
+Daniel selected the bottom-right front QR layout, requested the six Asmongold illustrations be composed around it with more headroom, and liked the resulting v3 set. Preserve that exact front layout and illustrated treatment for future creators using [the pinned master](../cards/07-FRONT-LAYOUT-AND-ART-MASTER.md).
+
+The universal shared-back proposal is still under review. Complete card-system approval, print/foil proof, live moment routes, creator permission and final moment selection are not implied. See [the scope record](11-FRONT-V3-REFERENCE-2026-09-12.md).

@@ -1,0 +1,112 @@
+{
+  "revision": "LORE-FRONT-v3",
+  "date": "2026-09-12",
+  "status": "FRONT_REFERENCE_FROZEN_BACK_REVIEW_PENDING",
+  "record": "operations/11-FRONT-V3-REFERENCE-2026-09-12.md",
+  "selected_by": "Daniel Payne",
+  "scope": "Exact v3 front layout and illustrated treatment retained as the selected baseline. Complete card-system lock follows specific back approval.",
+  "front_reference": "cards/master/front-v3/references/LORE-Asmongold-Six-Cards-v3.png",
+  "standard": "cards/07-FRONT-LAYOUT-AND-ART-MASTER.md",
+  "master_directory": "cards/master/front-v3",
+  "manifest": "cards/master/front-v3/manifest.json",
+  "back": {
+    "status": "REVIEW_PENDING",
+    "proposal": "cards/review/shared-back-v3/README.md"
+  },
+  "brand_revision": "LORE-04-v1.0",
+  "canvas": {
+    "width": 900,
+    "height": 1260,
+    "aspect_ratio": "5:7",
+    "physical_trim_mm": null,
+    "bleed_mm": null
+  },
+  "artwork_window": {
+    "x": 14,
+    "y": 14,
+    "width": 872,
+    "height": 1232,
+    "corner_radius": 22,
+    "fit": "xMidYMid slice"
+  },
+  "logo": {
+    "asset": "brand/assets/svg/lore_logo_compact_gold_white.svg",
+    "sha256": "7ab0c09e95441ff4e1b903e540b5155ba88a6bb5d30868019aeec81d1d48828a",
+    "x": 703,
+    "y": 35,
+    "width": 152,
+    "height": 120,
+    "preserve_whole_asset": true
+  },
+  "typography": {
+    "labels": "DejaVuSans.ttf / DejaVuSans-Bold.ttf",
+    "title_svg_request": "DejaVu Sans Condensed",
+    "title_resolved_file": "DejaVuSans-Bold.ttf",
+    "font_configuration": "cards/master/front-v3/source/fontconfig.xml",
+    "no_font_substitution": true
+  },
+  "qr": {
+    "side": "front",
+    "x": 644,
+    "y": 986,
+    "width": 198,
+    "height": 198,
+    "clear_margin_modules": 4,
+    "error_correction": "M",
+    "foreground": "#000000",
+    "background": "#FFFFFF",
+    "caption": "WATCH MOMENT",
+    "reference_payloads": "reserved example.com demo URLs",
+    "live_target": "confirmed LORE-owned moment route",
+    "ownership_credential": false
+  },
+  "rarities": [
+    {
+      "name": "Common",
+      "accent": "#BFC4C9",
+      "template": "cards/master/front-v3/templates/common.svg"
+    },
+    {
+      "name": "Uncommon",
+      "accent": "#59C991",
+      "template": "cards/master/front-v3/templates/uncommon.svg"
+    },
+    {
+      "name": "Rare",
+      "accent": "#55B7FF",
+      "template": "cards/master/front-v3/templates/rare.svg"
+    },
+    {
+      "name": "Epic",
+      "accent": "#B98AFF",
+      "template": "cards/master/front-v3/templates/epic.svg"
+    },
+    {
+      "name": "Legendary",
+      "accent": "#D4AF37",
+      "template": "cards/master/front-v3/templates/legendary.svg"
+    },
+    {
+      "name": "Mythic",
+      "accent": "#CFE5F1",
+      "template": "cards/master/front-v3/templates/mythic.svg"
+    }
+  ],
+  "illustration": {
+    "visual_references": "cards/master/front-v3/references/art",
+    "style": "Hand-drawn anime/manga with confident variable ink lines, expressive likeness, cel shading, grouped hair and controlled texture",
+    "layout": "Entire head clear of header; focal expression, gesture and key object above title/QR; full-bleed 5:7 art",
+    "generate_branding_in_art": false,
+    "reference_prompts": "cards/master/front-v3/source/asmongold-v3-edit-prompts.md"
+  },
+  "change_rule": "Changing geometry, font sizes, typefaces, title line count, colours or the illustration treatment needs an explicit reviewed revision. New creator content must fit the pinned template.",
+  "release": {
+    "complete_card_system_locked": false,
+    "back_approved": false,
+    "creator_permission_recorded": false,
+    "moment_selection_final": false,
+    "physical_print_proof": false,
+    "physical_qr_scan_test": false,
+    "live_qr_routes": false
+  }
+}
