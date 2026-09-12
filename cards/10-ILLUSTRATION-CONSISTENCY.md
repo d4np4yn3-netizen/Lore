@@ -18,6 +18,7 @@ For generation, use the corresponding **art-only PNGs**, not just the finished c
 
 ## Drawing rules
 
+- Apply the same hand-drawn anime/manga treatment to the entire scene: creator, mounts and other creatures, props, buildings, foliage, sky and water. Use deliberate ink contours, grouped shapes, cel-shaded planes and selective drawn texture throughout. Do not combine an illustrated person with a photorealistic mount or background. Keep background detail and contrast subordinate to the main subjects. Dan explicitly reaffirmed this whole-scene requirement during the Mail Muncher review.
 - Faces must read as drawn characters at card size: deliberate contours, expressive eyes and brows, clear mouth shapes, recognisable adult likeness and intentional simplification.
 - Use variable ink weight, grouped hair shapes, controlled fine strands, designed shadow masses and selective hatching. Retain the approved level of texture; do not remove all detail or turn it into a generic flat cartoon.
 - Keep cinematic light and colour in the illustrated treatment. Avoid photographic skin pores, airbrushed portrait rendering, photographic depth of field or a photo with an edge filter.
@@ -36,7 +37,7 @@ The steak illustration is an expressive interpretation combining details from th
 2. Attach approved original art references and a factual source reference to the generation request. Always carry original references into revisions; do not rely on a chain of generated derivatives alone.
 3. Generate only artwork. Use a composition plan for the fixed front template: head clear of the top labels/logo, expressive gesture and main object above the lower information area. Preserve full uncropped approved art separately from card crops.
 4. Apply the existing SVG template and pinned fonts. Keep logo, border, labels, title geometry and front QR unchanged. Resolve fitting problems through a reviewable art-placement proposal, not silent layout changes.
-5. Compare the result beside the original references at full size and card size. Review face style, line weight, shadow language, likeness, source accuracy and layout collisions. Reject obvious drift before presenting it.
+5. Compare the result beside the original references at full size and card size. Review face style, mount/creature treatment, background rendering, line weight, shadow language, likeness, source accuracy and layout collisions. Reject obvious drift before presenting it.
 6. Identify the exact proposed image and approval scope. Only explicit user selection can promote a new artwork; technical QA alone cannot. Preserve the approval evidence and hashes.
 
 ## Current steak selection
