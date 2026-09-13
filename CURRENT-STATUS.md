@@ -2,16 +2,16 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Ninja Common approved; three Ninja cards selected
+## Current milestone: Ninja Common approved, uploaded and verified
 
 Dan approved **PON / PON — Common / Moment 01 of 06**: **“Ok approved for upload, this turned out better than I thought”**.
 Phrase: **THE FIRST OF 2018!**, supplied by Dan and approved on the complete card.
 
 Canonical PNG: cards/creators/ninja/pon-pon-master-01/LORE-Ninja-Pon-Pon-Common-v1.png; matching SVG, original art.png, approval, source notes and hash manifest are beside it. Preserve exact review revision 2 (the phrase-added version), the hand-drawn scene, red/yellow circular burst with longer inward red bars, hands behind the border and foreground stars. Earlier red-emote and ceiling-light variants were not selected.
 
-Publication contains the approved package and updated three-card Ninja register. The upload runner verifies every published blob against its local manifest before reporting completion. Existing upload approval persists; do not ask again or substitute an earlier draft. Resolve the set through cards/creators/ninja/current-cards.json.
+**Uploaded to main and verified:** commit [4690eb6373ad137c64ad9e7c67f79e5e4a301307](https://github.com/d4np4yn3-netizen/Lore/commit/4690eb6373ad137c64ad9e7c67f79e5e4a301307). All 13 published file blob hashes match the upload manifest, including the exact approved PNG, SVG and artwork. Ninja Epic, Ninja Mythic and all unrelated repository files are preserved. Upload is complete; do not repeat it or ask for the same approval. Resolve the set through cards/creators/ninja/current-cards.json.
 
-Ninja's three approved visuals are **Common — Pon Pon (01/06)**, **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Three remain unapproved; no other provisional moments have been reassigned. Next after verification: await Dan's next card direction.
+Ninja's three approved visuals are **Common — Pon Pon (01/06)**, **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Three remain unapproved; no other provisional moments have been reassigned. Next action: await Dan's next card direction.
 
 The six-card Asmongold set remains approved and unchanged. Resolve exact files through cards/creators/asmongold/current-cards.json. Mail Muncher v6 publication: 6839ffc685887c36cd076c424c2a8df53e342c0e, all 11 file blobs verified.
 
