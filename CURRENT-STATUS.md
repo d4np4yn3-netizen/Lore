@@ -2,15 +2,15 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Mail Muncher v6 approved
+## Current milestone: Mail Muncher v6 approved, uploaded and verified
 
 Dan approved the exact displayed Revised Review v2 with **“yup, lock it in, approved for upload”**. Current Epic / Moment 04/06: `cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.png` and matching SVG. Artwork: `cards/creators/asmongold/mail-muncher-master-01/art-rising-v1.png`. Approval and hashes: `cards/creators/asmongold/mail-muncher-master-01/rising-v6-approval.json` and `manifest.json`.
 
 The approved revision has the body rising from the bottom, a central dorsal crest/single back ridge, deeper moonlit shadows with warm city light underneath, flying WoW-referenced mail and stronger Asmongold likeness. The v6 PNG, SVG and artwork preserve the exact approved review bytes. Fixed layout, logo, badge, fonts, title, phrase **199 ATTEMPTS!**, numbering and QR stay unchanged. Prior Mail Muncher versions remain historical.
 
-This is the approved upload package. Verify the published hashes before reporting success. Resolve all current cards through `cards/creators/asmongold/current-cards.json`.
+**Uploaded to main and verified:** commit [`6839ffc685887c36cd076c424c2a8df53e342c0e`](https://github.com/d4np4yn3-netizen/Lore/commit/6839ffc685887c36cd076c424c2a8df53e342c0e). All 11 published file blob hashes match the upload checkpoint. The canonical v6 PNG, SVG and artwork are byte-for-byte copies of the approved Revised Review v2 files. Upload is complete; do not repeat it or ask for the same approval. Resolve all current cards through `cards/creators/asmongold/current-cards.json`.
 
-The six-card visual set is approved: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Numbering is 01–06. No further artwork revision or rarity reordering is authorised. Next action after verified publication: await Dan’s next direction.
+The six-card visual set is approved: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Numbering is 01–06. No further artwork revision or rarity reordering is authorised. Next action: await Dan’s next direction.
 
 ## Preserved verified milestones
 
