@@ -2,20 +2,23 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Ninja Mythic approved, uploaded and verified
+## Current milestone: Ninja Epic approved; two Ninja cards selected
 
-Dan approved the completed **BECOMING / THE ICON — Mythic / Moment 06 of 06** with **“Approved upload to github”**. Phrase: **IT LOOKS JUST LIKE ME.** This is Ninja's first approved visual; the other five remain to be developed and approved.
+Dan approved **NOT ENOUGH / MOVEMENT — Epic / Moment 04 of 06**: **“Lock it in and upload to github! Two great cards so far”**. Phrase: **I’M NOT SEEING ENOUGH MOVEMENT!**
 
-Canonical PNG: `cards/creators/ninja/becoming-the-icon-master-01/LORE-Ninja-Becoming-The-Icon-Mythic-v1.png`; matching SVG, original `art.png`, approval, source notes and hash manifest are beside it. These preserve the exact signed-off Review-v4 PNG/SVG and darker v3 illustration. Keep matching blue-grey eyes, clearly drawn cel shading and the dramatic avatar light. No regeneration or layout change was made for upload. Resolve the Ninja set through `cards/creators/ninja/current-cards.json`.
+Canonical PNG: cards/creators/ninja/not-enough-movement-master-01/LORE-Ninja-Not-Enough-Movement-Epic-v1.png; matching SVG, original art.png, approval, source notes and hash manifest are beside it. These preserve the exact signed-off Review-v4 PNG/SVG and final softened-cheek illustration. Keep the anime treatment, red hair/dark bandana, cool viewer-left face shadow, yellow/pink light from viewer-right and restrained amber-peach cheek highlight. Earlier v1-v3 drafts are superseded.
 
-**Uploaded to main and verified:** commit [`6a073bd56618cf596994a34089053f7f5d8af4a3`](https://github.com/d4np4yn3-netizen/Lore/commit/6a073bd56618cf596994a34089053f7f5d8af4a3). All 12 published file blob hashes match the upload manifest. The canonical PNG, SVG and original artwork are byte-for-byte copies of the signed-off files. Upload is complete; do not repeat it or ask for the same approval. Next action: await Dan's next card direction.
+Publication contains the approved package and updated two-card Ninja register. The upload runner verifies every published blob against its local manifest before reporting completion. Existing upload approval persists; do not ask again or substitute an earlier draft. Resolve the set through cards/creators/ninja/current-cards.json.
 
-The six-card Asmongold set remains approved and unchanged: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Resolve exact files through `cards/creators/asmongold/current-cards.json`. Mail Muncher v6 publication: `6839ffc685887c36cd076c424c2a8df53e342c0e`, all 11 file blobs verified.
+Ninja's two approved visuals are **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Four remain unapproved; other provisional moments have not been reassigned after Dan moved Times Square to Epic. Next after verification: await Dan's next card direction.
 
-Ninja's QR remains the approved demo. Original audio/timestamp verification and print release are separate from this visual approval.
+The six-card Asmongold set remains approved and unchanged. Resolve exact files through cards/creators/asmongold/current-cards.json. Mail Muncher v6 publication: 6839ffc685887c36cd076c424c2a8df53e342c0e, all 11 file blobs verified.
+
+Ninja's QRs remain the reviewed demos. Primary audio/timestamp verification and physical print release are separate from visual approval.
 
 ## Preserved verified milestones
 
+- Ninja Mythic — Becoming the Icon: main commit 6a073bd56618cf596994a34089053f7f5d8af4a3, all 12 file blobs verified. Exact approved Review-v4 PNG/SVG and darker v3 illustration preserved; phrase **IT LOOKS JUST LIKE ME.**
 - Shower steam v3: main commit `a136683cdf9f1e3444889654c552efd655e92c8f`, all nine file blobs verified. Current PNG/SVG and art preserve the exact Steam Review v1 bytes.
 - Thunderfury Mythic v1: main commit `92e9d9546609dbb24184ad06333a5efda87fb787`, all 11 file blobs verified. Preserve the original diagonal sword and accepted logo overlap; upright-sword experiment was not selected.
 - Level 60 Homecoming plain-blue-flag original: main commit `03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6`, all 11 file blobs verified. Crown-on-flags/tabards revision rejected.
@@ -36,4 +39,3 @@ Live QR routes, primary audio/count/source checks, creator permissions and physi
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
-

@@ -1,5 +1,10 @@
 # Ninja collection
 
-The first Ninja card visual is approved: [Becoming the Icon — Mythic / Moment 06 of 06](becoming-the-icon-master-01/README.md).
+Two Ninja card visuals are approved:
 
-Use [current-cards.json](current-cards.json) for exact approved files and hashes. The other five Ninja card visuals are not yet approved. Follow the existing LORE six-moment research principle and shared illustration/layout standards. Preserve the six approved Asmongold cards as their own collection and style references.
+- [Not Enough Movement — Epic / Moment 04 of 06](not-enough-movement-master-01/README.md).
+- [Becoming the Icon — Mythic / Moment 06 of 06](becoming-the-icon-master-01/README.md).
+
+Use [current-cards.json](current-cards.json) for exact approved files and hashes. The other four Ninja visuals remain unapproved. Times Square was explicitly moved from the provisional Rare concept to Epic; other unmade moments have not been reassigned.
+
+Follow the researched-six-moments principle and locked LORE illustration/layout standards. Preserve the six approved Asmongold cards as their own collection and original style references.
