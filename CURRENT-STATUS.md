@@ -2,29 +2,25 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Shower steam revision approved, uploaded and verified
+## Current milestone: Mail Muncher v6 approved
 
-Dan approved the displayed Steam Review v1 with **“yeah, i think this is better, approved for upload”**. The current Legendary card is `cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v3.png` and its matching SVG, with `art-steam-v1.png`, `steam-v3-approval.json` and the updated manifest. The v3 exports preserve the exact review bytes. Subtle illustrated steam and condensation are the sole artwork revision; the fixed layout, text, logo, QR and Moment 05/06 remain unchanged. Prior shower versions stay historical.
+Dan approved the exact displayed Revised Review v2 with **“yup, lock it in, approved for upload”**. Current Epic / Moment 04/06: `cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.png` and matching SVG. Artwork: `cards/creators/asmongold/mail-muncher-master-01/art-rising-v1.png`. Approval and hashes: `cards/creators/asmongold/mail-muncher-master-01/rising-v6-approval.json` and `manifest.json`.
 
-**Uploaded to main and verified:** commit [`a136683cdf9f1e3444889654c552efd655e92c8f`](https://github.com/d4np4yn3-netizen/Lore/commit/a136683cdf9f1e3444889654c552efd655e92c8f). All nine published file blob hashes match the upload checkpoint. The v3 PNG, SVG and steam artwork match the approved review files byte for byte. Upload is complete; do not repeat it or request the same approval again. Resolve active exports through `cards/creators/asmongold/current-cards.json`.
+The approved revision has the body rising from the bottom, a central dorsal crest/single back ridge, deeper moonlit shadows with warm city light underneath, flying WoW-referenced mail and stronger Asmongold likeness. The v6 PNG, SVG and artwork preserve the exact approved review bytes. Fixed layout, logo, badge, fonts, title, phrase **199 ATTEMPTS!**, numbering and QR stay unchanged. Prior Mail Muncher versions remain historical.
 
-Next planned artwork review: **Mail Muncher**, improving Asmon’s likeness, integrated lighting and depth. Its existing approved card remains current until Dan approves a replacement. All six selected card visuals remain approved with the current rarity order.
+This is the approved upload package. Verify the published hashes before reporting success. Resolve all current cards through `cards/creators/asmongold/current-cards.json`.
 
-## Previous milestone: Thunderfury Mythic approved, uploaded and verified
+The six-card visual set is approved: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Numbering is 01–06. No further artwork revision or rarity reordering is authorised. Next action after verified publication: await Dan’s next direction.
 
-Dan attached the original **Thunderfury / Mythic / Moment 06 of 06** card and said **“we will stick with this, its too good to start tweaking, approved for upload to github”**. The approved PNG in `cards/creators/asmongold/thunderfury-master-01/LORE-Asmongold-Thunderfury-Mythic-v1.png` preserves that exact attachment. Its matching SVG, original art, render data, approval and hashes are beside it. **Keep the original diagonal sword and logo overlap.** The later upright-sword clearance experiment was not selected and must not replace this version.
+## Preserved verified milestones
 
-The current collection now has six visually approved cards: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher; Legendary — Charity Shower; Mythic — Thunderfury. Current numbering is 01–06 respectively. Dan may review the rarity order with the finished set; no reordering is authorised here.
-
-**Uploaded to main and verified:** commit [`92e9d9546609dbb24184ad06333a5efda87fb787`](https://github.com/d4np4yn3-netizen/Lore/commit/92e9d9546609dbb24184ad06333a5efda87fb787). All 11 published file blob hashes match the upload checkpoint, including the exact attached PNG, original editable SVG and artwork. Upload is complete. Resolve the exact current files through `cards/creators/asmongold/current-cards.json`; do not regenerate or request the same approval again.
-
-## Preserved prior milestones
-
+- Shower steam v3: main commit `a136683cdf9f1e3444889654c552efd655e92c8f`, all nine file blobs verified. Current PNG/SVG and art preserve the exact Steam Review v1 bytes.
+- Thunderfury Mythic v1: main commit `92e9d9546609dbb24184ad06333a5efda87fb787`, all 11 file blobs verified. Preserve the original diagonal sword and accepted logo overlap; upright-sword experiment was not selected.
 - Level 60 Homecoming plain-blue-flag original: main commit `03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6`, all 11 file blobs verified. Crown-on-flags/tabards revision rejected.
-- Approved badge spacing: LORE-FRONT-v4 / LORE-CARD-v1.1, equal 22-unit visible-glyph side padding and 47-unit height. All six templates and four earlier approved card derivatives published in PR #2, merge `a1a2d76f8c3b9e71e7424655d9962d757a381eac`; all 54 files verified. Original art and pixels outside badges preserved.
+- Badge spacing: LORE-FRONT-v4 / LORE-CARD-v1.1, equal 22-unit visible-glyph side padding and 47-unit height. Six templates and four approved derivatives published in PR #2, merge `a1a2d76f8c3b9e71e7424655d9962d757a381eac`; all 54 files verified.
 - Renderer: `cards/master/front-v4/source/render_card.py`. Rules: `cards/12-RARITY-BADGE-SPACING.md`. Shared back v5 and 63 × 88 mm trim unchanged.
 
-Live QR routes, primary audio/source checks, creator permissions and print release remain separate. Visual approval does not settle those items.
+Live QR routes, primary audio/count/source checks, creator permissions and physical print release remain separate from visual approval.
 
 ## Compact working method
 

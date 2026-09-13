@@ -1,8 +1,29 @@
 {
-  "revision": "LORE-FRONT-v4",
-  "status": "APPROVED_BADGE_UPDATE",
-  "approval_record": "badge-v4-approval.json",
+  "revision": "LORE-FRONT-v4 / Mail Muncher v6 rising scene",
+  "status": "VISUALLY_APPROVED",
+  "approval_record": "rising-v6-approval.json",
+  "approval_quote": "yup, lock it in, approved for upload",
   "current_files": [
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.png",
+      "bytes": 1656805,
+      "sha256": "d7282be372042c8f32f96aa47c2c1f050a752e74ed4816f90b6652c7730676ff",
+      "git_blob": "efef58202537af829b0f834de4196653ea0c8abe"
+    },
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.svg",
+      "bytes": 3496861,
+      "sha256": "e9b8183540529b55be2ffe265737e62ea79981c37db909beccdeaee786cdee45",
+      "git_blob": "33fe3543f35a43306bd0dbc47723b5817964da81"
+    }
+  ],
+  "artwork": {
+    "path": "cards/creators/asmongold/mail-muncher-master-01/art-rising-v1.png",
+    "bytes": 2597217,
+    "sha256": "460ec3fe0b10aad6fdee69f9544c2ae63eec9defeb530a685fa92181d5d02b4a",
+    "git_blob": "903e9bdd8d368e4847eb2f30fdfb87c2227520ad"
+  },
+  "historical_files": [
     {
       "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v5.png",
       "bytes": 1685888,
@@ -16,37 +37,61 @@
       "git_blob": "c0c6911403fa4ababf8bd637701ea5d2acd8caee"
     }
   ],
-  "historical_manifest": "manifest-pre-badge-v4.json",
+  "historical_manifest": "manifest-pre-rising-v6.json",
+  "front_revision": "LORE-FRONT-v4",
+  "canvas": [
+    900,
+    1260
+  ],
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "art_transform": "translate(0 0)",
+  "qa": {
+    "exact_review_bytes_preserved": true,
+    "png_decoded": true,
+    "embedded_art_matches": true,
+    "fixed_graphics_text_and_qr_unchanged": true,
+    "visual_inspection": "The approved review was inspected at card size; face, fist, creature mouth and mail readable and clear of title/QR. Central head crest and a single back ridge retained; extra belly-side fins removed."
+  },
+  "print_release": false,
   "files": [
     {
-      "path": "LORE-Asmongold-Mail-Muncher-Epic-v5.png",
-      "bytes": 1685888,
-      "sha256": "7a1a29fd62ee982ecbd654cc0a772373cdc8e7b9ae5c10fbacbf94cdff8f1a6a",
-      "git_blob": "86b4d958379520d55c57d8d83c6f2044fd4a4602"
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.png",
+      "bytes": 1656805,
+      "sha256": "d7282be372042c8f32f96aa47c2c1f050a752e74ed4816f90b6652c7730676ff",
+      "git_blob": "efef58202537af829b0f834de4196653ea0c8abe"
     },
     {
-      "path": "LORE-Asmongold-Mail-Muncher-Epic-v5.svg",
-      "bytes": 3644509,
-      "sha256": "b2df6494f3e60617388f2c37e1e49b1762ed2cf4845cb378e56ba903f8216328",
-      "git_blob": "c0c6911403fa4ababf8bd637701ea5d2acd8caee"
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.svg",
+      "bytes": 3496861,
+      "sha256": "e9b8183540529b55be2ffe265737e62ea79981c37db909beccdeaee786cdee45",
+      "git_blob": "33fe3543f35a43306bd0dbc47723b5817964da81"
     },
     {
-      "path": "README.md",
-      "bytes": 3219,
-      "sha256": "56c78094071e494206de366990dcf546f5e78d14806175c1200626e612562078",
-      "git_blob": "5785a6a12a2c4ddd87da6b4daae221383ca9f1c2"
+      "path": "cards/creators/asmongold/mail-muncher-master-01/art-rising-v1.png",
+      "bytes": 2597217,
+      "sha256": "460ec3fe0b10aad6fdee69f9544c2ae63eec9defeb530a685fa92181d5d02b4a",
+      "git_blob": "903e9bdd8d368e4847eb2f30fdfb87c2227520ad"
     },
     {
-      "path": "badge-v4-approval.json",
-      "bytes": 2038,
-      "sha256": "976b3ab10e23862386f199861819bac500f6c1bd712706fca8f7e7d5ec209933",
-      "git_blob": "3cd8a75a1b639ad273489a300bd2f87ff94b3ea3"
+      "path": "cards/creators/asmongold/mail-muncher-master-01/rising-v6-approval.json",
+      "bytes": 2623,
+      "sha256": "7c953ed3c8f7329888d30b2805d4ed605b74f1b0f7ef78a86e86d6cefccd11ae",
+      "git_blob": "4d8650211ceef95488ab922a26f6e523375d8270"
     },
     {
-      "path": "art.png",
-      "bytes": 2707909,
-      "sha256": "6df89dc3349a9938bfba8935343078972e829b781e01bbed6adc3283269c9b43",
-      "git_blob": "8b7feba5ab2dd3f199a08236464b384d696a8237"
+      "path": "cards/creators/asmongold/mail-muncher-master-01/revision-v6-notes.json",
+      "bytes": 10888,
+      "sha256": "6ebbf2333309fc623d69631ee7a27d02b49cd26480fef91c99cf7bd3cd74d3a5",
+      "git_blob": "2baa915793e54d84e3d9fbbf23ea4f3f74e4e797"
+    },
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/manifest-pre-rising-v6.json",
+      "bytes": 1899,
+      "sha256": "5af6ec8c91f0936465885ea849e56c31d8d57ccb3727c3784b9cb791df7fcfe0",
+      "git_blob": "6b0a3cdea16a2d7afd5df0d2aa262618a3cc5f10"
     }
   ]
 }

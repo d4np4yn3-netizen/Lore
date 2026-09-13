@@ -1,12 +1,25 @@
 # Asmongold — Mail Muncher
 
-## Current approved version — badge spacing v4
+## Current approved version — v6 rising scene
 
-Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The latest files are [LORE-Asmongold-Mail-Muncher-Epic-v5.png](LORE-Asmongold-Mail-Muncher-Epic-v5.png) and [LORE-Asmongold-Mail-Muncher-Epic-v5.svg](LORE-Asmongold-Mail-Muncher-Epic-v5.svg). See [approval and exact hashes](badge-v4-approval.json).
+Dan approved the displayed Revised Review v2 on 13 September 2026: **“yup, lock it in, approved for upload”**.
 
-![Current approved card](LORE-Asmongold-Mail-Muncher-Epic-v5.png)
+![Current approved Mail Muncher Epic card](LORE-Asmongold-Mail-Muncher-Epic-v6.png)
 
-Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use these new files for current deliveries.
+- [Approved PNG](LORE-Asmongold-Mail-Muncher-Epic-v6.png) and [editable SVG](LORE-Asmongold-Mail-Muncher-Epic-v6.svg): exact approved review bytes under canonical v6 filenames.
+- [Approved artwork](art-rising-v1.png), [approval record](rising-v6-approval.json), [hash manifest](manifest.json), [revision and reference notes](revision-v6-notes.json).
+
+The mount rises from the bottom of the card, with a central dorsal crest and a single back ridge. Deep blue moonlit shadows and amber city light connect rider, mount and setting. Windblown parchment envelopes use actual WoW game references. Preserve this exact selected illustration and its approved framing. Earlier v4/v5 and original art files below remain historical.
+
+Epic / Moment 04/06, MAIL MUNCHER, 199 ATTEMPTS!, the fixed LORE logo, frame, fonts, equal badge padding and QR are unchanged. Visual master: 900 × 1260; finished trim: 63 × 88 mm. Source/count verification, live QR, creator permissions and printer release remain separate.
+
+## Historical v5 — badge spacing v4
+
+Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The historical v5 files are [LORE-Asmongold-Mail-Muncher-Epic-v5.png](LORE-Asmongold-Mail-Muncher-Epic-v5.png) and [LORE-Asmongold-Mail-Muncher-Epic-v5.svg](LORE-Asmongold-Mail-Muncher-Epic-v5.svg). See [approval and exact hashes](badge-v4-approval.json).
+
+![Historical v5 card](LORE-Asmongold-Mail-Muncher-Epic-v5.png)
+
+Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use the v6 files above for current deliveries.
 
 ## Previous approved revision (history)
 

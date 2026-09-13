@@ -1,0 +1,93 @@
+{
+  "status": "VISUALLY_APPROVED",
+  "request": "Correct dorsal spike placement; darker moonlit scene with city light from underneath; body rising from bottom of card; flying mail based on actual WoW designs.",
+  "generation_mode": "Built-in imagegen",
+  "source_svg": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v5.svg",
+  "source_svg_sha256": "b2df6494f3e60617388f2c37e1e49b1762ed2cf4845cb378e56ba903f8216328",
+  "front_revision": "LORE-FRONT-v4",
+  "canvas": [
+    900,
+    1260
+  ],
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "original_art_transform": "translate(-18 -35) translate(450 630) scale(1.08) translate(-450 -630)",
+  "review_art_transform": "translate(0 0)",
+  "changes": [
+    "Upward-rising curved body, mouth clear of title",
+    "Single dorsal ridge and central head crest; extra belly-side fins removed",
+    "Deeper surface shadows, cool moon rim light and warm city bounce from below",
+    "Parchment envelopes and letters fluttering in the wind, based on WoW game visual references"
+  ],
+  "reference_sources": [
+    {
+      "description": "User actual Mail Muncher pose reference",
+      "filename": "a02ebb67-5339-4b91-9f6e-1585b06c6295.png"
+    },
+    {
+      "description": "WoW INV_Letter_15 icon",
+      "url": "https://wow.zamimg.com/images/wow/icons/large/inv_letter_15.jpg"
+    },
+    {
+      "description": "WoW Overly Sealed Letter game object screenshot",
+      "url": "https://wow.zamimg.com/uploads/screenshots/normal/1215853-overly-sealed-letter.jpg",
+      "page": "https://www.wowhead.com/object=509486/overly-sealed-letter"
+    },
+    {
+      "description": "Original approved LORE Steak artwork",
+      "filename": "lore-approved-steak-art.png"
+    }
+  ],
+  "prompts": [
+    "Use case: compositing / precise-object-edit / lighting-weather.\nCreate a revised full-bleed portrait illustration for the LORE Mail Muncher Epic collectible card. Artwork ONLY, portrait 5:7, no typography, no border, no logo, no QR.\nINPUTS: Image 1 is the current artwork to revise: retain recognizable Asmongold identity, joyful triumphant raised fist, windblown long brown hair, receding high forehead, expressive eyebrows, beard, off-white V-neck T-shirt and dark trousers, leather saddle and metal chain reins, moonlit Warcraft city. Image 2 is the USER'S actual in-game Mail Muncher model reference and is AUTHORITATIVE for creature anatomy and rising serpentine pose. Images 3 and 4 are actual WoW mail references: reproduce the tan folded parchment envelope, triangular overlapping flap, worn brown fold edges, some with red wax seal. Image 5 is an ORIGINAL APPROVED LORE art style and likeness reference: preserve its intricate confident hand-drawn ink, natural distinctive Asmongold face and cel-shaded treatment throughout all elements; do not insert the kitchen.\nMAIN CHANGES:\n1. RECOMPOSE THE CREATURE into the upward rising curved pose in Image 2. Its long worm body comes up into the picture from the BOTTOM EDGE, belly facing partly toward camera, bending upward to the large foreshortened open toothed mouth in the middle-left. No huge tail arch around the upper-right sky. It must read as one continuous long limbless red worm, with the cream underside and game-accurate markings of the model, red top and back, gold webbed dorsal spikes, dark brown saddle and bronze/brass chains. Asmongold is securely astride its back just behind the head, larger than in the original approved version, comfortably readable face upper middle-right; keep believable leg/saddle contact and one hand gripping reins, other fist raised.\n2. ANATOMY CORRECTION IS ESSENTIAL: one SINGLE sagittal centreline row of gold/red dorsal fins/spikes along the anatomical MIDDLE of the TOP/BACK, like the actual model in Image 2. A narrow central crest immediately behind the head, continuing centrally behind saddle and down the curved spine. NOT two rows of fins on either side, NOT a fin row on the cheeks, NOT ear-fins or lateral horns. In this perspective some dorsal spikes are naturally partly hidden by the head/saddle/body. Smooth lateral sides are correct. The user specifically rejected the offset lateral spines in Image 1; do not reproduce those.\n3. DARKER NIGHT, MORE SCULPTED LIGHT: deep midnight indigo, muted burgundy shadows on red skin and deep dark neutral shadows on shirt. Cool blue-white MOONLIGHT from high right picks out upward-facing skin, teeth, hair strands, shoulder edges, scales/ridges and metal. Warm amber CITY LIGHTS FROM BELOW glow onto underside of worm, bottom of jaws, bottom-facing shirt folds, boots and saddle. Keep shadow areas broad/dark, light sources believable, no uniform bright floodlight. Eyes, face and mouth remain clear with selective highlights. Whole city is inked/cel-shaded with simplified darker roof masses and lit window accents, atmospheric distance rather than equal sharp detail everywhere.\n4. Add 7 to 10 WoW-style MAIL ENVELOPES fluttering in the wind at varied distances/angles, matching the two ACTUAL GAME references: aged cream/tan parchment, triangular folded flaps, optionally round red wax seals. A few unfolded parchment letter sheets are okay, but recognizable envelopes should dominate. No modern postage stamps, no airmail red-blue edging, no invented readable writing or icon/UI labels. Place along flowing wind paths around the creature, face and rider remain unobscured.\nCOMPOSITION FOR FIXED CARD TEMPLATE: portrait 5:7. Upper-left first 13% and top-right corner first 13% need calm dark background for existing badge and logo. Asmon's expressive face roughly x58%, y25%, keep fist below y14%; mount's entire open mouth roughly x33%, y49%, fully above y70%. Body rises dynamically from lower edge through the middle, curve visible. Keep bottom quarter quieter/lower-detail because fixed card title/QR will overlay it. Moon may be visible high/right but below header clearance; don't create silhouettes running through top-right logo position.\nQuality: exceptionally polished hand-inked anime collectible illustration, detailed confident contours, restrained cross-hatching and cel-shadow shapes, tactile matte surfaces, cinematic warm/cool lighting. Maintain coherent proportions and natural hands. No photorealistic backdrops, no 3D render, no extra limbs, no doubled mouth, no decorative border, no text, no watermark.",
+    "Use case: precise-object-edit and lighting-weather. Target IMAGE 1 is the newly revised Mail Muncher illustration. Make TWO carefully localized corrections, preserve composition and all other details. Image 2 is the actual game mount reference for central dorsal anatomy; image 3 is ORIGINAL approved LORE art for unchanged ink/cel shading and Asmongold identity.\nA. REMOVE THE INCORRECT SECOND ROW OF SPINES. In Image 1 the worm's CREAM BELLY is facing us, and there is an incorrect row of huge red triangular fins on its LEFT EDGE in the BOTTOM HALF: starting beneath the belly around x52% y78%, then x57% y83%, x51% y90%, x44% y95%, continuing to bottom left. Completely remove ALL these near-side/belly-edge fins and leave a smooth rounded cream-to-red silhouette there. Remove any tiny spikes emerging from the underside. The visible left edge of the rising worm below the mouth must be a clean continuous smooth curve. Keep only ONE narrow dorsal midline ridge following the CENTER OF THE RED BACK on its FAR RIGHT arc, partially occluded as appropriate, continuing from the SINGLE central crown ridge behind the mouth, behind the saddle and rider, down the back. Do not leave a symmetrical second row, no lateral cheek spines, no belly fins. This is essential; the user is specifically correcting fins on the sides instead of a single ridge on the back.\nB. DARKEN BROAD SURFACES for moonlit night. Reduce diffuse fill illumination on Asmon's shirt, face, arm, creature forehead, belly and most city roof surfaces approximately one stop, with broad deep indigo/burgundy shadows and strong localized COOL BLUE moonlight on UPWARD/RIGHT-facing surfaces, plus restrained rich AMBER city bounce on LOWER-facing surfaces. Moon is high right. Existing forehead and shirt are too evenly orange/bright: shift upward-facing lit planes to cooler pale blue and shadow planes to dark slate, keep amber low on underside of jaw and forearm only. Creature red skin should be dark burgundy through shadows, cool maroon/blue rim up top, bright amber sharply along lower edge only. Preserve clean readable expressive eyes, grin, teeth, hands and illustration linework. Keep nighttime luminous depth, not a black filter.\nKEEP EXACTLY: upward-rising body pose, circular game-inspired toothy mouth and central crown ridge, saddle/reins, celebratory Asmon pose/identity/clothes, moon/city positions, windblown hair, all current parchment envelopes and letters, canvas portrait 5:7 framing. No added objects. No typography/logo/QR/frame. Maintain hand-inked anime style across whole artwork."
+  ],
+  "iterations": [
+    {
+      "filename": "exec-60e8efd2-535c-40bd-a80c-f0117bcf9305.png",
+      "status": "Rising pose draft; extra row of belly-side fins remained."
+    },
+    {
+      "filename": "exec-ef7388c9-272a-4b9e-93c3-3338d0ef85ce.png",
+      "status": "Selected review; extra fin row removed and nighttime surface shadows deepened."
+    }
+  ],
+  "qa": {
+    "png_decoded": true,
+    "fixed_graphics_and_text_unchanged": true,
+    "only_svg_changes": [
+      "embedded illustration",
+      "illustration placement"
+    ],
+    "visual_inspection": "Face, fist, reins, creature mouth, letters and rising body readable; central crown crest; belly-side fins removed. Existing logo, badges, fonts, copy, border and QR preserved. Important features clear of title and QR."
+  },
+  "approval": {
+    "approved_by": "Dan Payne",
+    "date": "2026-09-13",
+    "quote": "yup, lock it in, approved for upload",
+    "record": "cards/creators/asmongold/mail-muncher-master-01/rising-v6-approval.json"
+  },
+  "qr": "Existing demo QR unchanged; source count verification remains separate.",
+  "files": [
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.png",
+      "bytes": 1656805,
+      "sha256": "d7282be372042c8f32f96aa47c2c1f050a752e74ed4816f90b6652c7730676ff",
+      "git_blob": "efef58202537af829b0f834de4196653ea0c8abe"
+    },
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.svg",
+      "bytes": 3496861,
+      "sha256": "e9b8183540529b55be2ffe265737e62ea79981c37db909beccdeaee786cdee45",
+      "git_blob": "33fe3543f35a43306bd0dbc47723b5817964da81"
+    },
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/art-rising-v1.png",
+      "bytes": 2597217,
+      "sha256": "460ec3fe0b10aad6fdee69f9544c2ae63eec9defeb530a685fa92181d5d02b4a",
+      "git_blob": "903e9bdd8d368e4847eb2f30fdfb87c2227520ad"
+    }
+  ]
+}
