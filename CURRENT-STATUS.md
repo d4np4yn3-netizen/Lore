@@ -1,8 +1,18 @@
 # LORE — current status
 
-Updated 2026-09-12. Read this first with AGENTS.md; use PROJECT-MEMORY.md for design decisions.
+Updated 2026-09-13. Read this first with AGENTS.md; use PROJECT-MEMORY.md for design decisions.
 
 ## Current delivery: COMPLETE
+
+### Rat Alarm card
+
+Dan approved the **Rare v1 visual / Moment 03 of 06** with **“Approved for upload”** on 2026-09-13. Title: **RAT / ALARM**. Phrase: **IT WOULD START COOKING.** Exact files, approval evidence and SHA-256 hashes are in `cards/creators/asmongold/rat-alarm-master-01/`.
+
+- `art.png` — Git blob `52f3c07e9b3b3d3f8c91e7bf18756b096dd9b8c9`
+- `LORE-Asmongold-Rat-Alarm-Rare-Review-v1.png` — Git blob `2f0bcf45a01da31d99c6c7c083519cda53e6f9b0`
+- `LORE-Asmongold-Rat-Alarm-Rare-Review-v1.svg` — Git blob `a3a32650fbadcd598543cba0a3f6cf8330f4fa45`
+
+The exact reviewed assets are preserved unchanged. Both embedded artwork LORE marks are removed, with zero pixel changes outside the two removal regions. The actual pinned Rare SVG, logo, fonts and fixed geometry were used. Original `Review-v1` filenames remain despite approval. Source-audio verification, live QR and print release remain open.
 
 ### Mail Muncher card
 
