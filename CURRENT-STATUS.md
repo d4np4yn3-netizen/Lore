@@ -2,15 +2,15 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Ninja Epic approved; two Ninja cards selected
+## Current milestone: Ninja Epic approved, uploaded and verified
 
 Dan approved **NOT ENOUGH / MOVEMENT — Epic / Moment 04 of 06**: **“Lock it in and upload to github! Two great cards so far”**. Phrase: **I’M NOT SEEING ENOUGH MOVEMENT!**
 
 Canonical PNG: cards/creators/ninja/not-enough-movement-master-01/LORE-Ninja-Not-Enough-Movement-Epic-v1.png; matching SVG, original art.png, approval, source notes and hash manifest are beside it. These preserve the exact signed-off Review-v4 PNG/SVG and final softened-cheek illustration. Keep the anime treatment, red hair/dark bandana, cool viewer-left face shadow, yellow/pink light from viewer-right and restrained amber-peach cheek highlight. Earlier v1-v3 drafts are superseded.
 
-Publication contains the approved package and updated two-card Ninja register. The upload runner verifies every published blob against its local manifest before reporting completion. Existing upload approval persists; do not ask again or substitute an earlier draft. Resolve the set through cards/creators/ninja/current-cards.json.
+**Uploaded to main and verified:** commit [5038b7cca2d1e0e4b4859d44e580c10b930ca85b](https://github.com/d4np4yn3-netizen/Lore/commit/5038b7cca2d1e0e4b4859d44e580c10b930ca85b). All 13 published file blob hashes match the upload manifest, including the exact approved PNG, SVG and artwork. Ninja Mythic and all unrelated repository files are preserved. Upload is complete; do not repeat it or ask for the same approval. Resolve the set through cards/creators/ninja/current-cards.json.
 
-Ninja's two approved visuals are **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Four remain unapproved; other provisional moments have not been reassigned after Dan moved Times Square to Epic. Next after verification: await Dan's next card direction.
+Ninja's two approved visuals are **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Four remain unapproved; other provisional moments have not been reassigned after Dan moved Times Square to Epic. Next action: await Dan's next card direction.
 
 The six-card Asmongold set remains approved and unchanged. Resolve exact files through cards/creators/asmongold/current-cards.json. Mail Muncher v6 publication: 6839ffc685887c36cd076c424c2a8df53e342c0e, all 11 file blobs verified.
 
