@@ -6,7 +6,7 @@ Updated 2026-09-13. Read with AGENTS.md.
 
 Dan rejected the crown-on-flags/tabards revision and instructed **“Ok, I don’t like that, go back to original and upload to github”**, attaching the original card. The approved selection is the plain-blue-flag **Uncommon / Moment 02 of 06** card. Its exact original PNG/SVG and embedded art are in `cards/creators/asmongold/level-60-master-01/`; `approval.json` and `manifest.json` record the selection and hashes. Both exports preserve the original Review-v1 bytes. Never substitute the rejected crown revision.
 
-This commit adds the approved files and updates the current-card register. Verify this commit’s remote file hashes to confirm delivery; do not regenerate the card or request the recorded upload approval again. The displayed phrase is visually approved, but primary audio verification and the live QR remain open.
+**Uploaded to main and verified:** commit [`03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6`](https://github.com/d4np4yn3-netizen/Lore/commit/03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6). All 11 published file blob hashes were checked against the upload checkpoint on 2026-09-13 and match exactly. The approved PNG/SVG remain byte-identical to Review-v1. Upload is complete; do not re-upload, regenerate or request this approval again. The displayed phrase is visually approved; primary audio verification and the live QR remain separate next work.
 
 ## Previous milestone: approved badge spacing applied
 
