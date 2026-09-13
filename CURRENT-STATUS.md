@@ -2,13 +2,13 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Ninja Mythic visually approved
+## Current milestone: Ninja Mythic approved, uploaded and verified
 
 Dan approved the completed **BECOMING / THE ICON — Mythic / Moment 06 of 06** with **“Approved upload to github”**. Phrase: **IT LOOKS JUST LIKE ME.** This is Ninja's first approved visual; the other five remain to be developed and approved.
 
 Canonical PNG: `cards/creators/ninja/becoming-the-icon-master-01/LORE-Ninja-Becoming-The-Icon-Mythic-v1.png`; matching SVG, original `art.png`, approval, source notes and hash manifest are beside it. These preserve the exact signed-off Review-v4 PNG/SVG and darker v3 illustration. Keep matching blue-grey eyes, clearly drawn cel shading and the dramatic avatar light. No regeneration or layout change was made for upload. Resolve the Ninja set through `cards/creators/ninja/current-cards.json`.
 
-Publication includes the approved package and creator register. The upload runner compares all published file hashes with the local manifest before reporting completion. Existing upload approval persists; do not ask again or substitute an earlier draft. Next action after verification: await Dan's next card direction.
+**Uploaded to main and verified:** commit [`6a073bd56618cf596994a34089053f7f5d8af4a3`](https://github.com/d4np4yn3-netizen/Lore/commit/6a073bd56618cf596994a34089053f7f5d8af4a3). All 12 published file blob hashes match the upload manifest. The canonical PNG, SVG and original artwork are byte-for-byte copies of the signed-off files. Upload is complete; do not repeat it or ask for the same approval. Next action: await Dan's next card direction.
 
 The six-card Asmongold set remains approved and unchanged: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Resolve exact files through `cards/creators/asmongold/current-cards.json`. Mail Muncher v6 publication: `6839ffc685887c36cd076c424c2a8df53e342c0e`, all 11 file blobs verified.
 
