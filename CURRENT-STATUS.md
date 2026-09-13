@@ -2,7 +2,13 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: approved badge spacing applied
+## Current milestone: Level 60 Homecoming approved and restored
+
+Dan rejected the crown-on-flags/tabards revision and instructed **“Ok, I don’t like that, go back to original and upload to github”**, attaching the original card. The approved selection is the plain-blue-flag **Uncommon / Moment 02 of 06** card. Its exact original PNG/SVG and embedded art are in `cards/creators/asmongold/level-60-master-01/`; `approval.json` and `manifest.json` record the selection and hashes. Both exports preserve the original Review-v1 bytes. Never substitute the rejected crown revision.
+
+This commit adds the approved files and updates the current-card register. Verify this commit’s remote file hashes to confirm delivery; do not regenerate the card or request the recorded upload approval again. The displayed phrase is visually approved, but primary audio verification and the live QR remain open.
+
+## Previous milestone: approved badge spacing applied
 
 Dan approved the right-hand rarity badge comparison: **“agreed, right hand version is approved”**. All six templates now use equal 22-unit side padding based on visible lettering, fixed 47-unit height and centred text. Font, colours, stroke and corners are unchanged.
 
@@ -37,3 +43,4 @@ Live QR routes, primary source/audio checks, creator permissions and print relea
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
+
