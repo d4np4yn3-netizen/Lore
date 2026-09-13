@@ -1,5 +1,15 @@
 # Asmongold — The $370K Shower
 
+## Current approved version — badge spacing v4
+
+Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The latest files are [LORE-Asmongold-Shower-Legendary-v2.png](LORE-Asmongold-Shower-Legendary-v2.png) and [LORE-Asmongold-Shower-Legendary-v2.svg](LORE-Asmongold-Shower-Legendary-v2.svg). See [approval and exact hashes](badge-v4-approval.json).
+
+![Current approved card](LORE-Asmongold-Shower-Legendary-v2.png)
+
+Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use these new files for current deliveries.
+
+## Previous approved revision (history)
+
 **Visual approval: approved by Daniel Payne on 12 September 2026.**
 
 Dan approved the displayed shower card in the LORE conversation and subsequently authorised its GitHub upload. This record covers the unchanged PNG and matching SVG identified below. Their original `Review-v1` filenames are retained to preserve file identity; the filename does not mean another visual approval is required.

@@ -1,67 +1,52 @@
 {
-  "revision": "LORE-Asmongold-Mail-Muncher-Epic-v4",
-  "status": "VISUAL_APPROVED_PRINT_NOT_RELEASED",
-  "approval": {
-    "by": "Daniel Payne",
-    "date": "2026-09-12",
-    "scope": "Exact v4 illustration, lighting, crop, card layout and displayed wording",
-    "visual_selection": "thats the one, what do you think?",
-    "lock_and_upload_instruction": "ok lock it in and see if yoiu can uplaod to github, if not i will do it"
-  },
-  "title": "MAIL MUNCHER",
-  "creator": "ASMONGOLD",
-  "rarity": "Epic",
-  "phrase": "199 ATTEMPTS!",
-  "source_illustration_filename": "exec-be77b466-16e1-491e-9628-a0a4971c2e9d.png",
-  "template": "cards/master/front-v3/templates/epic.svg",
-  "template_sha256": "efc10d830b481aac59a11ac609fdf50a92a510e8c7deed7ea23e9ee61b0336d2",
-  "brand_revision": "LORE-04-v1.0",
-  "front_revision": "LORE-FRONT-v3",
-  "back_revision": "LORE-BACK-v5",
-  "art_transform": "translate(-18 -35) translate(450 630) scale(1.08) translate(-450 -630)",
-  "font_configuration": "cards/master/front-v3/source/fontconfig.xml",
-  "style": "Hand-drawn anime/manga across the rider, mount and background; cool moonlight accents, designed cel shadows and selective hatching.",
-  "source_lead": "https://www.youtube.com/watch?v=RFctq5QeZBY",
-  "source_verification": "199 ATTEMPTS! is the user-selected card wording. Exact attempt count and source timestamp remain unverified; do not label it a verified spoken quotation.",
-  "qr_status": "Existing example.com demo QR; not a live LORE moment route.",
-  "numbering_status": "04/06 is displayed in the approved visual; final six-moment allocation remains open.",
-  "print_status": "Visual master only; 63 x 88 mm trim is locked separately. Printer-specific derivatives, bleed, colour preparation and physical proof remain open.",
-  "rights_status": "No creator partnership or commercial Blizzard/Warcraft permission recorded.",
-  "technical_checks": {
-    "embedded_art_matches_art_png": true,
-    "fixed_template_geometry_preserved": true,
-    "pinned_fonts_used": true,
-    "pngs_decoded_and_dimensions_checked": true,
-    "copied_asset_bytes_unchanged": true
-  },
+  "revision": "LORE-FRONT-v4",
+  "status": "APPROVED_BADGE_UPDATE",
+  "approval_record": "badge-v4-approval.json",
+  "current_files": [
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v5.png",
+      "bytes": 1685888,
+      "sha256": "7a1a29fd62ee982ecbd654cc0a772373cdc8e7b9ae5c10fbacbf94cdff8f1a6a",
+      "git_blob": "86b4d958379520d55c57d8d83c6f2044fd4a4602"
+    },
+    {
+      "path": "cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v5.svg",
+      "bytes": 3644509,
+      "sha256": "b2df6494f3e60617388f2c37e1e49b1762ed2cf4845cb378e56ba903f8216328",
+      "git_blob": "c0c6911403fa4ababf8bd637701ea5d2acd8caee"
+    }
+  ],
+  "historical_manifest": "manifest-pre-badge-v4.json",
   "files": [
+    {
+      "path": "LORE-Asmongold-Mail-Muncher-Epic-v5.png",
+      "bytes": 1685888,
+      "sha256": "7a1a29fd62ee982ecbd654cc0a772373cdc8e7b9ae5c10fbacbf94cdff8f1a6a",
+      "git_blob": "86b4d958379520d55c57d8d83c6f2044fd4a4602"
+    },
+    {
+      "path": "LORE-Asmongold-Mail-Muncher-Epic-v5.svg",
+      "bytes": 3644509,
+      "sha256": "b2df6494f3e60617388f2c37e1e49b1762ed2cf4845cb378e56ba903f8216328",
+      "git_blob": "c0c6911403fa4ababf8bd637701ea5d2acd8caee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3219,
+      "sha256": "56c78094071e494206de366990dcf546f5e78d14806175c1200626e612562078",
+      "git_blob": "5785a6a12a2c4ddd87da6b4daae221383ca9f1c2"
+    },
+    {
+      "path": "badge-v4-approval.json",
+      "bytes": 2038,
+      "sha256": "976b3ab10e23862386f199861819bac500f6c1bd712706fca8f7e7d5ec209933",
+      "git_blob": "3cd8a75a1b639ad273489a300bd2f87ff94b3ea3"
+    },
     {
       "path": "art.png",
       "bytes": 2707909,
       "sha256": "6df89dc3349a9938bfba8935343078972e829b781e01bbed6adc3283269c9b43",
-      "git_blob_sha": "8b7feba5ab2dd3f199a08236464b384d696a8237",
-      "dimensions_px": [
-        1060,
-        1484
-      ],
-      "mode": "RGB"
-    },
-    {
-      "path": "LORE-Asmongold-Mail-Muncher-Epic-Layout-Review-v4.png",
-      "bytes": 1686901,
-      "sha256": "4e48737cccb3f9420df95f904ad2d818a97a5d00b59f7a74435eb4fd78352424",
-      "git_blob_sha": "4e316cf3441a6413de36569ba05a9769ddd8695f",
-      "dimensions_px": [
-        900,
-        1260
-      ],
-      "mode": "RGBA"
-    },
-    {
-      "path": "LORE-Asmongold-Mail-Muncher-Epic-Layout-Review-v4.svg",
-      "bytes": 3644467,
-      "sha256": "d875f58d8e59f6a74e302fae87742e358b043c383a724a690ec597f1c71cbf0a",
-      "git_blob_sha": "2211f5c10fd4c17478bdf666f31e35698db34b26"
+      "git_blob": "8b7feba5ab2dd3f199a08236464b384d696a8237"
     }
   ]
 }

@@ -1,210 +1,52 @@
 {
-  "revision": "LORE-ASM-STEAK-ART-v1.0",
-  "date": "2026-09-12",
-  "artwork_status": "APPROVED",
-  "approved_by": "Daniel Payne",
-  "approval_quote": "This is the one!",
-  "approved_selection_file": "approved-user-reference.jpeg",
-  "source_png": "art.png",
-  "png_jpeg_relationship": "Same composition at different resolution/encoding; not byte-identical",
-  "front_status": "VISUAL_APPROVED",
-  "rarity_status": "PROVISIONAL_COMMON",
-  "template": "cards/master/front-v3/templates/common.svg",
-  "svg_type": "Vector card elements with embedded raster artwork",
-  "checks": {
-    "exact_uploaded_jpeg_preserved": true,
-    "original_generated_png_preserved": true,
-    "fixed_template_structure_identical": true,
-    "front_dimensions": [
-      900,
-      1260
-    ],
-    "decoded_qr": [
-      "https://example.com/m/asm/01"
-    ],
-    "qr_is_demo": true,
-    "visual_inspection": "v2 PNG inspected: I\u2019M A SIMPLE MAN. is clear on the existing context baseline. Pixel changes are confined to that line; artwork, art placement, other text, fonts, logo, border, QR and alpha remain unchanged from v1. The potato remains clear of the QR.",
-    "print_proof": false,
-    "context_only_change_from_v1": true,
-    "png_changed_bbox": [
-      57,
-      1137,
-      275,
-      1153
-    ]
-  },
-  "assets": [
+  "revision": "LORE-FRONT-v4",
+  "status": "APPROVED_BADGE_UPDATE",
+  "approval_record": "badge-v4-approval.json",
+  "current_files": [
     {
-      "path": "LORE-Asmongold-Steak-Final-v1.png",
-      "bytes": 1594504,
-      "sha256": "26005f492891a3d8722017dd46e86f0c6ea82bd0b8edb2be3910e41ac51371f1",
-      "dimensions": [
-        900,
-        1260
-      ]
+      "path": "cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v3.png",
+      "bytes": 1589826,
+      "sha256": "fb83161c1ad29fc372812ed591e276b08f5b85b281d721a92b9afe25637ce7ce",
+      "git_blob": "5e41ac15349be9fa8fc01e495afee7494de15dc6"
     },
     {
-      "path": "LORE-Asmongold-Steak-Final-v1.svg",
-      "bytes": 3493484,
-      "sha256": "ecb22e08a828d734ef0b5372f4d171c0cadf4ad34cc5100780e3f78dec0044fd"
+      "path": "cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v3.svg",
+      "bytes": 3493501,
+      "sha256": "59b0750f5f8c0d10c61b16cba0e16d8121772d4db97201344f76102a42aaa856",
+      "git_blob": "639b7aaac1e312d72c3605fcecf1d32e05a76cd9"
+    }
+  ],
+  "historical_manifest": "manifest-pre-badge-v4.json",
+  "files": [
+    {
+      "path": "LORE-Asmongold-Steak-Final-v3.png",
+      "bytes": 1589826,
+      "sha256": "fb83161c1ad29fc372812ed591e276b08f5b85b281d721a92b9afe25637ce7ce",
+      "git_blob": "5e41ac15349be9fa8fc01e495afee7494de15dc6"
     },
     {
-      "path": "LORE-Asmongold-Steak-Final-v2.png",
-      "bytes": 1593586,
-      "sha256": "eb0bee42e4d469000459cc6d4318bdea6860f8a40f692ecc7469675a82a4b95e",
-      "dimensions": [
-        900,
-        1260
-      ]
-    },
-    {
-      "path": "LORE-Asmongold-Steak-Final-v2.svg",
-      "bytes": 3493486,
-      "sha256": "b2793563c842a69d51738bc3df38ae56347e3ecc90c15289797ca19df76d30c1"
+      "path": "LORE-Asmongold-Steak-Final-v3.svg",
+      "bytes": 3493501,
+      "sha256": "59b0750f5f8c0d10c61b16cba0e16d8121772d4db97201344f76102a42aaa856",
+      "git_blob": "639b7aaac1e312d72c3605fcecf1d32e05a76cd9"
     },
     {
       "path": "README.md",
-      "bytes": 2592,
-      "sha256": "6f55394839bc3a2da212420bf8052d5a44433f0941e607ba37c333ef64c75a2f"
+      "bytes": 3457,
+      "sha256": "a986bb12a895caf559f20ebf8d43fbb35493446acd1aea23c519f9b0d64177f8",
+      "git_blob": "b788697e80ebff6262c6ff7114398dd4107a4fd7"
     },
     {
-      "path": "approved-user-reference.jpeg",
-      "bytes": 573490,
-      "sha256": "0a48548d4559cb6cf6c0c4452944e479edba330178eeb447957c4f82e3fb0306",
-      "dimensions": [
-        878,
-        1536
-      ]
+      "path": "badge-v4-approval.json",
+      "bytes": 1960,
+      "sha256": "8c352ab34b1958366a9f4a5404028120ee4af29b6e40f7a104484b1787f07031",
+      "git_blob": "77b44308b04128e41bc943d28005a9c935fe5844"
     },
     {
       "path": "art.png",
       "bytes": 2594738,
       "sha256": "109b68cc5c662feb5ee587d7e3bb935b02cfdcf6f59a72ff9202902a46680d61",
-      "dimensions": [
-        948,
-        1659
-      ]
-    },
-    {
-      "path": "build-final-front.py",
-      "bytes": 2194,
-      "sha256": "d15f16c73675cbe1aaa14e73494f73ac38bb2fdd37c551ea9a330ad88038b52e"
-    },
-    {
-      "path": "comparison.png",
-      "bytes": 1191939,
-      "sha256": "283751e8fe88a6594093fbc2243841d9a1ab00571728c6f46ff14a824c99552a",
-      "dimensions": [
-        1600,
-        550
-      ]
-    },
-    {
-      "path": "comparison.svg",
-      "bytes": 1439,
-      "sha256": "043acc9ef5149b33ff444d895d09a69f5424b3b761eb47cc563fd3e173d36bed"
-    },
-    {
-      "path": "final-qa-v2.json",
-      "bytes": 1968,
-      "sha256": "eed777d9a3e52ab2470ddf679f3155a10b3cbc676daf341d444a92ad951217d1"
-    },
-    {
-      "path": "final-qa.json",
-      "bytes": 1635,
-      "sha256": "6d80591f21e9b9d0a5f67fc3388b2fbf2e6cc00a05d1efebeaaff8b864e5426c"
-    },
-    {
-      "path": "front.png",
-      "bytes": 1580465,
-      "sha256": "a43e3665b7f06ac0b296e127042020936a3226b19ef4459fab491d8f0d24dc4e",
-      "dimensions": [
-        900,
-        1260
-      ]
-    },
-    {
-      "path": "front.svg",
-      "bytes": 3493455,
-      "sha256": "31abb27d396965b6f414c508b8e1aede1c503e68f753e08d8aa652a33ef2f965"
-    },
-    {
-      "path": "generation-prompts.md",
-      "bytes": 7344,
-      "sha256": "fa06f7af2ab8b5149851dbac49b989152db9f0561dadee56cccaea0c7e1574bf"
-    },
-    {
-      "path": "render-data.json",
-      "bytes": 322,
-      "sha256": "0d235a3e402a2944ef8867270404853a5422019058b62cd48cf1529d5cd29685"
-    },
-    {
-      "path": "source-notes.md",
-      "bytes": 4130,
-      "sha256": "36177e987a3e5ecee1f26fe7777394e513741293efcde620e8e8be5438f23c2d"
-    },
-    {
-      "path": "sources/microwave-and-clothing.png",
-      "bytes": 1320553,
-      "sha256": "bdfd1972816873f1f73c1fea5f20076ce6c5120a70d355ea77200ca787634ba6",
-      "dimensions": [
-        1330,
-        777
-      ]
-    },
-    {
-      "path": "sources/sauce-and-kitchen.png",
-      "bytes": 1359599,
-      "sha256": "07d6744968e4bffd6165ceb9250422d41f57067a5ea93e4b661247598dd07fed",
-      "dimensions": [
-        1328,
-        757
-      ]
-    },
-    {
-      "path": "sources/steak-and-pan.png",
-      "bytes": 1392934,
-      "sha256": "a7d1d4103b0678fdd103be479deb1a7124d0a4804572c95132ea3d4bae1106b5",
-      "dimensions": [
-        1332,
-        746
-      ]
-    },
-    {
-      "path": "verify-final-front.py",
-      "bytes": 6607,
-      "sha256": "f3fe2242c342b0b7beed12e9fe9e5036997b0f6d555ae4a3245d252300a244e9"
+      "git_blob": "3ecce037b7d3e29340773fa092fcb120edb1258c"
     }
-  ],
-  "current_front": "LORE-Asmongold-Steak-Final-v2.png",
-  "current_svg": "LORE-Asmongold-Steak-Final-v2.svg",
-  "placement_authorised_by_user": true,
-  "placement": {
-    "translate_x": 0,
-    "translate_y": -70,
-    "additional_scale": 1
-  },
-  "final_qa": "final-qa-v2.json",
-  "historical_crop_proofs": [
-    "front.png",
-    "front.svg"
-  ],
-  "front_revision": "LORE-ASM-STEAK-FRONT-FINAL-v2",
-  "front_approval": {
-    "approved_by": "Daniel Payne",
-    "date": "2026-09-12",
-    "record": "operations/15-STEAK-V2-VISUAL-SIGNOFF-2026-09-12.md",
-    "scope": "Existing delivered composition with the specified context phrase replacement; visual sign-off only"
-  },
-  "context_phrase": {
-    "text": "I\u2019M A SIMPLE MAN.",
-    "selected_by": "Daniel Payne",
-    "primary_source_verified": false,
-    "evidence": "source-notes.md",
-    "standard": "cards/11-MOMENT-PHRASE-STANDARD.md"
-  },
-  "historical_assemblies": [
-    "LORE-Asmongold-Steak-Final-v1.png",
-    "LORE-Asmongold-Steak-Final-v1.svg"
   ]
 }

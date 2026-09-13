@@ -62,13 +62,17 @@
     "selection_sha256": "0a48548d4559cb6cf6c0c4452944e479edba330178eeb447957c4f82e3fb0306",
     "approval_quote": "This is the one!",
     "scope": "Uncropped illustration approved; v2 visual approved with the user-selected moment phrase. Primary phrase verification and print release remain open.",
-    "delivered_front": "cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v2.png",
+    "delivered_front": "cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v3.png",
     "placement": {
       "translate_x": 0,
       "translate_y": -70,
       "additional_scale": 1
     },
-    "front_approval_record": "operations/15-STEAK-V2-VISUAL-SIGNOFF-2026-09-12.md"
+    "front_approval_record": "cards/creators/asmongold/steak-master-01/badge-v4-approval.json"
   },
-  "reference_rule": "Use original approved art references throughout all revisions; factual screenshots supply facts, not rendering style."
+  "reference_rule": "Use original approved art references throughout all revisions; factual screenshots supply facts, not rendering style.",
+  "current_layout_revision": "LORE-FRONT-v4",
+  "layout_rule": "cards/12-RARITY-BADGE-SPACING.md",
+  "current_approved_cards": "cards/creators/asmongold/current-cards.json",
+  "original_references_note": "Original art/style references remain unchanged; their old badge geometry is historical. Use front-v4 for current card layout."
 }

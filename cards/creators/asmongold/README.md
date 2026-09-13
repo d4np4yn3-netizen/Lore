@@ -1,5 +1,7 @@
 # Asmongold collection
 
+**Current badge revision: LORE-FRONT-v4.** Use [current approved card files and hashes](current-cards.json). Dan approved equal visible-word padding on 13 September 2026; all four card folders now link to their badge-v4 versions.
+
 **Selected card visuals: How I Cook My $2 Steak, The $370K Shower, Mail Muncher and Rat Alarm.** The final six-moment collection and rarity allocation remain open for research and review.
 
 - [Signed-off steak card and approved artwork](steak-master-01/README.md)

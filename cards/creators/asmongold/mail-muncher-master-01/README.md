@@ -1,5 +1,15 @@
 # Asmongold — Mail Muncher
 
+## Current approved version — badge spacing v4
+
+Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The latest files are [LORE-Asmongold-Mail-Muncher-Epic-v5.png](LORE-Asmongold-Mail-Muncher-Epic-v5.png) and [LORE-Asmongold-Mail-Muncher-Epic-v5.svg](LORE-Asmongold-Mail-Muncher-Epic-v5.svg). See [approval and exact hashes](badge-v4-approval.json).
+
+![Current approved card](LORE-Asmongold-Mail-Muncher-Epic-v5.png)
+
+Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use these new files for current deliveries.
+
+## Previous approved revision (history)
+
 **V4 visual approved by Daniel Payne on 12 September 2026.**
 
 Dan selected this exact version with “thats the one, what do you think?” and then instructed: “ok lock it in and see if yoiu can uplaod to github, if not i will do it”. This approves the illustration, lighting, crop, card layout and displayed wording. It does not confer print release or third-party rights clearance.

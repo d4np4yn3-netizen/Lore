@@ -1,49 +1,29 @@
 # LORE — current status
 
-Updated 2026-09-13. Read this first with AGENTS.md; use PROJECT-MEMORY.md for design decisions.
+Updated 2026-09-13. Read with AGENTS.md.
 
-## Current delivery: COMPLETE
+## Current milestone: approved badge spacing applied
 
-### Rat Alarm card
+Dan approved the right-hand rarity badge comparison: **“agreed, right hand version is approved”**. All six templates now use equal 22-unit side padding based on visible lettering, fixed 47-unit height and centred text. Font, colours, stroke and corners are unchanged.
 
-Dan approved the **Rare v1 visual / Moment 03 of 06** with **“Approved for upload”** on 2026-09-13. Title: **RAT / ALARM**. Phrase: **IT WOULD START COOKING.** Exact files, approval evidence and SHA-256 hashes are in `cards/creators/asmongold/rat-alarm-master-01/`.
+- Current layout: **LORE-FRONT-v4** / card design lock **LORE-CARD-v1.1**.
+- Rule and approval: `cards/12-RARITY-BADGE-SPACING.md` and `operations/16-RARITY-BADGE-SPACING-APPROVAL-2026-09-13.md`.
+- Current files and exact hashes: `cards/creators/asmongold/current-cards.json`.
+- Generator: `cards/master/front-v4/source/render_card.py`.
+- QA and previews: `cards/master/front-v4/qa/` and `cards/master/front-v4/references/`.
 
-- `art.png` — Git blob `52f3c07e9b3b3d3f8c91e7bf18756b096dd9b8c9`
-- `LORE-Asmongold-Rat-Alarm-Rare-Review-v1.png` — Git blob `2f0bcf45a01da31d99c6c7c083519cda53e6f9b0`
-- `LORE-Asmongold-Rat-Alarm-Rare-Review-v1.svg` — Git blob `a3a32650fbadcd598543cba0a3f6cf8330f4fa45`
+## Current approved card derivatives
 
-The exact reviewed assets are preserved unchanged. Both embedded artwork LORE marks are removed, with zero pixel changes outside the two removal regions. The actual pinned Rare SVG, logo, fonts and fixed geometry were used. Original `Review-v1` filenames remain despite approval. Source-audio verification, live QR and print release remain open.
+- `cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v3.png` and its matching SVG.
+- `cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v2.png` and its matching SVG.
+- `cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v5.png` and its matching SVG.
+- `cards/creators/asmongold/rat-alarm-master-01/LORE-Asmongold-Rat-Alarm-Rare-v2.png` and its matching SVG.
 
-### Mail Muncher card
+Every pixel outside each badge matches the preceding approved PNG. SVG comparison confirms only badge width and label x/y changed; artwork, crop, QR, copy, logo and all other geometry are intact. Earlier card versions and the full front-v3 reference set remain unchanged historical assets.
 
-Dan approved the **Epic v4 visual** and explicitly requested locking and uploading it. Exact files and approval evidence are together in `cards/creators/asmongold/mail-muncher-master-01/`.
+Implementation commit: `bd3fc07aa5e2fda59f10ba36e28c851bd37a2ce2`, on `update/rarity-badge-spacing-v4`. All six template and four card checks passed, with zero pixel changes outside the badges. Following the initial automatic approval rejection, Dan explicitly replied **“approved, upload”** to the request to upload these changes to `d4np4yn3-netizen/Lore` and merge into main. Upload and merge are authorised; no repeat confirmation is needed for this revision. Complete publication of this existing branch, verify remote hashes and record the merged PR. Prior Rat Alarm upload is complete on main via PR #1.
 
-- `art.png` — Git blob `8b7feba5ab2dd3f199a08236464b384d696a8237`
-- `LORE-Asmongold-Mail-Muncher-Epic-Layout-Review-v4.png` — Git blob `4e316cf3441a6413de36569ba05a9769ddd8695f`
-- `LORE-Asmongold-Mail-Muncher-Epic-Layout-Review-v4.svg` — Git blob `2211f5c10fd4c17478bdf666f31e35698db34b26`
-
-The exact reviewed bytes are preserved, with SHA-256 and local checks in `manifest.json`; the SVG embeds the same approved `art.png`. Original `Layout-Review-v4` filenames are retained. Phrase: **199 ATTEMPTS!** The approved version includes whole-scene anime styling, corrected moonlight, side-edge space and the removed foreground QR-area tower. Count/source verification, live QR, final numbering, commercial permissions and print release remain open.
-
-### Shower card
-
-Dan approved the shower visual and manually uploaded the unchanged PNG, SVG and approval README in commit `938aa3a93b1733e8ccd66edededd3f68bdfa88d2`. They are filed together in `cards/creators/asmongold/shower-master-01/`. The parent collection README was restored as an index with links to both cards.
-
-- `LORE-Asmongold-Shower-Legendary-Review-v1.png` — Git blob `c8bc8c4b0c0070354ca6461acd586cc9966678f3`
-- `LORE-Asmongold-Shower-Legendary-Review-v1.svg` — Git blob `c6e6053d36de2a8a894c4ee8f58b4e2fe99907d7`
-
-Verification: the live uploaded PNG/SVG blob SHAs match the approved export hashes; the folder correction reuses those same blobs without changing image bytes. Approval and SHA-256 records: `cards/creators/asmongold/shower-master-01/README.md`. Original `Review-v1` filenames are retained despite visual approval. Phrase: **I’M A VERY CLEAN BOY.** The QR is still a demo; audio/timestamp checks, final numbering/rarity allocation and print release remain open.
-
-### Steak card
-
-Dan's approved Asmongold steak v2 PNG and SVG are on main. The context line is **I’M A SIMPLE MAN.** Exact approved art and layout are preserved.
-
-Directory: `cards/creators/asmongold/steak-master-01/`
-- `LORE-Asmongold-Steak-Final-v2.png` — Git blob `5ec0ca149b90b348954c7d951dc292091688f0a0`
-- `LORE-Asmongold-Steak-Final-v2.svg` — Git blob `c9fcbc368beb08d541c1b80fcef5fb0cad564ff5`
-
-Verification: live GitHub file SHAs matched Git blob hashes computed from the local files; their SHA-256 values also matched `final-qa-v2.json`. Approval: `operations/15-STEAK-V2-VISUAL-SIGNOFF-2026-09-12.md`. Phrase rule: `cards/11-MOMENT-PHRASE-STANDARD.md`. These records are on main.
-
-No upload remains pending. Resume from Dan's next requested task. Audio/timestamp verification, live QR, final rarity/set allocation and print release remain separate open work.
+Live QR routes, primary source/audio checks, creator permissions and print release remain separate open work. The shared back v5 and 63 × 88 mm trim are unchanged.
 
 ## Compact working method
 

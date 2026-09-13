@@ -1,5 +1,15 @@
 # The $2 Steak — selected artwork
 
+## Current approved version — badge spacing v4
+
+Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The latest files are [LORE-Asmongold-Steak-Final-v3.png](LORE-Asmongold-Steak-Final-v3.png) and [LORE-Asmongold-Steak-Final-v3.svg](LORE-Asmongold-Steak-Final-v3.svg). See [approval and exact hashes](badge-v4-approval.json).
+
+![Current approved card](LORE-Asmongold-Steak-Final-v3.png)
+
+Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use these new files for current deliveries.
+
+## Previous approved revision (history)
+
 **Artwork approved by Daniel Payne on 2026-09-12:** “This is the one!” The [exact attached selection](approved-user-reference.jpeg) is preserved. [art.png](art.png) is the corresponding original generation, with the same composition at its original PNG resolution; it has not been redrawn or retouched. The JPEG and PNG are different encodings/resolutions, not byte-identical files.
 
 ![Approved steak illustration](art.png)

@@ -1,0 +1,117 @@
+{
+  "revision": "LORE-FRONT-v4",
+  "status": "APPROVED_BADGE_SPACING_APPLIED",
+  "approval_record": "operations/16-RARITY-BADGE-SPACING-APPROVAL-2026-09-13.md",
+  "approval_quote": "agreed, right hand version is approved",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-09-13",
+  "scope": "Only badge width and lettering x/y change; all other artwork and layout remain fixed.",
+  "inherited_assets": "cards/master/front-v3",
+  "inherited_font_config": "cards/master/front-v3/source/fontconfig.xml",
+  "current_cards": "cards/creators/asmongold/current-cards.json",
+  "qa_result": "PASS: 6 templates, 4 approved cards; zero pixels changed outside badges.",
+  "files": [
+    {
+      "path": "cards/master/front-v4/README.md",
+      "bytes": 2237,
+      "sha256": "3b5a771d0e958b5030882086e148abcd8244e309f5fbe92a0a2ad44114d42bbf",
+      "git_blob": "902cfd7425375cfb2a20db26fda6b12c284a7867"
+    },
+    {
+      "path": "cards/master/front-v4/badge-spacing.json",
+      "bytes": 2580,
+      "sha256": "b9a4a22a91789c59d023c9efe8700d89434fd864d31999a03422a8e604eadf6b",
+      "git_blob": "8919d3383e64266393db6b9db62ddb6c27eb2a3d"
+    },
+    {
+      "path": "cards/master/front-v4/qa/approved-cards.json",
+      "bytes": 8470,
+      "sha256": "959f2bf50aaba7fb39f23928d28889120d432ba82d9e00d7b46829c50531b410",
+      "git_blob": "be47f913c587172b554465325e7fe168ae2cc437"
+    },
+    {
+      "path": "cards/master/front-v4/qa/layout-validation.json",
+      "bytes": 2274,
+      "sha256": "bccc9dedaa67f7270d818dcad6897afd04f7b55cb64535d75ccf19f0ada5b78f",
+      "git_blob": "a6fc2894414c338cd918952fe6080339c91969ef"
+    },
+    {
+      "path": "cards/master/front-v4/references/LORE-Approved-Cards-Badge-v4.png",
+      "bytes": 1758922,
+      "sha256": "90ef6f6a2cb7766170c6b52f2b1d126c3e16021dd69d5fb418ecd457d1cbde2c",
+      "git_blob": "5a2f78974aa0378efcf8f57f66a4bfae6bd311e7"
+    },
+    {
+      "path": "cards/master/front-v4/references/LORE-Rarity-Badge-Spacing-Comparison-v1.png",
+      "bytes": 87876,
+      "sha256": "610f0981b67ce76faef1b9a2c5f26f8895339fc90bb4acde08c30731ca292743",
+      "git_blob": "c08c105de69c240eeca3b1e3d0a0429657aed26e"
+    },
+    {
+      "path": "cards/master/front-v4/references/LORE-Six-Rarity-Layouts-v4.png",
+      "bytes": 1441839,
+      "sha256": "157d273de6f9b0b5745da7b314a37649ef3eabecca42b54115eea5a689349cd4",
+      "git_blob": "fbdf359c077481abe51b51de00c1aad6575f1525"
+    },
+    {
+      "path": "cards/master/front-v4/source/badge_spacing.py",
+      "bytes": 1710,
+      "sha256": "eafa3507aa1890d352292065d43bc8b4e9be2dd11bf35105bef2f6ea4c479355",
+      "git_blob": "defade5c3ee5410f9ac105d2448a1b4c8d85f988"
+    },
+    {
+      "path": "cards/master/front-v4/source/render_card.py",
+      "bytes": 5090,
+      "sha256": "c41345ebdeb3529cf237f3de87d9330f055f928b025f6a52f7aa5a7b07088c05",
+      "git_blob": "30b1b7816c4acd28346430bdd26faeb35dba1dbb"
+    },
+    {
+      "path": "cards/master/front-v4/source/update_approved_cards.py",
+      "bytes": 4998,
+      "sha256": "49a67d09bbb411a709a78bcaf4566164c5bf319f677aaa3fb7542b2bae1554e2",
+      "git_blob": "48b3d0ea04a1ed306010898354bbc9b95a17d8c1"
+    },
+    {
+      "path": "cards/master/front-v4/source/verify_layout.py",
+      "bytes": 2848,
+      "sha256": "a97457449d60e17c1bd2b1f61150957b9fac21d3a1e292712de7b2a4c8b1c7fa",
+      "git_blob": "1cfbf11f333bc2f2c93ddc1340e568f87d04411c"
+    },
+    {
+      "path": "cards/master/front-v4/templates/common.svg",
+      "bytes": 27199,
+      "sha256": "e444857ec8ba3d3181bec8e1ec775a2fb8f59b3c213cbbe3bd7bb654b18cc6f9",
+      "git_blob": "2233cb17e14e43078928eb4240f4fc522d51b091"
+    },
+    {
+      "path": "cards/master/front-v4/templates/epic.svg",
+      "bytes": 27200,
+      "sha256": "f7a05ed5be600dc085f5da7be3edeb1ba15cc206ad23412bccebe7c0b277629b",
+      "git_blob": "2a179de473af593726e9e08bf4677b8e489a2c1d"
+    },
+    {
+      "path": "cards/master/front-v4/templates/legendary.svg",
+      "bytes": 27205,
+      "sha256": "cf9a884a320d164892062e2683d88912c457db2518e22a8818e444b0577d34c8",
+      "git_blob": "89bdcc837ef586fcfbab960edac831685f51ed12"
+    },
+    {
+      "path": "cards/master/front-v4/templates/mythic.svg",
+      "bytes": 27206,
+      "sha256": "eb57a6e99d55707aa7751c18795b4680c4e08d6ff814e9728da9d2439a8b067c",
+      "git_blob": "ae837f8b18024e9b49229d1b07f7c7637be0aa11"
+    },
+    {
+      "path": "cards/master/front-v4/templates/rare.svg",
+      "bytes": 27202,
+      "sha256": "e005670cb8247602ca70787d99ca4389632c6b38deaae8824cdcd655e02867fd",
+      "git_blob": "a33f964cfac8a6bdb5daf62a102b2432cc8b432f"
+    },
+    {
+      "path": "cards/master/front-v4/templates/uncommon.svg",
+      "bytes": 27211,
+      "sha256": "10afc7a15139e6fbf20491223cc506eca680845286ea6e20c04c403a523999bd",
+      "git_blob": "60e22825edf4a7506db17ead52c6503139aed7eb"
+    }
+  ]
+}

@@ -1,12 +1,14 @@
 # LORE — selected front layout and illustration master
 
-**Reference: LORE-FRONT-v3 / Asmongold front-QR set, 12 September 2026.**
+**Current layout: LORE-FRONT-v4, approved badge spacing on 13 September 2026. Original illustration reference: LORE-FRONT-v3, 12 September 2026.**
+
+Dan approved the right-hand badge spacing comparison: equal 22-unit side gaps to the visible letters, fixed height and vertically centred lettering. Read [the badge standard](12-RARITY-BADGE-SPACING.md). This is the sole visual change from v3. Use v4 for new cards and current approved derivatives; v3 files remain historical and retain their original hashes.
 
 Daniel liked the exact six v3 fronts and requested that this layout and illustration style be retained for future cards. These files are now the frozen front reference. The [LORE-BACK-v5 shared back](08-SHARED-BACK-MASTER.md) was subsequently approved, completing the LORE-CARD-v1.0 visual design lock. Manufacturing specifications, creator rights and the six Asmongold moments remain separate release decisions.
 
-![Selected six-card front reference](master/front-v3/references/LORE-Asmongold-Six-Cards-v3.png)
+![Current six-rarity layout reference](master/front-v4/references/LORE-Six-Rarity-Layouts-v4.png)
 
-Use [card-design-lock.json](card-design-lock.json), the six [SVG templates](master/front-v3/templates), and the [individual front and artwork references](master/front-v3/references). The [renderer](master/front-v3/source/render_card.py) fills the existing layout. Do not ask an image generator to recreate a complete card from this board.
+Use [card-design-lock.json](card-design-lock.json), the six [SVG templates](master/front-v4/templates), and the original [illustration references](master/front-v3/references/art). The [renderer](master/front-v4/source/render_card.py) fills the existing layout. Do not ask an image generator to recreate a complete card from this board.
 
 ## What is fixed
 
@@ -14,7 +16,7 @@ Use [card-design-lock.json](card-design-lock.json), the six [SVG templates](mast
 - The exact approved LORE-04-v1.0 compact gold/white logo, its whole-asset scale and its upper-right position. No regenerated logos, alternate crowns or rarity-coloured wordmarks.
 - Rarity badge and moment counter upper left; creator and two-line moment title lower left; public moment QR lower right; small set counter at the foot.
 - The template's rounded outline, thin inner corner lines, line weights, gradients, artwork crop and text alignment.
-- The typography, letter spacing, title line spacing and QR caption in the actual selected v3 files.
+- The typography, letter spacing, title line spacing and QR caption in the actual selected v3 files; only rarity-label centring changes under the approved v4 rule.
 - The six rarity colours below, with the existing border-light treatment. The rendered highlights are a visual reference, not a proven foil specification.
 - Consistent inked anime illustration: recognizable creator likeness, expressive drawn faces, graphic cel shading and scene-specific storytelling.
 
@@ -23,8 +25,8 @@ Use [card-design-lock.json](card-design-lock.json), the six [SVG templates](mast
 | Artwork window | x 14, y 14, w 872, h 1232; corner radius 22; slice crop |
 | Outer border | x 10, y 10, w 880, h 1240; radius 25; stroke 5 |
 | Inner corner lines | Exact paths in the template; stroke 1.5; opacity 0.65 |
-| Rarity badge | x 50, y 49, h 47; width max(180, 24 × rarity-name length + 50); radius 5 |
-| Rarity text | baseline (72,82); 25; bold 700; tracking 3 |
+| Rarity badge | x 50, y 49, h 47; width = visible glyph width + 44; radius 5; 22-unit side padding; no minimum width |
+| Rarity text | Size 25; bold 700; tracking 3; exact x/baseline per `master/front-v4/badge-spacing.json`, centred on visible glyph bounds |
 | Moment counter | baseline (54,132); 19; regular 400; tracking 2.5 |
 | Whole LORE logo | x 703, y 35, w 152, h 120; original 1200 × 950 viewBox; uniform meet scaling |
 | Top darkening | x 14, y 14, w 872, h 210; original template gradient |
