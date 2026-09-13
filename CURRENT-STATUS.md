@@ -2,15 +2,17 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Mail Muncher v6 approved, uploaded and verified
+## Current milestone: Ninja Mythic visually approved
 
-Dan approved the exact displayed Revised Review v2 with **“yup, lock it in, approved for upload”**. Current Epic / Moment 04/06: `cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v6.png` and matching SVG. Artwork: `cards/creators/asmongold/mail-muncher-master-01/art-rising-v1.png`. Approval and hashes: `cards/creators/asmongold/mail-muncher-master-01/rising-v6-approval.json` and `manifest.json`.
+Dan approved the completed **BECOMING / THE ICON — Mythic / Moment 06 of 06** with **“Approved upload to github”**. Phrase: **IT LOOKS JUST LIKE ME.** This is Ninja's first approved visual; the other five remain to be developed and approved.
 
-The approved revision has the body rising from the bottom, a central dorsal crest/single back ridge, deeper moonlit shadows with warm city light underneath, flying WoW-referenced mail and stronger Asmongold likeness. The v6 PNG, SVG and artwork preserve the exact approved review bytes. Fixed layout, logo, badge, fonts, title, phrase **199 ATTEMPTS!**, numbering and QR stay unchanged. Prior Mail Muncher versions remain historical.
+Canonical PNG: `cards/creators/ninja/becoming-the-icon-master-01/LORE-Ninja-Becoming-The-Icon-Mythic-v1.png`; matching SVG, original `art.png`, approval, source notes and hash manifest are beside it. These preserve the exact signed-off Review-v4 PNG/SVG and darker v3 illustration. Keep matching blue-grey eyes, clearly drawn cel shading and the dramatic avatar light. No regeneration or layout change was made for upload. Resolve the Ninja set through `cards/creators/ninja/current-cards.json`.
 
-**Uploaded to main and verified:** commit [`6839ffc685887c36cd076c424c2a8df53e342c0e`](https://github.com/d4np4yn3-netizen/Lore/commit/6839ffc685887c36cd076c424c2a8df53e342c0e). All 11 published file blob hashes match the upload checkpoint. The canonical v6 PNG, SVG and artwork are byte-for-byte copies of the approved Revised Review v2 files. Upload is complete; do not repeat it or ask for the same approval. Resolve all current cards through `cards/creators/asmongold/current-cards.json`.
+Publication includes the approved package and creator register. The upload runner compares all published file hashes with the local manifest before reporting completion. Existing upload approval persists; do not ask again or substitute an earlier draft. Next action after verification: await Dan's next card direction.
 
-The six-card visual set is approved: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Numbering is 01–06. No further artwork revision or rarity reordering is authorised. Next action: await Dan’s next direction.
+The six-card Asmongold set remains approved and unchanged: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher v6; Legendary — Charity Shower v3 with steam; Mythic — Thunderfury. Resolve exact files through `cards/creators/asmongold/current-cards.json`. Mail Muncher v6 publication: `6839ffc685887c36cd076c424c2a8df53e342c0e`, all 11 file blobs verified.
+
+Ninja's QR remains the approved demo. Original audio/timestamp verification and print release are separate from this visual approval.
 
 ## Preserved verified milestones
 
@@ -34,3 +36,4 @@ Live QR routes, primary audio/count/source checks, creator permissions and physi
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
+
