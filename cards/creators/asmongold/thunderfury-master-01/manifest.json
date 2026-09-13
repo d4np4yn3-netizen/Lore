@@ -1,0 +1,74 @@
+{
+  "card": "Asmongold — Thunderfury",
+  "rarity": "Mythic",
+  "moment": "06/06",
+  "status": "VISUALLY_APPROVED",
+  "artwork_approval": "User approved latest storm-room artwork: fuck yes! we are a great team, now make the mytic card!",
+  "phrase": "SOMETIMES YOU GET IT.",
+  "phrase_selection": "User: Sometimes you get it sounds good",
+  "phrase_evidence": {
+    "source": "https://www.youtube.com/watch?v=sMLqYainAOQ&t=960s",
+    "time_approx": "16:00",
+    "status": "Prior conversation checked auto-generated captions; audio not independently rechecked for this card export"
+  },
+  "template": "cards/master/front-v4/templates/mythic.svg",
+  "template_sha256": "eb57a6e99d55707aa7751c18795b4680c4e08d6ff814e9728da9d2439a8b067c",
+  "renderer": "cards/master/front-v4/source/render_card.py",
+  "repository": "d4np4yn3-netizen/Lore",
+  "source_main_commit": "03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6",
+  "layout": "LORE-FRONT-v4",
+  "canvas": [
+    900,
+    1260
+  ],
+  "trim_mm": [
+    63,
+    88
+  ],
+  "qa": {
+    "art_bytes_preserved": true,
+    "unchanged_fixed_template_geometry": true,
+    "pinned_fonts": true,
+    "visual_inspection": "PASS: exact user-selected original. The original sword/logo overlap is explicitly accepted with this selection.",
+    "uploaded_selection_bytes_preserved": true
+  },
+  "qr_status": "DEMO_ONLY",
+  "qr_url": "https://example.com/lore/asmongold/thunderfury",
+  "git_publication": "Included in the approved Thunderfury publication commit; confirm published tree hashes.",
+  "files": [
+    {
+      "path": "cards/creators/asmongold/thunderfury-master-01/art.png",
+      "bytes": 2937083,
+      "sha256": "036d1818be94334a32368d0994f4905c54f5fd3f617165631bc914aa26c0c163",
+      "git_blob": "b342af4c809a577b4fe556c3e4479da40bc1411a"
+    },
+    {
+      "path": "cards/creators/asmongold/thunderfury-master-01/card-data.json",
+      "bytes": 348,
+      "sha256": "ccb3bd65875d5592ebd2ea6736b1a1b5e009cef78d114b6c8c24f4d26a621e7b",
+      "git_blob": "f2df7018b651bf023038f2c33c38282b2e281b8d"
+    },
+    {
+      "path": "cards/creators/asmongold/thunderfury-master-01/LORE-Asmongold-Thunderfury-Mythic-v1.svg",
+      "bytes": 3951742,
+      "sha256": "fdc3aff65f1e19915fa2caf15b598ecc13cdbc67f56a1510e76d2bfd37390b74",
+      "git_blob": "afcb3aca404f2660540189b0014d7ee32c7c4097"
+    },
+    {
+      "path": "cards/creators/asmongold/thunderfury-master-01/LORE-Asmongold-Thunderfury-Mythic-v1.png",
+      "bytes": 2191892,
+      "sha256": "fda8fd58d4567b9baf44e0524a161909f50a55fde20e413c8cc9f8700ebf3f97",
+      "git_blob": "0f0b9295ae9c44497beaf3bd1e8ffc7491af0ad0"
+    },
+    {
+      "path": "cards/creators/asmongold/thunderfury-master-01/approval.json",
+      "bytes": 1842,
+      "sha256": "a69e63c20af95436325239cf0f7fb1e51e313757cc5cce305ee889461bb7e103",
+      "git_blob": "a58944a0b86c885e40053e71514d29faa4c9f680"
+    }
+  ],
+  "approval_record": "cards/creators/asmongold/thunderfury-master-01/approval.json",
+  "approval_quote": "we will stick with this, its too good to start tweaking, approved for upload to github",
+  "source_png_original_render_sha256": "a3cb81a3d2e7abded073714c3e32598993ac7125c0cf1ed4bb4aa49a059a4f14",
+  "source_png_note": "Canonical approved PNG preserves the exact user attachment bytes. Reattachment changed PNG encoding and 577 edge/transparent pixels relative to the original render; 576 changes are fully transparent. SVG preserves original editable Review-v1 bytes. No rerender or artwork modification was performed for publication."
+}

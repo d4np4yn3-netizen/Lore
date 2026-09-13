@@ -2,34 +2,21 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Level 60 Homecoming approved and restored
+## Current milestone: Thunderfury Mythic approved
 
-Dan rejected the crown-on-flags/tabards revision and instructed **“Ok, I don’t like that, go back to original and upload to github”**, attaching the original card. The approved selection is the plain-blue-flag **Uncommon / Moment 02 of 06** card. Its exact original PNG/SVG and embedded art are in `cards/creators/asmongold/level-60-master-01/`; `approval.json` and `manifest.json` record the selection and hashes. Both exports preserve the original Review-v1 bytes. Never substitute the rejected crown revision.
+Dan attached the original **Thunderfury / Mythic / Moment 06 of 06** card and said **“we will stick with this, its too good to start tweaking, approved for upload to github”**. The approved PNG in `cards/creators/asmongold/thunderfury-master-01/LORE-Asmongold-Thunderfury-Mythic-v1.png` preserves that exact attachment. Its matching SVG, original art, render data, approval and hashes are beside it. **Keep the original diagonal sword and logo overlap.** The later upright-sword clearance experiment was not selected and must not replace this version.
 
-**Uploaded to main and verified:** commit [`03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6`](https://github.com/d4np4yn3-netizen/Lore/commit/03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6). All 11 published file blob hashes were checked against the upload checkpoint on 2026-09-13 and match exactly. The approved PNG/SVG remain byte-identical to Review-v1. Upload is complete; do not re-upload, regenerate or request this approval again. The displayed phrase is visually approved; primary audio verification and the live QR remain separate next work.
+The current collection now has six visually approved cards: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher; Legendary — Charity Shower; Mythic — Thunderfury. Current numbering is 01–06 respectively. Dan may review the rarity order with the finished set; no reordering is authorised here.
 
-## Previous milestone: approved badge spacing applied
+This publication contains the approved Thunderfury package and current-card register. The publication runner verifies every committed blob against its local checkpoint before reporting success. Resolve the exact current files through `cards/creators/asmongold/current-cards.json`; do not regenerate or request the same approval again.
 
-Dan approved the right-hand rarity badge comparison: **“agreed, right hand version is approved”**. All six templates now use equal 22-unit side padding based on visible lettering, fixed 47-unit height and centred text. Font, colours, stroke and corners are unchanged.
+## Preserved prior milestones
 
-- Current layout: **LORE-FRONT-v4** / card design lock **LORE-CARD-v1.1**.
-- Rule and approval: `cards/12-RARITY-BADGE-SPACING.md` and `operations/16-RARITY-BADGE-SPACING-APPROVAL-2026-09-13.md`.
-- Current files and exact hashes: `cards/creators/asmongold/current-cards.json`.
-- Generator: `cards/master/front-v4/source/render_card.py`.
-- QA and previews: `cards/master/front-v4/qa/` and `cards/master/front-v4/references/`.
+- Level 60 Homecoming plain-blue-flag original: main commit `03fab8b15b8fe63b1eafc87ddae78ece6fff9ee6`, all 11 file blobs verified. Crown-on-flags/tabards revision rejected.
+- Approved badge spacing: LORE-FRONT-v4 / LORE-CARD-v1.1, equal 22-unit visible-glyph side padding and 47-unit height. All six templates and four earlier approved card derivatives published in PR #2, merge `a1a2d76f8c3b9e71e7424655d9962d757a381eac`; all 54 files verified. Original art and pixels outside badges preserved.
+- Renderer: `cards/master/front-v4/source/render_card.py`. Rules: `cards/12-RARITY-BADGE-SPACING.md`. Shared back v5 and 63 × 88 mm trim unchanged.
 
-## Current approved card derivatives
-
-- `cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v3.png` and its matching SVG.
-- `cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v2.png` and its matching SVG.
-- `cards/creators/asmongold/mail-muncher-master-01/LORE-Asmongold-Mail-Muncher-Epic-v5.png` and its matching SVG.
-- `cards/creators/asmongold/rat-alarm-master-01/LORE-Asmongold-Rat-Alarm-Rare-v2.png` and its matching SVG.
-
-Every pixel outside each badge matches the preceding approved PNG. SVG comparison confirms only badge width and label x/y changed; artwork, crop, QR, copy, logo and all other geometry are intact. Earlier card versions and the full front-v3 reference set remain unchanged historical assets.
-
-**Uploaded and merged into main:** [PR #2](https://github.com/d4np4yn3-netizen/Lore/pull/2), merge commit `a1a2d76f8c3b9e71e7424655d9962d757a381eac`. Dan explicitly authorised upload and merge with **“approved, upload”**. All 54 changed files on the fetched main branch match the verified local files byte for byte; all seven PNG exports decode successfully. Six templates and four approved cards passed the badge checks, with zero pixel changes outside the badges. GitHub publication is complete. Do not re-upload, regenerate or request this approval again. Use the current v4 templates and card register for subsequent work. Prior Rat Alarm upload is complete on main via PR #1.
-
-Live QR routes, primary source/audio checks, creator permissions and print release remain separate open work. The shared back v5 and 63 × 88 mm trim are unchanged.
+Live QR routes, primary audio/source checks, creator permissions and print release remain separate. Visual approval does not settle those items.
 
 ## Compact working method
 
@@ -43,4 +30,3 @@ Live QR routes, primary source/audio checks, creator permissions and print relea
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
-
