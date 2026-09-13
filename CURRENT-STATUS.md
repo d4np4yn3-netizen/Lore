@@ -2,15 +2,16 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Ninja Epic approved, uploaded and verified
+## Current milestone: Ninja Common approved; three Ninja cards selected
 
-Dan approved **NOT ENOUGH / MOVEMENT — Epic / Moment 04 of 06**: **“Lock it in and upload to github! Two great cards so far”**. Phrase: **I’M NOT SEEING ENOUGH MOVEMENT!**
+Dan approved **PON / PON — Common / Moment 01 of 06**: **“Ok approved for upload, this turned out better than I thought”**.
+Phrase: **THE FIRST OF 2018!**, supplied by Dan and approved on the complete card.
 
-Canonical PNG: cards/creators/ninja/not-enough-movement-master-01/LORE-Ninja-Not-Enough-Movement-Epic-v1.png; matching SVG, original art.png, approval, source notes and hash manifest are beside it. These preserve the exact signed-off Review-v4 PNG/SVG and final softened-cheek illustration. Keep the anime treatment, red hair/dark bandana, cool viewer-left face shadow, yellow/pink light from viewer-right and restrained amber-peach cheek highlight. Earlier v1-v3 drafts are superseded.
+Canonical PNG: cards/creators/ninja/pon-pon-master-01/LORE-Ninja-Pon-Pon-Common-v1.png; matching SVG, original art.png, approval, source notes and hash manifest are beside it. Preserve exact review revision 2 (the phrase-added version), the hand-drawn scene, red/yellow circular burst with longer inward red bars, hands behind the border and foreground stars. Earlier red-emote and ceiling-light variants were not selected.
 
-**Uploaded to main and verified:** commit [5038b7cca2d1e0e4b4859d44e580c10b930ca85b](https://github.com/d4np4yn3-netizen/Lore/commit/5038b7cca2d1e0e4b4859d44e580c10b930ca85b). All 13 published file blob hashes match the upload manifest, including the exact approved PNG, SVG and artwork. Ninja Mythic and all unrelated repository files are preserved. Upload is complete; do not repeat it or ask for the same approval. Resolve the set through cards/creators/ninja/current-cards.json.
+Publication contains the approved package and updated three-card Ninja register. The upload runner verifies every published blob against its local manifest before reporting completion. Existing upload approval persists; do not ask again or substitute an earlier draft. Resolve the set through cards/creators/ninja/current-cards.json.
 
-Ninja's two approved visuals are **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Four remain unapproved; other provisional moments have not been reassigned after Dan moved Times Square to Epic. Next action: await Dan's next card direction.
+Ninja's three approved visuals are **Common — Pon Pon (01/06)**, **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Three remain unapproved; no other provisional moments have been reassigned. Next after verification: await Dan's next card direction.
 
 The six-card Asmongold set remains approved and unchanged. Resolve exact files through cards/creators/asmongold/current-cards.json. Mail Muncher v6 publication: 6839ffc685887c36cd076c424c2a8df53e342c0e, all 11 file blobs verified.
 
@@ -18,6 +19,7 @@ Ninja's QRs remain the reviewed demos. Primary audio/timestamp verification and 
 
 ## Preserved verified milestones
 
+- Ninja Epic — Not Enough Movement: main commit 5038b7cca2d1e0e4b4859d44e580c10b930ca85b, all 13 file blobs verified. Exact approved Review-v4 PNG/SVG and softened-cheek artwork preserved; phrase **I’M NOT SEEING ENOUGH MOVEMENT!**
 - Ninja Mythic — Becoming the Icon: main commit 6a073bd56618cf596994a34089053f7f5d8af4a3, all 12 file blobs verified. Exact approved Review-v4 PNG/SVG and darker v3 illustration preserved; phrase **IT LOOKS JUST LIKE ME.**
 - Shower steam v3: main commit `a136683cdf9f1e3444889654c552efd655e92c8f`, all nine file blobs verified. Current PNG/SVG and art preserve the exact Steam Review v1 bytes.
 - Thunderfury Mythic v1: main commit `92e9d9546609dbb24184ad06333a5efda87fb787`, all 11 file blobs verified. Preserve the original diagonal sword and accepted logo overlap; upright-sword experiment was not selected.
@@ -39,3 +41,4 @@ Live QR routes, primary audio/count/source checks, creator permissions and physi
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
+
