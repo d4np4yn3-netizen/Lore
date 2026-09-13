@@ -1,66 +1,52 @@
 {
-  "status": "VISUALLY_APPROVED",
-  "files": [
+  "revision": "LORE-FRONT-v4",
+  "status": "APPROVED_BADGE_UPDATE",
+  "approval_record": "badge-v4-approval.json",
+  "current_files": [
     {
-      "path": "LORE-Asmongold-Rat-Alarm-Rare-Review-v1.png",
-      "bytes": 1545164,
-      "sha256": "25b8ae8a5e81337a99efb701dd3193ececb1ae60b2b1443cbe5a05a401745d18",
-      "git_blob": "2f0bcf45a01da31d99c6c7c083519cda53e6f9b0"
+      "path": "cards/creators/asmongold/rat-alarm-master-01/LORE-Asmongold-Rat-Alarm-Rare-v2.png",
+      "bytes": 1545975,
+      "sha256": "a9be6fa2c2fb057dced0419d454a38f7a848bd571d1f17f16c6bd8cce54971a2",
+      "git_blob": "2d8f7464c72c2d8979382e81033665572b814487"
     },
     {
-      "path": "LORE-Asmongold-Rat-Alarm-Rare-Review-v1.svg",
-      "bytes": 2989806,
-      "sha256": "93be848261b12107e82875204e99c2d5f67a3dc045c29a94d2fce6a810dff52e",
-      "git_blob": "a3a32650fbadcd598543cba0a3f6cf8330f4fa45"
+      "path": "cards/creators/asmongold/rat-alarm-master-01/LORE-Asmongold-Rat-Alarm-Rare-v2.svg",
+      "bytes": 2989821,
+      "sha256": "3f64bdf87b932f2173b81b31b530d6f4e919632c2cfda25ed801b36036d418d5",
+      "git_blob": "b40d50aff649b7fc660f90bb357f649d8ebcb06a"
+    }
+  ],
+  "historical_manifest": "manifest-pre-badge-v4.json",
+  "files": [
+    {
+      "path": "LORE-Asmongold-Rat-Alarm-Rare-v2.png",
+      "bytes": 1545975,
+      "sha256": "a9be6fa2c2fb057dced0419d454a38f7a848bd571d1f17f16c6bd8cce54971a2",
+      "git_blob": "2d8f7464c72c2d8979382e81033665572b814487"
+    },
+    {
+      "path": "LORE-Asmongold-Rat-Alarm-Rare-v2.svg",
+      "bytes": 2989821,
+      "sha256": "3f64bdf87b932f2173b81b31b530d6f4e919632c2cfda25ed801b36036d418d5",
+      "git_blob": "b40d50aff649b7fc660f90bb357f649d8ebcb06a"
     },
     {
       "path": "README.md",
-      "bytes": 3606,
-      "sha256": "62dc9d0fc66ad866dd883d99b11d730b8ed9c2b383162a26d86e547970711669",
-      "git_blob": "10932f0c42970ed3f78b0ac360d4b5d7efe1796e"
+      "bytes": 4486,
+      "sha256": "6271c70de7af8c16a38f0e17b7f225a171eeec25619534ef89c1ba12a912cb4d",
+      "git_blob": "650833e913b9c6a723296da6ef319e6812b1a146"
     },
     {
-      "path": "approval.json",
-      "bytes": 1584,
-      "sha256": "10554fb0df6a20b95d98ceac489a5cdcfe0feec5b9812e453bb39eb4a78d7368",
-      "git_blob": "e2eb5eedf211165052df0166942f42318175db3f"
-    },
-    {
-      "path": "approved-user-artwork.jpeg",
-      "bytes": 583867,
-      "sha256": "db004953612ac85e15764f65273425088e1148f8d8f3fec84f8329c6b4e1de8b",
-      "git_blob": "3f982cd0098e3603f67eaecc2b42b7474641a10d"
-    },
-    {
-      "path": "art-logo-removal.svg",
-      "bytes": 3777945,
-      "sha256": "0ac47fa1b5db579f90e2b9fa8b38e3d0720607a1400ef3013040bc96bc2c426e",
-      "git_blob": "e994338d226efe0327b2fc35fdb63c81fc712d21"
+      "path": "badge-v4-approval.json",
+      "bytes": 2000,
+      "sha256": "8aaed59456aba0d550bc7a83f1fcfffc43833c3a8c5ff71ba9747dc4b4733b5a",
+      "git_blob": "84ee579e093ee00e776e6eebb3f8cc873394c880"
     },
     {
       "path": "art.png",
       "bytes": 2217234,
       "sha256": "e62973e9d9da76a1ea7fb35bbba2502eea987d5e32548eed8838a8761ac5ed3b",
       "git_blob": "52f3c07e9b3b3d3f8c91e7bf18756b096dd9b8c9"
-    },
-    {
-      "path": "card-data.json",
-      "bytes": 612,
-      "sha256": "9197230d5692a344db7be374fc5957f7def946dfe245a7a734aa08b7710d491c",
-      "git_blob": "a0d9cc775ffa8c3fd155f11362fc256e6eb0ab1c"
-    },
-    {
-      "path": "generation-prompt.md",
-      "bytes": 1731,
-      "sha256": "bb64ff214136e478157c5fb2e0ec9d52d2e332c6a8e4b2beda2d7edf084bfd31",
-      "git_blob": "50785d28b879d36ecf948300053aea9557a193c2"
-    },
-    {
-      "path": "qa.json",
-      "bytes": 1220,
-      "sha256": "ca21e6c8128d181b8d1da6accd896d5a9f743c5917b478b4ba2d240886a7ea48",
-      "git_blob": "44fdfcba36057bd6ae24ca9f799778814df9bf3c"
     }
-  ],
-  "approval_record": "approval.json"
+  ]
 }

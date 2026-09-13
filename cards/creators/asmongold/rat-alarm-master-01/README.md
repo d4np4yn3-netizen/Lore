@@ -1,5 +1,15 @@
 # Asmongold — Rat Alarm / approved Rare v1
 
+## Current approved version — badge spacing v4
+
+Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The latest files are [LORE-Asmongold-Rat-Alarm-Rare-v2.png](LORE-Asmongold-Rat-Alarm-Rare-v2.png) and [LORE-Asmongold-Rat-Alarm-Rare-v2.svg](LORE-Asmongold-Rat-Alarm-Rare-v2.svg). See [approval and exact hashes](badge-v4-approval.json).
+
+![Current approved card](LORE-Asmongold-Rat-Alarm-Rare-v2.png)
+
+Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use these new files for current deliveries.
+
+## Previous approved revision (history)
+
 Status: **VISUALLY APPROVED — UPLOAD AUTHORISED**, Dan Payne, 13 September 2026.
 
 Dan approved this exact card with **“Approved for upload”** after reviewing the PNG. Approval covers Rare / blue, Moment 03 of 06, the RAT / ALARM title and **IT WOULD START COOKING.** The original `Review-v1` filenames remain to identify the exact reviewed files. See `approval.json` for approval evidence and unchanged asset hashes.

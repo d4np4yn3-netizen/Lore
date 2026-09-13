@@ -1,14 +1,14 @@
 {
-  "revision": "LORE-CARD-v1.0",
-  "date": "2026-09-12",
+  "revision": "LORE-CARD-v1.1",
+  "date": "2026-09-13",
   "status": "VISUAL_DESIGN_AND_TRIM_SIZE_LOCKED",
   "record": "operations/12-SHARED-BACK-V5-APPROVAL-2026-09-12.md",
   "selected_by": "Daniel Payne",
-  "scope": "Exact LORE-FRONT-v3 layout and illustration style, approved LORE-BACK-v5 universal back, and 63 \u00d7 88 mm finished card size. Printer-specific preparation and release gates remain pending.",
-  "front_reference": "cards/master/front-v3/references/LORE-Asmongold-Six-Cards-v3.png",
+  "scope": "LORE-FRONT-v4: the approved v3 front with equal visible-word badge padding; original illustration references, approved LORE-BACK-v5 and 63 \u00d7 88 mm trim retained.",
+  "front_reference": "cards/master/front-v4/references/LORE-Six-Rarity-Layouts-v4.png",
   "standard": "cards/07-FRONT-LAYOUT-AND-ART-MASTER.md",
-  "master_directory": "cards/master/front-v3",
-  "manifest": "cards/master/front-v3/manifest.json",
+  "master_directory": "cards/master/front-v4",
+  "manifest": "cards/master/front-v4/manifest.json",
   "back": {
     "revision": "LORE-BACK-v5",
     "status": "APPROVED",
@@ -99,32 +99,32 @@
     {
       "name": "Common",
       "accent": "#BFC4C9",
-      "template": "cards/master/front-v3/templates/common.svg"
+      "template": "cards/master/front-v4/templates/common.svg"
     },
     {
       "name": "Uncommon",
       "accent": "#59C991",
-      "template": "cards/master/front-v3/templates/uncommon.svg"
+      "template": "cards/master/front-v4/templates/uncommon.svg"
     },
     {
       "name": "Rare",
       "accent": "#55B7FF",
-      "template": "cards/master/front-v3/templates/rare.svg"
+      "template": "cards/master/front-v4/templates/rare.svg"
     },
     {
       "name": "Epic",
       "accent": "#B98AFF",
-      "template": "cards/master/front-v3/templates/epic.svg"
+      "template": "cards/master/front-v4/templates/epic.svg"
     },
     {
       "name": "Legendary",
       "accent": "#D4AF37",
-      "template": "cards/master/front-v3/templates/legendary.svg"
+      "template": "cards/master/front-v4/templates/legendary.svg"
     },
     {
       "name": "Mythic",
       "accent": "#CFE5F1",
-      "template": "cards/master/front-v3/templates/mythic.svg"
+      "template": "cards/master/front-v4/templates/mythic.svg"
     }
   ],
   "illustration": {
@@ -137,7 +137,7 @@
     "reference_manifest": "cards/style-reference-lock.json",
     "approved_steak_art": "cards/creators/asmongold/steak-master-01/art.png"
   },
-  "change_rule": "Changing geometry, font sizes, typefaces, title line count, colours or the illustration treatment needs an explicit reviewed revision. New creator content must fit the pinned template.",
+  "change_rule": "New cards must use front-v4 templates and renderer. Badge width is measured glyph width plus 44 units; no character-count or minimum-width formulas. Other geometry, fonts, colours and art treatment remain locked. Further visual changes need a reviewed revision.",
   "release": {
     "complete_card_system_locked": true,
     "back_approved": true,
@@ -149,8 +149,8 @@
     "lock_scope": "Visual design and 63 \u00d7 88 mm finished size; printer-specific preparation, physical proof and release gates remain pending.",
     "physical_trim_size_approved": true
   },
-  "front_revision": "LORE-FRONT-v3",
-  "front_reference_record": "operations/11-FRONT-V3-REFERENCE-2026-09-12.md",
+  "front_revision": "LORE-FRONT-v4",
+  "front_reference_record": "operations/16-RARITY-BADGE-SPACING-APPROVAL-2026-09-13.md",
   "physical_size": {
     "revision": "LORE-SIZE-v1.0",
     "status": "APPROVED",
@@ -180,5 +180,24 @@
     "requires_dan_wording_agreement": true,
     "primary_source_evidence_required": true,
     "editorial_rule_approved_at": "2026-09-12"
+  },
+  "badge_spacing": {
+    "revision": "LORE-BADGE-v1.0",
+    "status": "APPROVED",
+    "rule": "cards/master/front-v4/badge-spacing.json",
+    "horizontal_padding_svg_units": 22,
+    "width_formula": "visible glyph width + 44",
+    "text_position": "centred using actual visible glyph bounds",
+    "minimum_width": null,
+    "height": 47,
+    "x": 50,
+    "y": 49,
+    "stroke_width": 1.5,
+    "corner_radius": 5,
+    "font_size": 25,
+    "tracking": 3,
+    "approved_by": "Dan Payne",
+    "approved_at": "2026-09-13",
+    "approval_quote": "agreed, right hand version is approved"
   }
 }

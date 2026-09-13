@@ -2,7 +2,7 @@
 
 **Revision: LORE-BACK-v5. Approved by Daniel Payne, 12 September 2026.**
 
-This shared back, together with the pinned [LORE-FRONT-v3 layout and illustration style](07-FRONT-LAYOUT-AND-ART-MASTER.md), forms the locked visual card system **LORE-CARD-v1.0**.
+This shared back, together with the pinned [current front layout and original illustration style](07-FRONT-LAYOUT-AND-ART-MASTER.md), forms the locked visual card system. The front badge-only revision LORE-FRONT-v4 / LORE-CARD-v1.1 leaves this exact approved back unchanged.
 
 ![Approved shared card back](master/shared-back-v5/LORE-Shared-Back-v5.png)
 
