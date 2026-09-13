@@ -1,12 +1,25 @@
 # Asmongold — The $370K Shower
 
-## Current approved version — badge spacing v4
+## Current approved version — v3 with illustrated steam
 
-Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The latest files are [LORE-Asmongold-Shower-Legendary-v2.png](LORE-Asmongold-Shower-Legendary-v2.png) and [LORE-Asmongold-Shower-Legendary-v2.svg](LORE-Asmongold-Shower-Legendary-v2.svg). See [approval and exact hashes](badge-v4-approval.json).
+Dan approved the displayed steam revision on 13 September 2026: **“yeah, i think this is better, approved for upload”**.
 
-![Current approved card](LORE-Asmongold-Shower-Legendary-v2.png)
+![Current approved shower card](LORE-Asmongold-Shower-Legendary-v3.png)
 
-Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use these new files for current deliveries.
+- [Approved PNG](LORE-Asmongold-Shower-Legendary-v3.png) and [editable SVG](LORE-Asmongold-Shower-Legendary-v3.svg): exact bytes of Steam Review v1, renamed to the canonical v3 filenames.
+- [Steam artwork](art-steam-v1.png), [approval record](steam-v3-approval.json), [current hash manifest](manifest.json).
+
+The added steam rises around the showerhead and upper tiles and behind his shoulders, with subtle tile condensation. The card layout, original QR, title, phrase, Legendary colour, Moment 05/06, approved badge spacing and logo remain fixed. The SVG changes only its embedded illustration. Earlier files below are retained as history and must not replace this v3 selection in current deliveries.
+
+Source verification, live QR, creator permissions and physical print release remain separate. The finished dimensions remain 63 × 88 mm; the visual master is 900 × 1260.
+
+## Historical version v2 — badge spacing v4
+
+Dan approved the right-hand spacing comparison on 13 September 2026: **“agreed, right hand version is approved”**. This authorises the same badge change on this previously approved card. The v2 files are [LORE-Asmongold-Shower-Legendary-v2.png](LORE-Asmongold-Shower-Legendary-v2.png) and [LORE-Asmongold-Shower-Legendary-v2.svg](LORE-Asmongold-Shower-Legendary-v2.svg). See [approval and exact hashes](badge-v4-approval.json).
+
+![Historical v2 card](LORE-Asmongold-Shower-Legendary-v2.png)
+
+Only badge width and label centring change. Actual glyph padding is 22 units on each side. The font, border treatment, art, QR, copy and every pixel outside the badge remain unchanged. Earlier files and approval records below are retained as history; use the v3 steam files above for current deliveries.
 
 ## Previous approved revision (history)
 

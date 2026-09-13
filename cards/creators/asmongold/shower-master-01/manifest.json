@@ -1,8 +1,81 @@
 {
-  "revision": "LORE-FRONT-v4",
-  "status": "APPROVED_BADGE_UPDATE",
-  "approval_record": "badge-v4-approval.json",
+  "card": "Asmongold — The $370K Shower",
+  "revision": "LORE-FRONT-v4 / Shower v3 steam",
+  "status": "VISUALLY_APPROVED",
+  "requested_change": "Subtle illustrated steam around showerhead/upper tiles and behind shoulders, plus slight tile condensation.",
+  "request": "ok, do shower scene first",
+  "source_approved_svg": "cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v2.svg",
+  "source_approved_svg_sha256": "bd90899873a5eaf4f1deba1660eb1e00f13cbf54aa7cafefe5a1e32d0169e59b",
+  "source_art_sha256": "caa3c63ad0da89ccbe7892e7612f855a1821175dffa4a4f48ca1ddc19061d83a",
+  "generation": "Built-in imagegen; precise steam/background atmosphere edit with original approved LORE art style references.",
+  "layout": "LORE-FRONT-v4",
+  "canvas": [
+    900,
+    1260
+  ],
+  "trim_mm": [
+    63,
+    88
+  ],
+  "qa": {
+    "only_svg_change": "embedded artwork data URI",
+    "fixed_layout_and_copy_preserved": true,
+    "original_qr_preserved": true,
+    "pinned_fontconfig_used": true,
+    "png_decoded": true,
+    "visual_review": "Subtle steam visible above/behind the subject; face, hands and spray readable. Review of full card completed before delivery."
+  },
+  "approval": "Explicit visual approval by Dan Payne on 2026-09-13.",
+  "publication": "Approved upload package; publish receipt verified separately.",
+  "files": [
+    {
+      "path": "cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v3.png",
+      "bytes": 1587359,
+      "sha256": "a91296aa6abb05e0c0e79562ddacc43d8502a5ec1c3b125886411fd381b47d85",
+      "git_blob": "72cc3ed283b728bda1092ed98e7d9dc1ff7f42a0"
+    },
+    {
+      "path": "cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v3.svg",
+      "bytes": 3478865,
+      "sha256": "a20f52dabca40d2424138da13721415b902d0c591385d1cb8200fa0cba3298e4",
+      "git_blob": "a61443e5651432e3365dcb4a41e9c6bc9db7c56f"
+    },
+    {
+      "path": "cards/creators/asmongold/shower-master-01/art-steam-v1.png",
+      "bytes": 2583726,
+      "sha256": "bf56985fa0722fda74152ddade6b6a4790658d48242b172e81dad795155207b5",
+      "git_blob": "acdb966df0738b2df4c21d991e7c2468ac894344"
+    },
+    {
+      "path": "cards/creators/asmongold/shower-master-01/steam-v3-approval.json",
+      "bytes": 2367,
+      "sha256": "9ff52c69a62df0e924dd68a7b93f567627146795e1aea1d546035b4a5afa33f6",
+      "git_blob": "5e5132add012a4e6e16b346a10dfcded17e06589"
+    }
+  ],
+  "approval_record": "steam-v3-approval.json",
+  "approval_quote": "yeah, i think this is better, approved for upload",
   "current_files": [
+    {
+      "path": "cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v3.png",
+      "bytes": 1587359,
+      "sha256": "a91296aa6abb05e0c0e79562ddacc43d8502a5ec1c3b125886411fd381b47d85",
+      "git_blob": "72cc3ed283b728bda1092ed98e7d9dc1ff7f42a0"
+    },
+    {
+      "path": "cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v3.svg",
+      "bytes": 3478865,
+      "sha256": "a20f52dabca40d2424138da13721415b902d0c591385d1cb8200fa0cba3298e4",
+      "git_blob": "a61443e5651432e3365dcb4a41e9c6bc9db7c56f"
+    }
+  ],
+  "artwork": {
+    "path": "cards/creators/asmongold/shower-master-01/art-steam-v1.png",
+    "bytes": 2583726,
+    "sha256": "bf56985fa0722fda74152ddade6b6a4790658d48242b172e81dad795155207b5",
+    "git_blob": "acdb966df0738b2df4c21d991e7c2468ac894344"
+  },
+  "historical_files": [
     {
       "path": "cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v2.png",
       "bytes": 1713499,
@@ -14,33 +87,6 @@
       "bytes": 3781341,
       "sha256": "bd90899873a5eaf4f1deba1660eb1e00f13cbf54aa7cafefe5a1e32d0169e59b",
       "git_blob": "2aa9d6a2f7b2076578077e97aa1975389fe56ba0"
-    }
-  ],
-  "historical_manifest": null,
-  "files": [
-    {
-      "path": "LORE-Asmongold-Shower-Legendary-v2.png",
-      "bytes": 1713499,
-      "sha256": "9277d3fa275bba0c3f68807424b9c06d6bcdd8b63e4a9830526233c7bedd3436",
-      "git_blob": "5b056502de2f0f409a618a8f56feacfd5a99e9a5"
-    },
-    {
-      "path": "LORE-Asmongold-Shower-Legendary-v2.svg",
-      "bytes": 3781341,
-      "sha256": "bd90899873a5eaf4f1deba1660eb1e00f13cbf54aa7cafefe5a1e32d0169e59b",
-      "git_blob": "2aa9d6a2f7b2076578077e97aa1975389fe56ba0"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4813,
-      "sha256": "8f0984a28ca78bd13c0254bc05ddcd9f8e59c941c3265d5366a1de1956cba23a",
-      "git_blob": "585b812e8a6f7c65e27689f50f93c88f0e3fdb66"
-    },
-    {
-      "path": "badge-v4-approval.json",
-      "bytes": 2001,
-      "sha256": "ade4d5bfd36523f42a0ed0a31a0e419f6dd9503057dc45559b622de4a027b828",
-      "git_blob": "f862c40508fac056a6e47cf2b71739ee449c05cc"
     }
   ]
 }

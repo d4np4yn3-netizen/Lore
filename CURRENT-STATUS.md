@@ -2,7 +2,15 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Thunderfury Mythic approved, uploaded and verified
+## Current milestone: Shower steam revision approved
+
+Dan approved the displayed Steam Review v1 with **“yeah, i think this is better, approved for upload”**. The current Legendary card is `cards/creators/asmongold/shower-master-01/LORE-Asmongold-Shower-Legendary-v3.png` and its matching SVG, with `art-steam-v1.png`, `steam-v3-approval.json` and the updated manifest. The v3 exports preserve the exact review bytes. Subtle illustrated steam and condensation are the sole artwork revision; the fixed layout, text, logo, QR and Moment 05/06 remain unchanged. Prior shower versions stay historical.
+
+This is the approved upload package. Verify published file hashes against the upload checkpoint before reporting success. Resolve active exports through `cards/creators/asmongold/current-cards.json`.
+
+Next planned artwork review: **Mail Muncher**, improving Asmon’s likeness, integrated lighting and depth. Its existing approved card remains current until Dan approves a replacement. All six selected card visuals remain approved with the current rarity order.
+
+## Previous milestone: Thunderfury Mythic approved, uploaded and verified
 
 Dan attached the original **Thunderfury / Mythic / Moment 06 of 06** card and said **“we will stick with this, its too good to start tweaking, approved for upload to github”**. The approved PNG in `cards/creators/asmongold/thunderfury-master-01/LORE-Asmongold-Thunderfury-Mythic-v1.png` preserves that exact attachment. Its matching SVG, original art, render data, approval and hashes are beside it. **Keep the original diagonal sword and logo overlap.** The later upright-sword clearance experiment was not selected and must not replace this version.
 
