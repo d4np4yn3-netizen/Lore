@@ -2,13 +2,13 @@
 
 Updated 2026-09-13. Read with AGENTS.md.
 
-## Current milestone: Thunderfury Mythic approved
+## Current milestone: Thunderfury Mythic approved, uploaded and verified
 
 Dan attached the original **Thunderfury / Mythic / Moment 06 of 06** card and said **“we will stick with this, its too good to start tweaking, approved for upload to github”**. The approved PNG in `cards/creators/asmongold/thunderfury-master-01/LORE-Asmongold-Thunderfury-Mythic-v1.png` preserves that exact attachment. Its matching SVG, original art, render data, approval and hashes are beside it. **Keep the original diagonal sword and logo overlap.** The later upright-sword clearance experiment was not selected and must not replace this version.
 
 The current collection now has six visually approved cards: Common — The $2 Steak; Uncommon — Level 60 Homecoming; Rare — Rat Alarm; Epic — Mail Muncher; Legendary — Charity Shower; Mythic — Thunderfury. Current numbering is 01–06 respectively. Dan may review the rarity order with the finished set; no reordering is authorised here.
 
-This publication contains the approved Thunderfury package and current-card register. The publication runner verifies every committed blob against its local checkpoint before reporting success. Resolve the exact current files through `cards/creators/asmongold/current-cards.json`; do not regenerate or request the same approval again.
+**Uploaded to main and verified:** commit [`92e9d9546609dbb24184ad06333a5efda87fb787`](https://github.com/d4np4yn3-netizen/Lore/commit/92e9d9546609dbb24184ad06333a5efda87fb787). All 11 published file blob hashes match the upload checkpoint, including the exact attached PNG, original editable SVG and artwork. Upload is complete. Resolve the exact current files through `cards/creators/asmongold/current-cards.json`; do not regenerate or request the same approval again.
 
 ## Preserved prior milestones
 
