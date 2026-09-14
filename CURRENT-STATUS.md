@@ -2,7 +2,7 @@
 
 Updated 2026-09-14. Read with AGENTS.md.
 
-## Current milestone: Ninja Rare approved for GitHub and website
+## Current milestone: Ninja Rare published to GitHub and website
 
 Dan approved **ONE-MAN / SQUAD — Rare / Moment 03 of 06**, phrase **PERSONAL RECORD.**: “Ok approved for github and site!”.
 
@@ -10,11 +10,17 @@ Canonical PNG: cards/creators/ninja/one-man-squad-master-01/LORE-Ninja-One-Man-S
 
 Ninja now has all six approved visuals, Common through Mythic. Resolve exact files through cards/creators/ninja/current-cards.json. Asmongold's six approved cards remain unchanged: twelve approved fronts overall.
 
-Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. Add the Rare and /m/ninja/03/ route with the established QR-only derivative; retain the reviewed demo QR in the canonical master.
+Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. The Rare and /m/ninja/03/ route are published with the established QR-only derivative; the canonical master retains its reviewed demo QR.
 
 Source: https://www.youtube.com/watch?v=jwerp2SNiTQ, Ninja's 32-kill solo-squads video. Original gameplay previews confirm the gingerbread outfit. PERSONAL RECORD is verified text on the original thumbnail, not a verified spoken quotation. Ninja's likeness inside the costume and the action composition are illustrated interpretations.
 
-Publication verification will be recorded after GitHub and website delivery. Existing approval persists across chats. Ninja's six-card visual set is complete; no further artwork changes are requested.
+Verified GitHub delivery: c95b6a1303487327a718bde08ad3b607b4ae992b; all 20 remote file blobs and byte counts matched the upload manifest, including exact approved PNG/SVG/art.
+
+Verified website delivery: version 5 published successfully at https://lore.d4np4yn3.chatgpt.site. Site source commit: e63cfb0b3b0a9438663970655aaf9d84124c7ca4. Saved version: appgprj_6aa7012d260881919cdb0f797a84d234~appgver_0e5d2e894ce88191b8fb6cd04a55264e. Deployment: appgdep_6aa7a61ac54081918808b9d39b965845. Existing owner-private access is preserved.
+
+Verification: 14 pages, 12 cards, Ninja at 6/6 and Asmongold at 6/6; all local routes/assets/anchors, unique metadata and JavaScript syntax passed. All 19 existing assets/styles are unchanged. The new website QR independently decodes to https://lore.d4np4yn3.chatgpt.site/m/ninja/03/ and every pixel outside the QR box matches the approved PNG.
+
+Existing approval persists across chats. Ninja's six-card visual set is complete; no further artwork changes are requested.
 
 ## Preserved verified milestones
 
