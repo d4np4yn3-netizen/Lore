@@ -1,8 +1,8 @@
 {
   "creator": "Ninja",
   "updated": "2026-09-14",
-  "approved_card_count": 5,
-  "collection_visual_status": "FIVE_OF_SIX_APPROVED",
+  "approved_card_count": 6,
+  "collection_visual_status": "SIX_OF_SIX_APPROVED",
   "cards": [
     {
       "status": "VISUALLY_APPROVED",
@@ -70,6 +70,43 @@
         "bytes": 2550818,
         "sha256": "b10e0b8c5c50cb5c8b4c4e65163eac0ab5e05d929498cfe3c3ddf81a8fdc3896",
         "git_blob": "04943f43274be1c156bebde3a4bdb95449ceb525"
+      },
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "print_release": false,
+      "qr_status": "DEMO_ONLY_IN_CANONICAL_MASTER"
+    },
+    {
+      "status": "VISUALLY_APPROVED",
+      "rarity": "rare",
+      "moment": "One-Man Squad",
+      "moment_number": "03/06",
+      "front_revision": "LORE-FRONT-v4",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-14",
+      "approval_quote": "Ok approved for github and site!",
+      "approval_record": "cards/creators/ninja/one-man-squad-master-01/approval.json",
+      "current_files": [
+        {
+          "path": "cards/creators/ninja/one-man-squad-master-01/LORE-Ninja-One-Man-Squad-Rare-v1.png",
+          "bytes": 1807363,
+          "sha256": "34664e5e0ba0ea5699c0ee16e5429df36c22a2e49dfa999f4884a69eefad9abb",
+          "git_blob": "96d3c920430e76adecd8c5e0cdfd51820b969149"
+        },
+        {
+          "path": "cards/creators/ninja/one-man-squad-master-01/LORE-Ninja-One-Man-Squad-Rare-v1.svg",
+          "bytes": 3685237,
+          "sha256": "e53c3fac9aba8c1873601fb5012701c46eed10af7ff6cf64dcbe910d9f1122a3",
+          "git_blob": "980ee8728d5c6b989d886977691c27ad4406abb7"
+        }
+      ],
+      "artwork": {
+        "path": "cards/creators/ninja/one-man-squad-master-01/art.png",
+        "bytes": 2738585,
+        "sha256": "e09dbb1df0c05fbe202caa917293f670c5b6ff6e0ebfbc447a54bb879b3d24f4",
+        "git_blob": "360dc9bd7a1d9e140c663ef3a4c6825a0a6bda2d"
       },
       "physical_trim_mm": [
         63,
