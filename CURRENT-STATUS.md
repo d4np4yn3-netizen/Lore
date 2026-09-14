@@ -2,7 +2,7 @@
 
 Updated 2026-09-14. Read with AGENTS.md.
 
-## Current milestone: Ninja Legendary approved for GitHub and website
+## Current milestone: Ninja Legendary published to GitHub and website
 
 Dan approved **VEGAS / TAKEOVER — Legendary / Moment 05 of 06**, phrase **ONE MILLION PERCENT.**: “Yep, let's lock that in, add it to GitHub and add it to the site.”.
 
@@ -10,9 +10,15 @@ Canonical PNG: cards/creators/ninja/vegas-takeover-master-01/LORE-Ninja-Vegas-Ta
 
 Ninja now has five approved visuals: Common 01/06, Uncommon 02/06, Epic 04/06, Legendary 05/06 and Mythic 06/06. Only Rare 03/06 remains. Resolve exact files through cards/creators/ninja/current-cards.json. Asmongold's six approved cards remain unchanged.
 
-Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. Add the card and /m/ninja/05/ route using the existing QR-only sample workflow; retain the reviewed demo QR in the canonical master. Source: the venue's full Ninja Vegas '18 archive, https://www.youtube.com/watch?v=9iPLee-FWvw. Event date 21 April 2018; archive uploaded June 2025. Phrase verified as an excerpt of the venue-published Ninja quotation; independent spoken audio/timestamp verification remains open.
+Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. The card and /m/ninja/05/ route are published using the existing QR-only sample workflow; the canonical master retains its reviewed demo QR. Source: the venue's full Ninja Vegas '18 archive, https://www.youtube.com/watch?v=9iPLee-FWvw. Event date 21 April 2018; archive uploaded June 2025. Phrase verified as an excerpt of the venue-published Ninja quotation; independent spoken audio/timestamp verification remains open.
 
-Publication verification will be recorded after GitHub and website delivery. Existing approval persists across chats.
+Verified GitHub delivery: fbe3163a5ad0edc216071e5364ac03637b7c6677; all 14 remote file blobs and byte counts match the upload manifest, including exact approved PNG/SVG/art.
+
+Verified website delivery: version 4 published successfully at https://lore.d4np4yn3.chatgpt.site. Site source commit: b292f2b348b14997272a1630465041a6e596fc4f. Saved version: appgprj_6aa7012d260881919cdb0f797a84d234~appgver_443c2b90b58481919fb5bdefa6d6046e. Deployment: appgdep_6aa78ee9ea9c81919a1eed28f3a744b7. Current owner-private access is preserved.
+
+Verification: 13 pages, 11 cards, Ninja at 5/6, all local routes/assets/anchors and JavaScript syntax passed; 18 existing assets/styles unchanged. The new website QR independently decodes to https://lore.d4np4yn3.chatgpt.site/m/ninja/05/ and all pixels outside its box match the approved PNG.
+
+Existing approval persists across chats. Only Rare 03/06 remains.
 
 Next card direction: Dan wants Rare to be much wilder and action-led, with energy comparable to Asmongold riding Mail Muncher. The 32-elimination solo-squads game is proposed as a source; moment selection and artwork remain unapproved. Avoid another standing portrait under stage lights.
 
