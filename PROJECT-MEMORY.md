@@ -1,8 +1,10 @@
 # LORE project memory
 
-Updated 2026-09-13. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
+Updated 2026-09-14. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
 
 ## Current decisions
+
+- **Ninja — Low Taper Fade / Uncommon / Moment 02 of 06 is visually approved.** Dan approved the exact Review-v1 card on 2026-09-14: **“Lock that in. Add to GitHub and the site”**. Canonical PNG/SVG: cards/creators/ninja/low-taper-fade-master-01/LORE-Ninja-Low-Taper-Fade-Uncommon-v1.*; selected illustration: cards/creators/ninja/low-taper-fade-master-01/art.png. Phrase: **PROPHECY FULFILLED.**, verified from NFL on CBS's original caption. Preserve the turquoise fade, knowing expression, pointing gesture, blue jersey over white hoodie, drawn stadium and exact v4 layout. Four Ninja visuals are now approved; Rare and Legendary remain. GitHub master keeps its reviewed demo QR, while the existing website uses a separate QR-only sample. Website update explicitly authorised. Print release separate.
 
 - **Ninja — Pon Pon / Common / Moment 01 of 06 is visually approved.** Dan approved the completed phrase-added review (revision 2) on 2026-09-13: **“Ok approved for upload, this turned out better than I thought”**. Canonical PNG/SVG: cards/creators/ninja/pon-pon-master-01/LORE-Ninja-Pon-Pon-Common-v1.*; selected illustration: cards/creators/ninja/pon-pon-master-01/art.png. Phrase: **THE FIRST OF 2018!**, supplied by Dan and included in visual approval; primary audio/timestamp verification remains separate. Preserve the exact hand-drawn art, blue Luminosity hoodie, short brown hair/headset, drawn basement and jersey, circular yellow/red burst, longer inward red bars, hands behind the border and foreground stars. No ceiling lights or red emotes. Do not use earlier iterations or the blank-phrase review. Ninja now has three approved visuals: Common 01/06, Epic 04/06 and Mythic 06/06. Use the current-cards register and approval/hash/source records. Asmongold's six are unchanged. QR demo-only; print release separate.
 
@@ -34,4 +36,3 @@ Updated 2026-09-13. Read this alongside `AGENTS.md` at the start of LORE work. T
 ## How to avoid drift
 
 Start each new illustration with the approved original references, even during revisions. Compare faces, ink and shading at card size. A recent generated image is not automatically the next master. Record new approvals by exact file/hash and keep factual source references separate from style references. Read the current GitHub standards before acting on remembered chat context.
-

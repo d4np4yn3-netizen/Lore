@@ -1,21 +1,18 @@
 # LORE — current status
 
-Updated 2026-09-13. Read with AGENTS.md.
+Updated 2026-09-14. Read with AGENTS.md.
 
-## Current milestone: Ninja Common approved, uploaded and verified
+## Current milestone: Ninja Uncommon approved for GitHub and website
 
-Dan approved **PON / PON — Common / Moment 01 of 06**: **“Ok approved for upload, this turned out better than I thought”**.
-Phrase: **THE FIRST OF 2018!**, supplied by Dan and approved on the complete card.
+Dan approved **LOW TAPER / FADE — Uncommon / Moment 02 of 06**, phrase **PROPHECY FULFILLED.**: “Lock that in. Add to GitHub and the site”.
 
-Canonical PNG: cards/creators/ninja/pon-pon-master-01/LORE-Ninja-Pon-Pon-Common-v1.png; matching SVG, original art.png, approval, source notes and hash manifest are beside it. Preserve exact review revision 2 (the phrase-added version), the hand-drawn scene, red/yellow circular burst with longer inward red bars, hands behind the border and foreground stars. Earlier red-emote and ceiling-light variants were not selected.
+Canonical PNG: cards/creators/ninja/low-taper-fade-master-01/LORE-Ninja-Low-Taper-Fade-Uncommon-v1.png. Matching SVG, selected art.png, approval, source notes and hashes are beside it. These preserve the exact displayed Review-v1 bytes. No regeneration or layout changes are authorised by this upload.
 
-**Uploaded to main and verified:** commit [4690eb6373ad137c64ad9e7c67f79e5e4a301307](https://github.com/d4np4yn3-netizen/Lore/commit/4690eb6373ad137c64ad9e7c67f79e5e4a301307). All 13 published file blob hashes match the upload manifest, including the exact approved PNG, SVG and artwork. Ninja Epic, Ninja Mythic and all unrelated repository files are preserved. Upload is complete; do not repeat it or ask for the same approval. Resolve the set through cards/creators/ninja/current-cards.json.
+Ninja now has four approved visuals: Common 01/06, Uncommon 02/06, Epic 04/06 and Mythic 06/06. Rare and Legendary remain to be designed. Resolve exact files through cards/creators/ninja/current-cards.json. Asmongold's six approved cards remain unchanged.
 
-Ninja's three approved visuals are **Common — Pon Pon (01/06)**, **Epic — Not Enough Movement (04/06)** and **Mythic — Becoming the Icon (06/06)**. Three remain unapproved; no other provisional moments have been reassigned. Next action: await Dan's next card direction.
+Website: https://lore.d4np4yn3.chatgpt.site, existing Sites project appgprj_6aa7012d260881919cdb0f797a84d234. Preserve its current access. Add the new card and /m/ninja/02/ route using its existing QR-only sample workflow; retain the original canonical demo QR here. Source is the NFL on CBS TikTok, not YouTube. Phrase verified from its original post caption, not spoken dialogue.
 
-The six-card Asmongold set remains approved and unchanged. Resolve exact files through cards/creators/asmongold/current-cards.json. Mail Muncher v6 publication: 6839ffc685887c36cd076c424c2a8df53e342c0e, all 11 file blobs verified.
-
-Ninja's QRs remain the reviewed demos. Primary audio/timestamp verification and physical print release are separate from visual approval.
+Publication verification is recorded after GitHub and website delivery. Existing approval persists across chats. Next card work: Rare and Legendary.
 
 ## Preserved verified milestones
 
@@ -41,4 +38,3 @@ Live QR routes, primary audio/count/source checks, creator permissions and physi
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
-

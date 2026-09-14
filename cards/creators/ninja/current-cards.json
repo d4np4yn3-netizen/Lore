@@ -1,8 +1,8 @@
 {
   "creator": "Ninja",
-  "updated": "2026-09-13",
-  "approved_card_count": 3,
-  "collection_visual_status": "THREE_OF_SIX_APPROVED",
+  "updated": "2026-09-14",
+  "approved_card_count": 4,
+  "collection_visual_status": "FOUR_OF_SIX_APPROVED",
   "cards": [
     {
       "status": "VISUALLY_APPROVED",
@@ -40,6 +40,43 @@
       ],
       "print_release": false,
       "qr_status": "DEMO_ONLY"
+    },
+    {
+      "status": "VISUALLY_APPROVED",
+      "rarity": "uncommon",
+      "moment": "Low Taper Fade",
+      "moment_number": "02/06",
+      "front_revision": "LORE-FRONT-v4",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-14",
+      "approval_quote": "Lock that in. Add to GitHub and the site",
+      "approval_record": "cards/creators/ninja/low-taper-fade-master-01/approval.json",
+      "current_files": [
+        {
+          "path": "cards/creators/ninja/low-taper-fade-master-01/LORE-Ninja-Low-Taper-Fade-Uncommon-v1.png",
+          "bytes": 1521259,
+          "sha256": "b12979cb535b383585d5aa4c652c5f5f45d92949e51deb44eb6e3e8cebb03b63",
+          "git_blob": "3e07279677cb9969dafe75d88c7d2de8d29f012e"
+        },
+        {
+          "path": "cards/creators/ninja/low-taper-fade-master-01/LORE-Ninja-Low-Taper-Fade-Uncommon-v1.svg",
+          "bytes": 3434848,
+          "sha256": "c2d2215482d2b9dcd90f62f3eb0452d8439487a5646a80657cc20d49ff5675b1",
+          "git_blob": "9c06b860548d81ce670ec3426efede51618459d7"
+        }
+      ],
+      "artwork": {
+        "path": "cards/creators/ninja/low-taper-fade-master-01/art.png",
+        "bytes": 2550818,
+        "sha256": "b10e0b8c5c50cb5c8b4c4e65163eac0ab5e05d929498cfe3c3ddf81a8fdc3896",
+        "git_blob": "04943f43274be1c156bebde3a4bdb95449ceb525"
+      },
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "print_release": false,
+      "qr_status": "DEMO_ONLY_IN_CANONICAL_MASTER"
     },
     {
       "status": "VISUALLY_APPROVED",
