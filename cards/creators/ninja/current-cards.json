@@ -1,8 +1,8 @@
 {
   "creator": "Ninja",
   "updated": "2026-09-14",
-  "approved_card_count": 4,
-  "collection_visual_status": "FOUR_OF_SIX_APPROVED",
+  "approved_card_count": 5,
+  "collection_visual_status": "FIVE_OF_SIX_APPROVED",
   "cards": [
     {
       "status": "VISUALLY_APPROVED",
@@ -114,6 +114,43 @@
       ],
       "print_release": false,
       "qr_status": "DEMO_ONLY"
+    },
+    {
+      "status": "VISUALLY_APPROVED",
+      "rarity": "legendary",
+      "moment": "Vegas Takeover",
+      "moment_number": "05/06",
+      "front_revision": "LORE-FRONT-v4",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-14",
+      "approval_quote": "Yep, let's lock that in, add it to GitHub and add it to the site.",
+      "approval_record": "cards/creators/ninja/vegas-takeover-master-01/approval.json",
+      "current_files": [
+        {
+          "path": "cards/creators/ninja/vegas-takeover-master-01/LORE-Ninja-Vegas-Takeover-Legendary-v1.png",
+          "bytes": 1554253,
+          "sha256": "f37e16442b458bd906157a1c28d176eb119551c109fb390172eff64840eab8d2",
+          "git_blob": "989ee1e1b91809e7bc305acf5f7f084c52517129"
+        },
+        {
+          "path": "cards/creators/ninja/vegas-takeover-master-01/LORE-Ninja-Vegas-Takeover-Legendary-v1.svg",
+          "bytes": 3139479,
+          "sha256": "a65951094bffb9bf064d37b81f8e3abcab8bbecffc51c402425fa5b7239995aa",
+          "git_blob": "8033753ff4d307f79225438cfddc31d00ad6a7ab"
+        }
+      ],
+      "artwork": {
+        "path": "cards/creators/ninja/vegas-takeover-master-01/art.png",
+        "bytes": 2329605,
+        "sha256": "96ee47c5caadc1f056623a582b00177c7421e80377b0ff3f550da241c73b9a8c",
+        "git_blob": "ce5eb60c2949c34fababe4b9d0a4613a2ce3e296"
+      },
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "print_release": false,
+      "qr_status": "DEMO_ONLY_IN_CANONICAL_MASTER"
     },
     {
       "status": "VISUALLY_APPROVED",

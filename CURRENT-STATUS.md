@@ -2,24 +2,23 @@
 
 Updated 2026-09-14. Read with AGENTS.md.
 
-## Current milestone: Ninja Uncommon published to GitHub and website
+## Current milestone: Ninja Legendary approved for GitHub and website
 
-Dan approved **LOW TAPER / FADE — Uncommon / Moment 02 of 06**, phrase **PROPHECY FULFILLED.**: “Lock that in. Add to GitHub and the site”.
+Dan approved **VEGAS / TAKEOVER — Legendary / Moment 05 of 06**, phrase **ONE MILLION PERCENT.**: “Yep, let's lock that in, add it to GitHub and add it to the site.”.
 
-Canonical PNG: cards/creators/ninja/low-taper-fade-master-01/LORE-Ninja-Low-Taper-Fade-Uncommon-v1.png. Matching SVG, selected art.png, approval, source notes and hashes are beside it. These preserve the exact displayed Review-v1 bytes. No regeneration or layout changes are authorised by this upload.
+Canonical PNG: cards/creators/ninja/vegas-takeover-master-01/LORE-Ninja-Vegas-Takeover-Legendary-v1.png. Matching SVG, selected art.png, approval, source notes and hashes are beside it. These preserve the exact displayed Review-v2 and selected art-v2 bytes.
 
-Ninja now has four approved visuals: Common 01/06, Uncommon 02/06, Epic 04/06 and Mythic 06/06. Rare and Legendary remain to be designed. Resolve exact files through cards/creators/ninja/current-cards.json. Asmongold's six approved cards remain unchanged.
+Ninja now has five approved visuals: Common 01/06, Uncommon 02/06, Epic 04/06, Legendary 05/06 and Mythic 06/06. Only Rare 03/06 remains. Resolve exact files through cards/creators/ninja/current-cards.json. Asmongold's six approved cards remain unchanged.
 
-Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. New route: /m/ninja/02/. The separate site derivative points its QR to that route and preserves every approved pixel outside the existing QR box. The canonical master here retains its reviewed demo QR. Source is the NFL on CBS TikTok; the phrase is verified from its original caption, not spoken dialogue.
+Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. Add the card and /m/ninja/05/ route using the existing QR-only sample workflow; retain the reviewed demo QR in the canonical master. Source: the venue's full Ninja Vegas '18 archive, https://www.youtube.com/watch?v=9iPLee-FWvw. Event date 21 April 2018; archive uploaded June 2025. Phrase verified as an excerpt of the venue-published Ninja quotation; independent spoken audio/timestamp verification remains open.
 
-Verified GitHub delivery: a1ac8b48a0b0397abc5f6d595323790392c3af30; all 12 remote file blobs matched the upload manifest, including the exact approved PNG/SVG/art.
+Publication verification will be recorded after GitHub and website delivery. Existing approval persists across chats.
 
-Verified website delivery: version 3 published successfully at https://lore.d4np4yn3.chatgpt.site. Sites source commit: 2a0dd83374efeeeaeda54ac8efe66294325bb05a. Saved version: appgprj_6aa7012d260881919cdb0f797a84d234~appgver_dca0a66293b48191a629d9e918ccb137. Deployment: appgdep_6aa783358c6081918c36ec62894262d4. The current owner-private audience is preserved.
-
-Static verification: 12 pages, all local routes/assets/anchors, JavaScript syntax, exact existing brand assets, 10 cards with Ninja at 4/6, correct TikTok link, and independently decoded new QR URL. Existing site card assets and styles are unchanged. Existing approval persists across chats. Next card work: Rare and Legendary.
+Next card direction: Dan wants Rare to be much wilder and action-led, with energy comparable to Asmongold riding Mail Muncher. The 32-elimination solo-squads game is proposed as a source; moment selection and artwork remain unapproved. Avoid another standing portrait under stage lights.
 
 ## Preserved verified milestones
 
+- Ninja Uncommon — Low Taper Fade: GitHub a1ac8b48a0b0397abc5f6d595323790392c3af30 verified all 12 blobs; site version 3 published with /m/ninja/02/, source commit 2a0dd83374efeeeaeda54ac8efe66294325bb05a. Exact approved Review-v1 and PROPHECY FULFILLED. preserved.
 - Ninja Epic — Not Enough Movement: main commit 5038b7cca2d1e0e4b4859d44e580c10b930ca85b, all 13 file blobs verified. Exact approved Review-v4 PNG/SVG and softened-cheek artwork preserved; phrase **I’M NOT SEEING ENOUGH MOVEMENT!**
 - Ninja Mythic — Becoming the Icon: main commit 6a073bd56618cf596994a34089053f7f5d8af4a3, all 12 file blobs verified. Exact approved Review-v4 PNG/SVG and darker v3 illustration preserved; phrase **IT LOOKS JUST LIKE ME.**
 - Shower steam v3: main commit `a136683cdf9f1e3444889654c552efd655e92c8f`, all nine file blobs verified. Current PNG/SVG and art preserve the exact Steam Review v1 bytes.
