@@ -2,7 +2,7 @@
 
 Updated 2026-09-14. Read with AGENTS.md.
 
-## Current milestone: Ninja Uncommon approved for GitHub and website
+## Current milestone: Ninja Uncommon published to GitHub and website
 
 Dan approved **LOW TAPER / FADE — Uncommon / Moment 02 of 06**, phrase **PROPHECY FULFILLED.**: “Lock that in. Add to GitHub and the site”.
 
@@ -10,9 +10,13 @@ Canonical PNG: cards/creators/ninja/low-taper-fade-master-01/LORE-Ninja-Low-Tape
 
 Ninja now has four approved visuals: Common 01/06, Uncommon 02/06, Epic 04/06 and Mythic 06/06. Rare and Legendary remain to be designed. Resolve exact files through cards/creators/ninja/current-cards.json. Asmongold's six approved cards remain unchanged.
 
-Website: https://lore.d4np4yn3.chatgpt.site, existing Sites project appgprj_6aa7012d260881919cdb0f797a84d234. Preserve its current access. Add the new card and /m/ninja/02/ route using its existing QR-only sample workflow; retain the original canonical demo QR here. Source is the NFL on CBS TikTok, not YouTube. Phrase verified from its original post caption, not spoken dialogue.
+Website: https://lore.d4np4yn3.chatgpt.site, existing owner-private Sites project appgprj_6aa7012d260881919cdb0f797a84d234. New route: /m/ninja/02/. The separate site derivative points its QR to that route and preserves every approved pixel outside the existing QR box. The canonical master here retains its reviewed demo QR. Source is the NFL on CBS TikTok; the phrase is verified from its original caption, not spoken dialogue.
 
-Publication verification is recorded after GitHub and website delivery. Existing approval persists across chats. Next card work: Rare and Legendary.
+Verified GitHub delivery: a1ac8b48a0b0397abc5f6d595323790392c3af30; all 12 remote file blobs matched the upload manifest, including the exact approved PNG/SVG/art.
+
+Verified website delivery: version 3 published successfully at https://lore.d4np4yn3.chatgpt.site. Sites source commit: 2a0dd83374efeeeaeda54ac8efe66294325bb05a. Saved version: appgprj_6aa7012d260881919cdb0f797a84d234~appgver_dca0a66293b48191a629d9e918ccb137. Deployment: appgdep_6aa783358c6081918c36ec62894262d4. The current owner-private audience is preserved.
+
+Static verification: 12 pages, all local routes/assets/anchors, JavaScript syntax, exact existing brand assets, 10 cards with Ninja at 4/6, correct TikTok link, and independently decoded new QR URL. Existing site card assets and styles are unchanged. Existing approval persists across chats. Next card work: Rare and Legendary.
 
 ## Preserved verified milestones
 
