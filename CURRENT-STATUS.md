@@ -16,16 +16,29 @@ art directly as its rendering reference, across characters, props and background
 Creator art and shared brand/layout/back/size remain unchanged. The prior HODL
 master is archived; current-cards.json now resolves master-02.
 
-**Next action: restyle Pizza Day and present it for review.** Then The Merge,
+**Next action: Dan reviews the first restyled Pizza Day candidate.** Then The Merge,
 Birth of Doge and the unapproved First Transfer draft, one card at a time.
 See cards/crypto/STYLE-MIGRATION.md. Prior approvals are retained, but only HODL
 has been approved in the new style. Four approved crypto visuals, not five.
 First Transfer was drafted in this conversation and remains paused/unapproved;
 historical statements below about it not yet being generated are superseded.
 
-Approval, exact bytes, source notes, prompt and hashes are staged for the authorised
-GitHub save. Publication verifies the changed blobs and unrelated-file preservation.
-Demo QR; no website deployment or print release. Do not repeat visual approval.
+Verified GitHub delivery: 1910d0da5303603cfee9a54fa76e084beb700884. All 28 changed
+blobs/byte counts matched; 343 unrelated blobs preserved; main tip verified.
+Approval, exact PNG/SVG/art, source notes, prompt and hashes are archived.
+Demo QR; no website deployment or print release. Do not repeat HODL approval.
+
+Pizza Day candidate completed: LORE-Bitcoin-Pizza-Day-Legendary-Style-Review-v1.png,
+Library libfile_305d48c0f0b08191a76fb83a05e8598c. Editable source package:
+LORE-Bitcoin-Pizza-Day-Style-Review-v1-Source.zip, Library
+libfile_644565d3146881918369fd45fb26ebb6. Both version 0.
+Uses the pinned HODL master directly and the previous Pizza Day art for composition.
+It is an unapproved review; the current approved Pizza master has not been replaced.
+The pinned Legendary template is verified; artwork is shifted upward 40 SVG units
+to keep the napkin clue clear of the fixed title. This is a reviewed-candidate
+placement and an editable reconstruction of the older raster, not a claim that
+its old layout is pixel-identical. Main Easter eggs and actual demo QR checked.
+Do not start The Merge until Dan selects the Pizza Day revision.
 
 ## Previous milestone: Birth of Doge approved and archived
 
