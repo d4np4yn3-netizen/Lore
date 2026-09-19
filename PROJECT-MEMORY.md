@@ -4,6 +4,17 @@ Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Birth of HODL — Epic is approved.** Dan: “approved upload to github and decide next card”.
+  Preserve exact Review-v2 PNG/SVG and art-v3, without the raised D/L keycaps.
+  Canonical folder: `cards/crypto/season-01/birth-of-hodl-master-01`. Phrase **I AM HODLING.**, date **18 DEC 2013**.
+  Source: original GameKyuubi forum thread 375643. Illustration is fictional;
+  small monitor interface lettering is approximate. GitHub publication authorised.
+  QR is demo-only; no website deployment or print release in this task.
+  Crypto now has two approved visuals: Pizza Day Legendary and HODL Epic.
+  Next assistant recommendation: **The Merge / Mythic / 15 SEP 2022**, original
+  spacecraft engine-swap scene with sourced Easter eggs. See
+  `cards/crypto/next-card-the-merge.md`; proposal is not visual approval.
+
 - **Crypto Season One; Gaming Creators planned Season Two.** Dan approved the
   latest Pizza Day Legendary preview and GitHub addition on 19 September 2026.
   Exact PNG/art and evidence are in `cards/crypto/season-01/pizza-day-master-01`.

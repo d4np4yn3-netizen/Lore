@@ -2,7 +2,27 @@
 
 Updated 2026-09-19. Read with AGENTS.md.
 
-## Current milestone: Crypto rules and exact approved Pizza Day visual
+## Current milestone: Birth of HODL approved and archived
+
+Dan approved the exact Review-v2 without raised D/L keycaps and authorised
+GitHub upload. Canonical PNG/SVG: `cards/crypto/season-01/birth-of-hodl-master-01/LORE-Birth-of-HODL-Epic-v1.*`.
+Selected illustration: `art.png` in the same folder. Files preserve the exact
+reviewed bytes; approval, source notes, prompts and hashes are beside them.
+Use `cards/crypto/current-cards.json` for both approved crypto cards.
+
+Phrase **I AM HODLING.**, date **18 DEC 2013**, Epic. Existing template geometry
+was checked during rendering; QR independently decoded to the demo destination.
+No website deployment or print release in this task. Preserve the normal keyboard.
+Upload verification checks all changed remote blobs/byte counts and preserved
+unrelated files before updating main; identify this change from Git history.
+
+**Next proposed card: The Merge — Mythic / 15 SEP 2022.** Original anime spacecraft
+changing engines mid-flight; Easter eggs BELLATRIX/PARIS, Beacon launch date and
+estimated ~99.95% energy reduction. See `cards/crypto/next-card-the-merge.md` for
+sources and scope. Next action: develop the proposed artwork after concept review;
+choose a verified phrase. No visual approval or production count is inferred.
+
+## Previous milestone: Crypto rules and exact approved Pizza Day visual
 
 Dan approved the latest Pizza Day card for GitHub. Canonical preview:
 `cards/crypto/season-01/pizza-day-master-01/LORE-Bitcoin-Pizza-Day-Legendary-v1.png`.
@@ -25,7 +45,7 @@ This selected card is a raster preview; no matching editable SVG was retrieved.
 GitHub delivery is checked against the upload manifest after committing.
 No website deployment or print release is part of this upload.
 
-Next task: prepare a separately reviewed editable/production derivative with
+Outstanding production task: prepare a separately reviewed editable/production derivative with
 the pinned templates and working QR when needed. Recheck transaction screen
 fields before printing; preserve this approved raster. The homepage season
 wording and existing creator footer labels still need a coordinated update

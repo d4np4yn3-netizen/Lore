@@ -2,7 +2,7 @@
   "updated": "2026-09-19",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 1,
+  "approved_visual_count": 2,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -57,6 +57,77 @@
         "bytes": 2671526,
         "sha256": "bf2429afb595d00b5d1db071d8f1aa4646fea155b8068cdc813c9a4ce9d1de56",
         "git_blob": "aeb6265b5967c7c2468a795a368efcb6fab3710b"
+      }
+    },
+    {
+      "rarity": "epic",
+      "creator": "BITCOIN",
+      "title_line_1": "BIRTH OF",
+      "title_line_2": "HODL",
+      "context": "I AM HODLING.",
+      "moment_label": "18 DEC 2013",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/birth-of-hodl-master-01/art.png",
+      "qr_url": "https://example.com/lore/crypto/birth-of-hodl",
+      "status": "VISUALLY_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "phrase_status": "APPROVED_AND_SOURCE_TITLE_VERIFIED",
+      "source": "https://bitcointalk.org/index.php?topic=375643.0",
+      "event_date": "2013-12-18",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "demo",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Fictional anonymous adult and surreal room; not a portrait or reconstruction of GameKyuubi.",
+      "id": "crypto-s01-birth-of-hodl",
+      "collection": "crypto",
+      "season": 1,
+      "subject": "BITCOIN",
+      "title_lines": [
+        "BIRTH OF",
+        "HODL"
+      ],
+      "event_date_display": "18 DEC 2013",
+      "footer": "CRYPTO • SEASON 01",
+      "front": "cards/crypto/season-01/birth-of-hodl-master-01/LORE-Birth-of-HODL-Epic-v1.png",
+      "editable_svg": "cards/crypto/season-01/birth-of-hodl-master-01/LORE-Birth-of-HODL-Epic-v1.svg",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-19",
+      "approval_quote": "approved upload to github and decide next card",
+      "approval_record": "cards/crypto/season-01/birth-of-hodl-master-01/approval.json",
+      "source_notes": "cards/crypto/season-01/birth-of-hodl-master-01/source-notes.md",
+      "moment_number": null,
+      "set_size": null,
+      "print_quantities": null,
+      "qr_status": "DEMO_ONLY",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/birth-of-hodl-master-01/LORE-Birth-of-HODL-Epic-v1.png",
+          "bytes": 1664452,
+          "sha256": "b05829ebbe7b50c0e1c96ab135b0f522ffefcda622570106bfd9fa437c44022c",
+          "git_blob": "eea3b6b8a368ca52eabc27d301ef11fdeef0a6bc"
+        },
+        {
+          "path": "cards/crypto/season-01/birth-of-hodl-master-01/LORE-Birth-of-HODL-Epic-v1.svg",
+          "bytes": 3395610,
+          "sha256": "cb91a48f1d6a5b934900d6314b5729ddd3a10b5c7e60e73244ca492a4c7eb576",
+          "git_blob": "65fce4f75204824c1d8571bbfc76a68692f6963e"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/birth-of-hodl-master-01/art.png",
+        "bytes": 2519944,
+        "sha256": "419f826fd829814fa7b658a5ba47b8c6c329b5806b7d0da3501efd89ab0edaec",
+        "git_blob": "86ff0014460ac80ee36a3e793f535d75fde7fa60"
       }
     }
   ]
