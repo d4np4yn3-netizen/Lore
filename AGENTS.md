@@ -9,6 +9,19 @@ Read these files from the current repository before any brand, card, packaging o
 4. `brand/assets/asset-manifest.json`
 5. `brand/ASSET-QA.md`
 
+## Approved crypto collection extension — 19 September 2026
+
+Dan has approved adding Crypto as Season One, with Gaming Creators planned as
+Season Two. Read `cards/crypto/COLLECTION-RULES.md` and resolve approved crypto
+files through `cards/crypto/current-cards.json`. Crypto uses one rarity per event,
+standard and foil finishes at every tier, and an event date beneath the rarity.
+The six-moment rule continues for creator collections. Existing layout, brand
+assets, anime style, shared back and physical size rules remain in force.
+The exact first Pizza Day raster is an approved visual reference; it is not
+claimed as an editable or print-ready master. Preserve it without regeneration.
+These authorised collection exceptions supersede earlier creator-only launch
+wording. They do not approve NFT financial entitlements or new brand geometry.
+
 ## Current card layout and badge rule
 
 LORE-FRONT-v4 is current. Dan approved the right-hand badge comparison on 2026-09-13 and authorised applying it across approved cards and all six templates. Read `cards/12-RARITY-BADGE-SPACING.md`, use `cards/master/front-v4/source/render_card.py`, and resolve current card files through `cards/creators/asmongold/current-cards.json`. Badge width is visible glyph width plus 44 units, with equal 22-unit side padding and centred text. Do not use character-count sizing or a minimum width. All other layout, artwork and copy remain locked. The original front-v3 files and prior approved card files are historical; do not overwrite them.
@@ -21,7 +34,7 @@ LORE-FRONT-v4 is current. Dan approved the right-hand badge comparison on 2026-0
 - Do not regenerate a logo, crown, tagline, serial number or QR inside a final illustration. Composite the exact approved separate assets and typeset approved text instead.
 - Produce new illustrations without brand lettering; apply the locked brand layer afterwards. An export request is not permission to redesign.
 - Generate every colourway and lockup from the SAME approved lettering geometry and the SAME approved crown geometry. No separately invented crowns.
-- Keep the six rarity names and order unchanged. Keep the researched-six-moments principle. Do not reintroduce game stats or crypto into the collectible-first launch without approval.
+- Keep the six rarity names and order unchanged. Keep the researched-six-moments principle for creator collections. Use the approved crypto collection extension above for event cards. Do not introduce game stats or NFT financial entitlements without approval.
 - If a change to wording, geometry, proportion, palette or layout is necessary, present the precise change separately and wait for Daniel Payne's approval before promoting it.
 
 ## Assets and delivery

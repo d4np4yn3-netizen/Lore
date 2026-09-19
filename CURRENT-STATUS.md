@@ -1,8 +1,37 @@
 # LORE — current status
 
-Updated 2026-09-14. Read with AGENTS.md.
+Updated 2026-09-19. Read with AGENTS.md.
 
-## Current milestone: Ninja Rare published to GitHub and website
+## Current milestone: Crypto rules and exact approved Pizza Day visual
+
+Dan approved the latest Pizza Day card for GitHub. Canonical preview:
+`cards/crypto/season-01/pizza-day-master-01/LORE-Bitcoin-Pizza-Day-Legendary-v1.png`.
+Selected illustration: `art.png` beside it. Both preserve the approved input bytes.
+Resolve files through `cards/crypto/current-cards.json`; read the accompanying
+rules, approval, source notes and hash manifest. Earlier overlays are rejected.
+
+Crypto rules: one rarity per event; standard and foil finishes at every tier;
+event date replaces creator 01/06 numbering. Crypto is Season One, Gaming
+Creators planned Season Two. Existing layout/style/back/63 × 88 mm remain locked.
+Set size, collector numbering, quantities and pack odds are still undecided.
+
+Pizza Day remains **22 MAY 2010**. Primary forum evidence separates the 18 May
+offer, 21 May follow-up and 22 May completion confirmation. The screen timestamp
+must not be described as pizza delivery time.
+
+Verification before upload: both PNGs decode at 1060 × 1484 and match the exact
+selected hashes. Actual QR decodes to the expected example.com placeholder.
+This selected card is a raster preview; no matching editable SVG was retrieved.
+GitHub delivery is checked against the upload manifest after committing.
+No website deployment or print release is part of this upload.
+
+Next task: prepare a separately reviewed editable/production derivative with
+the pinned templates and working QR when needed. Recheck transaction screen
+fields before printing; preserve this approved raster. The homepage season
+wording and existing creator footer labels still need a coordinated update
+before presenting the revised launch order publicly.
+
+## Previous milestone: Ninja Rare published to GitHub and website
 
 Dan approved **ONE-MAN / SQUAD — Rare / Moment 03 of 06**, phrase **PERSONAL RECORD.**: “Ok approved for github and site!”.
 

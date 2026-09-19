@@ -1,8 +1,21 @@
 # LORE project memory
 
-Updated 2026-09-14. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
+Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
 
 ## Current decisions
+
+- **Crypto Season One; Gaming Creators planned Season Two.** Dan approved the
+  latest Pizza Day Legendary preview and GitHub addition on 19 September 2026.
+  Exact PNG/art and evidence are in `cards/crypto/season-01/pizza-day-master-01`.
+  See `cards/crypto/current-cards.json` for current files and hashes. One rarity
+  per event; standard and foil versions for every card. Event date replaces
+  creator moment numbering. Set size, quantities and collector numbering remain
+  undecided. Preserve existing LORE geometry and hand-drawn anime style.
+  Pizza Day's date is **22 May 2010**, confirmed by the completion post; the offer
+  was made on **18 May**, followed up on **21 May**. Latest approved preview is
+  raster-only with demo QR. No editable SVG or print release is claimed.
+  Existing twelve creator visuals are preserved. Homepage season wording has
+  not been changed in this GitHub upload. NFT/revenue-share ideas remain open.
 
 - **Ninja — One-Man Squad / Rare / Moment 03 of 06 is visually approved.** Dan approved the exact displayed Review-v4 on 2026-09-14: **“Ok approved for github and site!”**. Canonical PNG/SVG: cards/creators/ninja/one-man-squad-master-01/LORE-Ninja-One-Man-Squad-Rare-v1.*; selected art-v4 preserved as cards/creators/ninja/one-man-squad-master-01/art.png. Phrase: **PERSONAL RECORD.**, verified on the original thumbnail of https://www.youtube.com/watch?v=jwerp2SNiTQ, not a spoken quotation. Actual gameplay previews confirm the gingerbread outfit. Preserve the braced legs, corrected straight launcher, Ninja likeness, orange explosion lighting and blue storm highlights. Earlier airborne poses and bent-launcher art are superseded. GitHub delivery c95b6a1303487327a718bde08ad3b607b4ae992b verified all 20 file blobs. Website version 5 published successfully at https://lore.d4np4yn3.chatgpt.site with /m/ninja/03/ and the existing owner-private access. **All six Ninja visuals are now approved; twelve approved fronts with Asmongold's six.** Canonical demo QR and separate live-site QR derivative follow the established workflow; physical print release remains separate.
 

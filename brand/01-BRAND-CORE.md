@@ -26,7 +26,7 @@ Use this on creator display frames, complete-set pages, collector messaging and 
 
 ## Brand proposition
 
-LORE transforms the defining moments of internet creators into premium collectible art.
+LORE transforms defining moments of internet culture into premium collectible art. Crypto history is the approved Season One direction; Gaming Creators is planned as Season Two. See [crypto rules](../cards/crypto/COLLECTION-RULES.md).
 
 Every featured creator is researched before artwork begins. Their collection is built from six genuine moments drawn from public posts, streams, videos, achievements, memes, milestones and community history.
 
@@ -51,7 +51,7 @@ LORE is not:
 
 - a parody sticker brand
 - a generic celebrity card product
-- a crypto project
+- a promise of investment returns
 - an NFT-first product
 - a children-only card game
 - a direct imitation of any existing anime or TCG
@@ -59,6 +59,6 @@ LORE is not:
 
 ## Long-term ambition
 
-LORE begins with internet creators but the brand should remain broad enough to expand into other cultural figures and moments where rights and partnerships permit.
+LORE spans crypto history and internet creators, with room to expand into other cultural figures and moments where rights and partnerships permit. The optional NFT companion remains a separate product decision.
 
 The brand name and core language must therefore avoid being locked permanently to one platform, one type of creator or one genre.

@@ -4,7 +4,7 @@
   "status": "VISUAL_DESIGN_AND_TRIM_SIZE_LOCKED",
   "record": "operations/12-SHARED-BACK-V5-APPROVAL-2026-09-12.md",
   "selected_by": "Daniel Payne",
-  "scope": "LORE-FRONT-v4: the approved v3 front with equal visible-word badge padding; original illustration references, approved LORE-BACK-v5 and 63 \u00d7 88 mm trim retained.",
+  "scope": "LORE-FRONT-v4: the approved v3 front with equal visible-word badge padding; original illustration references, approved LORE-BACK-v5 and 63 × 88 mm trim retained.",
   "front_reference": "cards/master/front-v4/references/LORE-Six-Rarity-Layouts-v4.png",
   "standard": "cards/07-FRONT-LAYOUT-AND-ART-MASTER.md",
   "master_directory": "cards/master/front-v4",
@@ -146,7 +146,7 @@
     "physical_print_proof": false,
     "physical_qr_scan_test": false,
     "live_qr_routes": false,
-    "lock_scope": "Visual design and 63 \u00d7 88 mm finished size; printer-specific preparation, physical proof and release gates remain pending.",
+    "lock_scope": "Visual design and 63 × 88 mm finished size; printer-specific preparation, physical proof and release gates remain pending.",
     "physical_trim_size_approved": true
   },
   "front_revision": "LORE-FRONT-v4",
@@ -154,7 +154,7 @@
   "physical_size": {
     "revision": "LORE-SIZE-v1.0",
     "status": "APPROVED",
-    "format": "Standard TCG / Pok\u00e9mon and Magic: The Gathering size",
+    "format": "Standard TCG / Pokémon and Magic: The Gathering size",
     "orientation": "portrait",
     "width_mm": 63,
     "height_mm": 88,
@@ -199,5 +199,22 @@
     "approved_by": "Dan Payne",
     "approved_at": "2026-09-13",
     "approval_quote": "agreed, right hand version is approved"
+  },
+  "collection_profiles": {
+    "creators": {
+      "moments_per_creator": 6,
+      "existing_files_unchanged": true
+    },
+    "crypto": {
+      "standard": "cards/crypto/COLLECTION-RULES.md",
+      "data": "cards/crypto/collection-rules.json",
+      "approved_exceptions": [
+        "event date in moment counter",
+        "subject in creator field",
+        "crypto season footer"
+      ],
+      "base_geometry_changed": false,
+      "raster_preview_is_not_deterministic_master": true
+    }
   }
 }

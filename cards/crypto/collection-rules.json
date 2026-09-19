@@ -1,0 +1,44 @@
+{
+  "revision": "LORE-CRYPTO-v1.0",
+  "recorded_at": "2026-09-19",
+  "approved_by": "Dan Payne",
+  "base_layout": "LORE-FRONT-v4",
+  "base_card_lock": "LORE-CARD-v1.1",
+  "season": 1,
+  "collection": "Crypto",
+  "creator_season": 2,
+  "rarities": [
+    "common",
+    "uncommon",
+    "rare",
+    "epic",
+    "legendary",
+    "mythic"
+  ],
+  "rarities_per_event": 1,
+  "finishes": [
+    "standard",
+    "foil"
+  ],
+  "foil_is_separate_rarity": false,
+  "higher_rarity_smaller_print_quantity": true,
+  "print_quantities": null,
+  "pack_odds": null,
+  "set_size": null,
+  "collector_numbering": null,
+  "field_mapping": {
+    "moment_label": "event_date_display",
+    "creator": "subject",
+    "footer": "CRYPTO • SEASON 01"
+  },
+  "date_display_format": "DD MMM YYYY",
+  "date_semantics": "represented event; record proposal and completion separately",
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "shared_back": "LORE-BACK-v5",
+  "geometry_typography_brand_and_anime_style_unchanged": true,
+  "standard": "cards/crypto/COLLECTION-RULES.md",
+  "nft_revenue_share_approved": false
+}
