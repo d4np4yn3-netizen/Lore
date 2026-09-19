@@ -1,0 +1,38 @@
+{
+  "revision": "LORE-CRYPTO-STYLE-v1.0",
+  "status": "APPROVED_PERMANENT_COLLECTION_REFERENCE",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-09-19",
+  "approval_quote": "Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!",
+  "product_scope": "All crypto collection cards and all rarity levels; creator collection unchanged.",
+  "standard": "cards/crypto/ART-STYLE.md",
+  "approval_record": "cards/crypto/season-01/birth-of-hodl-master-02/approval.json",
+  "master": {
+    "card": {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png",
+      "bytes": 1537815,
+      "sha256": "3071f36bf41d9f50a7e59d49cf4e74cd5151bcf200674e2bb1dba1e41e41aa6f",
+      "git_blob": "8264073277cfd0f2867c842e9eb7eea425946f87"
+    },
+    "editable_svg": {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.svg",
+      "bytes": 3190110,
+      "sha256": "9da8a3668f47d7a0872c527202195452eaebfc75dccafb12feaebb35c02af65f",
+      "git_blob": "b9fe0115b276b377e9df650d9c753707e54f4072"
+    },
+    "art": {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "bytes": 2365820,
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "git_blob": "bf4905441d3668c47006f103993489de3ba0c368"
+    }
+  },
+  "whole_scene": true,
+  "use_art_directly_in_every_generation_and_revision": true,
+  "do_not_chain_new_cards_as_replacement_master": true,
+  "creator_style_is_not_crypto_gate": true,
+  "brand_layout_fonts_rarity_colours_back_trim_unchanged": true,
+  "historical_hodl_master": "cards/crypto/season-01/birth-of-hodl-master-01",
+  "review_required_for_each_replacement": true,
+  "migration_queue": "cards/crypto/STYLE-MIGRATION.md"
+}

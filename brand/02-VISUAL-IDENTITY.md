@@ -44,6 +44,13 @@ Rarity-specific colours belong to the card system. They must not recolour the lo
 
 The brand itself should remain predominantly monochrome/gold so creator artwork and rarity finishes provide the colour.
 
+## Collection art direction
+
+Creator cards retain their existing approved references. Crypto is a separate
+product with the explicitly approved [HODL whole-scene style](../cards/crypto/ART-STYLE.md).
+Use that original LORE illustration as the permanent reference, keeping each
+crypto event's own subjects and story. The shared logo and card layout are unchanged.
+
 ## Art direction
 
 LORE artwork should draw from the visual energy of premium modern shōnen manga/anime without directly copying any existing series or living artist.
@@ -97,3 +104,4 @@ Body/UI typography is a recommendation, not a new font approval: a clear sans se
 ## Selected card illustration reference
 
 For card composition and illustration consistency, use [LORE-FRONT-v4](../cards/07-FRONT-LAYOUT-AND-ART-MASTER.md). Its six pinned templates apply the approved equal-padding rarity badges while retaining the original v3 artwork references, drawn style and header/QR clearance. This supplements the brand rules without changing the LORE-04 logo geometry. The [LORE-BACK-v5 shared back](../cards/08-SHARED-BACK-MASTER.md) is now explicitly approved alongside that front reference. Physical finishes and printer specifications remain separate review items.
+

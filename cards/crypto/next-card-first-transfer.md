@@ -1,3 +1,13 @@
+# First Transfer — paused during style migration
+
+Update 19 September 2026: this concept was drafted and revised in conversation,
+but no First Transfer card is visually approved. Preserve the existing concept
+and source notes below. Restyle it after Pizza Day, The Merge and Birth of Doge,
+using the pinned HODL art directly. See STYLE-MIGRATION.md.
+The earlier draft reference is recorded in that queue.
+
+---
+
 # Next proposed card — First Transfer
 
 Assistant recommendation, 19 September 2026. Concept only; no new visual approval.

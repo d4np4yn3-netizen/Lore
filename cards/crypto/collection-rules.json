@@ -1,5 +1,5 @@
 {
-  "revision": "LORE-CRYPTO-v1.0",
+  "revision": "LORE-CRYPTO-v1.1",
   "recorded_at": "2026-09-19",
   "approved_by": "Dan Payne",
   "base_layout": "LORE-FRONT-v4",
@@ -38,7 +38,13 @@
     88
   ],
   "shared_back": "LORE-BACK-v5",
-  "geometry_typography_brand_and_anime_style_unchanged": true,
+  "geometry_typography_brand_and_anime_style_unchanged": false,
   "standard": "cards/crypto/COLLECTION-RULES.md",
-  "nft_revenue_share_approved": false
+  "nft_revenue_share_approved": false,
+  "geometry_typography_brand_unchanged": true,
+  "creator_style_required": false,
+  "art_style": "LORE-CRYPTO-STYLE-v1.0",
+  "art_style_standard": "cards/crypto/ART-STYLE.md",
+  "art_style_lock": "cards/crypto/style-reference-lock.json",
+  "one_card_at_a_time": true
 }

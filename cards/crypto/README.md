@@ -1,20 +1,26 @@
 # LORE Crypto — Season One
 
-[Collection rules](COLLECTION-RULES.md) · [Machine-readable rules](collection-rules.json) ·
-[Current cards](current-cards.json)
+[Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
+[Collection rules](COLLECTION-RULES.md) · [Current cards](current-cards.json) ·
+[Restyle queue](STYLE-MIGRATION.md)
 
-- [Bitcoin Pizza Day — Legendary / 22 May 2010](season-01/pizza-day-master-01/README.md): approved visual.
+**Permanent style master: [Birth of HODL v2](season-01/birth-of-hodl-master-02/README.md).**
+Dan approved the complete refined illustration, including the background, on
+19 September 2026. Use its art directly in every crypto generation or revision.
 
-- [Birth of HODL — Epic / 18 December 2013](season-01/birth-of-hodl-master-01/README.md): approved visual, with the raised keycaps removed.
+Crypto and Creator cards are separate products. The creator art direction stays
+unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 
-- [The Merge — Mythic / 15 September 2022](season-01/the-merge-master-01/README.md): approved exact engine-swap visual.
+| Card | Current visual | Migration |
+| --- | --- | --- |
+| Birth of HODL — Epic | [Approved v2](season-01/birth-of-hodl-master-02/README.md) | Complete; permanent master |
+| Pizza Day — Legendary | [Earlier approval](season-01/pizza-day-master-01/README.md) | First restyle |
+| The Merge — Mythic | [Earlier approval](season-01/the-merge-master-01/README.md) | Waiting |
+| Birth of Doge — Epic | [Earlier approval](season-01/birth-of-doge-master-01/README.md) | Waiting |
 
-- [Birth of Doge — Epic / 6 December 2013](season-01/birth-of-doge-master-01/README.md): approved exact Kabosu and coin-press visual.
+[First Transfer](next-card-first-transfer.md) remains an unapproved draft.
+Finish existing cards one by one before adding new events.
 
-Next proposed card: [First Transfer](next-card-first-transfer.md). Concept, Legendary rarity and phrase await review.
-
-One rarity per event. Standard and foil editions of every card. Event dates
-replace creator 01/06 counters; final set size, collector numbering and print
-quantities remain undecided. Retain the existing LORE layout and anime style.
-Crypto is Season One; Gaming Creators is planned as Season Two. The twelve
-creator visuals remain in their original folders and are not relabelled here.
+One rarity per event, standard and foil editions, event dates under the badge.
+LORE-FRONT-v4, shared back v5, brand, fonts and 63 × 88 mm trim remain fixed.
+Set size, collector numbering, production quantities and pack odds are undecided.

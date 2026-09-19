@@ -2,7 +2,32 @@
 
 Updated 2026-09-19. Read with AGENTS.md.
 
-## Current milestone: Birth of Doge approved and archived
+## Current milestone: HODL v2 approved as permanent crypto style master
+
+Dan: “Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!”
+Exact selected card: cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png, matching SVG and art.png.
+This is the background-refined Manhwa Review-v2, not the earlier character-only test.
+Approved card SHA-256: 3071f36bf41d9f50a7e59d49cf4e74cd5151bcf200674e2bb1dba1e41e41aa6f
+Approved art SHA-256: 412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1
+
+Read cards/crypto/ART-STYLE.md and cards/crypto/style-reference-lock.json.
+Crypto and Creator cards are separate products. All crypto art must use this HODL
+art directly as its rendering reference, across characters, props and backgrounds.
+Creator art and shared brand/layout/back/size remain unchanged. The prior HODL
+master is archived; current-cards.json now resolves master-02.
+
+**Next action: restyle Pizza Day and present it for review.** Then The Merge,
+Birth of Doge and the unapproved First Transfer draft, one card at a time.
+See cards/crypto/STYLE-MIGRATION.md. Prior approvals are retained, but only HODL
+has been approved in the new style. Four approved crypto visuals, not five.
+First Transfer was drafted in this conversation and remains paused/unapproved;
+historical statements below about it not yet being generated are superseded.
+
+Approval, exact bytes, source notes, prompt and hashes are staged for the authorised
+GitHub save. Publication verifies the changed blobs and unrelated-file preservation.
+Demo QR; no website deployment or print release. Do not repeat visual approval.
+
+## Previous milestone: Birth of Doge approved and archived
 
 Dan: “approved, upload and move to next card”. Canonical exact Review-v1 PNG/SVG:
 `cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.*`; selected illustration `art.png` beside them.

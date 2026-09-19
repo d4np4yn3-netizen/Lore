@@ -4,6 +4,26 @@ Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Crypto has its own approved art direction: LORE-CRYPTO-STYLE-v1.0.** Dan explicitly selected
+  the background-refined HODL Manhwa Review-v2 as permanent style master:
+  “Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!”
+  Exact approved files: cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png and matching SVG; art.png beside them.
+  Read cards/crypto/ART-STYLE.md and its style-reference-lock.json. Always supply
+  this art directly in every crypto generation/edit, including backgrounds,
+  props and creatures. Do not chain later cards as replacement style masters.
+  Crypto and Creator cards are separate products; Asmongold is not the crypto
+  style gate. Shared brand/layout/fonts/rarity colours/back/size remain unchanged.
+  Save this exact HODL and migrate one card at a time: Pizza Day, The Merge,
+  Birth of Doge, then the existing unapproved First Transfer draft.
+  Review each successor before moving on. Old approved files stay archived.
+  The earlier character-only HODL test was not selected as the final reference.
+
+## Previous decisions and preserved approvals
+
+The earlier visual selections below retain their historical approval. For the
+current crypto art direction and current HODL files, the decision above takes
+precedence. Older pending-concept/next-card descriptions are historical.
+
 - **Birth of Doge — Epic is approved.** Dan: “approved, upload and move to next card”.
   Preserve exact Review-v1 PNG/SVG and art in `cards/crypto/season-01/birth-of-doge-master-01`.
   Phrase **VERY CURRENCY.**, date **06 DEC 2013**, subject DOGECOIN. Keep Kabosu's

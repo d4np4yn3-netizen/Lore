@@ -2,6 +2,14 @@
 
 **Status: original LORE-FRONT-v3 art direction reaffirmed by Daniel Payne on 2026-09-12.** The specifically selected steak artwork supplements that direction. This does not redesign the front template, branding, back or physical format.
 
+## Collection scope
+
+The original references below remain authoritative for Creator cards. Crypto
+uses its separately approved [HODL whole-scene master](crypto/ART-STYLE.md) and
+[crypto reference lock](crypto/style-reference-lock.json), approved 19 September
+2026. This collection-specific decision overrides the creator reference inputs
+and older texture requirements for crypto only. Shared layout and brand rules apply.
+
 ## Authority
 
 Use [the reference manifest](style-reference-lock.json) to locate and verify the files. The original v3 set remains the baseline. Dan specifically reattached these four fronts and described them as almost perfect:

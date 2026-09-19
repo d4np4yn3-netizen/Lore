@@ -74,5 +74,15 @@
   "current_layout_revision": "LORE-FRONT-v4",
   "layout_rule": "cards/12-RARITY-BADGE-SPACING.md",
   "current_approved_cards": "cards/creators/asmongold/current-cards.json",
-  "original_references_note": "Original art/style references remain unchanged; their old badge geometry is historical. Use front-v4 for current card layout."
+  "original_references_note": "Original art/style references remain unchanged; their old badge geometry is historical. Use front-v4 for current card layout.",
+  "scope": "Creator collections; Crypto uses the explicit override below.",
+  "collection_overrides": {
+    "crypto": {
+      "reference_manifest": "cards/crypto/style-reference-lock.json",
+      "standard": "cards/crypto/ART-STYLE.md",
+      "approved_at": "2026-09-19",
+      "master": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "override_original_creator_references": true
+    }
+  }
 }

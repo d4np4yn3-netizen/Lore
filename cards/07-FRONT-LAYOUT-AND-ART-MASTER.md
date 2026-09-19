@@ -1,5 +1,9 @@
 # LORE — selected front layout and illustration master
 
+Crypto illustration exception (19 September 2026): use [the approved HODL style](crypto/ART-STYLE.md)
+for all crypto art. Original creator references below apply to creators. The
+pinned front layout and all shared brand/typography/geometry remain unchanged.
+
 **Current layout: LORE-FRONT-v4, approved badge spacing on 13 September 2026. Original illustration reference: LORE-FRONT-v3, 12 September 2026.**
 
 Dan approved the right-hand badge spacing comparison: equal 22-unit side gaps to the visible letters, fixed height and vertically centred lettering. Read [the badge standard](12-RARITY-BADGE-SPACING.md). This is the sole visual change from v3. Use v4 for new cards and current approved derivatives; v3 files remain historical and retain their original hashes.

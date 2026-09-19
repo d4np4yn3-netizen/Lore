@@ -16,11 +16,29 @@ Season Two. Read `cards/crypto/COLLECTION-RULES.md` and resolve approved crypto
 files through `cards/crypto/current-cards.json`. Crypto uses one rarity per event,
 standard and foil finishes at every tier, and an event date beneath the rarity.
 The six-moment rule continues for creator collections. Existing layout, brand
-assets, anime style, shared back and physical size rules remain in force.
+assets, shared back and physical size rules remain in force. Apply the approved
+collection-specific art style below.
 The exact first Pizza Day raster is an approved visual reference; it is not
-claimed as an editable or print-ready master. Preserve it without regeneration.
+claimed as an editable or print-ready master. Preserve its historical bytes;
+the authorised style migration creates a separately reviewed successor.
 These authorised collection exceptions supersede earlier creator-only launch
 wording. They do not approve NFT financial entitlements or new brand geometry.
+
+## Approved crypto art direction — 19 September 2026
+
+Dan selected the exact background-refined HODL Manhwa Review-v2 as the permanent
+style master for every card in the Crypto collection. Read cards/crypto/ART-STYLE.md,
+cards/crypto/style-reference-lock.json and cards/crypto/STYLE-MIGRATION.md.
+Canonical master: cards/crypto/season-01/birth-of-hodl-master-02.
+Crypto and Creator cards are separate products. This explicit approval supersedes
+earlier requirements that crypto use the Asmongold/original v3 drawing treatment.
+Creator references and creator files remain unchanged.
+
+Supply the pinned HODL art directly in every crypto generation and edit; match
+characters, creatures, props and backgrounds. The target card supplies event
+content and composition. Keep the HODL master pinned after later card approvals.
+Restyle one card at a time, starting with Pizza Day; review before moving on.
+Existing brand, layout, fonts, rarity colours, back and size rules still apply.
 
 ## Current card layout and badge rule
 
@@ -53,7 +71,7 @@ Read `cards/11-MOMENT-PHRASE-STANDARD.md` before selecting or changing card copy
 
 ## Selected card front reference
 
-Before any card generation or revision, also read `cards/10-ILLUSTRATION-CONSISTENCY.md` and `cards/style-reference-lock.json`. Carry approved original art references into every generation, including edits; do not let a chain of new outputs silently become the style master. Use screenshots for factual clothes, settings and props, and approved LORE art for the drawing treatment. Daniel's specifically approved steak illustration is `cards/creators/asmongold/steak-master-01/art.png`, with his exact attached approval reference and hashes beside it. Preserve it unchanged for exports. Review card crops separately and never substitute another variant during packaging.
+Before any card generation or revision, also read `cards/10-ILLUSTRATION-CONSISTENCY.md` and `cards/style-reference-lock.json`. For creator cards, carry approved original art references into every generation, including edits; do not let a chain of new outputs silently become the style master. Use screenshots for factual clothes, settings and props, and approved LORE art for the drawing treatment. Daniel's specifically approved steak illustration is `cards/creators/asmongold/steak-master-01/art.png`, with his exact attached approval reference and hashes beside it. Preserve it unchanged for exports. Review card crops separately and never substitute another variant during packaging.
 
 ## Current Asmongold steak continuation
 

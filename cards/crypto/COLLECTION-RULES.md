@@ -14,7 +14,7 @@ implements Dan's crypto decisions; creator collections retain six moments per cr
 | Collection numbering | No creator-style 01/06; final set size and collector numbering remain undecided |
 | Footer | CRYPTO • SEASON 01, as shown on the approved Pizza Day preview |
 | Subject label | Event's subject or network, e.g. BITCOIN, in the existing creator-name field |
-| Format | Existing LORE front layout, six rarity colours, anime style, shared back v5; 63 × 88 mm trim |
+| Format | Existing LORE front layout, six rarity colours, collection-specific approved art style, shared back v5; 63 × 88 mm trim |
 
 Do not make six rarity versions of one event. Standard and foil share the same
 event, assigned rarity, artwork and wording. Production quantities must account
@@ -27,8 +27,11 @@ placement. The approved differences are field content: event date replaces the
 creator moment counter, subject replaces creator name, and the crypto season
 label replaces the creator footer. Do not redesign the master templates.
 
-Use the existing renderer and original style references for future editable
-cards, supplying the new text in the existing fields. Retain the exact brand
+Use the existing renderer and the exact approved HODL v2 art reference for all
+new crypto cards and revisions, supplying text in the existing fields. Read
+[ART-STYLE.md](ART-STYLE.md) and [the style lock](style-reference-lock.json).
+Crypto and Creator cards are separate products with separate drawing directions.
+The whole HODL illustration, including background and props, is the crypto master. Retain the exact brand
 assets; generate illustrations separately. All objects and scenery must share
 the drawn anime treatment. Easter eggs belong naturally in the scene's ink,
 perspective and lighting, with evidence distinguishing fact from interpretation.
@@ -38,6 +41,14 @@ its bytes and the separate selected illustration. No matching editable SVG was
 retrieved. Do not call this preview a verified deterministic template export or
 printer-ready artwork. Any future editable reconstruction must be compared with
 this selection and reviewed for visible differences.
+
+## Approved style migration
+
+Dan approved the background-refined HODL v2 as the permanent crypto art reference
+on 19 September 2026 and authorised restyling existing cards one by one. Follow
+[the migration queue](STYLE-MIGRATION.md), beginning with Pizza Day. Preserve old
+versions and review each replacement before moving on. New approvals do not
+silently replace HODL as the reference.
 
 ## Date and source evidence
 

@@ -135,9 +135,10 @@
     "reference_prompts": "cards/master/front-v3/source/asmongold-v3-edit-prompts.md",
     "consistency_standard": "cards/10-ILLUSTRATION-CONSISTENCY.md",
     "reference_manifest": "cards/style-reference-lock.json",
-    "approved_steak_art": "cards/creators/asmongold/steak-master-01/art.png"
+    "approved_steak_art": "cards/creators/asmongold/steak-master-01/art.png",
+    "collection_override_rule": "Use the collection profile art style when present; original references remain the creator baseline."
   },
-  "change_rule": "New cards must use front-v4 templates and renderer. Badge width is measured glyph width plus 44 units; no character-count or minimum-width formulas. Other geometry, fonts, colours and art treatment remain locked. Further visual changes need a reviewed revision.",
+  "change_rule": "New cards must use front-v4 templates and renderer. Badge width is measured glyph width plus 44 units; no character-count or minimum-width formulas. Other geometry, fonts, colours and art treatment remain locked. Further visual changes need a reviewed revision. Crypto art follows the explicitly approved HODL collection profile; creator art treatment is unchanged.",
   "release": {
     "complete_card_system_locked": true,
     "back_approved": true,
@@ -211,10 +212,15 @@
       "approved_exceptions": [
         "event date in moment counter",
         "subject in creator field",
-        "crypto season footer"
+        "crypto season footer",
+        "separate whole-scene HODL anime/manhwa art direction"
       ],
       "base_geometry_changed": false,
-      "raster_preview_is_not_deterministic_master": true
+      "raster_preview_is_not_deterministic_master": true,
+      "art_style_revision": "LORE-CRYPTO-STYLE-v1.0",
+      "art_style_manifest": "cards/crypto/style-reference-lock.json",
+      "art_style_standard": "cards/crypto/ART-STYLE.md",
+      "creator_art_style_required": false
     }
   }
 }
