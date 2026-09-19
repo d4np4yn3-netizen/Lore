@@ -2,25 +2,34 @@
 
 Updated 2026-09-19. Read with AGENTS.md.
 
-## Current milestone: The Merge approved and archived
+## Current milestone: Birth of Doge approved and archived
 
-Dan: “approved, upload and move onto the next card”. Canonical exact Review-v1 PNG/SVG:
-`cards/crypto/season-01/the-merge-master-01/LORE-The-Merge-Mythic-v1.*`; illustration `art.png` beside them.
-No regeneration or visual edits. Approval, source notes, prompt and hashes retained.
-Phrase **WEN MERGE?**, date **15 SEP 2022**, subject ETHEREUM, Mythic.
-Use `cards/crypto/current-cards.json` for all three approved crypto visuals.
+Dan: “approved, upload and move to next card”. Canonical exact Review-v1 PNG/SVG:
+`cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.*`; selected illustration `art.png` beside them.
+No regeneration or visual edits. Approval, prompt, sources and hashes retained.
+Phrase **VERY CURRENCY.**, date **06 DEC 2013**, DOGECOIN, Epic.
+Resolve all four approved crypto cards via `cards/crypto/current-cards.json`.
 
-The unchanged card was decoded at 900 × 1260 and its QR checked against the demo
-destination. Rendering-time fixed-template and embedded-art checks passed.
-Publication verifies all changed remote blobs and preserves unrelated files before
-updating main, then checks the branch tip. No website deployment or print release.
+The copied card decoded at 900 × 1260 and its actual QR matched the demo URL.
+Original rendering checks verified fixed template geometry and embedded artwork.
+Remote publication verifies all changed blobs and byte counts, preserves unrelated
+files and checks the final branch tip. No website deployment or print release.
 
-**Next proposal: Birth of Doge — Epic / 06 DEC 2013.** Kabosu's sideways glance
-in a chaotic homemade mint, with sourced NINTONDO, SHIBETOSHI, 22556 and date clues.
-Proposed caption **VERY CURRENCY.**, from the launch-era official forum thread.
-See `cards/crypto/next-card-birth-of-doge.md` for primary sources and date distinctions.
-Next action: review the concept and phrase, then build with original style references.
-No Doge illustration has been generated or visually approved.
+**Next proposal: First Transfer — Legendary / 12 JAN 2009.** Hal Finney receives
+the first golden network signal across a vast dark city. Four clues: block170,
+10 BTC, RPOW and v0.1. Proposed phrase **I WAS THE RECIPIENT.** from his own account.
+Block170's timestamp confirms the UTC date; payment amount is distinct from change
+and mining reward. See `cards/crypto/next-card-first-transfer.md` for evidence.
+Next action: review the concept/phrase, obtain a likeness reference and build using
+the original LORE style anchors. No First Transfer illustration is generated yet.
+
+## Previous milestone: The Merge approved and archived
+
+Exact Mythic Review-v1 PNG/SVG/art archived unchanged in
+`cards/crypto/season-01/the-merge-master-01`. Caption WEN MERGE?, 15 SEP 2022.
+Verified delivery: 9ddcc05bb7bd509d6ade902a3dad69b6a6b2d69f, all 16 changed blobs
+matched and 329 unrelated blobs were preserved. Demo QR; no website or print release.
+Birth of Doge was the next proposal, subsequently completed above.
 
 ## Previous milestone: Birth of HODL approved and archived
 

@@ -1,3 +1,12 @@
+# Birth of Doge — completed concept
+
+Dan approved the exact Epic Review-v1, including VERY CURRENCY., on 19 September 2026.
+Current files: [Birth of Doge master](season-01/birth-of-doge-master-01/README.md).
+The historical proposal below is retained; its pending-review language is superseded
+by that approval. Next proposal: [First Transfer](next-card-first-transfer.md).
+
+---
+
 # Next proposed card — Birth of Doge
 
 Assistant recommendation, 19 September 2026. Concept only; not visually approved.

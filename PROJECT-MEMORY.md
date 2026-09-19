@@ -4,16 +4,26 @@ Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Birth of Doge — Epic is approved.** Dan: “approved, upload and move to next card”.
+  Preserve exact Review-v1 PNG/SVG and art in `cards/crypto/season-01/birth-of-doge-master-01`.
+  Phrase **VERY CURRENCY.**, date **06 DEC 2013**, subject DOGECOIN. Keep Kabosu's
+  sideways glance, crossed paws, coin press and all four Easter eggs unchanged.
+  Caption is launch-era forum wording; the launch date is from official history.
+  GitHub upload authorised. QR remains demo-only; no website or print release.
+  Crypto has four approved visuals: Pizza Day, Birth of HODL, The Merge, Birth of Doge.
+  Next recommendation: **First Transfer / Legendary / 12 JAN 2009**, Hal Finney
+  receiving the first golden signal across a dark city. Proposed phrase
+  **I WAS THE RECIPIENT.** from Hal's retrospective account. Source-backed clues:
+  block170, 10 BTC, RPOW, v0.1. See `cards/crypto/next-card-first-transfer.md`.
+  This is a proposal; no new visual, rarity or caption approval is inferred.
+
 - **The Merge — Mythic is approved.** Dan: “approved, upload and move onto the next card”.
   Preserve exact Review-v1 PNG/SVG and art in `cards/crypto/season-01/the-merge-master-01`.
   Phrase **WEN MERGE?**, date **15 SEP 2022**, subject ETHEREUM. Caption verified
   in the official pre-event announcement; source-backed Easter eggs are recorded.
   GitHub upload authorised. Demo QR, no website deployment or print release.
-  Crypto has three approved visuals: Pizza Day Legendary, HODL Epic, Merge Mythic.
-  Next recommendation: **Birth of Doge / Epic / 06 DEC 2013**, humorous Kabosu
-  home-mint scene with NINTONDO, SHIBETOSHI, port 22556 and launch-date clues.
-  Proposed phrase VERY CURRENCY.; see `cards/crypto/next-card-birth-of-doge.md`.
-  This is a proposal, not approval of new artwork or copy.
+  At this milestone three crypto visuals were approved. Birth of Doge was
+  subsequently built and approved as recorded above.
 
 - **Birth of HODL — Epic is approved.** Dan: “approved upload to github and decide next card”.
   Preserve exact Review-v2 PNG/SVG and art-v3, without the raised D/L keycaps.
