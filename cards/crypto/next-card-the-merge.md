@@ -1,3 +1,12 @@
+# The Merge — completed concept
+
+Dan approved the exact Mythic Review-v1, including WEN MERGE?, on 19 September 2026.
+Current approved files and evidence: [The Merge master](season-01/the-merge-master-01/README.md).
+The historical concept below is retained; its pending-review language is superseded
+by that approval. Next proposal: [Birth of Doge](next-card-birth-of-doge.md).
+
+---
+
 # Next proposed card — The Merge
 
 Recommendation by assistant, 19 September 2026. Not yet visually approved.

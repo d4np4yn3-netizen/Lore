@@ -2,7 +2,27 @@
 
 Updated 2026-09-19. Read with AGENTS.md.
 
-## Current milestone: Birth of HODL approved and archived
+## Current milestone: The Merge approved and archived
+
+Dan: “approved, upload and move onto the next card”. Canonical exact Review-v1 PNG/SVG:
+`cards/crypto/season-01/the-merge-master-01/LORE-The-Merge-Mythic-v1.*`; illustration `art.png` beside them.
+No regeneration or visual edits. Approval, source notes, prompt and hashes retained.
+Phrase **WEN MERGE?**, date **15 SEP 2022**, subject ETHEREUM, Mythic.
+Use `cards/crypto/current-cards.json` for all three approved crypto visuals.
+
+The unchanged card was decoded at 900 × 1260 and its QR checked against the demo
+destination. Rendering-time fixed-template and embedded-art checks passed.
+Publication verifies all changed remote blobs and preserves unrelated files before
+updating main, then checks the branch tip. No website deployment or print release.
+
+**Next proposal: Birth of Doge — Epic / 06 DEC 2013.** Kabosu's sideways glance
+in a chaotic homemade mint, with sourced NINTONDO, SHIBETOSHI, 22556 and date clues.
+Proposed caption **VERY CURRENCY.**, from the launch-era official forum thread.
+See `cards/crypto/next-card-birth-of-doge.md` for primary sources and date distinctions.
+Next action: review the concept and phrase, then build with original style references.
+No Doge illustration has been generated or visually approved.
+
+## Previous milestone: Birth of HODL approved and archived
 
 Dan approved the exact Review-v2 without raised D/L keycaps and authorised
 GitHub upload. Canonical PNG/SVG: `cards/crypto/season-01/birth-of-hodl-master-01/LORE-Birth-of-HODL-Epic-v1.*`.
@@ -16,11 +36,7 @@ No website deployment or print release in this task. Preserve the normal keyboar
 Upload verification checks all changed remote blobs/byte counts and preserved
 unrelated files before updating main; identify this change from Git history.
 
-**Next proposed card: The Merge — Mythic / 15 SEP 2022.** Original anime spacecraft
-changing engines mid-flight; Easter eggs BELLATRIX/PARIS, Beacon launch date and
-estimated ~99.95% energy reduction. See `cards/crypto/next-card-the-merge.md` for
-sources and scope. Next action: develop the proposed artwork after concept review;
-choose a verified phrase. No visual approval or production count is inferred.
+The Merge concept was subsequently built and approved; see the current milestone.
 
 ## Previous milestone: Crypto rules and exact approved Pizza Day visual
 

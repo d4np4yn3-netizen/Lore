@@ -4,16 +4,25 @@ Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **The Merge — Mythic is approved.** Dan: “approved, upload and move onto the next card”.
+  Preserve exact Review-v1 PNG/SVG and art in `cards/crypto/season-01/the-merge-master-01`.
+  Phrase **WEN MERGE?**, date **15 SEP 2022**, subject ETHEREUM. Caption verified
+  in the official pre-event announcement; source-backed Easter eggs are recorded.
+  GitHub upload authorised. Demo QR, no website deployment or print release.
+  Crypto has three approved visuals: Pizza Day Legendary, HODL Epic, Merge Mythic.
+  Next recommendation: **Birth of Doge / Epic / 06 DEC 2013**, humorous Kabosu
+  home-mint scene with NINTONDO, SHIBETOSHI, port 22556 and launch-date clues.
+  Proposed phrase VERY CURRENCY.; see `cards/crypto/next-card-birth-of-doge.md`.
+  This is a proposal, not approval of new artwork or copy.
+
 - **Birth of HODL — Epic is approved.** Dan: “approved upload to github and decide next card”.
   Preserve exact Review-v2 PNG/SVG and art-v3, without the raised D/L keycaps.
   Canonical folder: `cards/crypto/season-01/birth-of-hodl-master-01`. Phrase **I AM HODLING.**, date **18 DEC 2013**.
   Source: original GameKyuubi forum thread 375643. Illustration is fictional;
   small monitor interface lettering is approximate. GitHub publication authorised.
   QR is demo-only; no website deployment or print release in this task.
-  Crypto now has two approved visuals: Pizza Day Legendary and HODL Epic.
-  Next assistant recommendation: **The Merge / Mythic / 15 SEP 2022**, original
-  spacecraft engine-swap scene with sourced Easter eggs. See
-  `cards/crypto/next-card-the-merge.md`; proposal is not visual approval.
+  At this milestone two crypto visuals were approved; The Merge was subsequently
+  built and approved as recorded above.
 
 - **Crypto Season One; Gaming Creators planned Season Two.** Dan approved the
   latest Pizza Day Legendary preview and GitHub addition on 19 September 2026.

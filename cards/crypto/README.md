@@ -7,7 +7,9 @@
 
 - [Birth of HODL — Epic / 18 December 2013](season-01/birth-of-hodl-master-01/README.md): approved visual, with the raised keycaps removed.
 
-Next proposed card: [The Merge](next-card-the-merge.md). Its concept and Mythic rarity are recommendations awaiting review.
+- [The Merge — Mythic / 15 September 2022](season-01/the-merge-master-01/README.md): approved exact engine-swap visual.
+
+Next proposed card: [Birth of Doge](next-card-birth-of-doge.md). Concept, Epic rarity and phrase are proposed for review.
 
 One rarity per event. Standard and foil editions of every card. Event dates
 replace creator 01/06 counters; final set size, collector numbering and print
