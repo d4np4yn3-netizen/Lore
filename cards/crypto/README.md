@@ -19,10 +19,11 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 | Birth of Doge — Epic | [Approved v2](season-01/birth-of-doge-master-02/README.md) | Complete; required reference |
 | The Whitepaper — Legendary | [Approved v1](season-01/the-whitepaper-master-01/README.md) | Complete; both references used |
 | BitConnect — Rare | [Approved v1](season-01/bitconnect-master-01/README.md) | Complete; single-word title |
+| The DAO Hack — Epic | [Approved v1](season-01/the-dao-hack-master-01/README.md) | Complete; exact Review-v2 |
 
-All six approved crypto cards use the approved crypto art direction.
+All seven approved crypto cards use the approved crypto art direction.
 [First Transfer](next-card-first-transfer.md) is paused at Dan's request.
-[The DAO Hack](next-card-the-dao-hack.md) is the next researched concept proposal.
+[Terra/LUNA — The Depeg](next-card-terra-luna.md) is the next researched concept proposal.
 Continue one card at a time with BOTH HODL and Doge supplied directly.
 
 One rarity per event, standard and foil editions, event dates under the badge.

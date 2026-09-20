@@ -1,0 +1,37 @@
+{
+  "policy": "LORE-CRYPTO-STYLE-v1.1",
+  "policy_commit": "9ef39a5e87044749a412d4ffa6d6d5c1f4ae4025",
+  "generation_mode": "built-in ImageGen, redraw with both original style references and previous artwork as edit target",
+  "reference_order": [
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2",
+    "dao-review-v1-edit-target"
+  ],
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Direct whole-scene style input, inspected before generation",
+      "source_archive_local_path": "references/hodl-approved-v2-art.png"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "Direct whole-scene style input, inspected before generation",
+      "source_archive_local_path": "references/doge-approved-v2-art.png"
+    }
+  ],
+  "content_sources": [
+    "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+    "https://www.sec.gov/files/litigation/investreport/34-81207.pdf"
+  ],
+  "composition_reference": {
+    "id": "dao-review-v1-edit-target",
+    "local_path": "references/dao-review-v1-art.png",
+    "sha256": "c42684fad075c784dd02372cc5051daa3c2aa431373e86276e74d18c01d9f42c",
+    "role": "Previous artwork, inspected and included directly as third input; both original style references remain authoritative."
+  },
+  "factual_reference": "Primary written emergency notice; no historical physical scene or person depicted."
+}

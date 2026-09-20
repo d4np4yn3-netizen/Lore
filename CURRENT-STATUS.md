@@ -2,30 +2,28 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: BitConnect Rare approved
+## Current milestone: The DAO Hack Epic approved
 
-Dan: “approved, uplaod and then on to the next card”. Six approved crypto cards: HODL, Pizza Day,
-The Merge, Birth of Doge, The Whitepaper, BitConnect. Exact files resolve through
-cards/crypto/current-cards.json. Previous five cards are unchanged.
+Dan: “ok, approved, upload and next card =)”. Seven approved crypto cards: HODL, Pizza Day, The Merge,
+Birth of Doge, The Whitepaper, BitConnect and The DAO Hack. Resolve current files
+through cards/crypto/current-cards.json. The previous six cards are unchanged.
 
-BitConnect: cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png, matching SVG and art.png.
-Selected review: LORE-BitConnect-Rare-Review-v3.png. Larger cracked pyramid beside
-microphone arm, corrected car, darker lighting, single-word BITCONNECT title.
-PNG SHA-256: b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36
-Art SHA-256: 58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0
-Exact editable source ZIP archived beside the front. PNG Library:
-libfile_02d60548b1f881919adfffe8d4fd3293; ZIP libfile_f69bb8bb3e188191897046fb04c3b8ff.
-Approval records rarity, one-line title and exact selected bytes. QR is demo-only.
-Second title field empty; original font, baselines, logo and fixed geometry retained.
-Opt-in renderer exception is in the source package, not the shared templates.
+DAO: cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.png, matching SVG and art.png.
+Selected review: LORE-The-DAO-Hack-Epic-Review-v2.png. Exact reviewed bytes kept.
+PNG SHA-256: d6e34a15618791cfe2988736020104b06ef53fb4c58e0c26434e0cd676c5618c
+Art SHA-256: 5240d0aa938f19d5157c7c0f7b7cc37323b447732309cfb6658efe3366555ee3
+Exact editable source ZIP archived beside the front. Approval is in approval.json.
+Small vault = attacker-controlled child DAO. SPLIT = exploited function, not the
+later chain split. One-way violet flow, local amber loop and larger engineers.
+No label changes after approval. QR remains demo-only; no print release.
 
-## Next concept: The DAO Hack
+## Next concept: Terra/LUNA — The Depeg
 
-Researched proposal: Epic · 17 JUN 2016 · REMAIN CALM. A sealed Ether vault drains
-through a recursive loop into a smaller locked chamber. Source-backed clues:
-SPLIT valve, loop, approximate 27-day lock, child address 0x304a…3490.
-See cards/crypto/next-card-the-dao-hack.md. Await concept selection; no art generated.
-First Transfer remains PAUSED. Historical coverage includes crashes, hacks and bans.
+Researched proposal: Rare · 09 MAY 2022 · STEADY LADS. The date refers to the
+reassurance post during the unfolding crisis, not the whole multi-day collapse.
+A fractured moon falls over a coastal city; UST breaks its $1 tether. See
+cards/crypto/next-card-terra-luna.md for source evidence and access limitations.
+Await event/rarity/caption selection before generation. First Transfer is PAUSED.
 
 ## Permanent crypto references
 
@@ -34,9 +32,9 @@ Before EVERY generation and edit inspect and supply BOTH exact original artworks
   SHA-256 412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1
 - cards/crypto/season-01/birth-of-doge-master-02/art.png
   SHA-256 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
-LORE-CRYPTO-STYLE-v1.1 governs characters, props and backgrounds. New approvals do
-not replace the pair. Front-v4, shared back v5 and 63 × 88 mm trim remain locked.
-No website deployment or print release is included.
+LORE-CRYPTO-STYLE-v1.1 governs characters, props and backgrounds. New approvals
+do not replace the pair. Front-v4, shared back v5 and 63 × 88 mm remain locked.
+No website deployment or print release in this archive.
 
 ## Compact working method
 

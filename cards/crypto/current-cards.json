@@ -2,7 +2,7 @@
   "updated": "2026-09-20",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 6,
+  "approved_visual_count": 7,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -541,11 +541,97 @@
         "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0",
         "git_blob": "3634799b1f761cd7e36438fadc9ef57482d4f8fb"
       }
+    },
+    {
+      "id": "crypto-s01-the-dao-hack",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "epic",
+      "creator": "ETHEREUM",
+      "title_line_1": "THE DAO",
+      "title_line_2": "HACK",
+      "context": "REMAIN CALM.",
+      "moment_label": "17 JUN 2016",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/the-dao-hack-master-01/art.png",
+      "qr_url": "https://example.com/lore/crypto/the-dao-hack",
+      "status": "VISUALLY_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "concept_instruction": "ok, redraw",
+      "phrase_status": "PRIMARY_SOURCE_VERIFIED_CONCEPT_BUILD_AUTHORISED",
+      "event_date": "2016-06-17",
+      "date_basis": "CONTEMPORANEOUS_ETHEREUM_FOUNDATION_EMERGENCY_NOTICE",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "demo",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Fictional sealed vaults visualise The DAO exploit. A one-way violet stream depicts ETH diverted into the locked child DAO. A small amber loop at the SPLIT control represents recursive calls, not funds returned to The DAO. Enlarged fictional engineers convey urgency. The receiver display references the approximate 27-day withdrawal restriction reported during the attack. No actual physical building, identifiable attacker, Ethereum consensus breach or later July fork is depicted.",
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "source_notes": "cards/crypto/season-01/the-dao-hack-master-01/source-notes.md",
+      "sources": [
+        "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+        "https://www.sec.gov/files/litigation/investreport/34-81207.pdf"
+      ],
+      "review_version": 2,
+      "rarity_status": "APPROVED_EPIC",
+      "front": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.svg",
+      "source_archive": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-Review-v2-Source.zip",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-20",
+      "approval_quote": "ok, approved, upload and next card =)",
+      "approval_record": "cards/crypto/season-01/the-dao-hack-master-01/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "qr_status": "DEMO_ONLY",
+      "subject": "ETHEREUM",
+      "title_lines": [
+        "THE DAO",
+        "HACK"
+      ],
+      "event_date_display": "17 JUN 2016",
+      "footer": "CRYPTO • SEASON 01",
+      "moment_number": null,
+      "set_size": null,
+      "print_quantities": null,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.png",
+          "bytes": 1626808,
+          "sha256": "d6e34a15618791cfe2988736020104b06ef53fb4c58e0c26434e0cd676c5618c",
+          "git_blob": "074af689b2ddcbb633c61202fb23c37eaa8318fa"
+        },
+        {
+          "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.svg",
+          "bytes": 3376402,
+          "sha256": "5c695863d223abd8c292057e4d7b7a85cc922cae6ee66ddf2ff5519f0c81eeb1",
+          "git_blob": "e002d29c2c1d1ab13ebae75d8fe7812bfd93a271"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-dao-hack-master-01/art.png",
+        "bytes": 2506007,
+        "sha256": "5240d0aa938f19d5157c7c0f7b7cc37323b447732309cfb6658efe3366555ee3",
+        "git_blob": "5ebaf6a39bd60acf9747216879409a8ca5fe8ec2"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 6,
+  "approved_in_current_style_count": 7,
   "required_style_references": [
     "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"

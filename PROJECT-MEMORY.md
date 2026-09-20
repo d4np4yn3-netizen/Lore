@@ -4,17 +4,16 @@ Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
-- **BitConnect Rare approved and upload authorised, 20 September 2026.**
-  Dan: “approved, uplaod and then on to the next card”. Exact Rare Review-v3
-  PNG/SVG/art are archived as cards/crypto/season-01/bitconnect-master-01,
-  LORE-BitConnect-Rare-v1. Larger cracked pyramid beside microphone arm, corrected
-  car, darker lighting and BITCONNECT on one title line are selected. Second title
-  field empty; existing font/baselines and all fixed geometry unchanged. Rebuild
-  exception is local to the archived source ZIP. Six approved crypto cards.
-  Both HODL and Doge remain the mandatory original references. First Transfer paused.
-  Next researched proposal: The DAO Hack, Epic, 17 JUN 2016, REMAIN CALM.;
-  see cards/crypto/next-card-the-dao-hack.md. It is not approved art or rarity.
-  QR demo-only; no website deployment or print release in this archive.
+- **The DAO Hack Epic approved and upload authorised, 2026-09-20.**
+  Dan: “ok, approved, upload and next card =)”. Exact Epic Review-v2 PNG/SVG/art and editable source ZIP
+  archived as cards/crypto/season-01/the-dao-hack-master-01. No labels or art changed.
+  The small vault is the attacker-controlled child DAO; SPLIT is the exploited
+  function, not the later Ethereum chain split. Seven approved crypto cards.
+  Both HODL and Doge remain mandatory. First Transfer stays paused.
+  Next researched proposal: Terra/LUNA — The Depeg, Rare, 09 MAY 2022,
+  STEADY LADS. See cards/crypto/next-card-terra-luna.md; awaiting selection.
+  This is a concept proposal, not approved art, rarity or phrase. QR remains
+  demo-only; no website deployment or print release in this archive.
 
 - **Mandatory crypto reference pair, 20 September 2026: HODL AND Birth of Doge.**
   Dan: “Before every card I want to use HODL and Birth of Doge as reference”.
