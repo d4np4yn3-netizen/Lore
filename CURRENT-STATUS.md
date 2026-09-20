@@ -16,9 +16,26 @@ must include that exact art directly; do not replace it with the latest approved
 card. HODL and Pizza Day are now approved in the new style; four approved crypto
 visuals overall. Old versions and Creator cards remain unchanged.
 
-**Next: build The Merge restyle and present it for review.** Preserve its existing
-spacecraft engine-swap scene and four clue groups while matching HODL's whole-scene
-rendering. Then Doge and the unapproved First Transfer draft, one at a time.
+Verified Pizza Day GitHub delivery: 587e2a9c7fd31c7676e448b9d802faf1b9360fc9.
+All 15 changed blobs and sizes matched; 366 unrelated blobs preserved; main tip verified.
+
+**Next: Dan reviews The Merge style revision v1.** Its fictional spacecraft
+engine-swap scene and four clue groups are retained, with the exact approved HODL
+art supplied directly as the whole-scene rendering reference.
+Review image: LORE-The-Merge-Mythic-Style-Review-v1.png, Library
+libfile_c195bcf27e188191939a13ec0b136f67, version 0.
+Editable source: LORE-The-Merge-Style-Review-v1-Source.zip, Library
+libfile_1caa12f65754819192e6131326e01178, version 0.
+PNG SHA-256: 618a802183e5fb3bca8778323c7706c78729ddfd8fdd696c4912101731e83c33
+Art SHA-256: f283c19d73dda81823a9485331cbcd48ff3d242df564bacfc57e46748fcb092c
+Only the embedded illustration was replaced in the previous approved Merge SVG.
+Fixed layout, card copy and QR structure match exactly; embedded art bytes and
+900 x 1260 output verified; actual QR decoded correctly. Four clue groups visually
+checked in the finished card. No art translation was needed.
+This new Merge candidate is NOT approved or substituted into current-cards.json.
+The existing approved Merge master remains active pending Dan's review.
+Then Doge and the unapproved First Transfer draft, one at a time; do not advance
+to Doge before Merge approval. HODL remains the permanent style master.
 Historical statements below about Pizza Day being unapproved are superseded.
 GitHub delivery uses blob/hash verification and preserves unrelated files.
 Demo QR; no website deployment or print release.
