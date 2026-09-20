@@ -13,7 +13,7 @@ artwork and hashes through style-reference-lock.json before every card.
 | The Whitepaper — Legendary | Approved v1, 20 September 2026 | Keep exact master-01 files |
 | BitConnect — Rare | Approved v1 | Keep exact Rare Review-v3 files |
 | The DAO Hack — Epic | Approved v1 | Keep exact Epic Review-v2 files |
-| Terra/LUNA — The Depeg | Proposed Rare; awaiting event/caption selection | Review next-card-terra-luna.md, then build with BOTH pinned references |
+| Terra/LUNA — The Depeg | Approved Rare v1 | Keep exact the-depeg-master-01 files |
 
 The four-card migration is complete. Dan wants a different design next and is
 not a fan of the First Transfer draft. Preserve that draft and its sources for
@@ -22,6 +22,6 @@ Earlier Review-v2: Library libfile_95b5827a02988191aab7457b806919f4.
 
 The earlier restriction against new event concepts during migration no longer
 applies: the migration is complete and Dan explicitly requested another design.
-Seven crypto cards are approved overall.
-Terra/LUNA is the next researched proposal: see next-card-terra-luna.md and EDITORIAL-BACKLOG.md. Continue one card at a time and include BOTH pinned art
+Eight crypto cards are approved overall.
+The Depeg is complete; next event is unselected. See EDITORIAL-BACKLOG.md. Continue one card at a time and include BOTH pinned art
 references directly in every generation/edit; keep the shared brand/layout rules.

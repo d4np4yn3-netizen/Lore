@@ -2,39 +2,37 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: The DAO Hack Epic approved
+## Current milestone: The Depeg Rare completed
 
-Dan: “ok, approved, upload and next card =)”. Seven approved crypto cards: HODL, Pizza Day, The Merge,
-Birth of Doge, The Whitepaper, BitConnect and The DAO Hack. Resolve current files
-through cards/crypto/current-cards.json. The previous six cards are unchanged.
+Dan: “ok, make the full card and approved for upload to github”. Eight approved crypto cards: HODL, Pizza Day, The Merge,
+Birth of Doge, The Whitepaper, BitConnect, The DAO Hack and The Depeg.
+Resolve current files through cards/crypto/current-cards.json. Previous seven unchanged.
 
-DAO: cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.png, matching SVG and art.png.
-Selected review: LORE-The-DAO-Hack-Epic-Review-v2.png. Exact reviewed bytes kept.
-PNG SHA-256: d6e34a15618791cfe2988736020104b06ef53fb4c58e0c26434e0cd676c5618c
-Art SHA-256: 5240d0aa938f19d5157c7c0f7b7cc37323b447732309cfb6658efe3366555ee3
-Exact editable source ZIP archived beside the front. Approval is in approval.json.
-Small vault = attacker-controlled child DAO. SPLIT = exploited function, not the
-later chain split. One-way violet flow, local amber loop and larger engineers.
-No label changes after approval. QR remains demo-only; no print release.
+Depeg: cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1.png, matching SVG and art.png.
+PNG SHA-256: 114ef4de1aad5ee21453903f2f869a6cc34c84a1aaea5cf1a8ca89c2e077008d
+Art SHA-256: 6055cc120972bbc8ac730f96ce5520e46ce25929ea5f138565eb2196cc71b3b7
+Editable source ZIP and exact approval scope are beside the card.
+Upper moon emblem kept; two selected lower emblems removed; cable extended behind
+the woman; harbour splash added. Earlier requested LUNA lettering removal completed.
+ANCHOR / UP TO 20%, UST/$1 metaphor, date and phrase retained.
+User approved final assembly and upload; final byte-level proof was not separately reviewed.
+The date marks the 9 May reassurance post within the multi-day collapse.
+QR demo-only, no website deployment or print release.
 
-## Next concept: Terra/LUNA — The Depeg
+## Next action
 
-Researched proposal: Rare · 09 MAY 2022 · STEADY LADS. The date refers to the
-reassurance post during the unfolding crisis, not the whole multi-day collapse.
-A fractured moon falls over a coastal city; UST breaks its $1 tether. See
-cards/crypto/next-card-terra-luna.md for source evidence and access limitations.
-Await event/rarity/caption selection before generation. First Transfer is PAUSED.
+Next event is not selected. Continue one researched card at a time when requested.
+First Transfer remains PAUSED. Do not resume automatically.
 
 ## Permanent crypto references
 
-Before EVERY generation and edit inspect and supply BOTH exact original artworks:
+Before EVERY generation/edit inspect and directly supply BOTH pinned artworks:
 - cards/crypto/season-01/birth-of-hodl-master-02/art.png
   SHA-256 412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1
 - cards/crypto/season-01/birth-of-doge-master-02/art.png
   SHA-256 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
-LORE-CRYPTO-STYLE-v1.1 governs characters, props and backgrounds. New approvals
-do not replace the pair. Front-v4, shared back v5 and 63 × 88 mm remain locked.
-No website deployment or print release in this archive.
+Characters, props and backgrounds use LORE-CRYPTO-STYLE-v1.1. New approvals do
+not change this pair. Front-v4, shared back v5 and 63 × 88 mm remain locked.
 
 ## Compact working method
 

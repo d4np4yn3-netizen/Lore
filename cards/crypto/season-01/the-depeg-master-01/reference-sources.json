@@ -1,0 +1,53 @@
+{
+  "generation_method": "Built-in ImageGen: final selected splash/cable artwork, local removal of reintroduced faint LUNA lettering. Deterministic card assembly with pinned front-v4 Rare template.",
+  "reference_order": [
+    "selected-splash-cable-art",
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2",
+    "earlier-unlettered-fragment-art"
+  ],
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Direct whole-scene style input; visually inspected; exact pinned hash verified.",
+      "source_archive_local_path": "references/hodl-approved-v2-art.png"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "Direct whole-scene style input; visually inspected; exact pinned hash verified.",
+      "source_archive_local_path": "references/doge-approved-v2-art.png"
+    }
+  ],
+  "content_sources": [
+    "https://x.com/stablekwon/status/1523733542492016640",
+    "https://www.sec.gov/newsroom/press-releases/2023-32",
+    "https://docs.anchorprotocol.com/anchor-2"
+  ],
+  "factual_reference": "Written primary sources; no photographic likeness or actual physical scene reconstructed.",
+  "source_access_note": "Original author post indexed by search with text and date; direct full page open returned 403. SEC and Anchor documents were directly read in the preceding concept-research turn.",
+  "composition_reference": {
+    "id": "selected-splash-cable-art",
+    "library_file_id": "libfile_512cd249c0e08191a6ef9ee8efbc913b",
+    "sha256": "4e368953d742dd1a30ff721afe0e6e4c65eac6fad9009c7a3124c83f445366fb",
+    "source_archive_local_path": "references/selected-splash-cable-art.png"
+  },
+  "selected_generation_prompt": "generation-prompt.txt",
+  "edit_history": [
+    {
+      "prompt": "generation-prompt-attempt-01.txt",
+      "result": "Not selected; faint lettering remained."
+    },
+    {
+      "prompt": "generation-prompt.txt",
+      "result": "Final local correction to restore earlier user-requested lettering removal; latest splash, cable, remaining emblem and unchanged Anchor wording retained."
+    }
+  ],
+  "detail_reference": {
+    "role": "Only the blank lower surface of the top moon fragment; earlier logos/cable are obsolete.",
+    "source_archive_local_path": "references/earlier-unlettered-fragment-art.png"
+  }
+}

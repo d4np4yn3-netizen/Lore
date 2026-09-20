@@ -16,7 +16,7 @@ Keep each event's own subjects, story, palette and sourced Easter eggs. The pair
 is a rendering reference, not permission to repeat HODL's man or Doge's scene.
 Crypto is distinct from Creator cards; the Asmongold set is not its style gate.
 
-Seven crypto cards are approved, including The DAO Hack; keep their exact files. First Transfer is
+Eight crypto cards are approved, including The Depeg; keep their exact files. First Transfer is
 paused because Dan dislikes the current design; do not resume it automatically.
 Follow STYLE-MIGRATION.md for the current queue. New artwork still needs visual
 selection before archival/promotion. Preserve prior versions. Later card
