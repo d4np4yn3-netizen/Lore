@@ -16,14 +16,35 @@ HODL, Pizza Day and The Merge are approved in the new style: three of four
 approved crypto cards. HODL v2 remains the permanent style master. All generations
 and edits must include its exact art directly. Creator cards remain unchanged.
 
-**Next: show the existing approved Birth of HODL card and clarify the next target.**
-Dan requested “now birth of hodl”, but HODL is already the approved master.
-Exact card: cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png.
-Card SHA-256: 3071f36bf41d9f50a7e59d49cf4e74cd5151bcf200674e2bb1dba1e41e41aa6f
-Birth of Doge is next in the migration queue; confirm that this is what Dan means
-before generating it. No HODL regeneration is needed or authorised by implication.
-First Transfer remains an unapproved draft. Historical next-action/approval
-statements below are superseded by this milestone. Demo QR; no site or print release.
+Verified Merge archival: commit 379afe3922b6c65de3db3aead69997f7073ff134.
+All 15 changed blobs/sizes matched; 376 unrelated blobs preserved; final main tip verified.
+
+**Next: Dan reviews Birth of Doge HODL-style revision v1.**
+Dan clarified on 20 September 2026: “Yeah: Birth of Doge next”.
+The ambiguity is resolved. HODL remains complete and unchanged.
+
+Review image: LORE-Birth-of-Doge-Epic-Style-Review-v1.png,
+Library libfile_0397a33169e08191b59b6a8af5152a45, version 0.
+Editable source: LORE-Birth-of-Doge-Style-Review-v1-Source.zip,
+Library libfile_86fec2efac008191826e51a55bb9b494, version 0.
+PNG SHA-256: 2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7
+SVG SHA-256: b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4
+Art SHA-256: 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
+
+Generation included the exact pinned HODL art directly as style reference and
+the approved Doge art as content/composition reference. Kabosu, her side-eye and
+crossed-paw pose, the coin-mint scene, warm/cool palette and four clues remain.
+Only embedded art was replaced in the previous approved Epic SVG. Fixed layout,
+copy and QR structure match; 900 x 1260 PNG, embedded art bytes and actual QR
+decode verified. All four clues are visible in the finished card. No art
+translation was needed. Review image and source package saved successfully.
+
+This successor is NOT yet approved. current-cards.json still points to the
+previous approved Doge master; three of four cards are approved in the new style.
+Wait for Dan's review before archiving this successor or starting First Transfer.
+First Transfer remains an unapproved draft. Historical next-action statements
+below and earlier HODL clarification notes are superseded. Demo QR; no site or
+print release.
 
 ## Previous milestone: Pizza Day style revision approved
 
