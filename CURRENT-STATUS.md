@@ -2,7 +2,7 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: The Whitepaper approved; BitConnect next
+## Current milestone: BitConnect Epic Review-v1 ready
 
 Dan approved the exact Whitepaper Legendary Review-v1: “Approved, looks pretty cool
 for a card”, then requested BitConnect and broader good/bad/ugly historical coverage.
@@ -20,16 +20,43 @@ Editable source ZIP: Library libfile_ec230d2560588191bc9188cf9a52d712, version 0
 Fixed template, fonts, fields, QR decoding and both references verified in review.
 Exact hashes, dimensions and embedded art bytes rechecked for archival.
 
-## Active next design
+## Active review: BitConnect — Epic Review-v1
 
-BitConnect is the requested next subject. The Epic stage-moment concept and caption
-HEY, HEY, HEY! are proposed in cards/crypto/next-card-bitconnect.md; no artwork yet.
-The proposed event is the 2017 Carlos Matos convention speech, not the 2018 collapse.
-Caption has primary interview/clip evidence. Date has secondary event-archive evidence;
-the linked original video was unavailable. Verify accessible footage/stills before
-generation for likeness, clothes and day-level primary evidence. Review concept/copy.
-Candidate themes are in cards/crypto/EDITORIAL-BACKLOG.md; broader coverage is recorded
-in COLLECTION-RULES.md. First Transfer remains PAUSED at Dan's request.
+Dan accepted the proposed concept with “Cool, let’s make bitconnect”. The completed
+visual now awaits approval: BIT / CONNECT; BITCONNECT; 28 OCT 2017; HEY, HEY, HEY!
+Five approved cards remain active; do not add BitConnect to current-cards.json yet.
+
+Review PNG: LORE-BitConnect-Epic-Review-v1.png,
+Library libfile_6afd26295f3081918cce3dfea6d5a5e0, version 0.
+Source ZIP: LORE-BitConnect-Epic-Review-v1-Source.zip,
+Library libfile_953033a972148191b6eaa6d89d3eab00, version 0.
+PNG SHA-256: 5dcc2b08e0dd3ebf36ec80972208c0700d9c16e84b56012c1b0650087ecaf0e9
+SVG SHA-256: 41de8699921cf76fa281806f9207fd303e4f1d7b0168178d274aa66549557fb8
+Art SHA-256: 8e7cc92aa9df5a08536d0f40c6e0d7ea6a82b7353cc61fe1864d8a8238ce30a9
+
+Both exact HODL and Doge art references were hash-verified, viewed and supplied
+directly to built-in ImageGen. A third input was a browser screenshot of Carlos's
+stage photograph from his own X profile image, inspected for face, clothes, raised
+right arm and left-hand microphone. See source-notes.md and reference-sources.json
+inside the source ZIP. Warm gold light, blue/violet drawn stage and confetti.
+Three clues remain visible in the full card: sports-car trophy, 25,610 plinth and
+gold pyramid above a cracked shadow/foundation. These are invented symbolic props.
+
+Caption has primary speech-clip/interview transcript evidence. Event date has
+corroborated secondary chronology; the linked original video remains unavailable.
+The speech is distinct from the later shutdown. Carlos is depicted as the investor/
+meme speaker, not the founder. No criminal conviction is asserted for him.
+
+Exact Epic template, renderer, helper and fonts match the repository at
+43c67330e9baf975bb0bd95e97fefa44b36c0d37. Fixed geometry, populated fields,
+900 × 1260 dimensions, exact embedded art and actual demo QR decoding verified.
+No art translation or font resizing. Full card visually inspected against both
+references; key expression/gesture and clues clear the card overlays. PNG and
+editable source ZIP saved successfully. New artwork is not yet visually approved.
+
+Next: Dan reviews this exact card. Archive only the selected files after approval.
+First Transfer remains PAUSED. Broader coverage remains in COLLECTION-RULES.md and
+EDITORIAL-BACKLOG.md. This review state supersedes older proposal-only statements.
 
 ## Permanent crypto reference policy
 
@@ -44,6 +71,8 @@ Later approvals do not replace either. Event content is separate from drawing st
 Creator art unchanged. LORE-FRONT-v4, shared back v5, original fonts and 63 × 88 mm
 trim remain fixed. Demo QR; no website deployment or print release in this change.
 
+Verified Whitepaper delivery: 43c67330e9baf975bb0bd95e97fefa44b36c0d37;
+21 changed blobs/sizes verified, 394 unrelated blobs preserved, main tip verified.
 Previous verified deliveries: style policy 6f21af10c079e01154317577ef316d1a50dbc230;
 Doge 5b062810685dff4adf16cb34dd6ee3f14563f1d7; review status 57dd0869c5c5f704f14b182b3af137f7f0f1a57c.
 Historical milestones remain in PROJECT-MEMORY.md and version control. Current
@@ -61,3 +90,4 @@ instructions above supersede earlier proposal, four-card-count and First Transfe
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
 
 The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
+
