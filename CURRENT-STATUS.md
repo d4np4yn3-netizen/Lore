@@ -2,28 +2,27 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: MT. GOX Epic approved
+## Current milestone: Behind the Chair Common approved
 
-Dan: “approved”, responding to the exact displayed Review-v3.
-Nine approved crypto cards: HODL, Pizza Day, The Merge, Birth of Doge,
-The Whitepaper, BitConnect, The DAO Hack, The Depeg and MT. GOX.
-Resolve current files through cards/crypto/current-cards.json. Previous eight unchanged.
+Dan: “locked in! uplodat to github”, responding to exact displayed Common Review-v2.
+Ten approved crypto cards; previous nine unchanged. Resolve through cards/crypto/current-cards.json.
 
-Canonical folder: cards/crypto/season-01/mt-gox-master-01.
-PNG/SVG: LORE-Mt-Gox-Epic-v1.*; art.png and exact Review-v3 source ZIP beside them.
-PNG SHA-256: 9fcc7322b895332fb1769597167b9001c2f21f80da4c5c425a88577eab824078
-Art SHA-256: e361832e60782a29a034e601909e7c9d3ec95644fb962cd910d2caa4275ca139
-The one-line MT. GOX title and stronger rainfall are approved.
-Date: 28 FEB 2014. Caption: WITHDRAWALS SUSPENDED. (editorial wording).
-The scene represents lost access; the date marks the civil rehabilitation filing.
-All approved visual files and source ZIP are preserved byte-for-byte.
-Sibling approval.json supersedes review-only status labels inside the original ZIP.
-GitHub archival delivery is the authorised milestone. QR demo-only; print release separate.
+Canonical folder: cards/crypto/season-01/behind-the-chair-master-01.
+PNG/SVG: LORE-Behind-The-Chair-Common-v1.*; art.png and exact Review-v2 source ZIP beside them.
+PNG SHA-256: dddf69539be9d010c475a97f6c51a7c048a88424d6f2d321cf7d73c52dd79ea1
+Art SHA-256: c6944000f8ff929d6d793db39aeb994e3befc2300a554e0e2f6a7279f7c79239
+Includes wider desk view, lowered NO SIGNS, handwriting matched to user reference,
+visible report/price/16 BTC clues, and BEHIND THE CHAIR title.
+Date 12 JUL 2017. Phrase BUY BITCOIN. Visual bytes and original source ZIP unchanged.
+Sibling approval.json supersedes review-only labels inside the original ZIP.
+GitHub archival delivery authorised; placeholder QR and print release separate.
 
 ## Next action
 
-Next event is not selected. Continue one researched card at a time when requested.
-First Transfer remains PAUSED. Do not resume automatically.
+Dan selected The Silk Road Shutdown (2013) for research. See cards/crypto/next-card-silk-road.md.
+Keep shutdown/arrest chronology distinct from the later 144,336 BTC seizure announcement.
+Propose one researched date, rarity, caption and scene; no new artwork approved yet.
+First Transfer and First Halving remain PAUSED. Do not resume automatically.
 
 ## Permanent crypto references
 

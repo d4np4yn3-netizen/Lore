@@ -14,9 +14,9 @@ set list, approved rarity assignment or visual approval. Develop one at a time.
 | Bans and restrictions | China's mining crackdown; specific national trading restrictions |
 | Recoveries and consequences | Repayments, forks and responses to the above events |
 
-Existing approved cards: HODL, Pizza Day, The Merge, Birth of Doge, The Whitepaper, BitConnect, The DAO Hack, The Depeg, MT. GOX.
-MT. GOX is complete. Next event is unselected; research one candidate before proposing its date, rarity and caption.
-First Transfer remains paused. BitConnect's approved card represents the stage
+Existing approved cards: HODL, Pizza Day, The Merge, Birth of Doge, The Whitepaper, BitConnect, The DAO Hack, The Depeg, MT. GOX, Behind the Chair.
+Behind the Chair is complete. Dan selected The Silk Road Shutdown (2013) next for research; see next-card-silk-road.md. Rarity, caption and artwork remain proposals.
+First Transfer and First Halving remain paused. BitConnect's approved card represents the stage
 speech, not its later shutdown; avoid making two events share an inaccurate date.
 Before dates, amounts, quotes or accusations appear on a card, record source
 evidence for that specific event. Both HODL and Doge are required direct art inputs.

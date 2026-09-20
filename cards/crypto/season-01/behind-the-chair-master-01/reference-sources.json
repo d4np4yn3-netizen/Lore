@@ -1,0 +1,41 @@
+{
+  "policy": "LORE-CRYPTO-STYLE-v1.1",
+  "generation_mode": "Built-in imagegen targeted edit of approved art, with user sign-lettering image and both pinned whole-scene style references supplied directly.",
+  "reference_order": [
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2"
+  ],
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Direct whole-scene style input, inspected and hash-verified before this edit.",
+      "source_archive_local_path": "references/hodl-approved-v2-art.png"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "Direct whole-scene style input, inspected and hash-verified before this edit.",
+      "source_archive_local_path": "references/doge-approved-v2-art.png"
+    }
+  ],
+  "content_sources": [
+    "https://scarce.city/auctions/buy-bitcoin",
+    "https://www.federalreserve.gov/newsevents/testimony/yellen20170712a.htm"
+  ],
+  "factual_reference": "Illustrated interpretation of Christian Langalis holding his yellow sign behind Janet Yellen. NO SIGNS is an invented visual joke, 16 BTC a deliberate 2024 flash-forward, BTC approximately $2,400 is an illustrative historical price note, not a claim about Yellen's real notes.",
+  "generation_reference_order": [
+    "references/previously-approved-art.png",
+    "references/actual-buy-bitcoin-sign.png",
+    "references/hodl-approved-v2-art.png",
+    "references/doge-approved-v2-art.png"
+  ],
+  "handwriting_reference": {
+    "local_path": "references/actual-buy-bitcoin-sign.png",
+    "source_library_file_id": "libfile_919466186fd08191a88e9af99e306385",
+    "sha256": "1b710c9c6e33d8d6cda4014cb49554ca128d50d74a33550b14b4d1a53d761170"
+  },
+  "reference_paths_note": "Local reference paths resolve inside the exact source ZIP."
+}

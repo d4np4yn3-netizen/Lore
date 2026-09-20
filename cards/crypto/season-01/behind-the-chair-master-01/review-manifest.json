@@ -1,0 +1,128 @@
+{
+  "status": "CARD_REVIEW_NOT_APPROVED",
+  "dimensions_px": [
+    900,
+    1260
+  ],
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "layout": "LORE-FRONT-v4",
+  "fixed_template_structure_verified": true,
+  "art_bytes_preserved": true,
+  "art_translation": null,
+  "qr_payload": "https://example.com/lore/crypto/buy-bitcoin",
+  "qr_status": "DEMO_ONLY",
+  "qr_decode_verified": true,
+  "print_release": false,
+  "publication_approved": false,
+  "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+  "both_required_style_hashes_verified": true,
+  "source_pinning": "pinned-repository-files.json",
+  "files": {
+    "LORE-Behind-The-Chair-Common-Review-v2.png": {
+      "bytes": 1305128,
+      "sha256": "dddf69539be9d010c475a97f6c51a7c048a88424d6f2d321cf7d73c52dd79ea1"
+    },
+    "LORE-Behind-The-Chair-Common-Review-v2.svg": {
+      "bytes": 2703292,
+      "sha256": "7891952f273d5ddc0fd3cc396a2e4e68669a29a21526ec4132dd07d73b6d4419"
+    },
+    "README.md": {
+      "bytes": 814,
+      "sha256": "e8415efbba5427b6315159b092cc47686499c49094bd33de75b41a9478953afd"
+    },
+    "approval.json": {
+      "bytes": 401,
+      "sha256": "8c9f112d5891f1166bebc18461b80c1fc2cecb096e001a39aacc685c810d9eff"
+    },
+    "art.png": {
+      "bytes": 2000787,
+      "sha256": "c6944000f8ff929d6d793db39aeb994e3befc2300a554e0e2f6a7279f7c79239"
+    },
+    "build_review.py": {
+      "bytes": 3044,
+      "sha256": "27fb3b24c32b69f140018681c2bc1bd509635f35e19fa1d4f8ef11c7a4523234"
+    },
+    "card-data.json": {
+      "bytes": 1544,
+      "sha256": "106945484b1ca28bbd7c7dfb1a6fac2e582e12a788ee752a89020c6cc11bcbe4"
+    },
+    "generation-prompt.txt": {
+      "bytes": 3498,
+      "sha256": "a99d3fef4a199e56cd0a3fda4af5ed90fca8b102ef8130bbea8dea7a91349811"
+    },
+    "pinned-repository-files.json": {
+      "bytes": 213,
+      "sha256": "539b1f1522991eadbae4630c02d0a7efbbe779f9e38da8da7e2db34b6ad864b1"
+    },
+    "reference-sources.json": {
+      "bytes": 1973,
+      "sha256": "819f0a5752f97ff6cb63a3aa4968ca90f342677ca73039500c5f0590f0e35826"
+    },
+    "references/actual-buy-bitcoin-sign.png": {
+      "bytes": 60233,
+      "sha256": "1b710c9c6e33d8d6cda4014cb49554ca128d50d74a33550b14b4d1a53d761170"
+    },
+    "references/doge-approved-v2-art.png": {
+      "bytes": 2440155,
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    },
+    "references/hodl-approved-v2-art.png": {
+      "bytes": 2365820,
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    "references/previously-approved-art.png": {
+      "bytes": 1998747,
+      "sha256": "1f2cdb55f7cac5b74fd133a06834db919a2e703cc33595bfb2cc19e2d9ec2a8b"
+    },
+    "requirements.txt": {
+      "bytes": 58,
+      "sha256": "30bae61e4f003195a44d38c134f72e868f23308a2eddf665caf88598bf46e420"
+    },
+    "source-notes.md": {
+      "bytes": 2585,
+      "sha256": "b38fcb4bfb64ada1e059ff06d976d3ce1fb99b9fc5fc0c678279ff33b2baa384"
+    },
+    "support/cards/master/front-v3/source/fontconfig.xml": {
+      "bytes": 284,
+      "sha256": "0fc4fe1d9d8d5af9c4f05bf1951bf089b67c501661af7e40dfc52874bb06652f"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans-Bold.ttf": {
+      "bytes": 708920,
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans.ttf": {
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    "support/cards/master/front-v3/source/fonts/LICENSE.txt": {
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "support/cards/master/front-v4/badge-spacing.json": {
+      "bytes": 2580,
+      "sha256": "b9a4a22a91789c59d023c9efe8700d89434fd864d31999a03422a8e604eadf6b"
+    },
+    "support/cards/master/front-v4/source/badge_spacing.py": {
+      "bytes": 1710,
+      "sha256": "eafa3507aa1890d352292065d43bc8b4e9be2dd11bf35105bef2f6ea4c479355"
+    },
+    "support/cards/master/front-v4/source/render_card.py": {
+      "bytes": 5090,
+      "sha256": "c41345ebdeb3529cf237f3de87d9330f055f928b025f6a52f7aa5a7b07088c05"
+    },
+    "support/cards/master/front-v4/templates/common.svg": {
+      "bytes": 27199,
+      "sha256": "e444857ec8ba3d3181bec8e1ec775a2fb8f59b3c213cbbe3bd7bb654b18cc6f9"
+    },
+    "visual-qa.json": {
+      "bytes": 529,
+      "sha256": "362572d90ba6d8da55541db7ec9fd3f807a17d3975072d27ddae6b7fb70d173f"
+    }
+  },
+  "visual_qa": "visual-qa.json",
+  "art_approval": "approval.json",
+  "art_bytes_preserved_note": "The revised ImageGen PNG is embedded unchanged. The previous approved illustration was deliberately edited as authorised."
+}

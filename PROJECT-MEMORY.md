@@ -4,6 +4,8 @@ Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Behind the Chair Common approved, 20 September 2026.** Dan: “locked in! uplodat to github”. Exact Common Review-v2 approved: wider desk view, lower NO SIGNS, Buy Bitcoin handwriting matched to user reference, visible desk clues, BEHIND THE CHAIR title. Canonical folder cards/crypto/season-01/behind-the-chair-master-01; PNG/SVG LORE-Behind-The-Chair-Common-v1.* and exact review source ZIP. Ten approved crypto cards; previous nine unchanged. Date 12 JUL 2017; phrase BUY BITCOIN. GitHub archive authorised; QR demo-only, print release separate. Next selected research: Silk Road Shutdown (2013), with chronology checked separately from the later 144,336 BTC seizure announcement. First Halving and First Transfer paused. HODL and Doge remain the mandatory reference pair. This supersedes earlier next-action/count statements below.
+
 - **MT. GOX Epic approved, 20 September 2026.** Dan: “approved”, responding to
   the exact Review-v3 with a one-line MT. GOX heading and stronger rain.
   Canonical folder: cards/crypto/season-01/mt-gox-master-01.
