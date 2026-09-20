@@ -4,6 +4,17 @@ Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Mandatory crypto reference pair, 20 September 2026: HODL AND Birth of Doge.**
+  Dan: “Before every card I want to use HODL and Birth of Doge as reference”.
+  Inspect and include BOTH exact approved v2 art files directly in every crypto
+  generation/edit. See cards/crypto/style-reference-lock.json v1.1 and its
+  required_references. This applies to the whole scene, including backgrounds.
+  Four approved card visuals and their historical generation provenance unchanged.
+  First Transfer is PAUSED because Dan dislikes its current design and wants
+  something else for now. Do not resume it automatically. The Whitepaper is an
+  assistant proposal only; event, rarity, copy and artwork have not been selected.
+  This supersedes older HODL-only rules and instructions to build First Transfer.
+
 - **Birth of Doge Epic HODL-style revision approved 20 September 2026.**
   Dan: “Approved!”. Exact Style-Review-v1 PNG/SVG/art archived in
   cards/crypto/season-01/birth-of-doge-master-02; current register resolves v2. Card SHA-256:

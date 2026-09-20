@@ -1,10 +1,11 @@
-# First Transfer — paused during style migration
+# First Transfer — paused at user request
 
-Update 19 September 2026: this concept was drafted and revised in conversation,
-but no First Transfer card is visually approved. Preserve the existing concept
-and source notes below. Restyle it after Pizza Day, The Merge and Birth of Doge,
-using the pinned HODL art directly. See STYLE-MIGRATION.md.
-The earlier draft reference is recorded in that queue.
+20 September 2026: Dan is not a fan of this card and requested a different design
+for now. Do not resume, regenerate or promote this draft automatically. Keep
+the earlier concept and evidence below only as historical work. No First Transfer
+visual is approved. If revisited later, use BOTH HODL v2 and Birth of Doge v2 as
+direct style references under the current lock; older reference instructions
+below are historical and superseded.
 
 ---
 

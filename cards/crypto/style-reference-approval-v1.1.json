@@ -1,0 +1,23 @@
+{
+  "revision": "LORE-CRYPTO-STYLE-v1.1",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-09-20",
+  "approval_quote": "I’m really not a fan of the first transfer card, let’s move to another design for now, have we updated github for the style direction? Before every card I want to use HODL and Birth of Doge as reference",
+  "scope": "Require exact approved HODL v2 and Birth of Doge v2 art as direct inputs before every crypto card generation and revision, including backgrounds, props and creatures. Pause First Transfer and move to a different concept. No approved artwork changes.",
+  "required_art_references": [
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "bytes": 2365820,
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "git_blob": "bf4905441d3668c47006f103993489de3ba0c368"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "bytes": 2440155,
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6"
+    }
+  ],
+  "first_transfer": "PAUSED_AT_USER_REQUEST_NOT_APPROVED",
+  "existing_four_approved_cards_unchanged": true
+}

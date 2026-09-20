@@ -1,16 +1,24 @@
-# Crypto art style — approved HODL master
+# Crypto art style — HODL and Birth of Doge
 
-**LORE-CRYPTO-STYLE-v1.0 · approved by Dan Payne on 19 September 2026.**
+**LORE-CRYPTO-STYLE-v1.1 · approved by Dan Payne on 20 September 2026.**
 
-The exact [Birth of HODL v2](season-01/birth-of-hodl-master-02/README.md),
-including its refined background, is the permanent reference for the entire
-crypto collection. [Art-only reference](season-01/birth-of-hodl-master-02/art.png).
-Resolve exact files and SHA-256 values in [the lock](style-reference-lock.json).
+“Before every card I want to use HODL and Birth of Doge as reference”.
 
-Dan: “Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!”
+Both exact approved illustrations are mandatory for every new crypto card and
+every edit. This extends the HODL direction approved on 19 September; the drawing
+language and four approved card visuals remain unchanged.
 
-Crypto and Creator cards are separate products. Crypto does not need to match
-Asmongold. Creator artwork and its original reference rules stay unchanged.
+| Required reference | Exact art | Main visual examples |
+| --- | --- | --- |
+| Birth of HODL v2 | [Art](season-01/birth-of-hodl-master-02/art.png) | Expressive human drawing, clean shapes, props, cinematic environment |
+| Birth of Doge v2 | [Art](season-01/birth-of-doge-master-02/art.png) | Creature expression, grouped fur, clean materials, coherent room and props |
+
+These are complementary examples of the same style; both apply to the whole
+scene regardless of whether a new card contains a person, creature or neither.
+Resolve exact PNG/SVG/art hashes in [the lock](style-reference-lock.json), under
+required_references. The historical master field still identifies HODL, but it
+does not permit omitting Doge. [Approval](style-reference-approval-v1.1.json).
+Crypto and Creator cards remain separate products with distinct art directions.
 
 ## Match the entire scene
 
@@ -25,29 +33,31 @@ Asmongold. Creator artwork and its original reference rules stay unchanged.
 - Avoid photographic food/fur/skin, glossy 3D materials, dense scratchy hatching,
   random grunge and airbrushed portrait faces.
 
-Match the rendering, not HODL's identity or subject matter. Do not give every card
-the same man, desk, catastrophe or red candlesticks. Keep each event's concept,
+Match the rendering of both references, not their literal identity or subject
+matter. Do not repeat the same man, dog, desk, mint, catastrophe or red candles. Keep each event's concept,
 composition, humour, recognised subject and source-backed Easter eggs.
 
 ## Required workflow
 
-1. Resolve and verify the pinned HODL art before every new image or edit.
-2. Supply that exact art directly to image generation as STYLE reference.
-   Supply the card being restyled as CONTENT/COMPOSITION reference and any factual
-   reference separately. Do not use only the latest generated derivative.
-3. Generate artwork only. Preserve the event, assigned rarity, copy/date and
-   key story clues unless Dan approves another change. Easter eggs must be drawn
-   with the scene's perspective, linework and light.
-4. Apply the pinned LORE-FRONT-v4 template and original logo/fonts deterministically.
-   Keep shared back v5 and 63 × 88 mm trim. Review any art placement or reconstruction
-   difference, especially the raster-only Pizza Day predecessor.
-5. Inspect at art size and card size beside HODL. Check character/creature,
-   background and props separately; a good face cannot compensate for a mismatched
-   background. Check the Easter eggs after the title/QR overlay.
-6. Present one card for Dan's review. Archive the exact selected files with hashes
-   and approval before moving to the next card.
-7. HODL stays the master after later cards are approved. Only Dan's explicit
-   selection of a replacement collection master can change this lock.
+1. Before each card, resolve, verify and visually inspect BOTH pinned art files.
+2. Supply BOTH exact images directly as STYLE references on every generation and
+   edit. Recover a missing reference before proceeding; do not substitute memory,
+   a text-only brief or a later derivative. Record both paths/hashes in the source
+   notes and the generation reference list.
+3. Supply the target card separately as CONTENT/COMPOSITION reference when
+   restyling, and factual sources separately as needed. Keep the event's own
+   palette, subjects and story. Do not transplant the references' literal scenes.
+4. Generate artwork only. Preserve selected event, rarity, copy/date and key clues
+   unless Dan requests a change. Draw Easter eggs in the scene's perspective,
+   linework and lighting, with sourced facts distinct from creative interpretation.
+5. Apply the pinned LORE-FRONT-v4 template and exact logo/fonts deterministically.
+   Shared back v5 and 63 x 88 mm trim remain fixed. Review placement changes.
+6. Inspect artwork and finished card beside BOTH references. Check character or
+   creature, props and background separately. Check clues after title/QR overlay.
+7. Present one card for Dan's review; archive only the exact selected files.
+   Preserve prior versions. Later approvals do not automatically change this pair.
 
-The current migration order is [recorded here](STYLE-MIGRATION.md).
-Visual approval does not confer historical fact verification, live QR or print release.
+The four-card migration is complete. First Transfer is paused at Dan's request.
+See [the queue](STYLE-MIGRATION.md). Existing cards retain their true historical
+generation provenance; they are not retroactively claimed to have used two inputs.
+Visual approval remains separate from source checks, live QR and print release.

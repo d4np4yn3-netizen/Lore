@@ -27,11 +27,13 @@ placement. The approved differences are field content: event date replaces the
 creator moment counter, subject replaces creator name, and the crypto season
 label replaces the creator footer. Do not redesign the master templates.
 
-Use the existing renderer and the exact approved HODL v2 art reference for all
-new crypto cards and revisions, supplying text in the existing fields. Read
+Use the existing renderer and BOTH exact approved art references, HODL v2 AND
+Birth of Doge v2, before every new crypto card and revision. Inspect and supply
+both art files directly to generation; typeset text in the existing fields. Read
 [ART-STYLE.md](ART-STYLE.md) and [the style lock](style-reference-lock.json).
 Crypto and Creator cards are separate products with separate drawing directions.
-The whole HODL illustration, including background and props, is the crypto master. Retain the exact brand
+Both full illustrations, including backgrounds, props and creatures, are mandatory
+crypto style references. Retain the exact brand
 assets; generate illustrations separately. All objects and scenery must share
 the drawn anime treatment. Easter eggs belong naturally in the scene's ink,
 perspective and lighting, with evidence distinguishing fact from interpretation.
@@ -44,11 +46,11 @@ this selection and reviewed for visible differences.
 
 ## Approved style migration
 
-Dan approved the background-refined HODL v2 as the permanent crypto art reference
-on 19 September 2026 and authorised restyling existing cards one by one. Follow
-[the migration queue](STYLE-MIGRATION.md), beginning with Pizza Day. Preserve old
-versions and review each replacement before moving on. New approvals do not
-silently replace HODL as the reference.
+The four approved crypto cards completed style migration on 20 September 2026.
+Dan then required BOTH HODL v2 and Birth of Doge v2 before every card. Preserve
+old versions and review new work one card at a time. New approvals do not change
+the pinned pair automatically. First Transfer is paused at Dan's request; follow
+[the queue](STYLE-MIGRATION.md) for a different next design.
 
 ## Date and source evidence
 

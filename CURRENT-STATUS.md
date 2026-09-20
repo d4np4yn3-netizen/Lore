@@ -2,7 +2,38 @@
 
 Updated 2026-09-20. Read with AGENTS.md.
 
-## Current milestone: Birth of Doge approved; four-card style migration complete
+## Current milestone: require HODL and Doge; pause First Transfer
+
+Dan on 20 September 2026: “Before every card I want to use HODL and Birth of Doge
+as reference”. He is not a fan of First Transfer and requested another design.
+
+Reference policy LORE-CRYPTO-STYLE-v1.1 is authoritative. Before EVERY crypto card,
+inspect and attach BOTH pinned artwork files directly in every generation/edit:
+- cards/crypto/season-01/birth-of-hodl-master-02/art.png
+  SHA-256: 412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1
+- cards/crypto/season-01/birth-of-doge-master-02/art.png
+  SHA-256: 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
+
+Read cards/crypto/ART-STYLE.md and required_references in the style lock. Both
+references are mandatory for characters, creatures, props and backgrounds.
+Neither a remembered image nor the latest derivative can replace either input.
+Keep event composition/content separate. Existing approved card art, brand,
+layout and Creator directions remain unchanged; historic provenance is preserved.
+
+First Transfer is PAUSED, not approved and not the next active task. Preserve
+the draft without further work unless Dan returns to it. The four-card migration
+is complete: HODL, Pizza Day, The Merge and Birth of Doge are approved and archived.
+Verified Doge delivery: 5b062810685dff4adf16cb34dd6ee3f14563f1d7;
+15 changed blobs/sizes matched, 386 unrelated blobs preserved, main tip verified.
+
+Next concept proposal: The Whitepaper, nine luminous pages becoming a network
+above an invented city. Date 31 OCT 2008, suggested Legendary, proposed phrase
+NO TRUSTED THIRD PARTY. Primary sources and four clue groups are recorded in
+cards/crypto/next-card-whitepaper.md. This is an assistant recommendation, not
+Dan's visual or copy approval. No artwork generated. Older next-action and
+HODL-only rules below are superseded. No website deployment or print release.
+
+## Previous milestone: Birth of Doge approved; four-card style migration complete
 
 Dan on 20 September 2026: “Approved!”.
 Canonical exact selected card: cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png, matching SVG and art.png.

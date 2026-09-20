@@ -1,19 +1,23 @@
 # Crypto collection instructions
 
 Read ART-STYLE.md, style-reference-lock.json, COLLECTION-RULES.md and
-current-cards.json before crypto art or edits. The parent brand/layout rules apply.
+current-cards.json before crypto art or edits. Parent brand/layout rules apply.
 
-Dan approved the background-refined HODL v2 as the permanent whole-scene crypto
-style reference. Crypto is a separate product from Creator cards; do not use
-the Asmongold set as its style gate. This authorised collection-specific decision
-supersedes earlier instructions requiring the original creator drawing treatment.
+Mandatory reference pair, explicitly selected by Dan on 20 September 2026:
+Birth of HODL v2 AND Birth of Doge v2, both in season-01/*-master-02/art.png.
+Resolve exact paths and hashes through required_references in the style lock.
+Before every card, inspect both and include both original art files directly in
+every generation and revision. Do not use only one, rely on remembered images,
+or substitute the latest output for either. Their complete scenes govern drawing
+style across characters, creatures, objects, lighting and backgrounds.
 
-Include the exact pinned HODL art directly in every generation and revision.
-Use the target event card as the composition/content reference. Keep characters,
-creatures, objects and backgrounds in the same HODL rendering language.
-Do not substitute another approved card or a derivative chain for the HODL master.
+Use an existing target card separately for composition/content when restyling.
+Keep each event's own subjects, story, palette and sourced Easter eggs. The pair
+is a rendering reference, not permission to repeat HODL's man or Doge's scene.
+Crypto is distinct from Creator cards; the Asmongold set is not its style gate.
 
-Follow STYLE-MIGRATION.md one card at a time. Present each restyle for review
-before promoting its files or starting the next card. Preserve prior versions.
-The current user approval covers saving HODL and this collection style rule;
-future replacement artwork still needs its own visual selection.
+The four approved crypto cards remain exact and complete. First Transfer is
+paused because Dan dislikes the current design; do not resume it automatically.
+Follow STYLE-MIGRATION.md for the current queue. New artwork still needs visual
+selection before archival/promotion. Preserve prior versions. Later card
+approvals do not alter this required pair without explicit user selection.

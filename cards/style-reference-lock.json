@@ -80,9 +80,16 @@
     "crypto": {
       "reference_manifest": "cards/crypto/style-reference-lock.json",
       "standard": "cards/crypto/ART-STYLE.md",
-      "approved_at": "2026-09-19",
+      "approved_at": "2026-09-20",
       "master": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
-      "override_original_creator_references": true
+      "override_original_creator_references": true,
+      "revision": "LORE-CRYPTO-STYLE-v1.1",
+      "required_art_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "include_all_required_art_references": true,
+      "master_note": "Historical HODL anchor; both listed art references are mandatory."
     }
   }
 }

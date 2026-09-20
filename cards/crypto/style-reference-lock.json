@@ -1,12 +1,12 @@
 {
-  "revision": "LORE-CRYPTO-STYLE-v1.0",
-  "status": "APPROVED_PERMANENT_COLLECTION_REFERENCE",
+  "revision": "LORE-CRYPTO-STYLE-v1.1",
+  "status": "APPROVED_MANDATORY_REFERENCE_PAIR",
   "approved_by": "Dan Payne",
-  "approved_at": "2026-09-19",
-  "approval_quote": "Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!",
+  "approved_at": "2026-09-20",
+  "approval_quote": "I’m really not a fan of the first transfer card, let’s move to another design for now, have we updated github for the style direction? Before every card I want to use HODL and Birth of Doge as reference",
   "product_scope": "All crypto collection cards and all rarity levels; creator collection unchanged.",
   "standard": "cards/crypto/ART-STYLE.md",
-  "approval_record": "cards/crypto/season-01/birth-of-hodl-master-02/approval.json",
+  "approval_record": "cards/crypto/style-reference-approval-v1.1.json",
   "master": {
     "card": {
       "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png",
@@ -34,5 +34,71 @@
   "brand_layout_fonts_rarity_colours_back_trim_unchanged": true,
   "historical_hodl_master": "cards/crypto/season-01/birth-of-hodl-master-01",
   "review_required_for_each_replacement": true,
-  "migration_queue": "cards/crypto/STYLE-MIGRATION.md"
+  "migration_queue": "cards/crypto/STYLE-MIGRATION.md",
+  "required_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "name": "Birth of HODL v2",
+      "required": true,
+      "role": "Approved whole-scene drawing, human expression, props and environmental rendering reference",
+      "approval_record": "cards/crypto/season-01/birth-of-hodl-master-02/approval.json",
+      "source_commit": "1910d0da5303603cfee9a54fa76e084beb700884",
+      "card": {
+        "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png",
+        "bytes": 1537815,
+        "sha256": "3071f36bf41d9f50a7e59d49cf4e74cd5151bcf200674e2bb1dba1e41e41aa6f",
+        "git_blob": "8264073277cfd0f2867c842e9eb7eea425946f87"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.svg",
+        "bytes": 3190110,
+        "sha256": "9da8a3668f47d7a0872c527202195452eaebfc75dccafb12feaebb35c02af65f",
+        "git_blob": "b9fe0115b276b377e9df650d9c753707e54f4072"
+      },
+      "art": {
+        "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "bytes": 2365820,
+        "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+        "git_blob": "bf4905441d3668c47006f103993489de3ba0c368"
+      }
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "name": "Birth of Doge v2",
+      "required": true,
+      "role": "Approved whole-scene drawing, creature expression, grouped fur, props and environmental rendering reference",
+      "approval_record": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
+      "source_commit": "5b062810685dff4adf16cb34dd6ee3f14563f1d7",
+      "card": {
+        "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
+        "bytes": 1539831,
+        "sha256": "2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7",
+        "git_blob": "70b4a9c074156ccc2c098133bffc3d5834c0cd2f"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
+        "bytes": 3288774,
+        "sha256": "b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4",
+        "git_blob": "89512b559629f9567c07a5782502e84ac6e15637"
+      },
+      "art": {
+        "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+        "bytes": 2440155,
+        "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+        "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6"
+      }
+    }
+  ],
+  "required_reference_count": 2,
+  "include_all_references_in_every_generation_and_edit": true,
+  "inspect_both_before_every_card": true,
+  "master_field_note": "The historical master alias remains HODL for provenance. required_references is authoritative: BOTH HODL and Doge are mandatory inputs. Neither is optional.",
+  "prior_reference_policy": {
+    "revision": "LORE-CRYPTO-STYLE-v1.0",
+    "approved_at": "2026-09-19",
+    "approval_quote": "Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!",
+    "approval_record": "cards/crypto/season-01/birth-of-hodl-master-02/approval.json"
+  },
+  "existing_card_provenance_unchanged": true,
+  "reference_pair_changes_require_explicit_user_selection": true
 }

@@ -382,7 +382,12 @@
       "previous_approval_record": "cards/crypto/season-01/birth-of-doge-master-01/approval.json"
     }
   ],
-  "style_revision": "LORE-CRYPTO-STYLE-v1.0",
+  "style_revision": "LORE-CRYPTO-STYLE-v1.1",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 4
+  "approved_in_current_style_count": 4,
+  "required_style_references": [
+    "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+    "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+  ],
+  "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged."
 }
