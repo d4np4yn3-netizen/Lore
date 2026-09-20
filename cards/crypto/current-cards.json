@@ -292,7 +292,7 @@
       "context": "VERY CURRENCY.",
       "moment_label": "06 DEC 2013",
       "set_label": "CRYPTO • SEASON 01",
-      "artwork": "cards/crypto/season-01/birth-of-doge-master-01/art.png",
+      "artwork": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
       "qr_url": "https://example.com/lore/crypto/birth-of-doge",
       "status": "VISUALLY_APPROVED",
       "artwork_status": "VISUALLY_APPROVED",
@@ -325,20 +325,47 @@
       ],
       "event_date_display": "06 DEC 2013",
       "footer": "CRYPTO • SEASON 01",
-      "front": "cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.png",
-      "editable_svg": "cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.svg",
+      "front": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
+      "editable_svg": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
       "github_upload_authorised": true,
       "website_publication_in_this_change": false,
       "approved_by": "Dan Payne",
-      "approved_at": "2026-09-19",
-      "approval_quote": "approved, upload and move to next card",
-      "approval_record": "cards/crypto/season-01/birth-of-doge-master-01/approval.json",
-      "source_notes": "cards/crypto/season-01/birth-of-doge-master-01/source-notes.md",
+      "approved_at": "2026-09-20",
+      "approval_quote": "Approved!",
+      "approval_record": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
+      "source_notes": "cards/crypto/season-01/birth-of-doge-master-02/source-notes.md",
       "moment_number": null,
       "set_size": null,
       "print_quantities": null,
       "qr_status": "DEMO_ONLY",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.0",
+      "style_reference": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "style_reference_sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "style_reference_commit": "1910d0da5303603cfee9a54fa76e084beb700884",
+      "composition_reference": "cards/crypto/season-01/birth-of-doge-master-01/art.png",
+      "supersedes": "cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.png",
       "current_files": [
+        {
+          "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
+          "bytes": 1539831,
+          "sha256": "2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7",
+          "git_blob": "70b4a9c074156ccc2c098133bffc3d5834c0cd2f"
+        },
+        {
+          "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
+          "bytes": 3288774,
+          "sha256": "b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4",
+          "git_blob": "89512b559629f9567c07a5782502e84ac6e15637"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+        "bytes": 2440155,
+        "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+        "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6"
+      },
+      "previous_approved_files": [
         {
           "path": "cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.png",
           "bytes": 1864244,
@@ -352,17 +379,10 @@
           "git_blob": "3504810ab3b1a85d9b2bd972be98ad08e7f84aa0"
         }
       ],
-      "artwork_file": {
-        "path": "cards/crypto/season-01/birth-of-doge-master-01/art.png",
-        "bytes": 2928801,
-        "sha256": "17ffd098743fc911f41b27a200e4482682f74b4a9bb4930ec93d953ef73dd91a",
-        "git_blob": "ac8ceb83f3c8a01bb67f5259dae8a52898c6d37a"
-      },
-      "style_migration_status": "PENDING_REVIEW_AGAINST_NEW_MASTER",
-      "target_style_revision": "LORE-CRYPTO-STYLE-v1.0"
+      "previous_approval_record": "cards/crypto/season-01/birth-of-doge-master-01/approval.json"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.0",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 3
+  "approved_in_current_style_count": 4
 }

@@ -4,6 +4,18 @@ Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Birth of Doge Epic HODL-style revision approved 20 September 2026.**
+  Dan: “Approved!”. Exact Style-Review-v1 PNG/SVG/art archived in
+  cards/crypto/season-01/birth-of-doge-master-02; current register resolves v2. Card SHA-256:
+  2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7
+  All four previously approved crypto cards now have approved HODL-style versions:
+  HODL, Pizza Day, The Merge and Birth of Doge. Four-card migration complete.
+  HODL remains the permanent style master. Earlier versions remain archived.
+  The HODL/Doge wording ambiguity was resolved by “Yeah: Birth of Doge next”.
+  Next queued card is First Transfer, still an unapproved draft; include HODL
+  directly when revising it and present it for review. This supersedes older
+  count, clarification and next-card statements below. Demo QR; no print release.
+
 - **The Merge Mythic HODL-style revision approved 20 September 2026.**
   Dan: “All approved, now birth of hodl”. Exact Style-Review-v1 PNG/SVG/art archived in
   cards/crypto/season-01/the-merge-master-02; current register resolves v2. Card SHA-256:

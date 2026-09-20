@@ -2,7 +2,32 @@
 
 Updated 2026-09-20. Read with AGENTS.md.
 
-## Current milestone: The Merge style revision approved
+## Current milestone: Birth of Doge approved; four-card style migration complete
+
+Dan on 20 September 2026: “Approved!”.
+Canonical exact selected card: cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png, matching SVG and art.png.
+PNG SHA-256: 2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7
+SVG SHA-256: b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4
+Art SHA-256: 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
+The final Style-Review-v1 files are copied byte-for-byte without regeneration or
+visual changes. Approval, source notes, generation prompt, references and hashes
+are archived beside them. Review checks verified fixed layout, card copy, artwork
+embedding, dimensions and actual QR decoding. File hashes and embedding were
+rechecked for archival. Old approved Doge files remain in master-01.
+
+**All four approved crypto cards are now approved in the new style:** Birth of
+HODL, Pizza Day, The Merge and Birth of Doge. Resolve their exact files through
+cards/crypto/current-cards.json. HODL v2 remains the permanent style master and
+must be supplied directly in every new generation or edit. Creator art unchanged.
+
+**Next queued card: First Transfer — Legendary proposal.** Its earlier draft is
+not approved. Continue the existing concept with the pinned HODL art as direct
+style reference and present the result for review. Do not count it as a fifth
+approved card or infer approval from Doge. The HODL/Doge ambiguity is resolved.
+Historical next-action and unapproved-Doge statements below are superseded.
+Demo QR; no website deployment or print release in this archival change.
+
+## Previous milestone: The Merge style revision approved
 
 Dan on 20 September 2026: “All approved, now birth of hodl”.
 Canonical exact selected card: cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2.png, matching SVG and art.png.

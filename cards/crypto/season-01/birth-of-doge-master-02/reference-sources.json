@@ -1,0 +1,19 @@
+{
+  "style_master": {
+    "repository": "d4np4yn3-netizen/Lore",
+    "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+    "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+    "role": "Permanent whole-scene style master supplied directly to image generation"
+  },
+  "content_reference": {
+    "repository": "d4np4yn3-netizen/Lore",
+    "path": "cards/crypto/season-01/birth-of-doge-master-01/art.png",
+    "sha256": "17ffd098743fc911f41b27a200e4482682f74b4a9bb4930ec93d953ef73dd91a",
+    "role": "Previously approved Doge subject, composition, expression and Easter eggs supplied directly to image generation"
+  },
+  "generation_reference_order": [
+    "content_reference",
+    "style_master"
+  ],
+  "generation_mode": "built-in ImageGen style-transfer"
+}

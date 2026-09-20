@@ -16,10 +16,11 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 | Birth of HODL — Epic | [Approved v2](season-01/birth-of-hodl-master-02/README.md) | Complete; permanent master |
 | Pizza Day — Legendary | [Approved v2](season-01/pizza-day-master-02/README.md) | Complete |
 | The Merge — Mythic | [Approved v2](season-01/the-merge-master-02/README.md) | Complete |
-| Birth of Doge — Epic | [Earlier approval](season-01/birth-of-doge-master-01/README.md) | Next queued restyle; confirm latest HODL request |
+| Birth of Doge — Epic | [Approved v2](season-01/birth-of-doge-master-02/README.md) | Complete |
 
-[First Transfer](next-card-first-transfer.md) remains an unapproved draft.
-Finish existing cards one by one before adding new events.
+All four approved crypto cards now use the approved HODL art direction.
+[First Transfer](next-card-first-transfer.md) is next in the queue and remains an
+unapproved draft. Continue one card at a time with HODL supplied directly.
 
 One rarity per event, standard and foil editions, event dates under the badge.
 LORE-FRONT-v4, shared back v5, brand, fonts and 63 × 88 mm trim remain fixed.

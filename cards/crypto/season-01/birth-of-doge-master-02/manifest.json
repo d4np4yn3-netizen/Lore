@@ -1,0 +1,84 @@
+{
+  "status": "VISUALLY_APPROVED",
+  "approval": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
+  "style_revision": "LORE-CRYPTO-STYLE-v1.0",
+  "files": [
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
+      "bytes": 1539831,
+      "sha256": "2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7",
+      "git_blob": "70b4a9c074156ccc2c098133bffc3d5834c0cd2f"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
+      "bytes": 3288774,
+      "sha256": "b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4",
+      "git_blob": "89512b559629f9567c07a5782502e84ac6e15637"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/README.md",
+      "bytes": 1292,
+      "sha256": "a7e4694cae6619778ea7a629c9529827087114409659f4bb3cd3ef4ff7f82ada",
+      "git_blob": "66d153850198f9191d42806b9207b2769ec2c2f1"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
+      "bytes": 1634,
+      "sha256": "c22ab14eb4de75f25eab1c040164bf8d47d283a480376f40c3146fd761392cb4",
+      "git_blob": "66c140e8f94af47937f597fd6e88dcc8c11c1b09"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "bytes": 2440155,
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/card-data.json",
+      "bytes": 2478,
+      "sha256": "507aa6a139e790e2f346624cf28abb4352056d7e4bbf1bf44c3264a83a559a11",
+      "git_blob": "d8d1fc1f04956dc2dc8b9203de77b881f8075501"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/generation-prompt.txt",
+      "bytes": 3641,
+      "sha256": "032bddef0ee5c07556a204387d938c44a26af355f345e6379a60fc3b657e5ed5",
+      "git_blob": "b3601ca65a8b5c59d7710a027abb980e5a0aa0dd"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/reference-sources.json",
+      "bytes": 801,
+      "sha256": "5a555886135deb8df5194694fecaf79697a7656d7aac36f11769f503310d4474",
+      "git_blob": "01b78ce892ec740c728016d84ed373ba6889088e"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/source-notes.md",
+      "bytes": 4407,
+      "sha256": "1ef449e5cd36d974c85fe22173ca46bbaec14f03573e4e09ff73ac156f795b84",
+      "git_blob": "adb4247c3886b58f376b6e923fd303a652d25fe8"
+    }
+  ],
+  "qa": {
+    "exact_selected_png_svg_art_preserved": true,
+    "dimensions_px": [
+      900,
+      1260
+    ],
+    "embedded_art_bytes_verified": true,
+    "qr_decoded_during_review": "https://example.com/lore/crypto/birth-of-doge",
+    "qr_decode_verified_during_review": true,
+    "original_template_check": true,
+    "unchanged_card_copy_and_qr": true,
+    "visual_review": {
+      "completed": true,
+      "date": "2026-09-20",
+      "findings": [
+        "Kabosu side-eye, muzzle shape and crossed front paws retained",
+        "Fur, sofa, plant, walls and mint machinery share clean drawn contours and grouped shading",
+        "NINTONDO, SHIBETOSHI, 22556 and calendar remain visible after card overlay",
+        "Original template and exact text retained; no art placement adjustment needed"
+      ]
+    }
+  },
+  "print_release": false
+}
