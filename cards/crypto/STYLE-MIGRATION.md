@@ -7,13 +7,13 @@ Workflow order below is the implementation order; it is not collector numbering.
 | Order | Card | State | Next action |
 | --- | --- | --- | --- |
 | Complete | Birth of HODL — Epic | New whole-scene style approved | Use master-02 as permanent art reference |
-| 1 | Pizza Day — Legendary | Previous visual retained; restyle authorised | Build and review first |
-| 2 | The Merge — Mythic | Previous visual retained; waiting | Begin after Pizza Day is selected |
+| Complete | Pizza Day — Legendary | HODL-style revision approved 20 September 2026 | Use pizza-day-master-02 |
+| 1 | The Merge — Mythic | Restyle authorised; next for review | Build using HODL directly |
 | 3 | Birth of Doge — Epic | Previous visual retained; waiting | Begin after The Merge is selected |
 | 4 | First Transfer — Legendary proposal | Earlier draft unapproved; paused | Restyle existing concept after Doge, then review |
 
-Earlier approvals remain historical evidence, not a claim that the three old
-crypto images have already been brought into the new direction. No restyle
+HODL and Pizza Day are now approved in the new style. The Merge and Doge retain
+their earlier approvals while waiting for reviewed successors. No restyle
 replaces a current image until Dan selects it. First Transfer is not a fifth
 approved card. Its previous local Review-v2 is recorded by Library ID
 libfile_95b5827a02988191aab7457b806919f4; it is not an approved reference.

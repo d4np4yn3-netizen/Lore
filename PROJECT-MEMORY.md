@@ -4,6 +4,16 @@ Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **Pizza Day Legendary HODL-style revision approved 20 September 2026.**
+  Dan: “Approved, next :)”. Exact final Style-Review-v1 PNG/SVG/art archived in
+  cards/crypto/season-01/pizza-day-master-02, with 40-unit upward art placement. This includes the separate editable
+  reconstruction using the pinned Legendary template. Current register resolves v2.
+  PNG SHA-256: 22da203a59bb0d04c3a9221ed82e83f5da5ce362721613647586c0ac98cf6725
+  GitHub save and next card authorised. HODL remains the permanent style master.
+  Two of four approved crypto cards are now in the new style. Next: The Merge,
+  then Doge, then the unapproved First Transfer draft, one at a time.
+  Old Pizza files remain archived. Demo QR; no website/print release.
+
 - **Crypto has its own approved art direction: LORE-CRYPTO-STYLE-v1.0.** Dan explicitly selected
   the background-refined HODL Manhwa Review-v2 as permanent style master:
   “Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!”

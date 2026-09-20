@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "collection": "Crypto",
   "season": 1,
   "approved_visual_count": 4,
@@ -8,6 +8,44 @@
   "cards": [
     {
       "id": "crypto-s01-pizza-day",
+      "rarity": "legendary",
+      "creator": "BITCOIN",
+      "title_line_1": "PIZZA",
+      "title_line_2": "DAY",
+      "context": "10,000 BITCOINS FOR PIZZA.",
+      "moment_label": "22 MAY 2010",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/pizza-day-master-02/art.png",
+      "qr_url": "https://example.com/lore/crypto/pizza-day",
+      "status": "VISUALLY_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.0",
+      "style_reference": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "style_reference_sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "style_reference_commit": "1910d0da5303603cfee9a54fa76e084beb700884",
+      "art_translation_svg_units": [
+        0,
+        -40
+      ],
+      "art_placement_reason": "Lift art by 40 SVG units so the retained Papa Johns napkin clears the fixed title area; placement is part of this candidate review.",
+      "composition_reference": "cards/crypto/season-01/pizza-day-master-01/art.png",
+      "event_date": "2010-05-22",
+      "request_date": "2010-05-18",
+      "completion_confirmation_date": "2010-05-22",
+      "source": "https://bitcointalk.org/index.php?topic=137.msg1195#msg1195",
+      "phrase_status": "PREVIOUSLY_APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_status": "DEMO_ONLY",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Two pizzas, coin spiral and invented night-time room. Monitor blockchain time is not a pizza delivery time. Same concept as the prior approved Pizza Day raster.",
       "collection": "crypto",
       "season": 1,
       "subject": "BITCOIN",
@@ -15,36 +53,43 @@
         "PIZZA",
         "DAY"
       ],
-      "context": "10,000 BITCOINS FOR PIZZA.",
-      "rarity": "legendary",
-      "event_date": "2010-05-22",
       "event_date_display": "22 MAY 2010",
-      "request_date": "2010-05-18",
-      "completion_confirmation_date": "2010-05-22",
+      "footer": "CRYPTO • SEASON 01",
+      "front": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2.png",
+      "editable_svg": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2.svg",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-20",
+      "approval_quote": "Approved, next :)",
+      "approval_record": "cards/crypto/season-01/pizza-day-master-02/approval.json",
+      "source_notes": "cards/crypto/season-01/pizza-day-master-02/source-notes.md",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "supersedes": "cards/crypto/season-01/pizza-day-master-01/LORE-Bitcoin-Pizza-Day-Legendary-v1.png",
       "moment_number": null,
       "set_size": null,
-      "footer": "CRYPTO • SEASON 01",
-      "finishes": [
-        "standard",
-        "foil"
-      ],
       "print_quantities": null,
-      "qr_url": "https://example.com/lore/crypto/pizza-day",
-      "qr_status": "DEMO_ONLY",
-      "artwork": "cards/crypto/season-01/pizza-day-master-01/art.png",
-      "front": "cards/crypto/season-01/pizza-day-master-01/LORE-Bitcoin-Pizza-Day-Legendary-v1.png",
-      "status": "VISUALLY_APPROVED_RASTER_PREVIEW",
-      "approved_by": "Dan Payne",
-      "approved_at": "2026-09-19",
-      "approval_record": "cards/crypto/season-01/pizza-day-master-01/approval.json",
-      "source_notes": "cards/crypto/season-01/pizza-day-master-01/source-notes.md",
-      "physical_trim_mm": [
-        63,
-        88
-      ],
-      "print_release": false,
-      "editable_svg": null,
       "current_files": [
+        {
+          "path": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2.png",
+          "bytes": 1592840,
+          "sha256": "22da203a59bb0d04c3a9221ed82e83f5da5ce362721613647586c0ac98cf6725",
+          "git_blob": "7e4788aac6d9e3baf630ba9805616cc4341d6531"
+        },
+        {
+          "path": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2.svg",
+          "bytes": 3283043,
+          "sha256": "9efd24ac0d1b9a4966b123813d70f3260a19ebd10932eb4d8575ca7fb56671b5",
+          "git_blob": "399857a28a164d74a8b5198914d2d783b2312169"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/pizza-day-master-02/art.png",
+        "bytes": 2436797,
+        "sha256": "64b4159a0f926ceed878fbf0ae2cd9a613dc0e5e554174e3d76ee24682523729",
+        "git_blob": "256dac984e3efa92ff29b47e6f78a74ff9aa28c0"
+      },
+      "previous_approved_files": [
         {
           "path": "cards/crypto/season-01/pizza-day-master-01/LORE-Bitcoin-Pizza-Day-Legendary-v1.png",
           "bytes": 2490781,
@@ -52,14 +97,7 @@
           "git_blob": "a1452db9e5f1bce9b755fca5a4abe3fdd4acc1a1"
         }
       ],
-      "artwork_file": {
-        "path": "cards/crypto/season-01/pizza-day-master-01/art.png",
-        "bytes": 2671526,
-        "sha256": "bf2429afb595d00b5d1db071d8f1aa4646fea155b8068cdc813c9a4ce9d1de56",
-        "git_blob": "aeb6265b5967c7c2468a795a368efcb6fab3710b"
-      },
-      "style_migration_status": "PENDING_REVIEW_AGAINST_NEW_MASTER",
-      "target_style_revision": "LORE-CRYPTO-STYLE-v1.0"
+      "previous_approval_record": "cards/crypto/season-01/pizza-day-master-01/approval.json"
     },
     {
       "rarity": "epic",
@@ -306,5 +344,5 @@
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.0",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 1
+  "approved_in_current_style_count": 2
 }

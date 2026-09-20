@@ -1,8 +1,29 @@
 # LORE — current status
 
-Updated 2026-09-19. Read with AGENTS.md.
+Updated 2026-09-20. Read with AGENTS.md.
 
-## Current milestone: HODL v2 approved as permanent crypto style master
+## Current milestone: Pizza Day style revision approved
+
+Dan on 20 September 2026: “Approved, next :)”.
+Canonical exact selected card: cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2.png, matching SVG and art.png.
+PNG SHA-256: 22da203a59bb0d04c3a9221ed82e83f5da5ce362721613647586c0ac98cf6725
+The final Style-Review-v1 is copied without regeneration or visual changes.
+This approval includes the pinned Legendary layout and 40-unit upward art placement.
+Approval, source notes, prompt, references and file hashes are archived beside it.
+
+HODL v2 remains the permanent crypto style master. All generations and revisions
+must include that exact art directly; do not replace it with the latest approved
+card. HODL and Pizza Day are now approved in the new style; four approved crypto
+visuals overall. Old versions and Creator cards remain unchanged.
+
+**Next: build The Merge restyle and present it for review.** Preserve its existing
+spacecraft engine-swap scene and four clue groups while matching HODL's whole-scene
+rendering. Then Doge and the unapproved First Transfer draft, one at a time.
+Historical statements below about Pizza Day being unapproved are superseded.
+GitHub delivery uses blob/hash verification and preserves unrelated files.
+Demo QR; no website deployment or print release.
+
+## Previous milestone: HODL v2 approved as permanent crypto style master
 
 Dan: “Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!”
 Exact selected card: cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png, matching SVG and art.png.
