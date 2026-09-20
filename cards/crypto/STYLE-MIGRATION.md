@@ -15,10 +15,12 @@ artwork and hashes through style-reference-lock.json before every card.
 | The DAO Hack — Epic | Approved v1 | Keep exact Epic Review-v2 files |
 | Terra/LUNA — The Depeg | Approved Rare v1 | Keep exact the-depeg-master-01 files |
 | MT. GOX — Epic | Approved v1 | Keep exact Epic Review-v3 files |
-
 | Behind the Chair — Common | Approved v1 | Keep exact Common Review-v2 files |
 | First Halving — exploratory art | PAUSED at Dan's request | Do not resume automatically |
-| Silk Road Shutdown — 2013 | Selected for research | Verify chronology and propose a concept |
+| Silk Road Shutdown — 2013 | PARKED after user rejection | Do not resume automatically |
+| Dogecar — Talladega 2014 | PARKED after perspective rejection | Do not resume automatically |
+| Buried Fortune — Rare | Approved v1 | Keep exact Rare Review-v3 files |
+| First Bitcoin ATM — CASH OUT | Proposed next concept | Research complete; user selection pending |
 
 The four-card migration is complete. Dan wants a different design next and is
 not a fan of the First Transfer draft. Preserve that draft and its sources for
@@ -27,6 +29,6 @@ Earlier Review-v2: Library libfile_95b5827a02988191aab7457b806919f4.
 
 The earlier restriction against new event concepts during migration no longer
 applies: the migration is complete and Dan explicitly requested another design.
-Ten crypto cards are approved overall.
-Behind the Chair is complete; Silk Road Shutdown is next for research. See EDITORIAL-BACKLOG.md. Continue one card at a time and include BOTH pinned art
+Eleven crypto cards are approved overall.
+Buried Fortune is complete; the first Bitcoin ATM is the proposed next concept. See EDITORIAL-BACKLOG.md. Continue one card at a time and include BOTH pinned art
 references directly in every generation/edit; keep the shared brand/layout rules.

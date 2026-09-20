@@ -1,0 +1,133 @@
+{
+  "status": "CARD_REVIEW_NOT_APPROVED",
+  "dimensions_px": [
+    900,
+    1260
+  ],
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "layout": "LORE-FRONT-v4",
+  "fixed_template_structure_verified": true,
+  "art_bytes_preserved": true,
+  "art_translation": null,
+  "qr_payload": "https://example.com/lore/crypto/buried-fortune",
+  "qr_status": "DEMO_ONLY",
+  "qr_decode_verified": true,
+  "print_release": false,
+  "publication_approved": false,
+  "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+  "both_required_style_hashes_verified": true,
+  "source_commit": "035dd069035146f76240cb693826de36eae9febc",
+  "files": {
+    "LORE-Buried-Fortune-Rare-Review-v3.png": {
+      "bytes": 1554203,
+      "sha256": "7999e9c92af71543b4f88d623fb97443883163cf77351ee603630705d43237ed"
+    },
+    "LORE-Buried-Fortune-Rare-Review-v3.svg": {
+      "bytes": 3063116,
+      "sha256": "5939f7411a35344625c79b90935467d9445e85dfe82732304c2812ef7f665cc5"
+    },
+    "README.md": {
+      "bytes": 962,
+      "sha256": "4320433955d8ad660074e270768ab41c5df8abfa3ec4eeac030fccce965799eb"
+    },
+    "art.png": {
+      "bytes": 2270778,
+      "sha256": "aaa6342da6aa7274a1c518a2647229508a4586c630aa9cdfd2322eb2fee3117f"
+    },
+    "build_review.py": {
+      "bytes": 3057,
+      "sha256": "26c0ba241390a7c515d36b432985a7a5342abca09b881349002451f1ac5bf1c9"
+    },
+    "card-data.json": {
+      "bytes": 1721,
+      "sha256": "f914504b330624adeffe5735e1fe803f3313f6fd0a8656f5d7082cb4fd391acc"
+    },
+    "generation-prompt.txt": {
+      "bytes": 2278,
+      "sha256": "35500cd854cedc093e16978de996a584227d0efe866f40e0233b3aa6817747dc"
+    },
+    "pinned-repository-files.json": {
+      "bytes": 2490,
+      "sha256": "a844be6845c10bbde4c834dc3f5c2d43119e09272ab22c9bc490083ddd265cb0"
+    },
+    "reference-sources.json": {
+      "bytes": 1679,
+      "sha256": "327d3164cde3125fe2ce8002b9e715fc16a491a8d785715d255a97f7a27f1ca0"
+    },
+    "references/buried-fortune-review-v1-art.png": {
+      "bytes": 2390195,
+      "sha256": "afa719184dabeb6daa76075c87545a4e867537843769e1b0f74497213123ff65"
+    },
+    "references/buried-fortune-review-v2-art.png": {
+      "bytes": 2386455,
+      "sha256": "c58e644450a8d105e760c59b87e2ccee8badb636491177d29eefd1da4237228a"
+    },
+    "references/doge-approved-v2-art.png": {
+      "bytes": 2440155,
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    },
+    "references/hodl-approved-v2-art.png": {
+      "bytes": 2365820,
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    "source-notes.md": {
+      "bytes": 4020,
+      "sha256": "061b4de485e3d700b6d079d4808216e45a4dbb390c541ebcf6325f731365b7fe"
+    },
+    "style-reference-lock.json": {
+      "bytes": 5257,
+      "sha256": "a98c23702a5ac67a74ec8d89a6fe12e41047c5711a2ea8d89c2db6ace87e95e3"
+    },
+    "support/cards/master/front-v3/source/fontconfig.xml": {
+      "bytes": 284,
+      "sha256": "0fc4fe1d9d8d5af9c4f05bf1951bf089b67c501661af7e40dfc52874bb06652f"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans-Bold.ttf": {
+      "bytes": 708920,
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans.ttf": {
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    "support/cards/master/front-v3/source/fonts/LICENSE.txt": {
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "support/cards/master/front-v4/badge-spacing.json": {
+      "bytes": 2580,
+      "sha256": "b9a4a22a91789c59d023c9efe8700d89434fd864d31999a03422a8e604eadf6b"
+    },
+    "support/cards/master/front-v4/source/badge_spacing.py": {
+      "bytes": 1710,
+      "sha256": "eafa3507aa1890d352292065d43bc8b4e9be2dd11bf35105bef2f6ea4c479355"
+    },
+    "support/cards/master/front-v4/source/render_card.py": {
+      "bytes": 5090,
+      "sha256": "c41345ebdeb3529cf237f3de87d9330f055f928b025f6a52f7aa5a7b07088c05"
+    },
+    "support/cards/master/front-v4/source/render_card_base.py": {
+      "bytes": 5090,
+      "sha256": "c41345ebdeb3529cf237f3de87d9330f055f928b025f6a52f7aa5a7b07088c05"
+    },
+    "support/cards/master/front-v4/templates/epic.svg": {
+      "bytes": 27201,
+      "sha256": "29af469ca452866f44ee6a33105be08eef140091c54955e968a9941fe34d5e5c"
+    },
+    "support/cards/master/front-v4/templates/legendary.svg": {
+      "bytes": 27205,
+      "sha256": "cf9a884a320d164892062e2683d88912c457db2518e22a8818e444b0577d34c8"
+    },
+    "support/cards/master/front-v4/templates/rare.svg": {
+      "bytes": 27202,
+      "sha256": "e005670cb8247602ca70787d99ca4389632c6b38deaae8824cdcd655e02867fd"
+    },
+    "visual-qa.json": {
+      "bytes": 625,
+      "sha256": "4b9e2175bcec15a5d86fee5b7c7b95717cd16d0f25b190122b917cc446f75538"
+    }
+  }
+}

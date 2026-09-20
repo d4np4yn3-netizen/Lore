@@ -42,7 +42,7 @@ Keep both pinned after later card approvals unless Dan explicitly changes them.
 Dan's 20 September instruction adds approved Birth of Doge as a mandatory direct
 reference alongside HODL. It supersedes earlier HODL-only workflow wording.
 Crypto and Creator cards are separate products. Creator art references stay fixed.
-Ten crypto cards are approved, including Behind the Chair; preserve their exact files.
+Eleven crypto cards are approved, including Buried Fortune; preserve their exact files.
 First Transfer is paused at Dan's request and must not be resumed automatically.
 Move to a different event design; develop one card at a time and review it before
 promotion. Existing brand, layout, fonts, rarity colours, back and size still apply.
@@ -95,4 +95,4 @@ that card. Shared master templates remain unchanged.
 
 ## Current next event
 
-Behind the Chair Common Review-v2 is approved and authorised for GitHub archive. Silk Road Shutdown (2013) is selected for research, not yet approved artwork. First Halving and First Transfer are paused; do not resume automatically. Read cards/crypto/next-card-silk-road.md for the date/seizure distinction before proposing artwork.
+Buried Fortune Rare Review-v3 is approved and authorised for GitHub archive. The next proposed research concept is CASH OUT: the first permanent public Bitcoin ATM at Waves Coffee House, Vancouver (29 October 2013 public launch). See cards/crypto/next-card-first-bitcoin-atm.md. The concept, rarity and caption still require selection. Silk Road and Dogecar are parked after user rejection. First Halving and First Transfer remain paused; do not resume automatically.

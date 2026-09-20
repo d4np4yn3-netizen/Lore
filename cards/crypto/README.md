@@ -22,12 +22,13 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 | The DAO Hack — Epic | [Approved v1](season-01/the-dao-hack-master-01/README.md) | Complete; exact Review-v2 |
 | The Depeg — Rare | [Approved v1](season-01/the-depeg-master-01/README.md) | Complete; latest selected edits |
 | MT. GOX — Epic | [Approved v1](season-01/mt-gox-master-01/README.md) | Complete; exact Review-v3 |
-
 | Behind the Chair — Common | [Approved v1](season-01/behind-the-chair-master-01/README.md) | Complete; exact Review-v2 |
 
-All ten approved crypto cards use the approved crypto art direction.
+| Buried Fortune — Rare | [Approved v1](season-01/buried-fortune-master-01/README.md) | Complete; exact Review-v3 |
+
+All eleven approved crypto cards use the approved crypto art direction.
 [First Transfer](next-card-first-transfer.md) is paused at Dan's request.
-[Behind the Chair](season-01/behind-the-chair-master-01/README.md) is complete. Next: [Silk Road Shutdown research](next-card-silk-road.md). First Halving is also paused.
+[Buried Fortune](season-01/buried-fortune-master-01/README.md) is complete. Proposed next: [First Bitcoin ATM](next-card-first-bitcoin-atm.md). Silk Road and Dogecar are parked; First Halving also remains paused.
 Continue one card at a time with BOTH HODL and Doge supplied directly.
 
 One rarity per event, standard and foil editions, event dates under the badge.

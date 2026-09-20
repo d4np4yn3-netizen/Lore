@@ -14,8 +14,8 @@ set list, approved rarity assignment or visual approval. Develop one at a time.
 | Bans and restrictions | China's mining crackdown; specific national trading restrictions |
 | Recoveries and consequences | Repayments, forks and responses to the above events |
 
-Existing approved cards: HODL, Pizza Day, The Merge, Birth of Doge, The Whitepaper, BitConnect, The DAO Hack, The Depeg, MT. GOX, Behind the Chair.
-Behind the Chair is complete. Dan selected The Silk Road Shutdown (2013) next for research; see next-card-silk-road.md. Rarity, caption and artwork remain proposals.
+Existing approved cards: HODL, Pizza Day, The Merge, Birth of Doge, The Whitepaper, BitConnect, The DAO Hack, The Depeg, MT. GOX, Behind the Chair, Buried Fortune.
+Buried Fortune is complete. Proposed next: CASH OUT, the first public Bitcoin ATM; see next-card-first-bitcoin-atm.md. Rarity, caption and artwork remain proposals. Silk Road and Dogecar are parked after user rejection.
 First Transfer and First Halving remain paused. BitConnect's approved card represents the stage
 speech, not its later shutdown; avoid making two events share an inaccurate date.
 Before dates, amounts, quotes or accusations appear on a card, record source

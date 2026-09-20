@@ -16,7 +16,7 @@ Keep each event's own subjects, story, palette and sourced Easter eggs. The pair
 is a rendering reference, not permission to repeat HODL's man or Doge's scene.
 Crypto is distinct from Creator cards; the Asmongold set is not its style gate.
 
-Ten crypto cards are approved, including Behind the Chair; keep their exact files. First Transfer is
+Eleven crypto cards are approved, including Buried Fortune; keep their exact files. First Transfer is
 paused because Dan dislikes the current design; do not resume it automatically.
 Follow STYLE-MIGRATION.md for the current queue. New artwork still needs visual
 selection before archival/promotion. Preserve prior versions. Later card
@@ -31,4 +31,4 @@ that card. Shared master templates remain unchanged.
 
 ## Current next event
 
-Behind the Chair Common Review-v2 is approved and authorised for GitHub archive. Silk Road Shutdown (2013) is selected for research, not yet approved artwork. First Halving and First Transfer are paused; do not resume automatically. Read cards/crypto/next-card-silk-road.md for the date/seizure distinction before proposing artwork.
+Buried Fortune Rare Review-v3 is approved and authorised for GitHub archive. The next proposed research concept is CASH OUT: the first permanent public Bitcoin ATM at Waves Coffee House, Vancouver (29 October 2013 public launch). See cards/crypto/next-card-first-bitcoin-atm.md. The concept, rarity and caption still require selection. Silk Road and Dogecar are parked after user rejection. First Halving and First Transfer remain paused; do not resume automatically.

@@ -1,0 +1,40 @@
+{
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "local_path": "references/hodl-approved-v2-art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "local_path": "references/doge-approved-v2-art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    }
+  ],
+  "factual_references": [
+    {
+      "source_page": "https://www.wired.com/story/bitcoin-lost-newport-landfill/",
+      "role": "Mining year and laptop drive disposal; text source, not generation image."
+    },
+    {
+      "source_page": "https://www.theguardian.com/uk-news/2024/dec/03/500m-bitcoin-hard-drive-landfill-newport-wales-high-court",
+      "role": "Black bag account; text source, not generation image."
+    },
+    {
+      "source_page": "https://en.wikipedia.org/wiki/Bitcoin_buried_in_Newport_landfill",
+      "role": "Docksway/Newport and early versus later coin count distinction; text source."
+    }
+  ],
+  "generation_inputs_in_order": [
+    "references/buried-fortune-review-v2-art.png",
+    "references/hodl-approved-v2-art.png",
+    "references/doge-approved-v2-art.png",
+    "references/buried-fortune-review-v1-art.png"
+  ],
+  "method": "Built-in image generation, one local edit of v2 removing the newspaper and burying/dirtying the plush. Both original style references were verified, inspected and directly supplied. V1 supplied as a restoration reference for the trash.",
+  "edit_target": {
+    "path": "references/buried-fortune-review-v2-art.png",
+    "sha256": "c58e644450a8d105e760c59b87e2ccee8badb636491177d29eefd1da4237228a"
+  },
+  "reference_paths_note": "All local reference paths resolve inside the exact source ZIP."
+}

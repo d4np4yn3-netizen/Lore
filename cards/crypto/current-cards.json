@@ -2,7 +2,7 @@
   "updated": "2026-09-20",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 10,
+  "approved_visual_count": 11,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -889,11 +889,98 @@
         "sha256": "c6944000f8ff929d6d793db39aeb994e3befc2300a554e0e2f6a7279f7c79239",
         "git_blob": "e08fdda17688f3338d02f4365ae292378ffd3310"
       }
+    },
+    {
+      "id": "crypto-s01-buried-fortune",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "rare",
+      "creator": "BITCOIN",
+      "title_line_1": "BURIED",
+      "title_line_2": "FORTUNE",
+      "context": "ONE DRIVE. A FORTUNE.",
+      "moment_label": "2013",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/buried-fortune-master-01/art.png",
+      "qr_url": "https://example.com/lore/crypto/buried-fortune",
+      "event_date": "2013",
+      "date_precision": "year",
+      "date_note": "Exact disposal day not established. No invented day or month.",
+      "phrase_status": "USER_APPROVED_EDITORIAL_NOT_A_QUOTATION",
+      "status": "VISUALLY_APPROVED",
+      "concept_instruction": "haha draw the card =)",
+      "rarity_status": "APPROVED_RARE",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "demo",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Poetic landfill cutaway with relative foreground enlargement; not a recovered object or witnessed excavation. Rain, character, machinery, in-scene sign and 2009 tape placement are editorial illustration. A dirty, mostly concealed Doge plush is a fictional visual callback. No value headline appears on the front.",
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "source_notes": "cards/crypto/season-01/buried-fortune-master-01/source-notes.md",
+      "revision": 3,
+      "revision_instruction": "Remove newspaper; bury the Doge plush more deeply and make it dirty so it blends into the trash.",
+      "easter_eggs_added": [
+        "Heavily buried muddy Doge plush behind tin and plastic"
+      ],
+      "newspaper_removed": true,
+      "value_explanation": "Reserved for future QR story at user request; current QR remains demo-only.",
+      "artwork_status": "USER_APPROVED",
+      "front": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.png",
+      "editable_svg": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.svg",
+      "source_archive": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-Review-v3-Source.zip",
+      "approval_record": "cards/crypto/season-01/buried-fortune-master-01/approval.json",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-20",
+      "approval_quote": "approved, up load to github and move to next card",
+      "review_version": 3,
+      "final_bytes_separately_reviewed": true,
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "qr_status": "DEMO_ONLY",
+      "subject": "BITCOIN",
+      "title_lines": [
+        "BURIED",
+        "FORTUNE"
+      ],
+      "event_date_display": "2013",
+      "footer": "CRYPTO • SEASON 01",
+      "moment_number": null,
+      "set_size": null,
+      "print_quantities": null,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.png",
+          "bytes": 1554203,
+          "sha256": "7999e9c92af71543b4f88d623fb97443883163cf77351ee603630705d43237ed",
+          "git_blob": "9a504c617f4f78b225ee155899ac8d2e6c568882"
+        },
+        {
+          "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.svg",
+          "bytes": 3063116,
+          "sha256": "5939f7411a35344625c79b90935467d9445e85dfe82732304c2812ef7f665cc5",
+          "git_blob": "8de399f5d49e9fcb3fe1837c1c66761557f35a00"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/buried-fortune-master-01/art.png",
+        "bytes": 2270778,
+        "sha256": "aaa6342da6aa7274a1c518a2647229508a4586c630aa9cdfd2322eb2fee3117f",
+        "git_blob": "288390e9251ed9671417233aeaa197dd09a17483"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 10,
+  "approved_in_current_style_count": 11,
   "required_style_references": [
     "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"

@@ -2,27 +2,28 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: Behind the Chair Common approved
+## Current milestone: Buried Fortune Rare approved
 
-Dan: “locked in! uplodat to github”, responding to exact displayed Common Review-v2.
-Ten approved crypto cards; previous nine unchanged. Resolve through cards/crypto/current-cards.json.
+Dan: “approved, up load to github and move to next card”, responding to exact displayed Rare Review-v3.
+Eleven approved crypto cards; previous ten unchanged. Resolve cards/crypto/current-cards.json.
 
-Canonical folder: cards/crypto/season-01/behind-the-chair-master-01.
-PNG/SVG: LORE-Behind-The-Chair-Common-v1.*; art.png and exact Review-v2 source ZIP beside them.
-PNG SHA-256: dddf69539be9d010c475a97f6c51a7c048a88424d6f2d321cf7d73c52dd79ea1
-Art SHA-256: c6944000f8ff929d6d793db39aeb994e3befc2300a554e0e2f6a7279f7c79239
-Includes wider desk view, lowered NO SIGNS, handwriting matched to user reference,
-visible report/price/16 BTC clues, and BEHIND THE CHAIR title.
-Date 12 JUL 2017. Phrase BUY BITCOIN. Visual bytes and original source ZIP unchanged.
-Sibling approval.json supersedes review-only labels inside the original ZIP.
-GitHub archival delivery authorised; placeholder QR and print release separate.
+Canonical folder: cards/crypto/season-01/buried-fortune-master-01.
+PNG/SVG: LORE-Buried-Fortune-Rare-v1.*; art.png and exact Review-v3 source ZIP beside them.
+PNG SHA-256: 7999e9c92af71543b4f88d623fb97443883163cf77351ee603630705d43237ed
+Art SHA-256: aaa6342da6aa7274a1c518a2647229508a4586c630aa9cdfd2322eb2fee3117f
+Newspaper removed; dirty Doge plush mostly buried. Hard drive remains focal.
+Date 2013; precise disposal day not established. Caption ONE DRIVE. A FORTUNE. is editorial.
+Visual files and original source ZIP are unchanged. approval.json supersedes earlier review-only labels.
+GitHub archival delivery authorised. QR story is intended to explain value; QR remains a demo.
+Print release and website deployment are separate.
 
 ## Next action
 
-Dan selected The Silk Road Shutdown (2013) for research. See cards/crypto/next-card-silk-road.md.
-Keep shutdown/arrest chronology distinct from the later 144,336 BTC seizure announcement.
-Propose one researched date, rarity, caption and scene; no new artwork approved yet.
-First Transfer and First Halving remain PAUSED. Do not resume automatically.
+Propose CASH OUT — first public Bitcoin ATM, Waves Coffee House, Vancouver.
+Research: cards/crypto/next-card-first-bitcoin-atm.md. Proposed Uncommon and caption are not yet approved.
+Public launch date: 29 OCT 2013; WIRED records test use the previous evening. Keep these distinct.
+Silk Road and Dogecar are PARKED after rejection. First Transfer and First Halving remain PAUSED.
+Do not resume those drafts automatically.
 
 ## Permanent crypto references
 
