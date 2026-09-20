@@ -1,0 +1,43 @@
+{
+  "policy": "LORE-CRYPTO-STYLE-v1.1",
+  "generation_mode": "Built-in ImageGen: new scene with both mandatory original style references; targeted refinement with same pair and first generated scene as edit target.",
+  "reference_order": [
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2"
+  ],
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Direct whole-scene style input, inspected before generation",
+      "source_archive_local_path": "references/hodl-approved-v2-art.png"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "Direct whole-scene style input, inspected before generation",
+      "source_archive_local_path": "references/doge-approved-v2-art.png"
+    }
+  ],
+  "content_sources": [
+    "https://www.mtgox.com/img/pdf/20140228-announcement_eng.pdf",
+    "https://www.mtgox.com/img/pdf/20140320-btc-announce.pdf"
+  ],
+  "factual_reference": "Primary company announcements establish date, initial reported missing BTC and address. Customer, receipt, newspaper design, screen and facade are fictional storytelling; no actual person or physical terminal is asserted.",
+  "refinement_reference_order": [
+    "mtgox-first-pass",
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2"
+  ],
+  "approved_weather_revision": {
+    "edit_target": "Approved Locked Out artwork from Review-v2",
+    "input_order": [
+      "approved-locked-out-art",
+      "birth-of-hodl-v2",
+      "birth-of-doge-v2"
+    ],
+    "prompt": "generation-prompt-weather.txt"
+  }
+}

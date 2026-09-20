@@ -2,7 +2,7 @@
   "updated": "2026-09-20",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 8,
+  "approved_visual_count": 9,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -718,11 +718,98 @@
         "sha256": "6055cc120972bbc8ac730f96ce5520e46ce25929ea5f138565eb2196cc71b3b7",
         "git_blob": "0c26b37058d33470553175b2559819e3fdb3149f"
       }
+    },
+    {
+      "id": "crypto-s01-mt-gox",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "epic",
+      "creator": "BITCOIN",
+      "title_line_1": "MT. GOX",
+      "title_line_2": "​",
+      "context": "WITHDRAWALS SUSPENDED.",
+      "moment_label": "28 FEB 2014",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/mt-gox-master-01/art.png",
+      "qr_url": "https://example.com/lore/crypto/mt-gox",
+      "status": "VISUALLY_APPROVED",
+      "artwork_status": "USER_APPROVED",
+      "concept_instruction": "Preserve the selected Locked Out composition, strengthen the visible rainfall slightly, and show MT. GOX on one visible title line.",
+      "phrase_status": "USER_APPROVED_EDITORIAL_CAPTION_NOT_VERBATIM_QUOTE",
+      "event_date": "2014-02-28",
+      "date_basis": "APPLICATION_FOR_CIVIL_REHABILITATION_AT_TOKYO_DISTRICT_COURT",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "demo",
+      "print_release": false,
+      "publication_approved": true,
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "source_notes": "cards/crypto/season-01/mt-gox-master-01/source-notes.md",
+      "sources": [
+        "https://www.mtgox.com/img/pdf/20140228-announcement_eng.pdf",
+        "https://www.mtgox.com/img/pdf/20140320-btc-announce.pdf"
+      ],
+      "review_version": 3,
+      "interpretation": "Fictional customer outside an imagined Tokyo exchange. Chained glass doors and PENDING display symbolise lost access. Newspaper gives the INITIAL reported 850,000 BTC missing; approximately 200,000 BTC were later located. The address comes from the announcement. The date marks the civil rehabilitation filing, not a one-day theft.",
+      "rarity_status": "APPROVED_EPIC",
+      "front": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1.png",
+      "editable_svg": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1.svg",
+      "source_archive": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-Review-v3-Source.zip",
+      "approval_record": "cards/crypto/season-01/mt-gox-master-01/approval.json",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-20",
+      "approval_quote": "approved",
+      "final_bytes_separately_reviewed": true,
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "qr_status": "DEMO_ONLY",
+      "subject": "BITCOIN",
+      "title_lines": [
+        "MT. GOX"
+      ],
+      "event_date_display": "28 FEB 2014",
+      "footer": "CRYPTO • SEASON 01",
+      "moment_number": null,
+      "set_size": null,
+      "print_quantities": null,
+      "title_rendering_note": "Second SVG title field contains U+200B, exactly as in the approved Review-v3. It has no visible glyph; shared master is unchanged.",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1.png",
+          "bytes": 1614902,
+          "sha256": "9fcc7322b895332fb1769597167b9001c2f21f80da4c5c425a88577eab824078",
+          "git_blob": "fd03bf501ec3ec14cc4e6e12af2afd743aa7f158"
+        },
+        {
+          "path": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1.svg",
+          "bytes": 3599845,
+          "sha256": "dcf2d73f50cb74e8627d4b3e219e8f51e403b7e06d8ea11139e632cb42c4142a",
+          "git_blob": "037119345140390f3203f4ea2e8845eb4388b49f"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/mt-gox-master-01/art.png",
+        "bytes": 2674628,
+        "sha256": "e361832e60782a29a034e601909e7c9d3ec95644fb962cd910d2caa4275ca139",
+        "git_blob": "5fc29a62d9a604c37a0d313db7d0e528e67ef872"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 8,
+  "approved_in_current_style_count": 9,
   "required_style_references": [
     "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"

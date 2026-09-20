@@ -2,22 +2,23 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: The Depeg Rare completed
+## Current milestone: MT. GOX Epic approved
 
-Dan: “ok, make the full card and approved for upload to github”. Eight approved crypto cards: HODL, Pizza Day, The Merge,
-Birth of Doge, The Whitepaper, BitConnect, The DAO Hack and The Depeg.
-Resolve current files through cards/crypto/current-cards.json. Previous seven unchanged.
+Dan: “approved”, responding to the exact displayed Review-v3.
+Nine approved crypto cards: HODL, Pizza Day, The Merge, Birth of Doge,
+The Whitepaper, BitConnect, The DAO Hack, The Depeg and MT. GOX.
+Resolve current files through cards/crypto/current-cards.json. Previous eight unchanged.
 
-Depeg: cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1.png, matching SVG and art.png.
-PNG SHA-256: 114ef4de1aad5ee21453903f2f869a6cc34c84a1aaea5cf1a8ca89c2e077008d
-Art SHA-256: 6055cc120972bbc8ac730f96ce5520e46ce25929ea5f138565eb2196cc71b3b7
-Editable source ZIP and exact approval scope are beside the card.
-Upper moon emblem kept; two selected lower emblems removed; cable extended behind
-the woman; harbour splash added. Earlier requested LUNA lettering removal completed.
-ANCHOR / UP TO 20%, UST/$1 metaphor, date and phrase retained.
-User approved final assembly and upload; final byte-level proof was not separately reviewed.
-The date marks the 9 May reassurance post within the multi-day collapse.
-QR demo-only, no website deployment or print release.
+Canonical folder: cards/crypto/season-01/mt-gox-master-01.
+PNG/SVG: LORE-Mt-Gox-Epic-v1.*; art.png and exact Review-v3 source ZIP beside them.
+PNG SHA-256: 9fcc7322b895332fb1769597167b9001c2f21f80da4c5c425a88577eab824078
+Art SHA-256: e361832e60782a29a034e601909e7c9d3ec95644fb962cd910d2caa4275ca139
+The one-line MT. GOX title and stronger rainfall are approved.
+Date: 28 FEB 2014. Caption: WITHDRAWALS SUSPENDED. (editorial wording).
+The scene represents lost access; the date marks the civil rehabilitation filing.
+All approved visual files and source ZIP are preserved byte-for-byte.
+Sibling approval.json supersedes review-only status labels inside the original ZIP.
+GitHub archival delivery is the authorised milestone. QR demo-only; print release separate.
 
 ## Next action
 

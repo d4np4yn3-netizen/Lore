@@ -1,0 +1,117 @@
+{
+  "status": "CARD_REVIEW_NOT_APPROVED",
+  "dimensions_px": [
+    900,
+    1260
+  ],
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "layout": "LORE-FRONT-v4",
+  "fixed_template_structure_verified": true,
+  "art_bytes_preserved": true,
+  "art_translation": null,
+  "qr_payload": "https://example.com/lore/crypto/mt-gox",
+  "qr_status": "DEMO_ONLY",
+  "qr_decode_verified": true,
+  "print_release": false,
+  "publication_approved": false,
+  "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+  "both_required_style_hashes_verified": true,
+  "source_pinning": "pinned-repository-files.json",
+  "files": {
+    "LORE-Mt-Gox-Epic-Review-v3.png": {
+      "bytes": 1614902,
+      "sha256": "9fcc7322b895332fb1769597167b9001c2f21f80da4c5c425a88577eab824078"
+    },
+    "LORE-Mt-Gox-Epic-Review-v3.svg": {
+      "bytes": 3599845,
+      "sha256": "dcf2d73f50cb74e8627d4b3e219e8f51e403b7e06d8ea11139e632cb42c4142a"
+    },
+    "README.md": {
+      "bytes": 1027,
+      "sha256": "b92e49d11939a86c35fed512e109e69fecfccf2dd385e567e5647d4d55258cdb"
+    },
+    "approval.json": {
+      "bytes": 340,
+      "sha256": "579123e510b3793732c22f3962be342a93b8a323c262ac1eaaf9a094ca37a53a"
+    },
+    "art.png": {
+      "bytes": 2674628,
+      "sha256": "e361832e60782a29a034e601909e7c9d3ec95644fb962cd910d2caa4275ca139"
+    },
+    "build_review.py": {
+      "bytes": 3030,
+      "sha256": "7662f78d7e77ef7b55e385bacf91f22b315da7d98900f05b574410b8d4e72a08"
+    },
+    "card-data.json": {
+      "bytes": 1763,
+      "sha256": "eae390f19ec659469efc54bb05cebf418aa62b9953bfe18ce3a629e9ec16b8b2"
+    },
+    "generation-prompt-weather.txt": {
+      "bytes": 1100,
+      "sha256": "1753b310f1a2984722d283634b14c89bec24a4975f6fbd4df4056251e9d5f4a1"
+    },
+    "pinned-repository-files.json": {
+      "bytes": 338,
+      "sha256": "64b706cd007723699859a3eaf63e9419dca28543b3d86c8e6c306f9e67edc143"
+    },
+    "reference-sources.json": {
+      "bytes": 1539,
+      "sha256": "189bee2a2bb3d67426bad2631694eff866f8fd91d69d405f1843086131c2c4d2"
+    },
+    "references/doge-approved-v2-art.png": {
+      "bytes": 2440155,
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    },
+    "references/hodl-approved-v2-art.png": {
+      "bytes": 2365820,
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    "references/mtgox-first-pass.png": {
+      "bytes": 2562121,
+      "sha256": "7d199d6439218c99d46bb1aec2cf961ca07427c6aa36e51110883f44f776164f"
+    },
+    "requirements.txt": {
+      "bytes": 24,
+      "sha256": "c5208bb56516830f3526c825b129ee3656856b4f0db98ae650a2e1031def2d93"
+    },
+    "source-notes.md": {
+      "bytes": 2991,
+      "sha256": "e00ddfd9f27a2e91e6c0af83a29bed9435951d5f7f125a80fde267aea35e92e8"
+    },
+    "support/cards/master/front-v3/source/fontconfig.xml": {
+      "bytes": 284,
+      "sha256": "0fc4fe1d9d8d5af9c4f05bf1951bf089b67c501661af7e40dfc52874bb06652f"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans-Bold.ttf": {
+      "bytes": 708920,
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans.ttf": {
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    "support/cards/master/front-v3/source/fonts/LICENSE.txt": {
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "support/cards/master/front-v4/badge-spacing.json": {
+      "bytes": 2580,
+      "sha256": "b9a4a22a91789c59d023c9efe8700d89434fd864d31999a03422a8e604eadf6b"
+    },
+    "support/cards/master/front-v4/source/badge_spacing.py": {
+      "bytes": 1710,
+      "sha256": "eafa3507aa1890d352292065d43bc8b4e9be2dd11bf35105bef2f6ea4c479355"
+    },
+    "support/cards/master/front-v4/source/render_card.py": {
+      "bytes": 5090,
+      "sha256": "c41345ebdeb3529cf237f3de87d9330f055f928b025f6a52f7aa5a7b07088c05"
+    },
+    "support/cards/master/front-v4/templates/epic.svg": {
+      "bytes": 27200,
+      "sha256": "f7a05ed5be600dc085f5da7be3edeb1ba15cc206ad23412bccebe7c0b277629b"
+    }
+  }
+}

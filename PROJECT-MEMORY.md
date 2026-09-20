@@ -4,6 +4,17 @@ Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **MT. GOX Epic approved, 20 September 2026.** Dan: “approved”, responding to
+  the exact Review-v3 with a one-line MT. GOX heading and stronger rain.
+  Canonical folder: cards/crypto/season-01/mt-gox-master-01.
+  PNG/SVG: LORE-Mt-Gox-Epic-v1.*; artwork and exact review source ZIP beside them.
+  Nine approved crypto cards. Previous eight preserved unchanged.
+  Keep the Locked Out customer, chained glass doors, newspaper, address plaque,
+  pending screen, date 28 FEB 2014 and editorial WITHDRAWALS SUSPENDED. caption.
+  GitHub archive authorised; QR demo-only, website publication and print release separate.
+  HODL and Doge stay mandatory, First Transfer stays paused, next event unselected.
+  This milestone supersedes earlier current-count and next-task wording below.
+
 - **The Depeg Rare final assembly and GitHub upload authorised, 2026-09-20.**
   Dan: “ok, make the full card and approved for upload to github”. Canonical folder: cards/crypto/season-01/the-depeg-master-01.
   PNG/SVG: LORE-The-Depeg-Rare-v1.*; final art.png and complete editable ZIP beside them.
