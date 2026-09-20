@@ -42,7 +42,7 @@ Keep both pinned after later card approvals unless Dan explicitly changes them.
 Dan's 20 September instruction adds approved Birth of Doge as a mandatory direct
 reference alongside HODL. It supersedes earlier HODL-only workflow wording.
 Crypto and Creator cards are separate products. Creator art references stay fixed.
-All four existing crypto cards are approved; their exact files are unchanged.
+Five crypto cards are approved, including The Whitepaper; preserve their exact files.
 First Transfer is paused at Dan's request and must not be resumed automatically.
 Move to a different event design; develop one card at a time and review it before
 promotion. Existing brand, layout, fonts, rarity colours, back and size still apply.

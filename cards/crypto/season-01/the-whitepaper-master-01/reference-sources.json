@@ -1,0 +1,30 @@
+{
+  "policy": "LORE-CRYPTO-STYLE-v1.1",
+  "policy_commit": "6f21af10c079e01154317577ef316d1a50dbc230",
+  "generation_mode": "built-in ImageGen, new illustration",
+  "reference_order": [
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2"
+  ],
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Direct whole-scene style input, inspected before generation",
+      "review_package_local_path": "references/hodl-approved-v2-art.png"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "Direct whole-scene style input, inspected before generation",
+      "review_package_local_path": "references/doge-approved-v2-art.png"
+    }
+  ],
+  "content_sources": [
+    "https://bitcoin.org/bitcoin.pdf",
+    "https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html"
+  ],
+  "composition_reference": null
+}

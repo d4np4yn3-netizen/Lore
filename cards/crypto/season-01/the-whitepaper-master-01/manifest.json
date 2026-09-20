@@ -1,0 +1,86 @@
+{
+  "status": "VISUALLY_APPROVED",
+  "approval": "cards/crypto/season-01/the-whitepaper-master-01/approval.json",
+  "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+  "files": [
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1.png",
+      "bytes": 1706927,
+      "sha256": "15b70f3197397991f64c1ec37e0e039381f9bb28019378a433446035dcdd5356",
+      "git_blob": "a424d34fc490a1a6f6683b3d65de139f643aac7d"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1.svg",
+      "bytes": 3641844,
+      "sha256": "93d8eda644728f01984cfb82f7eff6bbbd33ee3f5ad8e3e880dd39b1504ed045",
+      "git_blob": "4ac323a9bae347283803eef126859e3bab99cc3e"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/README.md",
+      "bytes": 1392,
+      "sha256": "4c61b480f3c869a3770917da8f4c24eebbf7b09d56907f02b48c9021e1fc7e27",
+      "git_blob": "b578046d2e9cb05462d9c5bf36833b736049cca8"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/approval.json",
+      "bytes": 1983,
+      "sha256": "04a7894fabb7bc4161ef9f1a443904b1f83ac58dff5e8333814039da3c6a32c3",
+      "git_blob": "83283f78b14c4ee527ceca5fe269c99ca81ba200"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/art.png",
+      "bytes": 2704505,
+      "sha256": "ffbf8109e6cb161312f9f7b7ba9995b363078c9a8b88438f375385c8556ed79f",
+      "git_blob": "8373fee31356111d209b2efcb0b0ef52e0f2783c"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/card-data.json",
+      "bytes": 2349,
+      "sha256": "edc2a0747d4746e29ee098a146953b7a602493f4b264bac44071465590e5f352",
+      "git_blob": "9c17c249e950464cd132bf65f67409a608aeea84"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/generation-prompt.txt",
+      "bytes": 4380,
+      "sha256": "f88753dc1e9c23cbce8eebdd29c6beac8712222e18071af5771888388f91f4f2",
+      "git_blob": "5c296197bbc1ca9c6598516b4b6f5f74538c30ae"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/reference-sources.json",
+      "bytes": 1179,
+      "sha256": "b498551794ffeacc907e9aa9c70a83e5e1eced756507125fd2ac0e8f6553ea63",
+      "git_blob": "7afd0c076f8931c3f5ae0ec2d7660196daaccbc4"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/source-notes.md",
+      "bytes": 2414,
+      "sha256": "8725cc44519458c0151c19248f2def69fa706260a30e304c3f9f3be8da4a0aff",
+      "git_blob": "2ed60d0ad3d72c4cb80af5802a3fa944e3a87686"
+    }
+  ],
+  "qa": {
+    "exact_selected_png_svg_art_preserved": true,
+    "dimensions_px": [
+      900,
+      1260
+    ],
+    "embedded_art_bytes_verified": true,
+    "both_required_style_hashes_verified_during_review": true,
+    "qr_decoded_during_review": "https://example.com/lore/crypto/the-whitepaper",
+    "qr_decode_verified_during_review": true,
+    "fixed_template_structure_verified_during_review": true,
+    "pinned_template_and_renderer_remote_hashes_verified_during_review": true,
+    "visual_review": {
+      "completed": true,
+      "date": "2026-09-20",
+      "nine_sheets_counted": true,
+      "findings": [
+        "Nine complete paper sheets in artwork: hero plus eight secondary sheets; top-left sheet partly behind fixed badge in the card",
+        "Title, author, announcement date, email subject and reference labels legible in finished card",
+        "Paper, buildings, sky and rooftop detail maintain drawn contours and grouped colour consistent with both reference inputs",
+        "Full WHITEPAPER title fits pinned type size and column; no template or art-placement adjustment needed"
+      ]
+    }
+  },
+  "print_release": false
+}

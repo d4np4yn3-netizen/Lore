@@ -17,12 +17,16 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 | Pizza Day — Legendary | [Approved v2](season-01/pizza-day-master-02/README.md) | Complete |
 | The Merge — Mythic | [Approved v2](season-01/the-merge-master-02/README.md) | Complete |
 | Birth of Doge — Epic | [Approved v2](season-01/birth-of-doge-master-02/README.md) | Complete; required reference |
+| The Whitepaper — Legendary | [Approved v1](season-01/the-whitepaper-master-01/README.md) | Complete; both references used |
 
-All four approved crypto cards now use the approved HODL art direction.
+All five approved crypto cards use the approved crypto art direction.
 [First Transfer](next-card-first-transfer.md) is paused at Dan's request.
-[The Whitepaper](next-card-whitepaper.md) is a new assistant proposal, not yet
-selected. Continue one card at a time with BOTH HODL and Doge supplied directly.
+[BitConnect](next-card-bitconnect.md) is the next requested subject; its Epic
+stage-moment concept and caption are proposed for review. Continue one card at a time with BOTH HODL and Doge supplied directly.
 
 One rarity per event, standard and foil editions, event dates under the badge.
 LORE-FRONT-v4, shared back v5, brand, fonts and 63 × 88 mm trim remain fixed.
 Set size, collector numbering, production quantities and pack odds are undecided.
+
+The collection covers breakthroughs, culture, scams, crashes, hacks and bans.
+See the [editorial backlog](EDITORIAL-BACKLOG.md) for unapproved candidate themes.

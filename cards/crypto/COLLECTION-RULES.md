@@ -67,6 +67,25 @@ normalised capitals and punctuation; editorial wording must be labelled as such.
 Screen timestamps, transaction/block times and delivery times are different
 claims. A blockchain timestamp does not establish the minute a pizza arrived.
 
+## Editorial coverage — approved direction, 20 September 2026
+
+Dan requested the good, bad and ugly of crypto history: crashes, hacks, bans and
+the wider culture, alongside achievements. His exact wording is preserved in
+the Whitepaper approval record. Interpret “food” in that instruction as “good”
+in context; Pizza Day already covers a literal food moment.
+
+Cover breakthroughs and adoption, memes and communities, scams and fraud,
+market crashes and institutional collapses, hacks and exploits, and bans or
+regulatory shocks. Rarity reflects the selected event's place in the collection,
+not moral approval of a person or scheme. Continue one documented event per card,
+one rarity per event, both finishes, and both mandatory style references.
+
+Candidate topics in EDITORIAL-BACKLOG.md are editorial options, not an approved
+set size, rarity allocation or completed card. Research the exact event/date
+before building. Distinguish an investor or meme participant from the organiser
+of a fraud, and allegations from adjudicated facts. Symbolic Easter eggs should
+be recorded as interpretation, not documentary props or evidence.
+
 ## Release and scope
 
 Visual approval, historical verification, permission review, functional QR and

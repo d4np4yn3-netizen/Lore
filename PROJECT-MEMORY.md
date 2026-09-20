@@ -4,15 +4,25 @@ Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. T
 
 ## Current decisions
 
+- **The Whitepaper Legendary approved; BitConnect next; broad historical coverage.**
+  Dan on 20 September 2026: “Approved, looks pretty cool for a card”, then requested
+  BitConnect and the good/bad/ugly, crashes, hacks and bans. Exact Review-v1 PNG/SVG/art
+  are archived in cards/crypto/season-01/the-whitepaper-master-01. Five approved crypto
+  cards; the previous four remain unchanged. Both HODL v2 and Doge v2 remain mandatory.
+  BitConnect's stage moment, Epic tier and HEY, HEY, HEY! are a researched proposal,
+  not approved artwork. See next-card-bitconnect.md and EDITORIAL-BACKLOG.md.
+  First Transfer remains paused. This supersedes older counts and next-action notes.
+  Demo QR; no website deployment or print release in this archival change.
+
 - **Mandatory crypto reference pair, 20 September 2026: HODL AND Birth of Doge.**
   Dan: “Before every card I want to use HODL and Birth of Doge as reference”.
   Inspect and include BOTH exact approved v2 art files directly in every crypto
   generation/edit. See cards/crypto/style-reference-lock.json v1.1 and its
   required_references. This applies to the whole scene, including backgrounds.
-  Four approved card visuals and their historical generation provenance unchanged.
+  The original four card visuals and their historical generation provenance remain unchanged.
   First Transfer is PAUSED because Dan dislikes its current design and wants
-  something else for now. Do not resume it automatically. The Whitepaper is an
-  assistant proposal only; event, rarity, copy and artwork have not been selected.
+  something else for now. Do not resume it automatically. The Whitepaper is now
+  approved, with BitConnect the next requested subject as recorded above.
   This supersedes older HODL-only rules and instructions to build First Transfer.
 
 - **Birth of Doge Epic HODL-style revision approved 20 September 2026.**
