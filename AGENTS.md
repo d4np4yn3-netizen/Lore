@@ -42,7 +42,7 @@ Keep both pinned after later card approvals unless Dan explicitly changes them.
 Dan's 20 September instruction adds approved Birth of Doge as a mandatory direct
 reference alongside HODL. It supersedes earlier HODL-only workflow wording.
 Crypto and Creator cards are separate products. Creator art references stay fixed.
-Five crypto cards are approved, including The Whitepaper; preserve their exact files.
+Six crypto cards are approved, including BitConnect; preserve their exact files.
 First Transfer is paused at Dan's request and must not be resumed automatically.
 Move to a different event design; develop one card at a time and review it before
 promotion. Existing brand, layout, fonts, rarity colours, back and size still apply.
@@ -85,3 +85,10 @@ Before any card generation or revision, also read `cards/10-ILLUSTRATION-CONSIST
 Historical recovery is recorded in `operations/14-STEAK-ARTWORK-CONTINUATION-2026-09-12.md` and resolved in `operations/14-STEAK-AND-STYLE-REFERENCE-2026-09-12.md`; consult them only if current records leave a specific gap. The historical signed-off visual is `cards/creators/asmongold/steak-master-01/LORE-Asmongold-Steak-Final-v2.png` and its matching SVG. The current badge-only derivative is `LORE-Asmongold-Steak-Final-v3.png` and its matching SVG in the same folder; see `badge-v4-approval.json`. Dan approved replacing the context line with `I’M A SIMPLE MAN.` and requested visual sign-off; see `operations/15-STEAK-V2-VISUAL-SIGNOFF-2026-09-12.md`. Preserve the exact approved art, its upward translation of 70 SVG units, and every other fixed element except the explicitly approved v4 badge adjustment. Original art approval, visual sign-off, source verification and print release remain separate.
 
 Before card art, templates or new creator sets, also read `cards/card-design-lock.json` and `cards/07-FRONT-LAYOUT-AND-ART-MASTER.md`. The selected illustration baseline is the exact Asmongold v3 front-QR set, including its increased headroom. The current layout is LORE-FRONT-v4, with only the approved badge-spacing adjustment. Use its pinned templates and renderer with the existing v3 fonts and original art references. Do not regenerate the whole card or silently substitute fonts. The universal LORE-BACK-v5 is explicitly approved; also read `cards/08-SHARED-BACK-MASTER.md`. Use its exact PNG/SVG and manifest in `cards/master/shared-back-v5`: no diamond, thick gold outer border, clearer thin inner border. LORE-CARD-v1.1 is the current visual lock, with only the approved front-badge revision from v1.0. The finished card size is also locked at 63 × 88 mm; read `cards/09-PHYSICAL-SIZE-STANDARD.md`. Keep the existing 900 × 1260 visual references unchanged and prepare separate printer-specific derivatives. Bleed, safe inset, corner die and manufacturing/print approval remain separate; do not silently alter the back to invent a cutting allowance.
+
+## Approved BitConnect single-word title
+
+BitConnect Rare v1 preserves the existing first title baseline and font with
+BITCONNECT as one word; its second title field is empty. Dan approved this exact
+card after requesting the correction. The opt-in rebuild support is archived with
+that card. Shared master templates remain unchanged.

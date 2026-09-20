@@ -2,7 +2,7 @@
   "updated": "2026-09-20",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 5,
+  "approved_visual_count": 6,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -456,14 +456,100 @@
         "sha256": "ffbf8109e6cb161312f9f7b7ba9995b363078c9a8b88438f375385c8556ed79f",
         "git_blob": "8373fee31356111d209b2efcb0b0ef52e0f2783c"
       }
+    },
+    {
+      "id": "crypto-s01-bitconnect",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "rare",
+      "creator": "BITCONNECT",
+      "title_line_1": "BITCONNECT",
+      "title_line_2": "",
+      "context": "HEY, HEY, HEY!",
+      "moment_label": "28 OCT 2017",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/bitconnect-master-01/art.png",
+      "qr_url": "https://example.com/lore/crypto/bitconnect",
+      "status": "VISUALLY_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "concept_instruction": "Cool, let’s make bitconnect",
+      "phrase_status": "PRIMARY_SOURCE_CLIP_TRANSCRIPT_VERIFIED_CONCEPT_BUILD_AUTHORISED",
+      "event_date": "2017-10-28",
+      "date_basis": "CONVENTION_SPEECH_SECONDARY_EVENT_ARCHIVE_CORROBORATED; original video unavailable",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "demo",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Carlos Matos convention speech, heightened with imagined stage, confetti and three symbolic props. Not a literal reconstruction of every prop, nor a depiction of the later shutdown. Carlos is the investor/meme speaker, not presented as the founder.",
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "source_notes": "cards/crypto/season-01/bitconnect-master-01/source-notes.md",
+      "rarity_status": "APPROVED_RARE",
+      "revision_instruction": "sorry, i think i actualy prefer this pyramid location and size?",
+      "selected_artwork_library_id": "libfile_2025213532b48191b5e1dfc64e1414b7",
+      "single_line_title": true,
+      "title_instruction": "also, shouldnt BitConnect be all one word on card text?",
+      "layout_exception": "User requested a single-word title. First title baseline/font unchanged; second title field empty. No fixed element moved or resized.",
+      "front": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
+      "editable_svg": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
+      "source_archive": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-Review-v3-Source.zip",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-20",
+      "approval_quote": "approved, uplaod and then on to the next card",
+      "approval_record": "cards/crypto/season-01/bitconnect-master-01/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "qr_status": "DEMO_ONLY",
+      "subject": "BITCONNECT",
+      "title_lines": [
+        "BITCONNECT"
+      ],
+      "event_date_display": "28 OCT 2017",
+      "footer": "CRYPTO • SEASON 01",
+      "moment_number": null,
+      "set_size": null,
+      "print_quantities": null,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
+          "bytes": 1245181,
+          "sha256": "b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36",
+          "git_blob": "5a85cbbb93ce7f65debee930b3816030ed3f9173"
+        },
+        {
+          "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
+          "bytes": 2632475,
+          "sha256": "151f518c635a99a2fede6aa89afa00ba45ef8163b9335f3a7592e4ea802eded3",
+          "git_blob": "df7da26c31c6215109e0222dad43d0ea4377d80a"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/bitconnect-master-01/art.png",
+        "bytes": 1949101,
+        "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0",
+        "git_blob": "3634799b1f761cd7e36438fadc9ef57482d4f8fb"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 5,
+  "approved_in_current_style_count": 6,
   "required_style_references": [
     "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
-  "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged."
+  "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
+  "updated_at": "2026-09-20"
 }

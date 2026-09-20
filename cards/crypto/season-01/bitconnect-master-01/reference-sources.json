@@ -1,0 +1,46 @@
+{
+  "policy": "LORE-CRYPTO-STYLE-v1.1",
+  "policy_commit": "43c67330e9baf975bb0bd95e97fefa44b36c0d37",
+  "required_style_references": [
+    {
+      "id": "birth-of-hodl-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Pinned style reference inspected and hash-verified for current card assembly; initial direct generation reference",
+      "review_package_local_path": "references/hodl-approved-v2-art.png"
+    },
+    {
+      "id": "birth-of-doge-v2",
+      "repository_path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "Pinned style reference inspected and hash-verified for current card assembly; initial direct generation reference",
+      "review_package_local_path": "references/doge-approved-v2-art.png"
+    }
+  ],
+  "content_sources": [
+    "https://www.wnycstudios.org/podcasts/otm/segments/meme-known-cryptocurrencys-biggest-scam-now-nft-on-the-media",
+    "https://knowyourmeme.com/memes/bitconnect-carlos",
+    "https://pbs.twimg.com/profile_images/1537474398210383872/RQcHNLyp.jpg"
+  ],
+  "composition_reference": null,
+  "factual_reference": {
+    "local_path": "references/carlos-stage-reference.jpg",
+    "url": "https://pbs.twimg.com/profile_images/1537474398210383872/RQcHNLyp.jpg",
+    "role": "Browser screenshot of Carlos stage photograph used as own X profile image; likeness, suit, shirt, tie, lanyard, microphone and expression only. Ignore browser margins. Not a drawing-style reference.",
+    "sha256": "6c0007e59e3d45e1dd8c290ba87aa613a088a8c7229b223b915d508b5807e2e9"
+  },
+  "initial_generation_mode": "built-in ImageGen, new illustration",
+  "current_revision_mode": "Deterministic Rare card assembly; exact selected artwork embedded; no generation",
+  "initial_reference_order": [
+    "birth-of-hodl-v2",
+    "birth-of-doge-v2",
+    "carlos-stage-reference"
+  ],
+  "current_artwork": {
+    "library_file_id": "libfile_2025213532b48191b5e1dfc64e1414b7",
+    "source_filename": "Blue-gold stage with a cracking pyramid.png",
+    "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0",
+    "preserved_unchanged": true,
+    "selection_crop": "references/user-pyramid-selection.png"
+  }
+}

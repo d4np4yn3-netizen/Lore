@@ -1,0 +1,117 @@
+{
+  "status": "CARD_REVIEW_NOT_APPROVED",
+  "dimensions_px": [
+    900,
+    1260
+  ],
+  "physical_trim_mm": [
+    63,
+    88
+  ],
+  "layout": "LORE-FRONT-v4",
+  "fixed_template_structure_verified": true,
+  "art_bytes_preserved": true,
+  "art_translation": null,
+  "qr_payload": "https://example.com/lore/crypto/bitconnect",
+  "qr_status": "DEMO_ONLY",
+  "qr_decode_verified": true,
+  "print_release": false,
+  "publication_approved": false,
+  "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+  "both_required_style_hashes_verified": true,
+  "source_commit": "43c67330e9baf975bb0bd95e97fefa44b36c0d37",
+  "files": {
+    "LORE-BitConnect-Rare-Review-v3.png": {
+      "bytes": 1245181,
+      "sha256": "b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36"
+    },
+    "LORE-BitConnect-Rare-Review-v3.svg": {
+      "bytes": 2632475,
+      "sha256": "151f518c635a99a2fede6aa89afa00ba45ef8163b9335f3a7592e4ea802eded3"
+    },
+    "README.md": {
+      "bytes": 1179,
+      "sha256": "41d9067637e57423354a7c9cab6588d8a29840e454d62213d00e6bf48400ac31"
+    },
+    "art.png": {
+      "bytes": 1949101,
+      "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0"
+    },
+    "build_review.py": {
+      "bytes": 3053,
+      "sha256": "a45fffc029e8f91a69e19d5aab5797f36f81a8c2fb878ab709f6a12609809a1a"
+    },
+    "card-data.json": {
+      "bytes": 1947,
+      "sha256": "b46cad2ce29c85017f17578d290c54a4447278a649c844c446b289ec6a99da7f"
+    },
+    "initial-generation-prompt.txt": {
+      "bytes": 5207,
+      "sha256": "77ea6a41bf2d346f401caa11e925100ebcdd224f6249a8e99442225cd5e0f09f"
+    },
+    "reference-sources.json": {
+      "bytes": 2356,
+      "sha256": "c6021fd6d993d19a5025b8e31898c597a0e9faa8d9677a081218e9db10e1bf2c"
+    },
+    "references/carlos-stage-reference.jpg": {
+      "bytes": 24730,
+      "sha256": "6c0007e59e3d45e1dd8c290ba87aa613a088a8c7229b223b915d508b5807e2e9"
+    },
+    "references/doge-approved-v2-art.png": {
+      "bytes": 2440155,
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    },
+    "references/hodl-approved-v2-art.png": {
+      "bytes": 2365820,
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    "references/user-pyramid-selection.png": {
+      "bytes": 34939,
+      "sha256": "a780ae566fd42b9837482ec584a44fe345b910c091aeb893564bca0ed881e05f"
+    },
+    "requirements.txt": {
+      "bytes": 24,
+      "sha256": "c5208bb56516830f3526c825b129ee3656856b4f0db98ae650a2e1031def2d93"
+    },
+    "source-notes.md": {
+      "bytes": 4615,
+      "sha256": "2e1d4af8a645db5d2f2e70d18532adc50da48e07b14d97321cf67a26b965d77b"
+    },
+    "support/cards/master/front-v3/source/fontconfig.xml": {
+      "bytes": 284,
+      "sha256": "0fc4fe1d9d8d5af9c4f05bf1951bf089b67c501661af7e40dfc52874bb06652f"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans-Bold.ttf": {
+      "bytes": 708920,
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "support/cards/master/front-v3/source/fonts/DejaVuSans.ttf": {
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    "support/cards/master/front-v3/source/fonts/LICENSE.txt": {
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "support/cards/master/front-v4/badge-spacing.json": {
+      "bytes": 2580,
+      "sha256": "b9a4a22a91789c59d023c9efe8700d89434fd864d31999a03422a8e604eadf6b"
+    },
+    "support/cards/master/front-v4/source/badge_spacing.py": {
+      "bytes": 1710,
+      "sha256": "eafa3507aa1890d352292065d43bc8b4e9be2dd11bf35105bef2f6ea4c479355"
+    },
+    "support/cards/master/front-v4/source/render_card.py": {
+      "bytes": 5225,
+      "sha256": "748522b21970332bbe9ceb23ed47ff18c49a844db7863535345f4ca8c0d7134a"
+    },
+    "support/cards/master/front-v4/templates/epic.svg": {
+      "bytes": 27200,
+      "sha256": "f7a05ed5be600dc085f5da7be3edeb1ba15cc206ad23412bccebe7c0b277629b"
+    },
+    "support/cards/master/front-v4/templates/rare.svg": {
+      "bytes": 27203,
+      "sha256": "79d75fa18e9f5082d77716988e33eaf7c7694bfa1f39ad9ae04d248c761c96a3"
+    }
+  }
+}

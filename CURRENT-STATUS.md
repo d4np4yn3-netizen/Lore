@@ -2,81 +2,41 @@
 
 Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: BitConnect Epic Review-v1 ready
+## Current milestone: BitConnect Rare approved
 
-Dan approved the exact Whitepaper Legendary Review-v1: “Approved, looks pretty cool
-for a card”, then requested BitConnect and broader good/bad/ugly historical coverage.
-Five approved crypto cards: HODL, Pizza Day, The Merge, Birth of Doge, The Whitepaper.
-Resolve exact current files through cards/crypto/current-cards.json.
+Dan: “approved, uplaod and then on to the next card”. Six approved crypto cards: HODL, Pizza Day,
+The Merge, Birth of Doge, The Whitepaper, BitConnect. Exact files resolve through
+cards/crypto/current-cards.json. Previous five cards are unchanged.
 
-Canonical Whitepaper folder: cards/crypto/season-01/the-whitepaper-master-01/
-PNG/SVG: LORE-The-Whitepaper-Legendary-v1.*; artwork: art.png. Exact selected review bytes preserved.
-PNG SHA-256: 15b70f3197397991f64c1ec37e0e039381f9bb28019378a433446035dcdd5356
-SVG SHA-256: 93d8eda644728f01984cfb82f7eff6bbbd33ee3f5ad8e3e880dd39b1504ed045
-Art SHA-256: ffbf8109e6cb161312f9f7b7ba9995b363078c9a8b88438f375385c8556ed79f
-Approval, source notes, generation prompt, both reference hashes and QA are beside
-the card. Review PNG: Library libfile_bcb202438b948191932298de0769657d, version 0.
-Editable source ZIP: Library libfile_ec230d2560588191bc9188cf9a52d712, version 0.
-Fixed template, fonts, fields, QR decoding and both references verified in review.
-Exact hashes, dimensions and embedded art bytes rechecked for archival.
+BitConnect: cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png, matching SVG and art.png.
+Selected review: LORE-BitConnect-Rare-Review-v3.png. Larger cracked pyramid beside
+microphone arm, corrected car, darker lighting, single-word BITCONNECT title.
+PNG SHA-256: b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36
+Art SHA-256: 58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0
+Exact editable source ZIP archived beside the front. PNG Library:
+libfile_02d60548b1f881919adfffe8d4fd3293; ZIP libfile_f69bb8bb3e188191897046fb04c3b8ff.
+Approval records rarity, one-line title and exact selected bytes. QR is demo-only.
+Second title field empty; original font, baselines, logo and fixed geometry retained.
+Opt-in renderer exception is in the source package, not the shared templates.
 
-## Active review: BitConnect — Epic Review-v1
+## Next concept: The DAO Hack
 
-Dan accepted the proposed concept with “Cool, let’s make bitconnect”. The completed
-visual now awaits approval: BIT / CONNECT; BITCONNECT; 28 OCT 2017; HEY, HEY, HEY!
-Five approved cards remain active; do not add BitConnect to current-cards.json yet.
+Researched proposal: Epic · 17 JUN 2016 · REMAIN CALM. A sealed Ether vault drains
+through a recursive loop into a smaller locked chamber. Source-backed clues:
+SPLIT valve, loop, approximate 27-day lock, child address 0x304a…3490.
+See cards/crypto/next-card-the-dao-hack.md. Await concept selection; no art generated.
+First Transfer remains PAUSED. Historical coverage includes crashes, hacks and bans.
 
-Review PNG: LORE-BitConnect-Epic-Review-v1.png,
-Library libfile_6afd26295f3081918cce3dfea6d5a5e0, version 0.
-Source ZIP: LORE-BitConnect-Epic-Review-v1-Source.zip,
-Library libfile_953033a972148191b6eaa6d89d3eab00, version 0.
-PNG SHA-256: 5dcc2b08e0dd3ebf36ec80972208c0700d9c16e84b56012c1b0650087ecaf0e9
-SVG SHA-256: 41de8699921cf76fa281806f9207fd303e4f1d7b0168178d274aa66549557fb8
-Art SHA-256: 8e7cc92aa9df5a08536d0f40c6e0d7ea6a82b7353cc61fe1864d8a8238ce30a9
+## Permanent crypto references
 
-Both exact HODL and Doge art references were hash-verified, viewed and supplied
-directly to built-in ImageGen. A third input was a browser screenshot of Carlos's
-stage photograph from his own X profile image, inspected for face, clothes, raised
-right arm and left-hand microphone. See source-notes.md and reference-sources.json
-inside the source ZIP. Warm gold light, blue/violet drawn stage and confetti.
-Three clues remain visible in the full card: sports-car trophy, 25,610 plinth and
-gold pyramid above a cracked shadow/foundation. These are invented symbolic props.
-
-Caption has primary speech-clip/interview transcript evidence. Event date has
-corroborated secondary chronology; the linked original video remains unavailable.
-The speech is distinct from the later shutdown. Carlos is depicted as the investor/
-meme speaker, not the founder. No criminal conviction is asserted for him.
-
-Exact Epic template, renderer, helper and fonts match the repository at
-43c67330e9baf975bb0bd95e97fefa44b36c0d37. Fixed geometry, populated fields,
-900 × 1260 dimensions, exact embedded art and actual demo QR decoding verified.
-No art translation or font resizing. Full card visually inspected against both
-references; key expression/gesture and clues clear the card overlays. PNG and
-editable source ZIP saved successfully. New artwork is not yet visually approved.
-
-Next: Dan reviews this exact card. Archive only the selected files after approval.
-First Transfer remains PAUSED. Broader coverage remains in COLLECTION-RULES.md and
-EDITORIAL-BACKLOG.md. This review state supersedes older proposal-only statements.
-
-## Permanent crypto reference policy
-
-LORE-CRYPTO-STYLE-v1.1: before EVERY generation/edit inspect and supply BOTH exact art
-files directly, for characters, creatures, props and all backgrounds:
+Before EVERY generation and edit inspect and supply BOTH exact original artworks:
 - cards/crypto/season-01/birth-of-hodl-master-02/art.png
-  SHA-256: 412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1
+  SHA-256 412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1
 - cards/crypto/season-01/birth-of-doge-master-02/art.png
-  SHA-256: 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
-
-Later approvals do not replace either. Event content is separate from drawing style.
-Creator art unchanged. LORE-FRONT-v4, shared back v5, original fonts and 63 × 88 mm
-trim remain fixed. Demo QR; no website deployment or print release in this change.
-
-Verified Whitepaper delivery: 43c67330e9baf975bb0bd95e97fefa44b36c0d37;
-21 changed blobs/sizes verified, 394 unrelated blobs preserved, main tip verified.
-Previous verified deliveries: style policy 6f21af10c079e01154317577ef316d1a50dbc230;
-Doge 5b062810685dff4adf16cb34dd6ee3f14563f1d7; review status 57dd0869c5c5f704f14b182b3af137f7f0f1a57c.
-Historical milestones remain in PROJECT-MEMORY.md and version control. Current
-instructions above supersede earlier proposal, four-card-count and First Transfer queues.
+  SHA-256 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
+LORE-CRYPTO-STYLE-v1.1 governs characters, props and backgrounds. New approvals do
+not replace the pair. Front-v4, shared back v5 and 63 × 88 mm trim remain locked.
+No website deployment or print release is included.
 
 ## Compact working method
 
