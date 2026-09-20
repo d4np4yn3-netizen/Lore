@@ -196,7 +196,7 @@
       "context": "WEN MERGE?",
       "moment_label": "15 SEP 2022",
       "set_label": "CRYPTO • SEASON 01",
-      "artwork": "cards/crypto/season-01/the-merge-master-01/art.png",
+      "artwork": "cards/crypto/season-01/the-merge-master-02/art.png",
       "qr_url": "https://example.com/lore/crypto/the-merge",
       "status": "VISUALLY_APPROVED",
       "artwork_status": "VISUALLY_APPROVED",
@@ -228,20 +228,47 @@
       ],
       "event_date_display": "15 SEP 2022",
       "footer": "CRYPTO • SEASON 01",
-      "front": "cards/crypto/season-01/the-merge-master-01/LORE-The-Merge-Mythic-v1.png",
-      "editable_svg": "cards/crypto/season-01/the-merge-master-01/LORE-The-Merge-Mythic-v1.svg",
+      "front": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2.png",
+      "editable_svg": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2.svg",
       "github_upload_authorised": true,
       "website_publication_in_this_change": false,
       "approved_by": "Dan Payne",
-      "approved_at": "2026-09-19",
-      "approval_quote": "approved, upload and move onto the next card",
-      "approval_record": "cards/crypto/season-01/the-merge-master-01/approval.json",
-      "source_notes": "cards/crypto/season-01/the-merge-master-01/source-notes.md",
+      "approved_at": "2026-09-20",
+      "approval_quote": "All approved, now birth of hodl",
+      "approval_record": "cards/crypto/season-01/the-merge-master-02/approval.json",
+      "source_notes": "cards/crypto/season-01/the-merge-master-02/source-notes.md",
       "moment_number": null,
       "set_size": null,
       "print_quantities": null,
       "qr_status": "DEMO_ONLY",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.0",
+      "style_reference": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "style_reference_sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "style_reference_commit": "1910d0da5303603cfee9a54fa76e084beb700884",
+      "composition_reference": "cards/crypto/season-01/the-merge-master-01/art.png",
+      "supersedes": "cards/crypto/season-01/the-merge-master-01/LORE-The-Merge-Mythic-v1.png",
       "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2.png",
+          "bytes": 1829730,
+          "sha256": "618a802183e5fb3bca8778323c7706c78729ddfd8fdd696c4912101731e83c33",
+          "git_blob": "64dd281e4f50422758aa23ce627f60422549df89"
+        },
+        {
+          "path": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2.svg",
+          "bytes": 3804815,
+          "sha256": "c00d32de79f5ad7ff7a57504e7adaa01b385f5f8e47c9c7ecbdb6ffcb8d40884",
+          "git_blob": "9d5a8b488a0597c88f5f51ad9b3d1aed07d9143c"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-merge-master-02/art.png",
+        "bytes": 2828333,
+        "sha256": "f283c19d73dda81823a9485331cbcd48ff3d242df564bacfc57e46748fcb092c",
+        "git_blob": "e8274328f2207390a511f7d8b379ccdbaf0866d4"
+      },
+      "previous_approved_files": [
         {
           "path": "cards/crypto/season-01/the-merge-master-01/LORE-The-Merge-Mythic-v1.png",
           "bytes": 1934329,
@@ -255,14 +282,7 @@
           "git_blob": "e2c8b583babf9ed5f4cf570d88414d1bc8d72a02"
         }
       ],
-      "artwork_file": {
-        "path": "cards/crypto/season-01/the-merge-master-01/art.png",
-        "bytes": 2990738,
-        "sha256": "8ec1b8cc4f8ac47563038f661b64b0b2133fbe8083bc1207c35cce8f9aec9720",
-        "git_blob": "e6fa5be07be0ee4dea8e5e357856099fc849652f"
-      },
-      "style_migration_status": "PENDING_REVIEW_AGAINST_NEW_MASTER",
-      "target_style_revision": "LORE-CRYPTO-STYLE-v1.0"
+      "previous_approval_record": "cards/crypto/season-01/the-merge-master-01/approval.json"
     },
     {
       "rarity": "epic",
@@ -344,5 +364,5 @@
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.0",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 2
+  "approved_in_current_style_count": 3
 }

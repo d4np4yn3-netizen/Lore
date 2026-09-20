@@ -1,8 +1,19 @@
 # LORE project memory
 
-Updated 2026-09-19. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
+Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
 
 ## Current decisions
+
+- **The Merge Mythic HODL-style revision approved 20 September 2026.**
+  Dan: “All approved, now birth of hodl”. Exact Style-Review-v1 PNG/SVG/art archived in
+  cards/crypto/season-01/the-merge-master-02; current register resolves v2. Card SHA-256:
+  618a802183e5fb3bca8778323c7706c78729ddfd8fdd696c4912101731e83c33
+  Three of four approved crypto cards now use the locked HODL style.
+  HODL itself is already complete and remains the permanent style master.
+  Show the existing approved HODL card in response to the latest request;
+  clarify whether Birth of Doge is intended next. Do not redesign HODL or
+  begin Doge on that assumption. First Transfer remains unapproved.
+  This supersedes older next-card statements below. Prior versions retained.
 
 - **Pizza Day Legendary HODL-style revision approved 20 September 2026.**
   Dan: “Approved, next :)”. Exact final Style-Review-v1 PNG/SVG/art archived in

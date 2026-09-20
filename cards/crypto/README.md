@@ -15,8 +15,8 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 | --- | --- | --- |
 | Birth of HODL — Epic | [Approved v2](season-01/birth-of-hodl-master-02/README.md) | Complete; permanent master |
 | Pizza Day — Legendary | [Approved v2](season-01/pizza-day-master-02/README.md) | Complete |
-| The Merge — Mythic | [Earlier approval](season-01/the-merge-master-01/README.md) | Next restyle |
-| Birth of Doge — Epic | [Earlier approval](season-01/birth-of-doge-master-01/README.md) | Waiting |
+| The Merge — Mythic | [Approved v2](season-01/the-merge-master-02/README.md) | Complete |
+| Birth of Doge — Epic | [Earlier approval](season-01/birth-of-doge-master-01/README.md) | Next queued restyle; confirm latest HODL request |
 
 [First Transfer](next-card-first-transfer.md) remains an unapproved draft.
 Finish existing cards one by one before adding new events.

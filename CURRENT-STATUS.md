@@ -2,7 +2,30 @@
 
 Updated 2026-09-20. Read with AGENTS.md.
 
-## Current milestone: Pizza Day style revision approved
+## Current milestone: The Merge style revision approved
+
+Dan on 20 September 2026: “All approved, now birth of hodl”.
+Canonical exact selected card: cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2.png, matching SVG and art.png.
+PNG SHA-256: 618a802183e5fb3bca8778323c7706c78729ddfd8fdd696c4912101731e83c33
+The final Style-Review-v1 PNG/SVG/art are copied without regeneration or visual
+changes. Approval, source notes, prompt, references and hashes are archived beside
+them. The fixed template, copy and actual QR were verified during review; exact
+selected hashes, dimensions, embedded art and QR were checked again for archival.
+
+HODL, Pizza Day and The Merge are approved in the new style: three of four
+approved crypto cards. HODL v2 remains the permanent style master. All generations
+and edits must include its exact art directly. Creator cards remain unchanged.
+
+**Next: show the existing approved Birth of HODL card and clarify the next target.**
+Dan requested “now birth of hodl”, but HODL is already the approved master.
+Exact card: cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png.
+Card SHA-256: 3071f36bf41d9f50a7e59d49cf4e74cd5151bcf200674e2bb1dba1e41e41aa6f
+Birth of Doge is next in the migration queue; confirm that this is what Dan means
+before generating it. No HODL regeneration is needed or authorised by implication.
+First Transfer remains an unapproved draft. Historical next-action/approval
+statements below are superseded by this milestone. Demo QR; no site or print release.
+
+## Previous milestone: Pizza Day style revision approved
 
 Dan on 20 September 2026: “Approved, next :)”.
 Canonical exact selected card: cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2.png, matching SVG and art.png.

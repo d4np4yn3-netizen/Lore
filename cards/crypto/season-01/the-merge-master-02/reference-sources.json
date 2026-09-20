@@ -1,0 +1,17 @@
+{
+  "style_master": {
+    "repository": "d4np4yn3-netizen/Lore",
+    "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+    "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+    "role": "Permanent whole-scene style reference; supplied directly to generation"
+  },
+  "content_reference": {
+    "path": "cards/crypto/season-01/the-merge-master-01/art.png",
+    "sha256": "8ec1b8cc4f8ac47563038f661b64b0b2133fbe8083bc1207c35cce8f9aec9720",
+    "role": "Approved scene, composition and Easter eggs; supplied directly to generation"
+  },
+  "generation_reference_order": [
+    "content_reference",
+    "style_master"
+  ]
+}
