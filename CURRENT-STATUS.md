@@ -2,7 +2,7 @@
 
 Updated 2026-09-20. Read with AGENTS.md.
 
-## Current milestone: require HODL and Doge; pause First Transfer
+## Current milestone: The Whitepaper review ready using both required references
 
 Dan on 20 September 2026: “Before every card I want to use HODL and Birth of Doge
 as reference”. He is not a fan of First Transfer and requested another design.
@@ -26,12 +26,39 @@ is complete: HODL, Pizza Day, The Merge and Birth of Doge are approved and archi
 Verified Doge delivery: 5b062810685dff4adf16cb34dd6ee3f14563f1d7;
 15 changed blobs/sizes matched, 386 unrelated blobs preserved, main tip verified.
 
-Next concept proposal: The Whitepaper, nine luminous pages becoming a network
-above an invented city. Date 31 OCT 2008, suggested Legendary, proposed phrase
-NO TRUSTED THIRD PARTY. Primary sources and four clue groups are recorded in
-cards/crypto/next-card-whitepaper.md. This is an assistant recommendation, not
-Dan's visual or copy approval. No artwork generated. Older next-action and
-HODL-only rules below are superseded. No website deployment or print release.
+**Next: Dan reviews The Whitepaper — Legendary Review-v1.**
+Dan instructed: “Ok, amaze me with Whitepaper”. A new card candidate is complete.
+THE / WHITEPAPER; BITCOIN; 31 OCT 2008; NO TRUSTED THIRD PARTY.
+This instruction authorises the concept build; final visual approval is pending.
+The city and glowing network are fictional metaphors for the paper's publication.
+
+Review image: LORE-The-Whitepaper-Legendary-Review-v1.png,
+Library libfile_bcb202438b948191932298de0769657d, version 0.
+Editable source: LORE-The-Whitepaper-Legendary-Review-v1-Source.zip,
+Library libfile_ec230d2560588191bc9188cf9a52d712, version 0.
+PNG SHA-256: 15b70f3197397991f64c1ec37e0e039381f9bb28019378a433446035dcdd5356
+SVG SHA-256: 93d8eda644728f01984cfb82f7eff6bbbd33ee3f5ad8e3e880dd39b1504ed045
+Art SHA-256: ffbf8109e6cb161312f9f7b7ba9995b363078c9a8b88438f375385c8556ed79f
+
+BOTH exact HODL and Doge art references were hash-verified, visually inspected and
+supplied directly to the built-in image generator. New composition; no target-card
+or First Transfer art was used. Nine sheets counted: hero plus eight secondary
+pages. The upper-left sheet is partly behind the fixed rarity badge in the card.
+The hero title/author, 31 OCT 2008 stamp, original mailing-list subject and
+b-money/Hashcash references remain readable. Other paper marks/diagrams are
+illustrative, not exact facsimiles of the original PDF pages.
+
+The pinned Legendary template, renderer and badge helper match repository hashes.
+Fixed geometry, font sizing, populated copy and exact artwork embedding verified.
+The 900 x 1260 card's actual QR decodes to the documented demo URL. No art-placement
+adjustment or font resizing was required. Review PNG and source ZIP saved.
+Source evidence and factual/interpretive distinctions are in source-notes.md;
+both style references and generation prompt are included in the source package.
+
+Do not treat this candidate as approved or add it to current-cards.json yet.
+Four approved cards remain active. First Transfer remains paused.
+Historical next-action and proposal-only statements below are superseded.
+No website deployment or print release.
 
 ## Previous milestone: Birth of Doge approved; four-card style migration complete
 
