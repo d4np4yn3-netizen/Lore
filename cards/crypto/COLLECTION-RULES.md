@@ -14,7 +14,7 @@ implements Dan's crypto decisions; creator collections retain six moments per cr
 | Collection numbering | No creator-style 01/06; final set size and collector numbering remain undecided |
 | Footer | CRYPTO • SEASON 01, as shown on the approved Pizza Day preview |
 | Subject label | Event's subject or network, e.g. BITCOIN, in the existing creator-name field |
-| Format | Existing LORE front layout, six rarity colours, collection-specific approved art style, shared back v5; 63 × 88 mm trim |
+| Format | LORE-FRONT-v4 visual geometry with approved LORE-CRYPTO-PRINT-v1.0 print derivative, six rarity colours, collection-specific approved art style, shared back v5 |
 
 Do not make six rarity versions of one event. Standard and foil share the same
 event, assigned rarity, artwork and wording. Production quantities must account
@@ -22,10 +22,7 @@ for both finishes; do not publish invented edition totals or pull rates.
 
 ## Layout and artwork
 
-Keep LORE-FRONT-v4 geometry, typography, badge padding, logo asset, title and QR
-placement. The approved differences are field content: event date replaces the
-creator moment counter, subject replaces creator name, and the crypto season
-label replaces the creator footer. Do not redesign the master templates.
+Keep LORE-FRONT-v4 geometry, badge padding, logo asset, title and QR placement. The approved field differences are: event date replaces the creator moment counter, subject replaces creator name, and the crypto season label replaces the creator footer. **Crypto print derivatives additionally use the approved phrase typography override in LORE-CRYPTO-PRINT-v1.0: the moment phrase is 25 units and 700 bold, retaining its position, tracking and rarity colour.** Do not apply this crypto-only phrase change to creator cards.
 
 Use the existing renderer and BOTH exact approved art references, HODL v2 AND
 Birth of Doge v2, before every new crypto card and revision. Inspect and supply
@@ -43,6 +40,12 @@ its bytes and the separate selected illustration. No matching editable SVG was
 retrieved. Do not call this preview a verified deterministic template export or
 printer-ready artwork. Any future editable reconstruction must be compared with
 this selection and reviewed for visible differences.
+
+## Approved print master — 24 September 2026
+
+Dan approved [LORE-CRYPTO-PRINT-v1.0](master/print-v1/README.md) for all six crypto rarities. The printer master is **816 × 1110 px at 300 DPI**, with **744 × 1038 px cut** and **684 × 981 px safe area**. The complete approved LORE front is uniformly inset with `translate(46.515 48.921) scale(0.8033)`; it is never stretched.
+
+Use this print master for every new or rebuilt Crypto Season One front. The existing outer rarity border lands about **1.40 mm inside the cut at its nearest stroke edge**. Preserve the source artwork and all card-specific wording when converting approved cards. The next production task is to rebuild the approved crypto cards one by one against this master and perform export/QR QA.
 
 ## Approved style migration
 

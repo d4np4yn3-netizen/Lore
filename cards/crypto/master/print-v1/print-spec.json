@@ -1,0 +1,102 @@
+{
+  "revision": "LORE-CRYPTO-PRINT-v1.0",
+  "status": "APPROVED_TEMPLATE",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-09-24",
+  "approval_record": "operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md",
+  "applies_to": "Crypto collection, all six rarities, front print derivatives",
+  "source_visual_master": "LORE-FRONT-v4",
+  "source_templates": "cards/master/front-v4/templates",
+  "printer_template": {
+    "source_filename": "2_48x3_46American_poker_size.pdf",
+    "dpi": 300,
+    "full_bleed_px": [
+      816,
+      1110
+    ],
+    "full_bleed_inches": [
+      2.72,
+      3.7
+    ],
+    "trim_px": [
+      744,
+      1038
+    ],
+    "trim_inches": [
+      2.48,
+      3.46
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "safe_inches": [
+      2.28,
+      3.27
+    ],
+    "trim_origin_px": [
+      36,
+      36
+    ],
+    "safe_origin_px": [
+      66,
+      64.5
+    ]
+  },
+  "finished_size": {
+    "nominal_mm": [
+      63,
+      88
+    ],
+    "note": "Printer literal 2.48 x 3.46 in is approximately 62.99 x 87.88 mm; LORE commercial standard remains referred to as 63 x 88 mm."
+  },
+  "transform": {
+    "mode": "uniform_inset",
+    "scale": 0.8033,
+    "x_px": 46.515,
+    "y_px": 48.921,
+    "trim_relative_inset_px": [
+      10.515,
+      12.921
+    ],
+    "stretch": false
+  },
+  "cut_clearance": {
+    "outer_border_near_stroke_edge_mm": 1.4004,
+    "outer_border_centerline_mm": 1.5704
+  },
+  "phrase_typography": {
+    "field": "moment-context",
+    "x": 58,
+    "baseline_y": 1152,
+    "font_family": "DejaVu Sans",
+    "font_size": 25,
+    "font_weight": 700,
+    "letter_spacing": 1.1,
+    "colour": "rarity accent",
+    "approval_intent": "Same size and bold weight as the subject label such as BITCOIN; retain phrase colour and its existing position/tracking."
+  },
+  "preserved": {
+    "rarity_badge": true,
+    "event_date_position": true,
+    "lore_logo": true,
+    "title_geometry": true,
+    "qr_geometry": true,
+    "footer_geometry": true,
+    "artwork_geometry": true,
+    "rarity_colours": true,
+    "inner_corner_lines": true
+  },
+  "rarities": [
+    "common",
+    "uncommon",
+    "rare",
+    "epic",
+    "legendary",
+    "mythic"
+  ],
+  "shared_back": "LORE-BACK-v5",
+  "production_note": "Template approved for rollout. Individual existing crypto cards still require new print derivatives and per-card export QA.",
+  "physical_proof_received": false,
+  "qr_physical_scan_test": false
+}

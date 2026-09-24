@@ -86,6 +86,10 @@ Historical recovery is recorded in `operations/14-STEAK-ARTWORK-CONTINUATION-202
 
 Before card art, templates or new creator sets, also read `cards/card-design-lock.json` and `cards/07-FRONT-LAYOUT-AND-ART-MASTER.md`. The selected illustration baseline is the exact Asmongold v3 front-QR set, including its increased headroom. The current layout is LORE-FRONT-v4, with only the approved badge-spacing adjustment. Use its pinned templates and renderer with the existing v3 fonts and original art references. Do not regenerate the whole card or silently substitute fonts. The universal LORE-BACK-v5 is explicitly approved; also read `cards/08-SHARED-BACK-MASTER.md`. Use its exact PNG/SVG and manifest in `cards/master/shared-back-v5`: no diamond, thick gold outer border, clearer thin inner border. LORE-CARD-v1.1 is the current visual lock, with only the approved front-badge revision from v1.0. The finished card size is also locked at 63 × 88 mm; read `cards/09-PHYSICAL-SIZE-STANDARD.md`. Keep the existing 900 × 1260 visual references unchanged and prepare separate printer-specific derivatives. Bleed, safe inset, corner die and manufacturing/print approval remain separate; do not silently alter the back to invent a cutting allowance.
 
+## Approved Crypto Season One print master — 24 September 2026
+
+For Crypto Season One **print derivatives**, use `cards/crypto/master/print-v1` / LORE-CRYPTO-PRINT-v1.0 across Common, Uncommon, Rare, Epic, Legendary and Mythic. It uses the selected printer canvas 816×1110 px @300DPI, 744×1038 cut, 684×981 safe, with the full LORE-FRONT-v4 composition uniformly inset. Crypto moment phrases use the specifically approved 25-unit, 700-bold treatment while retaining their existing position/tracking and rarity colour. This is a crypto-only production exception; creator cards remain on the existing front rules. Preserve all existing approved crypto art and wording when rolling cards onto the print master.
+
 ## Approved BitConnect single-word title
 
 BitConnect Rare v1 preserves the existing first title baseline and font with

@@ -2,7 +2,7 @@
 
 Crypto illustration exception (19 September 2026): use [the approved HODL style](crypto/ART-STYLE.md)
 for all crypto art. Original creator references below apply to creators. The
-pinned front layout and all shared brand/typography/geometry remain unchanged.
+pinned front layout remains the visual source. **Crypto print derivatives have a later approved production exception:** [LORE-CRYPTO-PRINT-v1.0](crypto/master/print-v1/README.md) uniformly insets the complete front into the selected printer canvas and increases only the crypto moment phrase to 25-unit / 700 bold. Creator cards retain the rules below.
 
 **Current layout: LORE-FRONT-v4, approved badge spacing on 13 September 2026. Original illustration reference: LORE-FRONT-v3, 12 September 2026.**
 
