@@ -175,10 +175,10 @@ f_crypto = font(92, True)
 f_season = font(38, True)
 t="CRYPTO"
 b=draw.textbbox((0,0),t,font=f_crypto)
-draw.text(((FOLD_L+FOLD_R-(b[2]-b[0]))/2,470),t,font=f_crypto,fill=WHITE+(255,))
+draw.text(((FOLD_L+FOLD_R-(b[2]-b[0]))/2,465),t,font=f_crypto,fill=WHITE+(255,))
 t2="SEASON 01"
 b2=draw.textbbox((0,0),t2,font=f_season)
-draw.text(((FOLD_L+FOLD_R-(b2[2]-b2[0]))/2,575),t2,font=f_season,fill=GOLD+(255,))
+draw.text(((FOLD_L+FOLD_R-(b2[2]-b2[0]))/2,568),t2,font=f_season,fill=GOLD+(255,))
 
 # Minimal pack count lock-up.
 pill=(804,1272,1228,1360)
@@ -206,10 +206,11 @@ for x0,x1 in [(0,154),(1878,W)]:
     draw.rectangle((x0,154,x1,1402),fill=(4,4,5,58))
 
 # Fine prismatic streaks - restrained, printable, and behind no critical type.
+# Restrained foil glints: gold/white only so the approved art stays dominant.
 streaks = [
-    ((160,300),(1850,1150),(80,190,255,20),14),
-    ((90,1080),(1880,430),(255,70,190,18),11),
-    ((280,1380),(1730,210),(255,205,80,20),8),
+    ((220,1180),(1770,300),(255,235,165,18),5),
+    ((340,1410),(1660,420),(255,255,255,12),3),
+    ((120,760),(1880,1040),(212,175,55,14),4),
 ]
 for p1,p2,c,w in streaks:
     draw.line([p1,p2],fill=c,width=w)
