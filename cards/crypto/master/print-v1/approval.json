@@ -1,0 +1,35 @@
+{
+  "status": "APPROVED",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-09-24",
+  "scope": "Crypto print master across all six rarities and print-ready size/template.",
+  "decision_sequence": [
+    {
+      "quote": "what about same size and bold like the BITCOIN text above BIRTH OF HODL",
+      "meaning": "Increase the moment phrase to the same 25-unit size and 700 bold weight as the subject label, retaining phrase colour and position."
+    },
+    {
+      "quote": "ok, thats the one, this is approved, can we update the github for the latest apporved template, across all rarity and also the print ready size so all cards going fit the same size and tmeplate",
+      "meaning": "Approve the revised phrase treatment and promote one printer-sized template system across Common, Uncommon, Rare, Epic, Legendary and Mythic crypto cards."
+    }
+  ],
+  "revision": "LORE-CRYPTO-PRINT-v1.0",
+  "master_directory": "cards/crypto/master/print-v1",
+  "printer_canvas_px": [
+    816,
+    1110
+  ],
+  "trim_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "phrase_font_size": 25,
+  "phrase_font_weight": 700,
+  "previous_approved_card_files_unchanged": true,
+  "rollout_existing_cards": "NEXT_TASK",
+  "print_release_note": "Template approval does not by itself confirm physical proof, live QR routes or final production run."
+}
