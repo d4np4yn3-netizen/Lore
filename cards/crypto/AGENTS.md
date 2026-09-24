@@ -22,6 +22,10 @@ Follow STYLE-MIGRATION.md for the current queue. New artwork still needs visual
 selection before archival/promotion. Preserve prior versions. Later card
 approvals do not alter this required pair without explicit user selection.
 
+## Approved crypto print master — 24 September 2026
+
+Use `cards/crypto/master/print-v1` / **LORE-CRYPTO-PRINT-v1.0** for every Crypto Season One front print derivative across all six rarities. Canvas 816×1110 @300DPI; cut 744×1038; safe 684×981. The complete front is uniformly inset with `translate(46.515 48.921) scale(0.8033)`; never stretch it or independently reposition locked elements. The crypto moment phrase is the approved exception: size 25, weight 700, existing x/y/tracking and rarity colour retained. Creator cards are not changed by this rule. Existing approved crypto cards must be rebuilt one at a time from their exact approved art/data; do not regenerate their art for print conversion.
+
 ## Approved BitConnect single-word title
 
 BitConnect Rare v1 preserves the existing first title baseline and font with
