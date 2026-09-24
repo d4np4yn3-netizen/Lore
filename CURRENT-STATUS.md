@@ -1,29 +1,23 @@
 # LORE — current status
 
-Updated 2026-09-20. Read with AGENTS.md and PROJECT-MEMORY.md.
+Updated 2026-09-24. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: Buried Fortune Rare approved
+## Current milestone: Crypto print master approved
 
-Dan: “approved, up load to github and move to next card”, responding to exact displayed Rare Review-v3.
-Eleven approved crypto cards; previous ten unchanged. Resolve cards/crypto/current-cards.json.
+Dan approved **LORE-CRYPTO-PRINT-v1.0** across all six crypto rarities after selecting the larger/bold phrase treatment: the moment phrase now uses size 25 / weight 700, with its existing position, tracking and rarity colour preserved.
 
-Canonical folder: cards/crypto/season-01/buried-fortune-master-01.
-PNG/SVG: LORE-Buried-Fortune-Rare-v1.*; art.png and exact Review-v3 source ZIP beside them.
-PNG SHA-256: 7999e9c92af71543b4f88d623fb97443883163cf77351ee603630705d43237ed
-Art SHA-256: aaa6342da6aa7274a1c518a2647229508a4586c630aa9cdfd2322eb2fee3117f
-Newspaper removed; dirty Doge plush mostly buried. Hard drive remains focal.
-Date 2013; precise disposal day not established. Caption ONE DRIVE. A FORTUNE. is editorial.
-Visual files and original source ZIP are unchanged. approval.json supersedes earlier review-only labels.
-GitHub archival delivery authorised. QR story is intended to explain value; QR remains a demo.
-Print release and website deployment are separate.
+Canonical master: `cards/crypto/master/print-v1/`.
+Printer geometry: 816×1110 full bleed @300DPI; 744×1038 cut; 684×981 safe.
+The complete LORE-FRONT-v4 front is uniformly inset with `translate(46.515 48.921) scale(0.8033)`; no stretching.
+Approval record: `operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md`.
+
+Creator cards are unchanged. Existing approved crypto card exports are preserved.
 
 ## Next action
 
-Propose CASH OUT — first public Bitcoin ATM, Waves Coffee House, Vancouver.
-Research: cards/crypto/next-card-first-bitcoin-atm.md. Proposed Uncommon and caption are not yet approved.
-Public launch date: 29 OCT 2013; WIRED records test use the previous evening. Keep these distinct.
-Silk Road and Dogecar are PARKED after rejection. First Transfer and First Halving remain PAUSED.
-Do not resume those drafts automatically.
+Rebuild the **eleven approved Crypto Season One cards** one by one as new print derivatives using LORE-CRYPTO-PRINT-v1.0, preserving each card's exact approved art, wording, rarity and QR status. Start with Birth of HODL as the reference conversion, then roll through the approved register.
+
+Physical sample approval, live QR routes and physical QR scan testing remain separate release gates.
 
 ## Permanent crypto references
 
@@ -33,7 +27,7 @@ Before EVERY generation/edit inspect and directly supply BOTH pinned artworks:
 - cards/crypto/season-01/birth-of-doge-master-02/art.png
   SHA-256 6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422
 Characters, props and backgrounds use LORE-CRYPTO-STYLE-v1.1. New approvals do
-not change this pair. Front-v4, shared back v5 and 63 × 88 mm remain locked.
+not change this pair.
 
 ## Compact working method
 
@@ -45,6 +39,3 @@ not change this pair. Front-v4, shared back v5 and 63 × 88 mm remain locked.
 6. A large file may return an empty content field through GitHub's contents API. Check its blob SHA; do not assume it is missing or empty, or re-upload it unnecessarily.
 7. Verify the actual remote file/hash before saying uploaded. Save a small checkpoint for an incomplete transfer and resume only missing work.
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
-
-The exact cause of the app's conversation-limit errors has not been established. This workflow reduces repeated context and makes completed work recoverable.
-
