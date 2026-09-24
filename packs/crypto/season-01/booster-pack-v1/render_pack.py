@@ -278,6 +278,16 @@ buf=io.BytesIO()
 preview.save(buf,"JPEG",quality=88,optimize=True)
 (OUT/"front-preview-base64.txt").write_text(base64.b64encode(buf.getvalue()).decode("ascii"))
 
+# Full-layout review thumbnails for chat/review surfaces.
+for name,im,maxsize in [
+    ("flat-preview-base64.txt", flat.copy(), (1100,850)),
+    ("guide-preview-base64.txt", guide.convert("RGB"), (1100,850)),
+]:
+    im.thumbnail(maxsize, Image.Resampling.LANCZOS)
+    b=io.BytesIO()
+    im.save(b,"JPEG",quality=86,optimize=True)
+    (OUT/name).write_text(base64.b64encode(b.getvalue()).decode("ascii"))
+
 print("Rendered:", flat_path)
 print("Canvas:", flat.size, "DPI 300")
 print("Front crop:", front.size)
