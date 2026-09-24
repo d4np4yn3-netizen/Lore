@@ -1,7 +1,7 @@
 # LORE Crypto — Season One
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
-[Collection rules](COLLECTION-RULES.md) · [Current cards](current-cards.json) ·
+[Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·
 [Restyle queue](STYLE-MIGRATION.md)
 
 **Mandatory before every card: [Birth of HODL v2](season-01/birth-of-hodl-master-02/README.md) AND [Birth of Doge v2](season-01/birth-of-doge-master-02/README.md).**
@@ -32,7 +32,7 @@ All eleven approved crypto cards use the approved crypto art direction.
 Continue one card at a time with BOTH HODL and Doge supplied directly.
 
 One rarity per event, standard and foil editions, event dates under the badge.
-LORE-FRONT-v4, shared back v5, brand, fonts and 63 × 88 mm trim remain fixed.
+LORE-FRONT-v4 remains the visual geometry source. **LORE-CRYPTO-PRINT-v1.0 is now the approved front print master for all six rarities**: 816 × 1110 px full bleed, 744 × 1038 px cut and 684 × 981 px safe area at 300 DPI. The crypto phrase line is now 25-unit / 700 bold. Shared back v5 remains unchanged.
 Set size, collector numbering, production quantities and pack odds are undecided.
 
 The collection covers breakthroughs, culture, scams, crashes, hacks and bans.
