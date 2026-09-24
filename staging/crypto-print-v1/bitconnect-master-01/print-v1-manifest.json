@@ -1,0 +1,144 @@
+{
+  "revision": "LORE-CRYPTO-PRINT-v1.0",
+  "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+  "source_commit": "710306a355e138d4c477815d13a55b56a7ffb038",
+  "source_visual": {
+    "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
+    "bytes": 2632475,
+    "sha256": "151f518c635a99a2fede6aa89afa00ba45ef8163b9335f3a7592e4ea802eded3",
+    "git_blob": "df7da26c31c6215109e0222dad43d0ea4377d80a"
+  },
+  "source_front": {
+    "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
+    "bytes": 1245181,
+    "sha256": "b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36",
+    "git_blob": "5a85cbbb93ce7f65debee930b3816030ed3f9173"
+  },
+  "source_artwork": {
+    "path": "cards/crypto/season-01/bitconnect-master-01/art.png",
+    "bytes": 1949101,
+    "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0",
+    "git_blob": "3634799b1f761cd7e36438fadc9ef57482d4f8fb"
+  },
+  "template": {
+    "path": "cards/crypto/master/print-v1/templates/rare.svg",
+    "bytes": 28117,
+    "sha256": "d6d2dc1c3efba25b62da708aeb6ac973a508ed2cfe3bb79c93fbb0e974adbc8b",
+    "git_blob": "428adfa11f0c6c57848195f802a9e17607a0feb9"
+  },
+  "front": {
+    "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.png",
+    "bytes": 780805,
+    "sha256": "b2351137fd9ae5deda7377cefeca3277ba1be5e944a31c4e402aef07a38b46e9",
+    "git_blob": "a5a91c2b68c7690ef9bb493ea8c31876fe977196"
+  },
+  "editable_svg": {
+    "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.svg",
+    "bytes": 2633308,
+    "sha256": "31745df7054ba4802ae714ec6d2e4a817c32f7cb812c79b00f8e0ffcb5f83408",
+    "git_blob": "5f8575e92640b064cb656120017a4a46f69362ac"
+  },
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "cut_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "cut_origin_px": [
+    36,
+    36
+  ],
+  "safe_origin_px": [
+    66,
+    64.5
+  ],
+  "transform": "translate(46.515 48.921) scale(0.8033)",
+  "phrase": {
+    "size": 25,
+    "weight": 700,
+    "position_tracking_colour": "preserved"
+  },
+  "qr_status": "DEMO_ONLY",
+  "qr_url": "https://example.com/lore/crypto/bitconnect",
+  "qa": {
+    "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+    "art_bytes_and_placement_preserved": true,
+    "all_text_and_rarity_preserved": true,
+    "qr_vector_preserved": true,
+    "qr_decoded": "https://example.com/lore/crypto/bitconnect",
+    "qr_status": "DEMO_ONLY",
+    "pixel_dimensions": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "opaque_full_bleed": true,
+    "guides_hidden": true,
+    "critical_text_and_qr_inside_safe": true,
+    "critical_bounds_px": {
+      "creator-name": [
+        94.9499,
+        816.43,
+        178.256,
+        15.1894
+      ],
+      "title-line-1": [
+        95.055,
+        844.226,
+        397.9,
+        42.5302
+      ],
+      "moment-context": [
+        94.9499,
+        959.682,
+        173.785,
+        17.4937
+      ],
+      "moment-number": [
+        91.0111,
+        143.629,
+        117.621,
+        11.5439
+      ],
+      "set-number": [
+        93.8732,
+        1018.81,
+        160.172,
+        10.3288
+      ],
+      "rarity-label": [
+        104.353,
+        99.8401,
+        64.104,
+        14.6402
+      ],
+      "qr-caption": [
+        584.058,
+        821.2,
+        119.112,
+        10.3288
+      ],
+      "moment-qr": [
+        563.84,
+        840.975,
+        159.053,
+        159.053
+      ]
+    }
+  },
+  "conversion_authorised_by": "Dan Payne",
+  "conversion_authorised_at": "2026-09-24",
+  "template_approval": "operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md",
+  "print_release": false,
+  "physical_proof_received": false,
+  "physical_qr_scan_test": false,
+  "colour_mode": "RGB",
+  "colour_note": "No CMYK conversion or foil separation requested."
+}

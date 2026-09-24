@@ -1,0 +1,150 @@
+{
+  "revision": "LORE-CRYPTO-PRINT-v1.0",
+  "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+  "source_commit": "710306a355e138d4c477815d13a55b56a7ffb038",
+  "source_visual": {
+    "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1.svg",
+    "bytes": 3271058,
+    "sha256": "b6bba70d1f2b2f06133e07ff42bf30e708ce0568d8fa61c48859b09524dc5ab2",
+    "git_blob": "52b3b5ad939ee1a16a82a123f480b762cd84a218"
+  },
+  "source_front": {
+    "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1.png",
+    "bytes": 1591352,
+    "sha256": "114ef4de1aad5ee21453903f2f869a6cc34c84a1aaea5cf1a8ca89c2e077008d",
+    "git_blob": "6eeac186e5a4b0ef1752f8aab2c92652c344a39e"
+  },
+  "source_artwork": {
+    "path": "cards/crypto/season-01/the-depeg-master-01/art.png",
+    "bytes": 2428209,
+    "sha256": "6055cc120972bbc8ac730f96ce5520e46ce25929ea5f138565eb2196cc71b3b7",
+    "git_blob": "0c26b37058d33470553175b2559819e3fdb3149f"
+  },
+  "template": {
+    "path": "cards/crypto/master/print-v1/templates/rare.svg",
+    "bytes": 28117,
+    "sha256": "d6d2dc1c3efba25b62da708aeb6ac973a508ed2cfe3bb79c93fbb0e974adbc8b",
+    "git_blob": "428adfa11f0c6c57848195f802a9e17607a0feb9"
+  },
+  "front": {
+    "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.png",
+    "bytes": 975960,
+    "sha256": "918217f9877fb2ab361afef7b08bc073ae22f9bf34a2a175325fa21919caf096",
+    "git_blob": "62b6a29df6ee39778f7dfbeebefcd21f3b1919c5"
+  },
+  "editable_svg": {
+    "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.svg",
+    "bytes": 3271891,
+    "sha256": "ec0a253210a6e2b051a9a5f02368424f80512306ac12a8fddddbba61d4cc365f",
+    "git_blob": "9bd011fd8694b109b465374700c88fbb7f80653b"
+  },
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "cut_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "cut_origin_px": [
+    36,
+    36
+  ],
+  "safe_origin_px": [
+    66,
+    64.5
+  ],
+  "transform": "translate(46.515 48.921) scale(0.8033)",
+  "phrase": {
+    "size": 25,
+    "weight": 700,
+    "position_tracking_colour": "preserved"
+  },
+  "qr_status": "DEMO_ONLY",
+  "qr_url": "https://example.com/lore/crypto/the-depeg",
+  "qa": {
+    "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+    "art_bytes_and_placement_preserved": true,
+    "all_text_and_rarity_preserved": true,
+    "qr_vector_preserved": true,
+    "qr_decoded": "https://example.com/lore/crypto/the-depeg",
+    "qr_status": "DEMO_ONLY",
+    "pixel_dimensions": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "opaque_full_bleed": true,
+    "guides_hidden": true,
+    "critical_text_and_qr_inside_safe": true,
+    "critical_bounds_px": {
+      "creator-name": [
+        93.2045,
+        816.695,
+        199.929,
+        16.5033
+      ],
+      "title-line-1": [
+        90.1678,
+        844.967,
+        119.436,
+        40.9926
+      ],
+      "title-line-2": [
+        95.055,
+        901.26,
+        201.558,
+        42.5302
+      ],
+      "moment-context": [
+        94.5479,
+        959.418,
+        167.497,
+        15.1894
+      ],
+      "moment-number": [
+        90.8993,
+        143.629,
+        117.263,
+        11.5439
+      ],
+      "set-number": [
+        93.8732,
+        1018.81,
+        160.172,
+        10.3288
+      ],
+      "rarity-label": [
+        104.353,
+        99.8401,
+        64.104,
+        14.6402
+      ],
+      "qr-caption": [
+        584.058,
+        821.2,
+        119.112,
+        10.3288
+      ],
+      "moment-qr": [
+        563.84,
+        840.975,
+        159.053,
+        159.053
+      ]
+    }
+  },
+  "conversion_authorised_by": "Dan Payne",
+  "conversion_authorised_at": "2026-09-24",
+  "template_approval": "operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md",
+  "print_release": false,
+  "physical_proof_received": false,
+  "physical_qr_scan_test": false,
+  "colour_mode": "RGB",
+  "colour_note": "No CMYK conversion or foil separation requested."
+}
