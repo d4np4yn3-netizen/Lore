@@ -21,7 +21,7 @@ jobs:
           ref: review/crypto-booster-pack-v1
 
       - name: Install Pillow
-        run: python -m pip install --upgrade pillow
+        run: python -m pip install --upgrade pillow cairosvg
 
       - name: Render pack
         run: python packs/crypto/season-01/booster-pack-v1/render_pack.py
