@@ -148,7 +148,9 @@
     "physical_qr_scan_test": false,
     "live_qr_routes": false,
     "lock_scope": "Visual design and 63 × 88 mm finished size; printer-specific preparation, physical proof and release gates remain pending.",
-    "physical_trim_size_approved": true
+    "physical_trim_size_approved": true,
+    "crypto_print_template_approved": true,
+    "crypto_print_template_revision": "LORE-CRYPTO-PRINT-v1.0"
   },
   "front_revision": "LORE-FRONT-v4",
   "front_reference_record": "operations/16-RARITY-BADGE-SPACING-APPROVAL-2026-09-13.md",
@@ -220,7 +222,38 @@
       "art_style_revision": "LORE-CRYPTO-STYLE-v1.0",
       "art_style_manifest": "cards/crypto/style-reference-lock.json",
       "art_style_standard": "cards/crypto/ART-STYLE.md",
-      "creator_art_style_required": false
+      "creator_art_style_required": false,
+      "print_master": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "status": "APPROVED",
+        "approved_at": "2026-09-24",
+        "approved_by": "Dan Payne",
+        "directory": "cards/crypto/master/print-v1",
+        "approval_record": "operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md",
+        "full_bleed_px": [
+          816,
+          1110
+        ],
+        "trim_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "dpi": 300,
+        "uniform_transform": "translate(46.515 48.921) scale(0.8033)",
+        "phrase_override": {
+          "font_size": 25,
+          "font_weight": 700,
+          "letter_spacing": 1.1,
+          "position_unchanged": true,
+          "rarity_colour_unchanged": true
+        },
+        "applies_to_all_six_rarities": true,
+        "creator_cards_unchanged": true
+      }
     }
   }
 }
