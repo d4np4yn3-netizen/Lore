@@ -35,9 +35,9 @@
     },
     {
       "path": "cards/crypto/season-01/buried-fortune-master-01/README.md",
-      "bytes": 1501,
-      "sha256": "ea0e94f38e74aed2df05c01e8ef55dabd99bbeb702da2716dd5328caa9352a9c",
-      "git_blob": "c83c10c9b894f0dc188b7203d1767092e239525f"
+      "bytes": 2155,
+      "sha256": "f8dde1374601fa4cddef012d04c9dffb7819e4f671bacbe4c018721e837bee4d",
+      "git_blob": "239d54d0fc1b49f169c88a946c0f9d6570060bcd"
     },
     {
       "path": "cards/crypto/season-01/buried-fortune-master-01/approval.json",
@@ -86,6 +86,54 @@
       "bytes": 625,
       "sha256": "4b9e2175bcec15a5d86fee5b7c7b95717cd16d0f25b190122b917cc446f75538",
       "git_blob": "e06266633b25c27454e6cbe8ad234b464e4a52f1"
+    },
+    {
+      "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.png",
+      "bytes": 962734,
+      "sha256": "c38fb3dec7cb076da263db45ba270325009c158c208a52c2761b8c62b78cebc9",
+      "git_blob": "9b0339ffc76f5dfb0b5db1053024c85e18a9805d"
+    },
+    {
+      "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.svg",
+      "bytes": 3063949,
+      "sha256": "069bfeb4605cbd82daefe98d19fc112e60820bbc953da6b07b7118f882f4da69",
+      "git_blob": "b7b0217b7eb9b0f3434f28a4f8713110c5607473"
+    },
+    {
+      "path": "cards/crypto/season-01/buried-fortune-master-01/print-v1-manifest.json",
+      "bytes": 4038,
+      "sha256": "c1c1c7cdd45df14c4731f16226805791a851219a77c22f526e1ca6e207571fdc",
+      "git_blob": "52de47a0b7b97c3e50ff6a6af938aa4ae25719a6"
     }
-  ]
+  ],
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/buried-fortune-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

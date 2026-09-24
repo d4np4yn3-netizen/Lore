@@ -35,9 +35,9 @@
     },
     {
       "path": "cards/crypto/season-01/behind-the-chair-master-01/README.md",
-      "bytes": 1487,
-      "sha256": "2c4bc6095496f8476b6e3b2cf9270251d9d9b4e1466c1401cb4a5c55e9176ac7",
-      "git_blob": "87d13ce164bc6d4ef68821d5b8f2516708ea040c"
+      "bytes": 2149,
+      "sha256": "effaf89362fa67c5eee1e308b28618c9ea747159d3ba524b11e587eb9d6a38b1",
+      "git_blob": "b8f5e6aef9601a54daad5a762848aae9b4516279"
     },
     {
       "path": "cards/crypto/season-01/behind-the-chair-master-01/approval.json",
@@ -86,6 +86,54 @@
       "bytes": 529,
       "sha256": "362572d90ba6d8da55541db7ec9fd3f807a17d3975072d27ddae6b7fb70d173f",
       "git_blob": "3d3b9e342a6ae32d285fd69af13f05c5dca7d50a"
+    },
+    {
+      "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.png",
+      "bytes": 804982,
+      "sha256": "48f0fda0182100f0b8b9b1e5d3be848fe5881f7bd833f34bbcb4ba8593732c2d",
+      "git_blob": "814fd5acf9eab2b9ced4d3b0805bc33401f4a7c6"
+    },
+    {
+      "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.svg",
+      "bytes": 2704127,
+      "sha256": "6027c8cf154c8d40e240f563c36cfe6699272a334b75ec88ee925ef6b859d87b",
+      "git_blob": "166169b60bdc5a303d3487d614f667a2bc66d44a"
+    },
+    {
+      "path": "cards/crypto/season-01/behind-the-chair-master-01/print-v1-manifest.json",
+      "bytes": 4061,
+      "sha256": "675adcb3d0325139b79b4d925555e9df549c482b711c1526756e5272b3ba0162",
+      "git_blob": "2574380c13dc894df72a848e1cb91460109b6110"
     }
-  ]
+  ],
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/behind-the-chair-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

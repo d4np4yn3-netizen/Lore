@@ -36,9 +36,9 @@
     },
     {
       "path": "cards/crypto/season-01/the-dao-hack-master-01/README.md",
-      "bytes": 1223,
-      "sha256": "1c3446c007a1e773b47af953074e3c9dabe1fc6efb276f6348b8a4d9582e1841",
-      "git_blob": "14a6dd51b43b8c7c4e003746cc7d56bc7b592a31"
+      "bytes": 1873,
+      "sha256": "5cabec977f4d5ce636a31e15a201ed45a61a69f5809e158f825219c2fa33441f",
+      "git_blob": "bd4f6d9d654bf0c7009d6a8978b589e0017658f6"
     },
     {
       "path": "cards/crypto/season-01/the-dao-hack-master-01/approval.json",
@@ -81,6 +81,54 @@
       "bytes": 4247,
       "sha256": "a3006c0a316f6fcbb6a771c07dce1fe542031ba0e2f38c1d03eaac95db09bd85",
       "git_blob": "14bd12707116e120579067bcdd31a74c803c682d"
+    },
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.png",
+      "bytes": 972049,
+      "sha256": "fa94adf00e65f60ad8fb377d868419440be6ac705e8a2652915d3935b1324060",
+      "git_blob": "84f695079be082db35b004fc5d500f3f8b278843"
+    },
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.svg",
+      "bytes": 3377235,
+      "sha256": "49f6634b5fc0dd4d23a587cf6d384b59424b8c57859fe01d1304428ee8a31242",
+      "git_blob": "18cbd6400931e6763b5c7b4bc6c9d01c1f104c7a"
+    },
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-01/print-v1-manifest.json",
+      "bytes": 4016,
+      "sha256": "6c8c228b7197ee4062292bf287771d7c65df6e9aa6442ceaf1c440120f550893",
+      "git_blob": "bab8bb48fe9f3477f472f7cad2b85b6b0341f3e8"
     }
-  ]
+  ],
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/the-dao-hack-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

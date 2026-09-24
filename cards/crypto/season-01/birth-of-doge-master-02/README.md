@@ -21,3 +21,9 @@ The previous approved visual remains archived in ../birth-of-doge-master-01.
 
 All four previously approved crypto cards now have approved HODL-style versions.
 First Transfer remains an unapproved draft. Demo QR; no site or print release.
+
+## Printer-ready front derivative — LORE-CRYPTO-PRINT-v1.0
+
+[Print PNG](LORE-Birth-of-Doge-Epic-v2-Print-v1.png) · [Print SVG](LORE-Birth-of-Doge-Epic-v2-Print-v1.svg) · [Print manifest](print-v1-manifest.json)
+
+Printer canvas **816 × 1110 px @ 300 DPI**; cut **744 × 1038 px**; safe **684 × 981 px**. Uniform transform `translate(46.515 48.921) scale(0.8033)`. The approved artwork, wording, rarity and QR vector are preserved; the crypto phrase uses the approved **25 / 700** treatment with its existing position, tracking and rarity colour. QR remains **DEMO_ONLY**. Physical proof, physical QR scan and print release remain separate gates.

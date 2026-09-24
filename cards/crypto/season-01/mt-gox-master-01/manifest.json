@@ -35,9 +35,9 @@
     },
     {
       "path": "cards/crypto/season-01/mt-gox-master-01/README.md",
-      "bytes": 1425,
-      "sha256": "089180cffa5d65c7368b561c3c037c91c0ff67510dcc6a9b57ef6d8b56bf9322",
-      "git_blob": "e12e2282bf5590407cad181af051e8b8c986e6c3"
+      "bytes": 2063,
+      "sha256": "2e34d2a6d80755cbfe88cfd15adef02b6116b822680ab14d840ebb2eee19967a",
+      "git_blob": "47e9a03c36201dc55fd8c5a75f11776d5443eef7"
     },
     {
       "path": "cards/crypto/season-01/mt-gox-master-01/approval.json",
@@ -80,6 +80,54 @@
       "bytes": 3494,
       "sha256": "d6f9ffbf7d99a246016eeef568607ba78c8b06c424911a8e0f59bf747b6987dd",
       "git_blob": "d517eafb246eceb6588ba7931fd62e776c9ed599"
+    },
+    {
+      "path": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1-Print-v1.png",
+      "bytes": 971255,
+      "sha256": "e5850e15514b91f9fe013fe2cea1782ab06d55ecc4f5e0d222c60808ef53066f",
+      "git_blob": "79754a197367d305aacb33631d2fc39b2c0777de"
+    },
+    {
+      "path": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1-Print-v1.svg",
+      "bytes": 3600678,
+      "sha256": "4543a6bbade36e58e9c02e15b8daf37a6d743099cb7718b230e53457a3ab249d",
+      "git_blob": "ee964edd6b96ef2092d450873eddf58c6df8a5ec"
+    },
+    {
+      "path": "cards/crypto/season-01/mt-gox-master-01/print-v1-manifest.json",
+      "bytes": 3853,
+      "sha256": "aa5cce8f5bfcd930655208d30dea516de4aace13fa1af9c61143ab5d7e0171f7",
+      "git_blob": "21302b847db65523cddeb2c8ce8a0e643137b81e"
     }
-  ]
+  ],
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/mt-gox-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

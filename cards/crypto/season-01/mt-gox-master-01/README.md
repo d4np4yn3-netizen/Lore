@@ -23,3 +23,9 @@ building and withdrawal terminal are symbolic. Caption is editorial wording.
 MT. GOX uses custom illustrated lettering; visual approval is separate from IP clearance.
 QR is a placeholder. Trim is 63 × 88 mm, preview 900 × 1260; no print release.
 Both HODL and Birth of Doge remain the mandatory style references.
+
+## Printer-ready front derivative — LORE-CRYPTO-PRINT-v1.0
+
+[Print PNG](LORE-Mt-Gox-Epic-v1-Print-v1.png) · [Print SVG](LORE-Mt-Gox-Epic-v1-Print-v1.svg) · [Print manifest](print-v1-manifest.json)
+
+Printer canvas **816 × 1110 px @ 300 DPI**; cut **744 × 1038 px**; safe **684 × 981 px**. Uniform transform `translate(46.515 48.921) scale(0.8033)`. The approved artwork, wording, rarity and QR vector are preserved; the crypto phrase uses the approved **25 / 700** treatment with its existing position, tracking and rarity colour. QR remains **DEMO_ONLY**. Physical proof, physical QR scan and print release remain separate gates.

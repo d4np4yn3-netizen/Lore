@@ -21,3 +21,9 @@ The self-contained ZIP contains editable SVG, art, data, prompts, both mandatory
 style references, exact fonts/template, build script and source records.
 No fixed layout geometry changed. QR remains a placeholder; print release is separate.
 Both HODL and Birth of Doge remain the permanent required style references.
+
+## Printer-ready front derivative — LORE-CRYPTO-PRINT-v1.0
+
+[Print PNG](LORE-The-Depeg-Rare-v1-Print-v1.png) · [Print SVG](LORE-The-Depeg-Rare-v1-Print-v1.svg) · [Print manifest](print-v1-manifest.json)
+
+Printer canvas **816 × 1110 px @ 300 DPI**; cut **744 × 1038 px**; safe **684 × 981 px**. Uniform transform `translate(46.515 48.921) scale(0.8033)`. The approved artwork, wording, rarity and QR vector are preserved; the crypto phrase uses the approved **25 / 700** treatment with its existing position, tracking and rarity colour. QR remains **DEMO_ONLY**. Physical proof, physical QR scan and print release remain separate gates.
