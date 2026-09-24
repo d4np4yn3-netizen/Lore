@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter
 from pathlib import Path
-import base64, io, math
+import base64, io, math\nimport cairosvg
 
 ROOT = Path(__file__).resolve().parents[4]
 OUT = Path(__file__).resolve().parent
