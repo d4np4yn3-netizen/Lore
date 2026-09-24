@@ -2,22 +2,21 @@
 
 Updated 2026-09-24. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Current milestone: Crypto print master approved
+## Current milestone: Crypto print rollout complete
 
-Dan approved **LORE-CRYPTO-PRINT-v1.0** across all six crypto rarities after selecting the larger/bold phrase treatment: the moment phrase now uses size 25 / weight 700, with its existing position, tracking and rarity colour preserved.
+All **11 approved Crypto Season One cards** have been converted to **LORE-CRYPTO-PRINT-v1.0** and remotely verified beside their approved masters.
 
-Canonical master: `cards/crypto/master/print-v1/`.
-Printer geometry: 816×1110 full bleed @300DPI; 744×1038 cut; 684×981 safe.
-The complete LORE-FRONT-v4 front is uniformly inset with `translate(46.515 48.921) scale(0.8033)`; no stretching.
-Approval record: `operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md`.
+Canonical print master: `cards/crypto/master/print-v1/`.
+Printer geometry: **816×1110 full bleed @300 DPI; 744×1038 cut; 684×981 safe**.
+Uniform transform: `translate(46.515 48.921) scale(0.8033)`.
+Crypto phrase: **25 / 700**, with position, tracking and rarity colour preserved.
+QA: `cards/crypto/master/print-v1/qa/approved-card-conversions.json`.
 
-Creator cards are unchanged. Existing approved crypto card exports are preserved.
+The original approved PNG/SVG/art files were not replaced. Every print derivative retains the approved wording, rarity and QR status. All QRs remain **DEMO_ONLY** and `print_release` remains **false**.
 
 ## Next action
 
-Rebuild the **eleven approved Crypto Season One cards** one by one as new print derivatives using LORE-CRYPTO-PRINT-v1.0, preserving each card's exact approved art, wording, rarity and QR status. Start with Birth of HODL as the reference conversion, then roll through the approved register.
-
-Physical sample approval, live QR routes and physical QR scan testing remain separate release gates.
+Use the converted files for physical print samples. Check the physical cut/bleed/safe result and scan the printed QR before any production release. Live QR routing, CMYK/production colour decisions and foil separations remain separate gates.
 
 ## Permanent crypto references
 

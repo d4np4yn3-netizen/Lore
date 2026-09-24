@@ -1,6 +1,6 @@
 # LORE Crypto Print Master v1.0
 
-**Status: APPROVED — 24 September 2026**
+**Status: APPROVED + 11-CARD ROLLOUT VERIFIED — 24 September 2026**
 
 This is the production-layout master for **Crypto Season One** front print derivatives.
 It applies to **Common, Uncommon, Rare, Epic, Legendary and Mythic**.
@@ -46,9 +46,8 @@ their existing approved front rules unless separately changed.
 
 ## Workflow
 
-Use `source/render_print_card.py` with the existing card-data JSON and reviewed
-artwork. The renderer uses the six templates in `templates/` and exports the
-printer canvas. Existing approved cards are to be converted one at a time next,
-preserving their art, wording, rarity and QR status.
+All **11 approved Crypto Season One fronts** now have separate `LORE-CRYPTO-PRINT-v1.0` PNG/SVG derivatives stored beside their approved masters. Each card folder also contains `print-v1-manifest.json`, and the original visual master pointers remain unchanged.
+
+Remote blob verification passed for all 11 PNGs, all 11 SVGs and all 11 print manifests. Conversion QA and cut-review sheets are in `qa/approved-card-conversions.json` and `qa/cut-review-*.jpg`. The six templates also contain the non-visual nested SVG close required for valid XML.
 
 Physical proof, final QR routes and production release remain separate gates.

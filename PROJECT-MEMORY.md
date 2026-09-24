@@ -1,9 +1,9 @@
 # LORE project memory
 
-- **Crypto print master approved, 24 September 2026.** Dan approved LORE-CRYPTO-PRINT-v1.0 across all six crypto rarities. Canonical master: `cards/crypto/master/print-v1/`. Printer canvas 816×1110 @300DPI; cut 744×1038; safe 684×981. Complete LORE-FRONT-v4 front uniformly inset with `translate(46.515 48.921) scale(0.8033)` and no stretch. Crypto moment phrase is now 25-unit / 700 bold, retaining its existing position, tracking and rarity colour; this was explicitly selected to match the size/bold feel of the `BITCOIN` subject line. Creator cards unchanged. Next task is to rebuild all eleven approved crypto cards as print derivatives while preserving exact approved art/copy/rarity/QR status. Physical proof and live QR release remain separate.
+- **Crypto print rollout complete, 24 September 2026.** All 11 approved Crypto Season One fronts now have verified `LORE-CRYPTO-PRINT-v1.0` PNG/SVG derivatives beside their approved masters, plus per-card print manifests and QA. Geometry remains 816×1110 @300DPI, cut 744×1038, safe 684×981, transform `translate(46.515 48.921) scale(0.8033)`, phrase 25/700. Original approved masters, wording, rarity and QR vectors are preserved. All QRs remain DEMO_ONLY and print release remains false. Next gate is physical sample/cut/QR verification; live routes and production release are separate.
 
 
-Updated 2026-09-20. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
+Updated 2026-09-24. Read this alongside `AGENTS.md` at the start of LORE work. This is durable repository memory, not a claim that ChatGPT's separate saved-memory settings have been changed.
 
 ## Current decisions
 
