@@ -19,6 +19,7 @@ BLACK = (7, 7, 8)
 ASSETS = {
     "logo": ROOT / "brand/assets/png/lore_logo_primary_gold_white.png",
     "logo_compact": ROOT / "brand/assets/png/lore_logo_compact_gold_white.png",
+    "pack_logo_svg": OUT / "LORE-Pack-Logo-v6.svg",
     "hodl": ROOT / "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
     "doge": ROOT / "cards/crypto/season-01/birth-of-doge-master-02/art.png",
     "merge": ROOT / "cards/crypto/season-01/the-merge-master-02/art.png",
@@ -38,6 +39,14 @@ def rgba(path):
 def fit_inside(img, max_w, max_h):
     s = min(max_w / img.width, max_h / img.height)
     return img.resize((max(1,int(img.width*s)), max(1,int(img.height*s))), Image.Resampling.LANCZOS)
+
+def render_svg_tight(path, max_w, max_h):
+    png = cairosvg.svg2png(url=str(path), output_width=1600)
+    im = Image.open(io.BytesIO(png)).convert("RGBA")
+    bbox = im.getbbox()
+    if bbox:
+        im = im.crop(bbox)
+    return fit_inside(im, max_w, max_h)
 
 def cover(img, box, anchor=(0.5,0.5)):
     x0,y0,x1,y1 = box
@@ -123,7 +132,7 @@ for bx0,bx1 in [(0,FOLD_L),(FOLD_R,W)]:
     draw.rectangle((bx0,154,bx1,1402), outline=GOLD+(165,), width=4)
     draw.rectangle((bx0+24,178,bx1-24,1378), outline=GOLD+(70,), width=2)
 
-compact = fit_inside(rgba(ASSETS["logo_compact"]), 370, 230)
+compact = render_svg_tight(ASSETS["pack_logo_svg"], 370, 205)
 for cx in [FOLD_L//2, FOLD_R+(W-FOLD_R)//2]:
     canvas.alpha_composite(compact,(int(cx-compact.width/2),210))
 
@@ -206,14 +215,12 @@ for x0,x1 in [(0,154),(1878,W)]:
     draw.rectangle((x0,154,x1,1402),fill=(4,4,5,58))
 
 # Fine prismatic streaks - restrained, printable, and behind no critical type.
-# Restrained foil glints: gold/white only so the approved art stays dominant.
-streaks = [
-    ((220,1180),(1770,300),(255,235,165,18),5),
-    ((340,1410),(1660,420),(255,255,255,12),3),
-    ((120,760),(1880,1040),(212,175,55,14),4),
-]
-for p1,p2,c,w in streaks:
-    draw.line([p1,p2],fill=c,width=w)
+# Keep the print artwork clean: only a whisper of gold foil movement.
+for p1,p2 in [
+    ((120,1040),(550,790)),
+    ((1490,770),(1970,1030)),
+]:
+    draw.line([p1,p2],fill=GOLD+(18,),width=4)
 
 # Fold-edge shadows to make the review feel like a wrapper without changing print geometry.
 draw.rectangle((FOLD_L-4,0,FOLD_L+4,H),fill=(0,0,0,110))
