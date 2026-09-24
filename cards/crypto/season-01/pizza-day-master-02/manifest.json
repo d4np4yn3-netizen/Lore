@@ -17,9 +17,9 @@
     },
     {
       "path": "cards/crypto/season-01/pizza-day-master-02/README.md",
-      "bytes": 1007,
-      "sha256": "861f1cc75865f1811dbfc69b7cda79e6e6bb1a17e32c369a0ee3f3b017fd8ef3",
-      "git_blob": "c7626064d84140944a632329de13cdf332c07f4b"
+      "bytes": 1677,
+      "sha256": "920d2e921b2f386e6a6f9009b1ae2f45da59444838e2dadcd20cfeb07d856e56",
+      "git_blob": "ee6ff3f67a4bb45d7842e0ffd527284446e12b91"
     },
     {
       "path": "cards/crypto/season-01/pizza-day-master-02/approval.json",
@@ -56,6 +56,24 @@
       "bytes": 1746,
       "sha256": "0fb67ab6f90cbd766dbd8dbd0ac3485e27615e6cf8ff028c67603eb0ff0e7d35",
       "git_blob": "2004c72a884c1cda673cd471697db493b621fdd2"
+    },
+    {
+      "path": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2-Print-v1.png",
+      "bytes": 965836,
+      "sha256": "44ab0d75cd1dfebcac8b656252f28a37597c0762ac237b4b647b8bb7d8de1392",
+      "git_blob": "80b5135f9b16bcb198dc527c1ac53d4ab9dfd8cd"
+    },
+    {
+      "path": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2-Print-v1.svg",
+      "bytes": 3283881,
+      "sha256": "6c69fdc557109f9c8d246efc62dd9f48dde908b879beff59773435467c81b5f6",
+      "git_blob": "c3b5357a27ef3f9be158d4d97cf134c21ced8217"
+    },
+    {
+      "path": "cards/crypto/season-01/pizza-day-master-02/print-v1-manifest.json",
+      "bytes": 4043,
+      "sha256": "102528164422f0db338d04d8cbc958e86d1d28315bc004e9788b198bd9cfa240",
+      "git_blob": "cee04c36075260192593df7f5fe43ac36996e40f"
     }
   ],
   "qa": {
@@ -72,5 +90,35 @@
     "qr_decoded": "https://example.com/lore/crypto/pizza-day",
     "original_template_check": true
   },
-  "print_release": false
+  "print_release": false,
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/pizza-day-master-02/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

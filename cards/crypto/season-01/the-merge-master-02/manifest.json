@@ -17,9 +17,9 @@
     },
     {
       "path": "cards/crypto/season-01/the-merge-master-02/README.md",
-      "bytes": 1124,
-      "sha256": "a0e6b0fb893043db4da7e7e79276d1522b8889bc40afa824616d7f6bd7e24b1e",
-      "git_blob": "0090080ffc300ef1d697e411eadec4493badadeb"
+      "bytes": 1772,
+      "sha256": "857ad594b76b0f633eacd3af3175010f9f343f90d0970dcc41e8ab445f2e24d2",
+      "git_blob": "89c3fadf7c537bedff9ecf2481efff5167240ed0"
     },
     {
       "path": "cards/crypto/season-01/the-merge-master-02/approval.json",
@@ -56,6 +56,24 @@
       "bytes": 2436,
       "sha256": "2f8c064f10477ccbe3d30d3df64d3757394fec39dd65cf598cdd4df84ef08c03",
       "git_blob": "ab7eec8c3ab06dfd5d225bfb27764b41c4043098"
+    },
+    {
+      "path": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2-Print-v1.png",
+      "bytes": 1085748,
+      "sha256": "354d80815521ba7945d5dcc2c1f0be3f6dfd97eddf0f6e44cce95fcc707183cf",
+      "git_blob": "d1022c80a63db55bd94d722a835e905185fa68a7"
+    },
+    {
+      "path": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2-Print-v1.svg",
+      "bytes": 3805650,
+      "sha256": "0308861d9780bf12b0a8b4e276d2969b417f402d8904afdfc38d4fffcc667c37",
+      "git_blob": "f5c2466b4b779a5c4b671e30a4ce3824e17e16d0"
+    },
+    {
+      "path": "cards/crypto/season-01/the-merge-master-02/print-v1-manifest.json",
+      "bytes": 3996,
+      "sha256": "65dc0d25275fc2e58bf5fb927e8b86fe96c9224b2f77fc81f6d48677bc2e0752",
+      "git_blob": "48b83bd69d075288adcb968cee714f54a0776ba2"
     }
   ],
   "qa": {
@@ -78,5 +96,35 @@
       ]
     }
   },
-  "print_release": false
+  "print_release": false,
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/the-merge-master-02/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

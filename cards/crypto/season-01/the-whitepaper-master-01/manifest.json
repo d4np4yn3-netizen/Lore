@@ -17,9 +17,9 @@
     },
     {
       "path": "cards/crypto/season-01/the-whitepaper-master-01/README.md",
-      "bytes": 1392,
-      "sha256": "4c61b480f3c869a3770917da8f4c24eebbf7b09d56907f02b48c9021e1fc7e27",
-      "git_blob": "b578046d2e9cb05462d9c5bf36833b736049cca8"
+      "bytes": 2056,
+      "sha256": "1b45ca131653c7aa3f181025559e052831d4e77df13c980ce63ea497e1a317f6",
+      "git_blob": "dd488cddf9e5d8d9d50dca9d3573ace212ecc68a"
     },
     {
       "path": "cards/crypto/season-01/the-whitepaper-master-01/approval.json",
@@ -56,6 +56,24 @@
       "bytes": 2414,
       "sha256": "8725cc44519458c0151c19248f2def69fa706260a30e304c3f9f3be8da4a0aff",
       "git_blob": "2ed60d0ad3d72c4cb80af5802a3fa944e3a87686"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.png",
+      "bytes": 1027206,
+      "sha256": "2ad02cedb064b8e11123a2b82e463a53c039e8fc33d89acfdc904b7664116250",
+      "git_blob": "eb5a6a79db70c07ae52be00e2d2fa97be001b929"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.svg",
+      "bytes": 3642682,
+      "sha256": "045b826189d6cf87d4d36f8e198c072aff588e00ebba244d24bd8186151066ca",
+      "git_blob": "5b751488e0ff05b258eba38a9f7a7f1716fc030e"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-01/print-v1-manifest.json",
+      "bytes": 4067,
+      "sha256": "81ff77fbab4776219e96177cb4ff2c7cd4c0961ec50f8377ffa1df177b0da3fe",
+      "git_blob": "09d26ccef602ca9bdfc7b4899422d2abf1c45431"
     }
   ],
   "qa": {
@@ -82,5 +100,35 @@
       ]
     }
   },
-  "print_release": false
+  "print_release": false,
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/the-whitepaper-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

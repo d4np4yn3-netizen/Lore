@@ -34,9 +34,9 @@
     },
     {
       "path": "cards/crypto/season-01/the-depeg-master-01/README.md",
-      "bytes": 1273,
-      "sha256": "903683695eb3b40b827ade6418005cd5a3c562402cc3d66946213d2d270ad42c",
-      "git_blob": "10e825f6ee0c399f0fd1fcdcc8ffc2a8d14494cd"
+      "bytes": 1917,
+      "sha256": "917ba02ef886f4213f6a3f4653f11afdd9cb653631a3d02aeac5be64433f51c3",
+      "git_blob": "d7621b08a87a98ec1f85343da96887910248c9e7"
     },
     {
       "path": "cards/crypto/season-01/the-depeg-master-01/approval.json",
@@ -79,6 +79,54 @@
       "bytes": 3376,
       "sha256": "9bc3a09438d6b8d473524977bf3b07bad628a20777a8384249c0f785740477a0",
       "git_blob": "a71f0c1ee5ea7143d14beb415d5ae0773c5cdae9"
+    },
+    {
+      "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.png",
+      "bytes": 975960,
+      "sha256": "918217f9877fb2ab361afef7b08bc073ae22f9bf34a2a175325fa21919caf096",
+      "git_blob": "62b6a29df6ee39778f7dfbeebefcd21f3b1919c5"
+    },
+    {
+      "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.svg",
+      "bytes": 3271891,
+      "sha256": "ec0a253210a6e2b051a9a5f02368424f80512306ac12a8fddddbba61d4cc365f",
+      "git_blob": "9bd011fd8694b109b465374700c88fbb7f80653b"
+    },
+    {
+      "path": "cards/crypto/season-01/the-depeg-master-01/print-v1-manifest.json",
+      "bytes": 3987,
+      "sha256": "2029a3fbaaafbe7e763a209a2027a6fe4256edf9e0ebc9a57edf09b187004a6c",
+      "git_blob": "d6ad41478e3bec1312175741fc2092f0ded0f80f"
     }
-  ]
+  ],
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/the-depeg-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

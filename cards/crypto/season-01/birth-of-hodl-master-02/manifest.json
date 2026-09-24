@@ -17,9 +17,9 @@
     },
     {
       "path": "cards/crypto/season-01/birth-of-hodl-master-02/README.md",
-      "bytes": 1152,
-      "sha256": "be2ae04f563c2881545f78dbb3ed3aae56973a6106e43151fc9acb7f324bdd6e",
-      "git_blob": "b086928d677a3428bf0233b65521c641d1be38cb"
+      "bytes": 1804,
+      "sha256": "98f236989b0b48bf8bede02815ca5b5269e5d2ebaf1e93512d524e6400672996",
+      "git_blob": "08504ad59f8a23c257ae94c546ac85c69f712717"
     },
     {
       "path": "cards/crypto/season-01/birth-of-hodl-master-02/approval.json",
@@ -56,6 +56,24 @@
       "bytes": 1486,
       "sha256": "47bb3551e048a65a31b73c55f46f6c0858b3626c6fa6bbffb98f469491dc4db2",
       "git_blob": "976b9e9345119936afec5bd8b2dc49a80c24fc17"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2-Print-v1.png",
+      "bytes": 939247,
+      "sha256": "243cc4e7763f309c1efb4964ea4ca121016171b0731f2eb2ca9ef49dea1973b6",
+      "git_blob": "716ce0679b97b4ff34eca2acf76e1c0a3ee85e54"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2-Print-v1.svg",
+      "bytes": 3190943,
+      "sha256": "572166712b9b47ae6f5f0a03e12731e0f05680e901a7f83bdb600e6cbba62d56",
+      "git_blob": "60ae69694ba244b8e1b9d8227b0dd3e4aa50ccd3"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/print-v1-manifest.json",
+      "bytes": 4026,
+      "sha256": "53effdedb73527de12f7d605f7e132f53c0a52887967fb606b8d9aea8ff3d230",
+      "git_blob": "7401bb0d4063ec15b4e79461206bf8ba392de492"
     }
   ],
   "qa": {
@@ -69,5 +87,35 @@
     "qr_decoded": "https://example.com/lore/crypto/birth-of-hodl",
     "visual_review": "Background-refined Review-v2 shown in conversation and explicitly selected by Dan as collection style master."
   },
-  "print_release": false
+  "print_release": false,
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/birth-of-hodl-master-02/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

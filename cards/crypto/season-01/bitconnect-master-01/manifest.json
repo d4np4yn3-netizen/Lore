@@ -37,9 +37,9 @@
     },
     {
       "path": "cards/crypto/season-01/bitconnect-master-01/README.md",
-      "bytes": 1304,
-      "sha256": "d1ca46810fe9bd900dac8670f0505ec026d0fe4e278ac7fd5140de98d805da44",
-      "git_blob": "46d2eba90cebb62a39d562a7d4b3c56c58e89317"
+      "bytes": 1950,
+      "sha256": "9a31e246818fbec7a4ee1b637247967495e1f213cab8d1681bc9f0dfbeb23595",
+      "git_blob": "dc60a81d93c0d60442504234113fb7de3df8a031"
     },
     {
       "path": "cards/crypto/season-01/bitconnect-master-01/approval.json",
@@ -94,6 +94,54 @@
       "bytes": 4871,
       "sha256": "ea1b5bbf27aded9811531e4b21af33c1b96bfe3d0a0895e08e5da02cebb5b196",
       "git_blob": "fc9fe61097460f4cc17203a1d9f98be0b565d679"
+    },
+    {
+      "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.png",
+      "bytes": 780805,
+      "sha256": "b2351137fd9ae5deda7377cefeca3277ba1be5e944a31c4e402aef07a38b46e9",
+      "git_blob": "a5a91c2b68c7690ef9bb493ea8c31876fe977196"
+    },
+    {
+      "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.svg",
+      "bytes": 2633308,
+      "sha256": "31745df7054ba4802ae714ec6d2e4a817c32f7cb812c79b00f8e0ffcb5f83408",
+      "git_blob": "5f8575e92640b064cb656120017a4a46f69362ac"
+    },
+    {
+      "path": "cards/crypto/season-01/bitconnect-master-01/print-v1-manifest.json",
+      "bytes": 3896,
+      "sha256": "7ac540698b68c8af4735fd23471f6c00f34d7a9604047569bc138c07267b74fa",
+      "git_blob": "8c8affe2a8fa507c421c0383376003c9ca0aa5ed"
     }
-  ]
+  ],
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/bitconnect-master-01/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }

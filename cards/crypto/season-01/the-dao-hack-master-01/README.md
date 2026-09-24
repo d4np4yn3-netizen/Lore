@@ -20,3 +20,9 @@ references, generation prompt, source notes, renderer, fonts and Epic template.
 Its review-stage status is historical; approval.json records the current approval.
 Both HODL and Birth of Doge remain mandatory whole-scene references for new art.
 QR is a demo placeholder. Visual approval is separate from print release.
+
+## Printer-ready front derivative — LORE-CRYPTO-PRINT-v1.0
+
+[Print PNG](LORE-The-DAO-Hack-Epic-v1-Print-v1.png) · [Print SVG](LORE-The-DAO-Hack-Epic-v1-Print-v1.svg) · [Print manifest](print-v1-manifest.json)
+
+Printer canvas **816 × 1110 px @ 300 DPI**; cut **744 × 1038 px**; safe **684 × 981 px**. Uniform transform `translate(46.515 48.921) scale(0.8033)`. The approved artwork, wording, rarity and QR vector are preserved; the crypto phrase uses the approved **25 / 700** treatment with its existing position, tracking and rarity colour. QR remains **DEMO_ONLY**. Physical proof, physical QR scan and print release remain separate gates.

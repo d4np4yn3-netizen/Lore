@@ -13,3 +13,9 @@ The original source ZIP is unchanged and contains the editable card, renderer, p
 The landfill cutaway and plush are illustrative. The exact disposal day is uncertain, so the card displays 2013. The 2009 tape references the mining year; it is an invented prop detail. Caption is editorial. The user wants the historical value explained through the eventual QR story, not on the illustration.
 
 QR remains a placeholder. Visual 900 × 1260; eventual trim 63 × 88 mm. No print release or website deployment. HODL and Birth of Doge remain the mandatory style pair.
+
+## Printer-ready front derivative — LORE-CRYPTO-PRINT-v1.0
+
+[Print PNG](LORE-Buried-Fortune-Rare-v1-Print-v1.png) · [Print SVG](LORE-Buried-Fortune-Rare-v1-Print-v1.svg) · [Print manifest](print-v1-manifest.json)
+
+Printer canvas **816 × 1110 px @ 300 DPI**; cut **744 × 1038 px**; safe **684 × 981 px**. Uniform transform `translate(46.515 48.921) scale(0.8033)`. The approved artwork, wording, rarity and QR vector are preserved; the crypto phrase uses the approved **25 / 700** treatment with its existing position, tracking and rarity colour. QR remains **DEMO_ONLY**. Physical proof, physical QR scan and print release remain separate gates.

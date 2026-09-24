@@ -96,7 +96,10 @@
     "mythic"
   ],
   "shared_back": "LORE-BACK-v5",
-  "production_note": "Template approved for rollout. Individual existing crypto cards still require new print derivatives and per-card export QA.",
+  "production_note": "All 11 approved Crypto Season One fronts converted to LORE-CRYPTO-PRINT-v1.0 and remotely verified beside their approved masters. Original masters preserved. Physical proof and print release remain separate.",
   "physical_proof_received": false,
-  "qr_physical_scan_test": false
+  "qr_physical_scan_test": false,
+  "approved_card_derivative_count": 11,
+  "conversion_qa": "cards/crypto/master/print-v1/qa/approved-card-conversions.json",
+  "rollout_verified_commit": "26346128492fc5dffa484af6c62aa55d579bb9cd"
 }

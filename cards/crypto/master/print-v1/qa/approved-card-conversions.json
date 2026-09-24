@@ -1,0 +1,986 @@
+{
+  "revision": "LORE-CRYPTO-PRINT-v1.0",
+  "source_commit": "710306a355e138d4c477815d13a55b56a7ffb038",
+  "count": 11,
+  "all_passed": true,
+  "all_original_masters_preserved": true,
+  "cards": [
+    {
+      "id": "crypto-s01-birth-of-hodl",
+      "rarity": "epic",
+      "manifest": "cards/crypto/season-01/birth-of-hodl-master-02/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2-Print-v1.png",
+        "bytes": 939247,
+        "sha256": "243cc4e7763f309c1efb4964ea4ca121016171b0731f2eb2ca9ef49dea1973b6",
+        "git_blob": "716ce0679b97b4ff34eca2acf76e1c0a3ee85e54"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2-Print-v1.svg",
+        "bytes": 3190943,
+        "sha256": "572166712b9b47ae6f5f0a03e12731e0f05680e901a7f83bdb600e6cbba62d56",
+        "git_blob": "60ae69694ba244b8e1b9d8227b0dd3e4aa50ccd3"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/birth-of-hodl",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            112.98,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.226,
+            285.878,
+            42.5302
+          ],
+          "title-line-2": [
+            95.055,
+            901.26,
+            170.67,
+            42.5302
+          ],
+          "moment-context": [
+            94.9499,
+            959.418,
+            175.431,
+            15.1894
+          ],
+          "moment-number": [
+            91.57,
+            143.629,
+            117.203,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            54.7491,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-pizza-day",
+      "rarity": "legendary",
+      "manifest": "cards/crypto/season-01/pizza-day-master-02/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2-Print-v1.png",
+        "bytes": 965836,
+        "sha256": "44ab0d75cd1dfebcac8b656252f28a37597c0762ac237b4b647b8bb7d8de1392",
+        "git_blob": "80b5135f9b16bcb198dc527c1ac53d4ab9dfd8cd"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/pizza-day-master-02/LORE-Bitcoin-Pizza-Day-Legendary-v2-Print-v1.svg",
+        "bytes": 3283881,
+        "sha256": "6c69fdc557109f9c8d246efc62dd9f48dde908b879beff59773435467c81b5f6",
+        "git_blob": "c3b5357a27ef3f9be158d4d97cf134c21ced8217"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/pizza-day",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            112.98,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.967,
+            181.762,
+            40.9926
+          ],
+          "title-line-2": [
+            95.055,
+            902.001,
+            120.919,
+            40.9926
+          ],
+          "moment-context": [
+            95.3716,
+            959.418,
+            344.391,
+            17.7585
+          ],
+          "moment-number": [
+            91.0111,
+            143.629,
+            117.665,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            152.277,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-the-merge",
+      "rarity": "mythic",
+      "manifest": "cards/crypto/season-01/the-merge-master-02/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2-Print-v1.png",
+        "bytes": 1085748,
+        "sha256": "354d80815521ba7945d5dcc2c1f0be3f6dfd97eddf0f6e44cce95fcc707183cf",
+        "git_blob": "d1022c80a63db55bd94d722a835e905185fa68a7"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/the-merge-master-02/LORE-The-Merge-Mythic-v2-Print-v1.svg",
+        "bytes": 3805650,
+        "sha256": "0308861d9780bf12b0a8b4e276d2969b417f402d8904afdfc38d4fffcc667c37",
+        "git_blob": "f5c2466b4b779a5c4b671e30a4ce3824e17e16d0"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/the-merge",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.695,
+            147.836,
+            14.9246
+          ],
+          "title-line-1": [
+            90.1678,
+            844.967,
+            119.436,
+            40.9926
+          ],
+          "title-line-2": [
+            95.055,
+            901.26,
+            212.953,
+            42.5302
+          ],
+          "moment-context": [
+            93.7046,
+            959.418,
+            156.738,
+            15.1894
+          ],
+          "moment-number": [
+            91.57,
+            143.629,
+            113.38,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            96.1646,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-birth-of-doge",
+      "rarity": "epic",
+      "manifest": "cards/crypto/season-01/birth-of-doge-master-02/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.png",
+        "bytes": 933114,
+        "sha256": "c6346f502e5c4458a2603a8191ebd011285c766228ca05498620646578d7bd33",
+        "git_blob": "dbadc87edae0a12aa14cd1ff19ba781ab263c136"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.svg",
+        "bytes": 3289607,
+        "sha256": "904101c10fcb41e3c4a3922f27f5c1d72f8b2a4ae90844ca0e39df522117f94f",
+        "git_blob": "133315168a48a839008cee260e965e88e67cfd05"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/birth-of-doge",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            144.463,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.226,
+            285.878,
+            42.5302
+          ],
+          "title-line-2": [
+            95.055,
+            901.26,
+            169.764,
+            42.5302
+          ],
+          "moment-context": [
+            93.2045,
+            959.418,
+            200.584,
+            15.1894
+          ],
+          "moment-number": [
+            90.8993,
+            143.629,
+            117.874,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            54.7491,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-the-whitepaper",
+      "rarity": "legendary",
+      "manifest": "cards/crypto/season-01/the-whitepaper-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.png",
+        "bytes": 1027206,
+        "sha256": "2ad02cedb064b8e11123a2b82e463a53c039e8fc33d89acfdc904b7664116250",
+        "git_blob": "eb5a6a79db70c07ae52be00e2d2fa97be001b929"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.svg",
+        "bytes": 3642682,
+        "sha256": "045b826189d6cf87d4d36f8e198c072aff588e00ebba244d24bd8186151066ca",
+        "git_blob": "5b751488e0ff05b258eba38a9f7a7f1716fc030e"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/the-whitepaper",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            112.98,
+            15.1894
+          ],
+          "title-line-1": [
+            90.1678,
+            844.967,
+            119.436,
+            40.9926
+          ],
+          "title-line-2": [
+            91.568,
+            902.001,
+            406.467,
+            40.9926
+          ],
+          "moment-context": [
+            94.9499,
+            959.418,
+            320.06,
+            15.1894
+          ],
+          "moment-number": [
+            91.0558,
+            143.629,
+            117.837,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            152.277,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-bitconnect",
+      "rarity": "rare",
+      "manifest": "cards/crypto/season-01/bitconnect-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.png",
+        "bytes": 780805,
+        "sha256": "b2351137fd9ae5deda7377cefeca3277ba1be5e944a31c4e402aef07a38b46e9",
+        "git_blob": "a5a91c2b68c7690ef9bb493ea8c31876fe977196"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.svg",
+        "bytes": 2633308,
+        "sha256": "31745df7054ba4802ae714ec6d2e4a817c32f7cb812c79b00f8e0ffcb5f83408",
+        "git_blob": "5f8575e92640b064cb656120017a4a46f69362ac"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/bitconnect",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            178.256,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.226,
+            397.9,
+            42.5302
+          ],
+          "moment-context": [
+            94.9499,
+            959.682,
+            173.785,
+            17.4937
+          ],
+          "moment-number": [
+            91.0111,
+            143.629,
+            117.621,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.8401,
+            64.104,
+            14.6402
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-the-dao-hack",
+      "rarity": "epic",
+      "manifest": "cards/crypto/season-01/the-dao-hack-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.png",
+        "bytes": 972049,
+        "sha256": "fa94adf00e65f60ad8fb377d868419440be6ac705e8a2652915d3935b1324060",
+        "git_blob": "84f695079be082db35b004fc5d500f3f8b278843"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.svg",
+        "bytes": 3377235,
+        "sha256": "49f6634b5fc0dd4d23a587cf6d384b59424b8c57859fe01d1304428ee8a31242",
+        "git_blob": "18cbd6400931e6763b5c7b4bc6c9d01c1f104c7a"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/the-dao-hack",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.695,
+            147.836,
+            14.9246
+          ],
+          "title-line-1": [
+            90.1678,
+            844.226,
+            278.3,
+            42.5302
+          ],
+          "title-line-2": [
+            95.055,
+            901.26,
+            171.96,
+            42.5302
+          ],
+          "moment-context": [
+            94.9499,
+            959.418,
+            172.498,
+            15.1894
+          ],
+          "moment-number": [
+            91.57,
+            143.629,
+            112.501,
+            14.3833
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            54.7491,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-the-depeg",
+      "rarity": "rare",
+      "manifest": "cards/crypto/season-01/the-depeg-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.png",
+        "bytes": 975960,
+        "sha256": "918217f9877fb2ab361afef7b08bc073ae22f9bf34a2a175325fa21919caf096",
+        "git_blob": "62b6a29df6ee39778f7dfbeebefcd21f3b1919c5"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/the-depeg-master-01/LORE-The-Depeg-Rare-v1-Print-v1.svg",
+        "bytes": 3271891,
+        "sha256": "ec0a253210a6e2b051a9a5f02368424f80512306ac12a8fddddbba61d4cc365f",
+        "git_blob": "9bd011fd8694b109b465374700c88fbb7f80653b"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/the-depeg",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            93.2045,
+            816.695,
+            199.929,
+            16.5033
+          ],
+          "title-line-1": [
+            90.1678,
+            844.967,
+            119.436,
+            40.9926
+          ],
+          "title-line-2": [
+            95.055,
+            901.26,
+            201.558,
+            42.5302
+          ],
+          "moment-context": [
+            94.5479,
+            959.418,
+            167.497,
+            15.1894
+          ],
+          "moment-number": [
+            90.8993,
+            143.629,
+            117.263,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.8401,
+            64.104,
+            14.6402
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-mt-gox",
+      "rarity": "epic",
+      "manifest": "cards/crypto/season-01/mt-gox-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1-Print-v1.png",
+        "bytes": 971255,
+        "sha256": "e5850e15514b91f9fe013fe2cea1782ab06d55ecc4f5e0d222c60808ef53066f",
+        "git_blob": "79754a197367d305aacb33631d2fc39b2c0777de"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/mt-gox-master-01/LORE-Mt-Gox-Epic-v1-Print-v1.svg",
+        "bytes": 3600678,
+        "sha256": "4543a6bbade36e58e9c02e15b8daf37a6d743099cb7718b230e53457a3ab249d",
+        "git_blob": "ee964edd6b96ef2092d450873eddf58c6df8a5ec"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/mt-gox",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            112.98,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.226,
+            255.73,
+            42.5302
+          ],
+          "moment-context": [
+            93.7046,
+            959.418,
+            339.023,
+            15.1894
+          ],
+          "moment-number": [
+            91.0111,
+            143.629,
+            114.968,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            54.7491,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-the-sign-behind-the-chair",
+      "rarity": "common",
+      "manifest": "cards/crypto/season-01/behind-the-chair-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.png",
+        "bytes": 804982,
+        "sha256": "48f0fda0182100f0b8b9b1e5d3be848fe5881f7bd833f34bbcb4ba8593732c2d",
+        "git_blob": "814fd5acf9eab2b9ced4d3b0805bc33401f4a7c6"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.svg",
+        "bytes": 2704127,
+        "sha256": "6027c8cf154c8d40e240f563c36cfe6699272a334b75ec88ee925ef6b859d87b",
+        "git_blob": "166169b60bdc5a303d3487d614f667a2bc66d44a"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/buy-bitcoin",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            112.98,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.967,
+            234.891,
+            40.9926
+          ],
+          "title-line-2": [
+            90.1678,
+            901.26,
+            338.072,
+            42.5302
+          ],
+          "moment-context": [
+            94.9499,
+            959.418,
+            159.172,
+            15.1894
+          ],
+          "moment-number": [
+            91.57,
+            143.629,
+            109.244,
+            14.3833
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.5655,
+            114.864,
+            15.1894
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    },
+    {
+      "id": "crypto-s01-buried-fortune",
+      "rarity": "rare",
+      "manifest": "cards/crypto/season-01/buried-fortune-master-01/print-v1-manifest.json",
+      "front": {
+        "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.png",
+        "bytes": 962734,
+        "sha256": "c38fb3dec7cb076da263db45ba270325009c158c208a52c2761b8c62b78cebc9",
+        "git_blob": "9b0339ffc76f5dfb0b5db1053024c85e18a9805d"
+      },
+      "editable_svg": {
+        "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.svg",
+        "bytes": 3063949,
+        "sha256": "069bfeb4605cbd82daefe98d19fc112e60820bbc953da6b07b7118f882f4da69",
+        "git_blob": "b7b0217b7eb9b0f3434f28a4f8713110c5607473"
+      },
+      "qa": {
+        "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+        "art_bytes_and_placement_preserved": true,
+        "all_text_and_rarity_preserved": true,
+        "qr_vector_preserved": true,
+        "qr_decoded": "https://example.com/lore/crypto/buried-fortune",
+        "qr_status": "DEMO_ONLY",
+        "pixel_dimensions": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "opaque_full_bleed": true,
+        "guides_hidden": true,
+        "critical_text_and_qr_inside_safe": true,
+        "critical_bounds_px": {
+          "creator-name": [
+            94.9499,
+            816.43,
+            112.98,
+            15.1894
+          ],
+          "title-line-1": [
+            95.055,
+            844.967,
+            229.729,
+            41.7889
+          ],
+          "title-line-2": [
+            95.055,
+            901.26,
+            287.195,
+            42.5302
+          ],
+          "moment-context": [
+            94.1066,
+            959.418,
+            288.747,
+            15.1894
+          ],
+          "moment-number": [
+            91.0111,
+            143.629,
+            42.527,
+            11.5439
+          ],
+          "set-number": [
+            93.8732,
+            1018.81,
+            160.172,
+            10.3288
+          ],
+          "rarity-label": [
+            104.353,
+            99.8401,
+            64.104,
+            14.6402
+          ],
+          "qr-caption": [
+            584.058,
+            821.2,
+            119.112,
+            10.3288
+          ],
+          "moment-qr": [
+            563.84,
+            840.975,
+            159.053,
+            159.053
+          ]
+        }
+      }
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-24",
+    "scope": "All 11 actual print exports inspected in cut review sheets plus full-size HODL; titles, phrases, logo, rarity, crop and consistent margins retained.",
+    "review_sheets": [
+      "cut-review-1.jpg",
+      "cut-review-2.jpg",
+      "cut-review-3.jpg"
+    ]
+  }
+}

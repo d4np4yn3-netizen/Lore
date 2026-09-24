@@ -17,9 +17,9 @@
     },
     {
       "path": "cards/crypto/season-01/birth-of-doge-master-02/README.md",
-      "bytes": 1292,
-      "sha256": "a7e4694cae6619778ea7a629c9529827087114409659f4bb3cd3ef4ff7f82ada",
-      "git_blob": "66d153850198f9191d42806b9207b2769ec2c2f1"
+      "bytes": 1944,
+      "sha256": "b6130a168cd9edb5d309642f3fd5597f7b3a0b592e467ff626cf8f007a2c1dc9",
+      "git_blob": "c62a0025f563e7bd25a4a138eaaa08bedf91c94e"
     },
     {
       "path": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
@@ -56,6 +56,24 @@
       "bytes": 4407,
       "sha256": "1ef449e5cd36d974c85fe22173ca46bbaec14f03573e4e09ff73ac156f795b84",
       "git_blob": "adb4247c3886b58f376b6e923fd303a652d25fe8"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.png",
+      "bytes": 933114,
+      "sha256": "c6346f502e5c4458a2603a8191ebd011285c766228ca05498620646578d7bd33",
+      "git_blob": "dbadc87edae0a12aa14cd1ff19ba781ab263c136"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.svg",
+      "bytes": 3289607,
+      "sha256": "904101c10fcb41e3c4a3922f27f5c1d72f8b2a4ae90844ca0e39df522117f94f",
+      "git_blob": "133315168a48a839008cee260e965e88e67cfd05"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/print-v1-manifest.json",
+      "bytes": 4030,
+      "sha256": "43a560dbada5c2685b4bf87b3472eb5b2ca06851df7a61d6f38ad213fec207cb",
+      "git_blob": "f3906c911f26ae326a5eab19a5bbdc1e16d0879e"
     }
   ],
   "qa": {
@@ -80,5 +98,35 @@
       ]
     }
   },
-  "print_release": false
+  "print_release": false,
+  "print_derivative": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+    "front": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.png",
+    "editable_svg": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.svg",
+    "manifest": "cards/crypto/season-01/birth-of-doge-master-02/print-v1-manifest.json",
+    "canvas_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "cut_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "phrase": {
+      "size": 25,
+      "weight": 700,
+      "position_tracking_colour": "preserved"
+    },
+    "qr_status": "DEMO_ONLY",
+    "print_release": false,
+    "physical_proof_received": false,
+    "physical_qr_scan_test": false
+  }
 }
