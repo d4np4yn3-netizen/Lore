@@ -1,6 +1,6 @@
 {
-  "revision": "LORE-CRYPTO-v1.1",
-  "recorded_at": "2026-09-19",
+  "revision": "LORE-CRYPTO-v1.2",
+  "recorded_at": "2026-09-24",
   "approved_by": "Dan Payne",
   "base_layout": "LORE-FRONT-v4",
   "base_card_lock": "LORE-CARD-v1.1",
@@ -41,10 +41,39 @@
   "geometry_typography_brand_and_anime_style_unchanged": false,
   "standard": "cards/crypto/COLLECTION-RULES.md",
   "nft_revenue_share_approved": false,
-  "geometry_typography_brand_unchanged": true,
+  "geometry_typography_brand_unchanged": false,
   "creator_style_required": false,
   "art_style": "LORE-CRYPTO-STYLE-v1.0",
   "art_style_standard": "cards/crypto/ART-STYLE.md",
   "art_style_lock": "cards/crypto/style-reference-lock.json",
-  "one_card_at_a_time": true
+  "one_card_at_a_time": true,
+  "crypto_print_master": {
+    "revision": "LORE-CRYPTO-PRINT-v1.0",
+    "status": "APPROVED",
+    "directory": "cards/crypto/master/print-v1",
+    "approval_record": "operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md",
+    "full_bleed_px": [
+      816,
+      1110
+    ],
+    "trim_px": [
+      744,
+      1038
+    ],
+    "safe_px": [
+      684,
+      981
+    ],
+    "dpi": 300,
+    "transform": "translate(46.515 48.921) scale(0.8033)",
+    "all_rarities": true,
+    "phrase_typography_override": {
+      "font_size": 25,
+      "font_weight": 700,
+      "letter_spacing": 1.1,
+      "position_unchanged": true,
+      "rarity_colour_unchanged": true
+    }
+  },
+  "print_template_approved": true
 }
