@@ -1,6 +1,7 @@
 {
-  "revision": "LORE-PRINT-v0.1-DRAFT",
+  "revision": "LORE-PRINT-v0.3-DRAFT",
   "status": "DRAFT_FOR_DAN_REVIEW",
+  "approach": "ZERO_DRIFT_UNIFORM_INSET",
   "printer_template": {
     "name": "2.48 x 3.46 American poker size",
     "dpi": 300,
@@ -50,18 +51,31 @@
       1260
     ],
     "transform": {
-      "uniform_scale": 0.8266666666666667,
-      "x": 36,
-      "y": 34.2,
-      "rule": "Fit source width exactly to trim width; preserve aspect ratio; symmetric 1.8 px top/bottom trim crop."
+      "uniform_scale": 0.8033,
+      "x": 46.515,
+      "y": 48.921,
+      "trim_relative_x": 10.515,
+      "trim_relative_y": 12.921,
+      "rule": "Uniformly inset the complete locked front-v4 composition inside printer trim. Do not move, stretch or redraw individual LORE elements."
     }
+  },
+  "resulting_clearance": {
+    "outer_border_near_edge_mm": 1.4004,
+    "outer_border_centerline_mm": 1.5704,
+    "logo_and_all_locked_content": "retains approved relative geometry; whole composition moves safely inward"
   },
   "bleed_background": "#0B0B0B",
   "design_geometry_changes_applied": [],
-  "review_points": [
-    "Top-right LORE logo starts about 1.37 px above the printer safe-area line after zero-drift scaling.",
-    "Outer rarity-colour border centreline is about 8.27 px (0.70 mm) inside trim; nearest stroke edge is about 6.20 px (0.53 mm) inside trim, so cut tolerance should be reviewed before production.",
-    "Set counter baseline is close to the lower safe boundary but remains inside it; current crypto footer is uppercase."
+  "preserves": [
+    "approved artwork",
+    "approved LORE logo geometry",
+    "rarity badge",
+    "date/moment label",
+    "title typography and positions",
+    "context line",
+    "QR geometry",
+    "footer",
+    "outer border and inner corner-line spacing"
   ],
   "production_release": false
 }
