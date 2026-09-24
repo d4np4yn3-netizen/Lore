@@ -1,0 +1,150 @@
+{
+  "revision": "LORE-CRYPTO-PRINT-v1.0",
+  "status": "CONVERTED_AND_TECHNICALLY_VERIFIED",
+  "source_commit": "710306a355e138d4c477815d13a55b56a7ffb038",
+  "source_visual": {
+    "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1.svg",
+    "bytes": 2703292,
+    "sha256": "7891952f273d5ddc0fd3cc396a2e4e68669a29a21526ec4132dd07d73b6d4419",
+    "git_blob": "58ac9d6d56324f4a6edce64f02433cd5c1ff6f28"
+  },
+  "source_front": {
+    "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1.png",
+    "bytes": 1305128,
+    "sha256": "dddf69539be9d010c475a97f6c51a7c048a88424d6f2d321cf7d73c52dd79ea1",
+    "git_blob": "82229f6166a7d3192ebbc4cd39a2fa6d0ffa91f3"
+  },
+  "source_artwork": {
+    "path": "cards/crypto/season-01/behind-the-chair-master-01/art.png",
+    "bytes": 2000787,
+    "sha256": "c6944000f8ff929d6d793db39aeb994e3befc2300a554e0e2f6a7279f7c79239",
+    "git_blob": "e08fdda17688f3338d02f4365ae292378ffd3310"
+  },
+  "template": {
+    "path": "cards/crypto/master/print-v1/templates/common.svg",
+    "bytes": 28116,
+    "sha256": "c9970c6b5539dcbeb595d99893355a715d05e200de46b0b980b6f71b4d477d43",
+    "git_blob": "8c10453c2cc8c8e3949f6a5f46fc005a3b20ac52"
+  },
+  "front": {
+    "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.png",
+    "bytes": 804982,
+    "sha256": "48f0fda0182100f0b8b9b1e5d3be848fe5881f7bd833f34bbcb4ba8593732c2d",
+    "git_blob": "814fd5acf9eab2b9ced4d3b0805bc33401f4a7c6"
+  },
+  "editable_svg": {
+    "path": "cards/crypto/season-01/behind-the-chair-master-01/LORE-Behind-The-Chair-Common-v1-Print-v1.svg",
+    "bytes": 2704127,
+    "sha256": "6027c8cf154c8d40e240f563c36cfe6699272a334b75ec88ee925ef6b859d87b",
+    "git_blob": "166169b60bdc5a303d3487d614f667a2bc66d44a"
+  },
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "cut_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "cut_origin_px": [
+    36,
+    36
+  ],
+  "safe_origin_px": [
+    66,
+    64.5
+  ],
+  "transform": "translate(46.515 48.921) scale(0.8033)",
+  "phrase": {
+    "size": 25,
+    "weight": 700,
+    "position_tracking_colour": "preserved"
+  },
+  "qr_status": "DEMO_ONLY",
+  "qr_url": "https://example.com/lore/crypto/buy-bitcoin",
+  "qa": {
+    "svg_internal_changes": "Only moment-context font-size 25 and font-weight 700",
+    "art_bytes_and_placement_preserved": true,
+    "all_text_and_rarity_preserved": true,
+    "qr_vector_preserved": true,
+    "qr_decoded": "https://example.com/lore/crypto/buy-bitcoin",
+    "qr_status": "DEMO_ONLY",
+    "pixel_dimensions": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "opaque_full_bleed": true,
+    "guides_hidden": true,
+    "critical_text_and_qr_inside_safe": true,
+    "critical_bounds_px": {
+      "creator-name": [
+        94.9499,
+        816.43,
+        112.98,
+        15.1894
+      ],
+      "title-line-1": [
+        95.055,
+        844.967,
+        234.891,
+        40.9926
+      ],
+      "title-line-2": [
+        90.1678,
+        901.26,
+        338.072,
+        42.5302
+      ],
+      "moment-context": [
+        94.9499,
+        959.418,
+        159.172,
+        15.1894
+      ],
+      "moment-number": [
+        91.57,
+        143.629,
+        109.244,
+        14.3833
+      ],
+      "set-number": [
+        93.8732,
+        1018.81,
+        160.172,
+        10.3288
+      ],
+      "rarity-label": [
+        104.353,
+        99.5655,
+        114.864,
+        15.1894
+      ],
+      "qr-caption": [
+        584.058,
+        821.2,
+        119.112,
+        10.3288
+      ],
+      "moment-qr": [
+        563.84,
+        840.975,
+        159.053,
+        159.053
+      ]
+    }
+  },
+  "conversion_authorised_by": "Dan Payne",
+  "conversion_authorised_at": "2026-09-24",
+  "template_approval": "operations/17-CRYPTO-PRINT-TEMPLATE-APPROVAL-2026-09-24.md",
+  "print_release": false,
+  "physical_proof_received": false,
+  "physical_qr_scan_test": false,
+  "colour_mode": "RGB",
+  "colour_note": "No CMYK conversion or foil separation requested."
+}
