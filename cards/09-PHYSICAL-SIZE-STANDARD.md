@@ -21,3 +21,9 @@ The approved 900 × 1260 pixel/SVG-unit masters remain unchanged visual referenc
 The finished size excludes bleed. Bleed, safe inset, corner radius, cutting tolerance, stock thickness and ink/foil treatment are still to be set with the selected printer. Extend backgrounds to that printer's bleed boundary; retain the locked trim size. Check the resulting border balance, small text and QR in the physical proof before release.
 
 This decision approves the finished dimensions. It does not claim that printer-ready derivatives, a die-line or a physical proof have already been produced. The current machine-readable specification is [card-design-lock.json](card-design-lock.json).
+
+## Selected Crypto Season One printer template — 24 September 2026
+
+Crypto Season One now has an approved printer-specific front derivative: [LORE-CRYPTO-PRINT-v1.0](crypto/master/print-v1/README.md). The supplied poker template uses **816 × 1110 px full bleed**, **744 × 1038 px finished cut** and **684 × 981 px safe area** at 300 DPI. Its literal 2.48 × 3.46 inch cut is approximately 62.99 × 87.88 mm and is treated as the manufacturing implementation of the locked nominal 63 × 88 mm LORE size.
+
+The crypto front is uniformly inset, never stretched. This selected printer template does not automatically define a creator-card printer derivative or alter the approved shared back master. Physical sample approval remains outstanding.
