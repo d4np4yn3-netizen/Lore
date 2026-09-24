@@ -1,0 +1,29 @@
+name: Render LORE Crypto Booster Pack v1 refine
+
+on:
+  push:
+    branches:
+      - review/crypto-booster-pack-v1
+    paths:
+      - .github/workflows/render-crypto-booster-pack-v1b.yml
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/crypto-booster-pack-v1
+      - run: python -m pip install --upgrade pillow
+      - run: python packs/crypto/season-01/booster-pack-v1/render_pack.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packs/crypto/season-01/booster-pack-v1/*.png packs/crypto/season-01/booster-pack-v1/front-preview-base64.txt
+          if git diff --cached --quiet; then echo "No changes"; else
+            git commit -m "Render refined LORE Crypto booster pack v1"
+            git push origin HEAD:review/crypto-booster-pack-v1
+          fi
