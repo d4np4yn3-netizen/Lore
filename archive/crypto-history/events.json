@@ -764,12 +764,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-07-30T15:26:13Z",
+        "summary": "Ethereum's Frontier genesis launched on 30 July 2015, bringing the first live Ethereum mainnet into operation.",
+        "significance": "This was the birth of the programmable smart-contract network that would underpin ICOs, DeFi, NFTs, DAOs and much of later crypto culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Ethereum Launches",
+            "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -786,12 +797,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-04-30 to 2016-05-28",
+        "summary": "The DAO launched a token sale on Ethereum beginning 30 April 2016 and raised more than 11.5 million ETH, then worth around $150 million.",
+        "significance": "The DAO became an unprecedented blockchain crowdfunding and governance experiment, setting the stage for Ethereum's defining governance crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -810,12 +832,23 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-06-17",
+        "summary": "An attacker exploited a recursive-call/reentrancy vulnerability in The DAO and began draining Ether into a child DAO.",
+        "significance": "The exploit was the defining smart-contract security failure of early Ethereum and forced the community to confront whether code immutability should override asset recovery.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -832,12 +865,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-07-20",
+        "summary": "At block 1,920,000, the Ethereum hard fork moved DAO-related Ether to a refund contract; miners opposed to the intervention continued the original chain, which became Ethereum Classic.",
+        "significance": "The split permanently demonstrated that blockchains are also governed by communities and social consensus, not code alone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -855,12 +899,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-09-09 to 2016-09-13",
+        "summary": "The first Rare Pepe Counterparty collectible was posted in early September 2016, and the Rare Pepe Directory project was organized days later.",
+        "significance": "Rare Pepes created a native blockchain collectible/art culture on Bitcoin before the Ethereum NFT boom.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Book of Kek — Rare Pepe Series 1",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project/series-and-card-specific-lore/series-1",
+            "type": "COMMUNITY_ARCHIVE"
+          },
+          {
+            "title": "Book of Kek — Rare Pepe Blockchain Project",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2343,7 +2398,7 @@
     },
     {
       "id": "LORE-EVT-0091",
-      "date": "2015",
+      "date": "2016-01-14",
       "title": "Lightning Network paper proposes Bitcoin payment channels",
       "branch": [
         "BITCOIN",
@@ -2352,12 +2407,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-01-14",
+        "summary": "Joseph Poon and Thaddeus Dryja's Lightning Network paper proposed scalable off-chain instant Bitcoin payments routed through networks of payment channels.",
+        "significance": "Lightning became Bitcoin's dominant second-layer payments architecture and a key answer in the block-size/scaling debate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Lightning Network paper",
+            "url": "https://lightning.network/lightning-network-paper.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2375,15 +2436,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_ORIGIN_RANGE",
+        "exact_date": "2014-12 to 2015",
+        "summary": "MakerDAO traces its founding to late 2014, with active development of code, architecture and documentation underway from 2015; Rune Christensen described the eDollar precursor in March 2015.",
+        "significance": "Maker became one of Ethereum's foundational DeFi projects and ultimately created Dai, a decentralized stablecoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "MakerDAO/Sky whitepaper history",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Raw 2015 label captures active development, but founding is better dated to late 2014."
       }
     },
     {
@@ -2397,12 +2469,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-01-04",
+        "summary": "Bitstamp said operational wallets were compromised on 4 January 2015, resulting in the loss of less than 19,000 BTC; services were temporarily suspended and later rebuilt.",
+        "significance": "It was a major post-Mt.Gox exchange-security test and reinforced the importance of cold storage and operational compartmentalization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitstamp — January 2015 security breach",
+            "url": "https://blog.bitstamp.net/post/bitstamp-is-open-for-business-better-than-ever/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2419,12 +2497,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-07-09",
+        "summary": "Bitcoin's second halving reduced the block subsidy from 25 BTC to 12.5 BTC on 9 July 2016.",
+        "significance": "It reinforced Bitcoin's fixed issuance schedule and established halvings as recurring global market and mining events.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2441,12 +2525,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-08-02",
+        "summary": "Bitfinex suffered a security breach on 2 August 2016 in which 119,755 BTC were stolen.",
+        "significance": "It was one of crypto's largest exchange thefts and later became remarkable for both BFX loss tokens and a massive law-enforcement recovery.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitfinex — 2016 Security Breach FAQ",
+            "url": "https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2463,12 +2553,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-10-28",
+        "summary": "Zcash launched its Sprout mainnet on 28 October 2016 with zk-SNARK-based shielded transactions.",
+        "significance": "Zcash brought production zero-knowledge privacy to a permissionless cryptocurrency and made advanced cryptography a mainstream crypto topic.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Electric Coin Company — Zcash Launch and Roadmap",
+            "url": "https://electriccoin.co/blog/zcash-launch-and-roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3554,12 +3650,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-09-17",
+        "summary": "In the Coinflip enforcement action, the CFTC formally held for the first time that Bitcoin and other virtual currencies are commodities under the Commodity Exchange Act.",
+        "significance": "The ruling established a central pillar of US federal commodities regulation for crypto derivatives.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CFTC — Coinflip order recognizes virtual currencies as commodities",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/7231-15",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3814,11 +3916,11 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Parity and other Ethereum clients/infrastructure expanded as Ethereum matured.",
+        "significance": "Too broad for card scoring; identify a specific Parity release, wallet launch, or later hack instead.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4540,12 +4642,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-05-29",
+        "summary": "Ross Ulbricht was sentenced to life in federal prison after being convicted on all seven counts arising from his operation of Silk Road.",
+        "significance": "The sentence became one of the most consequential criminal-justice events in Bitcoin's early history and fueled a long-running clemency campaign.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Ross Ulbricht sentenced to life",
+            "url": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5227,12 +5335,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_YEAR",
+        "exact_date": "2015",
+        "summary": "Augur was one of the earliest Ethereum prediction-market projects and conducted a REP crowdsale during the pre-mainnet/early-mainnet era.",
+        "significance": "Historically important as an early decentralized oracle/prediction-market design, but this broad row needs an exact launch source before full verification.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Augur whitepaper/current historical documentation",
+            "url": "https://www.augur.net/whitepapers/augur-v2/how-augur-works/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5248,12 +5362,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-03-14",
+        "summary": "Ethereum's Homestead hard fork activated in March 2016, moving the network beyond its experimental Frontier phase.",
+        "significance": "Homestead signaled increasing confidence in Ethereum's live smart-contract platform just before The DAO era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Homestead Release",
+            "url": "https://blog.ethereum.org/2016/02/29/homestead-release",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5270,12 +5395,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-10-22 to 2016-10-23",
+        "summary": "Six participants generated the Sprout zk-SNARK public parameters through a multi-party trusted-setup ceremony shortly before Zcash launched.",
+        "significance": "The ceremony became legendary privacy-crypto lore because security depended on at least one participant destroying secret setup material.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Zcash ceremony archive",
+            "url": "https://www.zcashcommunity.com/2016/10/26/zcash-trusted-setup-complete/",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6474,12 +6605,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2016",
+        "summary": "MetaMask was created in 2016 by Aaron Davis and Dan Finlay as a self-custodial Ethereum browser wallet/extension.",
+        "significance": "MetaMask became the dominant consumer gateway to Ethereum dapps, DeFi and NFTs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MetaMask — origin story",
+            "url": "https://metamask.io/en-GB/news/how-did-metamask-come-to-life-the-origin-story-revealed",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6768,12 +6905,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-06-24",
+        "summary": "New York's Department of Financial Services made its virtual-currency regulation, commonly called the BitLicense, effective on 24 June 2015.",
+        "significance": "BitLicense became one of the earliest comprehensive state-level crypto licensing regimes and influenced where firms would or would not serve customers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NYDFS — Virtual Currency Business Licensing timeline",
+            "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6791,14 +6934,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2016-06 to 2016-07",
+        "summary": "Ethereum users, miners and developers debated soft forks, hard forks, immutability and social consensus after The DAO exploit.",
+        "significance": "The debate is essential to understanding why the hard fork produced Ethereum Classic, but it is a period rather than one instant.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0029",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -7426,12 +7580,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-05-13T12:00:00Z",
+        "summary": "BitMEX launched XBTUSD, which it described as the world's first perpetual Bitcoin/USD leveraged swap, with up to 100x leverage and no expiry.",
+        "significance": "The perpetual swap became crypto's defining derivatives instrument and was later copied across virtually every major trading venue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitMEX — launch of perpetual XBTUSD leveraged swap",
+            "url": "https://www.bitmex.com/blog/announcing-the-launch-of-the-perpetual-xbtusd-leveraged-swap",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7729,11 +7889,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2015",
+        "summary": "Spells of Genesis developed blockchain-linked in-game collectibles using Counterparty-era assets.",
+        "significance": "It is an important pre-CryptoKitties gaming/NFT precursor, but the row needs an exact card/token launch milestone before scoring.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -7751,14 +7911,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2016-09 onward",
+        "summary": "Rare Pepe trading, directory curation and wallet infrastructure developed into a distinct collector economy.",
+        "significance": "Cultural-market context of the canonical Rare Pepe emergence.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Book of Kek — Rare Pepe Blockchain Project",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0030",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -8283,11 +8449,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "The city of Zug in Switzerland began accepting small Bitcoin payments for selected municipal services during its 'Crypto Valley' experiment.",
+        "significance": "Strong government-adoption candidate, but exact implementation date and official city source should be added before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -8648,11 +8814,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Altcoin exchange Cryptsy collapsed amid allegations of missing funds and later litigation.",
+        "significance": "Potentially important exchange-disaster event; needs court/receiver documentation and exact closure date.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -8803,14 +8969,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2016-06-17",
+        "summary": "The DAO attacker used recursive calls to repeatedly execute the split logic and drain Ether.",
+        "significance": "Technical subevent of the canonical DAO exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0028",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -10686,14 +10858,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2015-07-30",
+        "summary": "Frontier launched with miners and nodes securing Ethereum's first live network.",
+        "significance": "Mining/security context of the canonical Ethereum mainnet launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Ethereum Launches",
+            "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0026",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -10708,11 +10886,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "Augur conducted an early token crowdsale for REP.",
+        "significance": "Potential ICO-history milestone, but exact opening/closing dates and amount raised need a reliable archived Augur source before canonical scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -10730,12 +10908,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DUPLICATE",
+        "exact_date": "2015-06-24",
+        "summary": "This is the same BitLicense effective-date milestone as LORE-EVT-0281.",
+        "significance": [
+          {
+            "title": "NYDFS — Virtual Currency Business Licensing timeline",
+            "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0281",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10752,12 +10939,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-01-20",
+        "summary": "Coinbase announced a $75 million Series C led by DFJ Growth with participation from NYSE, USAA and BBVA among others.",
+        "significance": "The round was then the largest funding round for a Bitcoin company and one of the first major direct investments by established financial institutions into a crypto business.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — $75M Series C",
+            "url": "https://www.coinbase.com/blog/coinbase-raises-usd75m-from-dfj-growth-usaa-nyse-and-more",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10774,11 +10967,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "Bitcoin hardware startup 21 Inc announced an unusually large financing round and became one of the best-funded Bitcoin startups of the era.",
+        "significance": "Strong venture-history context, but amount/date require authoritative sourcing before verification.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -10796,12 +10989,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DUPLICATE",
+        "exact_date": "2016-07-20",
+        "summary": "This is the same Ethereum DAO hard fork as LORE-EVT-0029.",
+        "significance": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0029",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10818,14 +11020,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2016-07-20 onward",
+        "summary": "The unforked chain continued to be mined and traded and became known as Ethereum Classic.",
+        "significance": "Ethereum Classic preserved the no-rollback chain and embodied opposition to the DAO recovery fork.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0029",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -10840,20 +11048,31 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2016-08",
+        "summary": "Bitfinex imposed an extraordinary loss adjustment across customer balances and issued BFX tokens valued at $1 for each dollar of loss, later redeeming or converting them.",
+        "significance": "The BFX mechanism was an unusual attempt to socialize and tokenize exchange losses rather than liquidate the platform.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitfinex — 2016 Security Breach FAQ",
+            "url": "https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Bitfinex — Site relaunch / BFX loss adjustment",
+            "url": "https://blog.bitfinex.com/announcements/site-relaunch/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0095",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-0455",
-      "date": "2016",
+      "date": "2017-01",
       "title": "Monero implements RingCT privacy improvements",
       "branch": [
         "PRIVACY",
@@ -10862,12 +11081,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2017-01",
+        "summary": "Monero's RingCT transaction system was implemented in January 2017, not 2016; 2016 included prerequisite privacy upgrades such as a minimum ring size.",
+        "significance": "RingCT hid transaction amounts and became a central component of Monero's privacy model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — RingCT",
+            "url": "https://web.getmonero.org/resources/moneropedia/ringCT.html",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Monero Roadmap",
+            "url": "https://www.getmonero.org/resources/roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10884,14 +11114,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2016-10-28",
+        "summary": "Zcash's launch introduced shielded transfers based on zk-SNARKs.",
+        "significance": "Technical significance of the canonical Zcash launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Electric Coin Company — Zcash Launch and Roadmap",
+            "url": "https://electriccoin.co/blog/zcash-launch-and-roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0096",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -10906,14 +11142,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2016-09-13",
+        "summary": "The Rare Pepe Directory began formalizing which Counterparty meme cards belonged to the recognized collection.",
+        "significance": "Curation turned ad hoc meme tokens into a coherent collectible set and community.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Book of Kek — Rare Pepe Blockchain Project",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0030",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -13264,15 +13506,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2012-2015",
+        "summary": "Colored Coins experiments on Bitcoin explored representing non-BTC assets in transaction metadata and influenced later token and NFT concepts.",
+        "significance": "This is an intellectual/technical lineage rather than a single 2015 event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Nasdaq — Blockchain Technology Initiative",
+            "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-launches-enterprise-wide-blockchain-technology-initiative",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Blockstream — Enabling Blockchain Innovations with Pegged Sidechains",
+            "url": "https://blockstream.com/sidechains.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as context; replace with a specific Colored Coins paper/release if card consideration requires an event."
       }
     },
     {
@@ -13336,12 +13589,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_DATE_QUALIFIER",
+        "exact_date": "2015-03",
+        "summary": "Darkcoin rebranded to Dash in 2015 after earlier names XCoin and Darkcoin.",
+        "significance": "The rebrand shifted positioning from explicit privacy branding toward broader digital cash/payments.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Dash project history",
+            "url": "https://www.dash.org/news/happy-birthday-darkcoin/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13452,12 +13711,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DUPLICATE",
+        "exact_date": "2016-10-28",
+        "summary": "This is another formulation of Zcash launching its shielded-address privacy system.",
+        "significance": [
+          {
+            "title": "Electric Coin Company — Zcash Launch and Roadmap",
+            "url": "https://electriccoin.co/blog/zcash-launch-and-roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0096",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13742,14 +14010,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2016-06-17 onward",
+        "summary": "The DAO exploit made reentrancy one of the best-known smart-contract vulnerability classes and changed contract-security practice.",
+        "significance": "Security legacy of the canonical DAO exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0028",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -16277,14 +16551,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2015-02-05",
+        "summary": "A federal jury found Ross Ulbricht guilty on all seven counts after a four-week Silk Road trial; sentencing followed in May.",
+        "significance": "The conviction preceded the life sentence and closed the central criminal trial phase of the original Silk Road case.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Ross Ulbricht sentenced to life",
+            "url": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0187",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -16299,11 +16579,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "The US Marshals Service held additional auctions of Silk Road-related Bitcoin after the first 2014 sale.",
+        "significance": "Use individual auction dates and quantities rather than one broad row if this survives card selection.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -16321,12 +16601,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-01-26",
+        "summary": "Coinbase launched Coinbase Exchange, describing it as the first regulated US Bitcoin exchange, initially available in 24 states or territories.",
+        "significance": "It marked a significant shift toward regulated domestic exchange infrastructure in the United States.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Launches First Regulated Bitcoin Exchange in US",
+            "url": "https://www.coinbase.com/blog/coinbase-launches-first-regulated-bitcoin-exchange-in-the-u-s",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16343,12 +16629,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-05-11",
+        "summary": "Nasdaq announced an enterprise blockchain initiative, initially applying Open Assets/colored-coin technology to its private-market equity infrastructure; Nasdaq Linq clients were announced later that year.",
+        "significance": "A major stock-exchange operator publicly experimenting with blockchain signaled institutional interest beyond cryptocurrency trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nasdaq — Blockchain Technology Initiative",
+            "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-launches-enterprise-wide-blockchain-technology-initiative",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Nasdaq — Inaugural Nasdaq Linq clients",
+            "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-announces-inaugural-clients-initial-blockchain-enabled",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16356,7 +16653,7 @@
     },
     {
       "id": "LORE-EVT-0691",
-      "date": "2015",
+      "date": "2015-09-15",
       "title": "R3 consortium forms around bank blockchain experimentation",
       "branch": [
         "INSTITUTIONS",
@@ -16365,15 +16662,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2015-09-15",
+        "summary": "Nine major banks joined R3 in September 2015 to develop common distributed-ledger frameworks; R3's own later history describes an earlier 2014 formation phase.",
+        "significance": "The bank consortium became one of the defining institutional-blockchain experiments of the mid-2010s.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — nine banks join R3 blockchain partnership",
+            "url": "https://www.investing.com/news/technology-news/nine-of-worlds-biggest-banks-join-to-form-blockchain-partnership-361652",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep distinction between R3 corporate origins and September 2015 bank-consortium announcement."
       }
     },
     {
@@ -16387,12 +16690,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2015-12",
+        "summary": "The Linux Foundation launched the Hyperledger collaborative blockchain effort in December 2015.",
+        "significance": "Hyperledger institutionalized open-source enterprise distributed-ledger development outside permissionless cryptocurrency networks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hyperledger — 2019 annual report (history)",
+            "url": "https://www.hyperledger.org/hubfs/Hyperledger/Printables/HL_AnnualReport_Print.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16409,11 +16718,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "OpenBazaar beta development advanced a peer-to-peer marketplace without a central operator.",
+        "significance": "The full public launch is a cleaner 2016 event; this 2015 beta row needs exact archived release evidence.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -16422,7 +16731,7 @@
     },
     {
       "id": "LORE-EVT-0694",
-      "date": "2015",
+      "date": "2014-10-22",
       "title": "Sidechains paper and Blockstream drive Bitcoin scaling research",
       "branch": [
         "BITCOIN",
@@ -16431,12 +16740,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2014-10-22",
+        "summary": "The foundational pegged-sidechains paper was dated 22 October 2014, not 2015.",
+        "significance": "Sidechains proposed moving Bitcoin-linked assets between separate blockchains, shaping later Bitcoin scaling and interoperability systems.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockstream — Enabling Blockchain Innovations with Pegged Sidechains",
+            "url": "https://blockstream.com/sidechains.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16453,12 +16768,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-10-12",
+        "summary": "Blockstream announced Liquid, its first production sidechain project, with exchange and brokerage launch partners.",
+        "significance": "Liquid became a major Bitcoin federated sidechain for faster settlement and asset issuance.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockstream — Introducing Liquid",
+            "url": "https://blog.blockstream.com/en-introducing-liquid/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16475,12 +16796,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2016-07",
+        "summary": "Bitcoin activated relative lock-time/CheckSequenceVerify functionality (BIPs 68, 112 and 113) during 2016.",
+        "significance": "These script and lock-time primitives were important groundwork for payment channels and later Lightning deployment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 112 — CHECKSEQUENCEVERIFY",
+            "url": "https://bitcoin.org/bip/112/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16498,12 +16825,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2015-2016",
+        "summary": "Segregated Witness was designed and specified through BIP141 and became a central issue in Bitcoin's scaling debate; mainnet deployment signaling was scheduled to begin 15 November 2016.",
+        "significance": "SegWit addressed transaction malleability and expanded effective block capacity, becoming the core technical compromise around which the block-size war intensified.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 141 — Segregated Witness",
+            "url": "https://bitcoin.org/bip/141/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16520,11 +16853,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Bitcoin Unlimited gained support among some large-block advocates during the scaling conflict.",
+        "significance": "Political/software trend rather than one discrete event; replace with a release, mining-support threshold or conference agreement before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -16542,12 +16875,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DUPLICATE",
+        "exact_date": "2016-08",
+        "summary": "This row is the same BFX recovery-token mechanism captured by LORE-EVT-0454.",
+        "significance": [
+          {
+            "title": "Bitfinex — Site relaunch / BFX loss adjustment",
+            "url": "https://blog.bitfinex.com/announcements/site-relaunch/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0454",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16563,12 +16905,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-01-19",
+        "summary": "Kraken announced acquisition of Coinsetter and Cavirtex, expanding its US and Canadian market presence.",
+        "significance": "An early example of consolidation among regulated crypto exchanges.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kraken — acquiring Coinsetter and Cavirtex",
+            "url": "https://blog.kraken.com/news/kraken-acquiring-coinsetter-and-cavirtex-to-expand",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16584,12 +16932,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-05-24",
+        "summary": "Coinbase renamed its professional exchange GDAX while adding Ether trading.",
+        "significance": "The rebrand reflected the industry's transition from Bitcoin-only businesses toward multi-asset crypto markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Coinbase Exchange is now GDAX",
+            "url": "https://www.coinbase.com/blog/coinbase-exchange-is-now-gdax-adds-ether-trading",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16606,12 +16960,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-12-06",
+        "summary": "Circle announced it was eliminating direct customer Bitcoin buying and selling and would route users toward Coinbase while focusing on payments and its CENTRE protocol.",
+        "significance": "The pivot illustrated how early consumer Bitcoin companies repeatedly changed business models as the market evolved.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — Bitcoin Changes / CENTRE",
+            "url": "https://www.circle.com/blog/centre-new-markets-app-messaging-and-bitcoin-changes",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16628,11 +16988,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Microsoft Azure expanded blockchain-as-a-service experiments and partnerships with enterprise DLT providers.",
+        "significance": "Institutional technology trend, but requires a specific product/partnership milestone if used as a standalone event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -16650,12 +17010,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2016",
+        "summary": "Hyperledger projects such as Fabric moved from newly formed Linux Foundation collaboration into active enterprise development.",
+        "significance": "Important enterprise-blockchain context, but a specific release milestone is preferable.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Hyperledger — 2019 annual report (history)",
+            "url": "https://www.hyperledger.org/hubfs/Hyperledger/Printables/HL_AnnualReport_Print.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -21758,11 +22124,11 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "Hosted and cloud-mining services expanded as ASIC mining became capital-intensive.",
+        "significance": "Trend rather than discrete event; needs provider-specific milestone if retained.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21781,11 +22147,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Bitmain's Antminer S9 became an iconic and highly efficient SHA-256 ASIC generation during 2016.",
+        "significance": "Major mining-hardware candidate; needs manufacturer release announcement/date and efficiency specifications before verification.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22257,11 +22623,11 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CLAIM_NEEDS_REWRITE",
+        "exact_date": "2015",
+        "summary": "ChangeTip's talent/acquisition story is too vaguely phrased and not a clear crypto-history milestone in its current wording.",
+        "significance": "Replace with a specific ChangeTip acquisition/shutdown source if culturally useful.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22280,11 +22646,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "Bitcoin meme culture continued spreading on Reddit, Bitcointalk and social media.",
+        "significance": "Cultural trend rather than discrete event; individual memes are better candidates.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23510,11 +23876,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Craig Wright publicly claimed to be Satoshi Nakamoto in 2016, generating intense media coverage and skepticism.",
+        "significance": "This is major Satoshi lore, but the archive should use a direct claim plus reputable contemporaneous verification/skepticism sources before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23532,11 +23898,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Gavin Andresen publicly said he believed a private signing demonstration supported Wright's Satoshi claim; the evidence was not independently reproducible.",
+        "significance": "Needs Andresen's direct contemporaneous statement/source before verification.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23554,11 +23920,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Gavin Andresen's Bitcoin Core commit access was revoked amid the Craig Wright/Satoshi controversy and concerns around account/security circumstances.",
+        "significance": "Important governance story but requires Bitcoin Core/GitHub or maintainer-source documentation.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23604,14 +23970,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2015",
+        "summary": "Evidence presented at Ulbricht's trial showed operational-security mistakes that helped investigators connect him to Silk Road.",
+        "significance": "This is trial-story context rather than a separately dated event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Ross Ulbricht sentenced to life",
+            "url": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0687",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -23729,11 +24101,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "Evolution Market disappeared in 2015 amid allegations of an exit scam.",
+        "significance": "Potential darknet LORE event, but exact date and loss amount need authoritative contemporary sourcing.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23847,11 +24219,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2016",
+        "summary": "Bitcoin increasingly became a common ransomware payment method as ransomware campaigns expanded globally.",
+        "significance": "This is a cybercrime trend; individual attacks such as CryptoLocker and WannaCry make cleaner card events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24172,11 +24544,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "GAW Miners collapsed amid the Paycoin controversy and later criminal/regulatory proceedings.",
+        "significance": "Needs a specific bankruptcy/shutdown/enforcement date and court/SEC source.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24193,11 +24565,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "BitConnect launched its token/lending ecosystem in the 2016 period before exploding in popularity in 2017.",
+        "significance": "Important precursor to the 2018 collapse, but exact launch and lending-platform dates need primary/contemporary documentation.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24880,11 +25252,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2012 onward",
+        "summary": "BIP32 hierarchical deterministic wallets were proposed years before 2016, and the current 'become mainstream' wording is a trend rather than an event.",
+        "significance": "Replace with the BIP32 proposal/implementation milestone or a specific wallet adoption event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24902,14 +25274,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2014-2016",
+        "summary": "After Trezor's 2014 launch and subsequent hardware-wallet products, offline key storage became increasingly accessible to ordinary users.",
+        "significance": "Self-custody trend flowing from specific hardware-wallet launches, not a single 2016 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Trezor hardware-wallet history",
+            "url": "https://trezor.io/blog/news/a-decade-of-pioneering-10-years-since-trezors-first-hardware-wallet-revolution",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0155",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -25078,11 +25456,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Multisignature smart-contract wallets increasingly became protocol and treasury infrastructure on Ethereum.",
+        "significance": "Trend, not discrete event. Replace with a specific wallet launch or major multisig incident.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26183,14 +26561,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2016-06 to 2016-07",
+        "summary": "The DAO crisis became a defining argument over 'code is law' versus community governance.",
+        "significance": "Canonicalized as context around the DAO fork.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0029",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -26806,11 +27190,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "AlphaBay grew into a leading darknet marketplace.",
+        "significance": "Growth trend rather than one clean event; the 2017 takedown is much stronger as a canonical card event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -27582,12 +27966,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-03",
+        "summary": "Monero's March 2016 network upgrade required a minimum ring size of 3 for transactions.",
+        "significance": "The upgrade improved default privacy before RingCT arrived in 2017.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero Roadmap",
+            "url": "https://www.getmonero.org/resources/roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
