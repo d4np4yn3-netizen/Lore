@@ -549,12 +549,18 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-12-18T10:03:03",
+        "summary": "BitcoinTalk user GameKyuubi titled a post 'I AM HODLING,' a drunken misspelling of holding that immediately became community slang.",
+        "significance": "HODL became one of crypto's most durable memes and a shorthand for refusing to sell through volatility.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — I AM HODLING",
+            "url": "https://bitcointalk.org/index.php?topic=375643.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -572,12 +578,18 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-12-06",
+        "summary": "Dogecoin launched on 6 December 2013, created by Billy Markus and Jackson Palmer around the Doge meme.",
+        "significance": "Dogecoin fused cryptocurrency with internet meme culture and pioneered tipping, community fundraising and later meme-coin culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Dogecoin — History of Dogecoin",
+            "url": "https://dogecoin.com/dogepedia/articles/history-of-dogecoin/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -593,12 +605,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-11-27",
+        "summary": "Ethereum's official history dates the introductory whitepaper to 27 November 2013; Vitalik Buterin had circulated the first draft to prospective collaborators that month.",
+        "significance": "The paper proposed a general-purpose blockchain for smart contracts and decentralized applications, expanding the idea of blockchain beyond money.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Ethereum forks/history timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — History of Ethereum",
+            "url": "https://ethereum.org/ethereum-history-founder-and-ownership/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1998,15 +2021,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2013-03",
+        "summary": "Bitcoin rose sharply during the Cyprus banking crisis, while contemporary reporting linked part of the interest to concern over deposit losses and capital controls.",
+        "significance": "The episode helped establish Bitcoin's 'outside the banking system' and safe-haven narrative, but the crisis should not be treated as the sole proven cause of the rally.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CNN Money — Bitcoin prices surge post-Cyprus bailout",
+            "url": "https://money.cnn.com/2013/03/28/investing/bitcoin-cyprus/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Causal wording kept cautious: contemporary correlation/narrative, not proof that Cypriot depositors drove the move."
       }
     },
     {
@@ -2020,12 +2049,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-04-01",
+        "summary": "Bitcoin traded above $100 for the first time on 1 April 2013 on Mt. Gox-era markets.",
+        "significance": "Crossing three figures marked Bitcoin's transition from niche experiment to an asset attracting broad speculative attention.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "VentureBeat — Bitcoin surpasses $100",
+            "url": "https://venturebeat.com/business/bitcoin-value-above-100-bubble",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2043,12 +2078,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-10-01",
+        "summary": "Federal agents arrested Ross Ulbricht in a San Francisco library and seized his laptop; the Silk Road site was shut down in the same enforcement operation.",
+        "significance": "The takedown was a landmark test of Bitcoin-linked law enforcement, darknet-market investigation and blockchain evidence.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Ross Ulbricht laptop / Silk Road history",
+            "url": "https://www.fbi.gov/history/artifacts/ross-william-ulbrichts-laptop",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "DOJ — Silk Road bitcoin seizure",
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October13/SilkRoadSeizurePR.php",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2065,12 +2111,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-11-27",
+        "summary": "Bitcoin traded above $1,000 for the first time on Mt. Gox on 27 November 2013.",
+        "significance": "The milestone capped Bitcoin's first truly global speculative boom and made a four-digit BTC price a mainstream financial story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters via CBS — Bitcoin passes $1,000",
+            "url": "https://www.cbsnews.com/news/bitcoin-price-zooms-through-1000-as-enthusiasm-grows/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2088,12 +2140,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-12-05",
+        "summary": "Chinese authorities stated that Bitcoin was a virtual commodity rather than legal currency and barred financial and payment institutions from Bitcoin-related business.",
+        "significance": "This was the first major national-level regulatory shock from China and began a recurring China-policy theme in crypto markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "People's Daily / PBOC — Bitcoin notice Q&A",
+            "url": "https://finance.people.com.cn/n/2013/1205/c1004-23757823.html",
+            "type": "GOVERNMENT_PRIMARY_REPUB"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3394,12 +3452,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-03-18",
+        "summary": "FinCEN issued interpretive guidance distinguishing virtual-currency users from administrators and exchangers and applying money-transmitter rules to qualifying businesses.",
+        "significance": "It was a foundational US federal regulatory framework for cryptocurrency businesses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FinCEN — Virtual Currency Guidance",
+            "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3619,12 +3683,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-10-29",
+        "summary": "A Robocoin kiosk at Waves Coffee House in Vancouver went live as the world's first publicly accessible two-way Bitcoin ATM.",
+        "significance": "The machine made exchanging cash and bitcoin a physical, walk-up consumer experience.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CityNews Vancouver — world's first Bitcoin ATM",
+            "url": "https://vancouver.citynews.ca/2013/10/29/vancouver-officially-home-to-the-worlds-first-bitcoin-atm/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4288,12 +4358,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2013-11-27",
+        "summary": "James Howells' story became public when UK media reported that a hard drive containing keys to roughly 7,500 BTC had been discarded and buried in a Newport landfill.",
+        "significance": "It became crypto's archetypal lost-keys story and a vivid lesson in self-custody irreversibility.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — missing hard drive in Newport landfill",
+            "url": "https://www.theguardian.com/technology/2013/nov/27/all",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4921,12 +4997,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2013-07-31 to 2013-08-31",
+        "summary": "J.R. Willett's Mastercoin project used a Bitcoin 'Exodus Address' fundraiser: contributors sent BTC during August and received protocol-layer Mastercoins.",
+        "significance": "This is one of the clearest ancestors of the ICO/token-sale model and an early attempt to build programmable assets on Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Omni Foundation — Brief History of Mastercoin",
+            "url": "https://omnifoundation.wordpress.com/2013/11/29/a-brief-history-of-mastercoin/",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Omni Protocol specification — Exodus distribution",
+            "url": "https://github.com/OmniLayer/spec/blob/master/OmniSpecification-v0.6.adoc",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10067,14 +10154,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2013-03",
+        "summary": "This is the same Cyprus/Bitcoin safe-haven narrative captured in LORE-EVT-0081.",
+        "significance": "Keep as contextual framing, not a separate card event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CNN Money — Bitcoin prices surge post-Cyprus bailout",
+            "url": "https://money.cnn.com/2013/03/28/investing/bitcoin-cyprus/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0081",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -10090,12 +10183,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-11-18",
+        "summary": "The US Senate Homeland Security and Governmental Affairs Committee held its first congressional hearing focused on virtual currencies, hearing from regulators, law enforcement and industry participants.",
+        "significance": "The hearing marked a shift from treating Bitcoin mainly as a criminal curiosity toward formal consideration of both risks and legitimate uses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US Senate HSGAC — Beyond Silk Road hearing",
+            "url": "https://www.hsgac.senate.gov/hearings/beyond-silk-road-potential-risks-threats-and-promises-of-virtual-currencies/",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10113,14 +10212,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2013-10",
+        "summary": "Federal authorities seized Silk Road infrastructure and tens of thousands of BTC, later identifying additional wallets on Ulbricht's computer.",
+        "significance": "The seizure demonstrated that pseudonymous blockchain assets could be traced, confiscated and treated as forfeitable property.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Silk Road bitcoin seizure",
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October13/SilkRoadSeizurePR.php",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0083",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -10136,14 +10241,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2013-10-01",
+        "summary": "Ulbricht was arrested while using his laptop in a San Francisco library, allowing agents to seize the running computer.",
+        "significance": "The arrest method became a defining human-detail in the Silk Road story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Ross Ulbricht laptop / Silk Road history",
+            "url": "https://www.fbi.gov/history/artifacts/ross-william-ulbrichts-laptop",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "DOJ — Silk Road bitcoin seizure",
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October13/SilkRoadSeizurePR.php",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0083",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -10158,12 +10274,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2013-11",
+        "summary": "BTC China was reported as the world's largest Bitcoin exchange by trading volume in November 2013 during a surge in Chinese participation.",
+        "significance": "China became a central force in Bitcoin trading, foreshadowing years of market sensitivity to Chinese policy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — BTC China largest by volume",
+            "url": "https://techcrunch.com/2013/11/18/btc-china-series-a/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10180,14 +10302,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2013-12-05",
+        "summary": "This describes the same PBOC-led restriction on financial institutions as LORE-EVT-0085.",
+        "significance": "Canonicalized to LORE-EVT-0085.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "People's Daily / PBOC — Bitcoin notice Q&A",
+            "url": "https://finance.people.com.cn/n/2013/1205/c1004-23757823.html",
+            "type": "GOVERNMENT_PRIMARY_REPUB"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0085",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -12872,14 +13000,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2013-08",
+        "summary": "Mastercoin became an early token-layer protocol on Bitcoin and distributed its native asset via the Exodus fundraiser.",
+        "significance": "Technical significance of the canonical Mastercoin token-sale event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Omni Foundation — Brief History of Mastercoin",
+            "url": "https://omnifoundation.wordpress.com/2013/11/29/a-brief-history-of-mastercoin/",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Omni Protocol specification — Exodus distribution",
+            "url": "https://github.com/OmniLayer/spec/blob/master/OmniSpecification-v0.6.adoc",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0208",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15374,15 +15513,17 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_YEAR",
+        "exact_date": "2013",
+        "summary": "Coinbase raised major venture funding as it scaled its consumer Bitcoin wallet and on-ramp.",
+        "significance": "The funding helped signal venture capital's growing confidence in crypto infrastructure, but a specific round should replace this broad row if retained.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          null
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Needs round-specific primary/SEC/VC source before canonical publication."
       }
     },
     {
@@ -15395,12 +15536,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-09-10",
+        "summary": "Kraken opened for trading with euro, bitcoin and litecoin markets on 10 September 2013.",
+        "significance": "Kraken became one of the longest-lived major centralized exchanges and emphasized compliance/security from launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kraken — Opens for Trading",
+            "url": "https://blog.kraken.com/news/kraken-opens-for-trading",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15417,11 +15564,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2013",
+        "summary": "LocalBitcoins grew as a global peer-to-peer venue, but 'expands worldwide' is not a single clean historical event.",
+        "significance": "Replace or link to a specific launch, country expansion, volume milestone or later closure event before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15439,12 +15586,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2013",
+        "summary": "The Bitcoin Foundation faced governance and personality controversies during the early Bitcoin era.",
+        "significance": "Too broad for a canonical event; requires a named resignation, scandal, election or policy dispute.",
+        "source_confidence": "LOW",
+        "sources": [
+          {
+            "title": "Bitcoin Foundation launch thread",
+            "url": "https://bitcointalk.org/index.php?topic=113400.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15461,14 +15614,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2013-03-18",
+        "summary": "This is the same FinCEN guidance and its user/exchanger/administrator distinction.",
+        "significance": "Canonicalized to LORE-EVT-0144.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FinCEN — Virtual Currency Guidance",
+            "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0144",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -15483,12 +15642,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2013-08",
+        "summary": "Germany's finance ministry recognized Bitcoin as a 'unit of account' for regulatory/tax purposes, while not treating it as legal tender.",
+        "significance": "One of the earliest significant formal classifications of Bitcoin by a major European government.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Germany recognizes Bitcoin as unit of account",
+            "url": "https://www.theguardian.com/technology/2013/aug/19/bitcoin-unit-of-account-germany",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15505,15 +15670,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CLAIM_NEEDS_REWRITE",
+        "exact_date": "2013",
+        "summary": "Headlines in 2013 described Thailand as having 'banned' Bitcoin, but the underlying position was more ambiguous than a formal nationwide statutory ban.",
+        "significance": "This belongs in the archive as an example of early regulatory uncertainty, but the current title overstates the verified fact.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Needs country-primary-source research before canonical publication; do not score in current wording."
       }
     },
     {
@@ -15527,12 +15692,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2013-10-14",
+        "summary": "Baidu's Jiasule web-security service began accepting Bitcoin payments, announced publicly on 15 October.",
+        "significance": "A major Chinese internet brand briefly accepting Bitcoin became a striking adoption signal immediately before China's December restriction.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Baidu Jiasule announcement archived via BitcoinTalk",
+            "url": "https://bitcointalk.org/index.php?topic=310962.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20132,14 +20303,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011-2013",
+        "summary": "Casascius coins became prized physical bearer collectibles as early Bitcoin adoption grew.",
+        "significance": "This is cultural context flowing from the canonical 2011 Casascius launch rather than a separate 2013 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Annotated — Casascius Coins",
+            "url": "https://bitcoinannotated.com/entries/casascius-coins/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0077",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -20268,14 +20445,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2013",
+        "summary": "Howells began seeking recovery of the discarded hard drive as the value of the lost BTC became widely publicized.",
+        "significance": "The recovery campaign belongs under the canonical 2013 lost-hard-drive story unless later legal milestones are treated separately.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — missing hard drive in Newport landfill",
+            "url": "https://www.theguardian.com/technology/2013/nov/27/all",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0184",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -21231,11 +21414,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2013",
+        "summary": "BTC Guild was a major early Bitcoin mining pool, but this row needs a precisely sourced hashrate or block-share milestone.",
+        "significance": "Important mining-concentration context; not ready for canonical scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21593,11 +21776,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2013",
+        "summary": "ASIC resistance became a recurring altcoin design goal as Bitcoin mining specialized.",
+        "significance": "A technological trend, not a single event. Replace with specific algorithm/project changes if selected.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21754,11 +21937,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2013",
+        "summary": "Bitcoin tipping on Reddit and similar communities became common during the 2013 adoption wave.",
+        "significance": "Strong culture context but lacks one clean event/date.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22059,7 +22242,7 @@
     },
     {
       "id": "LORE-EVT-0966",
-      "date": "2013",
+      "date": "2012-05",
       "title": "Vitalik Buterin co-founds Bitcoin Magazine",
       "branch": [
         "PEOPLE",
@@ -22069,12 +22252,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-05",
+        "summary": "Vitalik Buterin and Mihai Alisie co-founded Bitcoin Magazine; its first issue was published in May 2012, not 2013.",
+        "significance": "Bitcoin Magazine placed Buterin at the center of early crypto journalism before he conceived Ethereum.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Magazine — About",
+            "url": "https://bitcoinmagazine.com/about",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22347,12 +22536,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2013",
+        "summary": "Changpeng Zhao has recounted that Bobby Lee and Ron Cao introduced him to Bitcoin during a poker game in Shanghai in 2013.",
+        "significance": "The story became the origin lore for the future Binance founder's move into cryptocurrency.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CNA/Bloomberg — CZ's 2013 poker-game introduction to Bitcoin",
+            "url": "https://www.channelnewsasia.com/business/binance-crypto-finance-exchange-changpeng-zhao-cz-2424766",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22616,12 +22811,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2013-04",
+        "summary": "Cameron and Tyler Winklevoss publicly disclosed an approximately $11 million Bitcoin position; later reporting said their holdings were around 1% of circulating BTC.",
+        "significance": "Their disclosure was an early example of prominent wealthy investors treating Bitcoin as a serious asset allocation.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Washington Post — Winklevoss Bitcoin holdings",
+            "url": "https://www.washingtonpost.com/news/the-switch/wp/2013/11/09/the-11-million-in-bitcoins-the-winklevoss-brothers-bought-is-now-worth-32-million/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22887,11 +23088,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2013",
+        "summary": "Roger Ver invested in and promoted multiple early Bitcoin startups, but the current row is too broad to stand as one event.",
+        "significance": "Replace with a specific documented investment or company milestone before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23183,14 +23384,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2013-10-01",
+        "summary": "This row refers to the Silk Road server/site seizure occurring with the Ulbricht arrest.",
+        "significance": "Canonicalized to LORE-EVT-0083.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Silk Road bitcoin seizure",
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October13/SilkRoadSeizurePR.php",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0083",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -23318,12 +23525,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2013",
+        "summary": "CryptoLocker emerged in 2013 as ransomware that encrypted victims' files and demanded ransom, often using Bitcoin as the payment rail.",
+        "significance": "It helped establish the association between cryptocurrency and ransomware payments that would become a major cybercrime theme.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Ransomware on the Rise",
+            "url": "https://www.fbi.gov/news/stories/ransomware-on-the-rise",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24323,11 +24536,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2013",
+        "summary": "Armory was influential in advanced Bitcoin wallet and cold-storage practices, but the current title describes a trend rather than a dated event.",
+        "significance": "Needs a specific release or feature milestone before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26237,14 +26450,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2013-10",
+        "summary": "The original Silk Road vendor ecosystem was abruptly disrupted when authorities seized the marketplace.",
+        "significance": "This is consequence/context of the canonical Silk Road takedown.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Silk Road bitcoin seizure",
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October13/SilkRoadSeizurePR.php",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0083",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
