@@ -639,12 +639,23 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-02-25 to 2014-02-28",
+        "summary": "Mt. Gox went offline on 25 February 2014 after halting Bitcoin withdrawals earlier in the month and filed for bankruptcy protection in Tokyo on 28 February.",
+        "significance": "The failure of the world's former dominant Bitcoin exchange became crypto's defining early custody and counterparty disaster.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — MtGox bankruptcy",
+            "url": "https://www.theguardian.com/technology/2014/feb/28/bitcoin-mtgox-bankruptcy-japan",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Guardian — MtGox collapse / withdrawal halt analysis",
+            "url": "https://www.theguardian.com/technology/2014/feb/27/how-does-a-bug-in-bitcoin-lead-to-mtgoxs-collapse",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -661,12 +672,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-06-27",
+        "summary": "The US Marshals Service auctioned 29,656 BTC forfeited from Silk Road infrastructure on 27 June 2014.",
+        "significance": "A government auction of seized Bitcoin was an extraordinary early moment in which law enforcement treated BTC as a sellable asset rather than merely contraband.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin historical auction record — USMS June 2014",
+            "url": "https://en.bitcoin.it/wiki/USMS_June_2014_auction",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -683,12 +700,28 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-07-22",
+        "summary": "Ethereum launched its 42-day Ether genesis sale on 22 July 2014, accepting Bitcoin and initially offering 2,000 ETH per BTC.",
+        "significance": "The crowdsale funded Ethereum's development and became a landmark precursor to the later ICO era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Launching the Ether Sale",
+            "url": "https://blog.ethereum.org/2014/07/22/launching-the-ether-sale",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Ether Sale statistical overview",
+            "url": "https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -704,12 +737,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2014-07 to 2014-11",
+        "summary": "The stablecoin project began in 2014 under the Realcoin name and was renamed Tether; the first USDT tokens were issued on 6 October 2014 on the Bitcoin/Omni layer.",
+        "significance": "Tether became the dominant crypto-native dollar instrument and one of the most consequential pieces of exchange infrastructure in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tether — Eight Years of Stability and Innovation",
+            "url": "https://tether.io/news/eight-years-of-stability-and-innovation/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2167,12 +2206,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-01-23 to 2014-01-26",
+        "summary": "Ethereum was publicly introduced in January 2014, with Vitalik Buterin publishing the 'Ethereum: Now Going Public' post and presenting the project at the North American Bitcoin Conference in Miami.",
+        "significance": "The public unveiling turned Ethereum from a circulated proposal into an organized project seeking developers, funding and users.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Ethereum: Now Going Public",
+            "url": "https://blog.ethereum.org/2014/01/23/ethereum-now-going-public",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — History of Ethereum",
+            "url": "https://ethereum.org/ethereum-history-founder-and-ownership/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2189,12 +2239,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-04-01",
+        "summary": "Ethereum's official timeline dates Gavin Wood's Yellow Paper to 1 April 2014.",
+        "significance": "The Yellow Paper gave Ethereum a formal technical specification and defined the Ethereum Virtual Machine.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2211,12 +2267,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-01-02",
+        "summary": "Counterparty was publicly launched on 2 January 2014, with XCP distributed through a proof-of-burn mechanism on Bitcoin.",
+        "significance": "Counterparty showed that tokens, assets and later collectibles could be built on Bitcoin years before the modern NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Counterparty archived timeline",
+            "url": "https://forums.counterparty.io/t/counterparty-token-asset-project-timeline-for-counterparty-io/6688",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2234,15 +2296,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AS_DISPUTED_CLAIM",
+        "exact_date": "2014-03-06",
+        "summary": "Newsweek published a cover story identifying Dorian Prentice Satoshi Nakamoto as Bitcoin's creator. Dorian denied involvement, and the claim was not substantiated.",
+        "significance": "The media frenzy became one of the most famous failed attempts to unmask Satoshi and highlighted the privacy stakes around Bitcoin's creator.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Dorian Nakamoto denies Bitcoin involvement",
+            "url": "https://www.theguardian.com/technology/2014/mar/07/satoshi-nakamoto-denies-inventing-bitcoin",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Record explicitly as a disputed/failed identification, never as fact that Dorian was Satoshi."
       }
     },
     {
@@ -2256,12 +2324,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-12-10",
+        "summary": "Microsoft began allowing US customers to add Bitcoin-funded credit for purchases in the Windows and Xbox stores.",
+        "significance": "A global technology company accepting Bitcoin represented a major merchant-adoption milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ars Technica — Microsoft accepts Bitcoin for Xbox/Windows credit",
+            "url": "https://arstechnica.com/gaming/2014/12/xbox-windows-store-now-accepting-bitcoin-payments/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3712,12 +3786,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-07-29",
+        "summary": "Trezor Model One officially launched on 29 July 2014 as the first commercial hardware wallet.",
+        "significance": "Trezor created a new self-custody product category by isolating private keys from general-purpose computers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Trezor — 10 years since first hardware wallet",
+            "url": "https://trezor.io/blog/news/a-decade-of-pioneering-10-years-since-trezors-first-hardware-wallet-revolution",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4201,12 +4281,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-01-20",
+        "summary": "The Dogecoin community raised more than 26 million DOGE, worth roughly $25,000 at the time, to help the Jamaican bobsled team reach the Sochi Winter Olympics.",
+        "significance": "The fundraiser proved that a joke cryptocurrency could mobilize a global internet community for real-world causes.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Dogecoin Jamaican bobsled fundraiser",
+            "url": "https://www.theguardian.com/sport/winter-olympics-2014/2014/jan/20/all",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4223,12 +4309,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2014-03 to 2014-05",
+        "summary": "Reddit's Dogecoin community raised 67.8 million DOGE, about $55,000 at the time, to sponsor NASCAR driver Josh Wise; Dogecoin branding appeared on his car at Talladega and the community later helped him win the Sprint Fan Vote.",
+        "significance": "The sponsorship turned Dogecoin's meme identity into one of crypto's most memorable mainstream-culture stunts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NASCAR — Josh Wise wins Sprint Fan Vote",
+            "url": "https://www.nascar.com/news-media/2014/05/16/josh-wise-wins-sprint-fan-vote/",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4414,12 +4506,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-08-28",
+        "summary": "Hal Finney died on 28 August 2014 after living with ALS.",
+        "significance": "Finney was a pioneering cypherpunk, creator of RPOW, early Bitcoin tester and recipient of the first Bitcoin transaction, giving his life story unique importance to crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hal Finney — Bitcoin and Me",
+            "url": "https://nakamotoinstitute.org/library/bitcoin-and-me/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "WIRED — Hal Finney death / cryonics",
+            "url": "https://www.wired.com/2014/08/hal-finney/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5030,12 +5133,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-04-18",
+        "summary": "The Monero blockchain went live on 18 April 2014 as a fair-launched CryptoNote-derived privacy cryptocurrency.",
+        "significance": "Monero became the most enduring privacy-focused cryptocurrency and a central case in debates over fungibility, anonymity and regulation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — Technical Specifications",
+            "url": "https://docs.getmonero.org/technical-specs/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Monero — About / history",
+            "url": "https://web.getmonero.org/resources/about/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5051,12 +5165,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2014-07",
+        "summary": "Stellar publicly launched in July 2014, founded by Jed McCaleb and Joyce Kim with the Stellar Development Foundation.",
+        "significance": "Stellar became a major payments-focused blockchain and an important branch of the Ripple/XRP family tree.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Stellar — Introducing Stellar",
+            "url": "https://stellar.org/blog/foundation-news/introducing-stellar",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5074,12 +5194,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-06",
+        "summary": "GHash.io briefly exceeded or approached half of Bitcoin's network hash rate in June 2014, triggering intense concern over mining centralization and 51% attack risk.",
+        "significance": "The episode became Bitcoin's clearest early warning about mining-pool concentration.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ars Technica — GHash.io reaches 51% concern",
+            "url": "https://arstechnica.com/information-technology/2014/06/after-reaching-51-network-power-bitcoin-mining-pool-says-trust-us/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "SEC filing discussing GHash.io network share",
+            "url": "https://www.sec.gov/Archives/edgar/data/1436229/000141588915001341/btcs10k_dec312014.htm",
+            "type": "GOVERNMENT_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6180,12 +6311,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2014-04",
+        "summary": "US investigators later established that OneCoin Ltd. was founded in or about April 2014 by Ruja Ignatova and another co-founder.",
+        "significance": "OneCoin became one of the largest frauds marketed as cryptocurrency and is essential to crypto-scam history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — OneCoin background affidavit",
+            "url": "https://www.justice.gov/usao-sdny/press-release/file/1141986/dl?inline=",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6492,14 +6629,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-07-02",
+        "summary": "Venture capitalist Tim Draper was publicly identified as the winning bidder for all roughly 29,656 BTC in the first US Marshals Silk Road auction.",
+        "significance": "Draper's purchase became one of crypto's most famous institutional conviction stories and later contrasted sharply with government reserve policy.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin historical auction record — USMS June 2014",
+            "url": "https://en.bitcoin.it/wiki/USMS_June_2014_auction",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0023",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -7255,12 +7398,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-11-24",
+        "summary": "BitMEX began real-Bitcoin trading on 24 November 2014 after an earlier beta trading challenge.",
+        "significance": "BitMEX became a major derivatives venue and helped popularize leveraged perpetual-swap trading in crypto.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitMEX — A Decade of BitMEX",
+            "url": "https://www.bitmex.com/blog/decade-of-bitmex",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7343,14 +7492,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2014-10-06",
+        "summary": "Tether's first USD₮ issuance occurred on 6 October 2014.",
+        "significance": "Canonicalized under the Realcoin/Tether origin event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tether — Eight Years of Stability and Innovation",
+            "url": "https://tether.io/news/eight-years-of-stability-and-innovation/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0025",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -7546,12 +7701,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-05-03",
+        "summary": "Kevin McCoy's digital artwork Quantum was originally minted on the Namecoin blockchain on 3 May 2014.",
+        "significance": "Quantum is one of the strongest early precedents for blockchain-linked digital art and later NFT culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — Kevin McCoy, Quantum",
+            "url": "https://www.sothebys.com/en/buy/auction/2021/natively-digital-a-curated-nft-sale-2/quantum",
+            "type": "MARKET_PRIMARY_RECORD"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8465,11 +8626,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2014",
+        "summary": "Cryptsy grew into a large altcoin exchange during the 2013–2014 proliferation of alternative cryptocurrencies.",
+        "significance": "The row is a growth trend rather than a single event; replace with a sourced volume milestone or collapse event before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -9567,15 +9728,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
+        "state": "CLAIM_NEEDS_REWRITE",
         "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "summary": "The current claim that ENS 'concept emerges' in 2014 is too vague and predates the clearly documented ENS project launch era.",
+        "significance": "Do not score this row until replaced by a specific, sourced ENS proposal or launch milestone.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Likely replace with ENS launch in 2017 rather than preserve a speculative 2014 concept row."
       }
     },
     {
@@ -10330,14 +10491,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-02-07",
+        "summary": "Mt. Gox halted Bitcoin withdrawals, publicly attributing problems to transaction malleability while deeper solvency issues were emerging.",
+        "significance": "The withdrawal freeze was the immediate public warning before Mt. Gox's collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — MtGox collapse / withdrawal halt analysis",
+            "url": "https://www.theguardian.com/technology/2014/feb/27/how-does-a-bug-in-bitcoin-lead-to-mtgoxs-collapse",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0022",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -10352,20 +10519,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2014-02-28",
+        "summary": "Mt. Gox filed for bankruptcy protection in Tokyo on 28 February 2014.",
+        "significance": "Bankruptcy is a core subevent of the canonical Mt. Gox collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — MtGox bankruptcy",
+            "url": "https://www.theguardian.com/technology/2014/feb/28/bitcoin-mtgox-bankruptcy-japan",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0022",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-0442",
-      "date": "2014",
+      "date": "2015-08-01",
       "title": "Mark Karpeles is arrested in Japan over Mt. Gox-related charges",
       "branch": [
         "EXCHANGES",
@@ -10374,12 +10547,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2015-08-01",
+        "summary": "Former Mt. Gox CEO Mark Karpeles was arrested in Japan on 1 August 2015, not 2014.",
+        "significance": "The arrest was part of the legal aftermath of Mt. Gox and should sit in the 2015 timeline.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Mark Karpeles arrested in Japan",
+            "url": "https://www.theguardian.com/technology/2015/aug/01/ex-boss-of-mtgox-bitcoin-exchange-arrested-in-japan-over-lost-480m",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10396,14 +10575,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2014-07-22 to 2014-09-02",
+        "summary": "Ethereum's crowdsale accepted Bitcoin and raised tens of thousands of BTC in exchange for future ETH.",
+        "significance": "This is the funding-mechanics context of the canonical Ether sale.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Launching the Ether Sale",
+            "url": "https://blog.ethereum.org/2014/07/22/launching-the-ether-sale",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Ether Sale statistical overview",
+            "url": "https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0024",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -10418,14 +10608,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2014",
+        "summary": "Realcoin/Tether used the Bitcoin-based Omni/Mastercoin layer for issuance.",
+        "significance": "Technical context for the canonical Tether origin event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tether — Eight Years of Stability and Innovation",
+            "url": "https://tether.io/news/eight-years-of-stability-and-innovation/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0025",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -10440,11 +10636,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2014",
+        "summary": "Dogecoin's community also funded charitable clean-water efforts in Kenya during its early philanthropic phase.",
+        "significance": "Strong community-lore candidate but exact campaign date/amount needs a first-party/contemporary source.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -10462,12 +10658,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-09-23",
+        "summary": "PayPal announced relationships with BitPay, Coinbase and GoCoin so digital-goods merchants could accept Bitcoin through PayPal's payments ecosystem.",
+        "significance": "The announcement was an early bridge between mainstream payment processing and cryptocurrency merchants.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PayPal newsroom — PayPal and Virtual Currency",
+            "url": "https://newsroom.paypal-corp.com/PayPal-and-Virtual-Currency",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13033,14 +13235,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2014-01 to 2014-02",
+        "summary": "Counterparty's proof-of-burn distribution created XCP and opened permissionless asset issuance on Bitcoin.",
+        "significance": "Technical significance of the canonical Counterparty launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Counterparty archived timeline",
+            "url": "https://forums.counterparty.io/t/counterparty-token-asset-project-timeline-for-counterparty-io/6688",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0088",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -13092,7 +13300,7 @@
     {
       "id": "LORE-EVT-0565",
       "date": "2014",
-      "title": "Dash launches as Darkcoin with privacy-focused branding",
+      "title": "XCoin launches, later becoming Darkcoin and Dash",
       "branch": [
         "ALTCOINS",
         "PRIVACY"
@@ -13100,12 +13308,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_TITLE_CORRECTION",
+        "exact_date": "2014-01-18",
+        "summary": "Evan Duffield launched the chain that became Dash on 18 January 2014. It was initially named XCoin, soon renamed Darkcoin, and later Dash.",
+        "significance": "The project became an early privacy- and payments-focused altcoin and introduced the X11 mining algorithm.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Dash — Happy Birthday Dash/Darkcoin",
+            "url": "https://www.dash.org/news/happy-birthday-darkcoin/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13144,14 +13358,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2014-04 onward",
+        "summary": "After disagreement with the original founder, the Monero community and Core Team continued the project and rejected controversial proposed changes.",
+        "significance": "The community takeover is an important governance-origin story within Monero's launch period.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — About / history",
+            "url": "https://web.getmonero.org/resources/about/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0209",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15721,12 +15941,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2014-01-27",
+        "summary": "US prosecutors unsealed charges against BitInstant co-founder Charlie Shrem and Robert Faiella on 27 January 2014; Shrem had been arrested the prior day.",
+        "significance": "The case was one of the first prominent criminal enforcement actions involving a well-known Bitcoin executive and money-transmission rules.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Shrem and Faiella charges",
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/January14/SchremFaiellaChargesPR.php",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15743,14 +15969,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2014-03-06",
+        "summary": "Newsweek's Dorian Nakamoto cover triggered a global media chase and controversy.",
+        "significance": "Cultural/media context for the canonical disputed-identification event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Dorian Nakamoto denies Bitcoin involvement",
+            "url": "https://www.theguardian.com/technology/2014/mar/07/satoshi-nakamoto-denies-inventing-bitcoin",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0089",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15765,14 +15997,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-03-06",
+        "summary": "Dorian Nakamoto denied any connection to Bitcoin after the Newsweek story.",
+        "significance": "The denial immediately undermined the identification and became part of Satoshi lore.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Dorian Nakamoto denies Bitcoin involvement",
+            "url": "https://www.theguardian.com/technology/2014/mar/07/satoshi-nakamoto-denies-inventing-bitcoin",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0089",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -15787,15 +16025,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-03-07",
+        "summary": "A post from the old Satoshi-associated P2P Foundation account stated 'I am not Dorian Nakamoto.'",
+        "significance": "The message intensified the mystery, though account provenance alone cannot prove who authored it.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Dorian Nakamoto denies Bitcoin involvement",
+            "url": "https://www.theguardian.com/technology/2014/mar/07/satoshi-nakamoto-denies-inventing-bitcoin",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0089",
+        "relation": "SUBEVENT",
+        "notes": "Attribute to the Satoshi-associated account; do not assert personal authorship."
       }
     },
     {
@@ -15809,11 +16053,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2011-2014",
+        "summary": "Gavin Andresen became Bitcoin's most visible lead maintainer after Satoshi stepped away.",
+        "significance": "Biographical/governance trend rather than one 2014 event; specific maintainer transitions are better candidates.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15831,11 +16075,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "The Bitcoin reference implementation's branding shifted from Bitcoin-Qt toward Bitcoin Core.",
+        "significance": "Potential software-history milestone; needs exact release/version documentation before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15854,11 +16098,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "BitPay sponsored a US college-football bowl game that was branded the Bitcoin St. Petersburg Bowl.",
+        "significance": "Strong mainstream-culture candidate; exact announcement/game date and sponsorship terms need authoritative sourcing.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15876,12 +16120,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_DATE_QUALIFIER",
+        "exact_date": "2014-05-29",
+        "summary": "DISH announced that it would become the largest company at the time to accept Bitcoin for subscription payments, with rollout planned for the third quarter.",
+        "significance": "Another major US consumer brand added Bitcoin to mainstream merchant-adoption history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DISH newsroom — DISH to Accept Bitcoin",
+            "url": "https://newsroom.notified.com/dish-tv/posts/pressreleases/dish-to-accept-bitcoin",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15898,12 +16148,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-07-18",
+        "summary": "Dell.com began accepting Bitcoin from US consumers and small-business customers through Coinbase.",
+        "significance": "At the time, Dell was described as the largest ecommerce company to officially accept Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Dell.com partners with Coinbase",
+            "url": "https://www.coinbase.com/blog/dell-com-partners-with-coinbase-to-become-the-largest-ecommerce-merchant-to",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15920,14 +16176,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-09-08",
+        "summary": "Braintree announced that developers would soon be able to integrate Bitcoin payments through a Coinbase partnership.",
+        "significance": "The Braintree integration was a precursor to PayPal's broader virtual-currency merchant announcement later that month.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PayPal newsroom — Braintree Bitcoin support",
+            "url": "https://newsroom.paypal-corp.com/Braintree-Brings-One-Touch-Payments-to-the-People-and-Will-Offer-Bitcoin-to-Developers-Soon",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0446",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -15942,15 +16204,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2014",
+        "summary": "Coinbase expanded merchant-processing integrations during 2014, including large merchants such as Dell.",
+        "significance": "Broad adoption trend; individual merchant integrations are already captured as discrete events.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Coinbase — Dell.com partners with Coinbase",
+            "url": "https://www.coinbase.com/blog/dell-com-partners-with-coinbase-to-become-the-largest-ecommerce-merchant-to",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Likely archive context, not a card candidate."
       }
     },
     {
@@ -15964,11 +16232,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "The Moolah/MintPal story combined exchange acquisition, operational failure and allegations around Moolah's operator.",
+        "significance": "Potentially strong LORE, but this composite row needs splitting into named, sourced incidents before canonical publication.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15986,11 +16254,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "MintPal suffered a major security incident during 2014.",
+        "significance": "Requires primary/contemporary source and exact loss/date before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -20332,15 +20600,17 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2013-11 to 2013-12",
+        "summary": "Casascius creator Mike Caldwell stopped selling funded physical bitcoins after contact with FinCEN in late 2013, so the current 2014 date is likely wrong.",
+        "significance": "Potentially interesting government/self-custody history, but requires a precise contemporary source before date correction is canonical.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          null
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to late 2013 after independent verification."
       }
     },
     {
@@ -21055,14 +21325,14 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2014",
+        "summary": "The Bitcoin St. Petersburg Bowl sponsorship and related BitPay branding were part of the same college-football marketing story.",
+        "significance": "Likely duplicate/context of LORE-EVT-0680 once the sponsorship announcement is precisely sourced.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0680",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -21437,14 +21707,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-06",
+        "summary": "After the 51% controversy, GHash.io publicly pledged steps intended to limit its share and called for industry discussion around mining concentration.",
+        "significance": "The response showed that Bitcoin's social governance could pressure a dominant pool even without a protocol-level cap.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ars Technica — GHash.io reaches 51% concern",
+            "url": "https://arstechnica.com/information-technology/2014/06/after-reaching-51-network-power-bitcoin-mining-pool-says-trust-us/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0211",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -21460,11 +21736,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2014",
+        "summary": "Retail cloud-mining services became popular as specialized hardware made home mining harder.",
+        "significance": "Trend row rather than one event; needs a specific provider/milestone before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21798,11 +22074,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2014",
+        "summary": "Scrypt ASIC hardware began eroding Litecoin's earlier resistance to specialized mining.",
+        "significance": "Technological trend relevant to mining history, but current row lacks one clean event/date.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21959,11 +22235,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2014",
+        "summary": "ChangeTip became a prominent social tipping service using Bitcoin.",
+        "significance": "Potential culture card, but needs a specific launch/funding/adoption milestone sourced before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22280,12 +22556,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_MONTH",
+        "exact_date": "2014-05",
+        "summary": "Vitalik Buterin received a Thiel Fellowship in 2014, giving him funding and visibility while building Ethereum.",
+        "significance": "Important founder-development context but needs a primary fellowship announcement URL before final verification.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Ethereum.org — History of Ethereum",
+            "url": "https://ethereum.org/ethereum-history-founder-and-ownership/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22468,14 +22750,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2014",
+        "summary": "Jed McCaleb left Ripple and co-founded Stellar in 2014.",
+        "significance": "The strongest canonical event is Stellar's launch; retain this as founder-lineage context.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Stellar — Introducing Stellar",
+            "url": "https://stellar.org/blog/foundation-news/introducing-stellar",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0210",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -22491,11 +22779,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "McCaleb's proposed XRP sales created market and governance controversy after his departure from Ripple.",
+        "significance": "Requires direct contemporary/source documentation of the announcement and response before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23200,11 +23488,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2014",
+        "summary": "Nick Szabo has repeatedly appeared in media speculation about Satoshi Nakamoto.",
+        "significance": "This is an enduring theory rather than a single 2014 event; replace with a specific publication/claim if included.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23413,12 +23701,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-11-06",
+        "summary": "US authorities announced charges against Blake Benthall and the seizure of Silk Road 2.0 in November 2014.",
+        "significance": "The takedown showed that successor darknet markets were also vulnerable to infiltration and law-enforcement seizure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Operator of Silk Road 2.0 charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/operator-silk-road-20-website-charged-manhattan-federal-court",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23710,14 +24004,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2014-03-07",
+        "summary": "Mt. Gox later disclosed it had found 199,999.99 BTC in an old-format wallet, discovered on 7 March after initially reporting much larger losses.",
+        "significance": "The rediscovery made the already chaotic collapse even stranger and fed years of creditor and forensic scrutiny.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — MtGox finds 200,000 BTC",
+            "url": "https://www.theguardian.com/technology/2014/mar/21/mtgox-missing-70m-bitcoin",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0022",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -23828,11 +24128,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "A US court imposed remedies in the Bitcoin Savings & Trust securities-fraud case after the SEC action.",
+        "significance": "Needs exact judgment date, amount and court source before final verification.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23850,11 +24150,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2014",
+        "summary": "GAW Miners and Paycoin became a major mining/investment controversy in the 2014–2015 period.",
+        "significance": "Composite row requires splitting and government/court sourcing.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24491,11 +24791,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2014",
+        "summary": "Blockchain.info became a widely used hosted/web Bitcoin wallet in the early adoption era.",
+        "significance": "Adoption trend, not one clean event; use a verified user-count milestone if retained.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24514,11 +24814,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2011 onward",
+        "summary": "Electrum was created in 2011 and helped establish the lightweight SPV-style wallet model; a generic 2014 'establishes' date is misleading.",
+        "significance": "Replace this row with Electrum's actual 2011 launch/release milestone after source verification.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24558,11 +24858,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2013",
+        "summary": "BIP39, the mnemonic-code standard for deterministic wallet seeds, was proposed before 2014; the raw year assignment is inaccurate.",
+        "significance": "Move to the proposal/adoption date after direct BIP-history verification.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26469,7 +26769,7 @@
     },
     {
       "id": "LORE-EVT-1153",
-      "date": "2014",
+      "date": "2013-11-06",
       "title": "Silk Road 2.0 repeats darknet-market model",
       "branch": [
         "DARK_SIDE",
@@ -26478,12 +26778,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2013-11-06",
+        "summary": "Silk Road 2.0 launched in early November 2013, shortly after the original Silk Road was seized, rather than in 2014.",
+        "significance": "Its rapid reappearance showed the resilience and replicability of darknet-market models.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Operator of Silk Road 2.0 charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/operator-silk-road-20-website-charged-manhattan-federal-court",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27220,15 +27526,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_QUALIFIER",
+        "exact_date": "2012-2013",
+        "summary": "CryptoNote's protocol ideas and whitepaper predated Monero's 2014 launch and influenced Bytecoin/Monero privacy design.",
+        "significance": "This belongs earlier in the privacy lineage rather than as a generic 2014 event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Monero — About / history",
+            "url": "https://web.getmonero.org/resources/about/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Needs direct CryptoNote paper/archive for exact date."
       }
     },
     {
@@ -27242,14 +27554,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2014",
+        "summary": "Monero emerged amid controversy around earlier CryptoNote/Bytecoin distribution and was launched as a fair, pre-announced fork of the reference code.",
+        "significance": "This is origin context under the canonical Monero launch rather than a standalone event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — About / history",
+            "url": "https://web.getmonero.org/resources/about/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0209",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
