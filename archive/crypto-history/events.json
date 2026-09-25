@@ -15,12 +15,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1982",
+        "summary": "Chaum presented Blind Signatures for Untraceable Payments at CRYPTO '82, a direct foundation for privacy-preserving electronic cash.",
+        "significance": "One of the clearest technical ancestors of cryptocurrency-era digital cash.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum publications",
+            "url": "https://chaum.com/publications/",
+            "type": "PRIMARY"
+          },
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -36,12 +47,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_SECONDARY",
+        "exact_date": "1989",
+        "summary": "DigiCash was founded by David Chaum to commercialize cryptographic electronic-cash technology.",
+        "significance": "It was the most important pre-Bitcoin commercial attempt to deploy privacy-preserving digital cash.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          },
+          {
+            "title": "DigiCash historical summary",
+            "url": "https://en.wikipedia.org/wiki/DigiCash",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -58,12 +80,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1992-09-21",
+        "summary": "Eric Hughes sent the welcome message establishing the Cypherpunks mailing list infrastructure on toad.com.",
+        "significance": "The list became a major forum for privacy, cryptography and digital-cash ideas that directly preceded Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cypherpunks mailing-list welcome message",
+            "url": "https://mailing-list-archive.cryptoanarchy.wiki/archive/1992/09/fdf9c19e77ec3f1a9bbc6bc19266d565b89d19dbd0ad369f5a2e800af3fc9558/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -80,12 +108,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1993-03-09",
+        "summary": "Eric Hughes published A Cypherpunk's Manifesto to the Cypherpunks mailing list.",
+        "significance": "A defining statement of the cypherpunk movement's privacy-through-code philosophy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "A Cypherpunk's Manifesto",
+            "url": "https://nakamotoinstitute.org/library/cypherpunk-manifesto/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -102,12 +136,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "1997-05",
+        "summary": "Adam Back's later Hashcash paper states that Hashcash was originally proposed in May 1997 as an anti-spam/proof-of-work mechanism.",
+        "significance": "Bitcoin explicitly cites Hashcash-style proof of work, making this a core technical precursor.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hashcash — A Denial of Service Counter-Measure",
+            "url": "https://nakamotoinstitute.org/library/hashcash/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -124,12 +164,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1998-11",
+        "summary": "Wei Dai published b-money in November 1998, describing protocols for money and contracts among untraceable entities.",
+        "significance": "Satoshi cited b-money in the Bitcoin white paper; it is a direct conceptual predecessor.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "b-money",
+            "url": "https://nakamotoinstitute.org/library/b-money/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -137,7 +183,7 @@
     },
     {
       "id": "LORE-EVT-0007",
-      "date": "1998",
+      "date": "2005-12-29",
       "title": "Nick Szabo describes Bit Gold",
       "branch": [
         "ORIGINS",
@@ -146,15 +192,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2005-12-29",
+        "summary": "The surviving primary Bit Gold publication is Nick Szabo's 29 December 2005 post; it describes scarce digital objects created through proof of work and timestamping.",
+        "significance": "Bit Gold is an important conceptual predecessor to Bitcoin, but the archive should not assert a 1998 publication without stronger primary evidence.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bit Gold",
+            "url": "https://nakamotoinstitute.org/library/bit-gold/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Many secondary timelines date the concept to 1998. The verified surviving primary publication used here is 2005-12-29."
       }
     },
     {
@@ -168,12 +220,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2004-08-15",
+        "summary": "Hal Finney announced RPOW, a server that exchanged Hashcash proofs for transferable reusable proof-of-work tokens.",
+        "significance": "RPOW was a sophisticated pre-Bitcoin experiment in scarce, transferable proof-of-work-based digital value.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "RPOW - Reusable Proofs of Work",
+            "url": "https://nakamotoinstitute.org/library/rpow/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -189,12 +247,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2008-10-31",
+        "summary": "Satoshi Nakamoto posted Bitcoin: A Peer-to-Peer Electronic Cash System to the Cryptography Mailing List on 31 October 2008.",
+        "significance": "This is Bitcoin's public birth as a documented protocol proposal.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/1/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Bitcoin white paper",
+            "url": "https://bitcoin.org/bitcoin.pdf",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -211,12 +280,18 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-01-03T18:15:05Z",
+        "summary": "Bitcoin's genesis block was timestamped 3 January 2009 and contains the Times bank-bailout headline in its coinbase data.",
+        "significance": "The genesis block created the chain's starting point and one of crypto's most iconic historical artifacts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Genesis Block",
+            "url": "https://chainquery.com/stories/genesis-block",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -233,12 +308,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-01-12T03:30:25Z",
+        "summary": "Block 170 contains the first known person-to-person Bitcoin transfer: 10 BTC sent by Satoshi to Hal Finney.",
+        "significance": "The first known Bitcoin transaction between two people proved the network could transfer value.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin block 170",
+            "url": "https://mempool.space/block/00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+            "type": "ONCHAIN"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -256,12 +337,18 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-05-22",
+        "summary": "Laszlo Hanyecz reported successfully trading 10,000 BTC for pizza, thanking 'jercos.'",
+        "significance": "Bitcoin Pizza Day became the canonical story of Bitcoin crossing from digital experimentation into real-world commerce.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pizza for bitcoins?",
+            "url": "https://bitcointalk.org/index.php?topic=137.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -278,12 +365,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-08-15",
+        "summary": "A value-overflow flaw was exploited in block 74,638 to create roughly 184.47 billion invalid BTC; developers rapidly patched the software and the valid chain rejected the bad history.",
+        "significance": "Bitcoin's first catastrophic protocol bug demonstrated both early fragility and emergency coordination.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.3.10 — overflow bug emergency fix",
+            "url": "https://bitcoin-institute.pages.dev/entries/aftermath/2010-08-15-bitcoin-v0310-overflow-bug-fix/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1516,12 +1609,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-10-05",
+        "summary": "New Liberty Standard published an exchange rate of $1 = 1,309.03 BTC based on estimated electricity cost.",
+        "significance": "An early attempt to express Bitcoin in dollar terms before liquid exchange markets existed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NewLibertyStandard history",
+            "url": "https://bitcoin-institute.pages.dev/participants/newlibertystandard/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1538,12 +1637,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-03-17",
+        "summary": "BitcoinMarket.com began operating as an early order-book Bitcoin/USD market.",
+        "significance": "It helped move Bitcoin price discovery from formula-based valuation toward actual exchange trading.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BitcoinMarket.com history",
+            "url": "https://bitcoinmarket.net/magazine/bitcoinmarket-first-bitcoin-exchange-history-en.html",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1560,12 +1665,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-06-11",
+        "summary": "Gavin Andresen launched a faucet that gave each visitor 5 BTC, initially funding it with 1,100 BTC.",
+        "significance": "It lowered the barrier to experimenting with Bitcoin before easy retail on-ramps existed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Faucet changes",
+            "url": "https://bitcointalk.org/index.php?topic=206",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1582,12 +1693,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-11-27",
+        "summary": "Marek 'Slush' Palatinus announced a cooperative mining pool, widely recognized as the first public Bitcoin mining pool.",
+        "significance": "Pooled mining changed miner economics by trading rare solo jackpots for steadier proportional payouts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Slush pooled mining announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1976",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1604,14 +1721,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2010-05",
+        "summary": "Public GPU-mining software demonstrated large performance gains over CPU mining and began changing Bitcoin's mining economics.",
+        "significance": "Marks a major transition in mining specialization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Generating Bitcoins with your video card (OpenCL/CUDA)",
+            "url": "https://bitcointalk.org/index.php?topic=133.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0201",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -1627,15 +1750,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2010-12 to 2011-04",
+        "summary": "Satoshi's public involvement tapered off from late 2010, with final known private correspondence in April 2011.",
+        "significance": "The founder's disappearance is historically central, but it is a period rather than a single December 2010 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi — WikiLeaks has kicked the hornet's nest",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/542/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Satoshi final email to Mike Hearn",
+            "url": "https://bitcoin-institute.pages.dev/entries/correspondence/mike-hearn/holding-coins/2011-04-23-satoshi-to-hearn-moved-on/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as a period/context row; specific 2011 final-message event is separate."
       }
     },
     {
@@ -4268,20 +4402,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "1988",
+        "summary": "Timothy May stated that The Crypto Anarchist Manifesto dated to mid-1988 and was distributed at Crypto '88; he posted it electronically to the Cypherpunks list in November 1992.",
+        "significance": "It articulated the political and social vision that influenced later cypherpunk digital-money work.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Crypto Anarchist Manifesto",
+            "url": "https://www.activism.net/cypherpunk/crypto-anarchy.html",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exact first-circulation day is not established in the source; electronic posting is dated 1992-11-22."
       }
     },
     {
       "id": "LORE-EVT-0194",
-      "date": "1995",
+      "date": "1994",
       "title": "DigiCash deploys early ecash technology",
       "branch": [
         "ORIGINS",
@@ -4290,14 +4430,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "1994",
+        "summary": "This broad deployment row overlaps the specific 1994 DigiCash eCash-payment event.",
+        "significance": "Use LORE-EVT-0639 as the canonical deployment milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0639",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -4333,15 +4479,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2001",
+        "summary": "BitTorrent showed resilient peer-to-peer distribution at internet scale.",
+        "significance": "Useful network-history context, but not a direct cryptocurrency milestone.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "BitTorrent protocol history",
+            "url": "https://en.wikipedia.org/wiki/BitTorrent",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context candidate, not core crypto event."
       }
     },
     {
@@ -4354,12 +4506,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2008-08-18",
+        "summary": "The bitcoin.org domain was registered on 18 August 2008.",
+        "significance": "It is the earliest clear public infrastructure footprint associated with the Bitcoin project before the white paper announcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org is 10 Years Old",
+            "url": "https://bitcoin.org/en/posts/ten-year-anniversary",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4376,14 +4534,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2008-10-31",
+        "summary": "This is the mailing-list announcement that distributed the Bitcoin white paper.",
+        "significance": "Canonicalized to the white-paper publication event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/1/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0009",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -4399,12 +4563,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-01-11T03:33:00Z",
+        "summary": "Hal Finney posted the two-word status 'Running bitcoin' while operating the early software.",
+        "significance": "It is one of the earliest public signs of a second known Bitcoin participant and an iconic cultural artifact.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Running bitcoin — Hal Finney",
+            "url": "https://bitcoinannotated.com/entries/running-bitcoin/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4421,12 +4591,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-01-09",
+        "summary": "Bitcoin v0.1, including source code, was made publicly available on SourceForge after Satoshi's 8 January UTC announcement.",
+        "significance": "This turned Bitcoin from a paper into runnable open-source software.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.1 released — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4444,12 +4620,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-05-10",
+        "summary": "Laszlo Hanyecz posted a working OpenCL GPU miner and reported materially higher hashing performance than CPU mining.",
+        "significance": "GPU mining accelerated Bitcoin's shift from hobby CPU mining toward specialized hardware competition.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Generating Bitcoins with your video card (OpenCL/CUDA)",
+            "url": "https://bitcointalk.org/index.php?topic=133.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4466,12 +4648,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-07-11",
+        "summary": "Slashdot coverage of Bitcoin v0.3 drew a significant influx of attention and users; contemporary BitcoinTalk discussion records the event.",
+        "significance": "An early mainstream-tech-community exposure point for Bitcoin.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcointalk discussion of Slashdot coverage",
+            "url": "https://bitcointalk.org/index.php?topic=342.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4488,12 +4676,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-07-18",
+        "summary": "Jed McCaleb repurposed the mtgox.com domain and launched a Bitcoin exchange.",
+        "significance": "Mt. Gox would become Bitcoin's dominant early exchange and later its most notorious failure.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Mt. Gox early history",
+            "url": "https://en.wikipedia.org/wiki/Mt._Gox",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9209,14 +9403,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2009-01-03",
+        "summary": "The Genesis Block embeds the text 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.'",
+        "significance": "The message serves as a timestamp anchor and became a lasting symbol of Bitcoin's historical context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Genesis Block",
+            "url": "https://chainquery.com/stories/genesis-block",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0010",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -9231,14 +9431,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2009-01-12T03:30:25Z",
+        "summary": "This row is the same first 10 BTC Satoshi-to-Finney transfer.",
+        "significance": "Canonicalized to LORE-EVT-0011.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin block 170",
+            "url": "https://mempool.space/block/00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+            "type": "ONCHAIN"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0011",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9254,12 +9460,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-10-12",
+        "summary": "New Liberty Standard bought 5,050 BTC from Martti Malmi for $5.02 via PayPal, an early documented BTC-for-fiat trade.",
+        "significance": "A key step from theoretical valuation toward real monetary exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NewLibertyStandard history",
+            "url": "https://bitcoin-institute.pages.dev/participants/newlibertystandard/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9276,14 +9488,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2010-05-18",
+        "summary": "Laszlo Hanyecz offered 10,000 BTC on Bitcointalk for 'a couple of pizzas.'",
+        "significance": "The offer set up the most famous early purchase of a tangible good with Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pizza for bitcoins?",
+            "url": "https://bitcointalk.org/index.php?topic=137.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0012",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -9298,14 +9516,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2010-06-11",
+        "summary": "This is the same 5-BTC Bitcoin Faucet launch.",
+        "significance": "Canonicalized to LORE-EVT-0071.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Faucet changes",
+            "url": "https://bitcointalk.org/index.php?topic=206",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0071",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9320,14 +9544,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2010-08-15",
+        "summary": "This is the same value-overflow incident and emergency fix.",
+        "significance": "Canonicalized to LORE-EVT-0013.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.3.10 — overflow bug emergency fix",
+            "url": "https://bitcoin-institute.pages.dev/entries/aftermath/2010-08-15-bitcoin-v0310-overflow-bug-fix/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0013",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9342,14 +9572,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2010-11 to 2010-12",
+        "summary": "This row describes the first blocks mined by the Slush cooperative pool after its announcement.",
+        "significance": "Keep under the canonical Slush Pool launch unless a precisely sourced first-block timestamp adds unique value.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Slush pooled mining announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1976",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0072",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -14053,12 +14289,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1976-11",
+        "summary": "Diffie and Hellman published New Directions in Cryptography, introducing the public-key cryptography framework and digital-signature concept to the open literature.",
+        "significance": "Foundational cryptographic infrastructure later used by digital-cash systems and cryptocurrencies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "New Directions in Cryptography",
+            "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14075,12 +14317,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1977-04",
+        "summary": "Rivest, Shamir and Adleman issued the MIT technical report describing the RSA public-key cryptosystem; the journal paper followed in 1978.",
+        "significance": "RSA became a foundational public-key and signature system used throughout secure computing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "A Method for Obtaining Digital Signatures and Public-key Cryptosystems",
+            "url": "https://dspace.mit.edu/entities/publication/a2e09fea-6f05-48a5-9ce9-5073dfcde567",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14088,7 +14336,7 @@
     },
     {
       "id": "LORE-EVT-0637",
-      "date": "1983",
+      "date": "1982",
       "title": "David Chaum's blind-signature ideas influence anonymous digital cash",
       "branch": [
         "ORIGINS",
@@ -14097,14 +14345,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "1982",
+        "summary": "This row describes the same Chaum blind-signature work as LORE-EVT-0001.",
+        "significance": "Keep the technical influence as a note on the canonical Chaum event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum publications",
+            "url": "https://chaum.com/publications/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0001",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -14119,15 +14373,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "1990s",
+        "summary": "DigiCash commercialized Chaum's blind-signature-based eCash technology during the 1990s.",
+        "significance": "This is useful context but is not one cleanly dated event; the archive should prefer specific deployments such as the 1994 payment trial.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Editorial/context row; consider merging into a DigiCash chapter rather than a standalone card."
       }
     },
     {
@@ -14141,12 +14401,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1994-05-27",
+        "summary": "Chaum's eCash history records DigiCash's first electronic cash payment over computer networks on 27 May 1994; broader CyberBucks trials followed in 1994.",
+        "significance": "Demonstrated working cryptographic digital cash years before Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14163,12 +14429,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_SECONDARY",
+        "exact_date": "1998",
+        "summary": "DigiCash entered bankruptcy in 1998 after failing to achieve broad commercial adoption.",
+        "significance": "Its failure is important contrast: cryptographic cash existed, but depended on a company and banking partners.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "DigiCash historical summary",
+            "url": "https://en.wikipedia.org/wiki/DigiCash",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14186,15 +14458,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "1999",
+        "summary": "Napster's global peer-to-peer file-sharing model demonstrated how decentralized-ish internet distribution could reach mass culture.",
+        "significance": "Relevant technological/cultural context, but not a crypto-history event itself.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Napster",
+            "url": "https://en.wikipedia.org/wiki/Napster",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Likely keep as background timeline context, not a physical-card candidate."
       }
     },
     {
@@ -14208,12 +14486,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2002-08-01",
+        "summary": "Back's formal Hashcash paper consolidated the proof-of-work system originally proposed in 1997.",
+        "significance": "The 2002 paper became the standard published description of Hashcash and is directly relevant to Bitcoin's PoW lineage.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hashcash — A Denial of Service Counter-Measure",
+            "url": "https://nakamotoinstitute.org/library/hashcash/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14230,12 +14514,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2005",
+        "summary": "By the mid-2000s BitTorrent had become a major peer-to-peer distribution system.",
+        "significance": "Useful P2P context but not a discrete cryptocurrency event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "BitTorrent protocol history",
+            "url": "https://en.wikipedia.org/wiki/BitTorrent",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14252,15 +14542,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2008",
+        "summary": "Bitcoin emerged during the global financial crisis, but causal claims about the crisis motivating Satoshi cannot be stated as fact solely from timing.",
+        "significance": "Keep as historical context, not a verified motive claim.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Bitcoin white paper",
+            "url": "https://bitcoin.org/bitcoin.pdf",
+            "type": "PRIMARY"
+          },
+          {
+            "title": "Bitcoin Genesis Block",
+            "url": "https://chainquery.com/stories/genesis-block",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Rewrite to avoid asserting Satoshi's motive."
       }
     },
     {
@@ -14274,14 +14575,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2008-10-31",
+        "summary": "This row describes the same first public Bitcoin announcement as LORE-EVT-0009.",
+        "significance": "Canonicalized to the white-paper event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/1/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0009",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -14296,12 +14603,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2008-10-31 to 2008-11-17",
+        "summary": "The first Cryptography Mailing List thread contains immediate technical skepticism and discussion of Bitcoin's assumptions.",
+        "significance": "Shows that Bitcoin's announcement was debated rather than instantly accepted.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — full thread",
+            "url": "https://bitcoin-institute.pages.dev/entries/threads/emails/cryptography/bitcoin-p2p-e-cash-paper/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14319,12 +14632,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-01-11 to 2009-01-12",
+        "summary": "Surviving emails show Satoshi and Hal Finney debugging early Bitcoin networking/software issues during launch week.",
+        "significance": "Provides unusually direct evidence of the practical engineering work behind Bitcoin's first days.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi-Hal Finney correspondence archive",
+            "url": "https://satoshi-archive.org/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14341,14 +14660,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2009-01-09",
+        "summary": "This row describes the public release of Bitcoin's client/source code.",
+        "significance": "Canonicalized to LORE-EVT-0200.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.1 released — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0200",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -14363,12 +14688,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2009",
+        "summary": "Bitcoin v0.1 was configured for CPU generation with an intentionally easy initial difficulty and 50 BTC block subsidy.",
+        "significance": "Captures the hobbyist CPU-mining era before GPU and ASIC specialization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.1 released — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14407,14 +14738,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2010-05-18 to 2010-05-22",
+        "summary": "This row refers to the Bitcointalk-arranged pizza trade captured by LORE-EVT-0419 and LORE-EVT-0012.",
+        "significance": "Keep as timeline context, not a separate card candidate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pizza for bitcoins?",
+            "url": "https://bitcointalk.org/index.php?topic=137.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0012",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -14429,14 +14766,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2010-07-18",
+        "summary": "The Mt. Gox name came from McCaleb's earlier Magic: The Gathering Online exchange concept before the domain was repurposed for Bitcoin.",
+        "significance": "One of crypto's best-known naming-origin stories.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Mt. Gox early history",
+            "url": "https://en.wikipedia.org/wiki/Mt._Gox",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0203",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
