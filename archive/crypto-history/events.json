@@ -393,12 +393,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2011-01 (approximately)",
+        "summary": "US prosecutors later alleged that Ross Ulbricht created Silk Road in approximately January 2011 and operated it as an anonymous online marketplace using Bitcoin.",
+        "significance": "Silk Road became Bitcoin's first globally notorious commercial use case and permanently linked early crypto history with censorship resistance, darknet markets and law enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Ross Ulbricht / Silk Road indictment",
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-indictment-ross-ulbricht-creator-and-owner-silk-road",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -415,12 +421,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011",
+        "summary": "Contemporary reporting described Mt. Gox as Bitcoin's most popular/dominant exchange during the 2011 boom.",
+        "significance": "Mt. Gox's concentration made its failures systemically important to the young Bitcoin economy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WIRED — Bitcoin Prices Plummet on Hacked Exchange",
+            "url": "https://www.wired.com/2011/06/gox/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -437,12 +454,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-06-19",
+        "summary": "A compromised Mt. Gox account was used to dump bitcoin, sending the quoted exchange price from about $17 to pennies before trading was suspended and transactions rolled back.",
+        "significance": "The flash crash was Bitcoin's first globally visible exchange-security crisis and exposed severe operational risk at centralized exchanges.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WIRED — Bitcoin Prices Plummet on Hacked Exchange",
+            "url": "https://www.wired.com/2011/06/gox/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "BitMEX Research — June 2011 Bitcoin Flash Crash",
+            "url": "https://www.bitmex.com/blog/the-june-2011-bitcoin-flash-crash",
+            "type": "RESEARCH_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -450,7 +478,7 @@
     },
     {
       "id": "LORE-EVT-0017",
-      "date": "2011-10",
+      "date": "2011-10-13",
       "title": "Litecoin launches",
       "branch": [
         "ALTCOINS"
@@ -458,12 +486,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_LAUNCH_SEQUENCE",
+        "exact_date": "2011-10-13",
+        "summary": "Charlie Lee announced Litecoin on 9 October 2011; Litecoin's genesis block was mined about three days later, and the planned public launch time was 13 October.",
+        "significance": "Litecoin became the longest-lived major early Bitcoin-derived altcoin and popularized Scrypt, faster blocks and a 'digital silver' narrative.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Litecoin — How was Litecoin created?",
+            "url": "https://litecoin.com/learning-center/how-was-litecoin-created",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Litecoin — 12th birthday history",
+            "url": "https://litecoin.com/news/deep-dive-to-celebrate-litecoins-12th-birthday",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -480,12 +519,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2012-11-28",
+        "summary": "Bitcoin's block subsidy fell from 50 BTC to 25 BTC at block 210,000 on 28 November 2012.",
+        "significance": "The first halving proved Bitcoin's programmed monetary schedule would execute in practice and established a four-year market ritual.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1784,12 +1829,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-06-14",
+        "summary": "WikiLeaks publicly announced that it was accepting anonymous Bitcoin donations after conventional payment channels had been restricted.",
+        "significance": "The episode became one of the clearest early demonstrations of Bitcoin's censorship-resistant payment narrative.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Forbes — WikiLeaks Asks for Anonymous Bitcoin Donations",
+            "url": "https://www.forbes.com/sites/andygreenberg/2011/06/14/wikileaks-asks-for-anonymous-bitcoin-donations/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1805,12 +1861,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-04-18",
+        "summary": "Namecoin was released on 18 April 2011 as an early Bitcoin-derived blockchain focused on decentralized naming.",
+        "significance": "It was one of the first important altcoins and an early demonstration that blockchain could secure more than monetary balances.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Namecoin — 10th anniversary of release",
+            "url": "https://www.namecoin.org/2021/04/18/namecoin-released-10-years-ago-today.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1827,12 +1889,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-09-01",
+        "summary": "Mike Caldwell began producing Casascius physical bitcoins: funded Bitcoin private keys embedded beneath tamper-evident holograms on physical coins.",
+        "significance": "Casascius turned an intangible digital asset into a physical bearer collectible and became an icon of early Bitcoin culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Annotated — Casascius Coins",
+            "url": "https://bitcoinannotated.com/entries/casascius-coins/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1848,12 +1916,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2012-09-27",
+        "summary": "Gavin Andresen publicly announced the launch of the Bitcoin Foundation on 27 September 2012.",
+        "significance": "It was an early attempt to standardize, protect and promote Bitcoin through an organized nonprofit body.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Foundation launch announcement",
+            "url": "https://bitcointalk.org/index.php?topic=113400.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1869,12 +1943,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2012-06",
+        "summary": "Coinbase states that it was founded in June 2012.",
+        "significance": "Coinbase became one of the most consequential regulated fiat on-ramps and later the first major US crypto exchange to list publicly.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — 1 Million Consumer Wallets",
+            "url": "https://www.coinbase.com/blog/a-major-coinbase-milestone-1-million-consumer-wallets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1890,12 +1970,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2012-06",
+        "summary": "The XRP Ledger first launched in June 2012 after development by David Schwartz, Jed McCaleb and Arthur Britto.",
+        "significance": "XRPL was an early major alternative to proof-of-work cryptocurrencies and focused on fast payments and settlement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "XRP Ledger — History",
+            "url": "https://xrpl.org/about/history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4224,15 +4310,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
         "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "summary": "The best-known first-person account from Hal Finney, 'Bitcoin and Me,' was published in March 2013, not 2011.",
+        "significance": "Do not retain this as a 2011 event without locating a distinct 2011 public statement that materially adds to the timeline.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hal Finney — Bitcoin and Me",
+            "url": "https://nakamotoinstitute.org/library/bitcoin-and-me/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Likely date correction to 2013 or merge into Hal Finney biography context."
       }
     },
     {
@@ -4705,12 +4797,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-04-23",
+        "summary": "In his final known email to Mike Hearn, Satoshi wrote that he had 'moved on to other things' and that Bitcoin was in good hands with Gavin and everyone.",
+        "significance": "The disappearance removed Bitcoin's creator from active stewardship and became one of the central mysteries and decentralization milestones in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi final email to Mike Hearn — moved on",
+            "url": "https://bitcoin-institute.pages.dev/entries/correspondence/mike-hearn/holding-coins/2011-04-23-satoshi-to-hearn-moved-on/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4728,12 +4826,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-06-14",
+        "summary": "Gavin Andresen gave a Bitcoin presentation at a CIA event; his June 20 forum post says the talk occurred the previous Tuesday.",
+        "significance": "The episode captured early tension between Bitcoin's cypherpunk roots and growing government interest.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gavin Andresen — CIA talk follow-up",
+            "url": "https://bitcointalk.org/index.php?topic=6652.460",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4750,12 +4854,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2012-08",
+        "summary": "Bitcoin Savings & Trust ceased operating after a scheme that the SEC later proved had offered Bitcoin-denominated investments from February 2011 through August 2012.",
+        "significance": "The collapse became the first major Bitcoin-denominated Ponzi case to produce landmark US securities enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Bitcoin Savings and Trust case",
+            "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23090",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — charges Trendon Shavers / Bitcoin Savings and Trust",
+            "url": "https://www.sec.gov/newsroom/press-releases/2013-132",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4773,12 +4888,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2012",
+        "summary": "2012 saw public ASIC projects and preorders, including ASICMINER's August project announcement; large-scale shipping hardware followed later.",
+        "significance": "The year marks the transition from GPU/FPGA mining toward application-specific mining hardware, but 'ASIC mining begins' should be treated as a period, not one day.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ASICMINER original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=99497.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Avalon ASIC Batch #1 shipping announcement",
+            "url": "https://bitcointalk.org/index.php?topic=137534.msg1465887",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6992,12 +7118,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2011",
+        "summary": "US prosecutors describe BTC-e as a cryptocurrency exchange founded in 2011; it later became a major early venue and a focus of money-laundering enforcement.",
+        "significance": "BTC-e is important to exchange, cybercrime and law-enforcement history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — BTC-e and Alexander Vinnik indictment",
+            "url": "https://www.justice.gov/usao-ndca/pr/russian-national-and-bitcoin-exchange-charged-21-count-indictment-operating-alleged",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8214,12 +8346,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2012-03 to 2012-07",
+        "summary": "Bitcoinica suffered multiple security incidents in 2012. A May breach alone drained 18,547 BTC after production servers were compromised, following an earlier March cloud-host compromise.",
+        "significance": "Bitcoinica became an early warning about exchange leverage, hot-wallet security and counterparty risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Register — Bitcoinica May 2012 hack",
+            "url": "https://www.theregister.com/security/2012/05/15/bitcoin-bank-bitcoinica-still-titsup-after-cyberheist/719457",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Ars Technica — Bitcoinica May 2012 theft",
+            "url": "https://arstechnica.com/information-technology/2012/05/bitcoins-worth-87000-plundered/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9622,14 +9765,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011",
+        "summary": "Silk Road's Bitcoin-only marketplace was a major early source of real-world transaction demand and media attention.",
+        "significance": "Useful consequence/context of the Silk Road launch rather than a separate launch event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Ross Ulbricht / Silk Road indictment",
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-indictment-ross-ulbricht-creator-and-owner-silk-road",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0014",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9644,12 +9798,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2011-06",
+        "summary": "Bitcoin's 2011 rally reached roughly $32 before reversing sharply during the June Mt. Gox crisis.",
+        "significance": "The move established Bitcoin's first major boom-bust cycle and introduced extreme crypto volatility to a wider audience.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitMEX Research — June 2011 Bitcoin Flash Crash",
+            "url": "https://www.bitmex.com/blog/the-june-2011-bitcoin-flash-crash",
+            "type": "RESEARCH_SECONDARY"
+          },
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9667,14 +9832,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2011-06-19",
+        "summary": "This is the same Mt. Gox compromised-account flash crash as LORE-EVT-0016.",
+        "significance": "Canonicalized to the first major Mt. Gox security-crisis event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WIRED — Bitcoin Prices Plummet on Hacked Exchange",
+            "url": "https://www.wired.com/2011/06/gox/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "BitMEX Research — June 2011 Bitcoin Flash Crash",
+            "url": "https://www.bitmex.com/blog/the-june-2011-bitcoin-flash-crash",
+            "type": "RESEARCH_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0016",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9689,14 +9865,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011-04-18 onward",
+        "summary": "Namecoin used a blockchain to register names such as .bit domains without a conventional central naming authority.",
+        "significance": "This is the technological significance of the Namecoin launch rather than a separate event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Namecoin — 10th anniversary of release",
+            "url": "https://www.namecoin.org/2021/04/18/namecoin-released-10-years-ago-today.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0076",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9711,14 +9893,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011-10",
+        "summary": "Litecoin launched with Scrypt proof of work, roughly 2.5-minute block targets and an 84 million coin supply.",
+        "significance": "These design choices distinguished Litecoin from Bitcoin but belong to the launch event's significance.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Litecoin — 12th birthday history",
+            "url": "https://litecoin.com/news/deep-dive-to-celebrate-litecoins-12th-birthday",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0017",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9734,14 +9922,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011-06-14 onward",
+        "summary": "WikiLeaks' Bitcoin donation address became a lasting symbol in debates over financial censorship and permissionless payments.",
+        "significance": "Contextual cultural significance of the canonical WikiLeaks donation event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Forbes — WikiLeaks Asks for Anonymous Bitcoin Donations",
+            "url": "https://www.forbes.com/sites/andygreenberg/2011/06/14/wikileaks-asks-for-anonymous-bitcoin-donations/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0075",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9755,14 +9954,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2012-09-27",
+        "summary": "This is the same Bitcoin Foundation launch as LORE-EVT-0078.",
+        "significance": "Canonicalized to LORE-EVT-0078.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Foundation launch announcement",
+            "url": "https://bitcointalk.org/index.php?topic=113400.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0078",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9777,14 +9982,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2012",
+        "summary": "Coinbase began building a simple consumer on-ramp for buying, holding and selling Bitcoin after its June 2012 founding.",
+        "significance": "This is product/adoption context rather than a separately verified launch date in the current evidence set.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — 1 Million Consumer Wallets",
+            "url": "https://www.coinbase.com/blog/a-major-coinbase-milestone-1-million-consumer-wallets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0079",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9799,14 +10010,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2012-06",
+        "summary": "This row describes the XRP Ledger's non-proof-of-work consensus architecture at launch.",
+        "significance": "Keep as technical context under the canonical XRPL launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "XRP Ledger — History",
+            "url": "https://xrpl.org/about/history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0080",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9822,12 +10039,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_QUALIFIER",
+        "exact_date": "2012",
+        "summary": "Butterfly Labs and other vendors took ASIC-era preorders before dependable mass delivery, generating both excitement and controversy.",
+        "significance": "Useful mining-industry lore, but exact product-preorder claims need vendor-specific source work before a card.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "ASICMINER original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=99497.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14839,14 +15062,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2011",
+        "summary": "This row describes the same Silk Road growth/use-case story as LORE-EVT-0014 and LORE-EVT-0424.",
+        "significance": "Keep only as contextual evidence if needed for a Silk Road chapter.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Ross Ulbricht / Silk Road indictment",
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-indictment-ross-ulbricht-creator-and-owner-silk-road",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0014",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -14874,7 +15108,7 @@
     },
     {
       "id": "LORE-EVT-0657",
-      "date": "2011",
+      "date": "2012-08-19",
       "title": "Peercoin introduces coin-age concepts in proof-of-stake design",
       "branch": [
         "ALTCOINS",
@@ -14883,15 +15117,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-08-19T18:00:00Z",
+        "summary": "Peercoin's blockchain started on 19 August 2012, after an announcement nine days earlier, using a hybrid proof-of-work/proof-of-stake design.",
+        "significance": "Peercoin was an early major proof-of-stake experiment and influenced later consensus-system design.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Peercoin Foundation — project age and chain start",
+            "url": "https://www.peercoin.net/contact",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Raw capture incorrectly placed this in 2011."
       }
     },
     {
@@ -14905,12 +15145,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2011-08-20",
+        "summary": "SolidCoin's original announcement states that the chain officially started on 20 August 2011 as an early Bitcoin-derived alternative currency.",
+        "significance": "SolidCoin is a useful deep-cut example of the rapid fork/altcoin experimentation that began soon after Bitcoin gained traction.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SolidCoin original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=38453.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14927,14 +15173,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2010-2011",
+        "summary": "GPU software such as Laszlo Hanyecz's 2010 OpenCL miner accelerated Bitcoin's transition away from CPU-only mining; by 2011 GPU mining was widespread.",
+        "significance": "This is an important mining-era transition, but not one unique 2011-day event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Laszlo GPU mining thread",
+            "url": "https://bitcointalk.org/index.php?topic=133.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0201",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -14949,14 +15201,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2010-2011",
+        "summary": "Mining pools such as Slush Pool and DeepBit reduced payout variance by sharing block rewards among participating miners.",
+        "significance": "Pooling changed mining from isolated lottery-like solo mining into organized industrial cooperation.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Slush pooled mining announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1976",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "DeepBit contemporary mining-pool discussion",
+            "url": "https://bitcointalk.org/index.php?topic=23678.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0072",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -14971,12 +15234,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2012-08-09",
+        "summary": "ASICMINER publicly announced its investor-backed project to design and operate Bitcoin ASIC mining chips on 9 August 2012.",
+        "significance": "ASICMINER was one of the earliest visible attempts to industrialize purpose-built Bitcoin mining silicon.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ASICMINER original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=99497.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14984,7 +15253,7 @@
     },
     {
       "id": "LORE-EVT-0662",
-      "date": "2012",
+      "date": "2013-01-20",
       "title": "Avalon ships early commercial Bitcoin ASIC miners",
       "branch": [
         "BITCOIN",
@@ -14994,12 +15263,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2013-01-20",
+        "summary": "Avalon's team announced that its first ASIC batch had shipped on 20 January 2013, not in 2012.",
+        "significance": "The shipment marks the arrival of commercially delivered ASIC hardware and a decisive new era in Bitcoin mining.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Avalon ASIC Batch #1 shipping announcement",
+            "url": "https://bitcointalk.org/index.php?topic=137534.msg1465887",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15016,12 +15291,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2012-04-24",
+        "summary": "SatoshiDICE was announced on BitcoinTalk on 24 April 2012 and rapidly became one of Bitcoin's largest sources of on-chain transactions.",
+        "significance": "It demonstrated borderless on-chain gambling, provable fairness and the first major debate over application-generated transaction 'spam.'",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Wiki — Satoshi Dice",
+            "url": "https://en.bitcoin.it/wiki/Satoshi_Dice",
+            "type": "ARCHIVAL_SECONDARY"
+          },
+          {
+            "title": "SEC — SatoshiDICE share offerings",
+            "url": "https://www.sec.gov/files/foia/docs/votes/2014-06.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15029,7 +15315,7 @@
     },
     {
       "id": "LORE-EVT-0664",
-      "date": "2012",
+      "date": "2011-08-23",
       "title": "BitInstant becomes a major early fiat on-ramp",
       "branch": [
         "BITCOIN",
@@ -15038,12 +15324,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2011-08-23",
+        "summary": "BitInstant was announced on 23 August 2011 as a service designed to move funds rapidly into Bitcoin exchanges.",
+        "significance": "It became an important early fiat on-ramp and part of the first wave of Bitcoin financial infrastructure.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Wiki — BitInstant history",
+            "url": "https://en.bitcoin.it/wiki/BitInstant",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20112,15 +20404,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2011 onward",
+        "summary": "Public blockchains made large address balances and old wallet movements observable, creating the enduring idea of Bitcoin 'whales.'",
+        "significance": "This is a recurring phenomenon rather than a single 2011 event and should not be scored as-is.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Replace with specific historically documented whale movements if a card-worthy event is needed."
       }
     },
     {
@@ -20911,12 +21203,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2011",
+        "summary": "DeepBit was one of the largest mining pools during Bitcoin's first major growth cycle.",
+        "significance": "Useful mining-concentration context; retain unless a stronger exact milestone is identified.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "DeepBit contemporary mining-pool discussion",
+            "url": "https://bitcointalk.org/index.php?topic=23678.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -21428,14 +21726,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2011",
+        "summary": "Bitcoin faucets became a common method of distributing small amounts of BTC to newcomers following Gavin Andresen's 2010 faucet.",
+        "significance": "This trend descends from the canonical Faucet event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Faucet thread",
+            "url": "https://bitcointalk.org/index.php?topic=206",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0071",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -21915,7 +22219,7 @@
     },
     {
       "id": "LORE-EVT-0973",
-      "date": "2012",
+      "date": "2011-10",
       "title": "Charlie Lee creates Litecoin while working at Google",
       "branch": [
         "PEOPLE",
@@ -21924,14 +22228,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DATE_CORRECTED",
+        "exact_date": "2011-10",
+        "summary": "Charlie Lee created Litecoin while employed at Google and announced it publicly in October 2011.",
+        "significance": "The personal-origin story is important, but it overlaps heavily with the canonical Litecoin launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Litecoin — 12th birthday history",
+            "url": "https://litecoin.com/news/deep-dive-to-celebrate-litecoins-12th-birthday",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0017",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -22549,15 +22859,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2011 onward",
+        "summary": "Roger Ver began acquiring and aggressively promoting Bitcoin in 2011 and later became widely known as 'Bitcoin Jesus.'",
+        "significance": "He became one of early Bitcoin's most recognizable evangelists, though the nickname has no single verified 2011 origin date.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Roger Ver described as Bitcoin Jesus",
+            "url": "https://www.justice.gov/usao-cdca/pr/early-cryptocurrency-investor-known-bitcoin-jesus-admits-misconduct-and-enters",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not state that the nickname itself was coined in 2011."
       }
     },
     {
@@ -22771,14 +23087,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2011-01 (approximately)",
+        "summary": "Ross Ulbricht created Silk Road and operated it under the Dread Pirate Roberts identity, according to the later federal case.",
+        "significance": "The human/identity angle belongs within the canonical Silk Road event unless card editorial chooses a separate Ulbricht story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Ross Ulbricht / Silk Road indictment",
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-indictment-ross-ulbricht-creator-and-owner-silk-road",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0014",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -23255,8 +23577,8 @@
     },
     {
       "id": "LORE-EVT-1033",
-      "date": "2012",
-      "title": "Pirateat40 is accused of running Bitcoin Savings and Trust Ponzi",
+      "date": "2013-07-23",
+      "title": "SEC charges Bitcoin Savings & Trust operator over Ponzi scheme",
       "branch": [
         "SCAMS",
         "BITCOIN"
@@ -23264,12 +23586,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2013-07-23",
+        "summary": "The SEC formally charged Trendon Shavers and Bitcoin Savings & Trust with operating a Bitcoin-denominated Ponzi scheme on 23 July 2013.",
+        "significance": "This is the enforcement milestone; it should not be dated 2012 merely because the scheme ended then.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — charges Trendon Shavers / Bitcoin Savings and Trust",
+            "url": "https://www.sec.gov/newsroom/press-releases/2013-132",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -25881,14 +26209,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2011 onward",
+        "summary": "Silk Road used marketplace reputation, escrow and pseudonymous accounts to create trust among strangers.",
+        "significance": "Important marketplace-design context, but not a single cleanly dated milestone.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Ross Ulbricht / Silk Road indictment",
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-indictment-ross-ulbricht-creator-and-owner-silk-road",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0014",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
