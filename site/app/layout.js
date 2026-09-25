@@ -1,0 +1,1 @@
+import './globals.css'; export const metadata={title:'LORE — Collect the Internet',description:'Defining moments. Physical cards. Stories worth keeping.'}; export default function RootLayout({children}){return <html lang="en"><body>{children}</body></html>}
