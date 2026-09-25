@@ -1,0 +1,761 @@
+{
+  "schema_version": "0.1.0",
+  "archive": "LORE Crypto History Archive",
+  "updated": "2026-09-25",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "status_note": "Seed records transcribed from project research. RESEARCH_REQUIRED means dates, wording and significance must be verified against sources before VERIFIED status.",
+  "events": [
+    {
+      "id": "LORE-EVT-0001",
+      "date": "1982",
+      "title": "David Chaum proposes cryptographic digital cash",
+      "branch": [
+        "ORIGINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0002",
+      "date": "1989",
+      "title": "DigiCash is founded",
+      "branch": [
+        "ORIGINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0003",
+      "date": "1992",
+      "title": "Cypherpunks mailing list emerges",
+      "branch": [
+        "ORIGINS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0004",
+      "date": "1993",
+      "title": "A Cypherpunk's Manifesto",
+      "branch": [
+        "ORIGINS",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0005",
+      "date": "1997",
+      "title": "Adam Back creates Hashcash",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0006",
+      "date": "1998",
+      "title": "Wei Dai publishes b-money",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0007",
+      "date": "1998",
+      "title": "Nick Szabo describes Bit Gold",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0008",
+      "date": "2004",
+      "title": "Hal Finney creates reusable proof-of-work",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0009",
+      "date": "2008-10-31",
+      "title": "Bitcoin whitepaper published",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0010",
+      "date": "2009-01-03",
+      "title": "Bitcoin Genesis Block",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0011",
+      "date": "2009-01-12",
+      "title": "Satoshi sends Hal Finney 10 BTC",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0012",
+      "date": "2010-05-22",
+      "title": "Bitcoin Pizza Day",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0013",
+      "date": "2010",
+      "title": "Bitcoin value overflow incident and emergency fix",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0014",
+      "date": "2011",
+      "title": "Silk Road launches",
+      "branch": [
+        "BITCOIN",
+        "DARK_SIDE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0015",
+      "date": "2011",
+      "title": "Mt. Gox becomes a dominant Bitcoin exchange",
+      "branch": [
+        "EXCHANGES",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0016",
+      "date": "2011",
+      "title": "First major Mt. Gox security crisis",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0017",
+      "date": "2011-10",
+      "title": "Litecoin launches",
+      "branch": [
+        "ALTCOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0018",
+      "date": "2012-11-28",
+      "title": "First Bitcoin halving",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0019",
+      "date": "2013",
+      "title": "HODL is born",
+      "branch": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0020",
+      "date": "2013",
+      "title": "Dogecoin launches",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0021",
+      "date": "2013-11",
+      "title": "Ethereum whitepaper",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0022",
+      "date": "2014-02",
+      "title": "Mt. Gox collapses",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0023",
+      "date": "2014",
+      "title": "US government auctions seized Silk Road bitcoin",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0024",
+      "date": "2014-07-22",
+      "title": "Ether crowdsale begins",
+      "branch": [
+        "ETHEREUM",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0025",
+      "date": "2014",
+      "title": "Realcoin/Tether origins",
+      "branch": [
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0026",
+      "date": "2015-07-30",
+      "title": "Ethereum mainnet launches",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0027",
+      "date": "2016",
+      "title": "The DAO crowdsale",
+      "branch": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0028",
+      "date": "2016-06",
+      "title": "The DAO exploit",
+      "branch": [
+        "ETHEREUM",
+        "HACKS",
+        "DAO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0029",
+      "date": "2016-07-20",
+      "title": "DAO fork and Ethereum Classic split",
+      "branch": [
+        "ETHEREUM",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0030",
+      "date": "2016",
+      "title": "Rare Pepes emerge on Counterparty",
+      "branch": [
+        "NFT",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0031",
+      "date": "2017",
+      "title": "CryptoPunks launches",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0032",
+      "date": "2017",
+      "title": "ICO mania",
+      "branch": [
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0033",
+      "date": "2017",
+      "title": "Binance launches",
+      "branch": [
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0034",
+      "date": "2017-08",
+      "title": "Bitcoin Cash fork",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0035",
+      "date": "2017",
+      "title": "China bans ICO fundraising",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0036",
+      "date": "2017",
+      "title": "CryptoKitties mania",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0037",
+      "date": "2018",
+      "title": "BitConnect collapses",
+      "branch": [
+        "SCAMS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0038",
+      "date": "2018-11",
+      "title": "Uniswap launches",
+      "branch": [
+        "DEFI",
+        "DEX"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0039",
+      "date": "2019",
+      "title": "QuadrigaCX collapse and missing-key saga",
+      "branch": [
+        "EXCHANGES",
+        "MYSTERIES",
+        "DISASTERS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0040",
+      "date": "2020-03",
+      "title": "COVID Black Thursday crypto crash",
+      "branch": [
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0041",
+      "date": "2020",
+      "title": "DeFi Summer",
+      "branch": [
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0042",
+      "date": "2020",
+      "title": "SushiSwap vampire attack",
+      "branch": [
+        "DEFI",
+        "DEX",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0043",
+      "date": "2020-08",
+      "title": "MicroStrategy adopts a Bitcoin treasury strategy",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0044",
+      "date": "2021-02",
+      "title": "Tesla announces $1.5bn Bitcoin purchase",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0045",
+      "date": "2021-03",
+      "title": "Beeple NFT sells for $69m",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0046",
+      "date": "2021-04",
+      "title": "Coinbase goes public",
+      "branch": [
+        "INSTITUTIONS",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0047",
+      "date": "2021",
+      "title": "Dogecoin mania",
+      "branch": [
+        "MEMES",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0048",
+      "date": "2021",
+      "title": "China mining crackdown",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0049",
+      "date": "2021-09",
+      "title": "El Salvador Bitcoin legal-tender law takes effect",
+      "branch": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0050",
+      "date": "2021-08-05",
+      "title": "Ethereum London upgrade / EIP-1559",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0051",
+      "date": "2022-03",
+      "title": "Ronin bridge exploit",
+      "branch": [
+        "HACKS",
+        "BRIDGES",
+        "GAMING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0052",
+      "date": "2022-05",
+      "title": "UST loses its peg",
+      "branch": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0053",
+      "date": "2022-05",
+      "title": "LUNA death spiral",
+      "branch": [
+        "DISASTERS",
+        "ALTCOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0054",
+      "date": "2022-06",
+      "title": "Three Arrows Capital collapses",
+      "branch": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0055",
+      "date": "2022-08",
+      "title": "Tornado Cash sanctions",
+      "branch": [
+        "GOVERNMENTS",
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0056",
+      "date": "2022-09-15",
+      "title": "Ethereum Merge",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true
+    },
+    {
+      "id": "LORE-EVT-0057",
+      "date": "2022-11",
+      "title": "FTX collapses and files for bankruptcy",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0058",
+      "date": "2023",
+      "title": "Ordinals launches on Bitcoin",
+      "branch": [
+        "BITCOIN",
+        "NFT"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0059",
+      "date": "2023",
+      "title": "BlackRock files for a spot Bitcoin ETF",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0060",
+      "date": "2023",
+      "title": "EU MiCA regulatory framework enters into force",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0061",
+      "date": "2023-11",
+      "title": "Sam Bankman-Fried convicted",
+      "branch": [
+        "CRIME",
+        "FTX"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0062",
+      "date": "2024-01-10",
+      "title": "US spot Bitcoin ETPs approved",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0063",
+      "date": "2024-04-20",
+      "title": "Fourth Bitcoin halving",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0064",
+      "date": "2024",
+      "title": "US spot Ether ETPs begin trading",
+      "branch": [
+        "INSTITUTIONS",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0065",
+      "date": "2025-02",
+      "title": "Bybit heist",
+      "branch": [
+        "HACKS",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0066",
+      "date": "2025-03-06",
+      "title": "US Strategic Bitcoin Reserve established",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0067",
+      "date": "2025-05-07",
+      "title": "Ethereum Pectra upgrade",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0068",
+      "date": "2025-12-03",
+      "title": "Ethereum Fusaka upgrade",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    }
+  ]
+}
