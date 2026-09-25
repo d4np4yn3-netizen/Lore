@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Archive expanded to 415 candidate events. Broad capture phase; entries require individual source verification before VERIFIED status.",
+  "status_note": "Archive expanded to 634 candidate events. Broad capture phase continues; all unverified records require individual source checks before canonical use.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -4629,6 +4629,2441 @@
       "branch": [
         "ETHEREUM",
         "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0416",
+      "date": "2009",
+      "title": "Satoshi embeds the Times headline in the Genesis Block",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0417",
+      "date": "2009",
+      "title": "Hal Finney receives the first Bitcoin transaction from Satoshi",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0418",
+      "date": "2009",
+      "title": "Martti Malmi makes an early known Bitcoin-for-fiat sale",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0419",
+      "date": "2010",
+      "title": "Laszlo Hanyecz offers 10000 BTC for two pizzas",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0420",
+      "date": "2010",
+      "title": "Bitcoin Faucet gives away 5 BTC per visitor",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0421",
+      "date": "2010",
+      "title": "Satoshi fixes the value-overflow bug after billions of invalid BTC are created",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0422",
+      "date": "2010",
+      "title": "Slush Pool mines its first pooled Bitcoin blocks",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0423",
+      "date": "2010",
+      "title": "BitcoinTalk forum becomes the central early community hub",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0424",
+      "date": "2011",
+      "title": "Silk Road drives one of Bitcoin's first large real-world use cases",
+      "branch": [
+        "BITCOIN",
+        "DARK_SIDE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0425",
+      "date": "2011",
+      "title": "Bitcoin briefly trades above 30 dollars before crashing",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0426",
+      "date": "2011",
+      "title": "Mt. Gox compromised accounts trigger a dramatic flash crash",
+      "branch": [
+        "EXCHANGES",
+        "HACKS",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0427",
+      "date": "2011",
+      "title": "Namecoin demonstrates blockchain-based naming",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0428",
+      "date": "2011",
+      "title": "Litecoin adopts Scrypt and faster block times",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0429",
+      "date": "2011",
+      "title": "WikiLeaks Bitcoin donation address becomes a censorship-resistance symbol",
+      "branch": [
+        "BITCOIN",
+        "CULTURE",
+        "ADOPTION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0430",
+      "date": "2012",
+      "title": "Bitcoin Foundation forms around protocol advocacy and standardization",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0431",
+      "date": "2012",
+      "title": "Coinbase starts buying and selling Bitcoin for US customers",
+      "branch": [
+        "EXCHANGES",
+        "ADOPTION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0432",
+      "date": "2012",
+      "title": "Ripple consensus ledger launches without proof-of-work mining",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0433",
+      "date": "2012",
+      "title": "Butterfly Labs and ASIC preorders become mining-industry lore",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0434",
+      "date": "2013",
+      "title": "Cyprus capital controls fuel Bitcoin safe-haven narratives",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0435",
+      "date": "2013",
+      "title": "US Senate hearings give Bitcoin unexpected legitimacy",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0436",
+      "date": "2013",
+      "title": "Silk Road seizure proves Bitcoin transactions can become legal evidence",
+      "branch": [
+        "GOVERNMENTS",
+        "CRIME",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0437",
+      "date": "2013",
+      "title": "Ross Ulbricht is arrested in a San Francisco library",
+      "branch": [
+        "DARK_SIDE",
+        "CRIME",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0438",
+      "date": "2013",
+      "title": "Bitcoin China becomes one of the world's largest exchanges",
+      "branch": [
+        "EXCHANGES",
+        "GOVERNMENTS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0439",
+      "date": "2013",
+      "title": "People's Bank of China bars financial institutions from Bitcoin business",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0440",
+      "date": "2014",
+      "title": "Mt. Gox halts withdrawals citing transaction malleability",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0441",
+      "date": "2014",
+      "title": "Mt. Gox files for bankruptcy protection",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0442",
+      "date": "2014",
+      "title": "Mark Karpeles is arrested in Japan over Mt. Gox-related charges",
+      "branch": [
+        "EXCHANGES",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0443",
+      "date": "2014",
+      "title": "Ethereum crowdsale raises funds using Bitcoin",
+      "branch": [
+        "ETHEREUM",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0444",
+      "date": "2014",
+      "title": "Tether initially launches as Realcoin on Omni",
+      "branch": [
+        "STABLECOINS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0445",
+      "date": "2014",
+      "title": "Dogecoin community raises funds for water wells in Kenya",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0446",
+      "date": "2014",
+      "title": "PayPal announces limited Bitcoin integrations through partners",
+      "branch": [
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0447",
+      "date": "2015",
+      "title": "Ethereum Frontier miners begin securing smart-contract mainnet",
+      "branch": [
+        "ETHEREUM",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0448",
+      "date": "2015",
+      "title": "Augur crowdsale becomes an early Ethereum token sale",
+      "branch": [
+        "ETHEREUM",
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0449",
+      "date": "2015",
+      "title": "BitLicense takes effect in New York",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0450",
+      "date": "2015",
+      "title": "Coinbase secures major venture funding from traditional finance investors",
+      "branch": [
+        "EXCHANGES",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0451",
+      "date": "2015",
+      "title": "21 Inc raises a massive Bitcoin startup funding round",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0452",
+      "date": "2016",
+      "title": "Ethereum hard forks after The DAO exploit",
+      "branch": [
+        "ETHEREUM",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0453",
+      "date": "2016",
+      "title": "Ethereum Classic preserves the unforked DAO history",
+      "branch": [
+        "ETHEREUM",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0454",
+      "date": "2016",
+      "title": "Bitfinex socializes hack losses using BFX tokens",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0455",
+      "date": "2016",
+      "title": "Monero implements RingCT privacy improvements",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0456",
+      "date": "2016",
+      "title": "Zcash launches with zk-SNARK-based shielded transactions",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0457",
+      "date": "2016",
+      "title": "Rare Pepe Directory formalizes early blockchain collectible culture",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0458",
+      "date": "2017",
+      "title": "ERC-20 becomes the de facto standard for fungible Ethereum tokens",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0459",
+      "date": "2017",
+      "title": "ICO fundraising surpasses traditional early-stage crypto venture funding",
+      "branch": [
+        "ICO",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0460",
+      "date": "2017",
+      "title": "Filecoin token sale draws huge institutional attention",
+      "branch": [
+        "ICO",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0461",
+      "date": "2017",
+      "title": "Tezos governance dispute freezes access to ICO proceeds",
+      "branch": [
+        "ICO",
+        "ALTCOINS",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0462",
+      "date": "2017",
+      "title": "Binance issues BNB during its ICO",
+      "branch": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0463",
+      "date": "2017",
+      "title": "Bitcoin Cash increases block size after Bitcoin fork",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0464",
+      "date": "2017",
+      "title": "UASF movement pressures miners toward SegWit activation",
+      "branch": [
+        "BITCOIN",
+        "CULTURE",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0465",
+      "date": "2017",
+      "title": "SegWit2x is called off shortly before planned activation",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0466",
+      "date": "2017",
+      "title": "CryptoPunks are initially claimed for free",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0467",
+      "date": "2017",
+      "title": "CryptoKitties becomes one of Ethereum's first viral consumer dapps",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0468",
+      "date": "2018",
+      "title": "Telegram Open Network private sale becomes one of the largest token raises",
+      "branch": [
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0469",
+      "date": "2018",
+      "title": "SEC launches high-profile enforcement against celebrity ICO promotions",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0470",
+      "date": "2018",
+      "title": "Coincheck reimbursement plan follows record NEM theft",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0471",
+      "date": "2018",
+      "title": "EOS freezes selected accounts shortly after mainnet launch",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0472",
+      "date": "2018",
+      "title": "MakerDAO stablecoin model gains traction during bear market",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0473",
+      "date": "2018",
+      "title": "Compound launches decentralized lending markets",
+      "branch": [
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0474",
+      "date": "2018",
+      "title": "Dharma and early lending protocols expand Ethereum DeFi",
+      "branch": [
+        "DEFI"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0475",
+      "date": "2019",
+      "title": "Binance launches Launchpad IEO model",
+      "branch": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0476",
+      "date": "2019",
+      "title": "IEO mania briefly replaces ICO fundraising",
+      "branch": [
+        "ICO",
+        "EXCHANGES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0477",
+      "date": "2019",
+      "title": "Facebook Libra hearings bring crypto and stablecoins before lawmakers worldwide",
+      "branch": [
+        "GOVERNMENTS",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0478",
+      "date": "2019",
+      "title": "Telegram agrees to halt TON distribution amid SEC litigation",
+      "branch": [
+        "ICO",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0479",
+      "date": "2019",
+      "title": "Coinbase Earn popularizes token rewards for learning",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0480",
+      "date": "2019",
+      "title": "Chainlink price-oracle adoption accelerates across DeFi",
+      "branch": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0481",
+      "date": "2020",
+      "title": "March crash sends Bitcoin below 4000 dollars intraday",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0482",
+      "date": "2020",
+      "title": "MakerDAO emergency auctions expose zero-bid liquidation failures",
+      "branch": [
+        "DEFI",
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0483",
+      "date": "2020",
+      "title": "Compound governance token sparks liquidity-mining boom",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0484",
+      "date": "2020",
+      "title": "Curve wars begin around stablecoin liquidity incentives",
+      "branch": [
+        "DEFI",
+        "DEX"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0485",
+      "date": "2020",
+      "title": "SushiSwap migrates liquidity away from Uniswap",
+      "branch": [
+        "DEFI",
+        "DEX",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0486",
+      "date": "2020",
+      "title": "Chef Nomi sells SUSHI treasury tokens and later returns funds",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0487",
+      "date": "2020",
+      "title": "YFI launches with no founder pre-mine",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0488",
+      "date": "2020",
+      "title": "Yam Finance asks users to exit after a governance bug",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0489",
+      "date": "2020",
+      "title": "MicroStrategy CEO Michael Saylor becomes a public Bitcoin advocate",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "PEOPLE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0490",
+      "date": "2020",
+      "title": "PayPal enables crypto purchases for US users",
+      "branch": [
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0491",
+      "date": "2020",
+      "title": "Ethereum deposit contract opens for Beacon Chain staking",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0492",
+      "date": "2020",
+      "title": "Beacon Chain reaches genesis threshold",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0493",
+      "date": "2021",
+      "title": "GameStop-style retail speculation spills into Dogecoin",
+      "branch": [
+        "MEMES",
+        "MARKETS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0494",
+      "date": "2021",
+      "title": "Dogecoin reaches a tens-of-billions market value",
+      "branch": [
+        "MEMES",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0495",
+      "date": "2021",
+      "title": "Elon Musk's Dogecoin posts repeatedly move markets",
+      "branch": [
+        "MEMES",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0496",
+      "date": "2021",
+      "title": "SNL Dogecoin episode becomes a peak meme-coin culture moment",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0497",
+      "date": "2021",
+      "title": "SHIB token frenzy expands the meme-coin category",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0498",
+      "date": "2021",
+      "title": "OpenSea raises major venture rounds during NFT boom",
+      "branch": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0499",
+      "date": "2021",
+      "title": "BAYC secondary sales explode and celebrity adoption rises",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0500",
+      "date": "2021",
+      "title": "Art Blocks Chromie Squiggle becomes a generative-art icon",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0501",
+      "date": "2021",
+      "title": "Loot launches as text-only NFT primitives",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0502",
+      "date": "2021",
+      "title": "Axie Infinity token economics support large player guilds",
+      "branch": [
+        "GAMING",
+        "NFT"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0503",
+      "date": "2021",
+      "title": "Ronin sidechain supports Axie's rapid expansion",
+      "branch": [
+        "GAMING",
+        "BRIDGES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0504",
+      "date": "2021",
+      "title": "Avalanche reaches major DeFi adoption",
+      "branch": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0505",
+      "date": "2021",
+      "title": "Fantom DeFi ecosystem grows rapidly",
+      "branch": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0506",
+      "date": "2021",
+      "title": "Terra LUNA reaches top-tier market capitalization",
+      "branch": [
+        "ALTCOINS",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0507",
+      "date": "2021",
+      "title": "FTX acquires naming rights to Miami Heat arena",
+      "branch": [
+        "FTX",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0508",
+      "date": "2021",
+      "title": "FTX signs major sports and celebrity partnerships",
+      "branch": [
+        "FTX",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0509",
+      "date": "2022",
+      "title": "UST briefly regains peg before final collapse",
+      "branch": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0510",
+      "date": "2022",
+      "title": "LUNA supply hyperinflates during death spiral",
+      "branch": [
+        "ALTCOINS",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0511",
+      "date": "2022",
+      "title": "Terra blockchain is halted during collapse",
+      "branch": [
+        "ALTCOINS",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0512",
+      "date": "2022",
+      "title": "Luna 2.0 launches after community vote",
+      "branch": [
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0513",
+      "date": "2022",
+      "title": "Celsius CEO Alex Mashinsky resigns",
+      "branch": [
+        "CEFI",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0514",
+      "date": "2022",
+      "title": "Voyager customers become trapped in bankruptcy process",
+      "branch": [
+        "CEFI",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0515",
+      "date": "2022",
+      "title": "FTX bankruptcy reveals massive internal control failures",
+      "branch": [
+        "FTX",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0516",
+      "date": "2022",
+      "title": "John Ray III takes over FTX restructuring",
+      "branch": [
+        "FTX",
+        "PEOPLE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0517",
+      "date": "2022",
+      "title": "BlockFi halts withdrawals after FTX collapse",
+      "branch": [
+        "CEFI",
+        "FTX",
+        "CONTAGION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0518",
+      "date": "2022",
+      "title": "Genesis suspends redemptions in lending business",
+      "branch": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0519",
+      "date": "2023",
+      "title": "SBF extradited to the United States",
+      "branch": [
+        "FTX",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0520",
+      "date": "2023",
+      "title": "SBF trial features testimony from former FTX executives",
+      "branch": [
+        "FTX",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0521",
+      "date": "2023",
+      "title": "FTX bankruptcy estate begins large-scale asset recovery efforts",
+      "branch": [
+        "FTX",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0522",
+      "date": "2023",
+      "title": "Coinbase launches Base as an Ethereum L2",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0523",
+      "date": "2023",
+      "title": "Arbitrum governance faces backlash over foundation funding proposal",
+      "branch": [
+        "ETHEREUM",
+        "DAO",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0524",
+      "date": "2023",
+      "title": "Optimism distributes additional governance airdrops",
+      "branch": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0525",
+      "date": "2023",
+      "title": "Celestia launches modular data-availability network",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0526",
+      "date": "2023",
+      "title": "EigenLayer deposits begin popularizing restaking",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0527",
+      "date": "2023",
+      "title": "Ordinals inscriptions surpass major milestone counts",
+      "branch": [
+        "BITCOIN",
+        "NFT"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0528",
+      "date": "2023",
+      "title": "BRC-20 creates fungible-token mania on Bitcoin",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0529",
+      "date": "2023",
+      "title": "PEPE token reaches billion-dollar-scale meme attention",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0530",
+      "date": "2023",
+      "title": "BONK airdrop helps energize Solana ecosystem",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0531",
+      "date": "2023",
+      "title": "Jito launches governance token with large Solana airdrop",
+      "branch": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0532",
+      "date": "2024",
+      "title": "Bitcoin ETF issuers wage a fee war before launch",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0533",
+      "date": "2024",
+      "title": "Grayscale experiences sustained Bitcoin ETF outflows",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0534",
+      "date": "2024",
+      "title": "BlackRock IBIT overtakes major competitors in spot Bitcoin ETF assets",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0535",
+      "date": "2024",
+      "title": "Hong Kong spot crypto ETFs begin trading",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0536",
+      "date": "2024",
+      "title": "Ethereum ETF issuers compete over fees and staking limitations",
+      "branch": [
+        "ETHEREUM",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0537",
+      "date": "2024",
+      "title": "Spot Ether ETFs begin trading in the United States",
+      "branch": [
+        "ETHEREUM",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0538",
+      "date": "2024",
+      "title": "Pump.fun graduates thousands of meme tokens onto Solana DEXs",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0539",
+      "date": "2024",
+      "title": "Solana network congestion rises during meme-coin boom",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0540",
+      "date": "2024",
+      "title": "Jupiter becomes a central Solana trading aggregator",
+      "branch": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0541",
+      "date": "2024",
+      "title": "Base becomes a leading Ethereum L2 by activity",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0542",
+      "date": "2024",
+      "title": "Farcaster social protocol gains renewed attention",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0543",
+      "date": "2024",
+      "title": "friend.tech activity collapses after early social-finance boom",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0544",
+      "date": "2024",
+      "title": "Runes launch creates a burst of Bitcoin blockspace demand",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0545",
+      "date": "2024",
+      "title": "Mt. Gox begins distributing Bitcoin to creditors through exchanges",
+      "branch": [
+        "EXCHANGES",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0546",
+      "date": "2024",
+      "title": "WazirX freezes withdrawals after hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0547",
+      "date": "2024",
+      "title": "DMM Bitcoin announces losses after theft",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0548",
+      "date": "2024",
+      "title": "TON ecosystem games bring crypto to huge Telegram audiences",
+      "branch": [
+        "ALTCOINS",
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0549",
+      "date": "2024",
+      "title": "Hamster Kombat becomes a viral Telegram crypto game",
+      "branch": [
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0550",
+      "date": "2024",
+      "title": "Notcoin popularizes tap-to-earn token distribution on Telegram",
+      "branch": [
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0551",
+      "date": "2024",
+      "title": "Polymarket election markets draw global mainstream attention",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0552",
+      "date": "2024",
+      "title": "Prediction-market data is widely cited by mainstream media",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0553",
+      "date": "2025",
+      "title": "Bybit resumes withdrawals rapidly after hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0554",
+      "date": "2025",
+      "title": "Lazarus Group attribution becomes central to Bybit investigation",
+      "branch": [
+        "HACKS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0555",
+      "date": "2025",
+      "title": "Pectra raises Ethereum maximum effective validator balance",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0556",
+      "date": "2025",
+      "title": "Pectra adds account-abstraction-style wallet functionality",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0557",
+      "date": "2025",
+      "title": "Fusaka advances Ethereum data-availability scaling",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0558",
+      "date": "2025",
+      "title": "Tokenized Treasury funds exceed major market milestones",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0559",
+      "date": "2025",
+      "title": "Stablecoin payments become a major fintech competition theme",
+      "branch": [
+        "STABLECOINS",
+        "ADOPTION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0560",
+      "date": "2025",
+      "title": "Major banks expand tokenized-deposit and stablecoin experiments",
+      "branch": [
+        "INSTITUTIONS",
+        "STABLECOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0561",
+      "date": "2013",
+      "title": "Mastercoin becomes one of the first major token-layer projects on Bitcoin",
+      "branch": [
+        "BITCOIN",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0562",
+      "date": "2014",
+      "title": "Counterparty launches decentralized asset issuance on Bitcoin",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0563",
+      "date": "2015",
+      "title": "Colored Coins experimentation influences later NFT and token ideas",
+      "branch": [
+        "BITCOIN",
+        "NFT",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0564",
+      "date": "2014",
+      "title": "Namecoin identity and naming experiments continue beyond currency use",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0565",
+      "date": "2014",
+      "title": "Dash launches as Darkcoin with privacy-focused branding",
+      "branch": [
+        "ALTCOINS",
+        "PRIVACY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0566",
+      "date": "2015",
+      "title": "Dash rebrands from Darkcoin",
+      "branch": [
+        "ALTCOINS",
+        "PRIVACY"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0567",
+      "date": "2014",
+      "title": "Monero community takes over from Bytecoin/CryptoNote controversy",
+      "branch": [
+        "PRIVACY",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0568",
+      "date": "2018",
+      "title": "Monero adopts Bulletproofs",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0569",
+      "date": "2020",
+      "title": "Monero delistings increase on regulated exchanges",
+      "branch": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0570",
+      "date": "2022",
+      "title": "Kraken removes Monero for UK customers",
+      "branch": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0571",
+      "date": "2016",
+      "title": "Zcash launches shielded-address privacy system",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0572",
+      "date": "2018",
+      "title": "Zcash Sapling improves shielded transaction usability",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0573",
+      "date": "2022",
+      "title": "Zcash Halo removes trusted setup dependence for newer pools",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0574",
+      "date": "2020",
+      "title": "Tornado Cash governance token launches",
+      "branch": [
+        "PRIVACY",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0575",
+      "date": "2022",
+      "title": "OFAC sanctions Tornado Cash smart contracts",
+      "branch": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0576",
+      "date": "2023",
+      "title": "US prosecutors charge Tornado Cash founders",
+      "branch": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0577",
+      "date": "2019",
+      "title": "Wasabi Wallet CoinJoin usage grows",
+      "branch": [
+        "BITCOIN",
+        "PRIVACY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0578",
+      "date": "2020",
+      "title": "Samourai Wallet Whirlpool gains privacy-focused Bitcoin users",
+      "branch": [
+        "BITCOIN",
+        "PRIVACY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0579",
+      "date": "2024",
+      "title": "US authorities charge Samourai Wallet founders",
+      "branch": [
+        "BITCOIN",
+        "PRIVACY",
+        "GOVERNMENTS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0580",
+      "date": "2017",
+      "title": "Ledger hardware wallets gain mass-market adoption",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0581",
+      "date": "2017",
+      "title": "Trezor popularizes recovery-seed self-custody practices",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0582",
+      "date": "2020",
+      "title": "Ledger customer-data breach exposes hardware-wallet buyers",
+      "branch": [
+        "SECURITY",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0583",
+      "date": "2023",
+      "title": "Ledger Recover controversy triggers self-custody debate",
+      "branch": [
+        "SECURITY",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0584",
+      "date": "2016",
+      "title": "The DAO attack popularizes reentrancy as a smart-contract risk",
+      "branch": [
+        "ETHEREUM",
+        "HACKS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0585",
+      "date": "2018",
+      "title": "Smart-contract audits become standard practice after repeated hacks",
+      "branch": [
+        "SECURITY",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0586",
+      "date": "2020",
+      "title": "bZx flash-loan attacks expose composability risks",
+      "branch": [
+        "DEFI",
+        "HACKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0587",
+      "date": "2021",
+      "title": "Poly Network exploit crosses multiple chains",
+      "branch": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0588",
+      "date": "2022",
+      "title": "Wormhole exploit mints unbacked wrapped ETH",
+      "branch": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0589",
+      "date": "2022",
+      "title": "Ronin exploit compromises validator keys",
+      "branch": [
+        "HACKS",
+        "BRIDGES",
+        "GAMING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0590",
+      "date": "2022",
+      "title": "Nomad exploit is copied by dozens of addresses",
+      "branch": [
+        "HACKS",
+        "BRIDGES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0591",
+      "date": "2023",
+      "title": "Euler attacker negotiates publicly on-chain",
+      "branch": [
+        "HACKS",
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0592",
+      "date": "2023",
+      "title": "Curve founder loans become market concern after exploit",
+      "branch": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0593",
+      "date": "2024",
+      "title": "Radiant exploit highlights multisig and operational-security risk",
+      "branch": [
+        "HACKS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0594",
+      "date": "2017",
+      "title": "ENS launches .eth names",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0595",
+      "date": "2021",
+      "title": "ENS names become part of Crypto Twitter identity",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0596",
+      "date": "2022",
+      "title": "ENS domain registrations hit record levels",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0597",
+      "date": "2019",
+      "title": "Unstoppable Domains expands blockchain naming market",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0598",
+      "date": "2020",
+      "title": "Gitcoin Grants popularizes quadratic funding in crypto",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0599",
+      "date": "2021",
+      "title": "Gitcoin community transitions toward DAO governance",
+      "branch": [
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0600",
+      "date": "2021",
+      "title": "Nouns DAO begins daily on-chain NFT auctions",
+      "branch": [
+        "DAO",
+        "NFT"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0601",
+      "date": "2022",
+      "title": "UkraineDAO raises funds through crypto-native coordination",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0602",
+      "date": "2021",
+      "title": "PleasrDAO buys the original Doge meme NFT",
+      "branch": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0603",
+      "date": "2021",
+      "title": "FreeRossDAO raises funds around Ross Ulbricht NFT auction",
+      "branch": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0604",
+      "date": "2021",
+      "title": "ConstitutionDAO issues PEOPLE token after failed auction",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0605",
+      "date": "2022",
+      "title": "ConstitutionDAO token continues trading after DAO disbands",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0606",
+      "date": "2019",
+      "title": "DeFi term gains widespread use for open financial protocols",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0607",
+      "date": "2020",
+      "title": "Total value locked becomes a headline DeFi metric",
+      "branch": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0608",
+      "date": "2021",
+      "title": "DeFi TVL reaches hundreds of billions across chains",
+      "branch": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0609",
+      "date": "2022",
+      "title": "DeFi TVL collapses during bear market",
+      "branch": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0610",
+      "date": "2024",
+      "title": "Restaking becomes one of Ethereum's largest new DeFi sectors",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0611",
+      "date": "2024",
+      "title": "Liquid restaking tokens proliferate",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0612",
+      "date": "2020",
+      "title": "Serum launches on Solana with FTX backing",
+      "branch": [
+        "ALTCOINS",
+        "DEX",
+        "FTX"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0613",
+      "date": "2022",
+      "title": "Serum becomes unusable after FTX compromise concerns",
+      "branch": [
+        "ALTCOINS",
+        "FTX",
+        "DISASTERS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0614",
+      "date": "2023",
+      "title": "Jupiter grows as a core Solana liquidity-routing venue",
+      "branch": [
+        "ALTCOINS",
+        "DEX"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0615",
+      "date": "2024",
+      "title": "Jupiter DAO launches with JUP token",
+      "branch": [
+        "ALTCOINS",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0616",
+      "date": "2021",
+      "title": "Raydium becomes a major Solana DEX",
+      "branch": [
+        "ALTCOINS",
+        "DEX"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0617",
+      "date": "2021",
+      "title": "Magic Eden launches and becomes a major Solana NFT marketplace",
+      "branch": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0618",
+      "date": "2022",
+      "title": "Solana mobile Saga phone is announced",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0619",
+      "date": "2023",
+      "title": "Saga phone sales spike after BONK airdrop arbitrage",
+      "branch": [
+        "ALTCOINS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0620",
+      "date": "2024",
+      "title": "Solana Firedancer test development gains major attention",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0621",
+      "date": "2020",
+      "title": "Cardano Shelley introduces staking",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0622",
+      "date": "2021",
+      "title": "Cardano Alonzo enables smart contracts",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0623",
+      "date": "2021",
+      "title": "Cardano Mary enables native assets",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0624",
+      "date": "2022",
+      "title": "Cardano Vasil upgrade improves smart-contract capabilities",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0625",
+      "date": "2018",
+      "title": "EOS launches after record fundraising",
+      "branch": [
+        "ALTCOINS",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0626",
+      "date": "2019",
+      "title": "EOS governance controversies intensify",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0627",
+      "date": "2020",
+      "title": "Steem hard forks after governance dispute involving Justin Sun",
+      "branch": [
+        "ALTCOINS",
+        "FORKS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0628",
+      "date": "2020",
+      "title": "Hive launches as community fork of Steem",
+      "branch": [
+        "ALTCOINS",
+        "FORKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0629",
+      "date": "2019",
+      "title": "Polkadot token sales and governance develop before mainnet",
+      "branch": [
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0630",
+      "date": "2020",
+      "title": "Polkadot mainnet launches",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0631",
+      "date": "2021",
+      "title": "Polkadot parachain slot auctions start",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0632",
+      "date": "2019",
+      "title": "Cosmos Hub launches",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0633",
+      "date": "2021",
+      "title": "Cosmos IBC launches cross-chain communication",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED"
+    },
+    {
+      "id": "LORE-EVT-0634",
+      "date": "2022",
+      "title": "Terra collapse impacts Cosmos ecosystem confidence",
+      "branch": [
+        "ALTCOINS",
+        "CONTAGION"
       ],
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED"
