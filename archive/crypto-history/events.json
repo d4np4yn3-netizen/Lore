@@ -1772,12 +1772,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_PROJECT_ARCHIVE",
+        "exact_date": "2023-01-20",
+        "summary": "Ordinal inscriptions reached Bitcoin mainnet in January 2023 through Casey Rodarmor's ord software, allowing arbitrary content to be inscribed onto individual satoshis.",
+        "significance": "Ordinals created a new Bitcoin-native collectibles and data economy, leading directly to inscription markets, BRC-20 and renewed blockspace debates.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ordinals.com archive — inscriptions hit mainnet Jan. 20, 2023",
+            "url": "https://ordinals.com/content/80bf1d454aae3e9a8f1c945f00e5d5113782601dc7bbdabfcb1c4f42558a449fi0",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Ordinals/ord GitHub",
+            "url": "https://github.com/ordinals/ord",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1794,12 +1805,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-06-15",
+        "summary": "BlackRock's iShares Bitcoin Trust filed a Form S-1 registration statement with the SEC on 15 June 2023.",
+        "significance": "The filing by the world's largest asset manager transformed expectations around a US spot Bitcoin ETF and triggered a wave of competing applications.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC EDGAR — iShares Bitcoin Trust S-1 filing",
+            "url": "https://www.sec.gov/Archives/edgar/data/1980994/0001437749-23-017574-index.html",
+            "type": "REGULATORY_FILING"
+          },
+          {
+            "title": "SEC EDGAR — iShares Bitcoin Trust filing cover letter",
+            "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774923017574/filename6.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1816,12 +1838,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-06-29",
+        "summary": "The EU Markets in Crypto-Assets Regulation (MiCA) entered into force on 29 June 2023 after publication in the Official Journal on 9 June.",
+        "significance": "MiCA created the EU's first comprehensive cross-border regulatory framework specifically for crypto-assets and service providers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — MiCA came into force 29 June 2023",
+            "url": "https://finance.ec.europa.eu/digital-finance/crypto-assets_en",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "EUR-Lex — Regulation (EU) 2023/1114",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj/eng",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1838,12 +1871,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-11-02",
+        "summary": "A federal jury convicted Sam Bankman-Fried on seven fraud and conspiracy counts after a month-long trial over the misuse of FTX customer funds and deception of investors and lenders.",
+        "significance": "The conviction provided the criminal verdict on the conduct behind crypto's defining 2022 exchange collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ SDNY — Bankman-Fried conviction / fraud summary",
+            "url": "https://www.justice.gov/usao-sdny/prosecuting-fraud",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "DOJ SDNY — SBF sentenced (recaps Nov. 2 conviction)",
+            "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3726,12 +3770,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-03-10 to 2023-03-13",
+        "summary": "After Silicon Valley Bank failed, Circle disclosed that $3.3 billion of USDC reserves were held at the bank; USDC traded below $1 over the weekend before recovering after US authorities protected depositors.",
+        "significance": "The episode was the largest stress test of a major reserve-backed stablecoin and revealed the dependence of on-chain money on conventional banks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — $3.3B SVB reserve risk removed and depeg closes",
+            "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "FDIC — 2023 bank failures",
+            "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/2023",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3747,12 +3802,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-04-12T22:27:35Z",
+        "summary": "Ethereum's Shanghai-Capella (Shapella) upgrade activated, enabling validators to withdraw staked ETH and rewards from the Beacon Chain.",
+        "significance": "Shapella completed the withdrawal functionality missing from Ethereum's proof-of-stake transition and materially changed staking liquidity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Ethereum fork timeline / Shapella",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3770,15 +3831,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_NUANCE",
+        "exact_date": "2023-07-13",
+        "summary": "In SEC v. Ripple Labs, the district court ruled that Ripple's institutional XRP sales under written contracts were securities transactions, while programmatic exchange sales did not satisfy Howey on the record before the court.",
+        "significance": "The mixed ruling became a major US crypto-securities precedent and immediately affected exchange listings and market expectations.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — remarks citing July 13 Ripple ruling",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/gurbir-remarks-sec-speaks-04032024",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC filing summarizing July 13 Ripple ruling",
+            "url": "https://www.sec.gov/Archives/edgar/data/2087587/000121390026057731/ea0290495-01.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not simplify this to 'XRP was ruled not a security'; the ruling distinguished transaction types."
       }
     },
     {
@@ -3793,12 +3865,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-08-29",
+        "summary": "The D.C. Circuit granted Grayscale's petition for review of the SEC's rejection of its proposed conversion of GBTC to a spot Bitcoin ETF and vacated the order.",
+        "significance": "The court victory removed a major legal obstacle in the path to US spot Bitcoin ETF approvals.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "D.C. Circuit — Grayscale Investments v. SEC opinion",
+            "url": "https://media.cadc.uscourts.gov/opinions/docs/2023/08/22-1142-2014527.pdf",
+            "type": "COURT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3815,12 +3893,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-08-07",
+        "summary": "PayPal announced PayPal USD (PYUSD), a dollar-denominated stablecoin issued by Paxos and backed by cash deposits, short-term Treasuries and similar cash equivalents.",
+        "significance": "PYUSD put a major global payments company directly into stablecoin issuance.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PayPal — launches PYUSD",
+            "url": "https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3837,12 +3921,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-08-09",
+        "summary": "Coinbase-incubated Base opened its Ethereum layer-2 mainnet for general public use on 9 August 2023 as part of its Onchain Summer launch.",
+        "significance": "Base became one of Ethereum's most important rollups and a direct bridge between a major centralized exchange's user base and on-chain applications.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Base — Onchain Summer and public mainnet launch date",
+            "url": "https://blog.base.org/its-onchain-summer-%F0%9F%9F%A1-and-base-is-open-for-bridging",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4225,12 +4315,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-11-21",
+        "summary": "Binance pleaded guilty to federal charges and agreed to pay more than $4 billion in coordinated US resolutions; founder and CEO Changpeng Zhao separately pleaded guilty to violating the Bank Secrecy Act and resigned.",
+        "significance": "The settlement was one of the largest criminal resolutions in crypto history and forced a leadership transition at the world's largest exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Binance and CZ guilty pleas / $4B resolution",
+            "url": "https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "DOJ — United States v. Binance case",
+            "url": "https://www.justice.gov/criminal/case/united-states-v-binance-holdings-limited-dba-binancecom",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4270,14 +4371,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2023-06-29",
+        "summary": "This is the same MiCA entry-into-force milestone as LORE-EVT-0060.",
+        "significance": "Canonicalized to LORE-EVT-0060.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — MiCA came into force 29 June 2023",
+            "url": "https://finance.ec.europa.eu/digital-finance/crypto-assets_en",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "EUR-Lex — Regulation (EU) 2023/1114",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj/eng",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0060",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -7031,12 +7143,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-03-08",
+        "summary": "Silvergate Capital announced that it intended to wind down operations and voluntarily liquidate Silvergate Bank, with a plan to repay deposits in full.",
+        "significance": "Silvergate's wind-down removed one of crypto's most important US banking rails immediately before the wider March banking crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Silvergate — intent to wind down and voluntarily liquidate bank",
+            "url": "https://silvergate.com/uncategorized/silvergate-capital-corporation-announces-intent-to-wind-down-operations-and-voluntarily-liquidate-silvergate-bank/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7053,12 +7171,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-03-12",
+        "summary": "New York regulators closed Signature Bank and appointed the FDIC as receiver; the FDIC created Signature Bridge Bank and protected depositors under the systemic-risk exception.",
+        "significance": "Signature's failure, days after Silvergate and SVB, deepened the loss of major US banking infrastructure used by crypto firms.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FDIC — Signature Bank closure",
+            "url": "https://www.fdic.gov/news/press-releases/2023/pr23018.html",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7076,15 +7200,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AS_ALLEGATIONS",
+        "exact_date": "2023-06-05",
+        "summary": "The SEC filed 13 charges against Binance entities and Changpeng Zhao, alleging securities-law, registration, trading-control and customer-access violations.",
+        "significance": "The lawsuit became one of the SEC's two defining 2023 enforcement cases against major US-facing crypto trading platforms.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — charges Binance and Changpeng Zhao",
+            "url": "https://www.sec.gov/newsroom/press-releases/2023-101-sec-files-13-charges-against-binance-entities-founder-changpeng-zhao",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Describe contested conduct as SEC allegations unless later adjudicated."
       }
     },
     {
@@ -7099,15 +7229,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AS_ALLEGATIONS",
+        "exact_date": "2023-06-06",
+        "summary": "The SEC sued Coinbase, alleging it operated as an unregistered securities exchange, broker and clearing agency and offered an unregistered staking-as-a-service program.",
+        "significance": "The case became a central US test of how existing securities laws apply to large crypto exchanges and staking services.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — charges Coinbase",
+            "url": "https://www.sec.gov/newsroom/press-releases/2023-102",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Describe contested conduct as SEC allegations unless later adjudicated."
       }
     },
     {
@@ -14496,14 +14632,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2023-08-09",
+        "summary": "This is the same public Base mainnet launch as LORE-EVT-0133.",
+        "significance": "Canonicalized to LORE-EVT-0133.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Base — Onchain Summer and public mainnet launch date",
+            "url": "https://blog.base.org/its-onchain-summer-%F0%9F%9F%A1-and-base-is-open-for-bridging",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0133",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -21988,14 +22130,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2023-03-10",
+        "summary": "Silicon Valley Bank's failure directly affected Circle because part of USDC's cash reserve was held there.",
+        "significance": "The episode demonstrated crypto's reliance on traditional banking partners even for on-chain stablecoins.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FDIC — 2023 bank failures",
+            "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/2023",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Circle — $3.3B SVB reserve risk removed and depeg closes",
+            "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0128",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -22010,14 +22163,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2023-03-10 to 2023-03-11",
+        "summary": "Circle disclosed that $3.3 billion of USDC cash reserves, roughly 8% of reserves at the time, remained at Silicon Valley Bank.",
+        "significance": "The disclosure was the balance-sheet fact that drove the USDC market panic.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — $3.3B SVB reserve risk removed and depeg closes",
+            "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0128",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -22077,14 +22236,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2023-11-21",
+        "summary": "Changpeng Zhao pleaded guilty to failing to maintain an effective anti-money-laundering program and resigned as Binance CEO.",
+        "significance": "CZ's resignation ended the founder-led era at Binance after six years of extraordinary growth.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Binance and CZ guilty pleas / $4B resolution",
+            "url": "https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0148",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -22099,14 +22264,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2023-11-21",
+        "summary": "Binance named Richard Teng CEO following Changpeng Zhao's resignation.",
+        "significance": "The succession marked Binance's transition toward a compliance-focused post-founder leadership structure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — United States v. Binance case",
+            "url": "https://www.justice.gov/criminal/case/united-states-v-binance-holdings-limited-dba-binancecom",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0148",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -29363,14 +29534,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2023-08-09",
+        "summary": "Base launched without a native network token and has repeatedly framed ETH as the gas asset.",
+        "significance": "The no-token launch distinguished Base from many contemporary L2 airdrop models.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Base — Onchain Summer and public mainnet launch date",
+            "url": "https://blog.base.org/its-onchain-summer-%F0%9F%9F%A1-and-base-is-open-for-bridging",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0133",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -31395,12 +31572,28 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023-03-08 to 2023-03-12",
+        "summary": "Silvergate announced liquidation, Silicon Valley Bank failed and Signature Bank was closed within a few days.",
+        "significance": "The cluster became crypto's 2023 banking crisis because each institution had meaningful links to digital-asset companies, stablecoin reserves or payment rails.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Silvergate — intent to wind down and voluntarily liquidate bank",
+            "url": "https://silvergate.com/uncategorized/silvergate-capital-corporation-announces-intent-to-wind-down-operations-and-voluntarily-liquidate-silvergate-bank/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "FDIC — 2023 bank failures",
+            "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/2023",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "FDIC — Signature Bank closure",
+            "url": "https://www.fdic.gov/news/press-releases/2023/pr23018.html",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
