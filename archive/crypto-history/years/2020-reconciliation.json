@@ -6,10 +6,10 @@
   "evidence_file": "2020.json",
   "note": "Reconciliation generated from preserved 2020 research states. NEEDS_RESEARCH rows require explicit evidence review. Canonical file will be rewritten after those rows are resolved.",
   "counts": {
-    "CANONICAL": 43,
-    "CONTEXT": 15,
+    "CANONICAL": 52,
+    "CONTEXT": 18,
     "MERGED": 13,
-    "NEEDS_RESEARCH": 44
+    "NEEDS_RESEARCH": 32
   },
   "rows": [
     {
@@ -987,11 +987,11 @@
         "DEX",
         "FTX"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-serum-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1020,11 +1020,11 @@
         "FORKS",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-hive-community-fork",
+      "legacy_canonical_event_id": "LORE-EVT-0628",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1036,11 +1036,11 @@
         "ALTCOINS",
         "FORKS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-hive-community-fork",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1085,11 +1085,11 @@
         "BITCOIN",
         "PEOPLE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-paul-tudor-jones-bitcoin",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1117,11 +1117,11 @@
         "INSTITUTIONS",
         "BITCOIN"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-massmutual-buys-bitcoin",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM_HIGH",
       "note": null
     },
     {
@@ -1309,9 +1309,9 @@
         "FTX",
         "EXCHANGES"
       ],
-      "legacy_research_state": "DATE_CORRECTED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-ftx-acquires-blockfolio",
       "legacy_canonical_event_id": null,
       "source_confidence": "HIGH",
       "note": null
@@ -1342,12 +1342,12 @@
         "ALTCOINS",
         "NFT"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-flow-beta-mainnet",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Current primary source establishes September 2020 beta-mainnet status but not a single exact activation day."
     },
     {
       "legacy_id": "LORE-EVT-0921",
@@ -1702,12 +1702,12 @@
         "GOVERNMENTS",
         "CRIME"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Move to 2021 canonical reconciliation; exclude from 2020 scoring."
     },
     {
       "legacy_id": "LORE-EVT-1166",
@@ -1718,11 +1718,11 @@
         "SCAMS",
         "CRIME"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-plustoken-organizers-convicted",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM_HIGH",
       "note": null
     },
     {
@@ -1799,11 +1799,11 @@
         "NFT",
         "DAO"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-rarible-rari-governance",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1815,12 +1815,12 @@
         "NFT",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Move into 2018 canonical reconciliation; exclude from 2020 scoring."
     },
     {
       "legacy_id": "LORE-EVT-1209",
@@ -1831,11 +1831,11 @@
         "NFT",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-nifty-gateway-2-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
