@@ -6,11 +6,10 @@
   "evidence_file": "2022.json",
   "note": "Every legacy candidate is assigned a reconciliation outcome. RESEARCHED_PENDING_MIGRATION already has evidence in the preserved master; NEEDS_RESEARCH requires additional work or rejection.",
   "counts": {
-    "CANONICAL": 15,
+    "CANONICAL": 17,
     "RESEARCHED_PENDING_MIGRATION": 67,
-    "CONTEXT": 50,
-    "MERGED": 18,
-    "NEEDS_RESEARCH": 3
+    "CONTEXT": 51,
+    "MERGED": 18
   },
   "rows": [
     {
@@ -1575,12 +1574,12 @@
         "NFT",
         "CULTURE"
       ],
-      "legacy_research_state": "SOURCE_GAP_CONFIRMED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-pak-assange-censored",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Censored auction ran 7-9 Feb 2022; AssangeDAO bought Clock. Use campaign/DAO sources for exact proceeds and purpose."
     },
     {
       "legacy_id": "LORE-EVT-0912",
@@ -1739,12 +1738,12 @@
         "PEOPLE",
         "EXCHANGES"
       ],
-      "legacy_research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_ATTRIBUTION",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-cz-bloomberg-96b-estimate",
       "legacy_canonical_event_id": null,
-      "source_confidence": "MEDIUM_HIGH",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Attribute the $96B figure to Bloomberg's 10 Jan 2022 estimate; it excluded personal crypto holdings and was not a fixed audited net worth."
     },
     {
       "legacy_id": "LORE-EVT-0982",
@@ -1838,12 +1837,12 @@
         "PRIVACY",
         "CRIME"
       ],
-      "legacy_research_state": "CLAIM_NEEDS_REWRITE",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_QUALIFIER",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Chainalysis observed more ransomware actors demanding Monero, but stated the vast majority still demanded Bitcoin. Treat as trend context, not a point event."
     },
     {
       "legacy_id": "LORE-EVT-1046",
@@ -2497,5 +2496,6 @@
       "source_confidence": "HIGH",
       "note": null
     }
-  ]
+  ],
+  "status": "COMPLETE"
 }
