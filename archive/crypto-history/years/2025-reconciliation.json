@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "year": 2025,
+  "updated": "2026-09-26",
+  "source_queue": "2025-legacy-candidates.json",
+  "evidence_file": "2025.json",
+  "counts": {
+    "CANONICAL": 9,
+    "MERGED": 12,
+    "CONTEXT": 3
+  },
+  "rows": [
+    {
+      "legacy_id": "LORE-EVT-0065",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-003",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0066",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-005",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0067",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-009",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0068",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-013",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0143",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-002",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0174",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-006",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0175",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-010",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0176",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-012",
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_DATA"
+    },
+    {
+      "legacy_id": "LORE-EVT-0553",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-003",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0554",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-004",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0555",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-009",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0556",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-009",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0557",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-013",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0558",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-007",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0559",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-010",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0560",
+      "resolution": "CONTEXT",
+      "canonical_id": null,
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0872",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-005",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0873",
+      "resolution": "CANONICAL",
+      "canonical_id": "LORE-CAN-2025-014",
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "legacy_id": "LORE-EVT-0874",
+      "resolution": "CONTEXT",
+      "canonical_id": null,
+      "legacy_research_state": "VERIFIED_CONTEXT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0875",
+      "resolution": "CONTEXT",
+      "canonical_id": null,
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0876",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-010",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0877",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-012",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT"
+    },
+    {
+      "legacy_id": "LORE-EVT-0878",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-012",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "legacy_id": "LORE-EVT-0879",
+      "resolution": "MERGED",
+      "canonical_id": "LORE-CAN-2025-012",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    }
+  ],
+  "status": "COMPLETE"
+}
