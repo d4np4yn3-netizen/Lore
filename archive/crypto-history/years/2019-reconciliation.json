@@ -1,0 +1,1238 @@
+{
+  "schema_version": "1.0",
+  "year": 2019,
+  "updated": "2026-09-26",
+  "source_queue": "2019-legacy-candidates.json",
+  "evidence_file": "2019.json",
+  "note": "2019 reconciliation from preserved evidence. MOVED rows have corrected dates outside 2019 and must be incorporated into their correct year during that year's reconciliation.",
+  "counts": {
+    "CANONICAL": 37,
+    "CONTEXT": 26,
+    "MERGED": 5,
+    "MOVED": 2,
+    "NEEDS_RESEARCH": 1
+  },
+  "rows": [
+    {
+      "legacy_id": "LORE-EVT-0039",
+      "date": "2019",
+      "title": "QuadrigaCX collapse and missing-key saga",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_QUALIFIER",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-quadrigacx-collapse-and-missing-key-saga",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0107",
+      "date": "2019",
+      "title": "Facebook announces Libra",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS",
+        "GOVERNMENTS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-facebook-announces-libra",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0108",
+      "date": "2019",
+      "title": "Binance suffers a major Bitcoin theft",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-binance-suffers-a-major-bitcoin-theft",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0109",
+      "date": "2019",
+      "title": "PlusToken becomes one of crypto's largest alleged Ponzi schemes",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_FORENSIC_QUALIFIER",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-plustoken-becomes-one-of-cryptos-largest-alleged-ponzi-schemes",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Asset/value totals vary by source; keep them attributed to Chainalysis or court findings rather than presenting one universal loss figure.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0223",
+      "date": "2019-01-31",
+      "title": "Wrapped Bitcoin brings BTC liquidity to Ethereum",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-wrapped-bitcoin-brings-btc-liquidity-to-ethereum",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0224",
+      "date": "2019",
+      "title": "Cosmos mainnet launches",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-cosmos-mainnet-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Launch was 14 March 07:08 Beijing time, approximately 13 March 23:08 UTC.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0225",
+      "date": "2019",
+      "title": "Bakkt launches physically settled Bitcoin futures",
+      "tier": "MAJOR",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-bakkt-launches-physically-settled-bitcoin-futures",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0226",
+      "date": "2019",
+      "title": "Telegram TON token sale faces SEC action",
+      "tier": "MAJOR",
+      "branches": [
+        "ICO",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-telegram-ton-token-sale-faces-sec-action",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0288",
+      "date": "2019",
+      "title": "FATF introduces crypto Travel Rule framework",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-fatf-introduces-crypto-travel-rule-framework",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0289",
+      "date": "2019",
+      "title": "MakerDAO transitions toward Multi-Collateral Dai",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-makerdao-transitions-toward-multi-collateral-dai",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0290",
+      "date": "2019",
+      "title": "Synthetix.Exchange fully launches with sBTC and other Synths",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-synthetixexchange-fully-launches-with-sbtc-and-other-synths",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0315",
+      "date": "2019",
+      "title": "New York Attorney General investigates Bitfinex and Tether reserves",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-new-york-attorney-general-investigates-bitfinex-and-tether-reserves",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0365",
+      "date": "2019",
+      "title": "Cryptopia enters liquidation after hack",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "HACKS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-cryptopia-enters-liquidation-after-hack",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0367",
+      "date": "2019",
+      "title": "QuadrigaCX founder death becomes central to exchange insolvency mystery",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0039",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0368",
+      "date": "2019",
+      "title": "QuadrigaCX court proceedings expose missing customer assets",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0039",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0382",
+      "date": "2019",
+      "title": "Chainlink mainnet launches",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-chainlink-mainnet-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0475",
+      "date": "2019",
+      "title": "Binance Launchpad's BitTorrent sale kick-starts the IEO era",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-binance-launchpads-bittorrent-sale-kick-starts-the-ieo-era",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0476",
+      "date": "2019",
+      "title": "IEO mania briefly replaces ICO fundraising",
+      "tier": "MAJOR",
+      "branches": [
+        "ICO",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_DATA",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0477",
+      "date": "2019",
+      "title": "Facebook Libra hearings bring crypto and stablecoins before lawmakers worldwide",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0107",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0478",
+      "date": "2019",
+      "title": "Telegram agrees to halt TON distribution amid SEC litigation",
+      "tier": "CORE",
+      "branches": [
+        "ICO",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_AFTERMATH",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0226",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0480",
+      "date": "2019",
+      "title": "Chainlink price-oracle adoption accelerates across DeFi",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0382",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0577",
+      "date": "2019",
+      "title": "Wasabi Wallet CoinJoin usage grows",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "PRIVACY"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Do not score as a standalone card unless a specific usage milestone is sourced.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0597",
+      "date": "2019",
+      "title": "Unstoppable Domains launches .crypto on Ethereum",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-unstoppable-domains-launches-crypto-on-ethereum",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0606",
+      "date": "2019",
+      "title": "DeFi term gains widespread use for open financial protocols",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0626",
+      "date": "2019",
+      "title": "EOS governance controversies intensify",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0629",
+      "date": "2019",
+      "title": "Polkadot token sales and governance develop before mainnet",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0632",
+      "date": "2019",
+      "title": "Cosmos Hub launches",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0224",
+      "source_confidence": "MEDIUM",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0731",
+      "date": "2019",
+      "title": "Lightning Torch travels globally across Twitter users",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-lightning-torch-travels-globally-across-twitter-users",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0732",
+      "date": "2019",
+      "title": "Jack Dorsey participates in Lightning Torch",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0731",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0733",
+      "date": "2019",
+      "title": "Cash App Bitcoin trading scales materially in 2019",
+      "tier": "CORE",
+      "branches": [
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_SEC_FILING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Not a 2019 launch event; Bitcoin buying began in Q4 2017.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0734",
+      "date": "2019",
+      "title": "Fidelity Digital Assets begins institutional custody services",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-fidelity-digital-assets-begins-institutional-custody-services",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0735",
+      "date": "2019",
+      "title": "Bakkt struggles initially despite heavy institutional hype",
+      "tier": "LORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_DATA",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0225",
+      "source_confidence": "MEDIUM",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0736",
+      "date": "2019",
+      "title": "Binance DEX launches on Binance Chain",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "DEX"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-binance-dex-launches-on-binance-chain",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0737",
+      "date": "2019",
+      "title": "FTX exchange launches",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-ftx-exchange-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0738",
+      "date": "2019",
+      "title": "Alameda Research expands as a major market-making firm",
+      "tier": "MAJOR",
+      "branches": [
+        "FTX",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0739",
+      "date": "2019",
+      "title": "BitMEX reports an $11 billion single-day trading record",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_COMPANY_REPORT",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-bitmex-reports-an-11-billion-single-day-trading-record",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0740",
+      "date": "2019",
+      "title": "PlusToken wallets become suspected source of market selling pressure",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_DATA",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0109",
+      "source_confidence": "LOW",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0741",
+      "date": "2019",
+      "title": "Crypto lending firms BlockFi and Celsius rapidly expand",
+      "tier": "CORE",
+      "branches": [
+        "CEFI"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_COMPANY_MILESTONES",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Sector context, not a single card-worthy event as currently phrased.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0742",
+      "date": "2019",
+      "title": "MakerDAO governance votes add new collateral types",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "DAO"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0289",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0883",
+      "date": "2019",
+      "title": "Metal seed-backup stress tests push self-custody hardware culture",
+      "tier": "LORE",
+      "branches": [
+        "SECURITY",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0884",
+      "date": "2011",
+      "title": "Stefan Thomas lost-password Bitcoin story becomes widely known",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "MOVED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Move/canonicalize into the 2011 lost-key chronology rather than score in 2019.",
+      "moved_to_year": "2011"
+    },
+    {
+      "legacy_id": "LORE-EVT-0890",
+      "date": "2019",
+      "title": "QuadrigaCX laptop and cold-wallet investigations fail to locate expected crypto",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0039",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0919",
+      "date": "2019",
+      "title": "Facebook Libra Association forms with major corporate members",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0107",
+      "source_confidence": "MEDIUM",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0920",
+      "date": "2019",
+      "title": "PayPal and other companies leave Libra Association",
+      "tier": "MAJOR",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0107",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0924",
+      "date": "2019",
+      "title": "JPMorgan announces JPM Coin",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-jpmorgan-announces-jpm-coin",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0936",
+      "date": "2019",
+      "title": "Bitmain launches the 7nm Antminer 17 generation",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-bitmain-launches-the-7nm-antminer-17-generation",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0948",
+      "date": "2019",
+      "title": "Monero adopts RandomX proof-of-work",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-monero-adopts-randomx-proof-of-work",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0960",
+      "date": "2019",
+      "title": "Stacking sats becomes a Bitcoin-community slogan",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_CULTURE_WITH_ORIGIN_QUALIFIER",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-stacking-sats-becomes-a-bitcoin-community-slogan",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Earliest public tweet cited by Lolli dates to 20 Dec 2017; 2019 is the popularization milestone, not the phrase's birth.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0984",
+      "date": "2019",
+      "title": "SBF co-founds FTX",
+      "tier": "CORE",
+      "branches": [
+        "PEOPLE",
+        "FTX"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_PEOPLE_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0737",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0993",
+      "date": "2019",
+      "title": "Gemini launches crypto-custody services",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "SECURITY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-gemini-launches-crypto-custody-services",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1004",
+      "date": "2019",
+      "title": "Craig Wright and Calvin Ayre back Bitcoin SV ecosystem",
+      "tier": "MAJOR",
+      "branches": [
+        "PEOPLE",
+        "BITCOIN",
+        "FORKS"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM",
+      "note": "Do not turn affiliation/backing into a standalone card without a specific event.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1005",
+      "date": "2019",
+      "title": "Craig Wright launches libel actions over challenges to his Satoshi claim",
+      "tier": "CORE",
+      "branches": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_COURT_RECORD",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-craig-wright-launches-libel-actions-over-challenges-to-his-satoshi-claim",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1019",
+      "date": "2019",
+      "title": "Hydra darknet market becomes major crypto-linked marketplace",
+      "tier": "MAJOR",
+      "branches": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Keep as context only in 2019.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1024",
+      "date": "2019",
+      "title": "Ryuk ransomware generates large crypto ransom payments",
+      "tier": "MAJOR",
+      "branches": [
+        "CRIME",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_SECURITY_REPORT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Trend/strain prominence rather than one single attack.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1040",
+      "date": "2019",
+      "title": "US charges OneCoin leaders as Konstantin Ignatov is arrested",
+      "tier": "CORE",
+      "branches": [
+        "SCAMS",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-us-charges-onecoin-leaders-as-konstantin-ignatov-is-arrested",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1041",
+      "date": "2019",
+      "title": "BBC launches The Missing Cryptoqueen podcast about OneCoin",
+      "tier": "LORE",
+      "branches": [
+        "SCAMS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1050",
+      "date": "2019",
+      "title": "Devcon5 convenes Ethereum's community in Osaka",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-devcon5-convenes-ethereums-community-in-osaka",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1052",
+      "date": "2019",
+      "title": "ETHDenver becomes a major community hackathon and conference",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-1129",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1079",
+      "date": "2019",
+      "title": "Gnosis Safe Multisig publicly launches",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "SECURITY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-gnosis-safe-multisig-publicly-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1087",
+      "date": "2019",
+      "title": "Compound v2 launches on Ethereum mainnet",
+      "tier": "CORE",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-compound-v2-launches-on-ethereum-mainnet",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1092",
+      "date": "2019",
+      "title": "Maker Stability Fee becomes a major governance lever",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "DAO",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_GOVERNANCE_RECORD",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Keep as governance context rather than standalone card.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1096",
+      "date": "2019",
+      "title": "Uniswap liquidity pools demonstrate permissionless token listing",
+      "tier": "CORE",
+      "branches": [
+        "DEX",
+        "DEFI"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0038",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1102",
+      "date": "2019",
+      "title": "Connext brings Ethereum state channels into production",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-connext-brings-ethereum-state-channels-into-production",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1113",
+      "date": "2019",
+      "title": "Gods Unchained opens its official blockchain-card marketplace",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-gods-unchained-opens-its-official-blockchain-card-marketplace",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1114",
+      "date": "2019",
+      "title": "The Sandbox launches its first LAND presale",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-the-sandbox-launches-its-first-land-presale",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1129",
+      "date": "2019",
+      "title": "MolochDAO demonstrates minimalist on-chain governance",
+      "tier": "MAJOR",
+      "branches": [
+        "DAO",
+        "GOVERNANCE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-molochdao-demonstrates-minimalist-on-chain-governance",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1157",
+      "date": "2019",
+      "title": "Wall Street Market darknet platform is seized",
+      "tier": "MAJOR",
+      "branches": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-wall-street-market-darknet-platform-is-seized",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1165",
+      "date": "2019",
+      "title": "BitClub Network operators are charged over mining scheme",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "MINING",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_ALLEGATION_QUALIFIER",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-bitclub-network-operators-are-charged-over-mining-scheme",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Use 'alleged' for the 2019 charging-stage description; later guilty pleas support parts of the government's case.",
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1191",
+      "date": "2019",
+      "title": "RandomX makes Monero mining more CPU-friendly",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "MINING"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0948",
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1206",
+      "date": "2018-06-17",
+      "title": "ERC-1155 multi-token standard is adopted by gaming projects",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "GAMING",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "MOVED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Move to 2018 standards chronology; do not score as a separate 2019 event.",
+      "moved_to_year": "2018"
+    },
+    {
+      "legacy_id": "LORE-EVT-1220",
+      "date": "2019",
+      "title": "Coinbase signals a broad expansion of its asset-listing strategy",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null,
+      "moved_to_year": null
+    }
+  ],
+  "status": "IN_PROGRESS"
+}
