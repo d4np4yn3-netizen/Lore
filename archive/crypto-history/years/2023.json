@@ -3,22 +3,27 @@
   "year": 2023,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
-  "score_status": "NOT_STARTED",
+  "score_status": "READY_FOR_EDITORIAL_SCORING",
   "event_count": 17,
   "events": [
     {
       "id": "LORE-CAN-2023-001",
-      "date": "2023-01",
-      "title": "Ordinals brings inscriptions to Bitcoin",
+      "date": "2023-01-20",
+      "title": "Ordinals makes Bitcoin inscriptions publicly usable",
       "branches": [
         "BITCOIN",
         "NFT"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "The Ordinals protocol introduced a method for tracking individual satoshis and inscribing data directly into Bitcoin transactions.",
-      "significance": "Ordinals opened a new chapter of Bitcoin-native collectibles and blockspace demand.",
+      "research_state": "VERIFIED_WITH_PREHISTORY",
+      "source_confidence": "HIGH",
+      "summary": "Casey Rodarmor released ord 0.4.0 and announced on 20 January 2023 that inscriptions were ready for Bitcoin mainnet. Rodarmor's own history records the first mainnet inscription on 14 December 2022 and mainnet inscription commands being enabled on 9 January 2023.",
+      "significance": "Ordinals created a new Bitcoin-native digital-artifact ecosystem and reopened fundamental arguments about blockspace, fees and non-payment uses of Bitcoin.",
       "sources": [
+        {
+          "title": "Casey Rodarmor — Inscribing Mainnet / How Ordinals Came to Be",
+          "url": "https://casey.github.io/blog/how-ordinals-came-to-be/",
+          "type": "FOUNDER_PRIMARY"
+        },
         {
           "title": "Ordinal Theory Handbook",
           "url": "https://docs.ordinals.com/",
@@ -26,7 +31,7 @@
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Pin exact first release / first inscription date before VERIFIED."
+      "notes": "20 Jan 2023 is the public mainnet-ready milestone; the first mainnet inscription itself was made 14 Dec 2022."
     },
     {
       "id": "LORE-CAN-2023-002",
@@ -255,36 +260,59 @@
     },
     {
       "id": "LORE-CAN-2023-012",
-      "date": "2023",
-      "title": "BRC-20 creates fungible-token mania on Bitcoin",
+      "date": "2023-03-09",
+      "title": "BRC-20 introduces experimental fungible tokens on Bitcoin",
       "branches": [
         "BITCOIN",
         "TECHNOLOGY",
         "MEMES"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "The experimental BRC-20 standard used Ordinals inscriptions to create fungible-token conventions on Bitcoin.",
-      "significance": "BRC-20 dramatically increased inscription activity and created a new speculative token market on Bitcoin.",
-      "sources": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Pseudonymous developer Domo introduced the experimental BRC-20 format in March 2023, using Ordinal inscriptions containing JSON operations to deploy, mint and transfer fungible balances; ORDI was used as the demonstration ticker.",
+      "significance": "BRC-20 turned Ordinals from a primarily collectible/artifact phenomenon into a fungible-token experiment and drove a major wave of Bitcoin inscription activity and fees.",
+      "sources": [
+        {
+          "title": "Domo — brc-20 experiment",
+          "url": "https://domo-2.gitbook.io/brc-20-experiment",
+          "type": "CREATOR_PRIMARY"
+        },
+        {
+          "title": "Layer1 Foundation — Domo introduction to brc-20",
+          "url": "https://l1f.discourse.group/t/brc-20-introduction-to-brc-20/72",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Pin original Domo announcement and first ORDI deployment before VERIFIED."
     },
     {
       "id": "LORE-CAN-2023-013",
-      "date": "2023",
+      "date": "2023-04",
       "title": "PEPE ignites a new meme-coin cycle",
       "branches": [
         "MEMES",
         "CULTURE",
         "MARKETS"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "PEPE rapidly became a major meme token during 2023 and helped restart speculative interest in meme coins after the 2022 bear market.",
-      "significance": "The token helped establish a new meme-coin cycle that later expanded strongly across Ethereum and Solana.",
-      "sources": [],
-      "score_status": "NOT_SCORED"
+      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "source_confidence": "HIGH",
+      "summary": "PEPE appeared on Ethereum in mid-April 2023 and exploded through crypto trading culture within days; contemporary reporting documented huge percentage gains, rapidly rising holder counts and a market capitalization that crossed $1 billion by 5 May.",
+      "significance": "PEPE proved that meme-coin mania was not confined to the 2021 dog-coin cycle and re-established internet-native memes as a major speculative crypto category.",
+      "sources": [
+        {
+          "title": "CoinDesk — Pepe the Frog meme coins rocket",
+          "url": "https://www.coindesk.com/markets/2023/04/18/pepe-the-frog-memecoins-rocket-as-crypto-twitter-moves-over-doge-obsession",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "CoinDesk — PEPE reaches $1B market cap",
+          "url": "https://www.coindesk.com/markets/2023/05/05/first-mover-americas-memecoin-pepe-hits-1b-market-cap",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Contemporary sources differ by roughly a day on the exact launch/TGE date; publish as mid-April unless on-chain contract deployment is used as the final timestamp."
     },
     {
       "id": "LORE-CAN-2023-014",
@@ -295,27 +323,50 @@
         "MEMES",
         "CULTURE"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "BONK distributed tokens widely across the Solana community and became closely associated with renewed ecosystem attention after the FTX collapse.",
-      "significance": "The meme coin became a cultural marker of Solana's unexpected recovery from its 2022 crisis.",
-      "sources": [],
-      "score_status": "NOT_SCORED"
+      "research_state": "CONTEXT_VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "BONK was launched on Christmas Day 2022 and distributed heavily to Solana developers and creators. Through 2023, BONK mania became closely associated with renewed community energy and Solana's recovery after the FTX collapse.",
+      "significance": "BONK's community-first airdrop and 2023 rise made it a cultural marker for Solana's shift away from the FTX/Alameda era.",
+      "sources": [
+        {
+          "title": "BONK — About",
+          "url": "https://www.bonkcoin.com/about",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Solana Foundation — 2023: The Year of the Solana Community",
+          "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "BONK launch belongs chronologically to 25 Dec 2022; this 2023 record is specifically the revival/cultural phase."
     },
     {
       "id": "LORE-CAN-2023-015",
-      "date": "2023",
-      "title": "Friend.tech creates a social-finance frenzy on Base",
+      "date": "2023-08-10",
+      "title": "Friend.tech launches and creates a social-finance frenzy on Base",
       "branches": [
         "DEFI",
         "CULTURE",
         "ETHEREUM"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Friend.tech popularized trading access keys linked to social-media accounts on Base.",
-      "significance": "The brief boom became one of the earliest viral consumer-finance experiments on Base.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_SECONDARY_SUPPORT",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Friend.tech opened its invite-only beta on Base on 10 August 2023, letting users buy and sell access-linked 'shares' later renamed keys. It attracted rapid early activity and fees among Crypto Twitter personalities.",
+      "significance": "The app became the defining SocialFi experiment of 2023 and demonstrated how Base could support viral consumer crypto applications almost immediately after public launch.",
+      "sources": [
+        {
+          "title": "TechCrunch — Friend.tech hype is skyrocketing",
+          "url": "https://techcrunch.com/2023/08/21/friend-tech-hype-is-skyrocketing-but-will-it-actually-reach-the-stars/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Friend.tech company profile",
+          "url": "https://www.linkedin.com/company/friend-tech",
+          "type": "COMPANY_PROFILE"
+        }
+      ],
       "score_status": "NOT_SCORED"
     },
     {
@@ -326,12 +377,19 @@
         "ALTCOINS",
         "MARKETS"
       ],
-      "research_state": "CONTEXT_NEEDS_NARROWING",
-      "source_confidence": "LOW",
-      "summary": "Solana recovered strongly across price, developer activity, DeFi and consumer attention after being heavily damaged by its association with FTX and Alameda.",
-      "significance": "The recovery changed the narrative from possible ecosystem failure to renewed competition with Ethereum and other smart-contract networks.",
-      "sources": [],
-      "score_status": "NOT_SCORED"
+      "research_state": "CONTEXT_VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Solana's ecosystem rebuilt through 2023 after the severe reputational and market shock from FTX. The Solana Foundation's year-end review explicitly described a community-led resurgence, with BONK, Saga, new applications and continued development as prominent themes.",
+      "significance": "The recovery prevented FTX's collapse from becoming Solana's endpoint and set up the network's major 2024 consumer and meme-coin expansion.",
+      "sources": [
+        {
+          "title": "Solana Foundation — 2023: The Year of the Solana Community",
+          "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "HOLD",
+      "notes": "Broad era/context node. Score discrete Solana events rather than this umbrella unless the collection deliberately includes era cards."
     },
     {
       "id": "LORE-CAN-2023-017",
@@ -355,5 +413,7 @@
       ],
       "score_status": "NOT_SCORED"
     }
-  ]
+  ],
+  "updated": "2026-09-26",
+  "note": "2023 evidence pass tightened; 0 low-confidence/research-needed canonical entries remain."
 }
