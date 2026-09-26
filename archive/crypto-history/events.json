@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2023 research is now advancing in canonical clusters; government/regulation, major DeFi infrastructure, BRC-20, Arbitrum governance, Pixels/Ronin, Saga/BONK and key enforcement rows are verified or explicitly qualified.",
+  "status_note": "Evidence phase active. 2023 courtroom/contagion cluster verified, with date corrections and allegation/legal qualifiers applied before scoring.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -10587,15 +10587,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_LEGAL_QUALIFIER",
+        "exact_date": "2023-09-07",
+        "summary": "An Istanbul trial court sentenced Thodex founder Faruk Fatih Özer and two siblings to extraordinarily long prison terms and large fines in the exchange fraud case.",
+        "significance": "The sentence became one of the most extreme headline punishments in crypto-related criminal history, though later appellate/legal proceedings mean it should be described as the trial-court judgment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Anadolu Agency — Thodex trial court sentence",
+            "url": "https://www.aa.com.tr/tr/gundem/thodexin-kurucusu-faruk-fatih-ozer-ile-kardeslerine-26-milyar-615-milyon-25-bin-lira-ceza-verildi/2986655",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use 'trial court sentenced' rather than implying the procedural history ended there."
       }
     },
     {
@@ -14752,7 +14758,7 @@
     },
     {
       "id": "LORE-EVT-0519",
-      "date": "2023",
+      "date": "2022-12-21",
       "title": "SBF extradited to the United States",
       "branch": [
         "FTX",
@@ -14761,12 +14767,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-12-21",
+        "summary": "Sam Bankman-Fried was extradited from the Bahamas to the United States on 21 December 2022, not in 2023.",
+        "significance": "The extradition brought the FTX founder into US federal custody ahead of the 2023 criminal trial.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — SBF extradited to the United States",
+            "url": "https://www.justice.gov/usao-sdny/pr/united-states-attorney-announces-extradition-ftx-founder-samuel-bankman-fried-united",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14783,12 +14795,33 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2023-10-03 to 2023-11-02",
+        "summary": "Bankman-Fried's federal criminal trial featured testimony from former FTX and Alameda executives including Gary Wang, Caroline Ellison and Nishad Singh, and ended with his conviction on all seven counts submitted to the jury.",
+        "significance": "The testimony exposed the internal mechanics of FTX and Alameda and became the definitive courtroom account of the exchange's collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "AP — Gary Wang testimony",
+            "url": "https://apnews.com/article/3f42c055a8040ad8fb2edb4c7319f153",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "AP — Caroline Ellison testimony",
+            "url": "https://apnews.com/article/bdab0230730ec079fad8e2086cf9b3f6",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "AP — Nishad Singh testimony",
+            "url": "https://apnews.com/article/ab5910fe6f9c56b73dc2943848c33817",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "DOJ — SBF conviction statement",
+            "url": "https://www.justice.gov/usao-sdny/pr/statement-us-attorney-damian-williams-conviction-samuel-bankman-fried",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14805,12 +14838,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-01 to 2023-04",
+        "summary": "FTX's bankruptcy team said in January that it had identified about $5.5 billion of liquid assets; by April attorneys said recoveries had risen to more than $7.3 billion in cash and liquid crypto.",
+        "significance": "The recoveries became central to the bankruptcy story and later shaped unexpectedly high creditor-recovery expectations.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FTX Debtors — additional information to stakeholders",
+            "url": "https://www.prnewswire.com/news-releases/ftx-debtors-provide-additional-information-to-customers-and-other-stakeholders-301723770.html",
+            "type": "DEBTOR_PRIMARY"
+          },
+          {
+            "title": "Reuters via Investing — FTX recovered $7.3B in assets",
+            "url": "https://www.investing.com/news/stock-market-news/bankrupt-crypto-exchange-ftx-has-recovered-73-billion-in-assets-attorney-3053956",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22323,12 +22367,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-03-23",
+        "summary": "Montenegrin authorities arrested Terraform Labs founder Do Kwon in Podgorica in March 2023 after months of international efforts to locate him.",
+        "significance": "The arrest moved the Terra collapse from a fugitive/manhunt story into a multijurisdictional criminal and extradition proceeding.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Do Kwon extradited to US; arrest background",
+            "url": "https://www.justice.gov/usao-sdny/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22345,14 +22395,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2023-03 to 2024-12",
+        "summary": "After Do Kwon's arrest in Montenegro, the United States and South Korea both sought his extradition, producing a prolonged court and government dispute before his eventual transfer to the United States.",
+        "significance": "The extradition fight illustrated the global legal reach of a crypto collapse that affected investors across many jurisdictions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Do Kwon extradited to US; arrest background",
+            "url": "https://www.justice.gov/usao-sdny/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0806",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -26764,14 +26820,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2023-10-10",
+        "summary": "Former Alameda Research CEO Caroline Ellison testified that Bankman-Fried directed actions that misused FTX customer funds and misled lenders.",
+        "significance": "Ellison's testimony was one of the prosecution's most consequential insider accounts of the FTX/Alameda relationship.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "AP — Caroline Ellison testimony",
+            "url": "https://apnews.com/article/bdab0230730ec079fad8e2086cf9b3f6",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0520",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -26787,14 +26849,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2023-10-05",
+        "summary": "FTX co-founder Gary Wang testified about special software privileges and code that allowed Alameda Research to access funds beyond normal customer limits.",
+        "significance": "The testimony gave jurors a direct technical account of how Alameda's exceptional access was implemented.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "AP — Gary Wang testimony",
+            "url": "https://apnews.com/article/3f42c055a8040ad8fb2edb4c7319f153",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0520",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -26810,14 +26878,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2023-10-16",
+        "summary": "Former FTX engineering director Nishad Singh testified about political donations, company spending and the use of FTX customer funds.",
+        "significance": "Singh's testimony added another senior-insider account of governance and financial controls inside FTX.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "AP — Nishad Singh testimony",
+            "url": "https://apnews.com/article/ab5910fe6f9c56b73dc2943848c33817",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0520",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -31901,15 +31975,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023-01 onward",
+        "summary": "Genesis Global Capital's collapse spilled into a public dispute involving Gemini Earn and Genesis parent Digital Currency Group; the SEC separately charged Genesis and Gemini over the Earn program.",
+        "significance": "The conflict became a major example of CeFi contagion crossing lender, exchange and parent-company boundaries.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Genesis and Gemini charged over Earn",
+            "url": "https://www.sec.gov/newsroom/press-releases/2023-7",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep public accusations between private parties attributed; SEC charges are the verified enforcement milestone."
       }
     },
     {
@@ -32999,12 +33079,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-05-08",
+        "summary": "Bittrex Inc. and related US entities filed for Chapter 11 bankruptcy protection after winding down US operations amid regulatory pressure.",
+        "significance": "The filing marked the collapse of one of the longest-running US crypto exchanges and highlighted the shrinking position of older exchange brands.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC Litigation Release — Bittrex bankruptcy background",
+            "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25817",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
