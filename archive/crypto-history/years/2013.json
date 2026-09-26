@@ -603,8 +603,8 @@
     },
     {
       "id": "LORE-EVT-0665",
-      "date": "2013",
-      "title": "BitInstant founder Charlie Shrem becomes a prominent Bitcoin entrepreneur",
+      "date": "2013-05-17",
+      "title": "BitInstant raises $1.5m led by Winklevoss Capital",
       "branch": [
         "PEOPLE",
         "BITCOIN"
@@ -612,15 +612,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CLAIM_NARROWED_AND_VERIFIED",
+        "exact_date": "2013-05-17",
+        "summary": "BitInstant, led by CEO Charlie Shrem, publicly announced a $1.5 million seed round led by Winklevoss Capital; contemporaneous reporting described it as a major early Bitcoin on-ramp.",
+        "significance": "The financing captures the moment early Bitcoin entrepreneurship began attracting recognizable venture investors and made Shrem one of the era's most visible young executives.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — BitInstant raises $1.5m led by Winklevoss Capital",
+            "url": "https://techcrunch.com/2013/05/17/with-1-5m-led-by-winklevoss-capital-bitinstant-aims-to-be-the-go-to-site-to-buy-and-sell-bitcoins/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Vague prominence row narrowed to a specific financing milestone."
       }
     },
     {
@@ -1196,5 +1202,7 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
