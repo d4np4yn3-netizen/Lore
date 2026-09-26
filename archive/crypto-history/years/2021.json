@@ -350,6 +350,171 @@
         }
       ],
       "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-uniswap-v3",
+      "date": "2021-05-05",
+      "title": "Uniswap v3 launches on Ethereum",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX",
+        "ETHEREUM"
+      ],
+      "summary": "Uniswap v3 deployed to Ethereum mainnet with concentrated liquidity and more granular liquidity-provider price ranges.",
+      "significance": "V3 substantially improved capital efficiency and became a foundational design for modern decentralized exchange liquidity.",
+      "sources": [
+        {
+          "title": "Uniswap v3 Mainnet launch",
+          "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v3",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-optimism-mainnet",
+      "date": "2021-01",
+      "title": "Optimism deploys OP Mainnet",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Optimism deployed its production optimistic-rollup network in January 2021, later opening permissionless deployment by year-end.",
+      "significance": "Optimism became one of Ethereum's first major production rollups and helped establish L2s as Ethereum's scaling strategy.",
+      "sources": [
+        {
+          "title": "Optimism — What Is OP Mainnet?",
+          "url": "https://optimism.io/blog/what-is-op-mainnet",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-solana-outage",
+      "date": "2021-09-14",
+      "title": "Solana goes offline for 17 hours",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY",
+        "DISASTERS"
+      ],
+      "summary": "A surge of bot-generated transactions during a Raydium IDO caused memory pressure and validator crashes; Solana stopped confirming blocks for roughly 17 hours.",
+      "significance": "The outage became the first major test of Solana's high-throughput architecture and a lasting part of debate around performance versus resilience.",
+      "sources": [
+        {
+          "title": "Solana Foundation — 9-14 Network Outage Initial Overview",
+          "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-proshares-bito",
+      "date": "2021-10-19",
+      "title": "First US Bitcoin futures ETF begins trading",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "REGULATION"
+      ],
+      "summary": "ProShares Bitcoin Strategy ETF (BITO), which holds CME Bitcoin futures rather than spot Bitcoin, began trading on NYSE Arca.",
+      "significance": "After years of rejected spot-ETF applications, BITO gave US brokerage investors the first exchange-traded fund explicitly linked to Bitcoin returns.",
+      "sources": [
+        {
+          "title": "ProShares — BITO launch",
+          "url": "https://www.proshares.com/press-releases/proshares-to-launch-the-first-u.s.-bitcoin-linked-etf-on-october-19",
+          "type": "ISSUER_PRIMARY"
+        },
+        {
+          "title": "SEC filing — BITO scheduled to list October 19",
+          "url": "https://www.sec.gov/Archives/edgar/data/1174610/000168386321006060/f10047d1.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-facebook-meta",
+      "date": "2021-10-28",
+      "title": "Facebook company rebrands as Meta",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "CULTURE",
+        "INSTITUTIONS",
+        "NFT"
+      ],
+      "summary": "Facebook changed its corporate brand to Meta and explicitly centered its long-term strategy on building the metaverse.",
+      "significance": "The announcement pushed 'metaverse' from crypto-native and gaming circles into mainstream corporate culture and helped fuel virtual-land and metaverse-token speculation.",
+      "sources": [
+        {
+          "title": "Meta — Introducing Meta",
+          "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Mark Zuckerberg — Founder's Letter 2021",
+          "url": "https://about.fb.com/news/2021/10/founders-letter/amp/",
+          "type": "FOUNDER_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-ens-airdrop",
+      "date": "2021-11",
+      "title": "ENS launches governance token and airdrop",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "DAO",
+        "CULTURE"
+      ],
+      "summary": "ENS distributed governance tokens to qualifying ENS name holders based on an October 31 snapshot and moved protocol governance toward the ENS DAO.",
+      "significance": "The ENS airdrop became one of the most prominent retroactive governance-token distributions and rewarded years of early naming-system participation.",
+      "sources": [
+        {
+          "title": "ENS Docs — ENS Token & Airdrop",
+          "url": "https://docs.ens.domains/dao/token/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-meta-nft-metaverse-mania-context",
+      "date": "2021-10 to 2021-12",
+      "title": "Metaverse tokens and virtual land surge after Meta rebrand",
+      "state": "CONTEXT_RESEARCHED",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "summary": "After Facebook became Meta, crypto markets attached renewed attention to virtual-world and metaverse projects.",
+      "significance": "This is an era/context node rather than a single canonical transaction and should connect Meta's rebrand to Decentraland, The Sandbox and later virtual-land speculation.",
+      "sources": [
+        {
+          "title": "Meta — Introducing Meta",
+          "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "MEDIUM",
+      "notes": "Requires market-data sources before quantitative publication."
     }
-  ]
+  ],
+  "updated": "2026-09-26"
 }
