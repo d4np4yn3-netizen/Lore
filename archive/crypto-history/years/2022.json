@@ -3,38 +3,702 @@
   "year": 2022,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
-  "score_status": "READY_FOR_EDITORIAL_SCORING",
-  "event_count": 24,
+  "score_status": "NOT_STARTED",
+  "event_count": 83,
   "events": [
     {
       "id": "LORE-CAN-2022-001",
+      "canonical_key": "LORE-EVT-0609",
+      "date": "2022",
+      "title": "DeFi TVL collapses during bear market",
+      "branches": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0609"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
+      "source_confidence": "HIGH",
+      "summary": "DeFi total value locked contracted sharply through 2022. DefiLlama-based year-end research places TVL near $42 billion after beginning the year around $166 billion, a decline of roughly three quarters.",
+      "significance": "The contraction quantified the unwinding of DeFi leverage through the Terra, CeFi and FTX shocks and marked the end of the 2020-21 expansion cycle.",
+      "sources": [
+        {
+          "title": "DefiLlama — DeFi TVL cycle analysis",
+          "url": "https://defillama.com/pro/defi-tvl-vs-crypto-market-cap-0bkebd",
+          "type": "DATA_SOURCE"
+        },
+        {
+          "title": "The Block Research — Biggest DeFi Trends in 2022",
+          "url": "https://www.theblock.co/research/institutional/biggest-defi-trends-in-2022-194315",
+          "type": "RESEARCH_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Era-level quantitative market event; exact TVL values vary with methodology and chain/protocol inclusion."
+    },
+    {
+      "id": "LORE-CAN-2022-002",
+      "canonical_key": "LORE-EVT-0340",
+      "date": "2022",
+      "title": "India introduces major crypto tax rules",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0340"
+      ],
+      "research_state": "VERIFIED_WITH_RULE",
+      "source_confidence": "HIGH",
+      "summary": "India's 2022 tax framework created specific rules for virtual digital assets, including a 1% tax deduction at source on covered transfers under Section 194S.",
+      "significance": "The framework formalized crypto taxation in India while imposing transaction-level reporting/withholding friction.",
+      "sources": [
+        {
+          "title": "India Income Tax Act Section 194S — virtual digital asset withholding",
+          "url": "https://wmstatic-prd.incometaxindia.gov.in/web/guest/w/section-194s",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Add the separate 30% income-tax provision once the exact official Section 115BBH source is attached."
+    },
+    {
+      "id": "LORE-CAN-2022-003",
+      "canonical_key": "LORE-EVT-0891",
+      "date": "2022",
+      "title": "Netflix releases QuadrigaCX documentary Trust No One",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0891"
+      ],
+      "research_state": "DATE_CORRECTED",
+      "source_confidence": "HIGH",
+      "summary": "Netflix released the documentary Trust No One: The Hunt for the Crypto King in 2022, not 2021, revisiting QuadrigaCX and the death of founder Gerald Cotten.",
+      "significance": "The documentary demonstrates how Quadriga became true-crime culture beyond the crypto industry.",
+      "sources": [
+        {
+          "title": "Netflix — Trust No One: The Hunt for the Crypto King",
+          "url": "https://www.netflix.com/title/81349029",
+          "type": "PLATFORM_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-004",
+      "canonical_key": "LORE-EVT-1122",
+      "date": "2022",
+      "title": "STEPN token economy booms and crashes",
+      "branches": [
+        "GAMING",
+        "CULTURE",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1122"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
+      "source_confidence": "HIGH",
+      "summary": "STEPN's monthly active users rose from about 2,500 in January to roughly 705,000 in May before falling below 45,000 by year end, according to Dune data summarized by Binance Research.",
+      "significance": "STEPN became the defining move-to-earn boom-and-bust and one of 2022's clearest examples of token incentives driving consumer behavior.",
+      "sources": [
+        {
+          "title": "Dune — 22 Trends of 2022 / STEPN rise and fall",
+          "url": "https://dev.dune.com/blog/22-trends-of-2022",
+          "type": "DATA_SOURCE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-005",
+      "canonical_key": "LORE-EVT-0790",
+      "date": "2022-01",
+      "title": "Azuki collection becomes a major NFT brand",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0790"
+      ],
+      "research_state": "VERIFIED_WITH_MONTH",
+      "source_confidence": "HIGH",
+      "summary": "Azuki launched as a 10,000-item anime-inspired Ethereum PFP collection and framed itself around a community-built Web3/anime IP.",
+      "significance": "Azuki became one of the defining non-Yuga PFP brands of the 2022 NFT market.",
+      "sources": [
+        {
+          "title": "Azuki — About / original 2022 project",
+          "url": "https://www.azuki.com/about",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "OpenSea — Azuki collection",
+          "url": "https://opensea.io/collection/azuki/overview",
+          "type": "MARKETPLACE_RECORD"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-006",
+      "canonical_key": "LORE-EVT-1201",
+      "date": "2022-01-03",
+      "title": "CFTC settles with Polymarket over event markets",
+      "branches": [
+        "DEFI",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1201"
+      ],
+      "research_state": "DATE_CORRECTED",
+      "source_confidence": "HIGH",
+      "summary": "The CFTC announced a settlement with Blockratize, Inc., doing business as Polymarket.com, over off-exchange event-based binary options contracts.",
+      "significance": "The action became Polymarket's first major US federal regulatory milestone and preceded its later mainstream growth.",
+      "sources": [
+        {
+          "title": "CFTC — Polymarket settlement",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8478-22",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-007",
+      "canonical_key": "LORE-EVT-1202",
+      "date": "2022-01-03",
+      "title": "Polymarket reaches settlement over unregistered markets",
+      "branches": [
+        "DEFI",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1202"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The CFTC settled charges against Polymarket for offering off-exchange event-based binary options without required market registration, imposing a $1.4 million penalty and requiring non-compliant markets to be wound down.",
+      "significance": "It was Polymarket's defining early US regulatory confrontation and shaped the platform's later market structure.",
+      "sources": [
+        {
+          "title": "CFTC — Polymarket settlement",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8478-22",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-008",
+      "canonical_key": "LORE-EVT-0787",
+      "date": "2022-01-04",
+      "title": "OpenSea valuation reaches more than ten billion dollars",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0787"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "OpenSea announced a $300 million Series C financing at a $13.3 billion post-money valuation.",
+      "significance": "The valuation captured the extraordinary market expectations around NFTs at the start of 2022.",
+      "sources": [
+        {
+          "title": "OpenSea — Series C at $13.3B valuation",
+          "url": "https://opensea.io/blog/articles/announcing-openseas-new-funding",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-009",
+      "canonical_key": "2022-cz-bloomberg-96b-estimate",
+      "date": "2022-01-10",
+      "title": "Bloomberg estimates CZ's fortune at $96 billion",
+      "branches": [
+        "PEOPLE",
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0981"
+      ],
+      "research_state": "VERIFIED_WITH_ATTRIBUTION",
+      "source_confidence": "HIGH",
+      "summary": "Bloomberg's Billionaires Index estimated Binance CEO Changpeng Zhao's net worth at $96 billion on 10 January 2022, excluding his personal cryptocurrency holdings.",
+      "significance": "The estimate captured the extraordinary wealth created by the exchange boom and made CZ one of the most visible symbols of crypto's pre-crash peak.",
+      "sources": [
+        {
+          "title": "Bloomberg — World's Biggest Crypto Fortune Began With a Friendly Poker Game",
+          "url": "https://www.bloomberglinea.com/2022/01/10/worlds-biggest-crypto-fortune-began-with-a-friendly-poker-game/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        "Bloomberg estimate puts CZ among the world's richest people"
+      ],
+      "notes": "Always attribute the $96B figure to Bloomberg's estimate; it was not an audited fixed net worth."
+    },
+    {
+      "id": "LORE-CAN-2022-010",
+      "canonical_key": "LORE-EVT-0788",
+      "date": "2022-01-10",
+      "title": "LooksRare launches token incentives against OpenSea",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0788"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "LooksRare launched with LOOKS token incentives targeted partly at active OpenSea users in what contemporary coverage described as a vampire attack.",
+      "significance": "It was an early example of token incentives being used to attack a dominant NFT marketplace's liquidity and users.",
+      "sources": [
+        {
+          "title": "The Block — LooksRare launches with OpenSea vampire attack",
+          "url": "https://www.theblock.co/news/web3/2022-01-10-nft-marketplace-looksrare-goes-live-with-vampire-attack-on-opensea-129677",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-011",
+      "canonical_key": "LORE-EVT-0765",
+      "date": "2022-01-20",
+      "title": "Twitter adds NFT profile-picture verification",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0765"
+      ],
+      "research_state": "DATE_CORRECTED",
+      "source_confidence": "HIGH",
+      "summary": "Twitter launched verified NFT profile pictures for Twitter Blue subscribers on iOS on 20 January 2022, not in 2021.",
+      "significance": "The hexagonal profile image made wallet-verified NFT ownership a native feature on a major social network.",
+      "sources": [
+        {
+          "title": "Reuters — Twitter launches NFT profile pictures",
+          "url": "https://www.investing.com/news/stock-market-news/twitter-debuts-hexagonshaped-nft-profile-pictures-2744469",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-012",
+      "canonical_key": "LORE-EVT-0923",
+      "date": "2022-01-31",
+      "title": "Meta sells Diem assets to Silvergate",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0923"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The Diem Association announced it was selling its intellectual property and other assets to Silvergate Capital after regulatory feedback made the planned US payment network unworkable.",
+      "significance": "The sale ended Facebook/Meta's original private global-currency project and closed one of crypto policy's biggest corporate experiments.",
+      "sources": [
+        {
+          "title": "Diem — statement on asset sale",
+          "url": "https://www.diem.com/en-us/updates/stuart-levey-statement-diem-asset-sale/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-013",
+      "canonical_key": "LORE-EVT-1074",
+      "date": "2022-01-31",
+      "title": "Phantom becomes a major consumer Solana wallet",
+      "branches": [
+        "ALTCOINS",
+        "ADOPTION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1074"
+      ],
+      "research_state": "VERIFIED_WITH_MILESTONE",
+      "source_confidence": "HIGH",
+      "summary": "Phantom said it had gained more than 2 million monthly active users in six months and launched its iOS wallet alongside a $109 million Series B.",
+      "significance": "The milestone established Phantom as the dominant consumer gateway to the Solana ecosystem during its rapid growth.",
+      "sources": [
+        {
+          "title": "Phantom — $109M Series B and iOS launch",
+          "url": "https://www.phantom.com/learn/blog/phantom-s-usd109m-series-b-and-launch-of-ios-app",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-014",
+      "canonical_key": "LORE-EVT-0122",
       "date": "2022-02-02",
-      "title": "Wormhole bridge is exploited",
+      "title": "Wormhole bridge exploit",
       "branches": [
         "HACKS",
         "BRIDGES"
       ],
+      "source_event_ids": [
+        "LORE-EVT-0122"
+      ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "An attacker exploited Wormhole's Solana-side verification logic and minted 120,000 unbacked wrapped ETH, worth roughly $320-$325 million at the time; Wormhole subsequently restored backing.",
-      "significance": "The exploit became one of the largest bridge failures in crypto history and exposed the systemic security risk created by cross-chain message verification.",
+      "summary": "The Wormhole bridge was exploited for 120,000 wrapped ETH, worth roughly $320 million at the time, after an attacker bypassed verification and minted unbacked assets.",
+      "significance": "The exploit became one of the first mega-scale bridge failures and highlighted cross-chain verification as a systemic security risk.",
       "sources": [
         {
-          "title": "Wormhole — Incident Report 02/02/22",
-          "url": "https://wormholecrypto.medium.com/wormhole-incident-report-02-02-22-ad9b8f21eec6",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "CertiK — Wormhole Bridge Exploit Incident Analysis",
-          "url": "https://www.certik.com/blog/wormhole-bridge-exploit-incident-analysis",
-          "type": "SECURITY_RESEARCH"
+          "title": "TechCrunch — Wormhole exploit",
+          "url": "https://techcrunch.com/2022/02/02/wormhole-crypto-bridge-hack/",
+          "type": "CONTEMPORARY_SECONDARY"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Add Wormhole first-party postmortem before VERIFIED."
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-002",
+      "id": "LORE-CAN-2022-015",
+      "canonical_key": "2022-pak-assange-censored",
+      "date": "2022-02-07 to 2022-02-09",
+      "title": "Pak and Julian Assange launch the Censored NFT project",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0911"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Julian Assange collaborated with artist Pak on Censored, an NFT project auctioned from 7 to 9 February 2022. Its centerpiece, Clock, was purchased by AssangeDAO.",
+      "significance": "The project fused crypto art, DAO fundraising and political/legal advocacy in one of the NFT era's most visible activist collaborations.",
+      "sources": [
+        {
+          "title": "Assange Campaign — February 2022 crypto art collaboration",
+          "url": "https://www.assangecampaign.org.au/2022/02/",
+          "type": "CAMPAIGN_PRIMARY"
+        },
+        {
+          "title": "P2P Foundation — AssangeDAO account of the Censored auction",
+          "url": "https://wiki.p2pfoundation.net/index.php/Silke_Noa_on_How_AssangeDAO_Freed_Julian_Assange",
+          "type": "COMMUNITY_ARCHIVE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        "Pak and Julian Assange launch Censored NFT project"
+      ],
+      "notes": "Censored auction ran 7-9 Feb 2022; AssangeDAO bought Clock. Use campaign/DAO sources for exact proceeds and purpose."
+    },
+    {
+      "id": "LORE-CAN-2022-016",
+      "canonical_key": "LORE-EVT-0266",
+      "date": "2022-02-08",
+      "title": "US authorities seize Bitcoin linked to the 2016 Bitfinex hack",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "CRIME"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0266"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "US authorities announced the arrest of Ilya Lichtenstein and Heather Morgan and the seizure of more than $3.6 billion in Bitcoin linked to the 2016 Bitfinex hack.",
+      "significance": "It was the Justice Department's largest financial seizure announced at the time and demonstrated how stolen Bitcoin could remain traceable years later.",
+      "sources": [
+        {
+          "title": "US DOJ — $3.6B crypto seizure linked to 2016 Bitfinex hack",
+          "url": "https://www.justice.gov/archives/opa/pr/two-arrested-alleged-conspiracy-launder-45-billion-stolen-cryptocurrency",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "US DOJ — 2016 Bitfinex Hack case summary",
+          "url": "https://www.justice.gov/usao-dc/2016-bitfinex-hack",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-017",
+      "canonical_key": "LORE-EVT-0802",
+      "date": "2022-02-13",
+      "title": "Coinbase bouncing QR-code Super Bowl ad crashes its app",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0802"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase aired a 60-second bouncing-QR-code Super Bowl ad that generated more than 20 million landing-page hits in one minute and forced the company to throttle traffic briefly.",
+      "significance": "The minimalist ad became one of crypto's most memorable mainstream marketing moments and a perfect visual artifact of the bull-market peak.",
+      "sources": [
+        {
+          "title": "Coinbase — Everyone Wins at Super Bowl LVI — WAGMI!",
+          "url": "https://www.coinbase.com/blog/everyone-wins-at-super-bowl-lvi-wagmi",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Reuters — Coinbase traffic surge after Super Bowl ad",
+          "url": "https://www.euronews.com/next/2022/02/14/crypto-currency-superbowl",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-018",
+      "canonical_key": "LORE-EVT-0343",
+      "date": "2022-02-28",
+      "title": "Dubai establishes VARA virtual-asset regulator",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0343"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Dubai issued Law No. 4 of 2022 establishing the Virtual Assets Regulatory Authority (VARA) and a regulatory framework for virtual-asset activities across most of the Emirate.",
+      "significance": "Dubai's dedicated regulator became a major part of the UAE's strategy to position itself as an international crypto hub.",
+      "sources": [
+        {
+          "title": "Dubai Law No. 4 of 2022 Regulating Virtual Assets",
+          "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2022/Law%20No.%20%284%29%20of%202022%20Regulating%20Virtual%20Assets.html",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "VARA — About VARA",
+          "url": "https://www.vara.ae/en/about-vara/",
+          "type": "REGULATOR"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-019",
+      "canonical_key": "LORE-EVT-0183",
+      "date": "2022-03-03",
+      "title": "Crypto donations become a major part of fundraising for Ukraine",
+      "branches": [
+        "ADOPTION",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0183"
+      ],
+      "research_state": "VERIFIED_WITH_MILESTONE",
+      "source_confidence": "HIGH",
+      "summary": "Ukraine's government said official crypto-donation channels had helped raise more than $53 million by 3 March following Russia's invasion.",
+      "significance": "The fundraising demonstrated cryptocurrency's ability to mobilize global cross-border donations quickly during a national emergency.",
+      "sources": [
+        {
+          "title": "Ukraine Cabinet — $53M crypto raised by Mar. 3",
+          "url": "https://www.kmu.gov.ua/en/news/mincifri-na-pidtrimku-ukrayini-zibrali-53-mln-u-kriptoaktivah",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-020",
+      "canonical_key": "LORE-EVT-1214",
+      "date": "2022-03-11",
+      "title": "Yuga Labs buys CryptoPunks and Meebits rights",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1214"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Yuga Labs acquired the CryptoPunks and Meebits brands and related IP from Larva Labs and said it would grant commercial rights to holders.",
+      "significance": "The deal consolidated two foundational NFT collections under the company behind Bored Ape Yacht Club.",
+      "sources": [
+        {
+          "title": "Yuga Labs — acquires CryptoPunks and Meebits IP",
+          "url": "https://news.yuga.com/yuga-labs-acquires-cryptopunks-and-meebits",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-021",
+      "canonical_key": "LORE-EVT-1143",
+      "date": "2022-03-15",
+      "title": "LayerZero launches omnichain messaging infrastructure",
+      "branches": [
+        "BRIDGES",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1143"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "LayerZero launched its omnichain interoperability protocol in beta across seven EVM networks.",
+      "significance": "LayerZero became major cross-chain messaging infrastructure and formed the base layer for Stargate and later omnichain applications.",
+      "sources": [
+        {
+          "title": "LayerZero — The Omnichain Future is Here",
+          "url": "https://medium.com/@ryanzarick/the-omnichain-future-is-here-74389f6d70c3",
+          "type": "FOUNDER_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-022",
+      "canonical_key": "LORE-EVT-1090",
+      "date": "2022-03-16",
+      "title": "Aave V3 launches",
+      "branches": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1090"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Aave V3 launched across six networks with new capital-efficiency, risk-management and cross-chain-oriented features.",
+      "significance": "V3 established Aave as a deliberately multichain lending protocol and introduced architecture that later supported much larger DeFi markets.",
+      "sources": [
+        {
+          "title": "Aave governance — Aave V3 deployment history",
+          "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-023",
+      "canonical_key": "LORE-EVT-1144",
+      "date": "2022-03-17",
+      "title": "Stargate becomes a major LayerZero-based bridge and liquidity protocol",
+      "branches": [
+        "BRIDGES",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1144"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Stargate Protocol launched two days after LayerZero, bootstrapping omnichain native-asset liquidity across connected networks.",
+      "significance": "Stargate became one of the first major applications of LayerZero and a prominent cross-chain liquidity bridge.",
+      "sources": [
+        {
+          "title": "Stargate — launch details",
+          "url": "https://stargateprotocol.gitbook.io/stargate/user-docs/tokenomics/launch",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "LayerZero — The Omnichain Future is Here",
+          "url": "https://medium.com/@ryanzarick/the-omnichain-future-is-here-74389f6d70c3",
+          "type": "FOUNDER_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-024",
+      "canonical_key": "LORE-EVT-0912",
+      "date": "2022-03-25",
+      "title": "Ukraine sells NFT collection to fund war effort",
+      "branches": [
+        "NFT",
+        "CULTURE",
+        "ADOPTION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0912"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Ukraine's government launched Meta History: Museum of War, an NFT collection documenting the Russian invasion and raising funds for Ukraine.",
+      "significance": "It joined crypto donations with state-backed digital cultural archiving and fundraising during wartime.",
+      "sources": [
+        {
+          "title": "Ukraine Cabinet — NFT Museum of War launch",
+          "url": "https://www.kmu.gov.ua/en/news/mincifri-zapustili-pershij-v-ukrayini-nft-muzej-vijni",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-025",
       "date": "2022-03-29",
       "title": "Ronin bridge loses 173,600 ETH and 25.5 million USDC",
       "branches": [
@@ -56,34 +720,215 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "2022-ronin-bridge-exploit",
+      "merged_legacy_titles": [
+        "Ronin bridge exploit"
+      ]
     },
     {
-      "id": "LORE-CAN-2022-003",
-      "date": "2022-05",
-      "title": "UST loses its dollar peg",
+      "id": "LORE-CAN-2022-026",
+      "canonical_key": "LORE-EVT-0344",
+      "date": "2022-04-04",
+      "title": "UK recognizes crypto assets in financial-services reform agenda",
       "branches": [
-        "STABLECOINS",
-        "DISASTERS"
+        "GOVERNMENTS",
+        "REGULATION"
       ],
       "source_event_ids": [
-        "LORE-EVT-0052"
+        "LORE-EVT-0344"
       ],
-      "research_state": "VERIFIED_WITH_MONTH",
+      "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "TerraUSD (UST) lost its dollar peg in May 2022 and collapsed toward zero.",
-      "significance": "The failure destroyed confidence in the Terra ecosystem and became the defining algorithmic-stablecoin collapse.",
+      "summary": "HM Treasury announced plans to bring stablecoins within UK payments regulation and set out a wider ambition to make the UK a global cryptoasset technology hub.",
+      "significance": "The announcement marked a major UK policy shift toward building a dedicated crypto regulatory framework rather than treating crypto only through existing rules.",
       "sources": [
         {
-          "title": "SEC — Terraform Labs and Do Kwon complaint summary",
-          "url": "https://www.sec.gov/newsroom/press-releases/2023-32",
+          "title": "HM Treasury — plan to make UK a global cryptoasset technology hub",
+          "url": "https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-004",
+      "id": "LORE-CAN-2022-027",
+      "canonical_key": "LORE-EVT-1020",
+      "date": "2022-04-05",
+      "title": "Hydra Market is shut down",
+      "branches": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1020"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "US and German authorities announced the seizure and shutdown of Hydra Market, with German police seizing servers and Bitcoin wallets.",
+      "significance": "Hydra was described by US authorities as the world's largest and longest-running darknet marketplace at the time.",
+      "sources": [
+        {
+          "title": "US DOJ — shutdown of Hydra Market",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-investigation-leads-shutdown-largest-online-darknet-marketplace",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-028",
+      "canonical_key": "LORE-EVT-0791",
+      "date": "2022-04-16",
+      "title": "Moonbirds mint generates enormous first-day volume",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0791"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Moonbirds minted on 16 April 2022 as a 10,000-item PROOF PFP collection; contemporary coverage reported roughly $200 million in sales within days of debut.",
+      "significance": "Its explosive launch was one of the final spectacular PFP mints before the 2022 NFT downturn.",
+      "sources": [
+        {
+          "title": "PROOF — Moonbirds collection record",
+          "url": "https://www.proof.xyz/moonbirds/3827",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "CoinDesk — Moonbirds clocks $200M in debut sales",
+          "url": "https://www.coindesk.com/business/2022/04/18/moonbirds-nfts-fly-on-debut-clocking-200m-in-sales/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "SEC-filed offering document citing Moonbirds Apr 16 launch",
+          "url": "https://www.sec.gov/Archives/edgar/data/1688804/000168880422000028/rsecex13x40.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-029",
+      "canonical_key": "LORE-EVT-0377",
+      "date": "2022-04-17",
+      "title": "Beanstalk governance exploit drains protocol funds",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0377"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Beanstalk was attacked through its on-chain governance mechanism after an attacker used a flash loan to obtain enough voting power; the protocol says roughly $77 million in non-Bean assets were stolen.",
+      "significance": "The exploit became a canonical demonstration that token governance itself can be an attack surface.",
+      "sources": [
+        {
+          "title": "Beanstalk — protocol disclosures",
+          "url": "https://docs.bean.money/almanac/disclosures",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-030",
+      "canonical_key": "LORE-EVT-0786",
+      "date": "2022-04-20",
+      "title": "Coinbase NFT marketplace launches into cooling market",
+      "branches": [
+        "EXCHANGES",
+        "NFT"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0786"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase opened its NFT social marketplace in beta to its first users.",
+      "significance": "The launch showed a major listed crypto exchange attempting to enter the NFT marketplace race near the top of the NFT cycle.",
+      "sources": [
+        {
+          "title": "Coinbase — NFT beta launches",
+          "url": "https://www.coinbase.com/en-de/blog/gm-coinbase-nft-is-now-in-beta",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-031",
+      "canonical_key": "LORE-EVT-0140",
+      "date": "2022-04-22",
+      "title": "Central African Republic adopts Bitcoin as legal tender",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0140"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The Central African Republic enacted a law giving cryptocurrencies, and Bitcoin in particular, legal-tender status alongside the CFA franc.",
+      "significance": "CAR became the second country after El Salvador to make Bitcoin legal tender and the first to do so while belonging to a monetary union.",
+      "sources": [
+        {
+          "title": "IMF — CEMAC staff report on CAR Bitcoin legal-tender law",
+          "url": "https://www.elibrary.imf.org/view/journals/002/2022/208/article-A001-en.xml",
+          "type": "INTERGOVERNMENTAL"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-032",
+      "canonical_key": "LORE-EVT-0792",
+      "date": "2022-05",
+      "title": "Goblintown emerges as a free-mint bear-market NFT phenomenon",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0792"
+      ],
+      "research_state": "VERIFIED_WITH_MONTH",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Goblintown launched in May 2022 as an anonymous, free-mint NFT project with no roadmap or conventional utility pitch; it minted out rapidly and became a viral bear-market phenomenon.",
+      "significance": "Goblintown inverted the polished 2021 NFT playbook and became defining absurdist bear-market LORE.",
+      "sources": [
+        {
+          "title": "OpenSea — Goblintown founder interview/history",
+          "url": "https://opensea.io/blog/articles/in-conversation-with-alex-taub-of-goblintown",
+          "type": "MARKETPLACE_PRIMARY_INTERVIEW"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-033",
       "date": "2022-05",
       "title": "LUNA enters a death spiral",
       "branches": [
@@ -104,54 +949,451 @@
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "2022-luna-death-spiral",
+      "merged_legacy_titles": [
+        "LUNA death spiral"
+      ]
     },
     {
-      "id": "LORE-CAN-2022-005",
+      "id": "LORE-CAN-2022-034",
       "date": "2022-05",
-      "title": "Anchor's high-yield stablecoin model collapses with Terra",
+      "title": "UST loses its dollar peg",
       "branches": [
-        "DEFI",
         "STABLECOINS",
         "DISASTERS"
       ],
+      "source_event_ids": [
+        "LORE-EVT-0052"
+      ],
       "research_state": "VERIFIED_WITH_MONTH",
       "source_confidence": "HIGH",
-      "summary": "Anchor Protocol's yield-bearing UST product collapsed alongside UST and LUNA after having been marketed with yields as high as roughly 20%.",
-      "significance": "Anchor's failure showed how subsidized stablecoin yields can create systemic demand and fragility at enormous scale.",
+      "summary": "TerraUSD (UST) lost its dollar peg in May 2022 and collapsed toward zero.",
+      "significance": "The failure destroyed confidence in the Terra ecosystem and became the defining algorithmic-stablecoin collapse.",
       "sources": [
         {
-          "title": "SEC — Terraform Labs and Do Kwon",
+          "title": "SEC — Terraform Labs and Do Kwon complaint summary",
           "url": "https://www.sec.gov/newsroom/press-releases/2023-32",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "2022-terra-ust-depeg",
+      "merged_legacy_titles": [
+        "UST loses its peg"
+      ]
     },
     {
-      "id": "LORE-CAN-2022-006",
+      "id": "LORE-CAN-2022-035",
+      "canonical_key": "LORE-EVT-0512",
+      "date": "2022-05-28",
+      "title": "Luna 2.0 launches after community vote",
+      "branches": [
+        "ALTCOINS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0512"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "A new Terra blockchain launched after governance approved a revival plan; the original network was renamed Terra Classic, and the new chain did not include the original UST stablecoin.",
+      "significance": "The relaunch attempted to preserve the developer ecosystem after the stablecoin system had failed.",
+      "sources": [
+        {
+          "title": "Terra Research Forum — Ecosystem Revival Plan 2",
+          "url": "https://classic-agora.terra.money/t/terra-ecosystem-revival-plan-2-passed-gov/18498",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-036",
+      "canonical_key": "LORE-EVT-1106",
+      "date": "2022-05-31",
+      "title": "Optimism airdrops OP token",
+      "branches": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1106"
+      ],
+      "research_state": "VERIFIED_WITH_DATE",
+      "source_confidence": "HIGH",
+      "summary": "Optimism opened claims for its first OP governance-token airdrop to hundreds of thousands of eligible early Ethereum and Optimism users.",
+      "significance": "The OP launch created the Token House side of the Optimism Collective and became a major layer-2 governance distribution.",
+      "sources": [
+        {
+          "title": "Optimism community docs — Airdrop #1",
+          "url": "https://github.com/ethereum-optimism/community-hub/blob/main/pages/op-token/airdrops/airdrop-1.mdx",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Optimism — Introducing the Optimism Collective",
+          "url": "https://optimism.io/blog/introducing-the-optimism-collective",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-037",
+      "canonical_key": "LORE-EVT-0573",
+      "date": "2022-05-31",
+      "title": "Zcash Halo removes trusted setup dependence for newer pools",
+      "branches": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0573"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Zcash activated Network Upgrade 5 (NU5), launching the Orchard shielded protocol and Halo 2 proving system and removing the need for trusted setup ceremonies for the new pool.",
+      "significance": "NU5 was a major zero-knowledge cryptography milestone and improved the practicality and trust assumptions of Zcash privacy.",
+      "sources": [
+        {
+          "title": "Electric Coin Company — NU5 activates on mainnet",
+          "url": "https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-038",
+      "canonical_key": "LORE-EVT-1182",
+      "date": "2022-06",
+      "title": "Genesis exposure to Three Arrows weakens lending business",
+      "branches": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1182"
+      ],
+      "research_state": "VERIFIED_WITH_LATER_SEC_RECORD",
+      "source_confidence": "HIGH",
+      "summary": "The SEC later found that Three Arrows Capital defaulted on a Genesis margin call in mid-June 2022, contributing to an approximately $1 billion loss and compromising Genesis's business.",
+      "significance": "The loss was a key hidden link between the 3AC failure and the later Genesis/DCG crisis.",
+      "sources": [
+        {
+          "title": "SEC — Genesis / DCG Three Arrows Capital loss findings",
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-22",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-039",
+      "canonical_key": "2022-celsius-withdrawals-freeze",
       "date": "2022-06-12",
       "title": "Celsius freezes withdrawals",
       "branches": [
         "CEFI",
-        "DISASTERS",
         "CONTAGION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0123"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Celsius halted customer withdrawals and transfers on 12 June 2022 amid severe liquidity problems.",
-      "significance": "The freeze became one of the clearest public signs that the 2022 crypto credit crisis had spread from token markets into major centralized lenders.",
+      "summary": "Celsius paused all withdrawals, swaps and transfers between customer accounts, citing extreme market conditions.",
+      "significance": "The freeze turned abstract CeFi balance-sheet concerns into a bank-run-style crisis for retail depositors.",
       "sources": [
         {
-          "title": "SEC — Celsius Network complaint summary",
-          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25779",
+          "title": "Vermont DFR — Celsius files Chapter 11",
+          "url": "https://dfr.vermont.gov/consumer-alert/celsius-network-files-chapter-11-bankruptcy",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Celsius bankruptcy case portal",
+          "url": "https://cases.stretto.com/celsius-/",
+          "type": "COURT_CASE_PORTAL"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-040",
+      "canonical_key": "LORE-EVT-0999",
+      "date": "2022-06-14",
+      "title": "Coinbase lays off staff during crypto winter",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0999"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase announced a reduction of about 18% of its workforce, approximately 1,100 employees, amid changing market and economic conditions.",
+      "significance": "The layoffs became a visible marker of the 2022 crypto winter reaching publicly listed crypto companies.",
+      "sources": [
+        {
+          "title": "Coinbase — June 2022 workforce reduction",
+          "url": "https://www.coinbase.com/en-nl/blog/a-message-from-coinbase-ceo-and-cofounder-brian-armstrong",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Coinbase 8-K — June 14 restructuring plan",
+          "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978822000077/coin-20220614.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-041",
+      "canonical_key": "LORE-EVT-1180",
+      "date": "2022-06-21",
+      "title": "BlockFi receives FTX rescue facility",
+      "branches": [
+        "CONTAGION",
+        "CEFI",
+        "FTX"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1180"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "FTX agreed to provide BlockFi a $250 million revolving credit facility, later followed by a larger definitive facility and purchase option.",
+      "significance": "The facility is the concrete event behind the 'FTX rescue' narrative.",
+      "sources": [
+        {
+          "title": "BlockFi — $250M FTX credit facility",
+          "url": "https://www.prnewswire.com/news-releases/blockfi-signs-a-landmark-term-sheet-with-ftx-to-provide-a-250-million-credit-facility-301572011.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        },
+        {
+          "title": "BlockFi confirmed plan — FTX loan agreement",
+          "url": "https://blockfiofficialcommittee.com/downloads/BlockFi%20-%20Final%20Plan.pdf",
+          "type": "COURT_DOCUMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-042",
+      "canonical_key": "LORE-EVT-0797",
+      "date": "2022-06-21",
+      "title": "FTX offers rescue financing to troubled crypto firms",
+      "branches": [
+        "FTX",
+        "CEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0797"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "BlockFi announced a term sheet with FTX for a $250 million revolving credit facility; a later June 30 agreement expanded the available FTX facility and included a purchase option.",
+      "significance": "The rescue made FTX appear to be crypto's lender of last resort only months before FTX itself failed.",
+      "sources": [
+        {
+          "title": "BlockFi — $250M FTX credit facility",
+          "url": "https://www.prnewswire.com/news-releases/blockfi-signs-a-landmark-term-sheet-with-ftx-to-provide-a-250-million-credit-facility-301572011.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        },
+        {
+          "title": "BlockFi confirmed plan — FTX loan agreement",
+          "url": "https://blockfiofficialcommittee.com/downloads/BlockFi%20-%20Final%20Plan.pdf",
+          "type": "COURT_DOCUMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-043",
+      "canonical_key": "LORE-EVT-0403",
+      "date": "2022-06-22",
+      "title": "dYdX announces move toward its own Cosmos-based chain",
+      "branches": [
+        "DEFI",
+        "ALTCOINS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0403"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "dYdX announced that version 4 would be developed as a standalone blockchain based on the Cosmos SDK and Tendermint proof-of-stake, with a decentralized off-chain order book and matching engine.",
+      "significance": "The move was a major example of a successful Ethereum application choosing an app-specific sovereign chain for performance and decentralization.",
+      "sources": [
+        {
+          "title": "dYdX June 22 2022 V4 Cosmos announcement archive",
+          "url": "https://threadreaderapp.com/user/dYdX",
+          "type": "PRIMARY_ARCHIVE"
+        },
+        {
+          "title": "dYdX Foundation — V4 AMA recap",
+          "url": "https://www.dydx.foundation/blog/epoch-11-community-ama",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-044",
+      "canonical_key": "2022-harmony-horizon-hack",
+      "date": "2022-06-23",
+      "title": "Harmony Horizon bridge is exploited",
+      "branches": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0242"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Harmony said attackers compromised its Horizon Ethereum Bridge in 11 transactions and removed tokens worth about $100 million at the time.",
+      "significance": "The exploit added to 2022's cascade of bridge failures and highlighted the security risks of cross-chain custody and validator/key design.",
+      "sources": [
+        {
+          "title": "Harmony — Horizon Bridge hack updates",
+          "url": "https://medium.com/harmony-one/harmonys-horizon-bridge-hack-1e8d283b6d66",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-045",
+      "canonical_key": "LORE-EVT-0618",
+      "date": "2022-06-23",
+      "title": "Solana mobile Saga phone is announced",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0618"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Solana Mobile introduced Saga, an Android smartphone designed around self-custody, a Seed Vault and the Solana Mobile Stack.",
+      "significance": "Saga was one of crypto's boldest attempts to build blockchain key management and dapp distribution directly into consumer hardware.",
+      "sources": [
+        {
+          "title": "Solana — Saga reveal",
+          "url": "https://solana.com/nl/news/saga-reveal",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-046",
+      "canonical_key": "LORE-EVT-1107",
+      "date": "2022-06-29",
+      "title": "Arbitrum Odyssey overwhelms network demand",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1107"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Arbitrum paused its Odyssey incentive campaign after unusually high demand caused congestion and elevated transaction fees.",
+      "significance": "The event showed that even a scaling network could be overwhelmed by incentive-driven user activity.",
+      "sources": [
+        {
+          "title": "The Block — Arbitrum pauses Odyssey after congestion",
+          "url": "https://www.theblock.co/news/ecosystems/2022-06-29-arbitrum-fees-rose-higher-than-ethereum-mainnet-for-several-hours-154762",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-047",
+      "canonical_key": "LORE-EVT-0138",
+      "date": "2022-06-30",
+      "title": "EU reaches political agreement on MiCA",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0138"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "EU negotiators reached a provisional political agreement on the Markets in Crypto-Assets regulation (MiCA).",
+      "significance": "MiCA established the basis for the EU's comprehensive cross-border crypto-asset regulatory framework.",
+      "sources": [
+        {
+          "title": "Council of EU — provisional MiCA agreement",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2022/06/30/digital-finance-agreement-reached-on-european-crypto-assets-regulation-mica/",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-007",
+      "id": "LORE-CAN-2022-048",
+      "canonical_key": "LORE-EVT-0795",
+      "date": "2022-07",
+      "title": "3AC founders disappear from public view during liquidation",
+      "branches": [
+        "CEFI",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0795"
+      ],
+      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "During Three Arrows Capital's liquidation, court-appointed representatives said they initially did not know the founders' whereabouts and had difficulty contacting them.",
+      "significance": "The uncertainty turned a huge institutional default into an unusual global manhunt-style insolvency story.",
+      "sources": [
+        {
+          "title": "Washington Post — 3AC liquidators and founders' whereabouts",
+          "url": "https://www.washingtonpost.com/business/2022/07/13/judge-freezes-assets-crypto-hedge-fund-three-arrows-capital/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-049",
       "date": "2022-07",
       "title": "Three Arrows Capital collapses",
       "branches": [
@@ -173,54 +1415,234 @@
           "type": "REGULATORY_FILING"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0054",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2022-008",
-      "date": "2022-07",
+      "id": "LORE-CAN-2022-050",
+      "canonical_key": "LORE-EVT-1097",
+      "date": "2022-07 onward",
+      "title": "Uniswap governance debates a protocol fee-switch pilot",
+      "branches": [
+        "DEX",
+        "DAO"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1097"
+      ],
+      "research_state": "DATE_CORRECTED",
+      "source_confidence": "HIGH",
+      "summary": "Uniswap's formal governance push to test the protocol fee switch became a major debate in 2022, not 2021.",
+      "significance": "The debate matters because protocol fees raise questions about DAO governance, LP economics and token value accrual.",
+      "sources": [
+        {
+          "title": "Uniswap Governance — fee switch design discussion",
+          "url": "https://gov.uniswap.org/t/fee-switch-design-space-next-steps/17132",
+          "type": "PROJECT_GOVERNANCE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-051",
+      "canonical_key": "2022-voyager-chapter11",
+      "date": "2022-07-05",
       "title": "Voyager Digital enters bankruptcy",
       "branches": [
         "CEFI",
-        "CONTAGION",
-        "DISASTERS"
+        "CONTAGION"
       ],
-      "research_state": "VERIFIED_WITH_MONTH",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "Voyager Digital entered bankruptcy proceedings in July 2022 after losses and counterparty failures during the credit crisis.",
-      "significance": "Voyager showed how 3AC-linked losses propagated from a hedge fund into retail-facing crypto lenders.",
+      "source_event_ids": [
+        "LORE-EVT-0124"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Voyager Digital and affiliates filed for Chapter 11 bankruptcy protection after severe market stress and 3AC's default.",
+      "significance": "Voyager's bankruptcy demonstrated how 3AC losses propagated through retail-facing crypto lenders.",
       "sources": [
         {
-          "title": "SEC filing summarizing 2022 insolvencies",
-          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312523170749/d398991dex992.htm",
-          "type": "REGULATORY_FILING"
+          "title": "Voyager Digital Chapter 11 announcement",
+          "url": "https://www.prnewswire.com/news-releases/voyager-digital-commences-financial-restructuring-process-to-maximize-value-for-all-stakeholders-301581956.html",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Voyager Digital — Market Update / 3AC default",
+          "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+          "type": "COMPANY_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-009",
-      "date": "2022-08-02",
-      "title": "Nomad bridge is drained in a copycat exploit",
+      "id": "LORE-CAN-2022-052",
+      "canonical_key": "LORE-EVT-0905",
+      "date": "2022-07-07",
+      "title": "Reddit quietly onboards mainstream users to blockchain collectibles",
+      "branches": [
+        "NFT",
+        "ADOPTION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0905"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Reddit announced blockchain-backed Collectible Avatars sold through a dedicated storefront and usable as Reddit profile imagery.",
+      "significance": "Reddit quietly introduced millions of mainstream users to blockchain collectibles while often avoiding heavy 'NFT' terminology.",
+      "sources": [
+        {
+          "title": "Reddit — Collectible Avatars launch announcement",
+          "url": "https://redditinc.com/news/blockchain-backed-collectible-avatars-coming-to-reddit-via-new-storefront",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-053",
+      "canonical_key": "LORE-EVT-1080",
+      "date": "2022-07-11",
+      "title": "Safe spins out as major smart-account infrastructure",
+      "branches": [
+        "ETHEREUM",
+        "SECURITY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1080"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Gnosis Safe announced its rebrand to Safe and a $100 million strategic raise as it developed into independent smart-account infrastructure.",
+      "significance": "The spinout/rebrand marked Safe's transition from Gnosis product to foundational multi-signature and smart-account infrastructure.",
+      "sources": [
+        {
+          "title": "Safe — rebrand and $100M raise",
+          "url": "https://safefoundation.org/blog/gnosis-safe-raises-usd100-million-led-by-1kx-to-unlock-digital-asset",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-054",
+      "canonical_key": "LORE-EVT-1215",
+      "date": "2022-07-14",
+      "title": "OpenSea cuts staff as NFT market contracts",
+      "branches": [
+        "NFT",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1215"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "OpenSea cut about 20% of its staff as NFT trading activity and the broader crypto market contracted.",
+      "significance": "The layoffs became a clear operating-company marker of the NFT boom turning into crypto winter.",
+      "sources": [
+        {
+          "title": "TechCrunch — OpenSea cuts 20% of staff",
+          "url": "https://techcrunch.com/2022/07/14/nft-marketplace-opensea-lays-off-20-percent-of-its-staff-we-have-entered-crypto-winter/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-055",
+      "canonical_key": "LORE-EVT-0125",
+      "date": "2022-08-01",
+      "title": "Nomad bridge exploit becomes a copycat free-for-all",
       "branches": [
         "HACKS",
         "BRIDGES",
         "CULTURE"
       ],
-      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "source_event_ids": [
+        "LORE-EVT-0125"
+      ],
+      "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Nomad suffered a bridge exploit in August 2022 that became notorious because multiple addresses copied the exploit transaction pattern to withdraw assets.",
-      "significance": "The incident became the canonical 'crowdsourced' bridge hack and demonstrated how transparent exploit mechanics can accelerate losses.",
+      "summary": "A configuration error in Nomad's bridge allowed attackers to replay a successful withdrawal message; more than 300 addresses copied transactions and over $186 million was removed.",
+      "significance": "Nomad became crypto's most literal 'copy-paste' hack, with opportunistic addresses joining the exploit after the flaw became obvious.",
       "sources": [
         {
-          "title": "U.S. Treasury — Tornado Cash sanctions",
-          "url": "https://home.treasury.gov/news/press-releases/jy0916",
-          "type": "GOVERNMENT"
+          "title": "Nomad — Nomad Bridge Hack: Root Cause Analysis",
+          "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-7f72a327405e",
+          "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-010",
+      "id": "LORE-CAN-2022-056",
+      "canonical_key": "LORE-EVT-0908",
+      "date": "2022-08-01 to 2022-08-05",
+      "title": "Tiffany launches CryptoPunk-linked NFTiff jewelry",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0908"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Tiffany announced NFTiff: 250 passes for CryptoPunk owners to redeem for custom jewel pendants and matching digital renders, with sales beginning in early August.",
+      "significance": "NFTiff became one of the clearest luxury-brand attempts to fuse a major NFT collection with high-end physical goods.",
+      "sources": [
+        {
+          "title": "Tiffany & Co. Japan — NFTiff announcement",
+          "url": "https://prtimes.jp/main/html/rd/p/000000405.000010426.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-057",
+      "canonical_key": "LORE-EVT-0359",
+      "date": "2022-08-04",
+      "title": "BlackRock partners with Coinbase for institutional crypto access",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0359"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase announced a partnership with BlackRock connecting Coinbase Prime with BlackRock's Aladdin platform, initially giving mutual institutional clients direct access to Bitcoin trading and custody.",
+      "significance": "The deal linked one of traditional finance's most important institutional platforms with crypto prime brokerage and custody.",
+      "sources": [
+        {
+          "title": "Coinbase — selected by BlackRock for Aladdin crypto access",
+          "url": "https://www.coinbase.com/blog/coinbase-selected-by-blackrock-provide-aladdin-clients-access-to-crypto-trading-and-custody-via",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-058",
       "date": "2022-08-08",
       "title": "US Treasury sanctions Tornado Cash",
       "branches": [
@@ -242,10 +1664,151 @@
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "2022-tornado-cash-sanctions",
+      "merged_legacy_titles": [
+        "Tornado Cash sanctions"
+      ]
     },
     {
-      "id": "LORE-CAN-2022-011",
+      "id": "LORE-CAN-2022-059",
+      "canonical_key": "LORE-EVT-0299",
+      "date": "2022-08-10",
+      "title": "Tornado Cash developer arrest intensifies privacy debate",
+      "branches": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0299"
+      ],
+      "research_state": "VERIFIED_WITH_ATTRIBUTION",
+      "source_confidence": "HIGH",
+      "summary": "Dutch FIOD arrested a 29-year-old Tornado Cash developer in Amsterdam on suspicion of involvement in concealing criminal financial flows and facilitating money laundering; he was later identified publicly as Alexey Pertsev.",
+      "significance": "The arrest intensified the debate over developer liability, privacy software and decentralized protocols immediately after US sanctions on Tornado Cash.",
+      "sources": [
+        {
+          "title": "Dutch FIOD — arrest of suspected Tornado Cash developer",
+          "url": "https://www.fiod.nl/arrest-of-suspected-developer-of-tornado-cash/",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "State suspicions/allegations as those of Dutch authorities, not as independent conclusions."
+    },
+    {
+      "id": "LORE-CAN-2022-060",
+      "canonical_key": "LORE-EVT-0415",
+      "date": "2022-08-17",
+      "title": "ENS registrations surge during Web3 identity boom",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0415"
+      ],
+      "research_state": "VERIFIED_WITH_MILESTONE",
+      "source_confidence": "HIGH",
+      "summary": "ENS crossed 2 million registered .eth names on 17 August 2022.",
+      "significance": "The milestone showed decentralized naming becoming one of Ethereum's most widely adopted identity applications during the Web3 boom.",
+      "sources": [
+        {
+          "title": "ENS DAO Newsletter — 2 million .eth names",
+          "url": "https://discuss.ens.domains/t/ens-dao-newsletter-13-09-01-2022/14247",
+          "type": "PROJECT_COMMUNITY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-061",
+      "canonical_key": "LORE-EVT-0903",
+      "date": "2022-09-12",
+      "title": "Starbucks announces Odyssey NFT loyalty experiment",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0903"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Starbucks announced Starbucks Odyssey, a Web3 extension of Starbucks Rewards using Polygon and NFT-based digital collectible 'journey stamps.'",
+      "significance": "The project was a major mainstream consumer-brand experiment in using NFTs as loyalty infrastructure rather than profile pictures.",
+      "sources": [
+        {
+          "title": "Polygon — Starbucks Odyssey partnership",
+          "url": "https://polygon.technology/blog/starbucks-taps-polygon-for-its-starbucks-r-odyssey-web3-experience-nbsp",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-062",
+      "canonical_key": "LORE-EVT-0804",
+      "date": "2022-09-14",
+      "title": "South Korean court issues arrest warrant for Do Kwon",
+      "branches": [
+        "PEOPLE",
+        "CRIME",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0804"
+      ],
+      "research_state": "VERIFIED_WITH_PRECISE_EVENT",
+      "source_confidence": "HIGH",
+      "summary": "A South Korean court issued arrest warrants for Do Kwon and five others after the Terra collapse; Kwon was believed to be in Singapore at the time.",
+      "significance": "The warrant transformed Terra's collapse from a market failure into a cross-border criminal-investigation story.",
+      "sources": [
+        {
+          "title": "Reuters — South Korea arrest warrant for Do Kwon",
+          "url": "https://www.marketscreener.com/news/latest/South-Korea-seeks-to-arrest-developer-of-failed-cryptocurrency-Luna-41767355/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-063",
+      "canonical_key": "LORE-EVT-0409",
+      "date": "2022-09-15",
+      "title": "Flashbots MEV-Boost becomes important after Ethereum Merge",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0409"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Flashbots MEV-Boost went live with proof-of-stake Ethereum at The Merge; Flashbots recorded the first PoS block proposed through MEV-Boost shortly afterward.",
+      "significance": "MEV-Boost rapidly became core post-Merge block-building infrastructure and made proposer-builder separation an operational reality.",
+      "sources": [
+        {
+          "title": "Flashbots — MEV-Boost status update after Merge",
+          "url": "https://boost.flashbots.net/mev-boost-status-updates/mev-boost-status-update-sep-9-sept-22-2022",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-064",
       "date": "2022-09-15T06:42:42Z",
       "title": "Ethereum completes The Merge",
       "branches": [
@@ -271,46 +1834,144 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "2022-ethereum-merge",
+      "merged_legacy_titles": [
+        "Ethereum Merge"
+      ]
     },
     {
-      "id": "LORE-CAN-2022-012",
-      "date": "2022-09-15",
-      "title": "Ethereum proof-of-work mining ends",
+      "id": "LORE-CAN-2022-065",
+      "canonical_key": "LORE-EVT-1224",
+      "date": "2022-09-21",
+      "title": "Kraken CEO Jesse Powell steps down",
       "branches": [
-        "ETHEREUM",
-        "MINING"
+        "EXCHANGES",
+        "PEOPLE"
       ],
-      "research_state": "VERIFIED_SUBEVENT",
+      "source_event_ids": [
+        "LORE-EVT-1224"
+      ],
+      "research_state": "VERIFIED_WITH_SUCCESSION",
       "source_confidence": "HIGH",
-      "summary": "The Merge switched off Ethereum's proof-of-work consensus and transferred network security to validators staking ETH.",
-      "significance": "GPU mining ceased to secure Ethereum, ending a seven-year mining era and forcing miners toward other chains or other uses.",
+      "summary": "Kraken announced that COO Dave Ripley would succeed co-founder Jesse Powell as CEO after a COO replacement was found, with Powell moving to chairman.",
+      "significance": "The succession marked a leadership transition at one of crypto's oldest surviving exchanges.",
       "sources": [
         {
-          "title": "Ethereum.org — The Merge",
-          "url": "https://ethereum.org/roadmap/merge/",
+          "title": "Kraken — leadership succession plan",
+          "url": "https://www.kraken.com/press/releases/kraken-announces-leadership-succession-plan",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-066",
+      "canonical_key": "LORE-EVT-0624",
+      "date": "2022-09-22",
+      "title": "Cardano Vasil upgrade improves smart-contract capabilities",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0624"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Cardano activated the Vasil hard fork, moving into the Babbage era with changes intended to improve throughput, Plutus smart-contract efficiency and scaling.",
+      "significance": "Vasil was one of Cardano's largest post-smart-contract protocol upgrades.",
+      "sources": [
+        {
+          "title": "Cardano Foundation — Vasil hard fork",
+          "url": "https://cardanofoundation.org/blog/the-vasil-hard-fork-a-new-update-to-scale-and-optimize-the-cardano",
           "type": "PROJECT_PRIMARY"
         }
       ],
       "score_status": "NOT_SCORED",
-      "relation": "SUBEVENT",
-      "canonical_event_id": "LORE-CAN-2022-011"
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-013",
-      "date": "2022-10-06",
-      "title": "BNB Chain bridge exploit mints two million BNB",
+      "id": "LORE-CAN-2022-067",
+      "canonical_key": "LORE-EVT-0386",
+      "date": "2022-09-22",
+      "title": "Helium community votes to migrate to Solana",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0386"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Helium's HIP 70 governance vote passed with 81.41% of voting power, approving migration of Helium's tokens, governance and transaction/account layer from its own L1 to Solana.",
+      "significance": "It was an unusual decision by a live blockchain ecosystem to abandon its sovereign base chain in favor of another network.",
+      "sources": [
+        {
+          "title": "Helium Vote — HIP 70 Scaling the Network",
+          "url": "https://heliumvote.com/hnt/proposals/legacy/13Y79HnMVt4Epug2rbLYivMPvrcpC2wYUNbZK5Dga3tw3VBpBjk",
+          "type": "PROJECT_GOVERNANCE"
+        },
+        {
+          "title": "Helium Foundation — 2022 Protocol Report",
+          "url": "https://www.helium.foundation/protocol-report-2022",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-068",
+      "canonical_key": "LORE-EVT-0805",
+      "date": "2022-09-26",
+      "title": "Interpol Red Notice is reported in Do Kwon case",
+      "branches": [
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0805"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "South Korean prosecutors said Interpol had issued a Red Notice for Do Kwon, requesting law-enforcement agencies worldwide locate and provisionally arrest him.",
+      "significance": "The Red Notice made the Terra founder's location and extradition an international crypto-crime story.",
+      "sources": [
+        {
+          "title": "Yonhap — Interpol Red Notice for Do Kwon",
+          "url": "https://en.yna.co.kr/view/AEN20220926006100315",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-069",
+      "canonical_key": "2022-bnb-token-hub-exploit",
+      "date": "2022-10-06 to 2022-10-07",
+      "title": "BNB Chain bridge exploit triggers emergency chain response",
       "branches": [
         "HACKS",
         "BRIDGES"
       ],
-      "research_state": "VERIFIED",
+      "source_event_ids": [
+        "LORE-EVT-0243"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
       "source_confidence": "HIGH",
-      "summary": "An attacker exploited the BSC Token Hub cross-chain bridge, creating two million BNB through forged proof verification.",
-      "significance": "The incident raised major questions about bridge security and chain governance after validators coordinated a temporary network pause.",
+      "summary": "An exploit in the BSC Token Hub allowed forged proofs and the withdrawal of 2 million BNB; validators coordinated to halt BNB Smart Chain and limit further losses.",
+      "significance": "The emergency halt made the incident both a major bridge exploit and a high-profile case study in chain governance and validator coordination.",
       "sources": [
         {
-          "title": "BNB Chain — Ecosystem Update",
+          "title": "BNB Chain — Ecosystem Update after BSC Token Hub exploit",
           "url": "https://www.bnbchain.org/en/blog/bnb-chain-ecosystem-update",
           "type": "PROJECT_PRIMARY"
         },
@@ -320,129 +1981,156 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-014",
-      "date": "2022-10-11",
-      "title": "Mango Markets is manipulated and drained",
+      "id": "LORE-CAN-2022-070",
+      "canonical_key": "LORE-EVT-1051",
+      "date": "2022-10-11 to 2022-10-14",
+      "title": "Devcon Bogota marks return of major in-person Ethereum conference",
       "branches": [
-        "HACKS",
-        "DEFI"
+        "ETHEREUM",
+        "CULTURE"
       ],
-      "research_state": "VERIFIED_WITH_LATER_ENFORCEMENT",
+      "source_event_ids": [
+        "LORE-EVT-1051"
+      ],
+      "research_state": "VERIFIED_WITH_RANGE",
       "source_confidence": "HIGH",
-      "summary": "Avraham Eisenberg used two controlled accounts and large MNGO trades to manipulate the price of MNGO perpetuals, inflate collateral value and withdraw roughly $110-$116 million in crypto from Mango Markets.",
-      "significance": "The incident became a landmark DeFi market-manipulation case and tested whether actions executed through protocol rules could still constitute fraud and commodities manipulation.",
+      "summary": "Ethereum Foundation's Devcon VI took place in Bogotá, Colombia, reuniting the main Devcon conference in person after a three-year gap.",
+      "significance": "The return marked the post-pandemic reopening of Ethereum's flagship global developer gathering and a deliberate expansion into Latin America.",
       "sources": [
         {
-          "title": "SEC — Charges Avraham Eisenberg over Mango Markets manipulation",
-          "url": "https://www.sec.gov/newsroom/press-releases/2023-13",
-          "type": "GOVERNMENT"
+          "title": "Ethereum Foundation — Devcon VI in Bogotá",
+          "url": "https://blog.ethereum.org/2022/02/18/colombia-in-2022-redux",
+          "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "CFTC — Charges Avraham Eisenberg",
-          "url": "https://www.cftc.gov/PressRoom/PressReleases/8647-23",
-          "type": "GOVERNMENT"
+          "title": "Ethereum Foundation — Devcon VI recap",
+          "url": "https://blog.ethereum.org/2022/11/17/devcon-vi-wrap",
+          "type": "PROJECT_PRIMARY"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Later criminal and civil cases provide the strongest authoritative reconstruction of the 11 October 2022 event."
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-015",
-      "date": "2022-11-02",
-      "title": "CoinDesk publishes Alameda balance-sheet scoop",
+      "id": "LORE-CAN-2022-071",
+      "canonical_key": "LORE-EVT-0394",
+      "date": "2022-10-17",
+      "title": "Aptos mainnet launches",
       "branches": [
-        "FTX",
-        "EXCHANGES",
-        "MARKETS"
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0394"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "CoinDesk reported that a private Alameda Research balance sheet showed a large concentration of assets in FTX's own FTT token.",
-      "significance": "The report triggered scrutiny of the financial ties between Alameda and FTX and became the opening event in the exchange's public collapse.",
+      "summary": "Aptos Labs announced that Aptos Mainnet had arrived after years of development by a team that included former Diem engineers.",
+      "significance": "Aptos became a major Move-based layer-1 launch and one of the most heavily funded new-chain debuts of the post-2021 cycle.",
       "sources": [
         {
-          "title": "CoinDesk — Alameda balance sheet",
+          "title": "Aptos Labs — Aptos Autumn is Here",
+          "url": "https://medium.com/aptoslabs/aptos-autumn-is-here-92a8d904eb49",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-072",
+      "canonical_key": "LORE-EVT-0326",
+      "date": "2022-10-19",
+      "title": "Blur launches and challenges OpenSea",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0326"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Blur launched publicly after a four-month private beta, using 'care package' airdrop incentives for NFT traders and listings.",
+      "significance": "Blur introduced a pro-trader, incentive-heavy marketplace model that became OpenSea's strongest volume competitor.",
+      "sources": [
+        {
+          "title": "The Block — Blur marketplace goes live",
+          "url": "https://www.theblock.co/news/web3/2022-10-19-nft-marketplace-blur-to-airdrop-tokens-to-users-as-it-goes-live-178407",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-073",
+      "canonical_key": "2022-coindesk-alameda-balance-sheet",
+      "date": "2022-11-02",
+      "title": "CoinDesk reports on Alameda balance sheet",
+      "branches": [
+        "FTX",
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0245"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "CoinDesk reported details from a private Alameda Research balance sheet showing $14.6 billion of assets at 30 June, with a large share tied to FTT and other tokens associated with Bankman-Fried-linked entities.",
+      "significance": "The report crystallized concerns about the financial entanglement of FTX and Alameda and became the immediate informational trigger for the November crisis.",
+      "sources": [
+        {
+          "title": "CoinDesk — Alameda balance sheet report",
           "url": "https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/",
           "type": "CONTEMPORARY_SECONDARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-016",
+      "id": "LORE-CAN-2022-074",
+      "canonical_key": "2022-ftx-bank-run",
       "date": "2022-11-06",
-      "title": "CZ announces Binance will liquidate its FTT holdings",
+      "title": "CZ says Binance will liquidate its FTT holdings",
       "branches": [
         "FTX",
         "EXCHANGES",
         "CULTURE"
       ],
-      "research_state": "VERIFIED_ARCHIVED_PRIMARY",
+      "source_event_ids": [
+        "LORE-EVT-0246",
+        "LORE-EVT-0247"
+      ],
+      "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Binance CEO Changpeng Zhao said Binance had decided to liquidate its remaining FTT holdings after 'recent revelations' and described the move as post-exit risk management following lessons from LUNA.",
-      "significance": "The public announcement accelerated scrutiny and withdrawals at FTX during the sequence that ended in its bankruptcy five days later; it should be treated as a catalyst in a broader solvency crisis, not the sole cause.",
+      "summary": "Binance CEO Changpeng Zhao announced that Binance intended to liquidate its remaining FTT holdings, citing 'recent revelations' and post-exit risk management.",
+      "significance": "The tweet accelerated scrutiny and withdrawals and became one of the most consequential social-media posts in crypto history.",
       "sources": [
         {
-          "title": "Archived CZ tweet — 6 Nov 2022",
+          "title": "CZ — FTT liquidation thread archived",
           "url": "https://archive.ph/WmZJF",
           "type": "PRIMARY_ARCHIVE"
-        },
-        {
-          "title": "Binance Square recap of CZ FTT announcement",
-          "url": "https://www.binance.com/en-TR/square/post/46039",
-          "type": "COMPANY_ARCHIVE"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Causal wording is deliberately limited: FTX's underlying balance-sheet and customer-fund problems predated the tweet."
+      "merged_legacy_titles": [
+        "Binance signs and then abandons a deal to acquire FTX"
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-017",
-      "date": "2022-11-08",
-      "title": "Binance signs a non-binding deal to acquire FTX",
-      "branches": [
-        "FTX",
-        "EXCHANGES"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "FTX and Binance announced a non-binding letter of intent under which Binance would explore acquiring FTX.com amid a severe liquidity crisis.",
-      "significance": "For a few hours, the proposed rescue appeared to offer FTX a path out of collapse; its failure made the scale of the problem unmistakable.",
-      "sources": [
-        {
-          "title": "Binance — FTX acquisition announcement recap",
-          "url": "https://www.binance.com/en/square/post/48239",
-          "type": "COMPANY_CHANNEL"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2022-018",
-      "date": "2022-11-09",
-      "title": "Binance abandons the FTX acquisition",
-      "branches": [
-        "FTX",
-        "EXCHANGES"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "Binance said it would not pursue the FTX acquisition after due diligence and reports concerning customer funds and investigations.",
-      "significance": "The withdrawal removed FTX's most plausible immediate rescue and made bankruptcy increasingly unavoidable.",
-      "sources": [
-        {
-          "title": "Binance channel — withdrawal from FTX deal",
-          "url": "https://www.binance.com/en/square/post/50144",
-          "type": "COMPANY_CHANNEL"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2022-019",
+      "id": "LORE-CAN-2022-075",
       "date": "2022-11-11",
       "title": "FTX files for Chapter 11 bankruptcy",
       "branches": [
@@ -469,134 +2157,232 @@
           "type": "REGULATORY_FILING"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "merged_legacy_titles": [
+        "FTX collapses and files for bankruptcy"
+      ]
     },
     {
-      "id": "LORE-CAN-2022-020",
-      "date": "2022-11",
-      "title": "FTX collapse exposes diversion of customer funds to Alameda",
-      "branches": [
-        "FTX",
-        "CRIME",
-        "DISASTERS"
-      ],
-      "research_state": "VERIFIED_WITH_LATER_ENFORCEMENT",
-      "source_confidence": "HIGH",
-      "summary": "US regulators later alleged that FTX customer assets had been diverted to Alameda Research and that Alameda received undisclosed special treatment on FTX.",
-      "significance": "The allegations transformed FTX from a liquidity failure story into one of the largest alleged frauds in financial-technology history.",
-      "sources": [
-        {
-          "title": "SEC — Bankman-Fried complaint",
-          "url": "https://www.sec.gov/newsroom/press-releases/2022-219",
-          "type": "GOVERNMENT"
-        },
-        {
-          "title": "SEC complaint",
-          "url": "https://www.sec.gov/file/sec-complaint-2475",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2022-021",
-      "date": "2022-11-28",
-      "title": "BlockFi files for bankruptcy after FTX contagion",
+      "id": "LORE-CAN-2022-076",
+      "canonical_key": "LORE-EVT-0995",
+      "date": "2022-11-16",
+      "title": "Gemini Earn freezes withdrawals through Genesis exposure",
       "branches": [
         "CEFI",
-        "FTX",
         "CONTAGION"
       ],
-      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "BlockFi entered Chapter 11 bankruptcy in late November 2022 after the FTX collapse severely damaged its liquidity and financial position.",
-      "significance": "BlockFi's failure showed how FTX contagion spread into centralized lending almost immediately.",
-      "sources": [
-        {
-          "title": "SEC filing summarizing BlockFi/FTX contagion",
-          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312523170749/d398991dex992.htm",
-          "type": "REGULATORY_FILING"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2022-022",
-      "date": "2022-12-12",
-      "title": "Sam Bankman-Fried is arrested in the Bahamas",
-      "branches": [
-        "FTX",
-        "CRIME",
-        "PEOPLE"
+      "source_event_ids": [
+        "LORE-EVT-0995"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Bankman-Fried was arrested in the Bahamas on 12 December 2022 ahead of US criminal and civil charges.",
-      "significance": "The arrest closed the first phase of the FTX collapse and began the criminal-prosecution chapter.",
+      "summary": "After Genesis Global Capital paused withdrawals, Gemini said the Earn program could no longer meet its five-business-day redemption SLA and paused Earn withdrawals.",
+      "significance": "The freeze showed FTX contagion spreading through Genesis into a major consumer exchange product.",
       "sources": [
         {
-          "title": "US DOJ — FTX founder indicted",
-          "url": "https://www.justice.gov/archives/opa/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses",
-          "type": "GOVERNMENT"
+          "title": "Gemini — Earn updates",
+          "url": "https://www.gemini.com/earn",
+          "type": "COMPANY_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2022-023",
-      "date": "2022-12-13",
-      "title": "US regulators charge Sam Bankman-Fried",
+      "id": "LORE-CAN-2022-077",
+      "canonical_key": "LORE-EVT-0518",
+      "date": "2022-11-16",
+      "title": "Genesis suspends redemptions in lending business",
       "branches": [
-        "FTX",
-        "CRIME",
-        "GOVERNMENTS"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "The SEC charged Bankman-Fried with defrauding FTX equity investors while US prosecutors announced a criminal indictment including fraud, money-laundering and campaign-finance offenses.",
-      "significance": "The coordinated charges formally alleged that FTX's collapse involved years-long misuse of customer assets rather than mere mismanagement.",
-      "sources": [
-        {
-          "title": "SEC — Bankman-Fried charges",
-          "url": "https://www.sec.gov/newsroom/press-releases/2022-219",
-          "type": "GOVERNMENT"
-        },
-        {
-          "title": "US DOJ — FTX founder indicted",
-          "url": "https://www.justice.gov/archives/opa/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2022-024",
-      "date": "2022",
-      "title": "The crypto credit contagion links Terra, 3AC, Celsius, Voyager, BlockFi and FTX",
-      "branches": [
-        "CONTAGION",
         "CEFI",
+        "CONTAGION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0518"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Genesis Global Capital suspended new loan originations and redemptions after the FTX failure created what it described as abnormal withdrawal requests exceeding liquidity.",
+      "significance": "The suspension showed FTX contagion reaching institutional crypto lending and later fed into Genesis's own bankruptcy.",
+      "sources": [
+        {
+          "title": "Genesis — November 2022 lending update",
+          "url": "https://twitter.com/GenesisTrading/status/1592867203818168320",
+          "type": "COMPANY_PRIMARY_ARCHIVE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-078",
+      "canonical_key": "2022-blockfi-bankruptcy",
+      "date": "2022-11-28",
+      "title": "BlockFi enters bankruptcy following FTX contagion",
+      "branches": [
+        "CEFI",
+        "CONTAGION",
+        "FTX"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0126"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "BlockFi and several affiliates filed for Chapter 11 bankruptcy protection following the FTX collapse and associated market stress.",
+      "significance": "BlockFi's failure became a direct second-order casualty of FTX and completed another link in the 2022 CeFi contagion chain.",
+      "sources": [
+        {
+          "title": "BlockFi restructuring case portal",
+          "url": "https://restructuring.ra.kroll.com/blockfi/",
+          "type": "COURT_CASE_PORTAL"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-079",
+      "canonical_key": "2022-sbf-arrest",
+      "date": "2022-12-12",
+      "title": "Sam Bankman-Fried is arrested",
+      "branches": [
+        "FTX",
+        "CRIME"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0127"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Sam Bankman-Fried was arrested in the Bahamas following charges filed by US federal prosecutors.",
+      "significance": "The arrest moved the FTX story from corporate collapse into criminal prosecution.",
+      "sources": [
+        {
+          "title": "DOJ — Sam Bankman-Fried charged following Bahamas arrest",
+          "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-charged-fraud-conspiracy-and-campaign-finance-offenses",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-080",
+      "canonical_key": "LORE-EVT-0941",
+      "date": "2022-12-21",
+      "title": "Core Scientific enters Chapter 11",
+      "branches": [
+        "BITCOIN",
+        "MINING",
         "DISASTERS"
       ],
-      "research_state": "CONTEXT_VERIFIED",
+      "source_event_ids": [
+        "LORE-EVT-0941"
+      ],
+      "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "During 2022, failures and losses propagated through a highly interconnected network of hedge funds, lenders and exchanges, including Terra, Three Arrows, Celsius, Voyager, BlockFi and FTX.",
-      "significance": "The contagion revealed hidden leverage and counterparty concentration across centralized crypto credit markets.",
+      "summary": "Core Scientific and certain affiliates filed voluntary Chapter 11 petitions while continuing to operate as debtors in possession.",
+      "significance": "The bankruptcy became the clearest corporate failure of the debt-funded public Bitcoin-mining expansion.",
       "sources": [
         {
-          "title": "SEC filing — 2022 crypto insolvency contagion",
-          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312523170749/d398991dex992.htm",
-          "type": "REGULATORY_FILING"
-        },
-        {
-          "title": "SEC filing — Celsius, Voyager, 3AC and Terra",
-          "url": "https://www.sec.gov/Archives/edgar/data/1729997/000095017023002146/gdlc-20221231.htm",
+          "title": "Core Scientific SEC filing — Chapter 11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312522309624/d401435dex991.htm",
           "type": "REGULATORY_FILING"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-081",
+      "canonical_key": "LORE-EVT-0519",
+      "date": "2022-12-21",
+      "title": "SBF extradited to the United States",
+      "branches": [
+        "FTX",
+        "CRIME"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0519"
+      ],
+      "research_state": "DATE_CORRECTED",
+      "source_confidence": "HIGH",
+      "summary": "Sam Bankman-Fried was extradited from the Bahamas to the United States on 21 December 2022, not in 2023.",
+      "significance": "The extradition brought the FTX founder into US federal custody ahead of the 2023 criminal trial.",
+      "sources": [
+        {
+          "title": "DOJ — SBF extradited to the United States",
+          "url": "https://www.justice.gov/usao-sdny/pr/united-states-attorney-announces-extradition-ftx-founder-samuel-bankman-fried-united",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-082",
+      "canonical_key": "LORE-EVT-0530",
+      "date": "2022-12-25",
+      "title": "BONK airdrop helps energize Solana ecosystem",
+      "branches": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0530"
+      ],
+      "research_state": "DATE_CORRECTED",
+      "source_confidence": "HIGH",
+      "summary": "BONK launched on Christmas Day 2022, with more than half of its supply distributed to developers and creators across the Solana ecosystem.",
+      "significance": "The community distribution arrived immediately after the FTX shock and became an important morale and meme-culture catalyst for Solana's recovery.",
+      "sources": [
+        {
+          "title": "BONK — About / launch history",
+          "url": "https://www.bonkcoin.com/about",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2022-083",
+      "canonical_key": "LORE-EVT-1225",
+      "date": "2022-H1",
+      "title": "Coinbase introduces subscription-based Coinbase One",
+      "branches": [
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1225"
+      ],
+      "research_state": "VERIFIED_WITH_BETA_QUALIFIER",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase said it began testing Coinbase One in early 2022 as a subscription product offering US retail users zero trading fees, enhanced support and other benefits for a monthly fee.",
+      "significance": "Coinbase One represented a shift from purely transaction-fee monetization toward subscription revenue.",
+      "sources": [
+        {
+          "title": "Coinbase Q2 2022 shareholder letter — Coinbase One beta",
+          "url": "https://s27.q4cdn.com/397450999/files/doc_financials/2022/q2/Q2-2022-Shareholder-Letter.pdf",
+          "type": "REGULATORY_COMPANY_REPORT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     }
   ],
   "updated": "2026-09-26",
-  "note": "2022 evidence pass tightened; 0 low-confidence/research-needed canonical entries remain."
+  "note": "2022 canonical file reconciled from complete 2022 reconciliation. Context and merged discovery rows remain in reconciliation/legacy files and are excluded from independent card scoring.",
+  "reconciliation_source": "2022-reconciliation.json",
+  "reconciliation_status": "COMPLETE"
 }
