@@ -1,0 +1,2501 @@
+{
+  "schema_version": "1.0",
+  "year": 2022,
+  "updated": "2026-09-26",
+  "source_queue": "2022-legacy-candidates.json",
+  "evidence_file": "2022.json",
+  "note": "Every legacy candidate is assigned a reconciliation outcome. RESEARCHED_PENDING_MIGRATION already has evidence in the preserved master; NEEDS_RESEARCH requires additional work or rejection.",
+  "counts": {
+    "CANONICAL": 15,
+    "RESEARCHED_PENDING_MIGRATION": 67,
+    "CONTEXT": 50,
+    "MERGED": 18,
+    "NEEDS_RESEARCH": 3
+  },
+  "rows": [
+    {
+      "legacy_id": "LORE-EVT-0051",
+      "date": "2022-03",
+      "title": "Ronin bridge exploit",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "GAMING"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-ronin-bridge-exploit",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0052",
+      "date": "2022-05",
+      "title": "UST loses its peg",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-terra-ust-depeg",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0053",
+      "date": "2022-05",
+      "title": "LUNA death spiral",
+      "tier": "CORE",
+      "branches": [
+        "DISASTERS",
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-luna-death-spiral",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0054",
+      "date": "2022-06",
+      "title": "Three Arrows Capital collapses",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0055",
+      "date": "2022-08",
+      "title": "Tornado Cash sanctions",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-tornado-cash-sanctions",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0056",
+      "date": "2022-09-15",
+      "title": "Ethereum Merge",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-ethereum-merge",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0057",
+      "date": "2022-11",
+      "title": "FTX collapses and files for bankruptcy",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0122",
+      "date": "2022",
+      "title": "Wormhole bridge exploit",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0123",
+      "date": "2022",
+      "title": "Celsius freezes withdrawals",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-celsius-withdrawals-freeze",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0124",
+      "date": "2022",
+      "title": "Voyager Digital enters bankruptcy",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-voyager-chapter11",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0125",
+      "date": "2022",
+      "title": "Nomad bridge exploit becomes a copycat free-for-all",
+      "tier": "LORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0126",
+      "date": "2022",
+      "title": "BlockFi enters bankruptcy following FTX contagion",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "CONTAGION",
+        "FTX"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-blockfi-bankruptcy",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0127",
+      "date": "2022",
+      "title": "Sam Bankman-Fried is arrested",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-sbf-arrest",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0138",
+      "date": "2022",
+      "title": "EU reaches political agreement on MiCA",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0140",
+      "date": "2022",
+      "title": "Central African Republic adopts Bitcoin as legal tender",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0164",
+      "date": "2022",
+      "title": "Crypto advertising dominates the Super Bowl",
+      "tier": "LORE",
+      "branches": [
+        "CULTURE",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0166",
+      "date": "2022",
+      "title": "FTX's sports and celebrity marketing unravels after collapse",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0183",
+      "date": "2022",
+      "title": "Crypto donations become a major part of fundraising for Ukraine",
+      "tier": "MAJOR",
+      "branches": [
+        "ADOPTION",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0190",
+      "date": "2022",
+      "title": "Ethereum's move to proof-of-stake sharply reduces network energy use",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ethereum-merge",
+      "legacy_canonical_event_id": "LORE-EVT-0056",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0241",
+      "date": "2022",
+      "title": "Luna Foundation Guard accumulates Bitcoin reserves",
+      "tier": "MAJOR",
+      "branches": [
+        "STABLECOINS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_AFTERMATH",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0242",
+      "date": "2022",
+      "title": "Harmony Horizon bridge is exploited",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-harmony-horizon-hack",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0243",
+      "date": "2022",
+      "title": "BNB Chain bridge exploit triggers emergency chain response",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-bnb-token-hub-exploit",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0244",
+      "date": "2022",
+      "title": "Mango Markets is manipulated and drained",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "HACKS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_LEGAL_OUTCOME_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0245",
+      "date": "2022",
+      "title": "CoinDesk reports on Alameda balance sheet",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-coindesk-alameda-balance-sheet",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0246",
+      "date": "2022",
+      "title": "CZ says Binance will liquidate its FTT holdings",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-ftx-bank-run",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0247",
+      "date": "2022",
+      "title": "Binance signs and then abandons a deal to acquire FTX",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2022-ftx-bank-run",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0266",
+      "date": "2022",
+      "title": "US authorities seize Bitcoin linked to the 2016 Bitfinex hack",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0267",
+      "date": "2022",
+      "title": "Bitfinex laundering case creates the Razzlekhan cultural phenomenon",
+      "tier": "LORE",
+      "branches": [
+        "CRIME",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_CULTURE_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0266",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0278",
+      "date": "2022",
+      "title": "Crypto donations become a major part of fundraising for Ukraine",
+      "tier": "MAJOR",
+      "branches": [
+        "ADOPTION",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0183",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0280",
+      "date": "2022",
+      "title": "Ethereum move to proof-of-stake sharply reduces network energy use",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ethereum-merge",
+      "legacy_canonical_event_id": "LORE-EVT-0056",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0299",
+      "date": "2022",
+      "title": "Tornado Cash developer arrest intensifies privacy debate",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_ATTRIBUTION",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "State suspicions/allegations as those of Dutch authorities, not as independent conclusions."
+    },
+    {
+      "legacy_id": "LORE-EVT-0326",
+      "date": "2022",
+      "title": "Blur launches and challenges OpenSea",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0332",
+      "date": "2022",
+      "title": "EU agrees MiCA framework",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0138",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0340",
+      "date": "2022",
+      "title": "India introduces major crypto tax rules",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RULE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Add the separate 30% income-tax provision once the exact official Section 115BBH source is attached."
+    },
+    {
+      "legacy_id": "LORE-EVT-0343",
+      "date": "2022",
+      "title": "Dubai establishes VARA virtual-asset regulator",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0344",
+      "date": "2022",
+      "title": "UK recognizes crypto assets in financial-services reform agenda",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0351",
+      "date": "2022",
+      "title": "Central African Republic becomes second country to adopt Bitcoin legal tender",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0140",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0359",
+      "date": "2022",
+      "title": "BlackRock partners with Coinbase for institutional crypto access",
+      "tier": "MAJOR",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0377",
+      "date": "2022",
+      "title": "Beanstalk governance exploit drains protocol funds",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0378",
+      "date": "2022",
+      "title": "Nomad bridge exploit turns into a copycat looting event",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0125",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0386",
+      "date": "2022",
+      "title": "Helium community votes to migrate to Solana",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0390",
+      "date": "2022",
+      "title": "Cosmos IBC grows as an interchain communication standard",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_METRIC",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0394",
+      "date": "2022",
+      "title": "Aptos mainnet launches",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0403",
+      "date": "2022",
+      "title": "dYdX announces move toward its own Cosmos-based chain",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0409",
+      "date": "2022",
+      "title": "Flashbots MEV-Boost becomes important after Ethereum Merge",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0415",
+      "date": "2022",
+      "title": "ENS registrations surge during Web3 identity boom",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0509",
+      "date": "2022",
+      "title": "UST briefly regains peg before final collapse",
+      "tier": "LORE",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-terra-ust-depeg",
+      "legacy_canonical_event_id": "LORE-EVT-0052",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0510",
+      "date": "2022",
+      "title": "LUNA supply hyperinflates during death spiral",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-luna-death-spiral",
+      "legacy_canonical_event_id": "LORE-EVT-0053",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0511",
+      "date": "2022",
+      "title": "Terra blockchain is halted during collapse",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-luna-death-spiral",
+      "legacy_canonical_event_id": "LORE-EVT-0053",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0512",
+      "date": "2022",
+      "title": "Luna 2.0 launches after community vote",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0513",
+      "date": "2022",
+      "title": "Celsius CEO Alex Mashinsky resigns",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-celsius-withdrawals-freeze",
+      "legacy_canonical_event_id": "LORE-EVT-0123",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0514",
+      "date": "2022",
+      "title": "Voyager customers become trapped in bankruptcy process",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-voyager-chapter11",
+      "legacy_canonical_event_id": "LORE-EVT-0124",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0515",
+      "date": "2022",
+      "title": "FTX bankruptcy reveals massive internal control failures",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_AFTERMATH",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0516",
+      "date": "2022",
+      "title": "John Ray III takes over FTX restructuring",
+      "tier": "MAJOR",
+      "branches": [
+        "FTX",
+        "PEOPLE"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0517",
+      "date": "2022",
+      "title": "BlockFi halts withdrawals after FTX collapse",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "FTX",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED_PRECURSOR",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-blockfi-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0126",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0518",
+      "date": "2022",
+      "title": "Genesis suspends redemptions in lending business",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0519",
+      "date": "2022-12-21",
+      "title": "SBF extradited to the United States",
+      "tier": "MAJOR",
+      "branches": [
+        "FTX",
+        "CRIME"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0530",
+      "date": "2022-12-25",
+      "title": "BONK airdrop helps energize Solana ecosystem",
+      "tier": "LORE",
+      "branches": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0573",
+      "date": "2022",
+      "title": "Zcash Halo removes trusted setup dependence for newer pools",
+      "tier": "MAJOR",
+      "branches": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0575",
+      "date": "2022",
+      "title": "OFAC sanctions Tornado Cash smart contracts",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2022-tornado-cash-sanctions",
+      "legacy_canonical_event_id": "LORE-EVT-0055",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0588",
+      "date": "2022",
+      "title": "Wormhole exploit mints unbacked wrapped ETH",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0122",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0589",
+      "date": "2022",
+      "title": "Ronin exploit compromises validator keys",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "GAMING"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ronin-bridge-exploit",
+      "legacy_canonical_event_id": "LORE-EVT-0051",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0590",
+      "date": "2022",
+      "title": "Nomad exploit is copied by dozens of addresses",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0125",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0596",
+      "date": "2022",
+      "title": "ENS domain registrations hit record levels",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0415",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0601",
+      "date": "2022",
+      "title": "UkraineDAO raises funds through crypto-native coordination",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "legacy_research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0605",
+      "date": "2022",
+      "title": "ConstitutionDAO token continues trading after DAO disbands",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "legacy_research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0609",
+      "date": "2022",
+      "title": "DeFi TVL collapses during bear market",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATA",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Era-level quantitative market event; exact TVL values vary with methodology and chain/protocol inclusion."
+    },
+    {
+      "legacy_id": "LORE-EVT-0613",
+      "date": "2022",
+      "title": "Serum becomes unusable after FTX compromise concerns",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "FTX",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0618",
+      "date": "2022",
+      "title": "Solana mobile Saga phone is announced",
+      "tier": "LORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0624",
+      "date": "2022",
+      "title": "Cardano Vasil upgrade improves smart-contract capabilities",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0634",
+      "date": "2022",
+      "title": "Terra collapse impacts Cosmos ecosystem confidence",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-luna-death-spiral",
+      "legacy_canonical_event_id": "LORE-EVT-0053",
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0765",
+      "date": "2022-01-20",
+      "title": "Twitter adds NFT profile-picture verification",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0786",
+      "date": "2022",
+      "title": "Coinbase NFT marketplace launches into cooling market",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0787",
+      "date": "2022",
+      "title": "OpenSea valuation reaches more than ten billion dollars",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0788",
+      "date": "2022",
+      "title": "LooksRare launches token incentives against OpenSea",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0789",
+      "date": "2022",
+      "title": "Blur's trading model begins reshaping NFT liquidity",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0326",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0790",
+      "date": "2022",
+      "title": "Azuki collection becomes a major NFT brand",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0791",
+      "date": "2022",
+      "title": "Moonbirds mint generates enormous first-day volume",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0792",
+      "date": "2022",
+      "title": "Goblintown emerges as a free-mint bear-market NFT phenomenon",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0793",
+      "date": "2022",
+      "title": "NFT floor prices collapse across blue-chip collections",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0794",
+      "date": "2022",
+      "title": "Voyager reveals Three Arrows Capital exposure",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-3ac-default-voyager",
+      "legacy_canonical_event_id": "LORE-EVT-0054",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0795",
+      "date": "2022",
+      "title": "3AC founders disappear from public view during liquidation",
+      "tier": "LORE",
+      "branches": [
+        "CEFI",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0054",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0796",
+      "date": "2022",
+      "title": "Celsius bankruptcy filings reveal customer-balance information",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-celsius-withdrawals-freeze",
+      "legacy_canonical_event_id": "LORE-EVT-0123",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0797",
+      "date": "2022",
+      "title": "FTX offers rescue financing to troubled crypto firms",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "CEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0798",
+      "date": "2022",
+      "title": "SBF is portrayed as crypto's lender of last resort before FTX collapse",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0797",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0799",
+      "date": "2022",
+      "title": "FTX Arena naming rights are terminated after bankruptcy",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0800",
+      "date": "2022",
+      "title": "FTX celebrity endorsers face lawsuits after collapse",
+      "tier": "MAJOR",
+      "branches": [
+        "FTX",
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "AFTERMATH_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0801",
+      "date": "2022",
+      "title": "Crypto Super Bowl ads become symbols of bull-market excess",
+      "tier": "CORE",
+      "branches": [
+        "CULTURE",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0164",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0802",
+      "date": "2022",
+      "title": "Coinbase bouncing QR-code Super Bowl ad crashes its app",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0803",
+      "date": "2022",
+      "title": "eToro and Crypto.com advertise heavily during Super Bowl",
+      "tier": "LORE",
+      "branches": [
+        "CULTURE",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0164",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0804",
+      "date": "2022",
+      "title": "South Korean court issues arrest warrant for Do Kwon",
+      "tier": "CORE",
+      "branches": [
+        "PEOPLE",
+        "CRIME",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_PRECISE_EVENT",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0805",
+      "date": "2022",
+      "title": "Interpol Red Notice is reported in Do Kwon case",
+      "tier": "MAJOR",
+      "branches": [
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0891",
+      "date": "2022",
+      "title": "Netflix releases QuadrigaCX documentary Trust No One",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0903",
+      "date": "2022",
+      "title": "Starbucks announces Odyssey NFT loyalty experiment",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0905",
+      "date": "2022",
+      "title": "Reddit quietly onboards mainstream users to blockchain collectibles",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0908",
+      "date": "2022",
+      "title": "Tiffany launches CryptoPunk-linked NFTiff jewelry",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0911",
+      "date": "2022",
+      "title": "Pak and Julian Assange launch Censored NFT project",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "SOURCE_GAP_CONFIRMED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0912",
+      "date": "2022",
+      "title": "Ukraine sells NFT collection to fund war effort",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0917",
+      "date": "2022",
+      "title": "Formula 1 teams carry numerous crypto sponsors at market peak",
+      "tier": "LORE",
+      "branches": [
+        "CULTURE",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0923",
+      "date": "2022",
+      "title": "Meta sells Diem assets to Silvergate",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0940",
+      "date": "2022",
+      "title": "Bitcoin mining firms face bankruptcy pressure during bear market",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "MINING",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0941",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0941",
+      "date": "2022",
+      "title": "Core Scientific enters Chapter 11",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "MINING",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0949",
+      "date": "2022",
+      "title": "Ethereum GPU mining ends at the Merge",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "MINING"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ethereum-merge",
+      "legacy_canonical_event_id": "LORE-EVT-0056",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0950",
+      "date": "2022",
+      "title": "GPU miners migrate to Ethereum Classic and other chains",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "MINING"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ethereum-merge",
+      "legacy_canonical_event_id": "LORE-EVT-0056",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0965",
+      "date": "2022",
+      "title": "Few understand this becomes post-boom crypto irony",
+      "tier": "LORE",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0972",
+      "date": "2022",
+      "title": "Vitalik attends ETHDenver in iconic crypto-culture appearances",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0981",
+      "date": "2022-01",
+      "title": "Bloomberg estimate puts CZ among the world's richest people",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0982",
+      "date": "2022",
+      "title": "CZ's FTT announcement becomes one of crypto's most consequential tweets",
+      "tier": "CORE",
+      "branches": [
+        "PEOPLE",
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_LORE_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bank-run",
+      "legacy_canonical_event_id": "LORE-EVT-0246",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0986",
+      "date": "2022",
+      "title": "SBF apology thread follows FTX collapse",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0995",
+      "date": "2022",
+      "title": "Gemini Earn freezes withdrawals through Genesis exposure",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0999",
+      "date": "2022",
+      "title": "Coinbase lays off staff during crypto winter",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1020",
+      "date": "2022",
+      "title": "Hydra Market is shut down",
+      "tier": "CORE",
+      "branches": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1028",
+      "date": "2022",
+      "title": "Ransomware groups increasingly shift toward Monero",
+      "tier": "MAJOR",
+      "branches": [
+        "PRIVACY",
+        "CRIME"
+      ],
+      "legacy_research_state": "CLAIM_NEEDS_REWRITE",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1046",
+      "date": "2022",
+      "title": "Nomad exploiters copy transaction calldata to drain bridge funds",
+      "tier": "LORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0125",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1047",
+      "date": "2022",
+      "title": "Mango exploiter publicly debates whether trade was legal market action",
+      "tier": "LORE",
+      "branches": [
+        "HACKS",
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_LORE_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0244",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1051",
+      "date": "2022",
+      "title": "Devcon Bogota marks return of major in-person Ethereum conference",
+      "tier": "LORE",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1054",
+      "date": "2022",
+      "title": "Permissionless and DeFi conferences reflect industry expansion",
+      "tier": "DEEP_CUT",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1062",
+      "date": "2022",
+      "title": "Wallet-drainer phishing becomes widespread across NFT communities",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "HACKS",
+        "SECURITY"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1074",
+      "date": "2022",
+      "title": "Phantom becomes a major consumer Solana wallet",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1080",
+      "date": "2022",
+      "title": "Safe spins out as major smart-account infrastructure",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "SECURITY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1090",
+      "date": "2022",
+      "title": "Aave V3 launches",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1097",
+      "date": "2022-07",
+      "title": "Uniswap governance debates a protocol fee-switch pilot",
+      "tier": "MAJOR",
+      "branches": [
+        "DEX",
+        "DAO"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1098",
+      "date": "2022",
+      "title": "Uniswap governance votes to deploy on new chains",
+      "tier": "MAJOR",
+      "branches": [
+        "DEX",
+        "DAO"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1106",
+      "date": "2022",
+      "title": "Optimism airdrops OP token",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1107",
+      "date": "2022",
+      "title": "Arbitrum Odyssey overwhelms network demand",
+      "tier": "LORE",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1122",
+      "date": "2022",
+      "title": "STEPN token economy booms and crashes",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "CULTURE",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATA",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1123",
+      "date": "2022",
+      "title": "Move-to-earn becomes a short-lived crypto gaming trend",
+      "tier": "LORE",
+      "branches": [
+        "GAMING",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-1122",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1124",
+      "date": "2022",
+      "title": "Axie economy contracts sharply after Ronin hack",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "HACKS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_DATA",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ronin-bridge-exploit",
+      "legacy_canonical_event_id": "LORE-EVT-0051",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1135",
+      "date": "2022",
+      "title": "Beanstalk exploit uses flash-loan governance attack",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "HACKS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0377",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1143",
+      "date": "2022",
+      "title": "LayerZero launches omnichain messaging infrastructure",
+      "tier": "CORE",
+      "branches": [
+        "BRIDGES",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1144",
+      "date": "2022",
+      "title": "Stargate becomes a major LayerZero-based bridge and liquidity protocol",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1145",
+      "date": "2022",
+      "title": "Nomad hack highlights optimistic bridge security assumptions",
+      "tier": "CORE",
+      "branches": [
+        "BRIDGES",
+        "HACKS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0125",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1146",
+      "date": "2022",
+      "title": "Ronin bridge hack becomes a defining cross-chain security failure",
+      "tier": "CORE",
+      "branches": [
+        "BRIDGES",
+        "HACKS",
+        "GAMING"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2022-ronin-bridge-exploit",
+      "legacy_canonical_event_id": "LORE-EVT-0051",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1147",
+      "date": "2022",
+      "title": "Wormhole recapitalization follows massive exploit",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "HACKS"
+      ],
+      "legacy_research_state": "VERIFIED_AFTERMATH",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0122",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1160",
+      "date": "2022",
+      "title": "Hydra seizure becomes one of largest darknet enforcement actions",
+      "tier": "CORE",
+      "branches": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-1020",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1169",
+      "date": "2022",
+      "title": "Celsius marketing claims come under scrutiny after collapse",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "CEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_LATER_REGULATORY_FINDINGS",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-celsius-withdrawals-freeze",
+      "legacy_canonical_event_id": "LORE-EVT-0123",
+      "source_confidence": "HIGH",
+      "note": "Attribute deception/fraud claims to regulators and later legal outcomes."
+    },
+    {
+      "legacy_id": "LORE-EVT-1170",
+      "date": "2022",
+      "title": "Voyager marketing and yield promises face post-bankruptcy criticism",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "CEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_LATER_REGULATORY_ALLEGATIONS",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-voyager-chapter11",
+      "legacy_canonical_event_id": "LORE-EVT-0124",
+      "source_confidence": "HIGH",
+      "note": "Attribute allegations to FTC/CFTC."
+    },
+    {
+      "legacy_id": "LORE-EVT-1171",
+      "date": "2022",
+      "title": "FTX customer assets are revealed to have been misused",
+      "tier": "CORE",
+      "branches": [
+        "SCAMS",
+        "FTX",
+        "CRIME"
+      ],
+      "legacy_research_state": "ATTRIBUTED_CRIMINAL_CASE_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-ftx-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0057",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1176",
+      "date": "2022",
+      "title": "Terra collapse inflicts losses on Celsius and 3AC-linked counterparties",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "legacy_research_state": "CONTAGION_CLAIM_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1177",
+      "date": "2022",
+      "title": "Three Arrows defaults hit Voyager and other lenders",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0054",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1178",
+      "date": "2022",
+      "title": "Celsius withdrawal freeze spreads fear across crypto credit markets",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-celsius-withdrawals-freeze",
+      "legacy_canonical_event_id": "LORE-EVT-0123",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1179",
+      "date": "2022",
+      "title": "Voyager bankruptcy amplifies lender contagion",
+      "tier": "MAJOR",
+      "branches": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-voyager-chapter11",
+      "legacy_canonical_event_id": "LORE-EVT-0124",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1180",
+      "date": "2022",
+      "title": "BlockFi receives FTX rescue facility",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI",
+        "FTX"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0797",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1181",
+      "date": "2022",
+      "title": "FTX collapse pushes BlockFi into bankruptcy",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI",
+        "FTX"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-blockfi-bankruptcy",
+      "legacy_canonical_event_id": "LORE-EVT-0126",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1182",
+      "date": "2022",
+      "title": "Genesis exposure to Three Arrows weakens lending business",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_LATER_SEC_RECORD",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0054",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1183",
+      "date": "2022",
+      "title": "Genesis suspends withdrawals after FTX failure",
+      "tier": "CORE",
+      "branches": [
+        "CONTAGION",
+        "CEFI",
+        "FTX"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0518",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1194",
+      "date": "2022",
+      "title": "Tornado Cash sanctions raise code-is-speech arguments",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2022-tornado-cash-sanctions",
+      "legacy_canonical_event_id": "LORE-EVT-0055",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1201",
+      "date": "2022-01-03",
+      "title": "CFTC settles with Polymarket over event markets",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "REGULATION"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1202",
+      "date": "2022",
+      "title": "Polymarket reaches settlement over unregistered markets",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1214",
+      "date": "2022",
+      "title": "Yuga Labs buys CryptoPunks and Meebits rights",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1215",
+      "date": "2022",
+      "title": "OpenSea cuts staff as NFT market contracts",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1224",
+      "date": "2022",
+      "title": "Kraken CEO Jesse Powell steps down",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "PEOPLE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SUCCESSION",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1225",
+      "date": "2022",
+      "title": "Coinbase introduces subscription-based Coinbase One",
+      "tier": "DEEP_CUT",
+      "branches": [
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_BETA_QUALIFIER",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    }
+  ]
+}
