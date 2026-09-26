@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Each record now carries research state, exact date, sourced summary/significance, source confidence, canonical duplicate linkage and editorial notes.",
+  "status_note": "Evidence phase active. Research is progressing chronologically; verified facts, corrected dates, duplicates, context rows and unresolved claims are explicitly distinguished before any card scoring.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1114,12 +1114,18 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-01-16",
+        "summary": "BitConnect announced the immediate closure of its lending operation and said its exchange would also close, after regulatory pressure and a collapsing market price.",
+        "significance": "The implosion became one of crypto's most notorious fraud-era collapses and turned BitConnect's promoter culture into enduring internet lore.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitConnect — Halt of lending and exchange platform",
+            "url": "https://bitconnect.meme/system-news/94/changes-coming-for-the-bitconnect-system-halt-of-lending-and-exchange-platform/",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1136,12 +1142,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-11-02",
+        "summary": "Hayden Adams publicly announced and deployed Uniswap to Ethereum mainnet on 2 November 2018.",
+        "significance": "Uniswap's automated market maker model became foundational DeFi infrastructure and changed decentralized exchange design.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — A Short History of Uniswap",
+            "url": "https://blog.uniswap.org/uniswap-history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2821,12 +2833,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-01-26",
+        "summary": "Coincheck disclosed that 526,300,010 XEM had been transferred out after attackers compromised its environment and obtained NEM private keys.",
+        "significance": "The theft was one of the largest exchange hacks of its era and triggered major scrutiny of Japanese exchange security.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coincheck — NEM unauthorized transfer FAQ",
+            "url": "https://coincheck.com/info/faq_nem",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5753,12 +5771,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-09-26",
+        "summary": "Circle and the CENTRE consortium launched USD Coin (USDC), with Circle as the first commercial issuer.",
+        "significance": "USDC became one of crypto's most important regulated dollar stablecoins and a major settlement asset across exchanges, DeFi and payments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — Introducing USD Coin",
+            "url": "https://www.circle.com/blog/introducing-usd-coin",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7163,10 +7187,10 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
+        "state": "VERIFIED",
         "exact_date": "2018-01-24",
-        "summary": "EIP-721, the standardized non-fungible-token interface, was created on 24 January 2018, after projects such as CryptoPunks and CryptoKitties had already demonstrated non-fungible assets.",
-        "significance": "ERC-721 standardized wallet/marketplace interoperability for NFTs and became the defining Ethereum NFT interface.",
+        "summary": "EIP-721 was created on 24 January 2018, defining a standard interface for non-fungible tokens on Ethereum.",
+        "significance": "ERC-721 standardized NFT interoperability across wallets, marketplaces and applications and became the defining token interface for the NFT boom.",
         "source_confidence": "HIGH",
         "sources": [
           {
@@ -8529,14 +8553,14 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
+        "state": "VERIFIED",
         "exact_date": "2018-01-30",
-        "summary": "South Korea's real-name bank-account system for cryptocurrency trading took effect on 30 January 2018; the government had announced the ban on anonymous virtual accounts on 28 December 2017.",
-        "significance": "The raw 2017 row conflated announcement with implementation.",
+        "summary": "South Korea's real-name bank-account policy for cryptocurrency trading took effect on 30 January 2018.",
+        "significance": "The rule became a major example of a government tightening crypto market access through banking and AML controls rather than imposing an outright ban.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Korea FSC — real-name crypto account measures",
+            "title": "Korea FSC — Financial Measures to Curb Speculation in Cryptocurrency Trading",
             "url": "https://www.fsc.go.kr/eng/pr010101/22173",
             "type": "GOVERNMENT"
           }
@@ -9311,14 +9335,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2018-01-26",
+        "summary": "This row describes the same Coincheck NEM theft as LORE-EVT-0103.",
+        "significance": "Canonicalized to the primary Coincheck-hack record.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coincheck — NEM unauthorized transfer FAQ",
+            "url": "https://coincheck.com/info/faq_nem",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0103",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -11781,14 +11811,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2018-03-12",
+        "summary": "Coincheck compensated eligible NEM holders after the January hack using a stated yen reimbursement rate.",
+        "significance": "The reimbursement became an important exchange-response contrast to collapses where users recovered little or nothing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coincheck — NEM reparations",
+            "url": "https://corporate.coincheck.com/press/dG-nDV-c",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0103",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -13989,12 +14025,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-10-18",
+        "summary": "Monero's October 2018 network upgrade enabled Bulletproofs, sharply reducing confidential transaction sizes while also changing ring size and proof-of-work parameters.",
+        "significance": "Bulletproofs materially improved the practicality and scalability of Monero's privacy model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero 0.13.0 Beryllium Bullet release",
+            "url": "https://web.getmonero.org/2018/10/11/monero-0.13.0-released.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14086,12 +14128,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-10-29T02:15:00Z",
+        "summary": "Zcash activated the Sapling network upgrade at block 419,200, greatly improving the speed and memory requirements of shielded transactions.",
+        "significance": "Sapling made privacy-preserving Zcash transactions far more usable for wallets, exchanges and mobile devices.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Zcash Sapling upgrade",
+            "url": "https://z.cash/upgrade/sapling/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28513,14 +28561,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018-10-18",
+        "summary": "This row refers to the same Monero Bulletproofs activation represented by LORE-EVT-0568.",
+        "significance": "Keep the transaction-size reduction as technical context under the canonical upgrade.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero 0.13.0 Beryllium Bullet release",
+            "url": "https://web.getmonero.org/2018/10/11/monero-0.13.0-released.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0568",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
