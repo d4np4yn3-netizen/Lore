@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2021 NFT/PFP/DAO and culture cleanup now verifies VeeFriends, Pudgy Penguins, the $11.8m CryptoPunk, auction-house NFT adoption, GitcoinDAO, YGG, Fantom incentives, Coinbase NFT plans and the Dec. 8 House crypto hearing.",
+  "status_note": "Evidence phase active. All 2021 archive rows have now been researched or explicitly classified as context/needs-narrowing/corrected-date; there are no silently unresearched 2021 candidates.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -7161,15 +7161,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_CAUTION",
+        "exact_date": "2021-11-01",
+        "summary": "The unaffiliated SQUID token, themed around Netflix's Squid Game, collapsed from a briefly quoted price above $2,800 to near zero after a spectacular late-October rally. Contemporary reporting described wallet activity consistent with a rug pull, while Reuters said it could not independently verify every allegation.",
+        "significance": "The episode became a textbook meme-token scam story and a warning about unaffiliated branding, illiquid tokens and sell restrictions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Squid Game-inspired token crashes",
+            "url": "https://www.euronews.com/next/2021/11/02/fintech-crypto-squid",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not state an exact stolen amount as settled fact; contemporary estimates varied."
       }
     },
     {
@@ -8723,7 +8729,7 @@
     {
       "id": "LORE-EVT-0321",
       "date": "2021",
-      "title": "Virtual land prices surge during metaverse mania",
+      "title": "Decentraland virtual land sells for record $2.4M during metaverse boom",
       "branch": [
         "NFT",
         "CULTURE",
@@ -8732,12 +8738,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-11-23",
+        "summary": "A Decentraland land parcel sold for about $2.4 million worth of cryptocurrency, then a record for virtual real estate on the platform.",
+        "significance": "The sale captured the peak of 2021 metaverse land speculation after Facebook's Meta rebrand.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Decentraland virtual land record",
+            "url": "https://www.investing.com/news/stock-market-news/virtual-real-estate-plot-sells-for-record-24-million-2688424",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10372,7 +10384,7 @@
     {
       "id": "LORE-EVT-0385",
       "date": "2021",
-      "title": "Helium token-powered wireless network gains mainstream attention",
+      "title": "Helium hotspot network expands rapidly during 2021",
       "branch": [
         "ALTCOINS",
         "TECHNOLOGY"
@@ -10380,12 +10392,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Helium's community-built wireless network expanded rapidly during 2021: an academic measurement found roughly 20,000 connected hotspots in March and 44,000 by late May, while the Helium Foundation later described the network as having started 2021 near 15,000 hotspots.",
+        "significance": "The expansion made Helium one of the most visible early DePIN-style crypto networks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Helium Foundation — 2022 Protocol Report with 2021 growth baseline",
+            "url": "https://www.helium.foundation/protocol-report-2022",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "IMC 2021 — Helium infrastructure study",
+            "url": "https://cseweb.ucsd.edu/~schulman/docs/imc21-helium.pdf",
+            "type": "ACADEMIC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10584,12 +10607,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-18",
+        "summary": "The Avalanche Foundation announced Avalanche Rush, a $180 million liquidity-mining incentive program initially designed to bring Aave and Curve to Avalanche.",
+        "significance": "The program accelerated the multichain DeFi race and helped Avalanche become a major alternative smart-contract ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Avalanche Foundation — $180M Avalanche Rush",
+            "url": "https://medium.com/avalancheavax/avalanche-foundation-announces-180m-defi-incentive-program-d320fdfafff7",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10933,12 +10962,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Flashbots' 2021 reports documented rising miner-extractable value activity, including sandwiching, bot competition and growing miner participation in MEV extraction.",
+        "significance": "MEV moved from a specialist research topic into a major Ethereum user-experience, market-structure and protocol-design problem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Flashbots — MEV-Explore v0",
+            "url": "https://collective.flashbots.net/t/quantifying-mev-introducing-mev-explore-v0/862",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Flashbots — February 2021 transparency report",
+            "url": "https://collective.flashbots.net/t/flashbots-transparency-report-february-2021/863",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13414,12 +13454,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-10-28",
+        "summary": "Shiba Inu surged into the ten largest crypto assets by market capitalization, briefly overtaking Dogecoin with a reported market value around $42 billion.",
+        "significance": "SHIB demonstrated that meme-coin culture had expanded beyond Dogecoin into a repeatable speculative category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Shiba Inu enters crypto top 10",
+            "url": "https://www.euronews.com/next/2021/10/28/fintech-crypto-shibainu",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13619,14 +13665,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "Avalanche's DeFi adoption accelerated after the Avalanche Rush incentive program and major protocol deployments.",
+        "significance": "This adoption trend belongs under the canonical Avalanche Rush event rather than being scored separately.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Avalanche Foundation — $180M Avalanche Rush",
+            "url": "https://medium.com/avalancheavax/avalanche-foundation-announces-180m-defi-incentive-program-d320fdfafff7",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0393",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -15738,12 +15790,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "ENS names increasingly appeared in social-media identities and brand profiles during the NFT/Web3 boom; the official ENS community later highlighted major accounts using .eth names and Budweiser's 2021 beer.eth purchase.",
+        "significance": "ENS became more than an address resolver: .eth names evolved into visible Web3 identity markers.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "ENS Docs — ENS token and 2021 airdrop",
+            "url": "https://docs.ens.domains/dao/token/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "ENS DAO newsletter — ENS names in Twitter identities / Budweiser",
+            "url": "https://discuss.ens.domains/t/ens-dao-newsletter-3-04-01-2022/11794",
+            "type": "PROJECT_COMMUNITY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16058,7 +16121,7 @@
     {
       "id": "LORE-EVT-0608",
       "date": "2021",
-      "title": "DeFi TVL reaches hundreds of billions across chains",
+      "title": "DeFi TVL reaches record roughly $178B",
       "branch": [
         "DEFI",
         "MARKETS"
@@ -16066,12 +16129,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2021-11-09",
+        "summary": "DeFiLlama's historical data places aggregate DeFi TVL at an all-time high of roughly $177.6 billion on 9 November 2021.",
+        "significance": "The record quantified the extraordinary scale DeFi reached during the 2021 bull market.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DefiLlama — historical DeFi TVL cycle analysis",
+            "url": "https://defillama.com/pro/defi-tvl-vs-crypto-market-cap-0bkebd",
+            "type": "DATA_SOURCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20085,12 +20154,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Michael Saylor used MicroStrategy's Bitcoin for Corporations event and repeated public appearances to promote Bitcoin treasury adoption to corporate executives.",
+        "significance": "His advocacy became a defining part of institutional Bitcoin culture after MicroStrategy's 2020 treasury move.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Strategy — Bitcoin for Corporations 2021 archive",
+            "url": "https://www.strategy.com/software/bitcoin/bitcoin-for-corporations",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20168,14 +20243,14 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "LORE_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "Beeple became a mainstream media figure after the Christie's sale, appearing across television and traditional art coverage.",
+        "significance": "This is a cultural consequence of the $69.3 million sale, not yet a strong standalone event; keep it under the canonical Beeple sale unless a specific broadcast becomes card-worthy.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0045",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -20215,7 +20290,7 @@
     {
       "id": "LORE-EVT-0768",
       "date": "2021",
-      "title": "BAYC mutates into broader Yuga Labs ecosystem",
+      "title": "Mutant Ape Yacht Club launches and expands the BAYC ecosystem",
       "branch": [
         "NFT",
         "CULTURE"
@@ -20223,12 +20298,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-28",
+        "summary": "Yuga Labs launched Mutant Ape Yacht Club through a serum airdrop to BAYC holders and a Dutch auction for additional Mutant Apes.",
+        "significance": "MAYC doubled the broader Ape ecosystem and demonstrated how a successful NFT collection could expand into a persistent franchise.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BAYC — Mutant Ape Yacht Club launch",
+            "url": "https://boredapeyachtclub.com/activations/mutant-ape-yacht-club",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Yuga Labs — BAYC history",
+            "url": "https://yuga.com/about/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20273,12 +20359,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-01",
+        "summary": "Cool Cats was first released on-chain on 1 July 2021.",
+        "significance": "Cool Cats became one of the recognizable profile-picture projects of the 2021 NFT boom and a useful marker of how rapidly PFP culture diversified beyond CryptoPunks and BAYC.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cool Cats — project history",
+            "url": "https://coolcats.com/news/cool-cats-newsletter-august-recap",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20410,7 +20502,7 @@
     {
       "id": "LORE-EVT-0775",
       "date": "2021",
-      "title": "SBF becomes one of crypto's most visible political and media figures",
+      "title": "Sam Bankman-Fried testifies before US House on digital assets",
       "branch": [
         "FTX",
         "PEOPLE",
@@ -20419,12 +20511,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_PRECISE_EVENT",
+        "exact_date": "2021-12-08",
+        "summary": "FTX co-founder and CEO Sam Bankman-Fried testified before the US House Financial Services Committee at a hearing on digital assets and financial innovation.",
+        "significance": "The testimony marked FTX's and Bankman-Fried's growing visibility in US policy debates less than a year before the exchange collapsed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US House — Sam Bankman-Fried testimony, Dec. 8 2021",
+            "url": "https://www.congress.gov/117/meeting/house/114305/witnesses/HHRG-117-BA00-Wstate-Bankman-FriedS-20211208.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20497,21 +20595,32 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_LATER_ENFORCEMENT_CONTEXT",
+        "exact_date": "2021",
+        "summary": "Celsius marketed itself as a high-yield alternative to traditional banks. Later FTC and CFTC actions alleged that Celsius and its leadership made misleading claims about safety, risk and leverage; the CFTC cited specific 2021 public statements.",
+        "significance": "The contrast between the marketing message and the later collapse is central to the CeFi credit-boom story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FTC complaint — Celsius marketing claims",
+            "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2223137celsiusnetworkcomplaint.pdf",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "CFTC complaint — Celsius marketing and risk claims",
+            "url": "https://www.cftc.gov/media/8956/enfcelsiuscomplaint071323/download",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Attribute allegations and findings to regulators; avoid independently characterizing intent beyond established legal outcomes."
       }
     },
     {
       "id": "LORE-EVT-0779",
       "date": "2021",
-      "title": "BlockFi agrees naming rights for crypto-related sports promotions",
+      "title": "BlockFi expands athlete sponsorships, including Cade Cunningham",
       "branch": [
         "CEFI",
         "CULTURE"
@@ -20519,12 +20628,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CLAIM_CORRECTED",
+        "exact_date": "2021-08-19",
+        "summary": "The archive's 'naming rights' wording could not be substantiated. BlockFi did, however, sign a multi-year partnership with NBA No. 1 draft pick Cade Cunningham and paid his signing bonus in Bitcoin.",
+        "significance": "This is evidence of the 2021 crypto-sports sponsorship boom, but it is weaker than FTX/Crypto.com arena naming deals.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BlockFi — Cade Cunningham partnership",
+            "url": "https://www.prnewswire.com/news-releases/basketball-star-cade-cunningham-partners-with-blockfi-301359053.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20541,12 +20656,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "Three Arrows Capital was a large crypto hedge fund using extensive borrowing and leverage, but the strongest official evidence quantifying its borrowing concerns 2022 rather than a single 2021 milestone.",
+        "significance": "Retain as precursor context for the 2022 contagion story, not as a scored 2021 card until a precise 2021 event is sourced.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "SEC order — Genesis lending and Three Arrows Capital exposure",
+            "url": "https://www.sec.gov/files/litigation/admin/2025/33-11358.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20555,7 +20676,7 @@
     {
       "id": "LORE-EVT-0781",
       "date": "2021",
-      "title": "Genesis expands institutional crypto lending",
+      "title": "Genesis crypto lending originations surge to $131B in 2021",
       "branch": [
         "CEFI",
         "INSTITUTIONS"
@@ -20563,12 +20684,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR_DATA",
+        "exact_date": "2021",
+        "summary": "Genesis reported $131 billion of loan originations during 2021, nearly seven times its 2020 total, and ended the year with $12.5 billion of active loans outstanding.",
+        "significance": "The growth illustrates the enormous institutional crypto-credit expansion that preceded the 2022 deleveraging crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Genesis — 2021 lending/trading growth report",
+            "url": "https://www.businesswire.com/news/home/20220127005286/en/Genesis-Q4-Report-Highlights-Key-Trends-from-2021-in-Crypto-Lending-Trading-and-Custody",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20586,12 +20713,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-02 onward",
+        "summary": "GBTC began trading at a discount to net asset value for the first time in late February 2021 after years of premium trading; by May the discount had exceeded 20%.",
+        "significance": "The reversal broke a highly profitable institutional arbitrage trade and became an important precursor to later leverage and credit stress.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — GBTC begins trading at a discount in 2021",
+            "url": "https://www.theblock.co/news/ecosystems/2021-03-22-grayscale-bitcoin-trust-discount-premium-98973",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23069,8 +23202,8 @@
     },
     {
       "id": "LORE-EVT-0891",
-      "date": "2021",
-      "title": "Netflix and documentary media revive QuadrigaCX conspiracy interest",
+      "date": "2022",
+      "title": "Netflix releases QuadrigaCX documentary Trust No One",
       "branch": [
         "EXCHANGES",
         "MYSTERIES",
@@ -23079,12 +23212,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022",
+        "summary": "Netflix released the documentary Trust No One: The Hunt for the Crypto King in 2022, not 2021, revisiting QuadrigaCX and the death of founder Gerald Cotten.",
+        "significance": "The documentary demonstrates how Quadriga became true-crime culture beyond the crypto industry.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Netflix — Trust No One: The Hunt for the Crypto King",
+            "url": "https://www.netflix.com/title/81349029",
+            "type": "PLATFORM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23298,12 +23437,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-09-21",
+        "summary": "Sorare announced a $680 million Series B at a $4.3 billion valuation while operating an NFT fantasy-football platform with partnerships spanning major clubs and leagues.",
+        "significance": "The raise made sports NFTs one of the clearest mainstream consumer use cases of the 2021 NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sorare — $680M Series B and sports NFT expansion",
+            "url": "https://medium.com/sorare/sorare-raises-a-record-680-million-series-b-round-to-build-the-next-sports-entertainment-giant-c9c987e4a26d",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23444,12 +23589,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-08",
+        "summary": "Budweiser purchased the ENS name beer.eth for 30 ETH and used NFT imagery on its social profile.",
+        "significance": "The move became an early example of a global consumer brand treating an ENS name and NFT identity as marketing assets.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "ENS DAO newsletter — Budweiser purchased beer.eth in Aug. 2021",
+            "url": "https://discuss.ens.domains/t/ens-dao-newsletter-3-04-01-2022/11794",
+            "type": "PROJECT_COMMUNITY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23541,7 +23692,7 @@
     {
       "id": "LORE-EVT-0910",
       "date": "2021",
-      "title": "XCOPY artwork sales reach multi-million-dollar levels",
+      "title": "XCOPY's Right-click and Save As guy sells for about $7M",
       "branch": [
         "NFT",
         "CULTURE"
@@ -23549,12 +23700,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-09",
+        "summary": "XCOPY's Right-click and Save As guy sold on SuperRare for 1,600 ETH, approximately $7 million at the time.",
+        "significance": "The sale turned one of NFT culture's sharpest jokes about digital ownership into one of its highest-value artworks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Artnet — XCOPY Right-click and Save As guy sale",
+            "url": "https://news.artnet.com/market/most-expensive-nft-art-yearend-2052822",
+            "type": "ART_MARKET_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23694,12 +23851,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Tezos signed prominent motorsport partnerships in 2021, including with Red Bull Racing and McLaren Racing, which used Tezos for NFT fan experiences.",
+        "significance": "The partnerships made Tezos particularly visible in the wave of blockchain sports sponsorships.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "McLaren — 2021 Tezos partnership and NFT platform",
+            "url": "https://mclaren.bloomreach.io/delivery/resources/content/assets/mclaren-assets/sustainability/2021-sustainability-report.pdf",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24792,11 +24955,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+        "exact_date": "2021",
+        "summary": "WAGMI ('we're all gonna make it') and NGMI ('not gonna make it') became widely used crypto and NFT community slang during the 2021 boom.",
+        "significance": "The language is culturally important, but there is no clean single origin event in the current evidence set; keep as glossary/book context rather than scoreable history.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24815,11 +24978,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+        "exact_date": "2021",
+        "summary": "'Probably nothing' became a recurring ironic phrase in NFT/Crypto Twitter for developments that users actually considered significant.",
+        "significance": "Useful culture glossary material, but not a discrete verifiable event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24838,14 +25001,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_LINKED",
+        "exact_date": "2021",
+        "summary": "The 'right-click save' criticism of NFT ownership became a common culture-war meme; XCOPY's artwork Right-click and Save As guy embodied the argument and then sold for millions in December 2021.",
+        "significance": "The meme is best represented through the specific XCOPY sale rather than a separate unsourced trend card.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Artnet — XCOPY Right-click and Save As guy sale",
+            "url": "https://news.artnet.com/market/most-expensive-nft-art-yearend-2052822",
+            "type": "ART_MARKET_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0910",
+        "relation": "CULTURE_CONTEXT",
         "notes": null
       }
     },
@@ -25272,8 +25441,8 @@
     },
     {
       "id": "LORE-EVT-0981",
-      "date": "2021",
-      "title": "CZ becomes one of crypto's wealthiest public figures",
+      "date": "2022-01",
+      "title": "Bloomberg estimate puts CZ among the world's richest people",
       "branch": [
         "PEOPLE",
         "EXCHANGES"
@@ -25281,12 +25450,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2022-01",
+        "summary": "CZ's extraordinary wealth became a mainstream headline in January 2022 when Bloomberg estimated his net worth using Binance's 2021 revenue and his ownership stake.",
+        "significance": "The current 2021 wording is not a clean event; move the wealth-estimate milestone into 2022 if retained.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Fortune — Bloomberg estimates CZ at $96B",
+            "url": "https://fortune.com/2022/01/10/binance-ceo-changpeng-zhao-cz-net-worth-bitcoin-crypto-holdings/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -26761,8 +26936,8 @@
     },
     {
       "id": "LORE-EVT-1041",
-      "date": "2021",
-      "title": "OneCoin documentaries and podcasts reignite public interest",
+      "date": "2019",
+      "title": "BBC launches The Missing Cryptoqueen podcast about OneCoin",
       "branch": [
         "SCAMS",
         "CULTURE"
@@ -26770,12 +26945,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2019",
+        "summary": "BBC Sounds launched The Missing Cryptoqueen in 2019, turning the OneCoin/Ruja Ignatova story into a major true-crime podcast phenomenon.",
+        "significance": "The series significantly broadened awareness of OneCoin beyond crypto and financial-crime audiences.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BBC / Apple Podcasts — The Missing Cryptoqueen",
+            "url": "https://podcasts.apple.com/ie/podcast/the-missing-cryptoqueen/id1480370173",
+            "type": "MEDIA_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -26843,15 +27024,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DISPUTED_AMOUNT",
+        "exact_date": "2021-06-25",
+        "summary": "Lawyers representing Africrypt investors told Reuters that client funds worth billions of dollars were missing and the two brothers who ran the South African platform could not be traced. Reuters explicitly noted that the claimed loss had not been independently confirmed.",
+        "significance": "Africrypt became one of crypto's biggest alleged missing-funds mysteries, but the scale of the loss must remain qualified.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Africrypt founders cannot be traced after disputed missing funds",
+            "url": "https://kfgo.com/2021/06/25/south-africa-crypto-exchange-brothers-disappear-after-client-cash-vanishes-lawyers-say/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Always describe the multibillion-dollar figure as an investor-lawyer claim, not independently verified fact."
       }
     },
     {
@@ -27212,12 +27399,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Discord became a primary community, support and coordination platform for NFT projects and marketplaces during the 2021 boom.",
+        "significance": "That centrality made Discord part of NFT culture but also created a major social-engineering attack surface.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BleepingComputer — OpenSea Discord phishing, Aug. 2021",
+            "url": "https://www.bleepingcomputer.com/news/security/fake-opensea-support-staff-are-stealing-cryptowallets-and-nfts/",
+            "type": "SECURITY_SECONDARY"
+          },
+          {
+            "title": "BleepingComputer — Discord malware targets crypto/NFT communities",
+            "url": "https://www.bleepingcomputer.com/news/security/discord-malware-campaign-targets-crypto-and-nft-communities/",
+            "type": "SECURITY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27234,12 +27432,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2021",
+        "summary": "Attackers increasingly targeted NFT and crypto Discord communities through fake support accounts, phishing links and malware; OpenSea users were publicly targeted in August and broader malware campaigns were documented later in the year.",
+        "significance": "Discord compromise and phishing became a defining NFT security risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BleepingComputer — OpenSea Discord phishing, Aug. 2021",
+            "url": "https://www.bleepingcomputer.com/news/security/fake-opensea-support-staff-are-stealing-cryptowallets-and-nfts/",
+            "type": "SECURITY_SECONDARY"
+          },
+          {
+            "title": "BleepingComputer — Discord malware targets crypto/NFT communities",
+            "url": "https://www.bleepingcomputer.com/news/security/discord-malware-campaign-targets-crypto-and-nft-communities/",
+            "type": "SECURITY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28085,8 +28294,8 @@
     },
     {
       "id": "LORE-EVT-1097",
-      "date": "2021",
-      "title": "Uniswap fee switch debate becomes recurring governance issue",
+      "date": "2022-07",
+      "title": "Uniswap governance debates a protocol fee-switch pilot",
       "branch": [
         "DEX",
         "DAO"
@@ -28094,12 +28303,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-07 onward",
+        "summary": "Uniswap's formal governance push to test the protocol fee switch became a major debate in 2022, not 2021.",
+        "significance": "The debate matters because protocol fees raise questions about DAO governance, LP economics and token value accrual.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap Governance — fee switch design discussion",
+            "url": "https://gov.uniswap.org/t/fee-switch-design-space-next-steps/17132",
+            "type": "PROJECT_GOVERNANCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28643,12 +28858,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-08",
+        "summary": "Immutable X launched its mainnet alpha as an Ethereum layer-2 focused on NFTs, offering gas-free minting and trading while retaining user custody.",
+        "significance": "It became one of the earliest dedicated NFT scaling networks and important gaming infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Immutable — Immutable X mainnet alpha launch",
+            "url": "https://www.globenewswire.com/news-release/2021/04/08/2206773/0/en/Immutable-X-Launches-Gas-Free-Layer-2-Solution-Paving-the-Way-to-Mainstream-NFT-Adoption.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28665,12 +28886,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Gala Games expanded its decentralized gaming ecosystem and node network during 2021, adding games and game-specific node plans.",
+        "significance": "The growth made Gala a notable example of tokenized gaming infrastructure, though this row is an era trend rather than one discrete launch.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Gala Games — 2021 year review",
+            "url": "https://news.gala.com/gala-games/2021-was-extraordinary-2022-will-be-better/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28932,12 +29159,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Maker governance continued actively managing collateral, risk and protocol parameters as Dai and real-world-asset exposure expanded.",
+        "significance": "This is important DAO governance context but not one standalone 2021 event; individual Maker votes make better canonical milestones.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29626,12 +29859,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RETROSPECTIVE_DATA",
+        "exact_date": "2021",
+        "summary": "US law-enforcement analysis later estimated that Hydra accounted for roughly 80% of darknet-market-related cryptocurrency transactions in 2021.",
+        "significance": "Hydra's scale made it the dominant Russian-language darknet market before its 2022 international seizure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Hydra accounted for estimated 80% of darknet crypto transactions in 2021",
+            "url": "https://www.justice.gov/archives/opa/pr/justice-department-investigation-leads-shutdown-largest-online-darknet-marketplace",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29846,15 +30085,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_LATER_ALLEGATIONS",
+        "exact_date": "2021-04-20",
+        "summary": "SafeMoon's price rose more than 55,000% from March 12 to April 20 2021 and its market capitalization exceeded $5.7 billion, according to the SEC's later complaint. The SEC later alleged fraud and misuse of project assets by executives.",
+        "significance": "SafeMoon became a defining example of the 2021 retail-token boom and later enforcement scrutiny.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — SafeMoon 2021 surge and later fraud allegations",
+            "url": "https://www.sec.gov/newsroom/press-releases/2023-229",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC complaint — SafeMoon 2021 price and market cap",
+            "url": "https://www.sec.gov/file/comp-pr2023-229",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Separate the documented 2021 market surge from the SEC's later allegations; attribute allegations to the SEC."
       }
     },
     {
@@ -30427,7 +30677,7 @@
     {
       "id": "LORE-EVT-1193",
       "date": "2021",
-      "title": "Major exchanges delist privacy coins in some jurisdictions",
+      "title": "Bittrex delists major privacy coins including Monero, Zcash and Dash",
       "branch": [
         "PRIVACY",
         "REGULATION"
@@ -30435,12 +30685,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_EXAMPLE",
+        "exact_date": "2021-01-15",
+        "summary": "Bittrex Global removed trading markets for Monero, Zcash, Dash and Grin in January 2021.",
+        "significance": "The delisting illustrates the growing regulatory/compliance pressure faced by privacy-focused crypto assets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bittrex Global — XMR, ZEC, DASH, GRIN delisting",
+            "url": "https://bittrexglobal.zendesk.com/hc/en-us/articles/6448634669083-Delisting-of-XMR-ZEC-DASH-and-GRIN",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30829,7 +31085,7 @@
     {
       "id": "LORE-EVT-1210",
       "date": "2021",
-      "title": "Foundation becomes a major artist-focused NFT marketplace",
+      "title": "Foundation NFT art marketplace launches publicly",
       "branch": [
         "NFT",
         "CULTURE"
@@ -30837,12 +31093,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-02",
+        "summary": "Foundation opened its artist-focused NFT marketplace publicly in February 2021.",
+        "significance": "Foundation became one of the important curated digital-art venues of the 2021 NFT boom.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Foundation marketplace",
+            "url": "https://ethereum.org/apps/foundation",
+            "type": "PROJECT_DIRECTORY"
+          },
+          {
+            "title": "Creative Review — Foundation launched Feb. 2021",
+            "url": "https://www.creativereview.co.uk/foundation-creative-start-ups/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30920,12 +31187,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-10",
+        "summary": "Pixel Vault launched PUNKS Comic Issue #1 on 10 May 2021, using characters inspired by specific CryptoPunks and building an NFT-native narrative universe.",
+        "significance": "It was an early experiment in turning PFP intellectual property into serialized storytelling and a broader media franchise.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pixel Vault — PUNKS Comic anniversary / May 10 2021 launch",
+            "url": "https://medium.com/@pixelvault/from-the-desk-an-open-letter-to-the-pixel-vault-community-6e46256a8f08",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
