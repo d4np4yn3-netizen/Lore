@@ -1,0 +1,2871 @@
+{
+  "schema_version": "1.0",
+  "year": 2021,
+  "updated": "2026-09-26",
+  "source_queue": "2021-legacy-candidates.json",
+  "evidence_file": "2021.json",
+  "note": "One resolution row per legacy candidate. Card scoring must use CANONICAL events in the evidence file. RESEARCHED_PENDING_MIGRATION already has evidence in the legacy master and should be migrated; NEEDS_RESEARCH requires more work.",
+  "counts": {
+    "CANONICAL": 43,
+    "CONTEXT": 49,
+    "RESEARCHED_PENDING_MIGRATION": 69,
+    "MERGED": 14,
+    "NEEDS_RESEARCH": 1
+  },
+  "rows": [
+    {
+      "legacy_id": "LORE-EVT-0044",
+      "date": "2021-02",
+      "title": "Tesla announces $1.5bn Bitcoin purchase",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-tesla-buys-bitcoin",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0045",
+      "date": "2021-03",
+      "title": "Beeple NFT sells for $69m",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-beeple-christies",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0046",
+      "date": "2021-04",
+      "title": "Coinbase goes public",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-coinbase-direct-listing",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0047",
+      "date": "2021",
+      "title": "Dogecoin mania",
+      "tier": "CORE",
+      "branches": [
+        "MEMES",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0048",
+      "date": "2021",
+      "title": "China mining crackdown",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MINING"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-china-mining-crackdown",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0049",
+      "date": "2021-09",
+      "title": "El Salvador Bitcoin legal-tender law takes effect",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-el-salvador-law-effective",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0050",
+      "date": "2021-08-05",
+      "title": "Ethereum London upgrade / EIP-1559",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-london-eip1559",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0116",
+      "date": "2021",
+      "title": "Bored Ape Yacht Club launches",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-bayc-launch",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0117",
+      "date": "2021",
+      "title": "China intensifies restrictions on cryptocurrency trading",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-china-trading-illegal",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0118",
+      "date": "2021",
+      "title": "Poly Network exploit becomes famous for the return of stolen funds",
+      "tier": "LORE",
+      "branches": [
+        "HACKS",
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-poly-network-hack",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0119",
+      "date": "2021",
+      "title": "Axie Infinity and play-to-earn explode",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-axie-growth",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0120",
+      "date": "2021",
+      "title": "ConstitutionDAO attempts to buy a copy of the US Constitution",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-constitutiondao",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0121",
+      "date": "2021-11",
+      "title": "Bitcoin reaches roughly $69,000",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_INDEX_QUALIFIER",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-bitcoin-69k-cycle-peak",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Use the exact price from the chosen index/exchange in published copy."
+    },
+    {
+      "legacy_id": "LORE-EVT-0142",
+      "date": "2021",
+      "title": "El Salvador passes the Bitcoin Law",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-el-salvador-bitcoin-law",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0152",
+      "date": "2021",
+      "title": "Nigeria launches the eNaira CBDC",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-enaira-launch",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0161",
+      "date": "2021",
+      "title": "OpenSea becomes a defining marketplace of the NFT boom",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-opensea-nft-explosion",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0162",
+      "date": "2021",
+      "title": "Art Blocks helps push generative NFT art into the mainstream",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0163",
+      "date": "2021",
+      "title": "Facebook rebrands to Meta amid metaverse mania",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-facebook-meta",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0165",
+      "date": "2021-12-25",
+      "title": "Crypto.com Arena naming becomes a symbol of exchange-era marketing",
+      "tier": "LORE",
+      "branches": [
+        "CULTURE",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-crypto-com-arena-name-effective",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0182",
+      "date": "2021",
+      "title": "Vitalik Buterin donates large quantities of meme tokens to charity",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-vitalik-shib-charity-donation",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0189",
+      "date": "2021",
+      "title": "NFT profile-picture culture becomes a mainstream crypto identity phenomenon",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0232",
+      "date": "2021",
+      "title": "Uniswap V3 introduces concentrated liquidity",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-uniswap-v3",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0233",
+      "date": "2021",
+      "title": "Arbitrum mainnet opens a major optimistic-rollup era",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0234",
+      "date": "2021",
+      "title": "Optimism launches its optimistic rollup mainnet",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-optimism-mainnet",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0235",
+      "date": "2021",
+      "title": "Solana suffers a major network outage during rapid growth",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-solana-outage",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0236",
+      "date": "2021",
+      "title": "Terra UST and LUNA ecosystem expands rapidly",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0237",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0237",
+      "date": "2021",
+      "title": "Anchor Protocol high stablecoin yield becomes central to Terra growth",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0238",
+      "date": "2021",
+      "title": "OlympusDAO popularizes protocol-owned liquidity and 3,3 culture",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0239",
+      "date": "2021",
+      "title": "ENS airdrop rewards early Ethereum naming users",
+      "tier": "LORE",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-ens-airdrop",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0240",
+      "date": "2021",
+      "title": "Visa buys a CryptoPunk",
+      "tier": "LORE",
+      "branches": [
+        "INSTITUTIONS",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-visa-buys-cryptopunk",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0263",
+      "date": "2021",
+      "title": "Squid Game-themed token collapses in a publicized rug-pull episode",
+      "tier": "LORE",
+      "branches": [
+        "SCAMS",
+        "MEMES"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_CAUTION",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Do not state an exact stolen amount as settled fact; contemporary estimates varied."
+    },
+    {
+      "legacy_id": "LORE-EVT-0265",
+      "date": "2021",
+      "title": "Colonial Pipeline ransomware payment puts Bitcoin tracing in spotlight",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-colonial-pipeline-bitcoin-ransom",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0277",
+      "date": "2021",
+      "title": "Vitalik Buterin donates large quantities of meme tokens to charity",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2021-vitalik-shib-charity-donation",
+      "legacy_canonical_event_id": "LORE-EVT-0182",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0279",
+      "date": "2021",
+      "title": "NFT profile-picture culture becomes a mainstream crypto identity phenomenon",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0189",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0294",
+      "date": "2021",
+      "title": "Tesla begins accepting Bitcoin for vehicle purchases",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0295",
+      "date": "2021",
+      "title": "Tesla suspends Bitcoin vehicle payments over environmental concerns",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MINING"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-tesla-bitcoin-payments-suspended",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0296",
+      "date": "2021",
+      "title": "NBA Top Shot helps take NFTs mainstream",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-nba-top-shot-mainstream",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0297",
+      "date": "2021",
+      "title": "Bitcoin Taproot activates",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-taproot-activation",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0298",
+      "date": "2021",
+      "title": "El Salvador launches Chivo wallet and Bitcoin rollout",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-el-salvador-law-effective",
+      "legacy_canonical_event_id": "LORE-EVT-0049",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0312",
+      "date": "2021",
+      "title": "PancakeSwap becomes a major retail DEX",
+      "tier": "MAJOR",
+      "branches": [
+        "DEX",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0317",
+      "date": "2021",
+      "title": "Iron Finance stablecoin collapse becomes a high-profile failure",
+      "tier": "LORE",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-iron-finance-collapse",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0318",
+      "date": "2021",
+      "title": "Crypto.com buys naming rights to Staples Center",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-crypto-com-staples-naming-deal",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0319",
+      "date": "2021",
+      "title": "Visa settles a transaction using USDC on Ethereum",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "STABLECOINS",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-visa-usdc-settlement",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0321",
+      "date": "2021",
+      "title": "Decentraland virtual land sells for record $2.4M during metaverse boom",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-decentraland-record-land-sale",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0330",
+      "date": "2021",
+      "title": "Canada approves major spot Bitcoin ETFs",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-canada-spot-bitcoin-etf",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0331",
+      "date": "2021",
+      "title": "China declares crypto-related transactions illegal",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2021-china-trading-illegal",
+      "legacy_canonical_event_id": "LORE-EVT-0117",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0336",
+      "date": "2021",
+      "title": "Nigeria restricts banks from servicing crypto businesses",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0342",
+      "date": "2021",
+      "title": "South Korea exchange registration rules reshape domestic market",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DEADLINE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0347",
+      "date": "2021",
+      "title": "Swiss DLT Act reforms enter into force",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-swiss-dlt-act",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0350",
+      "date": "2021",
+      "title": "MiamiCoin experiment links municipal branding and crypto",
+      "tier": "LORE",
+      "branches": [
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0354",
+      "date": "2021",
+      "title": "Nigeria launches eNaira CBDC",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2021-enaira-launch",
+      "legacy_canonical_event_id": "LORE-EVT-0152",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0358",
+      "date": "2021",
+      "title": "First US Bitcoin futures ETF begins trading",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-proshares-bito",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0369",
+      "date": "2021",
+      "title": "Thodex exchange collapses in Turkey",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-thodex-collapse",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0376",
+      "date": "2021",
+      "title": "Cream Finance suffers repeated DeFi exploits",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0385",
+      "date": "2021",
+      "title": "Helium hotspot network expands rapidly during 2021",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0389",
+      "date": "2021",
+      "title": "THORChain suffers repeated exploits",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0392",
+      "date": "2021",
+      "title": "Polkadot parachain auctions begin",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-polkadot-parachain-auctions",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0393",
+      "date": "2021",
+      "title": "Avalanche Rush incentives accelerate ecosystem growth",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0401",
+      "date": "2021",
+      "title": "StarkEx powers major ZK-based applications",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0402",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0402",
+      "date": "2021",
+      "title": "dYdX grows as a major decentralized perpetuals venue",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0408",
+      "date": "2021",
+      "title": "MEV sandwich attacks become widely discussed user risk",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0411",
+      "date": "2021",
+      "title": "Lido becomes dominant Ethereum liquid-staking infrastructure",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "This is an adoption/growth row; Lido itself launched in late 2020."
+    },
+    {
+      "legacy_id": "LORE-EVT-0493",
+      "date": "2021",
+      "title": "GameStop-style retail speculation spills into Dogecoin",
+      "tier": "CORE",
+      "branches": [
+        "MEMES",
+        "MARKETS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0047",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0494",
+      "date": "2021",
+      "title": "Dogecoin reaches a tens-of-billions market value",
+      "tier": "CORE",
+      "branches": [
+        "MEMES",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0047",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0495",
+      "date": "2021",
+      "title": "Elon Musk's Dogecoin posts repeatedly move markets",
+      "tier": "LORE",
+      "branches": [
+        "MEMES",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0047",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0496",
+      "date": "2021",
+      "title": "SNL Dogecoin episode becomes a peak meme-coin culture moment",
+      "tier": "LORE",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0497",
+      "date": "2021",
+      "title": "SHIB token frenzy expands the meme-coin category",
+      "tier": "CORE",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0498",
+      "date": "2021",
+      "title": "OpenSea raises major venture rounds during NFT boom",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0499",
+      "date": "2021",
+      "title": "BAYC secondary sales explode and celebrity adoption rises",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-bayc-launch",
+      "legacy_canonical_event_id": "LORE-EVT-0116",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0500",
+      "date": "2021",
+      "title": "Art Blocks Chromie Squiggle becomes a generative-art icon",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0162",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0501",
+      "date": "2021",
+      "title": "Loot launches as text-only NFT primitives",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0502",
+      "date": "2021",
+      "title": "Axie Infinity token economics support large player guilds",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-axie-growth",
+      "legacy_canonical_event_id": "LORE-EVT-0119",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0503",
+      "date": "2021",
+      "title": "Ronin sidechain supports Axie's rapid expansion",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "BRIDGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-axie-ronin-mainnet",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0504",
+      "date": "2021",
+      "title": "Avalanche reaches major DeFi adoption",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0393",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0505",
+      "date": "2021",
+      "title": "Fantom DeFi ecosystem grows rapidly",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0506",
+      "date": "2021",
+      "title": "Terra LUNA reaches top-tier market capitalization",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_MARKET_DATA",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0236",
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0507",
+      "date": "2021",
+      "title": "FTX acquires naming rights to Miami Heat arena",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0508",
+      "date": "2021",
+      "title": "FTX signs major sports and celebrity partnerships",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0570",
+      "date": "2021-11-26",
+      "title": "Kraken removes Monero for UK customers",
+      "tier": "MAJOR",
+      "branches": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0587",
+      "date": "2021",
+      "title": "Poly Network exploit crosses multiple chains",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-poly-network-hack",
+      "legacy_canonical_event_id": "LORE-EVT-0118",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0595",
+      "date": "2021",
+      "title": "ENS names become part of Crypto Twitter identity",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0599",
+      "date": "2021",
+      "title": "Gitcoin community transitions toward DAO governance",
+      "tier": "MAJOR",
+      "branches": [
+        "DAO"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0600",
+      "date": "2021",
+      "title": "Nouns DAO begins daily on-chain NFT auctions",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "NFT"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-1134",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0602",
+      "date": "2021",
+      "title": "PleasrDAO buys the original Doge meme NFT",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0603",
+      "date": "2021",
+      "title": "FreeRossDAO raises funds around Ross Ulbricht NFT auction",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0604",
+      "date": "2021",
+      "title": "ConstitutionDAO issues PEOPLE token after failed auction",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_AFTERMATH",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-constitutiondao",
+      "legacy_canonical_event_id": "LORE-EVT-0120",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0608",
+      "date": "2021",
+      "title": "DeFi TVL reaches record roughly $178B",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATA",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0616",
+      "date": "2021",
+      "title": "Raydium becomes a major Solana DEX",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEX"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0617",
+      "date": "2021",
+      "title": "Magic Eden launches and becomes a major Solana NFT marketplace",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0622",
+      "date": "2021",
+      "title": "Cardano Alonzo enables smart contracts",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-cardano-alonzo",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0623",
+      "date": "2021",
+      "title": "Cardano Mary enables native assets",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0631",
+      "date": "2021",
+      "title": "Polkadot parachain slot auctions start",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2021-polkadot-parachain-auctions",
+      "legacy_canonical_event_id": "LORE-EVT-0392",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0633",
+      "date": "2021",
+      "title": "Cosmos IBC launches cross-chain communication",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-cosmos-ibc",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0758",
+      "date": "2021",
+      "title": "MicroStrategy hosts Bitcoin for Corporations conference",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-bitcoin-for-corporations",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0759",
+      "date": "2021",
+      "title": "Tesla Bitcoin purchase triggers corporate-treasury speculation",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-tesla-buys-bitcoin",
+      "legacy_canonical_event_id": "LORE-EVT-0044",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0760",
+      "date": "2021",
+      "title": "El Salvador's president announces Bitcoin law at Bitcoin conference",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-el-salvador-bitcoin-law",
+      "legacy_canonical_event_id": "LORE-EVT-0142",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0761",
+      "date": "2021",
+      "title": "Bitcoin 2021 Miami becomes a defining bull-market conference",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-bitcoin-miami-conference",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0762",
+      "date": "2021",
+      "title": "Laser-eyes profile pictures spread across Bitcoin Twitter",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-laser-eyes",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0763",
+      "date": "2021",
+      "title": "Michael Saylor's Bitcoin evangelism becomes internet culture",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0764",
+      "date": "2021",
+      "title": "NFT avatars become status symbols on Twitter",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0189",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0766",
+      "date": "2021",
+      "title": "Beeple appears on major mainstream television after NFT sale",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "LORE_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-beeple-christies",
+      "legacy_canonical_event_id": "LORE-EVT-0045",
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0767",
+      "date": "2021",
+      "title": "CryptoPunk sells for multi-million-dollar sums",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-cryptopunk-7523-record-sale",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0768",
+      "date": "2021",
+      "title": "Mutant Ape Yacht Club launches and expands the BAYC ecosystem",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0769",
+      "date": "2021",
+      "title": "Pudgy Penguins launches",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0770",
+      "date": "2021",
+      "title": "Cool Cats launches during PFP boom",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0771",
+      "date": "2021",
+      "title": "Loot derivatives explode despite minimal original artwork",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0501",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0772",
+      "date": "2021",
+      "title": "VeeFriends links NFTs to Gary Vaynerchuk events",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0773",
+      "date": "2021",
+      "title": "Gary Vaynerchuk becomes a major mainstream NFT promoter",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0772",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0774",
+      "date": "2021",
+      "title": "FTX valuation rises rapidly through major venture rounds",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0775",
+      "date": "2021",
+      "title": "Sam Bankman-Fried testifies before US House on digital assets",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "PEOPLE",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_PRECISE_EVENT",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0777",
+      "date": "2021",
+      "title": "FTX.US expands sports sponsorships",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0778",
+      "date": "2021",
+      "title": "Celsius advertises high yields as safer than banks",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_LATER_ENFORCEMENT_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Attribute allegations and findings to regulators; avoid independently characterizing intent beyond established legal outcomes."
+    },
+    {
+      "legacy_id": "LORE-EVT-0779",
+      "date": "2021",
+      "title": "BlockFi expands athlete sponsorships, including Cade Cunningham",
+      "tier": "DEEP_CUT",
+      "branches": [
+        "CEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CLAIM_CORRECTED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0780",
+      "date": "2021",
+      "title": "Three Arrows Capital becomes major leveraged crypto fund",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_NARROWING",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0781",
+      "date": "2021",
+      "title": "Genesis crypto lending originations surge to $131B in 2021",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR_DATA",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0782",
+      "date": "2021",
+      "title": "GBTC discount emerges after years of premium trading",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0783",
+      "date": "2021",
+      "title": "SEC permits first US Bitcoin futures ETF",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_PRECURSOR",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-proshares-bito",
+      "legacy_canonical_event_id": "LORE-EVT-0358",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0784",
+      "date": "2021",
+      "title": "ProShares BITO launches with record-setting ETF demand",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2021-proshares-bito",
+      "legacy_canonical_event_id": "LORE-EVT-0358",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0785",
+      "date": "2021",
+      "title": "Coinbase debuts NFT marketplace plans during NFT mania",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0885",
+      "date": "2021",
+      "title": "Stefan Thomas reports only a few password attempts remain for 7002 BTC",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0887",
+      "date": "2021",
+      "title": "James Howells proposes high-tech landfill search for lost Bitcoin",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0184",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0898",
+      "date": "2021",
+      "title": "NBA Top Shot queues and pack drops become mainstream NFT culture",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-nba-top-shot-mainstream",
+      "legacy_canonical_event_id": "LORE-EVT-0296",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0899",
+      "date": "2021",
+      "title": "Top Shot market cools sharply after early boom",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_NEEDS_MARKET_DATA",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-nba-top-shot-mainstream",
+      "legacy_canonical_event_id": "LORE-EVT-0296",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0900",
+      "date": "2021",
+      "title": "Sorare expands fantasy-sports NFTs",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "GAMING"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0901",
+      "date": "2021",
+      "title": "Adidas enters NFT market",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0902",
+      "date": "2021",
+      "title": "Nike acquires RTFKT",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-nike-acquires-rtfkt",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0906",
+      "date": "2021",
+      "title": "Budweiser buys an ENS name and NFT imagery",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0907",
+      "date": "2021",
+      "title": "Visa purchase of CryptoPunk signals institutional NFT curiosity",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2021-visa-buys-cryptopunk",
+      "legacy_canonical_event_id": "LORE-EVT-0240",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0909",
+      "date": "2021",
+      "title": "Sotheby's and Christie's expand crypto-native digital art auctions",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0910",
+      "date": "2021",
+      "title": "XCOPY's Right-click and Save As guy sells for about $7M",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0914",
+      "date": "2021",
+      "title": "Crypto.com becomes Formula 1 global partner",
+      "tier": "MAJOR",
+      "branches": [
+        "CULTURE",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0915",
+      "date": "2021",
+      "title": "FTX sponsors Major League Baseball umpires",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0916",
+      "date": "2021",
+      "title": "Tezos becomes prominent in sports sponsorships",
+      "tier": "LORE",
+      "branches": [
+        "ALTCOINS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0938",
+      "date": "2021",
+      "title": "Kazakhstan becomes a major destination for displaced Chinese miners",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MILESTONE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0939",
+      "date": "2021",
+      "title": "Texas emerges as a major Bitcoin mining hub",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0962",
+      "date": "2021",
+      "title": "WAGMI and NGMI become dominant crypto social vocabulary",
+      "tier": "CORE",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0963",
+      "date": "2021",
+      "title": "Probably nothing becomes NFT Twitter shorthand",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0964",
+      "date": "2021",
+      "title": "Right-click save-as becomes an NFT culture-war meme",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_LINKED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0910",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0971",
+      "date": "2021",
+      "title": "Vitalik burns billions of dollars worth of donated SHIB tokens",
+      "tier": "CORE",
+      "branches": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Exact token quantity should be taken from the indexed on-chain transfer when used in card copy."
+    },
+    {
+      "legacy_id": "LORE-EVT-0985",
+      "date": "2021",
+      "title": "SBF testifies publicly and promotes crypto regulation proposals",
+      "tier": "MAJOR",
+      "branches": [
+        "PEOPLE",
+        "FTX"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0994",
+      "date": "2021",
+      "title": "Gemini Earn expands retail crypto lending",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0998",
+      "date": "2021",
+      "title": "Coinbase direct listing makes employees and investors publicly liquid",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-coinbase-direct-listing",
+      "legacy_canonical_event_id": "LORE-EVT-0046",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1014",
+      "date": "2021",
+      "title": "FreeRossDAO buys Ulbricht artwork NFT",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0603",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1027",
+      "date": "2021",
+      "title": "Colonial Pipeline ransom is partially recovered by US authorities",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-colonial-pipeline-bitcoin-ransom",
+      "legacy_canonical_event_id": "LORE-EVT-0265",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1043",
+      "date": "2021",
+      "title": "Thodex founder disappears after exchange halts withdrawals",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "SCAMS",
+        "MYSTERIES"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-thodex-collapse",
+      "legacy_canonical_event_id": "LORE-EVT-0369",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1044",
+      "date": "2021",
+      "title": "Africrypt founders disappear amid disputed missing-funds claims",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DISPUTED_AMOUNT",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Always describe the multibillion-dollar figure as an investor-lawyer claim, not independently verified fact."
+    },
+    {
+      "legacy_id": "LORE-EVT-1045",
+      "date": "2021",
+      "title": "Poly Network attacker communicates through on-chain messages",
+      "tier": "LORE",
+      "branches": [
+        "HACKS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-poly-network-hack",
+      "legacy_canonical_event_id": "LORE-EVT-0118",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1053",
+      "date": "2021",
+      "title": "Bitcoin conference culture expands around Miami events",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-bitcoin-miami-conference",
+      "legacy_canonical_event_id": "LORE-EVT-0761",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1060",
+      "date": "2021",
+      "title": "Discord becomes core infrastructure for NFT communities",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1061",
+      "date": "2021",
+      "title": "Discord hacks become major NFT theft vector",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "HACKS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1072",
+      "date": "2021",
+      "title": "MetaMask reaches tens of millions of monthly users",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-metamask-21m-users",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1073",
+      "date": "2021",
+      "title": "Phantom wallet launches for Solana users",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "SECURITY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": "Exact first public-beta day is not asserted because the current primary sources establish the year and launch sequence more clearly than a single date."
+    },
+    {
+      "legacy_id": "LORE-EVT-1085",
+      "date": "2021",
+      "title": "CowSwap introduces batch auctions and MEV-aware trading",
+      "tier": "MAJOR",
+      "branches": [
+        "DEX",
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1089",
+      "date": "2021",
+      "title": "Aave launches on multiple networks",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1094",
+      "date": "2021",
+      "title": "Maker adds real-world asset collateral",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1104",
+      "date": "2021",
+      "title": "Arbitrum One launches",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0233",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1105",
+      "date": "2021",
+      "title": "Optimism removes whitelist restrictions",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "MERGED",
+      "canonical_key": "2021-optimism-mainnet",
+      "legacy_canonical_event_id": "LORE-EVT-0234",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1117",
+      "date": "2021",
+      "title": "Yield Guild Games formalizes play-to-earn guild model",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "DAO"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1118",
+      "date": "2021",
+      "title": "Axie Infinity daily active users explode",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1119",
+      "date": "2021",
+      "title": "Axie scholarships become a source of income in emerging markets",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-axie-growth",
+      "legacy_canonical_event_id": "LORE-EVT-0119",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1120",
+      "date": "2021",
+      "title": "Immutable X launches as NFT and gaming scaling network",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1121",
+      "date": "2021",
+      "title": "Gala Games expands blockchain gaming ecosystem",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1132",
+      "date": "2021",
+      "title": "Maker governance votes increasingly control protocol risk parameters",
+      "tier": "MAJOR",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1133",
+      "date": "2021",
+      "title": "Compound governance bug distributes excess COMP",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1134",
+      "date": "2021",
+      "title": "Nouns DAO introduces one-auction-per-day treasury governance",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "NFT"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1140",
+      "date": "2021",
+      "title": "Multichain expands from Anyswap into multi-chain bridge leader",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_DATE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1141",
+      "date": "2021",
+      "title": "Hop Protocol develops Ethereum rollup bridge infrastructure",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1142",
+      "date": "2021",
+      "title": "Across Protocol launches L2-to-L1 bridge",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1159",
+      "date": "2021",
+      "title": "Hydra dominates Russian-language darknet commerce",
+      "tier": "MAJOR",
+      "branches": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RETROSPECTIVE_DATA",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1168",
+      "date": "2021",
+      "title": "SafeMoon hype peaks during retail-token mania",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_LATER_ALLEGATIONS",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Separate the documented 2021 market surge from the SEC's later allegations; attribute allegations to the SEC."
+    },
+    {
+      "legacy_id": "LORE-EVT-1193",
+      "date": "2021",
+      "title": "Bittrex delists major privacy coins including Monero, Zcash and Dash",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_EXAMPLE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1210",
+      "date": "2021",
+      "title": "Foundation NFT art marketplace launches publicly",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1211",
+      "date": "2021",
+      "title": "OpenSea adds massive numbers of first-time NFT traders",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "CONTEXT",
+      "canonical_key": "2021-opensea-nft-explosion",
+      "legacy_canonical_event_id": "LORE-EVT-0161",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1212",
+      "date": "2021",
+      "title": "Meebits launches from Larva Labs",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1213",
+      "date": "2021",
+      "title": "Punks Comic experiments with NFT-native storytelling",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1223",
+      "date": "2021",
+      "title": "Binance faces coordinated regulatory warnings in multiple countries",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "RESEARCHED_PENDING_MIGRATION",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": "Phrase carefully by legal entity and jurisdiction; do not imply every warning applied identically to Binance.com globally."
+    }
+  ]
+}
