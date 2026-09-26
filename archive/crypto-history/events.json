@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2021 cultural/DAO/NFT/DeFi/CeFi research continues; major corrections include FTX-Blockfolio to 2020 and Twitter NFT profile pictures to January 2022.",
+  "status_note": "Evidence phase active. Further 2021 research now covers NBA Top Shot, MiamiCoin, Thodex, CREAM, THORChain, Raydium and PancakeSwap; KuCoin's recovery milestone has been corrected back to November 2020.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -8051,12 +8051,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-03-30",
+        "summary": "By late March 2021, Dapper Labs said NBA Top Shot had generated about $500 million in sales and registered more than 800,000 accounts since its October 2020 public beta.",
+        "significance": "Top Shot turned licensed sports highlights into one of the first mass-market NFT collecting experiences and helped introduce NFTs to mainstream sports fans.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NBA.com — Dapper Labs / NBA Top Shot March 2021",
+            "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8449,12 +8455,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-02-19",
+        "summary": "PancakeSwap surpassed roughly $1 billion in project value and reported about $1.92 billion in 24-hour trading volume on 19 February 2021, overtaking Uniswap on that daily-volume snapshot.",
+        "significance": "PancakeSwap became the signature retail DEX of BNB Smart Chain and demonstrated that DeFi activity could scale rapidly outside Ethereum.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Binance — PancakeSwap reaches leading DEX volume in Feb 2021",
+            "url": "https://www.binance.com/en/blog/all/421499824684901686",
+            "type": "ECOSYSTEM_PRIMARY"
+          },
+          {
+            "title": "PancakeSwap — five-year history",
+            "url": "https://blog.pancakeswap.finance/articles/5-years-of-pancakeswap",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9429,12 +9446,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-03",
+        "summary": "CityCoins launched MiamiCoin mining on the Stacks network on 3 August 2021, with a mechanism that could direct a share of protocol value to a city-controlled wallet if the city chose to claim it.",
+        "significance": "MiamiCoin became one of the highest-profile experiments linking municipal branding, Bitcoin-adjacent smart contracts and community-issued tokens.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CityCoins — MiamiCoin launch",
+            "url": "https://www.citycoins.co/post/miamicoin-mining-launch-august-3",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9820,8 +9843,8 @@
     },
     {
       "id": "LORE-EVT-0366",
-      "date": "2021",
-      "title": "KuCoin recovers from a major 2020 exchange hack",
+      "date": "2020-11-22",
+      "title": "KuCoin restores services after 2020 exchange hack",
       "branch": [
         "EXCHANGES",
         "HACKS"
@@ -9829,12 +9852,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2020-11-22",
+        "summary": "KuCoin restored deposit and withdrawal services for all tokens by 22 November 2020 after its September hack; the exchange later reported recovering about 84% of affected value through partners and law enforcement while covering the remainder.",
+        "significance": "The recovery was unusually successful for a large exchange hack, but the key restoration milestone belongs in 2020, not 2021.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "KuCoin — services fully resumed after 2020 hack",
+            "url": "https://www.kucoin.com/announcement/en-deposit-and-withdrawal-services-for-all-tokens-now-resumed-on-kucoin?lang=en_US",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "KuCoin CEO — hack recovery accounting",
+            "url": "https://www.kucoin.com/announcement/a-letter-from-kucoin-ceo-2020-2021-and-beyond",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9907,12 +9941,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-04-20 to 2021-04-22",
+        "summary": "Thodex users lost access to the Turkish exchange as operations stopped; prosecutors confirmed founder Faruk Fatih Özer left Turkey on 20 April and opened a criminal investigation on 22 April.",
+        "significance": "The collapse became one of Turkey's largest and most notorious crypto-exchange scandals and led to an international manhunt.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex investigation",
+            "url": "https://istanbulanadolu.adalet.gov.tr/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-basin-aciklamasi",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex founder left Turkey",
+            "url": "https://istanbulanadolu.adalet.gov.tr/amp/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-2-basin-aciklamasi",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10091,12 +10136,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2021-10-27",
+        "summary": "C.R.E.A.M. Finance's Ethereum v1 markets were exploited on 27 October 2021 in a large flash-loan-related attack; the protocol later published a postmortem and repayment plan.",
+        "significance": "The incident capped a run of CREAM exploits and illustrated the compounding security risks of highly composable DeFi lending markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "C.R.E.A.M. Finance — Oct 27 exploit postmortem",
+            "url": "https://medium.com/cream-finance/post-mortem-exploit-oct-27-507b12bb6f8e",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10395,12 +10446,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2021-07-15 to 2021-07-23",
+        "summary": "THORChain suffered two major back-to-back Ethereum-router exploits in July 2021 that tricked its Bifrost system into crediting assets that had not actually been received.",
+        "significance": "The attacks forced a prolonged shutdown and major security redesign for one of the earliest native cross-chain liquidity protocols.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "THORChain — ETH Router exploits postmortem",
+            "url": "https://blog.thorchain.org/post-mortem-eth-router-exploits-1-2-and-premature-return-to-trading-incident/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16141,12 +16198,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2021-02-20",
+        "summary": "Raydium publicly introduced its Solana-based AMM on 20 February 2021, integrating liquidity with Serum's central-limit order book.",
+        "significance": "Raydium became a central liquidity venue during Solana's first major DeFi expansion.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Raydium — protocol launch article",
+            "url": "https://raydium.medium.com/the-raydium-protocol-9809464e0105",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Raydium — 100 Days of Raydium",
+            "url": "https://raydium.medium.com/100-days-of-raydium-453863c684f6",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23031,14 +23099,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "NBA Top Shot's limited pack drops and long online queues became a defining part of its early-2021 collector culture.",
+        "significance": "This is cultural context around Top Shot's mainstream breakout rather than a separate protocol event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "NBA.com — Dapper Labs / NBA Top Shot March 2021",
+            "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0296",
+        "relation": "CULTURE_CONTEXT",
         "notes": null
       }
     },
@@ -23053,14 +23127,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_NEEDS_MARKET_DATA",
+        "exact_date": "2021",
+        "summary": "NBA Top Shot trading activity cooled after the early-2021 surge.",
+        "significance": "The downturn is real market context but needs a defined sales/volume dataset and date range before standalone scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "NBA.com — Dapper Labs / NBA Top Shot March 2021",
+            "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0296",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -26552,14 +26632,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2021-04-20",
+        "summary": "Thodex founder Faruk Fatih Özer left Turkey shortly before the exchange became inaccessible, prompting an international search.",
+        "significance": "The disappearance is a human/crime subevent of the canonical Thodex collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex founder left Turkey",
+            "url": "https://istanbulanadolu.adalet.gov.tr/amp/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-2-basin-aciklamasi",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0369",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
