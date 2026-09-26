@@ -16610,15 +16610,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2022",
+        "summary": "DeFi total value locked contracted sharply through 2022. DefiLlama-based year-end research places TVL near $42 billion after beginning the year around $166 billion, a decline of roughly three quarters.",
+        "significance": "The contraction quantified the unwinding of DeFi leverage through the Terra, CeFi and FTX shocks and marked the end of the 2020-21 expansion cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DefiLlama — DeFi TVL cycle analysis",
+            "url": "https://defillama.com/pro/defi-tvl-vs-crypto-market-cap-0bkebd",
+            "type": "DATA_SOURCE"
+          },
+          {
+            "title": "The Block Research — Biggest DeFi Trends in 2022",
+            "url": "https://www.theblock.co/research/institutional/biggest-defi-trends-in-2022-194315",
+            "type": "RESEARCH_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Era-level quantitative market event; exact TVL values vary with methodology and chain/protocol inclusion."
       }
     },
     {
