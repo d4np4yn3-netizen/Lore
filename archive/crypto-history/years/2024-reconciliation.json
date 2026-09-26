@@ -4,12 +4,11 @@
   "updated": "2026-09-26",
   "source_queue": "2024-legacy-candidates.json",
   "evidence_file": "2024.json",
-  "note": "Every preserved 2024 discovery row is explicitly reconciled before scoring. CANONICAL points to a distinct evidence event; MERGED/CONTEXT are not independently scored; HOLD needs further evidence or narrowing; REVIEW_FOR_CANONICAL flags verified discrete rows still needing editorial promotion.",
+  "note": "All 127 preserved 2024 discovery rows are reconciled. Context/merged rows are intentionally excluded from independent card scoring.",
   "counts": {
     "CANONICAL": 52,
-    "CONTEXT": 51,
-    "MERGED": 15,
-    "HOLD": 9
+    "CONTEXT": 60,
+    "MERGED": 15
   },
   "rows": [
     {
@@ -1109,11 +1108,11 @@
         "STABLECOINS"
       ],
       "legacy_research_state": "VERIFIED_WITH_RANGE",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "HIGH",
       "relation": null,
-      "note": null
+      "note": "Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-0835",
@@ -1193,11 +1192,11 @@
         "CULTURE"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Trend row; needs a single dated milestone before scoring."
+      "note": "Trend row; needs a single dated milestone before scoring. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-0840",
@@ -1273,11 +1272,11 @@
         "TECHNOLOGY"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Needs a concrete 2024 mainnet/activity/reward milestone before scoring."
+      "note": "Needs a concrete 2024 mainnet/activity/reward milestone before scoring. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-0845",
@@ -1371,11 +1370,11 @@
         "MARKETS"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Trend row; requires aggregate data or a specific presale before publication."
+      "note": "Trend row; requires aggregate data or a specific presale before publication. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-0851",
@@ -1388,11 +1387,11 @@
         "CULTURE"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Use only specific token launches or documented enforcement/investigation events; do not generalize alleged insider conduct."
+      "note": "Use only specific token launches or documented enforcement/investigation events; do not generalize alleged insider conduct. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-0852",
@@ -1438,11 +1437,11 @@
         "CULTURE"
       ],
       "legacy_research_state": "UNRESEARCHED",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "HIGH",
       "relation": null,
-      "note": "This is a treasury-policy/context row, not an allegation that sales were improper or predictive of price."
+      "note": "This is a treasury-policy/context row, not an allegation that sales were improper or predictive of price. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-0855",
@@ -1944,11 +1943,11 @@
         "TECHNOLOGY"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Technology trend rather than one event; score specific protocols such as CCTP/Across instead."
+      "note": "Technology trend rather than one event; score specific protocols such as CCTP/Across instead. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-1174",
@@ -1977,11 +1976,11 @@
         "TECHNOLOGY"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Needs a specific law-enforcement or platform dataset before card scoring."
+      "note": "Needs a specific law-enforcement or platform dataset before card scoring. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-1196",
@@ -2044,11 +2043,11 @@
         "DISASTERS"
       ],
       "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "HOLD",
+      "resolution": "CONTEXT",
       "canonical_id": null,
       "source_confidence": "LOW",
       "relation": null,
-      "note": "Needs protocol-level liquidation data and a specific period before scoring."
+      "note": "Needs protocol-level liquidation data and a specific period before scoring. Editorial resolution: broad trend/context rather than a discrete independently scoreable event. Preserve for book/timeline context; do not score as a separate card."
     },
     {
       "legacy_id": "LORE-EVT-1228",
