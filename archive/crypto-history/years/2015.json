@@ -240,15 +240,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "Augur conducted an early token crowdsale for REP.",
-        "significance": "Potential ICO-history milestone, but exact opening/closing dates and amount raised need a reliable archived Augur source before canonical scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Augur's 2015 REP crowdsale was part of Ethereum's earliest application/token-funding wave.",
+        "significance": "Use Augur's 2018 live-market launch as the stronger card event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -321,15 +321,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "Bitcoin hardware startup 21 Inc announced an unusually large financing round and became one of the best-funded Bitcoin startups of the era.",
-        "significance": "Strong venture-history context, but amount/date require authoritative sourcing before verification.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "21 Inc became one of the era's most heavily funded Bitcoin startups.",
+        "significance": "Venture-history context rather than a durable protocol milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -434,15 +434,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2015",
-        "summary": "The US Marshals Service held additional auctions of Silk Road-related Bitcoin after the first 2014 sale.",
-        "significance": "Use individual auction dates and quantities rather than one broad row if this survives card selection.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "US Marshals held additional Silk Road-linked Bitcoin auctions after the first 2014 sale.",
+        "significance": "The first auction and Tim Draper purchase are the stronger canonical milestones.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -545,15 +545,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "OpenBazaar beta development advanced a peer-to-peer marketplace without a central operator.",
-        "significance": "The full public launch is a cleaner 2016 event; this 2015 beta row needs exact archived release evidence.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "OpenBazaar beta development advanced a decentralized marketplace concept before its public release.",
+        "significance": "Use a specific public launch if card consideration is needed.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -595,15 +595,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2015",
-        "summary": "Hosted and cloud-mining services expanded as ASIC mining became capital-intensive.",
-        "significance": "Trend rather than discrete event; needs provider-specific milestone if retained.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Hosted and cloud mining expanded as ASIC hardware raised the complexity of home mining.",
+        "significance": "Mining-business trend rather than one event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -617,15 +617,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NEEDS_REWRITE",
-        "exact_date": "2015",
-        "summary": "ChangeTip's talent/acquisition story is too vaguely phrased and not a clear crypto-history milestone in its current wording.",
-        "significance": "Replace with a specific ChangeTip acquisition/shutdown source if culturally useful.",
-        "source_confidence": "LOW",
+        "state": "DEPRECATED_CLAIM",
+        "exact_date": null,
+        "summary": "The 'Airbnb-linked talent move' phrasing is not a meaningful crypto-history event.",
+        "significance": "ChangeTip's actual tipping adoption is represented elsewhere.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exclude from scoring."
       }
     },
     {
@@ -640,15 +640,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2015",
-        "summary": "Bitcoin meme culture continued spreading on Reddit, Bitcointalk and social media.",
-        "significance": "Cultural trend rather than discrete event; individual memes are better candidates.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Bitcoin meme culture continued spreading across Reddit and Bitcointalk.",
+        "significance": "Culture background rather than a traceable single moment.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -690,12 +690,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "Evolution Market disappeared in 2015 amid allegations of an exit scam.",
-        "significance": "Potential darknet LORE event, but exact date and loss amount need authoritative contemporary sourcing.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2015-03-18",
+        "summary": "Evolution Marketplace disappeared in March 2015 and users alleged that its administrators took roughly $12 million worth of Bitcoin in an exit scam.",
+        "significance": "An early darknet-market exit scam highlighting custodial risk outside conventional exchanges.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Evolution exit scam",
+            "url": "https://www.theguardian.com/technology/2015/mar/18/bitcoin-deep-web-evolution-exit-scam-12-million-dollars",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -712,12 +718,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_LATER_ENFORCEMENT",
         "exact_date": "2015",
-        "summary": "GAW Miners collapsed amid the Paycoin controversy and later criminal/regulatory proceedings.",
-        "significance": "Needs a specific bankruptcy/shutdown/enforcement date and court/SEC source.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "GAW Miners' mining and Paycoin businesses unraveled during 2015; later federal proceedings established fraud involving mining products, Hashlets and Paycoin.",
+        "significance": "A defining early mining-investment fraud story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Josh Garza fraud scheme",
+            "url": "https://www.justice.gov/usao-ct/pr/former-virtual-currency-ceo-pleads-guilty-9-million-fraud-scheme",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -734,15 +746,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2015",
-        "summary": "AlphaBay grew into a leading darknet marketplace.",
-        "significance": "Growth trend rather than one clean event; the 2017 takedown is much stronger as a canonical card event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "AlphaBay grew into a dominant darknet marketplace during 2015–2017.",
+        "significance": "The 2017 multinational takedown is the stronger discrete event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
