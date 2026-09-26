@@ -1,371 +1,327 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0",
   "year": 2022,
-  "generated": "2026-09-26",
-  "purpose": "Canonical evidence file for 2022. Only sourced records in this file are eligible for later card scoring.",
-  "record_count": 19,
-  "records": [
+  "status": "EVIDENCE_PASS_IN_PROGRESS",
+  "note": "Canonical evidence file for 2022. The year is organized as linked collapse, security, regulation and protocol-upgrade events. Deep cuts will be added after the core causal chain is established.",
+  "events": [
     {
-      "source_event_id": null,
-      "date": "2022-02-02",
-      "title": "Wormhole bridge exploit mints 120,000 unbacked wrapped ETH",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "An attacker exploited Wormhole's Solana-Ethereum bridge verification logic and minted about 120,000 wrapped ETH without corresponding collateral, worth over $320 million at the time.",
-      "significance": "The attack became one of the largest DeFi thefts and exposed the systemic risks created when cross-chain bridges hold or synthesize large pools of assets.",
-      "sources": [
-        {
-          "title": "Chainalysis — Lessons from the Wormhole exploit",
-          "url": "https://www.chainalysis.com/blog/wormhole-hack-february-2022/",
-          "type": "BLOCKCHAIN_ANALYSIS"
-        },
-        {
-          "title": "CertiK — Wormhole Bridge Exploit Incident Analysis",
-          "url": "https://www.certik.com/blog/wormhole-bridge-exploit-incident-analysis",
-          "type": "SECURITY_RESEARCH"
-        }
-      ]
-    },
-    {
-      "source_event_id": "LORE-EVT-0051",
+      "key": "2022-ronin-bridge-exploit",
       "date": "2022-03-29",
-      "title": "Ronin bridge is drained of 173,600 ETH and 25.5 million USDC",
-      "status": "VERIFIED",
+      "title": "Ronin Bridge loses 173,600 ETH and 25.5 million USDC",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Attackers compromised validator keys and drained 173,600 ETH and 25.5 million USDC from the Ronin bridge supporting Axie Infinity.",
-      "significance": "The Ronin theft was the defining gaming/bridge hack of the cycle and demonstrated how concentrated validator control could undermine a large blockchain economy.",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "GAMING"
+      ],
+      "summary": "Attackers drained 173,600 ETH and 25.5 million USDC from the Ronin Bridge. Sky Mavis later rebuilt the bridge and reimbursed user liabilities.",
+      "significance": "The attack was one of the largest crypto thefts ever and exposed the security trade-offs of a validator-controlled bridge supporting a major blockchain game.",
       "sources": [
         {
           "title": "Ronin — The Ronin Bridge Is Open",
           "url": "https://blog.roninchain.com/p/the-ronin-bridge-is-open-",
           "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "US Treasury — Tornado Cash sanctions background on Ronin laundering",
-          "url": "https://home.treasury.gov/news/press-releases/jy1702",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": "LORE-EVT-0052",
-      "date": "2022-05-07 to 2022-05-13",
-      "title": "TerraUSD loses its dollar peg",
-      "status": "VERIFIED_WITH_RANGE",
-      "tier": "CORE",
-      "summary": "Beginning around 7 May, large UST sales destabilized the peg; the algorithm failed to restore parity and UST ultimately fell close to zero.",
-      "significance": "The failure destroyed confidence in algorithmic stablecoins and triggered losses throughout the interconnected crypto credit system.",
-      "sources": [
-        {
-          "title": "SEC complaint — Terraform Labs / May 2022 collapse",
-          "url": "https://www.sec.gov/files/litigation/complaints/2023/comp-pr2023-32.pdf",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": "LORE-EVT-0053",
-      "date": "2022-05",
-      "title": "LUNA enters a hyperinflationary death spiral",
-      "status": "VERIFIED_WITH_MONTH",
-      "tier": "CORE",
-      "summary": "As UST failed, Terra's stabilization mechanism rapidly expanded LUNA supply while both UST and LUNA prices collapsed toward zero.",
-      "significance": "The death spiral erased tens of billions of dollars in market value and became the canonical failure mode for reflexive algorithmic stablecoin designs.",
-      "sources": [
-        {
-          "title": "SEC complaint — Terraform Labs / May 2022 collapse",
-          "url": "https://www.sec.gov/files/litigation/complaints/2023/comp-pr2023-32.pdf",
-          "type": "GOVERNMENT"
         }
       ],
-      "relationships": [
-        {
-          "type": "CAUSED_BY",
-          "title": "TerraUSD loses its dollar peg"
-        }
-      ]
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2022-06-12",
-      "title": "Celsius halts customer withdrawals",
-      "status": "VERIFIED",
+      "key": "2022-terra-ust-depeg",
+      "date": "2022-05-07 to 2022-05-09",
+      "title": "TerraUSD loses its dollar peg",
+      "state": "VERIFIED_WITH_RANGE",
       "tier": "CORE",
-      "summary": "Celsius announced a halt to customer withdrawals on 12 June 2022. US prosecutors later said hundreds of thousands of users still had roughly $4.7 billion of crypto assets trapped on the platform.",
-      "significance": "The freeze turned fears about opaque crypto lending into a full-scale retail bank-run crisis and accelerated the 2022 CeFi contagion.",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS",
+        "DEFI"
+      ],
+      "summary": "UST began materially departing from its $1 target during 7–8 May 2022. Terra and Luna Foundation Guard deployed reserves and market purchases in an attempt to restore the peg.",
+      "significance": "The depeg broke confidence in the algorithmic stablecoin mechanism and triggered the LUNA death spiral that became the defining collapse of the first half of 2022.",
       "sources": [
         {
-          "title": "US DOJ — Celsius founder charges",
-          "url": "https://www.justice.gov/usao-sdny/pr/celsius-founder-and-former-chief-revenue-officer-charged-connection-multibillion",
-          "type": "GOVERNMENT"
+          "title": "Luna Foundation Guard forensic audit",
+          "url": "https://www.lfg.org/audit/LFG-Audit-2022-11-14.pdf",
+          "type": "PROJECT_COMMISSIONED_FORENSIC"
+        },
+        {
+          "title": "Terra Docs — pre-depeg snapshot and post-collapse chain history",
+          "url": "https://docs.terra.money/learn/protocol/",
+          "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0054",
-      "date": "2022-06-27",
-      "title": "Three Arrows Capital defaults on major Voyager loan",
-      "status": "VERIFIED",
+      "key": "2022-luna-death-spiral",
+      "date": "2022-05",
+      "title": "LUNA collapses in Terra's death spiral",
+      "state": "VERIFIED_CONTEXT",
       "tier": "CORE",
-      "summary": "Voyager issued a notice of default to Three Arrows Capital after 3AC failed to repay 15,250 BTC and $350 million USDC.",
-      "significance": "The default made 3AC's insolvency visible to the market and showed how leverage and unsecured institutional lending were transmitting Terra-era losses across crypto firms.",
+      "branches": [
+        "ALTCOINS",
+        "DISASTERS",
+        "CONTAGION"
+      ],
+      "summary": "As UST lost its peg, the protocol's conversion mechanism expanded LUNA supply dramatically while market confidence collapsed.",
+      "significance": "The destruction of the Terra ecosystem erased enormous market value and propagated losses into lenders, hedge funds and counterparties across crypto.",
       "sources": [
         {
-          "title": "Voyager — Three Arrows Capital default notice",
-          "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
-          "type": "COMPANY_PRIMARY"
+          "title": "LFG forensic audit",
+          "url": "https://www.lfg.org/audit/LFG-Audit-2022-11-14.pdf",
+          "type": "PROJECT_COMMISSIONED_FORENSIC"
+        },
+        {
+          "title": "Terra Docs",
+          "url": "https://docs.terra.money/learn/protocol/",
+          "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2022-terra-ust-depeg",
+        "type": "CONSEQUENCE"
+      }
     },
     {
-      "source_event_id": null,
+      "key": "2022-voyager-chapter11",
       "date": "2022-07-05",
-      "title": "Voyager Digital files for Chapter 11 bankruptcy",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Voyager filed for Chapter 11 protection after the prolonged market downturn and Three Arrows Capital's default on more than $650 million of loans.",
-      "significance": "Voyager's bankruptcy illustrated how 3AC losses cascaded into retail-facing crypto lenders and became a central episode in the 2022 contagion chain.",
+      "title": "Voyager Digital files for Chapter 11",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "CONTAGION",
+        "DISASTERS"
+      ],
+      "summary": "Voyager filed for Chapter 11 after suspending platform activity and disclosed claims against Three Arrows Capital exceeding $650 million.",
+      "significance": "Voyager demonstrated how leveraged counterparty exposure transmitted the 2022 hedge-fund crisis directly into retail crypto lending platforms.",
       "sources": [
         {
-          "title": "Voyager Digital — restructuring announcement",
+          "title": "Voyager — Chapter 11 restructuring announcement",
           "url": "https://www.prnewswire.com/news-releases/voyager-digital-commences-financial-restructuring-process-to-maximize-value-for-all-stakeholders-301581177.html",
           "type": "COMPANY_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0055",
+      "key": "2022-celsius-withdrawals-freeze",
+      "date": "2022-06",
+      "title": "Celsius freezes customer withdrawals and transfers",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION",
+        "DISASTERS"
+      ],
+      "summary": "Celsius froze withdrawals and transfers for its roughly 1.7 million customers in June 2022, citing extreme market conditions, then filed for bankruptcy in July.",
+      "significance": "The freeze turned crypto-credit stress into a retail bank-run-like crisis and became one of the defining failures of centralized yield lending.",
+      "sources": [
+        {
+          "title": "Reuters — Celsius fraud case background",
+          "url": "https://www.reuters.com/legal/founder-bankrupt-crypto-lender-celsius-must-face-ny-fraud-lawsuit-2023-08-04/",
+          "type": "HIGH_QUALITY_SECONDARY"
+        },
+        {
+          "title": "Reuters — Celsius founder charges background",
+          "url": "https://www.reuters.com/markets/us-sec-sues-celsius-network-its-founder-2023-07-13/",
+          "type": "HIGH_QUALITY_SECONDARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2022-tornado-cash-sanctions",
       "date": "2022-08-08",
       "title": "US Treasury sanctions Tornado Cash",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "OFAC sanctioned Tornado Cash on 8 August 2022, citing its use in laundering billions of dollars of virtual currency including proceeds from major hacks.",
-      "significance": "The sanctions created one of crypto's most important legal and philosophical disputes over privacy software, immutable smart contracts and government sanctions powers.",
+      "branches": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The US Treasury's Office of Foreign Assets Control sanctioned Tornado Cash, an Ethereum-based virtual-currency mixer.",
+      "significance": "The action triggered a major legal and philosophical conflict over financial privacy, sanctions, decentralized smart contracts and whether immutable code can be treated as a sanctionable entity.",
       "sources": [
         {
           "title": "US Treasury — Tornado Cash sanctions",
           "url": "https://home.treasury.gov/news/press-releases/jy0916",
           "type": "GOVERNMENT"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0056",
+      "key": "2022-ethereum-merge",
       "date": "2022-09-15T06:42:42Z",
       "title": "Ethereum completes The Merge",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
       "summary": "Ethereum's Paris upgrade switched mainnet consensus from proof of work to proof of stake at block 15,537,394.",
-      "significance": "The Merge was one of the largest live consensus migrations ever attempted and reduced Ethereum's energy consumption by roughly 99.95%.",
+      "significance": "The Merge ended Ethereum mining, integrated the Beacon Chain into mainnet consensus and reduced Ethereum's estimated energy consumption by about 99.95%.",
       "sources": [
+        {
+          "title": "Ethereum.org — fork timeline",
+          "url": "https://ethereum.org/ethereum-forks/",
+          "type": "PROJECT_PRIMARY"
+        },
         {
           "title": "Ethereum.org — The Merge",
           "url": "https://ethereum.org/roadmap/merge/",
           "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "Ethereum.org — Paris timeline",
-          "url": "https://ethereum.org/ethereum-forks/",
-          "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0057",
-      "date": "2022-11-11",
-      "title": "FTX and affiliated companies file for bankruptcy",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "FTX Trading and numerous affiliated entities filed for Chapter 11 protection on 11 November 2022 after a liquidity crisis and revelations about the relationship between FTX and Alameda Research.",
-      "significance": "FTX's collapse was the defining centralized-exchange failure of the cycle and produced one of the largest crises of confidence in crypto history.",
-      "sources": [
-        {
-          "title": "SEC complaint — Samuel Bankman-Fried / FTX bankruptcy background",
-          "url": "https://www.sec.gov/files/litigation/complaints/2022/comp-pr2022-219.pdf",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2022-12-12",
-      "title": "Sam Bankman-Fried is arrested in the Bahamas",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Sam Bankman-Fried was arrested in the Bahamas on 12 December 2022 ahead of the unsealing of a US federal indictment.",
-      "significance": "The arrest converted FTX's market collapse into one of the most consequential criminal cases in financial and crypto history.",
-      "sources": [
-        {
-          "title": "US DOJ — FTX founder indicted",
-          "url": "https://www.justice.gov/archives/opa/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2022-07-13",
-      "title": "Celsius files for Chapter 11 bankruptcy",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "About a month after freezing customer withdrawals, Celsius filed for Chapter 11 bankruptcy protection.",
-      "significance": "The filing confirmed that the withdrawal freeze was not a temporary liquidity issue but a full insolvency crisis affecting hundreds of thousands of users.",
-      "sources": [
-        {
-          "title": "US DOJ — Celsius founder charges and bankruptcy timeline",
-          "url": "https://www.justice.gov/usao-sdny/pr/celsius-founder-and-former-chief-revenue-officer-charged-connection-multibillion",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2022-08-02",
-      "title": "Nomad bridge is drained in a copycat free-for-all",
-      "status": "VERIFIED_WITH_DATE",
-      "tier": "LORE",
-      "summary": "Nomad's bridge lost about $190 million after an exploit became easy to copy, allowing many addresses to repeat the draining transaction pattern.",
-      "significance": "The attack became one of crypto's strangest hacks because the exploit rapidly turned into a decentralized copycat looting event.",
-      "sources": [
-        {
-          "title": "Chainalysis — mid-year 2022 crypto crime update",
-          "url": "https://www.chainalysis.com/blog/crypto-crime-midyear-update-2022/",
-          "type": "BLOCKCHAIN_ANALYSIS"
-        },
-        {
-          "title": "US Treasury — Tornado Cash sanctions background",
-          "url": "https://home.treasury.gov/news/press-releases/jy0916",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2022-10-07",
-      "title": "BSC Token Hub exploit creates two million extra BNB",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "An exploit of the native bridge between BNB Beacon Chain and BNB Smart Chain enabled roughly two million BNB to be withdrawn; validators coordinated a chain halt to contain the damage.",
-      "significance": "The event combined a huge bridge exploit with the controversial emergency stopping of a major blockchain, making it both a security and governance milestone.",
-      "sources": [
-        {
-          "title": "BNB Chain — Ecosystem Update",
-          "url": "https://www.bnbchain.org/en/blog/bnb-chain-ecosystem-update",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
+      "key": "2022-coindesk-alameda-balance-sheet",
       "date": "2022-11-02",
       "title": "CoinDesk reveals Alameda's FTT-heavy balance sheet",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "CoinDesk reported on a private Alameda Research balance sheet showing $14.6 billion of assets, with a large share tied to FTX's own FTT token.",
-      "significance": "The report broke open doubts about the financial separation and solvency of Alameda and FTX and directly preceded the exchange's liquidity crisis.",
+      "branches": [
+        "FTX",
+        "EXCHANGES",
+        "CONTAGION"
+      ],
+      "summary": "CoinDesk reported on a private Alameda Research balance sheet showing $14.6 billion of assets at June 30, with a large concentration in FTX-issued FTT and related tokens.",
+      "significance": "The report punctured confidence in the separation and financial strength of Alameda and FTX and became the immediate public catalyst for the exchange's final crisis.",
       "sources": [
         {
-          "title": "CoinDesk — Alameda balance sheet report",
+          "title": "CoinDesk — Alameda balance sheet",
           "url": "https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/",
           "type": "CONTEMPORARY_SECONDARY"
         }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2022-11-06",
-      "title": "CZ says Binance will liquidate remaining FTT holdings",
-      "status": "VERIFIED_WITH_ARCHIVED_POST",
-      "tier": "CORE",
-      "summary": "Binance CEO Changpeng Zhao said Binance would liquidate the FTT it still held after its earlier exit from FTX equity.",
-      "significance": "The announcement turned questions about Alameda's balance sheet into a public confidence crisis and accelerated withdrawals from FTX.",
-      "sources": [
-        {
-          "title": "Binance Square archive of CZ's FTT liquidation announcement",
-          "url": "https://www.binance.com/en/square/post/45814",
-          "type": "PLATFORM_ARCHIVE"
-        }
       ],
-      "relationships": [
-        {
-          "type": "FOLLOWS",
-          "title": "CoinDesk reveals Alameda's FTT-heavy balance sheet"
-        }
-      ]
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2022-11-11",
-      "title": "FTX customer-withdrawal crisis culminates in bankruptcy",
-      "status": "VERIFIED",
+      "key": "2022-ftx-bank-run",
+      "date": "2022-11-06 to 2022-11-10",
+      "title": "FTX suffers a rapid liquidity crisis and customer run",
+      "state": "VERIFIED_WITH_RANGE",
       "tier": "CORE",
-      "summary": "After a wave of customer withdrawals and an unsuccessful rescue effort, FTX and many affiliates filed for Chapter 11 on 11 November 2022.",
-      "significance": "The bankruptcy marked the collapse of a firm that had been one of crypto's largest exchanges and a major investor, lender and political presence.",
+      "branches": [
+        "FTX",
+        "EXCHANGES",
+        "CONTAGION"
+      ],
+      "summary": "Following the Alameda balance-sheet report, Binance said it would sell its FTT holdings, confidence collapsed, FTT fell sharply and customers rushed to withdraw assets from FTX.",
+      "significance": "Within days, one of the world's largest crypto exchanges moved from apparent strength to insolvency, demonstrating the speed of a digital bank run.",
       "sources": [
-        {
-          "title": "SEC complaint — FTX bankruptcy sequence",
-          "url": "https://www.sec.gov/files/litigation/complaints/2022/comp-pr2022-219.pdf",
-          "type": "GOVERNMENT"
-        },
         {
           "title": "Reuters — timeline to FTX collapse",
           "url": "https://www.reuters.com/technology/events-leading-up-ftx-founder-sam-bankman-frieds-conviction-2024-03-28/",
-          "type": "SECONDARY"
-        }
-      ],
-      "relationships": [
-        {
-          "type": "CULMINATES",
-          "title": "CoinDesk reveals Alameda's FTT-heavy balance sheet"
+          "type": "HIGH_QUALITY_SECONDARY"
         },
         {
-          "type": "FOLLOWS",
-          "title": "CZ says Binance will liquidate remaining FTT holdings"
+          "title": "CoinDesk — FTT collapse during FTX crisis",
+          "url": "https://www.coindesk.com/markets/2022/11/08/ftx-token-falls-80-despite-binance-bailout-as-alameda-contagion-spreads-to-bitcoin",
+          "type": "CONTEMPORARY_SECONDARY"
         }
-      ]
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2022-coindesk-alameda-balance-sheet",
+        "type": "AFTERMATH"
+      }
     },
     {
-      "source_event_id": null,
+      "key": "2022-ftx-bankruptcy",
+      "date": "2022-11-11",
+      "title": "FTX files for Chapter 11 bankruptcy",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "summary": "FTX Trading and dozens of affiliates filed Chapter 11 petitions on 11 November 2022; Sam Bankman-Fried resigned as CEO and John J. Ray III took over restructuring.",
+      "significance": "FTX's collapse became the defining exchange failure of the modern crypto era and triggered losses, investigations, bankruptcies and a global regulatory response.",
+      "sources": [
+        {
+          "title": "FTX — first-day bankruptcy motions",
+          "url": "https://www.prnewswire.com/news-releases/ftx-receives-court-approval-for-first-day-motions-301685748.html",
+          "type": "DEBTOR_PRIMARY"
+        },
+        {
+          "title": "CoinDesk — FTX files for bankruptcy",
+          "url": "https://www.coindesk.com/policy/2022/11/11/ftx-files-for-bankruptcy-protections-in-us",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2022-ftx-bank-run",
+        "type": "CONSEQUENCE"
+      }
+    },
+    {
+      "key": "2022-blockfi-bankruptcy",
       "date": "2022-11-28",
       "title": "BlockFi files for bankruptcy after FTX collapse",
-      "status": "VERIFIED_WITH_SECONDARY",
+      "state": "VERIFIED_WITH_SECONDARY",
       "tier": "MAJOR",
-      "summary": "BlockFi filed for Chapter 11 bankruptcy in November 2022 after having relied on rescue financing from FTX during the summer market crisis.",
-      "significance": "BlockFi's failure showed how FTX contagion spread into lenders that had themselves already been weakened by the earlier Terra/3AC crisis.",
+      "branches": [
+        "CEFI",
+        "FTX",
+        "CONTAGION"
+      ],
+      "summary": "BlockFi filed for Chapter 11 on 28 November after pausing withdrawals during FTX's collapse; BlockFi had previously received rescue financing from FTX.",
+      "significance": "The bankruptcy showed how FTX's failure propagated through firms that had survived the earlier Terra/3AC shock only by relying on FTX itself.",
       "sources": [
         {
-          "title": "Reuters — FTX/BlockFi relationship and 2022 bankruptcies",
+          "title": "Reuters — FTX/BlockFi settlement background",
           "url": "https://www.reuters.com/technology/ftx-reaches-settlement-with-blockfi-may-pay-up-874-million-2024-03-07/",
-          "type": "SECONDARY"
+          "type": "HIGH_QUALITY_SECONDARY"
         },
         {
-          "title": "SEC filing noting BlockFi bankruptcy",
-          "url": "https://www.sec.gov/Archives/edgar/data/1119190/000149315224020689/form10-q.htm",
-          "type": "REGULATORY_FILING"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2022-06-27",
-      "title": "Voyager exposes the scale of Three Arrows Capital's unpaid debt",
-      "status": "VERIFIED_SUBEVENT",
-      "tier": "MAJOR",
-      "summary": "Voyager disclosed that 3AC had failed to repay 15,250 BTC and $350 million USDC, then issued a default notice.",
-      "significance": "The disclosure made visible how large bilateral loans had linked hedge funds and retail-facing lenders, helping explain the speed of the 2022 contagion.",
-      "sources": [
-        {
-          "title": "Voyager — market update and 3AC default",
-          "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
-          "type": "COMPANY_PRIMARY"
+          "title": "BlockFi bankruptcy date summary",
+          "url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-notifies-blockfi-account-holders-of-investigation-301697419.html",
+          "type": "SECONDARY_PRESS_RELEASE"
         }
       ],
-      "relationships": [
+      "confidence": "MEDIUM_HIGH",
+      "relation": {
+        "to": "2022-ftx-bankruptcy",
+        "type": "CONTAGION"
+      }
+    },
+    {
+      "key": "2022-sbf-arrest",
+      "date": "2022-12-12",
+      "title": "Sam Bankman-Fried is arrested in the Bahamas",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "CRIME",
+        "PEOPLE"
+      ],
+      "summary": "Bahamian authorities arrested Sam Bankman-Fried on 12 December at the request of US prosecutors; an eight-count federal indictment was unsealed the next day.",
+      "significance": "The arrest transformed the FTX collapse from a corporate bankruptcy story into one of the largest criminal fraud cases in financial history.",
+      "sources": [
         {
-          "type": "SUBEVENT_OF",
-          "title": "Three Arrows Capital defaults on major Voyager loan"
+          "title": "US DOJ — SBF indictment and arrest",
+          "url": "https://www.justice.gov/archives/opa/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "SDNY — charges against SBF",
+          "url": "https://www.justice.gov/usao-sdny/pr/united-states-attorney-announces-charges-against-ftx-founder-samuel-bankman-fried",
+          "type": "GOVERNMENT"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     }
   ]
 }
