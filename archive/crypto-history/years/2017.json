@@ -1,330 +1,2596 @@
 {
   "schema_version": "1.0.0",
   "year": 2017,
+  "generated_from": "archive/crypto-history/events.json",
+  "generated_from_blob": "c39917cd71197131e486ff3d14c02eb882df073b",
   "generated": "2026-09-26",
-  "purpose": "Canonical evidence file for 2017.",
-  "records": [
+  "total_events": 94,
+  "events": [
     {
-      "date": "2017-01",
-      "title": "Monero activates Ring Confidential Transactions",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Monero implemented RingCT, hiding transaction amounts in addition to obscuring transaction origins.",
-      "significance": "RingCT materially strengthened Monero's privacy model and became a defining component of private cryptocurrency transactions.",
-      "sources": [
-        {
-          "title": "Monero — RingCT",
-          "url": "https://web.getmonero.org/resources/moneropedia/ringCT.html",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "date": "2017-03-10",
-      "title": "SEC rejects Winklevoss Bitcoin ETF proposal",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "The SEC rejected Bats BZX's proposal to list the Winklevoss Bitcoin Trust.",
-      "significance": "The denial became an early milestone in the long US battle over a spot Bitcoin exchange-traded product.",
-      "sources": [
-        {
-          "title": "SEC — Winklevoss Bitcoin Trust rejection",
-          "url": "https://www.sec.gov/rules/sro/batsbzx/2017/34-80206.pdf",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "date": "2017-05-04",
-      "title": "Ethereum Name Service launches .eth names",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "The initial ENS registrar deployed to Ethereum mainnet, enabling human-readable .eth names.",
-      "significance": "ENS made naming and identity a central part of Ethereum wallet and application UX.",
-      "sources": [
-        {
-          "title": "EIP-162 — Initial ENS Hash Registrar",
-          "url": "https://eips.ethereum.org/EIPS/eip-162",
-          "type": "PRIMARY_SPEC"
-        }
-      ]
-    },
-    {
-      "date": "2017-05-09",
-      "title": "Curio Cards launches early Ethereum collectible art",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "Curio Cards debuted as an Ethereum art gallery and collectible-card series.",
-      "significance": "The collection predates CryptoPunks and is one of Ethereum's earliest original digital-art NFT projects.",
-      "sources": [
-        {
-          "title": "Curio Cards — documentation",
-          "url": "https://docs.curio.cards/",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "date": "2017-05-23",
-      "title": "New York Agreement proposes SegWit2x compromise",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Major Bitcoin companies and miners announced an agreement supporting SegWit activation followed by a planned 2 MB hard fork.",
-      "significance": "The agreement became the corporate/miner side of the climactic Bitcoin block-size war.",
-      "sources": [
-        {
-          "title": "Digital Currency Group — Bitcoin Scaling Agreement at Consensus 2017",
-          "url": "https://www.dcg.co/insights/bitcoin-scaling-agreement-at-consensus-2017",
-          "type": "INDUSTRY_PRIMARY"
-        }
-      ]
-    },
-    {
-      "date": "2017-06",
+      "id": "LORE-EVT-0031",
+      "date": "2017",
       "title": "CryptoPunks launches",
-      "status": "VERIFIED_WITH_MONTH",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
       "tier": "CORE",
-      "summary": "Larva Labs launched 10,000 algorithmically generated CryptoPunks on Ethereum, initially claimable for free.",
-      "significance": "CryptoPunks became the prototype for the modern profile-picture NFT collection.",
-      "sources": [
-        {
-          "title": "Larva Labs — CryptoPunks",
-          "url": "https://www.larvalabs.com/cryptopunks",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2017-06",
+        "summary": "Larva Labs launched CryptoPunks in June 2017 as 10,000 algorithmically generated characters on Ethereum, initially claimable for free.",
+        "significance": "CryptoPunks became the prototype for the modern profile-picture NFT collection and one of the most influential digital-ownership experiments in crypto.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Larva Labs — CryptoPunks",
+            "url": "https://www.larvalabs.com/cryptopunks",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "source_event_id": "LORE-EVT-0216",
-      "date": "2017-06-26 to 2018-06-01",
-      "title": "EOS begins its year-long token sale",
-      "status": "VERIFIED_WITH_RANGE",
-      "tier": "MAJOR",
-      "summary": "Block.one conducted the EOS ERC-20 token sale from 26 June 2017 through 1 June 2018, distributing 900 million public-sale tokens through an approximately year-long ICO.",
-      "significance": "EOS became one of the largest and longest-running token sales of the ICO era and a major example in the later US securities-enforcement response to token fundraising.",
-      "sources": [
-        {
-          "title": "SEC — Block.one administrative order",
-          "url": "https://www.sec.gov/files/litigation/admin/2019/33-10714.pdf",
-          "type": "GOVERNMENT"
-        },
-        {
-          "title": "SEC — Block.one $24m settlement",
-          "url": "https://www.sec.gov/newsroom/press-releases/2019-202",
-          "type": "GOVERNMENT"
-        }
-      ]
+      "id": "LORE-EVT-0032",
+      "date": "2017",
+      "title": "ICO mania",
+      "branch": [
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2017",
+        "summary": "Token sales/ICOs expanded dramatically in 2017, with projects raising billions of dollars, largely using Ethereum and ERC-20 tokens.",
+        "significance": "The ICO boom was crypto's first major programmable-capital-formation mania and directly prompted new securities-law enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — DAO Report",
+            "url": "https://www.sec.gov/newsroom/press-releases/2017-131",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Filecoin — token sale completed",
+            "url": "https://www.filecoin.io/blog/posts/token-sale-completed/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Tezos Foundation — fundraiser statistics",
+            "url": "https://tezos.foundation/fundraiser-statistics/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Era/trend row rather than one exact date; keep for book/timeline context, not necessarily a standalone card."
+      }
     },
     {
-      "date": "2017-07-14",
+      "id": "LORE-EVT-0033",
+      "date": "2017",
       "title": "Binance launches",
-      "status": "VERIFIED",
+      "branch": [
+        "EXCHANGES"
+      ],
       "tier": "CORE",
-      "summary": "Binance launched its exchange after a June-to-July BNB token sale.",
-      "significance": "Binance grew into the world's largest crypto exchange and one of the industry's most powerful institutions.",
-      "sources": [
-        {
-          "title": "Binance launch chronology",
-          "url": "https://www.binance.com/en/support/announcement/detail/115001292531",
-          "type": "COMPANY_PRIMARY"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-07-14",
+        "summary": "Binance launched its exchange on 14 July 2017 after a June-to-July BNB token sale.",
+        "significance": "Binance grew with extraordinary speed into the world's largest crypto exchange and became one of the industry's most powerful institutions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance launch chronology",
+            "url": "https://www.binance.com/en/support/announcement/detail/115001292531",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-07-25",
-      "title": "SEC DAO Report applies securities law to token offerings",
-      "status": "VERIFIED",
+      "id": "LORE-EVT-0034",
+      "date": "2017-08",
+      "title": "Bitcoin Cash fork",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
       "tier": "CORE",
-      "summary": "The SEC concluded that DAO tokens were securities and warned that federal securities laws can apply to blockchain token offerings.",
-      "significance": "The report was the foundational US securities-law turning point for the ICO era.",
-      "sources": [
-        {
-          "title": "SEC — DAO Report",
-          "url": "https://www.sec.gov/newsroom/press-releases/2017-131",
-          "type": "GOVERNMENT"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-08-01T13:16:00Z",
+        "summary": "Bitcoin Cash split from Bitcoin after the last common Bitcoin block, height 478,558, on 1 August 2017; BCH then followed rules allowing larger blocks.",
+        "significance": "The hard fork was the most consequential permanent split of the Bitcoin block-size war and created a rival chain with shared pre-fork history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IRS — Bitcoin / Bitcoin Cash hard fork background",
+            "url": "https://www.irs.gov/pub/irs-wd/202114020.pdf",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Blockchain.com — Bitcoin block 478,558",
+            "url": "https://www.blockchain.com/en/explorer/blocks/btc/0000000000000000011865af4122fe3b144e2cbeea86142e8ff2fb4107352d43",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-08-01",
-      "title": "Bitcoin Cash splits from Bitcoin",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Bitcoin Cash separated from Bitcoin after block 478,558 and adopted rules allowing larger blocks.",
-      "significance": "It was the most consequential permanent split of the Bitcoin block-size war.",
-      "sources": [
-        {
-          "title": "IRS — Bitcoin / Bitcoin Cash hard fork background",
-          "url": "https://www.irs.gov/pub/irs-wd/202114020.pdf",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "date": "2017-08-24",
-      "title": "SegWit activates on Bitcoin",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Segregated Witness activated on Bitcoin mainnet after locking in earlier in August.",
-      "significance": "SegWit fixed transaction malleability, increased effective block capacity and enabled more robust payment-channel systems.",
-      "sources": [
-        {
-          "title": "BIP141 — Segregated Witness",
-          "url": "https://bitcoin.org/bip/141/",
-          "type": "PRIMARY_SPEC"
-        }
-      ]
-    },
-    {
-      "date": "2017-09-04",
+      "id": "LORE-EVT-0035",
+      "date": "2017",
       "title": "China bans ICO fundraising",
-      "status": "VERIFIED",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
       "tier": "CORE",
-      "summary": "Chinese financial regulators declared token fundraising an unauthorized and illegal public-financing activity and ordered existing offerings to unwind.",
-      "significance": "The ban abruptly ended China's domestic ICO boom and became one of 2017's largest regulatory shocks.",
-      "sources": [
-        {
-          "title": "Chinese regulators — ICO financing risk notice",
-          "url": "https://www.cac.gov.cn/2017-09/04/c_1121603512.htm",
-          "type": "GOVERNMENT"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-09-04",
+        "summary": "Chinese financial regulators declared token fundraising/ICOs an unauthorized and illegal public-financing activity and ordered existing offerings to unwind.",
+        "significance": "The ban abruptly ended China's domestic ICO boom and became one of the year's biggest regulatory shocks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chinese regulators — Notice on preventing ICO financing risks",
+            "url": "https://www.cac.gov.cn/2017-09/04/c_1121603512.htm",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-09-04",
-      "title": "Chainlink whitepaper introduces decentralized oracle network",
-      "status": "VERIFIED",
+      "id": "LORE-EVT-0036",
+      "date": "2017",
+      "title": "CryptoKitties mania",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
       "tier": "CORE",
-      "summary": "The ChainLink v1 whitepaper proposed a decentralized oracle network connecting smart contracts to external data and systems.",
-      "significance": "Chainlink later became dominant oracle infrastructure for DeFi and smart contracts.",
-      "sources": [
-        {
-          "title": "ChainLink v1 whitepaper",
-          "url": "https://research.chain.link/whitepaper-v1.pdf",
-          "type": "PRIMARY_PAPER"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-11-28",
+        "summary": "Axiom Zen launched CryptoKitties publicly on 28 November 2017.",
+        "significance": "The game's viral breeding/trading mechanics introduced NFTs to a much wider audience and visibly stressed Ethereum's transaction capacity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CryptoKitties launch announcement",
+            "url": "https://www.prnewswire.com/news-releases/cryptokitties-the-worlds-first-ethereum-game-launches-today-660494083.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-09-23 to 2017-09-29",
-      "title": "Cardano mainnet era begins",
-      "status": "VERIFIED_WITH_SEQUENCE",
+      "id": "LORE-EVT-0097",
+      "date": "2017",
+      "title": "ERC-20 token standard drives token issuance",
+      "branch": [
+        "ETHEREUM",
+        "ICO",
+        "TECHNOLOGY"
+      ],
       "tier": "CORE",
-      "summary": "Cardano's genesis block is dated 23 September 2017 and its Byron mainnet era launched on 29 September.",
-      "significance": "Cardano became a major research-driven proof-of-stake smart-contract ecosystem.",
-      "sources": [
-        {
-          "title": "Cardano — hard fork/network history",
-          "url": "https://cardano.org/hardforks/",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2017",
+        "summary": "Although EIP-20 was created in November 2015, ERC-20 became the dominant fungible-token interface during the 2017 token-sale boom.",
+        "significance": "Standardized token behavior made it easy for wallets, exchanges and ICOs to interoperate, enabling the explosive growth of Ethereum tokens.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EIP-20 Token Standard",
+            "url": "https://eips.ethereum.org/EIPS/eip-20",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Do not date ERC-20's creation to 2017; 2017 is its mass-adoption/ICO era."
+      }
     },
     {
-      "date": "2017-10-28",
-      "title": "Carlos Matos delivers legendary BitConnect presentation",
-      "status": "VERIFIED",
-      "tier": "LORE",
-      "summary": "Carlos Matos delivered his exuberant BitConnect presentation at the project's annual ceremony in Thailand.",
-      "significance": "The 'BitConneeeect!' performance became one of crypto's most enduring memes and later a symbol of the platform's collapse.",
-      "sources": [
-        {
-          "title": "BitConnect annual ceremony archive",
-          "url": "https://bitconnect.meme/system-news/84/bitconnect-prepares-to-celebrate-its-annual-ceremony-in-thailand/",
-          "type": "PROJECT_ARCHIVE"
-        }
-      ]
-    },
-    {
-      "date": "2017-11-08",
-      "title": "SegWit2x hard fork is cancelled",
-      "status": "VERIFIED",
+      "id": "LORE-EVT-0098",
+      "date": "2017",
+      "title": "SegWit activates on Bitcoin",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
       "tier": "CORE",
-      "summary": "Key SegWit2x backers cancelled the planned 2 MB hard fork because sufficient consensus had not been achieved.",
-      "significance": "The cancellation effectively ended the central 2017 block-size confrontation.",
-      "sources": [
-        {
-          "title": "TechCrunch — SegWit2x cancellation",
-          "url": "https://techcrunch.com/2017/11/08/segwit2x-backers-cancel-plans-for-bitcoin-hard-fork/",
-          "type": "CONTEMPORARY_SECONDARY"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-08-24",
+        "summary": "Segregated Witness activated on Bitcoin mainnet in August 2017 after locking in earlier that month.",
+        "significance": "SegWit fixed transaction malleability, increased effective block capacity and enabled more robust payment-channel systems such as Lightning.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 141 — Segregated Witness",
+            "url": "https://bitcoin.org/bip/141/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-11-28",
-      "title": "CryptoKitties launches",
-      "status": "VERIFIED",
+      "id": "LORE-EVT-0099",
+      "date": "2017",
+      "title": "Bitcoin block-size war reaches its climax",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
       "tier": "CORE",
-      "summary": "Axiom Zen launched CryptoKitties publicly on Ethereum.",
-      "significance": "The game's viral breeding and trading mechanics introduced NFTs to a much wider audience and visibly stressed Ethereum capacity.",
-      "sources": [
-        {
-          "title": "CryptoKitties launch announcement",
-          "url": "https://www.prnewswire.com/news-releases/cryptokitties-the-worlds-first-ethereum-game-launches-today-660494083.html",
-          "type": "PROJECT_PRESS_RELEASE"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2017",
+        "summary": "Bitcoin's years-long block-size conflict reached its decisive phase in 2017 through SegWit, UASF pressure, the New York Agreement, the Bitcoin Cash fork and SegWit2x cancellation.",
+        "significance": "The dispute defined Bitcoin's governance culture and clarified that miners, businesses, developers and users each had limited but meaningful power.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 148 — Mandatory activation of SegWit",
+            "url": "https://bitcoin.org/bip/148/",
+            "type": "PRIMARY_SPEC"
+          },
+          {
+            "title": "Digital Currency Group — Bitcoin Scaling Agreement at Consensus 2017",
+            "url": "https://www.dcg.co/insights/bitcoin-scaling-agreement-at-consensus-2017",
+            "type": "INDUSTRY_PRIMARY"
+          },
+          {
+            "title": "TechCrunch — SegWit2x cancellation",
+            "url": "https://techcrunch.com/2017/11/08/segwit2x-backers-cancel-plans-for-bitcoin-hard-fork/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "IRS — Bitcoin / Bitcoin Cash hard fork background",
+            "url": "https://www.irs.gov/pub/irs-wd/202114020.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Era/context row; strongest physical cards likely individual events rather than this umbrella."
+      }
     },
     {
-      "date": "2017-12-10",
-      "title": "Cboe launches regulated Bitcoin futures",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Cboe Futures Exchange opened trading in cash-settled Bitcoin futures.",
-      "significance": "It was the first US regulated exchange-traded Bitcoin futures contract to go live.",
-      "sources": [
-        {
-          "title": "Cboe — Bitcoin futures launch",
-          "url": "https://s202.q4cdn.com/174824971/files/doc_news/2017/12/cboe-plans-december-10-launch-of-bitcoin-futures-trading-pdf1691636263166.pdf",
-          "type": "EXCHANGE_PRIMARY"
-        }
-      ]
+      "id": "LORE-EVT-0100",
+      "date": "2017",
+      "title": "Japan introduces a registration regime for crypto exchanges",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-04-01",
+        "summary": "Japan's revised payment-services regime took effect on 1 April 2017, requiring virtual-currency exchange service providers to register.",
+        "significance": "Japan became one of the first major economies to establish a formal registration regime for crypto exchanges.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Japan FSA — crypto exchange registration system",
+            "url": "https://www.fsa.go.jp/en/news/2017/20171107.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Japan FSA — virtual currency regime",
+            "url": "https://www.fsa.go.jp/policy/virtual_currency02/",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-12-17",
+      "id": "LORE-EVT-0101",
+      "date": "2017",
       "title": "CME Bitcoin futures launch",
-      "status": "VERIFIED",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
       "tier": "CORE",
-      "summary": "CME listed its Bitcoin futures contract for the 18 December trade date.",
-      "significance": "CME brought Bitcoin into one of the world's largest regulated derivatives markets.",
-      "sources": [
-        {
-          "title": "CME — Bitcoin futures listing notice",
-          "url": "https://www.cmegroup.com/notices/ser/2017/12/SER-8051R.html",
-          "type": "EXCHANGE_PRIMARY"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-12-17",
+        "summary": "CME listed its Bitcoin futures contract on 17 December for the 18 December trade date.",
+        "significance": "CME brought Bitcoin into one of the world's largest regulated derivatives markets and established a major institutional price-discovery venue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CME — initial listing of Bitcoin futures",
+            "url": "https://www.cmegroup.com/notices/ser/2017/12/SER-8051R.html",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     },
     {
-      "date": "2017-12-18",
-      "title": "MakerDAO launches Single-Collateral Dai",
-      "status": "VERIFIED",
+      "id": "LORE-EVT-0102",
+      "date": "2017",
+      "title": "Bitcoin approaches $20,000 in the first global crypto mania",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
       "tier": "CORE",
-      "summary": "MakerDAO's first production Dai system went live on Ethereum, initially backed by Ether.",
-      "significance": "Dai demonstrated a decentralized, overcollateralized stablecoin and became foundational DeFi infrastructure.",
-      "sources": [
-        {
-          "title": "MakerDAO — Dai is now live",
-          "url": "https://medium.com/@MakerDAO/dai-is-now-live-ad87e34fc826",
-          "type": "PROJECT_ARCHIVE"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SOURCE_VARIANCE",
+        "exact_date": "2017-12-17",
+        "summary": "Bitcoin reached its 2017 cycle peak near $20,000 in mid-December, with exact all-time-high figures varying by exchange and index.",
+        "significance": "The peak capped the first global retail crypto mania and preceded the 2018 crypto winter.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin Price Index historical 2017 high",
+            "url": "https://www.coindesk.com/markets/2017/12/17/bitcoin-price-hits-all-time-high-above-19600/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Use source-specific price/index in published copy rather than pretending one universal spot price existed."
+      }
     },
     {
-      "date": "2017-12-20",
-      "title": "Litecoin creator Charlie Lee sells or donates nearly all LTC holdings",
-      "status": "VERIFIED",
+      "id": "LORE-EVT-0146",
+      "date": "2017",
+      "title": "SEC DAO Report signals US securities-law treatment of token offerings",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-07-25",
+        "summary": "The SEC's DAO Report concluded that DAO tokens were securities and warned that federal securities laws can apply to blockchain token offerings.",
+        "significance": "The report was the foundational US securities-law turning point for ICOs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — DAO Report",
+            "url": "https://www.sec.gov/newsroom/press-releases/2017-131",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0157",
+      "date": "2017",
+      "title": "Parity multisig exploit drains wallets",
+      "branch": [
+        "ETHEREUM",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-07-19",
+        "summary": "A vulnerability in Parity's multisig wallet library was exploited to steal roughly 153,000 ETH from several high-profile wallets.",
+        "significance": "The attack was one of Ethereum's largest early smart-contract wallet failures and reinforced the importance of shared-library security.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenZeppelin — Parity multisig wallet hack",
+            "url": "https://www.openzeppelin.com/news/on-the-parity-wallet-multisig-hack-405a8c12e8f7",
+            "type": "SECURITY_RESEARCH"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0158",
+      "date": "2017",
+      "title": "Parity library incident freezes a large amount of Ether",
+      "branch": [
+        "ETHEREUM",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2017-11-06",
+        "summary": "A user accidentally triggered the self-destruct path in Parity's shared multisig-wallet library, rendering dependent wallets unusable and freezing more than 500,000 ETH.",
+        "significance": "The incident became a legendary example of smart-contract composability risk: one library failure immobilized many independent treasuries.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Parity — Postmortem on Nov 2017 multi-sig freeze",
+            "url": "https://www.parity.io/blog/a-postmortem-on-the-parity-multi-sig-library-self-destruct",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0179",
+      "date": "2017",
+      "title": "Bitcoin Sign Guy appears behind Janet Yellen",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
       "tier": "LORE",
-      "summary": "Charlie Lee announced he had sold or donated nearly all his Litecoin holdings, citing the conflict created by his public influence.",
-      "significance": "The move remains one of crypto's most debated founder-divestment decisions.",
-      "sources": [
-        {
-          "title": "TechCrunch — Charlie Lee sells Litecoin holdings",
-          "url": "https://techcrunch.com/2017/12/20/litecoin-charlie-lee-conflict-of-interest/",
-          "type": "CONTEMPORARY_SECONDARY"
-        }
-      ]
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2017-07-12",
+        "summary": "During Janet Yellen's congressional testimony, a man seated behind her held up a handwritten 'buy bitcoin' sign visible on television.",
+        "significance": "The photobomb became one of Bitcoin's most recognizable mainstream-culture images.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CNBC — Bitcoin Sign Guy",
+            "url": "https://www.cnbc.com/2017/07/12/man-photobombs-yellen-with-buy-bitcoin-sign-during-testimony.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0180",
+      "date": "2017",
+      "title": "Carlos Matos' BitConnect presentation becomes an enduring crypto meme",
+      "branch": [
+        "SCAMS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-10-28",
+        "summary": "Carlos Matos delivered his exuberant BitConnect presentation at the project's annual ceremony in Pattaya, Thailand.",
+        "significance": "His 'BitConneeeect!' performance became one of crypto's most enduring memes and later a symbol of the project's collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitConnect — 2017 Thailand annual ceremony announcement",
+            "url": "https://bitconnect.meme/system-news/84/bitconnect-prepares-to-celebrate-its-annual-ceremony-in-thailand/",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0215",
+      "date": "2017",
+      "title": "Cardano launches",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2017-09-23 to 2017-09-29",
+        "summary": "Cardano's genesis block is dated 23 September 2017; the Byron mainnet era launched on 29 September.",
+        "significance": "Cardano introduced a research-driven proof-of-stake blockchain architecture and became one of the largest long-lived alternative smart-contract ecosystems.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cardano — hard fork/network history",
+            "url": "https://cardano.org/hardforks/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Cardano Developer Portal — genesis block",
+            "url": "https://developers.cardano.org/docs/developers/curriculum/fundamentals/what-is-a-blockchain/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0216",
+      "date": "2017",
+      "title": "EOS begins its year-long token sale",
+      "branch": [
+        "ICO",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0217",
+      "date": "2017",
+      "title": "Tezos ICO raises a then-record sum and enters governance turmoil",
+      "branch": [
+        "ICO",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2017-07-01 to 2017-07-13",
+        "summary": "The Tezos fundraiser began 1 July 2017 and collected 65,681 BTC and 361,122 ETH, worth roughly $232 million at the time.",
+        "significance": "It was one of the largest token fundraisers of the ICO era and was followed by a prolonged governance/legal dispute before network launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tezos Foundation — fundraiser statistics",
+            "url": "https://tezos.foundation/fundraiser-statistics/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Tezos Foundation — fundraiser FAQ",
+            "url": "https://www.tezos.ch/pages/fundraiser-faq.html",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0218",
+      "date": "2017",
+      "title": "Filecoin conducts a landmark token sale",
+      "branch": [
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2017-08-10 to 2017-09-07",
+        "summary": "Filecoin's public token sale opened in August 2017 and closed 7 September after raising more than $205 million, on top of a prior adviser pre-sale.",
+        "significance": "The sale helped popularize the SAFT model and became one of the ICO era's largest legally structured token raises.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Filecoin — token sale completed",
+            "url": "https://www.filecoin.io/blog/posts/token-sale-completed/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0219",
+      "date": "2017",
+      "title": "0x launches decentralized-exchange infrastructure",
+      "branch": [
+        "DEX",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2017",
+        "summary": "0x launched as an open protocol for relayer-based decentralized exchange of Ethereum tokens.",
+        "significance": "0x became important early infrastructure for permissionless token trading and DEX aggregation.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "0x Protocol whitepaper",
+            "url": "https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0220",
+      "date": "2017",
+      "title": "EtherDelta becomes a prominent early Ethereum DEX",
+      "branch": [
+        "DEX",
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "EtherDelta became a prominent early non-custodial Ethereum token exchange during the ICO boom.",
+        "significance": "Needs a specific launch/volume/regulatory milestone before scoring as a standalone event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0221",
+      "date": "2017",
+      "title": "Cboe launches regulated Bitcoin futures",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-12-10T17:00:00-06:00",
+        "summary": "Cboe Futures Exchange opened trading in cash-settled Bitcoin futures on the evening of 10 December 2017.",
+        "significance": "It was the first US regulated exchange-traded Bitcoin futures contract to go live.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cboe — Dec. 10 Bitcoin futures launch",
+            "url": "https://s202.q4cdn.com/174824971/files/doc_news/2017/12/cboe-plans-december-10-launch-of-bitcoin-futures-trading-pdf1691636263166.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0262",
+      "date": "2017",
+      "title": "OneCoin founder Ruja Ignatova disappears",
+      "branch": [
+        "SCAMS",
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-10-25",
+        "summary": "OneCoin founder Ruja Ignatova traveled from Sofia to Athens on 25 October 2017 and has not been seen publicly since; she had been federally charged earlier that month.",
+        "significance": "Her disappearance became one of the largest and strangest unresolved fraud stories in crypto-adjacent history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Ruja Ignatova",
+            "url": "https://www.fbi.gov/news/stories/ruja-ignatova-added-to-fbis-ten-most-wanted-fugitives-list",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0264",
+      "date": "2017",
+      "title": "WannaCry ransomware demands Bitcoin globally",
+      "branch": [
+        "BITCOIN",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2017-05-12",
+        "summary": "The WannaCry ransomware outbreak began on 12 May 2017 and demanded Bitcoin payments from victims worldwide.",
+        "significance": "WannaCry put Bitcoin ransom addresses on global news broadcasts and cemented ransomware as a major cryptocurrency-linked cybercrime issue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Ransomware on the Rise",
+            "url": "https://www.fbi.gov/news/stories/ransomware-on-the-rise",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0271",
+      "date": "2017",
+      "title": "Chainlink is introduced as decentralized oracle infrastructure",
+      "branch": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-09-04",
+        "summary": "The ChainLink v1.0 whitepaper was dated 4 September 2017 and proposed a decentralized oracle network connecting smart contracts to external data and systems.",
+        "significance": "Chainlink became the dominant oracle infrastructure layer for DeFi and smart contracts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ChainLink v1 whitepaper",
+            "url": "https://research.chain.link/whitepaper-v1.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0284",
+      "date": "2017",
+      "title": "Curio Cards launches early Ethereum collectible art cards",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-05-09",
+        "summary": "Curio Cards debuted on 9 May 2017 as an online Ethereum art gallery and collectible-card series.",
+        "significance": "Curio Cards predates CryptoPunks and is one of Ethereum's earliest original digital-art NFT collections.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curio Cards — overview/history",
+            "url": "https://docs.curio.cards/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Curio Cards — FAQ",
+            "url": "https://docs.curio.cards/faqs",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0285",
+      "date": "2017",
+      "title": "Maker launches Single-Collateral Dai",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-12-18",
+        "summary": "MakerDAO's first production Dai system went live on Ethereum on 18 December 2017, initially backed by Ether.",
+        "significance": "Dai demonstrated a decentralized, overcollateralized stablecoin and became one of DeFi's foundational monetary building blocks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — Dai is now live",
+            "url": "https://medium.com/@MakerDAO/dai-is-now-live-ad87e34fc826",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "MakerDAO historical index",
+            "url": "https://awesome.makerdao.com/",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0286",
+      "date": "2017",
+      "title": "SegWit2x cancellation culminates Bitcoin scaling conflict",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-11-08",
+        "summary": "Key SegWit2x backers announced cancellation of the planned 2 MB hard fork roughly a week before activation because consensus had not been achieved.",
+        "significance": "Its cancellation effectively ended the central 2017 block-size confrontation and was widely viewed as a victory for the no-contentious-hard-fork position.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — SegWit2x cancellation",
+            "url": "https://techcrunch.com/2017/11/08/segwit2x-backers-cancel-plans-for-bitcoin-hard-fork/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0308",
+      "date": "2017",
+      "title": "US authorities seize BTC-e and arrest Alexander Vinnik",
+      "branch": [
+        "EXCHANGES",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-07-25 to 2017-07-26",
+        "summary": "US authorities arrested Alexander Vinnik in Greece and unsealed an indictment against BTC-e, alleging the exchange facilitated laundering and criminal proceeds.",
+        "significance": "The case linked one of the earliest large crypto exchanges directly to major international money-laundering enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — BTC-e and Alexander Vinnik indictment",
+            "url": "https://www.justice.gov/usao-ndca/pr/russian-national-and-bitcoin-exchange-charged-21-count-indictment-operating-alleged",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0357",
+      "date": "2017",
+      "title": "CME and Cboe futures bring Bitcoin into regulated derivatives markets",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017-12",
+        "summary": "Cboe and CME launched regulated Bitcoin futures one week apart in December 2017.",
+        "significance": "This umbrella row is context for the separate Cboe and CME launch events.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cboe — Dec. 10 Bitcoin futures launch",
+            "url": "https://s202.q4cdn.com/174824971/files/doc_news/2017/12/cboe-plans-december-10-launch-of-bitcoin-futures-trading-pdf1691636263166.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          },
+          {
+            "title": "CME — initial listing of Bitcoin futures",
+            "url": "https://www.cmegroup.com/notices/ser/2017/12/SER-8051R.html",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0221",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0372",
+      "date": "2017",
+      "title": "Parity multisig hack drains Ether",
+      "branch": [
+        "HACKS",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2017-07-19",
+        "summary": "This is the same Parity multisig theft as LORE-EVT-0157.",
+        "significance": [
+          {
+            "title": "OpenZeppelin — Parity multisig wallet hack",
+            "url": "https://www.openzeppelin.com/news/on-the-parity-wallet-multisig-hack-405a8c12e8f7",
+            "type": "SECURITY_RESEARCH"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0157",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0373",
+      "date": "2017",
+      "title": "Parity library self-destruct freezes Ether",
+      "branch": [
+        "HACKS",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2017-11-06",
+        "summary": "This is the same Parity library self-destruct/frozen-ETH incident as LORE-EVT-0158.",
+        "significance": [
+          {
+            "title": "Parity — Postmortem on Nov 2017 multi-sig freeze",
+            "url": "https://www.parity.io/blog/a-postmortem-on-the-parity-multi-sig-library-self-destruct",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0158",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0414",
+      "date": "2017",
+      "title": "ENS launches on Ethereum",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-05-04",
+        "summary": "The initial ENS registrar deployed to Ethereum mainnet on 4 May 2017, enabling .eth names.",
+        "significance": "ENS made human-readable names a core piece of Ethereum identity and wallet UX.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EIP-162 — Initial ENS Hash Registrar",
+            "url": "https://eips.ethereum.org/EIPS/eip-162",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0455",
+      "date": "2017-01",
+      "title": "Monero implements RingCT privacy improvements",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-01",
+        "summary": "Monero implemented Ring Confidential Transactions in January 2017, hiding transaction amounts; RingCT became mandatory for all transactions later that September.",
+        "significance": "RingCT materially strengthened Monero's privacy by concealing values in addition to obscuring transaction origins.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — RingCT",
+            "url": "https://web.getmonero.org/resources/moneropedia/ringCT.html",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Monero roadmap",
+            "url": "https://www.getmonero.org/resources/roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0458",
+      "date": "2017",
+      "title": "ERC-20 becomes the de facto standard for fungible Ethereum tokens",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "ERC-20's de facto standardization across tokens, exchanges and wallets accelerated during the ICO boom.",
+        "significance": "Canonicalized as context under LORE-EVT-0097.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EIP-20 Token Standard",
+            "url": "https://eips.ethereum.org/EIPS/eip-20",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0097",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0459",
+      "date": "2017",
+      "title": "ICO fundraising surpasses traditional early-stage crypto venture funding",
+      "branch": [
+        "ICO",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "ICO fundraising grew beyond early crypto venture funding in 2017.",
+        "significance": "This is a quantitative consequence of the broader ICO boom and should be sourced with a dedicated market dataset if retained.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "SEC — DAO Report",
+            "url": "https://www.sec.gov/newsroom/press-releases/2017-131",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0032",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0460",
+      "date": "2017",
+      "title": "Filecoin token sale draws huge institutional attention",
+      "branch": [
+        "ICO",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017-08 to 2017-09",
+        "summary": "Filecoin's token sale attracted accredited investors at unprecedented scale for the period.",
+        "significance": "Canonicalized to the Filecoin sale event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Filecoin — token sale completed",
+            "url": "https://www.filecoin.io/blog/posts/token-sale-completed/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0218",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0461",
+      "date": "2017",
+      "title": "Tezos governance dispute freezes access to ICO proceeds",
+      "branch": [
+        "ICO",
+        "ALTCOINS",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_RANGE",
+        "exact_date": "2017-10 onward",
+        "summary": "A dispute between Tezos founders and the foundation leadership delayed access to fundraiser assets and network development after the July raise.",
+        "significance": "The governance crisis is historically important, but should be split into a specific board/legal milestone before card scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Tezos Foundation — fundraiser statistics",
+            "url": "https://tezos.foundation/fundraiser-statistics/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0217",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0462",
+      "date": "2017",
+      "title": "Binance issues BNB during its ICO",
+      "branch": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2017-06-26 to 2017-07-03",
+        "summary": "Binance sold BNB in an ICO immediately before launching its exchange.",
+        "significance": "BNB gave Binance a native exchange token that later evolved into the asset for its own blockchain ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance launch chronology",
+            "url": "https://www.binance.com/en/support/announcement/detail/115001292531",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Binance — BNB issuance",
+            "url": "https://www.binance.com/en/support/announcement/detail/115000574131",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0033",
+        "relation": "PRECURSOR",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0463",
+      "date": "2017",
+      "title": "Bitcoin Cash increases block size after Bitcoin fork",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017-08-01",
+        "summary": "Bitcoin Cash's launch implemented larger block-size rules than Bitcoin.",
+        "significance": "Technical context of the canonical BCH fork.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IRS — Bitcoin / Bitcoin Cash hard fork background",
+            "url": "https://www.irs.gov/pub/irs-wd/202114020.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0034",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0464",
+      "date": "2017",
+      "title": "UASF movement pressures miners toward SegWit activation",
+      "branch": [
+        "BITCOIN",
+        "CULTURE",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "The threat of BIP148/UASF was a major factor in the political pressure around SegWit activation.",
+        "significance": "Canonicalized to the BIP148 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 148 — Mandatory activation of SegWit",
+            "url": "https://bitcoin.org/bip/148/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0707",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0465",
+      "date": "2017",
+      "title": "SegWit2x is called off shortly before planned activation",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2017-11-08",
+        "summary": "This is the same SegWit2x cancellation as LORE-EVT-0286.",
+        "significance": [
+          {
+            "title": "TechCrunch — SegWit2x cancellation",
+            "url": "https://techcrunch.com/2017/11/08/segwit2x-backers-cancel-plans-for-bitcoin-hard-fork/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0286",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0466",
+      "date": "2017",
+      "title": "CryptoPunks are initially claimed for free",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2017-06",
+        "summary": "At launch, Ethereum users could claim CryptoPunks for free, paying only transaction fees.",
+        "significance": "The free-claim mechanic is part of the cultural mythology of a collection that later reached enormous values.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Larva Labs — CryptoPunks",
+            "url": "https://www.larvalabs.com/cryptopunks",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0031",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0467",
+      "date": "2017",
+      "title": "CryptoKitties becomes one of Ethereum's first viral consumer dapps",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017-11-28 onward",
+        "summary": "CryptoKitties quickly became one of Ethereum's first viral consumer dapps and drove heavy on-chain activity.",
+        "significance": "Cultural/adoption consequence of the canonical launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CryptoKitties launch announcement",
+            "url": "https://www.prnewswire.com/news-releases/cryptokitties-the-worlds-first-ethereum-game-launches-today-660494083.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0036",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0580",
+      "date": "2017",
+      "title": "Ledger hardware wallets gain mass-market adoption",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Ledger hardware-wallet adoption rose sharply with the bull market.",
+        "significance": "Trend rather than one event; use a sales/user milestone if sourced.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0581",
+      "date": "2017",
+      "title": "Trezor popularizes recovery-seed self-custody practices",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2017",
+        "summary": "Trezor and other hardware wallets helped normalize mnemonic-recovery-seed self custody.",
+        "significance": "Industry adoption context rather than a discrete 2017 event.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0594",
+      "date": "2017",
+      "title": "ENS launches .eth names",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2017-05-04",
+        "summary": "This is the same ENS .eth launch as LORE-EVT-0414.",
+        "significance": [
+          {
+            "title": "EIP-162 — Initial ENS Hash Registrar",
+            "url": "https://eips.ethereum.org/EIPS/eip-162",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0414",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0705",
+      "date": "2017",
+      "title": "Bitcoin Unlimited bug briefly knocks many nodes offline",
+      "branch": [
+        "BITCOIN",
+        "FORKS",
+        "SECURITY"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-03-14",
+        "summary": "A remotely triggerable bug caused many Bitcoin Unlimited nodes to crash before a patched release was distributed.",
+        "significance": "The incident became a high-profile software-quality episode during the politically charged block-size war.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin Unlimited bug exploit",
+            "url": "https://www.coindesk.com/markets/2017/03/14/code-bug-exploit-sends-bitcoin-unlimited-nodes-offline",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0706",
+      "date": "2017",
+      "title": "New York Agreement proposes SegWit2x compromise",
+      "branch": [
+        "BITCOIN",
+        "FORKS",
+        "GOVERNANCE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-05-23",
+        "summary": "Major Bitcoin companies and miners announced the New York Agreement at Consensus 2017, supporting SegWit activation followed by a planned 2 MB hard fork.",
+        "significance": "The agreement was an attempt by industry stakeholders to resolve the scaling war outside Bitcoin Core's normal development process.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Digital Currency Group — Bitcoin Scaling Agreement at Consensus 2017",
+            "url": "https://www.dcg.co/insights/bitcoin-scaling-agreement-at-consensus-2017",
+            "type": "INDUSTRY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0707",
+      "date": "2017",
+      "title": "BIP148 user-activated soft fork movement mobilizes",
+      "branch": [
+        "BITCOIN",
+        "FORKS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-08-01",
+        "summary": "BIP148's user-activated soft-fork enforcement window began on 1 August 2017, although SegWit had already locked in before it needed to reject blocks.",
+        "significance": "The UASF movement demonstrated that economically relevant users and node operators could credibly pressure miners during protocol governance disputes.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 148 — Mandatory activation of SegWit",
+            "url": "https://bitcoin.org/bip/148/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0708",
+      "date": "2017",
+      "title": "Bitcoin Cash supporters market bigger blocks as Satoshi's vision",
+      "branch": [
+        "BITCOIN",
+        "FORKS",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2017",
+        "summary": "Bitcoin Cash advocates framed larger blocks as closer to Bitcoin's intended peer-to-peer cash use case.",
+        "significance": "This is a movement narrative rather than a discrete event; keep as context for BCH/block-size-war chapters.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "IRS — Bitcoin / Bitcoin Cash hard fork background",
+            "url": "https://www.irs.gov/pub/irs-wd/202114020.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0034",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0709",
+      "date": "2017",
+      "title": "Roger Ver becomes a central public figure in Bitcoin Cash debate",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Roger Ver became one of the most visible Bitcoin Cash advocates.",
+        "significance": "Biographical trend rather than a discrete event; a specific public endorsement/debate would make a cleaner candidate.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0710",
+      "date": "2017",
+      "title": "Craig Wright's Satoshi claims intensify public controversy",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Craig Wright continued publicly asserting that he was Satoshi Nakamoto amid widespread skepticism.",
+        "significance": "Ongoing controversy rather than one discrete 2017 event; the strongest later canonical milestone is the UK court finding that he was not Satoshi.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0711",
+      "date": "2017",
+      "title": "McAfee predicts extreme future Bitcoin price targets",
+      "branch": [
+        "PEOPLE",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017",
+        "summary": "John McAfee made extreme public Bitcoin price predictions during the bull market.",
+        "significance": "Strong culture/lore potential, but exact prediction, date and original post need primary archival evidence before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0712",
+      "date": "2017",
+      "title": "Jamie Dimon calls Bitcoin a fraud",
+      "branch": [
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-09-12",
+        "summary": "JPMorgan CEO Jamie Dimon publicly called Bitcoin a 'fraud' during a banking conference.",
+        "significance": "The remark became one of the most famous examples of traditional-finance hostility during Bitcoin's 2017 ascent.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Jamie Dimon calls Bitcoin a fraud",
+            "url": "https://www.reuters.com/article/us-jpmorgan-bitcoin-idUSKCN1BN2A7/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0713",
+      "date": "2017",
+      "title": "Cboe Bitcoin futures debut causes website traffic surge",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2017-12-10",
+        "summary": "Cboe's website experienced heavy traffic around the Bitcoin futures debut.",
+        "significance": "A vivid sign of intense public interest, but best treated as LORE context under the futures launch.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Cboe — Dec. 10 Bitcoin futures launch",
+            "url": "https://s202.q4cdn.com/174824971/files/doc_news/2017/12/cboe-plans-december-10-launch-of-bitcoin-futures-trading-pdf1691636263166.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0221",
+        "relation": "LORE_SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0714",
+      "date": "2017",
+      "title": "South Korean kimchi premium becomes a global market phenomenon",
+      "branch": [
+        "MARKETS",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2017-12",
+        "summary": "South Korea's 'kimchi premium' became a widely discussed market phenomenon as local crypto prices traded substantially above global venues.",
+        "significance": "Strong market-culture story, but requires a robust exchange-data or contemporary-source citation before verification.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0715",
+      "date": "2017",
+      "title": "Coinbase app tops US App Store during bull market",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017-12",
+        "summary": "Coinbase's consumer app surged in US app-store rankings during the bull market.",
+        "significance": "Excellent mass-adoption visual, but exact ranking/date needs Apple/AppAnnie or contemporary reporting before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0716",
+      "date": "2017",
+      "title": "Ledger and Trezor sales surge amid self-custody demand",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "Hardware-wallet sales surged as retail crypto holdings grew.",
+        "significance": "Overlaps LORE-EVT-0580/0581 and should be merged into sourced adoption milestones.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0580",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0717",
+      "date": "2017",
+      "title": "Ethereum congestion drives first major gas-fee debates",
+      "branch": [
+        "ETHEREUM",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2017-12",
+        "summary": "CryptoKitties and the ICO boom exposed Ethereum's limited throughput and drove visible gas-price/congestion debates.",
+        "significance": "A network-consequence story tied strongly to CryptoKitties rather than a standalone dated event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CryptoKitties launch announcement",
+            "url": "https://www.prnewswire.com/news-releases/cryptokitties-the-worlds-first-ethereum-game-launches-today-660494083.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0036",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0718",
+      "date": "2017",
+      "title": "Golem launches tokenized decentralized-compute network",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017",
+        "summary": "Golem launched its tokenized decentralized-compute project on Ethereum after an earlier token sale.",
+        "significance": "Potential decentralized-compute history candidate, but needs a specific mainnet/product launch milestone before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0719",
+      "date": "2017",
+      "title": "Status ICO temporarily overwhelms Ethereum",
+      "branch": [
+        "ICO",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017",
+        "summary": "Status.im's token sale produced unusually intense Ethereum demand and congestion.",
+        "significance": "Potentially excellent ICO-era LORE, but exact date, amount and network effects need a primary Status/Ethereum source before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0720",
+      "date": "2017",
+      "title": "BAT token sale sells out rapidly",
+      "branch": [
+        "ICO",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017",
+        "summary": "Basic Attention Token's token sale sold out extremely rapidly during the ICO boom.",
+        "significance": "Strong ICO-culture candidate, but exact date, amount and sale duration need a primary Brave/BAT source.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0721",
+      "date": "2017",
+      "title": "OmiseGO becomes an early high-profile Ethereum token",
+      "branch": [
+        "ALTCOINS",
+        "ETHEREUM"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017",
+        "summary": "OmiseGO became a high-profile Ethereum token project during the ICO boom.",
+        "significance": "The current row is a broad prominence claim; replace with its token sale/listing/airdrop milestone before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0882",
+      "date": "2017",
+      "title": "Physical hardware-wallet recovery seeds become mainstream crypto practice",
+      "branch": [
+        "SECURITY",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2017",
+        "summary": "Recovery phrases and hardware wallets became much more common consumer self-custody practices during the bull market.",
+        "significance": "Trend/context, not one event.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0889",
+      "date": "2017",
+      "title": "Parity wallet founder accidentally deletes library contract and freezes funds",
+      "branch": [
+        "ETHEREUM",
+        "HACKS",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_LORE_ANGLE",
+        "exact_date": "2017-11-06",
+        "summary": "The famous 'accidental deletion' framing refers to the Parity library self-destruct that froze dependent wallets.",
+        "significance": "LORE angle of the canonical Parity freeze event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Parity — Postmortem on Nov 2017 multi-sig freeze",
+            "url": "https://www.parity.io/blog/a-postmortem-on-the-parity-multi-sig-library-self-destruct",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0158",
+        "relation": "LORE_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0934",
+      "date": "2017",
+      "title": "Bitmain becomes the dominant ASIC manufacturer",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2017",
+        "summary": "Bitmain held a dominant position in the SHA-256 ASIC market during the late-2010s mining boom.",
+        "significance": "Needs market-share or shipment data from a reliable source before verification.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0956",
+      "date": "2017",
+      "title": "HODL, moon and Lambo culture define retail crypto language",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2017",
+        "summary": "HODL, 'to the moon' and 'Lambo' language became mainstream crypto retail vocabulary during the 2017 bull market.",
+        "significance": "Important culture layer but better represented by specific origin events such as HODL and discrete meme moments.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin Price Index historical 2017 high",
+            "url": "https://www.coindesk.com/markets/2017/12/17/bitcoin-price-hits-all-time-high-above-19600/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0957",
+      "date": "2017",
+      "title": "Wojak trading memes become crypto-native market language",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Wojak/trader reaction images increasingly became part of crypto market culture.",
+        "significance": "Needs a specific historically traceable meme instance if considered for a card.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0968",
+      "date": "2017",
+      "title": "False rumor of Vitalik's death briefly impacts Ether market",
+      "branch": [
+        "PEOPLE",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2017-06-25",
+        "summary": "A false internet rumor claimed Vitalik Buterin had died, briefly rattling Ether markets.",
+        "significance": "The hoax showed how dependent young crypto markets were on founder identity and social-media information.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Vitalik death hoax / proof of life",
+            "url": "https://www.coindesk.com/markets/2017/06/26/ethereum-price-dips-after-vitalik-death-hoax/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0969",
+      "date": "2017",
+      "title": "Vitalik proves he is alive with Ethereum block hash photo",
+      "branch": [
+        "PEOPLE",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2017-06-25",
+        "summary": "Buterin responded to the death hoax with a proof-of-life photo referencing a recent Ethereum block hash.",
+        "significance": "The cryptographic-flavored response became classic Ethereum culture.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Vitalik death hoax / proof of life",
+            "url": "https://www.coindesk.com/markets/2017/06/26/ethereum-price-dips-after-vitalik-death-hoax/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0968",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0974",
+      "date": "2017",
+      "title": "Charlie Lee sells or donates his Litecoin holdings near market peak",
+      "branch": [
+        "PEOPLE",
+        "ALTCOINS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-12-20",
+        "summary": "Litecoin creator Charlie Lee announced that he had sold or donated nearly all of his LTC holdings, citing the conflict of interest created by his public influence.",
+        "significance": "The move remains one of crypto's most debated founder-divestment decisions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Charlie Lee sold/donated LTC holdings",
+            "url": "https://techcrunch.com/2017/12/20/litecoin-charlie-lee-conflict-of-interest/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0977",
+      "date": "2017",
+      "title": "Brad Garlinghouse becomes central public face of Ripple",
+      "branch": [
+        "PEOPLE",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Brad Garlinghouse became Ripple's prominent public-facing CEO during XRP's rapid growth.",
+        "significance": "Biographical trend rather than a discrete event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0979",
+      "date": "2017",
+      "title": "CZ launches Binance after ICO",
+      "branch": [
+        "PEOPLE",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_PEOPLE_ANGLE",
+        "exact_date": "2017-07-14",
+        "summary": "Changpeng Zhao launched Binance in July 2017 after the BNB ICO.",
+        "significance": "The founder angle belongs with the canonical Binance launch unless a separate CZ biography card is selected.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance launch chronology",
+            "url": "https://www.binance.com/en/support/announcement/detail/115001292531",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0033",
+        "relation": "PEOPLE_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0983",
+      "date": "2017",
+      "title": "Sam Bankman-Fried founds Alameda Research",
+      "branch": [
+        "PEOPLE",
+        "FTX"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_YEAR",
+        "exact_date": "2017",
+        "summary": "Sam Bankman-Fried co-founded Alameda Research in 2017 as a quantitative crypto trading firm.",
+        "significance": "Alameda later became inseparable from FTX's rise and collapse; a precise incorporation/launch milestone should be sourced before scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "DOJ — FTX/Alameda case background",
+            "url": "https://www.justice.gov/usao-sdny/press-release/file/1557571/dl",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0991",
+      "date": "2017",
+      "title": "Winklevoss Bitcoin ETF is rejected",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-03-10",
+        "summary": "The SEC rejected Bats BZX's proposal to list the Winklevoss Bitcoin Trust.",
+        "significance": "The denial became an early milestone in the long US battle over a spot Bitcoin exchange-traded product.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Winklevoss Bitcoin Trust rejection",
+            "url": "https://www.sec.gov/rules/sro/batsbzx/2017/34-80206.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0996",
+      "date": "2017",
+      "title": "Brian Armstrong becomes a prominent advocate for mainstream crypto adoption",
+      "branch": [
+        "PEOPLE",
+        "EXCHANGES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Brian Armstrong was increasingly prominent as Coinbase expanded during the bull market.",
+        "significance": "Biographical trend rather than a single historical event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1003",
+      "date": "2017",
+      "title": "Roger Ver becomes leading Bitcoin Cash advocate",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "Roger Ver's transition into a leading BCH advocate is already represented by LORE-EVT-0709 and the BCH fork context.",
+        "significance": "Do not score separately without a specific event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0709",
+        "relation": "DUPLICATE_OR_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1018",
+      "date": "2017",
+      "title": "AlphaBay is seized in international operation",
+      "branch": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-07",
+        "summary": "International law enforcement shut down AlphaBay in July 2017 and arrested its administrator in Thailand.",
+        "significance": "The takedown removed the largest darknet market of its period and demonstrated increasingly coordinated multinational crypto-linked enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — AlphaBay shutdown",
+            "url": "https://www.justice.gov/usao-edca/pr/alphabay-largest-online-dark-market-shut-down",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1023",
+      "date": "2017",
+      "title": "WannaCry brings Bitcoin addresses onto global television",
+      "branch": [
+        "BITCOIN",
+        "CRIME",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017-05",
+        "summary": "This is the media/culture consequence of the canonical WannaCry outbreak.",
+        "significance": [
+          {
+            "title": "FBI — Ransomware on the Rise",
+            "url": "https://www.fbi.gov/news/stories/ransomware-on-the-rise",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0264",
+          "relation": "CONTEXT"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1038",
+      "date": "2017",
+      "title": "BitConnect sponsorship and conference spectacle fuels growth",
+      "branch": [
+        "SCAMS",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "BitConnect's conference spectacle and promoter culture peaked around the October 2017 Thailand ceremony.",
+        "significance": "Canonicalized around the Carlos Matos/BitConnect event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitConnect — 2017 Thailand annual ceremony announcement",
+            "url": "https://bitconnect.meme/system-news/84/bitconnect-prepares-to-celebrate-its-annual-ceremony-in-thailand/",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0180",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1049",
+      "date": "2017",
+      "title": "Ethereum Foundation Devcon grows into flagship ecosystem conference",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Devcon had become Ethereum's flagship developer/community conference by this period.",
+        "significance": "Choose a specific Devcon milestone or announcement if a conference card is wanted.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1056",
+      "date": "2017",
+      "title": "Lamborghini becomes a shorthand symbol of crypto wealth",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2017",
+        "summary": "Lamborghinis became a widely used visual shorthand for speculative crypto wealth during the 2017 bull market.",
+        "significance": "Culture trend, not one date; potentially useful book/sidebar material rather than a numbered historical event.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1057",
+      "date": "2017",
+      "title": "Crypto traders pose with supercars during bull market",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "Supercar imagery belongs to the same 'Lambo' bull-market culture represented by LORE-EVT-1056.",
+        "significance": [],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-1056",
+          "relation": "CONTEXT"
+        },
+        "sources": "MEDIUM",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1078",
+      "date": "2017",
+      "title": "Gnosis launches prediction-market and multisig ecosystem",
+      "branch": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2017",
+        "summary": "Gnosis developed prediction-market and multisig tooling during Ethereum's early application era.",
+        "significance": "The current row combines multiple product lines; split into a specific Gnosis token sale, prediction-market launch or Safe milestone before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1082",
+      "date": "2017",
+      "title": "0x protocol enables relayer-based decentralized exchange",
+      "branch": [
+        "DEX",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2017",
+        "summary": "This is the same 0x relayer-based DEX infrastructure represented by LORE-EVT-0219.",
+        "significance": [],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0219",
+          "relation": "DUPLICATE"
+        },
+        "sources": "MEDIUM",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1155",
+      "date": "2017",
+      "title": "AlphaBay takedown coordinates law enforcement across countries",
+      "branch": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2017-07",
+        "summary": "This is the multinational AlphaBay takedown represented by LORE-EVT-1018.",
+        "significance": [
+          {
+            "title": "DOJ — AlphaBay shutdown",
+            "url": "https://www.justice.gov/usao-edca/pr/alphabay-largest-online-dark-market-shut-down",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-1018",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1156",
+      "date": "2017",
+      "title": "Hansa Market is secretly operated by police before shutdown",
+      "branch": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_YEAR",
+        "exact_date": "2017",
+        "summary": "Dutch police secretly took control of Hansa Market before shutting it down, using the operation to gather intelligence on users migrating from AlphaBay.",
+        "significance": "The sting is one of darknet-enforcement history's cleverest operations, but exact takeover/shutdown dates should be attached before card scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "DOJ — AlphaBay shutdown",
+            "url": "https://www.justice.gov/usao-edca/pr/alphabay-largest-online-dark-market-shut-down",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1161",
+      "date": "2017",
+      "title": "PlexCoin faces emergency securities enforcement",
+      "branch": [
+        "SCAMS",
+        "GOVERNMENTS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2017-12-04",
+        "summary": "The SEC obtained an emergency asset freeze against PlexCorps/PlexCoin, calling the action the first filed by its newly created Cyber Unit.",
+        "significance": "The case showed how quickly US regulators were moving from general ICO warnings into emergency enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — PlexCoin emergency action",
+            "url": "https://www.sec.gov/newsroom/press-releases/2017-219",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1162",
+      "date": "2017",
+      "title": "Centra Tech raises funds with celebrity promotion before fraud case",
+      "branch": [
+        "SCAMS",
+        "ICO",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2017",
+        "summary": "Centra Tech conducted a celebrity-promoted ICO in 2017 that later became the basis of SEC and criminal fraud cases alleging false partnerships and fabricated executives.",
+        "significance": "Centra became a defining case of celebrity-driven ICO excess and subsequent enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Centra Tech complaint/2017 ICO",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-53",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1189",
+      "date": "2017",
+      "title": "Monero becomes a preferred privacy coin on darknet markets",
+      "branch": [
+        "PRIVACY",
+        "DARK_SIDE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2017",
+        "summary": "Monero's privacy properties made it increasingly popular in darknet commerce as some markets diversified away from Bitcoin.",
+        "significance": "A privacy-adoption trend rather than one discrete event; needs market-specific evidence if considered for a card.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1218",
+      "date": "2017",
+      "title": "Crypto exchanges list hundreds of ICO tokens at rapid pace",
+      "branch": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2017",
+        "summary": "Centralized exchanges rapidly listed new ICO tokens during the 2017 boom.",
+        "significance": "Industry trend rather than one event; not suitable for card scoring as written.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     }
-  ],
-  "record_count": 21
+  ]
 }
