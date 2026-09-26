@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. The canonical 2022 collapse chain — Terra, major bridge exploits, 3AC/CeFi contagion, Merge, Tornado Cash and FTX — is now source-backed and linked causally; remaining 2022 ecosystem/culture candidates are being cleared next.",
+  "status_note": "Evidence phase active. 2022 government/adoption, security, cross-chain and infrastructure candidates have now been researched alongside the already-completed collapse chain. Remaining 2022 NFT, CeFi, gaming, mining and culture rows are next.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -3997,12 +3997,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-04-22",
+        "summary": "The Central African Republic enacted a law giving cryptocurrencies, and Bitcoin in particular, legal-tender status alongside the CFA franc.",
+        "significance": "CAR became the second country after El Salvador to make Bitcoin legal tender and the first to do so while belonging to a monetary union.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — CEMAC staff report on CAR Bitcoin legal-tender law",
+            "url": "https://www.elibrary.imf.org/view/journals/002/2022/208/article-A001-en.xml",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5120,12 +5126,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2022-03-03",
+        "summary": "Ukraine's government said official crypto-donation channels had helped raise more than $53 million by 3 March following Russia's invasion.",
+        "significance": "The fundraising demonstrated cryptocurrency's ability to mobilize global cross-border donations quickly during a national emergency.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ukraine Cabinet — $53M crypto raised by Mar. 3",
+            "url": "https://www.kmu.gov.ua/en/news/mincifri-na-pidtrimku-ukrayini-zibrali-53-mln-u-kriptoaktivah",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6812,12 +6824,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-06-23",
+        "summary": "Harmony said attackers compromised its Horizon Ethereum Bridge in 11 transactions and removed tokens worth about $100 million at the time.",
+        "significance": "The exploit added to 2022's cascade of bridge failures and highlighted the security risks of cross-chain custody and validator/key design.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Harmony — Horizon Bridge hack updates",
+            "url": "https://medium.com/harmony-one/harmonys-horizon-bridge-hack-1e8d283b6d66",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6834,12 +6852,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2022-10-06 to 2022-10-07",
+        "summary": "An exploit in the BSC Token Hub allowed forged proofs and the withdrawal of 2 million BNB; validators coordinated to halt BNB Smart Chain and limit further losses.",
+        "significance": "The emergency halt made the incident both a major bridge exploit and a high-profile case study in chain governance and validator coordination.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BNB Chain — Ecosystem Update after BSC Token Hub exploit",
+            "url": "https://www.bnbchain.org/en/blog/bnb-chain-ecosystem-update",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "BNB Chain — A Decentralized Response",
+            "url": "https://www.bnbchain.org/en/blog/bnb-chain-a-decentralized-response",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6856,12 +6885,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_LEGAL_OUTCOME_CONTEXT",
+        "exact_date": "2022-10-11",
+        "summary": "Avraham Eisenberg manipulated the price of MNGO perpetual contracts and withdrew roughly $110 million in cryptocurrency from Mango Markets; a federal jury later convicted him on fraud and market-manipulation charges.",
+        "significance": "The episode became DeFi's defining market-manipulation case and tested the line between protocol mechanics and conventional financial-market law.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Mango Markets manipulation case",
+            "url": "https://www.justice.gov/usao-sdny/pr/alleged-perpetrator-100-million-crypto-market-manipulation-scheme-make-initial",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7401,12 +7436,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-02-08",
+        "summary": "US authorities announced the arrest of Ilya Lichtenstein and Heather Morgan and the seizure of more than $3.6 billion in Bitcoin linked to the 2016 Bitfinex hack.",
+        "significance": "It was the Justice Department's largest financial seizure announced at the time and demonstrated how stolen Bitcoin could remain traceable years later.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — $3.6B crypto seizure linked to 2016 Bitfinex hack",
+            "url": "https://www.justice.gov/archives/opa/pr/two-arrested-alleged-conspiracy-launder-45-billion-stolen-cryptocurrency",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US DOJ — 2016 Bitfinex Hack case summary",
+            "url": "https://www.justice.gov/usao-dc/2016-bitfinex-hack",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7423,14 +7469,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CULTURE_CONTEXT",
+        "exact_date": "2022-02",
+        "summary": "Heather Morgan's online rap persona 'Razzlekhan' became a viral cultural layer around the Bitfinex-laundering case after her arrest.",
+        "significance": "The contrast between an enormous crypto laundering case and Morgan's eccentric online persona made the episode unusually memorable outside finance.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — $3.6B crypto seizure linked to 2016 Bitfinex hack",
+            "url": "https://www.justice.gov/archives/opa/pr/two-arrested-alleged-conspiracy-launder-45-billion-stolen-cryptocurrency",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0266",
+        "relation": "LORE_CONTEXT",
         "notes": null
       }
     },
@@ -7708,14 +7760,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-03-03",
+        "summary": "This is the same Ukraine crypto-donation milestone as LORE-EVT-0183.",
+        "significance": "Canonicalized to LORE-EVT-0183.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ukraine Cabinet — $53M crypto raised by Mar. 3",
+            "url": "https://www.kmu.gov.ua/en/news/mincifri-na-pidtrimku-ukrayini-zibrali-53-mln-u-kriptoaktivah",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0183",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -8330,15 +8388,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_ATTRIBUTION",
+        "exact_date": "2022-08-10",
+        "summary": "Dutch FIOD arrested a 29-year-old Tornado Cash developer in Amsterdam on suspicion of involvement in concealing criminal financial flows and facilitating money laundering; he was later identified publicly as Alexey Pertsev.",
+        "significance": "The arrest intensified the debate over developer liability, privacy software and decentralized protocols immediately after US sanctions on Tornado Cash.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Dutch FIOD — arrest of suspected Tornado Cash developer",
+            "url": "https://www.fiod.nl/arrest-of-suspected-developer-of-tornado-cash/",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "State suspicions/allegations as those of Dutch authorities, not as independent conclusions."
       }
     },
     {
@@ -9390,15 +9454,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RULE",
+        "exact_date": "2022",
+        "summary": "India's 2022 tax framework created specific rules for virtual digital assets, including a 1% tax deduction at source on covered transfers under Section 194S.",
+        "significance": "The framework formalized crypto taxation in India while imposing transaction-level reporting/withholding friction.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "India Income Tax Act Section 194S — virtual digital asset withholding",
+            "url": "https://wmstatic-prd.incometaxindia.gov.in/web/guest/w/section-194s",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Add the separate 30% income-tax provision once the exact official Section 115BBH source is attached."
       }
     },
     {
@@ -9473,12 +9543,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-02-28",
+        "summary": "Dubai issued Law No. 4 of 2022 establishing the Virtual Assets Regulatory Authority (VARA) and a regulatory framework for virtual-asset activities across most of the Emirate.",
+        "significance": "Dubai's dedicated regulator became a major part of the UAE's strategy to position itself as an international crypto hub.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Dubai Law No. 4 of 2022 Regulating Virtual Assets",
+            "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2022/Law%20No.%20%284%29%20of%202022%20Regulating%20Virtual%20Assets.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "VARA — About VARA",
+            "url": "https://www.vara.ae/en/about-vara/",
+            "type": "REGULATOR"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9495,12 +9576,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-04-04",
+        "summary": "HM Treasury announced plans to bring stablecoins within UK payments regulation and set out a wider ambition to make the UK a global cryptoasset technology hub.",
+        "significance": "The announcement marked a major UK policy shift toward building a dedicated crypto regulatory framework rather than treating crypto only through existing rules.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HM Treasury — plan to make UK a global cryptoasset technology hub",
+            "url": "https://www.gov.uk/government/news/government-sets-out-plan-to-make-uk-a-global-cryptoasset-technology-hub",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9675,14 +9762,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-04-22",
+        "summary": "This is the same Central African Republic legal-tender event as LORE-EVT-0140.",
+        "significance": "Canonicalized to LORE-EVT-0140.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — CEMAC staff report on CAR Bitcoin legal-tender law",
+            "url": "https://www.elibrary.imf.org/view/journals/002/2022/208/article-A001-en.xml",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0140",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9881,12 +9974,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-08-04",
+        "summary": "Coinbase announced a partnership with BlackRock connecting Coinbase Prime with BlackRock's Aladdin platform, initially giving mutual institutional clients direct access to Bitcoin trading and custody.",
+        "significance": "The deal linked one of traditional finance's most important institutional platforms with crypto prime brokerage and custody.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — selected by BlackRock for Aladdin crypto access",
+            "url": "https://www.coinbase.com/blog/coinbase-selected-by-blackrock-provide-aladdin-clients-access-to-crypto-trading-and-custody-via",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10364,12 +10463,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-04-17",
+        "summary": "Beanstalk was attacked through its on-chain governance mechanism after an attacker used a flash loan to obtain enough voting power; the protocol says roughly $77 million in non-Bean assets were stolen.",
+        "significance": "The exploit became a canonical demonstration that token governance itself can be an attack surface.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Beanstalk — protocol disclosures",
+            "url": "https://docs.bean.money/almanac/disclosures",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10597,12 +10702,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-09-22",
+        "summary": "Helium's HIP 70 governance vote passed with 81.41% of voting power, approving migration of Helium's tokens, governance and transaction/account layer from its own L1 to Solana.",
+        "significance": "It was an unusual decision by a live blockchain ecosystem to abandon its sovereign base chain in favor of another network.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Helium Vote — HIP 70 Scaling the Network",
+            "url": "https://heliumvote.com/hnt/proposals/legacy/13Y79HnMVt4Epug2rbLYivMPvrcpC2wYUNbZK5Dga3tw3VBpBjk",
+            "type": "PROJECT_GOVERNANCE"
+          },
+          {
+            "title": "Helium Foundation — 2022 Protocol Report",
+            "url": "https://www.helium.foundation/protocol-report-2022",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10807,12 +10923,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-10-17",
+        "summary": "Aptos Labs announced that Aptos Mainnet had arrived after years of development by a team that included former Diem engineers.",
+        "significance": "Aptos became a major Move-based layer-1 launch and one of the most heavily funded new-chain debuts of the post-2021 cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aptos Labs — Aptos Autumn is Here",
+            "url": "https://medium.com/aptoslabs/aptos-autumn-is-here-92a8d904eb49",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11017,12 +11139,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-06-22",
+        "summary": "dYdX announced that version 4 would be developed as a standalone blockchain based on the Cosmos SDK and Tendermint proof-of-stake, with a decentralized off-chain order book and matching engine.",
+        "significance": "The move was a major example of a successful Ethereum application choosing an app-specific sovereign chain for performance and decentralization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "dYdX June 22 2022 V4 Cosmos announcement archive",
+            "url": "https://threadreaderapp.com/user/dYdX",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "dYdX Foundation — V4 AMA recap",
+            "url": "https://www.dydx.foundation/blog/epoch-11-community-ama",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11311,12 +11444,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2022-08-17",
+        "summary": "ENS crossed 2 million registered .eth names on 17 August 2022.",
+        "significance": "The milestone showed decentralized naming becoming one of Ethereum's most widely adopted identity applications during the Web3 boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ENS DAO Newsletter — 2 million .eth names",
+            "url": "https://discuss.ens.domains/t/ens-dao-newsletter-13-09-01-2022/14247",
+            "type": "PROJECT_COMMUNITY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15498,12 +15637,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-05-31",
+        "summary": "Zcash activated Network Upgrade 5 (NU5), launching the Orchard shielded protocol and Halo 2 proving system and removing the need for trusted setup ceremonies for the new pool.",
+        "significance": "NU5 was a major zero-knowledge cryptography milestone and improved the practicality and trust assumptions of Zcash privacy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Electric Coin Company — NU5 activates on mainnet",
+            "url": "https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16067,14 +16212,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-08-17",
+        "summary": "This is the same 2-million ENS registration milestone as LORE-EVT-0415.",
+        "significance": "Canonicalized to LORE-EVT-0415.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ENS DAO Newsletter — 2 million .eth names",
+            "url": "https://discuss.ens.domains/t/ens-dao-newsletter-13-09-01-2022/14247",
+            "type": "PROJECT_COMMUNITY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0415",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -16618,12 +16769,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-06-23",
+        "summary": "Solana Mobile introduced Saga, an Android smartphone designed around self-custody, a Seed Vault and the Solana Mobile Stack.",
+        "significance": "Saga was one of crypto's boldest attempts to build blockchain key management and dapp distribution directly into consumer hardware.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana — Saga reveal",
+            "url": "https://solana.com/nl/news/saga-reveal",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16779,12 +16936,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-09-22",
+        "summary": "Cardano activated the Vasil hard fork, moving into the Babbage era with changes intended to improve throughput, Plutus smart-contract efficiency and scaling.",
+        "significance": "Vasil was one of Cardano's largest post-smart-contract protocol upgrades.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cardano Foundation — Vasil hard fork",
+            "url": "https://cardanofoundation.org/blog/the-vasil-hard-fork-a-new-update-to-scale-and-optimize-the-cardano",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -26173,12 +26336,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-06-14",
+        "summary": "Coinbase announced a reduction of about 18% of its workforce, approximately 1,100 employees, amid changing market and economic conditions.",
+        "significance": "The layoffs became a visible marker of the 2022 crypto winter reaching publicly listed crypto companies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — June 2022 workforce reduction",
+            "url": "https://www.coinbase.com/en-nl/blog/a-message-from-coinbase-ceo-and-cofounder-brian-armstrong",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Coinbase 8-K — June 14 restructuring plan",
+            "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978822000077/coin-20220614.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -26690,12 +26864,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-04-05",
+        "summary": "US and German authorities announced the seizure and shutdown of Hydra Market, with German police seizing servers and Bitcoin wallets.",
+        "significance": "Hydra was described by US authorities as the world's largest and longest-running darknet marketplace at the time.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — shutdown of Hydra Market",
+            "url": "https://www.justice.gov/archives/opa/pr/justice-department-investigation-leads-shutdown-largest-online-darknet-marketplace",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27378,14 +27558,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_LORE_SUBEVENT",
+        "exact_date": "2022-10-15",
+        "summary": "Eisenberg publicly described the Mango episode as a 'highly profitable trading strategy' and said he believed his actions were legal open-market actions.",
+        "significance": "The defense became crypto lore precisely because later US prosecutors and a jury treated the conduct as market manipulation and fraud.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Eisenberg says Mango actions were legal open-market actions",
+            "url": "https://www.theblock.co/news/regulation/2022-10-15-mango-markets-exploiter-comes-clean-claims-all-actions-were-legal-177424",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "US DOJ — Mango Markets manipulation case",
+            "url": "https://www.justice.gov/usao-sdny/pr/alleged-perpetrator-100-million-crypto-market-manipulation-scheme-make-initial",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0244",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -28405,12 +28596,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-03-16",
+        "summary": "Aave V3 launched across six networks with new capital-efficiency, risk-management and cross-chain-oriented features.",
+        "significance": "V3 established Aave as a deliberately multichain lending protocol and introduced architecture that later supported much larger DeFi markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave governance — Aave V3 deployment history",
+            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28793,12 +28990,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2022-05-31",
+        "summary": "Optimism opened claims for its first OP governance-token airdrop to hundreds of thousands of eligible early Ethereum and Optimism users.",
+        "significance": "The OP launch created the Token House side of the Optimism Collective and became a major layer-2 governance distribution.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Optimism community docs — Airdrop #1",
+            "url": "https://github.com/ethereum-optimism/community-hub/blob/main/pages/op-token/airdrops/airdrop-1.mdx",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Optimism — Introducing the Optimism Collective",
+            "url": "https://optimism.io/blog/introducing-the-optimism-collective",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29525,14 +29733,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-04-17",
+        "summary": "The flash-loan governance mechanism was the defining technical feature of the Beanstalk exploit.",
+        "significance": "Canonicalized under LORE-EVT-0377.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Beanstalk — protocol disclosures",
+            "url": "https://docs.bean.money/almanac/disclosures",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0377",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -29743,12 +29957,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-03-15",
+        "summary": "LayerZero launched its omnichain interoperability protocol in beta across seven EVM networks.",
+        "significance": "LayerZero became major cross-chain messaging infrastructure and formed the base layer for Stargate and later omnichain applications.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "LayerZero — The Omnichain Future is Here",
+            "url": "https://medium.com/@ryanzarick/the-omnichain-future-is-here-74389f6d70c3",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29765,12 +29985,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-03-17",
+        "summary": "Stargate Protocol launched two days after LayerZero, bootstrapping omnichain native-asset liquidity across connected networks.",
+        "significance": "Stargate became one of the first major applications of LayerZero and a prominent cross-chain liquidity bridge.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Stargate — launch details",
+            "url": "https://stargateprotocol.gitbook.io/stargate/user-docs/tokenomics/launch",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "LayerZero — The Omnichain Future is Here",
+            "url": "https://medium.com/@ryanzarick/the-omnichain-future-is-here-74389f6d70c3",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30168,14 +30399,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-04-05",
+        "summary": "This is the same Hydra Market seizure as LORE-EVT-1020.",
+        "significance": "Canonicalized to the Hydra shutdown.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — shutdown of Hydra Market",
+            "url": "https://www.justice.gov/archives/opa/pr/justice-department-investigation-leads-shutdown-largest-online-darknet-marketplace",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1020",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -31767,12 +32004,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SUCCESSION",
+        "exact_date": "2022-09-21",
+        "summary": "Kraken announced that COO Dave Ripley would succeed co-founder Jesse Powell as CEO after a COO replacement was found, with Powell moving to chairman.",
+        "significance": "The succession marked a leadership transition at one of crypto's oldest surviving exchanges.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kraken — leadership succession plan",
+            "url": "https://www.kraken.com/press/releases/kraken-announces-leadership-succession-plan",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
