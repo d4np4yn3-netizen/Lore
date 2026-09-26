@@ -549,12 +549,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2011-2014",
+        "summary": "Charlie Shrem became a highly visible early Bitcoin entrepreneur through BitInstant and the Bitcoin Foundation, but the current 2013 row is biographical rather than a single event.",
+        "significance": "Use his BitInstant operation, 2014 arrest or later sentencing as discrete milestones instead.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Charlie Shrem sentencing background",
+            "url": "https://www.justice.gov/usao-sdny/pr/former-ceo-bitcoin-exchange-company-sentenced-manhattan-federal-court-two-years-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -613,7 +619,7 @@
     },
     {
       "id": "LORE-EVT-0668",
-      "date": "2013",
+      "date": "2012-06",
       "title": "LocalBitcoins expands peer-to-peer Bitcoin trading worldwide",
       "branch": [
         "BITCOIN",
@@ -622,12 +628,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "LocalBitcoins grew as a global peer-to-peer venue, but 'expands worldwide' is not a single clean historical event.",
-        "significance": "Replace or link to a specific launch, country expansion, volume milestone or later closure event before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-06",
+        "summary": "LocalBitcoins was founded in June 2012 by Jeremias Kangas; its later international growth is a trend rather than a single 2013 event.",
+        "significance": "LocalBitcoins became one of the most important peer-to-peer Bitcoin marketplaces, especially in markets with weak exchange access.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "LocalBitcoins history summary",
+            "url": "https://en.wikipedia.org/wiki/LocalBitcoins",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -644,16 +656,16 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "The Bitcoin Foundation faced governance and personality controversies during the early Bitcoin era.",
-        "significance": "Too broad for a canonical event; requires a named resignation, scandal, election or policy dispute.",
-        "source_confidence": "LOW",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2013-2014",
+        "summary": "Bitcoin Foundation controversies spanned multiple incidents rather than one 2013 event, including regulatory pressure and later board-member scandals.",
+        "significance": "Keep as organizational context; score specific resignations, arrests or governance events instead.",
+        "source_confidence": "MEDIUM",
         "sources": [
           {
-            "title": "Bitcoin Foundation launch thread",
-            "url": "https://bitcointalk.org/index.php?topic=113400.0",
-            "type": "PRIMARY_ARCHIVE"
+            "title": "Bitcoin Foundation historical overview",
+            "url": "https://bitcoinfoundation.org/about/",
+            "type": "ORGANIZATION_ARCHIVE"
           }
         ],
         "canonical_event_id": null,
@@ -728,15 +740,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NEEDS_REWRITE",
+        "state": "DEPRECATED_CLAIM",
         "exact_date": "2013",
-        "summary": "Headlines in 2013 described Thailand as having 'banned' Bitcoin, but the underlying position was more ambiguous than a formal nationwide statutory ban.",
-        "significance": "This belongs in the archive as an example of early regulatory uncertainty, but the current title overstates the verified fact.",
-        "source_confidence": "LOW",
+        "summary": "The widely repeated claim that Thailand 'banned Bitcoin' in 2013 oversimplifies an ambiguous regulatory situation and lacks a clear statutory ban source.",
+        "significance": "Retain only as an example of early crypto-media regulatory confusion, not as a canonical ban event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Needs country-primary-source research before canonical publication; do not score in current wording."
+        "notes": "Exclude from card scoring in current form."
       }
     },
     {
@@ -835,15 +847,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
         "exact_date": "2013",
-        "summary": "BTC Guild was a major early Bitcoin mining pool, but this row needs a precisely sourced hashrate or block-share milestone.",
-        "significance": "Important mining-concentration context; not ready for canonical scoring.",
-        "source_confidence": "LOW",
+        "summary": "BTC Guild was one of the large early Bitcoin mining pools, but this row does not identify one canonical hashrate or governance milestone.",
+        "significance": "Mining-concentration context only; GHash.io's later 51% episode is much stronger card material.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exclude as standalone card unless a sourced share milestone is added."
       }
     },
     {
@@ -858,11 +870,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "ASIC resistance became a recurring altcoin design goal as Bitcoin mining specialized.",
-        "significance": "A technological trend, not a single event. Replace with specific algorithm/project changes if selected.",
-        "source_confidence": "LOW",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2013 onward",
+        "summary": "ASIC resistance became a design objective for several altcoins as Bitcoin mining specialized.",
+        "significance": "Technology trend rather than a discrete event; use specific algorithm launches or hard forks instead.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -880,11 +892,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
         "exact_date": "2013",
-        "summary": "Bitcoin tipping on Reddit and similar communities became common during the 2013 adoption wave.",
-        "significance": "Strong culture context but lacks one clean event/date.",
-        "source_confidence": "LOW",
+        "summary": "Bitcoin tipping on Reddit and social platforms grew rapidly during the 2013 adoption wave.",
+        "significance": "Culture trend; specific tipping services or famous donations are cleaner card events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -959,11 +971,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "Roger Ver invested in and promoted multiple early Bitcoin startups, but the current row is too broad to stand as one event.",
-        "significance": "Replace with a specific documented investment or company milestone before scoring.",
-        "source_confidence": "LOW",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2012-2014",
+        "summary": "Roger Ver invested in and promoted multiple early Bitcoin companies, but this row combines many investments rather than one event.",
+        "significance": "Biographical context only; use a named investment or advocacy milestone if needed.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -1038,11 +1050,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
         "exact_date": "2013",
-        "summary": "Armory was influential in advanced Bitcoin wallet and cold-storage practices, but the current title describes a trend rather than a dated event.",
-        "significance": "Needs a specific release or feature milestone before scoring.",
-        "source_confidence": "LOW",
+        "summary": "Armory was an influential advanced Bitcoin wallet associated with cold-storage and security practices, but 'popularizes' is a gradual adoption claim.",
+        "significance": "Wallet-history context; score a specific release or security innovation instead.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
