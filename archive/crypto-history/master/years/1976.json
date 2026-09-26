@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 1976,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0635",
+      "date": "1976",
+      "title": "Diffie and Hellman publish foundational public-key cryptography work",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "1976-11",
+        "summary": "Diffie and Hellman published New Directions in Cryptography, introducing the public-key cryptography framework and digital-signature concept to the open literature.",
+        "significance": "Foundational cryptographic infrastructure later used by digital-cash systems and cryptocurrencies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "New Directions in Cryptography",
+            "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

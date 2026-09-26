@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 1990,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0638",
+      "date": "1990",
+      "title": "DigiCash begins commercializing privacy-preserving digital money",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "1990s",
+        "summary": "DigiCash commercialized Chaum's blind-signature-based eCash technology during the 1990s.",
+        "significance": "This is useful context but is not one cleanly dated event; the archive should prefer specific deployments such as the 1994 payment trial.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Editorial/context row; consider merging into a DigiCash chapter rather than a standalone card."
+      }
+    }
+  ]
+}

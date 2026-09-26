@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 1977,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0636",
+      "date": "1977",
+      "title": "RSA public-key cryptosystem is introduced",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "1977-04",
+        "summary": "Rivest, Shamir and Adleman issued the MIT technical report describing the RSA public-key cryptosystem; the journal paper followed in 1978.",
+        "significance": "RSA became a foundational public-key and signature system used throughout secure computing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "A Method for Obtaining Digital Signatures and Public-key Cryptosystems",
+            "url": "https://dspace.mit.edu/entities/publication/a2e09fea-6f05-48a5-9ce9-5073dfcde567",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}
