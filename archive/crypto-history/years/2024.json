@@ -4,7 +4,7 @@
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
   "score_status": "NOT_STARTED",
-  "event_count": 24,
+  "event_count": 29,
   "events": [
     {
       "id": "LORE-CAN-2024-017",
@@ -279,6 +279,28 @@
       "notes": "Launch is tied to block 840,000."
     },
     {
+      "id": "LORE-CAN-2024-022",
+      "date": "2024-04-24",
+      "title": "US prosecutors charge Samourai Wallet founders",
+      "branches": [
+        "BITCOIN",
+        "PRIVACY",
+        "GOVERNMENTS"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "US prosecutors charged Samourai Wallet co-founders Keonne Rodriguez and William Lonergan Hill with conspiracy offenses involving money laundering and operation of an unlicensed money-transmitting business.",
+      "significance": "The case renewed a major crypto debate over privacy software, non-custodial tools and the legal responsibilities of software operators.",
+      "sources": [
+        {
+          "title": "US DOJ — Samourai Wallet founders charged",
+          "url": "https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-025",
       "date": "2024-04-29 to 2024-05-10",
       "title": "EigenLayer announces EIGEN and opens its first stakedrop",
@@ -324,6 +346,55 @@
           "title": "HKEX — Asia's First Spot Virtual Asset ETFs",
           "url": "https://www.hkex.com.hk/News/News-Release/2024/240430news?sc_lang=en",
           "type": "EXCHANGE_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-024",
+      "date": "2024-04-30",
+      "title": "Changpeng Zhao is sentenced to four months in prison",
+      "branches": [
+        "EXCHANGES",
+        "CRIME",
+        "PEOPLE"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Former Binance CEO Changpeng Zhao was sentenced to four months in prison after pleading guilty to violating US anti-money-laundering law.",
+      "significance": "The sentence marked the personal legal consequence of Binance's landmark US settlement and the fall of one of crypto's most powerful exchange founders.",
+      "sources": [
+        {
+          "title": "Reuters — Binance founder Zhao sentenced to four months",
+          "url": "https://www.investing.com/news/stock-market-news/binances-ceo-zhao-faces-sentencing-over-money-laundering-violations-3406228",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "US DOJ filing discussing Zhao sentence",
+          "url": "https://www.justice.gov/criminal/media/1362211/dl?inline=",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-023",
+      "date": "2024-05-20",
+      "title": "UK High Court rules Craig Wright is not Satoshi Nakamoto",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "In COPA v Wright, the High Court's written judgment found that Craig Wright was not the author of the Bitcoin white paper, did not operate under the Satoshi Nakamoto pseudonym and was not Bitcoin's creator.",
+      "significance": "The judgment was the strongest judicial rejection of the most prominent long-running public claim to be Satoshi Nakamoto.",
+      "sources": [
+        {
+          "title": "Courts and Tribunals Judiciary — COPA v Wright",
+          "url": "https://www.judiciary.uk/judgments/copa-v-wright/",
+          "type": "COURT"
         }
       ],
       "score_status": "NOT_SCORED"
@@ -422,6 +493,28 @@
           "title": "Saxony — Emergency sale of almost 50,000 Bitcoins completed",
           "url": "https://www.medienservice.sachsen.de/medien/news/1077662",
           "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-031",
+      "date": "2024-06-30",
+      "title": "MiCA stablecoin rules begin applying in the EU",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "STABLECOINS"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Titles III and IV of the EU Markets in Crypto-Assets Regulation, covering asset-referenced and e-money tokens, began applying on 30 June 2024.",
+      "significance": "This brought major stablecoin issuance and authorization requirements into force across the European Union.",
+      "sources": [
+        {
+          "title": "EUR-Lex — Regulation (EU) 2023/1114, Article 149",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj/eng",
+          "type": "LAW"
         }
       ],
       "score_status": "NOT_SCORED"
@@ -568,6 +661,32 @@
       ],
       "score_status": "NOT_SCORED",
       "notes": "Use Reuters' quoted market high rather than presenting one universal exchange price."
+    },
+    {
+      "id": "LORE-CAN-2024-032",
+      "date": "2024-12-30",
+      "title": "MiCA's broader crypto framework begins applying across the EU",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The broader provisions of the EU Markets in Crypto-Assets Regulation began applying on 30 December 2024 after the earlier June stablecoin phase.",
+      "significance": "MiCA created a harmonized EU-wide regulatory framework for crypto-asset service providers and many crypto issuers.",
+      "sources": [
+        {
+          "title": "EUR-Lex — MiCA summary",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=LEGISSUM%3A4626998",
+          "type": "LAW"
+        },
+        {
+          "title": "European Commission — Digital finance, December 2024",
+          "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED"
     }
   ],
   "updated": "2026-09-26"
