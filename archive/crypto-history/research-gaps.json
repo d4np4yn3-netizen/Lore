@@ -1,0 +1,3637 @@
+{
+  "schema_version": "1.0.0",
+  "generated": "2026-09-26",
+  "total_archive_events": 1229,
+  "research_gap_count": 252,
+  "note": "This is the evidence-hardening queue. Records here are researched enough to classify but are not yet strong enough for final independent card scoring. Duplicates/context may be resolved by linking to a canonical event rather than collecting more sources.",
+  "priority_order": [
+    "CORE",
+    "MAJOR",
+    "LORE",
+    "DEEP_CUT"
+  ],
+  "counts": {
+    "by_tier": {
+      "CORE": 67,
+      "MAJOR": 118,
+      "LORE": 56,
+      "DEEP_CUT": 11
+    },
+    "by_state": {
+      "CONTEXT_NEEDS_NARROWING": 48,
+      "RESEARCH_NEEDED_SPECIFIC": 135,
+      "DATE_OR_CLAIM_NEEDS_REWRITE": 7,
+      "CONTEXT_RESEARCHED": 10,
+      "CONTEXT_NEEDS_SOURCE": 7,
+      "DUPLICATE_OR_CONTEXT": 7,
+      "CONTEXT_NEEDS_QUANTIFICATION": 3,
+      "CLAIM_NEEDS_REWRITE": 5,
+      "CONTEXT_NEEDS_MARKET_DATA": 3,
+      "CULTURE_CONTEXT_NEEDS_PROVENANCE": 2,
+      "EDITORIAL_CONTEXT_REVIEWED": 4,
+      "CONTEXT_NEEDS_DATA": 6,
+      "CONTAGION_CLAIM_NEEDS_NARROWING": 1,
+      "DUPLICATE": 1,
+      "CONTEXT_NEEDS_PERIOD_DATA": 1,
+      "AFTERMATH_NEEDS_SPLIT": 1,
+      "CONTEXT_NEEDS_METRIC": 1,
+      "AFTERMATH_NEEDS_NARROWING": 1,
+      "CONTEXT_NEEDS_SPECIFIC_MILESTONE": 1,
+      "LORE_NEEDS_PRIMARY_SOURCE": 5,
+      "LORE_NEEDS_NARROWING": 1,
+      "SOURCE_GAP_CONFIRMED": 1,
+      "CLAIM_CORRECTED": 1
+    },
+    "by_year": {
+      "2011": 2,
+      "2013": 8,
+      "2014": 21,
+      "2015": 11,
+      "2016": 13,
+      "2017": 24,
+      "2018": 27,
+      "2019": 42,
+      "2020": 62,
+      "2021": 7,
+      "2022": 18,
+      "2023": 2,
+      "2024": 15
+    }
+  },
+  "queue": [
+    {
+      "id": "LORE-EVT-0668",
+      "date": "2013",
+      "title": "LocalBitcoins expands peer-to-peer Bitcoin trading worldwide",
+      "tier": "CORE",
+      "branch": [
+        "BITCOIN",
+        "ADOPTION"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-1035",
+      "date": "2014",
+      "title": "Paycoin and GAW Miners become symbols of mining-related crypto fraud",
+      "tier": "CORE",
+      "branch": [
+        "SCAMS",
+        "MINING"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-1065",
+      "date": "2014",
+      "title": "Electrum establishes lightweight Bitcoin wallet model",
+      "tier": "CORE",
+      "branch": [
+        "BITCOIN",
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-1067",
+      "date": "2014",
+      "title": "BIP39 mnemonic seed standard is proposed",
+      "tier": "CORE",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-1154",
+      "date": "2015",
+      "title": "AlphaBay grows into a dominant darknet marketplace",
+      "tier": "CORE",
+      "branch": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0933",
+      "date": "2016",
+      "title": "Antminer S9 becomes an iconic Bitcoin mining machine",
+      "tier": "CORE",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1008",
+      "date": "2016",
+      "title": "Australian media reports Craig Wright's Satoshi claim",
+      "tier": "CORE",
+      "branch": [
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1037",
+      "date": "2016",
+      "title": "BitConnect launches lending platform",
+      "tier": "CORE",
+      "branch": [
+        "SCAMS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1068",
+      "date": "2016",
+      "title": "BIP32 and hierarchical deterministic wallet practices become mainstream",
+      "tier": "CORE",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-0580",
+      "date": "2017",
+      "title": "Ledger hardware wallets gain mass-market adoption",
+      "tier": "CORE",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0581",
+      "date": "2017",
+      "title": "Trezor popularizes recovery-seed self-custody practices",
+      "tier": "CORE",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0710",
+      "date": "2017",
+      "title": "Craig Wright's Satoshi claims intensify public controversy",
+      "tier": "CORE",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0934",
+      "date": "2017",
+      "title": "Bitmain becomes the dominant ASIC manufacturer",
+      "tier": "CORE",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-1003",
+      "date": "2017",
+      "title": "Roger Ver becomes leading Bitcoin Cash advocate",
+      "tier": "CORE",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "FORKS"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-1189",
+      "date": "2017",
+      "title": "Monero becomes a preferred privacy coin on darknet markets",
+      "tier": "CORE",
+      "branch": [
+        "PRIVACY",
+        "DARK_SIDE"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-1218",
+      "date": "2017",
+      "title": "Crypto exchanges list hundreds of ICO tokens at rapid pace",
+      "tier": "CORE",
+      "branch": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0104",
+      "date": "2018",
+      "title": "ICO bubble collapses into Crypto Winter",
+      "tier": "CORE",
+      "branch": [
+        "ICO",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_QUANTIFICATION",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0106",
+      "date": "2018",
+      "title": "MakerDAO's DAI becomes a major decentralized stablecoin experiment",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0472",
+      "date": "2018",
+      "title": "MakerDAO stablecoin model gains traction during bear market",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0722",
+      "date": "2018",
+      "title": "Bitcoin falls more than 80 percent from peak during crypto winter",
+      "tier": "CORE",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_QUANTIFICATION",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0723",
+      "date": "2018",
+      "title": "Ethereum price collapses after ICO treasury selling",
+      "tier": "CORE",
+      "branch": [
+        "ETHEREUM",
+        "MARKETS",
+        "ICO"
+      ],
+      "research_state": "CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1101",
+      "date": "2018",
+      "title": "Plasma research inspires early Ethereum scaling roadmaps",
+      "tier": "CORE",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1128",
+      "date": "2018",
+      "title": "MakerDAO token voting becomes major live governance experiment",
+      "tier": "CORE",
+      "branch": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0733",
+      "date": "2019",
+      "title": "Square launches Bitcoin buying in Cash App more broadly",
+      "tier": "CORE",
+      "branch": [
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0739",
+      "date": "2019",
+      "title": "BitMEX reaches huge perpetual-swap trading volumes",
+      "tier": "CORE",
+      "branch": [
+        "EXCHANGES",
+        "MARKETS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0741",
+      "date": "2019",
+      "title": "Crypto lending firms BlockFi and Celsius rapidly expand",
+      "tier": "CORE",
+      "branch": [
+        "CEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1005",
+      "date": "2019",
+      "title": "Craig Wright files defamation lawsuits over Satoshi claims",
+      "tier": "CORE",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1040",
+      "date": "2019",
+      "title": "OneCoin leaders face criminal proceedings",
+      "tier": "CORE",
+      "branch": [
+        "SCAMS",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1079",
+      "date": "2019",
+      "title": "Gnosis Safe emerges as key multisig standard",
+      "tier": "CORE",
+      "branch": [
+        "ETHEREUM",
+        "SECURITY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1087",
+      "date": "2019",
+      "title": "Compound money markets popularize algorithmic interest rates",
+      "tier": "CORE",
+      "branch": [
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1096",
+      "date": "2019",
+      "title": "Uniswap liquidity pools demonstrate permissionless token listing",
+      "tier": "CORE",
+      "branch": [
+        "DEX",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1206",
+      "date": "2019",
+      "title": "ERC-1155 multi-token standard is adopted by gaming projects",
+      "tier": "CORE",
+      "branch": [
+        "NFT",
+        "GAMING",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0229",
+      "date": "2020",
+      "title": "Curve becomes core stablecoin DEX infrastructure",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "DEX",
+        "STABLECOINS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0272",
+      "date": "2020",
+      "title": "Flashbots forms to address MEV and transaction-ordering issues",
+      "tier": "CORE",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0311",
+      "date": "2020",
+      "title": "Binance Smart Chain launches",
+      "tier": "CORE",
+      "branch": [
+        "EXCHANGES",
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0325",
+      "date": "2020",
+      "title": "Art Blocks launches generative on-chain art platform",
+      "tier": "CORE",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0355",
+      "date": "2020",
+      "title": "China expands digital-yuan pilots",
+      "tier": "CORE",
+      "branch": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0406",
+      "date": "2020",
+      "title": "Flash loans become a defining DeFi primitive",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0582",
+      "date": "2020",
+      "title": "Ledger customer-data breach exposes hardware-wallet buyers",
+      "tier": "CORE",
+      "branch": [
+        "SECURITY",
+        "DISASTERS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0586",
+      "date": "2020",
+      "title": "bZx flash-loan attacks expose composability risks",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "HACKS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0598",
+      "date": "2020",
+      "title": "Gitcoin Grants popularizes quadratic funding in crypto",
+      "tier": "CORE",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0612",
+      "date": "2020",
+      "title": "Serum launches on Solana with FTX backing",
+      "tier": "CORE",
+      "branch": [
+        "ALTCOINS",
+        "DEX",
+        "FTX"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0627",
+      "date": "2020",
+      "title": "Steem hard forks after governance dispute involving Justin Sun",
+      "tier": "CORE",
+      "branch": [
+        "ALTCOINS",
+        "FORKS",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0744",
+      "date": "2020",
+      "title": "Paul Tudor Jones publicly reveals Bitcoin allocation",
+      "tier": "CORE",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0746",
+      "date": "2020",
+      "title": "MassMutual buys Bitcoin for general investment account",
+      "tier": "CORE",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0752",
+      "date": "2020",
+      "title": "Curve CRV launch sparks governance and liquidity wars",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "DAO"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0921",
+      "date": "2020",
+      "title": "Libra is redesigned amid regulatory pressure",
+      "tier": "CORE",
+      "branch": [
+        "STABLECOINS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0937",
+      "date": "2020",
+      "title": "Publicly listed Bitcoin miners begin expanding aggressively",
+      "tier": "CORE",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "INSTITUTIONS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1059",
+      "date": "2020",
+      "title": "Crypto Twitter becomes dominant venue for DeFi launches",
+      "tier": "CORE",
+      "branch": [
+        "CULTURE",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1071",
+      "date": "2020",
+      "title": "MetaMask user growth accelerates with DeFi",
+      "tier": "CORE",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1084",
+      "date": "2020",
+      "title": "1inch emerges from hackathon project into major DEX aggregator",
+      "tier": "CORE",
+      "branch": [
+        "DEX",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1115",
+      "date": "2020",
+      "title": "Decentraland opens its public virtual world",
+      "tier": "CORE",
+      "branch": [
+        "GAMING",
+        "NFT",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1166",
+      "date": "2020",
+      "title": "PlusToken organizers are prosecuted in China",
+      "tier": "CORE",
+      "branch": [
+        "SCAMS",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1200",
+      "date": "2020",
+      "title": "Polymarket launches",
+      "tier": "CORE",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0506",
+      "date": "2021",
+      "title": "Terra LUNA reaches top-tier market capitalization",
+      "tier": "CORE",
+      "branch": [
+        "ALTCOINS",
+        "STABLECOINS"
+      ],
+      "research_state": "CONTEXT_NEEDS_MARKET_DATA",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-0780",
+      "date": "2021",
+      "title": "Three Arrows Capital becomes major leveraged crypto fund",
+      "tier": "CORE",
+      "branch": [
+        "CEFI",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-0962",
+      "date": "2021",
+      "title": "WAGMI and NGMI become dominant crypto social vocabulary",
+      "tier": "CORE",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-0601",
+      "date": "2022",
+      "title": "UkraineDAO raises funds through crypto-native coordination",
+      "tier": "CORE",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1062",
+      "date": "2022",
+      "title": "Wallet-drainer phishing becomes widespread across NFT communities",
+      "tier": "CORE",
+      "branch": [
+        "NFT",
+        "HACKS",
+        "SECURITY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1124",
+      "date": "2022",
+      "title": "Axie economy contracts sharply after Ronin hack",
+      "tier": "CORE",
+      "branch": [
+        "GAMING",
+        "HACKS",
+        "DISASTERS"
+      ],
+      "research_state": "CONTEXT_NEEDS_DATA",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1145",
+      "date": "2022",
+      "title": "Nomad hack highlights optimistic bridge security assumptions",
+      "tier": "CORE",
+      "branch": [
+        "BRIDGES",
+        "HACKS"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1176",
+      "date": "2022",
+      "title": "Terra collapse inflicts losses on Celsius and 3AC-linked counterparties",
+      "tier": "CORE",
+      "branch": [
+        "CONTAGION",
+        "CEFI"
+      ],
+      "research_state": "CONTAGION_CLAIM_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1181",
+      "date": "2022",
+      "title": "FTX collapse pushes BlockFi into bankruptcy",
+      "tier": "CORE",
+      "branch": [
+        "CONTAGION",
+        "CEFI",
+        "FTX"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "HIGH",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1183",
+      "date": "2022",
+      "title": "Genesis suspends withdrawals after FTX failure",
+      "tier": "CORE",
+      "branch": [
+        "CONTAGION",
+        "CEFI",
+        "FTX"
+      ],
+      "research_state": "DUPLICATE",
+      "source_confidence": "MEDIUM_HIGH",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0538",
+      "date": "2024",
+      "title": "Pump.fun graduates thousands of meme tokens onto Solana DEXs",
+      "tier": "CORE",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "research_state": "CONTEXT_NEEDS_PERIOD_DATA",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0541",
+      "date": "2024",
+      "title": "Base becomes a leading Ethereum L2 by activity",
+      "tier": "CORE",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_MARKET_DATA",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0871",
+      "date": "2024",
+      "title": "EU prepares exchanges and stablecoin issuers for full MiCA compliance",
+      "tier": "CORE",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0185",
+      "date": "2011",
+      "title": "Hal Finney discusses his early Bitcoin involvement publicly",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "HIGH",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2011.json"
+    },
+    {
+      "id": "LORE-EVT-0892",
+      "date": "2011",
+      "title": "Early Bitcoin whale wallets become subjects of public blockchain analysis",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2011.json"
+    },
+    {
+      "id": "LORE-EVT-0929",
+      "date": "2013",
+      "title": "BTC Guild grows into a dominant Bitcoin mining pool",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-0945",
+      "date": "2013",
+      "title": "ASIC resistance becomes a design goal for several altcoins",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-1002",
+      "date": "2013",
+      "title": "Roger Ver funds early Bitcoin startups",
+      "tier": "MAJOR",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-1066",
+      "date": "2013",
+      "title": "Armory popularizes advanced cold-storage practices",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-0363",
+      "date": "2014",
+      "title": "Cryptsy grows into a major altcoin exchange before later collapse",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0678",
+      "date": "2014",
+      "title": "Gavin Andresen becomes one of Bitcoin's most visible core maintainers",
+      "tier": "MAJOR",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0679",
+      "date": "2014",
+      "title": "Bitcoin Core replaces Bitcoin-Qt branding",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0684",
+      "date": "2014",
+      "title": "Coinbase launches merchant-processing integrations",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "ADOPTION"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0686",
+      "date": "2014",
+      "title": "MintPal suffers a major hack",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0931",
+      "date": "2014",
+      "title": "Cloud mining booms as retail users seek exposure to mining",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0946",
+      "date": "2014",
+      "title": "Litecoin miners adopt Scrypt ASICs",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "MINING"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0976",
+      "date": "2014",
+      "title": "Jed McCaleb's XRP sale plans trigger market controversy",
+      "tier": "MAJOR",
+      "branch": [
+        "PEOPLE",
+        "ALTCOINS",
+        "MARKETS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-1034",
+      "date": "2014",
+      "title": "US court imposes penalties in Bitcoin Savings and Trust case",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-1064",
+      "date": "2014",
+      "title": "Blockchain.info wallet becomes one of the world's most-used Bitcoin wallets",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0323",
+      "date": "2015",
+      "title": "Spells of Genesis develops blockchain gaming collectibles",
+      "tier": "MAJOR",
+      "branch": [
+        "NFT",
+        "GAMING"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0448",
+      "date": "2015",
+      "title": "Augur crowdsale becomes an early Ethereum token sale",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "ICO"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0688",
+      "date": "2015",
+      "title": "US Marshals continue auctioning Silk Road Bitcoin",
+      "tier": "MAJOR",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0693",
+      "date": "2015",
+      "title": "OpenBazaar beta develops decentralized marketplace ideas",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-1036",
+      "date": "2015",
+      "title": "GAW Miners collapses",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "MINING"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0364",
+      "date": "2016",
+      "title": "Cryptsy collapses amid missing-funds allegations",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-0698",
+      "date": "2016",
+      "title": "Bitcoin Unlimited grows among big-block advocates",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-0703",
+      "date": "2016",
+      "title": "Microsoft's Azure blockchain services expand enterprise experimentation",
+      "tier": "MAJOR",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1010",
+      "date": "2016",
+      "title": "Bitcoin Core commit access is removed from Gavin Andresen amid controversy",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "GOVERNANCE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1022",
+      "date": "2016",
+      "title": "Ransomware economy increasingly standardizes on Bitcoin",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "CRIME"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1077",
+      "date": "2016",
+      "title": "Ethereum multisig wallets become standard treasury infrastructure",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "SECURITY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-0220",
+      "date": "2017",
+      "title": "EtherDelta becomes a prominent early Ethereum DEX",
+      "tier": "MAJOR",
+      "branch": [
+        "DEX",
+        "ETHEREUM"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0716",
+      "date": "2017",
+      "title": "Ledger and Trezor sales surge amid self-custody demand",
+      "tier": "MAJOR",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0718",
+      "date": "2017",
+      "title": "Golem launches tokenized decentralized-compute network",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0882",
+      "date": "2017",
+      "title": "Physical hardware-wallet recovery seeds become mainstream crypto practice",
+      "tier": "MAJOR",
+      "branch": [
+        "SECURITY",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0977",
+      "date": "2017",
+      "title": "Brad Garlinghouse becomes central public face of Ripple",
+      "tier": "MAJOR",
+      "branch": [
+        "PEOPLE",
+        "ALTCOINS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0996",
+      "date": "2017",
+      "title": "Brian Armstrong becomes a prominent advocate for mainstream crypto adoption",
+      "tier": "MAJOR",
+      "branch": [
+        "PEOPLE",
+        "EXCHANGES"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-1049",
+      "date": "2017",
+      "title": "Ethereum Foundation Devcon grows into flagship ecosystem conference",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-1078",
+      "date": "2017",
+      "title": "Gnosis launches prediction-market and multisig ecosystem",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0399",
+      "date": "2018",
+      "title": "Rollup research begins reshaping Ethereum scaling strategy",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0585",
+      "date": "2018",
+      "title": "Smart-contract audits become standard practice after repeated hacks",
+      "tier": "MAJOR",
+      "branch": [
+        "SECURITY",
+        "DEFI"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0726",
+      "date": "2018",
+      "title": "EOS arbitration and account freezes raise governance concerns",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0730",
+      "date": "2018",
+      "title": "Bitcoin hashrate falls sharply late in the year",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_DATA",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0935",
+      "date": "2018",
+      "title": "Mining farms shut down as Bitcoin price collapses",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0980",
+      "date": "2018",
+      "title": "Binance relocates operations amid regulatory pressure",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1039",
+      "date": "2018",
+      "title": "BitConnect promoters face lawsuits and investigations",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "GOVERNMENTS"
+      ],
+      "research_state": "AFTERMATH_NEEDS_SPLIT",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1070",
+      "date": "2018",
+      "title": "MetaMask passes one million users",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1083",
+      "date": "2018",
+      "title": "Kyber Network brings on-chain liquidity aggregation",
+      "tier": "MAJOR",
+      "branch": [
+        "DEX",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1164",
+      "date": "2018",
+      "title": "Pincoin and iFan collapse in Vietnam amid fraud allegations",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "DISASTERS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1219",
+      "date": "2018",
+      "title": "Bittrex and Poloniex lose market share to Binance",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_DATA",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0109",
+      "date": "2019",
+      "title": "PlusToken becomes one of crypto's largest alleged Ponzi schemes",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0290",
+      "date": "2019",
+      "title": "Synthetix becomes an early major DeFi derivatives protocol",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0475",
+      "date": "2019",
+      "title": "Binance launches Launchpad IEO model",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "ICO"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0476",
+      "date": "2019",
+      "title": "IEO mania briefly replaces ICO fundraising",
+      "tier": "MAJOR",
+      "branch": [
+        "ICO",
+        "EXCHANGES"
+      ],
+      "research_state": "CONTEXT_NEEDS_DATA",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0577",
+      "date": "2019",
+      "title": "Wasabi Wallet CoinJoin usage grows",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "PRIVACY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0597",
+      "date": "2019",
+      "title": "Unstoppable Domains expands blockchain naming market",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0606",
+      "date": "2019",
+      "title": "DeFi term gains widespread use for open financial protocols",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0626",
+      "date": "2019",
+      "title": "EOS governance controversies intensify",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0629",
+      "date": "2019",
+      "title": "Polkadot token sales and governance develop before mainnet",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0738",
+      "date": "2019",
+      "title": "Alameda Research expands as a major market-making firm",
+      "tier": "MAJOR",
+      "branch": [
+        "FTX",
+        "MARKETS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0740",
+      "date": "2019",
+      "title": "PlusToken wallets become suspected source of market selling pressure",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_DATA",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0920",
+      "date": "2019",
+      "title": "PayPal and other companies leave Libra Association",
+      "tier": "MAJOR",
+      "branch": [
+        "STABLECOINS",
+        "INSTITUTIONS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0936",
+      "date": "2019",
+      "title": "New generation ASICs restore mining profitability",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0993",
+      "date": "2019",
+      "title": "Gemini launches crypto-custody services",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "SECURITY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1004",
+      "date": "2019",
+      "title": "Craig Wright and Calvin Ayre back Bitcoin SV ecosystem",
+      "tier": "MAJOR",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "FORKS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1019",
+      "date": "2019",
+      "title": "Hydra darknet market becomes major crypto-linked marketplace",
+      "tier": "MAJOR",
+      "branch": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1024",
+      "date": "2019",
+      "title": "Ryuk ransomware generates large crypto ransom payments",
+      "tier": "MAJOR",
+      "branch": [
+        "CRIME",
+        "BITCOIN"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1050",
+      "date": "2019",
+      "title": "Devcon Osaka highlights Ethereum 2.0 roadmap",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1052",
+      "date": "2019",
+      "title": "ETHDenver becomes a major community hackathon and conference",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1092",
+      "date": "2019",
+      "title": "Maker Stability Fee becomes a major governance lever",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "DAO",
+        "STABLECOINS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1102",
+      "date": "2019",
+      "title": "State-channel projects explore off-chain Ethereum scaling",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1113",
+      "date": "2019",
+      "title": "Gods Unchained gains traction as blockchain trading-card game",
+      "tier": "MAJOR",
+      "branch": [
+        "GAMING",
+        "NFT"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1114",
+      "date": "2019",
+      "title": "The Sandbox begins blockchain-based virtual-world expansion",
+      "tier": "MAJOR",
+      "branch": [
+        "GAMING",
+        "NFT"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1129",
+      "date": "2019",
+      "title": "MolochDAO demonstrates minimalist on-chain governance",
+      "tier": "MAJOR",
+      "branch": [
+        "DAO",
+        "GOVERNANCE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1157",
+      "date": "2019",
+      "title": "Wall Street Market darknet platform is seized",
+      "tier": "MAJOR",
+      "branch": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1165",
+      "date": "2019",
+      "title": "BitClub Network operators are charged over mining scheme",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "MINING",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-1220",
+      "date": "2019",
+      "title": "Coinbase lists more altcoins after years of conservative selection",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "ALTCOINS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0153",
+      "date": "2020",
+      "title": "China expands public testing of the digital yuan",
+      "tier": "MAJOR",
+      "branch": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0160",
+      "date": "2020",
+      "title": "Flash-loan attacks expose new DeFi security risks",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "HACKS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0346",
+      "date": "2020",
+      "title": "Switzerland adopts DLT legal reforms",
+      "tier": "MAJOR",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0375",
+      "date": "2020",
+      "title": "KuCoin suffers a major exchange hack",
+      "tier": "MAJOR",
+      "branch": [
+        "HACKS",
+        "EXCHANGES"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0388",
+      "date": "2020",
+      "title": "THORChain begins cross-chain liquidity development",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "DEX"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0400",
+      "date": "2020",
+      "title": "Optimistic rollups emerge in production experiments",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0407",
+      "date": "2020",
+      "title": "Aave introduces flash loans at scale",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0484",
+      "date": "2020",
+      "title": "Curve wars begin around stablecoin liquidity incentives",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "DEX"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0569",
+      "date": "2020",
+      "title": "Monero delistings increase on regulated exchanges",
+      "tier": "MAJOR",
+      "branch": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0574",
+      "date": "2020",
+      "title": "Tornado Cash governance token launches",
+      "tier": "MAJOR",
+      "branch": [
+        "PRIVACY",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0578",
+      "date": "2020",
+      "title": "Samourai Wallet Whirlpool gains privacy-focused Bitcoin users",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "PRIVACY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0628",
+      "date": "2020",
+      "title": "Hive launches as community fork of Steem",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "FORKS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0745",
+      "date": "2020",
+      "title": "Stone Ridge and NYDIG expand institutional Bitcoin infrastructure",
+      "tier": "MAJOR",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0748",
+      "date": "2020",
+      "title": "Robinhood crypto trading grows with retail speculation",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0750",
+      "date": "2020",
+      "title": "Wrapped Ether and wrapped-token usage becomes core DeFi plumbing",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0751",
+      "date": "2020",
+      "title": "Synthetix liquidity incentives help define early yield farming",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0756",
+      "date": "2020",
+      "title": "Yearn merges informally with several DeFi projects",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "GOVERNANCE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0757",
+      "date": "2020",
+      "title": "Nexus Mutual demonstrates crypto-native insurance",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "SECURITY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0897",
+      "date": "2020",
+      "title": "Flow blockchain launches from Dapper Labs",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0925",
+      "date": "2020",
+      "title": "JPM Coin begins commercial use",
+      "tier": "MAJOR",
+      "branch": [
+        "INSTITUTIONS",
+        "STABLECOINS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1042",
+      "date": "2020",
+      "title": "Forsage draws regulatory scrutiny as smart-contract pyramid scheme",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1103",
+      "date": "2020",
+      "title": "Optimistic rollup teams begin public testnets",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1116",
+      "date": "2020",
+      "title": "Sorare raises major funding for fantasy sports NFTs",
+      "tier": "MAJOR",
+      "branch": [
+        "GAMING",
+        "NFT"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1158",
+      "date": "2020",
+      "title": "DarkMarket is taken down in international operation",
+      "tier": "MAJOR",
+      "branch": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1167",
+      "date": "2020",
+      "title": "Forsage smart-contract scheme spreads globally",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "DEFI"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1199",
+      "date": "2020",
+      "title": "Omen and Gnosis prediction markets grow during elections",
+      "tier": "MAJOR",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1207",
+      "date": "2020",
+      "title": "Rarible launches NFT marketplace and governance token",
+      "tier": "MAJOR",
+      "branch": [
+        "NFT",
+        "DAO"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1208",
+      "date": "2020",
+      "title": "SuperRare establishes premium crypto-art marketplace model",
+      "tier": "MAJOR",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1209",
+      "date": "2020",
+      "title": "Nifty Gateway brings curated NFT drops to mainstream collectors",
+      "tier": "MAJOR",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1221",
+      "date": "2020",
+      "title": "Robinhood expands crypto access during retail-trading boom",
+      "tier": "MAJOR",
+      "branch": [
+        "EXCHANGES",
+        "ADOPTION"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0899",
+      "date": "2021",
+      "title": "Top Shot market cools sharply after early boom",
+      "tier": "MAJOR",
+      "branch": [
+        "NFT",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_MARKET_DATA",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-0390",
+      "date": "2022",
+      "title": "Cosmos IBC grows as an interchain communication standard",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_METRIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0634",
+      "date": "2022",
+      "title": "Terra collapse impacts Cosmos ecosystem confidence",
+      "tier": "MAJOR",
+      "branch": [
+        "ALTCOINS",
+        "CONTAGION"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0800",
+      "date": "2022",
+      "title": "FTX celebrity endorsers face lawsuits after collapse",
+      "tier": "MAJOR",
+      "branch": [
+        "FTX",
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "research_state": "AFTERMATH_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-1028",
+      "date": "2022",
+      "title": "Ransomware groups increasingly shift toward Monero",
+      "tier": "MAJOR",
+      "branch": [
+        "PRIVACY",
+        "CRIME"
+      ],
+      "research_state": "CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0918",
+      "date": "2023",
+      "title": "Crypto sports sponsorships unwind after bear market failures",
+      "tier": "MAJOR",
+      "branch": [
+        "CULTURE",
+        "DISASTERS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2023.json"
+    },
+    {
+      "id": "LORE-EVT-0844",
+      "date": "2024",
+      "title": "Linea expands as Consensys-backed zkEVM network",
+      "tier": "MAJOR",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0851",
+      "date": "2024",
+      "title": "Celebrity tokens spark insider-trading and disclosure concerns",
+      "tier": "MAJOR",
+      "branch": [
+        "MEMES",
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0856",
+      "date": "2024",
+      "title": "Bitcoin Core OP_CAT discussions revive covenant debate",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0857",
+      "date": "2024",
+      "title": "BitVM proposals stimulate Bitcoin smart-contract research",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0860",
+      "date": "2024",
+      "title": "Lightning capacity and usage debates continue amid stablecoin rise",
+      "tier": "MAJOR",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0927",
+      "date": "2024",
+      "title": "Major banks test tokenized deposits on permissioned networks",
+      "tier": "MAJOR",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_SPECIFIC_MILESTONE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-1150",
+      "date": "2024",
+      "title": "Bridge design shifts toward intents and native asset transfer",
+      "tier": "MAJOR",
+      "branch": [
+        "BRIDGES",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-1175",
+      "date": "2024",
+      "title": "Deepfake celebrity crypto scams become widespread",
+      "tier": "MAJOR",
+      "branch": [
+        "SCAMS",
+        "CULTURE",
+        "TECHNOLOGY"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-1217",
+      "date": "2024",
+      "title": "NFT lending liquidations rise as collateral values fall",
+      "tier": "MAJOR",
+      "branch": [
+        "NFT",
+        "DEFI",
+        "DISASTERS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0669",
+      "date": "2013",
+      "title": "Bitcoin Foundation faces internal controversies",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "GOVERNANCE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-0672",
+      "date": "2013",
+      "title": "Thailand Bitcoin-ban headlines spark debate over what constitutes a ban",
+      "tier": "LORE",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "research_state": "CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-0952",
+      "date": "2013",
+      "title": "Reddit Bitcoin tipping grows rapidly",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2013.json"
+    },
+    {
+      "id": "LORE-EVT-0445",
+      "date": "2014",
+      "title": "Dogecoin community raises funds for water wells in Kenya",
+      "tier": "LORE",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0680",
+      "date": "2014",
+      "title": "BitPay sponsors college football bowl game",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "CULTURE",
+        "ADOPTION"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0685",
+      "date": "2014",
+      "title": "Moolah and MintPal collapse adds to exchange-risk lore",
+      "tier": "LORE",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0881",
+      "date": "2014",
+      "title": "US government restricts further production of funded Casascius coins",
+      "tier": "LORE",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0913",
+      "date": "2014",
+      "title": "Bitcoin Bowl brings crypto branding to US college football",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "DUPLICATE_OR_CONTEXT",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0953",
+      "date": "2014",
+      "title": "ChangeTip popularizes tiny Bitcoin tips across social platforms",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-1007",
+      "date": "2014",
+      "title": "Nick Szabo becomes a recurring Satoshi-candidate subject in media",
+      "tier": "LORE",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0451",
+      "date": "2015",
+      "title": "21 Inc raises a massive Bitcoin startup funding round",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0955",
+      "date": "2015",
+      "title": "Bitcoin memes spread through Reddit and Bitcointalk communities",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-1017",
+      "date": "2015",
+      "title": "Evolution darknet market disappears in suspected exit scam",
+      "tier": "LORE",
+      "branch": [
+        "DARK_SIDE",
+        "SCAMS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0348",
+      "date": "2016",
+      "title": "Zug begins accepting Bitcoin for selected municipal payments",
+      "tier": "LORE",
+      "branch": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-1009",
+      "date": "2016",
+      "title": "Gavin Andresen says he believed a Wright signing demonstration",
+      "tier": "LORE",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-0709",
+      "date": "2017",
+      "title": "Roger Ver becomes a central public figure in Bitcoin Cash debate",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0711",
+      "date": "2017",
+      "title": "McAfee predicts extreme future Bitcoin price targets",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0714",
+      "date": "2017",
+      "title": "South Korean kimchi premium becomes a global market phenomenon",
+      "tier": "LORE",
+      "branch": [
+        "MARKETS",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0715",
+      "date": "2017",
+      "title": "Coinbase app tops US App Store during bull market",
+      "tier": "LORE",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0719",
+      "date": "2017",
+      "title": "Status ICO temporarily overwhelms Ethereum",
+      "tier": "LORE",
+      "branch": [
+        "ICO",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0720",
+      "date": "2017",
+      "title": "BAT token sale sells out rapidly",
+      "tier": "LORE",
+      "branch": [
+        "ICO",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0957",
+      "date": "2017",
+      "title": "Wojak trading memes become crypto-native market language",
+      "tier": "LORE",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-1056",
+      "date": "2017",
+      "title": "Lamborghini becomes a shorthand symbol of crypto wealth",
+      "tier": "LORE",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_RESEARCHED",
+      "source_confidence": "MEDIUM",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0471",
+      "date": "2018",
+      "title": "EOS freezes selected accounts shortly after mainnet launch",
+      "tier": "LORE",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0958",
+      "date": "2018",
+      "title": "Bogdanoff pump-and-dump memes spread across crypto forums",
+      "tier": "LORE",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "LORE_NEEDS_PRIMARY_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0959",
+      "date": "2018",
+      "title": "McAfee price-prediction wager becomes crypto folklore",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "LORE_NEEDS_PRIMARY_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0970",
+      "date": "2018",
+      "title": "Vitalik appears in viral Devcon unicorn shirts and memes",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "research_state": "LORE_NEEDS_PRIMARY_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1013",
+      "date": "2018",
+      "title": "Ross Ulbricht supporters adopt Free Ross campaign",
+      "tier": "LORE",
+      "branch": [
+        "DARK_SIDE",
+        "CULTURE"
+      ],
+      "research_state": "LORE_NEEDS_PRIMARY_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1055",
+      "date": "2018",
+      "title": "Consensus conference becomes symbol of crypto-industry excess",
+      "tier": "LORE",
+      "branch": [
+        "CULTURE"
+      ],
+      "research_state": "LORE_NEEDS_PRIMARY_SOURCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1058",
+      "date": "2018",
+      "title": "Crypto winter empties conference halls and kills projects",
+      "tier": "LORE",
+      "branch": [
+        "CULTURE",
+        "DISASTERS"
+      ],
+      "research_state": "CONTEXT_NEEDS_QUANTIFICATION",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-1198",
+      "date": "2018",
+      "title": "Augur handles controversial assassination-market questions",
+      "tier": "LORE",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_SOURCE",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0731",
+      "date": "2019",
+      "title": "Lightning Torch travels globally across Twitter users",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0732",
+      "date": "2019",
+      "title": "Jack Dorsey participates in Lightning Torch",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0735",
+      "date": "2019",
+      "title": "Bakkt struggles initially despite heavy institutional hype",
+      "tier": "LORE",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_DATA",
+      "source_confidence": "MEDIUM",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0883",
+      "date": "2019",
+      "title": "Steel seed backups gain popularity after wallet-loss stories",
+      "tier": "LORE",
+      "branch": [
+        "SECURITY",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0884",
+      "date": "2019",
+      "title": "Stefan Thomas lost-password Bitcoin story becomes widely known",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0960",
+      "date": "2019",
+      "title": "Stacking sats becomes a Bitcoin-community slogan",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2019.json"
+    },
+    {
+      "id": "LORE-EVT-0747",
+      "date": "2020",
+      "title": "Grayscale television ads market crypto to mainstream investors",
+      "tier": "LORE",
+      "branch": [
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0749",
+      "date": "2020",
+      "title": "Robinhood outage controversies affect crypto traders",
+      "tier": "LORE",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0754",
+      "date": "2020",
+      "title": "Andre Cronje 'test in prod' culture becomes famous in DeFi",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "DEFI",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0893",
+      "date": "2020",
+      "title": "Satoshi-era Bitcoin movement sparks speculation despite no link to Satoshi",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES",
+        "MARKETS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0922",
+      "date": "2020",
+      "title": "Libra project rebrands to Diem",
+      "tier": "LORE",
+      "branch": [
+        "STABLECOINS",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0961",
+      "date": "2020",
+      "title": "Number go up becomes a recurring Bitcoin meme",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0997",
+      "date": "2020",
+      "title": "Coinbase mission statement limits employee political activism and sparks debate",
+      "tier": "LORE",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1192",
+      "date": "2020",
+      "title": "CipherTrace claims Monero tracing capabilities and sparks debate",
+      "tier": "LORE",
+      "branch": [
+        "PRIVACY",
+        "SECURITY",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0766",
+      "date": "2021",
+      "title": "Beeple appears on major mainstream television after NFT sale",
+      "tier": "LORE",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "research_state": "LORE_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-0963",
+      "date": "2021",
+      "title": "Probably nothing becomes NFT Twitter shorthand",
+      "tier": "LORE",
+      "branch": [
+        "NFT",
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-0605",
+      "date": "2022",
+      "title": "ConstitutionDAO token continues trading after DAO disbands",
+      "tier": "LORE",
+      "branch": [
+        "DAO",
+        "CULTURE"
+      ],
+      "research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0911",
+      "date": "2022",
+      "title": "Pak and Julian Assange launch Censored NFT project",
+      "tier": "LORE",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "research_state": "SOURCE_GAP_CONFIRMED",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0965",
+      "date": "2022",
+      "title": "Few understand this becomes post-boom crypto irony",
+      "tier": "LORE",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0972",
+      "date": "2022",
+      "title": "Vitalik attends ETHDenver in iconic crypto-culture appearances",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "research_state": "EDITORIAL_CONTEXT_REVIEWED",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0986",
+      "date": "2022",
+      "title": "SBF apology thread follows FTX collapse",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "FTX",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0981",
+      "date": "2022-01",
+      "title": "Bloomberg estimate puts CZ among the world's richest people",
+      "tier": "LORE",
+      "branch": [
+        "PEOPLE",
+        "EXCHANGES"
+      ],
+      "research_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+      "source_confidence": "MEDIUM_HIGH",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0894",
+      "date": "2023",
+      "title": "Ancient Bitcoin wallets moving coins draw renewed attention",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2023.json"
+    },
+    {
+      "id": "LORE-EVT-0850",
+      "date": "2024",
+      "title": "Meme-token presales become a speculative craze",
+      "tier": "LORE",
+      "branch": [
+        "MEMES",
+        "MARKETS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0895",
+      "date": "2024",
+      "title": "Dormant whale awakenings become recurring market-watch stories",
+      "tier": "LORE",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES",
+        "MARKETS"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    },
+    {
+      "id": "LORE-EVT-0413",
+      "date": "2014",
+      "title": "Ethereum Name Service concept emerges from naming-system research",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2014.json"
+    },
+    {
+      "id": "LORE-EVT-0932",
+      "date": "2015",
+      "title": "Hashnest and hosted mining products expand",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0954",
+      "date": "2015",
+      "title": "ChangeTip is acquired by Airbnb-linked talent move",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "research_state": "CLAIM_NEEDS_REWRITE",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2015.json"
+    },
+    {
+      "id": "LORE-EVT-0156",
+      "date": "2016",
+      "title": "Parity/Ethereum ecosystem grows around smart-contract infrastructure",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2016.json"
+    },
+    {
+      "id": "LORE-EVT-0721",
+      "date": "2017",
+      "title": "OmiseGO becomes an early high-profile Ethereum token",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "ALTCOINS",
+        "ETHEREUM"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2017.json"
+    },
+    {
+      "id": "LORE-EVT-0474",
+      "date": "2018",
+      "title": "Dharma and early lending protocols expand Ethereum DeFi",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "DEFI"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2018.json"
+    },
+    {
+      "id": "LORE-EVT-0755",
+      "date": "2020",
+      "title": "Cover Protocol exploit and token relaunch show DeFi fragility",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "DEFI",
+        "HACKS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-1031",
+      "date": "2020",
+      "title": "Mt Gox rehabilitation plan negotiations continue",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2020.json"
+    },
+    {
+      "id": "LORE-EVT-0779",
+      "date": "2021",
+      "title": "BlockFi expands athlete sponsorships, including Cade Cunningham",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "CEFI",
+        "CULTURE"
+      ],
+      "research_state": "CLAIM_CORRECTED",
+      "source_confidence": "HIGH",
+      "source_count": 1,
+      "year_file": "archive/crypto-history/years/raw/2021.json"
+    },
+    {
+      "id": "LORE-EVT-1054",
+      "date": "2022",
+      "title": "Permissionless and DeFi conferences reflect industry expansion",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "research_state": "CONTEXT_NEEDS_NARROWING",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2022.json"
+    },
+    {
+      "id": "LORE-EVT-0839",
+      "date": "2024",
+      "title": "Manta Pacific and other L2s compete with points campaigns",
+      "tier": "DEEP_CUT",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "source_confidence": "LOW",
+      "source_count": 0,
+      "year_file": "archive/crypto-history/years/raw/2024.json"
+    }
+  ]
+}
