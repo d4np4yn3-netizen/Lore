@@ -6,11 +6,10 @@
   "evidence_file": "2019.json",
   "note": "2019 reconciliation from preserved evidence. MOVED rows have corrected dates outside 2019 and must be incorporated into their correct year during that year's reconciliation.",
   "counts": {
-    "CANONICAL": 37,
+    "CANONICAL": 38,
     "CONTEXT": 26,
     "MERGED": 5,
-    "MOVED": 2,
-    "NEEDS_RESEARCH": 1
+    "MOVED": 2
   },
   "rows": [
     {
@@ -967,12 +966,12 @@
         "SCAMS",
         "CULTURE"
       ],
-      "legacy_research_state": "DATE_CORRECTED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_YEAR",
+      "resolution": "CANONICAL",
+      "canonical_key": "2019-bbc-missing-cryptoqueen",
       "legacy_canonical_event_id": null,
       "source_confidence": "HIGH",
-      "note": null,
+      "note": "BBC Sounds launched The Missing Cryptoqueen in 2019; retain as a culture/media event in the OneCoin story.",
       "moved_to_year": null
     },
     {
@@ -1234,5 +1233,5 @@
       "moved_to_year": null
     }
   ],
-  "status": "IN_PROGRESS"
+  "status": "COMPLETE"
 }
