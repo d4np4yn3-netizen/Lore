@@ -7,13 +7,14 @@ Updated 2026-09-26. Read with AGENTS.md and PROJECT-MEMORY.md.
 Dan approved 001's exact illustration, **Legendary** rarity, bold
 `UNTRACEABLE PAYMENTS.` phrase and complete numbered front. The approved
 printer-sized front and editable SVG are in
-`cards/crypto/season-01/blind-signatures-master-01/`. The 816×1110, 300-DPI
-front has a QR decoded to `/crypto/001/`, a LORE story page with four clues and
-the original Chaum paper. Site access is owner-private; public collectors
-cannot yet open the route. Physical proof and printed camera scan remain open;
-`print_release` is false. The prior review proof remains historical.
+`cards/crypto/season-01/blind-signatures-master-01/`. The current v2 816×1110, 300-DPI front has a QR for the public Vercel route
+`https://lore-site-v1.vercel.app/crypto/001/`, which redirects to the story,
+four clues and the original Chaum paper. The owner-private QR v1 and prior
+review proof remain historical. Physical proof and printed camera scan remain
+open; `print_release` is false.
 
-The 11 earlier approved Crypto cards still have print derivatives with demo
+The 11 earlier approved Crypto cards remain in the canonical repository but
+are not listed on the public site; they still have print derivatives with demo
 QRs. Their collector numbers and the remaining rarity allocation are not yet
 approved. The phrase treatment is bold at the subject-label size for the print
 master. Keep each new approval with its print derivative.
