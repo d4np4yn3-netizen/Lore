@@ -72,15 +72,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_QUANTIFICATION",
-        "exact_date": "2018",
-        "summary": "This row describes the 2018 crypto-winter drawdown and industry contraction rather than a single event.",
-        "significance": "Keep as era context, but use source-specific market indices and project/funding data before publication.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "The 2018 crypto winter followed the late-2017 peak, with Bitcoin and most crypto assets suffering severe drawdowns and many ICO-era projects failing.",
+        "significance": "Major era node for the book/timeline, but not a single-day event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Do not score until quantified or collapsed into a single Crypto Winter canonical record."
+        "notes": "Can score only as an era/concept card, not as a discrete event."
       }
     },
     {
@@ -122,15 +122,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
-        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Dai's survival and adoption through the bear market strengthened confidence in decentralized stablecoin design.",
+        "significance": "Context under Dai's 2017 launch.",
+        "source_confidence": "MEDIUM",
         "sources": [],
-        "canonical_event_id": "LORE-EVT-0285",
-        "relation": "AFTERMATH",
-        "notes": null
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -464,15 +464,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "Rollup research was developing during this period, but the row does not identify a specific paper, implementation or public testnet.",
-        "significance": "Replace with a named optimistic-rollup or ZK-rollup milestone.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Rollup research increasingly influenced Ethereum's long-term scaling discussion.",
+        "significance": "Research trend; use specific rollup papers or testnets as discrete events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -599,15 +599,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "EOS block producers froze selected accounts shortly after mainnet launch, prompting debate over governance and decentralization.",
-        "significance": "Potentially strong governance LORE, but the exact freeze orders, dates and account counts need primary EOS governance records.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "EOS block-producer interventions and account freezes soon after launch raised governance questions.",
+        "significance": "Keep as governance context unless a precise order/date is promoted.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -621,15 +621,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
-        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Maker/Dai gained credibility during the 2018 bear market.",
+        "significance": "Context under Dai's launch and resilience.",
+        "source_confidence": "MEDIUM",
         "sources": [],
-        "canonical_event_id": "LORE-EVT-0285",
-        "relation": "AFTERMATH",
-        "notes": null
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -669,15 +669,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "Dharma and other early Ethereum lending projects expanded the emerging on-chain credit category.",
-        "significance": "Trend/context rather than a single dated event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Dharma and other early protocols helped expand Ethereum lending before DeFi Summer.",
+        "significance": "Sector-development context.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -747,15 +747,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "Smart-contract auditing became increasingly standard after repeated high-profile Ethereum and DeFi failures.",
-        "significance": "Security-practice trend rather than a discrete event; individual audit failures and exploit postmortems are better card candidates.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Smart-contract auditing became increasingly routine after DAO, Parity and other failures.",
+        "significance": "Security-practice trend rather than one event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -797,15 +797,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_QUANTIFICATION",
-        "exact_date": "2018",
-        "summary": "This row describes the 2018 crypto-winter drawdown and industry contraction rather than a single event.",
-        "significance": "Keep as era context, but use source-specific market indices and project/funding data before publication.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Bitcoin lost more than four-fifths of its value from the late-2017 peak to the late-2018 trough, depending on exchange/index.",
+        "significance": "Quantifies the Crypto Winter era rather than a separate event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Do not score until quantified or collapsed into a single Crypto Winter canonical record."
+        "canonical_event_id": "LORE-EVT-0104",
+        "relation": "CONTEXT",
+        "notes": null
       }
     },
     {
@@ -820,15 +820,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NEEDS_REWRITE",
-        "exact_date": "2018",
-        "summary": "Ether fell sharply during 2018, but the current wording attributes the decline to ICO treasury selling without sufficient causal evidence.",
-        "significance": "Keep the market decline; remove the unsupported causal implication unless quantified evidence is added.",
-        "source_confidence": "LOW",
+        "state": "CLAIM_CORRECTED",
+        "exact_date": null,
+        "summary": "Ether also collapsed sharply in 2018; the prior wording improperly implied ICO treasury selling was a proven primary cause.",
+        "significance": "Keep the drawdown as market context while removing unsupported causal attribution.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "No standalone score."
       }
     },
     {
@@ -925,15 +925,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
+        "state": "CONTEXT_ONLY",
         "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "summary": "Steemit communities debated delegated proof-of-stake governance and stakeholder power.",
+        "significance": "The 2020 Steem/Hive split is the stronger discrete event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -976,21 +976,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "Bitmain's Bitcoin Cash holdings became a topic of concern during the bear market.",
-        "significance": "Potential mining/corporate LORE but requires the IPO prospectus or audited figures before publication.",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Bitmain's Bitcoin Cash exposure drew scrutiny during its IPO filing and the bear market.",
+        "significance": "Corporate/mining context rather than a standalone event.",
         "source_confidence": "MEDIUM",
-        "sources": [
-          {
-            "title": "TechCrunch — Bitmain Hong Kong IPO filing",
-            "url": "https://techcrunch.com/2018/09/26/bitmain-hong-kong-ipo/",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
+        "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1005,15 +999,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_DATA",
-        "exact_date": "2018",
-        "summary": "Bitcoin hashrate fell materially late in 2018 as mining economics deteriorated.",
-        "significance": "Important mining-cycle context, but requires a defined network-data source and date range.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Bitcoin network hashrate declined late in 2018 as mining economics weakened.",
+        "significance": "Quantitative mining-cycle context; no standalone score without a defined dataset.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1056,15 +1050,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2018",
-        "summary": "Reports described miners switching off unprofitable hardware during the 2018 price collapse.",
-        "significance": "Visually strong mining-winter story, but needs a concrete shutdown, region or equipment-price event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Some miners shut down older hardware during the 2018 price collapse as profitability compressed.",
+        "significance": "Mining-winter context rather than one shutdown event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1106,15 +1100,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "LORE_NEEDS_PRIMARY_SOURCE",
-        "exact_date": "2018",
-        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
-        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
-        "source_confidence": "LOW",
+        "state": "CULTURE_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "Bogdanoff 'pump/dump' memes circulated widely in crypto trading culture.",
+        "significance": "Fun internet-lore background with diffuse provenance.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exclude from historical score unless a traceable origin is found."
       }
     },
     {
@@ -1129,11 +1123,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "LORE_NEEDS_PRIMARY_SOURCE",
-        "exact_date": "2018",
-        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
-        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
-        "source_confidence": "LOW",
+        "state": "CULTURE_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "John McAfee's extreme Bitcoin price wager became recurring crypto folklore.",
+        "significance": "Culture background; primary-post provenance needed for a card.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -1152,11 +1146,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "LORE_NEEDS_PRIMARY_SOURCE",
-        "exact_date": "2018",
-        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
-        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
-        "source_confidence": "LOW",
+        "state": "CULTURE_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "Vitalik Buterin's conference clothing and unicorn imagery became recurring Ethereum meme culture.",
+        "significance": "Fun book/social material rather than a historical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -1174,15 +1168,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "Binance shifted jurisdictions and corporate structures amid changing regulatory conditions.",
-        "significance": "Too broad for one event; choose a specific office move, regulator statement or corporate announcement.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Binance's jurisdictional and corporate footprint shifted as regulatory conditions changed.",
+        "significance": "Too broad for a single event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1224,11 +1218,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "LORE_NEEDS_PRIMARY_SOURCE",
-        "exact_date": "2018",
-        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
-        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
-        "source_confidence": "LOW",
+        "state": "CULTURE_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "The Free Ross campaign grew as supporters sought clemency for Ross Ulbricht.",
+        "significance": "Long-running advocacy context rather than one 2018 milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -1274,11 +1268,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "AFTERMATH_NEEDS_SPLIT",
-        "exact_date": "2018 onward",
-        "summary": "BitConnect promoters faced multiple civil and criminal proceedings after the platform collapsed.",
-        "significance": "Split into individual enforcement milestones if any merit separate cards.",
-        "source_confidence": "LOW",
+        "state": "AFTERMATH_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "BitConnect's collapse generated years of civil and criminal proceedings against promoters and operators.",
+        "significance": "Specific enforcement or conviction milestones should be scored separately.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": "LORE-EVT-0037",
         "relation": "AFTERMATH",
@@ -1295,11 +1289,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "LORE_NEEDS_PRIMARY_SOURCE",
-        "exact_date": "2018",
-        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
-        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
-        "source_confidence": "LOW",
+        "state": "CULTURE_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "Consensus and other 2018 conferences became symbols of crypto-industry boom-era spending and hype.",
+        "significance": "Culture context rather than a discrete event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -1317,15 +1311,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_QUANTIFICATION",
-        "exact_date": "2018",
-        "summary": "This row describes the 2018 crypto-winter drawdown and industry contraction rather than a single event.",
-        "significance": "Keep as era context, but use source-specific market indices and project/funding data before publication.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "The bear market cut funding, projects and industry exuberance.",
+        "significance": "Book-era context under Crypto Winter.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Do not score until quantified or collapsed into a single Crypto Winter canonical record."
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1339,15 +1333,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "MetaMask passed an early major user milestone during Ethereum's expansion.",
-        "significance": "A concrete user-count announcement could be useful adoption history, but the current row needs a first-party dated source.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "MetaMask user adoption expanded substantially through the ICO/dapp era.",
+        "significance": "Use a first-party user milestone if ever promoted to a card.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1361,20 +1355,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
         "summary": "Kyber Network became an early on-chain liquidity protocol.",
-        "significance": "Needs exact mainnet launch and primary project source before scoring.",
-        "source_confidence": "LOW",
+        "significance": "Use a precise mainnet launch if card-scored.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
       "id": "LORE-EVT-1101",
-      "date": "2018",
+      "date": "2017-08",
       "title": "Plasma research inspires early Ethereum scaling roadmaps",
       "branch": [
         "ETHEREUM",
@@ -1383,15 +1377,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": "2017-2018",
-        "summary": "Plasma scaling research began before 2018 and influenced early Ethereum scaling roadmaps.",
-        "significance": "Current year assignment is too blunt; replace with the Plasma paper/project milestone if retained.",
-        "source_confidence": "LOW",
+        "state": "DATE_OR_CLAIM_CORRECTED",
+        "exact_date": "2017-08",
+        "summary": "The original Plasma scaling proposal dates to 2017 rather than 2018.",
+        "significance": "Plasma influenced Ethereum scaling research before rollups became dominant.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to 2017 during normalization."
       }
     },
     {
@@ -1439,15 +1433,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
-        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Maker token voting operated as one of DeFi's earliest live governance systems.",
+        "significance": "Governance context under Maker/Dai.",
+        "source_confidence": "MEDIUM",
         "sources": [],
-        "canonical_event_id": "LORE-EVT-0285",
-        "relation": "AFTERMATH",
-        "notes": null
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1489,15 +1483,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "Pincoin and iFan collapsed in Vietnam amid allegations of a very large token-investment fraud.",
-        "significance": "Potential major scam-history entry, but exact losses, entities and government findings need primary/local enforcement sources.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Pincoin and iFan were widely reported as major Vietnam-linked token investment frauds in 2018.",
+        "significance": "Potential scam-history material, but local enforcement evidence is not strong enough for a high-confidence card score.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1539,21 +1533,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2018",
-        "summary": "Augur's permissionless markets generated controversy over extreme or disturbing prediction-market questions.",
-        "significance": "Potentially important prediction-market governance LORE, but specific markets and dates need reliable sourcing.",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Augur's permissionless markets generated controversy over extreme or offensive market questions.",
+        "significance": "Governance/culture context under Augur's launch.",
         "source_confidence": "MEDIUM",
-        "sources": [
-          {
-            "title": "CoinDesk — Augur goes live",
-            "url": "https://www.coindesk.com/markets/2018/07/10/augur-is-live-after-three-years-of-development/",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-1197",
-        "relation": "AFTERMATH",
-        "notes": null
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1595,15 +1583,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_DATA",
-        "exact_date": "2018",
-        "summary": "Binance gained substantial exchange market share while earlier leaders such as Bittrex and Poloniex lost relative dominance.",
-        "significance": "Market-structure trend that needs exchange-volume data before publication.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Binance gained market share while earlier exchanges lost relative dominance.",
+        "significance": "Market-structure context requiring exchange-volume data; no standalone score.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
