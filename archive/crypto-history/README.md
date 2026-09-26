@@ -57,3 +57,19 @@ These are research labels, not rarity.
 Several historical records can collapse into one strong physical card. The DAO creation, fundraise, exploit, debate and fork can remain separate historical records while ultimately producing only one or two cards.
 
 Card scoring starts only after the relevant historical record has been evidence-reviewed.
+
+## Evidence-phase storage
+
+The original `events.json` remains the broad-capture archive and preserves the permanent `LORE-EVT-####` IDs gathered during discovery.
+
+Because the discovery file has grown beyond 1,200 records, detailed source verification is now stored in smaller canonical year shards under `years/YYYY.json`. These files are the working source of truth for the evidence phase and are designed to avoid oversized-file read/write failures.
+
+Year shards:
+
+- contain canonical researched events rather than blindly copying every raw discovery row;
+- retain `source_event_ids` where a canonical event maps back to known discovery records;
+- explicitly mark records as `VERIFIED`, context, or `RESEARCH_NEEDED...`;
+- keep card scoring at `NOT_SCORED` until the research/deduplication pass is complete;
+- may merge several discovery rows into one historical event when they describe the same underlying moment.
+
+The master archive will be regenerated/indexed from the year shards after the evidence pass instead of repeatedly rewriting the oversized discovery JSON.
