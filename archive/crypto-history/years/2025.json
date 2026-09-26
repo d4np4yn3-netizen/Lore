@@ -4,8 +4,30 @@
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
   "score_status": "NOT_STARTED",
-  "event_count": 13,
+  "event_count": 14,
   "events": [
+    {
+      "id": "LORE-CAN-2025-012",
+      "date": "2025",
+      "title": "Corporate Bitcoin treasury strategies expand beyond early adopters",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "research_state": "CONTEXT_VERIFIED",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "More public companies adopted or expanded Bitcoin treasury strategies during 2025, while Strategy raised large amounts of capital and ended the year holding 713,502 BTC according to its annual report.",
+      "significance": "Corporate Bitcoin accumulation evolved from a few isolated adopters into a distinct capital-markets strategy.",
+      "sources": [
+        {
+          "title": "Strategy 2025 Annual Report",
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Context node; individual treasury-company launches can be separate events if card-worthy."
+    },
     {
       "id": "LORE-CAN-2025-001",
       "date": "2025-01-23",
@@ -142,6 +164,41 @@
       "relation": "SUBEVENT"
     },
     {
+      "id": "LORE-CAN-2025-014",
+      "date": "2025-03-07 to 2025-04-24",
+      "title": "US banking regulators roll back several crypto-specific supervisory hurdles",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0873"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "US banking regulators rolled back several earlier crypto-specific supervisory hurdles: the OCC removed its prior non-objection process on March 7, the FDIC rescinded its prior-notification requirement on March 28, and the Federal Reserve withdrew earlier crypto and dollar-token guidance on April 24.",
+      "significance": "The sequence materially changed the regulatory posture for banks considering permissible crypto custody, stablecoin and distributed-ledger activities.",
+      "sources": [
+        {
+          "title": "OCC — Clarifies Bank Authority for Crypto Activities",
+          "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-16.html",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "FDIC — Banks May Engage in Permissible Crypto Activities Without Prior Approval",
+          "url": "https://www.fdic.gov/news/press-releases/2025/fdic-clarifies-process-banks-engage-crypto-related-activities",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Federal Reserve — 2025 press release index",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/2025-press.htm",
+          "type": "CENTRAL_BANK"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2025-007",
       "date": "2025-03-13",
       "title": "BlackRock's BUIDL tokenized fund passes $1 billion AUM",
@@ -255,28 +312,6 @@
       "score_status": "NOT_SCORED"
     },
     {
-      "id": "LORE-CAN-2025-012",
-      "date": "2025",
-      "title": "Corporate Bitcoin treasury strategies expand beyond early adopters",
-      "branches": [
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
-      "research_state": "CONTEXT_VERIFIED",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "More public companies adopted or expanded Bitcoin treasury strategies during 2025, while Strategy raised large amounts of capital and ended the year holding 713,502 BTC according to its annual report.",
-      "significance": "Corporate Bitcoin accumulation evolved from a few isolated adopters into a distinct capital-markets strategy.",
-      "sources": [
-        {
-          "title": "Strategy 2025 Annual Report",
-          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
-          "type": "REGULATORY_FILING"
-        }
-      ],
-      "score_status": "NOT_SCORED",
-      "notes": "Context node; individual treasury-company launches can be separate events if card-worthy."
-    },
-    {
       "id": "LORE-CAN-2025-013",
       "date": "2025-12-03T21:49:11Z",
       "title": "Ethereum activates Fusaka and PeerDAS",
@@ -302,5 +337,6 @@
       ],
       "score_status": "NOT_SCORED"
     }
-  ]
+  ],
+  "updated": "2026-09-26"
 }
