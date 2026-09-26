@@ -1603,7 +1603,7 @@
     {
       "id": "LORE-EVT-0569",
       "date": "2020",
-      "title": "Monero delistings increase on regulated exchanges",
+      "title": "ShapeShift delists Monero, Zcash and Dash over regulatory risk",
       "branch": [
         "PRIVACY",
         "REGULATION"
@@ -1611,12 +1611,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_EXAMPLE",
+        "exact_date": "2020-11",
+        "summary": "ShapeShift removed Monero, Zcash and Dash from its trading platform, with the company saying the delistings were intended to reduce regulatory risk.",
+        "significance": "The delisting was an early high-profile sign that privacy-focused crypto assets faced increasing access pressure from regulated or compliance-conscious trading platforms.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — ShapeShift delists privacy coins for regulatory risk",
+            "url": "https://www.coindesk.com/business/2020/11/10/shapeshift-delists-privacy-coin-zcash-over-regulatory-concerns",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1661,12 +1667,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_RESEARCHED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Samourai Wallet's Whirlpool CoinJoin system was actively used by privacy-focused Bitcoin users in 2020, with the project publishing research into thousands of post-mix transactions.",
+        "significance": "This establishes meaningful usage but not one clean 2020 adoption milestone, so the row belongs as privacy context rather than a standalone card event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Samourai Wallet — post-Whirlpool spend research",
+            "url": "https://medium.com/samourai-wallet/investigating-address-reuse-within-post-mix-spend-transactions-44b0647dee65",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1991,7 +2003,7 @@
     {
       "id": "LORE-EVT-0745",
       "date": "2020",
-      "title": "Stone Ridge and NYDIG expand institutional Bitcoin infrastructure",
+      "title": "Stone Ridge discloses 10,000+ BTC treasury as NYDIG expands",
       "branch": [
         "INSTITUTIONS",
         "BITCOIN"
@@ -1999,12 +2011,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-13",
+        "summary": "NYDIG announced a $50 million growth-equity raise while parent Stone Ridge Holdings Group disclosed that it had purchased more than 10,000 BTC, then worth more than $100 million, as a primary treasury reserve asset.",
+        "significance": "The announcement combined institutional custody infrastructure with another large corporate treasury allocation during Bitcoin's 2020 institutional turn.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NYDIG — Stone Ridge treasury Bitcoin and $50M funding",
+            "url": "https://www.prnewswire.com/news-releases/nydig-raises-50m-in-growth-equity-funding-nydig-parent-stone-ridge-holdings-group-announces-more-than-100m-in-bitcoin-as-primary-treasury-reserve-asset-301151162.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2077,12 +2095,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_NEEDS_SPECIFIC_METRIC",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Robinhood's customer base and retail trading activity expanded rapidly during 2020, alongside wider retail market participation.",
+        "significance": "The current wording does not identify a crypto-specific launch or clean usage milestone, so it remains context rather than a canonical event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Robinhood SEC filing — March 2020 outages",
+            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387921000029/hood-20210630.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2091,7 +2115,7 @@
     {
       "id": "LORE-EVT-0749",
       "date": "2020",
-      "title": "Robinhood outage controversies affect crypto traders",
+      "title": "Robinhood suffers major March 2020 trading outages",
       "branch": [
         "EXCHANGES",
         "CULTURE"
@@ -2099,15 +2123,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SCOPE_QUALIFIER",
+        "exact_date": "2020-03-02 to 2020-03-09",
+        "summary": "Robinhood suffered major platform outages on March 2–3 and again on March 9 during exceptional market volatility and record demand.",
+        "significance": "The outages became an important retail-trading infrastructure story, but the documented March failures were platform-wide and should not be portrayed as specifically a cryptocurrency outage.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Robinhood — Founders update on March 2020 outages",
+            "url": "https://robinhood.com/us/en/newsroom/an-update-from-robinhoods-founders/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Robinhood SEC filing — March 2020 outages",
+            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387921000029/hood-20210630.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as adjacent retail-trading context; not strongly crypto-specific."
       }
     },
     {
@@ -2121,11 +2156,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "summary": "Wrapped Ether and wrapped-token standards became deeply embedded in DeFi liquidity pools, lending markets and token interfaces during the 2020 expansion.",
+        "significance": "This is protocol-plumbing context rather than a discrete dated event; individual WETH/WBTC launches are cleaner history nodes.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2242,11 +2277,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "summary": "Andre Cronje's rapid, experimental DeFi development style became closely associated with the 2020 Yearn era and the phrase 'test in prod.'",
+        "significance": "The cultural theme helps explain DeFi Summer's risk appetite but lacks one canonical timestamp and should not be scored independently.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2284,7 +2319,7 @@
     {
       "id": "LORE-EVT-0756",
       "date": "2020",
-      "title": "Yearn merges informally with several DeFi projects",
+      "title": "Yearn launches a rapid DeFi merger and collaboration spree",
       "branch": [
         "DEFI",
         "GOVERNANCE"
@@ -2292,12 +2327,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-11 to 2020-12",
+        "summary": "Yearn announced a rapid sequence of integrations/merger-style collaborations with Pickle Finance, Cream Finance, Cover Protocol, Akropolis and SushiSwap; SushiSwap was described as the fifth such deal on 1 December.",
+        "significance": "The spree was an unusual experiment in protocol-to-protocol consolidation and shared development without conventional corporate mergers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Yearn announces fifth merger, with SushiSwap",
+            "url": "https://www.theblock.co/news/defi/2020-12-01-defi-protocol-yearn-finance-sushiswap-merger-86128",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2489,12 +2530,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-27",
+        "summary": "JPMorgan said JPM Coin had entered commercial use with a large international technology client for cross-border payments and created the Onyx blockchain business unit.",
+        "significance": "A major global bank moving its own blockchain-based deposit representation into real commercial payments was a key institutional tokenization milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — JPM Coin ready for commercial use / Onyx",
+            "url": "https://www.theblock.co/amp/linked/82427/jpmorgan-blockchain-unit-jpm-coin-ready-commercial-use",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2512,12 +2559,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED_WITH_EXAMPLE",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Publicly listed Bitcoin miners expanded aggressively in 2020; Riot, for example, placed large S19-series orders and laid out plans to scale toward multi-exahash capacity.",
+        "significance": "The year marks the rise of public-market Bitcoin-mining companies, but the raw title is a sector trend rather than one event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Riot — path to 2 EH/s through 2020 miner expansion",
+            "url": "https://www.riotplatforms.com/riot-blockchain-to-hit-2-eh-s-in-total-hash-rate-with-new-purchase-of-5100-s19-pro-antminers-from-bitmain/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2535,10 +2588,10 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_NEEDS_PROVENANCE",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "summary": "'Number go up' became a recurring ironic shorthand in Bitcoin discourse for price-driven adoption narratives.",
+        "significance": "The phrase is culturally relevant but lacks a single verified 2020 origin event, so it belongs in the culture glossary rather than the canonical event timeline.",
         "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
@@ -2648,11 +2701,11 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_RESEARCHED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "summary": "Mt. Gox's civil-rehabilitation process continued through plan negotiations and deadline extensions during 2020.",
+        "significance": "This is procedural aftermath in the long Mt. Gox creditor saga rather than a distinct high-value historical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2662,7 +2715,7 @@
     {
       "id": "LORE-EVT-1042",
       "date": "2020",
-      "title": "Forsage draws regulatory scrutiny as smart-contract pyramid scheme",
+      "title": "Philippines SEC moves against Forsage",
       "branch": [
         "SCAMS",
         "DEFI"
@@ -2670,12 +2723,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-06-30 to 2020-09-30",
+        "summary": "The Philippines Securities and Exchange Commission warned on 30 June that Forsage was unregistered and unauthorized to solicit investments, then publicized a cease-and-desist order in September.",
+        "significance": "The action was an early regulatory confrontation with a smart-contract-based pyramid-style investment scheme.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Philippines SEC — Forsage advisory",
+            "url": "https://appointment.sec.gov.ph/advisories-2020/forsage/",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Philippines SEC — cease and desist against Forsage",
+            "url": "https://www.sec.gov.ph/pr-2020/sec-issues-cease-and-desist-order-against-forsage/",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2692,11 +2756,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "summary": "Twitter became the primary real-time distribution channel for many DeFi launches, governance debates, yield-farming announcements and protocol drama during DeFi Summer.",
+        "significance": "Important media/culture context, but not a single historical moment.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2706,7 +2770,7 @@
     {
       "id": "LORE-EVT-1071",
       "date": "2020",
-      "title": "MetaMask user growth accelerates with DeFi",
+      "title": "MetaMask surpasses one million monthly active users",
       "branch": [
         "ETHEREUM",
         "DEFI"
@@ -2714,12 +2778,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-10",
+        "summary": "MetaMask surpassed one million monthly active users in October 2020 after growing more than fourfold in a year, with DeFi cited as a major driver.",
+        "significance": "The milestone showed that self-custodial browser wallets had become a mass gateway into Ethereum applications.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Consensys — MetaMask surpasses 5M MAUs (retrospective includes Oct 2020 milestone)",
+            "url": "https://consensys.io/blog/metamask-surpasses-5-million-monthly-active-users",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2954,7 +3024,7 @@
     {
       "id": "LORE-EVT-1139",
       "date": "2020",
-      "title": "Wormhole launches Solana–Ethereum token bridge",
+      "title": "Wormhole launches the first Solana–Ethereum token bridge",
       "branch": [
         "BRIDGES",
         "TECHNOLOGY"
@@ -2962,21 +3032,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2020",
-        "summary": "Wormhole's first era introduced a Solana–Ethereum token bridge in 2020, not 2021.",
-        "significance": "The bridge became important cross-chain infrastructure and later the target of one of crypto's largest exploits.",
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-10 onward",
+        "summary": "The Solana Foundation and Certus One announced Wormhole in October 2020 as a bidirectional Solana–Ethereum token bridge; Wormhole's later official roadmap describes the bridge as launching in 2020.",
+        "significance": "Wormhole became foundational cross-chain infrastructure for Solana and later one of the industry's most important interoperability protocols.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Wormhole — Past, Present, and Future",
-            "url": "https://wormhole.com/blog/connecting-the-internet-economy-wormhole-and-the-w-tokens-past-present-and",
+            "title": "Solana Foundation — Wormhole Solana/Ethereum bridge",
+            "url": "https://solana.com/id/news/wormhole---solana-ethereum-bridge",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Wormhole — platform roadmap",
+            "url": "https://wormhole.com/blog/wormhole-platform-roadmap",
             "type": "PROJECT_PRIMARY"
           }
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "The Oct. 7 announcement described testnet/hackathon availability; Wormhole's own later roadmap confirms the bridge launched in 2020."
       }
     },
     {
@@ -3047,21 +3122,32 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "Forsage spread internationally through Ethereum smart contracts and referral marketing while regulators began issuing warnings.",
+        "significance": "The spread is context for the canonical 2020 Philippines SEC action rather than an independently dated event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Philippines SEC — Forsage advisory",
+            "url": "https://appointment.sec.gov.ph/advisories-2020/forsage/",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Philippines SEC — cease and desist against Forsage",
+            "url": "https://www.sec.gov.ph/pr-2020/sec-issues-cease-and-desist-order-against-forsage/",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1042",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-1192",
       "date": "2020",
-      "title": "CipherTrace claims Monero tracing capabilities and sparks debate",
+      "title": "CipherTrace claims new Monero tracing capabilities",
       "branch": [
         "PRIVACY",
         "SECURITY",
@@ -3070,15 +3156,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AS_COMPANY_CLAIM",
+        "exact_date": "2020-08-31",
+        "summary": "CipherTrace announced what it called the world's first Monero tracing tools for law enforcement and virtual-asset service providers, developed under a US Department of Homeland Security contract.",
+        "significance": "The announcement sparked debate over the practical traceability of privacy coins; the capability should be presented as CipherTrace's claim, not as proof that Monero privacy was fully broken.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CipherTrace — announces Monero tracing capabilities",
+            "url": "https://www.prweb.com/releases/ciphertrace-announces-world-s-first-monero-tracing-capabilities-for-law-enforcement-government-and-virtual-asset-service-providers-871893438.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Always attribute the tracing claim to CipherTrace."
       }
     },
     {
@@ -3092,12 +3184,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_MILESTONE",
+        "exact_date": "2020-06 to 2020-11",
+        "summary": "Gnosis/DXdao's Omen hosted active Ethereum prediction markets around the 2020 US election; contemporary coverage described its Biden market as operating from 12 June with substantial DAI liquidity.",
+        "significance": "This is useful prediction-market context but Polymarket's launch is the cleaner discrete platform milestone for the year.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Defiant — Omen 2020 election prediction market",
+            "url": "https://thedefiant.io/news/defi/who-will-win-the-us-election-eth-prediction-markets-may-have-the-best-or-worst-answer",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3114,12 +3212,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-06-16",
+        "summary": "Polymarket's own September 2020 post states that it launched its beta out of stealth on 16 June 2020.",
+        "significance": "The platform became the most prominent crypto-native prediction market of the mid-2020s and a major bridge between on-chain markets and mainstream political/news forecasting.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Polymarket — Stage 2 announcement recalling June 16 beta launch",
+            "url": "https://medium.com/polymarket/a-new-polymarket-is-coming-d98478ec86a",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3220,20 +3324,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "This row overlaps the broader Robinhood retail/crypto-access growth context represented by LORE-EVT-0748.",
+        "significance": "No separate 2020 crypto launch was identified from the current wording.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Robinhood SEC filing — March 2020 outages",
+            "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387921000029/hood-20210630.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0748",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-1222",
-      "date": "2020-11-02",
+      "date": "2020-10-29",
       "title": "FTX launches tokenized-stock trading outside the United States",
       "branch": [
         "FTX",
@@ -3242,16 +3352,16 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2020-11-02",
-        "summary": "FTX publicly launched trading in tokenized representations of stocks such as Tesla, Apple and Amazon in November 2020, not 2021.",
-        "significance": "The product was an early attempt to blend 24/7 crypto-market infrastructure with synthetic/tokenized exposure to traditional equities.",
-        "source_confidence": "MEDIUM_HIGH",
+        "state": "VERIFIED",
+        "exact_date": "2020-10-29",
+        "summary": "FTX introduced 24/7 fractional tokenized-stock trading for equities including Tesla, Apple and Amazon through partnerships with CM-Equity and Digital Assets AG; the service was unavailable to US users.",
+        "significance": "The product blurred crypto exchange trading with traditional equities and foreshadowed the later tokenized-real-world-asset market.",
+        "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "SEC public comment exhibit documenting Nov 2020 FTX tokenized stocks launch",
-            "url": "https://www.sec.gov/comments/s7-2024-05/s7202405-typea.pdf",
-            "type": "GOVERNMENT_RECORD"
+            "title": "The Block — FTX launches 24/7 tokenized-stock trading",
+            "url": "https://www.theblock.co/news/markets/2020-10-29-crypto-exchange-ftx-fractional-stock-trading-82784",
+            "type": "CONTEMPORARY_SECONDARY"
           }
         ],
         "canonical_event_id": null,
@@ -3260,5 +3370,5 @@
       }
     }
   ],
-  "note": "2020 evidence shard under active reconciliation. Cross-year date corrections are explicitly held out of 2020 scoring."
+  "note": "2020 evidence review complete. Canonical, context and merged rows are explicitly separated; the next step is rebuilding this shard into canonical-only form before scoring."
 }
