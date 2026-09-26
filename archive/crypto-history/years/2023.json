@@ -3,130 +3,1356 @@
   "year": 2023,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
-  "score_status": "READY_FOR_EDITORIAL_SCORING",
-  "event_count": 17,
+  "score_status": "NOT_STARTED",
+  "event_count": 83,
   "events": [
     {
       "id": "LORE-CAN-2023-001",
-      "date": "2023-01-20",
-      "title": "Ordinals makes Bitcoin inscriptions publicly usable",
+      "canonical_key": "2023-binance-loses-market-share-after-regulatory-pressure",
+      "date": "2023",
+      "title": "Binance loses market share after regulatory pressure",
       "branches": [
-        "BITCOIN",
-        "NFT"
+        "EXCHANGES",
+        "REGULATION"
       ],
-      "research_state": "VERIFIED_WITH_PREHISTORY",
+      "source_event_ids": [
+        "LORE-EVT-0813"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
       "source_confidence": "HIGH",
-      "summary": "Casey Rodarmor released ord 0.4.0 and announced on 20 January 2023 that inscriptions were ready for Bitcoin mainnet. Rodarmor's own history records the first mainnet inscription on 14 December 2022 and mainnet inscription commands being enabled on 9 January 2023.",
-      "significance": "Ordinals created a new Bitcoin-native digital-artifact ecosystem and reopened fundamental arguments about blockspace, fees and non-payment uses of Bitcoin.",
+      "summary": "Binance's centralized-exchange market share fell sharply during 2023. Kaiko said its spot-volume share began the year near 70% and ended much lower after zero-fee trading changes, CFTC and SEC cases and the November US settlement.",
+      "significance": "The decline reduced the extraordinary concentration Binance had achieved after FTX's collapse and reshaped global exchange market structure.",
       "sources": [
         {
-          "title": "Casey Rodarmor — Inscribing Mainnet / How Ordinals Came to Be",
-          "url": "https://casey.github.io/blog/how-ordinals-came-to-be/",
-          "type": "FOUNDER_PRIMARY"
+          "title": "Kaiko — 10 Charts That Defined 2023",
+          "url": "https://www.kaiko.com/resources/the-10-charts-that-defined-2023",
+          "type": "MARKET_DATA"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-002",
+      "canonical_key": "2023-bitcoin-miners-expand-ahead-of-fourth-halving",
+      "date": "2023",
+      "title": "Bitcoin miners expand ahead of fourth halving",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0942"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
+      "source_confidence": "HIGH",
+      "summary": "Public Bitcoin miners expanded aggressively during 2023 ahead of the 2024 halving; Hashrate Index found seven of twelve tracked public miners more than doubled their hashrate during the year.",
+      "significance": "The expansion reflected an industry-wide race to add efficient hardware and scale before block subsidies were cut in half.",
+      "sources": [
+        {
+          "title": "Hashrate Index — 2023 Bitcoin Mining Year in Review",
+          "url": "https://hashrateindex.com/blog/hashrate-index-2023-bitcoin-mining-year-in-review/",
+          "type": "INDUSTRY_DATA"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-003",
+      "canonical_key": "2023-lido-staked-ether-market-share-raises-decentralization-debate",
+      "date": "2023",
+      "title": "Lido staked Ether market share raises decentralization debate",
+      "branches": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0412"
+      ],
+      "research_state": "VERIFIED_WITH_RETROSPECTIVE_DATA",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Lido controlled roughly 32% of all staked ETH during the 2023 period, close enough to widely discussed consensus thresholds to intensify debate over whether the protocol should voluntarily limit its own growth.",
+      "significance": "The debate made liquid-staking concentration a core Ethereum decentralization issue even though Lido itself was a protocol spread across many node operators.",
+      "sources": [
+        {
+          "title": "Lido Governance — Why doesn't Lido self-limit?",
+          "url": "https://research.lido.fi/t/why-doesnt-lido-self-limit/6206",
+          "type": "PROJECT_GOVERNANCE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-004",
+      "canonical_key": "2023-reddit-collectible-avatars-reach-millions-of-holders",
+      "date": "2023",
+      "title": "Reddit Collectible Avatars reach millions of holders",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0904"
+      ],
+      "research_state": "RESEARCHED_WITH_ONCHAIN_DATA",
+      "source_confidence": "MEDIUM",
+      "summary": "On-chain dashboards tracking Reddit Collectible Avatars showed the project reaching many millions of avatar-holding addresses and tens of millions of minted avatars during 2023.",
+      "significance": "Reddit's wallet-abstraction approach became one of the largest consumer NFT onboarding experiments, although wallet counts should not be equated with unique people.",
+      "sources": [
+        {
+          "title": "Dune Analytics — Reddit Collectible Avatars dashboard",
+          "url": "https://dune.com/polygon_analytics/reddit-collectible-avatars",
+          "type": "ONCHAIN_ANALYTICS"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Use on-chain address/holder counts, not 'unique users,' in published copy."
+    },
+    {
+      "id": "LORE-CAN-2023-005",
+      "canonical_key": "2023-walletconnect-v2-expands-multi-chain-wallet-connectivity",
+      "date": "2023",
+      "title": "WalletConnect v2 expands multi-chain wallet connectivity",
+      "branches": [
+        "TECHNOLOGY",
+        "SECURITY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1075"
+      ],
+      "research_state": "VERIFIED_WITH_YEAR",
+      "source_confidence": "HIGH",
+      "summary": "WalletConnect completed the migration of its network from v1 to v2 during 2023, expanding multichain session capabilities and laying groundwork for a more decentralized network.",
+      "significance": "The migration upgraded one of Web3's most widely used wallet-to-app connectivity standards without forcing users into a single wallet ecosystem.",
+      "sources": [
+        {
+          "title": "WalletConnect — Foundation/network history",
+          "url": "https://walletconnect.com/blog/introducing-the-walletconnect-foundation",
+          "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "Ordinal Theory Handbook",
-          "url": "https://docs.ordinals.com/",
+          "title": "WalletConnect — next phase of the network",
+          "url": "https://walletconnect.com/blog/the-next-phase-of-the-walletconnect-network",
           "type": "PROJECT_PRIMARY"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "20 Jan 2023 is the public mainnet-ready milestone; the first mainnet inscription itself was made 14 Dec 2022."
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-002",
-      "date": "2023-02-09",
-      "title": "Kraken settles US staking-as-a-service charges",
+      "id": "LORE-CAN-2023-006",
+      "canonical_key": "2023-uniswap-governance-debate-erupts-over-bnb-chain-deployment",
+      "date": "2023-01 to 2023-02",
+      "title": "Uniswap governance debate erupts over BNB Chain deployment",
       "branches": [
-        "GOVERNMENTS",
-        "REGULATION",
-        "EXCHANGES"
+        "DAO",
+        "GOVERNANCE",
+        "DEX"
       ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "Kraken agreed to discontinue its US staking-as-a-service program and pay $30 million to settle SEC charges.",
-      "significance": "The settlement became a major regulatory turning point for centralized staking services in the United States.",
-      "sources": [
-        {
-          "title": "SEC — Kraken staking settlement",
-          "url": "https://www.sec.gov/newsroom/press-releases/2023-25",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2023-003",
-      "date": "2023-03-11 to 2023-03-13",
-      "title": "USDC depegs during the Silicon Valley Bank crisis",
-      "branches": [
-        "STABLECOINS",
-        "CEFI",
-        "MARKETS"
+      "source_event_ids": [
+        "LORE-EVT-1137"
       ],
       "research_state": "VERIFIED_WITH_RANGE",
       "source_confidence": "HIGH",
-      "summary": "Circle disclosed that $3.3 billion of USDC reserves were held at Silicon Valley Bank. USDC traded below $1 during the bank-failure weekend before the peg recovered after regulators protected depositors.",
-      "significance": "The episode showed that fiat-backed stablecoins inherit banking-system risk even when their on-chain contracts function normally.",
+      "summary": "Uniswap governance debated how to deploy v3 on BNB Chain and which cross-chain bridge should carry governance messages, ultimately selecting Wormhole after additional community review.",
+      "significance": "The debate exposed a new governance problem for multichain protocols: a DAO must also choose and trust cross-chain messaging infrastructure.",
       "sources": [
         {
-          "title": "Circle — $3.3B USDC reserve risk removed",
-          "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+          "title": "Uniswap Governance — BNB Chain deployment / bridge selection",
+          "url": "https://gov.uniswap.org/t/rfc-update-deploy-uniswap-v3-1-0-3-0-05-0-01-on-bnb-chain-binance/19734/86",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-007",
+      "canonical_key": "2023-ftx-bankruptcy-estate-begins-large-scale-asset-recovery-efforts",
+      "date": "2023-01 to 2023-04",
+      "title": "FTX bankruptcy estate begins large-scale asset recovery efforts",
+      "branches": [
+        "FTX",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0521"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "FTX's bankruptcy team said in January that it had identified about $5.5 billion of liquid assets; by April attorneys said recoveries had risen to more than $7.3 billion in cash and liquid crypto.",
+      "significance": "The recoveries became central to the bankruptcy story and later shaped unexpectedly high creditor-recovery expectations.",
+      "sources": [
+        {
+          "title": "FTX Debtors — additional information to stakeholders",
+          "url": "https://www.prnewswire.com/news-releases/ftx-debtors-provide-additional-information-to-customers-and-other-stakeholders-301723770.html",
+          "type": "DEBTOR_PRIMARY"
+        },
+        {
+          "title": "Reuters via Investing — FTX recovered $7.3B in assets",
+          "url": "https://www.investing.com/news/stock-market-news/bankrupt-crypto-exchange-ftx-has-recovered-73-billion-in-assets-attorney-3053956",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-008",
+      "canonical_key": "2023-ordinals-launches-on-bitcoin",
+      "date": "2023-01-20",
+      "title": "Ordinals launches on Bitcoin",
+      "branches": [
+        "BITCOIN",
+        "NFT"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0058"
+      ],
+      "research_state": "VERIFIED_WITH_PROJECT_ARCHIVE",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Ordinal inscriptions reached Bitcoin mainnet in January 2023 through Casey Rodarmor's ord software, allowing arbitrary content to be inscribed onto individual satoshis.",
+      "significance": "Ordinals created a new Bitcoin-native collectibles and data economy, leading directly to inscription markets, BRC-20 and renewed blockspace debates.",
+      "sources": [
+        {
+          "title": "Ordinals.com archive — inscriptions hit mainnet Jan. 20, 2023",
+          "url": "https://ordinals.com/content/80bf1d454aae3e9a8f1c945f00e5d5113782601dc7bbdabfcb1c4f42558a449fi0",
+          "type": "PROJECT_ARCHIVE"
+        },
+        {
+          "title": "Ordinals/ord GitHub",
+          "url": "https://github.com/ordinals/ord",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-009",
+      "canonical_key": "2023-optimism-distributes-additional-governance-airdrops",
+      "date": "2023-02-09 and 2023-09-18",
+      "title": "Optimism distributes additional governance airdrops",
+      "branches": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0524"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Optimism distributed additional OP governance tokens through Airdrop #2 in February and Airdrop #3 in September 2023, rewarding hundreds of thousands of eligible addresses across the two distributions.",
+      "significance": "The recurring airdrops reinforced Optimism's strategy of distributing governance ownership over time instead of relying on a single token launch.",
+      "sources": [
+        {
+          "title": "Optimism — Airdrop history",
+          "url": "https://app.optimism.io/airdrops/5%EC%97%90%EC%96%B4%EB%93%9C%EB%9E%8D",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-010",
+      "canonical_key": "2023-paxos-stops-issuing-new-busd-after-regulatory-action",
+      "date": "2023-02-13 to 2023-02-21",
+      "title": "Paxos stops issuing new BUSD after regulatory action",
+      "branches": [
+        "STABLECOINS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0316"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Paxos announced on 13 February that, at NYDFS direction, it would stop minting new BUSD; new issuance ceased effective 21 February while redemptions continued.",
+      "significance": "The action began the wind-down of one of the largest exchange-branded stablecoins and showed the regulatory vulnerability of centralized stablecoin issuance.",
+      "sources": [
+        {
+          "title": "Paxos — Will Halt Minting New BUSD Tokens",
+          "url": "https://www.paxos.com/newsroom/paxos-will-halt-minting-new-busd-tokens",
           "type": "COMPANY_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-004",
-      "date": "2023-04-12T22:27:35Z",
-      "title": "Ethereum Shapella enables staking withdrawals",
+      "id": "LORE-CAN-2023-011",
+      "canonical_key": "2023-blur-token-incentives-intensify-nft-marketplace-wars",
+      "date": "2023-02-14",
+      "title": "Blur token incentives intensify NFT marketplace wars",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0327"
+      ],
+      "research_state": "VERIFIED_WITH_DATE",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Blur launched the BLUR governance token and airdrop after months of points-based incentives for NFT traders.",
+      "significance": "The token incentives accelerated Blur's challenge to OpenSea and intensified the NFT marketplace volume war.",
+      "sources": [
+        {
+          "title": "The Block — Blur debuts native token",
+          "url": "https://www.theblock.co/news/web3/2023-02-14-blur-debuts-long-awaited-token-211374",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-012",
+      "canonical_key": "2023-euler-hacker-apologizes-on-chain",
+      "date": "2023-03",
+      "title": "Euler hacker apologizes on-chain",
+      "branches": [
+        "HACKS",
+        "DEFI",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1048"
+      ],
+      "research_state": "VERIFIED_SUBEVENT",
+      "source_confidence": "HIGH",
+      "summary": "During the Euler negotiations, the attacker sent an on-chain message expressing remorse and promising to return the funds.",
+      "significance": "The apology became memorable because blockchain messages were directly part of resolving a massive exploit.",
+      "sources": [
+        {
+          "title": "Euler — Behind the scenes of the exploit recovery",
+          "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-013",
+      "canonical_key": "2023-zksync-era-launches",
+      "date": "2023-03",
+      "title": "zkSync Era launches",
       "branches": [
         "ETHEREUM",
         "TECHNOLOGY"
       ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "The Shanghai-Capella upgrade activated at epoch 194,048 and enabled validators to withdraw staked ETH and rewards.",
-      "significance": "Shapella completed a major piece of Ethereum's proof-of-stake transition by making validator stake withdrawable.",
+      "source_event_ids": [
+        "LORE-EVT-0301"
+      ],
+      "research_state": "VERIFIED_WITH_MONTH",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "ZKsync Era opened its Alpha mainnet to users in March 2023, bringing a general-purpose zkEVM-style Ethereum rollup into public operation.",
+      "significance": "ZKsync Era was one of the first major general-purpose zero-knowledge rollups to reach public mainnet use.",
       "sources": [
         {
-          "title": "Ethereum Foundation — Shapella Mainnet Announcement",
-          "url": "https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement",
+          "title": "ZKsync — Era network details/history",
+          "url": "https://docs.zksync.io/zksync-network/zksync-era/network-details",
           "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "Ethereum.org — fork timeline",
+          "title": "ZKsync — EraVM security update referencing March 2023 Alpha release",
+          "url": "https://www.zksync.io/blog/eravm-security-update",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Primary ZKsync material confirms the March 2023 Alpha release; attach a preserved launch announcement if an exact day is needed for book copy."
+    },
+    {
+      "id": "LORE-CAN-2023-014",
+      "canonical_key": "2023-euler-attacker-negotiates-publicly-on-chain",
+      "date": "2023-03 to 2023-04",
+      "title": "Euler attacker negotiates publicly on-chain",
+      "branches": [
+        "HACKS",
+        "DEFI",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0591"
+      ],
+      "research_state": "VERIFIED_SUBEVENT",
+      "source_confidence": "HIGH",
+      "summary": "Euler's attacker and project communicated publicly on-chain during the recovery process.",
+      "significance": "The negotiations became an unusually transparent example of blockchain-native incident response.",
+      "sources": [
+        {
+          "title": "Euler — Behind the scenes of the exploit recovery",
+          "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-015",
+      "canonical_key": "2023-maker-grows-treasury-exposure-through-real-world-assets",
+      "date": "2023-03 to 2023-09",
+      "title": "Maker grows Treasury exposure through real-world assets",
+      "branches": [
+        "DEFI",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1095"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Maker governance expanded its MIP65 real-world-asset debt ceiling from $500 million to $1.25 billion to purchase US Treasuries, and later directed a $500 million reallocation into a Treasury-bill ladder.",
+      "significance": "Maker's move made tokenized/protocol-controlled real-world yield a material part of DeFi economics and linked Dai increasingly to traditional government-debt markets.",
+      "sources": [
+        {
+          "title": "Maker Governance — MIP65 debt ceiling increase",
+          "url": "https://vote.makerdao.com/polling/QmNTSr9j",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Maker Governance — Monetalis Clydesdale reallocation",
+          "url": "https://vote.makerdao.com/executive/template-executive-vote-dao-resolution-for-monetalis-clydesdale-hv-bank-on-chain-rwa-agreement-update-fortunafi-vault-change-trigger-spark-protocol-proxy-spell-september-27-2023",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-016",
+      "canonical_key": "2023-ethereum-account-abstraction-standard-erc-4337-is-deployed",
+      "date": "2023-03-01",
+      "title": "Ethereum account-abstraction standard ERC-4337 is deployed",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0270"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The canonical ERC-4337 EntryPoint contract was deployed to Ethereum mainnet on 1 March 2023, enabling account abstraction through UserOperations and bundlers without a consensus-layer protocol change.",
+      "significance": "ERC-4337 made programmable smart accounts practical at scale, enabling sponsored gas, alternative authentication and improved wallet UX.",
+      "sources": [
+        {
+          "title": "Ethereum.org — Account abstraction / ERC-4337",
+          "url": "https://ethereum.org/roadmap/account-abstraction",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "ERC-4337 specification",
+          "url": "https://eips.ethereum.org/EIPS/eip-4337",
+          "type": "PRIMARY_SPEC"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-017",
+      "canonical_key": "2023-brc-20-token-experiment-spreads-across-bitcoin",
+      "date": "2023-03-08",
+      "title": "BRC-20 token experiment spreads across Bitcoin",
+      "branches": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0167"
+      ],
+      "research_state": "VERIFIED_WITH_DATE",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Pseudonymous developer domo deployed ORDI as the first BRC-20 experiment using Ordinal inscriptions to represent deploy, mint and transfer operations for fungible balances on Bitcoin.",
+      "significance": "BRC-20 showed that Ordinals could be used for fungible-token experiments and triggered a new wave of Bitcoin token speculation and blockspace demand.",
+      "sources": [
+        {
+          "title": "domo — BRC-20 experiment",
+          "url": "https://domo-2.gitbook.io/brc-20-experiment",
+          "type": "CREATOR_PRIMARY"
+        },
+        {
+          "title": "ORDI inscription history / first BRC-20 deploy",
+          "url": "https://coinyq.com/coins/ordinals",
+          "type": "SECONDARY_ONCHAIN_REFERENCE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-018",
+      "canonical_key": "2023-silvergate-announces-liquidation",
+      "date": "2023-03-08",
+      "title": "Silvergate announces liquidation",
+      "branches": [
+        "CEFI",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0248"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Silvergate Capital announced that it intended to wind down operations and voluntarily liquidate Silvergate Bank, with a plan to repay deposits in full.",
+      "significance": "Silvergate's wind-down removed one of crypto's most important US banking rails immediately before the wider March banking crisis.",
+      "sources": [
+        {
+          "title": "Silvergate — intent to wind down and voluntarily liquidate bank",
+          "url": "https://silvergate.com/uncategorized/silvergate-capital-corporation-announces-intent-to-wind-down-operations-and-voluntarily-liquidate-silvergate-bank/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-019",
+      "canonical_key": "2023-circle-confirms-billions-of-usdc-reserves-were-held-at-svb",
+      "date": "2023-03-10 to 2023-03-11",
+      "title": "Circle confirms billions of USDC reserves were held at SVB",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0811"
+      ],
+      "research_state": "VERIFIED_SUBEVENT",
+      "source_confidence": "HIGH",
+      "summary": "Circle disclosed that $3.3 billion of USDC cash reserves, roughly 8% of reserves at the time, remained at Silicon Valley Bank.",
+      "significance": "The disclosure was the balance-sheet fact that drove the USDC market panic.",
+      "sources": [
+        {
+          "title": "Circle — $3.3B SVB reserve risk removed and depeg closes",
+          "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-020",
+      "canonical_key": "2023-usdc-depeg-briefly-pushes-dai-away-from-one-dollar",
+      "date": "2023-03-10 to 2023-03-13",
+      "title": "USDC depeg briefly pushes DAI away from one dollar",
+      "branches": [
+        "STABLECOINS",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0808"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "USDC fell below its $1 target after Circle disclosed that $3.3 billion of its reserve cash was held at failed Silicon Valley Bank. DAI also traded below $1 because a large share of Maker's peg-supporting reserves depended on USDC. USDC returned toward parity after US authorities guaranteed SVB depositors.",
+      "significance": "The episode demonstrated how centralized banking risk could transmit directly into supposedly on-chain stablecoins and DeFi collateral.",
+      "sources": [
+        {
+          "title": "Circle — $3.3B USDC Reserve Risk Removed, Dollar De-peg Closes",
+          "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Maker Governance — Emergency Parameter Changes, March 11 2023",
+          "url": "https://vote.makerdao.com/executive/template-executive-vote-emergency-parameter-changes-march-11-2023",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-021",
+      "canonical_key": "2023-usdc-temporarily-depegs-during-the-silicon-valley-bank-crisis",
+      "date": "2023-03-10 to 2023-03-13",
+      "title": "USDC temporarily depegs during the Silicon Valley Bank crisis",
+      "branches": [
+        "STABLECOINS",
+        "CEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0128"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "After Silicon Valley Bank failed, Circle disclosed that $3.3 billion of USDC reserves were held at the bank; USDC traded below $1 over the weekend before recovering after US authorities protected depositors.",
+      "significance": "The episode was the largest stress test of a major reserve-backed stablecoin and revealed the dependence of on-chain money on conventional banks.",
+      "sources": [
+        {
+          "title": "Circle — $3.3B SVB reserve risk removed and depeg closes",
+          "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "FDIC — 2023 bank failures",
+          "url": "https://www.fdic.gov/resources/resolutions/bank-failures/in-brief/2023",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-022",
+      "canonical_key": "2023-signature-bank-is-closed-by-regulators",
+      "date": "2023-03-12",
+      "title": "Signature Bank is closed by regulators",
+      "branches": [
+        "CEFI",
+        "GOVERNMENTS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0249"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "New York regulators closed Signature Bank and appointed the FDIC as receiver; the FDIC created Signature Bridge Bank and protected depositors under the systemic-risk exception.",
+      "significance": "Signature's failure, days after Silvergate and SVB, deepened the loss of major US banking infrastructure used by crypto firms.",
+      "sources": [
+        {
+          "title": "FDIC — Signature Bank closure",
+          "url": "https://www.fdic.gov/news/press-releases/2023/pr23018.html",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-023",
+      "canonical_key": "2023-euler-exploit-is-followed-by-return-of-most-stolen-assets",
+      "date": "2023-03-13 to 2023-04-04",
+      "title": "Euler exploit is followed by return of most stolen assets",
+      "branches": [
+        "DEFI",
+        "HACKS",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0252"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Euler Finance was exploited on 13 March 2023 for roughly $197 million. After on-chain messages and negotiations, the attacker returned essentially all recoverable stolen assets by early April.",
+      "significance": "The incident became one of crypto's most remarkable exploit-recovery stories because a near-$200 million DeFi theft ended with the funds being returned.",
+      "sources": [
+        {
+          "title": "Euler — Behind the scenes of the exploit recovery",
+          "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Euler Governance — redemption plan after exploit",
+          "url": "https://forum.euler.finance/t/plan-for-redemption-of-euler-funds-v2/947",
+          "type": "PROJECT_GOVERNANCE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-024",
+      "canonical_key": "2023-arbitrum-airdrop-becomes-a-major-l2-governance-distribution",
+      "date": "2023-03-23",
+      "title": "Arbitrum airdrop becomes a major L2 governance distribution",
+      "branches": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0300"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Arbitrum opened claims for its ARB governance-token airdrop on 23 March 2023 as part of the transition to the Arbitrum DAO.",
+      "significance": "The distribution was one of the largest layer-2 governance launches and transferred substantial control of a major Ethereum rollup to token holders.",
+      "sources": [
+        {
+          "title": "Arbitrum Foundation — The Next Phase of Decentralization",
+          "url": "https://blog.arbitrum.foundation/arbitrum-the-next-phase-of-decentralization/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Arbitrum Foundation — Airdrop Eligibility & Distribution",
+          "url": "https://github.com/ArbitrumFoundation/docs/blob/main/docs/airdrop-eligibility-distribution.md",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-025",
+      "canonical_key": "2023-do-kwon-is-arrested-in-montenegro",
+      "date": "2023-03-23",
+      "title": "Do Kwon is arrested in Montenegro",
+      "branches": [
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0806"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Montenegrin authorities arrested Terraform Labs founder Do Kwon in Podgorica in March 2023 after months of international efforts to locate him.",
+      "significance": "The arrest moved the Terra collapse from a fugitive/manhunt story into a multijurisdictional criminal and extradition proceeding.",
+      "sources": [
+        {
+          "title": "DOJ — Do Kwon extradited to US; arrest background",
+          "url": "https://www.justice.gov/usao-sdny/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-026",
+      "canonical_key": "2023-polygon-zkevm-launches",
+      "date": "2023-03-27",
+      "title": "Polygon zkEVM launches",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0302"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Polygon zkEVM Mainnet Beta went live on 27 March 2023 as an EVM-equivalent zero-knowledge rollup.",
+      "significance": "It marked a major milestone in the race to scale Ethereum with general-purpose zero-knowledge proofs while preserving familiar EVM tooling.",
+      "sources": [
+        {
+          "title": "Polygon — zkEVM Mainnet Beta is Live",
+          "url": "https://polygon.technology/blog/polygon-zkevm-mainnet-beta-is-live",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-027",
+      "canonical_key": "2023-arbitrum-governance-faces-backlash-over-foundation-funding-proposal",
+      "date": "2023-04-01 to 2023-04-06",
+      "title": "Arbitrum governance faces backlash over foundation funding proposal",
+      "branches": [
+        "ETHEREUM",
+        "DAO",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0523"
+      ],
+      "research_state": "VERIFIED_WITH_RANGE",
+      "source_confidence": "HIGH",
+      "summary": "Arbitrum's first major governance proposal, AIP-1, triggered backlash after delegates learned that large token allocations and some spending had occurred before or during a vote described by the Foundation as ratification.",
+      "significance": "The dispute became an early and unusually public test of whether token governance actually controlled a newly decentralized protocol foundation.",
+      "sources": [
+        {
+          "title": "Arbitrum Foundation — Clarity around ratification of AIP-1",
+          "url": "https://forum.arbitrum.foundation/t/clarity-around-the-ratification-of-aip-1/12864",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Arbitrum — AIP-1.2 Foundation and DAO Governance",
+          "url": "https://forum.arbitrum.foundation/t/proposal-aip-1-2-foundation-and-dao-governance/13362",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-028",
+      "canonical_key": "2023-central-african-republic-reverses-bitcoin-legal-tender-status",
+      "date": "2023-04-06",
+      "title": "Central African Republic reverses Bitcoin legal-tender status",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0141"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The Central African Republic amended its 2022 cryptocurrency law, repealing provisions that had given crypto assets legal-tender status and guaranteed convertibility.",
+      "significance": "The reversal showed how quickly a sovereign Bitcoin-adoption experiment could be constrained by regional monetary rules and implementation realities.",
+      "sources": [
+        {
+          "title": "IMF — Central African Republic 2023 Article IV / ECF report",
+          "url": "https://www.elibrary.imf.org/view/journals/002/2023/155/article-A001-en.xml",
+          "type": "INTERGOVERNMENTAL"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-029",
+      "canonical_key": "2023-solana-compressed-nfts-lower-minting-costs-dramatically",
+      "date": "2023-04-06",
+      "title": "Solana compressed NFTs lower minting costs dramatically",
+      "branches": [
+        "ALTCOINS",
+        "NFT",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0824"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The Solana Foundation publicly highlighted state compression and compressed NFTs, showing that one million NFTs could be minted for roughly $110 at then-current prices.",
+      "significance": "Compressed NFTs dramatically changed the economics of mass-scale digital assets and enabled use cases such as loyalty, messaging and DePIN credentials.",
+      "sources": [
+        {
+          "title": "Solana Foundation — State compression / compressed NFTs",
+          "url": "https://solana.com/ar/news/state-compression-compressed-nfts-solana",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-030",
+      "canonical_key": "2023-ethereum-shapella-enables-staking-withdrawals",
+      "date": "2023-04-12T22:27:35Z",
+      "title": "Ethereum Shapella enables staking withdrawals",
+      "branches": [
+        "ETHEREUM"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0129"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Ethereum's Shanghai-Capella (Shapella) upgrade activated, enabling validators to withdraw staked ETH and rewards from the Beacon Chain.",
+      "significance": "Shapella completed the withdrawal functionality missing from Ethereum's proof-of-stake transition and materially changed staking liquidity.",
+      "sources": [
+        {
+          "title": "Ethereum.org — Ethereum fork timeline / Shapella",
           "url": "https://ethereum.org/ethereum-forks/",
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-005",
+      "id": "LORE-CAN-2023-031",
+      "canonical_key": "2023-pepe-helps-ignite-a-new-meme-coin-cycle",
+      "date": "2023-04-16 to 2023-05-05",
+      "title": "PEPE helps ignite a new meme-coin cycle",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0168"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "PEPE launched in mid-April 2023 and rapidly became a major Ethereum meme coin, passing a $1 billion market capitalization by 5 May.",
+      "significance": "PEPE reignited large-scale meme-coin speculation after the Dogecoin/SHIB cycle and proved meme assets could repeatedly create new speculative waves.",
+      "sources": [
+        {
+          "title": "CoinDesk — PEPE launches and meme-token frenzy",
+          "url": "https://www.coindesk.com/markets/2023/04/18/pepe-the-frog-memecoins-rocket-as-crypto-twitter-moves-over-doge-obsession",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "The Block — PEPE passes $1B market cap",
+          "url": "https://www.theblock.co/news/ecosystems/2023-05-05-pepe-memecoin-tops-1-billion-market-cap-even-as-binance-flags-lack-of-utility-229676",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-032",
+      "canonical_key": "2023-helium-completes-migration-to-solana",
+      "date": "2023-04-18",
+      "title": "Helium completes migration to Solana",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0387"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Helium completed the migration of its hotspots, tokens and chain state from its custom layer-1 blockchain to Solana in April 2023.",
+      "significance": "The move was one of the clearest examples of an established crypto network abandoning its own L1 to become an application ecosystem on another chain.",
+      "sources": [
+        {
+          "title": "Helium Foundation — Q2 2023 Protocol Report",
+          "url": "https://www.helium.foundation/protocol-report-2023-q2",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Helium Docs — Legacy Blockchain Data / migration",
+          "url": "https://docs.helium.com/network-data/legacy-blockchain-data/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-033",
+      "canonical_key": "2023-mad-lads-becomes-a-flagship-solana-nft-project",
+      "date": "2023-04-20",
+      "title": "Mad Lads becomes a flagship Solana NFT project",
+      "branches": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0822"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Mad Lads launched on Solana through Backpack's xNFT system, with its mint disrupted by heavy demand, DDoS attacks and attempted exploits.",
+      "significance": "The collection became a flagship Solana community brand during the chain's 2023 recovery and a live test of Backpack's tokenized-app model.",
+      "sources": [
+        {
+          "title": "Mad Lads — 2024 Year in Review / 2023 launch history",
+          "url": "https://news.madlads.com/p/issue-81",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-034",
+      "canonical_key": "2023-coinbase-challenges-sec-in-court-over-crypto-rules",
+      "date": "2023-04-24",
+      "title": "Coinbase challenges SEC in court over crypto rules",
+      "branches": [
+        "EXCHANGES",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0816"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase filed a federal-court action seeking to compel the SEC to answer its July 2022 petition asking for crypto-specific rulemaking.",
+      "significance": "The action turned the industry's recurring demand for regulatory clarity into a direct administrative-law confrontation with the SEC.",
+      "sources": [
+        {
+          "title": "Coinbase — Formal step seeking SEC response to rulemaking petition",
+          "url": "https://www.coinbase.com/en-de/blog/coinbase-takes-another-formal-step-to-seek-regulatory-clarity-from-sec-for",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-035",
+      "canonical_key": "2023-franklin-templeton-expands-blockchain-based-fund-activity",
+      "date": "2023-04-24 to 2023-04-26",
+      "title": "Franklin Templeton expands blockchain-based fund activity",
+      "branches": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0360"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Franklin Templeton said its Franklin OnChain U.S. Government Money Fund had exceeded $270 million in assets and then expanded blockchain support from Stellar to Polygon.",
+      "significance": "A regulated mutual fund maintaining its official shareholder record through public-blockchain infrastructure became a landmark real-world-asset and tokenization case.",
+      "sources": [
+        {
+          "title": "Franklin Templeton — OnChain U.S. Government Money Fund surpasses $270M",
+          "url": "https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s-government-money-fund-surpasses-usd270-million-in-assets-under-management",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Franklin Templeton — Money Market Fund launches on Polygon",
+          "url": "https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-money-market-fund-launches-on-polygon-blockchain",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-036",
+      "canonical_key": "2023-circle-launches-cross-chain-transfer-protocol-for-native-usdc-movement",
+      "date": "2023-04-26",
+      "title": "Circle launches Cross-Chain Transfer Protocol for native USDC movement",
+      "branches": [
+        "BRIDGES",
+        "STABLECOINS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1149"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Circle launched Cross-Chain Transfer Protocol on Ethereum and Avalanche, allowing native USDC to be burned on one chain and minted on another.",
+      "significance": "CCTP provided a major stablecoin-native alternative to lock-and-mint bridges and reduced reliance on wrapped USDC liquidity.",
+      "sources": [
+        {
+          "title": "Circle — CCTP mainnet launch",
+          "url": "https://www.circle.com/pressroom/circle-delivers-usdc-interoperability-across-ecosystems-with-mainnet-launch-of-cross-chain-transfer-protocol",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-037",
+      "canonical_key": "2023-tensor-challenges-magic-eden-solana-nft-share",
+      "date": "2023-04-26 to 2023-12",
+      "title": "Tensor challenges Magic Eden for Solana NFT market leadership",
+      "branches": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0823"
+      ],
+      "research_state": "VERIFIED_WITH_MARKET_DATA",
+      "source_confidence": "HIGH",
+      "summary": "Tensor first surpassed Magic Eden in 24-hour Solana NFT trading volume on 26 April 2023, reached roughly 45% versus Magic Eden's 44% seven-day share in early May, and ended the year with periods of clear volume leadership.",
+      "significance": "The rise of Tensor reshaped Solana's NFT marketplace structure and mirrored the broader shift toward professional-trader marketplaces and incentive-driven liquidity.",
+      "sources": [
+        {
+          "title": "The Block — Tensor first beats Magic Eden on 24h volume",
+          "url": "https://www.theblock.co/news/business/2023-05-01-magic-eden-tensor-solana-228977",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "TechCrunch — Tensor reaches 45% Solana NFT share",
+          "url": "https://techcrunch.com/2023/05/11/tensor-solana-nft-market-share/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Syndica — Solana NFT Market Report December 2023",
+          "url": "https://blog.syndica.io/solana-nft-market-report-december-23/",
+          "type": "RESEARCH_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        "Tensor challenges Magic Eden in Solana NFT trading"
+      ],
+      "notes": "Published copy must specify the exact measurement window because marketplace share fluctuated during the year."
+    },
+    {
+      "id": "LORE-CAN-2023-038",
+      "canonical_key": "2023-multichain-collapses-amid-bridge-losses-and-uncertainty",
+      "date": "2023-05 to 2023-07-14",
+      "title": "Multichain collapses amid bridge losses and uncertainty",
+      "branches": [
+        "BRIDGES",
+        "HACKS",
+        "MYSTERIES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0253"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Multichain suffered prolonged outages and abnormal asset movements after losing access to key infrastructure; on 14 July the team said CEO Zhaojun had been detained by Chinese police, his sister had also been detained, and the project was forced to cease operations.",
+      "significance": "The collapse exposed extreme operational-key-person risk inside supposedly decentralized cross-chain infrastructure.",
+      "sources": [
+        {
+          "title": "The Block — Multichain ceases operations after CEO and sister detention",
+          "url": "https://www.theblock.co/news/ecosystems/2023-07-14-multichain-ceases-operations-as-ceos-sister-is-detained-in-china-while-holding-220-million-of-funds-239589",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-039",
+      "canonical_key": "2023-coinbase-launches-international-derivatives-exchange",
+      "date": "2023-05-02",
+      "title": "Coinbase launches international derivatives exchange",
+      "branches": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0812"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase launched Coinbase International Exchange, initially offering perpetual futures to eligible non-US institutional users.",
+      "significance": "The move showed a major US-listed crypto company expanding derivatives activity offshore amid regulatory uncertainty at home.",
+      "sources": [
+        {
+          "title": "Coinbase — Introducing Coinbase International Exchange",
+          "url": "https://www.coinbase.com/blog/introducing-coinbase-international-exchange",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-040",
+      "canonical_key": "2023-sui-mainnet-launches",
+      "date": "2023-05-03",
+      "title": "Sui mainnet launches",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0395"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Sui Mainnet launched publicly on 3 May 2023 with more than 100 validators and hundreds of nodes.",
+      "significance": "Sui became a major Move-based layer-1 network and one of the highest-profile new smart-contract chains of the post-FTX era.",
+      "sources": [
+        {
+          "title": "Sui — Mainnet launch history",
+          "url": "https://www.sui.io/token-schedule",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-041",
+      "canonical_key": "2023-bittrex-us-files-for-bankruptcy",
+      "date": "2023-05-08",
+      "title": "Bittrex US files for bankruptcy",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1226"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Bittrex Inc. and related US entities filed for Chapter 11 bankruptcy protection after winding down US operations amid regulatory pressure.",
+      "significance": "The filing marked the collapse of one of the longest-running US crypto exchanges and highlighted the shrinking position of older exchange brands.",
+      "sources": [
+        {
+          "title": "SEC Litigation Release — Bittrex bankruptcy background",
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25817",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-042",
+      "canonical_key": "2023-ledger-recover-controversy-triggers-self-custody-debate",
+      "date": "2023-05-16 to 2023-05-23",
+      "title": "Ledger Recover controversy triggers self-custody debate",
+      "branches": [
+        "SECURITY",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0583"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Ledger's announcement of the optional Ledger Recover seed-recovery service triggered intense criticism from self-custody users over how encrypted seed fragments could leave a hardware device; Ledger apologized for the rollout and delayed launch pending greater transparency.",
+      "significance": "The controversy exposed a fundamental tension between strict self-custody assumptions and consumer-friendly recovery systems.",
+      "sources": [
+        {
+          "title": "Ledger — Recover CEO message after announcement backlash",
+          "url": "https://www.ledger.com/blog/ledger-recover-a-message-from-pascal-gauthier-chairman-ceo-at-ledger",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Ledger — Recover protocol white paper",
+          "url": "https://www.ledger.com/blog/announcing-the-ledger-recover-cryptographic-protocol-white-paper",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-043",
+      "canonical_key": "2023-inferno-drainer-and-similar-services-industrialize-wallet-phishing",
+      "date": "2023-05-19",
+      "title": "Inferno Drainer and similar services industrialize wallet phishing",
+      "branches": [
+        "HACKS",
+        "SECURITY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1063"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Scam Sniffer identified Inferno Drainer as a multi-chain 'scam-as-a-service' vendor that took a percentage of assets stolen through phishing infrastructure; at discovery it linked the service to thousands of victims and millions of dollars in thefts.",
+      "significance": "Inferno Drainer showed how wallet phishing had industrialized into reusable infrastructure sold to other scammers.",
+      "sources": [
+        {
+          "title": "Scam Sniffer — Inferno Drainer scam-as-a-service",
+          "url": "https://drops.scamsniffer.io/5-9-million-stolen-by-scam-as-a-service-provider-called-inferno-drainer/",
+          "type": "SECURITY_RESEARCH"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-044",
+      "canonical_key": "2023-ordinals-inscriptions-surpass-major-milestone-counts",
+      "date": "2023-05-29",
+      "title": "Ordinals inscriptions surpass major milestone counts",
+      "branches": [
+        "BITCOIN",
+        "NFT"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0527"
+      ],
+      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Bitcoin Ordinals passed roughly 10 million inscriptions in late May 2023, less than six months after the protocol's public launch.",
+      "significance": "The milestone showed how rapidly NFT-like inscriptions and BRC-20 activity had created a new market for Bitcoin blockspace.",
+      "sources": [
+        {
+          "title": "Decrypt — Ordinals pass 10 million inscriptions",
+          "url": "https://decrypt.co/142898/bitcoin-ordinals-new-leader-ready-creators-shield",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Milestone crossed around May 29; published reports differ by timezone/day labeling."
+    },
+    {
+      "id": "LORE-CAN-2023-045",
+      "canonical_key": "2023-hong-kong-introduces-virtual-asset-service-provider-licensing",
+      "date": "2023-06-01",
+      "title": "Hong Kong introduces virtual-asset service-provider licensing",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0333"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Hong Kong's new licensing regime for centralized virtual-asset trading platforms took effect on 1 June 2023, requiring platforms operating in or actively marketing to Hong Kong to seek SFC licensing.",
+      "significance": "The regime marked a major regulated-market reopening strategy for a global financial center.",
+      "sources": [
+        {
+          "title": "Hong Kong SFC — new virtual asset platform licensing regime",
+          "url": "https://apps.sfc.hk/edistributionWeb/api/circular/list-content/circular/doc?lang=EN&refNo=23EC28",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-046",
+      "canonical_key": "2023-sec-sues-binance",
       "date": "2023-06-05",
-      "title": "SEC sues Binance and Changpeng Zhao",
+      "title": "SEC sues Binance",
       "branches": [
         "GOVERNMENTS",
         "REGULATION",
         "EXCHANGES"
       ],
-      "research_state": "VERIFIED",
+      "source_event_ids": [
+        "LORE-EVT-0250"
+      ],
+      "research_state": "VERIFIED_AS_ALLEGATIONS",
       "source_confidence": "HIGH",
-      "summary": "The SEC filed 13 charges against Binance entities and founder Changpeng Zhao alleging securities-law violations.",
-      "significance": "The case became one of the largest US regulatory actions against a global crypto exchange.",
+      "summary": "The SEC filed 13 charges against Binance entities and Changpeng Zhao, alleging securities-law, registration, trading-control and customer-access violations.",
+      "significance": "The lawsuit became one of the SEC's two defining 2023 enforcement cases against major US-facing crypto trading platforms.",
       "sources": [
         {
-          "title": "SEC — Binance charges",
+          "title": "SEC — charges Binance and Changpeng Zhao",
           "url": "https://www.sec.gov/newsroom/press-releases/2023-101-sec-files-13-charges-against-binance-entities-founder-changpeng-zhao",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Describe contested conduct as SEC allegations unless later adjudicated."
     },
     {
-      "id": "LORE-CAN-2023-006",
+      "id": "LORE-CAN-2023-047",
+      "canonical_key": "2023-sec-sues-coinbase",
       "date": "2023-06-06",
       "title": "SEC sues Coinbase",
       "branches": [
@@ -134,286 +1360,1082 @@
         "REGULATION",
         "EXCHANGES"
       ],
-      "research_state": "VERIFIED",
+      "source_event_ids": [
+        "LORE-EVT-0251"
+      ],
+      "research_state": "VERIFIED_AS_ALLEGATIONS",
       "source_confidence": "HIGH",
-      "summary": "The SEC charged Coinbase with operating as an unregistered securities exchange, broker and clearing agency and with an unregistered staking program.",
-      "significance": "The lawsuit put the largest US-listed crypto exchange into a direct legal confrontation with the SEC over the regulatory status of crypto trading.",
+      "summary": "The SEC sued Coinbase, alleging it operated as an unregistered securities exchange, broker and clearing agency and offered an unregistered staking-as-a-service program.",
+      "significance": "The case became a central US test of how existing securities laws apply to large crypto exchanges and staking services.",
       "sources": [
         {
-          "title": "SEC — Coinbase charges",
+          "title": "SEC — charges Coinbase",
           "url": "https://www.sec.gov/newsroom/press-releases/2023-102",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Describe contested conduct as SEC allegations unless later adjudicated."
     },
     {
-      "id": "LORE-CAN-2023-007",
-      "date": "2023-06-15",
-      "title": "BlackRock files for the iShares Bitcoin Trust",
+      "id": "LORE-CAN-2023-048",
+      "canonical_key": "2023-eigenlayer-popularizes-ethereum-restaking",
+      "date": "2023-06-14",
+      "title": "EigenLayer popularizes Ethereum restaking",
       "branches": [
-        "BITCOIN",
-        "INSTITUTIONS"
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0191"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "The iShares Bitcoin Trust filed its Form S-1 registration statement with the SEC on 15 June 2023.",
-      "significance": "BlackRock's filing transformed the US spot Bitcoin ETF campaign by bringing the world's largest asset manager into the race.",
+      "summary": "EigenLayer launched Stage 1 on Ethereum mainnet, allowing ETH stakers to opt into restaking via liquid-staking-token contracts and native restaking.",
+      "significance": "EigenLayer introduced restaking as a major new Ethereum security primitive and created a market for reusing Ethereum economic security across additional services.",
       "sources": [
         {
-          "title": "SEC — iShares Bitcoin Trust S-1",
+          "title": "EigenLayer — Stage 1 Mainnet Launch",
+          "url": "https://www.eigenlabs.org/blog/eigenlayer-stage-1-mainnet-launch/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-049",
+      "canonical_key": "2023-blackrock-files-for-a-spot-bitcoin-etf",
+      "date": "2023-06-15",
+      "title": "BlackRock files for a spot Bitcoin ETF",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0059"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "BlackRock's iShares Bitcoin Trust filed a Form S-1 registration statement with the SEC on 15 June 2023.",
+      "significance": "The filing by the world's largest asset manager transformed expectations around a US spot Bitcoin ETF and triggered a wave of competing applications.",
+      "sources": [
+        {
+          "title": "SEC EDGAR — iShares Bitcoin Trust S-1 filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1980994/0001437749-23-017574-index.html",
+          "type": "REGULATORY_FILING"
+        },
+        {
+          "title": "SEC EDGAR — iShares Bitcoin Trust filing cover letter",
+          "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774923017574/filename6.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-050",
+      "canonical_key": "2023-eu-mica-regulatory-framework-enters-into-force",
+      "date": "2023-06-29",
+      "title": "EU MiCA regulatory framework enters into force",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0060"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The EU Markets in Crypto-Assets Regulation (MiCA) entered into force on 29 June 2023 after publication in the Official Journal on 9 June.",
+      "significance": "MiCA created the EU's first comprehensive cross-border regulatory framework specifically for crypto-assets and service providers.",
+      "sources": [
+        {
+          "title": "European Commission — MiCA came into force 29 June 2023",
+          "url": "https://finance.ec.europa.eu/digital-finance/crypto-assets_en",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "EUR-Lex — Regulation (EU) 2023/1114",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj/eng",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-051",
+      "canonical_key": "2023-spot-bitcoin-etf-applicants-add-surveillance-sharing-arrangements",
+      "date": "2023-07-03",
+      "title": "Spot Bitcoin ETF applicants add surveillance-sharing arrangements",
+      "branches": [
+        "INSTITUTIONS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0819"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Nasdaq resubmitted its proposed rule change for BlackRock's iShares Bitcoin Trust with language stating that it expected a bilateral spot-Bitcoin surveillance-sharing agreement with Coinbase.",
+      "significance": "Surveillance-sharing became a key design feature of the 2023 spot-Bitcoin ETF applications as issuers tried to address the SEC's longstanding market-manipulation objections.",
+      "sources": [
+        {
+          "title": "Nasdaq — iShares Bitcoin Trust resubmission with Coinbase surveillance sharing",
+          "url": "https://listingcenter.nasdaq.com/assets/rulebook/nasdaq/filings/SR-NASDAQ-2023-016_Resubmission.pdf",
+          "type": "EXCHANGE_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-052",
+      "canonical_key": "2023-blackrock-ceo-larry-fink-shifts-public-rhetoric-toward-bitcoin",
+      "date": "2023-07-05",
+      "title": "BlackRock CEO Larry Fink shifts public rhetoric toward Bitcoin",
+      "branches": [
+        "INSTITUTIONS",
+        "PEOPLE",
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0818"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "BlackRock CEO Larry Fink publicly described Bitcoin as an international asset and compared crypto's role to digitizing gold, weeks after BlackRock filed for a spot Bitcoin trust.",
+      "significance": "The comments marked a striking reversal in tone from one of traditional finance's most influential executives and became a symbol of institutional normalization.",
+      "sources": [
+        {
+          "title": "Fortune — Larry Fink calls Bitcoin an international asset / digitizing gold",
+          "url": "https://fortune.com/crypto/2023/07/05/larry-fink-blackrock-crypto-bitcoin-etf/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "SEC EDGAR — iShares Bitcoin Trust initial S-1",
           "url": "https://www.sec.gov/Archives/edgar/data/1980994/0001437749-23-017574-index.html",
           "type": "REGULATORY_FILING"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-008",
+      "id": "LORE-CAN-2023-053",
+      "canonical_key": "2023-ripple-receives-a-significant-us-court-ruling-in-sec-litigation",
       "date": "2023-07-13",
-      "title": "Ripple receives a major court ruling in the SEC case",
+      "title": "Ripple receives a significant US court ruling in SEC litigation",
       "branches": [
         "GOVERNMENTS",
         "REGULATION",
         "ALTCOINS"
       ],
-      "research_state": "VERIFIED_WITH_ATTRIBUTION",
+      "source_event_ids": [
+        "LORE-EVT-0130"
+      ],
+      "research_state": "VERIFIED_WITH_NUANCE",
       "source_confidence": "HIGH",
-      "summary": "Judge Analisa Torres issued a mixed summary-judgment ruling in SEC v. Ripple. Ripple summarizes the opinion as holding that XRP itself is not a security, while the transaction-specific securities analysis differed across categories of sales.",
-      "significance": "The ruling became a major US precedent debate over how securities law applies to crypto tokens and token sales.",
+      "summary": "In SEC v. Ripple Labs, the district court ruled that Ripple's institutional XRP sales under written contracts were securities transactions, while programmatic exchange sales did not satisfy Howey on the record before the court.",
+      "significance": "The mixed ruling became a major US crypto-securities precedent and immediately affected exchange listings and market expectations.",
       "sources": [
         {
-          "title": "Ripple — SEC v. Ripple FAQ",
-          "url": "https://ripple.com/faq/",
+          "title": "SEC — remarks citing July 13 Ripple ruling",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gurbir-remarks-sec-speaks-04032024",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "SEC filing summarizing July 13 Ripple ruling",
+          "url": "https://www.sec.gov/Archives/edgar/data/2087587/000121390026057731/ea0290495-01.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Do not simplify this to 'XRP was ruled not a security'; the ruling distinguished transaction types."
+    },
+    {
+      "id": "LORE-CAN-2023-054",
+      "canonical_key": "2023-ripple-xrp-relisting-follows-partial-court-victory",
+      "date": "2023-07-13",
+      "title": "Ripple XRP relisting follows partial court victory",
+      "branches": [
+        "ALTCOINS",
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0817"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "After the federal court's partial summary-judgment ruling in SEC v. Ripple, Coinbase announced that XRP trading had been relisted on its platform.",
+      "significance": "The relisting became the immediate market consequence of a ruling that distinguished Ripple's institutional sales from programmatic exchange sales.",
+      "sources": [
+        {
+          "title": "SEC filing summary of July 13 2023 Ripple ruling",
+          "url": "https://www.sec.gov/Archives/edgar/data/2059438/000207184425000517/424b3.htm",
+          "type": "REGULATORY_FILING"
+        },
+        {
+          "title": "Coinbase Help — XRP relisted July 13",
+          "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/ripple-sec",
           "type": "COMPANY_PRIMARY"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Published copy should preserve the distinction between the token itself and specific transactions."
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-009",
+      "id": "LORE-CAN-2023-055",
+      "canonical_key": "2023-aave-launches-gho-stablecoin",
+      "date": "2023-07-15",
+      "title": "Aave launches GHO stablecoin",
+      "branches": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1091"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Aave governance executed the proposal launching GHO on Ethereum mainnet, allowing users to mint the Aave-native stablecoin against collateral.",
+      "significance": "GHO extended a major DeFi lending protocol into decentralized stablecoin issuance and directed borrowing interest to the Aave DAO.",
+      "sources": [
+        {
+          "title": "Aave Governance — GHO Mainnet Launch",
+          "url": "https://governance-v2.aave.com/governance/proposal/268/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-056",
+      "canonical_key": "2023-uniswapx-introduces-intent-based-routing-model",
+      "date": "2023-07-17",
+      "title": "UniswapX introduces intent-based routing model",
+      "branches": [
+        "DEX",
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1086"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Uniswap Labs introduced UniswapX, a permissionless Dutch-auction-based trading protocol that aggregates liquidity and uses third-party fillers.",
+      "significance": "UniswapX marked a shift toward intent-based DEX execution, gas abstraction and MEV-aware routing.",
+      "sources": [
+        {
+          "title": "Uniswap Labs — Introducing UniswapX",
+          "url": "https://blog.uniswap.org/uniswapx-protocol",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-057",
+      "canonical_key": "2023-curve-pools-are-exploited-after-compiler-vulnerability",
+      "date": "2023-07-30",
+      "title": "Curve pools are exploited after compiler vulnerability",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0380"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Several Curve-linked pools were exploited because of a reentrancy vulnerability affecting older versions of the Vyper compiler.",
+      "significance": "The exploit threatened a core DeFi liquidity venue and exposed knock-on risk through large CRV-backed loans across lending protocols.",
+      "sources": [
+        {
+          "title": "Curve Governance — July 30 Vyper exploit background",
+          "url": "https://gov.curve.finance/t/reimbursing-costs-incurred-to-jpeg-d-dao-during-the-july-exploit/9877",
+          "type": "PROJECT_GOVERNANCE"
+        },
+        {
+          "title": "The Block — Curve Vyper exploit and CRV loan risk",
+          "url": "https://www.theblock.co/news/ecosystems/2023-07-30-millions-of-curve-dao-tokens-stolen-minutes-before-a-white-hat-rescue-mission-242098",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-058",
+      "canonical_key": "2023-hex-and-pulsechain-become-subjects-of-major-securities-litigation",
+      "date": "2023-07-31",
+      "title": "Hex and PulseChain become subjects of major securities litigation",
+      "branches": [
+        "SCAMS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1173"
+      ],
+      "research_state": "VERIFIED_AS_CHARGES",
+      "source_confidence": "HIGH",
+      "summary": "The SEC sued Richard Heart and entities associated with Hex, PulseChain and PulseX, alleging unregistered offerings and, for Heart and PulseChain, fraud involving alleged misuse of proceeds.",
+      "significance": "The suit became a major enforcement milestone for one of crypto's most controversial high-yield token ecosystems.",
+      "sources": [
+        {
+          "title": "SEC — Richard Heart, Hex, PulseChain and PulseX litigation",
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-143",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Frame allegations as SEC claims; do not state disputed conduct as adjudicated fact."
+    },
+    {
+      "id": "LORE-CAN-2023-059",
+      "canonical_key": "2023-paypal-launches-pyusd",
       "date": "2023-08-07",
       "title": "PayPal launches PYUSD",
       "branches": [
         "STABLECOINS",
-        "INSTITUTIONS",
-        "ADOPTION"
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0132"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "PayPal launched PayPal USD (PYUSD), a dollar-backed ERC-20 stablecoin issued by Paxos.",
-      "significance": "A global consumer payments company issuing its own stablecoin marked a major bridge between regulated payments and crypto-native settlement.",
+      "summary": "PayPal announced PayPal USD (PYUSD), a dollar-denominated stablecoin issued by Paxos and backed by cash deposits, short-term Treasuries and similar cash equivalents.",
+      "significance": "PYUSD put a major global payments company directly into stablecoin issuance.",
       "sources": [
         {
-          "title": "PayPal — Launches U.S. Dollar Stablecoin",
+          "title": "PayPal — launches PYUSD",
           "url": "https://newsroom.paypal-corp.com/2023-08-07-PayPal-Launches-U-S-Dollar-Stablecoin",
           "type": "COMPANY_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-010",
+      "id": "LORE-CAN-2023-060",
+      "canonical_key": "2023-base-mainnet-launches",
       "date": "2023-08-09",
-      "title": "Base opens mainnet to everyone",
+      "title": "Base mainnet launches",
       "branches": [
         "ETHEREUM",
-        "TECHNOLOGY",
-        "EXCHANGES"
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0133"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Coinbase-backed Base opened its OP Stack layer-2 mainnet to the public on 9 August 2023.",
-      "significance": "Base connected a major centralized exchange's distribution directly to Ethereum layer-2 infrastructure and later became one of the largest L2 ecosystems.",
+      "summary": "Coinbase-incubated Base opened its Ethereum layer-2 mainnet for general public use on 9 August 2023 as part of its Onchain Summer launch.",
+      "significance": "Base became one of Ethereum's most important rollups and a direct bridge between a major centralized exchange's user base and on-chain applications.",
       "sources": [
         {
-          "title": "Base — Onchain Summer / mainnet opening",
+          "title": "Base — Onchain Summer and public mainnet launch date",
           "url": "https://blog.base.org/its-onchain-summer-%F0%9F%9F%A1-and-base-is-open-for-bridging",
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-011",
+      "id": "LORE-CAN-2023-061",
+      "canonical_key": "2023-coinbase-launches-stand-with-crypto-advocacy-initiative",
+      "date": "2023-08-14",
+      "title": "Coinbase launches Stand with Crypto advocacy initiative",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1000"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Coinbase announced the Stand with Crypto Alliance, an on-chain advocacy organization intended to mobilize crypto holders in US legislative and policy debates.",
+      "significance": "It marked a shift from company-by-company lobbying toward organized grassroots crypto political advocacy.",
+      "sources": [
+        {
+          "title": "Coinbase — Introducing the Stand with Crypto Alliance",
+          "url": "https://www.coinbase.com/blog/introducing-the-stand-with-crypto-alliance",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-062",
+      "canonical_key": "2023-us-prosecutors-charge-tornado-cash-founders",
+      "date": "2023-08-23",
+      "title": "US prosecutors charge Tornado Cash founders",
+      "branches": [
+        "PRIVACY",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0576"
+      ],
+      "research_state": "VERIFIED_AS_ALLEGATIONS",
+      "source_confidence": "HIGH",
+      "summary": "US prosecutors charged Tornado Cash founders Roman Storm and Roman Semenov with money-laundering, sanctions and unlicensed-money-transmission conspiracies; Storm was arrested the same day.",
+      "significance": "The indictment escalated the legal conflict over privacy mixers from protocol sanctions into criminal charges against developers/operators.",
+      "sources": [
+        {
+          "title": "US DOJ — Tornado Cash founders charged",
+          "url": "https://www.justice.gov/usao-sdny/pr/tornado-cash-founders-charged-money-laundering-and-sanctions-violations",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "For 2023 archive copy, describe indictment claims as allegations. Later proceedings are separate events."
+    },
+    {
+      "id": "LORE-CAN-2023-063",
+      "canonical_key": "2023-grayscale-wins-its-court-challenge-against-the-sec",
       "date": "2023-08-29",
       "title": "Grayscale wins its court challenge against the SEC",
       "branches": [
-        "BITCOIN",
         "GOVERNMENTS",
         "REGULATION",
-        "INSTITUTIONS"
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0131"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "The D.C. Circuit granted Grayscale's petition for review and vacated the SEC's order denying conversion of GBTC to a Bitcoin ETF.",
-      "significance": "The court victory materially changed the legal landscape for US spot Bitcoin ETP approval and preceded the January 2024 approvals.",
+      "summary": "The D.C. Circuit granted Grayscale's petition for review of the SEC's rejection of its proposed conversion of GBTC to a spot Bitcoin ETF and vacated the order.",
+      "significance": "The court victory removed a major legal obstacle in the path to US spot Bitcoin ETF approvals.",
       "sources": [
         {
-          "title": "Grayscale — court victory press release / 8-K exhibit",
-          "url": "https://www.grayscale.com/globalassets/documents/sec/btc-8-k-item-8.01-20230829_as-filed.pdf",
-          "type": "REGULATORY_FILING"
+          "title": "D.C. Circuit — Grayscale Investments v. SEC opinion",
+          "url": "https://media.cadc.uscourts.gov/opinions/docs/2023/08/22-1142-2014527.pdf",
+          "type": "COURT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-012",
-      "date": "2023-03-09",
-      "title": "BRC-20 introduces experimental fungible tokens on Bitcoin",
+      "id": "LORE-CAN-2023-064",
+      "canonical_key": "2023-privacy-pool-concepts-seek-compliant-alternatives-to-mixers",
+      "date": "2023-09-06",
+      "title": "Privacy Pool concepts seek compliant alternatives to mixers",
       "branches": [
-        "BITCOIN",
-        "TECHNOLOGY",
-        "MEMES"
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1195"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Pseudonymous developer Domo introduced the experimental BRC-20 format in March 2023, using Ordinal inscriptions containing JSON operations to deploy, mint and transfer fungible balances; ORDI was used as the demonstration ticker.",
-      "significance": "BRC-20 turned Ordinals from a primarily collectible/artifact phenomenon into a fungible-token experiment and drove a major wave of Bitcoin inscription activity and fees.",
+      "summary": "A paper by Vitalik Buterin, Ameen Soleimani and co-authors described Privacy Pools, a zero-knowledge privacy design intended to let users prove that funds do or do not come from selected sets without revealing their full transaction history.",
+      "significance": "The proposal became a significant post-Tornado-Cash attempt to reconcile blockchain privacy with regulatory-compliance concerns.",
       "sources": [
         {
-          "title": "Domo — brc-20 experiment",
-          "url": "https://domo-2.gitbook.io/brc-20-experiment",
-          "type": "CREATOR_PRIMARY"
-        },
+          "title": "Buterin et al. — Blockchain Privacy and Regulatory Compliance",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364",
+          "type": "PRIMARY_PAPER"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-065",
+      "canonical_key": "2023-thodex-founder-receives-an-extraordinary-prison-sentence",
+      "date": "2023-09-07",
+      "title": "Thodex founder receives an extraordinary prison sentence",
+      "branches": [
+        "CRIME",
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0370"
+      ],
+      "research_state": "VERIFIED_WITH_LEGAL_QUALIFIER",
+      "source_confidence": "HIGH",
+      "summary": "An Istanbul trial court sentenced Thodex founder Faruk Fatih Özer and two siblings to extraordinarily long prison terms and large fines in the exchange fraud case.",
+      "significance": "The sentence became one of the most extreme headline punishments in crypto-related criminal history, though later appellate/legal proceedings mean it should be described as the trial-court judgment.",
+      "sources": [
         {
-          "title": "Layer1 Foundation — Domo introduction to brc-20",
-          "url": "https://l1f.discourse.group/t/brc-20-introduction-to-brc-20/72",
+          "title": "Anadolu Agency — Thodex trial court sentence",
+          "url": "https://www.aa.com.tr/tr/gundem/thodexin-kurucusu-faruk-fatih-ozer-ile-kardeslerine-26-milyar-615-milyon-25-bin-lira-ceza-verildi/2986655",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Use 'trial court sentenced' rather than implying the procedural history ended there."
+    },
+    {
+      "id": "LORE-CAN-2023-066",
+      "canonical_key": "2023-mixin-network-suffers-a-major-exploit",
+      "date": "2023-09-23",
+      "title": "Mixin Network suffers a major exploit",
+      "branches": [
+        "HACKS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0379"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Mixin Network suffered an attack involving its cloud database; Mixin later described affected USDT, ETH and BTC assets as worth about $150 million at the time and issued debt tokens as part of its recovery plan.",
+      "significance": "The incident was a major centralized-infrastructure failure inside a network marketed around blockchain asset transfers.",
+      "sources": [
+        {
+          "title": "Mixin Support — MDT debt-token explanation and Sep. 23 attack",
+          "url": "https://support.mixin.one/en/article/what-is-mdt-token-77n05i/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Early public estimates were around $200M; Mixin's later support documentation states roughly $150M for the principal affected assets."
+    },
+    {
+      "id": "LORE-CAN-2023-067",
+      "canonical_key": "2023-jupiter-grows-as-a-core-solana-liquidity-routing-venue",
+      "date": "2023-10",
+      "title": "Jupiter grows as a core Solana liquidity-routing venue",
+      "branches": [
+        "ALTCOINS",
+        "DEX"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0614"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
+      "source_confidence": "HIGH",
+      "summary": "By the end of October 2023, Jupiter said it had facilitated about $35 billion in cumulative trading volume, 102 million transactions and use by roughly 955,000 unique wallets, while accounting for most organic Solana swap flow.",
+      "significance": "Jupiter's growth made it the dominant routing layer for Solana liquidity and a central piece of the ecosystem's post-FTX revival.",
+      "sources": [
+        {
+          "title": "Jupiter Research — archived 2023 Green Paper",
+          "url": "https://discuss.jup.ag/t/archived-jupiter-green-paper/21719",
           "type": "PROJECT_ARCHIVE"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Pin original Domo announcement and first ORDI deployment before VERIFIED."
+      "merged_legacy_titles": [],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2023-013",
-      "date": "2023-04",
-      "title": "PEPE ignites a new meme-coin cycle",
-      "branches": [
-        "MEMES",
-        "CULTURE",
-        "MARKETS"
-      ],
-      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
-      "source_confidence": "HIGH",
-      "summary": "PEPE appeared on Ethereum in mid-April 2023 and exploded through crypto trading culture within days; contemporary reporting documented huge percentage gains, rapidly rising holder counts and a market capitalization that crossed $1 billion by 5 May.",
-      "significance": "PEPE proved that meme-coin mania was not confined to the 2021 dog-coin cycle and re-established internet-native memes as a major speculative crypto category.",
-      "sources": [
-        {
-          "title": "CoinDesk — Pepe the Frog meme coins rocket",
-          "url": "https://www.coindesk.com/markets/2023/04/18/pepe-the-frog-memecoins-rocket-as-crypto-twitter-moves-over-doge-obsession",
-          "type": "CONTEMPORARY_SECONDARY"
-        },
-        {
-          "title": "CoinDesk — PEPE reaches $1B market cap",
-          "url": "https://www.coindesk.com/markets/2023/05/05/first-mover-americas-memecoin-pepe-hits-1b-market-cap",
-          "type": "CONTEMPORARY_SECONDARY"
-        }
-      ],
-      "score_status": "NOT_SCORED",
-      "notes": "Contemporary sources differ by roughly a day on the exact launch/TGE date; publish as mid-April unless on-chain contract deployment is used as the final timestamp."
-    },
-    {
-      "id": "LORE-CAN-2023-014",
-      "date": "2023",
-      "title": "BONK becomes a symbol of Solana's post-FTX revival",
-      "branches": [
-        "ALTCOINS",
-        "MEMES",
-        "CULTURE"
-      ],
-      "research_state": "CONTEXT_VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "BONK was launched on Christmas Day 2022 and distributed heavily to Solana developers and creators. Through 2023, BONK mania became closely associated with renewed community energy and Solana's recovery after the FTX collapse.",
-      "significance": "BONK's community-first airdrop and 2023 rise made it a cultural marker for Solana's shift away from the FTX/Alameda era.",
-      "sources": [
-        {
-          "title": "BONK — About",
-          "url": "https://www.bonkcoin.com/about",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "Solana Foundation — 2023: The Year of the Solana Community",
-          "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
-          "type": "PROJECT_PRIMARY"
-        }
-      ],
-      "score_status": "NOT_SCORED",
-      "notes": "BONK launch belongs chronologically to 25 Dec 2022; this 2023 record is specifically the revival/cultural phase."
-    },
-    {
-      "id": "LORE-CAN-2023-015",
-      "date": "2023-08-10",
-      "title": "Friend.tech launches and creates a social-finance frenzy on Base",
-      "branches": [
-        "DEFI",
-        "CULTURE",
-        "ETHEREUM"
-      ],
-      "research_state": "VERIFIED_WITH_SECONDARY_SUPPORT",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "Friend.tech opened its invite-only beta on Base on 10 August 2023, letting users buy and sell access-linked 'shares' later renamed keys. It attracted rapid early activity and fees among Crypto Twitter personalities.",
-      "significance": "The app became the defining SocialFi experiment of 2023 and demonstrated how Base could support viral consumer crypto applications almost immediately after public launch.",
-      "sources": [
-        {
-          "title": "TechCrunch — Friend.tech hype is skyrocketing",
-          "url": "https://techcrunch.com/2023/08/21/friend-tech-hype-is-skyrocketing-but-will-it-actually-reach-the-stars/",
-          "type": "CONTEMPORARY_SECONDARY"
-        },
-        {
-          "title": "Friend.tech company profile",
-          "url": "https://www.linkedin.com/company/friend-tech",
-          "type": "COMPANY_PROFILE"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2023-016",
-      "date": "2023",
-      "title": "Solana stages a major post-FTX recovery",
-      "branches": [
-        "ALTCOINS",
-        "MARKETS"
-      ],
-      "research_state": "CONTEXT_VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "Solana's ecosystem rebuilt through 2023 after the severe reputational and market shock from FTX. The Solana Foundation's year-end review explicitly described a community-led resurgence, with BONK, Saga, new applications and continued development as prominent themes.",
-      "significance": "The recovery prevented FTX's collapse from becoming Solana's endpoint and set up the network's major 2024 consumer and meme-coin expansion.",
-      "sources": [
-        {
-          "title": "Solana Foundation — 2023: The Year of the Solana Community",
-          "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
-          "type": "PROJECT_PRIMARY"
-        }
-      ],
-      "score_status": "HOLD",
-      "notes": "Broad era/context node. Score discrete Solana events rather than this umbrella unless the collection deliberately includes era cards."
-    },
-    {
-      "id": "LORE-CAN-2023-017",
-      "date": "2023-11-02",
-      "title": "Sam Bankman-Fried is convicted",
+      "id": "LORE-CAN-2023-068",
+      "canonical_key": "2023-sbf-trial-features-testimony-from-former-ftx-executives",
+      "date": "2023-10-03 to 2023-11-02",
+      "title": "SBF trial features testimony from former FTX executives",
       "branches": [
         "FTX",
-        "CRIME",
-        "PEOPLE"
+        "CRIME"
       ],
-      "research_state": "VERIFIED",
+      "source_event_ids": [
+        "LORE-EVT-0520"
+      ],
+      "research_state": "VERIFIED_WITH_RANGE",
       "source_confidence": "HIGH",
-      "summary": "A federal jury convicted Sam Bankman-Fried on seven fraud and conspiracy counts related to FTX and Alameda.",
-      "significance": "The verdict closed the central criminal trial arising from FTX's collapse and established criminal responsibility for the fraud alleged by prosecutors.",
+      "summary": "Bankman-Fried's federal criminal trial featured testimony from former FTX and Alameda executives including Gary Wang, Caroline Ellison and Nishad Singh, and ended with his conviction on all seven counts submitted to the jury.",
+      "significance": "The testimony exposed the internal mechanics of FTX and Alameda and became the definitive courtroom account of the exchange's collapse.",
       "sources": [
         {
-          "title": "US DOJ — Statement on SBF conviction",
+          "title": "AP — Gary Wang testimony",
+          "url": "https://apnews.com/article/3f42c055a8040ad8fb2edb4c7319f153",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "AP — Caroline Ellison testimony",
+          "url": "https://apnews.com/article/bdab0230730ec079fad8e2086cf9b3f6",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "AP — Nishad Singh testimony",
+          "url": "https://apnews.com/article/ab5910fe6f9c56b73dc2943848c33817",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "DOJ — SBF conviction statement",
           "url": "https://www.justice.gov/usao-sdny/pr/statement-us-attorney-damian-williams-conviction-samuel-bankman-fried",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-069",
+      "canonical_key": "2023-uk-financial-promotions-regime-begins-applying-to-crypto-marketing",
+      "date": "2023-10-08",
+      "title": "UK financial promotions regime begins applying to crypto marketing",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0345"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The UK's cryptoasset financial-promotions regime took effect on 8 October 2023 for firms marketing qualifying cryptoassets to UK consumers.",
+      "significance": "It brought crypto advertising into a formal high-risk-investment promotions framework with risk warnings, approval routes and restrictions on incentives.",
+      "sources": [
+        {
+          "title": "FCA — Cryptoasset firms marketing to UK consumers",
+          "url": "https://www.fca.org.uk/firms/cryptoassets/marketing-uk-consumers",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-070",
+      "canonical_key": "2023-jpmorgan-expands-blockchain-settlement-through-onyx",
+      "date": "2023-10-11",
+      "title": "JPMorgan expands blockchain settlement through Onyx",
+      "branches": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0926"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "JPMorgan's Tokenized Collateral Network on Onyx completed its first live collateral settlement: BlackRock tokenized shares in a money-market fund and transferred them to Barclays as collateral for an OTC derivatives trade.",
+      "significance": "The transaction was a major institutional tokenization milestone because a traditional fund asset was mobilized on blockchain rails in a live derivatives-collateral workflow.",
+      "sources": [
+        {
+          "title": "CoinDesk — JPMorgan first live TCN settlement with BlackRock and Barclays",
+          "url": "https://www.coindesk.com/business/2023/10/11/jpmorgan-debuts-tokenized-blackrock-shares-as-collateral-with-barclays/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-071",
+      "canonical_key": "2023-uniswap-labs-introduces-front-end-swap-fee",
+      "date": "2023-10-17",
+      "title": "Uniswap Labs introduces front-end swap fee",
+      "branches": [
+        "DEX",
+        "GOVERNANCE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1099"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Uniswap Labs began charging a 0.15% fee on selected swaps executed through its own web interface and wallet, separate from Uniswap protocol liquidity-provider or governance-controlled fees.",
+      "significance": "The fee highlighted the distinction between a decentralized protocol and the company-operated interfaces built on top of it, while creating a direct Labs revenue stream.",
+      "sources": [
+        {
+          "title": "The Block — Uniswap Labs 0.15% interface fee",
+          "url": "https://www.theblock.co/post/257798/uniswap-to-charge-0-15-to-swap-certain-tokens-on-web-interface-and-wallet/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-072",
+      "canonical_key": "2023-european-central-bank-advances-digital-euro-preparation-phase",
+      "date": "2023-10-18",
+      "title": "European Central Bank advances digital euro preparation phase",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0356"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The ECB Governing Council decided to move the digital euro project from its investigation phase into a preparation phase.",
+      "significance": "The decision advanced one of the world's most important potential central-bank digital currency projects without yet committing to issuance.",
+      "sources": [
+        {
+          "title": "ECB — Eurosystem proceeds to digital euro preparation phase",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2023/html/ecb.pr231018~111a014ae7.ga.html",
+          "type": "CENTRAL_BANK"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-073",
+      "canonical_key": "2023-dydx-chain-launches",
+      "date": "2023-10-26 to 2023-11-28",
+      "title": "dYdX Chain launches",
+      "branches": [
+        "DEFI",
+        "ALTCOINS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0404"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "The first block of the standalone dYdX Chain was produced on 26 October 2023; governance later enabled full-production trading during November.",
+      "significance": "The launch completed dYdX's shift from an Ethereum application to a sovereign proof-of-stake app-chain.",
+      "sources": [
+        {
+          "title": "dYdX Foundation — dYdX Chain token mechanics / genesis",
+          "url": "https://www.dydx.foundation/blog/dydx-token-mechanics",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "dYdX Foundation — dYdX Chain mainnet history",
+          "url": "https://www.dydx.foundation/blog/new-trading-pairs-permissionless-markets-on-the-dydx-chain",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-074",
+      "canonical_key": "2023-pixels-migrates-to-ronin-and-revives-web3-gaming-attention",
+      "date": "2023-10-31",
+      "title": "Pixels migrates to Ronin and revives web3 gaming attention",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1125"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Pixels went live on Ronin after announcing its migration from Polygon, enabling Ronin wallet login, on-chain assets and in-game token features.",
+      "significance": "The migration helped revive attention around Ronin as a gaming-focused blockchain after the Axie/Ronin crisis.",
+      "sources": [
+        {
+          "title": "Ronin — Pixels is live on Ronin",
+          "url": "https://blog.roninchain.com/p/pixels-is-live-on-ronin",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-075",
+      "canonical_key": "2023-celestia-mainnet-launches-modular-blockchain-data-availability",
+      "date": "2023-10-31T14:00:00Z",
+      "title": "Celestia mainnet launches modular blockchain data availability",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0396"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Celestia launched Mainnet Beta, codenamed Lemon Mint, on 31 October 2023.",
+      "significance": "Celestia made modular data availability a live standalone blockchain product and helped establish modular blockchain architecture as a major scaling thesis.",
+      "sources": [
+        {
+          "title": "Celestia Foundation — Mainnet is live",
+          "url": "https://blog.celestia.org/celestia-mainnet-is-live/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-076",
+      "canonical_key": "2023-safemoon-founders-are-charged-with-fraud",
+      "date": "2023-11-01",
+      "title": "SafeMoon founders are charged with fraud",
+      "branches": [
+        "SCAMS",
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1172"
+      ],
+      "research_state": "VERIFIED_AS_CHARGES",
+      "source_confidence": "HIGH",
+      "summary": "US prosecutors charged SafeMoon executives with fraud and money-laundering conspiracies, while the SEC separately alleged fraud and an unregistered crypto-asset securities offering.",
+      "significance": "The cases turned one of the 2021 retail-token boom's biggest names into a major enforcement and alleged-misappropriation story.",
+      "sources": [
+        {
+          "title": "DOJ — SafeMoon founders and executives charged",
+          "url": "https://www.justice.gov/usao-edny/pr/founders-and-executives-digital-asset-company-charged-multi-million-dollar",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "SEC — SafeMoon and executive team charges",
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-229",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": "Use allegation language for conduct not established by conviction."
+    },
+    {
+      "id": "LORE-CAN-2023-077",
+      "canonical_key": "2023-sam-bankman-fried-convicted",
+      "date": "2023-11-02",
+      "title": "Sam Bankman-Fried convicted",
+      "branches": [
+        "CRIME",
+        "FTX"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0061"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "A federal jury convicted Sam Bankman-Fried on seven fraud and conspiracy counts after a month-long trial over the misuse of FTX customer funds and deception of investors and lenders.",
+      "significance": "The conviction provided the criminal verdict on the conduct behind crypto's defining 2022 exchange collapse.",
+      "sources": [
+        {
+          "title": "DOJ SDNY — Bankman-Fried conviction / fraud summary",
+          "url": "https://www.justice.gov/usao-sdny/prosecuting-fraud",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "DOJ SDNY — SBF sentenced (recaps Nov. 2 conviction)",
+          "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-078",
+      "canonical_key": "2023-bittrex-global-later-winds-down-operations",
+      "date": "2023-11-20",
+      "title": "Bittrex Global later winds down operations",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1227"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Bittrex Global announced that it would wind down operations, with trading scheduled to cease on 4 December and customers urged to withdraw assets.",
+      "significance": "The closure completed the retreat of a once-major exchange brand after its US arm had already filed for bankruptcy.",
+      "sources": [
+        {
+          "title": "Bittrex Global — wind-down notice",
+          "url": "https://bittrexglobal.com/",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "The Block — Bittrex Global wind-down announcement",
+          "url": "https://www.theblock.co/amp/post/263875/bittrex-global-to-wind-down-operations-urges-customers-to-withdraw-funds",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-079",
+      "canonical_key": "2023-binance-reaches-major-us-government-settlements",
+      "date": "2023-11-21",
+      "title": "Binance reaches major US government settlements",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0148"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Binance pleaded guilty to federal charges and agreed to pay more than $4 billion in coordinated US resolutions; founder and CEO Changpeng Zhao separately pleaded guilty to violating the Bank Secrecy Act and resigned.",
+      "significance": "The settlement was one of the largest criminal resolutions in crypto history and forced a leadership transition at the world's largest exchange.",
+      "sources": [
+        {
+          "title": "DOJ — Binance and CZ guilty pleas / $4B resolution",
+          "url": "https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "DOJ — United States v. Binance case",
+          "url": "https://www.justice.gov/criminal/case/united-states-v-binance-holdings-limited-dba-binancecom",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-080",
+      "canonical_key": "2023-solana-saga-phones-become-unexpectedly-valuable-after-bonk-rewards",
+      "date": "2023-12",
+      "title": "Solana Saga phones become unexpectedly valuable after BONK rewards",
+      "branches": [
+        "ALTCOINS",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0254"
+      ],
+      "research_state": "VERIFIED_WITH_MONTH",
+      "source_confidence": "HIGH",
+      "summary": "Solana Saga phones suddenly became economically attractive after owners became eligible for BONK and other ecosystem rewards; Solana Mobile later said more than 15,000 devices sold in a single day and Saga sold out.",
+      "significance": "The episode turned a poorly selling crypto phone into one of the strangest token-airdrop arbitrage stories of the cycle.",
+      "sources": [
+        {
+          "title": "Solana Mobile — From Saga to Seeker",
+          "url": "https://solanamobile.com/blog/from-saga-to-seeker-how-solana-mobile-is-defining-web3-mobile",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-081",
+      "canonical_key": "2023-jito-launches-governance-token-with-large-solana-airdrop",
+      "date": "2023-12-07T16:00:00Z",
+      "title": "Jito launches governance token with large Solana airdrop",
+      "branches": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0531"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Jito opened claims for its JTO governance-token airdrop, allocating 10% of total supply to eligible JitoSOL users, validators and MEV-network participants.",
+      "significance": "The distribution became one of Solana's defining comeback-era airdrops and highlighted the growing importance of liquid staking and MEV infrastructure on Solana.",
+      "sources": [
+        {
+          "title": "Jito Foundation — JTO airdrop claiming details",
+          "url": "https://www.jito.network/blog/airdrop-claiming-details/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Jito Foundation — JTO airdrop eligibility and allocation",
+          "url": "https://www.jito.network/blog/jto-airdrop-eligibility-and-allocation-specifications/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-082",
+      "canonical_key": "2023-nigeria-relaxes-banking-restrictions-for-regulated-crypto-firms",
+      "date": "2023-12-22",
+      "title": "Nigeria relaxes banking restrictions for regulated crypto firms",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0337"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "The Central Bank of Nigeria issued new guidelines allowing banks to maintain accounts for regulated virtual-asset service providers, superseding the 2021 banking restriction while still barring banks from trading crypto on their own account.",
+      "significance": "The policy was a major reversal from banking exclusion toward regulated access.",
+      "sources": [
+        {
+          "title": "Central Bank of Nigeria — Guidelines on bank accounts for VASPs",
+          "url": "https://www.cbn.gov.ng/out/2024/fprd/guidelines%20on%20operations%20of%20bank%20accounts%20for%20virtual%20asset%20providers.pdf",
+          "type": "CENTRAL_BANK"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2023-083",
+      "canonical_key": "2023-blur-overtakes-opensea-in-trading-volume-during-incentive-war",
+      "date": "2023-Q1",
+      "title": "Blur overtakes OpenSea in trading volume during incentive war",
+      "branches": [
+        "NFT",
+        "MARKETS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1216"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
+      "source_confidence": "HIGH",
+      "summary": "Blur overtook OpenSea by NFT trading volume during the incentive war. DappRadar measured Blur at about 57.4% of Q1 NFT marketplace volume and roughly 70.5% dominance in March.",
+      "significance": "The reversal ended OpenSea's long period of uncontested volume leadership and showed how token incentives could rapidly move professional NFT liquidity.",
+      "sources": [
+        {
+          "title": "DappRadar — Q1 2023 NFT marketplace report",
+          "url": "https://dappradar.com/blog/dappradar-dapp-industry-report-q1-2023-defi-nft-crypto",
+          "type": "MARKET_DATA"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [],
+      "notes": null
     }
   ],
   "updated": "2026-09-26",
-  "note": "2023 evidence pass tightened; 0 low-confidence/research-needed canonical entries remain."
+  "note": "2023 canonical file fully reconciled from all 114 legacy candidates. Only verified canonical events remain here; context and merged rows stay in reconciliation/legacy files.",
+  "reconciliation_source": "2023-reconciliation.json",
+  "reconciliation_status": "COMPLETE"
 }
