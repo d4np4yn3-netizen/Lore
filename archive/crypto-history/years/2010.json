@@ -4,7 +4,7 @@
   "generated_from": "archive/crypto-history/events.json",
   "generated_from_blob": "c39917cd71197131e486ff3d14c02eb882df073b",
   "generated": "2026-09-26",
-  "total_events": 20,
+  "total_events": 18,
   "events": [
     {
       "id": "LORE-EVT-0012",
@@ -407,67 +407,6 @@
       }
     },
     {
-      "id": "LORE-EVT-0423",
-      "date": "2010",
-      "title": "BitcoinTalk forum becomes the central early community hub",
-      "branch": [
-        "BITCOIN",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2009-11 onward",
-        "summary": "Satoshi announced a new Bitcoin forum in November 2009, replacing the old SourceForge board; through 2010 it became the main public venue for early software releases, mining, commerce and community experiments.",
-        "significance": "The forum preserved much of Bitcoin's earliest social history, including mining breakthroughs, Pizza Day and protocol discussion.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "BitcoinTalk — Welcome to the new Bitcoin forum",
-            "url": "https://bitcointalk.org/index.php?topic=5.0",
-            "type": "PRIMARY_ARCHIVE"
-          },
-          {
-            "title": "BitcoinTalk early forum history",
-            "url": "https://bitcointalk.org/index.php?topic=2905330.0",
-            "type": "COMMUNITY_ARCHIVE"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "The forum began in November 2009; this 2010 row is community-growth context rather than launch."
-      }
-    },
-    {
-      "id": "LORE-EVT-0650",
-      "date": "2009-12-30",
-      "title": "First known Bitcoin difficulty jump reflects growing mining participation",
-      "branch": [
-        "BITCOIN",
-        "MINING"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2009-12-30",
-        "summary": "Bitcoin performed its first automatic proof-of-work difficulty adjustment on 30 December 2009, according to Satoshi's later forum post.",
-        "significance": "The adjustment demonstrated that Bitcoin's feedback mechanism for maintaining approximate block timing worked automatically as mining conditions changed.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "BitcoinTalk — Satoshi discusses the first automatic difficulty adjustment",
-            "url": "https://bitcointalk.org/index.php?topic=43.0",
-            "type": "PRIMARY_ARCHIVE"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Originally captured under 2010; corrected to 30 December 2009."
-      }
-    },
-    {
       "id": "LORE-EVT-0651",
       "date": "2010",
       "title": "Bitcoin Pizza transaction is arranged on Bitcointalk",
@@ -537,19 +476,14 @@
       "research": {
         "state": "VERIFIED",
         "exact_date": "2010-10-18",
-        "summary": "The #bitcoin-otc IRC marketplace was announced in October 2010 with an order book for users to arrange over-the-counter Bitcoin trades directly with one another.",
-        "significance": "It was important early market infrastructure before mature exchanges, and helped build reputation-based peer-to-peer trading culture.",
+        "summary": "The #bitcoin-otc marketplace was announced on Freenode IRC on 18 October 2010, with an order book for users to negotiate Bitcoin trades directly with one another.",
+        "significance": "Bitcoin-OTC was an important bridge between forum-era peer-to-peer trading and more formal exchanges, and helped establish reputation-based OTC market culture.",
         "source_confidence": "HIGH",
         "sources": [
           {
             "title": "BitcoinTalk — Announcing #bitcoin-otc",
             "url": "https://bitcointalk.org/index.php?topic=1491.0",
             "type": "PRIMARY_ARCHIVE"
-          },
-          {
-            "title": "Satoshi Nakamoto Institute — On the Origins of Bitcoin",
-            "url": "https://nakamotoinstitute.org/library/on-the-origins-of-bitcoin/",
-            "type": "ARCHIVAL_RESEARCH"
           }
         ],
         "canonical_event_id": null,
@@ -568,21 +502,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2010-06-25 onward",
-        "summary": "Early users were already asking how to back up Bitcoin's wallet.dat file in June 2010; Gavin Andresen advised copying the file to a safe location while Bitcoin was shut down.",
-        "significance": "The discussion captures the birth of crypto self-custody practice: users, not banks, were responsible for protecting the keys controlling their money.",
+        "state": "CONTEXT_VERIFIED_WITH_PRIMARY_ARCHIVE",
+        "exact_date": "2010-06 to 2010-09",
+        "summary": "Early Bitcoin users and developers documented wallet.dat backup practices in 2010, including Gavin Andresen's advice to copy wallet.dat securely and later discussion of how newly generated keys could make old backups incomplete.",
+        "significance": "These discussions capture the birth of crypto self-custody operational practice: users themselves became responsible for backing up the private keys controlling their money.",
         "source_confidence": "HIGH",
         "sources": [
           {
             "title": "BitcoinTalk — How to Backup Wallet",
             "url": "https://bitcointalk.org/index.php?topic=213.0",
             "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk — When to backup / What to backup",
+            "url": "https://bitcointalk.org/index.php?topic=1035.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk — wallet.dat backups may lose transactions",
+            "url": "https://bitcointalk.org/index.php?topic=1300.0",
+            "type": "PRIMARY_ARCHIVE"
           }
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context row spanning several documented 2010 discussions rather than one product launch."
       }
     }
   ],
