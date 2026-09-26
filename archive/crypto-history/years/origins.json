@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0.0",
+  "period": "pre-Bitcoin origins",
+  "generated": "2026-09-26",
+  "purpose": "Canonical evidence for cryptographic and digital-money precursors to Bitcoin.",
+  "record_count": 13,
+  "records": [
+    {
+      "date": "1976-11",
+      "title": "Diffie and Hellman publish New Directions in Cryptography",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Whitfield Diffie and Martin Hellman published the foundational public-key cryptography paper that introduced a way to establish secure communications without first sharing a secret key.",
+      "significance": "Public-key cryptography and digital signatures are fundamental building blocks beneath secure digital money and cryptocurrency.",
+      "sources": [
+        {
+          "title": "New Directions in Cryptography",
+          "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+          "type": "PRIMARY_PAPER"
+        }
+      ]
+    },
+    {
+      "date": "1977-04",
+      "title": "RSA public-key cryptosystem is introduced",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Rivest, Shamir and Adleman produced the MIT technical report describing the RSA public-key cryptosystem; the journal version followed in 1978.",
+      "significance": "RSA became one of the foundational systems for public-key encryption and digital signatures.",
+      "sources": [
+        {
+          "title": "MIT — A Method for Obtaining Digital Signatures and Public-key Cryptosystems",
+          "url": "https://dspace.mit.edu/entities/publication/a2e09fea-6f05-48a5-9ce9-5073dfcde567",
+          "type": "PRIMARY_PAPER"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0001",
+      "date": "1982",
+      "title": "David Chaum proposes blind signatures for untraceable digital payments",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "David Chaum presented Blind Signatures for Untraceable Payments at CRYPTO '82, describing cryptographic techniques that could support private electronic cash.",
+      "significance": "Chaum's work is one of the clearest direct technical ancestors of privacy-preserving digital money.",
+      "sources": [
+        {
+          "title": "David Chaum — publications",
+          "url": "https://chaum.com/publications/",
+          "type": "AUTHOR_PRIMARY"
+        },
+        {
+          "title": "David Chaum — eCash history",
+          "url": "https://chaum.com/ecash/",
+          "type": "AUTHOR_PRIMARY"
+        }
+      ]
+    },
+    {
+      "date": "1988",
+      "title": "The Crypto Anarchist Manifesto circulates",
+      "status": "VERIFIED_WITH_DATE_QUALIFIER",
+      "tier": "MAJOR",
+      "summary": "Timothy May later dated The Crypto Anarchist Manifesto to mid-1988 and said it was distributed at Crypto '88; he posted it electronically to the Cypherpunks list in November 1992.",
+      "significance": "The manifesto articulated the privacy, censorship-resistance and cryptographic-sovereignty ideas that shaped the cypherpunk movement.",
+      "sources": [
+        {
+          "title": "The Crypto Anarchist Manifesto",
+          "url": "https://www.activism.net/cypherpunk/crypto-anarchy.html",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0002",
+      "date": "1989",
+      "title": "DigiCash is founded",
+      "status": "RESEARCHED_SECONDARY",
+      "tier": "MAJOR",
+      "summary": "David Chaum founded DigiCash to commercialize privacy-preserving cryptographic electronic cash.",
+      "significance": "DigiCash was the most important commercial pre-Bitcoin effort to deploy cryptographic cash through banks and payment networks.",
+      "sources": [
+        {
+          "title": "David Chaum — eCash history",
+          "url": "https://chaum.com/ecash/",
+          "type": "AUTHOR_PRIMARY"
+        },
+        {
+          "title": "DigiCash historical summary",
+          "url": "https://en.wikipedia.org/wiki/DigiCash",
+          "type": "SECONDARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0003",
+      "date": "1992-09-21",
+      "title": "Cypherpunks mailing list begins",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Eric Hughes sent the welcome message that established the Cypherpunks mailing-list infrastructure on toad.com.",
+      "significance": "The mailing list became a central forum for privacy, cryptography, anonymous digital cash and ideas that directly preceded Bitcoin.",
+      "sources": [
+        {
+          "title": "Cypherpunks mailing-list welcome message",
+          "url": "https://mailing-list-archive.cryptoanarchy.wiki/archive/1992/09/fdf9c19e77ec3f1a9bbc6bc19266d565b89d19dbd0ad369f5a2e800af3fc9558/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0004",
+      "date": "1993-03-09",
+      "title": "A Cypherpunk's Manifesto is published",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Eric Hughes published A Cypherpunk's Manifesto to the Cypherpunks mailing list.",
+      "significance": "It became the defining concise statement of the movement's belief that privacy should be defended through cryptography and code.",
+      "sources": [
+        {
+          "title": "A Cypherpunk's Manifesto",
+          "url": "https://nakamotoinstitute.org/library/cypherpunk-manifesto/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "date": "1994-05-27",
+      "title": "DigiCash records an early eCash payment over computer networks",
+      "status": "VERIFIED",
+      "tier": "MAJOR",
+      "summary": "Chaum's eCash history records a first electronic-cash payment over computer networks on 27 May 1994, with broader trials following.",
+      "significance": "It demonstrated working cryptographic digital cash more than a decade before Bitcoin.",
+      "sources": [
+        {
+          "title": "David Chaum — eCash history",
+          "url": "https://chaum.com/ecash/",
+          "type": "AUTHOR_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0005",
+      "date": "1997-05",
+      "title": "Adam Back proposes Hashcash",
+      "status": "VERIFIED_WITH_DATE_QUALIFIER",
+      "tier": "CORE",
+      "summary": "Adam Back originally proposed Hashcash in May 1997 as a proof-of-work mechanism for resisting spam and denial-of-service abuse.",
+      "significance": "Bitcoin explicitly builds on Hashcash-style proof of work, making it a direct technical ancestor of Bitcoin mining.",
+      "sources": [
+        {
+          "title": "Hashcash — A Denial of Service Counter-Measure",
+          "url": "https://nakamotoinstitute.org/library/hashcash/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0006",
+      "date": "1998-11",
+      "title": "Wei Dai publishes b-money",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Wei Dai published b-money in November 1998, describing protocols for money and contracts among untraceable digital pseudonyms.",
+      "significance": "Satoshi cited b-money in the Bitcoin whitepaper, making it a direct conceptual predecessor.",
+      "sources": [
+        {
+          "title": "b-money",
+          "url": "https://nakamotoinstitute.org/library/b-money/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "date": "1998",
+      "title": "DigiCash enters bankruptcy",
+      "status": "RESEARCHED_SECONDARY",
+      "tier": "MAJOR",
+      "summary": "DigiCash entered bankruptcy after failing to achieve broad commercial adoption.",
+      "significance": "Its failure illustrates the centralization and adoption problems that earlier cryptographic-cash systems had not solved.",
+      "sources": [
+        {
+          "title": "DigiCash historical summary",
+          "url": "https://en.wikipedia.org/wiki/DigiCash",
+          "type": "SECONDARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0008",
+      "date": "2004-08-15",
+      "title": "Hal Finney announces reusable proof of work (RPOW)",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Hal Finney announced RPOW, a server system that exchanged Hashcash proofs for transferable reusable proof-of-work tokens.",
+      "significance": "RPOW was a sophisticated pre-Bitcoin experiment in scarce, transferable proof-of-work-based digital value.",
+      "sources": [
+        {
+          "title": "RPOW — Reusable Proofs of Work",
+          "url": "https://nakamotoinstitute.org/library/rpow/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0007",
+      "date": "2005-12-29",
+      "title": "Nick Szabo publishes Bit Gold proposal",
+      "status": "VERIFIED_WITH_DATE_CORRECTION",
+      "tier": "CORE",
+      "summary": "The surviving primary Bit Gold publication is Nick Szabo's 29 December 2005 post describing scarce digital objects created through proof of work and timestamping.",
+      "significance": "Bit Gold is a major conceptual ancestor of Bitcoin's digital scarcity and proof-of-work design.",
+      "sources": [
+        {
+          "title": "Bit Gold",
+          "url": "https://nakamotoinstitute.org/library/bit-gold/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ],
+      "notes": "Many secondary timelines date the concept to 1998; the archive uses the surviving primary publication date rather than repeating that unsourced date."
+    }
+  ]
+}
