@@ -25,4 +25,4 @@ In LORE's imagined den, the screens light the work in progress. The paper reache
 
 Eric Hughes, [A Cypherpunk's Manifesto](https://nakamotoinstitute.org/library/cypherpunk-manifesto/), 9 March 1993. The den, people and paper handoff are an imagined scene, not a documented meeting or reconstruction of Hughes's workspace. Fine illustration lettering is approximate. The full original text is available through the card's QR link.
 
-**Editorial status:** New book copy and spread are review drafts. Dan approved the expanded, screen-lit artwork and then requested removal of the forward green CRT above the orange screen. The current art applies that change. Epic follows row 002 of the saved rarity proposal. Card assembly and GitHub upload are authorised; final physical print release remains separate.
+**Editorial status:** Dan approved the finished 002 card and this chapter text for the book and website on 26 September 2026. The full-art A4 spread uses approved copy; page design and physical print reproduction remain review proofs. The QR leads to the card's story, four decoded details and the original manifesto. Physical print release remains separate.

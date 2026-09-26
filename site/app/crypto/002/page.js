@@ -1,7 +1,6 @@
-import { redirect } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 
-// Stable printed-card URL. Use a temporary redirect until the card's own
-// story and Easter-egg page is approved, so scans can follow that page later.
+// Preserve the QR destination printed on 002 when its page moves or a custom domain is added.
 export default function Crypto002() {
-  redirect('https://nakamotoinstitute.org/library/cypherpunk-manifesto/');
+  permanentRedirect('/cards/cypherpunk-manifesto');
 }

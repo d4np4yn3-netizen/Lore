@@ -14,7 +14,7 @@ from reportlab.platypus import Paragraph
 ROOT = Path(__file__).resolve().parents[2]
 BOOK = ROOT / 'book/crypto-season-01'
 ART = ROOT / 'cards/crypto/season-01/the-cypherpunk-manifesto-master-01/art.png'
-OUT = BOOK / 'proofs/002-cypherpunk-manifesto-full-art-spread-v1.pdf'
+OUT = BOOK / 'proofs/002-cypherpunk-manifesto-full-art-spread-v2.pdf'
 FONT = ROOT / 'cards/master/front-v3/source/fonts'
 pdfmetrics.registerFont(TTFont('DejaVu', str(FONT / 'DejaVuSans.ttf')))
 pdfmetrics.registerFont(TTFont('DejaVu-Bold', str(FONT / 'DejaVuSans-Bold.ttf')))
@@ -79,7 +79,7 @@ z = para(section('Source and art note').split('\n\n')[0], 307, z-30, 242, note, 
 if min(y,z) < 80: raise RuntimeError(f'Column overflow: story={y}, clues={z}')
 c.setStrokeColor(GOLD); c.line(43, 57, W-43, 57)
 c.setFillColor(GREY); c.setFont('DejaVu', 7.5)
-c.drawString(43, 40, 'BOOK WORDING AND PAGE DESIGN: REVIEW DRAFT')
+c.drawString(43, 40, 'APPROVED COPY / BOOK PAGE DESIGN: REVIEW PROOF')
 c.drawRightString(W-43, 40, '004')
 c.save()
 print(f'{OUT} | story bottom {y:.1f} | clue bottom {z:.1f}')

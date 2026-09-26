@@ -1,4 +1,5 @@
 import chapter001 from './content/001.json';
+import chapter002 from './content/002.json';
 
 export const cards = [
   {
@@ -12,6 +13,18 @@ export const cards = [
     ...chapter001,
     source: 'https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf',
     number: '001/100',
+  },
+  {
+    slug: 'cypherpunk-manifesto',
+    title: 'CYPHERPUNK MANIFESTO',
+    rarity: 'EPIC',
+    date: '9 MAR 1993',
+    subject: 'ERIC HUGHES',
+    phrase: 'CYPHERPUNKS WRITE CODE.',
+    image: 'cards/crypto/season-01/the-cypherpunk-manifesto-master-01/LORE-Cypherpunk-Manifesto-Epic-002-Print-v2.png',
+    ...chapter002,
+    source: 'https://nakamotoinstitute.org/library/cypherpunk-manifesto/',
+    number: '002/100',
   },
 ];
 
