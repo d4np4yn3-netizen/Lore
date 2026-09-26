@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2023 stablecoin stress, rulemaking litigation, Ripple relisting, institutional tokenization, Optimism airdrops, Solana compression and BONK chronology verified/corrected.",
+  "status_note": "Evidence phase active. 2023 institutional ETF narrative, Solana recovery, liquid staking, Privacy Pools and WalletConnect v2 are now sourced and classified.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -11716,12 +11716,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023",
+        "summary": "Liquid staking tokens such as Lido's stETH and wstETH became widely usable as DeFi collateral on lending markets while continuing to represent staked ETH and accrue staking value.",
+        "significance": "Liquid staking turned locked consensus capital into composable DeFi collateral and became a major post-Merge financial primitive.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Lido — stETH/wstETH on Aave",
+            "url": "https://help.lido.fi/en/articles/8459223-guide-how-to-use-steth-wsteth-on-aave",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Lido Docs — stETH/wstETH integration guide",
+            "url": "https://docs.lido.fi/guides/lido-tokens-integration-guide/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22755,12 +22766,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-07-05",
+        "summary": "BlackRock CEO Larry Fink publicly described Bitcoin as an international asset and compared crypto's role to digitizing gold, weeks after BlackRock filed for a spot Bitcoin trust.",
+        "significance": "The comments marked a striking reversal in tone from one of traditional finance's most influential executives and became a symbol of institutional normalization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Fortune — Larry Fink calls Bitcoin an international asset / digitizing gold",
+            "url": "https://fortune.com/crypto/2023/07/05/larry-fink-blackrock-crypto-bitcoin-etf/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "SEC EDGAR — iShares Bitcoin Trust initial S-1",
+            "url": "https://www.sec.gov/Archives/edgar/data/1980994/0001437749-23-017574-index.html",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22777,12 +22799,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-07-03",
+        "summary": "Nasdaq resubmitted its proposed rule change for BlackRock's iShares Bitcoin Trust with language stating that it expected a bilateral spot-Bitcoin surveillance-sharing agreement with Coinbase.",
+        "significance": "Surveillance-sharing became a key design feature of the 2023 spot-Bitcoin ETF applications as issuers tried to address the SEC's longstanding market-manipulation objections.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nasdaq — iShares Bitcoin Trust resubmission with Coinbase surveillance sharing",
+            "url": "https://listingcenter.nasdaq.com/assets/rulebook/nasdaq/filings/SR-NASDAQ-2023-016_Resubmission.pdf",
+            "type": "EXCHANGE_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22799,12 +22827,28 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023-06 to 2023-12",
+        "summary": "BlackRock's filing, similar applications from other asset managers, Coinbase surveillance-sharing arrangements and Grayscale's August court victory made spot-Bitcoin ETF approval one of the dominant crypto-market narratives of the second half of 2023.",
+        "significance": "The speculation mattered because it directly preceded the January 2024 US spot Bitcoin ETP approvals, but it is best treated as an era/context node rather than a single card event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC EDGAR — iShares Bitcoin Trust initial S-1",
+            "url": "https://www.sec.gov/Archives/edgar/data/1980994/0001437749-23-017574-index.html",
+            "type": "REGULATORY_FILING"
+          },
+          {
+            "title": "Nasdaq — iShares Bitcoin Trust resubmission with Coinbase surveillance sharing",
+            "url": "https://listingcenter.nasdaq.com/assets/rulebook/nasdaq/filings/SR-NASDAQ-2023-016_Resubmission.pdf",
+            "type": "EXCHANGE_FILING"
+          },
+          {
+            "title": "Grayscale — D.C. Circuit victory over SEC",
+            "url": "https://www.grayscale.com/globalassets/documents/sec/btc-8-k-item-8.01-20230829_as-filed.pdf",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22821,12 +22865,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023",
+        "summary": "Solana's ecosystem rebounded during 2023 after the severe FTX-linked shock of late 2022, with renewed developer activity, BONK-led community energy, compressed NFTs, institutional integrations and a late-year resurgence in consumer activity.",
+        "significance": "The comeback is an important ecosystem arc, but individual events such as BONK, Saga and compressed NFTs are cleaner physical-card candidates.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana Foundation — 2023: The Year of the Solana Community",
+            "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29153,12 +29203,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2023",
+        "summary": "WalletConnect completed the migration of its network from v1 to v2 during 2023, expanding multichain session capabilities and laying groundwork for a more decentralized network.",
+        "significance": "The migration upgraded one of Web3's most widely used wallet-to-app connectivity standards without forcing users into a single wallet ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WalletConnect — Foundation/network history",
+            "url": "https://walletconnect.com/blog/introducing-the-walletconnect-foundation",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "WalletConnect — next phase of the network",
+            "url": "https://walletconnect.com/blog/the-next-phase-of-the-walletconnect-network",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -32363,12 +32424,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-09-06",
+        "summary": "A paper by Vitalik Buterin, Ameen Soleimani and co-authors described Privacy Pools, a zero-knowledge privacy design intended to let users prove that funds do or do not come from selected sets without revealing their full transaction history.",
+        "significance": "The proposal became a significant post-Tornado-Cash attempt to reconcile blockchain privacy with regulatory-compliance concerns.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Buterin et al. — Blockchain Privacy and Regulatory Compliance",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
