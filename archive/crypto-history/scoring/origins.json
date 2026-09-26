@@ -1,0 +1,357 @@
+{
+  "schema_version": "1.0.0",
+  "cohort": "ORIGINS_PRE_BITCOIN",
+  "generated": "2026-09-26",
+  "rubric": "archive/crypto-history/scoring/rubric.json",
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "source_event_id": null,
+      "date": "1976-11",
+      "title": "Diffie and Hellman publish New Directions in Cryptography",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 21,
+        "story_lore_strength": 6,
+        "visual_card_potential": 8,
+        "cultural_recognition": 10,
+        "uniqueness_timeline_value": 10,
+        "collectability_chase_appeal": 5,
+        "evidence_confidence": 5,
+        "total": 65,
+        "band": "BUBBLE"
+      },
+      "scoring_notes": "Foundational cryptography, but better as timeline context than a headline crypto card.",
+      "sources": [
+        {
+          "title": "New Directions in Cryptography",
+          "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+          "type": "PRIMARY_PAPER"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "1977-04",
+      "title": "RSA public-key cryptosystem is introduced",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 20,
+        "story_lore_strength": 5,
+        "visual_card_potential": 8,
+        "cultural_recognition": 10,
+        "uniqueness_timeline_value": 7,
+        "collectability_chase_appeal": 5,
+        "evidence_confidence": 5,
+        "total": 60,
+        "band": "BUBBLE"
+      },
+      "scoring_notes": "Essential cryptographic foundation; overlaps conceptually with Diffie-Hellman for a card set.",
+      "sources": [
+        {
+          "title": "MIT — A Method for Obtaining Digital Signatures and Public-key Cryptosystems",
+          "url": "https://dspace.mit.edu/entities/publication/a2e09fea-6f05-48a5-9ce9-5073dfcde567",
+          "type": "PRIMARY_PAPER"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0001",
+      "date": "1982",
+      "title": "David Chaum proposes blind signatures for untraceable digital payments",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 24,
+        "story_lore_strength": 12,
+        "visual_card_potential": 12,
+        "cultural_recognition": 11,
+        "uniqueness_timeline_value": 10,
+        "collectability_chase_appeal": 7,
+        "evidence_confidence": 5,
+        "total": 81,
+        "band": "STRONG"
+      },
+      "scoring_notes": "Direct ancestor of private digital cash; strong historical card with a clear inventor and concept.",
+      "sources": [
+        {
+          "title": "David Chaum — publications",
+          "url": "https://chaum.com/publications/",
+          "type": "AUTHOR_PRIMARY"
+        },
+        {
+          "title": "David Chaum — eCash history",
+          "url": "https://chaum.com/ecash/",
+          "type": "AUTHOR_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "1988",
+      "title": "The Crypto Anarchist Manifesto circulates",
+      "historical_tier": "MAJOR",
+      "status": "VERIFIED_WITH_DATE_QUALIFIER",
+      "scores": {
+        "historical_importance": 16,
+        "story_lore_strength": 15,
+        "visual_card_potential": 10,
+        "cultural_recognition": 11,
+        "uniqueness_timeline_value": 9,
+        "collectability_chase_appeal": 7,
+        "evidence_confidence": 5,
+        "total": 73,
+        "band": "VIABLE"
+      },
+      "scoring_notes": "Strong ideology/history card; memorable writing and cypherpunk identity, but less visually obvious.",
+      "sources": [
+        {
+          "title": "The Crypto Anarchist Manifesto",
+          "url": "https://www.activism.net/cypherpunk/crypto-anarchy.html",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0002",
+      "date": "1989",
+      "title": "DigiCash is founded",
+      "historical_tier": "MAJOR",
+      "status": "RESEARCHED_SECONDARY",
+      "scores": {
+        "historical_importance": 20,
+        "story_lore_strength": 14,
+        "visual_card_potential": 12,
+        "cultural_recognition": 9,
+        "uniqueness_timeline_value": 8,
+        "collectability_chase_appeal": 7,
+        "evidence_confidence": 3,
+        "total": 73,
+        "band": "VIABLE"
+      },
+      "scoring_notes": "Major commercial pre-Bitcoin experiment with a compelling rise/failure story; evidence needs stronger primary company-era material.",
+      "sources": [
+        {
+          "title": "David Chaum — eCash history",
+          "url": "https://chaum.com/ecash/",
+          "type": "AUTHOR_PRIMARY"
+        },
+        {
+          "title": "DigiCash historical summary",
+          "url": "https://en.wikipedia.org/wiki/DigiCash",
+          "type": "SECONDARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0003",
+      "date": "1992-09-21",
+      "title": "Cypherpunks mailing list begins",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 23,
+        "story_lore_strength": 15,
+        "visual_card_potential": 11,
+        "cultural_recognition": 14,
+        "uniqueness_timeline_value": 10,
+        "collectability_chase_appeal": 8,
+        "evidence_confidence": 5,
+        "total": 86,
+        "band": "STRONG"
+      },
+      "scoring_notes": "Core origin story: the community where privacy, cryptography and digital-money ideas converged.",
+      "sources": [
+        {
+          "title": "Cypherpunks mailing-list welcome message",
+          "url": "https://mailing-list-archive.cryptoanarchy.wiki/archive/1992/09/fdf9c19e77ec3f1a9bbc6bc19266d565b89d19dbd0ad369f5a2e800af3fc9558/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0004",
+      "date": "1993-03-09",
+      "title": "A Cypherpunk's Manifesto is published",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 20,
+        "story_lore_strength": 18,
+        "visual_card_potential": 12,
+        "cultural_recognition": 15,
+        "uniqueness_timeline_value": 8,
+        "collectability_chase_appeal": 9,
+        "evidence_confidence": 5,
+        "total": 87,
+        "band": "STRONG"
+      },
+      "scoring_notes": "Highly quotable and culturally recognizable cypherpunk moment; excellent book/card crossover.",
+      "sources": [
+        {
+          "title": "A Cypherpunk's Manifesto",
+          "url": "https://nakamotoinstitute.org/library/cypherpunk-manifesto/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "1994-05-27",
+      "title": "DigiCash records an early eCash payment over computer networks",
+      "historical_tier": "MAJOR",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 18,
+        "story_lore_strength": 12,
+        "visual_card_potential": 13,
+        "cultural_recognition": 7,
+        "uniqueness_timeline_value": 8,
+        "collectability_chase_appeal": 7,
+        "evidence_confidence": 5,
+        "total": 70,
+        "band": "VIABLE"
+      },
+      "scoring_notes": "First working cryptographic-cash payment is historically useful and visually strong, though less famous.",
+      "sources": [
+        {
+          "title": "David Chaum — eCash history",
+          "url": "https://chaum.com/ecash/",
+          "type": "AUTHOR_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0005",
+      "date": "1997-05",
+      "title": "Adam Back proposes Hashcash",
+      "historical_tier": "CORE",
+      "status": "VERIFIED_WITH_DATE_QUALIFIER",
+      "scores": {
+        "historical_importance": 24,
+        "story_lore_strength": 11,
+        "visual_card_potential": 11,
+        "cultural_recognition": 11,
+        "uniqueness_timeline_value": 10,
+        "collectability_chase_appeal": 8,
+        "evidence_confidence": 5,
+        "total": 80,
+        "band": "STRONG"
+      },
+      "scoring_notes": "Direct proof-of-work ancestor cited by Bitcoin; technically central and distinct in the timeline.",
+      "sources": [
+        {
+          "title": "Hashcash — A Denial of Service Counter-Measure",
+          "url": "https://nakamotoinstitute.org/library/hashcash/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0006",
+      "date": "1998-11",
+      "title": "Wei Dai publishes b-money",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 23,
+        "story_lore_strength": 12,
+        "visual_card_potential": 10,
+        "cultural_recognition": 10,
+        "uniqueness_timeline_value": 9,
+        "collectability_chase_appeal": 7,
+        "evidence_confidence": 5,
+        "total": 76,
+        "band": "VIABLE"
+      },
+      "scoring_notes": "Direct conceptual predecessor cited by Satoshi; historically strong, visually harder.",
+      "sources": [
+        {
+          "title": "b-money",
+          "url": "https://nakamotoinstitute.org/library/b-money/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "1998",
+      "title": "DigiCash enters bankruptcy",
+      "historical_tier": "MAJOR",
+      "status": "RESEARCHED_SECONDARY",
+      "scores": {
+        "historical_importance": 15,
+        "story_lore_strength": 16,
+        "visual_card_potential": 13,
+        "cultural_recognition": 7,
+        "uniqueness_timeline_value": 8,
+        "collectability_chase_appeal": 7,
+        "evidence_confidence": 3,
+        "total": 69,
+        "band": "BUBBLE"
+      },
+      "scoring_notes": "The failure of a pre-Bitcoin digital-cash pioneer gives strong narrative contrast; weaker evidence/recognition.",
+      "sources": [
+        {
+          "title": "DigiCash historical summary",
+          "url": "https://en.wikipedia.org/wiki/DigiCash",
+          "type": "SECONDARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0008",
+      "date": "2004-08-15",
+      "title": "Hal Finney announces reusable proof of work (RPOW)",
+      "historical_tier": "CORE",
+      "status": "VERIFIED",
+      "scores": {
+        "historical_importance": 23,
+        "story_lore_strength": 16,
+        "visual_card_potential": 12,
+        "cultural_recognition": 12,
+        "uniqueness_timeline_value": 10,
+        "collectability_chase_appeal": 9,
+        "evidence_confidence": 5,
+        "total": 87,
+        "band": "STRONG"
+      },
+      "scoring_notes": "Hal Finney plus reusable proof of work makes this both historically important and highly collectible.",
+      "sources": [
+        {
+          "title": "RPOW — Reusable Proofs of Work",
+          "url": "https://nakamotoinstitute.org/library/rpow/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0007",
+      "date": "2005-12-29",
+      "title": "Nick Szabo publishes Bit Gold proposal",
+      "historical_tier": "CORE",
+      "status": "VERIFIED_WITH_DATE_CORRECTION",
+      "scores": {
+        "historical_importance": 23,
+        "story_lore_strength": 14,
+        "visual_card_potential": 12,
+        "cultural_recognition": 12,
+        "uniqueness_timeline_value": 9,
+        "collectability_chase_appeal": 8,
+        "evidence_confidence": 5,
+        "total": 83,
+        "band": "STRONG"
+      },
+      "scoring_notes": "One of Bitcoin's clearest conceptual ancestors; strong name recognition and excellent timeline value.",
+      "sources": [
+        {
+          "title": "Bit Gold",
+          "url": "https://nakamotoinstitute.org/library/bit-gold/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    }
+  ]
+}
