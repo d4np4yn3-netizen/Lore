@@ -1,34 +1,45 @@
-# LORE Crypto History — Year Evidence Files
+# LORE Crypto History — Year-by-Year Canonical Archive
 
-**Working source of truth for evidence research and card scoring.**
+**Status: ACTIVE RESEARCH**
 
-The original `../events.json` remains the preserved broad discovery archive (1,229 raw candidates). It should now be treated as **read-only discovery history**, not the day-to-day research file.
+The original `../events.json` remains the **raw discovery pool** containing broad candidate events.
 
-## Working structure
+From this point forward, the canonical researched archive is built **year by year** in this directory.
 
-- `YYYY.json` — researched/triaged records for that calendar year.
-- `origins.json` — researched pre-Bitcoin foundations and precursor material.
-- `*-legacy-candidates.json` — preserved raw candidates used during reconciliation.
-- `*-reconciliation.json` — reconciliation working records where used.
-- `index.json` — high-level year/evidence index.
-- `raw/` — preserved supporting raw material where required.
+## Rule
 
-## Rules
+Each year gets its own JSON file:
 
-1. **Research and edit the year files, not the giant master.**
-2. Preserve every permanent `LORE-EVT-####` identifier.
-3. A raw discovery event is not automatically a card candidate.
-4. Verify dates and claims, preferring primary, project, government, court, regulatory, on-chain and strong contemporary sources.
-5. Mark duplicates/context/subevents by relationship instead of independently scoring the same story multiple times.
-6. Correct dates in the year evidence layer when research disproves the original raw capture.
-7. Card scoring must use sourced/triaged year-file records only.
-8. Records still marked as future, unresolved, needs-source/data, or duplicate-linked are not independently scoreable.
-9. Do not delete the original raw discovery archive; it preserves provenance and ideas that may later become book/sidebar material.
+- one event per historically distinct moment;
+- exact date/date range where evidence supports it;
+- concise factual summary;
+- why it mattered;
+- research tier;
+- source confidence;
+- primary and secondary sources;
+- duplicate/context relationships;
+- card-scoring fields left blank until the year is research-complete.
 
-## Research status
+## Workflow
 
-The archive has already been split into year files through 2026. The large 2021–2025 years have been reconciled and marked `YEAR_TRIAGED_AND_SOURCED`. Continue future evidence work directly in these smaller year files.
+1. Pull all raw candidates for one year.
+2. Research each candidate.
+3. Correct dates and wording.
+4. Merge duplicates into a canonical event.
+5. Mark broad trends as context rather than fake point events.
+6. Add missed events discovered during research.
+7. Lock the year as `RESEARCH_COMPLETE`.
+8. Only then score that year's canonical events for card potential.
 
-## Next phase
+## Status values
 
-Finish any remaining weak/deep-cut evidence flags, then add a separate **card scoring layer** so historical importance, LORE/story value, visual potential and duplication are evaluated without changing the underlying history records.
+- `VERIFIED`
+- `VERIFIED_WITH_QUALIFIER`
+- `CONTEXT`
+- `DUPLICATE`
+- `REJECTED`
+- `RESEARCH_NEEDED`
+
+## Card scoring
+
+Card scoring must not begin until the event is verified. Event IDs remain independent from future Season/Card numbers.
