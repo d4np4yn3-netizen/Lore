@@ -1,0 +1,1875 @@
+{
+  "schema_version": "1.0",
+  "year": 2020,
+  "updated": "2026-09-26",
+  "source_queue": "2020.json",
+  "evidence_file": "2020.json",
+  "note": "Reconciliation generated from preserved 2020 research states. NEEDS_RESEARCH rows require explicit evidence review. Canonical file will be rewritten after those rows are resolved.",
+  "counts": {
+    "CANONICAL": 30,
+    "CONTEXT": 7,
+    "NEEDS_RESEARCH": 66,
+    "MERGED": 12
+  },
+  "rows": [
+    {
+      "legacy_id": "LORE-EVT-0040",
+      "date": "2020-03",
+      "title": "COVID Black Thursday crypto crash",
+      "tier": "CORE",
+      "branches": [
+        "MARKETS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-covid-black-thursday-crypto-crash",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0041",
+      "date": "2020",
+      "title": "DeFi Summer",
+      "tier": "CORE",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0042",
+      "date": "2020",
+      "title": "SushiSwap vampire attack",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "DEX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-sushiswap-vampire-attack",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0043",
+      "date": "2020-08",
+      "title": "MicroStrategy adopts a Bitcoin treasury strategy",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-microstrategy-adopts-a-bitcoin-treasury-strategy",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0110",
+      "date": "2020-05-11",
+      "title": "Third Bitcoin halving",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-third-bitcoin-halving",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0111",
+      "date": "2020",
+      "title": "Compound launches COMP liquidity mining",
+      "tier": "CORE",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-compound-launches-comp-liquidity-mining",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0112",
+      "date": "2020",
+      "title": "YFI and Yearn become emblematic of DeFi Summer",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-yfi-and-yearn-become-emblematic-of-defi-summer",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0113",
+      "date": "2020",
+      "title": "Uniswap distributes UNI in a landmark airdrop",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "DEX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-uniswap-distributes-uni-in-a-landmark-airdrop",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0114",
+      "date": "2020",
+      "title": "PayPal announces cryptocurrency support",
+      "tier": "MAJOR",
+      "branches": [
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-paypal-announces-cryptocurrency-support",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0115",
+      "date": "2020-12",
+      "title": "Ethereum Beacon Chain launches",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-ethereum-beacon-chain-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0147",
+      "date": "2020",
+      "title": "US authorities bring major enforcement action against BitMEX",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-us-authorities-bring-major-enforcement-action-against-bitmex",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0151",
+      "date": "2020",
+      "title": "Bahamas launches the Sand Dollar CBDC",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-bahamas-launches-the-sand-dollar-cbdc",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0153",
+      "date": "2020",
+      "title": "China expands public testing of the digital yuan",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0160",
+      "date": "2020",
+      "title": "Flash-loan attacks expose new DeFi security risks",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "HACKS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0188",
+      "date": "2020",
+      "title": "US government seizes a large cache of Silk Road-linked Bitcoin",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "CRIME"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-us-government-seizes-a-large-cache-of-silk-road-linked-bitcoin",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0227",
+      "date": "2020",
+      "title": "Solana mainnet beta launches",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-solana-mainnet-beta-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0228",
+      "date": "2020",
+      "title": "Avalanche mainnet launches",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-avalanche-mainnet-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0229",
+      "date": "2020",
+      "title": "Curve becomes core stablecoin DEX infrastructure",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0230",
+      "date": "2020",
+      "title": "Aave becomes a major decentralized lending protocol",
+      "tier": "CORE",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-aave-becomes-a-major-decentralized-lending-protocol",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0231",
+      "date": "2020",
+      "title": "Yam Finance rapid rise and bug become DeFi Summer lore",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-yam-finance-rapid-rise-and-bug-become-defi-summer-lore",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0272",
+      "date": "2020",
+      "title": "Flashbots forms to address MEV and transaction-ordering issues",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0291",
+      "date": "2020",
+      "title": "MakerDAO Black Thursday produces emergency governance",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "VERIFIED_WITH_RANGE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-makerdao-black-thursday-produces-emergency-governance",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0292",
+      "date": "2020",
+      "title": "Uniswap V2 launches",
+      "tier": "CORE",
+      "branches": [
+        "DEX",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-uniswap-v2-launches",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0293",
+      "date": "2020",
+      "title": "Square purchases Bitcoin for its corporate treasury",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-square-purchases-bitcoin-for-its-corporate-treasury",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0311",
+      "date": "2020",
+      "title": "Binance Smart Chain launches",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0320",
+      "date": "2020",
+      "title": "Telegram abandons original TON project after SEC court battle",
+      "tier": "CORE",
+      "branches": [
+        "ICO",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-telegram-abandons-original-ton-project-after-sec-court-battle",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0325",
+      "date": "2020",
+      "title": "Art Blocks launches generative on-chain art platform",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0329",
+      "date": "2020",
+      "title": "US OCC allows national banks to provide crypto custody services",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-us-occ-allows-national-banks-to-provide-crypto-custody-services",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0339",
+      "date": "2020",
+      "title": "India Supreme Court overturns central-bank crypto banking restriction",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-india-supreme-court-overturns-central-bank-crypto-banking-restriction",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0346",
+      "date": "2020",
+      "title": "Switzerland adopts DLT legal reforms",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0353",
+      "date": "2020",
+      "title": "Bahamas launches Sand Dollar CBDC",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2020-bahamas-launches-the-sand-dollar-cbdc",
+      "legacy_canonical_event_id": "LORE-EVT-0151",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0355",
+      "date": "2020",
+      "title": "China expands digital-yuan pilots",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0366",
+      "date": "2020-11-22",
+      "title": "KuCoin restores services after 2020 exchange hack",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0375",
+      "date": "2020",
+      "title": "KuCoin suffers a major exchange hack",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0383",
+      "date": "2020",
+      "title": "The Graph mainnet launches decentralized indexing network",
+      "tier": "MAJOR",
+      "branches": [
+        "TECHNOLOGY",
+        "DEFI"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-the-graph-mainnet-launches-decentralized-indexing-network",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0384",
+      "date": "2020",
+      "title": "Filecoin mainnet launches decentralized storage market",
+      "tier": "CORE",
+      "branches": [
+        "TECHNOLOGY",
+        "ALTCOINS"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-filecoin-mainnet-launches-decentralized-storage-market",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0388",
+      "date": "2020",
+      "title": "THORChain begins cross-chain liquidity development",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "DEX"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0391",
+      "date": "2020",
+      "title": "Polkadot mainnet launch establishes relay-chain architecture",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-polkadot-mainnet-launch-establishes-relay-chain-architecture",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0400",
+      "date": "2020",
+      "title": "Optimistic rollups emerge in production experiments",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0406",
+      "date": "2020",
+      "title": "Flash loans become a defining DeFi primitive",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0407",
+      "date": "2020",
+      "title": "Aave introduces flash loans at scale",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0481",
+      "date": "2020",
+      "title": "March crash sends Bitcoin below 4000 dollars intraday",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-covid-black-thursday-crypto-crash",
+      "legacy_canonical_event_id": "LORE-EVT-0040",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0482",
+      "date": "2020",
+      "title": "MakerDAO emergency auctions expose zero-bid liquidation failures",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-makerdao-black-thursday-produces-emergency-governance",
+      "legacy_canonical_event_id": "LORE-EVT-0291",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0483",
+      "date": "2020",
+      "title": "Compound governance token sparks liquidity-mining boom",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-compound-launches-comp-liquidity-mining",
+      "legacy_canonical_event_id": "LORE-EVT-0111",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0484",
+      "date": "2020",
+      "title": "Curve wars begin around stablecoin liquidity incentives",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "DEX"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0485",
+      "date": "2020",
+      "title": "SushiSwap migrates liquidity away from Uniswap",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-sushiswap-vampire-attack",
+      "legacy_canonical_event_id": "LORE-EVT-0042",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0486",
+      "date": "2020",
+      "title": "Chef Nomi sells SUSHI treasury tokens and later returns funds",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-chef-nomi-sells-sushi-treasury-tokens-and-later-returns-funds",
+      "legacy_canonical_event_id": "LORE-EVT-0042",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0487",
+      "date": "2020",
+      "title": "YFI launches with no founder pre-mine",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-yfi-and-yearn-become-emblematic-of-defi-summer",
+      "legacy_canonical_event_id": "LORE-EVT-0112",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0488",
+      "date": "2020",
+      "title": "Yam Finance asks users to exit after a governance bug",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-yam-finance-rapid-rise-and-bug-become-defi-summer-lore",
+      "legacy_canonical_event_id": "LORE-EVT-0231",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0489",
+      "date": "2020",
+      "title": "MicroStrategy CEO Michael Saylor becomes a public Bitcoin advocate",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "PEOPLE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0043",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0490",
+      "date": "2020",
+      "title": "PayPal enables crypto purchases for US users",
+      "tier": "CORE",
+      "branches": [
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-paypal-enables-crypto-purchases-for-us-users",
+      "legacy_canonical_event_id": "LORE-EVT-0114",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0491",
+      "date": "2020",
+      "title": "Ethereum deposit contract opens for Beacon Chain staking",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-ethereum-deposit-contract-opens-for-beacon-chain-staking",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0492",
+      "date": "2020",
+      "title": "Beacon Chain reaches genesis threshold",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM"
+      ],
+      "legacy_research_state": "VERIFIED_SUBEVENT",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0115",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0569",
+      "date": "2020",
+      "title": "Monero delistings increase on regulated exchanges",
+      "tier": "MAJOR",
+      "branches": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0574",
+      "date": "2020",
+      "title": "Tornado Cash governance token launches",
+      "tier": "MAJOR",
+      "branches": [
+        "PRIVACY",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0578",
+      "date": "2020",
+      "title": "Samourai Wallet Whirlpool gains privacy-focused Bitcoin users",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "PRIVACY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0582",
+      "date": "2020",
+      "title": "Ledger customer-data breach exposes hardware-wallet buyers",
+      "tier": "CORE",
+      "branches": [
+        "SECURITY",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0586",
+      "date": "2020",
+      "title": "bZx flash-loan attacks expose composability risks",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "HACKS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0598",
+      "date": "2020",
+      "title": "Gitcoin Grants popularizes quadratic funding in crypto",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0607",
+      "date": "2020",
+      "title": "Total value locked becomes a headline DeFi metric",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "MARKETS"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0041",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0612",
+      "date": "2020",
+      "title": "Serum launches on Solana with FTX backing",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "DEX",
+        "FTX"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0621",
+      "date": "2020",
+      "title": "Cardano Shelley introduces staking",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-cardano-shelley-introduces-staking",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0627",
+      "date": "2020",
+      "title": "Steem hard forks after governance dispute involving Justin Sun",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "FORKS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0628",
+      "date": "2020",
+      "title": "Hive launches as community fork of Steem",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "FORKS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0630",
+      "date": "2020",
+      "title": "Polkadot mainnet launches",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2020-polkadot-mainnet-launch-establishes-relay-chain-architecture",
+      "legacy_canonical_event_id": "LORE-EVT-0391",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0743",
+      "date": "2020",
+      "title": "Bitcoin mining reward falls to 6.25 BTC at third halving",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "legacy_research_state": "DUPLICATE",
+      "resolution": "MERGED",
+      "canonical_key": "2020-third-bitcoin-halving",
+      "legacy_canonical_event_id": "LORE-EVT-0110",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0744",
+      "date": "2020",
+      "title": "Paul Tudor Jones publicly reveals Bitcoin allocation",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0745",
+      "date": "2020",
+      "title": "Stone Ridge and NYDIG expand institutional Bitcoin infrastructure",
+      "tier": "MAJOR",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0746",
+      "date": "2020",
+      "title": "MassMutual buys Bitcoin for general investment account",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0747",
+      "date": "2020",
+      "title": "Grayscale television ads market crypto to mainstream investors",
+      "tier": "LORE",
+      "branches": [
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0748",
+      "date": "2020",
+      "title": "Robinhood crypto trading grows with retail speculation",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0749",
+      "date": "2020",
+      "title": "Robinhood outage controversies affect crypto traders",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0750",
+      "date": "2020",
+      "title": "Wrapped Ether and wrapped-token usage becomes core DeFi plumbing",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0751",
+      "date": "2020",
+      "title": "Synthetix liquidity incentives help define early yield farming",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0752",
+      "date": "2020",
+      "title": "Curve CRV launch sparks governance and liquidity wars",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DAO"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0753",
+      "date": "2020",
+      "title": "Pickle Finance and food-token farming epitomize DeFi Summer culture",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0041",
+      "source_confidence": "MEDIUM",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0754",
+      "date": "2020",
+      "title": "Andre Cronje 'test in prod' culture becomes famous in DeFi",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0755",
+      "date": "2020",
+      "title": "Cover Protocol exploit and token relaunch show DeFi fragility",
+      "tier": "DEEP_CUT",
+      "branches": [
+        "DEFI",
+        "HACKS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0756",
+      "date": "2020",
+      "title": "Yearn merges informally with several DeFi projects",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "GOVERNANCE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0757",
+      "date": "2020",
+      "title": "Nexus Mutual demonstrates crypto-native insurance",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "SECURITY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0776",
+      "date": "2020-08-25",
+      "title": "FTX acquires Blockfolio",
+      "tier": "MAJOR",
+      "branches": [
+        "FTX",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0893",
+      "date": "2020",
+      "title": "Satoshi-era Bitcoin movement sparks speculation despite no link to Satoshi",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "MARKETS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0897",
+      "date": "2020",
+      "title": "Flow blockchain launches from Dapper Labs",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0921",
+      "date": "2020",
+      "title": "Libra is redesigned amid regulatory pressure",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0922",
+      "date": "2020",
+      "title": "Libra project rebrands to Diem",
+      "tier": "LORE",
+      "branches": [
+        "STABLECOINS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0925",
+      "date": "2020",
+      "title": "JPM Coin begins commercial use",
+      "tier": "MAJOR",
+      "branches": [
+        "INSTITUTIONS",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0937",
+      "date": "2020",
+      "title": "Publicly listed Bitcoin miners begin expanding aggressively",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING",
+        "INSTITUTIONS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0961",
+      "date": "2020",
+      "title": "Number go up becomes a recurring Bitcoin meme",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-0997",
+      "date": "2020",
+      "title": "Coinbase mission statement limits employee political activism and sparks debate",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1025",
+      "date": "2020",
+      "title": "Twitter celebrity-account hack requests Bitcoin payments",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "HACKS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-twitter-celebrity-account-hack-requests-bitcoin-payments",
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1026",
+      "date": "2020",
+      "title": "Elon Musk, Barack Obama and other accounts are hijacked in Bitcoin scam",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "HACKS",
+        "CULTURE"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_SUBEVENT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-twitter-celebrity-account-hack-requests-bitcoin-payments",
+      "legacy_canonical_event_id": "LORE-EVT-1025",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1031",
+      "date": "2020",
+      "title": "Mt Gox rehabilitation plan negotiations continue",
+      "tier": "DEEP_CUT",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1042",
+      "date": "2020",
+      "title": "Forsage draws regulatory scrutiny as smart-contract pyramid scheme",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1059",
+      "date": "2020",
+      "title": "Crypto Twitter becomes dominant venue for DeFi launches",
+      "tier": "CORE",
+      "branches": [
+        "CULTURE",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1071",
+      "date": "2020",
+      "title": "MetaMask user growth accelerates with DeFi",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1084",
+      "date": "2020",
+      "title": "1inch emerges from hackathon project into major DEX aggregator",
+      "tier": "CORE",
+      "branches": [
+        "DEX",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1088",
+      "date": "2020",
+      "title": "Aave rebrands from ETHLend",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-aave-becomes-a-major-decentralized-lending-protocol",
+      "legacy_canonical_event_id": "LORE-EVT-0230",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1093",
+      "date": "2020",
+      "title": "Maker adds USDC collateral during Black Thursday response",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "legacy_research_state": "VERIFIED_AFTERMATH",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0291",
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1103",
+      "date": "2020",
+      "title": "Optimistic rollup teams begin public testnets",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1115",
+      "date": "2020",
+      "title": "Decentraland opens its public virtual world",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1116",
+      "date": "2020",
+      "title": "Sorare raises major funding for fantasy sports NFTs",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1130",
+      "date": "2020",
+      "title": "Compound governance delegates voting power to token holders",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": null,
+      "legacy_canonical_event_id": "LORE-EVT-0111",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1131",
+      "date": "2020",
+      "title": "Uniswap governance launches with UNI token",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "DEX"
+      ],
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-uniswap-distributes-uni-in-a-landmark-airdrop",
+      "legacy_canonical_event_id": "LORE-EVT-0113",
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1139",
+      "date": "2020",
+      "title": "Wormhole launches Solana–Ethereum token bridge",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "TECHNOLOGY"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "HIGH",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1158",
+      "date": "2020",
+      "title": "DarkMarket is taken down in international operation",
+      "tier": "MAJOR",
+      "branches": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1166",
+      "date": "2020",
+      "title": "PlusToken organizers are prosecuted in China",
+      "tier": "CORE",
+      "branches": [
+        "SCAMS",
+        "CRIME"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1167",
+      "date": "2020",
+      "title": "Forsage smart-contract scheme spreads globally",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "DEFI"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1192",
+      "date": "2020",
+      "title": "CipherTrace claims Monero tracing capabilities and sparks debate",
+      "tier": "LORE",
+      "branches": [
+        "PRIVACY",
+        "SECURITY",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1199",
+      "date": "2020",
+      "title": "Omen and Gnosis prediction markets grow during elections",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1200",
+      "date": "2020",
+      "title": "Polymarket launches",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1207",
+      "date": "2020",
+      "title": "Rarible launches NFT marketplace and governance token",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "DAO"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1208",
+      "date": "2020",
+      "title": "SuperRare establishes premium crypto-art marketplace model",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1209",
+      "date": "2020",
+      "title": "Nifty Gateway brings curated NFT drops to mainstream collectors",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1221",
+      "date": "2020",
+      "title": "Robinhood expands crypto access during retail-trading boom",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "ADOPTION"
+      ],
+      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "LOW",
+      "note": null
+    },
+    {
+      "legacy_id": "LORE-EVT-1222",
+      "date": "2020-11-02",
+      "title": "FTX launches tokenized-stock trading outside the United States",
+      "tier": "MAJOR",
+      "branches": [
+        "FTX",
+        "EXCHANGES"
+      ],
+      "legacy_research_state": "DATE_CORRECTED",
+      "resolution": "NEEDS_RESEARCH",
+      "canonical_key": null,
+      "legacy_canonical_event_id": null,
+      "source_confidence": "MEDIUM_HIGH",
+      "note": null
+    }
+  ],
+  "status": "IN_PROGRESS"
+}
