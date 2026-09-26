@@ -224,12 +224,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
-        "exact_date": "2015",
-        "summary": "Spells of Genesis developed blockchain-linked in-game collectibles using Counterparty-era assets.",
-        "significance": "It is an important pre-CryptoKitties gaming/NFT precursor, but the row needs an exact card/token launch milestone before scoring.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-03-11",
+        "summary": "Spells of Genesis began its first series of on-chain cards on Counterparty with FDCARD on 11 March 2015.",
+        "significance": "The project is one of the earliest examples of blockchain-based game collectibles, predating the mainstream NFT category by years.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Spells of Genesis — project history",
+            "url": "https://spellsofgenesis.com/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Spells of Genesis Docs — card collections",
+            "url": "https://docs.spellsofgenesis.com/spells-of-genesis/cards-collections",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -302,12 +313,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "Augur conducted an early token crowdsale for REP.",
-        "significance": "Potential ICO-history milestone, but exact opening/closing dates and amount raised need a reliable archived Augur source before canonical scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-08-17 to 2015-10-01",
+        "summary": "Augur ran a 45-day REP crowdsale beginning 17 August 2015, accepting Bitcoin and Ether to distribute reputation tokens for its decentralized prediction-market system.",
+        "significance": "It was one of Ethereum's earliest prominent token sales and an important precursor to the 2017 ICO boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Augur Team — The Augur Crowdsale",
+            "url": "https://augur.mystrikingly.com/blog/the-augur-crowdsale",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -383,12 +400,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "Bitcoin hardware startup 21 Inc announced an unusually large financing round and became one of the best-funded Bitcoin startups of the era.",
-        "significance": "Strong venture-history context, but amount/date require authoritative sourcing before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-03-10",
+        "summary": "21 Inc emerged from stealth in March 2015 after raising $116 million from investors including Andreessen Horowitz, RRE Ventures and Qualcomm Ventures.",
+        "significance": "It was reported as the largest funding total yet disclosed by a Bitcoin startup and demonstrated Silicon Valley's growing interest in Bitcoin infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — investors put $116M in Bitcoin startup 21 Inc",
+            "url": "https://finance.yahoo.com/news/investors-put-116-mln-bitcoin-011231294.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinDesk — 21 announces $116M backing",
+            "url": "https://www.coindesk.com/markets/2015/03/10/bitcoin-startup-21-announces-116-million-all-star-backing",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -496,12 +524,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2015",
-        "summary": "The US Marshals Service held additional auctions of Silk Road-related Bitcoin after the first 2014 sale.",
-        "significance": "Use individual auction dates and quantities rather than one broad row if this survives card selection.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2015-03-05 and 2015-11-05",
+        "summary": "The US Marshals Service held further Silk Road Bitcoin auctions in 2015, selling 50,000 BTC in March and the final roughly 44,341 BTC associated with Ulbricht's forfeited stash in November.",
+        "significance": "The auctions extended the remarkable period in which the US government liquidated seized Bitcoin into private hands rather than retaining it.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — US Marshals third auction of 50,000 BTC",
+            "url": "https://www.investing.com/news/technology-news/u.s.-begins-auction-for-50%2C000-bitcoins-tied-to-criminal-website-331042",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — final Silk Road Bitcoin auction",
+            "url": "https://finance.yahoo.com/news/u-holds-final-auction-bitcoins-230014653.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -635,12 +674,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "OpenBazaar beta development advanced a peer-to-peer marketplace without a central operator.",
-        "significance": "The full public launch is a cleaner 2016 event; this 2015 beta row needs exact archived release evidence.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_BETA_MILESTONE",
+        "exact_date": "2015-04-21",
+        "summary": "OpenBazaar published guides for its Beta 0.4 decentralized marketplace software in April 2015, enabling buyers, merchants and notaries to test peer-to-peer trade without a central marketplace operator.",
+        "significance": "OpenBazaar was one of the clearest early attempts to apply Bitcoin and peer-to-peer networking to decentralized ecommerce.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenBazaar — Buyer's Guide to Beta 0.4",
+            "url": "https://medium.com/openbazaarproject/buyers-guide-to-openbazaar-beta-0-4-5204725c1ffd",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -685,12 +730,23 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_WITH_DATA",
         "exact_date": "2015",
-        "summary": "Hosted and cloud-mining services expanded as ASIC mining became capital-intensive.",
-        "significance": "Trend rather than discrete event; needs provider-specific milestone if retained.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Bitmain's Hashnest cloud-mining marketplace expanded during 2015; contemporary Bitmain-linked material described tens of thousands of users and roughly 18 PH/s of hosted hashrate.",
+        "significance": "Hashnest illustrates the mid-2010s growth of financialized hosted mining, where users bought remote hashing power rather than operating machines themselves.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BITMAIN — Hashnest announcement and platform background",
+            "url": "https://bitcointalk.org/index.php?topic=765128.0",
+            "type": "COMPANY_ARCHIVE"
+          },
+          {
+            "title": "2015 Hashnest service review / operating figures",
+            "url": "https://bits.media/servisy-dlya-mayninga-chast-i-hashnest/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -698,7 +754,7 @@
     },
     {
       "id": "LORE-EVT-0954",
-      "date": "2015",
+      "date": "2016-04-12",
       "title": "ChangeTip is acquired by Airbnb-linked talent move",
       "branch": [
         "BITCOIN",
@@ -707,15 +763,26 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NEEDS_REWRITE",
-        "exact_date": "2015",
-        "summary": "ChangeTip's talent/acquisition story is too vaguely phrased and not a clear crypto-history milestone in its current wording.",
-        "significance": "Replace with a specific ChangeTip acquisition/shutdown source if culturally useful.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2016-04-12",
+        "summary": "Airbnb acqui-hired a number of ChangeTip/ChangeCoin employees in April 2016; it did not acquire the ChangeTip product or intellectual property.",
+        "significance": "The talent acquisition effectively hollowed out one of Bitcoin's best-known social-tipping startups and preceded its shutdown later in 2016.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Airbnb acqui-hires ChangeTip staff",
+            "url": "https://www.coindesk.com/markets/2016/04/12/airbnb-acqui-hires-changetip-staff-but-code-still-for-sale",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinDesk — ChangeTip shutdown after acqui-hire",
+            "url": "https://www.coindesk.com/markets/2016/11/18/bitcoin-tipping-service-changetip-to-shut-down",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Raw archive incorrectly placed the acqui-hire in 2015."
       }
     },
     {
@@ -730,15 +797,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CULTURE_CONTEXT_VERIFIED",
         "exact_date": "2015",
-        "summary": "Bitcoin meme culture continued spreading on Reddit, Bitcointalk and social media.",
-        "significance": "Cultural trend rather than discrete event; individual memes are better candidates.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Bitcoin's online culture continued developing across Reddit and BitcoinTalk through memes, tips, price jokes and community in-jokes, building on earlier HODL and tipping culture.",
+        "significance": "This social layer helped turn Bitcoin from a protocol into a recognizable internet subculture, but it is a trend rather than one discrete event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "BitcoinTalk forum archive",
+            "url": "https://bitcointalk.org/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "CoinDesk — ChangeTip social tipping context",
+            "url": "https://www.coindesk.com/markets/2015/01/05/changetip-brings-bitcoin-tipping-to-social-media-cynics",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context only; specific memes should be scored through their origin events."
       }
     },
     {
@@ -780,12 +858,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2015",
-        "summary": "Evolution Market disappeared in 2015 amid allegations of an exit scam.",
-        "significance": "Potential darknet LORE event, but exact date and loss amount need authoritative contemporary sourcing.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2015-03-18",
+        "summary": "Evolution, then one of the largest darknet markets, abruptly vanished in March 2015 amid reports that its administrators had taken roughly $12 million in Bitcoin held in escrow.",
+        "significance": "The episode became the archetypal darknet-market exit scam and showed that users faced not only law-enforcement seizure but also marketplace operator theft.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Evolution exit scam",
+            "url": "https://www.theguardian.com/technology/2015/mar/18/bitcoin-deep-web-evolution-exit-scam-12-million-dollars",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Europol IOCTA 2015 — Evolution exit scam",
+            "url": "https://www.europol.europa.eu/iocta/2015/darknets.html",
+            "type": "LAW_ENFORCEMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -802,15 +891,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_LATER_CRIMINAL_RECORD",
         "exact_date": "2015",
-        "summary": "GAW Miners collapsed amid the Paycoin controversy and later criminal/regulatory proceedings.",
-        "significance": "Needs a specific bankruptcy/shutdown/enforcement date and court/SEC source.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "GAW Miners and related operations unraveled during 2015 after selling hosted mining products and PayCoin; founder Homero Joshua Garza later pleaded guilty to wire fraud arising from the scheme.",
+        "significance": "The collapse became one of the most important early cloud-mining and proprietary-token fraud cases.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Garza guilty plea in $9M fraud scheme",
+            "url": "https://www.justice.gov/usao-ct/pr/former-virtual-currency-ceo-pleads-guilty-9-million-fraud-scheme",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Later criminal findings establish the underlying fraud facts."
       }
     },
     {
@@ -824,16 +919,29 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_RETROSPECTIVELY",
         "exact_date": "2015",
-        "summary": "AlphaBay grew into a leading darknet marketplace.",
-        "significance": "Growth trend rather than one clean event; the 2017 takedown is much stronger as a canonical card event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "AlphaBay, which began operating around December 2014, expanded rapidly through 2015 and the following years before becoming the world's largest darknet marketplace by its 2017 seizure.",
+        "significance": "Its rise demonstrated how quickly successor markets could replace Silk Road-style platforms after takedowns and exit scams.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — AlphaBay takedown and operating history",
+            "url": "https://www.justice.gov/usao-edca/pr/alphabay-largest-online-dark-market-shut-down",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US DOJ court filing — AlphaBay operated from about Dec 2014 to July 2017",
+            "url": "https://www.justice.gov/opa/press-release/file/1249026/dl",
+            "type": "COURT_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "2015 is a growth/context year; the strongest discrete event is the 2017 takedown."
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
