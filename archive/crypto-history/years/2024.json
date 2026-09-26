@@ -1635,15 +1635,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_PROXY_DATA",
+        "exact_date": "2024",
+        "summary": "Spot Bitcoin ETPs became a major new source of institutional and retail Bitcoin exposure during 2024. BlackRock's iShares Bitcoin Trust grew from a nominal seed NAV at the end of 2023 to more than $51.5 billion in NAV by 31 December 2024.",
+        "significance": "The scale of assets accumulated by spot Bitcoin ETPs made ETF creation/redemption flows a major market variable, although this row should not imply that every daily Bitcoin price move was caused by ETF flows.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "iShares Bitcoin Trust 2024 Form 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774925006260/bit20241231_10k.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use fund AUM/NAV as verified scale evidence. Avoid unsupported day-by-day causal claims without a dedicated flow dataset."
       }
     },
     {
@@ -1658,12 +1664,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RISK_DISCLOSURE",
+        "exact_date": "2024",
+        "summary": "Several US spot Bitcoin ETPs relied on Coinbase Custody for safekeeping, and issuer filings explicitly identified Coinbase's critical role and concentration risk across competing products.",
+        "significance": "The custody concentration became an important institutional-architecture issue because multiple funds depended on the same crypto custodian and prime-execution infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "iShares Bitcoin Trust 2024 Form 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774925006260/bit20241231_10k.htm",
+            "type": "REGULATORY_FILING"
+          },
+          {
+            "title": "Bitwise Bitcoin ETF 2024 Form 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1763415/000095017025040572/bitb-20241231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2439,15 +2456,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2024",
+        "summary": "Ethereum Foundation ETH transfers and sales attracted recurring community and market attention. The Foundation's 2024 treasury report explains that it deliberately sells ETH periodically to build fiat reserves and fund public-goods spending through market cycles.",
+        "significance": "The important historical point is the Foundation's treasury-management policy and the community scrutiny around it, not any single routine wallet movement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation Report 2024 — Treasury",
+            "url": "https://ethereum.foundation/report-2024.pdf",
+            "type": "FOUNDATION_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as book/context material unless a specific large sale or policy announcement is selected as the discrete event."
       }
     },
     {
@@ -2462,15 +2485,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2024",
+        "summary": "Vitalik Buterin continued publishing roadmap commentary in 2024 around Ethereum's rollup-centric scaling path, data availability, proof systems and the relationship between L1 and L2 scaling.",
+        "significance": "This is important roadmap context, but the current row is too broad to represent one dated event; individual essays or protocol milestones such as Dencun are stronger card candidates.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Vitalik Buterin — personal research/writing archive",
+            "url": "https://vitalik.eth.limo/",
+            "type": "FOUNDER_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — 2024 ecosystem report",
+            "url": "https://ethereum.foundation/report-2024.pdf",
+            "type": "FOUNDATION_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not score as a standalone card unless narrowed to one specific essay or proposal."
       }
     },
     {
