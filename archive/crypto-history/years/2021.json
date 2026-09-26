@@ -2294,15 +2294,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_MARKET_DATA",
-        "exact_date": "2021",
-        "summary": "LUNA rose into the top tier of crypto market capitalization during Terra's 2021 expansion.",
-        "significance": "Keep as market context, but attach a defined market-cap source/date before publication.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MARKET_DATA",
+        "exact_date": "2021-12-06",
+        "summary": "LUNA entered the global top ten cryptocurrencies by market capitalization in early December 2021; contemporary reporting put it at No. 10 with a market value around $25 billion, and later December snapshots placed it around No. 9.",
+        "significance": "The move showed how large Terra's LUNA/UST ecosystem had become immediately before the 2022 collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Fortune — LUNA becomes the 10th-largest cryptocurrency",
+            "url": "https://fortune.com/crypto/2021/12/06/luna-coin-top-ten-crypto-dogecoin-shiba-inu-avalanche-ethereum/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinMarketCap historical snapshot — 28 Dec 2021",
+            "url": "https://coinmarketcap.com/historical/20211228/",
+            "type": "MARKET_DATA"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0236",
         "relation": "CONTEXT",
-        "notes": null
+        "notes": "Use dated rankings because crypto market-cap ranks changed day to day."
       }
     },
     {
@@ -3032,15 +3043,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "LORE_NEEDS_NARROWING",
-        "exact_date": "2021",
-        "summary": "Beeple became a mainstream media figure after the Christie's sale, appearing across television and traditional art coverage.",
-        "significance": "This is a cultural consequence of the $69.3 million sale, not yet a strong standalone event; keep it under the canonical Beeple sale unless a specific broadcast becomes card-worthy.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_PRECISE_EVENT",
+        "exact_date": "2021-06-07",
+        "summary": "CBS's 60 Minutes+ published a Beeple profile following the $69 million Christie's sale, presenting NFTs and digital art to a mainstream television audience.",
+        "significance": "The appearance is a clean example of the NFT boom crossing from crypto-native media into major mainstream television.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CBS News — Beeple and NFTs: 60 Minutes+ reports on a new digital era for fine art",
+            "url": "https://www.cbsnews.com/news/beeple-nft-60-minutes-plus-2021-06-07/",
+            "type": "MAINSTREAM_MEDIA"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0045",
         "relation": "AFTERMATH",
-        "notes": null
+        "notes": "This replaces the vague 'appears on major mainstream television' wording with a specific CBS event."
       }
     },
     {
@@ -4049,15 +4066,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
+        "state": "CULTURE_CONTEXT_VERIFIED",
         "exact_date": "2021",
-        "summary": "WAGMI ('we're all gonna make it') and NGMI ('not gonna make it') became widely used crypto and NFT community slang during the 2021 boom.",
-        "significance": "The language is culturally important, but there is no clean single origin event in the current evidence set; keep as glossary/book context rather than scoreable history.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "WAGMI ('We're All Gonna Make It') and NGMI ('Not Gonna Make It') moved from older 4chan/bodybuilding culture into meme-stock and crypto communities, becoming widely used crypto slang during 2021.",
+        "significance": "The pair became enduring shorthand for community optimism, belonging and ridicule in crypto social culture.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Know Your Meme — WAGMI / NGMI",
+            "url": "https://knowyourmeme.com/memes/wagmi-ngmi",
+            "type": "CULTURE_ARCHIVE"
+          },
+          {
+            "title": "CoinMarketCap Academy — WAGMI and NGMI",
+            "url": "https://coinmarketcap.com/academy/article/wagmi-and-ngmi-what-do-they-mean",
+            "type": "INDUSTRY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not claim crypto invented the phrase; the source lineage predates crypto."
       }
     },
     {
@@ -4072,15 +4100,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CULTURE_CONTEXT_NEEDS_PROVENANCE",
-        "exact_date": "2021",
-        "summary": "'Probably nothing' became a recurring ironic phrase in NFT/Crypto Twitter for developments that users actually considered significant.",
-        "significance": "Useful culture glossary material, but not a discrete verifiable event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CULTURE_CONTEXT_VERIFIED",
+        "exact_date": "2021-11-08",
+        "summary": "The phrase 'probably nothing' was already established NFT/crypto Twitter shorthand by late 2021; Discord CEO Jason Citron used it in a tweet teasing a MetaMask/WalletConnect integration, which TechCrunch explicitly described as NFT-Twitter shorthand for implying something is a big deal.",
+        "significance": "The phrase is a strong snapshot of the ironic, insinuating language of the 2021 NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — NFTs and crypto wallets could be in Discord's future",
+            "url": "https://techcrunch.com/2021/11/09/discord-nfts-metamask-crypto/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "This documents prominent 2021 usage, not the absolute first origin of the phrase."
       }
     },
     {
@@ -5259,5 +5293,7 @@
         "notes": "Phrase carefully by legal entity and jurisdiction; do not imply every warning applied identically to Binance.com globally."
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
