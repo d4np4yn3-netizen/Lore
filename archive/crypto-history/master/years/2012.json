@@ -1,0 +1,451 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 2012,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 15,
+  "events": [
+    {
+      "id": "LORE-EVT-0018",
+      "date": "2012-11-28",
+      "title": "First Bitcoin halving",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2012-11-28",
+        "summary": "Bitcoin's block subsidy fell from 50 BTC to 25 BTC at block 210,000 on 28 November 2012.",
+        "significance": "The first halving proved Bitcoin's programmed monetary schedule would execute in practice and established a four-year market ritual.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0078",
+      "date": "2012",
+      "title": "Bitcoin Foundation is established",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2012-09-27",
+        "summary": "Gavin Andresen publicly announced the launch of the Bitcoin Foundation on 27 September 2012.",
+        "significance": "It was an early attempt to standardize, protect and promote Bitcoin through an organized nonprofit body.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Foundation launch announcement",
+            "url": "https://bitcointalk.org/index.php?topic=113400.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0079",
+      "date": "2012",
+      "title": "Coinbase begins operations",
+      "branch": [
+        "EXCHANGES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2012-06",
+        "summary": "Coinbase states that it was founded in June 2012.",
+        "significance": "Coinbase became one of the most consequential regulated fiat on-ramps and later the first major US crypto exchange to list publicly.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — 1 Million Consumer Wallets",
+            "url": "https://www.coinbase.com/blog/a-major-coinbase-milestone-1-million-consumer-wallets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0080",
+      "date": "2012",
+      "title": "Ripple/XRP Ledger era begins",
+      "branch": [
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2012-06",
+        "summary": "The XRP Ledger first launched in June 2012 after development by David Schwartz, Jed McCaleb and Arthur Britto.",
+        "significance": "XRPL was an early major alternative to proof-of-work cryptocurrencies and focused on fast payments and settlement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "XRP Ledger — History",
+            "url": "https://xrpl.org/about/history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0206",
+      "date": "2012",
+      "title": "Bitcoin Savings & Trust collapses",
+      "branch": [
+        "SCAMS",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2012-08",
+        "summary": "Bitcoin Savings & Trust ceased operating after a scheme that the SEC later proved had offered Bitcoin-denominated investments from February 2011 through August 2012.",
+        "significance": "The collapse became the first major Bitcoin-denominated Ponzi case to produce landmark US securities enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Bitcoin Savings and Trust case",
+            "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23090",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — charges Trendon Shavers / Bitcoin Savings and Trust",
+            "url": "https://www.sec.gov/newsroom/press-releases/2013-132",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0207",
+      "date": "2012",
+      "title": "ASIC Bitcoin mining begins to emerge",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2012",
+        "summary": "2012 saw public ASIC projects and preorders, including ASICMINER's August project announcement; large-scale shipping hardware followed later.",
+        "significance": "The year marks the transition from GPU/FPGA mining toward application-specific mining hardware, but 'ASIC mining begins' should be treated as a period, not one day.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ASICMINER original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=99497.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Avalon ASIC Batch #1 shipping announcement",
+            "url": "https://bitcointalk.org/index.php?topic=137534.msg1465887",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0362",
+      "date": "2012",
+      "title": "Bitcoinica collapse highlights early exchange counterparty risk",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2012-03 to 2012-07",
+        "summary": "Bitcoinica suffered multiple security incidents in 2012. A May breach alone drained 18,547 BTC after production servers were compromised, following an earlier March cloud-host compromise.",
+        "significance": "Bitcoinica became an early warning about exchange leverage, hot-wallet security and counterparty risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Register — Bitcoinica May 2012 hack",
+            "url": "https://www.theregister.com/security/2012/05/15/bitcoin-bank-bitcoinica-still-titsup-after-cyberheist/719457",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Ars Technica — Bitcoinica May 2012 theft",
+            "url": "https://arstechnica.com/information-technology/2012/05/bitcoins-worth-87000-plundered/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0430",
+      "date": "2012",
+      "title": "Bitcoin Foundation forms around protocol advocacy and standardization",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2012-09-27",
+        "summary": "This is the same Bitcoin Foundation launch as LORE-EVT-0078.",
+        "significance": "Canonicalized to LORE-EVT-0078.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Foundation launch announcement",
+            "url": "https://bitcointalk.org/index.php?topic=113400.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0078",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0431",
+      "date": "2012",
+      "title": "Coinbase starts buying and selling Bitcoin for US customers",
+      "branch": [
+        "EXCHANGES",
+        "ADOPTION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2012",
+        "summary": "Coinbase began building a simple consumer on-ramp for buying, holding and selling Bitcoin after its June 2012 founding.",
+        "significance": "This is product/adoption context rather than a separately verified launch date in the current evidence set.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — 1 Million Consumer Wallets",
+            "url": "https://www.coinbase.com/blog/a-major-coinbase-milestone-1-million-consumer-wallets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0079",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0432",
+      "date": "2012",
+      "title": "Ripple consensus ledger launches without proof-of-work mining",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2012-06",
+        "summary": "This row describes the XRP Ledger's non-proof-of-work consensus architecture at launch.",
+        "significance": "Keep as technical context under the canonical XRPL launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "XRP Ledger — History",
+            "url": "https://xrpl.org/about/history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0080",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0433",
+      "date": "2012",
+      "title": "Butterfly Labs and ASIC preorders become mining-industry lore",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_QUALIFIER",
+        "exact_date": "2012",
+        "summary": "Butterfly Labs and other vendors took ASIC-era preorders before dependable mass delivery, generating both excitement and controversy.",
+        "significance": "Useful mining-industry lore, but exact product-preorder claims need vendor-specific source work before a card.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "ASICMINER original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=99497.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0657",
+      "date": "2012-08-19",
+      "title": "Peercoin introduces coin-age concepts in proof-of-stake design",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-08-19T18:00:00Z",
+        "summary": "Peercoin's blockchain started on 19 August 2012, after an announcement nine days earlier, using a hybrid proof-of-work/proof-of-stake design.",
+        "significance": "Peercoin was an early major proof-of-stake experiment and influenced later consensus-system design.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Peercoin Foundation — project age and chain start",
+            "url": "https://www.peercoin.net/contact",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Raw capture incorrectly placed this in 2011."
+      }
+    },
+    {
+      "id": "LORE-EVT-0661",
+      "date": "2012",
+      "title": "ASICMiner emerges as a major early Bitcoin ASIC operation",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2012-08-09",
+        "summary": "ASICMINER publicly announced its investor-backed project to design and operate Bitcoin ASIC mining chips on 9 August 2012.",
+        "significance": "ASICMINER was one of the earliest visible attempts to industrialize purpose-built Bitcoin mining silicon.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ASICMINER original announcement",
+            "url": "https://bitcointalk.org/index.php?topic=99497.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0663",
+      "date": "2012",
+      "title": "SatoshiDice becomes a major on-chain gambling application",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2012-04-24",
+        "summary": "SatoshiDICE was announced on BitcoinTalk on 24 April 2012 and rapidly became one of Bitcoin's largest sources of on-chain transactions.",
+        "significance": "It demonstrated borderless on-chain gambling, provable fairness and the first major debate over application-generated transaction 'spam.'",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Wiki — Satoshi Dice",
+            "url": "https://en.bitcoin.it/wiki/Satoshi_Dice",
+            "type": "ARCHIVAL_SECONDARY"
+          },
+          {
+            "title": "SEC — SatoshiDICE share offerings",
+            "url": "https://www.sec.gov/files/foia/docs/votes/2014-06.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0966",
+      "date": "2012-05",
+      "title": "Vitalik Buterin co-founds Bitcoin Magazine",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-05",
+        "summary": "Vitalik Buterin and Mihai Alisie co-founded Bitcoin Magazine; its first issue was published in May 2012, not 2013.",
+        "significance": "Bitcoin Magazine placed Buterin at the center of early crypto journalism before he conceived Ethereum.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Magazine — About",
+            "url": "https://bitcoinmagazine.com/about",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

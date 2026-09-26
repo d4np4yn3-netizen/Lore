@@ -1,0 +1,1755 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 2018,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 67,
+  "events": [
+    {
+      "id": "LORE-EVT-0037",
+      "date": "2018",
+      "title": "BitConnect collapses",
+      "branch": [
+        "SCAMS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true,
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-01-16",
+        "summary": "BitConnect announced the immediate closure of its lending operation and said its exchange would also close, after regulatory pressure and a collapsing market price.",
+        "significance": "The implosion became one of crypto's most notorious fraud-era collapses and turned BitConnect's promoter culture into enduring internet lore.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitConnect — Halt of lending and exchange platform",
+            "url": "https://bitconnect.meme/system-news/94/changes-coming-for-the-bitconnect-system-halt-of-lending-and-exchange-platform/",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0038",
+      "date": "2018-11",
+      "title": "Uniswap launches",
+      "branch": [
+        "DEFI",
+        "DEX"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-11-02",
+        "summary": "Hayden Adams publicly announced and deployed Uniswap to Ethereum mainnet on 2 November 2018.",
+        "significance": "Uniswap's automated market maker model became foundational DeFi infrastructure and changed decentralized exchange design.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — A Short History of Uniswap",
+            "url": "https://blog.uniswap.org/uniswap-history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0103",
+      "date": "2018",
+      "title": "Coincheck hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-01-26",
+        "summary": "Coincheck disclosed that 526,300,010 XEM had been transferred out after attackers compromised its environment and obtained NEM private keys.",
+        "significance": "The theft was one of the largest exchange hacks of its era and triggered major scrutiny of Japanese exchange security.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coincheck — NEM unauthorized transfer FAQ",
+            "url": "https://coincheck.com/info/faq_nem",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0104",
+      "date": "2018",
+      "title": "ICO bubble collapses into Crypto Winter",
+      "branch": [
+        "ICO",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_QUANTIFICATION",
+        "exact_date": "2018",
+        "summary": "This row describes the 2018 crypto-winter drawdown and industry contraction rather than a single event.",
+        "significance": "Keep as era context, but use source-specific market indices and project/funding data before publication.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Do not score until quantified or collapsed into a single Crypto Winter canonical record."
+      }
+    },
+    {
+      "id": "LORE-EVT-0105",
+      "date": "2018",
+      "title": "Bitcoin Cash hash war leads to BCH/BSV split",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-11-15",
+        "summary": "Bitcoin Cash underwent a contentious hard fork that produced two competing networks, Bitcoin ABC/BCH and Bitcoin SV.",
+        "significance": "The split was the defining second-generation fork war and showed how mining power, personalities and incompatible protocol visions could fracture an already-forked chain.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin Cash Just Split Into Two Blockchains",
+            "url": "https://www.coindesk.com/markets/2018/11/15/bitcoin-cash-just-split-into-two-blockchains",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0106",
+      "date": "2018",
+      "title": "MakerDAO's DAI becomes a major decentralized stablecoin experiment",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
+        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0285",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0159",
+      "date": "2018",
+      "title": "US SEC increases enforcement against unregistered ICOs",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2018",
+        "summary": "SEC enforcement broadened materially during 2018 after the DAO Report, including fraud, unregistered offerings and paid-promotion cases.",
+        "significance": "The enforcement wave transformed the ICO boom into a major securities-law battleground.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — celebrity ICO touting cases",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-268",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — Centra Tech charges",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-53",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — Digital Asset Transactions: When Howey Met Gary",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/speech-hinman-061418",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0181",
+      "date": "2018",
+      "title": "Pineapple Fund completes a major Bitcoin philanthropy campaign",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_YEAR",
+        "exact_date": "2018",
+        "summary": "The anonymous Pineapple Fund completed a large Bitcoin-funded philanthropy campaign across dozens of charities, including multimillion-dollar donations to organizations such as MAPS.",
+        "significance": "It became one of the most memorable examples of early crypto wealth being converted into large-scale philanthropy.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "MAPS — Pineapple Fund donor retrospective",
+            "url": "https://maps.org/news/bulletin/bitcoin-ketamine-and-pineapples-why-i-donated-5-million-in-bitcoin-to-maps-winter-2018/",
+            "type": "CHARITY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0222",
+      "date": "2018",
+      "title": "USDC launches",
+      "branch": [
+        "STABLECOINS",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-09-26",
+        "summary": "Circle and the CENTRE consortium launched USD Coin (USDC), with Circle as the first commercial issuer.",
+        "significance": "USDC became one of crypto's most important regulated dollar stablecoins and a major settlement asset across exchanges, DeFi and payments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — Introducing USD Coin",
+            "url": "https://www.circle.com/blog/introducing-usd-coin",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0269",
+      "date": "2018",
+      "title": "WalletConnect begins building wallet-to-dapp connectivity",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2018",
+        "summary": "Pedro Gomes founded WalletConnect in 2018 to let wallets and applications establish encrypted connections, initially through a QR-code-based flow.",
+        "significance": "WalletConnect became a standard interoperability layer for connecting self-custody wallets to decentralized applications.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WalletConnect — Foundation/network history",
+            "url": "https://walletconnect.com/blog/introducing-the-walletconnect-foundation",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0276",
+      "date": "2018",
+      "title": "Pineapple Fund completes a major Bitcoin philanthropy campaign",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2018",
+        "summary": "This is the same Pineapple Fund philanthropy campaign as LORE-EVT-0181.",
+        "significance": "Canonicalized to LORE-EVT-0181.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "MAPS — Pineapple Fund donor retrospective",
+            "url": "https://maps.org/news/bulletin/bitcoin-ketamine-and-pineapples-why-i-donated-5-million-in-bitcoin-to-maps-winter-2018/",
+            "type": "CHARITY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0181",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0283",
+      "date": "2018-01-24",
+      "title": "ERC-721 proposal begins standardizing NFTs",
+      "branch": [
+        "ETHEREUM",
+        "NFT",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-01-24",
+        "summary": "EIP-721 was created on 24 January 2018, defining a standard interface for non-fungible tokens on Ethereum.",
+        "significance": "ERC-721 standardized NFT interoperability across wallets, marketplaces and applications and became the defining token interface for the NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EIP-721 Non-Fungible Token Standard",
+            "url": "https://eips.ethereum.org/EIPS/eip-721",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0287",
+      "date": "2018",
+      "title": "Lightning Network mainnet usage begins expanding",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-03-15",
+        "summary": "Lightning Labs released lnd 0.4-beta, its first Lightning implementation designated for Bitcoin mainnet use.",
+        "significance": "The release marked the transition of Lightning from research and test networks toward real-money Bitcoin payment-channel infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Lightning Labs — first Lightning mainnet beta",
+            "url": "https://lightning.engineering/posts/2018-03-15-lnd-beta/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0314",
+      "date": "2018",
+      "title": "Tether briefly loses its dollar peg amid banking concerns",
+      "branch": [
+        "STABLECOINS",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2018-10-15",
+        "summary": "Tether traded materially below its $1 target amid banking and reserve concerns before recovering.",
+        "significance": "The event was one of the first major stress tests of the dominant centralized crypto stablecoin and showed how stablecoin confidence can affect the wider market.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Tether loses dollar peg",
+            "url": "https://www.reuters.com/article/technology/cryptocurrency-tether-loses-peg-to-dollar-idUSKCN1MP0JD/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0328",
+      "date": "2018",
+      "title": "US SEC says Bitcoin and Ether are treated differently from many ICO tokens in public remarks",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_ATTRIBUTION",
+        "exact_date": "2018-06-14",
+        "summary": "SEC Corporation Finance Director William Hinman said that, based on his understanding of the then-current decentralized networks, current offers and sales of Bitcoin and Ether were not securities transactions.",
+        "significance": "The speech became one of the most influential US regulatory statements of the era, while remaining staff-level analysis rather than a Commission rule.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Digital Asset Transactions: When Howey Met Gary",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/speech-hinman-061418",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0338",
+      "date": "2018",
+      "title": "India central bank restricts banking services for crypto businesses",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-04-06",
+        "summary": "The Reserve Bank of India directed regulated financial institutions not to provide services dealing with virtual currencies and to exit existing relationships.",
+        "significance": "The banking restriction sharply constrained India's domestic crypto industry until the Supreme Court set it aside in March 2020.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "RBI — 2021 clarification referencing 6 Apr 2018 circular",
+            "url": "https://www.rbi.org.in/Scripts/BS_CircularIndexDisplay.aspx?Id=12103",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0341",
+      "date": "2018-01-30",
+      "title": "South Korea real-name crypto trading-account policy takes effect",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-01-30",
+        "summary": "South Korea's real-name bank-account policy for cryptocurrency trading took effect on 30 January 2018.",
+        "significance": "The rule became a major example of a government tightening crypto market access through banking and AML controls rather than imposing an outright ban.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Korea FSC — Financial Measures to Curb Speculation in Cryptocurrency Trading",
+            "url": "https://www.fsc.go.kr/eng/pr010101/22173",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0349",
+      "date": "2018",
+      "title": "Ohio announces Bitcoin option for some business tax payments",
+      "branch": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-11-26",
+        "summary": "Ohio's Treasurer began accepting Bitcoin for selected business-tax payments through OhioCrypto.com.",
+        "significance": "It was a notable US state-government experiment with Bitcoin as a payment rail for taxes, even though the program was later discontinued.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ohio Department of Taxation — Cryptocurrency business tax payments",
+            "url": "https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/documents/Cryptocurrency.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0374",
+      "date": "2018",
+      "title": "Coincheck loses NEM in one of the largest exchange hacks of its era",
+      "branch": [
+        "HACKS",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2018-01-26",
+        "summary": "This row describes the same Coincheck NEM theft as LORE-EVT-0103.",
+        "significance": "Canonicalized to the primary Coincheck-hack record.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coincheck — NEM unauthorized transfer FAQ",
+            "url": "https://coincheck.com/info/faq_nem",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0103",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0399",
+      "date": "2018",
+      "title": "Rollup research begins reshaping Ethereum scaling strategy",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "Rollup research was developing during this period, but the row does not identify a specific paper, implementation or public testnet.",
+        "significance": "Replace with a named optimistic-rollup or ZK-rollup milestone.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0405",
+      "date": "2018",
+      "title": "Uniswap's constant-product AMM popularizes x*y=k",
+      "branch": [
+        "DEFI",
+        "DEX",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018-11-02",
+        "summary": "Uniswap's constant-product x*y=k market maker was the defining mechanism of the protocol launched on 2 November 2018.",
+        "significance": "Technical context belongs under the canonical Uniswap launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — A Short History of Uniswap",
+            "url": "https://blog.uniswap.org/uniswap-history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0038",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0468",
+      "date": "2018",
+      "title": "Telegram Open Network private sale becomes one of the largest token raises",
+      "branch": [
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2018-01 to 2018-03",
+        "summary": "Telegram sold contractual rights to future Gram tokens in two private rounds that raised roughly $1.7 billion.",
+        "significance": "It was among the largest token financings of the era and later became a landmark securities case.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC complaint — Telegram / TON offering",
+            "url": "https://www.sec.gov/litigation/complaints/2019/comp-pr2019-212.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0469",
+      "date": "2018",
+      "title": "SEC launches high-profile enforcement against celebrity ICO promotions",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-11-29",
+        "summary": "The SEC charged Floyd Mayweather Jr. and DJ Khaled for failing to disclose payments received for promoting ICOs.",
+        "significance": "These were the SEC's first ICO touting cases and established a highly visible precedent for celebrity crypto promotions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — celebrity ICO touting cases",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-268",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0470",
+      "date": "2018",
+      "title": "Coincheck reimbursement plan follows record NEM theft",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2018-03-12",
+        "summary": "Coincheck compensated eligible NEM holders after the January hack using a stated yen reimbursement rate.",
+        "significance": "The reimbursement became an important exchange-response contrast to collapses where users recovered little or nothing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coincheck — NEM reparations",
+            "url": "https://corporate.coincheck.com/press/dG-nDV-c",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0103",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0471",
+      "date": "2018",
+      "title": "EOS freezes selected accounts shortly after mainnet launch",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2018",
+        "summary": "EOS block producers froze selected accounts shortly after mainnet launch, prompting debate over governance and decentralization.",
+        "significance": "Potentially strong governance LORE, but the exact freeze orders, dates and account counts need primary EOS governance records.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0472",
+      "date": "2018",
+      "title": "MakerDAO stablecoin model gains traction during bear market",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
+        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0285",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0473",
+      "date": "2018",
+      "title": "Compound launches decentralized lending markets",
+      "branch": [
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2018",
+        "summary": "Compound introduced a decentralized money-market protocol with algorithmically determined interest rates; its v0.4 whitepaper is dated June 2018.",
+        "significance": "Compound helped establish on-chain lending and borrowing as a core DeFi primitive, later becoming central to liquidity mining.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound — Money Market Protocol whitepaper v0.4",
+            "url": "https://compound.finance/documents/Compound.Whitepaper.v04.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0474",
+      "date": "2018",
+      "title": "Dharma and early lending protocols expand Ethereum DeFi",
+      "branch": [
+        "DEFI"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "Dharma and other early Ethereum lending projects expanded the emerging on-chain credit category.",
+        "significance": "Trend/context rather than a single dated event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0479",
+      "date": "2018-12-19",
+      "title": "Coinbase Earn popularizes token rewards for learning",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_CORRECTED",
+        "exact_date": "2018-12-19",
+        "summary": "Coinbase Earn launched in invite-only mode in December 2018, not 2019.",
+        "significance": "The product popularized the 'learn and earn' model in which users received tokens while completing educational lessons.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Earn launch",
+            "url": "https://www.coinbase.com/blog/earn-cryptocurrency-while-learning-about-new-digital-assets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0568",
+      "date": "2018",
+      "title": "Monero adopts Bulletproofs",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-10-18",
+        "summary": "Monero's October 2018 network upgrade enabled Bulletproofs, sharply reducing confidential transaction sizes while also changing ring size and proof-of-work parameters.",
+        "significance": "Bulletproofs materially improved the practicality and scalability of Monero's privacy model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero 0.13.0 Beryllium Bullet release",
+            "url": "https://web.getmonero.org/2018/10/11/monero-0.13.0-released.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0572",
+      "date": "2018",
+      "title": "Zcash Sapling improves shielded transaction usability",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-10-29T02:15:00Z",
+        "summary": "Zcash activated the Sapling network upgrade at block 419,200, greatly improving the speed and memory requirements of shielded transactions.",
+        "significance": "Sapling made privacy-preserving Zcash transactions far more usable for wallets, exchanges and mobile devices.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Zcash Sapling upgrade",
+            "url": "https://z.cash/upgrade/sapling/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0585",
+      "date": "2018",
+      "title": "Smart-contract audits become standard practice after repeated hacks",
+      "branch": [
+        "SECURITY",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "Smart-contract auditing became increasingly standard after repeated high-profile Ethereum and DeFi failures.",
+        "significance": "Security-practice trend rather than a discrete event; individual audit failures and exploit postmortems are better card candidates.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0625",
+      "date": "2018",
+      "title": "EOS launches after record fundraising",
+      "branch": [
+        "ALTCOINS",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-06-14",
+        "summary": "The EOS network became operational after token holders elected enough block producers to activate the chain.",
+        "significance": "EOS combined record-scale fundraising with delegated proof-of-stake governance and became one of the most prominent post-ICO smart-contract competitors.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — EOS blockchain officially live",
+            "url": "https://www.coindesk.com/markets/2018/06/14/the-eos-blockchain-is-now-officially-live",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0722",
+      "date": "2018",
+      "title": "Bitcoin falls more than 80 percent from peak during crypto winter",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_QUANTIFICATION",
+        "exact_date": "2018",
+        "summary": "This row describes the 2018 crypto-winter drawdown and industry contraction rather than a single event.",
+        "significance": "Keep as era context, but use source-specific market indices and project/funding data before publication.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Do not score until quantified or collapsed into a single Crypto Winter canonical record."
+      }
+    },
+    {
+      "id": "LORE-EVT-0723",
+      "date": "2018",
+      "title": "Ethereum price collapses after ICO treasury selling",
+      "branch": [
+        "ETHEREUM",
+        "MARKETS",
+        "ICO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CLAIM_NEEDS_REWRITE",
+        "exact_date": "2018",
+        "summary": "Ether fell sharply during 2018, but the current wording attributes the decline to ICO treasury selling without sufficient causal evidence.",
+        "significance": "Keep the market decline; remove the unsupported causal implication unless quantified evidence is added.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0724",
+      "date": "2018",
+      "title": "SEC launches Crypto Asset and Cyber Unit enforcement wave",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018",
+        "summary": "The SEC's Cyber Unit and digital-asset enforcement activity are part of the same 2018 enforcement wave.",
+        "significance": "Canonicalized to LORE-EVT-0159 as context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — celebrity ICO touting cases",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-268",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — Centra Tech charges",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-53",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0159",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0725",
+      "date": "2018",
+      "title": "Telegram private sale fuels debate over SAFT fundraising",
+      "branch": [
+        "ICO",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018",
+        "summary": "Telegram's private-sale structure helped intensify debate about SAFT-style token fundraising.",
+        "significance": "This is legal/market context under the canonical Telegram financing event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC complaint — Telegram / TON offering",
+            "url": "https://www.sec.gov/litigation/complaints/2019/comp-pr2019-212.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0468",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0726",
+      "date": "2018",
+      "title": "EOS arbitration and account freezes raise governance concerns",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018",
+        "summary": "EOS arbitration/account-freeze controversy belongs with the same early EOS governance episode.",
+        "significance": "Merge with LORE-EVT-0471 once primary records are attached.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0471",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0727",
+      "date": "2018",
+      "title": "Steemit communities debate delegated proof-of-stake governance",
+      "branch": [
+        "ALTCOINS",
+        "GOVERNANCE"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0728",
+      "date": "2018",
+      "title": "Bitmain files for Hong Kong IPO and reveals mining-industry scale",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-09-26",
+        "summary": "Bitmain filed for a Hong Kong IPO, exposing financial and operational details of the world's dominant Bitcoin-mining hardware company.",
+        "significance": "The filing made the scale and profitability of industrial ASIC mining unusually visible to public markets.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Bitmain Hong Kong IPO filing",
+            "url": "https://techcrunch.com/2018/09/26/bitmain-hong-kong-ipo/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0729",
+      "date": "2018",
+      "title": "Bitmain BCH holdings become controversial during bear market",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2018",
+        "summary": "Bitmain's Bitcoin Cash holdings became a topic of concern during the bear market.",
+        "significance": "Potential mining/corporate LORE but requires the IPO prospectus or audited figures before publication.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "TechCrunch — Bitmain Hong Kong IPO filing",
+            "url": "https://techcrunch.com/2018/09/26/bitmain-hong-kong-ipo/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0730",
+      "date": "2018",
+      "title": "Bitcoin hashrate falls sharply late in the year",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2018",
+        "summary": "Bitcoin hashrate fell materially late in 2018 as mining economics deteriorated.",
+        "significance": "Important mining-cycle context, but requires a defined network-data source and date range.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0896",
+      "date": "2018",
+      "title": "CryptoKitties founder team forms Dapper Labs",
+      "branch": [
+        "NFT",
+        "PEOPLE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2018",
+        "summary": "Dapper Labs was founded in 2018 as a spinout from Axiom Zen by the team behind CryptoKitties.",
+        "significance": "The company later built Flow and NBA Top Shot, making the spinout an important bridge from the first NFT breakout to mass-market digital collectibles.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Dapper Labs — company history",
+            "url": "https://www.dapperlabs.com/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0935",
+      "date": "2018",
+      "title": "Mining farms shut down as Bitcoin price collapses",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2018",
+        "summary": "Reports described miners switching off unprofitable hardware during the 2018 price collapse.",
+        "significance": "Visually strong mining-winter story, but needs a concrete shutdown, region or equipment-price event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0947",
+      "date": "2018",
+      "title": "Monero changes proof-of-work to resist ASIC dominance",
+      "branch": [
+        "PRIVACY",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018-10-18",
+        "summary": "Monero changed its proof-of-work algorithm again as part of the same October network upgrade that introduced Bulletproofs.",
+        "significance": "Mining-resistance context belongs under the canonical Monero network-upgrade record.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — Beryllium Bullet release",
+            "url": "https://web.getmonero.org/2018/10/11/monero-0.13.0-released.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0568",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0958",
+      "date": "2018",
+      "title": "Bogdanoff pump-and-dump memes spread across crypto forums",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "LORE_NEEDS_PRIMARY_SOURCE",
+        "exact_date": "2018",
+        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
+        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0959",
+      "date": "2018",
+      "title": "McAfee price-prediction wager becomes crypto folklore",
+      "branch": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "LORE_NEEDS_PRIMARY_SOURCE",
+        "exact_date": "2018",
+        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
+        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0970",
+      "date": "2018",
+      "title": "Vitalik appears in viral Devcon unicorn shirts and memes",
+      "branch": [
+        "PEOPLE",
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "LORE_NEEDS_PRIMARY_SOURCE",
+        "exact_date": "2018",
+        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
+        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0980",
+      "date": "2018",
+      "title": "Binance relocates operations amid regulatory pressure",
+      "branch": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "Binance shifted jurisdictions and corporate structures amid changing regulatory conditions.",
+        "significance": "Too broad for one event; choose a specific office move, regulator statement or corporate announcement.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0992",
+      "date": "2018",
+      "title": "Gemini launches Gemini Dollar stablecoin",
+      "branch": [
+        "STABLECOINS",
+        "EXCHANGES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-09-10",
+        "summary": "Gemini launched the Gemini dollar (GUSD), an Ethereum-based dollar-backed stablecoin.",
+        "significance": "GUSD was part of the first wave of regulated, reserve-backed stablecoins competing with Tether.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gemini — Gemini Dollar launch",
+            "url": "https://www.gemini.com/es/blog/gemini-launches-the-gemini-dollar-us-dollars-on-the-blockchain",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1013",
+      "date": "2018",
+      "title": "Ross Ulbricht supporters adopt Free Ross campaign",
+      "branch": [
+        "DARK_SIDE",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "LORE_NEEDS_PRIMARY_SOURCE",
+        "exact_date": "2018",
+        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
+        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1030",
+      "date": "2018",
+      "title": "Mt Gox civil rehabilitation process begins",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-06-22",
+        "summary": "The Tokyo District Court commenced civil rehabilitation proceedings for Mt. Gox and stayed the prior bankruptcy proceedings.",
+        "significance": "Civil rehabilitation created a pathway for creditors to recover assets based on Bitcoin holdings rather than only bankruptcy-era yen values.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox — commencement of civil rehabilitation proceedings",
+            "url": "https://www.mtgox.com/",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1039",
+      "date": "2018",
+      "title": "BitConnect promoters face lawsuits and investigations",
+      "branch": [
+        "SCAMS",
+        "GOVERNMENTS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "AFTERMATH_NEEDS_SPLIT",
+        "exact_date": "2018 onward",
+        "summary": "BitConnect promoters faced multiple civil and criminal proceedings after the platform collapsed.",
+        "significance": "Split into individual enforcement milestones if any merit separate cards.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0037",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1055",
+      "date": "2018",
+      "title": "Consensus conference becomes symbol of crypto-industry excess",
+      "branch": [
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "LORE_NEEDS_PRIMARY_SOURCE",
+        "exact_date": "2018",
+        "summary": "This is a plausible culture/lore event from the 2018 era, but the current archive wording is not yet anchored to a precise primary or high-quality contemporary source.",
+        "significance": "Keep in the research pool; do not score until the exact moment and provenance are pinned down.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1058",
+      "date": "2018",
+      "title": "Crypto winter empties conference halls and kills projects",
+      "branch": [
+        "CULTURE",
+        "DISASTERS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_QUANTIFICATION",
+        "exact_date": "2018",
+        "summary": "This row describes the 2018 crypto-winter drawdown and industry contraction rather than a single event.",
+        "significance": "Keep as era context, but use source-specific market indices and project/funding data before publication.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Do not score until quantified or collapsed into a single Crypto Winter canonical record."
+      }
+    },
+    {
+      "id": "LORE-EVT-1070",
+      "date": "2018",
+      "title": "MetaMask passes one million users",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2018",
+        "summary": "MetaMask passed an early major user milestone during Ethereum's expansion.",
+        "significance": "A concrete user-count announcement could be useful adoption history, but the current row needs a first-party dated source.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1083",
+      "date": "2018",
+      "title": "Kyber Network brings on-chain liquidity aggregation",
+      "branch": [
+        "DEX",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2018",
+        "summary": "Kyber Network became an early on-chain liquidity protocol.",
+        "significance": "Needs exact mainnet launch and primary project source before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1101",
+      "date": "2018",
+      "title": "Plasma research inspires early Ethereum scaling roadmaps",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2017-2018",
+        "summary": "Plasma scaling research began before 2018 and influenced early Ethereum scaling roadmaps.",
+        "significance": "Current year assignment is too blunt; replace with the Plasma paper/project milestone if retained.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1112",
+      "date": "2018",
+      "title": "Axie Infinity launches early blockchain game",
+      "branch": [
+        "GAMING",
+        "NFT"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2018-02 to 2018-10",
+        "summary": "Axie Infinity began its Origin Axie presale in February 2018, opened its marketplace in March, released beta battle versions in August and launched its mainnet battle system in October.",
+        "significance": "Axie was an early attempt to combine tradable NFTs, breeding and game economies years before the play-to-earn boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Axie Infinity — completed milestones",
+            "url": "https://whitepaper.axieinfinity.com/roadmap",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Axie Infinity — history for returning players",
+            "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1128",
+      "date": "2018",
+      "title": "MakerDAO token voting becomes major live governance experiment",
+      "branch": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2018",
+        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
+        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0285",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1163",
+      "date": "2018",
+      "title": "Centra Tech founders face criminal prosecution",
+      "branch": [
+        "SCAMS",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-04-02",
+        "summary": "The SEC charged Centra Tech co-founders Sohrab Sharma and Robert Farkas over an allegedly fraudulent $32 million ICO; criminal authorities separately arrested them.",
+        "significance": "The case became one of the clearest examples of regulators pursuing alleged fraud behind celebrity-promoted ICOs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Centra Tech founders charged",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-53",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1164",
+      "date": "2018",
+      "title": "Pincoin and iFan collapse in Vietnam amid fraud allegations",
+      "branch": [
+        "SCAMS",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2018",
+        "summary": "Pincoin and iFan collapsed in Vietnam amid allegations of a very large token-investment fraud.",
+        "significance": "Potential major scam-history entry, but exact losses, entities and government findings need primary/local enforcement sources.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1190",
+      "date": "2018",
+      "title": "Bulletproofs dramatically reduce Monero transaction sizes",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2018-10-18",
+        "summary": "This row refers to the same Monero Bulletproofs activation represented by LORE-EVT-0568.",
+        "significance": "Keep the transaction-size reduction as technical context under the canonical upgrade.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero 0.13.0 Beryllium Bullet release",
+            "url": "https://web.getmonero.org/2018/10/11/monero-0.13.0-released.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0568",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1197",
+      "date": "2018-07-09",
+      "title": "Augur launches decentralized prediction markets on Ethereum",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2018-07-09",
+        "summary": "Augur's decentralized prediction-market platform launched on Ethereum in July 2018 after years of development.",
+        "significance": "Augur was one of Ethereum's earliest major applications and a foundational experiment in decentralized prediction markets and oracle-based settlement.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Augur goes live",
+            "url": "https://www.coindesk.com/markets/2018/07/10/augur-is-live-after-three-years-of-development/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1198",
+      "date": "2018",
+      "title": "Augur handles controversial assassination-market questions",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_SOURCE",
+        "exact_date": "2018",
+        "summary": "Augur's permissionless markets generated controversy over extreme or disturbing prediction-market questions.",
+        "significance": "Potentially important prediction-market governance LORE, but specific markets and dates need reliable sourcing.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "CoinDesk — Augur goes live",
+            "url": "https://www.coindesk.com/markets/2018/07/10/augur-is-live-after-three-years-of-development/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1197",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1205",
+      "date": "2018",
+      "title": "CryptoKitties congestion inspires early NFT scaling discussions",
+      "branch": [
+        "NFT",
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2017-12 to 2018",
+        "summary": "CryptoKitties' rapid popularity caused visible Ethereum congestion and helped accelerate discussion of scaling consumer blockchain applications.",
+        "significance": "This is a consequence of CryptoKitties rather than a separate canonical launch event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CryptoKitties launch announcement",
+            "url": "https://www.prnewswire.com/news-releases/cryptokitties-the-worlds-first-ethereum-game-launches-today-660494083.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0036",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1219",
+      "date": "2018",
+      "title": "Bittrex and Poloniex lose market share to Binance",
+      "branch": [
+        "EXCHANGES",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2018",
+        "summary": "Binance gained substantial exchange market share while earlier leaders such as Bittrex and Poloniex lost relative dominance.",
+        "significance": "Market-structure trend that needs exchange-volume data before publication.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

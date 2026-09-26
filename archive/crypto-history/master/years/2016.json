@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 2016,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 45,
+  "events": [
+    {
+      "id": "LORE-EVT-0027",
+      "date": "2016",
+      "title": "The DAO crowdsale",
+      "branch": [
+        "ETHEREUM",
+        "DAO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-04-30 to 2016-05-28",
+        "summary": "The DAO launched a token sale on Ethereum beginning 30 April 2016 and raised more than 11.5 million ETH, then worth around $150 million.",
+        "significance": "The DAO became an unprecedented blockchain crowdfunding and governance experiment, setting the stage for Ethereum's defining governance crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0028",
+      "date": "2016-06",
+      "title": "The DAO exploit",
+      "branch": [
+        "ETHEREUM",
+        "HACKS",
+        "DAO"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true,
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-06-17",
+        "summary": "An attacker exploited a recursive-call/reentrancy vulnerability in The DAO and began draining Ether into a child DAO.",
+        "significance": "The exploit was the defining smart-contract security failure of early Ethereum and forced the community to confront whether code immutability should override asset recovery.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0029",
+      "date": "2016-07-20",
+      "title": "DAO fork and Ethereum Classic split",
+      "branch": [
+        "ETHEREUM",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-07-20",
+        "summary": "At block 1,920,000, the Ethereum hard fork moved DAO-related Ether to a refund contract; miners opposed to the intervention continued the original chain, which became Ethereum Classic.",
+        "significance": "The split permanently demonstrated that blockchains are also governed by communities and social consensus, not code alone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0030",
+      "date": "2016",
+      "title": "Rare Pepes emerge on Counterparty",
+      "branch": [
+        "NFT",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-09-09 to 2016-09-13",
+        "summary": "The first Rare Pepe Counterparty collectible was posted in early September 2016, and the Rare Pepe Directory project was organized days later.",
+        "significance": "Rare Pepes created a native blockchain collectible/art culture on Bitcoin before the Ethereum NFT boom.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Book of Kek — Rare Pepe Series 1",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project/series-and-card-specific-lore/series-1",
+            "type": "COMMUNITY_ARCHIVE"
+          },
+          {
+            "title": "Book of Kek — Rare Pepe Blockchain Project",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0091",
+      "date": "2016-01-14",
+      "title": "Lightning Network paper proposes Bitcoin payment channels",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-01-14",
+        "summary": "Joseph Poon and Thaddeus Dryja's Lightning Network paper proposed scalable off-chain instant Bitcoin payments routed through networks of payment channels.",
+        "significance": "Lightning became Bitcoin's dominant second-layer payments architecture and a key answer in the block-size/scaling debate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Lightning Network paper",
+            "url": "https://lightning.network/lightning-network-paper.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0094",
+      "date": "2016-07-09",
+      "title": "Second Bitcoin halving",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-07-09",
+        "summary": "Bitcoin's second halving reduced the block subsidy from 25 BTC to 12.5 BTC on 9 July 2016.",
+        "significance": "It reinforced Bitcoin's fixed issuance schedule and established halvings as recurring global market and mining events.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0095",
+      "date": "2016",
+      "title": "Bitfinex hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-08-02",
+        "summary": "Bitfinex suffered a security breach on 2 August 2016 in which 119,755 BTC were stolen.",
+        "significance": "It was one of crypto's largest exchange thefts and later became remarkable for both BFX loss tokens and a massive law-enforcement recovery.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitfinex — 2016 Security Breach FAQ",
+            "url": "https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0096",
+      "date": "2016",
+      "title": "Zcash launches",
+      "branch": [
+        "PRIVACY",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-10-28",
+        "summary": "Zcash launched its Sprout mainnet on 28 October 2016 with zk-SNARK-based shielded transactions.",
+        "significance": "Zcash brought production zero-knowledge privacy to a permissionless cryptocurrency and made advanced cryptography a mainstream crypto topic.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Electric Coin Company — Zcash Launch and Roadmap",
+            "url": "https://electriccoin.co/blog/zcash-launch-and-roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0156",
+      "date": "2016",
+      "title": "Parity/Ethereum ecosystem grows around smart-contract infrastructure",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Parity and other Ethereum clients/infrastructure expanded as Ethereum matured.",
+        "significance": "Too broad for card scoring; identify a specific Parity release, wallet launch, or later hack instead.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0213",
+      "date": "2016",
+      "title": "Ethereum Homestead upgrade marks a more mature network phase",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-03-14",
+        "summary": "Ethereum's Homestead hard fork activated in March 2016, moving the network beyond its experimental Frontier phase.",
+        "significance": "Homestead signaled increasing confidence in Ethereum's live smart-contract platform just before The DAO era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Homestead Release",
+            "url": "https://blog.ethereum.org/2016/02/29/homestead-release",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0214",
+      "date": "2016",
+      "title": "Zcash trusted-setup ceremony becomes part of privacy-coin lore",
+      "branch": [
+        "PRIVACY",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-10-22 to 2016-10-23",
+        "summary": "Six participants generated the Sprout zk-SNARK public parameters through a multi-party trusted-setup ceremony shortly before Zcash launched.",
+        "significance": "The ceremony became legendary privacy-crypto lore because security depended on at least one participant destroying secret setup material.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Zcash ceremony archive",
+            "url": "https://www.zcashcommunity.com/2016/10/26/zcash-trusted-setup-complete/",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0268",
+      "date": "2016",
+      "title": "MetaMask emerges as a key Ethereum browser wallet",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2016",
+        "summary": "MetaMask was created in 2016 by Aaron Davis and Dan Finlay as a self-custodial Ethereum browser wallet/extension.",
+        "significance": "MetaMask became the dominant consumer gateway to Ethereum dapps, DeFi and NFTs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MetaMask — origin story",
+            "url": "https://metamask.io/en-GB/news/how-did-metamask-come-to-life-the-origin-story-revealed",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0282",
+      "date": "2016",
+      "title": "Ethereum community debates immutability after DAO exploit",
+      "branch": [
+        "ETHEREUM",
+        "FORKS",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2016-06 to 2016-07",
+        "summary": "Ethereum users, miners and developers debated soft forks, hard forks, immutability and social consensus after The DAO exploit.",
+        "significance": "The debate is essential to understanding why the hard fork produced Ethereum Classic, but it is a period rather than one instant.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0029",
+        "relation": "PRECURSOR",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0310",
+      "date": "2016",
+      "title": "BitMEX popularizes perpetual swap trading",
+      "branch": [
+        "EXCHANGES",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-05-13T12:00:00Z",
+        "summary": "BitMEX launched XBTUSD, which it described as the world's first perpetual Bitcoin/USD leveraged swap, with up to 100x leverage and no expiry.",
+        "significance": "The perpetual swap became crypto's defining derivatives instrument and was later copied across virtually every major trading venue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitMEX — launch of perpetual XBTUSD leveraged swap",
+            "url": "https://www.bitmex.com/blog/announcing-the-launch-of-the-perpetual-xbtusd-leveraged-swap",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0324",
+      "date": "2016",
+      "title": "Rare Pepe trading develops a native collector culture",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2016-09 onward",
+        "summary": "Rare Pepe trading, directory curation and wallet infrastructure developed into a distinct collector economy.",
+        "significance": "Cultural-market context of the canonical Rare Pepe emergence.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Book of Kek — Rare Pepe Blockchain Project",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0030",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0348",
+      "date": "2016",
+      "title": "Zug begins accepting Bitcoin for selected municipal payments",
+      "branch": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "The city of Zug in Switzerland began accepting small Bitcoin payments for selected municipal services during its 'Crypto Valley' experiment.",
+        "significance": "Strong government-adoption candidate, but exact implementation date and official city source should be added before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0364",
+      "date": "2016",
+      "title": "Cryptsy collapses amid missing-funds allegations",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Altcoin exchange Cryptsy collapsed amid allegations of missing funds and later litigation.",
+        "significance": "Potentially important exchange-disaster event; needs court/receiver documentation and exact closure date.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0371",
+      "date": "2016",
+      "title": "The DAO hacker begins draining Ether through reentrancy",
+      "branch": [
+        "HACKS",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2016-06-17",
+        "summary": "The DAO attacker used recursive calls to repeatedly execute the split logic and drain Ether.",
+        "significance": "Technical subevent of the canonical DAO exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0028",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0452",
+      "date": "2016",
+      "title": "Ethereum hard forks after The DAO exploit",
+      "branch": [
+        "ETHEREUM",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2016-07-20",
+        "summary": "This is the same Ethereum DAO hard fork as LORE-EVT-0029.",
+        "significance": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0029",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0453",
+      "date": "2016",
+      "title": "Ethereum Classic preserves the unforked DAO history",
+      "branch": [
+        "ETHEREUM",
+        "FORKS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2016-07-20 onward",
+        "summary": "The unforked chain continued to be mined and traded and became known as Ethereum Classic.",
+        "significance": "Ethereum Classic preserved the no-rollback chain and embodied opposition to the DAO recovery fork.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0029",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0454",
+      "date": "2016",
+      "title": "Bitfinex socializes hack losses using BFX tokens",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2016-08",
+        "summary": "Bitfinex imposed an extraordinary loss adjustment across customer balances and issued BFX tokens valued at $1 for each dollar of loss, later redeeming or converting them.",
+        "significance": "The BFX mechanism was an unusual attempt to socialize and tokenize exchange losses rather than liquidate the platform.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitfinex — 2016 Security Breach FAQ",
+            "url": "https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Bitfinex — Site relaunch / BFX loss adjustment",
+            "url": "https://blog.bitfinex.com/announcements/site-relaunch/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0095",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0456",
+      "date": "2016",
+      "title": "Zcash launches with zk-SNARK-based shielded transactions",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2016-10-28",
+        "summary": "Zcash's launch introduced shielded transfers based on zk-SNARKs.",
+        "significance": "Technical significance of the canonical Zcash launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Electric Coin Company — Zcash Launch and Roadmap",
+            "url": "https://electriccoin.co/blog/zcash-launch-and-roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0096",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0457",
+      "date": "2016",
+      "title": "Rare Pepe Directory formalizes early blockchain collectible culture",
+      "branch": [
+        "NFT",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2016-09-13",
+        "summary": "The Rare Pepe Directory began formalizing which Counterparty meme cards belonged to the recognized collection.",
+        "significance": "Curation turned ad hoc meme tokens into a coherent collectible set and community.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Book of Kek — Rare Pepe Blockchain Project",
+            "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0030",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0571",
+      "date": "2016",
+      "title": "Zcash launches shielded-address privacy system",
+      "branch": [
+        "PRIVACY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2016-10-28",
+        "summary": "This is another formulation of Zcash launching its shielded-address privacy system.",
+        "significance": [
+          {
+            "title": "Electric Coin Company — Zcash Launch and Roadmap",
+            "url": "https://electriccoin.co/blog/zcash-launch-and-roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0096",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0584",
+      "date": "2016",
+      "title": "The DAO attack popularizes reentrancy as a smart-contract risk",
+      "branch": [
+        "ETHEREUM",
+        "HACKS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2016-06-17 onward",
+        "summary": "The DAO exploit made reentrancy one of the best-known smart-contract vulnerability classes and changed contract-security practice.",
+        "significance": "Security legacy of the canonical DAO exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Critical Update re DAO Vulnerability",
+            "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0028",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0696",
+      "date": "2016",
+      "title": "Bitcoin Core activates CheckSequenceVerify and other scaling groundwork",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2016-07",
+        "summary": "Bitcoin activated relative lock-time/CheckSequenceVerify functionality (BIPs 68, 112 and 113) during 2016.",
+        "significance": "These script and lock-time primitives were important groundwork for payment channels and later Lightning deployment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 112 — CHECKSEQUENCEVERIFY",
+            "url": "https://bitcoin.org/bip/112/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0697",
+      "date": "2016",
+      "title": "SegWit proposal becomes center of Bitcoin scaling debate",
+      "branch": [
+        "BITCOIN",
+        "FORKS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2015-2016",
+        "summary": "Segregated Witness was designed and specified through BIP141 and became a central issue in Bitcoin's scaling debate; mainnet deployment signaling was scheduled to begin 15 November 2016.",
+        "significance": "SegWit addressed transaction malleability and expanded effective block capacity, becoming the core technical compromise around which the block-size war intensified.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP 141 — Segregated Witness",
+            "url": "https://bitcoin.org/bip/141/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0698",
+      "date": "2016",
+      "title": "Bitcoin Unlimited grows among big-block advocates",
+      "branch": [
+        "BITCOIN",
+        "FORKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Bitcoin Unlimited gained support among some large-block advocates during the scaling conflict.",
+        "significance": "Political/software trend rather than one discrete event; replace with a release, mining-support threshold or conference agreement before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0699",
+      "date": "2016",
+      "title": "Bitfinex issues BFX recovery tokens after hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2016-08",
+        "summary": "This row is the same BFX recovery-token mechanism captured by LORE-EVT-0454.",
+        "significance": [
+          {
+            "title": "Bitfinex — Site relaunch / BFX loss adjustment",
+            "url": "https://blog.bitfinex.com/announcements/site-relaunch/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0454",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0700",
+      "date": "2016",
+      "title": "Kraken acquires Coinsetter and Cavirtex",
+      "branch": [
+        "EXCHANGES"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-01-19",
+        "summary": "Kraken announced acquisition of Coinsetter and Cavirtex, expanding its US and Canadian market presence.",
+        "significance": "An early example of consolidation among regulated crypto exchanges.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kraken — acquiring Coinsetter and Cavirtex",
+            "url": "https://blog.kraken.com/news/kraken-acquiring-coinsetter-and-cavirtex-to-expand",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0701",
+      "date": "2016",
+      "title": "Coinbase rebrands exchange product as GDAX",
+      "branch": [
+        "EXCHANGES"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-05-24",
+        "summary": "Coinbase renamed its professional exchange GDAX while adding Ether trading.",
+        "significance": "The rebrand reflected the industry's transition from Bitcoin-only businesses toward multi-asset crypto markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Coinbase Exchange is now GDAX",
+            "url": "https://www.coinbase.com/blog/coinbase-exchange-is-now-gdax-adds-ether-trading",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0702",
+      "date": "2016",
+      "title": "Circle ends direct Bitcoin buying and selling for retail users",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-12-06",
+        "summary": "Circle announced it was eliminating direct customer Bitcoin buying and selling and would route users toward Coinbase while focusing on payments and its CENTRE protocol.",
+        "significance": "The pivot illustrated how early consumer Bitcoin companies repeatedly changed business models as the market evolved.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — Bitcoin Changes / CENTRE",
+            "url": "https://www.circle.com/blog/centre-new-markets-app-messaging-and-bitcoin-changes",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0703",
+      "date": "2016",
+      "title": "Microsoft's Azure blockchain services expand enterprise experimentation",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Microsoft Azure expanded blockchain-as-a-service experiments and partnerships with enterprise DLT providers.",
+        "significance": "Institutional technology trend, but requires a specific product/partnership milestone if used as a standalone event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0704",
+      "date": "2016",
+      "title": "Hyperledger Fabric early releases gain enterprise traction",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2016",
+        "summary": "Hyperledger projects such as Fabric moved from newly formed Linux Foundation collaboration into active enterprise development.",
+        "significance": "Important enterprise-blockchain context, but a specific release milestone is preferable.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Hyperledger — 2019 annual report (history)",
+            "url": "https://www.hyperledger.org/hubfs/Hyperledger/Printables/HL_AnnualReport_Print.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0933",
+      "date": "2016",
+      "title": "Antminer S9 becomes an iconic Bitcoin mining machine",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Bitmain's Antminer S9 became an iconic and highly efficient SHA-256 ASIC generation during 2016.",
+        "significance": "Major mining-hardware candidate; needs manufacturer release announcement/date and efficiency specifications before verification.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1008",
+      "date": "2016",
+      "title": "Australian media reports Craig Wright's Satoshi claim",
+      "branch": [
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Craig Wright publicly claimed to be Satoshi Nakamoto in 2016, generating intense media coverage and skepticism.",
+        "significance": "This is major Satoshi lore, but the archive should use a direct claim plus reputable contemporaneous verification/skepticism sources before scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1009",
+      "date": "2016",
+      "title": "Gavin Andresen says he believed a Wright signing demonstration",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Gavin Andresen publicly said he believed a private signing demonstration supported Wright's Satoshi claim; the evidence was not independently reproducible.",
+        "significance": "Needs Andresen's direct contemporaneous statement/source before verification.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1010",
+      "date": "2016",
+      "title": "Bitcoin Core commit access is removed from Gavin Andresen amid controversy",
+      "branch": [
+        "BITCOIN",
+        "GOVERNANCE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "Gavin Andresen's Bitcoin Core commit access was revoked amid the Craig Wright/Satoshi controversy and concerns around account/security circumstances.",
+        "significance": "Important governance story but requires Bitcoin Core/GitHub or maintainer-source documentation.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1022",
+      "date": "2016",
+      "title": "Ransomware economy increasingly standardizes on Bitcoin",
+      "branch": [
+        "BITCOIN",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2016",
+        "summary": "Bitcoin increasingly became a common ransomware payment method as ransomware campaigns expanded globally.",
+        "significance": "This is a cybercrime trend; individual attacks such as CryptoLocker and WannaCry make cleaner card events.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1037",
+      "date": "2016",
+      "title": "BitConnect launches lending platform",
+      "branch": [
+        "SCAMS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2016",
+        "summary": "BitConnect launched its token/lending ecosystem in the 2016 period before exploding in popularity in 2017.",
+        "significance": "Important precursor to the 2018 collapse, but exact launch and lending-platform dates need primary/contemporary documentation.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1068",
+      "date": "2016",
+      "title": "BIP32 and hierarchical deterministic wallet practices become mainstream",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2012 onward",
+        "summary": "BIP32 hierarchical deterministic wallets were proposed years before 2016, and the current 'become mainstream' wording is a trend rather than an event.",
+        "significance": "Replace with the BIP32 proposal/implementation milestone or a specific wallet adoption event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1069",
+      "date": "2016",
+      "title": "Hardware wallets normalize offline private-key storage",
+      "branch": [
+        "SECURITY",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2014-2016",
+        "summary": "After Trezor's 2014 launch and subsequent hardware-wallet products, offline key storage became increasingly accessible to ordinary users.",
+        "significance": "Self-custody trend flowing from specific hardware-wallet launches, not a single 2016 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Trezor hardware-wallet history",
+            "url": "https://trezor.io/blog/news/a-decade-of-pioneering-10-years-since-trezors-first-hardware-wallet-revolution",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0155",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1077",
+      "date": "2016",
+      "title": "Ethereum multisig wallets become standard treasury infrastructure",
+      "branch": [
+        "ETHEREUM",
+        "SECURITY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2016",
+        "summary": "Multisignature smart-contract wallets increasingly became protocol and treasury infrastructure on Ethereum.",
+        "significance": "Trend, not discrete event. Replace with a specific wallet launch or major multisig incident.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1127",
+      "date": "2016",
+      "title": "The DAO governance crisis triggers debate over code versus social consensus",
+      "branch": [
+        "DAO",
+        "GOVERNANCE",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2016-06 to 2016-07",
+        "summary": "The DAO crisis became a defining argument over 'code is law' versus community governance.",
+        "significance": "Canonicalized as context around the DAO fork.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The DAO hack and Ethereum Classic",
+            "url": "https://ethereum.org/videos/dao-hack-ethereum-classic/",
+            "type": "PROJECT_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0029",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1188",
+      "date": "2016",
+      "title": "Monero hard fork improves privacy defaults",
+      "branch": [
+        "PRIVACY",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2016-03",
+        "summary": "Monero's March 2016 network upgrade required a minimum ring size of 3 for transactions.",
+        "significance": "The upgrade improved default privacy before RingCT arrived in 2017.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero Roadmap",
+            "url": "https://www.getmonero.org/resources/roadmap/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}
