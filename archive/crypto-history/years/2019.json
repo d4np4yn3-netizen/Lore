@@ -851,21 +851,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_DATA",
+        "state": "CONTEXT_ONLY",
         "exact_date": "2019-09 onward",
-        "summary": "Bakkt's initial trading volumes were widely viewed as modest relative to its pre-launch hype.",
-        "significance": "Potentially interesting institutional-adoption LORE, but needs exact launch-volume data and comparable benchmarks before publication.",
+        "summary": "Bakkt's first trading sessions were modest compared with the enormous pre-launch institutional hype around the physically settled Bitcoin futures product.",
+        "significance": "Useful institutional-adoption narrative context, but not a separate historical event from Bakkt's launch.",
         "source_confidence": "MEDIUM",
-        "sources": [
-          {
-            "title": "ICE Futures U.S. — Bakkt Bitcoin futures launch reminder",
-            "url": "https://www.ice.com/publicdocs/futures_us/exchange_notices/ICE_Futures_US_BTC_LaunchReminder_20190910.pdf",
-            "type": "EXCHANGE_PRIMARY"
-          }
-        ],
+        "sources": [],
         "canonical_event_id": "LORE-EVT-0225",
         "relation": "AFTERMATH",
-        "notes": null
+        "notes": "Exclude from standalone card scoring unless a precise launch-volume comparison is later desired."
       }
     },
     {
