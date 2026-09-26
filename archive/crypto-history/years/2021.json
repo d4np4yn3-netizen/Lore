@@ -3,7 +3,7 @@
   "year": 2021,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence file for 2021. Only sourced records in this file are eligible for later card scoring.",
-  "record_count": 18,
+  "record_count": 23,
   "records": [
     {
       "source_event_id": "LORE-EVT-0044",
@@ -303,6 +303,101 @@
           "title": "Optimism OP Stack protocol versions",
           "url": "https://specs.optimism.io/protocol/superchain-upgrades.html",
           "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2021-06-03",
+      "title": "Dogecoin gains full Coinbase retail listing",
+      "status": "VERIFIED",
+      "tier": "MAJOR",
+      "summary": "Coinbase added Dogecoin buying, selling, conversion, sending, receiving and custody for retail users on 3 June 2021.",
+      "significance": "A cryptocurrency created as a joke had become mainstream enough for one of the largest regulated US exchanges, illustrating the scale of 2021 meme-coin adoption.",
+      "sources": [
+        {
+          "title": "Coinbase — Dogecoin is now available",
+          "url": "https://www.coinbase.com/blog/dogecoin-doge-is-now-available-on-coinbase",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2021-08",
+      "title": "Visa buys a CryptoPunk",
+      "status": "VERIFIED_WITH_MONTH",
+      "tier": "LORE",
+      "summary": "Visa purchased CryptoPunk #7610 for 49.5 ETH, roughly $150,000 at the time.",
+      "significance": "A global payments network buying a CryptoPunk became a striking symbol of institutions treating NFTs as culturally significant digital assets.",
+      "sources": [
+        {
+          "title": "Visa Navigate — mainstreaming of digital assets",
+          "url": "https://navigate.visa.com/europe/the-metaverse-as-a-strategic-inflection-point/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2021-11-08",
+      "title": "ENS launches governance-token airdrop",
+      "status": "VERIFIED",
+      "tier": "MAJOR",
+      "summary": "ENS opened claims for its governance token to eligible .eth name holders after using an October 31 ownership snapshot.",
+      "significance": "The airdrop converted a widely used naming protocol into a token-governed DAO and became another landmark retroactive distribution.",
+      "sources": [
+        {
+          "title": "ENS Docs — The ENS Token",
+          "url": "https://docs.ens.domains/dao/token/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "ENS DAO — claiming opens Nov 8",
+          "url": "https://discuss.ens.domains/t/delegate-links-for-easy-campaigning/3008",
+          "type": "PROJECT_FORUM"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2021-11-14",
+      "title": "Bitcoin Taproot activates",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Taproot activated on Bitcoin at block height 709,632, implementing BIP340 Schnorr signatures, BIP341 Taproot and BIP342 Tapscript.",
+      "significance": "Taproot was Bitcoin's most important protocol upgrade since SegWit, improving scripting flexibility, efficiency and privacy properties while enabling new application designs.",
+      "sources": [
+        {
+          "title": "BIP341 — Taproot",
+          "url": "https://bitcoin.org/bip/341/",
+          "type": "PRIMARY_SPEC"
+        },
+        {
+          "title": "Bitcoin Optech — Taproot activated",
+          "url": "https://bitcoinops.org/en/newsletters/2021/11/17/",
+          "type": "DEVELOPER_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2021-11-18",
+      "title": "ConstitutionDAO raises over $40 million but loses Constitution auction",
+      "status": "VERIFIED",
+      "tier": "LORE",
+      "summary": "More than 17,000 ConstitutionDAO contributors raised over $40 million in Ether to bid on a rare first printing of the US Constitution, but were outbid at Sotheby's; the document sold for $43.2 million.",
+      "significance": "The episode became one of the clearest demonstrations of internet-scale DAO coordination and one of crypto's most memorable collective near-misses.",
+      "sources": [
+        {
+          "title": "ConstitutionDAO — wind-down and refunds",
+          "url": "https://www.constitutiondao.com/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Sotheby's — ConstitutionDAO auction context",
+          "url": "https://www.sothebys.com/en/articles/sothebys-to-auction-one-of-only-two-first-printings-of-the-u-s-constitution-remaining-in-private-hands",
+          "type": "AUCTION_HOUSE_PRIMARY"
         }
       ]
     }
