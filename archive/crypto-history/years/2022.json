@@ -1247,15 +1247,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_METRIC",
+        "state": "CONTEXT_VERIFIED_WITH_DATA",
         "exact_date": "2022",
-        "summary": "Cosmos IBC continued expanding as a cross-chain communication layer during 2022, but the raw 'grows' wording is a trend rather than a clean event.",
-        "significance": "Keep for the Cosmos chapter; do not score until tied to a defined IBC chain/transfer milestone.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "By the end of 2022 the Cosmos ecosystem had 53 IBC-enabled chains; Blockworks Research reported roughly $745 million transferred over IBC in the preceding 30 days.",
+        "significance": "IBC had moved from a protocol concept into substantial live cross-chain infrastructure across the Cosmos ecosystem.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Blockworks Research — 2022 in Review: Network Coverage, Layer 1s & 2s",
+            "url": "https://app.blockworksresearch.com/unlocked/2022-in-review-network-coverage-layer-1s-and-2s",
+            "type": "RESEARCH_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use the dated 2022 metric rather than a vague 'grows' claim."
       }
     },
     {
@@ -1893,12 +1899,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "EDITORIAL_CONTEXT_REVIEWED",
-        "exact_date": "2022",
-        "summary": "UkraineDAO fundraising is a genuine 2022-era story, but the current row is not yet defined as one uniquely dated, source-anchored historical event.",
-        "significance": "Retain as book/culture context; exclude from card scoring unless a precise primary-source moment is selected.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-02-26 to 2022-03-03",
+        "summary": "UkraineDAO launched a 1/1 Ukrainian-flag NFT fundraiser shortly after Russia's full-scale invasion and raised more than $6 million worth of ETH for Ukrainian relief efforts.",
+        "significance": "It became one of the clearest examples of DAO coordination, NFTs and crypto fundraising being used rapidly for wartime humanitarian support.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Chainwire — UkraineDAO launches 1/1 NFT fundraiser",
+            "url": "https://chainwire.org/2022/02/27/ukraine-dao-launches-1-1-nft-to-raise-funds-to-help-war-torn-ukrainians/",
+            "type": "PROJECT_PRESS_RELEASE"
+          },
+          {
+            "title": "Yahoo Finance / The Defiant — UkraineDAO raises $7M",
+            "url": "https://finance.yahoo.com/news/ukrainedao-raises-7m-builds-global-125738636.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1915,15 +1932,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "EDITORIAL_CONTEXT_REVIEWED",
-        "exact_date": "2022",
-        "summary": "ConstitutionDAO PEOPLE token continues trading is a genuine 2022-era story, but the current row is not yet defined as one uniquely dated, source-anchored historical event.",
-        "significance": "Retain as book/culture context; exclude from card scoring unless a precise primary-source moment is selected.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2021-11 onward",
+        "summary": "After ConstitutionDAO lost the Sotheby's auction and wound down, contributors could redeem PEOPLE for ETH or keep the token; the token remained transferable and was later adopted by community successor PeopleDAO.",
+        "significance": "The afterlife of PEOPLE showed how a token can outlive the organization and original purpose that created it.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ConstitutionDAO — wind-down and refund page",
+            "url": "https://www.constitutiondao.com/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "PeopleDAO — $PEOPLE token origin",
+            "url": "https://people-dao.com/governance/people-token",
+            "type": "COMMUNITY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "This is aftermath/context spanning 2021-2022 rather than a clean 2022 launch event."
       }
     },
     {
@@ -2060,12 +2088,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2022",
-        "summary": "Terra's failure damaged confidence and liquidity across parts of the wider Cosmos ecosystem, but the raw row is a broad sentiment claim.",
-        "significance": "Use concrete Terra/Cosmos protocol or market milestones instead of scoring this row.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_DATA",
+        "exact_date": "2022-05 onward",
+        "summary": "The Terra collapse sharply reduced activity and value across the wider Cosmos ecosystem; Blockworks Research reported Cosmos-SDK chain TVL down about 93% while also noting that IBC and underlying Tendermint/Cosmos infrastructure continued operating under extreme load.",
+        "significance": "The collapse simultaneously damaged Cosmos ecosystem confidence and served as a stress test that separated application/economic failure from core interchain infrastructure.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Blockworks Research — 2022 in Review: Cosmos ecosystem",
+            "url": "https://app.blockworksresearch.com/unlocked/2022-in-review-network-coverage-layer-1s-and-2s",
+            "type": "RESEARCH_SECONDARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0053",
         "relation": "ECOSYSTEM_CONTEXT",
         "notes": null
@@ -2529,12 +2563,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "AFTERMATH_NEEDS_NARROWING",
-        "exact_date": "2022 onward",
-        "summary": "Celebrity endorsers and partners of FTX faced civil lawsuits after the exchange failed.",
-        "significance": "Important culture/legal aftermath but not one canonical 2022 event; split by case if needed.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2022-11-15",
+        "summary": "FTX customers filed a proposed class action naming Sam Bankman-Fried and celebrity endorsers including Tom Brady, Gisele Bündchen, Stephen Curry and Larry David.",
+        "significance": "The litigation became a major test of potential liability for celebrity crypto promotion after an endorsed platform collapses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — FTX's Bankman-Fried, Tom Brady and other celebrity promoters sued",
+            "url": "https://www.investing.com/news/stock-market-news/ftx-founder-bankmanfried-sued-in-us-court-over-yieldbearing-crypto-accounts-2945904",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0057",
         "relation": "AFTERMATH",
         "notes": null
@@ -2810,12 +2850,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "SOURCE_GAP_CONFIRMED",
-        "exact_date": "2022-02",
-        "summary": "Pak and Julian Assange's Censored project is a real and potentially important NFT/activism event, but this row still lacks a sufficiently durable first-party source in the archive.",
-        "significance": "Keep it out of scoring until the launch/auction date and proceeds are anchored to a primary or strong contemporary record.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-02-07 to 2022-02-09",
+        "summary": "Digital artist Pak and Julian Assange launched the Censored NFT project. Its one-of-one Clock work was bought by AssangeDAO for 16,593 ETH, while the open-edition Censored sale raised additional funds.",
+        "significance": "The project merged NFT art, DAO crowdfunding, cypherpunk politics and legal-defense fundraising in one of the largest crypto-art fundraisers of the period.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — NFT auction raises $52m for Assange",
+            "url": "https://www.theguardian.com/media/2022/feb/09/julian-assange-cryptocurrency-fundraiser-nfts",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Euronews / Reuters — digital art auction raises more than $52m",
+            "url": "https://www.euronews.com/2022/02/09/us-britain-assange-nft",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3031,15 +3082,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "state": "CULTURE_CONTEXT_VERIFIED",
         "exact_date": "2022",
-        "summary": "'Few understand' post-boom meme is a genuine 2022-era story, but the current row is not yet defined as one uniquely dated, source-anchored historical event.",
-        "significance": "Retain as book/culture context; exclude from card scoring unless a precise primary-source moment is selected.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "'Few understand' was established crypto jargon by 2022 and became a prominent ironic anti-crypto meme during the crash, mocking claims that critics simply failed to grasp the technology.",
+        "significance": "It captures how crypto's own rhetorical language was recycled by skeptics during the bear market.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Buttcoin and the 'Few understand' meme",
+            "url": "https://www.theguardian.com/technology/2022/sep/09/bitcoin-buttcoin-online-community-praying-for-cryptos-death",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Culture/context row; the absolute phrase origin predates 2022 and is not claimed here."
       }
     },
     {
@@ -3054,12 +3111,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "EDITORIAL_CONTEXT_REVIEWED",
-        "exact_date": "2022",
-        "summary": "Vitalik ETHDenver culture moment is a genuine 2022-era story, but the current row is not yet defined as one uniquely dated, source-anchored historical event.",
-        "significance": "Retain as book/culture context; exclude from card scoring unless a precise primary-source moment is selected.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_CULTURE_CONTEXT",
+        "exact_date": "2022-02-18",
+        "summary": "Vitalik Buterin spoke at ETHDenver 2022 in Denver, an event attended by more than 15,000 crypto and Ethereum participants; images of his informal appearance became widely circulated crypto-culture material.",
+        "significance": "A useful human/culture snapshot of Ethereum's founder and the scale of its developer community at the 2022 market peak.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Getty Images / Bloomberg — Vitalik Buterin at ETHDenver",
+            "url": "https://www.gettyimages.co.uk/detail/news-photo/vitalik-buterin-co-founder-of-ethereum-speaks-during-news-photo/1238627060",
+            "type": "CONTEMPORARY_PHOTO_RECORD"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3134,12 +3197,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2022-11",
-        "summary": "Bankman-Fried posted public apologies and explanations as FTX failed.",
-        "significance": "The social-media aftermath is culturally relevant but should only become a separate card if tied to one precisely archived post.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_LORE_SUBEVENT",
+        "exact_date": "2022-11-10",
+        "summary": "As FTX unraveled, Sam Bankman-Fried posted a long public thread beginning with an apology and saying he had 'fucked up' and should have done better.",
+        "significance": "The thread became a defining real-time artifact of the exchange's collapse and the sudden reversal of SBF's public image.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Thread Reader archive — SBF November 10 apology thread",
+            "url": "https://threadreaderapp.com/user/SBF_FTX",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Fast Company — SBF issues mea culpa for FTX implosion",
+            "url": "https://www.fastcompany.com/90807522/ftx-sam-bankman-fried-insolvency-rumors",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0057",
         "relation": "LORE_CONTEXT",
         "notes": null
@@ -3370,15 +3444,26 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2022",
-        "summary": "A large ecosystem of DeFi and crypto conferences reflected the industry's institutional and cultural expansion before and during the bear market.",
-        "significance": "This is a broad industry trend, not a card-ready event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2022-05-17 to 2022-05-19",
+        "summary": "Blockworks held the inaugural Permissionless conference in Palm Beach with more than 5,000 attendees focused on DeFi, DAOs, NFTs and Web3.",
+        "significance": "The event illustrates how large the DeFi conference ecosystem had become just before the major 2022 collapses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockworks — Permissionless origins",
+            "url": "https://blockworks.com/permissionless",
+            "type": "ORGANIZER_PRIMARY"
+          },
+          {
+            "title": "Blockworks — Permissionless 2022 event listing",
+            "url": "https://blockworks.com/events",
+            "type": "ORGANIZER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Editorial/context event rather than a core protocol milestone."
       }
     },
     {
@@ -3393,15 +3478,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_RETROSPECTIVELY",
         "exact_date": "2022",
-        "summary": "Wallet-drainer phishing became a recurring threat to NFT users through compromised social accounts, Discord servers and malicious signing prompts.",
-        "significance": "Important security context, but use a named major theft/campaign for a card rather than this trend row.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Wallet-drainer phishing became an increasingly important Web3 theft method, with attackers using fake NFT/crypto sites and compromised social accounts to trick users into approving malicious wallet transactions.",
+        "significance": "The pattern marked a shift from exploiting smart contracts to exploiting wallet UX and user approvals at scale.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Chainalysis — Understanding Crypto Drainers",
+            "url": "https://www.chainalysis.com/blog/crypto-drainers/",
+            "type": "BLOCKCHAIN_ANALYTICS"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Source is retrospective (2024) but specifically documents rising drainer activity and 2022-2023 laundering behavior."
       }
     },
     {
@@ -3799,10 +3890,16 @@
       "research": {
         "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2022-08-01",
-        "summary": "Nomad's failure exposed the danger of optimistic bridge/message verification assumptions.",
-        "significance": "Security-design context under the canonical Nomad exploit.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "The Nomad bridge's optimistic-root validation design and initialization error allowed attackers to replay/copy valid-looking messages and drain funds.",
+        "significance": "Security-design context of the canonical Nomad exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nomad — Nomad Bridge Hack: Root Cause Analysis",
+            "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-7f72a327405e",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0125",
         "relation": "CONTEXT",
         "notes": null
@@ -3990,15 +4087,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTAGION_CLAIM_NEEDS_NARROWING",
-        "exact_date": "2022",
-        "summary": "Terra's collapse contributed to stress across leveraged crypto funds and lenders, but the raw row specifically linking Terra losses to both Celsius and 3AC is too broad to stand without entity-by-entity evidence.",
-        "significance": "Keep as 2022 contagion context; score only the separately verified 3AC, Celsius and Voyager milestones.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_NARROWED_CLAIM",
+        "exact_date": "2022-05 to 2022-06",
+        "summary": "Three Arrows Capital suffered major losses from its LUNA investment, while later court records show Celsius also lost about $30 million reducing UST exposure during the May collapse. The broader market shock then fed into a June credit/liquidity crisis.",
+        "significance": "Terra was a major catalyst in the interconnected 2022 crypto-credit unwind, but the exposures and failure mechanisms differed by firm.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bloomberg — Three Arrows founders say Terra contributed to fund blowup",
+            "url": "https://www.bloomberg.com/features/2022-the-crypto-story/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "New York court record — Celsius exposure during Terra/Luna crash",
+            "url": "https://www.nycourts.gov/reporter/3dseries/2023/2023_50826.htm",
+            "type": "COURT_RECORD"
+          }
+        ],
         "canonical_event_id": null,
-        "relation": null,
-        "notes": null
+        "relation": "CONTAGION",
+        "notes": "Rewritten to avoid implying identical direct Terra losses caused both firms' failures."
       }
     },
     {
@@ -4138,10 +4246,16 @@
       "research": {
         "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2022-11-28",
-        "summary": "This row describes the same FTX-driven BlockFi bankruptcy represented by LORE-EVT-0126.",
-        "significance": "Canonicalized to BlockFi bankruptcy.",
+        "summary": "BlockFi filed for Chapter 11 after halting withdrawals following FTX's collapse and disclosing substantial exposure to the FTX/Alameda complex.",
+        "significance": "Contagion context for the canonical BlockFi bankruptcy event.",
         "source_confidence": "HIGH",
-        "sources": [],
+        "sources": [
+          {
+            "title": "BlockFi restructuring case portal",
+            "url": "https://restructuring.ra.kroll.com/blockfi/",
+            "type": "COURT_CASE_PORTAL"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0126",
         "relation": "CONTAGION",
         "notes": null
@@ -4189,10 +4303,16 @@
       "research": {
         "state": "DUPLICATE",
         "exact_date": "2022-11-16",
-        "summary": "This is the same Genesis lending withdrawal suspension as LORE-EVT-0518.",
-        "significance": "Canonicalized to LORE-EVT-0518.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [],
+        "summary": "Genesis Global Capital suspended redemptions and new loan originations after abnormal withdrawal requests following FTX's failure.",
+        "significance": "This is the same withdrawal-suspension event already represented by the canonical Genesis row.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Genesis — November 2022 lending update",
+            "url": "https://twitter.com/GenesisTrading/status/1592867203818168320",
+            "type": "COMPANY_PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0518",
         "relation": "DUPLICATE",
         "notes": null
@@ -4394,5 +4514,7 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
