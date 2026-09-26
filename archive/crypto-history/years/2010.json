@@ -417,20 +417,31 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2009-11 onward",
+        "summary": "Satoshi announced a new Bitcoin forum in November 2009, replacing the old SourceForge board; through 2010 it became the main public venue for early software releases, mining, commerce and community experiments.",
+        "significance": "The forum preserved much of Bitcoin's earliest social history, including mining breakthroughs, Pizza Day and protocol discussion.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — Welcome to the new Bitcoin forum",
+            "url": "https://bitcointalk.org/index.php?topic=5.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk early forum history",
+            "url": "https://bitcointalk.org/index.php?topic=2905330.0",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "The forum began in November 2009; this 2010 row is community-growth context rather than launch."
       }
     },
     {
       "id": "LORE-EVT-0650",
-      "date": "2010",
+      "date": "2009-12-30",
       "title": "First known Bitcoin difficulty jump reflects growing mining participation",
       "branch": [
         "BITCOIN",
@@ -439,15 +450,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2009-12-30",
+        "summary": "Bitcoin performed its first automatic proof-of-work difficulty adjustment on 30 December 2009, according to Satoshi's later forum post.",
+        "significance": "The adjustment demonstrated that Bitcoin's feedback mechanism for maintaining approximate block timing worked automatically as mining conditions changed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — Satoshi discusses the first automatic difficulty adjustment",
+            "url": "https://bitcointalk.org/index.php?topic=43.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Originally captured under 2010; corrected to 30 December 2009."
       }
     },
     {
@@ -518,12 +535,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-10-18",
+        "summary": "The #bitcoin-otc IRC marketplace was announced in October 2010 with an order book for users to arrange over-the-counter Bitcoin trades directly with one another.",
+        "significance": "It was important early market infrastructure before mature exchanges, and helped build reputation-based peer-to-peer trading culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — Announcing #bitcoin-otc",
+            "url": "https://bitcointalk.org/index.php?topic=1491.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Satoshi Nakamoto Institute — On the Origins of Bitcoin",
+            "url": "https://nakamotoinstitute.org/library/on-the-origins-of-bitcoin/",
+            "type": "ARCHIVAL_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -540,16 +568,24 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2010-06-25 onward",
+        "summary": "Early users were already asking how to back up Bitcoin's wallet.dat file in June 2010; Gavin Andresen advised copying the file to a safe location while Bitcoin was shut down.",
+        "significance": "The discussion captures the birth of crypto self-custody practice: users, not banks, were responsible for protecting the keys controlling their money.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — How to Backup Wallet",
+            "url": "https://bitcointalk.org/index.php?topic=213.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
