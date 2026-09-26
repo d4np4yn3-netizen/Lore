@@ -686,12 +686,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "EOS block producers froze selected accounts shortly after mainnet launch, prompting debate over governance and decentralization.",
-        "significance": "Potentially strong governance LORE, but the exact freeze orders, dates and account counts need primary EOS governance records.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-06-19",
+        "summary": "The EOS Core Arbitration Forum issued its first arbitrator order directing the freeze of seven accounts reported stolen shortly after EOS mainnet activation.",
+        "significance": "The order became an early and highly visible test of EOS's constitution/arbitration governance model, showing that block producers could enforce human arbitration decisions on-chain.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EOS Authority — ECAF Orders",
+            "url": "https://eosauthority.com/ecaf-orders",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "ECAF Arbitrator Order 2018-06-19-AO-001 (indexed by EOS Authority)",
+            "url": "https://eoscorearbitration.io/wp-content/uploads/2018/07/ECAF_Arbitrator_Order_2018-06-19-AO-001.pdf",
+            "type": "GOVERNANCE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1040,15 +1051,26 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2018",
+        "summary": "Steem's delegated proof-of-stake system used stake-weighted voting to select 20 elected witnesses plus one rotating witness, making governance and concentration of voting power recurring community issues.",
+        "significance": "This is useful governance context for the later Steem/Tron conflict, but it is not one discrete 2018 event and should not be scored as a standalone card.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Steem Whitepaper (2018 edition)",
+            "url": "https://steem.com/wp-content/uploads/2018/10/steem-whitepaper.pdf",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Steem Bluepaper",
+            "url": "https://steem.com/steem-bluepaper.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as context; the 2020 Steem governance takeover/fork is the stronger discrete event."
       }
     },
     {
@@ -1091,21 +1113,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "Bitmain's Bitcoin Cash holdings became a topic of concern during the bear market.",
-        "significance": "Potential mining/corporate LORE but requires the IPO prospectus or audited figures before publication.",
-        "source_confidence": "MEDIUM",
+        "state": "VERIFIED_WITH_DOCUMENT_ANALYSIS",
+        "exact_date": "2018-03-31",
+        "summary": "Analysis of Bitmain's pre-IPO financial documents showed that by 31 March 2018 the company held more than one million BCH, with a reported cost basis of roughly $887.5 million for the BCH position.",
+        "significance": "The position illustrated how deeply the world's dominant mining-hardware company had become financially exposed to the Bitcoin Cash ecosystem during the fork wars.",
+        "source_confidence": "MEDIUM_HIGH",
         "sources": [
           {
-            "title": "TechCrunch — Bitmain Hong Kong IPO filing",
-            "url": "https://techcrunch.com/2018/09/26/bitmain-hong-kong-ipo/",
-            "type": "CONTEMPORARY_SECONDARY"
+            "title": "BitMEX Research — Unboxing Bitmain's IPO",
+            "url": "https://www.bitmex.com/blog/unboxing-bitmain",
+            "type": "RESEARCH_SECONDARY"
+          },
+          {
+            "title": "BitMEX Research PDF — Unboxing Bitmain's IPO",
+            "url": "https://blog.bitmex.com/wp-content/uploads/2018/08/2018.08.30-Unboxing-Bitmains-IPO.pdf",
+            "type": "RESEARCH_SECONDARY"
           }
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Figures are derived from Bitmain pre-IPO documents as analyzed by BitMEX Research; retain attribution."
       }
     },
     {
@@ -1454,15 +1481,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_YEAR",
         "exact_date": "2018",
-        "summary": "MetaMask passed an early major user milestone during Ethereum's expansion.",
-        "significance": "A concrete user-count announcement could be useful adoption history, but the current row needs a first-party dated source.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "By 2018 Consensys reported that MetaMask had reached more than one million users/installations as Ethereum dapp usage expanded.",
+        "significance": "Crossing one million users showed that a browser wallet could become a mainstream gateway to Ethereum applications before the DeFi and NFT booms.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Consensys — The State of the Ethereum Network 2018",
+            "url": "https://consensys.io/blog/the-state-of-the-ethereum-network-2018",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Consensys — Why Infura Is the Secret Weapon of Ethereum Infrastructure",
+            "url": "https://consensys.io/blog/why-infura-is-the-secret-weapon-of-ethereum-infrastructure",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use 'users/installations' cautiously because contemporaneous Consensys wording varies by article."
       }
     },
     {
@@ -1476,12 +1514,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "Kyber Network became an early on-chain liquidity protocol.",
-        "significance": "Needs exact mainnet launch and primary project source before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2018-02-11",
+        "summary": "Kyber Network began its mainnet pilot on Ethereum on 11 February 2018, initially limiting access to whitelisted KGT contributors before broader rollout.",
+        "significance": "Kyber was one of the earliest on-chain liquidity protocols and helped establish token-swap liquidity as reusable smart-contract infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kyber Network — Mainnet Pilot Launch",
+            "url": "https://medium.com/kybernetwork/announcement-kyber-network-mainnet-pilot-launch-e718ef9839db",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1604,15 +1648,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2018",
-        "summary": "Pincoin and iFan collapsed in Vietnam amid allegations of a very large token-investment fraud.",
-        "significance": "Potential major scam-history entry, but exact losses, entities and government findings need primary/local enforcement sources.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_ALLEGATION_QUALIFIER",
+        "exact_date": "2018-04-08",
+        "summary": "Dozens of investors gathered outside Modern Tech's reported Ho Chi Minh City offices on 8 April 2018, alleging that the iFan and Pincoin schemes had trapped or taken investments said by complainants to total about VND15 trillion; local authorities opened an investigation.",
+        "significance": "The episode became one of Southeast Asia's largest and most visible ICO-era alleged fraud scandals, illustrating how token fundraising and pyramid-style promised returns spread beyond global crypto hubs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nghệ An Police portal — iFan/Pincoin investigation report",
+            "url": "https://congan.nghean.gov.vn/phong-su/201804/ifan-pincoin-bi-to-lua-15000-ty-dong-ven-man-lien-minh-ma-quy-789161/",
+            "type": "GOVERNMENT_MEDIA"
+          },
+          {
+            "title": "VnExpress — Investors allege VND15tn iFan losses",
+            "url": "https://vnexpress.net/nha-dau-tu-vao-tien-ao-ifan-keu-bi-lua-15-000-ty-dong-3734520.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "VnExpress — Ho Chi Minh City orders investigation",
+            "url": "https://vnexpress.net/tp-hcm-dieu-tra-nghi-van-lua-15-000-ty-mua-tien-ao-ifan-3735137.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "The VND15tn / ~$650m figure was an allegation/estimate reported by investors, not a settled audited loss. Preserve that qualifier."
       }
     },
     {
@@ -1749,5 +1809,8 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "research_status": "YEAR_TRIAGED_AND_SOURCED",
+  "completed_research_review": "2026-09-26",
+  "score_status": "READY_FOR_EDITORIAL_SCORING"
 }
