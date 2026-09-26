@@ -237,6 +237,127 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "key": "2024-bitcoin-new-ath-before-halving",
+      "date": "2024-03-05",
+      "title": "Bitcoin breaks its prior all-time high before the halving",
+      "state": "VERIFIED_WITH_SOURCE_PRICE",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MARKETS",
+        "INSTITUTIONS"
+      ],
+      "summary": "Bitcoin reached a record $69,202 on the Reuters-referenced market data on 5 March 2024, exceeding the November 2021 peak before the fourth halving had occurred.",
+      "significance": "It was the first Bitcoin cycle in which a new nominal all-time high arrived before the corresponding halving, amid strong demand through newly launched US spot ETPs.",
+      "sources": [
+        {
+          "title": "Reuters — Bitcoin rises to record high",
+          "url": "https://www.reuters.com/technology/view-bitcoin-rises-record-high-2024-03-05/",
+          "type": "HIGH_QUALITY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Use source-specific price because spot highs vary by venue/index."
+    },
+    {
+      "key": "2024-eigenlayer-mainnet",
+      "date": "2024-04-09",
+      "title": "EigenLayer and EigenDA launch on mainnet",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "summary": "Eigen Labs launched EigenLayer's operator/AVS mainnet functionality and EigenDA on 9 April 2024 after restaking had already attracted more than 4.1 million ETH.",
+      "significance": "EigenLayer turned Ethereum restaking into a major new crypto security market and launched the shared-security/Actively Validated Services narrative.",
+      "sources": [
+        {
+          "title": "Eigen Labs — Mainnet Launch Announcement: EigenLayer ∞ EigenDA",
+          "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2024-eigen-airdrop",
+      "date": "2024-04-29",
+      "title": "Eigen Foundation announces EIGEN token and stakedrop",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "ETHEREUM",
+        "DEFI",
+        "DAO"
+      ],
+      "summary": "The Eigen Foundation announced the EIGEN token and Season 1 'stakedrop,' initially making EIGEN non-transferable and allocating tokens to ecosystem participants.",
+      "significance": "The distribution became one of the highest-profile examples of the points-and-airdrop model surrounding restaking in 2024.",
+      "sources": [
+        {
+          "title": "Eigen Foundation — EIGEN token and Season 1 stakedrop",
+          "url": "https://blog.eigenfoundation.org/announcement/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2024-eigenlayer-mainnet",
+        "type": "AFTERMATH"
+      }
+    },
+    {
+      "key": "2024-wazirx-hack",
+      "date": "2024-07-18",
+      "title": "WazirX loses more than $230 million in multisig-wallet cyberattack",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "HACKS",
+        "SECURITY"
+      ],
+      "summary": "WazirX reported a cyberattack against a multisig wallet using third-party custody infrastructure, with stolen digital assets exceeding $230 million. Deposits and withdrawals were halted as the exchange investigated and pursued recovery.",
+      "significance": "The attack became one of the largest exchange thefts of 2024 and a major crisis for India's crypto market.",
+      "sources": [
+        {
+          "title": "WazirX — Preliminary Report",
+          "url": "https://wazirx.com/blog/preliminary-report-cyber-attack-on-wazirx-multisig-wallet/",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "WazirX — day-wise incident report",
+          "url": "https://wazirx.com/blog/wazirx-cyber-attack-day-wise-report/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2024-germany-seized-bitcoin-sale",
+      "date": "2024-06-19 to 2024-07-12",
+      "title": "Saxony completes emergency sale of nearly 50,000 seized BTC",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "summary": "The Dresden Public Prosecutor General's Office said authorities sold approximately 49,858 BTC seized in the Movie2k case between 19 June and 12 July 2024, provisionally securing €2.6397 billion.",
+      "significance": "The sale became one of the largest government disposals of Bitcoin and a highly visible example of sovereign law-enforcement holdings entering the market.",
+      "sources": [
+        {
+          "title": "Generalstaatsanwaltschaft Dresden — emergency sale completed",
+          "url": "https://www.justiz.sachsen.de/gensta/pressemitteilungen-2024-4537.html",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
     }
-  ]
+  ],
+  "updated": "2026-09-26"
 }
