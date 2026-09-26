@@ -5,6 +5,42 @@
   "purpose": "Canonical evidence file for 2018.",
   "records": [
     {
+      "date": "2018",
+      "title": "Axie Infinity begins its blockchain-game economy",
+      "status": "VERIFIED_WITH_SEQUENCE",
+      "tier": "MAJOR",
+      "summary": "Axie began its Origin Axie presale in February, opened its marketplace in March and launched early battle systems later in 2018.",
+      "significance": "Axie was an early attempt to combine tradable NFTs, breeding and a game economy years before play-to-earn exploded.",
+      "sources": [
+        {
+          "title": "Axie Infinity — roadmap",
+          "url": "https://whitepaper.axieinfinity.com/roadmap",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0727",
+      "date": "2018",
+      "title": "Steem demonstrates stake-weighted witness governance",
+      "status": "CONTEXT_VERIFIED",
+      "tier": "DEEP_CUT",
+      "summary": "Steem's delegated-proof-of-stake governance used stake-weighted voting to elect 21 block-producing witnesses, with community reporting in 2018 tracking participation in witness voting.",
+      "significance": "Steem was an early large-scale experiment in token-holder governance and elected block producers, foreshadowing later disputes over stake concentration and delegated governance.",
+      "sources": [
+        {
+          "title": "Steem Whitepaper — DPoS witness governance",
+          "url": "https://github.com/steemit/whitepaper/blob/master/whitepaper.md",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Steem Developer Docs — witness voting and proxies",
+          "url": "https://developers.steem.io/apidefinitions/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
       "date": "2018-01-16",
       "title": "BitConnect collapses",
       "status": "VERIFIED",
@@ -229,22 +265,7 @@
           "type": "GOVERNMENT"
         }
       ]
-    },
-    {
-      "date": "2018",
-      "title": "Axie Infinity begins its blockchain-game economy",
-      "status": "VERIFIED_WITH_SEQUENCE",
-      "tier": "MAJOR",
-      "summary": "Axie began its Origin Axie presale in February, opened its marketplace in March and launched early battle systems later in 2018.",
-      "significance": "Axie was an early attempt to combine tradable NFTs, breeding and a game economy years before play-to-earn exploded.",
-      "sources": [
-        {
-          "title": "Axie Infinity — roadmap",
-          "url": "https://whitepaper.axieinfinity.com/roadmap",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
     }
   ],
-  "record_count": 16
+  "record_count": 17
 }
