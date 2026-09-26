@@ -138,15 +138,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2016",
-        "summary": "Parity and other Ethereum clients/infrastructure expanded as Ethereum matured.",
-        "significance": "Too broad for card scoring; identify a specific Parity release, wallet launch, or later hack instead.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Parity and other Ethereum clients and infrastructure expanded as Ethereum matured.",
+        "significance": "Specific Parity wallet hacks are stronger discrete events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -339,12 +339,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "The city of Zug in Switzerland began accepting small Bitcoin payments for selected municipal services during its 'Crypto Valley' experiment.",
-        "significance": "Strong government-adoption candidate, but exact implementation date and official city source should be added before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2016-06",
+        "summary": "The city of Zug began allowing residents to pay selected municipal fees of up to CHF 200 in Bitcoin in June 2016.",
+        "significance": "An early government-adoption symbol for Switzerland's Crypto Valley.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "SRF — Zug municipal Bitcoin payments",
+            "url": "https://www.srf.ch/news/zuerich-schaffhausen-die-parkbusse-mit-bitcoins-begleichen",
+            "type": "PUBLIC_BROADCASTER"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -361,12 +367,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Altcoin exchange Cryptsy collapsed amid allegations of missing funds and later litigation.",
-        "significance": "Potentially important exchange-disaster event; needs court/receiver documentation and exact closure date.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_COURT_RECORD",
+        "exact_date": "2016-04-04",
+        "summary": "A US federal court appointed a receiver over Cryptsy after the exchange had closed and customers alleged they could not access their cryptocurrency.",
+        "significance": "A defining early altcoin-exchange insolvency and customer-asset recovery case.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cryptsy settlement FAQ",
+            "url": "https://cryptsysettlement.com/frequently-asked-questions.php",
+            "type": "COURT_SETTLEMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -676,15 +688,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2016",
-        "summary": "Bitcoin Unlimited gained support among some large-block advocates during the scaling conflict.",
-        "significance": "Political/software trend rather than one discrete event; replace with a release, mining-support threshold or conference agreement before scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Bitcoin Unlimited grew among large-block supporters during the scaling conflict.",
+        "significance": "UASF, BCH and SegWit2x are stronger event nodes.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -811,15 +823,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2016",
-        "summary": "Microsoft Azure expanded blockchain-as-a-service experiments and partnerships with enterprise DLT providers.",
-        "significance": "Institutional technology trend, but requires a specific product/partnership milestone if used as a standalone event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Microsoft Azure expanded blockchain-as-a-service experimentation with enterprise DLT vendors.",
+        "significance": "Enterprise-blockchain trend rather than one specific milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -862,12 +874,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Bitmain's Antminer S9 became an iconic and highly efficient SHA-256 ASIC generation during 2016.",
-        "significance": "Major mining-hardware candidate; needs manufacturer release announcement/date and efficiency specifications before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-05-31",
+        "summary": "Bitmain announced the Antminer S9, the first commercially available Bitcoin miner based on a 16nm process.",
+        "significance": "The S9 became one of the most iconic machines of the industrial Bitcoin-mining era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitmain — Antminer S9 announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1493580.0",
+            "type": "COMPANY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -884,15 +902,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Craig Wright publicly claimed to be Satoshi Nakamoto in 2016, generating intense media coverage and skepticism.",
-        "significance": "This is major Satoshi lore, but the archive should use a direct claim plus reputable contemporaneous verification/skepticism sources before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AS_DISPUTED_CLAIM",
+        "exact_date": "2016-05",
+        "summary": "Craig Wright publicly claimed in May 2016 to be Satoshi Nakamoto; the claimed proof did not establish the assertion and was widely disputed.",
+        "significance": "The most prominent Satoshi-identity controversy of the era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Forbes retrospective — Wright claim",
+            "url": "https://www.forbes.com/sites/justinoconnell/2020/12/30/2010s-in-bitcoin-the-year-2016/",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Always describe as Wright's claim, not fact."
       }
     },
     {
@@ -906,12 +930,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Gavin Andresen publicly said he believed a private signing demonstration supported Wright's Satoshi claim; the evidence was not independently reproducible.",
-        "significance": "Needs Andresen's direct contemporaneous statement/source before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_LATER_CORRECTION",
+        "exact_date": "2016-05",
+        "summary": "Gavin Andresen publicly said he believed a private signing demonstration supported Wright's Satoshi claim; he later said trusting Wright had been a mistake.",
+        "significance": "A former Bitcoin lead maintainer endorsing the claim dramatically intensified the controversy.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Institute — Gavin Andresen profile",
+            "url": "https://bitcoin-institute.pages.dev/participants/gavin-andresen/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -928,12 +958,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Gavin Andresen's Bitcoin Core commit access was revoked amid the Craig Wright/Satoshi controversy and concerns around account/security circumstances.",
-        "significance": "Important governance story but requires Bitcoin Core/GitHub or maintainer-source documentation.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_ARCHIVAL_EVIDENCE",
+        "exact_date": "2016-05-02",
+        "summary": "Gavin Andresen's Bitcoin Core commit access was revoked amid concern surrounding his endorsement of Craig Wright and account-security risk.",
+        "significance": "A striking Bitcoin governance and maintainer-security episode.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Core commit-access history",
+            "url": "https://bitcointalk.org/index.php?topic=1774750.msg25280143",
+            "type": "COMMUNITY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -971,12 +1007,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_SECONDARY",
         "exact_date": "2016",
-        "summary": "BitConnect launched its token/lending ecosystem in the 2016 period before exploding in popularity in 2017.",
-        "significance": "Important precursor to the 2018 collapse, but exact launch and lending-platform dates need primary/contemporary documentation.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "BitConnect launched its cryptocurrency/lending ecosystem in 2016 before explosive growth in 2017 and collapse in January 2018.",
+        "significance": "The precursor to one of crypto's most notorious lending/Ponzi scandals.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "BitConnect historical summary",
+            "url": "https://en.wikipedia.org/wiki/Bitconnect",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -984,7 +1026,7 @@
     },
     {
       "id": "LORE-EVT-1068",
-      "date": "2016",
+      "date": "2012-02-11",
       "title": "BIP32 and hierarchical deterministic wallet practices become mainstream",
       "branch": [
         "SECURITY",
@@ -993,12 +1035,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": "2012 onward",
-        "summary": "BIP32 hierarchical deterministic wallets were proposed years before 2016, and the current 'become mainstream' wording is a trend rather than an event.",
-        "significance": "Replace with the BIP32 proposal/implementation milestone or a specific wallet adoption event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-02-11",
+        "summary": "BIP32, Hierarchical Deterministic Wallets, was assigned on 11 February 2012, not 2016.",
+        "significance": "HD wallets became foundational wallet infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BIP32",
+            "url": "https://bitcoin.org/bip/32/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1043,15 +1091,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2016",
-        "summary": "Multisignature smart-contract wallets increasingly became protocol and treasury infrastructure on Ethereum.",
-        "significance": "Trend, not discrete event. Replace with a specific wallet launch or major multisig incident.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Multisignature smart-contract wallets increasingly became standard Ethereum treasury infrastructure.",
+        "significance": "Gnosis Safe and specific multisig incidents are stronger discrete events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
