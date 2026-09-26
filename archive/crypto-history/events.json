@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-26",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. All captured 2025 candidates are now researched and classified. The archive is researched/triaged through 2025; remaining historical cleanup is limited to earlier rows already marked for narrower evidence, not silent UNRESEARCHED modern records.",
+  "status_note": "All 1,229 discovery records now carry an explicit research classification. Year files are the working evidence layer; the aggregate master is synchronized for compatibility. Next phase: canonical reconciliation/deduplication and card scoring.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -5819,12 +5819,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "1996",
+        "summary": "e-gold began offering an internet-based digital currency backed by precious metals in 1996.",
+        "significance": "e-gold was one of the earliest prominent internet digital-value systems and an important centralized predecessor/context for later cryptocurrency, while differing fundamentally from decentralized crypto networks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — e-gold indictment background",
+            "url": "https://www.justice.gov/archive/criminal/ceos/pressreleases/downloads/DC%20egold%20indictment.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6430,7 +6436,7 @@
     },
     {
       "id": "LORE-EVT-0216",
-      "date": "2017",
+      "date": "2017-06-26",
       "title": "EOS begins its year-long token sale",
       "branch": [
         "ICO",
@@ -6439,12 +6445,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2017-06-26 to 2018-06-01",
+        "summary": "Block.one conducted the EOS ERC-20 token sale from 26 June 2017 through 1 June 2018, distributing 900 million public-sale tokens through an approximately year-long ICO.",
+        "significance": "EOS became one of the largest and longest-running token sales of the ICO era and a major example in the later US securities-enforcement response to token fundraising.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Block.one administrative order",
+            "url": "https://www.sec.gov/files/litigation/admin/2019/33-10714.pdf",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — Block.one $24m settlement",
+            "url": "https://www.sec.gov/newsroom/press-releases/2019-202",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -12360,8 +12377,8 @@
     },
     {
       "id": "LORE-EVT-0423",
-      "date": "2010",
-      "title": "BitcoinTalk forum becomes the central early community hub",
+      "date": "2009-11-22",
+      "title": "Satoshi opens the new Bitcoin forum",
       "branch": [
         "BITCOIN",
         "CULTURE"
@@ -12369,12 +12386,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-11-22T18:04:28Z",
+        "summary": "Satoshi posted 'Welcome to the new Bitcoin forum!' on 22 November 2009, pointing users to the older SourceForge forum and beginning the forum archive later known as BitcoinTalk.",
+        "significance": "The forum became the central surviving public record of much of Bitcoin's formative technical discussion, commerce, culture and Satoshi-era community activity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi Nakamoto Institute — Welcome to the new Bitcoin forum",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16464,15 +16487,26 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2014",
+        "summary": "Namecoin continued developing non-currency naming and identity applications, including .bit domains and identity namespaces such as id/ used by NameID.",
+        "significance": "Namecoin showed very early that a blockchain could secure names and identities, not just monetary balances.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Namecoin FAQ — namespaces, .bit and identity",
+            "url": "https://www.namecoin.org/docs/faq/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Namecoin team — NameID and identity applications",
+            "url": "https://www.namecoin.org/team/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/technology lineage, not one single 2014 launch event."
       }
     },
     {
@@ -18816,8 +18850,8 @@
     },
     {
       "id": "LORE-EVT-0650",
-      "date": "2010",
-      "title": "First known Bitcoin difficulty jump reflects growing mining participation",
+      "date": "2009-12-30",
+      "title": "Bitcoin difficulty increases for the first time",
       "branch": [
         "BITCOIN",
         "MINING"
@@ -18825,12 +18859,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2009-12-30T06:11:04Z",
+        "summary": "At block 32,256, Bitcoin's mining difficulty increased from 1.00 to about 1.18 for the first time.",
+        "significance": "The first upward retarget was direct on-chain evidence that mining participation had grown enough for Bitcoin's automatic difficulty mechanism to raise the work requirement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockchain.com — Bitcoin block 32,256",
+            "url": "https://www.blockchain.com/en/explorer/blocks/btc/32256",
+            "type": "ONCHAIN_REFERENCE"
+          },
+          {
+            "title": "Satoshi Nakamoto Institute — Proof-of-work difficulty increasing",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/43/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -18904,12 +18949,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-10-18",
+        "summary": "The #bitcoin-otc marketplace was announced on Freenode IRC on 18 October 2010, with an order book for users to negotiate Bitcoin trades directly with one another.",
+        "significance": "Bitcoin-OTC was an important bridge between forum-era peer-to-peer trading and more formal exchanges, and helped establish reputation-based OTC market culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — Announcing #bitcoin-otc",
+            "url": "https://bitcointalk.org/index.php?topic=1491.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -18926,15 +18977,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_PRIMARY_ARCHIVE",
+        "exact_date": "2010-06 to 2010-09",
+        "summary": "Early Bitcoin users and developers documented wallet.dat backup practices in 2010, including Gavin Andresen's advice to copy wallet.dat securely and later discussion of how newly generated keys could make old backups incomplete.",
+        "significance": "These discussions capture the birth of crypto self-custody operational practice: users themselves became responsible for backing up the private keys controlling their money.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — How to Backup Wallet",
+            "url": "https://bitcointalk.org/index.php?topic=213.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk — When to backup / What to backup",
+            "url": "https://bitcointalk.org/index.php?topic=1035.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk — wallet.dat backups may lose transactions",
+            "url": "https://bitcointalk.org/index.php?topic=1300.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context row spanning several documented 2010 discussions rather than one product launch."
       }
     },
     {
@@ -18972,8 +19039,8 @@
     },
     {
       "id": "LORE-EVT-0656",
-      "date": "2011",
-      "title": "Liberty Reserve and other centralized digital currencies remain common comparators to Bitcoin",
+      "date": "2006",
+      "title": "Liberty Reserve emerges as a centralized digital-currency system",
       "branch": [
         "ORIGINS",
         "GOVERNMENTS"
@@ -18981,12 +19048,23 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2006",
+        "summary": "US Justice Department records state that Liberty Reserve was incorporated in Costa Rica in 2006 and operated an internet digital-currency/payment system that later became widely used by cybercriminals.",
+        "significance": "Liberty Reserve is useful pre-Bitcoin context for earlier centralized internet currencies and for understanding why decentralization, custody and law-enforcement resistance became important design questions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Liberty Reserve co-founder plea background",
+            "url": "https://www.justice.gov/archives/opa/pr/co-founder-liberty-reserve-pleads-guilty-money-laundering-manhattan-federal-court",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US DOJ — Liberty Reserve founder extradition background",
+            "url": "https://www.justice.gov/usao-sdny/pr/founder-liberty-reserve-arthur-budovsky-extradited-spain-face-charges-manhattan-federal",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -19229,8 +19307,8 @@
     },
     {
       "id": "LORE-EVT-0665",
-      "date": "2013",
-      "title": "BitInstant founder Charlie Shrem becomes a prominent Bitcoin entrepreneur",
+      "date": "2013-05-17",
+      "title": "BitInstant raises $1.5m led by Winklevoss Capital",
       "branch": [
         "PEOPLE",
         "BITCOIN"
@@ -19238,15 +19316,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_2013_MILESTONE",
+        "exact_date": "2013-05",
+        "summary": "By May 2013, Charlie Shrem was CEO of BitInstant, vice chairman of the Bitcoin Foundation and a highly visible speaker in the early Bitcoin startup scene. BitInstant was reported to be processing roughly 30% of money moving into and out of Bitcoin.",
+        "significance": "Shrem became one of the first recognizable Bitcoin entrepreneurs, making his later arrest and conviction especially significant to the industry's early regulatory history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — BitInstant raises $1.5M, May 2013",
+            "url": "https://techcrunch.com/2013/05/17/with-1-5m-led-by-winklevoss-capital-bitinstant-aims-to-be-the-go-to-site-to-buy-and-sell-bitcoins/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "US DOJ — Charlie Shrem case background",
+            "url": "https://www.justice.gov/usao-sdny/pr/former-ceo-bitcoin-exchange-company-sentenced-manhattan-federal-court-two-years-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Vague prominence row narrowed to a specific financing milestone."
       }
     },
     {
@@ -20834,7 +20923,7 @@
     {
       "id": "LORE-EVT-0727",
       "date": "2018",
-      "title": "Steemit communities debate delegated proof-of-stake governance",
+      "title": "Steem demonstrates stake-weighted witness governance",
       "branch": [
         "ALTCOINS",
         "GOVERNANCE"
@@ -20842,12 +20931,23 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2018",
+        "summary": "Steem's delegated-proof-of-stake governance used stake-weighted voting to elect 21 block-producing witnesses, with community reporting in 2018 tracking participation in witness voting.",
+        "significance": "Steem was an early large-scale experiment in token-holder governance and elected block producers, foreshadowing later disputes over stake concentration and delegated governance.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Steem Whitepaper — DPoS witness governance",
+            "url": "https://github.com/steemit/whitepaper/blob/master/whitepaper.md",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Steem Developer Docs — witness voting and proxies",
+            "url": "https://developers.steem.io/apidefinitions/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23606,15 +23706,31 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024-01 onward",
+        "summary": "After US spot Bitcoin ETPs began trading, their daily creations and redemptions became a major observable source of Bitcoin market demand. Contemporary reporting repeatedly linked strong ETF inflows with major 2024 price moves.",
+        "significance": "Spot ETF flows created a new institutional demand channel that traders began watching alongside exchange flows, derivatives and macro data.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin reaches record high as ETF inflows surge",
+            "url": "https://www.reuters.com/technology/view-bitcoin-rises-record-high-2024-03-05/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Coinbase Institutional — Trading Activity From a US Lens",
+            "url": "https://www.coinbase.com/institutional/research-insights/research/market-intelligence/trading-activity-from-a-us-lens",
+            "type": "INSTITUTIONAL_RESEARCH"
+          },
+          {
+            "title": "Reuters — Crypto ETFs see big inflows ahead of US election",
+            "url": "https://www.reuters.com/technology/crypto-etfs-see-big-inflows-ahead-us-election-traders-brace-volatility-2024-11-01/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not imply ETF flows explain all Bitcoin price movement; use as a documented major demand/input channel."
       }
     },
     {
@@ -23629,15 +23745,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_CONCENTRATION_DATA",
+        "exact_date": "2024-03",
+        "summary": "Coinbase said it served as custodian for eight of the eleven US spot Bitcoin ETF mandates; contemporary reporting estimated it held custody for roughly 90% of spot-Bitcoin ETF assets at that stage.",
+        "significance": "The launch of decentralized-asset investment products created an unusually concentrated institutional custody layer, prompting resilience and counterparty-concentration debate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — How we keep digital assets safe",
+            "url": "https://www.coinbase.com/de/blog/how-we-keep-digital-assets-safe",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "The Block — Kraken challenging Coinbase's spot Bitcoin ETF custody dominance",
+            "url": "https://www.theblock.co/news/markets/2024-02-27-kraken-challenging-coinbases-reign-as-chief-custodian-of-spot-bitcoin-etfs-279434",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Coinbase 2023 Form 10-K",
+            "url": "https://investor.coinbase.com/files/doc_downloads/2024/Coinbase-Q4-23-10K.pdf",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Market share was time-specific and changed as products evolved."
       }
     },
     {
@@ -24410,15 +24542,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_TREASURY_POLICY",
+        "exact_date": "2024",
+        "summary": "Ethereum Foundation treasury transactions became closely watched market events. Its 2024 report states that treasury policy includes periodically selling ETH to maintain fiat reserves for several years of operating expenses.",
+        "significance": "Foundation sales became part of Ethereum market-watch culture and highlighted how nonprofit treasury management intersects with a liquid native asset.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation 2024 Report",
+            "url": "https://ethereum.foundation/report-2024.pdf",
+            "type": "FOUNDATION_PRIMARY"
+          },
+          {
+            "title": "CoinDesk — Ethereum Foundation main-wallet balance discussion",
+            "url": "https://www.coindesk.com/tech/2024/09/06/ethereum-foundations-main-wallet-down-to-about-650m-top-official-says",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "This is a treasury-policy/context row, not an allegation that sales were improper or predictive of price."
       }
     },
     {
@@ -24433,12 +24576,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-10-17",
+        "summary": "Vitalik Buterin published 'Possible futures of the Ethereum protocol, part 2: The Surge,' reviewing the rollup-centric roadmap, blob scaling, interoperability and longer-term throughput goals.",
+        "significance": "The post captured Ethereum's mature scaling strategy: keep L1 decentralized while shifting much transaction execution to rollups.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Vitalik Buterin — Possible futures of the Ethereum protocol, part 2: The Surge",
+            "url": "https://vitalik.eth.limo/general/2024/10/17/futures2.html",
+            "type": "FOUNDER_PRIMARY"
+          },
+          {
+            "title": "Vitalik Buterin — Scaling Ethereum blobs",
+            "url": "https://vitalik.eth.limo/general/2024/03/28/blobs.html",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
