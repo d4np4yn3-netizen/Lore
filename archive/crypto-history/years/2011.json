@@ -189,7 +189,7 @@
     },
     {
       "id": "LORE-EVT-0185",
-      "date": "2011",
+      "date": "2013-03-19",
       "title": "Hal Finney discusses his early Bitcoin involvement publicly",
       "branch": [
         "BITCOIN",
@@ -198,10 +198,10 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": null,
-        "summary": "The best-known first-person account from Hal Finney, 'Bitcoin and Me,' was published in March 2013, not 2011.",
-        "significance": "Do not retain this as a 2011 event without locating a distinct 2011 public statement that materially adds to the timeline.",
+        "state": "DATE_CORRECTED",
+        "exact_date": "2013-03-19",
+        "summary": "Hal Finney's best-known first-person account of his early Bitcoin involvement, 'Bitcoin and Me,' was published in March 2013 rather than 2011.",
+        "significance": "Finney's account is one of the most important firsthand records of Bitcoin's earliest days.",
         "source_confidence": "HIGH",
         "sources": [
           {
@@ -212,7 +212,7 @@
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Likely date correction to 2013 or merge into Hal Finney biography context."
+        "notes": null
       }
     },
     {
@@ -534,15 +534,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2011",
+        "summary": "Centralized digital currencies such as e-gold and Liberty Reserve were common reference points when journalists, regulators and users tried to explain how Bitcoin differed from earlier Internet money.",
+        "significance": "Useful historical framing, but not one discrete 2011 event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context-only; e-gold and later Liberty Reserve enforcement events are the stronger canonical milestones."
       }
     },
     {
@@ -645,15 +645,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
         "exact_date": "2011 onward",
-        "summary": "Public blockchains made large address balances and old wallet movements observable, creating the enduring idea of Bitcoin 'whales.'",
-        "significance": "This is a recurring phenomenon rather than a single 2011 event and should not be scored as-is.",
-        "source_confidence": "LOW",
+        "summary": "Bitcoin's transparent ledger made large balances and old wallet movements observable, creating enduring 'whale' analysis culture.",
+        "significance": "A recurring analytical phenomenon rather than a specific 2011 milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Replace with specific historically documented whale movements if a card-worthy event is needed."
+        "notes": "Exclude from standalone card scoring unless narrowed to one historically significant wallet movement."
       }
     },
     {
