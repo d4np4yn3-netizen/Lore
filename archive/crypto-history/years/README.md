@@ -1,14 +1,34 @@
 # LORE Crypto History — Year Evidence Files
 
-The original `events.json` remains the broad discovery archive.
+**Working source of truth for evidence research and card scoring.**
 
-Because the master archive now exceeds 1,200 records, evidence research is split into year files to keep edits safe and reviewable.
+The original `../events.json` remains the preserved broad discovery archive (1,229 raw candidates). It should now be treated as **read-only discovery history**, not the day-to-day research file.
+
+## Working structure
+
+- `YYYY.json` — researched/triaged records for that calendar year.
+- `origins.json` — researched pre-Bitcoin foundations and precursor material.
+- `*-legacy-candidates.json` — preserved raw candidates used during reconciliation.
+- `*-reconciliation.json` — reconciliation working records where used.
+- `index.json` — high-level year/evidence index.
+- `raw/` — preserved supporting raw material where required.
 
 ## Rules
 
-- Year files contain researched canonical events plus important subevents/context.
-- `source_event_id` points back to the broad archive when a known permanent ID already exists.
-- A year-file record can exist without a source ID when the master cannot be safely read; it will be reconciled by title/date during the later index rebuild.
-- Scoring must use canonical year-file records, not raw discovery rows.
-- Primary/government/project sources are preferred.
-- Duplicates are represented by relationships rather than independently scored.
+1. **Research and edit the year files, not the giant master.**
+2. Preserve every permanent `LORE-EVT-####` identifier.
+3. A raw discovery event is not automatically a card candidate.
+4. Verify dates and claims, preferring primary, project, government, court, regulatory, on-chain and strong contemporary sources.
+5. Mark duplicates/context/subevents by relationship instead of independently scoring the same story multiple times.
+6. Correct dates in the year evidence layer when research disproves the original raw capture.
+7. Card scoring must use sourced/triaged year-file records only.
+8. Records still marked as future, unresolved, needs-source/data, or duplicate-linked are not independently scoreable.
+9. Do not delete the original raw discovery archive; it preserves provenance and ideas that may later become book/sidebar material.
+
+## Research status
+
+The archive has already been split into year files through 2026. The large 2021–2025 years have been reconciled and marked `YEAR_TRIAGED_AND_SOURCED`. Continue future evidence work directly in these smaller year files.
+
+## Next phase
+
+Finish any remaining weak/deep-cut evidence flags, then add a separate **card scoring layer** so historical importance, LORE/story value, visual potential and duplication are evaluated without changing the underlying history records.
