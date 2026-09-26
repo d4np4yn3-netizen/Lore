@@ -1,77 +1,91 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0",
   "year": 2026,
-  "generated": "2026-09-26",
-  "cutoff_date": "2026-09-26",
-  "purpose": "Canonical evidence file for completed or established 2026 events through the cutoff date. Future or still-pending milestones are excluded from historical scoring.",
-  "record_count": 3,
-  "pending_not_history": [
+  "status": "LIVE_ARCHIVE",
+  "as_of": "2026-09-26",
+  "note": "Current-year file. Completed events may be VERIFIED; recent developments remain provisional until historical significance is clearer. Future milestones are explicitly non-historical and excluded from card scoring.",
+  "events": [
     {
-      "title": "Ethereum Glamsterdam",
-      "status": "FUTURE_PENDING",
-      "note": "Still in testing; ethereum.org lists Q4 2026 as expected mainnet timing with no confirmed date as of the archive cutoff."
-    }
-  ],
-  "records": [
-    {
-      "source_event_id": null,
-      "date": "2026-04-01",
-      "title": "Drift Protocol loses about $285 million in privileged-access exploit",
-      "status": "VERIFIED_WITH_ATTRIBUTION_PENDING",
-      "tier": "CORE",
-      "summary": "Drift Protocol was drained of about $285 million after attackers obtained privileged control and used a worthless artificially priced token as collateral to withdraw real assets. Drift's own recovery update confirms the April 1 incident and a subsequent user-recovery program.",
-      "significance": "The exploit became one of 2026's largest DeFi losses and a major example of operational-security and privileged-access risk rather than a simple smart-contract coding bug.",
-      "sources": [
-        {
-          "title": "Drift Protocol — Incident Recovery Update",
-          "url": "https://www.drift.trade/updates/incident-recovery-update-april-16-2026-now",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "Chainalysis — Drift Protocol Hack",
-          "url": "https://www.chainalysis.com/blog/lessons-from-the-drift-hack/",
-          "type": "BLOCKCHAIN_ANALYSIS"
-        }
-      ],
-      "notes": "Chainalysis says preliminary indicators are consistent with DPRK operations, but formal attribution was still pending in its report; do not present DPRK attribution as settled fact."
-    },
-    {
-      "source_event_id": null,
-      "date": "2026-09-06T13:53:10Z",
-      "title": "Liquid Network exploit creates about 4,000 unbacked LBTC and drains roughly 4,000 BTC",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "A vulnerability in Elements' rangeproof verification cache allowed an attacker to create approximately 4,000 unbacked LBTC on Liquid and use the normal peg-out process to withdraw about 4,000 real BTC. The attacker later returned 3,400 BTC, while Blockstream patched the vulnerability and reorganized the invalid chain history.",
-      "significance": "The incident was an extraordinary Bitcoin-sidechain failure: a consensus-validation cache bug enabled unbacked sidechain assets to be converted into real Bitcoin reserves, forcing a coordinated network halt and recovery.",
-      "sources": [
-        {
-          "title": "Blockstream — Liquid Network Security Incident Assessment",
-          "url": "https://blog.blockstream.com/liquid-network-security-incident-assessment/",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "Chainalysis — $320M Liquid Network exploit",
-          "url": "https://www.chainalysis.com/blog/320m-exploit-liquid-network/",
-          "type": "BLOCKCHAIN_ANALYSIS"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2026-H1",
-      "title": "Physical wrench attacks against crypto holders reach record pace",
-      "status": "VERIFIED_AS_TREND",
+      "key": "2026-ethereum-bpo2",
+      "date": "2026-01-07T01:01:11Z",
+      "title": "Ethereum BPO2 raises blob target and maximum",
+      "state": "VERIFIED",
+      "historical_status": "CANDIDATE",
       "tier": "MAJOR",
-      "summary": "Chainalysis documented 46 violent crypto-related incidents globally through late June 2026, with more than $30 million successfully stolen. France recorded a particularly sharp increase in reported attacks.",
-      "significance": "The trend marks a shift from purely digital key theft toward physical coercion becoming a material personal-security risk for visible crypto holders.",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "The second Fusaka Blob Parameter Only fork activated on Ethereum mainnet at epoch 419,072, increasing the blob target to 14 and maximum to 21.",
+      "significance": "BPO2 demonstrated Ethereum's new ability to scale rollup data capacity through lightweight parameter-only forks instead of waiting for a full network upgrade cycle.",
       "sources": [
         {
-          "title": "Chainalysis — Violent Wrench Attacks Targeting Crypto Holders",
-          "url": "https://www.chainalysis.com/blog/violent-crypto-wrench-attacks-2026/",
-          "type": "BLOCKCHAIN_ANALYSIS"
+          "title": "EIP-7607 — Fusaka hardfork meta",
+          "url": "https://eips.ethereum.org/EIPS/eip-7607",
+          "type": "PRIMARY_SPEC"
+        },
+        {
+          "title": "Ethereum Foundation — Checkpoint #8",
+          "url": "https://blog.ethereum.org/2026/01/20/checkpoint-8",
+          "type": "PROJECT_PRIMARY"
         }
       ],
-      "notes": "Trend/context record, not a single incident. Likely book/archive material rather than an automatic physical card."
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2026-mica-transition-expiry",
+      "date": "2026-07-01",
+      "title": "EU-wide MiCA transitional ceiling expires for crypto service providers",
+      "state": "VERIFIED_WITH_JURISDICTION_QUALIFIER",
+      "historical_status": "CANDIDATE",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "MiCA Article 143 allowed qualifying pre-existing crypto-asset service providers to continue under transitional arrangements only until 1 July 2026 at the latest, though individual member states could end their national transitional periods earlier.",
+      "significance": "The date marked the end of the EU-wide maximum grandfathering window and made MiCA authorization the baseline for continuing covered crypto-asset services across the EU.",
+      "sources": [
+        {
+          "title": "ESMA — Article 143 Transitional measures",
+          "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-143-transitional-measures",
+          "type": "EU_REGULATOR"
+        },
+        {
+          "title": "ESMA — Statement on end of MiCA transitional periods",
+          "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
+          "type": "EU_REGULATOR"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2026-glamsterdam",
+      "date": "Q4 2026 — not yet confirmed",
+      "title": "Ethereum Glamsterdam upgrade",
+      "state": "FUTURE_CANDIDATE",
+      "historical_status": "NOT_YET_HISTORY",
+      "tier": null,
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Ethereum currently expects Glamsterdam on mainnet in Q4 2026, but no mainnet date is confirmed as of 26 September 2026. Testing is ongoing and the next listed milestone is Sepolia on 6 October.",
+      "significance": "Do not treat this as a historical event yet. If it ships, its planned features include enshrined proposer-builder separation and block-level access lists.",
+      "sources": [
+        {
+          "title": "Ethereum.org — Glamsterdam",
+          "url": "https://ethereum.org/roadmap/glamsterdam/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ethereum Foundation — Protocol priorities, September 2026",
+          "url": "https://blog.ethereum.org/2026/09/07/protocol-priorities",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Excluded from card scoring until mainnet activation occurs."
     }
   ]
 }
