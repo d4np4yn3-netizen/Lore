@@ -1,154 +1,242 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0",
   "year": 2024,
-  "generated": "2026-09-26",
-  "purpose": "Canonical evidence file for 2024. Only sourced records in this file are eligible for later card scoring.",
-  "record_count": 8,
-  "records": [
+  "status": "EVIDENCE_PASS_IN_PROGRESS",
+  "note": "Canonical evidence file for 2024. Product terminology follows source language: US approvals are described as spot Bitcoin/Ether ETPs where appropriate rather than loosely calling every product an ETF.",
+  "events": [
     {
-      "source_event_id": "LORE-EVT-0062",
+      "key": "2024-us-spot-bitcoin-etp-approval",
       "date": "2024-01-10",
-      "title": "US SEC approves spot Bitcoin ETP listings",
-      "status": "VERIFIED",
+      "title": "SEC approves US spot Bitcoin ETP listings",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "The SEC approved exchange rule changes allowing multiple spot Bitcoin exchange-traded products to list and trade in the United States after more than a decade of rejected proposals.",
-      "significance": "The approval opened a mainstream regulated brokerage route to spot Bitcoin exposure and marked a major institutional transition for the asset.",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The SEC approved exchange rule changes allowing a group of spot Bitcoin exchange-traded products to list and trade in the United States.",
+      "significance": "After more than a decade of rejected proposals, spot Bitcoin exposure entered mainstream US brokerage and asset-management infrastructure. The Grayscale court ruling was an explicit part of the changed legal circumstances cited around the approval.",
       "sources": [
         {
           "title": "SEC — Statement on Approval of Spot Bitcoin ETPs",
           "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
           "type": "GOVERNMENT"
         }
-      ]
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2023-grayscale-sec-win",
+        "type": "AFTERMATH"
+      }
     },
     {
-      "source_event_id": null,
+      "key": "2024-us-spot-bitcoin-etp-trading",
       "date": "2024-01-11",
       "title": "US spot Bitcoin ETPs begin trading",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "The newly approved US spot Bitcoin ETPs began public trading on January 11, 2024, with roughly $4.6 billion of aggregate first-day trading volume reported in later filings.",
-      "significance": "Launch day converted a decade-long regulatory campaign into live investment products from major issuers including BlackRock and Fidelity and the converted GBTC.",
-      "sources": [
-        {
-          "title": "SEC filing noting Jan. 11 trading commencement",
-          "url": "https://www.sec.gov/Archives/edgar/data/1787803/000149315226011043/form424b5.htm",
-          "type": "REGULATORY_FILING"
-        }
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MARKETS"
       ],
-      "relationships": [
-        {
-          "type": "FOLLOWS",
-          "title": "US SEC approves spot Bitcoin ETP listings"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2024-03-13T13:55:00Z",
-      "title": "Ethereum Dencun introduces blobs and EIP-4844",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Ethereum's Dencun upgrade activated at epoch 269,568 and introduced EIP-4844 blob transactions for cheaper temporary rollup data availability.",
-      "significance": "Dencun sharply reduced the cost of many layer-2 transactions and established blobs as central infrastructure for Ethereum's rollup-centric scaling strategy.",
+      "summary": "The newly approved US spot Bitcoin ETPs began public trading on 11 January 2024. A later SEC filing by MicroStrategy cited about $4.6 billion of first-day trading volume across the products.",
+      "significance": "The launch created a large regulated distribution channel through which traditional investors could obtain spot-linked Bitcoin exposure.",
       "sources": [
         {
-          "title": "Ethereum Foundation — Dencun Mainnet Announcement",
-          "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
-          "type": "PROJECT_PRIMARY"
+          "title": "SEC — Spot Bitcoin ETP approval statement",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "type": "GOVERNMENT"
         },
         {
-          "title": "Ethereum.org — Dencun FAQ",
-          "url": "https://ethereum.org/roadmap/dencun/",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2024-03-20",
-      "title": "BlackRock launches BUIDL tokenized fund on Ethereum",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "BlackRock launched the USD Institutional Digital Liquidity Fund, BUIDL, as its first tokenized fund issued on a public blockchain, using Ethereum and Securitize.",
-      "significance": "BUIDL was a major milestone in the convergence of traditional asset management, tokenized Treasury exposure and public-blockchain settlement.",
-      "sources": [
-        {
-          "title": "Securitize — BlackRock launches BUIDL",
-          "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
-          "type": "PARTNER_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": "LORE-EVT-0063",
-      "date": "2024-04-20",
-      "title": "Fourth Bitcoin halving",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "At block 840,000, Bitcoin's block subsidy fell from 6.25 BTC to 3.125 BTC on April 20, 2024.",
-      "significance": "The fourth halving continued Bitcoin's fixed issuance schedule into an era of spot ETPs and increasingly institutional mining.",
-      "sources": [
-        {
-          "title": "Bitcoin.org — halving history",
-          "url": "https://bitcoin.org/en/halving",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2024-05-23",
-      "title": "SEC approves rule changes for spot Ether ETPs",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "The SEC granted accelerated approval to exchange rule changes permitting the listing and trading of shares of multiple spot Ether exchange-traded products.",
-      "significance": "The decision extended the US spot-crypto ETP framework beyond Bitcoin and marked Ether's arrival in mainstream regulated investment products.",
-      "sources": [
-        {
-          "title": "SEC — Ether-based ETP approval order",
-          "url": "https://www.sec.gov/rule-release/34-100224",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2024-07-23",
-      "title": "US spot Ether ETPs begin public trading",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "The approved US spot Ether ETPs commenced trading on July 23, 2024.",
-      "significance": "The launch gave brokerage investors direct regulated exposure to spot Ether through exchange-traded products.",
-      "sources": [
-        {
-          "title": "SEC filing noting spot Ether ETP trading commencement",
+          "title": "MicroStrategy SEC filing citing first-day ETP trading",
           "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525073989/d938485d8k.htm",
           "type": "REGULATORY_FILING"
         }
       ],
-      "relationships": [
-        {
-          "type": "FOLLOWS",
-          "title": "SEC approves rule changes for spot Ether ETPs"
-        }
-      ]
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2024-us-spot-bitcoin-etp-approval",
+        "type": "IMPLEMENTATION"
+      }
     },
     {
-      "source_event_id": null,
-      "date": "2024-07-05 onward",
-      "title": "Mt. Gox begins Bitcoin and Bitcoin Cash creditor repayments",
-      "status": "VERIFIED_WITH_RANGE",
+      "key": "2024-dencun",
+      "date": "2024-03-13T13:55:35Z",
+      "title": "Ethereum Dencun activates blobs and EIP-4844",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "The Mt. Gox rehabilitation trustee announced that repayments in Bitcoin and Bitcoin Cash began on July 5, 2024, with additional distributions continuing through July and August.",
-      "significance": "A decade after Mt. Gox's collapse, creditors finally began receiving crypto distributions, closing one of the longest-running sagas in Bitcoin history.",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Ethereum activated Cancun-Deneb at epoch 269,568, introducing blob-carrying transactions through EIP-4844 alongside other execution and consensus changes.",
+      "significance": "Dencun dramatically lowered data costs for rollups and made blobspace a central piece of Ethereum's L2-centric scaling architecture.",
       "sources": [
         {
-          "title": "MtGox.com — repayment notices",
-          "url": "https://www.mtgox.com/",
-          "type": "COURT_REHABILITATION_ARCHIVE"
+          "title": "Ethereum.org — Dencun FAQ",
+          "url": "https://ethereum.org/roadmap/dencun/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ethereum Foundation — Dencun Mainnet Announcement",
+          "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+          "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2024-blackrock-buidl",
+      "date": "2024-03-20",
+      "title": "BlackRock launches BUIDL tokenized fund on Ethereum",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "BlackRock launched the BlackRock USD Institutional Digital Liquidity Fund (BUIDL), its first tokenized fund issued on a public blockchain, with Securitize providing tokenization infrastructure.",
+      "significance": "BUIDL became a landmark convergence of traditional asset management, tokenized US-dollar/Treasury exposure and public-blockchain settlement.",
+      "sources": [
+        {
+          "title": "BlackRock / Business Wire release syndicated by Nasdaq — BUIDL launch",
+          "url": "https://www.nasdaq.com/press-release/blackrock-launches-its-first-tokenized-fund-buidl-on-the-ethereum-network-2024-03-20",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2024-fourth-bitcoin-halving",
+      "date": "2024-04-20",
+      "title": "Bitcoin's fourth halving cuts subsidy to 3.125 BTC",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "summary": "At block 840,000, Bitcoin's block subsidy fell from 6.25 BTC to 3.125 BTC.",
+      "significance": "The fourth halving continued Bitcoin's fixed monetary issuance schedule and arrived during an era of spot ETP demand and industrial-scale mining.",
+      "sources": [
+        {
+          "title": "Bitcoin.org — Halving history",
+          "url": "https://bitcoin.org/en/halving",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2024-runes-launch",
+      "date": "2024-04-20",
+      "title": "Runes protocol launches at Bitcoin block 840,000",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "summary": "Casey Rodarmor's UTXO-based fungible-token protocol Runes activated at block 840,000, the same block as Bitcoin's fourth halving.",
+      "significance": "Runes extended Bitcoin's post-Ordinals token experimentation and produced intense competition for historically significant halving-block space and transaction fees.",
+      "sources": [
+        {
+          "title": "Casey Rodarmor — Runes design",
+          "url": "https://casey.github.io/blog/runes/",
+          "type": "CREATOR_PRIMARY"
+        },
+        {
+          "title": "Runes activates at block 840,000",
+          "url": "https://wearebitcoin.org/news/2024/04/20/runes-launch-block-840000",
+          "type": "TECHNICAL_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2024-fourth-bitcoin-halving",
+        "type": "SAME_BLOCK"
+      }
+    },
+    {
+      "key": "2024-us-spot-ether-etp-rule-approval",
+      "date": "2024-05-23",
+      "title": "SEC approves exchange rule changes for spot Ether ETPs",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "INSTITUTIONS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The SEC granted accelerated approval to proposed exchange rule changes for listing and trading shares of several Ether-based exchange-traded products.",
+      "significance": "The approval created the regulatory pathway for US spot Ether ETP trading and extended mainstream exchange-traded crypto exposure beyond Bitcoin.",
+      "sources": [
+        {
+          "title": "SEC — Order approving Ether-based ETP rule changes",
+          "url": "https://www.sec.gov/rule-release/34-100224",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2024-us-spot-ether-etp-trading",
+      "date": "2024-07-23",
+      "title": "US spot Ether ETPs begin trading",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "INSTITUTIONS",
+        "MARKETS"
+      ],
+      "summary": "US spot Ether exchange-traded products began trading on 23 July 2024 following registration effectiveness and the May exchange-rule approvals.",
+      "significance": "Ether became directly accessible through regulated US spot-linked exchange-traded products, broadening institutional crypto-market infrastructure.",
+      "sources": [
+        {
+          "title": "Grayscale SEC-filed release — ETH and ETHE begin trading",
+          "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024085501/etheeth_press_release_7.htm",
+          "type": "REGULATORY_FILING"
+        },
+        {
+          "title": "Grayscale ETHE Form 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024086033/ethe-20240722.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2024-us-spot-ether-etp-rule-approval",
+        "type": "IMPLEMENTATION"
+      }
+    },
+    {
+      "key": "2024-mtgox-bitcoin-repayments",
+      "date": "2024-07",
+      "title": "Mt. Gox begins Bitcoin and Bitcoin Cash repayments",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "BITCOIN",
+        "DISASTERS"
+      ],
+      "summary": "The Mt. Gox rehabilitation trustee announced commencement of repayments in Bitcoin and Bitcoin Cash in mid-2024, beginning distributions through designated exchanges after roughly a decade of creditor proceedings.",
+      "significance": "Creditors finally began receiving crypto from the most famous exchange collapse of Bitcoin's early history, closing a major chapter of the 2014 disaster.",
+      "sources": [
+        {
+          "title": "MtGox rehabilitation trustee notices",
+          "url": "https://www.mtgox.com/",
+          "type": "COURT_REHABILITATION_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ]
 }
