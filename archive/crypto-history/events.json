@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Canonical research is now complete through 2019 and the major 2020 events are verified; remaining 2020 deep cuts are explicitly held in RESEARCH_NEEDED_SPECIFIC rather than being silently treated as facts.",
+  "status_note": "Evidence phase active. Core 2021 events are now sourced and normalized; the remaining 2021 deep-cut, culture, protocol-growth and market-structure rows still require individual evidence review before card scoring.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1330,12 +1330,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-08",
+        "summary": "Tesla disclosed in its annual report that it had updated its investment policy in January and subsequently purchased an aggregate $1.5 billion of Bitcoin.",
+        "significance": "The purchase was one of the most dramatic corporate endorsements of Bitcoin and helped push the corporate-treasury narrative into the global mainstream.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tesla 2020 Form 10-K — $1.5bn Bitcoin investment",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1352,12 +1358,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-03-11",
+        "summary": "Christie's sold Beeple's Everydays: The First 5000 Days for $69,346,250 in an online auction.",
+        "significance": "The sale was the first purely digital NFT-based artwork offered by a major auction house and moved NFTs decisively into the traditional art world's mainstream.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Christie's — Beeple Everydays sale result",
+            "url": "https://press.christies.com/results-beeples-purely-digital-nft-based-work-of-art-achieves-693-million-at-christies-1/?lang=eng",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1374,12 +1386,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-14",
+        "summary": "Coinbase completed a direct listing of its Class A shares on Nasdaq under ticker COIN.",
+        "significance": "The listing was the first major US crypto exchange to enter public equity markets at large scale and gave traditional investors direct exposure to a crypto-native business.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — $COIN listing day",
+            "url": "https://www.coinbase.com/blog/coin-its-only-the-beginning",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "SEC — Coinbase direct listing prospectus",
+            "url": "https://www.sec.gov/Archives/edgar/data/1679788/000162828021006850/coinbaseglobalinc424b.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1419,12 +1442,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-05-21 to 2021-06",
+        "summary": "China's Financial Stability and Development Committee explicitly called for a crackdown on Bitcoin mining and trading on 21 May, followed by provincial shutdowns that sharply reduced domestic mining activity.",
+        "significance": "The crackdown forced the largest geographic redistribution of Bitcoin mining in the network's history and ended China's prior dominance in measured mining activity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — China orders crackdown on Bitcoin mining and trading",
+            "url": "https://finance.yahoo.com/news/china-says-crack-down-bitcoin-142405226.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Cambridge CCAF — Bitcoin mining map historical findings",
+            "url": "https://ccaf.io/cbnsi/cbeci/mining_map",
+            "type": "ACADEMIC_DATA"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1442,12 +1476,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-09-07",
+        "summary": "El Salvador's Bitcoin Law came into force on 7 September 2021.",
+        "significance": "The effective date transformed the June legislation into a live nationwide legal-tender system and made Bitcoin acceptance, convertibility infrastructure and government wallet rollout a real-world policy experiment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — El Salvador 2021 Article IV mission",
+            "url": "https://www.imf.org/en/news/articles/2021/11/22/mcs-el-salvador-staff-concluding-statement-of-the-2021-article-iv-mission",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1463,12 +1503,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-05T12:33:42Z",
+        "summary": "Ethereum's London upgrade activated at block 12,965,000 and introduced EIP-1559, replacing the old fee auction with a base-fee mechanism that burns part of transaction fees.",
+        "significance": "EIP-1559 fundamentally changed Ethereum's fee market and ETH issuance economics, laying groundwork for the post-Merge monetary system.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — London upgrade",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Etherscan — Ethereum block 12,965,000",
+            "url": "https://etherscan.io/block/12965000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3243,12 +3294,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-04-23 to 2021-05-01",
+        "summary": "Bored Ape Yacht Club opened a week-long presale on 23 April 2021 at 0.08 ETH per Ape; after a slow first week, the remaining collection sold out on 1 May.",
+        "significance": "BAYC transformed the profile-picture NFT into a membership, brand and community model that became one of the defining symbols of the 2021 NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — Let's Make A NFT",
+            "url": "https://news.yuga.com/lets-make-a-nft",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3265,12 +3322,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-09-24",
+        "summary": "The People's Bank of China and multiple state agencies declared virtual-currency-related business activities illegal financial activities and tightened enforcement against overseas exchanges serving Chinese residents.",
+        "significance": "This was a separate nationwide trading/enforcement escalation after the mining crackdown.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PBOC and agencies — virtual-currency trading-risk notice",
+            "url": "https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3288,12 +3351,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-08-10 to 2021-08-12",
+        "summary": "An attacker stole about $612 million across Poly Network on 10 August; beginning the next day, the attacker returned most of the assets and communicated through on-chain messages.",
+        "significance": "It was then the largest DeFi theft and became uniquely famous because the attacker returned nearly all of the stolen crypto.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chainalysis — Poly Network hack and returned funds",
+            "url": "https://www.chainalysis.com/blog/poly-network-hack-august-2021/",
+            "type": "BLOCKCHAIN_ANALYSIS"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3332,12 +3401,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-18",
+        "summary": "ConstitutionDAO raised tens of millions of dollars from internet contributors in an attempt to buy a rare first printing of the US Constitution at Sotheby's, but lost the auction.",
+        "significance": "The episode demonstrated how quickly a DAO could coordinate capital and culture around a shared goal, even though it failed to acquire the artifact.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — US Constitution auction, Nov 18 2021",
+            "url": "https://www.sothebys.com/en/digital-catalogues/the-constitution-of-the-united-states",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3354,15 +3429,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_INDEX_QUALIFIER",
+        "exact_date": "2021-11-10",
+        "summary": "Bitcoin reached a new all-time high around $69,000 on 10 November 2021, with the exact high varying by exchange and price index.",
+        "significance": "The peak marked the top of Bitcoin's 2020–2021 bull cycle before the prolonged 2022 crypto downturn.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin Nov 10 2021 all-time high",
+            "url": "https://www.coindesk.com/markets/2021/11/10/bitcoin-pulls-back-from-all-time-high-support-between-65k-67k",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use the exact price from the chosen index/exchange in published copy."
       }
     },
     {
@@ -3821,12 +3902,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-08",
+        "summary": "El Salvador's Legislative Assembly approved Decree No. 57, the Bitcoin Law, establishing Bitcoin as legal tender alongside the US dollar.",
+        "significance": "El Salvador became the first sovereign state to legislate Bitcoin as legal tender, creating an unprecedented national crypto experiment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "El Salvador Legislative Assembly — 2021 decrees, Decree 57 Bitcoin Law",
+            "url": "https://www.asamblea.gob.sv/leyes-y-decretos/decretos-por-anios/2021/0",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "IMF — El Salvador 2021 Article IV mission",
+            "url": "https://www.imf.org/en/news/articles/2021/11/22/mcs-el-salvador-staff-concluding-statement-of-the-2021-article-iv-mission",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4081,12 +4173,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-10-25",
+        "summary": "Nigeria formally launched the eNaira central-bank digital currency.",
+        "significance": "The eNaira was among the earliest national retail CBDCs and represented a government-controlled digital-money path distinct from permissionless crypto.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Central Bank of Nigeria — eNaira launch release",
+            "url": "https://www.cbn.gov.ng/out/2021/ccd/enaira%20launch%20press%20release%20%20231021.pdf",
+            "type": "CENTRAL_BANK"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4367,12 +4465,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-10-28",
+        "summary": "Facebook changed its corporate name to Meta and explicitly centered its future strategy on building the metaverse.",
+        "significance": "The rebrand pushed 'metaverse' from crypto/NFT subculture into global corporate and media vocabulary and intensified virtual-land and metaverse-token speculation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Meta — Introducing Meta",
+            "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6216,12 +6320,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-05",
+        "summary": "Uniswap v3 launched on Ethereum mainnet with concentrated liquidity and multiple fee tiers.",
+        "significance": "Concentrated liquidity dramatically increased capital efficiency and reshaped automated market maker design across DeFi.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — v3 mainnet launch",
+            "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v3",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6238,12 +6348,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-31",
+        "summary": "Arbitrum One opened publicly on 31 August 2021.",
+        "significance": "Its launch marked the beginning of large-scale production optimistic-rollup usage and made Ethereum Layer 2 a major live ecosystem rather than mainly research.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Arbitrum — history noting Aug 31 2021 public launch",
+            "url": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6282,12 +6398,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-09-14",
+        "summary": "Solana stopped producing confirmed blocks for roughly 17 hours after bot transaction load contributed to validator failures and loss of consensus.",
+        "significance": "The outage became the most prominent early reliability failure of a high-throughput alternative Layer 1 during its rapid adoption phase.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana Foundation — 9/14 outage initial overview",
+            "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6371,12 +6493,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-08",
+        "summary": "ENS token claiming opened on 8 November for eligible .eth name holders based on the 31 October snapshot, launching ENS DAO governance.",
+        "significance": "The retroactive airdrop rewarded identity-system users and became another influential example of converting protocol users into token governors.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ENS Docs — ENS token and airdrop",
+            "url": "https://docs.ens.domains/dao/token/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "ENS DAO — claiming opens Nov 8",
+            "url": "https://discuss.ens.domains/t/delegate-links-for-easy-campaigning/3008",
+            "type": "PROJECT_FORUM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6968,12 +7101,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-05-07 to 2021-06-07",
+        "summary": "DarkSide ransomware disrupted Colonial Pipeline in May and received a Bitcoin ransom; on 7 June the US Department of Justice announced seizure of 63.7 BTC from the payment.",
+        "significance": "The case connected cryptocurrency, critical infrastructure, ransomware and blockchain tracing in a single globally visible event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Colonial Pipeline ransom recovery",
+            "url": "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7734,12 +7873,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-03-24",
+        "summary": "Tesla began accepting Bitcoin as payment for vehicles in the United States and said Bitcoin received would be retained rather than immediately converted to fiat.",
+        "significance": "A major manufacturer accepting Bitcoin for a high-value consumer product was a landmark merchant-adoption moment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Tesla accepts Bitcoin for vehicles",
+            "url": "https://www.investing.com/news/cryptocurrency-news/musk-says-can-now-buy-a-tesla-with-bitcoin-2455443",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Tesla 2020 Form 10-K — $1.5bn Bitcoin investment",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7757,12 +7907,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-12",
+        "summary": "Tesla suspended Bitcoin vehicle purchases, with Elon Musk citing concerns about fossil-fuel use in Bitcoin mining.",
+        "significance": "The reversal pushed Bitcoin's energy use into mainstream environmental debate and showed the market influence of a single corporate endorsement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Tesla suspends Bitcoin car payments",
+            "url": "https://www.euronews.com/next/2021/05/13/uk-tesla-bitcoin-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Tesla 2020 Form 10-K — $1.5bn Bitcoin investment",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7801,12 +7962,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-14",
+        "summary": "Bitcoin's Taproot soft fork activated at block 709,632.",
+        "significance": "Taproot added Schnorr signatures and new scripting/privacy efficiencies, representing Bitcoin's most significant protocol upgrade since SegWit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Optech — Taproot activated at block 709,632",
+            "url": "https://bitcoinops.org/en/newsletters/2021/11/17/",
+            "type": "TECHNICAL_ARCHIVE"
+          },
+          {
+            "title": "BIP343 — Taproot activation parameters",
+            "url": "https://bitcoin.org/bip/343/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7824,14 +7996,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2021-09-07",
+        "summary": "The government launched the Chivo wallet alongside the Bitcoin Law, including a $30 equivalent incentive for eligible users.",
+        "significance": "Chivo was the operational layer of El Salvador's legal-tender rollout and a key measure of real-world adoption.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — El Salvador 2021 Article IV mission",
+            "url": "https://www.imf.org/en/news/articles/2021/11/22/mcs-el-salvador-staff-concluding-statement-of-the-2021-article-iv-mission",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0049",
+        "relation": "ROLLOUT",
         "notes": null
       }
     },
@@ -8311,12 +8489,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-17",
+        "summary": "AEG and Crypto.com announced a 20-year naming-rights deal to rename Staples Center as Crypto.com Arena, with the new name unveiled on Christmas Day.",
+        "significance": "The agreement became one of the most visible symbols of peak-cycle crypto marketing and exchange sponsorship.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Crypto.com/AEG — Staples Center naming-rights agreement",
+            "url": "https://crypto.com/en/company-news/aeg-and-crypto-com-to-lead-future-of-the-creative-capital-of-the-sports-music-and-entertainment-world-with-new-naming-rights-agreement-for-iconic-los-angeles-venue-formerly-known-as-staples-center",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8334,12 +8518,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-03-29",
+        "summary": "Visa announced that it had settled a transaction in USDC over Ethereum with Crypto.com as a pilot partner.",
+        "significance": "A global card network using a public blockchain stablecoin in treasury settlement was a landmark bridge between crypto rails and traditional payments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Visa — first USDC settlement over Ethereum",
+            "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseld.17821.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8610,12 +8800,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-18",
+        "summary": "Purpose Bitcoin ETF began trading in Canada with direct holdings of physical Bitcoin, marketed as the world's first Bitcoin ETF of its type.",
+        "significance": "Canada delivered regulated spot Bitcoin ETF exposure years before US spot products were approved.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Purpose Investments — Bitcoin ETF history",
+            "url": "https://www.purposeinvest.com/about",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Purpose Bitcoin ETF brochure — inception Feb 18 2021",
+            "url": "https://documents.purposeinvest.com/Docs/BTCC/brochure/en/Purpose%20Bitcoin%20ETF%20Brochure%202021-03-31.pdf",
+            "type": "FUND_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8632,14 +8833,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-09-24",
+        "summary": "This is the same September 2021 Chinese virtual-currency business prohibition represented by LORE-EVT-0117.",
+        "significance": "Canonicalized to LORE-EVT-0117.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PBOC and agencies — virtual-currency trading-risk notice",
+            "url": "https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0117",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9173,14 +9380,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-10-25",
+        "summary": "This is the same eNaira launch as LORE-EVT-0152.",
+        "significance": "Canonicalized to LORE-EVT-0152.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Central Bank of Nigeria — eNaira launch release",
+            "url": "https://www.cbn.gov.ng/out/2021/ccd/enaira%20launch%20press%20release%20%20231021.pdf",
+            "type": "CENTRAL_BANK"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0152",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9272,12 +9485,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-10-19",
+        "summary": "ProShares Bitcoin Strategy ETF (BITO) began trading as the first US Bitcoin-linked ETF, using Bitcoin futures rather than holding spot Bitcoin.",
+        "significance": "BITO ended years of failed US ETF attempts but also highlighted the distinction between futures-based exposure and the later spot Bitcoin ETP era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ProShares — BITO launch Oct 19 2021",
+            "url": "https://www.proshares.com/press-releases/proshares-to-launch-the-first-u.s.-bitcoin-linked-etf-on-october-19",
+            "type": "FUND_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14969,14 +15188,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-08-10",
+        "summary": "Poly Network's exploit crossed Ethereum, BSC and Polygon-related assets as part of the same $612 million theft.",
+        "significance": "Technical context under the canonical Poly Network hack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chainalysis — Poly Network hack and returned funds",
+            "url": "https://www.chainalysis.com/blog/poly-network-hack-august-2021/",
+            "type": "BLOCKCHAIN_ANALYSIS"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0118",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15356,14 +15581,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2021-11",
+        "summary": "After losing the auction, ConstitutionDAO said it would wind down and enable contributors to redeem the PEOPLE token for ETH, while PEOPLE continued trading.",
+        "significance": "The token's afterlife became an unexpected example of community assets surviving the organization that created them.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — US Constitution auction, Nov 18 2021",
+            "url": "https://www.sothebys.com/en/digital-catalogues/the-constitution-of-the-united-states",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0120",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -15767,12 +15998,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-09-12T21:44:51Z",
+        "summary": "Cardano's Alonzo hard fork activated Plutus smart-contract functionality on mainnet.",
+        "significance": "Alonzo turned Cardano from a staking/native-asset network into a smart-contract platform capable of hosting dapps.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cardano — hard fork history",
+            "url": "https://cardano.org/hardforks/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Cardano roadmap — Alonzo mainnet schedule",
+            "url": "https://roadmap.cardano.org/en/status-updates/2021-09/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15789,12 +16031,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-03-01",
+        "summary": "Cardano's Mary hard fork activated native multi-asset functionality.",
+        "significance": "Mary allowed users to create custom tokens directly on Cardano without requiring smart contracts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cardano — hard fork history",
+            "url": "https://cardano.org/hardforks/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Cardano — Mary glossary",
+            "url": "https://cardano.org/glossary/mary/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16027,12 +16280,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-18",
+        "summary": "Cosmos Hub completed the Stargate upgrade, enabling the Inter-Blockchain Communication protocol on the Hub.",
+        "significance": "IBC made standardized sovereign-chain interoperability a live capability and realized a core piece of the Cosmos 'internet of blockchains' vision.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cosmos Hub Forum — Stargate mainnet upgrade",
+            "url": "https://forum.cosmos.network/t/cosmos-hub-stargate/4416",
+            "type": "PROJECT_FORUM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -19287,14 +19546,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-02",
+        "summary": "Tesla's Bitcoin purchase triggered intense speculation that other large corporations might copy the treasury strategy.",
+        "significance": "Market/culture consequence of the canonical Tesla purchase.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tesla 2020 Form 10-K — $1.5bn Bitcoin investment",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0044",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -19822,14 +20087,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_PRECURSOR",
+        "exact_date": "2021-10",
+        "summary": "Regulatory non-objection/approval mechanics allowed the first US Bitcoin futures ETF to proceed.",
+        "significance": "Canonicalize the user-visible milestone to BITO's trading launch unless a specific SEC procedural event is separately needed.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "ProShares — BITO launch Oct 19 2021",
+            "url": "https://www.proshares.com/press-releases/proshares-to-launch-the-first-u.s.-bitcoin-linked-etf-on-october-19",
+            "type": "FUND_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0358",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -19844,14 +20115,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-10-19",
+        "summary": "This is the same ProShares BITO launch as LORE-EVT-0358.",
+        "significance": "Canonicalized to LORE-EVT-0358.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ProShares — BITO launch Oct 19 2021",
+            "url": "https://www.proshares.com/press-releases/proshares-to-launch-the-first-u.s.-bitcoin-linked-etf-on-october-19",
+            "type": "FUND_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0358",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -24797,14 +25074,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-04-14",
+        "summary": "Coinbase employees and shareholders gained public-market liquidity through the direct listing.",
+        "significance": "This is a consequence of the canonical Coinbase listing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Coinbase direct listing prospectus",
+            "url": "https://www.sec.gov/Archives/edgar/data/1679788/000162828021006850/coinbaseglobalinc424b.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0046",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -25509,14 +25792,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2021-06-07",
+        "summary": "US authorities announced recovery of 63.7 BTC, then worth about $2.3 million, from the Colonial Pipeline ransom.",
+        "significance": "The recovery showed that Bitcoin's public ledger and law-enforcement seizure mechanisms could undermine the idea that crypto ransom payments were untraceable.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Colonial Pipeline ransom recovery",
+            "url": "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0265",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -25931,14 +26220,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2021-08-11 onward",
+        "summary": "The Poly Network attacker used transaction metadata to communicate publicly while returning funds.",
+        "significance": "The on-chain conversation is one of the strangest pieces of hack culture in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chainalysis — Poly Network hack and returned funds",
+            "url": "https://www.chainalysis.com/blog/poly-network-hack-august-2021/",
+            "type": "BLOCKCHAIN_ANALYSIS"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0118",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -27257,14 +27552,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-08-31",
+        "summary": "This is the same Arbitrum One public launch as LORE-EVT-0233.",
+        "significance": "Canonicalized to LORE-EVT-0233.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Arbitrum — history noting Aug 31 2021 public launch",
+            "url": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0233",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
