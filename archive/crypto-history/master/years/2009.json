@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 2009,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 11,
+  "events": [
+    {
+      "id": "LORE-EVT-0010",
+      "date": "2009-01-03",
+      "title": "Bitcoin Genesis Block",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true,
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-01-03T18:15:05Z",
+        "summary": "Bitcoin's genesis block was timestamped 3 January 2009 and contains the Times bank-bailout headline in its coinbase data.",
+        "significance": "The genesis block created the chain's starting point and one of crypto's most iconic historical artifacts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Genesis Block",
+            "url": "https://chainquery.com/stories/genesis-block",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0011",
+      "date": "2009-01-12",
+      "title": "Satoshi sends Hal Finney 10 BTC",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-01-12T03:30:25Z",
+        "summary": "Block 170 contains the first known person-to-person Bitcoin transfer: 10 BTC sent by Satoshi to Hal Finney.",
+        "significance": "The first known Bitcoin transaction between two people proved the network could transfer value.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin block 170",
+            "url": "https://mempool.space/block/00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+            "type": "ONCHAIN"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0069",
+      "date": "2009",
+      "title": "New Liberty Standard publishes an early BTC exchange rate",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-10-05",
+        "summary": "New Liberty Standard published an exchange rate of $1 = 1,309.03 BTC based on estimated electricity cost.",
+        "significance": "An early attempt to express Bitcoin in dollar terms before liquid exchange markets existed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NewLibertyStandard history",
+            "url": "https://bitcoin-institute.pages.dev/participants/newlibertystandard/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0199",
+      "date": "2009",
+      "title": "Hal Finney posts Running bitcoin",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-01-11T03:33:00Z",
+        "summary": "Hal Finney posted the two-word status 'Running bitcoin' while operating the early software.",
+        "significance": "It is one of the earliest public signs of a second known Bitcoin participant and an iconic cultural artifact.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Running bitcoin — Hal Finney",
+            "url": "https://bitcoinannotated.com/entries/running-bitcoin/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0200",
+      "date": "2009",
+      "title": "Bitcoin software v0.1 is released",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-01-09",
+        "summary": "Bitcoin v0.1, including source code, was made publicly available on SourceForge after Satoshi's 8 January UTC announcement.",
+        "significance": "This turned Bitcoin from a paper into runnable open-source software.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.1 released — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0416",
+      "date": "2009",
+      "title": "Satoshi embeds the Times headline in the Genesis Block",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2009-01-03",
+        "summary": "The Genesis Block embeds the text 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.'",
+        "significance": "The message serves as a timestamp anchor and became a lasting symbol of Bitcoin's historical context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Genesis Block",
+            "url": "https://chainquery.com/stories/genesis-block",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0010",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0417",
+      "date": "2009",
+      "title": "Hal Finney receives the first Bitcoin transaction from Satoshi",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2009-01-12T03:30:25Z",
+        "summary": "This row is the same first 10 BTC Satoshi-to-Finney transfer.",
+        "significance": "Canonicalized to LORE-EVT-0011.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin block 170",
+            "url": "https://mempool.space/block/00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+            "type": "ONCHAIN"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0011",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0418",
+      "date": "2009",
+      "title": "Martti Malmi makes an early known Bitcoin-for-fiat sale",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-10-12",
+        "summary": "New Liberty Standard bought 5,050 BTC from Martti Malmi for $5.02 via PayPal, an early documented BTC-for-fiat trade.",
+        "significance": "A key step from theoretical valuation toward real monetary exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NewLibertyStandard history",
+            "url": "https://bitcoin-institute.pages.dev/participants/newlibertystandard/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0647",
+      "date": "2009",
+      "title": "Satoshi and Hal Finney discuss early Bitcoin bugs and performance",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-01-11 to 2009-01-12",
+        "summary": "Surviving emails show Satoshi and Hal Finney debugging early Bitcoin networking/software issues during launch week.",
+        "significance": "Provides unusually direct evidence of the practical engineering work behind Bitcoin's first days.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi-Hal Finney correspondence archive",
+            "url": "https://satoshi-archive.org/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0648",
+      "date": "2009",
+      "title": "Bitcoin client source code is released publicly",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2009-01-09",
+        "summary": "This row describes the public release of Bitcoin's client/source code.",
+        "significance": "Canonicalized to LORE-EVT-0200.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.1 released — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0200",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0649",
+      "date": "2009",
+      "title": "Early miners collect 50 BTC block rewards on CPUs",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2009",
+        "summary": "Bitcoin v0.1 was configured for CPU generation with an intentionally easy initial difficulty and 50 BTC block subsidy.",
+        "significance": "Captures the hobbyist CPU-mining era before GPU and ASIC specialization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.1 released — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}
