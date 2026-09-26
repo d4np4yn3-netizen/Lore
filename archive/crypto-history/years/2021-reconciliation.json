@@ -6,10 +6,9 @@
   "evidence_file": "2021.json",
   "note": "One resolution row per legacy candidate. Card scoring must use CANONICAL events in the evidence file. RESEARCHED_PENDING_MIGRATION already has evidence in the legacy master and should be migrated; NEEDS_RESEARCH requires more work.",
   "counts": {
-    "CANONICAL": 119,
+    "CANONICAL": 120,
     "CONTEXT": 39,
-    "MERGED": 17,
-    "NEEDS_RESEARCH": 1
+    "MERGED": 17
   },
   "rows": [
     {
@@ -1835,12 +1834,12 @@
         "CEFI",
         "CULTURE"
       ],
-      "legacy_research_state": "CLAIM_CORRECTED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_CORRECTED_CLAIM",
+      "resolution": "CANONICAL",
+      "canonical_key": "2021-blockfi-cade-cunningham-partnership",
       "legacy_canonical_event_id": null,
       "source_confidence": "HIGH",
-      "note": null
+      "note": "Corrected from an unsupported naming-rights implication to the sourced Cade Cunningham partnership."
     },
     {
       "legacy_id": "LORE-EVT-0780",
@@ -2866,5 +2865,6 @@
       "source_confidence": "HIGH",
       "note": "Phrase carefully by legal entity and jurisdiction; do not imply every warning applied identically to Binance.com globally."
     }
-  ]
+  ],
+  "status": "COMPLETE"
 }
