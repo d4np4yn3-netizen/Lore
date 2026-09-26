@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Research is complete through 2018 and the core 2019 timeline is verified/triaged; unresolved 2019 candidates are explicitly held out of scoring until stronger evidence is attached.",
+  "status_note": "Evidence phase active. Canonical research is now complete through 2019 and the major 2020 events are verified; remaining 2020 deep cuts are explicitly held in RESEARCH_NEEDED_SPECIFIC rather than being silently treated as facts.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1198,12 +1198,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-03-12",
+        "summary": "During the global COVID-19 market panic, Bitcoin fell violently alongside traditional risk assets, dropping below $6,000 and later below $5,000 during the wider selloff.",
+        "significance": "Black Thursday shattered the idea that Bitcoin would automatically behave as a crisis hedge and simultaneously stress-tested DeFi liquidation systems.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin crash March 12 2020",
+            "url": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1219,12 +1230,28 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-06 to 2020-09",
+        "summary": "DeFi Summer describes the rapid 2020 expansion of decentralized lending, automated market makers, liquidity mining and yield farming after COMP distribution.",
+        "significance": "It is a major historical era node connecting Compound, Curve, Yearn, SushiSwap, Uniswap and many copycat protocols rather than one single event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound Digest — COMP distribution June 15 2020",
+            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Ethereum.org — DeFi history to 2021",
+            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sushi — vampire attack history",
+            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1242,12 +1269,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-08-28 to 2020-09-09",
+        "summary": "SushiSwap launched as a Uniswap fork with SUSHI liquidity-mining incentives and then migrated more than $800 million of liquidity away from Uniswap in a 'vampire attack.'",
+        "significance": "The episode became a defining demonstration of permissionless forks, liquidity incentives and community-owned protocol competition.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sushi — vampire attack history",
+            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "CoinDesk — SushiSwap liquidity migration",
+            "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1264,12 +1302,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-08-11",
+        "summary": "MicroStrategy announced it had purchased 21,454 BTC for $250 million and adopted Bitcoin as its primary treasury reserve asset.",
+        "significance": "The move created the modern corporate Bitcoin treasury playbook and turned a public operating company into a leveraged proxy for Bitcoin exposure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — MicroStrategy adopts Bitcoin treasury reserve",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849dex991.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3022,12 +3066,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-05-11",
+        "summary": "At block 630,000, Bitcoin's block subsidy fell from 12.5 BTC to 6.25 BTC.",
+        "significance": "The third halving reinforced Bitcoin's programmed scarcity just months before the institutional treasury-adoption wave.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3043,12 +3093,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-06-15",
+        "summary": "Compound began distributing COMP governance tokens to protocol users who supplied or borrowed assets.",
+        "significance": "The distribution ignited the liquidity-mining and yield-farming boom that defined DeFi Summer.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound Digest — COMP distribution June 15 2020",
+            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3065,12 +3121,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-07-17",
+        "summary": "Andre Cronje launched the YFI governance token with no pre-mine, investor sale or founder allocation, distributing the initial 30,000 tokens through liquidity provision.",
+        "significance": "YFI became the defining 'fair launch' of DeFi Summer and helped turn yield optimization into a community-governed movement.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Yearn historical governance explainer",
+            "url": "https://medium.com/iearn/yearn-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Yearn history / July 17 YFI launch",
+            "url": "https://medium.com/quantum-economics/yearn-is-the-future-of-defi-and-defi-is-the-future-of-finance-4822b9f9409",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3088,12 +3155,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-16",
+        "summary": "Uniswap launched the UNI governance token and allocated 15% of the genesis supply for immediate distribution to historical users and liquidity providers.",
+        "significance": "The airdrop became the canonical retroactive token distribution and reset competitive dynamics after SushiSwap's attack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — Introducing UNI",
+            "url": "https://blog.uniswap.org/uni",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3110,12 +3183,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-21",
+        "summary": "PayPal announced a service allowing US users to buy, hold and sell Bitcoin, Ether, Bitcoin Cash and Litecoin, with plans to use crypto as a funding source at merchants.",
+        "significance": "PayPal brought direct crypto access to a vast mainstream payments user base and signaled a major fintech shift toward digital assets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PayPal — crypto buy/hold/sell service",
+            "url": "https://newsroom.paypal-corp.com/2020-10-21-PayPal-Launches-New-Service-Enabling-Users-to-Buy-Hold-and-Sell-Cryptocurrency",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3131,12 +3210,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-01T12:00:23Z",
+        "summary": "Ethereum's Beacon Chain produced its genesis block on 1 December 2020 and began running proof-of-stake consensus alongside the existing proof-of-work chain.",
+        "significance": "The Beacon Chain was the decisive live precursor to Ethereum's 2022 Merge.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Beacon Chain",
+            "url": "https://ethereum.org/roadmap/beacon-chain/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — fork timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3862,12 +3952,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-01",
+        "summary": "The CFTC sued BitMEX entities and founders over alleged unregistered derivatives operations and AML failures, while US prosecutors separately charged four executives with Bank Secrecy Act offenses.",
+        "significance": "The coordinated action was a watershed enforcement event for offshore crypto derivatives platforms.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CFTC — BitMEX enforcement action",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/8270-20",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "DOJ — BitMEX founders charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/founders-and-executives-shore-cryptocurrency-derivatives-exchange-charged-violation",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3952,12 +4053,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-20",
+        "summary": "The Central Bank of The Bahamas began national rollout of the Sand Dollar, a digital version of the Bahamian dollar.",
+        "significance": "The Sand Dollar became the first widely recognized fully deployed central-bank digital currency at national scale.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Central Bank of Bahamas — Sand Dollar rollout",
+            "url": "https://www.centralbankbahamas.com/news/public-notices/the-sand-dollar-is-on-schedule-for-gradual-national-release-to-the-bahamas-in-mid-october-2020",
+            "type": "CENTRAL_BANK"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3996,11 +4103,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4193,11 +4300,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4877,12 +4984,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-11-03 to 2020-11-05",
+        "summary": "US authorities seized approximately 69,370 BTC linked to funds stolen from Silk Road and filed a civil forfeiture complaint days later.",
+        "significance": "At the time it was the largest cryptocurrency seizure announced by the US Department of Justice and added a huge new government Bitcoin holding.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — November 2020 Silk Road-linked Bitcoin seizure",
+            "url": "https://www.justice.gov/usao-ndca/pr/united-states-files-civil-action-forfeit-cryptocurrency-valued-over-one-billion-us",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5964,12 +6077,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-03",
+        "summary": "Solana initialized its Mainnet Beta with a global validator community in March 2020.",
+        "significance": "Solana introduced a high-throughput alternative smart-contract architecture that later became one of the largest non-Ethereum crypto ecosystems.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana — 2020 year in review",
+            "url": "https://solana.com/uk/news/year-in-review-2020",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Solana — May 2020 newsletter",
+            "url": "https://solana.com/nl/news/may-newsletter",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5986,12 +6110,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-09",
+        "summary": "Avalanche launched its mainnet in September 2020.",
+        "significance": "Avalanche became a major smart-contract and subnet ecosystem built around the Avalanche consensus family.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Avalanche Support — mainnet history",
+            "url": "https://support.avax.network/en/articles/8460478-what-is-a-mainnet",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6009,11 +6139,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -6030,12 +6160,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-01",
+        "summary": "Aave V1 launched in January 2020 after the ETHLend team rebuilt its peer-to-peer lending model around pooled liquidity.",
+        "significance": "Aave became one of DeFi's dominant lending protocols and helped popularize flash loans and pooled money markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave Labs — historical contributions / Aave V1",
+            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6052,12 +6188,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-08-11 to 2020-08-13",
+        "summary": "Yam Finance launched after roughly ten days of development, rapidly attracted hundreds of millions of dollars of staked assets and then disclosed a critical rebase/governance bug.",
+        "significance": "YAM became the perfect symbol of DeFi Summer's speed, experimental 'food token' culture and smart-contract risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — DeFi history to 2021",
+            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6999,11 +7141,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -7507,12 +7649,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2020-03-12 to 2020-03-13",
+        "summary": "MakerDAO suffered severe liquidation stress during Black Thursday as collateral prices collapsed and congestion impaired keepers, producing zero-bid auctions and protocol bad debt.",
+        "significance": "The crisis became DeFi's first major systemic stress test and forced emergency governance, risk changes and new collateral choices.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7529,12 +7677,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-05-18",
+        "summary": "Uniswap v2 deployed to Ethereum mainnet with arbitrary ERC-20/ERC-20 pairs, flash swaps and improved oracle functionality.",
+        "significance": "V2 turned Uniswap from an elegant proof of concept into a major decentralized exchange and the platform targeted by SushiSwap's vampire attack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — v2 mainnet launch",
+            "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v2",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7551,12 +7705,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-08",
+        "summary": "Square announced the purchase of approximately 4,709 BTC for $50 million, about 1% of its assets at the time.",
+        "significance": "Square's purchase reinforced the emerging idea that public technology companies could hold Bitcoin on their balance sheets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Square — invests $50M in Bitcoin",
+            "url": "https://squareup.com/us/en/press/2020-bitcoin-investment",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7978,11 +8138,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -8197,12 +8357,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-05-12",
+        "summary": "Telegram founder Pavel Durov announced that Telegram was ending its involvement in the original TON blockchain after a US court blocked the planned Gram distribution.",
+        "significance": "The shutdown showed that even a globally distributed technology project backed by a huge private token raise could be stopped by securities enforcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pavel Durov — What Was TON And Why It Is Over",
+            "url": "https://telegra.ph/What-Was-TON-And-Why-It-Is-Over-05-12",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8320,11 +8486,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -8415,12 +8581,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-07-22",
+        "summary": "The US Office of the Comptroller of the Currency clarified that national banks and federal savings associations may provide cryptocurrency custody services.",
+        "significance": "The interpretation opened a formal route for federally chartered banks to hold cryptographic keys and offer crypto custody.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OCC — national banks may provide crypto custody",
+            "url": "https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-98.html",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8643,12 +8815,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-03-04",
+        "summary": "India's Supreme Court set aside the RBI's 2018 circular that had prohibited regulated entities from providing banking services to crypto businesses.",
+        "significance": "The decision reopened banking access to India's crypto sector and became a landmark judicial check on a central-bank restriction.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Supreme Court of India — IAMAI v RBI judgment",
+            "url": "https://indiankanoon.org/doc/12397485/",
+            "type": "COURT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8803,11 +8981,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -8967,14 +9145,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2020-10-20",
+        "summary": "This is the same Sand Dollar national CBDC rollout as LORE-EVT-0151.",
+        "significance": "Canonicalized to LORE-EVT-0151.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Central Bank of Bahamas — Sand Dollar rollout",
+            "url": "https://www.centralbankbahamas.com/news/public-notices/the-sand-dollar-is-on-schedule-for-gradual-national-release-to-the-bahamas-in-mid-october-2020",
+            "type": "CENTRAL_BANK"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0151",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -9011,11 +9195,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -9521,11 +9705,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -9703,12 +9887,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-17",
+        "summary": "The Graph launched its decentralized indexing network mainnet.",
+        "significance": "The Graph became core data-query infrastructure for decentralized applications and a major piece of Web3's middleware stack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Graph — mainnet launch",
+            "url": "https://thegraph.com/blog/the-graph-network-launches-mainnet/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9725,12 +9915,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-15",
+        "summary": "Filecoin mainnet went live around 15:00 UTC on 15 October 2020.",
+        "significance": "Filecoin created a live token-incentivized decentralized storage marketplace after one of the ICO era's largest fundraises.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Filecoin — mainnet is live",
+            "url": "https://www.filecoin.io/blog/filecoin-mainnet-is-live",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9813,11 +10009,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -9879,12 +10075,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-05-26",
+        "summary": "Web3 Foundation launched the initial version of Polkadot on 26 May 2020.",
+        "significance": "Polkadot became a major multi-chain architecture built around shared security and interoperability.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Web3 Foundation — Polkadot is live",
+            "url": "https://web3.foundation/press/polkadot-is-live/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10077,11 +10279,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -10216,11 +10418,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -10238,11 +10440,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -12270,14 +12472,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2020-03-12",
+        "summary": "Bitcoin's plunge below $6,000 and then $5,000 was part of the same Black Thursday crash.",
+        "significance": "Price detail belongs under the canonical March 12 crash.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Bitcoin crash March 12 2020",
+            "url": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0040",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -12293,14 +12501,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2020-03-12",
+        "summary": "Zero-bid Maker collateral auctions were a key failure mode during Black Thursday.",
+        "significance": "Canonicalized as a technical subevent of the Maker Black Thursday crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0291",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -12315,14 +12529,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2020-06-15",
+        "summary": "COMP distribution triggered the yield-farming frenzy associated with Compound.",
+        "significance": "Canonicalized under the COMP liquidity-mining launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound Digest — COMP distribution June 15 2020",
+            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0111",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -12337,11 +12557,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -12360,14 +12580,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2020-09-09",
+        "summary": "The large liquidity migration from Uniswap to SushiSwap was the execution phase of the canonical vampire attack.",
+        "significance": "Canonicalized to LORE-EVT-0042.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — SushiSwap liquidity migration",
+            "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0042",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -12382,14 +12608,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2020-09",
+        "summary": "Chef Nomi sold developer-fund tokens amid accusations of a rug pull, handed control to Sam Bankman-Fried and later returned funds.",
+        "significance": "The founder drama made SushiSwap one of the most chaotic and memorable governance stories of DeFi Summer.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Sushi — vampire attack history",
+            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "CoinDesk — SushiSwap liquidity migration",
+            "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0042",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -12404,14 +12641,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2020-07-17",
+        "summary": "YFI's no-pre-mine distribution is the core mechanism of the canonical Yearn/YFI launch.",
+        "significance": "Canonicalized to LORE-EVT-0112.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Yearn historical governance explainer",
+            "url": "https://medium.com/iearn/yearn-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Yearn history / July 17 YFI launch",
+            "url": "https://medium.com/quantum-economics/yearn-is-the-future-of-defi-and-defi-is-the-future-of-finance-4822b9f9409",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0112",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -12426,14 +12674,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2020-08-12",
+        "summary": "Yam's team warned users after discovering the governance/rebase bug.",
+        "significance": "Canonicalized as the failure phase of the YAM event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — DeFi history to 2021",
+            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0231",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -12449,14 +12703,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020 onward",
+        "summary": "MicroStrategy CEO Michael Saylor became one of Bitcoin's most prominent corporate advocates after the treasury purchase.",
+        "significance": "Founder/advocacy context flows from the canonical treasury event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — MicroStrategy adopts Bitcoin treasury reserve",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849dex991.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0043",
+        "relation": "PEOPLE_CONTEXT",
         "notes": null
       }
     },
@@ -12471,14 +12731,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2020-11-12",
+        "summary": "PayPal later announced that all eligible US account holders could buy, hold and sell supported cryptocurrencies.",
+        "significance": "This was the consumer rollout phase of the canonical PayPal crypto announcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PayPal — crypto buy/hold/sell service",
+            "url": "https://newsroom.paypal-corp.com/2020-10-21-PayPal-Launches-New-Service-Enabling-Users-to-Buy-Hold-and-Sell-Cryptocurrency",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0114",
+        "relation": "ROLLOUT",
         "notes": null
       }
     },
@@ -12492,12 +12758,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-14",
+        "summary": "Ethereum's staking deposit contract was deployed on mainnet as the gateway for validators joining the Beacon Chain.",
+        "significance": "The contract made the long-planned proof-of-stake transition economically real by allowing ETH to be committed to consensus.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — fork timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -12513,14 +12785,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2020-11-24 to 2020-11-27",
+        "summary": "The Beacon Chain reached the minimum validator-deposit threshold required for genesis before the deadline.",
+        "significance": "Reaching the threshold confirmed sufficient economic participation for proof-of-stake genesis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Beacon Chain",
+            "url": "https://ethereum.org/roadmap/beacon-chain/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — fork timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0115",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -14265,11 +14548,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -14390,11 +14673,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -14480,11 +14763,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -14569,11 +14852,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -14664,11 +14947,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -14940,11 +15223,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15139,14 +15422,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020",
+        "summary": "Total value locked became a headline metric used to compare DeFi protocols and the rapidly expanding sector.",
+        "significance": "Important measurement/culture context for DeFi Summer but not a discrete card event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Ethereum.org — DeFi history to 2021",
+            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0041",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15250,11 +15539,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15450,12 +15739,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-07-29T21:44:51Z",
+        "summary": "Cardano transitioned from Byron to the Shelley era, introducing stake pools, delegation and the path toward decentralized block production.",
+        "significance": "Shelley was Cardano's defining proof-of-stake decentralization milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cardano — Shelley hard fork",
+            "url": "https://cardanofoundation.org/blog/shelley-is-here-the-cardano-blockchain-undergoes-a-historic-hard-fork",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15589,11 +15884,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15611,11 +15906,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15654,14 +15949,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2020-05-26",
+        "summary": "This is the same Polkadot mainnet launch as LORE-EVT-0391.",
+        "significance": "Canonicalized to LORE-EVT-0391.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Web3 Foundation — Polkadot is live",
+            "url": "https://web3.foundation/press/polkadot-is-live/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0391",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -18616,14 +18917,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2020-05-11",
+        "summary": "This is the same third Bitcoin halving as LORE-EVT-0110.",
+        "significance": "Canonicalized to the halving event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0110",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -18639,11 +18946,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18661,11 +18968,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18683,11 +18990,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18705,11 +19012,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18727,11 +19034,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18749,11 +19056,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18771,11 +19078,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18792,11 +19099,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18814,11 +19121,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18836,14 +19143,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020",
+        "summary": "Food-themed yield-farming tokens such as YAM, Sushi and Pickle became a defining visual/cultural motif of DeFi Summer.",
+        "significance": "Strong LORE/book context, but individual protocols make cleaner card events.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Ethereum.org — DeFi history to 2021",
+            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sushi — vampire attack history",
+            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0041",
+        "relation": "CULTURE_CONTEXT",
         "notes": null
       }
     },
@@ -18859,11 +19177,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18881,11 +19199,11 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18903,11 +19221,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18925,11 +19243,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21989,11 +22307,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22085,11 +22403,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22623,11 +22941,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22645,11 +22963,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22717,11 +23035,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -22999,11 +23317,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23565,11 +23883,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24457,11 +24775,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25134,12 +25452,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-07-15",
+        "summary": "Attackers compromised around 130 high-profile Twitter accounts and used some to promote a Bitcoin doubling scam.",
+        "significance": "The incident put a crypto scam onto accounts belonging to some of the world's most recognizable politicians, celebrities and companies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — July 2020 Twitter hack",
+            "url": "https://www.justice.gov/usao-ndca/pr/three-individuals-charged-alleged-roles-twitter-hack",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -25157,14 +25481,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2020-07-15",
+        "summary": "Compromised accounts included prominent figures and companies such as Elon Musk and others, which were used to post the Bitcoin scam.",
+        "significance": "This is the celebrity-account detail of the canonical Twitter hack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — July 2020 Twitter hack",
+            "url": "https://www.justice.gov/usao-ndca/pr/three-individuals-charged-alleged-roles-twitter-hack",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1025",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -25279,11 +25609,11 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25534,11 +25864,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25914,11 +26244,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26186,11 +26516,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26475,11 +26805,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26563,14 +26893,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2020-01",
+        "summary": "The ETHLend-to-Aave transformation culminated in Aave V1's January 2020 launch.",
+        "significance": "Canonicalized under Aave V1.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave Labs — historical contributions / Aave V1",
+            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0230",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -26673,14 +27009,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2020-03",
+        "summary": "Maker governance added USDC collateral during the post-Black-Thursday response to improve Dai liquidity and stability.",
+        "significance": "The change illustrated the trade-off between decentralization and stability in a crisis.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0291",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -26893,11 +27235,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -27169,11 +27511,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -27191,11 +27533,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -27511,14 +27853,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020",
+        "summary": "Compound's governance token let holders delegate voting power and govern protocol upgrades.",
+        "significance": "Governance context is tied to the COMP rollout rather than a separate card event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound Digest — COMP distribution June 15 2020",
+            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0111",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -27534,14 +27882,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2020-09-16",
+        "summary": "Uniswap governance formally launched alongside the UNI token.",
+        "significance": "Governance context belongs under the canonical UNI launch/airdrop.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — Introducing UNI",
+            "url": "https://blog.uniswap.org/uni",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0113",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -28173,11 +28527,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -28370,11 +28724,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -28392,11 +28746,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -28982,11 +29336,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29150,11 +29504,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29172,11 +29526,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29334,11 +29688,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29356,11 +29710,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29378,11 +29732,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29643,11 +29997,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2020",
+        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
+        "significance": "It is excluded from card scoring until the research state is upgraded.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
