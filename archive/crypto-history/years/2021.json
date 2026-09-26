@@ -5,7 +5,7 @@
   "source_master_ref": "492489e9626a657421c59c0b9b8c1105512b3c7e",
   "source_event_count": 184,
   "status": "EVIDENCE_RESEARCH_ACTIVE",
-  "note": "2021 research in progress. Major protocol, scaling, cross-chain, gaming and Terra/Anchor milestones are now verified or linked. Remaining work: CeFi, hacks/deep cuts, regulation, Solana ecosystem, meme/scam side stories, and residual culture entries.",
+  "note": "2021 research nearing completion. Major institutions, governments, NFTs, memes, protocols, gaming, DeFi exploits, exchange stories and DAO milestones are now sourced. Remaining weak/deep-cut rows are being narrowed, moved to correct years or explicitly demoted before scoring.",
   "events": [
     {
       "id": "LORE-EVT-0044",
@@ -592,12 +592,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-12",
+        "summary": "Vitalik Buterin transferred more than 50 trillion SHIB plus other meme tokens to the India COVID-Crypto Relief Fund and other charities.",
+        "significance": "The donation converted unsolicited meme-token wealth into one of crypto's most extraordinary philanthropic events and jolted the meme-token market.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "India Crypto Relief — what happened to Vitalik's SHIB donation",
+            "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
+            "type": "CHARITY_PRIMARY"
+          },
+          {
+            "title": "TechCrunch — Buterin meme-token donations",
+            "url": "https://techcrunch.com/2021/05/12/vitalik-buterin-donates-1-billion-worth-of-meme-coins-to-india-covid-relief-fund/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -826,15 +837,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_MONTH",
+        "exact_date": "2021-03",
+        "summary": "OlympusDAO launched in March 2021 and pioneered protocol-owned liquidity, later popularizing the game-theory meme '(3,3)' around staking and bonding.",
+        "significance": "Olympus created one of DeFi's most copied liquidity models and one of the bull market's most recognizable protocol memes.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Olympus Docs — Protocol Owned Liquidity",
+            "url": "https://docs.olympusdao.finance/main/overview/pol",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "DAO Pulse — OlympusDAO 2021 growth/history",
+            "url": "https://medium.com/dao-pulse/olympusdao-examining-how-community-drives-value-b75801868d21",
+            "type": "SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exact canonical launch day and primary 2021 launch post still need to be attached before full VERIFIED status."
       }
     },
     {
@@ -927,12 +949,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-07",
+        "summary": "The US Department of Justice announced the seizure of 63.7 BTC, then worth about $2.3 million, representing part of the ransom paid after the Colonial Pipeline attack.",
+        "significance": "The recovery became a high-profile demonstration that Bitcoin transactions can be traced and seized despite persistent claims that cryptocurrency is inherently untraceable.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — $2.3M Colonial Pipeline ransom seizure",
+            "url": "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -950,14 +978,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-05-12",
+        "summary": "This is the same Vitalik meme-token charity donation as LORE-EVT-0182.",
+        "significance": "Canonicalized to LORE-EVT-0182.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "India Crypto Relief — what happened to Vitalik's SHIB donation",
+            "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
+            "type": "CHARITY_PRIMARY"
+          },
+          {
+            "title": "TechCrunch — Buterin meme-token donations",
+            "url": "https://techcrunch.com/2021/05/12/vitalik-buterin-donates-1-billion-worth-of-meme-coins-to-india-covid-relief-fund/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0182",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -1163,12 +1202,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021-04 to 2021-05",
+        "summary": "PancakeSwap reported 11 million unique site users and $39.7 billion of April volume, with further rapid user growth in May.",
+        "significance": "PancakeSwap became the defining retail DEX of Binance Smart Chain's 2021 boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PancakeSwap — April/May 2021 recap",
+            "url": "https://pancakeswap.medium.com/pancakeswap-april-may-recap-a4e7cf990f72",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1185,12 +1230,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-16",
+        "summary": "Iron Finance suffered a rapid algorithmic-stablecoin bank run. TITAN collapsed from around $60 to effectively zero within hours while IRON lost its dollar peg.",
+        "significance": "The death spiral became an important precursor to later algorithmic-stablecoin failures and a vivid demonstration of reflexive token-design risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Federal Reserve — Runs on Algorithmic Stablecoins: Iron, Titan and Steel",
+            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/runs-on-algorithmic-stablecoins-evidence-from-iron-titan-and-steel-20220602.html",
+            "type": "GOVERNMENT_RESEARCH"
+          },
+          {
+            "title": "Iron Finance — 17 June 2021 post-mortem archive",
+            "url": "https://www.stableorgone.com/event/sog_ev_iron_2021_06_collapse/",
+            "type": "ARCHIVED_PRIMARY_INDEX"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1538,12 +1594,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-04-21 to 2021-04-23",
+        "summary": "Turkish exchange Thodex halted trading in April 2021 as founder Faruk Fatih Özer left the country and users filed criminal complaints; Turkish authorities opened an investigation and froze accounts.",
+        "significance": "Thodex became one of the era's largest exchange-collapse and alleged-fraud stories, later leading to extraordinary criminal sentences.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Thodex founder leaves Turkey after trading halt",
+            "url": "https://tr.investing.com/news/forex-news/slemlere-kapanan-kripto-para-borsas-thodexin-kurucusu-yurtdsna-ckt--haberturk-2126765",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1560,12 +1622,28 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-08-30 to 2021-10-27",
+        "summary": "C.R.E.A.M. Finance suffered multiple major exploits in 2021, including an AMP reentrancy attack in late August and a roughly $130 million Ethereum-market exploit on 27 October.",
+        "significance": "Repeated failures made CREAM one of the year's clearest examples of composability and lending-protocol security risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "C.R.E.A.M. — AMP exploit post-mortem",
+            "url": "https://medium.com/cream-finance/c-r-e-a-m-finance-post-mortem-amp-exploit-6ceb20a630c5",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "C.R.E.A.M. — Oct. 27 exploit post-mortem",
+            "url": "https://medium.com/cream-finance/post-mortem-exploit-oct-27-507b12bb6f8e",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "C.R.E.A.M. — post-exploit next steps",
+            "url": "https://creamdotfinance.medium.com/moving-forward-post-exploit-next-steps-for-c-r-e-a-m-finance-1ad05e2066d5",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1604,12 +1682,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-07",
+        "summary": "THORChain suffered back-to-back Ethereum-router exploits in July 2021 after earlier router vulnerabilities, forcing trading halts and a treasury-funded recovery plan.",
+        "significance": "The incidents became a major case study in cross-chain protocol attack surfaces and bridge/router security.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "THORChain — ETH Router exploits post-mortem",
+            "url": "https://blog.thorchain.org/post-mortem-eth-router-exploits-1-2-and-premature-return-to-trading-incident/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1654,12 +1738,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-18",
+        "summary": "The Avalanche Foundation announced Avalanche Rush, a $180 million liquidity-mining incentive program starting with Aave and Curve.",
+        "significance": "Rush accelerated Avalanche's DeFi adoption and exemplified the 2021 competition among Layer 1 networks to attract Ethereum applications and liquidity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Avalanche — $180M Avalanche Rush announcement",
+            "url": "https://medium.com/avalancheavax/avalanche-foundation-announces-180m-defi-incentive-program-d320fdfafff7",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Avalanche — Rush growth retrospective",
+            "url": "https://medium.com/avalancheavax/trader-joe-enters-avalanche-rush-with-an-incentives-program-up-to-20m-4646c6c20261",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2107,14 +2202,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_AFTERMATH",
+        "exact_date": "2021-08 onward",
+        "summary": "Avalanche's rapid DeFi growth followed the Avalanche Rush incentives and integrations.",
+        "significance": "Canonicalized as ecosystem-growth context under the Rush announcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Avalanche — $180M Avalanche Rush announcement",
+            "url": "https://medium.com/avalancheavax/avalanche-foundation-announces-180m-defi-incentive-program-d320fdfafff7",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Avalanche — Rush growth retrospective",
+            "url": "https://medium.com/avalancheavax/trader-joe-enters-avalanche-rush-with-an-incentives-program-up-to-20m-4646c6c20261",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0393",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -2284,12 +2390,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-25",
+        "summary": "Gitcoin launched the GTC governance token and GitcoinDAO, retroactively distributing GTC to community participants.",
+        "significance": "The transition moved a major public-goods funding platform toward community governance and became an important DAO-governance experiment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gitcoin — history 2017–2022",
+            "url": "https://gov.gitcoin.co/t/a-brief-history-of-gitcoin-from-2017-2022/9431",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2306,12 +2418,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-08",
+        "summary": "Nouns launched its perpetual model of generating and auctioning one new on-chain Noun every day, with proceeds flowing to a DAO treasury.",
+        "significance": "Nouns combined generative NFTs, continuous auctions and treasury governance into a novel self-funding internet-native organization.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Nouns — official project mechanics",
+            "url": "https://nouns.world/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Nouns launch retrospective",
+            "url": "https://blog.remilia.org/nouns-wtf/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2329,12 +2452,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-11",
+        "summary": "PleasrDAO won the auction for the original Doge meme NFT with a bid of 1,696.9 ETH, worth roughly $4 million at the time.",
+        "significance": "The sale turned one of the internet's most famous memes into a collectively held blockchain cultural artifact.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "PleasrDAO — digital culture collection",
+            "url": "https://pleasr.org/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Know Your Meme — Doge NFT sale",
+            "url": "https://knowyourmeme.com/news/doge-nft-sells-for-over-4-million",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2352,12 +2486,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-09",
+        "summary": "FreeRossDAO won Ross Ulbricht's Genesis Collection NFT auction with a 1,446 ETH bid, about $6.2 million, after raising funds from more than a thousand supporters.",
+        "significance": "The event fused Silk Road history, NFTs, DAO coordination and prison-reform advocacy into an unusually dense piece of crypto lore.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Free Ross — Genesis Collection auction",
+            "url": "https://freeross.org/genesis-collection/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "The Block — FreeRossDAO wins Ulbricht NFT auction",
+            "url": "https://www.theblock.co/news/web3/2021-12-09-freerossdao-emerges-winner-of-imprisoned-silk-road-founders-nft-auction-126980",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2451,12 +2596,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-09",
+        "summary": "Magic Eden began operating in September 2021 as a Solana-focused NFT marketplace.",
+        "significance": "It rapidly became one of the central marketplaces of the Solana NFT ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Magic Eden — launch history",
+            "url": "https://community.magiceden.io/culture/rewards-manifesto",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2976,12 +3127,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-20",
+        "summary": "FTX closed a $900 million Series B funding round from more than 60 investors, valuing the exchange at $18 billion.",
+        "significance": "The enormous raise captured FTX's extraordinary ascent and the institutional confidence that preceded its collapse little more than a year later.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FTX — $900M Series B announcement",
+            "url": "https://www.prnewswire.co.uk/news-releases/ftx-trading-ltd-closes-900m-series-b-round-largest-raise-in-crypto-exchange-history-847881913.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3012,7 +3169,7 @@
     },
     {
       "id": "LORE-EVT-0776",
-      "date": "2021",
+      "date": "2020-08-25",
       "title": "FTX acquires Blockfolio",
       "branch": [
         "FTX",
@@ -3021,15 +3178,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2020-08-25",
+        "summary": "FTX acquired portfolio-tracking app Blockfolio for roughly $150 million in August 2020, not 2021.",
+        "significance": "The acquisition was a major early attempt by the derivatives-focused exchange to build a mass retail funnel.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — FTX acquires Blockfolio",
+            "url": "https://www.theblock.co/news/deals/2020-08-25-ftx-blockfolio-crypto-app-acquisition-75965",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to the 2020 canonical year file during archive rebuild."
       }
     },
     {
@@ -3043,14 +3206,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "FTX.US's sports sponsorship expansion included the MLB deal and other high-profile partnerships.",
+        "significance": "Use the specific MLB and arena deals rather than this broad row for card scoring.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MLB — FTX global partnership",
+            "url": "https://www.mlb.com/amp/press-release/press-release-mlb-ftx-cryptocurrency-partnership.html",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0915",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -3154,12 +3323,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2021-02",
+        "summary": "GBTC began trading below the net asset value of its Bitcoin holdings for the first time in late February 2021 after years of persistent premiums.",
+        "significance": "The discount broke a lucrative institutional arbitrage trade and later became a key ingredient in leverage and credit stresses across crypto funds.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — GBTC begins trading at discount",
+            "url": "https://www.theblock.co/article/98973/grayscale-bitcoin-trust-discount-premium/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3542,12 +3717,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-29",
+        "summary": "Formula 1 announced Crypto.com as a global partner and the inaugural global partner of the new F1 Sprint series.",
+        "significance": "The partnership was another major step in crypto brands saturating global sports sponsorship during the 2021 boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Formula 1 — Crypto.com global partnership",
+            "url": "https://www.formula1.com/en/latest/article/formula-1-anosystem-crypto-com-as-inaugural-global-partner-of-the-f1-sprint.ozYI9zd0622tZyvroYhcM",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3564,12 +3745,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-23",
+        "summary": "Major League Baseball and FTX announced the first global partnership between a professional sports league and a cryptocurrency exchange; FTX branding subsequently appeared on umpire uniforms.",
+        "significance": "The deal became a highly visible symbol of crypto exchanges buying mainstream cultural legitimacy during the bull market.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MLB — FTX global partnership",
+            "url": "https://www.mlb.com/amp/press-release/press-release-mlb-ftx-cryptocurrency-partnership.html",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3721,14 +3908,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2021-05-16",
+        "summary": "Days after the charity transfer, Buterin sent roughly 410 trillion SHIB to an inaccessible burn address, removing the overwhelming majority of his remaining gifted SHIB from circulation.",
+        "significance": "The burn became a defining SHIB origin-lore moment and reduced the unusual concentration of supply that had been sent to Buterin without his request.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "On-chain burn transaction and contemporaneous community record",
+            "url": "https://etherscan.io/address/0xdead000000000000000042069420694206942069",
+            "type": "ONCHAIN"
+          },
+          {
+            "title": "India Crypto Relief — what happened to Vitalik's SHIB donation",
+            "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
+            "type": "CHARITY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0182",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -3838,14 +4036,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2021",
-        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
-        "significance": "Keep in the research pool; do not score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-12-09",
+        "summary": "This is the same FreeRossDAO purchase of Ulbricht's Genesis Collection as LORE-EVT-0603.",
+        "significance": "Canonicalized to LORE-EVT-0603.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Free Ross — Genesis Collection auction",
+            "url": "https://freeross.org/genesis-collection/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "The Block — FreeRossDAO wins Ulbricht NFT auction",
+            "url": "https://www.theblock.co/news/web3/2021-12-09-freerossdao-emerges-winner-of-imprisoned-silk-road-founders-nft-auction-126980",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0603",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -3860,14 +4069,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2021-06-07",
+        "summary": "This is the same partial Colonial Pipeline ransom recovery as LORE-EVT-0265.",
+        "significance": "Canonicalized to LORE-EVT-0265.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — $2.3M Colonial Pipeline ransom seizure",
+            "url": "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0265",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -4048,12 +4263,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-17",
+        "summary": "Consensys reported that MetaMask had reached approximately 21 million monthly active users, 38 times its 2020 user base.",
+        "significance": "The milestone showed how DeFi and NFTs had pushed a self-custodial wallet into mass Web3 infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Consensys — MetaMask surpasses 21M MAUs",
+            "url": "https://consensys.io/blog/metamask-surpasses-21-million-maus-as-consensys-raises-200-million-to-make-web3-universally-easy-to-use-access-and-build-on",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4070,12 +4291,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-04",
+        "summary": "Phantom entered public beta in April 2021 and grew to tens of thousands of users by its July Series A announcement.",
+        "significance": "Phantom became the defining consumer wallet of the Solana ecosystem and an important gateway to its DeFi and NFT boom.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Phantom — $9M Series A announcement",
+            "url": "https://phantom.com/learn/blog/phantom-raises-usd9m-from-a16z-variant-jump-capital-and-more",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Blockworks — Phantom beta/user growth",
+            "url": "https://blockworks.com/news/andreessen-horowitz-leads-9m-series-a-round-for-crypto-wallet-phantom",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4383,12 +4615,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-09-29",
+        "summary": "Compound governance Proposal 62 introduced a Comptroller bug that allowed some accounts to accrue and claim far more COMP than intended.",
+        "significance": "The incident showed that decentralized governance itself can deploy catastrophic code and that slow governance processes can complicate emergency response.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound — COMP Bug Fix update",
+            "url": "https://compound.substack.com/p/compound-treasury-updates-comp-bug",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4406,14 +4644,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-08-08",
+        "summary": "The one-Noun-per-day auction/treasury system is the core governance mechanic of the same Nouns launch.",
+        "significance": "Canonicalized to LORE-EVT-0600.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Nouns — official project mechanics",
+            "url": "https://nouns.world/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Nouns launch retrospective",
+            "url": "https://blog.remilia.org/nouns-wtf/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0600",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -4574,7 +4823,7 @@
     },
     {
       "id": "LORE-EVT-1201",
-      "date": "2021",
+      "date": "2022-01-03",
       "title": "Polymarket faces US regulatory scrutiny",
       "branch": [
         "DEFI",
@@ -4583,15 +4832,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-01-03",
+        "summary": "The CFTC's formal Polymarket enforcement settlement was announced on 3 January 2022, not in 2021.",
+        "significance": "The order was a landmark US derivatives-regulation case for blockchain prediction markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CFTC — Polymarket settlement",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/8478-22",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to 2022 year file during rebuild."
       }
     },
     {
@@ -4727,12 +4982,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Binance faced a wave of regulatory restrictions and warnings across multiple jurisdictions in 2021, including its June decision to stop serving Ontario users.",
+        "significance": "The coordinated pressure marked the end of the exchange industry's earlier borderless-regulation phase and pushed Binance toward a much larger compliance operation.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Binance — Ontario restriction notice",
+            "url": "https://www.binance.com/en/support/announcement/detail/ba03469c86f34546bd25faf414730733",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
