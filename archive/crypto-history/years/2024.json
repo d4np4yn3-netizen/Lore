@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0.0",
+  "year": 2024,
+  "generated": "2026-09-26",
+  "purpose": "Evidence-ready working file for LORE Crypto History.",
+  "scoring_status": "NOT_STARTED",
+  "progress_note": "13 core/canonical 2024 events verified. Deep-cut research still to add: German government BTC sales, Bhutan mining/holdings, meme-coin/Pump.fun cycle, Polymarket, TON/Telegram games and selected hacks/tokenization milestones.",
+  "entries": [
+    {
+      "master_event_id": "LORE-EVT-0062",
+      "date": "2024-01-10",
+      "title": "SEC approves US spot Bitcoin exchange-traded products",
+      "state": "VERIFIED",
+      "summary": "The US Securities and Exchange Commission approved exchange rule changes allowing multiple spot Bitcoin exchange-traded product shares to list and trade. The products began public trading on 11 January.",
+      "significance": "After more than a decade of rejected applications, spot Bitcoin ETP approval opened a direct regulated securities-market channel for US investors to gain Bitcoin price exposure.",
+      "sources": [
+        {
+          "title": "SEC — Statement on Spot Bitcoin ETP Approval",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-01-11",
+      "title": "US spot Bitcoin ETPs begin trading with about $4.6 billion first-day volume",
+      "state": "VERIFIED",
+      "summary": "The newly approved US spot Bitcoin ETPs commenced public trading on 11 January 2024 and collectively recorded about $4.6 billion of first-day trading volume.",
+      "significance": "The launch converted the long ETF battle into a live institutional market and immediately created some of the most heavily traded new crypto investment products.",
+      "sources": [
+        {
+          "title": "SEC-filed issuer disclosure on first-day spot Bitcoin ETP trading",
+          "url": "https://www.sec.gov/Archives/edgar/data/1787803/000149315226011043/form424b5.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-03-13T13:55:35Z",
+      "title": "Ethereum Dencun activates blobs and proto-danksharding",
+      "state": "VERIFIED",
+      "summary": "Ethereum's Cancun-Deneb upgrade activated at epoch 269,568 and introduced EIP-4844 blob transactions for cheaper temporary rollup data storage.",
+      "significance": "Dencun materially reduced data costs for Ethereum layer-2 rollups and was the biggest execution/scaling upgrade between Shapella and Pectra.",
+      "sources": [
+        {
+          "title": "Ethereum Foundation — Dencun Mainnet Announcement",
+          "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ethereum.org — Dencun FAQ",
+          "url": "https://ethereum.org/roadmap/dencun/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-03-20",
+      "title": "BlackRock launches BUIDL tokenized fund on Ethereum",
+      "state": "VERIFIED",
+      "summary": "BlackRock unveiled the BlackRock USD Institutional Digital Liquidity Fund, BUIDL, its first tokenized fund issued on a public blockchain, using Ethereum and Securitize infrastructure.",
+      "significance": "BUIDL became a flagship bridge between traditional asset management and public-blockchain tokenization of cash and Treasury-style assets.",
+      "sources": [
+        {
+          "title": "Securitize — BlackRock launches BUIDL",
+          "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+          "type": "PARTNER_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": "LORE-EVT-0063",
+      "date": "2024-04-20T00:09:27Z",
+      "title": "Bitcoin completes its fourth halving at block 840,000",
+      "state": "VERIFIED",
+      "summary": "Bitcoin block 840,000 was mined on 20 April 2024, reducing the block subsidy from 6.25 BTC to 3.125 BTC.",
+      "significance": "The fourth halving again cut new Bitcoin issuance in half and coincided exactly with the activation of the Runes protocol.",
+      "sources": [
+        {
+          "title": "Bitcoin.org — Halving history",
+          "url": "https://bitcoin.org/en/halving",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ordinals.com — Bitcoin block 840000",
+          "url": "https://ordinals.com/block/840000",
+          "type": "ONCHAIN_REFERENCE"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-04-20T00:09:27Z",
+      "title": "Runes protocol activates at Bitcoin block 840,000",
+      "state": "VERIFIED",
+      "summary": "Casey Rodarmor's Runes fungible-token protocol activated at block 840,000, the same block as Bitcoin's fourth halving; hundreds of runes were etched in the activation block.",
+      "significance": "Runes created a Bitcoin-native fungible-token system integrated with Ordinals tooling and triggered a new burst of competition for Bitcoin blockspace.",
+      "sources": [
+        {
+          "title": "Ordinal Theory Handbook — Runes specification",
+          "url": "https://docs.ordinals.com/runes/specification.html",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ordinals.com — Block 840000",
+          "url": "https://ordinals.com/block/840000",
+          "type": "ONCHAIN_REFERENCE"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-04-30",
+      "title": "Hong Kong launches Asia's first spot Bitcoin and Ether ETFs",
+      "state": "VERIFIED",
+      "summary": "Hong Kong Exchanges and Clearing welcomed six spot virtual-asset ETFs covering Bitcoin and Ether to trading on 30 April 2024.",
+      "significance": "Hong Kong became a major Asian regulated market for spot Bitcoin and Ether exchange-traded products, including Ether products months before US trading began.",
+      "sources": [
+        {
+          "title": "HKEX — Asia's First Spot Virtual Asset ETFs",
+          "url": "https://www.hkex.com.hk/News/News-Release/2024/240430news?sc_lang=en",
+          "type": "EXCHANGE_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": "LORE-EVT-0064",
+      "date": "2024-05-23",
+      "title": "SEC approves exchange rule changes for US spot Ether ETPs",
+      "state": "VERIFIED",
+      "summary": "The SEC granted accelerated approval to proposed rule changes from NYSE Arca, Nasdaq and Cboe BZX to list and trade shares of Ether-based exchange-traded products.",
+      "significance": "The decision extended the regulated US spot-crypto ETP framework beyond Bitcoin to Ether and cleared the principal exchange-listing hurdle for spot Ether products.",
+      "sources": [
+        {
+          "title": "SEC — Ether-Based ETP Approval Order",
+          "url": "https://www.sec.gov/rule-release/34-100224",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-05-31",
+      "title": "DMM Bitcoin loses 4,502.9 BTC",
+      "state": "VERIFIED_WITH_SECONDARY",
+      "summary": "Japanese exchange DMM Bitcoin reported an unauthorized outflow of 4,502.9 BTC, valued at roughly 48.2 billion yen at the time.",
+      "significance": "The loss was one of Japan's largest cryptocurrency thefts since Coincheck and became another major exchange-custody failure.",
+      "sources": [
+        {
+          "title": "Reuters — DMM Bitcoin reports 4,502.9 BTC loss",
+          "url": "https://www.reuters.com/technology/dmm-bitcoin-says-bitcoin-worth-about-482-bln-yen-leaked-2024-05-31/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-07-05",
+      "title": "Mt. Gox begins Bitcoin and Bitcoin Cash repayments to creditors",
+      "state": "VERIFIED",
+      "summary": "The Mt. Gox rehabilitation trustee began repayments in Bitcoin and Bitcoin Cash through designated exchanges in July 2024, more than a decade after the exchange collapsed.",
+      "significance": "The repayments finally returned crypto assets to thousands of creditors from the defining exchange failure of Bitcoin's early history.",
+      "sources": [
+        {
+          "title": "Mt. Gox Trustee — July 5 repayment notice",
+          "url": "https://www.mtgox.com/img/pdf/20240705_02_announcement_en.pdf",
+          "type": "COURT_TRUSTEE_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-07-18",
+      "title": "WazirX loses more than $230 million in multisig-wallet cyberattack",
+      "state": "VERIFIED",
+      "summary": "WazirX disclosed a cyberattack on an Ethereum multisig wallet using Liminal infrastructure, resulting in theft of digital assets exceeding $230 million and the suspension of withdrawals.",
+      "significance": "The attack became one of the largest crypto thefts in Indian market history and severely impaired the exchange's ability to match customer token balances.",
+      "sources": [
+        {
+          "title": "WazirX — Preliminary Report",
+          "url": "https://wazirx.com/blog/preliminary-report-cyber-attack-on-wazirx-multisig-wallet/",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "WazirX — Asset protection update",
+          "url": "https://wazirx.com/blog/important-update-cyber-attack-incident-and-measures-to-protect-your-assets/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-07-23",
+      "title": "US spot Ether ETPs begin trading",
+      "state": "VERIFIED",
+      "summary": "Spot Ether exchange-traded products, including Grayscale ETHE and ETH, began trading on US national securities exchanges on 23 July 2024 after registration statements became effective.",
+      "significance": "Ether joined Bitcoin as a crypto asset available through live US spot exchange-traded products, deepening institutional access to the second-largest blockchain asset.",
+      "sources": [
+        {
+          "title": "Grayscale SEC filing — ETHE/ETH begin trading",
+          "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024085501/etheeth_press_release_7.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2024-12-05",
+      "title": "Bitcoin trades above $100,000 for the first time",
+      "state": "VERIFIED_WITH_MARKET_SOURCE",
+      "summary": "Bitcoin crossed the $100,000 level for the first time on 5 December 2024.",
+      "significance": "Six figures became one of Bitcoin's most symbolic price milestones, arriving in the same year as US spot ETP launches and the fourth halving.",
+      "sources": [
+        {
+          "title": "Reuters — Bitcoin rises above $100,000",
+          "url": "https://www.reuters.com/technology/view-bitcoin-surges-above-100000-2024-12-05/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "notes": "Exact intraday high depends on exchange/index; card copy should use the threshold rather than one universal all-time-high figure."
+    }
+  ]
+}
