@@ -15,6 +15,7 @@
   ],
   "total_raw_candidates": 1229,
   "reconciled_years": [
+    "2020",
     "2021",
     "2022",
     "2023",
@@ -22,7 +23,7 @@
     "2025"
   ],
   "current_year": "2026",
-  "next_reconciliation_target": "2020",
+  "next_reconciliation_target": "2019",
   "years": {
     "1976": {
       "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
@@ -205,10 +206,12 @@
       "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
     },
     "2020": {
-      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "status": "CANONICAL_RECONCILED",
       "file": "2020.json",
+      "reconciliation_file": "2020-reconciliation.json",
+      "canonical_event_count": 71,
       "raw_candidate_count": 115,
-      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+      "score_status": "NOT_STARTED"
     },
     "2021": {
       "status": "CANONICAL_RECONCILED",
