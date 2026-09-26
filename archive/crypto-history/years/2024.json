@@ -4,7 +4,7 @@
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
   "score_status": "NOT_STARTED",
-  "event_count": 29,
+  "event_count": 33,
   "events": [
     {
       "id": "LORE-CAN-2024-017",
@@ -136,6 +136,28 @@
         }
       ],
       "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-028",
+      "date": "2024-02",
+      "title": "Ethena launches USDe",
+      "branches": [
+        "STABLECOINS",
+        "DEFI"
+      ],
+      "research_state": "VERIFIED_WITH_MONTH",
+      "source_confidence": "HIGH",
+      "summary": "Ethena launched USDe in February 2024, using crypto collateral and derivatives hedging to create a synthetic dollar with protocol-generated yield mechanics.",
+      "significance": "USDe rapidly became a major new dollar-denominated crypto asset and revived debate around synthetic, yield-bearing stablecoin designs after Terra.",
+      "sources": [
+        {
+          "title": "Ethena — first-party history of USDe launch",
+          "url": "https://pay.ethena.fi/blog/introducing-ethena-pay",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "First-party source confirms February 2024; add exact initial production date if a contemporaneous archive is recovered."
     },
     {
       "id": "LORE-CAN-2024-020",
@@ -378,6 +400,34 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-033",
+      "date": "2024-05-16",
+      "title": "Notcoin turns a viral Telegram clicker game into a TON token",
+      "branches": [
+        "TON",
+        "GAMING",
+        "CULTURE",
+        "AIRDROPS"
+      ],
+      "research_state": "VERIFIED_WITH_CONTEMPORARY_SOURCE",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Notcoin launched NOT on TON on 16 May 2024 after growing its Telegram Mini App to tens of millions of players, distributing more than 80 billion tokens to participants.",
+      "significance": "Notcoin demonstrated a consumer-crypto funnel where millions of Telegram users could enter a token economy through a simple mini-game.",
+      "sources": [
+        {
+          "title": "The Block — Notcoin goes live on TON",
+          "url": "https://www.theblock.co/news/ecosystems/2024-05-16-notcoin-not-token-airdrop-ton-294864",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Notcoin Community — May 16 launch posts",
+          "url": "https://t.me/s/notcoin/511",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-023",
       "date": "2024-05-20",
       "title": "UK High Court rules Craig Wright is not Satoshi Nakamoto",
@@ -611,6 +661,55 @@
       ],
       "score_status": "NOT_SCORED",
       "notes": "Bhutanese authorities have not publicly confirmed Arkham's exact wallet/holding estimates."
+    },
+    {
+      "id": "LORE-CAN-2024-029",
+      "date": "2024-09-18",
+      "title": "MakerDAO becomes Sky and launches USDS/SKY upgrade path",
+      "branches": [
+        "DEFI",
+        "DAO",
+        "STABLECOINS"
+      ],
+      "research_state": "VERIFIED_WITH_GOVERNANCE_RECORD",
+      "source_confidence": "HIGH",
+      "summary": "Maker's Endgame transition rebranded the ecosystem as Sky and launched the USDS and SKY token upgrade path in September 2024 while DAI and MKR continued to coexist.",
+      "significance": "The change was one of the largest governance and product restructurings of a foundational DeFi protocol.",
+      "sources": [
+        {
+          "title": "Maker/Sky whitepaper — 2024 Sky rebrand and USDS",
+          "url": "https://makerdao.com/da/whitepaper/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Maker Governance — USDS/SKY initialization executive",
+          "url": "https://vote.makerdao.com/executive/template-executive-vote-out-of-schedule-executive-vote-usds-susds-and-sky-tokens-initialization-sbe-upgrade-sky-dssvestmintable-setup-usds-sky-farming-setup-usds-01-farming-setup-miscellaneous-actions-september-13-2024",
+          "type": "PROJECT_GOVERNANCE"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-030",
+      "date": "2024-10-16",
+      "title": "Radiant Capital loses more than $50 million in a multisig compromise",
+      "branches": [
+        "DEFI",
+        "HACKS",
+        "SECURITY"
+      ],
+      "research_state": "VERIFIED_WITH_POSTMORTEM",
+      "source_confidence": "HIGH",
+      "summary": "Radiant Capital suffered a sophisticated compromise in which attackers manipulated signing interfaces on compromised developer devices and drained more than $50 million across Arbitrum and BNB Chain markets.",
+      "significance": "The attack showed that multisig security can fail at the signer-device and interface layer even when transaction approval appears legitimate.",
+      "sources": [
+        {
+          "title": "Radiant Capital DAO — October 16 exploit post-mortem",
+          "url": "https://community.radiant.capital/t/post-mortem-october-16-2024-exploit-impact-on-riz-vaults/2220",
+          "type": "PROJECT_POSTMORTEM"
+        }
+      ],
+      "score_status": "NOT_SCORED"
     },
     {
       "id": "LORE-CAN-2024-027",
