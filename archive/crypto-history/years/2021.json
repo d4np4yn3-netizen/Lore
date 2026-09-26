@@ -1,405 +1,355 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0",
   "year": 2021,
-  "generated": "2026-09-26",
-  "purpose": "Canonical evidence file for 2021. Only sourced records in this file are eligible for later card scoring.",
-  "record_count": 23,
-  "records": [
+  "status": "EVIDENCE_PASS_IN_PROGRESS",
+  "note": "Year-level evidence file created because the legacy master events.json is too large for reliable connector reads. Only sourced/canonical or deliberately contextual rows belong here.",
+  "events": [
     {
-      "source_event_id": "LORE-EVT-0044",
+      "key": "2021-tesla-buys-bitcoin",
+      "master_event_ids": [
+        "LORE-EVT-0044"
+      ],
       "date": "2021-02-08",
       "title": "Tesla discloses $1.5 billion Bitcoin purchase",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Tesla's 2020 Form 10-K disclosed that after changing its investment policy in January 2021, the company invested an aggregate $1.5 billion in Bitcoin.",
-      "significance": "One of the world's most valuable public companies adding Bitcoin to its treasury was a watershed institutional-adoption moment.",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "summary": "Tesla disclosed that after changing its investment policy in January 2021 it had invested an aggregate $1.5 billion in Bitcoin.",
+      "significance": "The purchase was the largest high-profile corporate Bitcoin allocation after MicroStrategy and pushed the corporate-treasury thesis into the global mainstream.",
       "sources": [
         {
           "title": "Tesla 2020 Form 10-K",
           "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
           "type": "REGULATORY_FILING"
+        },
+        {
+          "title": "Tesla Q1 2021 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000046/tsla-20210331.htm",
+          "type": "REGULATORY_FILING"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0045",
-      "date": "2021-03-11",
-      "title": "Beeple NFT sells for $69.3 million at Christie's",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Christie's sold Beeple's Everydays: The First 5000 Days for $69,346,250 in a single-lot online auction.",
-      "significance": "The sale moved NFTs from crypto-native markets into the highest tier of the traditional art world and became the defining mainstream NFT price milestone.",
+      "key": "2021-axie-ronin-mainnet",
+      "date": "2021-02",
+      "title": "Axie Infinity launches Ronin mainnet",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT",
+        "BRIDGES"
+      ],
+      "summary": "Axie Infinity launched Ronin mainnet in February 2021 and began migrating its assets away from Ethereum.",
+      "significance": "Ronin removed a major fee/scaling bottleneck and helped Axie's player economy grow dramatically later in 2021.",
       "sources": [
         {
-          "title": "Christie's — Beeple result",
+          "title": "Sky Mavis — Axie history",
+          "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-beeple-christies",
+      "master_event_ids": [
+        "LORE-EVT-0045"
+      ],
+      "date": "2021-03-11",
+      "title": "Beeple NFT sells for $69.3 million at Christie's",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Christie's sold Beeple's EVERYDAYS: THE FIRST 5000 DAYS for $69,346,250.",
+      "significance": "The sale was a watershed moment that pushed NFTs and purely digital art into the global mainstream art market.",
+      "sources": [
+        {
+          "title": "Christie's results — Beeple",
           "url": "https://press.christies.com/results-beeples-purely-digital-nft-based-work-of-art-achieves-693-million-at-christies-1/?lang=eng",
           "type": "AUCTION_HOUSE_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0046",
+      "key": "2021-coinbase-direct-listing",
+      "master_event_ids": [
+        "LORE-EVT-0046"
+      ],
       "date": "2021-04-14",
-      "title": "Coinbase lists directly on Nasdaq",
-      "status": "VERIFIED",
+      "title": "Coinbase goes public on Nasdaq",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Coinbase began trading on Nasdaq under ticker COIN through a direct listing on 14 April 2021.",
-      "significance": "The listing brought a major crypto-native exchange into US public equity markets and gave mainstream investors direct exposure to a crypto infrastructure company.",
+      "branches": [
+        "EXCHANGES",
+        "INSTITUTIONS"
+      ],
+      "summary": "Coinbase's Class A common stock began trading on Nasdaq under ticker COIN through a direct listing.",
+      "significance": "A major crypto-native exchange entering US public markets became one of the clearest institutional milestones of the bull market.",
       "sources": [
         {
-          "title": "Coinbase — $COIN it's only the beginning",
-          "url": "https://www.coinbase.com/blog/coin-its-only-the-beginning",
+          "title": "Coinbase anticipated Nasdaq listing date",
+          "url": "https://investor.coinbase.com/news/news-details/2021/Coinbase-Announces-Effectiveness-of-Registration-Statement-and-Anticipated-Listing-Date-of-its-Class-A-Common-Stock-on-the-Nasdaq-Global-Select-Market/default.aspx",
           "type": "COMPANY_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
+      "key": "2021-bayc-launch",
       "date": "2021-04-23",
       "title": "Bored Ape Yacht Club launches",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Yuga Labs says BAYC launched with a week-long presale on 23 April 2021 at 0.08 ETH per Ape and sold out on 1 May.",
-      "significance": "BAYC became the defining membership/PFP NFT brand of the 2021 boom and helped turn NFT ownership into online identity, community access and IP culture.",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "BAYC launched with a one-week presale on 23 April 2021 at 0.08 ETH per ape; after a slow start the remaining collection sold out on 1 May.",
+      "significance": "BAYC became the defining membership/PFP NFT brand of the 2021 NFT boom and helped reshape NFTs around identity, community and commercial IP.",
       "sources": [
         {
           "title": "Yuga Labs — Let's Make A NFT",
           "url": "https://news.yuga.com/lets-make-a-nft",
-          "type": "PROJECT_PRIMARY"
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Yuga Labs — About",
+          "url": "https://yuga.com/about/",
+          "type": "COMPANY_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2021-05-05",
-      "title": "Uniswap v3 launches",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Uniswap v3 deployed to Ethereum mainnet with concentrated liquidity and redesigned liquidity-position mechanics.",
-      "significance": "Concentrated liquidity materially increased AMM capital efficiency and became one of DeFi's most influential market-design innovations.",
+      "key": "2021-axie-growth",
+      "date": "2021-05",
+      "title": "Axie Infinity's play-to-earn economy accelerates",
+      "state": "VERIFIED_CONTEXT",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT",
+        "ADOPTION"
+      ],
+      "summary": "By May 2021 Axie reported 65,000 daily active users, rapidly rising marketplace activity and strong growth following its move to Ronin.",
+      "significance": "Axie became the flagship of the play-to-earn model and a major example of crypto gaming creating real player income and asset ownership.",
       "sources": [
         {
-          "title": "Uniswap v3 Mainnet launch",
-          "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v3",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": "LORE-EVT-0048",
-      "date": "2021-05-21",
-      "title": "China signals nationwide Bitcoin mining crackdown",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "China's Financial Stability and Development Committee called for cracking down on Bitcoin mining and trading activities, escalating prior restrictions to mining itself.",
-      "significance": "The crackdown forced a rapid geographic redistribution of Bitcoin hash power away from China and permanently changed the global mining map.",
-      "sources": [
-        {
-          "title": "State Council Information Office/Xinhua — China doubles down on virtual currency regulation",
-          "url": "https://english.scio.gov.cn/chinavoices/2021-05/25/content_77524488.htm",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": "LORE-EVT-0049",
-      "date": "2021-06-08",
-      "title": "El Salvador passes the Bitcoin Law",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "El Salvador's Legislative Assembly approved Decree 57, the Bitcoin Law, recognizing Bitcoin as legal tender.",
-      "significance": "El Salvador became the first sovereign state to adopt Bitcoin as legal tender, moving the asset from private monetary experiment into national law.",
-      "sources": [
-        {
-          "title": "El Salvador Legislative Assembly — Bitcoin Law approval",
-          "url": "https://www.asamblea.gob.sv/node/11282",
-          "type": "GOVERNMENT"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-07",
-      "title": "Axie Infinity explodes into mass play-to-earn adoption",
-      "status": "VERIFIED_WITH_MONTH",
-      "tier": "CORE",
-      "summary": "Axie reported 800,000 daily active users in July after passing 250,000 in June, alongside surging marketplace volume and protocol revenue.",
-      "significance": "Axie's 2021 growth made play-to-earn a global crypto narrative and demonstrated that NFT economies could attract hundreds of thousands of daily players.",
-      "sources": [
-        {
-          "title": "Axie Infinity — July Development Update",
-          "url": "https://blog.axieinfinity.com/p/july-development-update-ae9",
+          "title": "Axie Infinity May Dev Update",
+          "url": "https://blog.axieinfinity.com/p/axie-infinity-may-dev-update",
           "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "Axie Infinity — June Development Update",
-          "url": "https://blog.axieinfinity.com/p/june-development-update-05f",
+          "title": "Axie Economy & Long-term Sustainability",
+          "url": "https://whitepaper.axieinfinity.com/gameplay/axie-population-and-long-term-sustainability",
           "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0050",
+      "key": "2021-el-salvador-bitcoin-law",
+      "date": "2021-06-08",
+      "title": "El Salvador passes the Bitcoin Law",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "summary": "El Salvador's Legislative Assembly approved Decree No. 57, the Bitcoin Law, on 8 June 2021.",
+      "significance": "El Salvador became the first country to legislate Bitcoin as legal tender, a historic sovereign-adoption milestone.",
+      "sources": [
+        {
+          "title": "El Salvador Legislative Assembly — 2021 Decrees, No. 57 Bitcoin Law",
+          "url": "https://www.asamblea.gob.sv/leyes-y-decretos/decretos-por-anios/2021/0",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "El Salvador Presidency — Bitcoin adoption",
+          "url": "https://www.presidencia.gob.sv/gobierno-del-presidente-nayib-bukele-cuenta-con-el-respaldo-del-bcie-para-adopcion-del-bitcoin/",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-london-eip1559",
+      "master_event_ids": [
+        "LORE-EVT-0050"
+      ],
       "date": "2021-08-05T12:33:42Z",
       "title": "Ethereum London upgrade activates EIP-1559",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Ethereum's London upgrade activated at block 12,965,000 and introduced EIP-1559's base-fee burn mechanism and new fee-market design.",
-      "significance": "EIP-1559 fundamentally changed Ethereum transaction pricing and ETH monetary economics by burning a portion of transaction fees.",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Ethereum activated the London upgrade at block 12,965,000, introducing EIP-1559 and a base-fee burn mechanism.",
+      "significance": "EIP-1559 fundamentally redesigned Ethereum's fee market and introduced ETH burning, reshaping the asset's monetary economics.",
       "sources": [
         {
           "title": "Ethereum.org — London upgrade",
           "url": "https://ethereum.org/ethereum-forks/",
           "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
+      "key": "2021-poly-network-hack",
       "date": "2021-08-10",
-      "title": "Poly Network suffers $612 million exploit",
-      "status": "VERIFIED",
+      "title": "Poly Network suffers a roughly $610 million cross-chain exploit",
+      "state": "VERIFIED_WITH_SECONDARY",
       "tier": "CORE",
-      "summary": "An attacker exploited Poly Network's cross-chain smart contracts and stole about $612 million across multiple networks, then began returning most of the funds the next day.",
-      "significance": "At the time it was the largest DeFi theft and became uniquely famous because the attacker communicated on-chain and returned the overwhelming majority of the assets.",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "DEFI"
+      ],
+      "summary": "An attacker exploited Poly Network and stole roughly $610 million across multiple chains, then later returned most of the assets.",
+      "significance": "The episode was the largest DeFi theft to that point and became extraordinary because of the attacker's on-chain communications and return of funds.",
       "sources": [
         {
-          "title": "Chainalysis — Poly Network hack",
-          "url": "https://www.chainalysis.com/blog/poly-network-hack-august-2021/",
-          "type": "BLOCKCHAIN_ANALYSIS"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-08-31",
-      "title": "Arbitrum One launches publicly",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "Arbitrum One opened publicly on 31 August 2021 as a production optimistic-rollup network for Ethereum.",
-      "significance": "Arbitrum became one of Ethereum's largest layer-2 systems and helped make rollups the dominant scaling path for the ecosystem.",
-      "sources": [
-        {
-          "title": "Arbitrum — Stylus mainnet post referencing Arbitrum One public launch",
-          "url": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-09-07",
-      "title": "El Salvador Bitcoin legal-tender regime takes effect",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "El Salvador's Bitcoin Law took effect on 7 September 2021, giving Bitcoin official-currency/legal-tender status alongside the US dollar.",
-      "significance": "This was the operational start of the world's first national Bitcoin legal-tender experiment.",
-      "sources": [
-        {
-          "title": "IMF — El Salvador 2021 Article IV informational annex",
-          "url": "https://www.elibrary.imf.org/view/journals/002/2022/020/article-A002-en.xml",
-          "type": "INTERGOVERNMENTAL"
+          "title": "Reuters — major crypto hacks retrospective",
+          "url": "https://www.reuters.com/technology/cybersecurity/cryptos-biggest-hacks-heists-after-15-billion-theft-bybit-2025-02-24/",
+          "type": "HIGH_QUALITY_SECONDARY"
         }
       ],
-      "relationships": [
-        {
-          "type": "FOLLOWS",
-          "title": "El Salvador passes the Bitcoin Law",
-          "date": "2021-06-08"
-        }
-      ]
+      "confidence": "MEDIUM_HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2021-09-14",
-      "title": "Solana network goes offline for 17 hours",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "Solana's Mainnet Beta stopped confirming blocks for about 17 hours after bot-driven transaction volume caused memory exhaustion and validator crashes; validators coordinated a restart.",
-      "significance": "The outage became the most famous early reliability failure of a fast-growing high-throughput L1 and a recurring reference point in Solana decentralization debates.",
-      "sources": [
-        {
-          "title": "Solana Foundation — 9-14 Network Outage Initial Overview",
-          "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-09-24",
-      "title": "China declares virtual-currency business activities illegal",
-      "status": "VERIFIED",
+      "key": "2021-el-salvador-law-effective",
+      "master_event_ids": [
+        "LORE-EVT-0049"
+      ],
+      "date": "2021-09-07",
+      "title": "El Salvador Bitcoin Law takes effect",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "China's central bank and multiple agencies stated that virtual-currency-related business activities constituted illegal financial activity and strengthened enforcement against trading and overseas exchange services to Chinese residents.",
-      "significance": "The notice completed one of the world's most comprehensive national crackdowns on crypto trading after the mining crackdown earlier that year.",
+      "branches": [
+        "GOVERNMENTS",
+        "ADOPTION",
+        "BITCOIN"
+      ],
+      "summary": "El Salvador's Bitcoin Law took effect on 7 September 2021, alongside the government's Chivo wallet rollout.",
+      "significance": "This was the implementation phase of the world's first national Bitcoin legal-tender experiment.",
       "sources": [
         {
-          "title": "People's Bank of China — virtual currency risk notice",
+          "title": "El Salvador Presidency — Bitcoin law effective from 7 September",
+          "url": "https://www.presidencia.gob.sv/presidente-bukele-desmiente-rumores-infundados-acerca-de-impactos-negativos-que-tendra-la-circulacion-legal-del-bitcoin/",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2021-el-salvador-bitcoin-law",
+        "type": "IMPLEMENTATION"
+      }
+    },
+    {
+      "key": "2021-china-mining-crackdown",
+      "master_event_ids": [
+        "LORE-EVT-0048"
+      ],
+      "date": "2021-09-24",
+      "title": "China formalizes nationwide crackdown on crypto mining",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MINING"
+      ],
+      "summary": "China's National Development and Reform Commission and other agencies formalized measures prohibiting new crypto-mining projects and accelerating the orderly closure of existing operations.",
+      "significance": "The crackdown forced a historic geographic redistribution of Bitcoin mining and demonstrated that a national policy shock could rapidly reshape network infrastructure.",
+      "sources": [
+        {
+          "title": "China NDRC — Notice on rectifying virtual-currency mining activities",
+          "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202109/t20210924_1297475_ext.html",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-china-trading-illegal",
+      "date": "2021-09-24",
+      "title": "China declares virtual-currency business activities illegal financial activity",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The People's Bank of China and nine other authorities stated that virtual-currency exchange, brokerage, token financing and related services constituted illegal financial activity and also targeted offshore exchanges serving mainland residents.",
+      "significance": "The notice was the strongest national-level trading restriction in China's long sequence of crypto crackdowns.",
+      "sources": [
+        {
+          "title": "People's Bank of China — Notice on virtual-currency trading risks",
           "url": "https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html",
           "type": "GOVERNMENT"
         }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-10-19",
-      "title": "First US Bitcoin futures ETF begins trading",
-      "status": "VERIFIED",
-      "tier": "CORE",
-      "summary": "ProShares BITO launched on 19 October 2021 as the first US Bitcoin-linked ETF, gaining exposure through regulated Bitcoin futures rather than spot Bitcoin.",
-      "significance": "The product broke a long US ETF barrier and opened Bitcoin-linked exposure through ordinary brokerage accounts.",
-      "sources": [
-        {
-          "title": "ProShares — BITO launch",
-          "url": "https://www.proshares.com/press-releases/proshares-to-launch-the-first-u.s.-bitcoin-linked-etf-on-october-19",
-          "type": "ISSUER_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-10-27T10:56:23Z",
-      "title": "Ethereum Altair upgrade activates",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "Altair activated at Beacon Chain epoch 74,240, adding sync committees and adjusting validator incentives and penalties.",
-      "significance": "Altair was the first scheduled upgrade to Ethereum's Beacon Chain and an important technical step toward the Merge.",
-      "sources": [
-        {
-          "title": "Ethereum.org — Altair",
-          "url": "https://ethereum.org/ethereum-forks/",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-11-10",
-      "title": "Bitcoin reaches roughly $68,950 all-time high",
-      "status": "VERIFIED_WITH_INDEX",
-      "tier": "CORE",
-      "summary": "CoinDesk's Bitcoin price data recorded a new all-time high of about $68,950 on 10 November 2021.",
-      "significance": "The peak capped the 2020-2021 bull cycle before the market turned into the 2022 collapse cycle.",
-      "sources": [
-        {
-          "title": "CoinDesk — Bitcoin new all-time high",
-          "url": "https://www.coindesk.com/markets/2021/11/10/bitcoin-jumps-to-new-all-time-high-gold-rallies-as-inflation-expectations-surge",
-          "type": "CONTEMPORARY_MARKET_SOURCE"
-        }
       ],
-      "notes": "Use source/index-specific wording; there was no single universal spot price across all exchanges."
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2021-01-16",
-      "title": "Optimism soft-launches OP Mainnet",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "Optimism's protocol specification dates the OP Mainnet soft launch to 16 January 2021; permissionless application deployment came later in the year.",
-      "significance": "Optimism was among the first production optimistic rollups and helped establish Ethereum's rollup-centric scaling path.",
-      "sources": [
-        {
-          "title": "Optimism OP Stack protocol versions",
-          "url": "https://specs.optimism.io/protocol/superchain-upgrades.html",
-          "type": "PROJECT_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-06-03",
-      "title": "Dogecoin gains full Coinbase retail listing",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "Coinbase added Dogecoin buying, selling, conversion, sending, receiving and custody for retail users on 3 June 2021.",
-      "significance": "A cryptocurrency created as a joke had become mainstream enough for one of the largest regulated US exchanges, illustrating the scale of 2021 meme-coin adoption.",
-      "sources": [
-        {
-          "title": "Coinbase — Dogecoin is now available",
-          "url": "https://www.coinbase.com/blog/dogecoin-doge-is-now-available-on-coinbase",
-          "type": "COMPANY_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-08",
-      "title": "Visa buys a CryptoPunk",
-      "status": "VERIFIED_WITH_MONTH",
-      "tier": "LORE",
-      "summary": "Visa purchased CryptoPunk #7610 for 49.5 ETH, roughly $150,000 at the time.",
-      "significance": "A global payments network buying a CryptoPunk became a striking symbol of institutions treating NFTs as culturally significant digital assets.",
-      "sources": [
-        {
-          "title": "Visa Navigate — mainstreaming of digital assets",
-          "url": "https://navigate.visa.com/europe/the-metaverse-as-a-strategic-inflection-point/",
-          "type": "COMPANY_PRIMARY"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2021-11-08",
-      "title": "ENS launches governance-token airdrop",
-      "status": "VERIFIED",
-      "tier": "MAJOR",
-      "summary": "ENS opened claims for its governance token to eligible .eth name holders after using an October 31 ownership snapshot.",
-      "significance": "The airdrop converted a widely used naming protocol into a token-governed DAO and became another landmark retroactive distribution.",
-      "sources": [
-        {
-          "title": "ENS Docs — The ENS Token",
-          "url": "https://docs.ens.domains/dao/token/",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "ENS DAO — claiming opens Nov 8",
-          "url": "https://discuss.ens.domains/t/delegate-links-for-easy-campaigning/3008",
-          "type": "PROJECT_FORUM"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
+      "key": "2021-taproot-activation",
       "date": "2021-11-14",
       "title": "Bitcoin Taproot activates",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Taproot activated on Bitcoin at block height 709,632, implementing BIP340 Schnorr signatures, BIP341 Taproot and BIP342 Tapscript.",
-      "significance": "Taproot was Bitcoin's most important protocol upgrade since SegWit, improving scripting flexibility, efficiency and privacy properties while enabling new application designs.",
+      "branches": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "summary": "Bitcoin's Taproot soft fork activated at block 709,632 in November 2021, enabling Schnorr-signature and script-privacy improvements.",
+      "significance": "Taproot was Bitcoin's most significant consensus upgrade since SegWit and later enabled new wallet, multisignature and inscription-related possibilities.",
       "sources": [
         {
-          "title": "BIP341 — Taproot",
-          "url": "https://bitcoin.org/bip/341/",
-          "type": "PRIMARY_SPEC"
+          "title": "Bitcoin Optech — Taproot activated at block 709,632",
+          "url": "https://bitcoinops.org/en/newsletters/2021/11/17/",
+          "type": "TECHNICAL_PRIMARY_ADJACENT"
         },
         {
-          "title": "Bitcoin Optech — Taproot activated",
-          "url": "https://bitcoinops.org/en/newsletters/2021/11/17/",
-          "type": "DEVELOPER_ARCHIVE"
+          "title": "Bitcoin Optech — Taproot topic",
+          "url": "https://bitcoinops.org/en/topics/taproot/",
+          "type": "TECHNICAL_PRIMARY_ADJACENT"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2021-11-18",
-      "title": "ConstitutionDAO raises over $40 million but loses Constitution auction",
-      "status": "VERIFIED",
-      "tier": "LORE",
-      "summary": "More than 17,000 ConstitutionDAO contributors raised over $40 million in Ether to bid on a rare first printing of the US Constitution, but were outbid at Sotheby's; the document sold for $43.2 million.",
-      "significance": "The episode became one of the clearest demonstrations of internet-scale DAO coordination and one of crypto's most memorable collective near-misses.",
+      "key": "2021-bitcoin-69k-cycle-peak",
+      "date": "2021-11",
+      "title": "Bitcoin reaches its 2021 cycle all-time high near $69,000",
+      "state": "VERIFIED_WITH_SOURCE_VARIANCE",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "summary": "Bitcoin reached a record near $69,000 in November 2021; exact peak figures vary by venue and index.",
+      "significance": "The peak capped the 2020–2021 bull market before the 2022 deleveraging and collapse cycle.",
       "sources": [
         {
-          "title": "ConstitutionDAO — wind-down and refunds",
-          "url": "https://www.constitutiondao.com/",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "Sotheby's — ConstitutionDAO auction context",
-          "url": "https://www.sothebys.com/en/articles/sothebys-to-auction-one-of-only-two-first-printings-of-the-u-s-constitution-remaining-in-private-hands",
-          "type": "AUCTION_HOUSE_PRIMARY"
+          "title": "Reuters — 2024 record surpasses November 2021 peak",
+          "url": "https://www.reuters.com/technology/view-bitcoin-rises-record-high-2024-03-05/",
+          "type": "HIGH_QUALITY_SECONDARY"
         }
-      ]
+      ],
+      "confidence": "MEDIUM_HIGH"
     }
   ]
 }
