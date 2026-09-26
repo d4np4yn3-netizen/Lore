@@ -5,7 +5,7 @@
   "source_master_ref": "492489e9626a657421c59c0b9b8c1105512b3c7e",
   "source_event_count": 184,
   "status": "EVIDENCE_RESEARCH_ACTIVE",
-  "note": "2021 research in progress. Government, institutional, protocol and major adoption events are being verified first; cultural/NFT/DeFi deep cuts follow in later batches.",
+  "note": "2021 research in progress. Government/institution/adoption and major NFT/meme/culture events have been verified or explicitly triaged. DeFi, exploits, gaming, alt-L1/L2 and CeFi remain.",
   "events": [
     {
       "id": "LORE-EVT-0044",
@@ -51,12 +51,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-03-11",
+        "summary": "Christie's sold Beeple's Everydays: The First 5000 Days for $69,346,250 in a single-lot online auction.",
+        "significance": "The sale made NFTs impossible for the traditional art market to ignore and set a world-record price for digital art at the time.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Christie's — Beeple Everydays sale result",
+            "url": "https://press.christies.com/results-beeples-purely-digital-nft-based-work-of-art-achieves-693-million-at-christies-1/?lang=eng",
+            "type": "AUCTION_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -106,12 +112,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_ERA",
+        "exact_date": "2021-01 to 2021-05",
+        "summary": "Dogecoin surged from an internet joke into one of the world's largest cryptocurrencies during the 2021 retail-speculation wave, reaching an approximately $80 billion market capitalization around the May SNL peak.",
+        "significance": "The rally transformed meme coins from a niche joke into a major crypto market category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin in spotlight before SNL",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Dogecoin falls after Elon Musk SNL appearance",
+            "url": "https://www.investing.com/news/economy/dogecoin-tumbles-after-elon-musk-calls-it-a-hustle-on-snl-show-2500280",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -223,12 +240,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-23",
+        "summary": "Bored Ape Yacht Club launched a week-long presale of 10,000 NFTs at 0.08 ETH each; after a slow start, the remaining supply sold out on May 1.",
+        "significance": "BAYC turned the profile-picture NFT into a membership, identity and brand ecosystem and became one of the defining collections of the NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — The Birth of BAYC",
+            "url": "https://boredapeyachtclub.com/activations/bayc-founding",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Yuga Labs — Let's Make A NFT",
+            "url": "https://news.yuga.com/lets-make-a-nft",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -318,12 +346,33 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-18",
+        "summary": "ConstitutionDAO organized an internet-native crowdfunding effort to bid on a rare first printing of the US Constitution at Sotheby's. The DAO lost the auction, which closed at $43.173 million including premium, and later made refunds available.",
+        "significance": "The effort became a defining example of rapid DAO coordination around a single real-world objective.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ConstitutionDAO — official wind-down/refund page",
+            "url": "https://www.constitutiondao.com/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sotheby's — Constitution auction",
+            "url": "https://www.sothebys.com/en/digital-catalogues/the-constitution-of-the-united-states",
+            "type": "AUCTION_PRIMARY"
+          },
+          {
+            "title": "Sotheby's — Constitution sells for $43.2M",
+            "url": "https://www.sothebys.com/en/articles/the-macklowe-collection-highlights-1-25-billion-week-and-counting",
+            "type": "AUCTION_PRIMARY"
+          },
+          {
+            "title": "PeopleDAO — ConstitutionDAO history",
+            "url": "https://people-dao.com/",
+            "type": "COMMUNITY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -435,12 +484,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "OpenSea's transaction volume and user activity exploded during the NFT boom; the company said transaction volume had grown more than 100x over the prior six months by March and raised major venture rounds during the year.",
+        "significance": "OpenSea became the central marketplace of the 2021 NFT boom, but this row is an era/adoption node rather than one single event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenSea — $23M raise and NFT market growth",
+            "url": "https://opensea.io/blog/articles/opensea-raises-23m-to-scale-the-largest-marketplace-for-nfts",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "OpenSea — $100M raise",
+            "url": "https://opensea.io/blog/articles/announcing-our-100m-raise-led-by-a16z",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -457,12 +517,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Art Blocks and collections such as Chromie Squiggle helped establish long-form on-chain generative art as a major NFT category during 2021.",
+        "significance": "The cultural breakthrough is real, but Art Blocks itself launched in November 2020; this row should remain 2021 adoption context rather than a launch event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Art Blocks — Chromie Squiggle collection/history",
+            "url": "https://www.artblocks.io/collection/chromie-squiggle-by-snowfro",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -480,15 +546,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-10-28",
+        "summary": "Facebook renamed its corporate parent Meta and publicly made building the metaverse a central strategic focus.",
+        "significance": "Although not a crypto event by itself, the rebrand massively amplified the metaverse narrative that was already driving NFT and virtual-land speculation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Meta — Facebook company becomes Meta",
+            "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Treat as adjacent-tech/cultural context, not evidence that Meta adopted cryptocurrency."
       }
     },
     {
@@ -525,12 +597,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Profile-picture NFT collections became widespread social identity markers on Twitter and Discord during 2021, led by projects including CryptoPunks and BAYC.",
+        "significance": "PFP culture changed NFTs from collectibles into visible online identity and status objects.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — The Birth of BAYC",
+            "url": "https://boredapeyachtclub.com/activations/bayc-founding",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Visa — NFT commerce and CryptoPunk 7610 purchase",
+            "url": "https://km.visamiddleeast.com/en_KM/visa-everywhere/blog/bdp/2021/08/23/nfts-mark-a-1629705939813.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -702,12 +785,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-08",
+        "summary": "ENS launched the ENS governance token and DAO; 25% of supply was allocated for an airdrop to eligible historical .eth registrants.",
+        "significance": "The airdrop rewarded early users, transferred governance toward a DAO and became one of 2021's defining retroactive distributions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ENS DAO — ENS token and airdrop history",
+            "url": "https://basics.ensdao.org/ens-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -724,12 +813,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-23",
+        "summary": "Visa announced it had purchased CryptoPunk 7610 to learn firsthand about NFT custody, commerce and infrastructure.",
+        "significance": "A global payments company deliberately buying a CryptoPunk was a powerful signal that NFTs had crossed from crypto-native collecting into institutional experimentation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Visa — NFT commerce and CryptoPunk 7610 purchase",
+            "url": "https://km.visamiddleeast.com/en_KM/visa-everywhere/blog/bdp/2021/08/23/nfts-mark-a-1629705939813.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -814,14 +909,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021",
+        "summary": "This is the same PFP-culture trend as LORE-EVT-0189.",
+        "significance": "Canonicalized to LORE-EVT-0189.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — The Birth of BAYC",
+            "url": "https://boredapeyachtclub.com/activations/bayc-founding",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Visa — NFT commerce and CryptoPunk 7610 purchase",
+            "url": "https://km.visamiddleeast.com/en_KM/visa-everywhere/blog/bdp/2021/08/23/nfts-mark-a-1629705939813.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0189",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -904,12 +1010,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021-03-30",
+        "summary": "By late March 2021, NBA Top Shot had recorded roughly $500 million in sales and more than 800,000 accounts after entering public beta the previous October.",
+        "significance": "Top Shot was one of the first NFT products to reach a mass sports-fan audience and helped make digital collectibles legible to mainstream consumers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NBA.com/AP — Dapper Labs and NBA Top Shot growth",
+            "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
+            "type": "LEAGUE_CONTEMPORARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1584,14 +1696,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021-01 onward",
+        "summary": "The retail-trading culture surrounding GameStop and meme stocks spilled into Dogecoin speculation in early 2021.",
+        "significance": "This helps explain Dogecoin's cultural context but is not a discrete crypto event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin in spotlight before SNL",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -1606,14 +1724,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-05",
+        "summary": "Dogecoin's market capitalization rose into the tens of billions during the same 2021 mania.",
+        "significance": "Market-size detail belongs under the canonical Dogecoin-mania record.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin in spotlight before SNL",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -1629,14 +1753,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Elon Musk's public Dogecoin comments repeatedly became major market and media events during the rally.",
+        "significance": "Important culture context for the Dogecoin mania, though individual tweets should only become events if separately sourced.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin in spotlight before SNL",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Dogecoin falls after Elon Musk SNL appearance",
+            "url": "https://www.investing.com/news/economy/dogecoin-tumbles-after-elon-musk-calls-it-a-hustle-on-snl-show-2500280",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -1651,14 +1786,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2021-05-08",
+        "summary": "Elon Musk hosted Saturday Night Live at the peak of Dogecoin speculation and described Dogecoin as a 'hustle' during a comedy segment; the token fell sharply during and after the broadcast.",
+        "significance": "The SNL episode became the symbolic peak of the 2021 meme-coin cycle and one of crypto's most recognizable pop-culture moments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin falls after Elon Musk SNL appearance",
+            "url": "https://www.investing.com/news/economy/dogecoin-tumbles-after-elon-musk-calls-it-a-hustle-on-snl-show-2500280",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -1673,12 +1814,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_ERA",
+        "exact_date": "2021-10-28",
+        "summary": "Shiba Inu surged into the top ten crypto assets by market capitalization during an extraordinary October rally, briefly overtaking Dogecoin by market value on some trackers.",
+        "significance": "SHIB proved that Dogecoin was no longer a one-off: meme coins had become a repeatable global speculation category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Shiba Inu enters crypto top ten",
+            "url": "https://www.euronews.com/next/2021/10/28/fintech-crypto-shibainu",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1695,14 +1842,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2021-07-20",
+        "summary": "OpenSea announced a $100 million Series B led by a16z during the NFT market's rapid expansion.",
+        "significance": "The funding round reflected how quickly NFT-market infrastructure moved into venture-scale technology investing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenSea — $100M raise",
+            "url": "https://opensea.io/blog/articles/announcing-our-100m-raise-led-by-a16z",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0161",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -1717,14 +1870,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2021-05 onward",
+        "summary": "After the May sellout, BAYC secondary trading, celebrity adoption and community activity accelerated rapidly.",
+        "significance": "This is the growth phase of the canonical BAYC launch rather than a separate origin event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — Let's Make A NFT",
+            "url": "https://news.yuga.com/lets-make-a-nft",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0116",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -1739,15 +1898,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+        "exact_date": "2020-11-27 onward",
+        "summary": "Chromie Squiggle was released with Art Blocks on 27 November 2020, not created in 2021; its collector prominence expanded during 2021.",
+        "significance": "Keep 2021 as an adoption/market chapter, not the artwork's origin date.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Art Blocks — Chromie Squiggle collection/history",
+            "url": "https://www.artblocks.io/collection/chromie-squiggle-by-snowfro",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Potential card event should be the 2020 Art Blocks/Squiggle launch or a precisely sourced 2021 sale/museum milestone."
       }
     },
     {
@@ -1761,12 +1926,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-27",
+        "summary": "Dom Hofmann launched Loot as 8,000 text-only NFT 'bags' containing randomized fantasy-game equipment, with no images or prescribed game.",
+        "significance": "Loot flipped the normal NFT model: rather than art plus utility, it supplied minimal primitives and invited the community to build the world around them.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Loot launch tweet and experiment",
+            "url": "https://techcrunch.com/2021/09/03/loot-games-the-crypto-world/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1971,14 +2142,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Using .eth names as public identities became widespread across Ethereum and Crypto Twitter during the 2021 boom.",
+        "significance": "This is cultural adoption context around ENS, not one discrete event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "ENS DAO — ENS token and airdrop history",
+            "url": "https://basics.ensdao.org/ens-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0239",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -2082,14 +2259,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2021-11",
+        "summary": "After ConstitutionDAO lost the auction and wound down, contributors could redeem or keep the PEOPLE token, which continued trading independently.",
+        "significance": "The token's life after the DAO dissolved became a strange example of meme value outliving the organization that created it.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ConstitutionDAO — official wind-down/refund page",
+            "url": "https://www.constitutiondao.com/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "PeopleDAO — ConstitutionDAO history",
+            "url": "https://people-dao.com/",
+            "type": "COMMUNITY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0120",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -2399,14 +2587,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "NFT avatars became visible status symbols on social media during the same PFP boom.",
+        "significance": "Canonicalized as context under LORE-EVT-0189.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — The Birth of BAYC",
+            "url": "https://boredapeyachtclub.com/activations/bayc-founding",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Visa — NFT commerce and CryptoPunk 7610 purchase",
+            "url": "https://km.visamiddleeast.com/en_KM/visa-everywhere/blog/bdp/2021/08/23/nfts-mark-a-1629705939813.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0189",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -2421,11 +2620,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2443,11 +2642,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2465,11 +2664,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2487,14 +2686,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Yuga Labs expanded BAYC with Kennel Club and Mutant Ape mechanics during 2021.",
+        "significance": "This marked BAYC's transformation from a single collection into a broader branded ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Yuga Labs — Let's Make A NFT",
+            "url": "https://news.yuga.com/lets-make-a-nft",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0116",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -2509,12 +2714,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-22",
+        "summary": "Pudgy Penguins' 8,888-NFT collection minted out in under 20 minutes at 0.03 ETH each.",
+        "significance": "The collection became one of the most recognizable second-wave PFP projects and later developed into a major consumer brand.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pudgy Penguins — official lore timeline",
+            "url": "https://media.pudgypenguins.com/lore",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2531,11 +2742,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2553,14 +2764,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_AFTERMATH",
+        "exact_date": "2021-08 onward",
+        "summary": "Loot inspired a rapid wave of derivative projects and community-built games, art and tokens.",
+        "significance": "This is the aftermath of the canonical Loot launch.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Loot launch tweet and experiment",
+            "url": "https://techcrunch.com/2021/09/03/loot-games-the-crypto-world/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0501",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -2575,11 +2792,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2598,11 +2815,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2968,14 +3185,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "NBA Top Shot pack queues and drops became a recognizable mass-market NFT collecting experience during the early-2021 boom.",
+        "significance": "Cultural context belongs under the Top Shot mainstream-adoption story.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "NBA.com/AP — Dapper Labs and NBA Top Shot growth",
+            "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
+            "type": "LEAGUE_CONTEMPORARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0296",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -2990,14 +3213,14 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2021",
+        "summary": "Top Shot's secondary market cooled after its explosive early-2021 growth.",
+        "significance": "Market-cycle context is plausible but should be quantified with Dapper/marketplace data before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0296",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -3012,11 +3235,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3035,11 +3258,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3057,12 +3280,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-13",
+        "summary": "Nike announced the acquisition of RTFKT, a digital fashion and NFT studio founded in 2020.",
+        "significance": "The acquisition was one of the clearest signals that a global consumer brand viewed digital collectibles and metaverse-native products as strategically important.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nike — acquisition of RTFKT",
+            "url": "https://about.nike.com/en/newsroom/releases/nike-acquires-rtfkt",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3080,11 +3309,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3102,14 +3331,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-08-23",
+        "summary": "This is the same Visa CryptoPunk purchase as LORE-EVT-0240.",
+        "significance": "Canonicalized to LORE-EVT-0240.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Visa — NFT commerce and CryptoPunk 7610 purchase",
+            "url": "https://km.visamiddleeast.com/en_KM/visa-everywhere/blog/bdp/2021/08/23/nfts-mark-a-1629705939813.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0240",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -3124,11 +3359,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3146,11 +3381,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3278,11 +3513,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3301,11 +3536,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3324,11 +3559,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3464,11 +3699,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3619,11 +3854,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3641,11 +3876,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4196,11 +4431,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4218,14 +4453,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "OpenSea onboarded large numbers of first-time NFT traders during the same boom.",
+        "significance": "Adoption consequence of the canonical OpenSea 2021 growth record.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "OpenSea — $23M raise and NFT market growth",
+            "url": "https://opensea.io/blog/articles/opensea-raises-23m-to-scale-the-largest-marketplace-for-nfts",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0161",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -4240,12 +4481,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-03",
+        "summary": "Larva Labs launched Meebits, a collection of 20,000 generative 3D avatars with an integrated marketplace.",
+        "significance": "Meebits extended the CryptoPunks lineage from 2D profile pictures into 3D avatars designed for virtual worlds.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Larva Labs — Introducing the Meebits",
+            "url": "https://www.larvalabs.com/blog/2021-5-3-1-1/introducing-the-meebits",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4262,11 +4509,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2021",
+        "summary": "This 2021 culture/NFT candidate remains plausible but needs a precise dated milestone and authoritative source before canonical card scoring.",
+        "significance": "Keep in the research pool; do not score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
