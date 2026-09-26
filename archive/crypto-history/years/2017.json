@@ -527,12 +527,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-06-26T13:00:00Z",
+        "summary": "Block.one began a 341-day EOS token distribution on 26 June 2017.",
+        "significance": "The year-long sale became one of the ICO era's signature fundraising experiments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Block.one — EOS token distribution",
+            "url": "https://www.prnewswire.com/news-releases/eos-blockchain-operating-system-unveils-year-long-token-distribution-300478085.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -637,15 +643,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "EtherDelta became a prominent early non-custodial Ethereum token exchange during the ICO boom.",
-        "significance": "Needs a specific launch/volume/regulatory milestone before scoring as a standalone event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "EtherDelta became a prominent non-custodial Ethereum token exchange during the ICO boom.",
+        "significance": "The later SEC enforcement case is the cleaner regulatory milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1309,15 +1315,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Ledger hardware-wallet adoption rose sharply with the bull market.",
-        "significance": "Trend rather than one event; use a sales/user milestone if sourced.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Ledger hardware-wallet adoption rose sharply during the 2017 bull market.",
+        "significance": "Product launches and later security incidents are stronger discrete events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1501,15 +1507,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Roger Ver became one of the most visible Bitcoin Cash advocates.",
-        "significance": "Biographical trend rather than a discrete event; a specific public endorsement/debate would make a cleaner candidate.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Roger Ver became one of the most visible Bitcoin Cash advocates during the block-size war.",
+        "significance": "The BCH fork is the canonical historical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1523,15 +1529,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Craig Wright continued publicly asserting that he was Satoshi Nakamoto amid widespread skepticism.",
-        "significance": "Ongoing controversy rather than one discrete 2017 event; the strongest later canonical milestone is the UK court finding that he was not Satoshi.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Craig Wright continued public Satoshi claims and became involved in fork/scaling controversies.",
+        "significance": "Recurring controversy rather than one dated 2017 event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1545,15 +1551,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "John McAfee made extreme public Bitcoin price predictions during the bull market.",
-        "significance": "Strong culture/lore potential, but exact prediction, date and original post need primary archival evidence before scoring.",
-        "source_confidence": "LOW",
+        "state": "CULTURE_CONTEXT_REVIEWED",
+        "exact_date": null,
+        "summary": "John McAfee's extreme Bitcoin price predictions became bull-market folklore.",
+        "significance": "Potential fun LORE, but provenance should be pinned to an archived original post before any card score.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "No score yet."
       }
     },
     {
@@ -1624,15 +1630,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2017-12",
-        "summary": "South Korea's 'kimchi premium' became a widely discussed market phenomenon as local crypto prices traded substantially above global venues.",
-        "significance": "Strong market-culture story, but requires a robust exchange-data or contemporary-source citation before verification.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "South Korean exchange prices traded well above global markets during the 2017 mania, producing the term 'kimchi premium.'",
+        "significance": "Market-culture context; exact premium data should be sourced only if promoted to a card.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1646,15 +1652,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017-12",
-        "summary": "Coinbase's consumer app surged in US app-store rankings during the bull market.",
-        "significance": "Excellent mass-adoption visual, but exact ranking/date needs Apple/AppAnnie or contemporary reporting before scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Coinbase's app surged in app-store rankings during the December 2017 retail frenzy.",
+        "significance": "Adoption context rather than a durable standalone historical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1709,7 +1715,7 @@
     },
     {
       "id": "LORE-EVT-0718",
-      "date": "2017",
+      "date": "2018-04-10",
       "title": "Golem launches tokenized decentralized-compute network",
       "branch": [
         "ALTCOINS",
@@ -1718,15 +1724,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Golem launched its tokenized decentralized-compute project on Ethereum after an earlier token sale.",
-        "significance": "Potential decentralized-compute history candidate, but needs a specific mainnet/product launch milestone before scoring.",
-        "source_confidence": "LOW",
+        "state": "DATE_CORRECTED",
+        "exact_date": "2018-04-10",
+        "summary": "Golem's Brass mainnet launched in April 2018 rather than 2017.",
+        "significance": "An early live decentralized-compute marketplace on Ethereum.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to 2018 during normalization."
       }
     },
     {
@@ -1741,15 +1747,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Status.im's token sale produced unusually intense Ethereum demand and congestion.",
-        "significance": "Potentially excellent ICO-era LORE, but exact date, amount and network effects need a primary Status/Ethereum source before scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Status's 2017 token sale generated unusually heavy Ethereum demand and became an ICO-era congestion story.",
+        "significance": "Strong ICO context but not essential as a standalone event without first-party sale data.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1763,12 +1769,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Basic Attention Token's token sale sold out extremely rapidly during the ICO boom.",
-        "significance": "Strong ICO-culture candidate, but exact date, amount and sale duration need a primary Brave/BAT source.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-05-31",
+        "summary": "The Basic Attention Token sale sold 1 billion BAT for 156,250 ETH and reached its cap in under a minute.",
+        "significance": "One of the iconic fast-selling ICOs of 2017, tying token economics to Brave's browser/ad model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BAT — Sale Finishes Quickly",
+            "url": "https://basicattentiontoken.org/bat-sale-finishes-quickly/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Brave 2017 achievements",
+            "url": "https://brave.com/blog/update-brave-browser-and-bat-achievements-in-2017-and-goals-for-2018/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1785,15 +1802,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "OmiseGO became a high-profile Ethereum token project during the ICO boom.",
-        "significance": "The current row is a broad prominence claim; replace with its token sale/listing/airdrop milestone before scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "OmiseGO became a prominent Ethereum token/project during the ICO boom.",
+        "significance": "Use a specific sale, airdrop or network milestone if selected.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1858,15 +1875,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2017",
-        "summary": "Bitmain held a dominant position in the SHA-256 ASIC market during the late-2010s mining boom.",
-        "significance": "Needs market-share or shipment data from a reliable source before verification.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Bitmain dominated Bitcoin ASIC manufacturing during the mid-2010s mining industrialization.",
+        "significance": "The Antminer S9 launch is the stronger discrete card event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -1908,15 +1925,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Wojak/trader reaction images increasingly became part of crypto market culture.",
-        "significance": "Needs a specific historically traceable meme instance if considered for a card.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Wojak-style trader reaction images became part of crypto-native market culture.",
+        "significance": "Meme provenance is diffuse; keep as culture background.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -2017,15 +2034,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Brad Garlinghouse became Ripple's prominent public-facing CEO during XRP's rapid growth.",
-        "significance": "Biographical trend rather than a discrete event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Brad Garlinghouse became Ripple's prominent public-facing CEO during XRP's expansion.",
+        "significance": "Biographical context rather than a single event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -2123,15 +2140,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Brian Armstrong was increasingly prominent as Coinbase expanded during the bull market.",
-        "significance": "Biographical trend rather than a single historical event.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Brian Armstrong became an increasingly prominent mainstream advocate as Coinbase scaled.",
+        "significance": "Biographical context rather than one event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -2257,15 +2274,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Devcon had become Ethereum's flagship developer/community conference by this period.",
-        "significance": "Choose a specific Devcon milestone or announcement if a conference card is wanted.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Devcon had become Ethereum's flagship developer conference by this period.",
+        "significance": "Use specific Devcon announcements or individual conferences instead.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -2326,15 +2343,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Gnosis developed prediction-market and multisig tooling during Ethereum's early application era.",
-        "significance": "The current row combines multiple product lines; split into a specific Gnosis token sale, prediction-market launch or Safe milestone before scoring.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Gnosis combined prediction-market work with early Ethereum infrastructure and multisig tooling.",
+        "significance": "Composite project-history row; later Gnosis Safe is the cleaner infrastructure milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
@@ -2513,15 +2530,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Centralized exchanges rapidly listed new ICO tokens during the 2017 boom.",
-        "significance": "Industry trend rather than one event; not suitable for card scoring as written.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Centralized exchanges rapidly listed large numbers of ICO-era tokens.",
+        "significance": "Market-structure trend rather than a single event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for book/archive context; exclude from standalone card scoring."
       }
     },
     {
