@@ -15,6 +15,7 @@
   ],
   "total_raw_candidates": 1229,
   "reconciled_years": [
+    "2019",
     "2020",
     "2021",
     "2022",
@@ -23,7 +24,7 @@
     "2025"
   ],
   "current_year": "2026",
-  "next_reconciliation_target": "2019",
+  "next_reconciliation_target": "2018",
   "years": {
     "1976": {
       "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
@@ -194,16 +195,21 @@
       "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
     },
     "2018": {
-      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "status": "EVIDENCE_REVIEW_IN_PROGRESS",
       "file": "2018.json",
       "raw_candidate_count": 67,
-      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+      "note": "10 records refined in follow-up; 15 still have explicit NEEDS states. Previous year-level scoring-ready flag was premature. Final canonical reconciliation remains required.",
+      "unresolved_research_count": 15,
+      "last_batch_reviewed_count": 10,
+      "score_status": "NOT_STARTED"
     },
     "2019": {
-      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "status": "CANONICAL_RECONCILED",
       "file": "2019.json",
+      "reconciliation_file": "2019-reconciliation.json",
+      "canonical_event_count": 38,
       "raw_candidate_count": 71,
-      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+      "score_status": "NOT_STARTED"
     },
     "2020": {
       "status": "CANONICAL_RECONCILED",

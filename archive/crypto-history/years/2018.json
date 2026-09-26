@@ -143,25 +143,38 @@
     },
     {
       "id": "LORE-EVT-0106",
-      "date": "2018",
-      "title": "MakerDAO's DAI becomes a major decentralized stablecoin experiment",
+      "date": "2018-12-18",
+      "title": "Dai's first-year adoption — nearly 80 million reported in circulation",
       "branch": [
         "DEFI",
         "STABLECOINS"
       ],
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
-        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2018-12-18",
+        "summary": "MakerDAO's first-anniversary report said nearly 80 million Dai were in circulation after its first year.",
+        "significance": "A sourced snapshot of early stablecoin adoption, retained as context for the Dai launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — Happy BirthDAI",
+            "url": "https://medium.com/@MakerDAO/happy-birthdai-4aee1166ef14",
+            "type": "PROJECT_PRIMARY",
+            "published": "2018-12-18",
+            "accessed": "2026-09-26",
+            "supports": "18 December first-anniversary report, nearly 80 million Dai circulation and retrospective community activity."
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0285",
         "relation": "AFTERMATH",
-        "notes": null
-      }
+        "notes": "Issuer-reported snapshot dated 18 December. It does not establish a new launch or prove the peg never deviated. Exact supply threshold-crossing time is not claimed.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Dated year-in-review snapshot",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "MakerDAO's DAI becomes a major decentralized stablecoin experiment"
     },
     {
       "id": "LORE-EVT-0159",
@@ -542,25 +555,38 @@
     },
     {
       "id": "LORE-EVT-0399",
-      "date": "2018",
-      "title": "Rollup research begins reshaping Ethereum scaling strategy",
+      "date": "2018-09-22",
+      "title": "Vitalik publishes ZK-SNARK batch-validation scaling proposal",
       "branch": [
         "ETHEREUM",
         "TECHNOLOGY"
       ],
       "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "Rollup research was developing during this period, but the row does not identify a specific paper, implementation or public testnet.",
-        "significance": "Replace with a named optimistic-rollup or ZK-rollup milestone.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2018-09-22",
+        "summary": "Vitalik Buterin proposed batching asset-transfer operations, proving their validity with a ZK-SNARK and publishing compressed transaction data on Ethereum.",
+        "significance": "A concrete research milestone in the development of rollup-style scaling.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Research / Vitalik Buterin — On-chain scaling to potentially ~500 tx/sec through mass tx validation",
+            "url": "https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477",
+            "type": "PRIMARY_RESEARCH_POST",
+            "published": "2018-09-22",
+            "accessed": "2026-09-26",
+            "supports": "Dated proposal, validity proofs and compressed on-chain transaction data."
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
-      }
+        "notes": "This is a research proposal, not a deployed rollup. The throughput in the post title is an estimate, not measured mainnet performance. Do not claim this was the sole invention or first-ever rollup.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "Rollup research begins reshaping Ethereum scaling strategy"
     },
     {
       "id": "LORE-EVT-0405",
@@ -710,52 +736,72 @@
     },
     {
       "id": "LORE-EVT-0472",
-      "date": "2018",
-      "title": "MakerDAO stablecoin model gains traction during bear market",
+      "date": "2018-12-18",
+      "title": "Maker/Dai bear-market adoption — duplicate context row",
       "branch": [
         "DEFI",
         "STABLECOINS"
       ],
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
+      "status": "DUPLICATE",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
-        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": "LORE-EVT-0285",
-        "relation": "AFTERMATH",
-        "notes": null
-      }
+        "state": "DUPLICATE",
+        "exact_date": "2018-12-18",
+        "summary": "The broad adoption row overlaps the sourced first-year Dai context in LORE-EVT-0106.",
+        "significance": "Preserves the original discovery ID without duplicating a trend as another event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — Happy BirthDAI",
+            "url": "https://medium.com/@MakerDAO/happy-birthdai-4aee1166ef14",
+            "type": "PROJECT_PRIMARY",
+            "published": "2018-12-18",
+            "accessed": "2026-09-26",
+            "supports": "18 December first-anniversary report, nearly 80 million Dai circulation and retrospective community activity."
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0106",
+        "relation": "DUPLICATE",
+        "notes": "Merged overlapping first-year adoption claims. No price-resilience claim is inferred from circulation alone.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "MakerDAO stablecoin model gains traction during bear market"
     },
     {
       "id": "LORE-EVT-0473",
-      "date": "2018",
-      "title": "Compound launches decentralized lending markets",
+      "date": "2018-09-27",
+      "title": "Compound launches money markets on Ethereum",
       "branch": [
         "DEFI"
       ],
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "VERIFIED_WITH_YEAR",
-        "exact_date": "2018",
-        "summary": "Compound introduced a decentralized money-market protocol with algorithmically determined interest rates; its v0.4 whitepaper is dated June 2018.",
-        "significance": "Compound helped establish on-chain lending and borrowing as a core DeFi primitive, later becoming central to liquidity mining.",
+        "state": "VERIFIED",
+        "exact_date": "2018-09-27",
+        "summary": "Compound announced its Ethereum money-market protocol was launching, allowing users to supply assets for interest or borrow from pooled markets with variable rates.",
+        "significance": "An identifiable launch milestone for decentralized lending.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Compound — Money Market Protocol whitepaper v0.4",
-            "url": "https://compound.finance/documents/Compound.Whitepaper.v04.pdf",
-            "type": "PRIMARY_PAPER"
+            "title": "Compound Labs — Compound Launches Money Markets for Ethereum Assets",
+            "url": "https://medium.com/compound-finance/compound-launches-money-markets-for-ethereum-assets-f50920f04488",
+            "type": "PROJECT_PRIMARY",
+            "published": "2018-09-27",
+            "accessed": "2026-09-26",
+            "supports": "Announcement says protocol is launching on Ethereum that day."
           }
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
-      }
+        "notes": "The June 2018 whitepaper is a precursor; it does not establish the production launch date.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "Compound launches decentralized lending markets"
     },
     {
       "id": "LORE-EVT-0474",
@@ -1211,31 +1257,46 @@
     },
     {
       "id": "LORE-EVT-0947",
-      "date": "2018",
-      "title": "Monero changes proof-of-work to resist ASIC dominance",
+      "date": "2018-04",
+      "title": "Monero implements April proof-of-work change against ASIC mining",
       "branch": [
         "PRIVACY",
         "MINING"
       ],
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2018-10-18",
-        "summary": "Monero changed its proof-of-work algorithm again as part of the same October network upgrade that introduced Bulletproofs.",
-        "significance": "Mining-resistance context belongs under the canonical Monero network-upgrade record.",
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2018-04",
+        "summary": "Monero implemented a proof-of-work modification in its April 2018 protocol upgrade intended to resist existing ASIC hardware.",
+        "significance": "A distinct mining-policy upgrade that must be separated from October's Bulletproofs upgrade.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Monero — Beryllium Bullet release",
-            "url": "https://web.getmonero.org/2018/10/11/monero-0.13.0-released.html",
-            "type": "PROJECT_PRIMARY"
+            "title": "Monero — A Scheduled Network Upgrade is Planned for April 6",
+            "url": "https://www.getmonero.org/2018/03/28/a-scheduled-protocol-upgrade-is-planned-for-April-6-2018-03-28.html",
+            "type": "PROJECT_PRIMARY",
+            "published": "2018-03-28",
+            "accessed": "2026-09-26",
+            "supports": "Block 1,546,000 activation, approximate 6 April target and anti-ASIC purpose."
+          },
+          {
+            "title": "Monero — 2018 Year in Review",
+            "url": "https://www.getmonero.org/2019/02/12/2018-year-in-review.html",
+            "type": "PROJECT_PRIMARY_RETROSPECTIVE",
+            "published": "2019-02-12",
+            "accessed": "2026-09-26",
+            "supports": "Confirms April implementation and a separate precautionary October modification."
           }
         ],
-        "canonical_event_id": "LORE-EVT-0568",
-        "relation": "CONTEXT",
-        "notes": null
-      }
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "The advance notice uses an approximate date because activation is by block height. Retain month precision until the actual block timestamp is verified. Former October duplicate link to LORE-EVT-0568 removed: April and October are separate upgrades.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Implementation month confirmed retrospectively; block 1546000 scheduled",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "Monero changes proof-of-work to resist ASIC dominance"
     },
     {
       "id": "LORE-EVT-0958",
@@ -1307,25 +1368,46 @@
     },
     {
       "id": "LORE-EVT-0980",
-      "date": "2018",
-      "title": "Binance relocates operations amid regulatory pressure",
+      "date": "2018-03-23",
+      "title": "Binance announces plans to establish operations in Malta",
       "branch": [
         "EXCHANGES",
         "REGULATION"
       ],
       "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "Binance shifted jurisdictions and corporate structures amid changing regulatory conditions.",
-        "significance": "Too broad for one event; choose a specific office move, regulator statement or corporate announcement.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2018-03-23",
+        "summary": "Binance announced it was setting up operations in Malta and outlined investment and hiring plans.",
+        "significance": "A specific jurisdiction-expansion announcement in the exchange's early history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — Binance Announces Investment in Malta",
+            "url": "https://medium.com/binanceexchange/binance-the-worlds-largest-crypto-exchange-announces-investment-in-malta-4c7e51136563",
+            "type": "COMPANY_PRIMARY",
+            "published": "2018-03-23",
+            "accessed": "2026-09-26",
+            "supports": "23 March announcement and planned Malta operations."
+          },
+          {
+            "title": "Malta Financial Services Authority — Public Statement",
+            "url": "https://www.mfsa.mt/news-item/public-statement-2020/",
+            "type": "REGULATOR_PRIMARY",
+            "published": "2020-02-21",
+            "accessed": "2026-09-26",
+            "supports": "Later statement distinguishes claims of Malta location from MFSA authorization."
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
-      }
+        "notes": "Record the announcement, not proof that a licensed headquarters opened. The 2020 MFSA statement is a retrospective qualifier, not a 2018 event or a basis for calling Binance licensed.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "Binance relocates operations amid regulatory pressure"
     },
     {
       "id": "LORE-EVT-0992",
@@ -1407,25 +1489,46 @@
     },
     {
       "id": "LORE-EVT-1039",
-      "date": "2018",
-      "title": "BitConnect promoters face lawsuits and investigations",
+      "date": "2018-01-04",
+      "title": "Texas issues emergency cease-and-desist order against BitConnect",
       "branch": [
         "SCAMS",
         "GOVERNMENTS"
       ],
       "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "AFTERMATH_NEEDS_SPLIT",
-        "exact_date": "2018 onward",
-        "summary": "BitConnect promoters faced multiple civil and criminal proceedings after the platform collapsed.",
-        "significance": "Split into individual enforcement milestones if any merit separate cards.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2018-01-04",
+        "summary": "The Texas Securities Commissioner issued an emergency order against BitConnect's investment programmes, finding unregistered securities offerings and identifying alleged misleading conduct.",
+        "significance": "A dated regulatory intervention before BitConnect's 16 January collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Texas State Securities Board — $4 Billion Crypto-Promoter Ordered to Halt Fraudulent Sales",
+            "url": "https://www.ssb.texas.gov/news-publications/4-billion-crypto-promoter-ordered-halt-fraudulent-sales",
+            "type": "REGULATOR_PRIMARY",
+            "published": "2018-01-04",
+            "accessed": "2026-09-26",
+            "supports": "Order date and the regulator's findings concerning registration and disclosures."
+          },
+          {
+            "title": "Texas State Securities Board — Investor Alert: Fraudulent Notice Falsely Claims Refunds Are Available From BitConnect",
+            "url": "https://www.ssb.texas.gov/news-publications/investor-alert-fraudulent-notice-falsely-claims-refunds-are-available-bitconnect",
+            "type": "REGULATOR_PRIMARY",
+            "published": "2018-11-30",
+            "accessed": "2026-09-26",
+            "supports": "November follow-up says January order became final after no timely hearing request."
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0037",
-        "relation": "AFTERMATH",
-        "notes": null
-      }
+        "relation": "PRECURSOR",
+        "notes": "Narrowed the unspecific investigations row to a documented administrative action. It precedes the collapse; it is not a criminal conviction or a summary of all later lawsuits. The $4.1 billion figure in the source is a claimed token market value, not proven investor losses.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "BitConnect promoters face lawsuits and investigations"
     },
     {
       "id": "LORE-EVT-1055",
@@ -1472,36 +1575,38 @@
     },
     {
       "id": "LORE-EVT-1070",
-      "date": "2018",
-      "title": "MetaMask passes one million users",
+      "date": "2018-06-01",
+      "title": "Consensys reports MetaMask has over one million users",
       "branch": [
         "ETHEREUM",
         "TECHNOLOGY"
       ],
       "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "VERIFIED_WITH_YEAR",
-        "exact_date": "2018",
-        "summary": "By 2018 Consensys reported that MetaMask had reached more than one million users/installations as Ethereum dapp usage expanded.",
-        "significance": "Crossing one million users showed that a browser wallet could become a mainstream gateway to Ethereum applications before the DeFi and NFT booms.",
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2018-06-01",
+        "summary": "A Consensys report published on 1 June 2018 stated that MetaMask had reached over one million users.",
+        "significance": "A source-attributed browser-wallet adoption milestone before the later DeFi boom.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Consensys — The State of the Ethereum Network 2018",
+            "title": "Consensys — The State of the Ethereum Network – 2018",
             "url": "https://consensys.io/blog/the-state-of-the-ethereum-network-2018",
-            "type": "COMPANY_PRIMARY"
-          },
-          {
-            "title": "Consensys — Why Infura Is the Secret Weapon of Ethereum Infrastructure",
-            "url": "https://consensys.io/blog/why-infura-is-the-secret-weapon-of-ethereum-infrastructure",
-            "type": "COMPANY_PRIMARY"
+            "type": "COMPANY_PRIMARY",
+            "published": "2018-06-01",
+            "accessed": "2026-09-26",
+            "supports": "1 June publication; MetaMask reported as having over one million users."
           }
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Use 'users/installations' cautiously because contemporaneous Consensys wording varies by article."
-      }
+        "notes": "This is the reporting date, not a verified threshold-crossing day. The article does not define the metric as monthly active users, unique people or installations. Preserve its limited wording; do not substitute those metrics.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Public reporting date; crossing date unknown",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "MetaMask passes one million users"
     },
     {
       "id": "LORE-EVT-1083",
@@ -1533,25 +1638,38 @@
     },
     {
       "id": "LORE-EVT-1101",
-      "date": "2018",
-      "title": "Plasma research inspires early Ethereum scaling roadmaps",
+      "date": "2018-03-04",
+      "title": "Vitalik publishes Plasma Cash proposal",
       "branch": [
         "ETHEREUM",
         "TECHNOLOGY"
       ],
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": "2017-2018",
-        "summary": "Plasma scaling research began before 2018 and influenced early Ethereum scaling roadmaps.",
-        "significance": "Current year assignment is too blunt; replace with the Plasma paper/project milestone if retained.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2018-03-04",
+        "summary": "Vitalik Buterin published a Plasma Cash design using individually identified coins and coin-specific histories, acknowledging contributions from Karl Floersch and Dan Robinson.",
+        "significance": "A dated 2018 refinement of Plasma research.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Research / Vitalik Buterin — Plasma Cash: Plasma with much less per-user data checking",
+            "url": "https://ethresear.ch/t/plasma-cash-plasma-with-much-less-per-user-data-checking/1298",
+            "type": "PRIMARY_RESEARCH_POST",
+            "published": "2018-03-04",
+            "accessed": "2026-09-26",
+            "supports": "Initial 4 March 2018 post; later 10 March update; proposed coin-ID design and attribution."
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
-      }
+        "notes": "Plasma itself predates 2018. This entry is narrowed to Plasma Cash. The forum's initial publication date, subsequent edit date and conference presentation are separate.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "Plasma research inspires early Ethereum scaling roadmaps"
     },
     {
       "id": "LORE-EVT-1112",
@@ -1588,26 +1706,39 @@
     },
     {
       "id": "LORE-EVT-1128",
-      "date": "2018",
-      "title": "MakerDAO token voting becomes major live governance experiment",
+      "date": "2018-07-26",
+      "title": "Maker Foundation proposes a Dai stability-fee vote",
       "branch": [
         "DAO",
         "GOVERNANCE",
         "DEFI"
       ],
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
+      "status": "EVIDENCE_REVIEWED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2018",
-        "summary": "This row describes Maker/Dai resilience, adoption or governance during 2018 rather than one discrete event.",
-        "significance": "Useful for the Dai/Maker chapter; a specific collateral, stability-fee or governance milestone would be stronger for card scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2018-07-26",
+        "summary": "MakerDAO announced a proposed executive vote for 26 August to raise the Dai stability fee from 0.5% to 2.5%, subject to MKR-holder approval.",
+        "significance": "A concrete proposal showing the intended role of token-holder votes in monetary policy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — Increasing the Dai Stability Fee",
+            "url": "https://medium.com/@MakerDAO/increasing-the-dai-stability-fee-3b16092b01ca",
+            "type": "PROJECT_PRIMARY",
+            "published": "2018-07-26",
+            "accessed": "2026-09-26",
+            "supports": "26 July announcement; future executive vote and expressly conditional fee increase."
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0285",
         "relation": "AFTERMATH",
-        "notes": null
-      }
+        "notes": "Date identifies the proposal announcement. This source does not prove the vote occurred, passed or took effect on the planned day. Those outcomes need governance/on-chain evidence before being asserted.",
+        "reviewed_at": "2026-09-26",
+        "date_basis": "Primary publication date",
+        "score_status": "NOT_SCORED"
+      },
+      "discovery_title": "MakerDAO token voting becomes major live governance experiment"
     },
     {
       "id": "LORE-EVT-1163",
@@ -1810,7 +1941,110 @@
       }
     }
   ],
-  "research_status": "YEAR_TRIAGED_AND_SOURCED",
-  "completed_research_review": "2026-09-26",
-  "score_status": "READY_FOR_EDITORIAL_SCORING"
+  "research_status": "IN_PROGRESS",
+  "score_status": "NOT_SCORED",
+  "updated": "2026-09-26",
+  "previous_research_status": "YEAR_TRIAGED_AND_SOURCED",
+  "last_triage_review": "2026-09-26",
+  "research_note": "The previous READY_FOR_EDITORIAL_SCORING flag described triage, not a completed evidence/reconciliation pass. Remaining NEEDS states explicitly block completion and scoring.",
+  "remaining_research_count": 15,
+  "research_batches": [
+    {
+      "batch": "2018-evidence-followup-01",
+      "reviewed_at": "2026-09-26",
+      "reviewed_record_count": 10,
+      "changes": [
+        {
+          "id": "LORE-EVT-0399",
+          "previous_title": "Rollup research begins reshaping Ethereum scaling strategy",
+          "previous_state": "CONTEXT_NEEDS_NARROWING",
+          "previous_date": "2018",
+          "new_state": "VERIFIED_WITH_QUALIFIER",
+          "new_date": "2018-09-22",
+          "reason": "Replaced broad claim with a specific primary-sourced milestone."
+        },
+        {
+          "id": "LORE-EVT-1101",
+          "previous_title": "Plasma research inspires early Ethereum scaling roadmaps",
+          "previous_state": "DATE_OR_CLAIM_NEEDS_REWRITE",
+          "previous_date": "2017-2018",
+          "new_state": "VERIFIED_WITH_QUALIFIER",
+          "new_date": "2018-03-04",
+          "reason": "Resolved ambiguous 2017–2018 era row to a specifically dated 2018 proposal."
+        },
+        {
+          "id": "LORE-EVT-0473",
+          "previous_title": "Compound launches decentralized lending markets",
+          "previous_state": "VERIFIED_WITH_YEAR",
+          "previous_date": "2018",
+          "new_state": "VERIFIED",
+          "new_date": "2018-09-27",
+          "reason": "Replaced year-only date and whitepaper inference with the dated launch announcement."
+        },
+        {
+          "id": "LORE-EVT-0980",
+          "previous_title": "Binance relocates operations amid regulatory pressure",
+          "previous_state": "CONTEXT_NEEDS_NARROWING",
+          "previous_date": "2018",
+          "new_state": "VERIFIED_WITH_QUALIFIER",
+          "new_date": "2018-03-23",
+          "reason": "Replaced broad claim with a specific primary-sourced milestone."
+        },
+        {
+          "id": "LORE-EVT-1039",
+          "previous_title": "BitConnect promoters face lawsuits and investigations",
+          "previous_state": "AFTERMATH_NEEDS_SPLIT",
+          "previous_date": "2018 onward",
+          "new_state": "VERIFIED_WITH_QUALIFIER",
+          "new_date": "2018-01-04",
+          "reason": "Replaced unspecific 2018-onward legal aftermath with a dated regulatory milestone and corrected its precursor relation."
+        },
+        {
+          "id": "LORE-EVT-1070",
+          "previous_title": "MetaMask passes one million users",
+          "previous_state": "VERIFIED_WITH_YEAR",
+          "previous_date": "2018",
+          "new_state": "VERIFIED_WITH_QUALIFIER",
+          "new_date": "2018-06-01",
+          "reason": "Pinned reporting date and removed ambiguity between users, installations and monthly active users."
+        },
+        {
+          "id": "LORE-EVT-0106",
+          "previous_title": "MakerDAO's DAI becomes a major decentralized stablecoin experiment",
+          "previous_state": "CONTEXT_NEEDS_NARROWING",
+          "previous_date": "2018",
+          "new_state": "CONTEXT_VERIFIED",
+          "new_date": "2018-12-18",
+          "reason": "Replaced broad claim with a specific primary-sourced milestone."
+        },
+        {
+          "id": "LORE-EVT-0472",
+          "previous_title": "MakerDAO stablecoin model gains traction during bear market",
+          "previous_state": "CONTEXT_NEEDS_NARROWING",
+          "previous_date": "2018",
+          "new_state": "DUPLICATE",
+          "new_date": "2018-12-18",
+          "reason": "Merged two broad Maker/Dai adoption descriptions using a specific first-year snapshot."
+        },
+        {
+          "id": "LORE-EVT-1128",
+          "previous_title": "MakerDAO token voting becomes major live governance experiment",
+          "previous_state": "CONTEXT_NEEDS_NARROWING",
+          "previous_date": "2018",
+          "new_state": "VERIFIED_WITH_QUALIFIER",
+          "new_date": "2018-07-26",
+          "reason": "Narrowed broad governance claim to a dated proposal without treating a future plan as a completed action."
+        },
+        {
+          "id": "LORE-EVT-0947",
+          "previous_title": "Monero changes proof-of-work to resist ASIC dominance",
+          "previous_state": "DUPLICATE_OR_CONTEXT",
+          "previous_date": "2018-10-18",
+          "new_state": "VERIFIED_WITH_MONTH",
+          "new_date": "2018-04",
+          "reason": "Corrected an over-merge: April anti-ASIC change is distinct from October Bulletproofs."
+        }
+      ]
+    }
+  ]
 }

@@ -1081,8 +1081,8 @@
     {
       "id": "LORE-CAN-2020-040",
       "canonical_key": "2020-swiss-dlt-act-passed",
-      "date": "2020-09",
-      "title": "Swiss Parliament passes DLT blanket act",
+      "date": "2020-09-25",
+      "title": "Swiss Parliament adopts DLT legal reforms",
       "branches": [
         "GOVERNMENTS",
         "REGULATION"
@@ -1090,19 +1090,32 @@
       "source_event_ids": [
         "LORE-EVT-0346"
       ],
-      "research_state": "VERIFIED_WITH_MONTH",
+      "research_state": "VERIFIED_WITH_QUALIFIER",
       "source_confidence": "HIGH",
-      "summary": "The Swiss Parliament passed the federal DLT blanket act in September 2020, establishing legal changes for ledger-based securities, trading facilities and insolvency treatment.",
-      "significance": "The legislation created one of the world's clearest national legal frameworks for tokenized assets and distributed-ledger financial infrastructure.",
+      "summary": "The Swiss Parliament adopted the Federal Act on the Adaptation of Federal Law to Developments in Distributed Ledger Technology on 25 September 2020.",
+      "significance": "The reforms created a legal framework for blockchain-based assets and infrastructure.",
       "sources": [
         {
-          "title": "Swiss Federal Council — DLT legislative framework",
-          "url": "https://www.admin.ch/en/nsb?id=84035",
-          "type": "GOVERNMENT"
+          "title": "Swiss SIF — Limitation on ombudsman affiliation requirement",
+          "url": "https://www.sif.admin.ch/en/limitation-ombudsman-affiliation-requirement",
+          "type": "GOVERNMENT_PRIMARY",
+          "published": "2020-12-11",
+          "accessed": "2026-09-26",
+          "supports": "Explicitly records Parliament's adoption date as 25 September 2020."
+        },
+        {
+          "title": "Swiss SIF — DLT / blockchain / tokenisation",
+          "url": "https://www.sif.admin.ch/en/dlt-blockchain-en",
+          "type": "GOVERNMENT_PRIMARY",
+          "published": null,
+          "accessed": "2026-09-26",
+          "supports": "Partial commencement on 1 February 2021 and full DLT Act/ordinance commencement on 1 August 2021."
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": null
+      "notes": "Adoption is a 2020 event; commencement is 2021. Do not describe all provisions as already in force in September 2020.",
+      "date_basis": "Dated primary source",
+      "reviewed_at": "2026-09-26"
     },
     {
       "id": "LORE-CAN-2020-041",
@@ -1447,27 +1460,50 @@
     {
       "id": "LORE-CAN-2020-053",
       "canonical_key": "2020-ethereum-deposit-contract-opens-for-beacon-chain-staking",
-      "date": "2020-10-14",
-      "title": "Ethereum deposit contract opens for Beacon Chain staking",
+      "date": "2020-11-04",
+      "title": "Ethereum publishes mainnet staking deposit address and Launch Pad",
       "branches": [
         "ETHEREUM"
       ],
       "source_event_ids": [
         "LORE-EVT-0491"
       ],
-      "research_state": "VERIFIED",
+      "research_state": "VERIFIED_WITH_QUALIFIER",
       "source_confidence": "HIGH",
-      "summary": "Ethereum's staking deposit contract was deployed on mainnet as the gateway for validators joining the Beacon Chain.",
-      "significance": "The contract made the long-planned proof-of-stake transition economically real by allowing ETH to be committed to consensus.",
+      "summary": "The Ethereum Foundation released the v1.0 proof-of-stake specifications, published the mainnet deposit-contract address and said the mainnet Launch Pad was available.",
+      "significance": "This opened the publicly announced staking onboarding milestone ahead of Beacon Chain genesis.",
       "sources": [
         {
-          "title": "Ethereum.org — fork timeline",
+          "title": "Ethereum Foundation / Danny Ryan — eth2 quick update no. 19",
+          "url": "https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19",
+          "type": "PROJECT_PRIMARY",
+          "published": "2020-11-04",
+          "accessed": "2026-09-26",
+          "supports": "4 November publication of the mainnet deposit address, v1.0 specification and Launch Pad."
+        },
+        {
+          "title": "Ethereum.org — Timeline of all Ethereum forks: staking deposit contract deployed",
           "url": "https://ethereum.org/ethereum-forks/",
-          "type": "PROJECT_PRIMARY"
+          "type": "PROJECT_PRIMARY_RETROSPECTIVE",
+          "accessed": "2026-09-26",
+          "supports": "Distinguishes deployment on 14 October 2020 at 09:22:52 UTC, block 11052984, from the 4 November public announcement."
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": null
+      "notes": "The previous 14 October date referred to contract deployment. It is not the date of this public announcement. Deployment, announcement, threshold and 1 December genesis must remain distinct.",
+      "date_basis": "Public announcement/onboarding date",
+      "reviewed_at": "2026-09-26",
+      "milestones": [
+        {
+          "date": "2020-10-14T09:22:52Z",
+          "event": "Contract deployment",
+          "block": 11052984
+        },
+        {
+          "date": "2020-11-04",
+          "event": "Public mainnet deposit-address and Launch Pad announcement"
+        }
+      ]
     },
     {
       "id": "LORE-CAN-2020-054",
@@ -1764,8 +1800,8 @@
     {
       "id": "LORE-CAN-2020-065",
       "canonical_key": "2020-massmutual-buys-bitcoin",
-      "date": "2020-12",
-      "title": "MassMutual buys Bitcoin for general investment account",
+      "date": "2020-12-10",
+      "title": "MassMutual announces $100 million Bitcoin purchase",
       "branches": [
         "INSTITUTIONS",
         "BITCOIN"
@@ -1773,19 +1809,24 @@
       "source_event_ids": [
         "LORE-EVT-0746"
       ],
-      "research_state": "VERIFIED_WITH_DATE_QUALIFIER",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "Massachusetts Mutual Life Insurance Company purchased $100 million of Bitcoin for its general investment account.",
-      "significance": "A 169-year-old insurance company putting Bitcoin on its balance sheet was a striking institutional-adoption milestone after MicroStrategy and Square.",
+      "research_state": "VERIFIED_WITH_QUALIFIER",
+      "source_confidence": "HIGH",
+      "summary": "NYDIG announced that MassMutual had bought $100 million in Bitcoin for its general investment account and a separate $5 million equity stake in NYDIG.",
+      "significance": "The purchase extended the 2020 institutional-adoption story into insurance-company investment accounts.",
       "sources": [
         {
-          "title": "CoinDesk — MassMutual buys $100M Bitcoin",
-          "url": "https://www.coindesk.com/markets/2020/12/11/why-a-massive-169-year-old-insurance-company-just-bought-100m-in-bitcoin",
-          "type": "CONTEMPORARY_SECONDARY"
+          "title": "NYDIG — Institutional Bitcoin Provider NYDIG Announces Minority Stake Purchase by MassMutual",
+          "url": "https://www.prnewswire.com/news-releases/institutional-bitcoin-provider-nydig-announces-minority-stake-purchase-by-massmutual-301190811.html",
+          "type": "COMPANY_PRIMARY_PRESS_RELEASE",
+          "published": "2020-12-10",
+          "accessed": "2026-09-26",
+          "supports": "Purchase amounts, account purpose, NYDIG facilitation/custody and public announcement date."
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": null
+      "notes": "Date is public announcement. The release says the purchase had occurred, without giving an execution day. Bitcoin purchase and NYDIG equity investment are different transactions.",
+      "date_basis": "Public announcement date",
+      "reviewed_at": "2026-09-26"
     },
     {
       "id": "LORE-CAN-2020-066",
@@ -1946,6 +1987,36 @@
       ],
       "score_status": "NOT_SCORED",
       "notes": null
+    }
+  ],
+  "research_batches": [
+    {
+      "batch": "2020-date-precision-followup-01",
+      "reviewed_at": "2026-09-26",
+      "reviewed_record_count": 3,
+      "changes": [
+        {
+          "id": "LORE-CAN-2020-040",
+          "source_event_id": "LORE-EVT-0346",
+          "previous_date": "2020-09",
+          "new_date": "2020-09-25",
+          "reason": "Refine month-only chronology using a primary dated source."
+        },
+        {
+          "id": "LORE-CAN-2020-065",
+          "source_event_id": "LORE-EVT-0746",
+          "previous_date": "2020-12",
+          "new_date": "2020-12-10",
+          "reason": "Refine month-only chronology using a primary dated source."
+        },
+        {
+          "id": "LORE-CAN-2020-053",
+          "source_event_id": "LORE-EVT-0491",
+          "previous_date": "2020-10-14",
+          "new_date": "2020-11-04",
+          "reason": "Separate October deployment from November public onboarding announcement."
+        }
+      ]
     }
   ]
 }

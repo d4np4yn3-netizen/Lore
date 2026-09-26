@@ -481,19 +481,20 @@
     },
     {
       "legacy_id": "LORE-EVT-0346",
-      "date": "2020",
-      "title": "Switzerland adopts DLT legal reforms",
+      "date": "2020-09-25",
+      "title": "Swiss Parliament adopts DLT legal reforms",
       "tier": "MAJOR",
       "branches": [
         "GOVERNMENTS",
         "REGULATION"
       ],
-      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "legacy_research_state": "VERIFIED_WITH_QUALIFIER",
       "resolution": "CANONICAL",
       "canonical_key": "2020-swiss-dlt-act-passed",
       "legacy_canonical_event_id": null,
       "source_confidence": "HIGH",
-      "note": null
+      "note": "Adoption is a 2020 event; commencement is 2021. Do not describe all provisions as already in force in September 2020.",
+      "reviewed_at": "2026-09-26"
     },
     {
       "legacy_id": "LORE-EVT-0353",
@@ -836,18 +837,19 @@
     },
     {
       "legacy_id": "LORE-EVT-0491",
-      "date": "2020",
-      "title": "Ethereum deposit contract opens for Beacon Chain staking",
+      "date": "2020-11-04",
+      "title": "Ethereum publishes mainnet staking deposit address and Launch Pad",
       "tier": "CORE",
       "branches": [
         "ETHEREUM"
       ],
-      "legacy_research_state": "VERIFIED",
+      "legacy_research_state": "VERIFIED_WITH_QUALIFIER",
       "resolution": "CANONICAL",
       "canonical_key": "2020-ethereum-deposit-contract-opens-for-beacon-chain-staking",
       "legacy_canonical_event_id": null,
       "source_confidence": "HIGH",
-      "note": null
+      "note": "The previous 14 October date referred to contract deployment. It is not the date of this public announcement. Deployment, announcement, threshold and 1 December genesis must remain distinct.",
+      "reviewed_at": "2026-09-26"
     },
     {
       "legacy_id": "LORE-EVT-0492",
@@ -1109,19 +1111,20 @@
     },
     {
       "legacy_id": "LORE-EVT-0746",
-      "date": "2020",
-      "title": "MassMutual buys Bitcoin for general investment account",
+      "date": "2020-12-10",
+      "title": "MassMutual announces $100 million Bitcoin purchase",
       "tier": "CORE",
       "branches": [
         "INSTITUTIONS",
         "BITCOIN"
       ],
-      "legacy_research_state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "legacy_research_state": "VERIFIED_WITH_QUALIFIER",
       "resolution": "CANONICAL",
       "canonical_key": "2020-massmutual-buys-bitcoin",
       "legacy_canonical_event_id": null,
-      "source_confidence": "MEDIUM_HIGH",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Date is public announcement. The release says the purchase had occurred, without giving an execution day. Bitcoin purchase and NYDIG equity investment are different transactions.",
+      "reviewed_at": "2026-09-26"
     },
     {
       "legacy_id": "LORE-EVT-0747",

@@ -1,6 +1,14 @@
 # LORE — current status
 
-Updated 2026-09-24. Read with AGENTS.md and PROJECT-MEMORY.md.
+Updated 2026-09-26. Read with AGENTS.md and PROJECT-MEMORY.md.
+
+## Active research: crypto timeline
+
+Work in `archive/crypto-history/years/` and its `index.json`; never rewrite the monolithic discovery file for routine research.
+Latest continuation: **10 records refined in `2018.json`** and **three date clarifications in `2020.json`**, with primary sources, date precision and qualifiers recorded. Original event IDs and unrelated records are preserved.
+The latest concurrent work reconciled 2019 into **38 canonical events** and 2020 into **71**. This continuation builds on those commits.
+2018 still has **15 explicitly unresolved records** and needs final reconciliation. The premature scoring-ready flag was corrected; no card scoring was started.
+Next: finish the listed 2018 gaps in `archive/crypto-history/research-progress.json`, reconcile 2018, then continue backward.
 
 ## Current milestone: Crypto print rollout complete
 

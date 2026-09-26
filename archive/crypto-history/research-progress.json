@@ -11,6 +11,8 @@
   "archive_state": {
     "raw_candidates": 1229,
     "canonical_reconciled": {
+      "2019": 38,
+      "2020": 71,
       "2021": 113,
       "2022": 83,
       "2023": 83,
@@ -50,17 +52,51 @@
       "2015",
       "2016",
       "2017",
-      "2018",
-      "2019",
-      "2020"
+      "2018"
     ]
   },
   "next_work": [
-    "Reconcile 2020 into a canonical year file using only archive/crypto-history/years/2020.json.",
-    "Then reconcile 2019 backward year-by-year to origins.",
-    "Deepen any remaining research-needed records inside each year shard.",
+    "Continue the 15 explicitly unresolved 2018 records in active_checkpoints.2018.remaining_ids, then reconcile the year.",
+    "Review context, cross-year moves and source quality; a triage-complete label is not evidence completion.",
+    "Then continue backward from 2017 one year at a time, reading the current year file before research.",
     "Add causal/related-event links and final semantic deduplication.",
     "Only after all years are canonical, add card-scoring dimensions and season selection."
   ],
-  "guardrail": "If a task requires reading more than one large year at once, process years sequentially. Never fetch the 1.29 MB monolithic events.json for routine research."
+  "guardrail": "If a task requires reading more than one large year at once, process years sequentially. Never fetch the 1.29 MB monolithic events.json for routine research.",
+  "active_checkpoints": {
+    "2018": {
+      "file": "archive/crypto-history/years/2018.json",
+      "status": "EVIDENCE_REVIEW_IN_PROGRESS",
+      "last_batch": "2018-evidence-followup-01",
+      "records_refined": 10,
+      "explicit_unresolved_records": 15,
+      "remaining_ids": [
+        "LORE-EVT-0104",
+        "LORE-EVT-0474",
+        "LORE-EVT-0585",
+        "LORE-EVT-0722",
+        "LORE-EVT-0723",
+        "LORE-EVT-0730",
+        "LORE-EVT-0935",
+        "LORE-EVT-0958",
+        "LORE-EVT-0959",
+        "LORE-EVT-0970",
+        "LORE-EVT-1013",
+        "LORE-EVT-1055",
+        "LORE-EVT-1058",
+        "LORE-EVT-1198",
+        "LORE-EVT-1219"
+      ],
+      "note": "Needs final canonical reconciliation. Do not interpret the old triage-complete flag as evidence-complete."
+    }
+  },
+  "last_completed_batch": {
+    "reviewed_at": "2026-09-26",
+    "records_refined": 13,
+    "by_year": {
+      "2018": 10,
+      "2020": 3
+    },
+    "preservation": "2018 original IDs retained; 2020 canonical IDs and source-event mappings retained. Concurrent 2019/2020 reconciliation commits preserved."
+  }
 }
