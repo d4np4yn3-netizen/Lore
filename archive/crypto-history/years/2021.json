@@ -514,6 +514,132 @@
       ],
       "confidence": "MEDIUM",
       "notes": "Requires market-data sources before quantitative publication."
+    },
+    {
+      "key": "2021-tesla-bitcoin-payments-suspended",
+      "date": "2021-05",
+      "title": "Tesla suspends Bitcoin vehicle payments",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MINING"
+      ],
+      "summary": "Tesla's SEC filing confirms that it accepted Bitcoin for vehicle sales during the first quarter of 2021 and suspended the practice in May.",
+      "significance": "The reversal made Bitcoin's energy use a mainstream corporate issue and intensified public debate about proof-of-work mining's environmental footprint.",
+      "sources": [
+        {
+          "title": "Tesla Q2 2021 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000524/tsla-20210630.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-visa-usdc-settlement",
+      "date": "2021-03-29",
+      "title": "Visa settles a transaction in USDC on Ethereum",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS",
+        "ADOPTION",
+        "ETHEREUM"
+      ],
+      "summary": "Visa announced a pilot allowing Crypto.com to settle a portion of its Visa card obligations in USDC over Ethereum through Anchorage.",
+      "significance": "The pilot was a major bridge between public-blockchain stablecoins and the treasury infrastructure of a global card network.",
+      "sources": [
+        {
+          "title": "Visa — first major payments network to settle transactions in USDC",
+          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseld.17821.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-visa-buys-cryptopunk",
+      "date": "2021-08-23",
+      "title": "Visa buys a CryptoPunk",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "summary": "Visa purchased CryptoPunk #7610 for 49.5 ETH, roughly $150,000 at the time.",
+      "significance": "A major global payments company buying a collectible NFT became a vivid symbol of institutional curiosity during peak NFT mania.",
+      "sources": [
+        {
+          "title": "Visa — Metaverse strategic paper citing CryptoPunk purchase",
+          "url": "https://corporate.visa.com/content/dam/VCOM/global/services/documents/vca-metaverse-paper-vf.pdf",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Visa — NFTs mark a new chapter for digital commerce",
+          "url": "https://usa.visa.com/visa-everywhere/blog/bdp/2021/08/18/nfts-mark-a-1629328216374.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-opensea-nft-explosion",
+      "date": "2021",
+      "title": "OpenSea becomes the defining marketplace of NFT mania",
+      "state": "VERIFIED_CONTEXT",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "MARKETS",
+        "CULTURE"
+      ],
+      "summary": "OpenSea reported explosive 2021 growth; it later stated that transaction volume increased more than 600-fold during the year.",
+      "significance": "OpenSea became the primary marketplace through which millions of users experienced the 2021 NFT boom.",
+      "sources": [
+        {
+          "title": "OpenSea — 2021 growth retrospective",
+          "url": "https://opensea.io/blog/articles/announcing-openseas-new-funding",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "OpenSea — July 2021 updates",
+          "url": "https://opensea.io/blog/articles/new-features-updates-july-2021",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Era/context node; individual NFT projects remain separate canonical events."
+    },
+    {
+      "key": "2021-constitutiondao",
+      "date": "2021-11-18",
+      "title": "ConstitutionDAO raises tens of millions but loses the Constitution auction",
+      "state": "VERIFIED_WITH_SECONDARY",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "summary": "More than 17,000 contributors pooled over $40 million in an internet-native DAO attempting to buy a rare first printing of the US Constitution, but the group was outbid at Sotheby's; the document sold for $43.173 million.",
+      "significance": "ConstitutionDAO became one of the clearest demonstrations of how quickly crypto communities could coordinate capital around a shared cultural objective—even though the purchase failed.",
+      "sources": [
+        {
+          "title": "Sotheby's — US Constitution auction",
+          "url": "https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation",
+          "type": "AUCTION_HOUSE_PRIMARY"
+        },
+        {
+          "title": "CoinDesk — ConstitutionDAO aftermath",
+          "url": "https://www.coindesk.com/podcasts/the-breakdown-with-nlw-episode/did-constitutiondao-shift-the-overton-window-on-what-daos-can-accomplish",
+          "type": "SECONDARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
     }
   ],
   "updated": "2026-09-26"
