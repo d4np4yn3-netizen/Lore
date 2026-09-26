@@ -124,8 +124,8 @@
     },
     {
       "id": "LORE-CAN-2021-006",
-      "date": "2021-05",
-      "title": "Dogecoin mania peaks around Elon Musk and Saturday Night Live",
+      "date": "2021-05-08",
+      "title": "Dogecoin mania peaks around Elon Musk's Saturday Night Live appearance",
       "branches": [
         "MEMES",
         "CULTURE",
@@ -134,13 +134,19 @@
       "source_event_ids": [
         "LORE-EVT-0047"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Dogecoin reached extraordinary mainstream attention in early May 2021, with social-media speculation and Elon Musk's Saturday Night Live appearance becoming a cultural focal point.",
-      "significance": "The episode made meme coins a mainstream category and demonstrated the market power of internet attention.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_MARKET_CONTEXT",
+      "source_confidence": "HIGH",
+      "summary": "Dogecoin entered the weekend of Elon Musk's 8 May 2021 Saturday Night Live appearance after an extraordinary run; Reuters reported it had risen more than 800% in the preceding month and reached an approximately $81 billion market capitalization.",
+      "significance": "The episode made meme coins a mainstream market category and showed how social media, celebrity attention and internet culture could move crypto markets at enormous scale.",
+      "sources": [
+        {
+          "title": "Reuters — Dogecoin in spotlight as Musk makes SNL appearance",
+          "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Needs exact price/air-date/event sourcing before canonical publication."
+      "notes": "Treat the SNL appearance as the cultural focal point, not as proof that it alone caused Dogecoin's price move."
     },
     {
       "id": "LORE-CAN-2021-007",
@@ -347,11 +353,17 @@
         "TECHNOLOGY"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "MEDIUM",
-      "summary": "Solana stopped producing blocks for many hours during a period of extreme transaction load in September 2021.",
-      "significance": "The outage became an early defining test of the network's high-throughput design and operational resilience.",
-      "sources": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Solana went offline for roughly 17 hours after transaction flooding during a Raydium IDO caused memory pressure, validator crashes and loss of consensus; validators coordinated a network restart.",
+      "significance": "The outage became an important counterpoint to Solana's high-throughput design and a recurring part of debates over blockchain liveness, validator coordination and decentralization.",
+      "sources": [
+        {
+          "title": "Solana Foundation — 9-14 Network Outage Initial Overview",
+          "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Add official Solana incident report before upgrading to VERIFIED."
     },
@@ -439,11 +451,17 @@
         "NFT"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Facebook rebranded its parent company as Meta while presenting the metaverse as a central strategic direction.",
-      "significance": "The announcement pushed 'metaverse' into global mainstream culture and drove attention toward virtual-world and NFT-related crypto assets.",
-      "sources": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Facebook announced that its corporate brand would become Meta and explicitly framed the company's future around building the metaverse.",
+      "significance": "The rebrand pushed 'metaverse' from crypto and gaming subcultures into global mainstream technology conversation and accelerated speculative interest in metaverse-linked tokens and NFTs.",
+      "sources": [
+        {
+          "title": "Meta — Introducing Meta: A Social Technology Company",
+          "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Add Meta newsroom primary source before verification."
     },
@@ -622,11 +640,17 @@
         "TECHNOLOGY"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Arbitrum One opened its optimistic-rollup network to the public in late August 2021.",
-      "significance": "Arbitrum became one of Ethereum's dominant layer-2 networks and a major center for DeFi activity.",
-      "sources": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Offchain Labs opened Arbitrum One to the public on 31 August 2021 after an earlier developer-access phase.",
+      "significance": "Arbitrum One became one of Ethereum's most important optimistic-rollup networks and a major milestone in the shift of Ethereum activity toward Layer 2 scaling.",
+      "sources": [
+        {
+          "title": "Offchain Labs — Mainnet for Everyone",
+          "url": "https://offchain.medium.com/mainnet-for-everyone-27ce0f67c85e",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Add Offchain Labs launch announcement before verification."
     },
@@ -678,38 +702,66 @@
     },
     {
       "id": "LORE-CAN-2021-030",
-      "date": "2021",
-      "title": "Terra, UST and Anchor expand rapidly",
+      "date": "2021-03 to 2021-12",
+      "title": "Terra, UST and Anchor expand rapidly around high stablecoin yields",
       "branches": [
         "ALTCOINS",
         "STABLECOINS",
         "DEFI"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Terra's LUNA/UST ecosystem and Anchor's high stablecoin yield grew rapidly through 2021.",
-      "significance": "This growth created the economic structure that would unravel catastrophically in May 2022.",
-      "sources": [],
+      "research_state": "CONTEXT_VERIFIED",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Anchor launched in March 2021 and promoted a near-20% UST deposit yield. By late 2021, Anchor had become central to Terra's growth and UST demand, with community discussions already focused on sustaining the yield reserve.",
+      "significance": "The 2021 expansion created the economic structure that would become central to Terra's extraordinary rise and its 2022 collapse.",
+      "sources": [
+        {
+          "title": "Anchor Protocol — Earn documentation",
+          "url": "https://docs.anchorprotocol.com/anchor-2/user-guide/webapp/earn",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Anchor Forum — Increasing the Yield Reserve",
+          "url": "https://forum.anchorprotocol.com/t/increasing-the-yield-reserve/700",
+          "type": "PROJECT_COMMUNITY"
+        },
+        {
+          "title": "Anchor Forum — Arca Tokenomics Proposal",
+          "url": "https://forum.anchorprotocol.com/t/arca-tokenomics-proposal/2909",
+          "type": "PROJECT_COMMUNITY"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Needs Terra/Anchor primary metrics and dated milestones before canonical publication."
+      "notes": "Era/context node rather than one discrete card event; likely connects to later UST/LUNA collapse cards."
     },
     {
       "id": "LORE-CAN-2021-031",
       "date": "2021",
-      "title": "OlympusDAO turns '3,3' into DeFi culture",
+      "title": "OlympusDAO turns '(3,3)' into DeFi culture",
       "branches": [
         "DEFI",
         "MEMES",
         "CULTURE"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "OlympusDAO's bonding and protocol-owned-liquidity model grew rapidly while the '(3,3)' meme became shorthand for aligned staking behavior.",
-      "significance": "It was one of DeFi 2.0's defining experiments and one of the clearest examples of financial mechanism design becoming internet meme culture.",
-      "sources": [],
-      "score_status": "NOT_SCORED"
+      "research_state": "CONTEXT_VERIFIED",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "OlympusDAO's staking and bonding culture popularized the '(3,3)' game-theory meme across DeFi communities in 2021, while Olympus Pro extended the protocol-owned-liquidity model to other projects.",
+      "significance": "The meme became shorthand for cooperative staking behavior and one of the most recognizable cultural artifacts of the DeFi 2.0 era.",
+      "sources": [
+        {
+          "title": "OlympusDAO — Introducing Olympus Pro",
+          "url": "https://olympusdao.medium.com/introducing-olympus-pro-d8db3052fca5",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Olympus Agora — Weekly newsletter, 7 July 2021",
+          "url": "https://olympusagora.medium.com/the-agora-dispatch-olympus-weekly-newsletter-efecb84375db",
+          "type": "PROJECT_COMMUNITY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Culture/context candidate. Score only if we deliberately want a DeFi meme/culture card."
     },
     {
       "id": "LORE-CAN-2021-032",
@@ -721,12 +773,19 @@
         "NFT"
       ],
       "source_event_ids": [],
-      "research_state": "CONTEXT_NEEDS_NARROWING",
-      "source_confidence": "LOW",
-      "summary": "Solana experienced rapid growth across DeFi, NFTs and token prices during 2021.",
-      "significance": "The year established Solana as a major alternative smart-contract ecosystem, but this broad trend should be represented by more specific events.",
-      "sources": [],
-      "score_status": "NOT_SCORED"
+      "research_state": "CONTEXT_VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Solana Foundation's year-end figures show growth from roughly $100 million TVL, 360 validators and 70 projects in January to $11.4 billion TVL, 1,328 validators and 5,145 projects by December 2021.",
+      "significance": "2021 established Solana as a major non-Ethereum smart-contract ecosystem spanning DeFi, NFTs and consumer applications.",
+      "sources": [
+        {
+          "title": "Solana Foundation — Happy Solstice 2021",
+          "url": "https://solana.com/id/news/happy-solstice-2021-celebrating-solanas-sunny-year",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Era node; discrete Solana events such as the outage may be stronger physical-card candidates."
     },
     {
       "id": "LORE-CAN-2021-033",
@@ -752,43 +811,54 @@
     },
     {
       "id": "LORE-CAN-2021-034",
-      "date": "2021",
-      "title": "Bitcoin energy debate reaches mainstream corporate politics",
+      "date": "2021-05-12",
+      "title": "Tesla suspends Bitcoin vehicle payments over environmental concerns",
       "branches": [
         "BITCOIN",
         "MINING",
         "CULTURE"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Bitcoin's energy use became a major mainstream debate during 2021, amplified by Tesla's changing payment policy and China's mining crackdown.",
-      "significance": "The debate reshaped mining narratives, corporate adoption discussions and public policy around proof of work.",
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Tesla suspended Bitcoin vehicle purchases in May 2021; its SEC filing later confirmed the suspension, while Elon Musk publicly cited concern over fossil-fuel use in Bitcoin mining and transactions.",
+      "significance": "The reversal pushed Bitcoin's energy consumption into mainstream corporate and political debate and triggered a sharp market reaction.",
       "sources": [
         {
-          "title": "Tesla 2021 Form 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+          "title": "Tesla Q2 2021 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000524/tsla-20210630.htm",
           "type": "REGULATORY_FILING"
+        },
+        {
+          "title": "Reuters — Tesla suspends Bitcoin car payments",
+          "url": "https://www.euronews.com/next/2021/05/13/uk-tesla-bitcoin-musk",
+          "type": "CONTEMPORARY_SECONDARY"
         }
       ],
       "score_status": "NOT_SCORED"
     },
     {
       "id": "LORE-CAN-2021-035",
-      "date": "2021",
-      "title": "Bitcoin reaches a cycle high around $69,000",
+      "date": "2021-11-10",
+      "title": "Bitcoin reaches its 2021 cycle high near $69,000",
       "branches": [
         "BITCOIN",
         "MARKETS"
       ],
       "source_event_ids": [],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Bitcoin reached its 2021 cycle peak in November at roughly $69,000, with exact highs varying by exchange and index.",
-      "significance": "The peak capped the 2020–2021 institutional and retail bull market before the 2022 collapse cycle.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_INDEX_QUALIFIER",
+      "source_confidence": "HIGH",
+      "summary": "Bitcoin reached a new all-time high near $69,000 on 10 November 2021 before reversing lower; exact prints vary by exchange and index.",
+      "significance": "The high marked the culmination of the 2020-2021 bull cycle and became the reference peak against which the 2022 crash was measured.",
+      "sources": [
+        {
+          "title": "CoinDesk — Bitcoin pulls back from all-time high",
+          "url": "https://www.coindesk.com/markets/2021/11/10/bitcoin-pulls-back-from-all-time-high-support-between-65k-67k",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Use a specified index/exchange before publishing an exact price and timestamp."
+      "notes": "Use source-specific price when publishing; there was no single universal spot price."
     },
     {
       "id": "LORE-CAN-2021-036",
@@ -801,10 +871,13 @@
       "source_event_ids": [],
       "research_state": "CONTEXT_NEEDS_NARROWING",
       "source_confidence": "LOW",
-      "summary": "The term 'Web3' moved from crypto-native communities into mainstream technology, venture and media discourse during 2021.",
-      "significance": "The framing helped bundle DeFi, NFTs, DAOs and tokenized internet ownership into a single cultural narrative.",
+      "summary": "The term 'Web3' spread well beyond crypto-native communities during 2021 as venture capital, NFTs, DAOs and metaverse narratives gained mainstream attention.",
+      "significance": "This is useful era context but is too diffuse to treat as one canonical event without a defined publication, trend metric or institutional milestone.",
       "sources": [],
-      "score_status": "NOT_SCORED"
+      "score_status": "HOLD",
+      "notes": "Do not score as a card in this form. Replace with a discrete Web3 milestone if one is selected."
     }
-  ]
+  ],
+  "updated": "2026-09-26",
+  "note": "2021 canonical evidence pass tightened. Broad context nodes are explicitly separated from discrete verified events; low-confidence candidates are held from scoring."
 }
