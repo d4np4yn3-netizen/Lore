@@ -4,34 +4,31 @@
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
   "score_status": "NOT_STARTED",
-  "event_count": 33,
+  "event_count": 51,
   "events": [
     {
-      "id": "LORE-CAN-2024-017",
-      "date": "2024-11-04",
-      "title": "Polymarket prediction markets reach mainstream scale",
+      "id": "LORE-CAN-2024-037",
+      "date": "2024",
+      "title": "Hamster Kombat becomes a viral Telegram crypto game",
       "branches": [
-        "PREDICTION_MARKETS",
+        "GAMING",
         "CULTURE"
       ],
-      "research_state": "VERIFIED_WITH_NEUTRAL_MARKET_CONTEXT",
-      "source_confidence": "HIGH",
-      "summary": "Reuters reported that Polymarket's 2024 US presidential-election market had reached about $3.1 billion in trading volume by 4 November 2024, reflecting unprecedented mainstream attention for a crypto-based prediction market.",
-      "significance": "The 2024 cycle moved prediction markets from a crypto niche into mainstream reporting and public discussion of market-based forecasting.",
+      "source_event_ids": [
+        "LORE-EVT-0549"
+      ],
+      "research_state": "VERIFIED_WITH_PLATFORM_METRIC",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Hamster Kombat became a viral Telegram mini-app game; official channel posts documented tens of millions of players and later a large token airdrop.",
+      "significance": "The game became the clearest symbol of the 2024 Telegram tap-to-earn boom and the scale at which mini-apps could funnel users toward TON-based crypto.",
       "sources": [
         {
-          "title": "Reuters — U.S. election speculators play the prediction markets",
-          "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
-          "type": "CONTEMPORARY_SECONDARY"
-        },
-        {
-          "title": "Polymarket — 2024 Presidential Election market archive",
-          "url": "https://polymarket.com/event/presidential-election-winner-2024",
-          "type": "PLATFORM_PRIMARY"
+          "title": "Hamster Kombat official Telegram announcements",
+          "url": "https://t.me/s/hamster_kombat",
+          "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED",
-      "notes": "Historical market-activity record only. Market prices are not treated here as an election forecast or recommendation."
+      "score_status": "NOT_SCORED"
     },
     {
       "id": "LORE-CAN-2024-015",
@@ -122,6 +119,30 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-035",
+      "date": "2024-01-26",
+      "title": "Farcaster launches interactive Frames",
+      "branches": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0542"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Farcaster launched Frames, turning social-feed posts into interactive mini-app surfaces that could identify users and trigger on-chain or web actions.",
+      "significance": "Frames created one of the clearest attempts to merge social feeds with lightweight crypto-native application experiences.",
+      "sources": [
+        {
+          "title": "Farcaster protocol — Frames v2 FIP (notes original Frames launched Jan 2024)",
+          "url": "https://github.com/farcasterxyz/protocol/discussions/205",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-021",
       "date": "2024-01-31",
       "title": "Jupiter launches JUP through Jupuary",
@@ -171,6 +192,37 @@
       "notes": "First-party source confirms February 2024; add exact initial production date if a contemporaneous archive is recovered."
     },
     {
+      "id": "LORE-CAN-2024-047",
+      "date": "2024-02 to 2024-04",
+      "title": "Nigeria intensifies legal pressure on Binance executives",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0865"
+      ],
+      "research_state": "VERIFIED_WITH_RANGE",
+      "source_confidence": "HIGH",
+      "summary": "Nigerian authorities detained Binance executives and brought tax and money-laundering proceedings amid a broader dispute over Binance's operations and the naira market.",
+      "significance": "The episode became one of the most severe jurisdictional confrontations between a national government and a major global crypto exchange.",
+      "sources": [
+        {
+          "title": "Reuters — Binance executive court appearance in Nigeria",
+          "url": "https://www.reuters.com/world/africa/detained-binance-executive-court-nigerian-tax-money-laundry-charges-2024-04-04/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Reuters — Binance working with Nigeria over executive detention",
+          "url": "https://www.reuters.com/world/africa/binance-working-closely-with-nigeria-authorities-resolve-execs-detention-ceo-2024-04-18/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Keep charges and government allegations attributed; do not state guilt unless adjudicated."
+    },
+    {
       "id": "LORE-CAN-2024-020",
       "date": "2024-02-20",
       "title": "Starknet opens its first STRK community distribution",
@@ -188,6 +240,36 @@
           "title": "Starknet Foundation — Starknet Provisions Program",
           "url": "https://www.starknet.io/blog/starknet-provisions-program/",
           "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-039",
+      "date": "2024-02-29",
+      "title": "Blast L2 launches with native-yield marketing",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0838"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Blast opened its Ethereum Layer-2 mainnet after a pre-mainnet campaign that had attracted more than $2 billion in deposited assets and marketed native yield on ETH and stablecoins.",
+      "significance": "Blast became one of the most visible examples of the 2024 points-and-predeposit model for bootstrapping a new L2 before public mainnet access.",
+      "sources": [
+        {
+          "title": "Pyth Network — Blast mainnet launch",
+          "url": "https://www.pyth.network/blog/pyth-price-feeds-launch-on-blast-mainnet",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "The Block — Blast mainnet release",
+          "url": "https://www.theblock.co/news/ecosystems/2024-02-29-ethereum-layer-2-chain-blast-releases-official-mainnet-279883",
+          "type": "CONTEMPORARY_SECONDARY"
         }
       ],
       "score_status": "NOT_SCORED"
@@ -241,6 +323,30 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-042",
+      "date": "2024-03-16",
+      "title": "BOOK OF MEME launch fuels Solana meme mania",
+      "branches": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0849"
+      ],
+      "research_state": "VERIFIED_WITH_EXCHANGE_MILESTONE",
+      "source_confidence": "HIGH",
+      "summary": "Binance listed BOOK OF MEME (BOME), a newly launched Solana meme coin, within days of its appearance and flagged it as a high-risk 'Seed Tag' asset.",
+      "significance": "BOME's extraordinarily fast path from launch to top-tier exchange listing became a defining symbol of the March 2024 Solana meme-coin frenzy.",
+      "sources": [
+        {
+          "title": "Binance — BOOK OF MEME listing",
+          "url": "https://www.binance.com/az-AZ/support/announcement/detail/bca0f355cf004367b90d7e48fee3470c",
+          "type": "EXCHANGE_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-005",
       "date": "2024-03-20",
       "title": "BlackRock launches BUIDL on Ethereum",
@@ -258,6 +364,36 @@
           "title": "Securitize — BlackRock Launches Its First Tokenized Fund, BUIDL",
           "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
           "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-049",
+      "date": "2024-04-04",
+      "title": "Singapore expands stablecoin and digital-payment token regulation",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "STABLECOINS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0869"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Singapore brought the Payment Services (Amendment) Act into force from 4 April 2024, expanding regulated digital-payment-token activities; related regulations took effect in stages in April and October.",
+      "significance": "The changes broadened MAS oversight of crypto service providers and added user-protection and financial-stability obligations.",
+      "sources": [
+        {
+          "title": "Singapore Statutes — Payment Services Amendment Act commencement",
+          "url": "https://sso.agc.gov.sg/Details/GetAmendingLegislation?HistoryType=amend&SourceDocStatus=published&SourceDocType=act&SourceDocumentId=a949c2b8-f54d-428b-a8b8-ffed60d9bc3a&SourceNo=1&SourcePublishDate=20210301&SourceTransactionDate=20210301&SourceValidDate=20240404&SourceYear=2021&ValidTime=20200730",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Singapore Statutes — Payment Services Amendment Regulations 2024",
+          "url": "https://sso.agc.gov.sg/SL-Supp/S287-2024/Published/20240402",
+          "type": "GOVERNMENT"
         }
       ],
       "score_status": "NOT_SCORED"
@@ -411,6 +547,30 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-036",
+      "date": "2024-05-03",
+      "title": "friend.tech activity collapses after early social-finance boom",
+      "branches": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0543"
+      ],
+      "research_state": "VERIFIED_WITH_SECONDARY",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "friend.tech released its v2 and FRIEND token in May 2024, but the token price fell more than 90% from an initial spike on launch day and activity failed to regain its 2023 peak.",
+      "significance": "The episode became a sharp illustration of how quickly a social-finance phenomenon built on speculative access keys could lose momentum.",
+      "sources": [
+        {
+          "title": "The Block — friend.tech token price plunges after launch",
+          "url": "https://www.theblock.co/news/markets/2024-05-03-friendtechs-token-price-plunges-over-90-after-launch-292412",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-033",
       "date": "2024-05-16",
       "title": "Notcoin turns a viral Telegram clicker game into a TON token",
@@ -434,6 +594,31 @@
           "title": "Notcoin Community — May 16 launch posts",
           "url": "https://t.me/s/notcoin/511",
           "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-050",
+      "date": "2024-05-17 to 2024-12-03",
+      "title": "James Howells takes lost-Bitcoin landfill claim to the High Court",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "GOVERNMENTS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0888"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "James Howells filed a High Court claim against Newport City Council on 17 May 2024 seeking access to or compensation for the hard drive he says contains his lost Bitcoin private key; the council's strike-out/summary-judgment application was heard on 3 December.",
+      "significance": "The litigation transformed crypto's most famous lost-hard-drive story into a formal property and waste-law test, with judgment ultimately delivered in January 2025.",
+      "sources": [
+        {
+          "title": "Howells v Newport City Council [2025] EWHC 22 (Ch)",
+          "url": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/22.html",
+          "type": "COURT"
         }
       ],
       "score_status": "NOT_SCORED"
@@ -483,6 +668,30 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-034",
+      "date": "2024-05-29",
+      "title": "BlackRock IBIT becomes a major Bitcoin investment vehicle",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0258"
+      ],
+      "research_state": "VERIFIED_WITH_MILESTONE",
+      "source_confidence": "HIGH",
+      "summary": "By late May, BlackRock's iShares Bitcoin Trust (IBIT) had grown to nearly $20 billion in assets and overtaken Grayscale's GBTC as the largest Bitcoin fund by assets.",
+      "significance": "IBIT's rapid rise demonstrated how quickly traditional asset-management distribution could reshape the Bitcoin investment-product market.",
+      "sources": [
+        {
+          "title": "Reuters — BlackRock fund becomes largest Bitcoin fund",
+          "url": "https://www.reuters.com/technology/blackrocks-etf-becomes-largest-bitcoin-fund-world-bloomberg-news-reports-2024-05-29/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-010",
       "date": "2024-05-31",
       "title": "DMM Bitcoin reports a major Bitcoin theft",
@@ -508,6 +717,31 @@
       ],
       "score_status": "NOT_SCORED",
       "notes": "Add DMM Bitcoin/Japanese regulatory primary notice and exact amount before VERIFIED."
+    },
+    {
+      "id": "LORE-CAN-2024-041",
+      "date": "2024-06-03",
+      "title": "Brett becomes a prominent Base meme coin",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0846"
+      ],
+      "research_state": "VERIFIED_WITH_PROJECT_CLAIM",
+      "source_confidence": "MEDIUM",
+      "summary": "By June 2024, BRETT described itself as Base's leading meme coin and was being integrated into Base-native DeFi venues such as Seamless.",
+      "significance": "BRETT became one of the clearest symbols of Base's 2024 meme-token culture, though the project's own promotional market-ranking claims should be attributed rather than presented as independent fact.",
+      "sources": [
+        {
+          "title": "Based Brett press release — BRETT on Seamless",
+          "url": "https://www.globenewswire.com/news-release/2024/06/03/2892035/0/en/BRETT-Goes-Live-on-the-Seamless-Protocol.html",
+          "type": "PROJECT_PRESS_RELEASE"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Project press release; attribute claims about rank/market status."
     },
     {
       "id": "LORE-CAN-2024-026",
@@ -559,6 +793,30 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-040",
+      "date": "2024-06-20",
+      "title": "LayerZero token launch follows prolonged airdrop speculation",
+      "branches": [
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0840"
+      ],
+      "research_state": "VERIFIED_WITH_SECONDARY",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "LayerZero launched the ZRO token claim using a 'Proof-of-Donation' mechanism that asked claimants to donate a small amount per token to Protocol Guild.",
+      "significance": "The unusual claim design turned one of the cycle's most anticipated airdrops into a debate about entitlement, protocol funding and airdrop culture.",
+      "sources": [
+        {
+          "title": "The Block — LayerZero ZRO launch / Proof-of-Donation",
+          "url": "https://www.theblock.co/news/ecosystems/2024-06-20-layerzero-proof-of-donation-zro-claiming-mechanism-301043",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-031",
       "date": "2024-06-30",
       "title": "MiCA stablecoin rules begin applying in the EU",
@@ -576,6 +834,35 @@
           "title": "EUR-Lex — Regulation (EU) 2023/1114, Article 149",
           "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj/eng",
           "type": "LAW"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-046",
+      "date": "2024-07-02",
+      "title": "Turkey tightens crypto-asset service-provider rules",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0864"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Turkey's Law No. 7518 entered into force, bringing crypto-asset service providers under the Capital Markets Board's authorization and supervision and establishing licensing, custody and operating requirements.",
+      "significance": "The law moved one of the world's largest retail crypto markets from partial rules toward a formal service-provider regulatory regime.",
+      "sources": [
+        {
+          "title": "Turkey Official Gazette — Law No. 7518",
+          "url": "https://resmigazete.gov.tr/eskiler/2024/07/20240702-1.htm",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Turkey Capital Markets Board — Crypto Asset Service Providers Notice",
+          "url": "https://spk.gov.tr/duyurular/basin-duyurulari/2024/kripto-varlik-hizmet-saglayicilara-iliskin-duyuru_02072024",
+          "type": "GOVERNMENT"
         }
       ],
       "score_status": "NOT_SCORED"
@@ -646,6 +933,64 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-043",
+      "date": "2024-08-22",
+      "title": "Babylon expands Bitcoin staking concepts",
+      "branches": [
+        "BITCOIN",
+        "DEFI"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0858"
+      ],
+      "research_state": "VERIFIED_WITH_SEQUENCE",
+      "source_confidence": "HIGH",
+      "summary": "Babylon opened Phase 1 of its Bitcoin staking mainnet, allowing BTC holders to lock coins in self-custodial Bitcoin scripts as the supply side of a future shared-security marketplace.",
+      "significance": "By the end of 2024, Babylon reported more than 57,000 BTC had been staked across three caps, making native Bitcoin staking one of the year's largest new BitcoinFi experiments.",
+      "sources": [
+        {
+          "title": "Babylon Labs — Bitcoin Staking Mainnet Phase 1",
+          "url": "https://babylonlabs.io/blog/babylon-bitcoin-staking-mainnet-launch-phase-1",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Babylon Labs — 2024 in Review",
+          "url": "https://babylonlabs.io/blog/2024-in-review-babylons-key-achievements-and-what-to-expect-in-2025",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-038",
+      "date": "2024-08-26",
+      "title": "Ondo Finance helps popularize tokenized Treasury products",
+      "branches": [
+        "DEFI",
+        "INSTITUTIONS"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0829"
+      ],
+      "research_state": "VERIFIED_WITH_DATA",
+      "source_confidence": "HIGH",
+      "summary": "Ondo reported that USDY had surpassed $350 million in TVL, expanded to seven blockchains and reached more than 70 integrations; OUSG also integrated BlackRock's BUIDL as underlying reserve infrastructure.",
+      "significance": "Ondo became one of the clearest bridges between DeFi and tokenized US Treasury exposure.",
+      "sources": [
+        {
+          "title": "Ondo Finance — Building on BUIDL",
+          "url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ondo Finance — One Year of USDY",
+          "url": "https://ondo.finance/blog/celebrating-one-year-of-usdy",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-018",
       "date": "2024-09-16",
       "title": "Arkham publicly identifies Bhutan's state-linked Bitcoin holdings",
@@ -701,6 +1046,30 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-048",
+      "date": "2024-10-01",
+      "title": "Dubai VARA 2024 virtual-asset marketing regulations take effect",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0868"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Dubai's Virtual Assets Regulatory Authority put updated 2024 marketing regulations for virtual assets and related activities into effect on 1 October.",
+      "significance": "The rules tightened how licensed and unlicensed entities could market crypto products in a jurisdiction that had simultaneously positioned itself as a major virtual-asset hub.",
+      "sources": [
+        {
+          "title": "VARA — 2024 Marketing Regulations",
+          "url": "https://rulebooks.vara.ae/rulebook/regulations-marketing-virtual-assets-and-related-activities-2024",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-030",
       "date": "2024-10-16",
       "title": "Radiant Capital loses more than $50 million in a multisig compromise",
@@ -750,6 +1119,91 @@
       "score_status": "NOT_SCORED"
     },
     {
+      "id": "LORE-CAN-2024-044",
+      "date": "2024-10-28",
+      "title": "Stacks Nakamoto upgrade advances Bitcoin L2 narrative",
+      "branches": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0859"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Stacks activated its Nakamoto upgrade on mainnet, introducing faster blocks and Bitcoin finality for Stacks transactions.",
+      "significance": "The upgrade substantially changed Stacks' block-production/security model and strengthened its claim to function as a Bitcoin-aligned execution layer.",
+      "sources": [
+        {
+          "title": "Stacks — Nakamoto upgrade live",
+          "url": "https://www.stacks.co/blog/finally-finality-nakamoto-upgrade-sets-the-stage-sbtc-bitcoin-for-builders",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Stacks — Nakamoto testing / mainnet activation",
+          "url": "https://www.stacks.co/blog/how-nakamoto-hardened-the-stacks-network-through-new-testing-capabilities",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2024-017",
+      "date": "2024-11-04",
+      "title": "Polymarket prediction markets reach mainstream scale",
+      "branches": [
+        "PREDICTION_MARKETS",
+        "CULTURE"
+      ],
+      "research_state": "VERIFIED_WITH_NEUTRAL_MARKET_CONTEXT",
+      "source_confidence": "HIGH",
+      "summary": "Reuters reported that Polymarket's 2024 US presidential-election market had reached about $3.1 billion in trading volume by 4 November 2024, reflecting unprecedented mainstream attention for a crypto-based prediction market.",
+      "significance": "The 2024 cycle moved prediction markets from a crypto niche into mainstream reporting and public discussion of market-based forecasting.",
+      "sources": [
+        {
+          "title": "Reuters — U.S. election speculators play the prediction markets",
+          "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Polymarket — 2024 Presidential Election market archive",
+          "url": "https://polymarket.com/event/presidential-election-winner-2024",
+          "type": "PLATFORM_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Historical market-activity record only. Market prices are not treated here as an election forecast or recommendation."
+    },
+    {
+      "id": "LORE-CAN-2024-051",
+      "date": "2024-11-26",
+      "title": "Uniswap announces $15.5M v4 bug bounty ahead of hooks-based launch",
+      "branches": [
+        "DEX",
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-1100"
+      ],
+      "research_state": "VERIFIED_PRELAUNCH",
+      "source_confidence": "HIGH",
+      "summary": "Uniswap Labs announced a $15.5 million bug bounty for v4 ahead of launch, describing hooks as one of the protocol's defining extensibility features.",
+      "significance": "The bounty became one of DeFi's largest pre-launch security programs and highlighted how v4's hook architecture was expected to make AMM behavior highly customizable.",
+      "sources": [
+        {
+          "title": "Uniswap — v4 Bug Bounty",
+          "url": "https://blog.uniswap.org/v4-bug-bounty",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Uniswap Developers — v4 Hooks",
+          "url": "https://developers.uniswap.org/docs/protocols/v4/concepts/hooks",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
       "id": "LORE-CAN-2024-019",
       "date": "2024-12-05",
       "title": "Bitcoin trades above $100,000 for the first time",
@@ -771,6 +1225,31 @@
       ],
       "score_status": "NOT_SCORED",
       "notes": "Use Reuters' quoted market high rather than presenting one universal exchange price."
+    },
+    {
+      "id": "LORE-CAN-2024-045",
+      "date": "2024-12-18",
+      "title": "IMF negotiations intensify scrutiny of El Salvador Bitcoin law",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0862"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "IMF staff and El Salvador reached a staff-level agreement on a $1.4 billion Extended Fund Facility under which planned legal reforms would make private-sector Bitcoin acceptance voluntary, confine public-sector Bitcoin activity and gradually unwind government participation in Chivo.",
+      "significance": "The agreement marked a major retrenchment from the compulsory elements of El Salvador's 2021 Bitcoin legal-tender experiment.",
+      "sources": [
+        {
+          "title": "IMF — Staff-Level Agreement with El Salvador",
+          "url": "https://www.imf.org/en/news/articles/2024/12/18/pr-24485-el-salvador-imf-reaches-staff-level-agreement-on-an-eff-arrangement",
+          "type": "INTERGOVERNMENTAL"
+        }
+      ],
+      "score_status": "NOT_SCORED"
     },
     {
       "id": "LORE-CAN-2024-032",
