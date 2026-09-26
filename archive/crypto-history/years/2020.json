@@ -265,12 +265,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-09 to 2020-10-18",
+        "summary": "Shenzhen and the People's Bank of China ran the first large-scale externally controlled public digital-yuan pilot, distributing 10 million yuan in 50,000 red packets for spending at local merchants.",
+        "significance": "The pilot was the digital yuan's first large public test and a major milestone in the global CBDC race.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Shenzhen Government — first external digital-yuan pilot",
+            "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10557982.html",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -287,14 +293,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2020-02",
+        "summary": "The bZx attacks made flash-loan-enabled manipulation a major DeFi security concern.",
+        "significance": "Security-era context under the canonical bZx exploit events.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Nexus Mutual — bZx hack",
+            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0586",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -400,12 +412,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2020-01",
+        "summary": "Curve Finance launched in early 2020 with an automated market maker optimized for assets expected to trade at similar prices, initially stablecoins.",
+        "significance": "Curve became core DeFi infrastructure for low-slippage stablecoin and wrapped-asset trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve — history of the stablecoin AMM",
+            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -477,12 +495,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-07 to 2020-11",
+        "summary": "The MEV-Ship research collective formed in July 2020; Flashbots Research Organization followed in November and published the initial Flashbots Auction architecture and open-sourced mev-geth.",
+        "significance": "Flashbots transformed MEV from an obscure research problem into explicit Ethereum infrastructure and shaped later block-building architecture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Flashbots — history and auction timeline",
+            "url": "https://www.flashbots.net/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Flashbots Docs — Auction overview",
+            "url": "https://docs.flashbots.net/flashbots-auction/overview",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -585,12 +614,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-01",
+        "summary": "Binance Smart Chain launched on mainnet as an EVM-compatible parallel chain supporting smart contracts and BNB staking.",
+        "significance": "BSC became the largest early low-cost EVM competitor to Ethereum and powered a huge retail DeFi boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BNB Chain — BSC Mainnet Launch",
+            "url": "https://www.bnbchain.org/en/blog/binance-smart-chain-mainnet-launch",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -636,12 +671,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-11-27",
+        "summary": "Art Blocks launched in its modern form with Snowfro's Chromie Squiggle on 27 November 2020.",
+        "significance": "Art Blocks made fully on-chain generative art a major NFT category and influenced the art market far beyond profile-picture collections.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Art Blocks — About",
+            "url": "https://www.artblocks.io/articles/about-art-blocks",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Art Blocks — Chromie Squiggle",
+            "url": "https://www.artblocks.io/collection/chromie-squiggle-by-snowfro",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -715,12 +761,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-25",
+        "summary": "The Swiss Parliament adopted the federal DLT blanket act on 25 September 2020, amending multiple laws to create clearer treatment for blockchain securities, custody and DLT market infrastructure.",
+        "significance": "Switzerland became an early major jurisdiction to build a broad statutory framework specifically accommodating distributed-ledger assets and trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Swiss Federal Council — DLT Act history",
+            "url": "https://www.admin.ch/en/nsb?id=80775",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -765,14 +817,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2020-10",
+        "summary": "This is the same large public digital-yuan pilot captured by LORE-EVT-0153.",
+        "significance": "Canonicalized to the Shenzhen digital-yuan pilot.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Shenzhen Government — digital yuan history",
+            "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10557982.html",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0153",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -787,12 +845,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-26",
+        "summary": "KuCoin detected unauthorized transfers from hot wallets after attackers obtained private keys in a sophisticated compromise; the exchange suspended deposits and withdrawals and later recovered or neutralized much of the affected value.",
+        "significance": "The incident was one of the largest exchange hacks of 2020 and demonstrated coordinated tracing, token freezes and exchange recovery responses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "KuCoin — Security Incident Update",
+            "url": "https://www.kucoin.com/blog/kucoin-security-incident-update",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -865,15 +929,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "THORChain's cross-chain liquidity protocol developed through 2020 ahead of later multichain launches and exploits.",
+        "significance": "Protocol-development context; choose a specific mainnet or exploit for card scoring.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -915,15 +979,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Optimistic-rollup teams moved from research toward testnets and early production experiments during 2020.",
+        "significance": "Scaling-era context; Arbitrum/Optimism mainnet launches are stronger milestones.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -937,14 +1001,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "Flash loans became a defining DeFi primitive after Aave V1 introduced them at scale.",
+        "significance": "Canonicalized to Aave's flash-loan introduction.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave Labs — historical contributions report",
+            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0407",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -959,12 +1029,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-01",
+        "summary": "Aave V1 launched in January 2020 and introduced flash loans: uncollateralized loans that must be borrowed and repaid within one atomic transaction.",
+        "significance": "Flash loans became a uniquely crypto-native financial primitive used for arbitrage, refinancing, liquidations and, infamously, exploits.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave Labs — historical contributions report",
+            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1066,14 +1142,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020 onward",
+        "summary": "CRV's vote-escrow and emissions design created incentives for protocols to compete for control of Curve liquidity gauges; the full 'Curve Wars' became more pronounced after the 2020 token launch.",
+        "significance": "Important DeFi incentive-design context, but the CRV launch itself is the cleaner historical event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve — Curve Wars history",
+            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0752",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -1327,15 +1409,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Regulated exchanges increasingly restricted privacy coins in some jurisdictions.",
+        "significance": "Regulatory trend; specific exchange delistings such as Bittrex/Kraken are cleaner events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1349,12 +1431,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-18",
+        "summary": "Tornado Cash proposed and began distributing its TORN governance system to early users through vTORN claims and anonymity mining.",
+        "significance": "The move attempted to put governance of a major Ethereum privacy protocol into user hands, setting up later regulatory and governance controversies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tornado Cash — Governance Proposal",
+            "url": "https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Tornado Cash — TORN docs",
+            "url": "https://docs.tornado.cash/general/torn",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1371,15 +1464,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Samourai Wallet's Whirlpool CoinJoin gained use among Bitcoin privacy users.",
+        "significance": "Adoption context rather than one dated event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1393,12 +1486,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-06-25 to 2020-12-20",
+        "summary": "An attacker accessed Ledger's ecommerce/marketing database in June 2020. Ledger disclosed the breach in July; in December a database containing roughly one million email addresses and about 272,000 detailed customer records was dumped publicly.",
+        "significance": "The breach became a major lesson that hardware-wallet keys can remain secure while customer identity data creates severe physical and phishing risks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ledger — July 2020 data breach",
+            "url": "https://www.ledger.com/addressing-the-july-2020-e-commerce-and-marketing-data-breach",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Ledger — December database leak update",
+            "url": "https://www.ledger.com/message-ledgers-ceo-data-leak",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1415,12 +1519,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2020-02-15 to 2020-02-18",
+        "summary": "bZx suffered two closely spaced attacks in February 2020 that used flash loans and complex DeFi transactions to manipulate prices and extract value.",
+        "significance": "The attacks were DeFi's first famous flash-loan exploits and showed how composability could create entirely new attack surfaces.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Nexus Mutual — bZx February 2020 hack",
+            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "bZx post-mortem analysis",
+            "url": "https://kermankohli.substack.com/p/announcing-defi-audits-and-the-holistic",
+            "type": "CONTEMPORARY_TECHNICAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1428,7 +1543,7 @@
     },
     {
       "id": "LORE-EVT-0598",
-      "date": "2020",
+      "date": "2019",
       "title": "Gitcoin Grants popularizes quadratic funding in crypto",
       "branch": [
         "DAO",
@@ -1437,12 +1552,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_OR_CLAIM_CORRECTED",
+        "exact_date": "2019 onward",
+        "summary": "Gitcoin Grants first used quadratic funding in its inaugural 2019 rounds and expanded significantly through 2020; the original row incorrectly implies the concept began in 2020.",
+        "significance": "Gitcoin became crypto's flagship real-world experiment in quadratic funding for digital public goods.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gitcoin — Grants history",
+            "url": "https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/what-is-a-grant",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Gitcoin — grants round history",
+            "url": "https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/general-questions/when-is-the-next-grants-round",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1488,12 +1614,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-08-31",
+        "summary": "Serum went live on Solana on 31 August 2020 as a non-custodial on-chain order-book exchange backed by FTX, Alameda Research and Solana ecosystem participants.",
+        "significance": "Serum became central liquidity infrastructure for early Solana DeFi and later a key example of FTX contagion risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Project Serum — Overview",
+            "url": "https://docs.projectserum.com/introduction/overview",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1539,14 +1671,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_PRECURSOR",
+        "exact_date": "2020-02 to 2020-03",
+        "summary": "Steem's governance crisis escalated after Justin Sun acquired Steemit Inc. and exchanges used customer-held stake in disputed witness votes, helping trigger the community fork to Hive.",
+        "significance": "The conflict exposed weaknesses in delegated proof-of-stake governance when large concentrated holdings and custodial exchanges could influence validator elections.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Hive — Origins",
+            "url": "https://hive.io/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0628",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -1561,12 +1699,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-03-20T14:00:00Z",
+        "summary": "Hive launched on 20 March 2020 as a community-driven fork of Steem after a governance conflict over Steemit Inc.'s stake and Justin Sun's takeover.",
+        "significance": "The fork became a major proof-of-stake governance case study in communities attempting to escape concentrated stake control.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hive — Roadmap / Birth of Hive",
+            "url": "https://www.hive.io/en/roadmap/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hive Developers — Hardfork timeline",
+            "url": "https://developers.hive.io/apidefinitions/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1640,12 +1789,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2020-05-07",
+        "summary": "Macro investor Paul Tudor Jones told clients his Tudor BVI fund could allocate a low-single-digit percentage to Bitcoin futures as an inflation hedge.",
+        "significance": "One of the earliest endorsements of Bitcoin by a globally prominent hedge-fund manager helped legitimize the institutional macro thesis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bloomberg — Paul Tudor Jones buys Bitcoin",
+            "url": "https://www.bloomberg.com/news/articles/2020-05-07/paul-tudor-jones-buys-bitcoin-says-he-s-reminded-of-gold-in-70s",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1662,15 +1817,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Stone Ridge and NYDIG expanded institutional Bitcoin custody, execution and investment infrastructure.",
+        "significance": "Institutional trend; named investments/purchases make stronger card events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1684,12 +1839,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-10",
+        "summary": "MassMutual disclosed a $100 million Bitcoin purchase for its general investment account, facilitated and custodied by NYDIG, alongside a $5 million equity investment in NYDIG.",
+        "significance": "A 169-year-old insurance company holding Bitcoin directly in its general account was a powerful institutional-adoption signal.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NYDIG — MassMutual Bitcoin purchase",
+            "url": "https://www.prnewswire.com/news-releases/institutional-bitcoin-provider-nydig-announces-minority-stake-purchase-by-massmutual-301190811.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1706,15 +1867,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Grayscale ran mass-market television advertising for Bitcoin and crypto trusts.",
+        "significance": "Marketing/culture context rather than a core historical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1728,15 +1889,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Robinhood crypto trading grew rapidly during the retail speculation boom.",
+        "significance": "Platform-growth context.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1750,15 +1911,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Robinhood outages frustrated traders during periods of intense market activity.",
+        "significance": "Platform-operations context; not a singular crypto-history event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1772,15 +1933,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Wrapped Ether and other wrapped tokens became core DeFi plumbing.",
+        "significance": "Infrastructure trend rather than one event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1793,15 +1954,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Synthetix liquidity incentives helped shape early yield-farming mechanics.",
+        "significance": "DeFi-design context; protocol-specific launch events are stronger.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1815,12 +1976,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-08",
+        "summary": "Curve's CRV governance token and DAO contracts were unexpectedly deployed in August 2020 by an anonymous community member using publicly available code; Curve verified the deployment and adopted it.",
+        "significance": "The strange launch introduced vote-escrowed CRV and the emissions-control system that later drove the 'Curve Wars.'",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve — history of Curve and CRV launch",
+            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1871,15 +2038,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Andre Cronje's rapid experimentation and 'test in prod' reputation became emblematic of DeFi culture.",
+        "significance": "People/culture context with no single canonical date.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1893,15 +2060,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Cover Protocol suffered an exploit and token reset during the experimental DeFi period.",
+        "significance": "Potential deep-cut security lore; keep as context unless separately sourced for scoring.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1915,15 +2082,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Yearn entered a series of informal collaborations or 'mergers' with other DeFi projects.",
+        "significance": "Governance/business-model context rather than one durable merger event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1937,15 +2104,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Nexus Mutual demonstrated crypto-native mutualized smart-contract insurance.",
+        "significance": "Sector-development context; specific paid claims are cleaner events.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1960,15 +2127,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "A movement of coins mined in Bitcoin's earliest era triggered social-media speculation in 2020 despite no evidence that the coins belonged to Satoshi.",
+        "significance": "Whale/Satoshi-lore context; must always state the lack of Satoshi attribution.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -1982,12 +2149,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_YEAR",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Flow launched its mainnet in 2020, alongside developer tooling, token distribution and the early rollout of NBA Top Shot.",
+        "significance": "Dapper Labs' purpose-built consumer blockchain became the infrastructure behind one of the first mass-market NFT products.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Flow Roadmap — 2020 Mainnet Launch",
+            "url": "https://flow.com/flow-roadmap",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Flow — 2020 Year in Review",
+            "url": "https://flow.com/post/a-year-in-review-with-flow-2020",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2005,14 +2183,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-04",
+        "summary": "Libra published a redesigned white paper emphasizing single-currency stablecoins, stronger compliance controls and a more constrained architecture after global regulatory opposition.",
+        "significance": "The redesign showed regulators forcing a major private digital-currency project to retreat from its original global-money ambitions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Diem Association — economics/reserve and White Paper v2 context",
+            "url": "https://www.diem.com/en-us/economics-and-the-reserve/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0107",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -2027,12 +2211,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-01",
+        "summary": "The Libra Association renamed itself the Diem Association on 1 December 2020 as the project sought a narrower, more regulation-friendly path.",
+        "significance": "The rebrand symbolized how dramatically regulatory pressure had reshaped Facebook's original global-currency proposal.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Diem Association — reserve documentation",
+            "url": "https://www.diem.com/en-us/economics-and-the-reserve/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2049,12 +2239,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2020-10-27",
+        "summary": "JPMorgan said JPM Coin was being used commercially for the first time by a large technology client for cross-border payments.",
+        "significance": "A systemically important global bank moving its own tokenized deposit instrument into live commercial use was a major institutional blockchain milestone.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Banking Dive — JPM Coin commercial use",
+            "url": "https://www.bankingdive.com/news/jpmorgan-coin-crypto-blockchain/588022/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2072,15 +2268,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Publicly listed Bitcoin mining companies expanded capital spending and hashrate during 2020.",
+        "significance": "Mining-industry trend rather than one event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2095,15 +2291,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "'Number go up' became recurring Bitcoin meme language.",
+        "significance": "Culture context with diffuse provenance.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2117,12 +2313,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-27",
+        "summary": "Coinbase CEO Brian Armstrong published 'Coinbase is a mission focused company,' saying the company would avoid activism and broader societal issues unrelated to its core economic-freedom mission.",
+        "significance": "The policy became a widely debated Silicon Valley culture/management moment tied to one of crypto's largest companies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Coinbase is a mission focused company",
+            "url": "https://www.coinbase.com/en-gb/blog/coinbase-is-a-mission-focused-company",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2197,15 +2399,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Mt. Gox civil-rehabilitation negotiations continued through 2020.",
+        "significance": "Long-running legal context; creditor repayments in 2024 are the stronger milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2219,12 +2421,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_LATER_ENFORCEMENT",
+        "exact_date": "2020-01 onward",
+        "summary": "Forsage launched in January 2020 as Ethereum smart-contract referral schemes that US regulators later alleged operated as a $300 million crypto pyramid and Ponzi scheme; Philippine regulators issued a cease-and-desist action in September 2020.",
+        "significance": "Forsage showed how smart contracts could automate pyramid-style referral economics while promoters claimed decentralization placed them beyond regulators.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Forsage charges and background",
+            "url": "https://www.sec.gov/newsroom/press-releases/2022-134",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2241,15 +2449,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Crypto Twitter became the main social venue for DeFi launches, yield-farming discourse and protocol drama.",
+        "significance": "Culture trend rather than a discrete event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2263,12 +2471,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-05",
+        "summary": "MetaMask announced that it had exceeded one million monthly active users across desktop and mobile.",
+        "significance": "The milestone showed that DeFi had pushed a self-custodial Ethereum wallet from niche developer tool into a mass consumer gateway.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MetaMask — 1 million monthly active users",
+            "url": "https://medium.com/%40JS_MetaMask/metamask-exceeds-1-million-monthly-active-users-9da72a1e915d",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Consensys — MetaMask growth history",
+            "url": "https://consensys.io/blog/metamask-surpasses-5-million-monthly-active-users",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2285,15 +2504,15 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "1inch evolved from its 2019 hackathon origins into a major DEX aggregator during 2020.",
+        "significance": "Project-growth context; a specific launch/token event would be stronger.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2362,15 +2581,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Optimistic-rollup teams ran public testnets during 2020.",
+        "significance": "Scaling-development context; mainnet launches are stronger.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2385,12 +2604,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-02-20",
+        "summary": "Decentraland publicly launched its blockchain-based virtual world on 20 February 2020 and moved governance toward a DAO/Foundation structure.",
+        "significance": "It was one of the first fully launched crypto-native virtual worlds and became a flagship of the later metaverse land boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Decentraland historical whitepaper — 2020 public launch",
+            "url": "https://decentraland.org/whitepaper2.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2407,15 +2632,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Sorare raised funding and expanded fantasy-sports NFTs during 2020.",
+        "significance": "NFT gaming adoption context rather than one defining historical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2506,7 +2731,7 @@
     },
     {
       "id": "LORE-EVT-1158",
-      "date": "2020",
+      "date": "2021-01-11",
       "title": "DarkMarket is taken down in international operation",
       "branch": [
         "DARK_SIDE",
@@ -2516,12 +2741,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2021-01-11",
+        "summary": "DarkMarket was taken offline and its alleged operator arrested in January 2021, not 2020.",
+        "significance": "The takedown was a major multinational darknet-market enforcement event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "German law-enforcement / Europol record of DarkMarket takedown",
+            "url": "https://takedownindex.org/sources/europol-darkmarket-world-s-largest-illegal-dark-web-marketplace-taken-down",
+            "type": "INTERGOVERNMENTAL_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2538,14 +2769,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_COURT_OUTCOME",
+        "exact_date": "2020-11-26",
+        "summary": "A Chinese appeals court upheld convictions and prison sentences for 15 defendants in the PlusToken case; court records described millions of member accounts and cryptocurrency worth roughly 14.8 billion yuan at relevant prices.",
+        "significance": "The judgment documented the extraordinary scale of PlusToken and converted one of crypto's largest alleged Ponzi schemes into a criminal-court record.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "People's Daily — PlusToken final judgment report",
+            "url": "https://blockchain.people.com.cn/n1/2020/1201/c417685-31951069.html",
+            "type": "STATE_MEDIA_COURT_REPORT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0109",
+        "relation": "LEGAL_AFTERMATH",
         "notes": null
       }
     },
@@ -2560,14 +2797,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "Forsage spread internationally through smart-contract referral marketing during 2020.",
+        "significance": "Growth context under the canonical Forsage record.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Forsage case",
+            "url": "https://www.sec.gov/newsroom/press-releases/2022-134",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1042",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -2583,15 +2826,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "CipherTrace publicly claimed new Monero-tracing capabilities, prompting skepticism and privacy-community debate.",
+        "significance": "Attributed privacy/security claim context; no independent assertion that Monero was traceable.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2605,15 +2848,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Omen, Gnosis and other prediction markets saw increased use around elections.",
+        "significance": "Sector context; Polymarket's launch is the cleaner canonical event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2627,12 +2870,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_REGULATORY_SOURCE",
+        "exact_date": "2020-06 (approximately)",
+        "summary": "Polymarket began operating event-based prediction markets around June 2020 using blockchain smart contracts.",
+        "significance": "It revived decentralized prediction markets with a simple binary-market UX and later became one of crypto's most mainstream information-market products.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CFTC — Polymarket order and operating history",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/8478-22",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2649,15 +2898,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Rarible grew as an NFT marketplace and introduced token-governance experiments.",
+        "significance": "NFT-marketplace context; no standalone score in current wording.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2671,15 +2920,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "SuperRare strengthened the curated premium crypto-art marketplace model.",
+        "significance": "Digital-art market context; use a major sale/platform milestone if scored.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2693,15 +2942,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Nifty Gateway's curated drops brought high-profile artists and collectors into NFTs during 2020.",
+        "significance": "NFT adoption context; individual record drops are stronger candidates.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
@@ -2715,15 +2964,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
+        "state": "CONTEXT_ONLY",
+        "exact_date": null,
+        "summary": "Robinhood expanded access to crypto trading during the retail-market boom.",
+        "significance": "Duplicate/platform context under Robinhood growth.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Retain for archive/book context; exclude from standalone card scoring."
       }
     },
     {
