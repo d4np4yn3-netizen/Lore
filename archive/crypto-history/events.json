@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2023 institutional ETF narrative, Solana recovery, liquid staking, Privacy Pools and WalletConnect v2 are now sourced and classified.",
+  "status_note": "Evidence phase active. Every 2023 candidate has now been researched or explicitly editorially classified; no 2023 rows remain UNRESEARCHED.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -11777,12 +11777,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RETROSPECTIVE_DATA",
+        "exact_date": "2023",
+        "summary": "Lido controlled roughly 32% of all staked ETH during the 2023 period, close enough to widely discussed consensus thresholds to intensify debate over whether the protocol should voluntarily limit its own growth.",
+        "significance": "The debate made liquid-staking concentration a core Ethereum decentralization issue even though Lido itself was a protocol spread across many node operators.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Lido Governance — Why doesn't Lido self-limit?",
+            "url": "https://research.lido.fi/t/why-doesnt-lido-self-limit/6206",
+            "type": "PROJECT_GOVERNANCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15045,15 +15051,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2023-05-29",
+        "summary": "Bitcoin Ordinals passed roughly 10 million inscriptions in late May 2023, less than six months after the protocol's public launch.",
+        "significance": "The milestone showed how rapidly NFT-like inscriptions and BRC-20 activity had created a new market for Bitcoin blockspace.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Decrypt — Ordinals pass 10 million inscriptions",
+            "url": "https://decrypt.co/142898/bitcoin-ordinals-new-leader-ready-creators-shield",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Milestone crossed around May 29; published reports differ by timezone/day labeling."
       }
     },
     {
@@ -17245,12 +17257,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2023-10",
+        "summary": "By the end of October 2023, Jupiter said it had facilitated about $35 billion in cumulative trading volume, 102 million transactions and use by roughly 955,000 unique wallets, while accounting for most organic Solana swap flow.",
+        "significance": "Jupiter's growth made it the dominant routing layer for Solana liquidity and a central piece of the ecosystem's post-FTX revival.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Jupiter Research — archived 2023 Green Paper",
+            "url": "https://discuss.jup.ag/t/archived-jupiter-green-paper/21719",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22623,12 +22641,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2023",
+        "summary": "Binance's centralized-exchange market share fell sharply during 2023. Kaiko said its spot-volume share began the year near 70% and ended much lower after zero-fee trading changes, CFTC and SEC cases and the November US settlement.",
+        "significance": "The decline reduced the extraordinary concentration Binance had achieved after FTX's collapse and reshaped global exchange market structure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kaiko — 10 Charts That Defined 2023",
+            "url": "https://www.kaiko.com/resources/the-10-charts-that-defined-2023",
+            "type": "MARKET_DATA"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22893,12 +22917,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-04-20",
+        "summary": "Mad Lads launched on Solana through Backpack's xNFT system, with its mint disrupted by heavy demand, DDoS attacks and attempted exploits.",
+        "significance": "The collection became a flagship Solana community brand during the chain's 2023 recovery and a live test of Backpack's tokenized-app model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Mad Lads — 2024 Year in Review / 2023 launch history",
+            "url": "https://news.madlads.com/p/issue-81",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22915,15 +22945,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCH_NEEDED_MARKET_DATA",
+        "exact_date": "2023",
+        "summary": "Tensor emerged as a major pro-trader NFT marketplace on Solana and increasingly competed with Magic Eden.",
+        "significance": "The story is plausible and historically useful, but the current row needs dated 2023 market-share/volume evidence before it should be scored as a distinct card event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Tensor Docs — About",
+            "url": "https://docs.tensor.trade/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep in archive; obtain period-specific Solana marketplace-share data."
       }
     },
     {
@@ -24560,11 +24596,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2023",
+        "summary": "Movements from long-dormant Bitcoin addresses repeatedly generated speculation in 2023.",
+        "significance": "This is a recurring phenomenon rather than one historical event; replace with a specific wallet, block-era provenance and transaction if a LORE card is desired.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24824,15 +24860,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_WITH_ONCHAIN_DATA",
+        "exact_date": "2023",
+        "summary": "On-chain dashboards tracking Reddit Collectible Avatars showed the project reaching many millions of avatar-holding addresses and tens of millions of minted avatars during 2023.",
+        "significance": "Reddit's wallet-abstraction approach became one of the largest consumer NFT onboarding experiments, although wallet counts should not be equated with unique people.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Dune Analytics — Reddit Collectible Avatars dashboard",
+            "url": "https://dune.com/polygon_analytics/reddit-collectible-avatars",
+            "type": "ONCHAIN_ANALYTICS"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use on-chain address/holder counts, not 'unique users,' in published copy."
       }
     },
     {
@@ -25205,11 +25247,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2023",
+        "summary": "Crypto sponsorships across sport were reduced, terminated or renegotiated after the 2022 market collapse and failures such as FTX.",
+        "significance": "The broader unwind is historically useful context but should be split into specific naming-rights or sponsorship terminations before card scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25400,12 +25442,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-10-11",
+        "summary": "JPMorgan's Tokenized Collateral Network on Onyx completed its first live collateral settlement: BlackRock tokenized shares in a money-market fund and transferred them to Barclays as collateral for an OTC derivatives trade.",
+        "significance": "The transaction was a major institutional tokenization milestone because a traditional fund asset was mobilized on blockchain rails in a live derivatives-collateral workflow.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — JPMorgan first live TCN settlement with BlackRock and Barclays",
+            "url": "https://www.coindesk.com/business/2023/10/11/jpmorgan-debuts-tokenized-blackrock-shares-as-collateral-with-barclays/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -25801,12 +25849,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2023",
+        "summary": "Public Bitcoin miners expanded aggressively during 2023 ahead of the 2024 halving; Hashrate Index found seven of twelve tracked public miners more than doubled their hashrate during the year.",
+        "significance": "The expansion reflected an industry-wide race to add efficient hardware and scale before block subsidies were cut in half.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hashrate Index — 2023 Bitcoin Mining Year in Review",
+            "url": "https://hashrateindex.com/blog/hashrate-index-2023-bitcoin-mining-year-in-review/",
+            "type": "INDUSTRY_DATA"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27302,12 +27356,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-08-14",
+        "summary": "Coinbase announced the Stand with Crypto Alliance, an on-chain advocacy organization intended to mobilize crypto holders in US legislative and policy debates.",
+        "significance": "It marked a shift from company-by-company lobbying toward organized grassroots crypto political advocacy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Introducing the Stand with Crypto Alliance",
+            "url": "https://www.coinbase.com/blog/introducing-the-stand-with-crypto-alliance",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28909,12 +28969,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-05-19",
+        "summary": "Scam Sniffer identified Inferno Drainer as a multi-chain 'scam-as-a-service' vendor that took a percentage of assets stolen through phishing infrastructure; at discovery it linked the service to thousands of victims and millions of dollars in thefts.",
+        "significance": "Inferno Drainer showed how wallet phishing had industrialized into reusable infrastructure sold to other scammers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Scam Sniffer — Inferno Drainer scam-as-a-service",
+            "url": "https://drops.scamsniffer.io/5-9-million-stolen-by-scam-as-a-service-provider-called-inferno-drainer/",
+            "type": "SECURITY_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29352,12 +29418,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2023",
+        "summary": "Safe had become standard multisignature/smart-account infrastructure for many DAO and protocol treasuries.",
+        "significance": "This is important infrastructure context, but the current row needs a dated 2023 value-secured, account-count or protocol-adoption milestone before it becomes a standalone card event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Safe — Security / treasury infrastructure",
+            "url": "https://safe.global/security",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29721,12 +29793,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-03 to 2023-09",
+        "summary": "Maker governance expanded its MIP65 real-world-asset debt ceiling from $500 million to $1.25 billion to purchase US Treasuries, and later directed a $500 million reallocation into a Treasury-bill ladder.",
+        "significance": "Maker's move made tokenized/protocol-controlled real-world yield a material part of DeFi economics and linked Dai increasingly to traditional government-debt markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Maker Governance — MIP65 debt ceiling increase",
+            "url": "https://vote.makerdao.com/polling/QmNTSr9j",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Monetalis Clydesdale reallocation",
+            "url": "https://vote.makerdao.com/executive/template-executive-vote-dao-resolution-for-monetalis-clydesdale-hv-bank-on-chain-rwa-agreement-update-fortunafi-vault-change-trigger-spark-protocol-proxy-spell-september-27-2023",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -29826,12 +29909,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-10-17",
+        "summary": "Uniswap Labs began charging a 0.15% fee on selected swaps executed through its own web interface and wallet, separate from Uniswap protocol liquidity-provider or governance-controlled fees.",
+        "significance": "The fee highlighted the distinction between a decentralized protocol and the company-operated interfaces built on top of it, while creating a direct Labs revenue stream.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Uniswap Labs 0.15% interface fee",
+            "url": "https://www.theblock.co/post/257798/uniswap-to-charge-0-15-to-swap-certain-tokens-on-web-interface-and-wallet/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30081,12 +30170,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023",
+        "summary": "Starknet materially expanded usage and developer activity during 2023 while rolling out major performance upgrades; StarkWare's year-end review said Starknet at times processed more Ethereum-scaling activity than all other L2s combined.",
+        "significance": "The year established Starknet as a major production validity-rollup ecosystem, but the row is a growth arc rather than one discrete launch.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "StarkWare — 2023 Year in Review",
+            "url": "https://starkware.co/blog/from-milestones-to-masterstrokes-starkwares-year-in-review/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -32971,12 +33066,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2023-Q1",
+        "summary": "Blur overtook OpenSea by NFT trading volume during the incentive war. DappRadar measured Blur at about 57.4% of Q1 NFT marketplace volume and roughly 70.5% dominance in March.",
+        "significance": "The reversal ended OpenSea's long period of uncontested volume leadership and showed how token incentives could rapidly move professional NFT liquidity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DappRadar — Q1 2023 NFT marketplace report",
+            "url": "https://dappradar.com/blog/dappradar-dapp-industry-report-q1-2023-defi-nft-crypto",
+            "type": "MARKET_DATA"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -33253,12 +33354,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-11-20",
+        "summary": "Bittrex Global announced that it would wind down operations, with trading scheduled to cease on 4 December and customers urged to withdraw assets.",
+        "significance": "The closure completed the retreat of a once-major exchange brand after its US arm had already filed for bankruptcy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bittrex Global — wind-down notice",
+            "url": "https://bittrexglobal.com/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "The Block — Bittrex Global wind-down announcement",
+            "url": "https://www.theblock.co/amp/post/263875/bittrex-global-to-wind-down-operations-urges-customers-to-withdraw-funds",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
