@@ -6,10 +6,10 @@
   "evidence_file": "2020.json",
   "note": "Reconciliation generated from preserved 2020 research states. NEEDS_RESEARCH rows require explicit evidence review. Canonical file will be rewritten after those rows are resolved.",
   "counts": {
-    "CANONICAL": 52,
-    "CONTEXT": 18,
+    "CANONICAL": 61,
+    "CONTEXT": 19,
     "MERGED": 13,
-    "NEEDS_RESEARCH": 32
+    "NEEDS_RESEARCH": 22
   },
   "rows": [
     {
@@ -633,11 +633,11 @@
         "ETHEREUM",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-synthetix-optimistic-ethereum-testnet",
+      "legacy_canonical_event_id": "LORE-EVT-1103",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1133,11 +1133,11 @@
         "INSTITUTIONS",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-grayscale-tv-ad-campaign",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1261,11 +1261,11 @@
         "DEFI",
         "HACKS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-cover-protocol-infinite-mint",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1326,12 +1326,12 @@
         "MYSTERIES",
         "MARKETS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_CAUTION",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-dormant-2009-bitcoin-moves",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Explicitly state that there was no solid evidence tying the coins to Satoshi."
     },
     {
       "legacy_id": "LORE-EVT-0897",
@@ -1359,11 +1359,11 @@
         "GOVERNMENTS",
         "REGULATION"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-libra-whitepaper-v2",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1375,11 +1375,11 @@
         "STABLECOINS",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-libra-renamed-diem",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1441,11 +1441,11 @@
         "EXCHANGES",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-coinbase-mission-focused-policy",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1555,11 +1555,11 @@
         "DEX",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "DATE_OR_TITLE_CORRECTED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-1inch-token-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1602,11 +1602,11 @@
         "ETHEREUM",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-synthetix-optimistic-ethereum-testnet",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1635,11 +1635,11 @@
         "GAMING",
         "NFT"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-sorare-4m-seed",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
