@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Core 2021 events are now sourced and normalized; the remaining 2021 deep-cut, culture, protocol-growth and market-structure rows still require individual evidence review before card scoring.",
+  "status_note": "Evidence phase active. A second 2021 pass has verified major meme, gaming, NFT-marketplace, Terra/Anchor, regulatory, self-custody and corporate-NFT milestones; remaining 2021 rows continue to be reviewed individually.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1419,12 +1419,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021-01 to 2021-05",
+        "summary": "Dogecoin surged from a niche meme cryptocurrency into one of the largest crypto assets during a retail-speculation wave amplified by social media and repeated Elon Musk commentary.",
+        "significance": "The 2021 DOGE mania established meme coins as a major crypto market category rather than a one-off joke.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin and Elon Musk's SNL appearance",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Dogecoin tumbles after SNL",
+            "url": "https://finance.yahoo.com/news/dogecoin-tumbles-elon-musk-calls-060852392.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3379,12 +3390,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Axie Infinity grew from tens of thousands of daily users early in 2021 to hundreds of thousands by July while its player-owned economy expanded rapidly.",
+        "significance": "Axie became the flagship play-to-earn game and showed that NFT ownership and token incentives could support large online labor/guild economies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Axie Infinity — July development update",
+            "url": "https://blog.axieinfinity.com/p/july-development-update-ae9",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sky Mavis — Axie history",
+            "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4420,12 +4442,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "OpenSea became the dominant marketplace of the first mass NFT boom, with the company later reporting that transaction volume grew more than 600-fold during 2021.",
+        "significance": "The marketplace became the primary consumer venue through which millions encountered NFT collections and secondary trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenSea — July 2021 updates",
+            "url": "https://opensea.io/blog/articles/new-features-updates-july-2021",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "OpenSea — 2021 volume grew over 600x",
+            "url": "https://opensea.io/blog/articles/announcing-openseas-new-funding",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4442,12 +4475,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Art Blocks, launched in late 2020 with Chromie Squiggle as project #0, became one of the most influential platforms of the 2021 generative-art boom.",
+        "significance": "It established long-form on-chain generative art as a major NFT art category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Art Blocks — About Art Blocks",
+            "url": "https://www.artblocks.io/articles/about-art-blocks",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Art Blocks — interactive history",
+            "url": "https://www.artblocks.io/articles/interactive-timeline-art-blocks-5-year-journey",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6426,14 +6470,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Terra's UST stablecoin and LUNA ecosystem expanded rapidly during 2021 as Anchor deposits and applications grew.",
+        "significance": "This is a build-up era node essential to understanding the 2022 death spiral, not a single launch event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra Research — Bolstering Anchor sustainability",
+            "url": "https://classic-agora.terra.money/t/bolstering-anchors-sustainability/1516",
+            "type": "PROJECT_FORUM_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0237",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -6448,12 +6498,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-03",
+        "summary": "Anchor Protocol launched on Terra in March 2021 and offered UST deposit yields targeted around 20%, funded by borrower interest, staking yield and later reserve support.",
+        "significance": "Anchor became the principal demand engine for UST and therefore a central piece of the system whose failure would amplify Terra's 2022 collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Anchor Protocol docs",
+            "url": "https://docs.anchorprotocol.com/anchor-2/user-guide/webapp",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Terra Research — Bolstering Anchor sustainability",
+            "url": "https://classic-agora.terra.money/t/bolstering-anchors-sustainability/1516",
+            "type": "PROJECT_FORUM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6526,12 +6587,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-08",
+        "summary": "Visa purchased CryptoPunk #7610 for 49.5 ETH, roughly $150,000 at the time.",
+        "significance": "A global payments company buying a CryptoPunk was a highly visible sign that NFTs had entered corporate and institutional culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Visa — metaverse/NFT article referencing 2021 CryptoPunk purchase",
+            "url": "https://navigate.visa.com/europe/the-metaverse-as-a-strategic-inflection-point/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8467,12 +8534,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-16",
+        "summary": "IRON Finance suffered an algorithmic stablecoin run as TITAN collapsed from roughly $60 toward zero within hours and IRON lost its dollar peg.",
+        "significance": "The collapse was an early large-scale warning that reflexive partially collateralized stablecoin designs could unwind catastrophically under a run.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Federal Reserve — Runs on Algorithmic Stablecoins",
+            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/runs-on-algorithmic-stablecoins-evidence-from-iron-titan-and-steel-20220602.html",
+            "type": "GOVERNMENT_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9100,12 +9173,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DEADLINE",
+        "exact_date": "2021-09-24",
+        "summary": "South Korea's VASP registration deadline took effect under amended financial-transaction law, forcing crypto businesses to register and imposing additional conditions on fiat-serving exchanges.",
+        "significance": "The regime consolidated the Korean exchange market and became a major example of regulation reshaping national crypto-market structure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "South Korea FSC — VASP registration deadline status",
+            "url": "https://www.fsc.go.kr/eng/pr010101/76569",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "South Korea FSC — VASP registration obligation",
+            "url": "https://fsc.go.kr/eng/pr010101/76279",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9210,12 +9294,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-02-01 and 2021-08-01",
+        "summary": "Parts of Switzerland's DLT legal reform enabling ledger-based securities took effect on 1 February, and the remaining DLT Act and ordinance — including the DLT trading-facility regime — took full effect on 1 August 2021.",
+        "significance": "Switzerland created one of the world's earliest comprehensive statutory frameworks tailored to tokenized securities and DLT market infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Swiss Federal Council — DLT Act fully in force",
+            "url": "https://www.admin.ch/en/nsb?id=84035",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Swiss SIF — DLT/blockchain legal basis",
+            "url": "https://www.sif.admin.ch/en/dlt-blockchain-en",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13038,14 +13133,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021-01",
+        "summary": "Retail trading enthusiasm around GameStop and other meme stocks overlapped with renewed speculative attention on Dogecoin.",
+        "significance": "This is contextual background to the broader Dogecoin mania rather than a discrete crypto protocol event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin and Elon Musk's SNL appearance",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -13060,14 +13161,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021-05",
+        "summary": "By early May 2021 Dogecoin's market capitalization had risen into the tens of billions of dollars.",
+        "significance": "The scale demonstrated that internet meme culture could become a major crypto market force.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin and Elon Musk's SNL appearance",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -13083,14 +13190,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Elon Musk's public Dogecoin comments repeatedly became major market and media events during DOGE's 2021 rise.",
+        "significance": "This is a recurring culture/market pattern rather than one event; the SNL appearance is the cleanest canonical moment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin and Elon Musk's SNL appearance",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0047",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -13105,12 +13218,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-08",
+        "summary": "Elon Musk hosted Saturday Night Live during the peak of 2021 Dogecoin speculation; DOGE fell sharply during and after the broadcast after enormous anticipation.",
+        "significance": "The episode was the clearest crossover of meme-coin speculation, celebrity influence and mainstream television culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Dogecoin and Elon Musk's SNL appearance",
+            "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Dogecoin tumbles after SNL",
+            "url": "https://finance.yahoo.com/news/dogecoin-tumbles-elon-musk-calls-060852392.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13149,12 +13273,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-20",
+        "summary": "OpenSea announced a $100 million Series B led by Andreessen Horowitz during the accelerating NFT boom.",
+        "significance": "The funding round reflected the extraordinary speed with which NFT marketplace infrastructure became a major venture category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenSea — $100M Series B",
+            "url": "https://opensea.io/blog/articles/announcing-our-100m-raise-led-by-a16z",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13193,14 +13323,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-2021",
+        "summary": "Chromie Squiggle served as Art Blocks project #0 and became the platform's signature generative work as the market expanded in 2021.",
+        "significance": "It is a strong art-history card candidate, but its launch belongs to Art Blocks' 2020 origin rather than being a new 2021 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Art Blocks — About Art Blocks",
+            "url": "https://www.artblocks.io/articles/about-art-blocks",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Art Blocks — interactive history",
+            "url": "https://www.artblocks.io/articles/interactive-timeline-art-blocks-5-year-journey",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0162",
+        "relation": "ARTWORK_CONTEXT",
         "notes": null
       }
     },
@@ -13237,14 +13378,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Axie's AXS/SLP economy, breeding and guild structures became core parts of the game's rapid user growth.",
+        "significance": "Token-economy context belongs under the broader Axie/play-to-earn story rather than being treated as a separate launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Axie Infinity — roadmap and completed milestones",
+            "url": "https://whitepaper.axieinfinity.com/roadmap",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Axie Infinity — July development update",
+            "url": "https://blog.axieinfinity.com/p/july-development-update-ae9",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0119",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -13259,12 +13411,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-01",
+        "summary": "Axie Infinity launched Ronin mainnet, its Ethereum-linked sidechain designed specifically for the game.",
+        "significance": "Ronin removed much of the transaction-cost friction that had constrained Axie's growth and enabled the later play-to-earn explosion.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Axie Infinity — Ronin mainnet launch",
+            "url": "https://blog.axieinfinity.com/p/ronin",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sky Mavis — Axie history",
+            "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13325,14 +13488,14 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_MARKET_DATA",
+        "exact_date": "2021",
+        "summary": "LUNA rose into the top tier of crypto market capitalization during Terra's 2021 expansion.",
+        "significance": "Keep as market context, but attach a defined market-cap source/date before publication.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0236",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -22791,12 +22954,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-13",
+        "summary": "Nike acquired RTFKT, the digital-fashion and NFT studio.",
+        "significance": "The acquisition was one of the clearest examples of a global consumer brand buying directly into a crypto-native NFT/metaverse company.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nike — acquisition of RTFKT",
+            "url": "https://about.nike.com/en/newsroom/releases/nike-acquires-rtfkt",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22902,14 +23071,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-08",
+        "summary": "This is the same Visa CryptoPunk purchase as LORE-EVT-0240.",
+        "significance": "Canonicalized to LORE-EVT-0240.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Visa — metaverse/NFT article referencing 2021 CryptoPunk purchase",
+            "url": "https://navigate.visa.com/europe/the-metaverse-as-a-strategic-inflection-point/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0240",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -26833,12 +27008,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-17",
+        "summary": "Consensys announced that MetaMask had surpassed 21 million monthly active users.",
+        "significance": "The milestone showed that a self-custodial Web3 wallet had reached mass consumer scale during the DeFi and NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Consensys — MetaMask surpasses 21M MAUs",
+            "url": "https://consensys.io/blog/metamask-surpasses-21-million-maus-as-consensys-raises-200-million-to-make-web3-universally-easy-to-use-access-and-build-on",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27878,12 +28059,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-07",
+        "summary": "Axie Infinity reported more than 800,000 daily active users in July 2021.",
+        "significance": "The growth made Axie the most visible proof that blockchain games could reach a large global daily audience.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Axie Infinity — July development update",
+            "url": "https://blog.axieinfinity.com/p/july-development-update-ae9",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27900,14 +28087,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2021",
+        "summary": "Axie scholarship arrangements allowed asset owners and gaming guilds to lend teams to players in exchange for a share of earned tokens, becoming especially visible in lower-income markets.",
+        "significance": "The scholarship model was a defining social/economic feature of play-to-earn, but a single card should use a specific documented guild or adoption milestone.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Sky Mavis — Axie history",
+            "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0119",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -30077,14 +30270,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "OpenSea welcomed very large numbers of new collectors during the NFT boom.",
+        "significance": "User-growth context belongs under OpenSea's broader 2021 marketplace expansion.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OpenSea — July 2021 updates",
+            "url": "https://opensea.io/blog/articles/new-features-updates-july-2021",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "OpenSea — 2021 volume grew over 600x",
+            "url": "https://opensea.io/blog/articles/announcing-openseas-new-funding",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0161",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
