@@ -3,7 +3,7 @@
   "year": 2022,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence file for 2022. Only sourced records in this file are eligible for later card scoring.",
-  "record_count": 11,
+  "record_count": 19,
   "records": [
     {
       "source_event_id": null,
@@ -199,6 +199,171 @@
           "title": "US DOJ — FTX founder indicted",
           "url": "https://www.justice.gov/archives/opa/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses",
           "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-07-13",
+      "title": "Celsius files for Chapter 11 bankruptcy",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "About a month after freezing customer withdrawals, Celsius filed for Chapter 11 bankruptcy protection.",
+      "significance": "The filing confirmed that the withdrawal freeze was not a temporary liquidity issue but a full insolvency crisis affecting hundreds of thousands of users.",
+      "sources": [
+        {
+          "title": "US DOJ — Celsius founder charges and bankruptcy timeline",
+          "url": "https://www.justice.gov/usao-sdny/pr/celsius-founder-and-former-chief-revenue-officer-charged-connection-multibillion",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-08-02",
+      "title": "Nomad bridge is drained in a copycat free-for-all",
+      "status": "VERIFIED_WITH_DATE",
+      "tier": "LORE",
+      "summary": "Nomad's bridge lost about $190 million after an exploit became easy to copy, allowing many addresses to repeat the draining transaction pattern.",
+      "significance": "The attack became one of crypto's strangest hacks because the exploit rapidly turned into a decentralized copycat looting event.",
+      "sources": [
+        {
+          "title": "Chainalysis — mid-year 2022 crypto crime update",
+          "url": "https://www.chainalysis.com/blog/crypto-crime-midyear-update-2022/",
+          "type": "BLOCKCHAIN_ANALYSIS"
+        },
+        {
+          "title": "US Treasury — Tornado Cash sanctions background",
+          "url": "https://home.treasury.gov/news/press-releases/jy0916",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-10-07",
+      "title": "BSC Token Hub exploit creates two million extra BNB",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "An exploit of the native bridge between BNB Beacon Chain and BNB Smart Chain enabled roughly two million BNB to be withdrawn; validators coordinated a chain halt to contain the damage.",
+      "significance": "The event combined a huge bridge exploit with the controversial emergency stopping of a major blockchain, making it both a security and governance milestone.",
+      "sources": [
+        {
+          "title": "BNB Chain — Ecosystem Update",
+          "url": "https://www.bnbchain.org/en/blog/bnb-chain-ecosystem-update",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-11-02",
+      "title": "CoinDesk reveals Alameda's FTT-heavy balance sheet",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "CoinDesk reported on a private Alameda Research balance sheet showing $14.6 billion of assets, with a large share tied to FTX's own FTT token.",
+      "significance": "The report broke open doubts about the financial separation and solvency of Alameda and FTX and directly preceded the exchange's liquidity crisis.",
+      "sources": [
+        {
+          "title": "CoinDesk — Alameda balance sheet report",
+          "url": "https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-11-06",
+      "title": "CZ says Binance will liquidate remaining FTT holdings",
+      "status": "VERIFIED_WITH_ARCHIVED_POST",
+      "tier": "CORE",
+      "summary": "Binance CEO Changpeng Zhao said Binance would liquidate the FTT it still held after its earlier exit from FTX equity.",
+      "significance": "The announcement turned questions about Alameda's balance sheet into a public confidence crisis and accelerated withdrawals from FTX.",
+      "sources": [
+        {
+          "title": "Binance Square archive of CZ's FTT liquidation announcement",
+          "url": "https://www.binance.com/en/square/post/45814",
+          "type": "PLATFORM_ARCHIVE"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "FOLLOWS",
+          "title": "CoinDesk reveals Alameda's FTT-heavy balance sheet"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-11-11",
+      "title": "FTX customer-withdrawal crisis culminates in bankruptcy",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "After a wave of customer withdrawals and an unsuccessful rescue effort, FTX and many affiliates filed for Chapter 11 on 11 November 2022.",
+      "significance": "The bankruptcy marked the collapse of a firm that had been one of crypto's largest exchanges and a major investor, lender and political presence.",
+      "sources": [
+        {
+          "title": "SEC complaint — FTX bankruptcy sequence",
+          "url": "https://www.sec.gov/files/litigation/complaints/2022/comp-pr2022-219.pdf",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Reuters — timeline to FTX collapse",
+          "url": "https://www.reuters.com/technology/events-leading-up-ftx-founder-sam-bankman-frieds-conviction-2024-03-28/",
+          "type": "SECONDARY"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "CULMINATES",
+          "title": "CoinDesk reveals Alameda's FTT-heavy balance sheet"
+        },
+        {
+          "type": "FOLLOWS",
+          "title": "CZ says Binance will liquidate remaining FTT holdings"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-11-28",
+      "title": "BlockFi files for bankruptcy after FTX collapse",
+      "status": "VERIFIED_WITH_SECONDARY",
+      "tier": "MAJOR",
+      "summary": "BlockFi filed for Chapter 11 bankruptcy in November 2022 after having relied on rescue financing from FTX during the summer market crisis.",
+      "significance": "BlockFi's failure showed how FTX contagion spread into lenders that had themselves already been weakened by the earlier Terra/3AC crisis.",
+      "sources": [
+        {
+          "title": "Reuters — FTX/BlockFi relationship and 2022 bankruptcies",
+          "url": "https://www.reuters.com/technology/ftx-reaches-settlement-with-blockfi-may-pay-up-874-million-2024-03-07/",
+          "type": "SECONDARY"
+        },
+        {
+          "title": "SEC filing noting BlockFi bankruptcy",
+          "url": "https://www.sec.gov/Archives/edgar/data/1119190/000149315224020689/form10-q.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ]
+    },
+    {
+      "source_event_id": null,
+      "date": "2022-06-27",
+      "title": "Voyager exposes the scale of Three Arrows Capital's unpaid debt",
+      "status": "VERIFIED_SUBEVENT",
+      "tier": "MAJOR",
+      "summary": "Voyager disclosed that 3AC had failed to repay 15,250 BTC and $350 million USDC, then issued a default notice.",
+      "significance": "The disclosure made visible how large bilateral loans had linked hedge funds and retail-facing lenders, helping explain the speed of the 2022 contagion.",
+      "sources": [
+        {
+          "title": "Voyager — market update and 3AC default",
+          "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "SUBEVENT_OF",
+          "title": "Three Arrows Capital defaults on major Voyager loan"
         }
       ]
     }
