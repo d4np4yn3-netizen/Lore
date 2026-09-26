@@ -8,9 +8,13 @@ The archive is deliberately larger than any physical card season. **An archive e
 
 ## Source of truth
 
-- `events.json` — canonical structured event records.
+- `years/YYYY.json` — **canonical working event records**, split by current event year.
+- `years/index.json` — canonical shard index and event counts.
 - `taxonomy.json` — controlled branches and research statuses.
+- `events.json` — **legacy migration snapshot only**; do not use for routine evidence research or scoring.
 - `README.md` — archive rules and workflow.
+
+The archive was migrated to year shards on **26 September 2026** after the master file grew to 1,229 events and became too large for reliable connector reads. Research, verification, duplicate consolidation and scoring now happen in the relevant year file.
 
 ## Permanent IDs
 
