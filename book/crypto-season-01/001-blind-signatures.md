@@ -1,6 +1,7 @@
 # 001 — Blind Signatures
 
-**Crypto · Season One · Legendary · 1982**  
+**Crypto · Season One · Legendary · 1982**
+
 **On the card:** UNTRACEABLE PAYMENTS.
 
 ![Approved 001 front](../../cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v1.png)
