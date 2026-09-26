@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 1997,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0005",
+      "date": "1997",
+      "title": "Adam Back creates Hashcash",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "1997-05",
+        "summary": "Adam Back's later Hashcash paper states that Hashcash was originally proposed in May 1997 as an anti-spam/proof-of-work mechanism.",
+        "significance": "Bitcoin explicitly cites Hashcash-style proof of work, making this a core technical precursor.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hashcash — A Denial of Service Counter-Measure",
+            "url": "https://nakamotoinstitute.org/library/hashcash/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

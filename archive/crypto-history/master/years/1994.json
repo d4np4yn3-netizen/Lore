@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "layer": "MASTER_CANDIDATES",
+  "year": 1994,
+  "generated": "2026-09-26",
+  "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
+  "source": "Split from legacy archive/crypto-history/events.json without renumbering or dropping records.",
+  "event_count": 2,
+  "events": [
+    {
+      "id": "LORE-EVT-0194",
+      "date": "1994",
+      "title": "DigiCash deploys early ecash technology",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "1994",
+        "summary": "This broad deployment row overlaps the specific 1994 DigiCash eCash-payment event.",
+        "significance": "Use LORE-EVT-0639 as the canonical deployment milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0639",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0639",
+      "date": "1994",
+      "title": "DigiCash conducts early electronic-cash trials with banks",
+      "branch": [
+        "ORIGINS",
+        "ADOPTION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "1994-05-27",
+        "summary": "Chaum's eCash history records DigiCash's first electronic cash payment over computer networks on 27 May 1994; broader CyberBucks trials followed in 1994.",
+        "significance": "Demonstrated working cryptographic digital cash years before Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}
