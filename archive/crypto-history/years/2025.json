@@ -1,18 +1,22 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0",
   "year": 2025,
-  "generated": "2026-09-26",
-  "purpose": "Canonical evidence file for 2025. Only sourced records in this file are eligible for later card scoring.",
-  "record_count": 8,
-  "records": [
+  "status": "EVIDENCE_PASS_IN_PROGRESS",
+  "note": "Canonical evidence file for 2025. Government and regulatory events are recorded descriptively and neutrally from official sources.",
+  "events": [
     {
-      "source_event_id": "LORE-EVT-0065",
+      "key": "2025-bybit-hack",
       "date": "2025-02-21",
-      "title": "Bybit suffers record $1.5 billion crypto theft",
-      "status": "VERIFIED",
+      "title": "Bybit loses roughly $1.5 billion in record-scale hack",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Attackers compromised the Safe wallet interface used during a routine Bybit cold-to-warm wallet transfer and moved roughly 401,000 ETH, worth nearly $1.5 billion at the time.",
-      "significance": "The Bybit breach became the largest crypto theft ever recorded at the time and a defining example of supply-chain/interface compromise against centralized custody.",
+      "branches": [
+        "EXCHANGES",
+        "HACKS",
+        "SECURITY"
+      ],
+      "summary": "Bybit reported that attackers compromised a signing flow involving one of its Ethereum cold wallets, resulting in losses approaching $1.5 billion.",
+      "significance": "The theft became the largest publicly reported crypto heist to that date and exposed how supply-chain or signing-interface compromise could defeat otherwise sophisticated cold-wallet controls.",
       "sources": [
         {
           "title": "Bybit — Security Incident Timeline",
@@ -20,85 +24,98 @@
           "type": "COMPANY_PRIMARY"
         },
         {
-          "title": "Chainalysis — Bybit Hack",
-          "url": "https://www.chainalysis.com/blog/bybit-exchange-hack-february-2025-crypto-security-dprk/",
-          "type": "BLOCKCHAIN_ANALYSIS"
-        }
-      ]
-    },
-    {
-      "source_event_id": null,
-      "date": "2025-02 onward",
-      "title": "North Korean attackers are linked to the Bybit heist",
-      "status": "VERIFIED_WITH_ATTRIBUTION",
-      "tier": "CORE",
-      "summary": "Bybit and blockchain investigators linked the February theft to the North Korean state-backed Lazarus Group/DPRK-linked operators based on attack infrastructure, laundering behavior and forensic indicators.",
-      "significance": "The attribution made the largest crypto heist part of a broader nation-state cybercrime story rather than an ordinary exchange breach.",
-      "sources": [
-        {
-          "title": "Bybit — Security Incident Timeline",
-          "url": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
+          "title": "Bybit — forensic update",
+          "url": "https://www.bybit.com/en/press/post/bybit-confirms-security-integrity-amid-safe-wallet-incident-no-compromise-in-infrastructure-blt9986889e919da8d2",
           "type": "COMPANY_PRIMARY"
-        },
-        {
-          "title": "Chainalysis — Bybit Hack and DPRK tactics",
-          "url": "https://www.chainalysis.com/blog/bybit-exchange-hack-february-2025-crypto-security-dprk/",
-          "type": "BLOCKCHAIN_ANALYSIS"
         }
       ],
-      "relationships": [
-        {
-          "type": "AFTERMATH_OF",
-          "title": "Bybit suffers record $1.5 billion crypto theft"
-        }
-      ]
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0066",
-      "date": "2025-03-06",
-      "title": "United States establishes Strategic Bitcoin Reserve",
-      "status": "VERIFIED",
+      "key": "2025-fbi-attributes-bybit-to-north-korea",
+      "date": "2025-02-26",
+      "title": "FBI attributes Bybit theft to North Korea",
+      "state": "VERIFIED_WITH_ATTRIBUTION",
       "tier": "CORE",
-      "summary": "A US executive order established a Strategic Bitcoin Reserve funded initially with finally forfeited government BTC. The order directs that BTC deposited into the reserve shall not be sold and permits study of budget-neutral acquisition strategies.",
-      "significance": "A government that had historically auctioned seized Bitcoin formally adopted a policy of retaining forfeited BTC as a national reserve asset.",
+      "branches": [
+        "HACKS",
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "summary": "The FBI publicly attributed the approximately $1.5 billion Bybit theft to North Korea and identified the activity as TraderTraitor.",
+      "significance": "The attribution made the record-scale exchange hack part of the much larger history of state-linked cryptocurrency theft and laundering.",
       "sources": [
         {
-          "title": "White House — Establishment of the Strategic Bitcoin Reserve and United States Digital Asset Stockpile",
+          "title": "FBI — North Korea Responsible for $1.5 Billion Bybit Hack",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2025-bybit-hack",
+        "type": "ATTRIBUTION"
+      }
+    },
+    {
+      "key": "2025-us-strategic-bitcoin-reserve",
+      "date": "2025-03-06",
+      "title": "United States establishes a Strategic Bitcoin Reserve",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "REGULATION"
+      ],
+      "summary": "A US executive order established a Strategic Bitcoin Reserve to be capitalized initially with finally forfeited government BTC and directed that BTC deposited into the reserve not be sold, subject to the order's terms and applicable law.",
+      "significance": "The policy marked a major reversal from earlier eras when seized US government Bitcoin was routinely auctioned, turning forfeited BTC into a designated reserve asset.",
+      "sources": [
+        {
+          "title": "White House — Establishment of the Strategic Bitcoin Reserve",
           "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/?cst=&query-11-page=90",
           "type": "GOVERNMENT"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
+      "key": "2025-us-digital-asset-stockpile",
       "date": "2025-03-06",
-      "title": "United States establishes Digital Asset Stockpile",
-      "status": "VERIFIED",
+      "title": "United States establishes a separate Digital Asset Stockpile",
+      "state": "VERIFIED",
       "tier": "MAJOR",
-      "summary": "The same executive order created a separate United States Digital Asset Stockpile for finally forfeited digital assets other than Bitcoin.",
-      "significance": "The split between a Bitcoin-specific reserve and a broader non-Bitcoin stockpile created a new formal distinction in US government treatment of crypto assets.",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The same executive order created a United States Digital Asset Stockpile for finally forfeited non-Bitcoin digital assets held by the Treasury.",
+      "significance": "The policy formally separated the federal government's treatment of Bitcoin reserve holdings from other forfeited digital assets.",
       "sources": [
         {
-          "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile Executive Order",
+          "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile order",
           "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/?cst=&query-11-page=90",
           "type": "GOVERNMENT"
         }
       ],
-      "relationships": [
-        {
-          "type": "SAME_ORDER_AS",
-          "title": "United States establishes Strategic Bitcoin Reserve"
-        }
-      ]
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2025-us-strategic-bitcoin-reserve",
+        "type": "SAME_ORDER"
+      }
     },
     {
-      "source_event_id": "LORE-EVT-0067",
+      "key": "2025-ethereum-pectra",
       "date": "2025-05-07T10:05:11Z",
-      "title": "Ethereum activates Pectra",
-      "status": "VERIFIED",
+      "title": "Ethereum Pectra activates",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Ethereum's Pectra upgrade activated at epoch 364,032. It added smart-contract-like capabilities for EOAs, raised the maximum effective validator balance to 2,048 ETH and increased blob throughput.",
-      "significance": "Pectra was one of Ethereum's largest post-Merge upgrades, improving wallet UX, validator operations and rollup data capacity.",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Ethereum activated Prague-Electra at epoch 364,032. The upgrade included EIP-7702 account delegation, validator improvements and changes supporting additional L2 scaling.",
+      "significance": "Pectra was one of Ethereum's broadest protocol upgrades, advancing wallet programmability and changing validator balance/operations after the Merge era.",
       "sources": [
         {
           "title": "Ethereum Foundation — Pectra Mainnet Announcement",
@@ -106,52 +123,95 @@
           "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "Ethereum.org — Roadmap",
-          "url": "https://ethereum.org/roadmap/",
+          "title": "Ethereum.org — Pectra",
+          "url": "https://ethereum.org/roadmap/pectra/",
           "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
-      "date": "2025-07-18",
-      "title": "United States enacts GENIUS Act stablecoin framework",
-      "status": "VERIFIED",
+      "key": "2025-circle-ipo",
+      "date": "2025-06-05",
+      "title": "Circle begins trading on the New York Stock Exchange",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "The GENIUS Act was signed into US law on July 18, 2025, establishing a federal regulatory framework for payment stablecoins.",
-      "significance": "The law became a major milestone in moving dollar stablecoins from a patchwork regulatory environment toward a dedicated federal framework.",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS"
+      ],
+      "summary": "Circle priced an upsized IPO at $31 per share on 4 June, with CRCL shares expected to begin NYSE trading on 5 June 2025.",
+      "significance": "The USDC issuer becoming a public company marked another step in the integration of stablecoin infrastructure with traditional public capital markets.",
       "sources": [
         {
-          "title": "White House — President Signed S.1582",
+          "title": "Circle — Pricing of Upsized Initial Public Offering",
+          "url": "https://www.circle.com/pressroom/circle-announces-pricing-of-upsized-initial-public-offering",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2025-genius-act",
+      "date": "2025-07-18",
+      "title": "GENIUS Act creates US federal payment-stablecoin framework",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The GENIUS Act was signed into US law on 18 July 2025, establishing a federal statutory framework for payment stablecoins.",
+      "significance": "It was a major US legislative milestone for stablecoins, shifting the sector from primarily agency-by-agency treatment toward explicit federal legislation.",
+      "sources": [
+        {
+          "title": "US Public Law 119-27 — GENIUS Act",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+          "type": "LEGISLATION_PRIMARY"
+        },
+        {
+          "title": "White House — S.1582 signed into law",
           "url": "https://www.whitehouse.gov/briefings-statements/2025/07/the-president-signed-into-law-s-1582/",
           "type": "GOVERNMENT"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": null,
+      "key": "2025-crypto-etp-in-kind",
       "date": "2025-07-29",
       "title": "SEC permits in-kind creations and redemptions for crypto ETPs",
-      "status": "VERIFIED",
+      "state": "VERIFIED",
       "tier": "MAJOR",
-      "summary": "The SEC approved orders allowing authorized participants to create and redeem crypto-asset ETP shares in kind rather than only through cash transactions.",
-      "significance": "The change made US spot Bitcoin and Ether ETP mechanics more similar to other commodity ETPs and reduced a structural limitation imposed at the products' 2024 launches.",
+      "branches": [
+        "INSTITUTIONS",
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The SEC approved orders allowing authorized participants to create and redeem crypto-asset ETP shares in kind, rather than limiting spot Bitcoin and Ether ETPs to cash-only creation and redemption.",
+      "significance": "The change brought crypto ETP mechanics closer to conventional commodity ETP structures and reduced a major operational difference created at the 2024 launches.",
       "sources": [
         {
-          "title": "SEC — Permits In-Kind Creations and Redemptions for Crypto ETPs",
+          "title": "SEC — In-Kind Creations and Redemptions for Crypto ETPs",
           "url": "https://www.sec.gov/newsroom/press-releases/2025-101-sec-permits-kind-creations-redemptions-crypto-etps",
           "type": "GOVERNMENT"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     },
     {
-      "source_event_id": "LORE-EVT-0068",
+      "key": "2025-ethereum-fusaka",
       "date": "2025-12-03T21:49:11Z",
-      "title": "Ethereum activates Fusaka",
-      "status": "VERIFIED",
+      "title": "Ethereum Fusaka activates PeerDAS",
+      "state": "VERIFIED",
       "tier": "CORE",
-      "summary": "Ethereum's Fusaka upgrade activated at slot 13,164,544 and introduced PeerDAS alongside execution- and consensus-layer scaling improvements and a framework for blob-parameter-only forks.",
-      "significance": "PeerDAS let validators sample blob data instead of requiring every validator to download all of it, enabling Ethereum to scale rollup data throughput more efficiently.",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Ethereum activated Fulu-Osaka (Fusaka) at epoch 411,392. Its headline feature, PeerDAS, changed how nodes sample blob data and enabled major increases in data-availability capacity.",
+      "significance": "Fusaka extended Ethereum's rollup-centric scaling strategy beyond Dencun by making substantially higher blob throughput practical without requiring every node to download every blob.",
       "sources": [
         {
           "title": "Ethereum Foundation — Fusaka Mainnet Announcement",
@@ -159,11 +219,12 @@
           "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "Ethereum.org — Fork Timeline",
-          "url": "https://ethereum.org/ethereum-forks/",
+          "title": "Ethereum.org — Fusaka",
+          "url": "https://ethereum.org/roadmap/fusaka/",
           "type": "PROJECT_PRIMARY"
         }
-      ]
+      ],
+      "confidence": "HIGH"
     }
   ]
 }
