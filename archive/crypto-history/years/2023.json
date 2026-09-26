@@ -380,6 +380,183 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "key": "2023-brc20-experiment",
+      "date": "2023-03",
+      "title": "BRC-20 experiment puts fungible tokens on Ordinals",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "summary": "Pseudonymous developer domo published the BRC-20 experiment, using Ordinal inscriptions and off-chain indexing to deploy, mint and transfer fungible token balances on Bitcoin.",
+      "significance": "The deliberately experimental standard sparked a wave of Bitcoin token issuance, ORDI trading and blockspace demand, expanding the Ordinals phenomenon beyond collectibles.",
+      "sources": [
+        {
+          "title": "domo — BRC-20 experiment",
+          "url": "https://domo-2.gitbook.io/brc-20-experiment",
+          "type": "CREATOR_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2023-euler-exploit-and-recovery",
+      "date": "2023-03-13 to 2023-04",
+      "title": "Euler loses about $197 million — then recovers nearly all of it",
+      "state": "VERIFIED_WITH_RANGE",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "HACKS",
+        "CULTURE"
+      ],
+      "summary": "Euler Finance was exploited on 13 March for roughly $197 million. After weeks of on-chain messages, pressure and negotiation, the attacker returned almost all recoverable assets and Euler prepared redemptions for users.",
+      "significance": "The exploit was one of DeFi's largest, but its extraordinary recovery turned it into a rare story where a nine-figure attacker ultimately returned the funds.",
+      "sources": [
+        {
+          "title": "Euler Finance — War & Peace: Behind the Scenes of Euler's exploit recovery",
+          "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Euler Governance — redemption plan",
+          "url": "https://forum.euler.finance/t/plan-for-redemption-of-euler-funds-v2/947",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2023-multichain-collapse",
+      "date": "2023-07",
+      "title": "Multichain suffers mysterious withdrawals and ceases operations",
+      "state": "VERIFIED_WITH_SECONDARY",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "HACKS",
+        "MYSTERIES"
+      ],
+      "summary": "More than $125 million in unauthorized withdrawals hit Multichain in July. The team subsequently said it was ceasing operations after reporting that CEO Zhaojun had been detained in China and access to key infrastructure was lost.",
+      "significance": "The episode combined bridge security, centralized key-control risk and extraordinary organizational uncertainty, becoming one of cross-chain infrastructure's strangest failures.",
+      "sources": [
+        {
+          "title": "Chainalysis — Multichain exploit and shutdown",
+          "url": "https://www.chainalysis.com/blog/multichain-exploit-july-2023/",
+          "type": "BLOCKCHAIN_ANALYSIS"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2023-friendtech-launch",
+      "date": "2023-08-10",
+      "title": "friend.tech launches social-token trading on Base",
+      "state": "VERIFIED_WITH_COMPANY_PROFILE",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "CULTURE",
+        "ETHEREUM"
+      ],
+      "summary": "friend.tech opened an invite-only beta on Base, letting users buy and sell access 'shares'—later renamed Keys—linked to social profiles and private chats.",
+      "significance": "The app created a short-lived SocialFi frenzy and became one of the first viral consumer applications on the newly launched Base network.",
+      "sources": [
+        {
+          "title": "friend.tech — company launch history",
+          "url": "https://www.linkedin.com/posts/friend-tech_friendtech-was-built-by-pseudonymous-developer-activity-7188001882592669697-WH31",
+          "type": "COMPANY_PROFILE"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "key": "2023-jito-airdrop",
+      "date": "2023-12-07T16:00:00Z",
+      "title": "Jito launches JTO with a major Solana airdrop",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEFI",
+        "DAO"
+      ],
+      "summary": "Jito Foundation opened claims for JTO on 7 December 2023, allocating 100 million JTO—10% of total supply—to a retrospective community airdrop.",
+      "significance": "The airdrop rewarded Solana liquid-staking and MEV participants and became a major symbol of the network's 2023 recovery.",
+      "sources": [
+        {
+          "title": "Jito Foundation — airdrop allocation",
+          "url": "https://www.jito.network/blog/jto-airdrop-eligibility-and-allocation-specifications/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Jito Foundation — claiming details",
+          "url": "https://www.jito.network/blog/airdrop-claiming-details/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2023-solana-community-revival-bonk",
+      "date": "2023",
+      "title": "BONK becomes a symbol of Solana's post-FTX revival",
+      "state": "VERIFIED_CONTEXT",
+      "tier": "LORE",
+      "branches": [
+        "ALTCOINS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "BONK was launched to the Solana community on Christmas Day 2022, with half of supply allocated to community distribution. Through 2023, BONK mania became closely associated with a broader revival in Solana usage and culture.",
+      "significance": "Rather than being just another meme coin, BONK became a community symbol for an ecosystem rebuilding after the FTX shock.",
+      "sources": [
+        {
+          "title": "BONK — About",
+          "url": "https://www.bonkcoin.com/about",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Solana Foundation — 2023 community review",
+          "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Launch itself belongs on 25 December 2022; this row captures the 2023 cultural resurgence."
+    },
+    {
+      "key": "2023-saga-bonk-arbitrage",
+      "date": "2023-12-15",
+      "title": "BONK reward makes the Solana Saga phone sell out",
+      "state": "VERIFIED_WITH_SECONDARY",
+      "tier": "LORE",
+      "branches": [
+        "ALTCOINS",
+        "MEMES",
+        "CULTURE",
+        "TECHNOLOGY"
+      ],
+      "summary": "The Solana Saga phone sold out in the US after the value of the 30 million BONK tokens claimable by owners rose above the phone's retail price.",
+      "significance": "A struggling crypto smartphone suddenly becoming an arbitrage trade because its bundled meme tokens were worth more than the hardware is one of the most distinctly crypto stories of 2023.",
+      "sources": [
+        {
+          "title": "Solana Foundation — 2023 community review",
+          "url": "https://solana.com/pt/news/solana-solstice-2023-community-review",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "The Block — Saga sells out as BONK reward rises",
+          "url": "https://www.theblock.co/news/ecosystems/2023-12-15-solana-phone-sells-out-in-us-as-traders-spot-arbitrage-with-bonks-skyrocketing-price-267784",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
     }
-  ]
+  ],
+  "updated": "2026-09-26"
 }
