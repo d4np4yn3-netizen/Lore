@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. All 2021 archive rows have now been researched or explicitly classified as context/needs-narrowing/corrected-date; there are no silently unresearched 2021 candidates.",
+  "status_note": "Evidence phase active. The canonical 2022 collapse chain — Terra, major bridge exploits, 3AC/CeFi contagion, Merge, Tornado Cash and FTX — is now source-backed and linked causally; remaining 2022 ecosystem/culture candidates are being cleared next.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1548,12 +1548,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-03-23",
+        "summary": "Attackers compromised validator keys on Axie Infinity's Ronin bridge and withdrew 173,600 ETH and 25.5 million USDC; the theft was discovered days later.",
+        "significance": "Ronin became one of the largest crypto thefts ever and showed the danger of concentrated validator control in bridge security.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Ronin bridge theft",
+            "url": "https://techcrunch.com/2022/03/29/axie-infinity-ronin-network-625-million-hack/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1571,12 +1577,23 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2022-05-08 onward",
+        "summary": "TerraUSD (UST) began trading materially below its intended $1 peg on 8 May 2022 and failed to restore sustained parity as withdrawals from Anchor accelerated.",
+        "significance": "The depeg broke the core economic assumption behind Terra's algorithmic stablecoin system and triggered one of crypto's largest systemic collapses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra Research Forum — UST peg-loss recovery proposal",
+            "url": "https://classic-agora.terra.money/t/proposal-help-ust-pegging-increase-estimated-minting-capacity-to-1200m/6287",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Terra Research Forum — Ecosystem Revival Plan",
+            "url": "https://classic-agora.terra.money/t/terra-ecosystem-revival-plan/8701",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1594,12 +1611,23 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2022-05-09 to 2022-05-13",
+        "summary": "As UST holders exited through Terra's mint-and-burn mechanism, LUNA supply expanded explosively while LUNA's price collapsed toward zero.",
+        "significance": "The feedback loop became the archetypal algorithmic-stablecoin death spiral and destroyed Terra's original economic model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra Research Forum — UST peg-loss recovery proposal",
+            "url": "https://classic-agora.terra.money/t/proposal-help-ust-pegging-increase-estimated-minting-capacity-to-1200m/6287",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Terra Research Forum — Ecosystem Revival Plan",
+            "url": "https://classic-agora.terra.money/t/terra-ecosystem-revival-plan/8701",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1616,12 +1644,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2022-06-27 to 2022-06-29",
+        "summary": "Voyager declared Three Arrows Capital in default on loans of 15,250 BTC and $350 million USDC on 27 June; a British Virgin Islands court then ordered 3AC into liquidation.",
+        "significance": "The failure of one of crypto's largest hedge funds exposed interconnected leverage and became a central transmission mechanism in the 2022 credit crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Voyager Digital — Market Update / 3AC default",
+            "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Washington Post — Three Arrows Capital ordered into liquidation",
+            "url": "https://www.washingtonpost.com/business/2022/06/29/three-arrows-liquidation-crypto/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1639,12 +1678,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-08-08",
+        "summary": "The US Treasury's Office of Foreign Assets Control sanctioned Tornado Cash, identifying its smart-contract-based mixing service and related addresses under US sanctions authorities.",
+        "significance": "The action triggered a major global debate about sanctions, privacy technology, immutable smart contracts and whether code can be treated like a conventional entity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US Treasury — sanctions Tornado Cash",
+            "url": "https://home.treasury.gov/news/press-releases/jy0916",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US Treasury — Tornado Cash designation",
+            "url": "https://home.treasury.gov/news/press-releases/jy0916",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1661,12 +1711,18 @@
       "status": "RESEARCH_REQUIRED",
       "existing_lore_artwork": true,
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-09-15",
+        "summary": "Ethereum completed The Merge on 15 September 2022, replacing proof-of-work block production with proof-of-stake consensus coordinated through the Beacon Chain.",
+        "significance": "The Merge was one of the largest live consensus migrations in blockchain history and fundamentally changed Ethereum's issuance, validator economics and energy footprint.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The Merge",
+            "url": "https://ethereum.org/roadmap/merge/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1683,12 +1739,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-11-11",
+        "summary": "FTX Trading and a large group of affiliated companies filed for Chapter 11 bankruptcy protection in Delaware, and John J. Ray III replaced Sam Bankman-Fried as chief executive.",
+        "significance": "FTX's collapse destroyed one of the industry's largest exchanges, triggered widespread contagion and became the defining crypto corporate failure of 2022.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FTX bankruptcy announcement coverage",
+            "url": "https://www.coindesk.com/policy/2022/11/11/ftx-files-for-bankruptcy-protections-in-us",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "John J. Ray III First Day Declaration, FTX Ch.11",
+            "url": "https://relayto.com/explore/ftx-chapter-11-petition-pleadings-rhlfeo56gm9o8",
+            "type": "COURT_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3479,12 +3546,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-02-02",
+        "summary": "The Wormhole bridge was exploited for 120,000 wrapped ETH, worth roughly $320 million at the time, after an attacker bypassed verification and minted unbacked assets.",
+        "significance": "The exploit became one of the first mega-scale bridge failures and highlighted cross-chain verification as a systemic security risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Wormhole exploit",
+            "url": "https://techcrunch.com/2022/02/02/wormhole-crypto-bridge-hack/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3501,12 +3574,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-06-12",
+        "summary": "Celsius paused all withdrawals, swaps and transfers between customer accounts, citing extreme market conditions.",
+        "significance": "The freeze turned abstract CeFi balance-sheet concerns into a bank-run-style crisis for retail depositors.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Vermont DFR — Celsius files Chapter 11",
+            "url": "https://dfr.vermont.gov/consumer-alert/celsius-network-files-chapter-11-bankruptcy",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Celsius bankruptcy case portal",
+            "url": "https://cases.stretto.com/celsius-/",
+            "type": "COURT_CASE_PORTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3523,12 +3607,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-07-05",
+        "summary": "Voyager Digital and affiliates filed for Chapter 11 bankruptcy protection after severe market stress and 3AC's default.",
+        "significance": "Voyager's bankruptcy demonstrated how 3AC losses propagated through retail-facing crypto lenders.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Voyager Digital Chapter 11 announcement",
+            "url": "https://www.prnewswire.com/news-releases/voyager-digital-commences-financial-restructuring-process-to-maximize-value-for-all-stakeholders-301581956.html",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Voyager Digital — Market Update / 3AC default",
+            "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3546,12 +3641,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-08-01",
+        "summary": "A configuration error in Nomad's bridge allowed attackers to replay a successful withdrawal message; more than 300 addresses copied transactions and over $186 million was removed.",
+        "significance": "Nomad became crypto's most literal 'copy-paste' hack, with opportunistic addresses joining the exploit after the flaw became obvious.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nomad — Nomad Bridge Hack: Root Cause Analysis",
+            "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-7f72a327405e",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3569,12 +3670,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-11-28",
+        "summary": "BlockFi and several affiliates filed for Chapter 11 bankruptcy protection following the FTX collapse and associated market stress.",
+        "significance": "BlockFi's failure became a direct second-order casualty of FTX and completed another link in the 2022 CeFi contagion chain.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BlockFi restructuring case portal",
+            "url": "https://restructuring.ra.kroll.com/blockfi/",
+            "type": "COURT_CASE_PORTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3591,12 +3698,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-12-12",
+        "summary": "Sam Bankman-Fried was arrested in the Bahamas following charges filed by US federal prosecutors.",
+        "significance": "The arrest moved the FTX story from corporate collapse into criminal prosecution.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Sam Bankman-Fried charged following Bahamas arrest",
+            "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-charged-fraud-conspiracy-and-campaign-finance-offenses",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3833,12 +3946,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-06-30",
+        "summary": "EU negotiators reached a provisional political agreement on the Markets in Crypto-Assets regulation (MiCA).",
+        "significance": "MiCA established the basis for the EU's comprehensive cross-border crypto-asset regulatory framework.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Council of EU — provisional MiCA agreement",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2022/06/30/digital-finance-agreement-reached-on-european-crypto-assets-regulation-mica/",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5204,14 +5323,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2022-09-15",
+        "summary": "Ethereum estimates that The Merge reduced its energy consumption by about 99.95%.",
+        "significance": "Energy impact is a major consequence of the canonical Merge, not a separate protocol event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The Merge",
+            "url": "https://ethereum.org/roadmap/merge/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0056",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -6659,12 +6784,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_AFTERMATH",
+        "exact_date": "2022-05-07 to 2022-05-16",
+        "summary": "Luna Foundation Guard entered the depeg with 80,394 BTC and other reserve assets; it said it converted or transferred most of those reserves in attempts to support UST, leaving 313 BTC by 16 May.",
+        "significance": "The failed Bitcoin-reserve defense linked Terra's collapse directly to Bitcoin markets and became a major transparency and reserve-management story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — LFG reserve disclosure, May 16 2022",
+            "url": "https://www.theblock.co/news/markets/2022-05-16-luna-foundation-guard-breaks-silence-on-state-of-terra-reserves-looks-to-compensate-users-147014",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6747,12 +6878,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-11-02",
+        "summary": "CoinDesk reported details from a private Alameda Research balance sheet showing $14.6 billion of assets at 30 June, with a large share tied to FTT and other tokens associated with Bankman-Fried-linked entities.",
+        "significance": "The report crystallized concerns about the financial entanglement of FTX and Alameda and became the immediate informational trigger for the November crisis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Alameda balance sheet report",
+            "url": "https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6770,12 +6907,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-11-06",
+        "summary": "Binance CEO Changpeng Zhao announced that Binance intended to liquidate its remaining FTT holdings, citing 'recent revelations' and post-exit risk management.",
+        "significance": "The tweet accelerated scrutiny and withdrawals and became one of the most consequential social-media posts in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CZ — FTT liquidation thread archived",
+            "url": "https://archive.ph/WmZJF",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6792,12 +6935,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2022-11-08 to 2022-11-09",
+        "summary": "On 8 November Binance signed a non-binding letter of intent to acquire FTX.com amid its liquidity crisis; on 9 November Binance withdrew after due diligence and news reports about customer-fund handling and investigations.",
+        "significance": "The one-day rescue attempt made the depth of FTX's liquidity and balance-sheet crisis unmistakable.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Binance/FTX non-binding acquisition agreement",
+            "url": "https://www.coindesk.com/business/2022/11/08/ftx-reaches-deal-with-binance-amid-liquidity-scare-sam-bankman-fried-says",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Binance statement withdrawing from FTX acquisition, reproduced on Binance Square",
+            "url": "https://www.binance.com/en/square/post/50144",
+            "type": "COMPANY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7609,14 +7763,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-09-15",
+        "summary": "This is the same proof-of-stake energy-reduction consequence represented by LORE-EVT-0190.",
+        "significance": "Canonicalized to The Merge.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The Merge",
+            "url": "https://ethereum.org/roadmap/merge/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0056",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9029,14 +9189,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-06-30",
+        "summary": "This is the same provisional MiCA political agreement as LORE-EVT-0138.",
+        "significance": "Canonicalized to LORE-EVT-0138.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Council of EU — provisional MiCA agreement",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2022/06/30/digital-finance-agreement-reached-on-european-crypto-assets-regulation-mica/",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0138",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -10221,14 +10387,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-08-01",
+        "summary": "This is the same Nomad copycat exploit as LORE-EVT-0125.",
+        "significance": "Canonicalized to the Nomad event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nomad — Nomad Bridge Hack: Root Cause Analysis",
+            "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-7f72a327405e",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0125",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -13799,14 +13971,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2022-05",
+        "summary": "UST briefly moved closer to its $1 target during attempted stabilization before losing the peg again.",
+        "significance": "This is volatility inside the canonical UST depeg rather than a standalone event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra Research Forum — UST peg-loss recovery proposal",
+            "url": "https://classic-agora.terra.money/t/proposal-help-ust-pegging-increase-estimated-minting-capacity-to-1200m/6287",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0052",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -13821,14 +13999,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-05",
+        "summary": "LUNA hyperinflation was the supply-side mechanism of the canonical Terra death spiral.",
+        "significance": "Canonicalized under LORE-EVT-0053.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra Research Forum — UST peg-loss recovery proposal",
+            "url": "https://classic-agora.terra.money/t/proposal-help-ust-pegging-increase-estimated-minting-capacity-to-1200m/6287",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0053",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -13843,14 +14027,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2022-05-12",
+        "summary": "Terra validators halted the blockchain at block 7,603,700 because severe LUNA inflation had sharply reduced the cost of a governance attack; block production later resumed before a second halt.",
+        "significance": "Halting a top blockchain during a monetary collapse visually captured the severity of Terra's failure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra official halt statement, archived in Terra forum",
+            "url": "https://classic-agora.terra.money/t/proposal-to-the-luna-community-by-the-guy-who-forked-ethereum/32193?page=4",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0053",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -13864,12 +14054,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-05-28",
+        "summary": "A new Terra blockchain launched after governance approved a revival plan; the original network was renamed Terra Classic, and the new chain did not include the original UST stablecoin.",
+        "significance": "The relaunch attempted to preserve the developer ecosystem after the stablecoin system had failed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Terra Research Forum — Ecosystem Revival Plan 2",
+            "url": "https://classic-agora.terra.money/t/terra-ecosystem-revival-plan-2-passed-gov/18498",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13930,14 +14126,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2022-11-17",
+        "summary": "New CEO John J. Ray III told the bankruptcy court that he had encountered extraordinary failures of corporate controls, reliable financial information and governance across the FTX group.",
+        "significance": "The first-day declaration documented how severe FTX's internal control failures were after the exchange had already collapsed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "John J. Ray III First Day Declaration, FTX Ch.11",
+            "url": "https://relayto.com/explore/ftx-chapter-11-petition-pleadings-rhlfeo56gm9o8",
+            "type": "COURT_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0057",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -13952,14 +14154,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2022-11-11",
+        "summary": "John J. Ray III became CEO of the FTX debtors and authorized the Chapter 11 filings.",
+        "significance": "His appointment marked the transition from Bankman-Fried's operating control to court-supervised restructuring.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "John J. Ray III First Day Declaration, FTX Ch.11",
+            "url": "https://relayto.com/explore/ftx-chapter-11-petition-pleadings-rhlfeo56gm9o8",
+            "type": "COURT_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0057",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -13975,14 +14183,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_PRECURSOR",
+        "exact_date": "2022-11-10",
+        "summary": "BlockFi paused customer withdrawals after the FTX crisis, days before later filing for bankruptcy.",
+        "significance": "The freeze showed FTX contagion reaching a major retail lender.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BlockFi Chapter 11 first-day declaration",
+            "url": "https://restructuring.ra.kroll.com/blockfi/",
+            "type": "COURT_CASE_PORTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0126",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -13997,12 +14211,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2022-11-16",
+        "summary": "Genesis Global Capital suspended new loan originations and redemptions after the FTX failure created what it described as abnormal withdrawal requests exceeding liquidity.",
+        "significance": "The suspension showed FTX contagion reaching institutional crypto lending and later fed into Genesis's own bankruptcy.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Genesis — November 2022 lending update",
+            "url": "https://twitter.com/GenesisTrading/status/1592867203818168320",
+            "type": "COMPANY_PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15323,14 +15543,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-08-08",
+        "summary": "This is the same OFAC Tornado Cash sanctions event as LORE-EVT-0055.",
+        "significance": "Canonicalized to LORE-EVT-0055.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US Treasury — Tornado Cash designation",
+            "url": "https://home.treasury.gov/news/press-releases/jy0916",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0055",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -15624,14 +15850,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-02-02",
+        "summary": "The attacker minted unbacked wrapped ETH as the core mechanism of the Wormhole exploit.",
+        "significance": "Technical context under the canonical Wormhole event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Wormhole exploit",
+            "url": "https://techcrunch.com/2022/02/02/wormhole-crypto-bridge-hack/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0122",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15647,14 +15879,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-03-23",
+        "summary": "Compromised validator keys were the central failure mechanism of the Ronin exploit.",
+        "significance": "Technical context under the canonical Ronin event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Ronin bridge theft",
+            "url": "https://techcrunch.com/2022/03/29/axie-infinity-ronin-network-625-million-hack/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0051",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15670,14 +15908,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-08-01",
+        "summary": "Dozens to hundreds of addresses copied working calldata during the Nomad exploit.",
+        "significance": "LORE detail under the canonical Nomad hack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nomad — Nomad Bridge Hack: Root Cause Analysis",
+            "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-7f72a327405e",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0125",
+        "relation": "LORE_CONTEXT",
         "notes": null
       }
     },
@@ -21002,14 +21246,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2022-06-27",
+        "summary": "Voyager disclosed a default by Three Arrows Capital on 15,250 BTC and $350 million USDC.",
+        "significance": "The disclosure made 3AC's creditor contagion concrete and directly preceded Voyager's own bankruptcy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Voyager Digital — Market Update / 3AC default",
+            "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0054",
+        "relation": "CONTAGION",
         "notes": null
       }
     },
@@ -21047,14 +21297,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2022-07-13 onward",
+        "summary": "Celsius entered Chapter 11 on 13 July 2022, leading to extensive court disclosures about its liabilities, assets and customer claims.",
+        "significance": "The bankruptcy exposed the legal reality of customer claims at centralized yield platforms.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Celsius bankruptcy case portal",
+            "url": "https://cases.stretto.com/celsius-/",
+            "type": "COURT_CASE_PORTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0123",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -21136,14 +21392,14 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "AFTERMATH_NEEDS_NARROWING",
+        "exact_date": "2022 onward",
+        "summary": "Celebrity endorsers and partners of FTX faced civil lawsuits after the exchange failed.",
+        "significance": "Important culture/legal aftermath but not one canonical 2022 event; split by case if needed.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0057",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -24653,14 +24909,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2022-09-15",
+        "summary": "The Merge ended Ethereum proof-of-work mining on mainnet.",
+        "significance": "GPU mining's end was a direct industrial consequence of Ethereum's consensus transition.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — The Merge",
+            "url": "https://ethereum.org/roadmap/merge/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0056",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -25479,14 +25741,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_LORE_CONTEXT",
+        "exact_date": "2022-11-06",
+        "summary": "This is the same CZ FTT-liquidation announcement represented by LORE-EVT-0246.",
+        "significance": "Keep the tweet's culture impact under the canonical event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CZ — FTT liquidation thread archived",
+            "url": "https://archive.ph/WmZJF",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0246",
+        "relation": "LORE_CONTEXT",
         "notes": null
       }
     },
@@ -25586,14 +25854,14 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2022-11",
+        "summary": "Bankman-Fried posted public apologies and explanations as FTX failed.",
+        "significance": "The social-media aftermath is culturally relevant but should only become a separate card if tied to one precisely archived post.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0057",
+        "relation": "LORE_CONTEXT",
         "notes": null
       }
     },
@@ -27081,14 +27349,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-08-01",
+        "summary": "Copying transaction calldata was the defining social/technical feature of the Nomad exploit.",
+        "significance": "Canonicalized under LORE-EVT-0125.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nomad — Nomad Bridge Hack: Root Cause Analysis",
+            "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-7f72a327405e",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0125",
+        "relation": "LORE_CONTEXT",
         "notes": null
       }
     },
@@ -29536,14 +29810,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-03-23",
+        "summary": "This is the same Ronin bridge exploit as LORE-EVT-0051.",
+        "significance": "Canonicalized to LORE-EVT-0051.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Ronin bridge theft",
+            "url": "https://techcrunch.com/2022/03/29/axie-infinity-ronin-network-625-million-hack/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0051",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -30298,14 +30578,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-06 onward",
+        "summary": "3AC defaults propagated losses to Voyager and other lenders.",
+        "significance": "Contagion context belongs under the canonical 3AC collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Voyager Digital — Market Update / 3AC default",
+            "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Washington Post — Three Arrows Capital ordered into liquidation",
+            "url": "https://www.washingtonpost.com/business/2022/06/29/three-arrows-liquidation-crypto/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0054",
+        "relation": "CONTAGION",
         "notes": null
       }
     },
@@ -30320,14 +30611,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-06-12",
+        "summary": "Fear spread across crypto credit markets after Celsius froze withdrawals.",
+        "significance": "Market-contagion context under the canonical Celsius freeze.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Vermont DFR — Celsius files Chapter 11",
+            "url": "https://dfr.vermont.gov/consumer-alert/celsius-network-files-chapter-11-bankruptcy",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0123",
+        "relation": "CONTAGION",
         "notes": null
       }
     },
@@ -30342,14 +30639,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-07-05",
+        "summary": "Voyager's bankruptcy amplified the wider lender-contagion cycle.",
+        "significance": "Canonicalized under Voyager's bankruptcy.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Voyager Digital — Market Update / 3AC default",
+            "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0124",
+        "relation": "CONTAGION",
         "notes": null
       }
     },
@@ -30388,14 +30691,14 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2022-11-28",
+        "summary": "This row describes the same FTX-driven BlockFi bankruptcy represented by LORE-EVT-0126.",
+        "significance": "Canonicalized to BlockFi bankruptcy.",
+        "source_confidence": "HIGH",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0126",
+        "relation": "CONTAGION",
         "notes": null
       }
     },
@@ -30433,14 +30736,14 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DUPLICATE",
+        "exact_date": "2022-11-16",
+        "summary": "This is the same Genesis lending withdrawal suspension as LORE-EVT-0518.",
+        "significance": "Canonicalized to LORE-EVT-0518.",
+        "source_confidence": "MEDIUM_HIGH",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0518",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -30714,14 +31017,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2022-08 onward",
+        "summary": "The sanctions sparked sustained arguments over financial privacy, open-source code and the legal treatment of immutable smart-contract infrastructure.",
+        "significance": "This is the cultural/legal debate arising from the canonical sanctions event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US Treasury — Tornado Cash designation",
+            "url": "https://home.treasury.gov/news/press-releases/jy0916",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0055",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
