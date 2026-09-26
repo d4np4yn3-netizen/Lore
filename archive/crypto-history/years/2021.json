@@ -4,8 +4,8 @@
   "generated": "2026-09-26",
   "source_master_ref": "492489e9626a657421c59c0b9b8c1105512b3c7e",
   "source_event_count": 184,
-  "status": "EVIDENCE_RESEARCH_ACTIVE",
-  "note": "2021 research nearing completion. Major institutions, governments, NFTs, memes, protocols, gaming, DeFi exploits, exchange stories and DAO milestones are now sourced. Remaining weak/deep-cut rows are being narrowed, moved to correct years or explicitly demoted before scoring.",
+  "status": "EVIDENCE_PASS_COMPLETE",
+  "note": "All 184 raw 2021 candidates have now been evidence-reviewed. Verified events, date corrections, duplicates/context, disputed claims and weak/non-canonical leads are explicitly distinguished. No UNRESEARCHED rows remain; only verified/canonical-quality events should advance to card scoring.",
   "events": [
     {
       "id": "LORE-EVT-0044",
@@ -926,12 +926,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-01",
+        "summary": "An unofficial token themed around Netflix's Squid Game collapsed to near zero after developers dumped tokens for roughly $11.9 million; reporting noted no official connection to Netflix.",
+        "significance": "The episode became one of the bull market's clearest examples of a pop-culture-themed token exploiting hype, transfer restrictions and weak due diligence.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — unofficial Squid Game token crashes 99%",
+            "url": "https://www.theblock.co/news/markets/2021-11-01-unofficial-squid-game-token-crashes-99-as-devs-dump-for-12-million-122795",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1321,15 +1327,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_NEEDS_MARKET_DATA",
+        "exact_date": "2021",
+        "summary": "Virtual-land demand accelerated across metaverse projects such as The Sandbox during repeated 2021 LAND sales.",
+        "significance": "The metaverse-land boom is historically relevant, but the raw 'prices surge' claim needs a defined price/volume dataset before card scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "The Sandbox — past public LAND sale dates",
+            "url": "https://docs.sandbox.game/en/owners/land/buy-land/tsb-land-sales/dates",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as era context unless converted to a specific record sale or market-volume milestone."
       }
     },
     {
@@ -1494,12 +1506,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-03",
+        "summary": "The CityCoins community deployed MiamiCoin on Stacks and began its activation/mining process on 3 August 2021.",
+        "significance": "MiamiCoin became the first CityCoin experiment and linked a crypto community project with municipal branding and a city-reserved treasury mechanism; it was not issued by the City of Miami itself.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CityCoins — MiamiCoin mining launch",
+            "url": "https://www.citycoins.co/post/miamicoin-mining-launch-august-3",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1572,15 +1590,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2021",
+        "summary": "KuCoin reported that after its September 2020 hack, $222 million was recovered through exchanges/projects, $17.45 million through law enforcement/security institutions, and the remaining $45.55 million was covered by KuCoin and its insurance fund, leaving users without losses according to the company.",
+        "significance": "The recovery is an unusual exchange-hack aftermath story, but the canonical attack itself belongs in 2020.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "KuCoin — CEO letter on 2020 hack recovery",
+            "url": "https://www.kucoin.com/announcement/a-letter-from-kucoin-ceo-2020-2021-and-beyond",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Company-reported recovery figures."
       }
     },
     {
@@ -1660,12 +1684,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "Helium expanded hardware support and international network participation during 2021, including app support for new hotspot makers and Asian languages.",
+        "significance": "The raw 'mainstream attention' wording is too subjective to score; replace with a precise hotspot-count, funding, carrier or network-coverage milestone.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Helium — App Version 3.0 / Asia expansion",
+            "url": "https://docs.helium.com/devblog/2021/02/24/app-version-300/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1827,12 +1857,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "MEV and sandwich attacks became a major Ethereum user-protection topic as DeFi trading expanded and projects such as CowSwap explicitly designed around MEV protection.",
+        "significance": "This is a technical-risk trend rather than one discrete event; use a specific research paper, Flashbots release or exploit if a card is wanted.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Gnosis — Introducing Gnosis Protocol V2 and CowSwap proof of concept",
+            "url": "https://medium.com/gnosis-pm/introducing-gnosis-protocol-v2-and-balancer-gnosis-protocol-f693b2938ae4",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2235,12 +2271,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-30",
+        "summary": "Fantom Foundation launched a 370 million FTM incentive program for protocols based on sustained total value locked.",
+        "significance": "The program was a defining milestone in Fantom's 2021 DeFi expansion and part of the broader Layer 1 liquidity-incentive wars.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Fantom — 370m FTM incentive program",
+            "url": "https://blog.fantom.foundation/announcing-370m-ftm-incentive-program/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2552,11 +2594,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2021",
+        "summary": "Aggregate DeFi total value locked rose to record levels across multiple chains during 2021.",
+        "significance": "The trend is historically important, but the row must use one defined TVL methodology and date before publication or card scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2574,11 +2616,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCHED_NEEDS_CANONICAL_LAUNCH_SOURCE",
+        "exact_date": "2021-02",
+        "summary": "Raydium emerged in early 2021 as a Solana automated market maker integrated with Serum's order-book liquidity and became an important Solana DEX.",
+        "significance": "The event is valid ecosystem history, but the archive still needs a dated first-party mainnet-launch record before scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2736,12 +2778,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_RANGE",
+        "exact_date": "2021-02-03 to 2021-02-04",
+        "summary": "MicroStrategy World hosted a 'Bitcoin for Corporations' track covering treasury strategy, accounting, tax and legal considerations for companies considering Bitcoin.",
+        "significance": "The event helped turn MicroStrategy's own treasury decision into a public corporate adoption playbook.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.com — MicroStrategy Bitcoin for Corporations conference",
+            "url": "https://news.bitcoin.com/bitcoin-for-corporations-michael-saylor-expects-an-avalanche-of-firms-to-own-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2809,14 +2857,14 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021-06",
+        "summary": "Bitcoin 2021 in Miami became a major in-person gathering during the bull market and hosted the video announcement of El Salvador's planned Bitcoin law.",
+        "significance": "The conference is culturally important, but a specific speech or announcement makes a stronger canonical event than 'defining conference.'",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0142",
+        "relation": "CULTURE_CONTEXT",
         "notes": null
       }
     },
@@ -2832,11 +2880,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "LORE_CONTEXT_RESEARCHED",
+        "exact_date": "2021",
+        "summary": "Laser-eye profile pictures spread through Bitcoin social media as a symbolic pro-Bitcoin visual meme during the bull market.",
+        "significance": "Strong visual culture but not one cleanly attributable launch event; keep for book/social lore unless an origin post is verified.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -2855,14 +2903,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Michael Saylor's corporate Bitcoin advocacy expanded beyond MicroStrategy's treasury purchases through conferences, interviews and public educational material.",
+        "significance": "This is people/culture context flowing from MicroStrategy's treasury strategy and Bitcoin-for-Corporations event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Bitcoin.com — MicroStrategy Bitcoin for Corporations conference",
+            "url": "https://news.bitcoin.com/bitcoin-for-corporations-michael-saylor-expects-an-avalanche-of-firms-to-own-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0043",
+        "relation": "PEOPLE_CONTEXT",
         "notes": null
       }
     },
@@ -3156,14 +3210,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Sam Bankman-Fried became an unusually visible exchange founder through FTX's fundraising, sports deals and public policy appearances.",
+        "significance": "This is biographical context; precise events such as the July funding round and December congressional testimony are better card candidates.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "US House Financial Services — Dec. 8 digital-assets hearing",
+            "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=114305",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0774",
+        "relation": "PEOPLE_CONTEXT",
         "notes": null
       }
     },
@@ -3226,7 +3286,7 @@
     {
       "id": "LORE-EVT-0778",
       "date": "2021",
-      "title": "Celsius advertises high yields as safer than banks",
+      "title": "Celsius reports more than $25B of assets and 1.2M users amid Earn growth",
       "branch": [
         "CEFI",
         "CULTURE"
@@ -3234,12 +3294,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_COMPANY_CLAIMS",
+        "exact_date": "2021-11-01",
+        "summary": "Celsius said it had more than $25 billion of assets on platform, 1.2 million users and had paid more than $1 billion in yield through its crypto lending/earning products.",
+        "significance": "The scale illustrates how large centralized crypto lending became before the 2022 credit crisis; the figures are company-reported and should be framed that way.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Celsius — more than $1B yield / $25B assets claimed",
+            "url": "https://www.prnewswire.com/news-releases/celsius-network-delivers-more-than-1-billion-in-yield-to-its-community-301413022.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3248,7 +3314,7 @@
     {
       "id": "LORE-EVT-0779",
       "date": "2021",
-      "title": "BlockFi agrees naming rights for crypto-related sports promotions",
+      "title": "BlockFi partners with Cade Cunningham and pays signing bonus in Bitcoin",
       "branch": [
         "CEFI",
         "CULTURE"
@@ -3256,12 +3322,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-19",
+        "summary": "BlockFi announced a multi-year partnership with 2021 NBA first overall pick Cade Cunningham, including a signing bonus paid directly in Bitcoin.",
+        "significance": "The deal is a small but vivid example of crypto-lending brands using sports personalities for mainstream customer acquisition before the CeFi collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BlockFi — Cade Cunningham partnership",
+            "url": "https://www.prnewswire.com/news-releases/basketball-star-cade-cunningham-partners-with-blockfi-301359053.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3278,12 +3350,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCHED_RETROSPECTIVELY",
+        "exact_date": "2020-11 to 2021-08",
+        "summary": "Singapore's regulator later said Three Arrows Capital exceeded the S$250 million AUM limit for its registered-fund-manager status throughout November 2020 to August 2021.",
+        "significance": "The retrospective finding shows that 3AC had already grown beyond its permitted Singapore management threshold well before its 2022 insolvency, but the 'major leveraged fund' wording should not imply leverage figures that only became clear later.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "MAS reprimand text republished — Three Arrows AUM threshold",
+            "url": "https://mondovisione.com/media-and-resources/news/monetary-authority-of-singapore-reprimands-three-arrows-capital-for-providing-fa-2022630/",
+            "type": "REGULATOR_REPUBLICATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3300,12 +3378,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR_END_DATA",
+        "exact_date": "2021-12-31",
+        "summary": "Genesis reported $50 billion of loan originations in Q4 2021 and $12.5 billion of active loans at year end.",
+        "significance": "The figures show the enormous scale institutional crypto credit reached before the 2022–2023 lending contagion.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Genesis — Q4 2021 Market Observations Report",
+            "url": "https://info.genesistrading.com/hubfs/quarterly-reports/2021/q4-2021-report.pdf",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3408,12 +3492,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-10-12",
+        "summary": "Coinbase announced Coinbase NFT and opened a waitlist for an upcoming peer-to-peer NFT marketplace.",
+        "significance": "The announcement showed that the NFT boom had become strategically important even to the largest US crypto exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Coinbase NFT waitlist",
+            "url": "https://www.coinbase.com/en-gb/blog/coinbase-nft-is-coming-soon-join-the-waitlist-today-for-early-access",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3431,12 +3521,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_SECONDARY",
+        "exact_date": "2021-01-12",
+        "summary": "Stefan Thomas said he had only two password attempts remaining on an IronKey containing keys to 7,002 BTC after eight failed guesses.",
+        "significance": "The story became one of crypto's clearest illustrations of irreversible self-custody and lost-key risk.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Stefan Thomas has two password guesses left",
+            "url": "https://www.theguardian.com/technology/2021/jan/12/in-bits-the-programmer-locked-out-of-his-130m-bitcoin-account",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3444,7 +3540,7 @@
     },
     {
       "id": "LORE-EVT-0887",
-      "date": "2021",
+      "date": "2022-08-02",
       "title": "James Howells proposes high-tech landfill search for lost Bitcoin",
       "branch": [
         "BITCOIN",
@@ -3454,20 +3550,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-08-02",
+        "summary": "James Howells' detailed proposal using AI sorting and robot dogs to search the Newport landfill was reported in August 2022, not 2021.",
+        "significance": "The increasingly elaborate recovery plan became a new chapter in crypto's most famous discarded-hard-drive story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Howells AI and robot-dog landfill plan",
+            "url": "https://www.theguardian.com/technology/2022/aug/02/man-hopes-ai-and-robot-dogs-will-help-recover-150m-in-bitcoin-from-landfill",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to 2022 year file during canonical rebuild."
       }
     },
     {
       "id": "LORE-EVT-0891",
-      "date": "2021",
+      "date": "2022-03-30",
       "title": "Netflix and documentary media revive QuadrigaCX conspiracy interest",
       "branch": [
         "EXCHANGES",
@@ -3477,15 +3579,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-03-30",
+        "summary": "Netflix released Trust No One: The Hunt for the Crypto King on 30 March 2022, reviving mainstream interest in the QuadrigaCX mystery.",
+        "significance": "The documentary is cultural afterlife of the 2019 Quadriga collapse, not a 2021 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Netflix Tudum — Trust No One premiere",
+            "url": "https://www.netflix.com/tudum/articles/trust-no-one-the-hunt-for-the-crypto-king-trailer",
+            "type": "PLATFORM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to 2022 year file during canonical rebuild."
       }
     },
     {
@@ -3773,12 +3881,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-20",
+        "summary": "Red Bull Racing Honda announced a six-year technical partnership naming Tezos its official blockchain partner and platform for an NFT fan experience.",
+        "significance": "The deal was a prominent example of blockchain projects entering Formula 1 and mainstream sports sponsorship.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Red Bull Racing Honda / Tezos partnership release",
+            "url": "https://prtimes.jp/main/html/rd/p/000000003.000080110.html",
+            "type": "PARTNER_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3795,12 +3909,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA_DATE",
+        "exact_date": "2021-10-13",
+        "summary": "Cambridge CCAF reported that by the end of August 2021 Kazakhstan accounted for 18.1% of global Bitcoin hash rate, second only to the United States, after China's mining crackdown.",
+        "significance": "Kazakhstan became one of the clearest destinations in Bitcoin's historic post-China mining migration.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cambridge CCAF — Geographic shift in Bitcoin mining",
+            "url": "https://www.jbs.cam.ac.uk/2021/geographic-shift/",
+            "type": "ACADEMIC_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3817,12 +3937,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-26",
+        "summary": "Riot completed its acquisition of Whinstone's Rockdale, Texas mining facility, then described as North America's largest by 300 MW developed capacity with room to expand toward 750 MW.",
+        "significance": "The deal is a concrete landmark in Texas becoming a major industrial Bitcoin-mining center.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Riot — Whinstone acquisition completed",
+            "url": "https://www.riotplatforms.com/riot-blockchain-completes-acquisition-of-whinstone-us-creating-leading-north-american-bitcoin-mining-company/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3941,11 +4067,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "Changpeng Zhao's wealth and public profile grew alongside Binance's global market dominance.",
+        "significance": "Net-worth rankings are time-sensitive and not a durable historical event; use a specific Binance corporate/regulatory milestone instead.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -3963,12 +4089,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-08",
+        "summary": "FTX founder and CEO Sam Bankman-Fried testified before the US House Financial Services Committee at its major hearing on digital assets and financial innovation.",
+        "significance": "The appearance symbolized FTX's extraordinary political and institutional legitimacy less than a year before the exchange collapsed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US House Financial Services — Dec. 8 digital-assets hearing",
+            "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=114305",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3985,12 +4117,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-02",
+        "summary": "Gemini launched Gemini Earn, advertising up to 7.4% APY on supported crypto assets and availability across all 50 US states.",
+        "significance": "Gemini Earn became part of the centralized crypto-yield boom and later an important branch of the Genesis credit-contagion story.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gemini — Gemini Earn launch",
+            "url": "https://www.prnewswire.com/news-releases/gemini-launches-gemini-earn-a-new-way-to-earn-interest-on-crypto-assets-301219887.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4097,15 +4235,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
+        "state": "CLAIM_NEEDS_REWRITE",
         "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "summary": "A source review did not support a distinct 2021 milestone for 'OneCoin documentaries and podcasts reignite public interest'; major Missing Cryptoqueen podcast attention began earlier and documentary activity spans multiple years.",
+        "significance": "Do not card-score this row as a 2021 event. Replace it with a precisely dated media release if the cultural afterlife of OneCoin is wanted.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Candidate for rejection or replacement."
       }
     },
     {
@@ -4120,14 +4258,14 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-04",
+        "summary": "This row describes the same Thodex halt/founder disappearance captured by LORE-EVT-0369.",
+        "significance": "Canonicalized to the Thodex collapse record.",
+        "source_confidence": "MEDIUM",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0369",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -4142,15 +4280,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AS_REPORTED",
+        "exact_date": "2021-06-23 to 2021-06-27",
+        "summary": "Lawyers for Africrypt investors said founders Ameer and Raees Cajee could not be located after the platform had reported an April hack; contemporaneous reports cited claims of up to roughly 69,000 BTC or $3.6 billion missing.",
+        "significance": "The story became a huge crypto mystery, but the amount and characterization were disputed/unconfirmed at the time and must always be attributed rather than stated as proven theft.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters republished — Africrypt founders missing / disputed loss",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/s-africa-crypto-exchange-brothers-disappear-after-3-6-bn-vanishes-from-platform-lawyers-say/articleshow/83889356.cms",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Preserve attribution and uncertainty."
       }
     },
     {
@@ -4197,14 +4341,14 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-06",
+        "summary": "This row describes the same Bitcoin Miami conference-culture story as LORE-EVT-0761.",
+        "significance": "Canonicalized as conference context.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0761",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -4325,12 +4469,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-28",
+        "summary": "Gnosis announced Gnosis Protocol v2 and made the CowSwap proof-of-concept DEX live, using batch auctions and coincidence-of-wants matching to reduce MEV exposure.",
+        "significance": "CowSwap became an important user-protection and intent/batch-auction design in decentralized trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gnosis — Introducing Gnosis Protocol V2 and CowSwap proof of concept",
+            "url": "https://medium.com/gnosis-pm/introducing-gnosis-protocol-v2-and-balancer-gnosis-protocol-f693b2938ae4",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4346,12 +4496,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-04",
+        "summary": "Aave deployed its V2 money market on Polygon in April 2021 with Polygon-funded liquidity incentives; retrospective Aave records show the Polygon reserve began generating revenue that month.",
+        "significance": "The deployment was a major example of a leading Ethereum DeFi protocol expanding to a lower-cost network and rapidly attracting new liquidity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave governance — Polygon deployment retrospective",
+            "url": "https://governance.aave.com/t/deploy-aave-v3-on-polygon-network/7252",
+            "type": "PROJECT_GOVERNANCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4368,12 +4524,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-15",
+        "summary": "Centrifuge announced that its MakerDAO integration had passed an executive vote and gone live with a $5 million credit line backed by real-world assets.",
+        "significance": "It was a landmark moment in bringing off-chain credit assets into decentralized stablecoin collateral.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Centrifuge — $5M MakerDAO RWA credit line live",
+            "url": "https://gov.centrifuge.io/t/we-just-got-a-5mm-credit-line-from-makerdao-ama/1970",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4390,11 +4552,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2021",
+        "summary": "Uniswap's latent protocol-fee 'fee switch' remained a recurring governance topic, but the more concrete fee-switch pilot proposals came later.",
+        "significance": "Not a strong standalone 2021 card event; keep as governance context unless a specific vote is chosen.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4468,12 +4630,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-27",
+        "summary": "Yield Guild Games sold 25 million YGG tokens in its MISO public sale; the entire allocation sold in 31 seconds for about $12.496 million, and YGG described the sale as launching the YGG DAO.",
+        "significance": "The sale captured the peak of play-to-earn guild demand and formalized one of the era's most influential gaming DAOs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Yield Guild Games — July 2021 roundup",
+            "url": "https://yieldguild.substack.com/p/ygg-community-roundup-july-2021",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Yield Guild Games — token sale instructions",
+            "url": "https://yieldguild.medium.com/ygg-token-sale-how-to-buy-9b22e8f4a019",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4547,12 +4720,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-08",
+        "summary": "Immutable X launched the alpha of its NFT-focused Ethereum Layer 2 mainnet, offering gas-free minting/trading while retaining Ethereum settlement/security assumptions.",
+        "significance": "The launch was an early major attempt to scale NFTs and blockchain games without leaving Ethereum.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — Immutable X mainnet alpha launch",
+            "url": "https://www.theblock.co/linked/101092/ethereum-startup-immutable-aims-to-cut-nft-costs-with-new-layer-2-scaling-protocol",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4569,11 +4748,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "Gala Games expanded its blockchain-game ecosystem and token economy during 2021.",
+        "significance": "The row is too broad for scoring; replace it with a specific game launch, node milestone or funding event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4592,14 +4771,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Maker governance increasingly managed protocol risk, collateral and real-world-asset exposure through executive votes and governance polls.",
+        "significance": "Governance maturation is important context but is better represented by specific decisions such as the first RWA credit line.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Centrifuge — $5M MakerDAO RWA credit line live",
+            "url": "https://gov.centrifuge.io/t/we-just-got-a-5mm-credit-line-from-makerdao-ama/1970",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1094",
+        "relation": "GOVERNANCE_CONTEXT",
         "notes": null
       }
     },
@@ -4668,7 +4853,7 @@
     },
     {
       "id": "LORE-EVT-1139",
-      "date": "2021",
+      "date": "2020-10",
       "title": "Wormhole launches major cross-chain bridge infrastructure",
       "branch": [
         "BRIDGES",
@@ -4677,15 +4862,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2020-10",
+        "summary": "Wormhole's original Solana–Ethereum token bridge launched in 2020, not 2021. The project expanded into broader messaging and NFT bridging in 2021.",
+        "significance": "The original cross-chain bridge belongs in the 2020 timeline; 2021 is its expansion era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Wormhole — platform roadmap",
+            "url": "https://wormhole.com/blog/wormhole-platform-roadmap",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move canonical launch to 2020 file."
       }
     },
     {
@@ -4699,12 +4890,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-16",
+        "summary": "Anyswap formally rebranded to Multichain after evolving from a cross-chain DEX toward a broader cross-chain router/infrastructure protocol.",
+        "significance": "The rebrand marked Multichain's transition into one of the largest cross-chain bridge/router systems before its later collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Multichain FAQ — Anyswap rebrand",
+            "url": "https://docs.multichain.org/getting-started/faq",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4721,12 +4918,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-12",
+        "summary": "Hop Protocol launched its bridge with instant USDC transfers between Ethereum, Polygon and xDai.",
+        "significance": "Hop addressed a new problem created by Ethereum's rollup/multi-network future: moving assets quickly between Layer 2 environments.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Hop bridge launch coverage citing July 12 launch post",
+            "url": "https://cryptonews.net/news/altcoins/1048931/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4743,12 +4946,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-08",
+        "summary": "Across Protocol launched publicly, initially bridging ETH and USDC from Arbitrum back to Ethereum using relayers, a liquidity pool and UMA's Optimistic Oracle.",
+        "significance": "Across was an early intent-like fast bridge design focused on minimizing the delay of canonical Layer 2 exits.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Across Protocol — mainnet launch",
+            "url": "https://across.to/blog/Across-Protocol-is-live-and-you-can-be-a-Co-Founder",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4765,11 +4974,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2021",
+        "summary": "Hydra dominated Russian-language darknet commerce during this period and became a major cryptocurrency-linked illicit marketplace before its 2022 seizure.",
+        "significance": "The stronger card event is the 2022 law-enforcement shutdown; keep 2021 dominance as precursor context.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -4788,12 +4997,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_RETROSPECTIVELY",
+        "exact_date": "2021-04-20",
+        "summary": "According to the SEC's later complaint, SafeMoon rose more than 55,000% from March 12 to April 20, 2021 and exceeded a $5.7 billion market capitalization before a sharp decline.",
+        "significance": "SafeMoon became emblematic of the 2021 retail-token boom; allegations about its operators belong to later enforcement and must be attributed to the SEC.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — SafeMoon complaint allegations and 2021 market history",
+            "url": "https://www.sec.gov/newsroom/press-releases/2023-229",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4802,7 +5017,7 @@
     {
       "id": "LORE-EVT-1193",
       "date": "2021",
-      "title": "Major exchanges delist privacy coins in some jurisdictions",
+      "title": "Kraken stops supporting Monero trading for UK customers",
       "branch": [
         "PRIVACY",
         "REGULATION"
@@ -4810,12 +5025,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_EXAMPLE_NOT_GLOBAL_TREND",
+        "exact_date": "2021-11-26",
+        "summary": "Kraken stopped supporting Monero trading for UK customers on 26 November 2021, according to contemporaneous copies of the exchange's customer notice citing UK regulatory compliance.",
+        "significance": "The event is a concrete example of privacy-coin access shrinking at regulated exchanges; the broader raw title should not imply all major exchanges delisted privacy coins in 2021.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Monero Observer — Kraken UK XMR trading shutdown from company email",
+            "url": "https://monero.observer/kraken-to-drop-monero-support-uk-customers/",
+            "type": "CONTEMPORARY_COMMUNITY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4952,7 +5173,7 @@
     {
       "id": "LORE-EVT-1222",
       "date": "2021",
-      "title": "FTX offers tokenized-stock trading outside the United States",
+      "title": "Solana-based tokenized stocks launch for FTX users",
       "branch": [
         "FTX",
         "EXCHANGES"
@@ -4960,12 +5181,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_TITLE_CORRECTION",
+        "exact_date": "2021-06-24",
+        "summary": "Digital Assets AG launched 55 free-floating tokenized stocks on Solana, initially available exclusively to FTX users.",
+        "significance": "The rollout connected a major crypto exchange with transferable blockchain representations of traditional equities, before FTX's later collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Digital Assets AG — Solana tokenized stocks on FTX",
+            "url": "https://medium.com/digital-assets-ag/changing-the-face-of-finance-one-tokenized-stock-at-a-time-1a040714a1a2",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
