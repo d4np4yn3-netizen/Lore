@@ -18,12 +18,14 @@ are not listed on the public site; they still have print derivatives with demo
 QRs. Their collector numbers and the remaining rarity allocation are not yet
 approved. The phrase treatment is bold at the subject-label size for the print
 master. Keep each new approval with its print derivative. The first book
-entry has a full-art A4 editorial comparison in
-`book/crypto-season-01/proofs/001-blind-signatures-full-art-spread-v2.pdf`,
-alongside the earlier card-front spread and reproducible script. Book wording
-and page layout await separate review; the 1060×1484 art needs a higher-resolution
-source or smaller trim for production. Final trim and print specifications
-are undecided.
+entry's chapter story, four clues and source/art note were approved for book and
+website on 26 September 2026. The website copy is generated from the book
+Markdown by `book/crypto-season-01/sync_001.py`; its stable QR route is unchanged.
+The full-art A4 proof with approved copy is
+`book/crypto-season-01/proofs/001-blind-signatures-full-art-spread-v3.pdf`,
+alongside the earlier comparisons. Book page design remains a review proof;
+the 1060×1484 art needs a higher-resolution source or smaller trim for production.
+Final trim and print specifications are undecided.
 
 ## Active milestone: 100 card briefs and 400 Easter egg concepts
 

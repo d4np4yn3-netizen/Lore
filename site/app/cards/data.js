@@ -1,3 +1,18 @@
-export const cards=[
-['blind-signatures','BLIND SIGNATURES','LEGENDARY','1982','DAVID CHAUM','UNTRACEABLE PAYMENTS.','blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v2.png','In 1982, David Chaum presented Blind Signatures for Untraceable Payments at CRYPTO ’82. His proposal let a signer authenticate concealed information, a foundation for electronic payments where a later spend need not automatically identify its withdrawal. The envelope and workspace are an artistic metaphor, not a historical reconstruction.',['THE FRESH SEAL — The lifted stamper has just marked the envelope: authentication without seeing its hidden contents.','THE CONCEALED SLIP — The bank can know a withdrawal occurred while the later payment need not reveal which withdrawal it came from.','FADING FOOTPRINTS — A metaphor for breaking that link, not a promise that all other identifying clues disappear.','THE DRAWER DIAGRAM — A deliberate future callback to the 2008 Bitcoin whitepaper, not an actual 1982 object.'],'https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf','001/100'],
-].map(x=>({slug:x[0],title:x[1],rarity:x[2],date:x[3],subject:x[4],phrase:x[5],image:'cards/crypto/season-01/'+x[6],story:x[7],eggs:x[8].map(s=>{let [a,...b]=s.split(' — ');return [a,b.join(' — ')]}),source:x[9],number:x[10]}));export const getCard=s=>cards.find(c=>c.slug===s);
+import chapter001 from './content/001.json';
+
+export const cards = [
+  {
+    slug: 'blind-signatures',
+    title: 'BLIND SIGNATURES',
+    rarity: 'LEGENDARY',
+    date: '1982',
+    subject: 'DAVID CHAUM',
+    phrase: 'UNTRACEABLE PAYMENTS.',
+    image: 'cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v2.png',
+    ...chapter001,
+    source: 'https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf',
+    number: '001/100',
+  },
+];
+
+export const getCard = slug => cards.find(card => card.slug === slug);

@@ -1,6 +1,10 @@
 """Build either two-page editorial proof for card 001 (not a print specification)."""
 from pathlib import Path
 import argparse
+import html
+import re
+
+from sync_001 import chapter_content
 
 from reportlab.lib.colors import HexColor
 from reportlab.lib.pagesizes import A4
@@ -13,8 +17,11 @@ from reportlab.platypus import Paragraph
 ROOT = Path(__file__).resolve().parents[2]
 parser = argparse.ArgumentParser()
 parser.add_argument("--full-art", action="store_true", help="Use the approved illustration edge to edge on page one")
+parser.add_argument("--approved-copy", action="store_true", help="Use the approved book chapter text verbatim")
 args = parser.parse_args()
-OUT = ROOT / "book/crypto-season-01/proofs" / ("001-blind-signatures-full-art-spread-v2.pdf" if args.full_art else "001-blind-signatures-spread-v1.pdf")
+if args.approved_copy and not args.full_art:
+    parser.error("--approved-copy requires --full-art")
+OUT = ROOT / "book/crypto-season-01/proofs" / ("001-blind-signatures-full-art-spread-v3.pdf" if args.approved_copy else "001-blind-signatures-full-art-spread-v2.pdf" if args.full_art else "001-blind-signatures-spread-v1.pdf")
 ART = ROOT / "cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v2.png"
 ILLUSTRATION = ROOT / "cards/crypto/season-01/blind-signatures-master-01/art.png"
 LOGO = ROOT / "brand/assets/png/lore_logo_primary_gold_white.png"
@@ -23,6 +30,7 @@ FONT = ROOT / "cards/master/front-v3/source/fonts"
 pdfmetrics.registerFont(TTFont("DejaVu", str(FONT / "DejaVuSans.ttf")))
 pdfmetrics.registerFont(TTFont("DejaVu-Bold", str(FONT / "DejaVuSans-Bold.ttf")))
 pdfmetrics.registerFont(TTFont("DejaVu-Serif", "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"))
+pdfmetrics.registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold")
 
 W, H = A4
 BLACK, CREAM, GOLD, GREY = [HexColor(x) for x in ("#0B0B0B", "#F5F2EB", "#D4AF37", "#5A574F")]
@@ -37,6 +45,13 @@ def label(c, text, x, y, color=GOLD, size=9):
     c.setFillColor(color)
     c.setFont("DejaVu-Bold", size)
     c.drawString(x, y, text)
+
+def markdown_for_pdf(value):
+    """Preserve approved Markdown words and emphasis in ReportLab paragraphs."""
+    value = html.escape(value)
+    value = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<link href="\2" color="#785910">\1</link>', value)
+    value = re.sub(r"\*\*(.*?)\*\*", r"<b>\1</b>", value)
+    return re.sub(r"\*(.*?)\*", r"<i>\1</i>", value)
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 c = canvas.Canvas(str(OUT), pagesize=A4, pageCompression=1)
@@ -80,11 +95,11 @@ if args.full_art:
     c.setFillColor(GOLD); c.setFont("DejaVu-Serif", 15)
     c.drawString(43, H-151, "UNTRACEABLE PAYMENTS.")
 
-body = ParagraphStyle("body", fontName="DejaVu", fontSize=10.2, leading=15.2,
+body = ParagraphStyle("body", fontName="DejaVu", fontSize=9.6 if args.approved_copy else 10.2, leading=14.2 if args.approved_copy else 15.2,
                       textColor=BLACK, spaceAfter=0)
 egg = ParagraphStyle("egg", fontName="DejaVu", fontSize=9.4, leading=14.2,
                      textColor=BLACK)
-note = ParagraphStyle("note", fontName="DejaVu", fontSize=8.4, leading=12.8,
+note = ParagraphStyle("note", fontName="DejaVu", fontSize=8.0 if args.approved_copy else 8.4, leading=12.2 if args.approved_copy else 12.8,
                       textColor=GREY)
 left, right, col = 43, 307, 242
 y = H-(190 if args.full_art else 164)
@@ -94,8 +109,11 @@ story = [
     "Chaum applied the idea to electronic payments. A bank could sign a digital payment token at withdrawal, then recognise a valid token when it was spent. Because the bank signed a blinded version, it could not simply match that later token to the particular one it saw at withdrawal. The card's line, <b>UNTRACEABLE PAYMENTS.</b>, expresses the aim of the proposed scheme. It does not mean every surrounding detail of a real payment is anonymous.",
     "The card freezes the instant after the seal is made. An old-fashioned envelope turns an abstract cryptographic move into a scene you can read at a glance.",
 ]
+if args.approved_copy:
+    approved = chapter_content()
+    story = [markdown_for_pdf(part) for part in approved["story"]]
 for part in story:
-    y = paragraph(c, part, left, y, col, body, gap=13)
+    y = paragraph(c, part, left, y, col, body, gap=8 if args.approved_copy else 13)
 if y < 79: raise RuntimeError(f"Story column overflows: {y:.1f}")
 
 label(c, "HIDDEN IN THE ART", right, H-(186 if args.full_art else 160), BLACK, 9)
@@ -106,23 +124,29 @@ clues = [
     ("03  FADING FOOTPRINTS", "The trail breaks across the desk, a metaphor for the intended break in the transaction link. Other information can still compromise privacy."),
     ("04  THE DRAWER DIAGRAM", "The node sketch is a deliberate forward reference to the 2008 Bitcoin whitepaper, not a real object from Chaum's 1982 setting."),
 ]
+if args.approved_copy:
+    clues = [(f"{i:02d}  {clue['title'].upper()}", markdown_for_pdf(clue["text"]))
+             for i, clue in enumerate(approved["eggs"], 1)]
 for heading, copy in clues:
-    label(c, heading, right, z, GOLD, 8.2)
-    z = paragraph(c, copy, right, z-10, col, egg, gap=17)
+    label(c, heading, right, z, GOLD, 8.2 if not args.approved_copy else 7.8)
+    z = paragraph(c, copy, right, z-10, col, egg, gap=12 if args.approved_copy else 17)
 
 c.setStrokeColor(GOLD); c.line(right, z+1, right+col, z+1)
 label(c, "SOURCE & ART NOTE", right, z-18, BLACK, 8.2)
-z = paragraph(c,
-    "David Chaum, <i>Blind Signatures for Untraceable Payments</i>, Proceedings of CRYPTO '82, pp. 199-203. Chaum's publication list records 1982. The room, computer, envelope, drawer and characters are illustrative, not a reconstruction of his workspace.",
-    right, z-30, col, note, gap=10)
-z = paragraph(c,
-    "Original paper: chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf",
-    right, z, col, note)
+if args.approved_copy:
+    z = paragraph(c, markdown_for_pdf(approved["sourceNote"]), right, z-30, col, note)
+else:
+    z = paragraph(c,
+        "David Chaum, <i>Blind Signatures for Untraceable Payments</i>, Proceedings of CRYPTO '82, pp. 199-203. Chaum's publication list records 1982. The room, computer, envelope, drawer and characters are illustrative, not a reconstruction of his workspace.",
+        right, z-30, col, note, gap=10)
+    z = paragraph(c,
+        "Original paper: chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf",
+        right, z, col, note)
 if z < 80: raise RuntimeError(f"Clue column overflows: {z:.1f}")
 
 c.setStrokeColor(GOLD); c.line(43, 57, W-43, 57)
 c.setFont("DejaVu", 7.5); c.setFillColor(GREY)
-c.drawString(43, 40, "BOOK WORDING AND PAGE DESIGN: REVIEW DRAFT")
+c.drawString(43, 40, "APPROVED COPY / BOOK PAGE DESIGN: REVIEW PROOF" if args.approved_copy else "BOOK WORDING AND PAGE DESIGN: REVIEW DRAFT")
 c.drawRightString(W-43, 40, "002")
 c.save()
 print(f"{OUT} | story bottom {y:.1f} | clue bottom {z:.1f}")
