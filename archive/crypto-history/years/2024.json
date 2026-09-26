@@ -3,11 +3,11 @@
   "year": 2024,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
-  "score_status": "READY_FOR_EDITORIAL_SCORING",
-  "event_count": 51,
+  "score_status": "NOT_STARTED",
+  "event_count": 52,
   "events": [
     {
-      "id": "LORE-CAN-2024-037",
+      "id": "LORE-CAN-2024-001",
       "date": "2024",
       "title": "Hamster Kombat becomes a viral Telegram crypto game",
       "branches": [
@@ -28,10 +28,12 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0549",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-015",
+      "id": "LORE-CAN-2024-002",
       "date": "2024-01",
       "title": "Pump.fun launches and industrializes Solana meme-token creation",
       "branches": [
@@ -57,10 +59,14 @@
         "LORE-EVT-0304",
         "LORE-EVT-0538",
         "LORE-EVT-0539"
+      ],
+      "canonical_key": "LORE-EVT-0304",
+      "merged_legacy_titles": [
+        "Pump.fun becomes a defining Solana meme-token launch platform"
       ]
     },
     {
-      "id": "LORE-CAN-2024-001",
+      "id": "LORE-CAN-2024-003",
       "date": "2024-01-10",
       "title": "SEC approves the listing and trading of US spot Bitcoin ETPs",
       "branches": [
@@ -84,10 +90,42 @@
         "LORE-EVT-0062",
         "LORE-EVT-0532",
         "LORE-EVT-0825"
+      ],
+      "canonical_key": "LORE-EVT-0062",
+      "merged_legacy_titles": [
+        "US spot Bitcoin ETPs approved"
       ]
     },
     {
-      "id": "LORE-CAN-2024-002",
+      "id": "LORE-CAN-2024-004",
+      "date": "2024-01-11",
+      "title": "GBTC converts into a spot Bitcoin ETP",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Grayscale Bitcoin Trust uplisted to NYSE Arca as a spot Bitcoin ETP following SEC approval.",
+      "significance": "GBTC's conversion completed the legal and market saga that had produced Grayscale's 2023 court victory over the SEC.",
+      "sources": [
+        {
+          "title": "Grayscale SEC filing — GBTC uplisting approval",
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000095017024003686/gbtc_uplisting_email.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "source_event_ids": [
+        "LORE-EVT-0533"
+      ],
+      "canonical_key": "LORE-EVT-0533",
+      "merged_legacy_titles": [
+        "Grayscale experiences sustained Bitcoin ETF outflows"
+      ]
+    },
+    {
+      "id": "LORE-CAN-2024-005",
       "date": "2024-01-11",
       "title": "US spot Bitcoin ETPs begin trading",
       "branches": [
@@ -110,34 +148,44 @@
       "source_event_ids": [
         "LORE-EVT-0826",
         "LORE-EVT-0827"
+      ],
+      "canonical_key": "LORE-EVT-0826",
+      "merged_legacy_titles": [
+        "Bitcoin ETF inflows become a major source of daily market demand"
       ]
     },
     {
-      "id": "LORE-CAN-2024-003",
+      "id": "LORE-CAN-2024-006",
       "date": "2024-01-11",
-      "title": "GBTC converts into a spot Bitcoin ETP",
+      "title": "US spot Bitcoin ETPs begin trading",
       "branches": [
         "BITCOIN",
-        "INSTITUTIONS"
+        "INSTITUTIONS",
+        "MARKETS"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Grayscale Bitcoin Trust uplisted to NYSE Arca as a spot Bitcoin ETP following SEC approval.",
-      "significance": "GBTC's conversion completed the legal and market saga that had produced Grayscale's 2023 court victory over the SEC.",
+      "summary": "The newly approved US spot Bitcoin ETPs began public trading on 11 January 2024; later SEC filings describe roughly $4.6 billion of first-day trading volume across the products.",
+      "significance": "This converted regulatory approval into a live institutional market and created a major new source of Bitcoin demand and price discovery.",
       "sources": [
         {
-          "title": "Grayscale SEC filing — GBTC uplisting approval",
-          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000095017024003686/gbtc_uplisting_email.htm",
+          "title": "SEC filing — spot Bitcoin ETPs commenced trading Jan. 11, 2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315225019484/ex99-1.htm",
           "type": "REGULATORY_FILING"
         }
       ],
       "score_status": "NOT_SCORED",
       "source_event_ids": [
-        "LORE-EVT-0533"
+        "LORE-EVT-0826",
+        "LORE-EVT-0827"
+      ],
+      "canonical_key": "LORE-EVT-0827",
+      "merged_legacy_titles": [
+        "Spot Bitcoin ETF custody concentration sparks debate"
       ]
     },
     {
-      "id": "LORE-CAN-2024-035",
+      "id": "LORE-CAN-2024-007",
       "date": "2024-01-26",
       "title": "Farcaster launches interactive Frames",
       "branches": [
@@ -158,10 +206,12 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0542",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-021",
+      "id": "LORE-CAN-2024-008",
       "date": "2024-01-31",
       "title": "Jupiter launches JUP through Jupuary",
       "branches": [
@@ -189,10 +239,14 @@
       "source_event_ids": [
         "LORE-EVT-0615",
         "LORE-EVT-0540"
+      ],
+      "canonical_key": "LORE-EVT-0615",
+      "merged_legacy_titles": [
+        "Jupiter DAO launches with JUP token"
       ]
     },
     {
-      "id": "LORE-CAN-2024-028",
+      "id": "LORE-CAN-2024-009",
       "date": "2024-02",
       "title": "Ethena launches USDe",
       "branches": [
@@ -215,10 +269,14 @@
       "source_event_ids": [
         "LORE-EVT-0830",
         "LORE-EVT-0831"
+      ],
+      "canonical_key": "LORE-EVT-0830",
+      "merged_legacy_titles": [
+        "Ethena introduces synthetic-dollar model at scale"
       ]
     },
     {
-      "id": "LORE-CAN-2024-047",
+      "id": "LORE-CAN-2024-010",
       "date": "2024-02 to 2024-04",
       "title": "Nigeria intensifies legal pressure on Binance executives",
       "branches": [
@@ -247,10 +305,12 @@
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Keep charges and government allegations attributed; do not state guilt unless adjudicated."
+      "notes": "Keep charges and government allegations attributed; do not state guilt unless adjudicated.",
+      "canonical_key": "LORE-EVT-0865",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-020",
+      "id": "LORE-CAN-2024-011",
       "date": "2024-02-20",
       "title": "Starknet opens its first STRK community distribution",
       "branches": [
@@ -272,10 +332,14 @@
       "score_status": "NOT_SCORED",
       "source_event_ids": [
         "LORE-EVT-0842"
+      ],
+      "canonical_key": "LORE-EVT-0842",
+      "merged_legacy_titles": [
+        "Starknet launches first STRK Provisions airdrop"
       ]
     },
     {
-      "id": "LORE-CAN-2024-039",
+      "id": "LORE-CAN-2024-012",
       "date": "2024-02-29",
       "title": "Blast L2 launches with native-yield marketing",
       "branches": [
@@ -302,36 +366,12 @@
           "type": "CONTEMPORARY_SECONDARY"
         }
       ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2024-016",
-      "date": "2024-03",
-      "title": "Dogwifhat becomes a defining Solana meme coin",
-      "branches": [
-        "ALTCOINS",
-        "MEMES",
-        "CULTURE"
-      ],
-      "research_state": "VERIFIED_WITH_MARKET_SOURCE",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "Dogwifhat surged into the top tier of Solana meme coins during March 2024, reaching record prices and becoming a prominent symbol of the network's meme-token cycle.",
-      "significance": "Its dog-in-a-hat image became one of the defining visuals of Solana's 2024 meme culture.",
-      "sources": [
-        {
-          "title": "CoinDesk — Dogwifhat surges to record",
-          "url": "https://www.coindesk.com/markets/2024/03/06/solana-meme-coin-dogwifhat-surges-48-outperforming-bonk-doge",
-          "type": "CONTEMPORARY_SECONDARY"
-        }
-      ],
       "score_status": "NOT_SCORED",
-      "source_event_ids": [
-        "LORE-EVT-0847",
-        "LORE-EVT-0848"
-      ]
+      "canonical_key": "LORE-EVT-0838",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-004",
+      "id": "LORE-CAN-2024-013",
       "date": "2024-03-13T13:55:35Z",
       "title": "Ethereum activates Dencun and EIP-4844 blobs",
       "branches": [
@@ -361,10 +401,51 @@
         "LORE-EVT-1110",
         "LORE-EVT-1111",
         "LORE-EVT-0855"
+      ],
+      "canonical_key": "LORE-EVT-0134",
+      "merged_legacy_titles": [
+        "Ethereum Dencun upgrade introduces blobs"
       ]
     },
     {
-      "id": "LORE-CAN-2024-042",
+      "id": "LORE-CAN-2024-014",
+      "date": "2024-03-13T13:55:35Z",
+      "title": "Ethereum activates Dencun and EIP-4844 blobs",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Ethereum's Dencun upgrade activated at epoch 269,568, introducing EIP-4844 blob transactions for cheaper temporary rollup data storage.",
+      "significance": "Dencun sharply reduced data costs for many Ethereum layer-2 rollups and was a major milestone in the rollup-centric scaling roadmap.",
+      "sources": [
+        {
+          "title": "Ethereum Foundation — Dencun Mainnet Announcement",
+          "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ethereum.org — Dencun",
+          "url": "https://ethereum.org/roadmap/dencun/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "source_event_ids": [
+        "LORE-EVT-0134",
+        "LORE-EVT-0398",
+        "LORE-EVT-1110",
+        "LORE-EVT-1111",
+        "LORE-EVT-0855"
+      ],
+      "canonical_key": "LORE-EVT-0855",
+      "merged_legacy_titles": [
+        "Vitalik Buterin publishes renewed rollup-centric roadmap commentary"
+      ]
+    },
+    {
+      "id": "LORE-CAN-2024-015",
       "date": "2024-03-16",
       "title": "BOOK OF MEME launch fuels Solana meme mania",
       "branches": [
@@ -385,10 +466,12 @@
           "type": "EXCHANGE_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0849",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-005",
+      "id": "LORE-CAN-2024-016",
       "date": "2024-03-20",
       "title": "BlackRock launches BUIDL on Ethereum",
       "branches": [
@@ -413,10 +496,14 @@
         "LORE-EVT-0259",
         "LORE-EVT-0361",
         "LORE-EVT-0828"
+      ],
+      "canonical_key": "LORE-EVT-0171",
+      "merged_legacy_titles": [
+        "BlackRock launches BUIDL tokenized fund"
       ]
     },
     {
-      "id": "LORE-CAN-2024-049",
+      "id": "LORE-CAN-2024-017",
       "date": "2024-04-04",
       "title": "Singapore expands stablecoin and digital-payment token regulation",
       "branches": [
@@ -443,10 +530,12 @@
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0869",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-006",
+      "id": "LORE-CAN-2024-018",
       "date": "2024-04-20",
       "title": "Bitcoin completes its fourth halving",
       "branches": [
@@ -469,10 +558,14 @@
         "LORE-EVT-0063",
         "LORE-EVT-0943",
         "LORE-EVT-0944"
+      ],
+      "canonical_key": "LORE-EVT-0063",
+      "merged_legacy_titles": [
+        "Fourth Bitcoin halving"
       ]
     },
     {
-      "id": "LORE-CAN-2024-007",
+      "id": "LORE-CAN-2024-019",
       "date": "2024-04-20",
       "title": "Runes launches at the Bitcoin halving",
       "branches": [
@@ -501,10 +594,14 @@
       "source_event_ids": [
         "LORE-EVT-0135",
         "LORE-EVT-0544"
+      ],
+      "canonical_key": "LORE-EVT-0135",
+      "merged_legacy_titles": [
+        "Runes protocol launches around the Bitcoin halving"
       ]
     },
     {
-      "id": "LORE-CAN-2024-022",
+      "id": "LORE-CAN-2024-020",
       "date": "2024-04-24",
       "title": "US prosecutors charge Samourai Wallet founders",
       "branches": [
@@ -527,10 +624,14 @@
       "source_event_ids": [
         "LORE-EVT-0579",
         "LORE-EVT-1196"
+      ],
+      "canonical_key": "LORE-EVT-0579",
+      "merged_legacy_titles": [
+        "US authorities charge Samourai Wallet founders"
       ]
     },
     {
-      "id": "LORE-CAN-2024-025",
+      "id": "LORE-CAN-2024-021",
       "date": "2024-04-29 to 2024-05-10",
       "title": "EigenLayer announces EIGEN and opens its first stakedrop",
       "branches": [
@@ -561,38 +662,52 @@
         "LORE-EVT-0611",
         "LORE-EVT-0836",
         "LORE-EVT-0837"
+      ],
+      "canonical_key": "LORE-EVT-0397",
+      "merged_legacy_titles": [
+        "EigenLayer expands restaking and shared-security market"
       ]
     },
     {
-      "id": "LORE-CAN-2024-008",
-      "date": "2024-04-30",
-      "title": "Hong Kong lists Asia's first spot Bitcoin and Ether ETFs",
+      "id": "LORE-CAN-2024-022",
+      "date": "2024-04-29 to 2024-05-10",
+      "title": "EigenLayer announces EIGEN and opens its first stakedrop",
       "branches": [
-        "GOVERNMENTS",
-        "INSTITUTIONS",
-        "BITCOIN",
-        "ETHEREUM"
+        "ETHEREUM",
+        "DEFI",
+        "AIRDROPS"
       ],
-      "research_state": "VERIFIED",
+      "research_state": "VERIFIED_WITH_RANGE",
       "source_confidence": "HIGH",
-      "summary": "Hong Kong Exchanges and Clearing welcomed the listing of Asia's first spot virtual-asset ETFs on 30 April 2024, including spot Bitcoin and Ether products.",
-      "significance": "Hong Kong became an early Asian regulated market for spot Bitcoin and Ether exchange-traded funds.",
+      "summary": "The Eigen Foundation announced EIGEN and its Season 1 stakedrop on 29 April; claims opened on 10 May with more than 100 million EIGEN allocated across the first season.",
+      "significance": "The token distribution crystallized the restaking narrative and made EigenLayer one of Ethereum's defining 2024 infrastructure experiments.",
       "sources": [
         {
-          "title": "HKEX — Asia's First Spot Virtual Asset ETFs",
-          "url": "https://www.hkex.com.hk/News/News-Release/2024/240430news?sc_lang=en",
-          "type": "EXCHANGE_PRIMARY"
+          "title": "Eigen Foundation — EIGEN and Season 1 stakedrop",
+          "url": "https://blog.eigenfoundation.org/announcement/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Eigen Foundation — Season 1 claims open",
+          "url": "https://blog.eigenfoundation.org/claims-s1-p1/",
+          "type": "PROJECT_PRIMARY"
         }
       ],
       "score_status": "NOT_SCORED",
       "source_event_ids": [
-        "LORE-EVT-0303",
-        "LORE-EVT-0535",
-        "LORE-EVT-0867"
+        "LORE-EVT-0397",
+        "LORE-EVT-0610",
+        "LORE-EVT-0611",
+        "LORE-EVT-0836",
+        "LORE-EVT-0837"
+      ],
+      "canonical_key": "LORE-EVT-0837",
+      "merged_legacy_titles": [
+        "EigenLayer airdrop restrictions create community backlash"
       ]
     },
     {
-      "id": "LORE-CAN-2024-024",
+      "id": "LORE-CAN-2024-023",
       "date": "2024-04-30",
       "title": "Changpeng Zhao is sentenced to four months in prison",
       "branches": [
@@ -619,10 +734,46 @@
       "score_status": "NOT_SCORED",
       "source_event_ids": [
         "LORE-EVT-1228"
+      ],
+      "canonical_key": "LORE-EVT-1228",
+      "merged_legacy_titles": [
+        "Binance founder CZ begins prison sentence after US case"
       ]
     },
     {
-      "id": "LORE-CAN-2024-036",
+      "id": "LORE-CAN-2024-024",
+      "date": "2024-04-30",
+      "title": "Hong Kong lists Asia's first spot Bitcoin and Ether ETFs",
+      "branches": [
+        "GOVERNMENTS",
+        "INSTITUTIONS",
+        "BITCOIN",
+        "ETHEREUM"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Hong Kong Exchanges and Clearing welcomed the listing of Asia's first spot virtual-asset ETFs on 30 April 2024, including spot Bitcoin and Ether products.",
+      "significance": "Hong Kong became an early Asian regulated market for spot Bitcoin and Ether exchange-traded funds.",
+      "sources": [
+        {
+          "title": "HKEX — Asia's First Spot Virtual Asset ETFs",
+          "url": "https://www.hkex.com.hk/News/News-Release/2024/240430news?sc_lang=en",
+          "type": "EXCHANGE_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "source_event_ids": [
+        "LORE-EVT-0303",
+        "LORE-EVT-0535",
+        "LORE-EVT-0867"
+      ],
+      "canonical_key": "LORE-EVT-0303",
+      "merged_legacy_titles": [
+        "Hong Kong launches spot Bitcoin and Ether ETFs"
+      ]
+    },
+    {
+      "id": "LORE-CAN-2024-025",
       "date": "2024-05-03",
       "title": "friend.tech activity collapses after early social-finance boom",
       "branches": [
@@ -643,10 +794,12 @@
           "type": "CONTEMPORARY_SECONDARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0543",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-033",
+      "id": "LORE-CAN-2024-026",
       "date": "2024-05-16",
       "title": "Notcoin turns a viral Telegram clicker game into a TON token",
       "branches": [
@@ -677,10 +830,14 @@
         "LORE-EVT-0548",
         "LORE-EVT-0550",
         "LORE-EVT-1126"
+      ],
+      "canonical_key": "LORE-EVT-0550",
+      "merged_legacy_titles": [
+        "Notcoin popularizes tap-to-earn token distribution on Telegram"
       ]
     },
     {
-      "id": "LORE-CAN-2024-050",
+      "id": "LORE-CAN-2024-027",
       "date": "2024-05-17 to 2024-12-03",
       "title": "James Howells takes lost-Bitcoin landfill claim to the High Court",
       "branches": [
@@ -702,10 +859,12 @@
           "type": "COURT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0888",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-023",
+      "id": "LORE-CAN-2024-028",
       "date": "2024-05-20",
       "title": "UK High Court rules Craig Wright is not Satoshi Nakamoto",
       "branches": [
@@ -727,10 +886,14 @@
       "score_status": "NOT_SCORED",
       "source_event_ids": [
         "LORE-EVT-1006"
+      ],
+      "canonical_key": "LORE-EVT-1006",
+      "merged_legacy_titles": [
+        "UK court rules Craig Wright is not Bitcoin creator Satoshi Nakamoto"
       ]
     },
     {
-      "id": "LORE-CAN-2024-009",
+      "id": "LORE-CAN-2024-029",
       "date": "2024-05-23",
       "title": "SEC approves rule changes for US spot Ether ETPs",
       "branches": [
@@ -754,10 +917,14 @@
         "LORE-EVT-0149",
         "LORE-EVT-0852",
         "LORE-EVT-0853"
+      ],
+      "canonical_key": "LORE-EVT-0149",
+      "merged_legacy_titles": [
+        "US spot Ether ETP rule changes are approved"
       ]
     },
     {
-      "id": "LORE-CAN-2024-034",
+      "id": "LORE-CAN-2024-030",
       "date": "2024-05-29",
       "title": "BlackRock IBIT becomes a major Bitcoin investment vehicle",
       "branches": [
@@ -779,10 +946,12 @@
           "type": "CONTEMPORARY_SECONDARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0258",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-010",
+      "id": "LORE-CAN-2024-031",
       "date": "2024-05-31",
       "title": "DMM Bitcoin reports a major Bitcoin theft",
       "branches": [
@@ -810,10 +979,14 @@
       "source_event_ids": [
         "LORE-EVT-0255",
         "LORE-EVT-0547"
+      ],
+      "canonical_key": "LORE-EVT-0255",
+      "merged_legacy_titles": [
+        "DMM Bitcoin suffers a major theft"
       ]
     },
     {
-      "id": "LORE-CAN-2024-041",
+      "id": "LORE-CAN-2024-032",
       "date": "2024-06-03",
       "title": "Brett becomes a prominent Base meme coin",
       "branches": [
@@ -835,10 +1008,12 @@
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Project press release; attribute claims about rank/market status."
+      "notes": "Project press release; attribute claims about rank/market status.",
+      "canonical_key": "LORE-EVT-0846",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-026",
+      "id": "LORE-CAN-2024-033",
       "date": "2024-06-17",
       "title": "ZKsync launches ZK community airdrop",
       "branches": [
@@ -865,10 +1040,14 @@
       "score_status": "NOT_SCORED",
       "source_event_ids": [
         "LORE-EVT-0841"
+      ],
+      "canonical_key": "LORE-EVT-0841",
+      "merged_legacy_titles": [
+        "ZKsync launches 17.5% community ZK airdrop"
       ]
     },
     {
-      "id": "LORE-CAN-2024-011",
+      "id": "LORE-CAN-2024-034",
       "date": "2024-06-19 to 2024-07-12",
       "title": "Saxony sells almost 50,000 seized Bitcoin",
       "branches": [
@@ -891,10 +1070,14 @@
       "source_event_ids": [
         "LORE-EVT-0172",
         "LORE-EVT-0305"
+      ],
+      "canonical_key": "LORE-EVT-0305",
+      "merged_legacy_titles": [
+        "German authorities sell seized Bitcoin into the market"
       ]
     },
     {
-      "id": "LORE-CAN-2024-040",
+      "id": "LORE-CAN-2024-035",
       "date": "2024-06-20",
       "title": "LayerZero token launch follows prolonged airdrop speculation",
       "branches": [
@@ -915,10 +1098,12 @@
           "type": "CONTEMPORARY_SECONDARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0840",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-031",
+      "id": "LORE-CAN-2024-036",
       "date": "2024-06-30",
       "title": "MiCA stablecoin rules begin applying in the EU",
       "branches": [
@@ -940,10 +1125,14 @@
       "score_status": "NOT_SCORED",
       "source_event_ids": [
         "LORE-EVT-0334"
+      ],
+      "canonical_key": "LORE-EVT-0334",
+      "merged_legacy_titles": [
+        "EU MiCA stablecoin rules begin applying"
       ]
     },
     {
-      "id": "LORE-CAN-2024-046",
+      "id": "LORE-CAN-2024-037",
       "date": "2024-07-02",
       "title": "Turkey tightens crypto-asset service-provider rules",
       "branches": [
@@ -969,10 +1158,12 @@
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0864",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-012",
+      "id": "LORE-CAN-2024-038",
       "date": "2024-07-05",
       "title": "Mt. Gox begins Bitcoin and Bitcoin Cash repayments",
       "branches": [
@@ -996,10 +1187,14 @@
         "LORE-EVT-0136",
         "LORE-EVT-0545",
         "LORE-EVT-1032"
+      ],
+      "canonical_key": "LORE-EVT-0136",
+      "merged_legacy_titles": [
+        "Mt. Gox creditor repayments begin"
       ]
     },
     {
-      "id": "LORE-CAN-2024-013",
+      "id": "LORE-CAN-2024-039",
       "date": "2024-07-18",
       "title": "WazirX loses more than $230 million in a multisig-wallet attack",
       "branches": [
@@ -1021,10 +1216,14 @@
       "source_event_ids": [
         "LORE-EVT-0256",
         "LORE-EVT-0546"
+      ],
+      "canonical_key": "LORE-EVT-0256",
+      "merged_legacy_titles": [
+        "WazirX suffers a major crypto theft"
       ]
     },
     {
-      "id": "LORE-CAN-2024-014",
+      "id": "LORE-CAN-2024-040",
       "date": "2024-07-23",
       "title": "US spot Ether ETPs begin trading",
       "branches": [
@@ -1048,10 +1247,12 @@
         "LORE-EVT-0064",
         "LORE-EVT-0536",
         "LORE-EVT-0537"
-      ]
+      ],
+      "canonical_key": "LORE-EVT-0064",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-043",
+      "id": "LORE-CAN-2024-041",
       "date": "2024-08-22",
       "title": "Babylon expands Bitcoin staking concepts",
       "branches": [
@@ -1077,10 +1278,12 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0858",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-038",
+      "id": "LORE-CAN-2024-042",
       "date": "2024-08-26",
       "title": "Ondo Finance helps popularize tokenized Treasury products",
       "branches": [
@@ -1106,43 +1309,12 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2024-018",
-      "date": "2024-09-16",
-      "title": "Arkham publicly identifies Bhutan's state-linked Bitcoin holdings",
-      "branches": [
-        "GOVERNMENTS",
-        "BITCOIN",
-        "MINING"
-      ],
-      "research_state": "VERIFIED_WITH_CHAIN_ANALYSIS_QUALIFIER",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "Arkham Intelligence publicly labeled wallets it attributed to Bhutan's government investment arm, Druk Holding & Investments, showing more than $750 million of Bitcoin and linking the holdings to state-backed mining.",
-      "significance": "The disclosure drew global attention to a sovereign Bitcoin strategy based on mining rather than mainly criminal-asset seizures.",
-      "sources": [
-        {
-          "title": "Arkham — Bhutan Government's BTC holdings",
-          "url": "https://info.arkm.com/announcements/bhutan-governments-750m-btc-now-on-arkham",
-          "type": "CHAIN_ANALYSIS"
-        },
-        {
-          "title": "IMF — Bhutan Article IV report on public-sector Bitcoin estimates",
-          "url": "https://www.elibrary.imf.org/view/journals/002/2026/019/article-A001-en.xml",
-          "type": "INTERGOVERNMENTAL"
-        }
-      ],
       "score_status": "NOT_SCORED",
-      "notes": "Bhutanese authorities have not publicly confirmed Arkham's exact wallet/holding estimates.",
-      "source_event_ids": [
-        "LORE-EVT-0173",
-        "LORE-EVT-0260",
-        "LORE-EVT-0306"
-      ]
+      "canonical_key": "LORE-EVT-0829",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-029",
+      "id": "LORE-CAN-2024-043",
       "date": "2024-09-18",
       "title": "MakerDAO becomes Sky and launches USDS/SKY upgrade path",
       "branches": [
@@ -1171,10 +1343,14 @@
         "LORE-EVT-0832",
         "LORE-EVT-0833",
         "LORE-EVT-1138"
+      ],
+      "canonical_key": "LORE-EVT-0833",
+      "merged_legacy_titles": [
+        "Sky brand replaces Maker in major protocol reorganization"
       ]
     },
     {
-      "id": "LORE-CAN-2024-048",
+      "id": "LORE-CAN-2024-044",
       "date": "2024-10-01",
       "title": "Dubai VARA 2024 virtual-asset marketing regulations take effect",
       "branches": [
@@ -1195,10 +1371,12 @@
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0868",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-030",
+      "id": "LORE-CAN-2024-045",
       "date": "2024-10-16",
       "title": "Radiant Capital loses more than $50 million in a multisig compromise",
       "branches": [
@@ -1221,10 +1399,14 @@
       "source_event_ids": [
         "LORE-EVT-0381",
         "LORE-EVT-0593"
+      ],
+      "canonical_key": "LORE-EVT-0381",
+      "merged_legacy_titles": [
+        "Radiant Capital suffers major security incidents"
       ]
     },
     {
-      "id": "LORE-CAN-2024-027",
+      "id": "LORE-CAN-2024-046",
       "date": "2024-10-22",
       "title": "Scroll launches SCR and its first community airdrop",
       "branches": [
@@ -1251,10 +1433,14 @@
       "score_status": "NOT_SCORED",
       "source_event_ids": [
         "LORE-EVT-0843"
+      ],
+      "canonical_key": "LORE-EVT-0843",
+      "merged_legacy_titles": [
+        "Scroll launches first SCR community airdrop"
       ]
     },
     {
-      "id": "LORE-CAN-2024-044",
+      "id": "LORE-CAN-2024-047",
       "date": "2024-10-28",
       "title": "Stacks Nakamoto upgrade advances Bitcoin L2 narrative",
       "branches": [
@@ -1280,10 +1466,12 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0859",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-017",
+      "id": "LORE-CAN-2024-048",
       "date": "2024-11-04",
       "title": "Polymarket prediction markets reach mainstream scale",
       "branches": [
@@ -1315,10 +1503,14 @@
         "LORE-EVT-0552",
         "LORE-EVT-1203",
         "LORE-EVT-1204"
+      ],
+      "canonical_key": "LORE-EVT-0192",
+      "merged_legacy_titles": [
+        "Prediction markets, led by Polymarket, gain major mainstream visibility"
       ]
     },
     {
-      "id": "LORE-CAN-2024-051",
+      "id": "LORE-CAN-2024-049",
       "date": "2024-11-26",
       "title": "Uniswap announces $15.5M v4 bug bounty ahead of hooks-based launch",
       "branches": [
@@ -1344,10 +1536,12 @@
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-1100",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-019",
+      "id": "LORE-CAN-2024-050",
       "date": "2024-12-05",
       "title": "Bitcoin trades above $100,000 for the first time",
       "branches": [
@@ -1370,10 +1564,14 @@
       "notes": "Use Reuters' quoted market high rather than presenting one universal exchange price.",
       "source_event_ids": [
         "LORE-EVT-0137"
+      ],
+      "canonical_key": "LORE-EVT-0137",
+      "merged_legacy_titles": [
+        "Bitcoin trades above $100,000"
       ]
     },
     {
-      "id": "LORE-CAN-2024-045",
+      "id": "LORE-CAN-2024-051",
       "date": "2024-12-18",
       "title": "IMF negotiations intensify scrutiny of El Salvador Bitcoin law",
       "branches": [
@@ -1396,10 +1594,12 @@
           "type": "INTERGOVERNMENTAL"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0862",
+      "merged_legacy_titles": []
     },
     {
-      "id": "LORE-CAN-2024-032",
+      "id": "LORE-CAN-2024-052",
       "date": "2024-12-30",
       "title": "MiCA's broader crypto framework begins applying across the EU",
       "branches": [
@@ -1427,9 +1627,15 @@
         "LORE-EVT-0139",
         "LORE-EVT-0335",
         "LORE-EVT-0871"
+      ],
+      "canonical_key": "LORE-EVT-0335",
+      "merged_legacy_titles": [
+        "EU MiCA broader crypto rules begin applying"
       ]
     }
   ],
   "updated": "2026-09-26",
-  "note": "2024 canonical evidence set is score-ready. Raw discovery rows remain preserved in 2024-legacy-candidates.json; context and merged rows are excluded from independent scoring."
+  "note": "2024 canonical file synchronized from complete reconciliation. Only independently scoreable canonical events remain in this file; context and merged rows stay in reconciliation/legacy files.",
+  "reconciliation_source": "2024-reconciliation.json",
+  "reconciliation_status": "COMPLETE"
 }
