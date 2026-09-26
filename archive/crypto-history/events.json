@@ -4890,12 +4890,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-04-16 to 2023-05-05",
+        "summary": "PEPE launched in mid-April 2023 and rapidly became a major Ethereum meme coin, passing a $1 billion market capitalization by 5 May.",
+        "significance": "PEPE reignited large-scale meme-coin speculation after the Dogecoin/SHIB cycle and proved meme assets could repeatedly create new speculative waves.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — PEPE launches and meme-token frenzy",
+            "url": "https://www.coindesk.com/markets/2023/04/18/pepe-the-frog-memecoins-rocket-as-crypto-twitter-moves-over-doge-obsession",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — PEPE passes $1B market cap",
+            "url": "https://www.theblock.co/news/ecosystems/2023-05-05-pepe-memecoin-tops-1-billion-market-cap-even-as-binance-flags-lack-of-utility-229676",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5503,12 +5514,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-06-14",
+        "summary": "EigenLayer launched Stage 1 on Ethereum mainnet, allowing ETH stakers to opt into restaking via liquid-staking-token contracts and native restaking.",
+        "significance": "EigenLayer introduced restaking as a major new Ethereum security primitive and created a market for reusing Ethereum economic security across additional services.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Stage 1 Mainnet Launch",
+            "url": "https://www.eigenlabs.org/blog/eigenlayer-stage-1-mainnet-launch/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7258,12 +7275,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-03-13 to 2023-04-04",
+        "summary": "Euler Finance was exploited on 13 March 2023 for roughly $197 million. After on-chain messages and negotiations, the attacker returned essentially all recoverable stolen assets by early April.",
+        "significance": "The incident became one of crypto's most remarkable exploit-recovery stories because a near-$200 million DeFi theft ended with the funds being returned.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Euler — Behind the scenes of the exploit recovery",
+            "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Euler Governance — redemption plan after exploit",
+            "url": "https://forum.euler.finance/t/plan-for-redemption-of-euler-funds-v2/947",
+            "type": "PROJECT_GOVERNANCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7281,12 +7309,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-05 to 2023-07-14",
+        "summary": "Multichain suffered prolonged outages and abnormal asset movements after losing access to key infrastructure; on 14 July the team said CEO Zhaojun had been detained by Chinese police, his sister had also been detained, and the project was forced to cease operations.",
+        "significance": "The collapse exposed extreme operational-key-person risk inside supposedly decentralized cross-chain infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Multichain ceases operations after CEO and sister detention",
+            "url": "https://www.theblock.co/news/ecosystems/2023-07-14-multichain-ceases-operations-as-ceos-sister-is-detained-in-china-while-holding-220-million-of-funds-239589",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7717,12 +7751,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-03-01",
+        "summary": "The canonical ERC-4337 EntryPoint contract was deployed to Ethereum mainnet on 1 March 2023, enabling account abstraction through UserOperations and bundlers without a consensus-layer protocol change.",
+        "significance": "ERC-4337 made programmable smart accounts practical at scale, enabling sponsored gas, alternative authentication and improved wallet UX.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Account abstraction / ERC-4337",
+            "url": "https://ethereum.org/roadmap/account-abstraction",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "ERC-4337 specification",
+            "url": "https://eips.ethereum.org/EIPS/eip-4337",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7789,14 +7834,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2023-06-14",
+        "summary": "This is the same EigenLayer Stage 1/restaking launch as LORE-EVT-0191.",
+        "significance": "Canonicalized to LORE-EVT-0191.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Stage 1 Mainnet Launch",
+            "url": "https://www.eigenlabs.org/blog/eigenlayer-stage-1-mainnet-launch/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0191",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -8580,12 +8631,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-03-23",
+        "summary": "Arbitrum opened claims for its ARB governance-token airdrop on 23 March 2023 as part of the transition to the Arbitrum DAO.",
+        "significance": "The distribution was one of the largest layer-2 governance launches and transferred substantial control of a major Ethereum rollup to token holders.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Arbitrum Foundation — The Next Phase of Decentralization",
+            "url": "https://blog.arbitrum.foundation/arbitrum-the-next-phase-of-decentralization/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Arbitrum Foundation — Airdrop Eligibility & Distribution",
+            "url": "https://github.com/ArbitrumFoundation/docs/blob/main/docs/airdrop-eligibility-distribution.md",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8602,15 +8664,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2023-03",
+        "summary": "ZKsync Era opened its Alpha mainnet to users in March 2023, bringing a general-purpose zkEVM-style Ethereum rollup into public operation.",
+        "significance": "ZKsync Era was one of the first major general-purpose zero-knowledge rollups to reach public mainnet use.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "ZKsync — Era network details/history",
+            "url": "https://docs.zksync.io/zksync-network/zksync-era/network-details",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "ZKsync — EraVM security update referencing March 2023 Alpha release",
+            "url": "https://www.zksync.io/blog/eravm-security-update",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Primary ZKsync material confirms the March 2023 Alpha release; attach a preserved launch announcement if an exact day is needed for book copy."
       }
     },
     {
@@ -8624,12 +8697,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-03-27",
+        "summary": "Polygon zkEVM Mainnet Beta went live on 27 March 2023 as an EVM-equivalent zero-knowledge rollup.",
+        "significance": "It marked a major milestone in the race to scale Ethereum with general-purpose zero-knowledge proofs while preserving familiar EVM tooling.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Polygon — zkEVM Mainnet Beta is Live",
+            "url": "https://polygon.technology/blog/polygon-zkevm-mainnet-beta-is-live",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10689,15 +10768,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-09-23",
+        "summary": "Mixin Network suffered an attack involving its cloud database; Mixin later described affected USDT, ETH and BTC assets as worth about $150 million at the time and issued debt tokens as part of its recovery plan.",
+        "significance": "The incident was a major centralized-infrastructure failure inside a network marketed around blockchain asset transfers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Mixin Support — MDT debt-token explanation and Sep. 23 attack",
+            "url": "https://support.mixin.one/en/article/what-is-mdt-token-77n05i/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Early public estimates were around $200M; Mixin's later support documentation states roughly $150M for the principal affected assets."
       }
     },
     {
@@ -10711,12 +10796,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-07-30",
+        "summary": "Several Curve-linked pools were exploited because of a reentrancy vulnerability affecting older versions of the Vyper compiler.",
+        "significance": "The exploit threatened a core DeFi liquidity venue and exposed knock-on risk through large CRV-backed loans across lending protocols.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve Governance — July 30 Vyper exploit background",
+            "url": "https://gov.curve.finance/t/reimbursing-costs-incurred-to-jpeg-d-dao-during-the-july-exploit/9877",
+            "type": "PROJECT_GOVERNANCE"
+          },
+          {
+            "title": "The Block — Curve Vyper exploit and CRV loan risk",
+            "url": "https://www.theblock.co/news/ecosystems/2023-07-30-millions-of-curve-dao-tokens-stolen-minutes-before-a-white-hat-rescue-mission-242098",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10905,12 +11001,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-04-18",
+        "summary": "Helium completed the migration of its hotspots, tokens and chain state from its custom layer-1 blockchain to Solana in April 2023.",
+        "significance": "The move was one of the clearest examples of an established crypto network abandoning its own L1 to become an application ecosystem on another chain.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Helium Foundation — Q2 2023 Protocol Report",
+            "url": "https://www.helium.foundation/protocol-report-2023-q2",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Helium Docs — Legacy Blockchain Data / migration",
+            "url": "https://docs.helium.com/network-data/legacy-blockchain-data/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11121,12 +11228,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-05-03",
+        "summary": "Sui Mainnet launched publicly on 3 May 2023 with more than 100 validators and hundreds of nodes.",
+        "significance": "Sui became a major Move-based layer-1 network and one of the highest-profile new smart-contract chains of the post-FTX era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sui — Mainnet launch history",
+            "url": "https://www.sui.io/token-schedule",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11143,12 +11256,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-10-31T14:00:00Z",
+        "summary": "Celestia launched Mainnet Beta, codenamed Lemon Mint, on 31 October 2023.",
+        "significance": "Celestia made modular data availability a live standalone blockchain product and helped establish modular blockchain architecture as a major scaling thesis.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Celestia Foundation — Mainnet is live",
+            "url": "https://blog.celestia.org/celestia-mainnet-is-live/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11342,12 +11461,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-10-26 to 2023-11-28",
+        "summary": "The first block of the standalone dYdX Chain was produced on 26 October 2023; governance later enabled full-production trading during November.",
+        "significance": "The launch completed dYdX's shift from an Ethereum application to a sovereign proof-of-stake app-chain.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "dYdX Foundation — dYdX Chain token mechanics / genesis",
+            "url": "https://www.dydx.foundation/blog/dydx-token-mechanics",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "dYdX Foundation — dYdX Chain mainnet history",
+            "url": "https://www.dydx.foundation/blog/new-trading-pairs-permissionless-markets-on-the-dydx-chain",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14705,14 +14835,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2023-10-31T14:00:00Z",
+        "summary": "This is the same Celestia Mainnet Beta launch as LORE-EVT-0396.",
+        "significance": "Canonicalized to LORE-EVT-0396.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Celestia Foundation — Mainnet is live",
+            "url": "https://blog.celestia.org/celestia-mainnet-is-live/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0396",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -14727,14 +14863,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2023-06-14 onward",
+        "summary": "EigenLayer deposits began popularizing restaking after Stage 1 mainnet went live.",
+        "significance": "Adoption context belongs under the canonical EigenLayer launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Stage 1 Mainnet Launch",
+            "url": "https://www.eigenlabs.org/blog/eigenlayer-stage-1-mainnet-launch/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0191",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -14793,14 +14935,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_MILESTONE",
+        "exact_date": "2023-05-05",
+        "summary": "PEPE's first move above a $1 billion market capitalization was the major market milestone inside its launch frenzy.",
+        "significance": "Canonicalized under the PEPE event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — PEPE passes $1B market cap",
+            "url": "https://www.theblock.co/news/ecosystems/2023-05-05-pepe-memecoin-tops-1-billion-market-cap-even-as-binance-flags-lack-of-utility-229676",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0168",
+        "relation": "MILESTONE",
         "notes": null
       }
     },
@@ -14837,12 +14985,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-12-07T16:00:00Z",
+        "summary": "Jito opened claims for its JTO governance-token airdrop, allocating 10% of total supply to eligible JitoSOL users, validators and MEV-network participants.",
+        "significance": "The distribution became one of Solana's defining comeback-era airdrops and highlighted the growing importance of liquid staking and MEV infrastructure on Solana.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Jito Foundation — JTO airdrop claiming details",
+            "url": "https://www.jito.network/blog/airdrop-claiming-details/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Jito Foundation — JTO airdrop eligibility and allocation",
+            "url": "https://www.jito.network/blog/jto-airdrop-eligibility-and-allocation-specifications/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15917,15 +16076,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AS_ALLEGATIONS",
+        "exact_date": "2023-08-23",
+        "summary": "US prosecutors charged Tornado Cash founders Roman Storm and Roman Semenov with money-laundering, sanctions and unlicensed-money-transmission conspiracies; Storm was arrested the same day.",
+        "significance": "The indictment escalated the legal conflict over privacy mixers from protocol sanctions into criminal charges against developers/operators.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Tornado Cash founders charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/tornado-cash-founders-charged-money-laundering-and-sanctions-violations",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "For 2023 archive copy, describe indictment claims as allegations. Later proceedings are separate events."
       }
     },
     {
@@ -16072,12 +16237,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-05-16 to 2023-05-23",
+        "summary": "Ledger's announcement of the optional Ledger Recover seed-recovery service triggered intense criticism from self-custody users over how encrypted seed fragments could leave a hardware device; Ledger apologized for the rollout and delayed launch pending greater transparency.",
+        "significance": "The controversy exposed a fundamental tension between strict self-custody assumptions and consumer-friendly recovery systems.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ledger — Recover CEO message after announcement backlash",
+            "url": "https://www.ledger.com/blog/ledger-recover-a-message-from-pascal-gauthier-chairman-ceo-at-ledger",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Ledger — Recover protocol white paper",
+            "url": "https://www.ledger.com/blog/announcing-the-ledger-recover-cryptographic-protocol-white-paper",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16282,14 +16458,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2023-03 to 2023-04",
+        "summary": "Euler's attacker and project communicated publicly on-chain during the recovery process.",
+        "significance": "The negotiations became an unusually transparent example of blockchain-native incident response.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Euler — Behind the scenes of the exploit recovery",
+            "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0252",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -16304,14 +16486,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2023-07 to 2023-09",
+        "summary": "Curve founder Michael Egorov's large CRV-backed loans became a systemic DeFi concern after the Curve exploit pushed CRV lower; he later sold assets and repaid debt, including fully settling his Aave position in September.",
+        "significance": "The episode showed how one founder's highly concentrated collateral position could transmit risk between major DeFi protocols.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Curve Vyper exploit and CRV loan risk",
+            "url": "https://www.theblock.co/news/ecosystems/2023-07-30-millions-of-curve-dao-tokens-stolen-minutes-before-a-white-hat-rescue-mission-242098",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — Curve founder settles Aave debt",
+            "url": "https://www.theblock.co/news/defi/2023-09-27-curve-founder-michael-egorov-settles-aave-debt-253164",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0380",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -28041,14 +28234,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2023-03",
+        "summary": "During the Euler negotiations, the attacker sent an on-chain message expressing remorse and promising to return the funds.",
+        "significance": "The apology became memorable because blockchain messages were directly part of resolving a massive exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Euler — Behind the scenes of the exploit recovery",
+            "url": "https://www.euler.finance/blog/war-peace-behind-the-scenes-of-eulers-240m-exploit-recovery",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0252",
+        "relation": "LORE_SUBEVENT",
         "notes": null
       }
     },
@@ -30610,14 +30809,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2023-07-14",
+        "summary": "The disappearance/detention of Multichain CEO Zhaojun and subsequent detention of his sister are central facts in the canonical Multichain shutdown.",
+        "significance": "Canonicalized under LORE-EVT-0253.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Multichain ceases operations after CEO and sister detention",
+            "url": "https://www.theblock.co/news/ecosystems/2023-07-14-multichain-ceases-operations-as-ceos-sister-is-detained-in-china-while-holding-220-million-of-funds-239589",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0253",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
