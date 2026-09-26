@@ -99,7 +99,44 @@
           "type": "ARCHIVAL_SECONDARY"
         }
       ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0423",
+      "date": "2009-11-22T18:04:28Z",
+      "title": "Satoshi opens the new Bitcoin forum",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Satoshi posted 'Welcome to the new Bitcoin forum!' on 22 November 2009, pointing users to the older SourceForge forum and beginning the forum archive later known as BitcoinTalk.",
+      "significance": "The forum became the central surviving public record of much of Bitcoin's formative technical discussion, commerce, culture and Satoshi-era community activity.",
+      "sources": [
+        {
+          "title": "Satoshi Nakamoto Institute — Welcome to the new Bitcoin forum",
+          "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/threads/2/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "source_event_id": "LORE-EVT-0650",
+      "date": "2009-12-30T06:11:04Z",
+      "title": "Bitcoin difficulty increases for the first time",
+      "status": "VERIFIED",
+      "tier": "MAJOR",
+      "summary": "At block 32,256, Bitcoin's mining difficulty increased from 1.00 to about 1.18 for the first time.",
+      "significance": "The first upward retarget was direct on-chain evidence that mining participation had grown enough for Bitcoin's automatic difficulty mechanism to raise the work requirement.",
+      "sources": [
+        {
+          "title": "Blockchain.com — Bitcoin block 32,256",
+          "url": "https://www.blockchain.com/en/explorer/blocks/btc/32256",
+          "type": "ONCHAIN_REFERENCE"
+        },
+        {
+          "title": "Satoshi Nakamoto Institute — Proof-of-work difficulty increasing",
+          "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/43/",
+          "type": "PRIMARY_ARCHIVE"
+        }
+      ]
     }
   ],
-  "record_count": 6
+  "record_count": 8
 }
