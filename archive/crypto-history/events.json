@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. A second 2021 pass has verified major meme, gaming, NFT-marketplace, Terra/Anchor, regulatory, self-custody and corporate-NFT milestones; remaining 2021 rows continue to be reviewed individually.",
+  "status_note": "Evidence phase active. 2021 infrastructure/regulatory cleanup now includes Optimism, Phantom, Compound governance, Polkadot auctions, major bridges, Nigeria banking policy and FTX/MLB; Wormhole and Polymarket dates have been corrected.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -6420,12 +6420,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-01",
+        "summary": "Optimism deployed OP Mainnet in January 2021 in a restricted form, initially onboarding selected applications before later removing the deployment whitelist.",
+        "significance": "Optimism was one of the first production optimistic-rollup networks and helped establish Ethereum Layer 2 as a major scaling category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Optimism — What is OP Mainnet?",
+            "url": "https://optimism.io/blog/what-is-op-mainnet",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Optimism — A New Chapter",
+            "url": "https://optimism.io/blog/a-new-chapter",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9023,12 +9034,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-05",
+        "summary": "The Central Bank of Nigeria directed regulated banks and other financial institutions to stop providing services to cryptocurrency exchanges and to close accounts of persons or entities involved in cryptocurrency transactions.",
+        "significance": "The directive became one of Africa's most consequential crypto-banking restrictions and pushed more Nigerian activity toward peer-to-peer channels.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Central Bank of Nigeria — Feb 2021 crypto banking restriction",
+            "url": "https://www.cbn.gov.ng/out/2021/ccd/volume%203%20number%202%20cbn%20update%20february%202021.pdf",
+            "type": "CENTRAL_BANK"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10417,12 +10434,28 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-11-11 to 2021-12-17",
+        "summary": "Polkadot's first batch of parachain auctions began on 11 November 2021; Acala won the first auction on 18 November, and the initial winners were onboarded in December.",
+        "significance": "The auctions operationalized Polkadot's shared-security model by allocating scarce relay-chain slots to independent parachains.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Polkadot parachain auctions begin Nov 11",
+            "url": "https://www.coindesk.com/tech/2021/10/13/polkadot-sets-date-for-hotly-anticipated-parachain-auctions",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinDesk — Acala wins first Polkadot parachain auction",
+            "url": "https://www.coindesk.com/tech/2021/11/18/acala-wins-first-polkadot-parachain-auction-with-13b-in-dot-committed",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Polkadot — Auctions 1-5 history",
+            "url": "https://medium.com/polkadot-network/making-history-again-polkadot-auctions-1-5-7592c07d5d01",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13532,14 +13565,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "FTX expanded aggressively into sports and celebrity marketing, including its MLB partnership and other large sponsorship deals.",
+        "significance": "The marketing blitz became part of FTX's pre-collapse public image and later one of the starkest symbols of the 2021 excess cycle.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "MLB — FTX cryptocurrency partnership",
+            "url": "https://www.mlb.com/press-release/press-release-mlb-ftx-cryptocurrency-partnership",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
-        "relation": null,
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -16393,14 +16432,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-11-11",
+        "summary": "This is the same first Polkadot parachain-auction sequence represented by LORE-EVT-0392.",
+        "significance": "Canonicalized to LORE-EVT-0392.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Polkadot parachain auctions begin Nov 11",
+            "url": "https://www.coindesk.com/tech/2021/10/13/polkadot-sets-date-for-hotly-anticipated-parachain-auctions",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Polkadot — Auctions 1-5 history",
+            "url": "https://medium.com/polkadot-network/making-history-again-polkadot-auctions-1-5-7592c07d5d01",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0392",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -23254,12 +23304,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-06-23 to 2021-07-13",
+        "summary": "Major League Baseball and FTX announced a global partnership on 23 June 2021; MLB umpires began wearing FTX patches at the All-Star Game in July.",
+        "significance": "The umpire patches became one of the most visually distinctive examples of peak-cycle crypto sports sponsorship.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MLB — FTX cryptocurrency partnership",
+            "url": "https://www.mlb.com/press-release/press-release-mlb-ftx-cryptocurrency-partnership",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27036,15 +27092,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2021",
+        "summary": "Phantom formed in January 2021 and launched its Solana wallet during 2021, becoming one of the ecosystem's main consumer gateways.",
+        "significance": "Phantom gave Solana a polished self-custody wallet comparable to MetaMask's role on Ethereum and became central to Solana DeFi and NFTs.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Phantom — About",
+            "url": "https://phantom.com/about",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Phantom — $9M Series A",
+            "url": "https://www.phantom.com/learn/blog/phantom-raises-usd9m-from-a16z-variant-jump-capital-and-more",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exact first public-beta day is not asserted because the current primary sources establish the year and launch sequence more clearly than a single date."
       }
     },
     {
@@ -27761,14 +27828,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-12",
+        "summary": "Optimism removed its deployment whitelist in December 2021, allowing anyone to deploy contracts without prior approval.",
+        "significance": "Permissionless deployment marked Optimism's transition from a controlled launch phase into an open Ethereum Layer 2 platform.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Optimism — A New Chapter",
+            "url": "https://optimism.io/blog/a-new-chapter",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0234",
+        "relation": "MILESTONE",
         "notes": null
       }
     },
@@ -28428,12 +28501,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-09-29",
+        "summary": "Compound Proposal 62 executed with a bug that allowed some users to claim excess COMP from the Comptroller contract; later governance proposals constrained and repaired the distribution logic.",
+        "significance": "The incident showed that even mature DeFi governance upgrades could introduce economically significant smart-contract errors.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound Treasury Updates — COMP Bug",
+            "url": "https://compound.substack.com/p/compound-treasury-updates-comp-bug",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28556,8 +28635,8 @@
     },
     {
       "id": "LORE-EVT-1139",
-      "date": "2021",
-      "title": "Wormhole launches major cross-chain bridge infrastructure",
+      "date": "2020",
+      "title": "Wormhole launches Solana–Ethereum token bridge",
       "branch": [
         "BRIDGES",
         "TECHNOLOGY"
@@ -28565,12 +28644,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2020",
+        "summary": "Wormhole's first era introduced a Solana–Ethereum token bridge in 2020, not 2021.",
+        "significance": "The bridge became important cross-chain infrastructure and later the target of one of crypto's largest exploits.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Wormhole — Past, Present, and Future",
+            "url": "https://wormhole.com/blog/connecting-the-internet-economy-wormhole-and-the-w-tokens-past-present-and",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28587,12 +28672,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2021-12-17",
+        "summary": "Anyswap began its transition and rebranding to Multichain, with ANY-to-MULTI token conversion opening on 17 December 2021.",
+        "significance": "The rebrand reflected the project's expansion from a cross-chain swap product into one of the largest multi-chain bridge infrastructures of the period.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Multichain — FAQ/history",
+            "url": "https://docs.multichain.org/getting-started/faq",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Multichain — ANY to MULTI conversion",
+            "url": "https://docs.multichain.org/getting-started/governance-token/how-to-convert-any-to-multi",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28609,12 +28705,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-12",
+        "summary": "Hop Protocol publicly launched its first production bridge, beginning with USDC transfers between Ethereum and rollups.",
+        "significance": "Hop became early infrastructure for moving assets rapidly across Ethereum Layer 2 networks without waiting for native withdrawal periods.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hop Protocol — building bridges",
+            "url": "https://paragraph.com/@hop/building-bridges",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Hop Protocol — FAQ",
+            "url": "https://docs.hop.exchange/developer-docs/other/faq",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28623,7 +28730,7 @@
     {
       "id": "LORE-EVT-1142",
       "date": "2021",
-      "title": "Across Protocol launches intent-based bridge design",
+      "title": "Across Protocol launches L2-to-L1 bridge",
       "branch": [
         "BRIDGES",
         "ETHEREUM"
@@ -28631,12 +28738,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-11-08",
+        "summary": "Across Protocol publicly launched its bridge for fast transfers between Ethereum Layer 2 networks and Ethereum mainnet using relayers and an optimistic-oracle security model.",
+        "significance": "Across became an important bridge design in the later shift toward intent- and relayer-based cross-chain transfers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Across — protocol announcement",
+            "url": "https://across.to/blog/Announcing-Across-Protocol-the-Fastest-Cheapest-and-Most-Secure-L2-to-L1-Bridge",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Across Protocol is live",
+            "url": "https://across.to/blog/Across-Protocol-is-live-and-you-can-be-a-Co-Founder",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30033,8 +30151,8 @@
     },
     {
       "id": "LORE-EVT-1201",
-      "date": "2021",
-      "title": "Polymarket faces US regulatory scrutiny",
+      "date": "2022-01-03",
+      "title": "CFTC settles with Polymarket over event markets",
       "branch": [
         "DEFI",
         "REGULATION"
@@ -30042,12 +30160,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-01-03",
+        "summary": "The CFTC announced a settlement with Blockratize, Inc., doing business as Polymarket.com, over off-exchange event-based binary options contracts.",
+        "significance": "The action became Polymarket's first major US federal regulatory milestone and preceded its later mainstream growth.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CFTC — Polymarket settlement",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/8478-22",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
