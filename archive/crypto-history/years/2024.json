@@ -8,19 +8,30 @@
   "events": [
     {
       "id": "LORE-CAN-2024-017",
-      "date": "2024",
-      "title": "Polymarket prediction markets enter mainstream political coverage",
+      "date": "2024-11-04",
+      "title": "Polymarket prediction markets reach mainstream scale",
       "branches": [
         "PREDICTION_MARKETS",
         "CULTURE"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Polymarket's election-related markets received substantially increased public and media attention during the 2024 US election cycle.",
-      "significance": "The period helped move crypto-based prediction markets from a niche application into mainstream discussion of forecasting and market-based probabilities.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_NEUTRAL_MARKET_CONTEXT",
+      "source_confidence": "HIGH",
+      "summary": "Reuters reported that Polymarket's 2024 US presidential-election market had reached about $3.1 billion in trading volume by 4 November 2024, reflecting unprecedented mainstream attention for a crypto-based prediction market.",
+      "significance": "The 2024 cycle moved prediction markets from a crypto niche into mainstream reporting and public discussion of market-based forecasting.",
+      "sources": [
+        {
+          "title": "Reuters — U.S. election speculators play the prediction markets",
+          "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Polymarket — 2024 Presidential Election market archive",
+          "url": "https://polymarket.com/event/presidential-election-winner-2024",
+          "type": "PLATFORM_PRIMARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Needs neutral, dated volume/coverage evidence before canonical publication; do not turn market prices into an election prediction."
+      "notes": "Historical market-activity record only. Market prices are not treated here as an election forecast or recommendation."
     },
     {
       "id": "LORE-CAN-2024-015",
