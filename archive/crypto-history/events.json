@@ -1,9 +1,9 @@
 {
   "schema_version": "0.2.0",
   "archive": "LORE Crypto History Archive",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Every 2024 candidate is now researched, sourced, corrected, linked as context/duplicate, or explicitly held out of scoring for lack of a precise milestone. No 2024 rows remain UNRESEARCHED.",
+  "status_note": "Evidence phase active. All captured 2025 candidates are now researched and classified. The archive is researched/triaged through 2025; remaining historical cleanup is limited to earlier rows already marked for narrower evidence, not silent UNRESEARCHED modern records.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1994,12 +1994,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-02-21",
+        "summary": "Attackers stole approximately $1.5 billion in virtual assets from Bybit after compromising a signing workflow associated with an external multisignature service.",
+        "significance": "The incident became the largest publicly reported crypto theft to that point and a defining modern exchange-security failure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — North Korea Responsible for $1.5 Billion Bybit Hack",
+            "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Bybit — Security Incident Timeline",
+            "url": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2016,12 +2027,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-03-06",
+        "summary": "A US executive order established a Strategic Bitcoin Reserve capitalized initially with finally forfeited government BTC and directed that Bitcoin deposited into the reserve not be sold.",
+        "significance": "The policy transformed confiscated Bitcoin from an asset normally disposed of by government into a formally designated reserve category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile Executive Order",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/?cst=&query-11-page=90",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "White House — Strategic Bitcoin Reserve Fact Sheet",
+            "url": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/?query-11-page=3",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2037,12 +2059,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-05-07T10:05:11Z",
+        "summary": "Ethereum activated the Prague-Electra (Pectra) upgrade at epoch 364,032.",
+        "significance": "Pectra combined major validator, wallet and Layer-2-scaling improvements and was Ethereum's largest bundle of EIPs to that point.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Pectra",
+            "url": "https://ethereum.org/roadmap/pectra/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Pectra Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2025/04/23/pectra-mainnet",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2058,12 +2091,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-12-03T21:49:11Z",
+        "summary": "Ethereum activated the Fulu-Osaka (Fusaka) upgrade at epoch 411,392.",
+        "significance": "Fusaka advanced Ethereum's data-availability and Layer-2 scaling roadmap while also increasing Layer-1 performance capacity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Fusaka",
+            "url": "https://ethereum.org/roadmap/fusaka/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Fusaka Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4242,12 +4286,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-01-29",
+        "summary": "El Salvador's legislature approved amendments to the Bitcoin Law that removed mandatory acceptance and other essential legal-tender features, making private-sector Bitcoin acceptance voluntary as part of reforms linked to an IMF-supported program.",
+        "significance": "The amendment materially scaled back the compulsory elements of the world's first national Bitcoin legal-tender regime while leaving Bitcoin lawful to use.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — El Salvador EFF Staff Report",
+            "url": "https://www.elibrary.imf.org/view/journals/002/2025/058/article-A001-en.xml",
+            "type": "INTERGOVERNMENTAL"
+          },
+          {
+            "title": "Reuters — El Salvador lawmakers reform Bitcoin law",
+            "url": "https://www.reuters.com/world/americas/lawmakers-el-salvador-rush-new-bitcoin-reform-after-imf-deal-2025-01-30/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5151,14 +5206,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2025-03-06",
+        "summary": "The same executive order established a separate United States Digital Asset Stockpile for finally forfeited digital assets other than Bitcoin.",
+        "significance": "The policy explicitly separated Bitcoin reserve treatment from stewardship of other government-held crypto assets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile Executive Order",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/?cst=&query-11-page=90",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "White House — Strategic Bitcoin Reserve Fact Sheet",
+            "url": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/?query-11-page=3",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0066",
+        "relation": "PARALLEL_POLICY",
         "notes": null
       }
     },
@@ -5174,12 +5240,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-07-18",
+        "summary": "The US President signed S. 1582, the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act), into law.",
+        "significance": "The law created a federal statutory framework for payment stablecoins, marking a major shift from agency-led enforcement and state-by-state rules toward national legislation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "White House — GENIUS Act Signed Into Law",
+            "url": "https://www.whitehouse.gov/briefings-statements/2025/07/the-president-signed-into-law-s-1582/",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5196,12 +5268,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_DATA",
+        "exact_date": "2025-06",
+        "summary": "Reuters reported that at least 61 non-crypto-focused public companies had adopted Bitcoin treasury strategies by mid-June 2025, with their collective holdings roughly doubling over two months.",
+        "significance": "The Strategy/MicroStrategy model had evolved from an unusual corporate treasury decision into a broader public-markets financing strategy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin treasury strategies in public markets",
+            "url": "https://www.reuters.com/sustainability/boards-policy-regulation/what-are-bitcoin-treasury-strategies-latest-trend-public-markets-2025-06-16/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16017,14 +16095,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2025-02-22 to 2025-02-24",
+        "summary": "Bybit said all pending withdrawals had been processed and normal withdrawal operations restored within roughly 12 hours; a subsequent proof-of-reserves review said in-scope customer assets were again backed at least 1:1 within 72 hours.",
+        "significance": "The rapid liquidity response became an unusual contrast to exchange hacks that turned into insolvency or withdrawal freezes.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bybit — Security Incident Timeline",
+            "url": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Bybit — Fully Backed Within 72 Hours",
+            "url": "https://www.bybit.com/en/press/post/fully-backed-within-72-hours-bybit-maintains-1-1-customer-assets-ratio-in-latest-proof-of-reserves-audited-report-by-hacken-bltb767a9461133831f",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0065",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -16039,14 +16128,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2025-02-26",
+        "summary": "The FBI publicly attributed the Bybit theft to North Korea, calling the activity TraderTraitor and warning that the stolen assets were being rapidly converted and dispersed across blockchains.",
+        "significance": "The attribution made the heist a major state-linked cybercrime event and reinforced North Korea's central role in crypto theft.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — North Korea Responsible for $1.5 Billion Bybit Hack",
+            "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0065",
+        "relation": "ATTRIBUTION",
         "notes": null
       }
     },
@@ -16061,14 +16156,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2025-05-07",
+        "summary": "Pectra raised Ethereum's maximum effective validator balance from 32 ETH to 2,048 ETH while retaining 32 ETH as the minimum.",
+        "significance": "The change allowed large validators to consolidate infrastructure and earn rewards on balances above the old 32 ETH cap.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Pectra",
+            "url": "https://ethereum.org/roadmap/pectra/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Pectra Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2025/04/23/pectra-mainnet",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0067",
+        "relation": "FEATURE",
         "notes": null
       }
     },
@@ -16083,14 +16189,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2025-05-07",
+        "summary": "Pectra's EIP-7702 allowed externally owned Ethereum accounts to temporarily gain smart-contract functionality such as transaction batching, fee sponsorship and enhanced recovery patterns.",
+        "significance": "The feature was a major step toward account-abstraction-style wallet UX without forcing users to migrate to new account addresses.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Pectra",
+            "url": "https://ethereum.org/roadmap/pectra/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Pectra Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2025/04/23/pectra-mainnet",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0067",
+        "relation": "FEATURE",
         "notes": null
       }
     },
@@ -16105,14 +16222,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2025-12-03",
+        "summary": "Fusaka introduced PeerDAS, allowing nodes to sample portions of blob data rather than each node downloading every blob, with later blob-parameter-only forks planned to raise throughput further.",
+        "significance": "PeerDAS materially expanded Ethereum's potential rollup data capacity while aiming to preserve accessible node operation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Fusaka",
+            "url": "https://ethereum.org/roadmap/fusaka/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Fusaka Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0068",
+        "relation": "FEATURE",
         "notes": null
       }
     },
@@ -16127,12 +16255,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2025-03-13",
+        "summary": "BlackRock's tokenized BUIDL fund surpassed $1 billion in assets under management.",
+        "significance": "The milestone was a major proof point that public-blockchain tokenized Treasury/cash products had moved from experiment to billion-dollar institutional scale.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BUIDL Surpasses $1B AUM",
+            "url": "https://investors.securitize.io/news/news-details/2025/BlackRock-USD-Institutional-Digital-Liquidity-Fund-BUIDL-Tokenized-By-Securitize-Surpasses-1B-in-AUM-03-13-2025/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16149,12 +16283,33 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2025",
+        "summary": "Major payment networks accelerated stablecoin integration during 2025: Mastercard announced end-to-end wallet, card, merchant-settlement and remittance capabilities, while Visa expanded stablecoin-linked cards and multi-stablecoin settlement support.",
+        "significance": "Stablecoins increasingly shifted from exchange settlement assets toward mainstream payment-network infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Mastercard — End-to-End Stablecoin Capabilities",
+            "url": "https://www.mastercard.com/news/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Mastercard — Bringing Utility and Scale to Stablecoins",
+            "url": "https://www.mastercard.com/us/en/news-and-trends/stories/2025/mastercard-stablecoin-utility-and-scale.html",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Visa and Bridge — Stablecoin-linked cards",
+            "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21371.html",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Visa — Expands Stablecoin Settlement Support",
+            "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21581.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16171,12 +16326,33 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2025",
+        "summary": "Major banks and payment networks expanded work on tokenized deposits, stablecoin settlement and programmable payment infrastructure during 2025.",
+        "significance": "The line between bank deposits, tokenized bank money and regulated stablecoins became increasingly important to institutional payments strategy.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "OCC — Clarifies Bank Authority for Crypto Activities",
+            "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-16.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "OCC — Crypto Custody and Execution Services",
+            "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Mastercard — End-to-End Stablecoin Capabilities",
+            "url": "https://www.mastercard.com/news/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Reuters — Citi considers stablecoin and crypto custody/payment services",
+            "url": "https://www.reuters.com/business/finance/citigroup-considers-custody-payment-services-stablecoins-crypto-etfs-2025-08-14/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24738,14 +24914,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2025",
+        "summary": "US federal digital-asset policy shifted toward a strategic-reserve framework during 2025, with the March 6 executive order as the clearest canonical milestone.",
+        "significance": "Use the Strategic Bitcoin Reserve event rather than this umbrella trend when scoring cards.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile Executive Order",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/?cst=&query-11-page=90",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0066",
+        "relation": "POLICY_CONTEXT",
         "notes": null
       }
     },
@@ -24761,12 +24943,28 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2025-03-07 to 2025-04-24",
+        "summary": "US banking regulators rolled back several earlier crypto-specific supervisory hurdles: the OCC removed its prior non-objection process on March 7, the FDIC rescinded its prior-notification requirement on March 28, and the Federal Reserve withdrew earlier crypto/dollar-token guidance on April 24.",
+        "significance": "The sequence materially changed the regulatory posture for banks considering permissible crypto, custody, stablecoin and distributed-ledger activities.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OCC — Clarifies Bank Authority for Crypto Activities",
+            "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-16.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "FDIC — Banks May Engage in Permissible Crypto Activities Without Prior Approval",
+            "url": "https://www.fdic.gov/news/press-releases/2025/fdic-clarifies-process-banks-engage-crypto-related-activities",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Federal Reserve — 2025 press release index noting withdrawal of crypto guidance",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/2025-press.htm",
+            "type": "CENTRAL_BANK"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24783,12 +24981,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2025",
+        "summary": "As regulators clarified bank authority, the OCC confirmed national banks could provide crypto custody and customer-directed execution services, while major banks such as Citi publicly explored custody and stablecoin payment offerings.",
+        "significance": "Traditional banks moved closer to directly providing crypto infrastructure instead of participating only through experiments or investments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OCC — Crypto Custody and Execution Services",
+            "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-42.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Reuters — Citi considers stablecoin and crypto custody/payment services",
+            "url": "https://www.reuters.com/business/finance/citigroup-considers-custody-payment-services-stablecoins-crypto-etfs-2025-08-14/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24805,12 +25014,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2025",
+        "summary": "Tokenized securities and funds moved deeper into traditional financial infrastructure, with BUIDL exceeding $1 billion and expanding across multiple public blockchains while institutions increasingly used tokenized assets for collateral and treasury management.",
+        "significance": "Tokenization was no longer limited to pilot projects; regulated investment products were operating at institutional scale.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BUIDL Surpasses $1B AUM",
+            "url": "https://investors.securitize.io/news/news-details/2025/BlackRock-USD-Institutional-Digital-Liquidity-Fund-BUIDL-Tokenized-By-Securitize-Surpasses-1B-in-AUM-03-13-2025/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24828,14 +25043,30 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2025",
+        "summary": "Stablecoin issuers and orchestration providers deepened integrations with Visa, Mastercard and other payment processors during 2025.",
+        "significance": "Canonicalized to the broader 2025 stablecoin-payments integration trend.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Mastercard — End-to-End Stablecoin Capabilities",
+            "url": "https://www.mastercard.com/news/press/2025/april/mastercard-unveils-end-to-end-capabilities-to-power-stablecoin-transactions-from-wallets-to-checkouts",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Visa and Bridge — Stablecoin-linked cards",
+            "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21371.html",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Visa — Expands Stablecoin Settlement Support",
+            "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21581.html",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0559",
+        "relation": "PARTNERSHIP_CONTEXT",
         "notes": null
       }
     },
@@ -24850,14 +25081,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2025",
+        "summary": "Corporate Bitcoin treasury companies proliferated in 2025.",
+        "significance": "Canonicalized to the broader corporate-treasury expansion dataset.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin treasury strategies in public markets",
+            "url": "https://www.reuters.com/sustainability/boards-policy-regulation/what-are-bitcoin-treasury-strategies-latest-trend-public-markets-2025-06-16/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0176",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -24873,14 +25110,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2025",
+        "summary": "Some public companies raised equity or debt specifically to acquire additional Bitcoin rather than merely allocating existing cash balances.",
+        "significance": "This financing model turned Bitcoin accumulation into an explicit capital-markets strategy and increased both upside exposure and balance-sheet risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin treasury strategies in public markets",
+            "url": "https://www.reuters.com/sustainability/boards-policy-regulation/what-are-bitcoin-treasury-strategies-latest-trend-public-markets-2025-06-16/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0176",
+        "relation": "FINANCING_CONTEXT",
         "notes": null
       }
     },
@@ -24895,14 +25138,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2025",
+        "summary": "Convertible debt, equity issuance and other financing structures tied to Bitcoin-treasury accumulation became a distinct public-market theme.",
+        "significance": "The trend extended the Strategy playbook from treasury management into recurring capital formation centered on acquiring more Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin treasury strategies in public markets",
+            "url": "https://www.reuters.com/sustainability/boards-policy-regulation/what-are-bitcoin-treasury-strategies-latest-trend-public-markets-2025-06-16/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0176",
+        "relation": "FINANCING_CONTEXT",
         "notes": null
       }
     },
