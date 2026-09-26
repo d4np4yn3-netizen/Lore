@@ -14,12 +14,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "1996",
+        "summary": "US Justice Department records state that e-gold began offering its gold-backed digital currency over the Internet in 1996.",
+        "significance": "e-gold was one of the earliest large-scale Internet-native digital-value systems and provides important centralized pre-Bitcoin context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ e-gold indictment/background",
+            "url": "https://www.justice.gov/archive/criminal/ceos/pressreleases/downloads/DC%20egold%20indictment.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
