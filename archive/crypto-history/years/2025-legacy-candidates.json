@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "year": 2025,
+  "source_master_blob": "c39917cd71197131e486ff3d14c02eb882df073b",
+  "candidate_count": 24,
+  "note": "Exact legacy candidate inventory extracted from the preserved 1,229-event master. This file is the reconciliation queue: every candidate must eventually be verified, merged, contextualized, corrected or rejected.",
+  "candidates": [
+    {
+      "id": "LORE-EVT-0065",
+      "date": "2025-02",
+      "title": "Bybit heist",
+      "branch": [
+        "HACKS",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0066",
+      "date": "2025-03-06",
+      "title": "US Strategic Bitcoin Reserve established",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0067",
+      "date": "2025-05-07",
+      "title": "Ethereum Pectra upgrade",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0068",
+      "date": "2025-12-03",
+      "title": "Ethereum Fusaka upgrade",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0143",
+      "date": "2025",
+      "title": "El Salvador changes Bitcoin legal-tender requirements under an IMF-backed program",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0174",
+      "date": "2025",
+      "title": "US government establishes a Digital Asset Stockpile alongside the Bitcoin Reserve",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "id": "LORE-EVT-0175",
+      "date": "2025",
+      "title": "Stablecoin legislation becomes a major US federal policy milestone",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "STABLECOINS"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0176",
+      "date": "2025",
+      "title": "Corporate Bitcoin treasury strategies expand beyond early adopters",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_DATA"
+    },
+    {
+      "id": "LORE-EVT-0553",
+      "date": "2025",
+      "title": "Bybit resumes withdrawals rapidly after hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "id": "LORE-EVT-0554",
+      "date": "2025",
+      "title": "Lazarus Group attribution becomes central to Bybit investigation",
+      "branch": [
+        "HACKS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0555",
+      "date": "2025",
+      "title": "Pectra raises Ethereum maximum effective validator balance",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "id": "LORE-EVT-0556",
+      "date": "2025",
+      "title": "Pectra adds account-abstraction-style wallet functionality",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "id": "LORE-EVT-0557",
+      "date": "2025",
+      "title": "Fusaka advances Ethereum data-availability scaling",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED_SUBEVENT"
+    },
+    {
+      "id": "LORE-EVT-0558",
+      "date": "2025",
+      "title": "Tokenized Treasury funds exceed major market milestones",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0559",
+      "date": "2025",
+      "title": "Stablecoin payments become a major fintech competition theme",
+      "branch": [
+        "STABLECOINS",
+        "ADOPTION"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0560",
+      "date": "2025",
+      "title": "Major banks expand tokenized-deposit and stablecoin experiments",
+      "branch": [
+        "INSTITUTIONS",
+        "STABLECOINS"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0872",
+      "date": "2025",
+      "title": "US federal crypto policy shifts toward strategic-reserve framework",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT"
+    },
+    {
+      "id": "LORE-EVT-0873",
+      "date": "2025",
+      "title": "US agencies reassess earlier crypto banking restrictions",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-EVT-0874",
+      "date": "2025",
+      "title": "Major US banks expand crypto custody and trading exploration",
+      "branch": [
+        "INSTITUTIONS",
+        "ADOPTION"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "VERIFIED_CONTEXT"
+    },
+    {
+      "id": "LORE-EVT-0875",
+      "date": "2025",
+      "title": "Tokenized securities move deeper into traditional financial infrastructure",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0876",
+      "date": "2025",
+      "title": "Stablecoin issuers deepen integration with payment processors",
+      "branch": [
+        "STABLECOINS",
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT"
+    },
+    {
+      "id": "LORE-EVT-0877",
+      "date": "2025",
+      "title": "Corporate Bitcoin treasury companies proliferate",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT"
+    },
+    {
+      "id": "LORE-EVT-0878",
+      "date": "2025",
+      "title": "Public companies raise capital specifically to accumulate Bitcoin",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0879",
+      "date": "2025",
+      "title": "Bitcoin-backed corporate financing structures become a distinct market theme",
+      "branch": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "legacy_research_state": "CONTEXT_VERIFIED"
+    }
+  ]
+}
