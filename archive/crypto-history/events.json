@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Second 2024 cluster verified: Bhutan disclosure, major hacks, EigenLayer/restaking, Pump.fun, ETF fund competition, prediction markets, Telegram gaming, Samourai, Craig Wright and CZ.",
+  "status_note": "Evidence phase active. Third 2024 batch verified: tokenized Treasuries, Ethena, Maker/Sky, Blast, major L2 airdrops, Uniswap v4 prelaunch security, Base smart accounts, friend.tech, Solana congestion/BOME, Nigeria/Binance, Dubai VARA and FBI crypto-fraud response.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -10537,15 +10537,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Tokenized US Treasury and cash-like products grew rapidly during 2024 as products such as BlackRock BUIDL and Ondo's OUSG/USDY gained scale and integrations.",
+        "significance": "The growth marked a major shift from crypto-native collateral toward tokenized traditional financial assets as a core on-chain yield source.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ondo Finance — Building on BUIDL",
+            "url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ondo Finance — One Year of USDY",
+            "url": "https://ondo.finance/blog/celebrating-one-year-of-usdy",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Era/context row; individual product launches such as BUIDL remain cleaner card events."
       }
     },
     {
@@ -15592,12 +15603,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-03",
+        "summary": "Solana's own engineering update said extremely high network usage was stress-testing priority fees and the transaction scheduler during March 2024.",
+        "significance": "The congestion coincided with the explosive meme-token trading cycle and exposed practical limits in transaction scheduling despite high nominal throughput.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana — Block Optimization on the Solana Network",
+            "url": "https://solana.com/news/block-optimization-on-the-solana-network",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15680,12 +15697,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2024-05-03",
+        "summary": "friend.tech released its v2 and FRIEND token in May 2024, but the token price fell more than 90% from an initial spike on launch day and activity failed to regain its 2023 peak.",
+        "significance": "The episode became a sharp illustration of how quickly a social-finance phenomenon built on speculative access keys could lose momentum.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — friend.tech token price plunges after launch",
+            "url": "https://www.theblock.co/news/markets/2024-05-03-friendtechs-token-price-plunges-over-90-after-launch-292412",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23429,12 +23452,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024-08-26",
+        "summary": "Ondo reported that USDY had surpassed $350 million in TVL, expanded to seven blockchains and reached more than 70 integrations; OUSG also integrated BlackRock's BUIDL as underlying reserve infrastructure.",
+        "significance": "Ondo became one of the clearest bridges between DeFi and tokenized US Treasury exposure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ondo Finance — Building on BUIDL",
+            "url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ondo Finance — One Year of USDY",
+            "url": "https://ondo.finance/blog/celebrating-one-year-of-usdy",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23451,15 +23485,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2024-02-19",
+        "summary": "Ethena publicly launched USDe in February 2024 as a synthetic dollar backed through crypto collateral and delta-hedging rather than conventional bank deposits.",
+        "significance": "USDe introduced a new large-scale stable-value design that combined crypto collateral, derivatives hedging and protocol-generated yield.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Ethena USDe",
+            "url": "https://ethereum.org/apps/ethena-usde/",
+            "type": "PROJECT_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Public-launch date is supported by project/industry documentation; preserve the synthetic-dollar wording rather than calling it a fiat-backed stablecoin."
       }
     },
     {
@@ -23473,14 +23513,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "USDe's supply expanded rapidly after launch as users pursued protocol yield generated from staking and derivatives-market funding economics.",
+        "significance": "Its rapid growth made Ethena one of the largest new stable-value experiments of the 2024 cycle.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Ethena USDe",
+            "url": "https://ethereum.org/apps/ethena-usde/",
+            "type": "PROJECT_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0830",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -23495,14 +23541,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024",
+        "summary": "Maker's Endgame rollout and transition toward the Sky brand triggered governance debate over whether the protocol was abandoning a deeply established crypto identity; later governance polls explicitly considered re-centering the Maker brand.",
+        "significance": "The episode became a rare example of a major decentralized protocol debating not just parameters or code, but its own long-standing brand identity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO/Sky Whitepaper",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Brand re-centering vote",
+            "url": "https://vote.makerdao.com/polling/QmZzSVJE",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0833",
+        "relation": "GOVERNANCE_CONTEXT",
         "notes": null
       }
     },
@@ -23517,12 +23574,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2024",
+        "summary": "MakerDAO rebranded its broader ecosystem to Sky in 2024 and introduced the USDS stablecoin and SKY governance token as part of the Endgame restructuring.",
+        "significance": "The rebrand was the largest identity and product reorganization in Maker's history after years as one of DeFi's foundational protocols.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO/Sky Whitepaper",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sky — official blog",
+            "url": "https://sky.money/blog",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23643,12 +23711,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-02-29",
+        "summary": "Blast opened its Ethereum Layer-2 mainnet after a pre-mainnet campaign that had attracted more than $2 billion in deposited assets and marketed native yield on ETH and stablecoins.",
+        "significance": "Blast became one of the most visible examples of the 2024 points-and-predeposit model for bootstrapping a new L2 before public mainnet access.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pyth Network — Blast mainnet launch",
+            "url": "https://www.pyth.network/blog/pyth-price-feeds-launch-on-blast-mainnet",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "The Block — Blast mainnet release",
+            "url": "https://www.theblock.co/news/ecosystems/2024-02-29-ethereum-layer-2-chain-blast-releases-official-mainnet-279883",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23666,15 +23745,15 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Manta Pacific and other L2s used points and reward campaigns to compete for capital and users during the 2024 L2 boom.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Trend row; needs a single dated milestone before scoring."
       }
     },
     {
@@ -23688,12 +23767,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2024-06-20",
+        "summary": "LayerZero launched the ZRO token claim using a 'Proof-of-Donation' mechanism that asked claimants to donate a small amount per token to Protocol Guild.",
+        "significance": "The unusual claim design turned one of the cycle's most anticipated airdrops into a debate about entitlement, protocol funding and airdrop culture.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — LayerZero ZRO launch / Proof-of-Donation",
+            "url": "https://www.theblock.co/news/ecosystems/2024-06-20-layerzero-proof-of-donation-zro-claiming-mechanism-301043",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23702,7 +23787,7 @@
     {
       "id": "LORE-EVT-0841",
       "date": "2024",
-      "title": "ZKsync airdrop generates allocation controversy",
+      "title": "ZKsync launches 17.5% community ZK airdrop",
       "branch": [
         "ETHEREUM",
         "CULTURE"
@@ -23710,12 +23795,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-06-17",
+        "summary": "ZKsync opened claims for its ZK token airdrop after allocating 17.5% of total supply to the community, including hundreds of thousands of eligible wallets.",
+        "significance": "The distribution became one of the largest ZK-rollup token launches and a focal point for arguments over how airdrops should reward users versus capital.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ZK Nation — ZK token allocation",
+            "url": "https://zknation.ghost.io/zk-token/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "ZK Nation — ZK airdrop docs",
+            "url": "https://docs.zknation.io/zk-token/zk-airdrop",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23724,7 +23820,7 @@
     {
       "id": "LORE-EVT-0842",
       "date": "2024",
-      "title": "Starknet STRK airdrop triggers eligibility debate",
+      "title": "Starknet launches first STRK Provisions airdrop",
       "branch": [
         "ETHEREUM",
         "CULTURE"
@@ -23732,12 +23828,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-02-20",
+        "summary": "Starknet opened the first phase of its STRK Provisions distribution, making more than 700 million STRK available to roughly 1.3 million eligible recipients.",
+        "significance": "The airdrop was a landmark token-distribution event for the ZK-rollup ecosystem and one of the largest eligibility sets of the cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Starknet — Provisions Program",
+            "url": "https://www.starknet.io/blog/starknet-provisions-program/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23746,7 +23848,7 @@
     {
       "id": "LORE-EVT-0843",
       "date": "2024",
-      "title": "Scroll mainnet and token expectations grow within ZK ecosystem",
+      "title": "Scroll launches first SCR community airdrop",
       "branch": [
         "ETHEREUM",
         "TECHNOLOGY"
@@ -23754,12 +23856,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-10-22",
+        "summary": "Scroll opened claims for its first SCR airdrop after a 19 October snapshot, allocating 7% of total token supply to the first distribution.",
+        "significance": "The event formalized token ownership for one of Ethereum's prominent zkEVM networks after months of mainnet usage and points-style reward programs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Scroll — First Airdrop",
+            "url": "https://chain.scroll.io/blog/introducing-scrolls-first-airdrop-a-celebration-of-the-global-community",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Scroll — Largest Rewards Program",
+            "url": "https://chain.scroll.io/blog/announcing-scrolls-largest-rewards-program-to-date",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23776,15 +23889,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Linea expanded during 2024 as a Consensys-backed zkEVM network.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Needs a concrete 2024 mainnet/activity/reward milestone before scoring."
       }
     },
     {
@@ -23888,12 +24001,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_EXCHANGE_MILESTONE",
+        "exact_date": "2024-03-16",
+        "summary": "Binance listed BOOK OF MEME (BOME), a newly launched Solana meme coin, within days of its appearance and flagged it as a high-risk 'Seed Tag' asset.",
+        "significance": "BOME's extraordinarily fast path from launch to top-tier exchange listing became a defining symbol of the March 2024 Solana meme-coin frenzy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — BOOK OF MEME listing",
+            "url": "https://www.binance.com/az-AZ/support/announcement/detail/bca0f355cf004367b90d7e48fee3470c",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23910,15 +24029,15 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Meme-token presales became a visible speculative fundraising pattern during the 2024 Solana meme cycle.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Trend row; requires aggregate data or a specific presale before publication."
       }
     },
     {
@@ -23933,15 +24052,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Celebrity-linked tokens generated repeated controversy over disclosures, allocations and trading behavior during 2024.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use only specific token launches or documented enforcement/investigation events; do not generalize alleged insider conduct."
       }
     },
     {
@@ -24252,15 +24371,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-02 to 2024-04",
+        "summary": "Nigerian authorities detained Binance executives and brought tax and money-laundering proceedings amid a broader dispute over Binance's operations and the naira market.",
+        "significance": "The episode became one of the most severe jurisdictional confrontations between a national government and a major global crypto exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Binance executive court appearance in Nigeria",
+            "url": "https://www.reuters.com/world/africa/detained-binance-executive-court-nigerian-tax-money-laundry-charges-2024-04-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Binance working with Nigeria over executive detention",
+            "url": "https://www.reuters.com/world/africa/binance-working-closely-with-nigeria-authorities-resolve-execs-detention-ceo-2024-04-18/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep charges and government allegations attributed; do not state guilt unless adjudicated."
       }
     },
     {
@@ -24275,15 +24405,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-02-26 onward",
+        "summary": "Binance compliance executive Tigran Gambaryan was detained in Nigeria after arriving for talks with officials and later became a defendant in tax and money-laundering proceedings.",
+        "significance": "His detention turned a corporate regulatory dispute into an international human and diplomatic issue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Binance executive court appearance in Nigeria",
+            "url": "https://www.reuters.com/world/africa/detained-binance-executive-court-nigerian-tax-money-laundry-charges-2024-04-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Binance working with Nigeria over executive detention",
+            "url": "https://www.reuters.com/world/africa/binance-working-closely-with-nigeria-authorities-resolve-execs-detention-ceo-2024-04-18/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0865",
+        "relation": "HUMAN_SUBEVENT",
+        "notes": "Binance said Gambaryan was not a decision-maker; preserve that attribution."
       }
     },
     {
@@ -24317,7 +24458,7 @@
     {
       "id": "LORE-EVT-0868",
       "date": "2024",
-      "title": "UAE crypto licensing ecosystem continues expanding",
+      "title": "Dubai VARA 2024 virtual-asset marketing regulations take effect",
       "branch": [
         "GOVERNMENTS",
         "REGULATION"
@@ -24325,12 +24466,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-10-01",
+        "summary": "Dubai's Virtual Assets Regulatory Authority put updated 2024 marketing regulations for virtual assets and related activities into effect on 1 October.",
+        "significance": "The rules tightened how licensed and unlicensed entities could market crypto products in a jurisdiction that had simultaneously positioned itself as a major virtual-asset hub.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "VARA — 2024 Marketing Regulations",
+            "url": "https://rulebooks.vara.ae/rulebook/regulations-marketing-virtual-assets-and-related-activities-2024",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24370,14 +24517,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "The UK's crypto financial-promotions regime moved through additional implementation stages in 2024 while the FCA reviewed firms' compliance with consumer-risk warnings, incentives and approval requirements.",
+        "significance": "The year was an enforcement/compliance phase of the regime that first took effect in October 2023 rather than a new standalone framework.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FCA — Cryptoasset financial promotions data 2024",
+            "url": "https://www.fca.org.uk/data/financial-promotions-data-2024",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0345",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -29680,12 +29833,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-02-29",
+        "summary": "Base published a strategy for making smart wallets the default consumer account model, emphasizing passkeys, account abstraction and simpler onboarding.",
+        "significance": "The push reflected a broader Ethereum UX shift from externally owned accounts toward programmable smart accounts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Base — Making Smart Wallets the Default",
+            "url": "https://blog.base.org/how-base-is-making-smart-wallets-the-default",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Base — 2024 Mission and Roadmap",
+            "url": "https://blog.base.org/bases-2024-mission-strategy-and-roadmap",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30307,7 +30471,7 @@
     {
       "id": "LORE-EVT-1100",
       "date": "2024",
-      "title": "Uniswap v4 hooks approach reshapes AMM design expectations",
+      "title": "Uniswap announces $15.5M v4 bug bounty ahead of hooks-based launch",
       "branch": [
         "DEX",
         "TECHNOLOGY"
@@ -30315,12 +30479,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_PRELAUNCH",
+        "exact_date": "2024-11-26",
+        "summary": "Uniswap Labs announced a $15.5 million bug bounty for v4 ahead of launch, describing hooks as one of the protocol's defining extensibility features.",
+        "significance": "The bounty became one of DeFi's largest pre-launch security programs and highlighted how v4's hook architecture was expected to make AMM behavior highly customizable.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — v4 Bug Bounty",
+            "url": "https://blog.uniswap.org/v4-bug-bounty",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Uniswap Developers — v4 Hooks",
+            "url": "https://developers.uniswap.org/docs/protocols/v4/concepts/hooks",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -31354,14 +31529,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Maker's Endgame plan reorganized governance around smaller specialized units and a broader ecosystem structure that later became associated with Sky and its sub-entities.",
+        "significance": "The governance redesign is important structural context, but the brand/product reorganization is the cleaner discrete event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO/Sky Whitepaper",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Brand re-centering vote",
+            "url": "https://vote.makerdao.com/polling/QmZzSVJE",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0833",
+        "relation": "STRUCTURAL_CONTEXT",
         "notes": null
       }
     },
@@ -31699,15 +31885,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Cross-chain protocols increasingly shifted toward intent-based routing and native asset-transfer designs during 2024.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Technology trend rather than one event; score specific protocols such as CCTP/Across instead."
       }
     },
     {
@@ -32339,7 +32525,7 @@
     {
       "id": "LORE-EVT-1174",
       "date": "2024",
-      "title": "Crypto romance and pig-butchering scams become major global fraud problem",
+      "title": "FBI escalates response to large-scale crypto investment 'pig-butchering' fraud",
       "branch": [
         "SCAMS",
         "CRIME"
@@ -32347,12 +32533,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2024",
+        "summary": "The FBI described cryptocurrency investment fraud, often called 'pig butchering,' as one of the most prevalent and damaging fraud types and launched Operation Level Up in January 2024 to identify and warn victims while scams were still active.",
+        "significance": "The scale of the fraud showed how crypto rails were being exploited by organized social-engineering operations rather than only technical hacks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Cryptocurrency Investment Fraud",
+            "url": "https://www.fbi.gov/how-we-can-help-you/victim-services/national-crimes-and-victim-resources/cryptocurrency-investment-fraud",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "FBI — Operation Level Up",
+            "url": "https://www.fbi.gov/how-we-can-help-you/victim-services/national-crimes-and-victim-resources/operation-level-up",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -32370,15 +32567,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "AI-generated celebrity impersonation and deepfake crypto scams became an expanding fraud vector.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Needs a specific law-enforcement or platform dataset before card scoring."
       }
     },
     {
@@ -33514,15 +33711,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "NFT-backed lending markets experienced liquidations as collateral values declined.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Needs protocol-level liquidation data and a specific period before scoring."
       }
     },
     {
