@@ -1,38 +1,23 @@
 {
-  "schema_version": "1.0.0",
-  "archive": "LORE Crypto History Archive",
-  "year": "1977",
-  "generated_from": "archive/crypto-history/events.json",
-  "generated": "2026-09-26",
-  "event_count": 1,
+  "year": 1977,
+  "status": "RESEARCH_COMPLETE",
   "events": [
     {
       "id": "LORE-EVT-0636",
-      "date": "1977",
+      "date": "1977-04",
       "title": "RSA public-key cryptosystem is introduced",
-      "branch": [
-        "ORIGINS",
-        "TECHNOLOGY"
-      ],
+      "summary": "Ron Rivest, Adi Shamir and Leonard Adleman issued the MIT technical report describing the RSA public-key cryptosystem; the journal paper followed in 1978.",
+      "significance": "RSA became one of the foundational public-key encryption and signature systems used throughout secure computing.",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "1977-04",
-        "summary": "Rivest, Shamir and Adleman issued the MIT technical report describing the RSA public-key cryptosystem; the journal paper followed in 1978.",
-        "significance": "RSA became a foundational public-key and signature system used throughout secure computing.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "A Method for Obtaining Digital Signatures and Public-key Cryptosystems",
-            "url": "https://dspace.mit.edu/entities/publication/a2e09fea-6f05-48a5-9ce9-5073dfcde567",
-            "type": "PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "source_confidence": "HIGH",
+      "sources": [
+        {
+          "title": "A Method for Obtaining Digital Signatures and Public-key Cryptosystems",
+          "url": "https://dspace.mit.edu/entities/publication/a2e09fea-6f05-48a5-9ce9-5073dfcde567",
+          "type": "PRIMARY"
+        }
+      ],
+      "card_scoring": null
     }
   ]
 }
