@@ -101,7 +101,11 @@ def render(data,out,demo=False):
         printer_png=exported.convert('RGB')
     # Inkscape's SVG export otherwise carries its default 96-DPI metadata even
     # though the printer canvas is specified as 816x1110 at 300 DPI.
-    printer_png.save(png_path,dpi=(300,300))
+    with png_path.open('wb') as output:
+        printer_png.save(output,format='PNG',dpi=(300,300))
+        output.flush()
+    with Image.open(png_path) as integrity:
+        integrity.verify()
     with Image.open(png_path) as saved:
         if saved.size!=(816,1110) or saved.info.get('dpi',(0,0))[0]<299.5:
             raise ValueError('Printer PNG export is missing the 300-DPI canvas metadata.')
