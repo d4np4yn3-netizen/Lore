@@ -1795,12 +1795,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-08-31",
+        "summary": "Serum launched on Solana as an open-source decentralized exchange protocol built around an on-chain central limit order book, with backing from FTX, Alameda Research and the Solana Foundation.",
+        "significance": "Serum became foundational Solana trading infrastructure and later a major example of ecosystem dependency on FTX-linked institutions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Serum Docs — Overview",
+            "url": "https://docs.projectserum.com/introduction/overview",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1846,14 +1852,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-02 to 2020-03",
+        "summary": "A governance struggle around Steem, Steemit Inc., Justin Sun and exchange-controlled voting preceded the Hive community fork.",
+        "significance": "This conflict explains why Hive was created, but is better treated as precursor context unless a specific governance vote is promoted.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hive — Announcing the Launch of Hive Blockchain",
+            "url": "https://hivedocs.info/news/2020/03/17/announcing-the-launch-of-hive-blockchain.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0628",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -1868,12 +1880,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-03-20T14:00:00Z",
+        "summary": "Hive launched as a community-driven hard fork of Steem, mirroring eligible account balances and content while excluding selected Steemit-controlled stake from the initial airdrop.",
+        "significance": "The fork became one of crypto's clearest examples of a community using a chain split to escape a governance struggle over concentrated stake and control.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hive — Announcing the Launch of Hive Blockchain",
+            "url": "https://hivedocs.info/news/2020/03/17/announcing-the-launch-of-hive-blockchain.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1947,12 +1965,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-05-11",
+        "summary": "Hedge-fund manager Paul Tudor Jones publicly said he held a little over 1% of his assets in Bitcoin, potentially near 2%, after earlier describing Bitcoin futures as an inflation hedge.",
+        "significance": "A celebrated macro investor publicly allocating to Bitcoin was an important bridge between crypto-native markets and traditional macro investing.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Paul Tudor Jones holds 1–2% in Bitcoin",
+            "url": "https://www.theblock.co/news/ecosystems/2020-05-11-macro-investor-paul-tudor-jones-says-he-has-a-little-over-1-of-his-assets-in-bitcoin-64691",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1991,12 +2015,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2020-12",
+        "summary": "Massachusetts Mutual Life Insurance Company purchased $100 million of Bitcoin for its general investment account.",
+        "significance": "A 169-year-old insurance company putting Bitcoin on its balance sheet was a striking institutional-adoption milestone after MicroStrategy and Square.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — MassMutual buys $100M Bitcoin",
+            "url": "https://www.coindesk.com/markets/2020/12/11/why-a-massive-169-year-old-insurance-company-just-bought-100m-in-bitcoin",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2299,10 +2329,10 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
+        "state": "VERIFIED",
         "exact_date": "2020-08-25",
-        "summary": "FTX acquired the Blockfolio portfolio-tracking app for about $150 million in August 2020, not 2021.",
-        "significance": "The acquisition was a major step in FTX's push from derivatives into retail crypto users.",
+        "summary": "FTX acquired the Blockfolio portfolio-tracking app in a deal valued at about $150 million, aiming to expand from professional derivatives into the retail market.",
+        "significance": "The acquisition foreshadowed FTX's push for mass-market users and its rapid expansion before the 2022 collapse.",
         "source_confidence": "HIGH",
         "sources": [
           {
@@ -2342,7 +2372,7 @@
     {
       "id": "LORE-EVT-0897",
       "date": "2020",
-      "title": "Flow blockchain launches from Dapper Labs",
+      "title": "Flow beta mainnet goes live with NBA Top Shot in production",
       "branch": [
         "ALTCOINS",
         "NFT"
@@ -2350,12 +2380,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-09",
+        "summary": "Dapper Labs reported that Flow beta mainnet was live by September 2020 with NBA Top Shot already running in production.",
+        "significance": "Flow was purpose-built for consumer-scale digital collectibles and became the blockchain behind NBA Top Shot and other major entertainment partnerships.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Dapper Labs — Introducing Flow (updated Sep 2020)",
+            "url": "https://medium.com/dapperlabs/introducing-flow-a-new-blockchain-from-the-creators-of-cryptokitties-d291282732f5",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2880,7 +2916,7 @@
     },
     {
       "id": "LORE-EVT-1158",
-      "date": "2020",
+      "date": "2021-01",
       "title": "DarkMarket is taken down in international operation",
       "branch": [
         "DARK_SIDE",
@@ -2890,12 +2926,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2021-01",
+        "summary": "DarkMarket was taken down in January 2021, not 2020, in an international law-enforcement operation.",
+        "significance": "The event belongs in the 2021 darknet-enforcement chronology.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Europol — DarkMarket takedown",
+            "url": "https://www.europol.europa.eu/media-press/newsroom/news/darkmarket-worlds-largest-illegal-dark-web-marketplace-taken-down",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2912,12 +2954,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-09-22 to 2020-11-26",
+        "summary": "Chinese courts convicted key PlusToken organizers in 2020; an appellate ruling reported in November upheld sentences ranging up to 11 years for organizers of the large crypto-linked pyramid scheme.",
+        "significance": "The prosecutions were a major law-enforcement outcome for one of the largest crypto investment frauds associated with the 2019 market.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Paper — PlusToken final judgment",
+            "url": "https://www.thepaper.cn/newsDetail_forward_10170631",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3015,7 +3063,7 @@
     {
       "id": "LORE-EVT-1207",
       "date": "2020",
-      "title": "Rarible launches NFT marketplace and governance token",
+      "title": "Rarible launches RARI governance token",
       "branch": [
         "NFT",
         "DAO"
@@ -3023,12 +3071,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-07-15",
+        "summary": "After roughly six months of marketplace operation, Rarible announced the RARI governance token and a plan to distribute it to marketplace participants.",
+        "significance": "RARI brought DeFi-style liquidity mining and tokenized governance into the NFT marketplace sector before the 2021 NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Rarible — Introducing $RARI",
+            "url": "https://rarible.ghost.io/introducing--rari---the-first-governance-token-in-the-nft-space-2/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3036,8 +3090,8 @@
     },
     {
       "id": "LORE-EVT-1208",
-      "date": "2020",
-      "title": "SuperRare establishes premium crypto-art marketplace model",
+      "date": "2018-04-02",
+      "title": "SuperRare launches beta crypto-art marketplace",
       "branch": [
         "NFT",
         "CULTURE"
@@ -3045,12 +3099,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2018-04-02",
+        "summary": "SuperRare's beta smart contract launched on Ethereum on 2 April 2018, creating a curated marketplace for one-of-one digital artworks.",
+        "significance": "SuperRare became one of the earliest major crypto-art marketplaces, but this is a 2018 event rather than a 2020 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SuperRare — First Birthday",
+            "url": "https://medium.com/superrare/its-superrare-s-first-birthday-c160ee26ee63",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3059,7 +3119,7 @@
     {
       "id": "LORE-EVT-1209",
       "date": "2020",
-      "title": "Nifty Gateway brings curated NFT drops to mainstream collectors",
+      "title": "Nifty Gateway 2.0 launches fiat-friendly NFT marketplace",
       "branch": [
         "NFT",
         "CULTURE"
@@ -3067,12 +3127,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-03-17",
+        "summary": "Nifty Gateway 2.0 launched as a USD-based NFT marketplace using Gemini custody and bank/card-friendly payment flows.",
+        "significance": "Its curated drops and fiat-friendly buying experience helped bring crypto art and NFTs to collectors who did not already use self-custody wallets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nifty Gateway — Launch of Nifty Gateway 2.0",
+            "url": "https://medium.com/nifty-gateway/announcing-the-launch-of-nifty-gateway-2-0-1db8141ecebf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3129,5 +3195,5 @@
       }
     }
   ],
-  "note": "2020 evidence shard under active reconciliation. Resolved rows are explicitly classified; unresolved candidates remain held from card scoring."
+  "note": "2020 evidence shard under active reconciliation. Cross-year date corrections are explicitly held out of 2020 scoring."
 }
