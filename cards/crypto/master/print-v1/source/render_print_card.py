@@ -94,9 +94,17 @@ def render(data,out,demo=False):
         f'--export-filename={out.with_suffix(".png")}'
     ],env=env,check=True,capture_output=True)
 
-    with Image.open(out.with_suffix('.png')) as exported:
+    png_path=out.with_suffix('.png')
+    with Image.open(png_path) as exported:
         if exported.size!=(816,1110):
             raise ValueError(f'Unexpected print export size {exported.size}; expected (816, 1110).')
+        printer_png=exported.convert('RGB')
+    # Inkscape's SVG export otherwise carries its default 96-DPI metadata even
+    # though the printer canvas is specified as 816x1110 at 300 DPI.
+    printer_png.save(png_path,dpi=(300,300))
+    with Image.open(png_path) as saved:
+        if saved.size!=(816,1110) or saved.info.get('dpi',(0,0))[0]<299.5:
+            raise ValueError('Printer PNG export is missing the 300-DPI canvas metadata.')
 
     print(json.dumps({
         'revision':'LORE-CRYPTO-PRINT-v1.0',

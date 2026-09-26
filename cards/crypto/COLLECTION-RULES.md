@@ -11,8 +11,8 @@ implements Dan's crypto decisions; creator collections retain six moments per cr
 | Scarcity | Higher rarity means smaller print quantities; counts and pack odds remain undecided |
 | Finish | Standard and foil versions available for every card; foil is a finish, not a seventh rarity |
 | Under the rarity | Event date, formatted DD MMM YYYY, in the existing counter position |
-| Collection numbering | Season One working scope: 100 distinct event cards (confirmed 26 September 2026); no creator-style 01/06. Final collector numbers remain unassigned. See the 100-event selection for review. |
-| Footer | CRYPTO • SEASON 01, as shown on the approved Pizza Day preview |
+| Collection numbering | Season One working scope: 100 distinct event cards. Chronological three-digit collector numbers are the approved direction; 001 is Blind Signatures. Freeze the remaining 002–100 sequence after the proposed selection is agreed. Standard and foil share a number. |
+| Footer | Approved 26 September 2026: `CRYPTO • SEASON 01 • NNN/100`, e.g. `CRYPTO • SEASON 01 • 001/100`. The 11 existing print derivatives retain their historical unnumbered footer until their collector numbers are locked and their new exports reviewed. |
 | Subject label | Event's subject or network, e.g. BITCOIN, in the existing creator-name field |
 | Format | LORE-FRONT-v4 visual geometry with approved LORE-CRYPTO-PRINT-v1.0 print derivative, six rarity colours, collection-specific approved art style, shared back v5 |
 
@@ -45,7 +45,9 @@ this selection and reviewed for visible differences.
 
 Dan approved [LORE-CRYPTO-PRINT-v1.0](master/print-v1/README.md) for all six crypto rarities. The printer master is **816 × 1110 px at 300 DPI**, with **744 × 1038 px cut** and **684 × 981 px safe area**. The complete approved LORE front is uniformly inset with `translate(46.515 48.921) scale(0.8033)`; it is never stretched.
 
-Use this print master for every new or rebuilt Crypto Season One front. The existing outer rarity border lands about **1.40 mm inside the cut at its nearest stroke edge**. Preserve the source artwork and all card-specific wording when converting approved cards. The next production task is to rebuild the approved crypto cards one by one against this master and perform export/QR QA.
+Use this print master for every new or rebuilt Crypto Season One front. The existing outer rarity border lands about **1.40 mm inside the cut at its nearest stroke edge**. Preserve the source artwork and all card-specific wording when converting approved cards. All 11 previously approved crypto fronts already have separate print derivatives with the bleed/cut/safe geometry and bold crypto phrase. Dan confirmed this phrase treatment again on 26 September 2026 after comparing the original and print-ready Doge crops.
+
+Going forward, create the print-layout proof as part of each card's visual/copy review and save the approved illustration plus its printer-sized derivative together after sign-off. Do not wait for a second collection-wide conversion pass. A visually approved illustration can have a **review-only** print proof while its phrase, number or QR remains undecided; do not mark that proof as print released. The approved extended footer is a text-field change; retain the same locked front proportions and inset.
 
 ## Approved style migration
 

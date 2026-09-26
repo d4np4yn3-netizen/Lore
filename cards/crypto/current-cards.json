@@ -1,11 +1,64 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-26",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 11,
+  "approved_visual_count": 12,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
+    {
+      "id": "crypto-s01-blind-signatures",
+      "rarity": "legendary",
+      "creator": "DAVID CHAUM",
+      "title_line_1": "BLIND",
+      "title_line_2": "SIGNATURES",
+      "context": "UNTRACEABLE PAYMENTS.",
+      "moment_label": "1982",
+      "set_label": "CRYPTO • SEASON 01 • 001/100",
+      "artwork": "cards/crypto/season-01/blind-signatures-master-01/art.png",
+      "qr_url": "https://lore.d4np4yn3.chatgpt.site/crypto/001/",
+      "status": "FRONT_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "phrase_status": "APPROVED_BY_DAN",
+      "qr_status": "LIVE_ROUTE_OWNER_PRIVATE",
+      "print_release": false,
+      "collection": "crypto",
+      "season": 1,
+      "subject": "DAVID CHAUM",
+      "title_lines": [
+        "BLIND",
+        "SIGNATURES"
+      ],
+      "event_date_display": "1982",
+      "footer": "CRYPTO • SEASON 01 • 001/100",
+      "front": "cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v1.svg",
+      "moment_number": 1,
+      "set_size": 100,
+      "approval_record": "cards/crypto/season-01/blind-signatures-master-01/README.md",
+      "print_manifest": "cards/crypto/season-01/blind-signatures-master-01/print-v1-manifest.json",
+      "approved_at": "2026-09-26",
+      "approved_by": "Dan Payne",
+      "source": "https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf",
+      "publication_approved": true,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v1.png",
+          "bytes": 834799,
+          "sha256": "9896d18d087c352a7bfae607804b5f5ba5f8278919cde944c1ee6f9dfa95155d"
+        },
+        {
+          "path": "cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v1.svg",
+          "bytes": 2799564,
+          "sha256": "f7abf90a4f6913ab7c1e88f20fbd04ac03ab8e9bda86a37d93ef05c3a771ea09"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/blind-signatures-master-01/art.png",
+        "bytes": 2072388,
+        "sha256": "970c379daba789ef0838186cfcadc811e378d400cf3e09e6ac75638ae40e86a8"
+      }
+    },
     {
       "id": "crypto-s01-pizza-day",
       "rarity": "legendary",

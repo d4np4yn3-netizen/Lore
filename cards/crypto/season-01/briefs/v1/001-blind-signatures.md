@@ -2,11 +2,11 @@
 
 **Date:** 1982  ·  **Era:** Foundations
 
-**Brief:** Draft for Dan’s review. New moment/scene proposal; no artwork approval.
+**Brief:** Illustration approved by Dan on 26 September 2026; copy and assembled front remain in review.
 
-**Production hold:** No hold recorded in selection v1; artwork still requires its normal review.
+**Production hold:** No hold recorded. Approved illustration is stored in `cards/crypto/season-01/blind-signatures-master-01/art.png`; the numbered print-layout proof is review-only pending copy approval.
 
-**Record:** `BRIEF-E0001` → `LORE-EVT-0001` / `E0001`. Review order is not collector numbering.
+**Record:** `BRIEF-E0001` → `LORE-EVT-0001` / `E0001`. Dan selected 001 for the extended footer; freeze the full chronological sequence after the 100-card set review.
 
 ## The moment
 
@@ -72,7 +72,7 @@ Locations are illustration concepts unless explicitly marked as retained. Meanin
 
 ## Copy and production handoff
 
-Working title above is proposed. No new final moment phrase is approved. Use the original event post, paper, recording or announcement for a short source-checked shortlist; record its exact location and let Dan agree the line. Brief prose is not a quotation. Rarity and collector number remain unassigned.
+Dan approved **Legendary**, the `UNTRACEABLE PAYMENTS.` phrase and the complete numbered 001 front on 26 September 2026. The phrase is a short continuous excerpt of the original paper title, *Blind Signatures for Untraceable Payments*; see the [paper](https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf). The print master has a live LORE QR route, currently owner-private. The event date remains `1982` because the selected record has year precision, not an invented day.
 
 Apply the [shared brief standard](https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/briefs/v1/brief-standard.md): both pinned image references for actual generation, locked brand/layout/print geometry, natural clue placement and finished-size readability. Existing visual masters, QR and print-release states remain unchanged.
 

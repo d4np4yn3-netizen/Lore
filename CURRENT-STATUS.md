@@ -2,6 +2,22 @@
 
 Updated 2026-09-26. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## Latest: 001 Blind Signatures and print-first approval — 26 September 2026
+
+Dan approved 001's exact illustration, **Legendary** rarity, bold
+`UNTRACEABLE PAYMENTS.` phrase and complete numbered front. The approved
+printer-sized front and editable SVG are in
+`cards/crypto/season-01/blind-signatures-master-01/`. The 816×1110, 300-DPI
+front has a QR decoded to `/crypto/001/`, a LORE story page with four clues and
+the original Chaum paper. Site access is owner-private; public collectors
+cannot yet open the route. Physical proof and printed camera scan remain open;
+`print_release` is false. The prior review proof remains historical.
+
+The 11 earlier approved Crypto cards still have print derivatives with demo
+QRs. Their collector numbers and the remaining rarity allocation are not yet
+approved. The phrase treatment is bold at the subject-label size for the print
+master. Keep each new approval with its print derivative.
+
 ## Active milestone: 100 card briefs and 400 Easter egg concepts
 
 Dan requested a brief and at least four Easter eggs for every selected card. The complete **100-brief / 400-clue draft pack** is at `cards/crypto/season-01/briefs/v1/README.md`, with individual briefs, a combined reading file, structured data and coverage QA. Each brief specifies story, scene, composition, mood, factual boundaries, four clue locations/meanings, copy status and sources.
@@ -50,4 +66,3 @@ not change this pair.
 6. A large file may return an empty content field through GitHub's contents API. Check its blob SHA; do not assume it is missing or empty, or re-upload it unnecessarily.
 7. Verify the actual remote file/hash before saying uploaded. Save a small checkpoint for an incomplete transfer and resume only missing work.
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
-

@@ -51,3 +51,26 @@ All **11 approved Crypto Season One fronts** now have separate `LORE-CRYPTO-PRIN
 Remote blob verification passed for all 11 PNGs, all 11 SVGs and all 11 print manifests. Conversion QA and cut-review sheets are in `qa/approved-card-conversions.json` and `qa/cut-review-*.jpg`. The six templates also contain the non-visual nested SVG close required for valid XML.
 
 Physical proof, final QR routes and production release remain separate gates.
+
+## Season One numbering and print-first workflow — approved 26 September 2026
+
+The footer now extends the approved `CRYPTO • SEASON 01` field with a collector
+number, for example `CRYPTO • SEASON 01 • 001/100`. Three digits give the 100-card
+collection a consistent printed identifier. The event date remains beneath the
+rarity badge. Standard and foil share the same number. The 001 Blind Signatures
+rarity is approved **Legendary**; the other new rarity proposals are not locked.
+
+Dan also reconfirmed the bold phrase at the subject-label size after comparing
+the original and print-ready Birth of Doge crops. Keep the `25 / 700` treatment
+on every Crypto Season One print front. The existing 11 print derivatives are
+already saved; do not regenerate them merely to confirm this rule. Their footer
+numbers will be applied after the 100-card order is locked and reviewed.
+
+For each newly approved card, prepare and save the 816 × 1110 printer-layout
+derivative with its art during that card's completion. A review proof with
+unapproved copy or a demo QR remains clearly labelled as such; completed
+geometry does not mean physical print release.
+
+The renderer now writes the printer PNG with an explicit 300-DPI metadata tag
+after SVG export. The 11 earlier conversion PNGs already carry that tag. Keep
+this check in new-card export QA so the print file opens at the intended size.
