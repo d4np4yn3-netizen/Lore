@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-09-26",
+  "legacy_master": {
+    "path": "events.json",
+    "candidate_count": 1229,
+    "status": "PRESERVED_LEGACY_MASTER",
+    "note": "Large discovery master retained for provenance. Evidence work now occurs in year files to avoid connector-size failures."
+  },
+  "evidence_policy": "Card scoring must use researched year evidence, not unverified legacy candidate text. VERIFIED/qualified/context records may proceed to editorial review; FUTURE_CANDIDATE and RESEARCH_NEEDED records cannot be scored as canonical events.",
+  "completed_master_passes": [
+    {
+      "range": "1976-2010",
+      "storage": "events.json",
+      "status": "EVIDENCE_REVIEWED"
+    },
+    {
+      "range": "2011-2012",
+      "storage": "events.json",
+      "status": "EVIDENCE_REVIEWED"
+    },
+    {
+      "range": "2013",
+      "storage": "events.json",
+      "status": "EVIDENCE_REVIEWED"
+    },
+    {
+      "range": "2014",
+      "storage": "events.json",
+      "status": "EVIDENCE_REVIEWED"
+    },
+    {
+      "range": "2015-2016",
+      "storage": "events.json",
+      "status": "EVIDENCE_REVIEWED"
+    },
+    {
+      "range": "2017",
+      "storage": "events.json",
+      "status": "EVIDENCE_REVIEWED"
+    },
+    {
+      "range": "2018",
+      "storage": "events.json",
+      "status": "EVIDENCE_TRIAGED"
+    },
+    {
+      "range": "2019",
+      "storage": "events.json",
+      "status": "EVIDENCE_TRIAGED"
+    },
+    {
+      "range": "2020",
+      "storage": "events.json",
+      "status": "CORE_VERIFIED_DEEP_CUTS_HELD"
+    }
+  ],
+  "year_files": [
+    {
+      "year": 2021,
+      "status": "EVIDENCE_PASS_IN_PROGRESS",
+      "event_count": 26,
+      "path": "years/2021.json",
+      "as_of": "2026-09-26"
+    },
+    {
+      "year": 2022,
+      "status": "EVIDENCE_PASS_IN_PROGRESS",
+      "event_count": 15,
+      "path": "years/2022.json",
+      "as_of": "2026-09-26"
+    },
+    {
+      "year": 2023,
+      "status": "EVIDENCE_PASS_IN_PROGRESS",
+      "event_count": 22,
+      "path": "years/2023.json",
+      "as_of": "2026-09-26"
+    },
+    {
+      "year": 2024,
+      "status": "EVIDENCE_PASS_IN_PROGRESS",
+      "event_count": 14,
+      "path": "years/2024.json",
+      "as_of": "2026-09-26"
+    },
+    {
+      "year": 2025,
+      "status": "EVIDENCE_PASS_IN_PROGRESS",
+      "event_count": 9,
+      "path": "years/2025.json",
+      "as_of": null
+    },
+    {
+      "year": 2026,
+      "status": "LIVE_ARCHIVE",
+      "event_count": 3,
+      "path": "years/2026.json",
+      "as_of": "2026-09-26"
+    }
+  ],
+  "next_phase": [
+    "Expand each 2021-2025 year file until every legacy candidate for that year is either verified, merged, contextualized, corrected or rejected.",
+    "Create year files for pre-2021 evidence when regenerating the archive from the legacy master.",
+    "Build canonical-events.json only after semantic deduplication.",
+    "Score cards only from canonical researched events."
+  ]
+}
