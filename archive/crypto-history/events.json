@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Every 2023 candidate has now been researched or explicitly editorially classified; no 2023 rows remain UNRESEARCHED.",
+  "status_note": "Evidence phase active. Core 2024 historical spine verified: US Bitcoin/Ether ETPs, Dencun, fourth halving and Runes, Mt. Gox repayments, $100k Bitcoin, MiCA application, BUIDL, Saxony Bitcoin sale and Hong Kong spot crypto ETFs.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1905,12 +1905,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-01-10",
+        "summary": "The US SEC approved exchange rule changes permitting the listing and trading of multiple spot Bitcoin exchange-traded product shares.",
+        "significance": "After more than a decade of rejected proposals, the decision created a mainstream brokerage-access route to spot Bitcoin exposure in US securities markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Statement on Approval of Spot Bitcoin ETPs",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1927,12 +1933,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-04-20",
+        "summary": "At Bitcoin block 840,000, the mining subsidy fell from 6.25 BTC to 3.125 BTC.",
+        "significance": "The fourth halving continued Bitcoin's programmed issuance schedule and intensified the mining industry's efficiency and fee-revenue pressure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving History",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1949,12 +1966,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-07-23",
+        "summary": "US spot Ether exchange-traded products began trading on national securities exchanges on 23 July 2024.",
+        "significance": "The launch gave conventional brokerage investors a new regulated route to spot Ether exposure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — Grayscale Ethereum ETPs begin trading",
+            "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024085501/etheeth_press_release_7.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3949,12 +3972,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-03-13T13:55:35Z",
+        "summary": "Ethereum activated the Dencun upgrade at epoch 269,568, including EIP-4844 proto-danksharding and temporary blob data for rollups.",
+        "significance": "Dencun substantially reduced the cost of posting rollup data to Ethereum and established blobs as a core part of Ethereum's scaling architecture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Dencun Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3970,12 +4004,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-04-20T00:09:27Z",
+        "summary": "The Runes protocol activated at block 840,000, the same block as Bitcoin's fourth halving, enabling fungible-token issuance tracked by the ord reference implementation.",
+        "significance": "Runes extended the Ordinals-era experimentation with Bitcoin-native token issuance and made the halving block itself a major blockspace event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ordinal Theory Handbook — Runes specification guide",
+            "url": "https://docs.ordinals.com/runes/specification.html",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -3992,12 +4037,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-07-05",
+        "summary": "Mt. Gox's rehabilitation trustee announced that repayments in Bitcoin and Bitcoin Cash had begun for some creditors through designated exchanges.",
+        "significance": "The payments began returning crypto to creditors more than ten years after the exchange's collapse, closing one of the longest-running sagas in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox Trustee — Notice regarding Repayment in Bitcoin and Bitcoin Cash",
+            "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4014,15 +4065,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SOURCE_PRICE",
+        "exact_date": "2024-12-05",
+        "summary": "Bitcoin traded above $100,000 for the first time on 5 December 2024; Reuters reported an intraday high above $103,000.",
+        "significance": "Six figures became one of Bitcoin's most culturally anticipated price milestones and capped a year dominated by spot ETP adoption and renewed institutional demand.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin storms above $100,000",
+            "url": "https://www.reuters.com/technology/bitcoin-tops-100000-optimism-over-trump-crypto-plans-2024-12-05/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use the cited Reuters price/index rather than imply a universal exchange high."
       }
     },
     {
@@ -4064,14 +4121,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-06-30 to 2024-12-30",
+        "summary": "MiCA entered operational application in two major stages during 2024: stablecoin provisions from 30 June and the wider framework from 30 December.",
+        "significance": "This umbrella row connects the two implementation milestones rather than representing a third separate event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — Digital finance / MiCA application dates",
+            "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0335",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -4355,12 +4418,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-05-23",
+        "summary": "The SEC approved exchange rule changes to list and trade shares of multiple spot Ether-based exchange-traded products.",
+        "significance": "The decision cleared the key exchange-listing hurdle for US spot Ether ETPs and broadened regulated crypto-asset product access beyond Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Ether-Based ETP Rule-Change Approval",
+            "url": "https://www.sec.gov/rule-release/34-100224",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -4990,12 +5059,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-03-20",
+        "summary": "BlackRock launched the BlackRock USD Institutional Digital Liquidity Fund (BUIDL), its first tokenized fund issued on a public blockchain, initially on Ethereum via Securitize.",
+        "significance": "BUIDL brought the world's largest asset manager directly into public-blockchain tokenized cash and Treasury-fund infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BlackRock launches BUIDL",
+            "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5013,14 +5088,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-06-19 to 2024-07-12",
+        "summary": "German government-linked Bitcoin transfers and sales became a closely watched market narrative during the Saxony movie2k liquidation.",
+        "significance": "Canonicalized to the official Saxony sale event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Saxony — Emergency sale of almost 50,000 Bitcoin completed",
+            "url": "https://www.medienservice.sachsen.de/medien/news/1077662",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0305",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -7476,14 +7557,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2024-03-20",
+        "summary": "This is the same BlackRock BUIDL launch as LORE-EVT-0171.",
+        "significance": "Canonicalized to LORE-EVT-0171.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BlackRock launches BUIDL",
+            "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0171",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -8754,12 +8841,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-04-30",
+        "summary": "Hong Kong spot Bitcoin and Ether ETFs began trading on the Hong Kong Stock Exchange on 30 April 2024.",
+        "significance": "Hong Kong became a major Asian regulated market offering spot exchange-traded exposure to both Bitcoin and Ether.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HKEX — Trading arrangements for Harvest Bitcoin and Ether Spot ETFs",
+            "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2024/ce_SEHK_CT_052_2024.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8800,12 +8893,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-06-19 to 2024-07-12",
+        "summary": "Saxony's authorities completed an emergency sale of approximately 49,858 BTC linked to the movie2k criminal case, realizing about €2.64 billion.",
+        "significance": "The liquidation became one of the largest government-linked Bitcoin sales and a major market-flow story during summer 2024.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Saxony — Emergency sale of almost 50,000 Bitcoin completed",
+            "url": "https://www.medienservice.sachsen.de/medien/news/1077662",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9600,12 +9699,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-06-30",
+        "summary": "MiCA provisions covering asset-referenced tokens and e-money tokens — the framework's stablecoin rules — began applying on 30 June 2024.",
+        "significance": "The date moved the EU's comprehensive crypto framework from legislation into live stablecoin supervision.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — Digital finance / MiCA application dates",
+            "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9622,12 +9727,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-12-30",
+        "summary": "The remaining main provisions of the EU Markets in Crypto-Assets Regulation became applicable from 30 December 2024.",
+        "significance": "MiCA created a broad, passportable EU regulatory framework for crypto-asset service providers and issuers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — Digital finance / MiCA application dates",
+            "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11394,14 +11505,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-03-13",
+        "summary": "EIP-4844 introduced blob-carrying transactions as part of Dencun.",
+        "significance": "The blob mechanism is the key technical component of the canonical Dencun event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0134",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15196,14 +15313,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-01",
+        "summary": "Issuers competed aggressively on fees immediately before the coordinated spot-Bitcoin ETP launch.",
+        "significance": "The fee war reflected how traditional asset managers expected scale and distribution, not merely product approval, to determine winners.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "SEC — Statement on Approval of Spot Bitcoin ETPs",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC filing — spot Bitcoin ETPs commenced trading Jan. 11",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017024015847/mstr-20231231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0062",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15263,14 +15391,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2024-04-30",
+        "summary": "This is the same Hong Kong spot crypto ETF trading launch as LORE-EVT-0303.",
+        "significance": "Canonicalized to LORE-EVT-0303.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HKEX — Trading arrangements for Harvest Bitcoin and Ether Spot ETFs",
+            "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2024/ce_SEHK_CT_052_2024.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0303",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -15307,14 +15441,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2024-07-23",
+        "summary": "This is the same commencement of US spot Ether ETP trading as LORE-EVT-0064.",
+        "significance": "Canonicalized to the July 23 trading launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — Grayscale Ethereum ETPs begin trading",
+            "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024085501/etheeth_press_release_7.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0064",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -15461,14 +15601,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2024-04-20T00:09:27Z",
+        "summary": "Block 840,000 contained hundreds of Rune etchings and generated roughly 37.6 BTC in transaction fees, far above the new 3.125 BTC block subsidy.",
+        "significance": "The fee spike provided a vivid demonstration that token/protocol demand could temporarily make transaction fees dominate miner revenue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0135",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -15483,14 +15629,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2024-07-05",
+        "summary": "Bitcoin and Bitcoin Cash began moving to eligible Mt. Gox creditors through designated exchanges.",
+        "significance": "Canonicalized to the first repayment announcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox Trustee — Notice regarding Repayment in Bitcoin and Bitcoin Cash",
+            "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0136",
+        "relation": "ROLLOUT",
         "notes": null
       }
     },
@@ -23003,14 +23155,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2024-01-11",
+        "summary": "The newly approved US spot Bitcoin ETPs began public trading on 11 January 2024; SEC-filed disclosures later cited about $4.6 billion of aggregate first-day trading volume.",
+        "significance": "The launch translated the regulatory approval into one of the largest coordinated product debuts in crypto-market history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — spot Bitcoin ETPs commenced trading Jan. 11",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017024015847/mstr-20231231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0062",
+        "relation": "ROLLOUT",
         "notes": null
       }
     },
@@ -23071,14 +23229,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "BlackRock expanded its tokenization strategy around BUIDL after the March launch.",
+        "significance": "This is institutional-tokenization context under the canonical BUIDL event unless a specific later multi-chain expansion is selected.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BlackRock launches BUIDL",
+            "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0171",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -23608,14 +23772,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2024-05-23",
+        "summary": "This is the same SEC approval of spot Ether ETP exchange rule changes as LORE-EVT-0149.",
+        "significance": "Canonicalized to the May 23 rule-change approval.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Ether-Based ETP Rule-Change Approval",
+            "url": "https://www.sec.gov/rule-release/34-100224",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0149",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -23943,14 +24113,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-04-30",
+        "summary": "Hong Kong authorized and listed regulated spot virtual-asset ETFs, including Bitcoin and Ether products.",
+        "significance": "Canonicalized to the April 30 trading launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HKEX — Trading arrangements for Harvest Bitcoin and Ether Spot ETFs",
+            "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2024/ce_SEHK_CT_052_2024.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0303",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -25900,14 +26076,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-04-20",
+        "summary": "Transaction fees in the halving block exceeded the 3.125 BTC subsidy by a wide margin because of intense blockspace competition around Runes.",
+        "significance": "Canonicalized as economic context under the Runes/halving block event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0544",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -28182,14 +28364,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-07",
+        "summary": "Mt. Gox creditors began receiving Bitcoin after a wait of roughly a decade.",
+        "significance": "Human/creditor context of the canonical repayment event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox Trustee — Notice regarding Repayment in Bitcoin and Bitcoin Cash",
+            "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0136",
+        "relation": "CULTURE_CONTEXT",
         "notes": null
       }
     },
@@ -30198,14 +30386,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2024-03 onward",
+        "summary": "Major rollups adopted blobs after Dencun, sharply reducing the data component of many Layer-2 transaction fees.",
+        "significance": "This is the immediate economic consequence of Dencun rather than a separate protocol launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0134",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -30220,14 +30414,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-03 onward",
+        "summary": "Ethereum gained a distinct blob-fee market after EIP-4844, creating a new metric for rollup data demand separate from ordinary execution gas.",
+        "significance": "Blob pricing became a new way to observe Layer-2 demand and Ethereum data-availability economics.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0134",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
