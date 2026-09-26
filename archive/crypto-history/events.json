@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Further 2021 research now covers NBA Top Shot, MiamiCoin, Thodex, CREAM, THORChain, Raydium and PancakeSwap; KuCoin's recovery milestone has been corrected back to November 2020.",
+  "status_note": "Evidence phase active. 2021 cleanup now also covers mining migration, Gemini Earn, CowSwap, Aave Polygon, Binance regulatory pressure, FTX sponsorships, Bitcoin 2021, laser eyes and major lost-key lore; FTX tokenized stocks were corrected to November 2020.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -19948,14 +19948,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2021-06-05",
+        "summary": "El Salvador President Nayib Bukele announced by video at the Bitcoin 2021 conference in Miami that he would send legislation to make Bitcoin legal tender.",
+        "significance": "The announcement was the public reveal of the world's first sovereign Bitcoin legal-tender plan, three days before the legislature passed the law.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bukele announces planned Bitcoin legal-tender bill at Bitcoin 2021",
+            "url": "https://finance.yahoo.com/news/el-salvadors-president-says-send-222240207.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0142",
+        "relation": "PRECURSOR",
         "notes": null
       }
     },
@@ -19970,12 +19976,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2021-06-04 to 2021-06-05",
+        "summary": "Bitcoin 2021 brought a large concentration of Bitcoin companies, advocates and public figures to Miami and became the stage for El Salvador's legal-tender announcement.",
+        "significance": "The conference became a defining cultural event of Bitcoin's 2021 institutional/bull-market phase.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Magazine — Bitcoin 2021 Day 1 livestream",
+            "url": "https://www.youtube.com/watch?v=Zp43Ktm3wos",
+            "type": "EVENT_PRIMARY"
+          },
+          {
+            "title": "Reuters — Bukele announces planned Bitcoin legal-tender bill at Bitcoin 2021",
+            "url": "https://finance.yahoo.com/news/el-salvadors-president-says-send-222240207.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -19993,12 +20010,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-16",
+        "summary": "The #LaserRayUntil100K profile-picture campaign began on Bitcoin Twitter, with users adding glowing laser eyes to avatars until Bitcoin reached $100,000.",
+        "significance": "Laser eyes became one of Bitcoin's most visible social identity memes and spread to executives, politicians and eventually a head of state.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Annotated — Laser Eyes origin",
+            "url": "https://bitcoinannotated.com/entries/laser-eyes/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20350,14 +20373,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "FTX.US expanded aggressively into sports sponsorships, including the Miami arena deal, MLB partnership and an August naming-rights agreement for the field at California Memorial Stadium paid in cryptocurrency.",
+        "significance": "The sponsorship wave became a defining visual marker of FTX's rapid mainstream rise before its 2022 collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cal Athletics — FTX naming-rights sponsorship",
+            "url": "https://calbears.com/story.aspx?file_date=8%2F22%2F2021&filename=cal-athletics-ftx-unveil-10-year-landmark-relationship",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
-        "relation": null,
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -22781,12 +22810,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-01-12",
+        "summary": "Programmer Stefan Thomas publicly described having only two password attempts left on an IronKey containing access to 7,002 BTC after eight failed guesses.",
+        "significance": "The story became one of crypto's most vivid self-custody and lost-key cautionary tales.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Stefan Thomas has two password guesses left",
+            "url": "https://www.theguardian.com/technology/2021/jan/12/in-bits-the-programmer-locked-out-of-his-130m-bitcoin-account",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22833,14 +22868,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2021",
+        "summary": "James Howells continued campaigning for permission to excavate a Newport landfill in search of the discarded hard drive he says held access to thousands of BTC, proposing increasingly elaborate recovery plans.",
+        "significance": "The decades-long recovery effort turned the lost-hard-drive story into enduring Bitcoin folklore about irreversible self-custody mistakes.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CBS News — James Howells landfill recovery campaign",
+            "url": "https://www.cbsnews.com/news/hard-drive-lost-bitcoin-landfill/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0184",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -24055,12 +24096,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-08",
+        "summary": "Cambridge data showed Kazakhstan accounting for about 18.1% of measured global Bitcoin hashrate by August 2021, up sharply as mining power migrated after China's crackdown.",
+        "significance": "Kazakhstan became one of the clearest destinations in Bitcoin's historic post-China mining migration before later energy and policy pressures reduced its role.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cambridge CCAF — geographic shift in Bitcoin mining",
+            "url": "https://www.jbs.cam.ac.uk/2021/geographic-shift/",
+            "type": "ACADEMIC_DATA"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24077,12 +24124,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "The United States became the largest measured Bitcoin-mining jurisdiction after China's crackdown, while large Texas facilities such as Riot's Whinstone expanded rapidly.",
+        "significance": "Texas emerged as a symbolic and industrial center of the US mining migration because of large-scale power access and mining investment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cambridge CCAF — geographic shift in Bitcoin mining",
+            "url": "https://www.jbs.cam.ac.uk/2021/geographic-shift/",
+            "type": "ACADEMIC_DATA"
+          },
+          {
+            "title": "Riot Blockchain 2021 Form 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1167419/000155335022000961/riot-20211231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -25431,12 +25489,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-02-02",
+        "summary": "Gemini launched Gemini Earn, allowing customers to lend supported crypto assets and earn advertised yields of up to 7.4% APY.",
+        "significance": "Gemini Earn became a prominent example of retail CeFi yield products and later a central piece of the Genesis/Gemini contagion dispute.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gemini — launch of Gemini Earn",
+            "url": "https://www.prnewswire.com/news-releases/gemini-launches-gemini-earn-a-new-way-to-earn-interest-on-crypto-assets-301219887.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -26867,14 +26931,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "The expansion of Bitcoin conference culture in Miami is represented by the canonical Bitcoin 2021 event.",
+        "significance": "Canonicalized to LORE-EVT-0761.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Magazine — Bitcoin 2021 Day 1 livestream",
+            "url": "https://www.youtube.com/watch?v=Zp43Ktm3wos",
+            "type": "EVENT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0761",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -27602,12 +27672,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-04-28",
+        "summary": "Gnosis announced Gnosis Protocol v2 and made CowSwap available as a proof-of-concept trading interface using batch auctions and solver-based execution designed to reduce MEV.",
+        "significance": "CowSwap helped pioneer intent-like trading and MEV-aware batch-auction execution that later evolved into CoW Protocol.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gnosis — Introducing Gnosis Protocol V2 and CowSwap",
+            "url": "https://medium.com/gnosis-pm/introducing-gnosis-protocol-v2-and-balancer-gnosis-protocol-f693b2938ae4",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27694,12 +27770,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-04",
+        "summary": "Aave went live on Polygon in April 2021, followed by liquidity-mining incentives that drove rapid growth in deposits and borrowing.",
+        "significance": "The deployment showed how leading Ethereum DeFi protocols could expand to lower-cost networks and became one of Aave's first major multi-chain successes.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Polygon — 2021 in review",
+            "url": "https://polygon.technology/blog/polygons-breakthrough-year-2021-in-review",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Aave governance — Polygon deployment retrospective",
+            "url": "https://governance.aave.com/t/deploy-aave-v3-on-polygon-network/7252",
+            "type": "PROJECT_FORUM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30898,8 +30985,8 @@
     },
     {
       "id": "LORE-EVT-1222",
-      "date": "2021",
-      "title": "FTX offers tokenized-stock trading outside the United States",
+      "date": "2020-11-02",
+      "title": "FTX launches tokenized-stock trading outside the United States",
       "branch": [
         "FTX",
         "EXCHANGES"
@@ -30907,12 +30994,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2020-11-02",
+        "summary": "FTX publicly launched trading in tokenized representations of stocks such as Tesla, Apple and Amazon in November 2020, not 2021.",
+        "significance": "The product was an early attempt to blend 24/7 crypto-market infrastructure with synthetic/tokenized exposure to traditional equities.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "SEC public comment exhibit documenting Nov 2020 FTX tokenized stocks launch",
+            "url": "https://www.sec.gov/comments/s7-2024-05/s7202405-typea.pdf",
+            "type": "GOVERNMENT_RECORD"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30929,15 +31022,31 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-06 onward",
+        "summary": "Regulators in multiple jurisdictions issued warnings or restrictions involving Binance in 2021; Japan's FSA warned Binance on 25 June for operating without registration and the UK's FCA imposed restrictions on Binance Markets Limited on 26 June.",
+        "significance": "The cluster of regulatory actions marked a major shift from Binance's hypergrowth era toward sustained jurisdiction-by-jurisdiction compliance pressure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Japan FSA — June 25 2021 Binance warning",
+            "url": "https://www.fsa.go.jp/en/newsletter/weekly2021/447.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "FCA — consumer warning on Binance Markets Limited",
+            "url": "https://www.fca.org.uk/news/news-stories/consumer-warning-binance-markets-limited-and-binance-group",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Binance — clarification on FCA notice",
+            "url": "https://www.binance.com/en/support/announcement/detail/1e89bf44e2e041358e6b46dc9bad0b48",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Phrase carefully by legal entity and jurisdiction; do not imply every warning applied identically to Binance.com globally."
       }
     },
     {
