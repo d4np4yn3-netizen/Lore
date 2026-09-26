@@ -568,15 +568,26 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2011 era",
+        "summary": "Centralized private digital currencies such as e-gold, WebMoney and Liberty Reserve remained important comparators as Bitcoin introduced a decentralized peer-to-peer model.",
+        "significance": "The contrast shows what Bitcoin changed: earlier internet currencies generally depended on a private administrator that could be regulated, seized or shut down.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — testimony comparing centralized virtual currencies and Bitcoin",
+            "url": "https://www.justice.gov/archives/opa/speech/acting-assistant-attorney-general-mythili-raman-testifies-senate-committee-homeland",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US DOJ — Liberty Reserve digital-currency case background",
+            "url": "https://www.justice.gov/usao-sdny/speech/new-york-state-department-financial-services-hearing-law-enforcement-and-virtual",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context row, not a discrete 2011 launch."
       }
     },
     {
@@ -707,15 +718,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2011 onward",
-        "summary": "Public blockchains made large address balances and old wallet movements observable, creating the enduring idea of Bitcoin 'whales.'",
-        "significance": "This is a recurring phenomenon rather than a single 2011 event and should not be scored as-is.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_ARCHIVAL_DATA",
+        "exact_date": "2011-01 onward",
+        "summary": "By January 2011 independent observers were publishing 'rich lists' calculated directly from the Bitcoin blockchain, ranking addresses by visible balances.",
+        "significance": "Public address balances created a new kind of financial transparency and the enduring crypto concept of watching 'whales,' while address balances could not reliably identify individual owners.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Bitcoin Report — January 2011 Top 100 Rich List",
+            "url": "https://bitcoinreport.blogspot.com/2011/01/latest-bitcoin-top-100-rich-list.html",
+            "type": "CONTEMPORARY_ARCHIVE"
+          },
+          {
+            "title": "The Bitcoin Report — June 2011 Rich List",
+            "url": "https://bitcoinreport.blogspot.com/2011/06/",
+            "type": "CONTEMPORARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Replace with specific historically documented whale movements if a card-worthy event is needed."
+        "notes": "Do not equate one address with one person; source itself notes this limitation."
       }
     },
     {
@@ -887,5 +909,7 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
