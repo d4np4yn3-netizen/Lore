@@ -1,23 +1,254 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "archive": "LORE Crypto History",
+  "updated": "2026-09-26",
   "mode": "YEAR_BY_YEAR",
   "raw_discovery_pool": "../events.json",
   "canonical_directory": "years/",
-  "rule": "Only year files are canonical researched history. The monolithic events.json is discovery input only.",
+  "rule": "The monolithic events.json is discovery input only. Research, deduplication and card scoring must operate on year shards. Canonical scoring uses only reconciled year files.",
+  "workflow": [
+    "raw discovery",
+    "evidence research",
+    "year reconciliation",
+    "canonical year file",
+    "card scoring"
+  ],
+  "total_raw_candidates": 1229,
+  "reconciled_years": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "current_year": "2026",
+  "next_reconciliation_target": "2020",
   "years": {
     "1976": {
-      "status": "RESEARCH_COMPLETE",
-      "file": "1976.json"
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1976.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
     },
     "1977": {
-      "status": "RESEARCH_COMPLETE",
-      "file": "1977.json"
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1977.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
     },
     "1982": {
-      "status": "RESEARCH_COMPLETE",
-      "file": "1982.json"
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1982.json",
+      "raw_candidate_count": 2,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1988": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1988.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1989": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1989.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1990": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1990.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1992": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1992.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1993": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1993.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1994": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1994.json",
+      "raw_candidate_count": 2,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1996": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1996.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1997": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1997.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1998": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1998.json",
+      "raw_candidate_count": 2,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "1999": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "1999.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2001": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2001.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2002": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2002.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2004": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2004.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2005": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2005.json",
+      "raw_candidate_count": 2,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2006": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2006.json",
+      "raw_candidate_count": 1,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2008": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2008.json",
+      "raw_candidate_count": 6,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2009": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2009.json",
+      "raw_candidate_count": 13,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2010": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2010.json",
+      "raw_candidate_count": 18,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2011": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2011.json",
+      "raw_candidate_count": 29,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2012": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2012.json",
+      "raw_candidate_count": 15,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2013": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2013.json",
+      "raw_candidate_count": 43,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2014": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2014.json",
+      "raw_candidate_count": 66,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2015": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2015.json",
+      "raw_candidate_count": 31,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2016": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2016.json",
+      "raw_candidate_count": 45,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2017": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2017.json",
+      "raw_candidate_count": 94,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2018": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2018.json",
+      "raw_candidate_count": 67,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2019": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2019.json",
+      "raw_candidate_count": 71,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2020": {
+      "status": "RESEARCHED_NEEDS_CANONICAL_RECONCILIATION",
+      "file": "2020.json",
+      "raw_candidate_count": 115,
+      "note": "Evidence/research exists from the legacy pass, but duplicates/context must still be reconciled into a final canonical set before scoring."
+    },
+    "2021": {
+      "status": "CANONICAL_RECONCILED",
+      "file": "2021.json",
+      "reconciliation_file": "2021-reconciliation.json",
+      "canonical_event_count": 113,
+      "raw_candidate_count": 176,
+      "score_status": "NOT_STARTED"
+    },
+    "2022": {
+      "status": "CANONICAL_RECONCILED",
+      "file": "2022.json",
+      "reconciliation_file": "2022-reconciliation.json",
+      "canonical_event_count": 83,
+      "raw_candidate_count": 153,
+      "score_status": "NOT_STARTED"
+    },
+    "2023": {
+      "status": "CANONICAL_RECONCILED",
+      "file": "2023.json",
+      "reconciliation_file": "2023-reconciliation.json",
+      "canonical_event_count": 83,
+      "raw_candidate_count": 114,
+      "score_status": "NOT_STARTED"
+    },
+    "2024": {
+      "status": "CANONICAL_RECONCILED",
+      "file": "2024.json",
+      "reconciliation_file": "2024-reconciliation.json",
+      "canonical_event_count": 52,
+      "raw_candidate_count": 127,
+      "score_status": "NOT_STARTED"
+    },
+    "2025": {
+      "status": "CANONICAL_RECONCILED",
+      "file": "2025.json",
+      "reconciliation_file": "2025-reconciliation.json",
+      "canonical_event_count": 9,
+      "raw_candidate_count": 24,
+      "score_status": "NOT_STARTED"
     }
-  },
-  "next_year": "1983"
+  }
 }
