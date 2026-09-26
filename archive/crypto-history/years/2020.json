@@ -379,7 +379,7 @@
     {
       "id": "LORE-EVT-0153",
       "date": "2020",
-      "title": "China expands public testing of the digital yuan",
+      "title": "Shenzhen runs a major public digital-yuan pilot",
       "branch": [
         "GOVERNMENTS",
         "TECHNOLOGY"
@@ -387,12 +387,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-10-12 to 2020-10-18",
+        "summary": "Shenzhen ran a large public digital-renminbi pilot, distributing 10 million yuan through 50,000 digital red envelopes usable at designated merchants; official results reported 47,573 recipients and 62,788 transactions during the test window.",
+        "significance": "The Shenzhen trial was one of the clearest early public demonstrations of China's central-bank digital currency at consumer scale.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Shenzhen Government — digital RMB red-envelope pilot",
+            "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8166647.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Shenzhen Government — digital RMB pilot results",
+            "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8187712.html",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -409,14 +420,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-02 onward",
+        "summary": "The bZx attacks and later incidents made flash-loan-assisted attacks a recurring DeFi security topic.",
+        "significance": "This is a broader security trend best represented by specific exploit events rather than scored independently.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nexus Mutual — bZx 2020 claims history",
+            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0586",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -513,7 +530,7 @@
     {
       "id": "LORE-EVT-0229",
       "date": "2020",
-      "title": "Curve becomes core stablecoin DEX infrastructure",
+      "title": "Curve launches stablecoin-focused AMM",
       "branch": [
         "DEFI",
         "DEX",
@@ -522,12 +539,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-01",
+        "summary": "Curve launched in early 2020 as an automated market maker optimized for efficient trading between stablecoins.",
+        "significance": "Its specialized invariant made stablecoin swaps cheaper and less price-sensitive and established Curve as core DeFi liquidity infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve — The Rise of the Home of Stablecoins",
+            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -599,12 +622,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-11",
+        "summary": "Flashbots emerged in 2020 to address miner/maximal extractable value; its initial architecture and MEV-geth work were made public in November before the later Flashbots Alpha launch.",
+        "significance": "Flashbots turned MEV from a largely hidden transaction-ordering problem into an explicit research and infrastructure field for Ethereum.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Flashbots — History and mission",
+            "url": "https://www.flashbots.net/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -707,12 +736,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-01",
+        "summary": "Binance Smart Chain launched mainnet as an EVM-compatible blockchain using BNB for fees and staking.",
+        "significance": "BSC created a low-cost smart-contract ecosystem closely linked to Binance and became a major venue for retail DeFi activity in 2021.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — Binance Smart Chain Mainnet Launch",
+            "url": "https://www.binance.com/en/blog/all/421499824684900933",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "BNB Chain — Binance Smart Chain Mainnet Launch",
+            "url": "https://www.bnbchain.org/en/blog/binance-smart-chain-mainnet-launch",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -758,12 +798,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-11-27",
+        "summary": "Art Blocks launched with Snowfro's Chromie Squiggle collection on 27 November 2020.",
+        "significance": "Art Blocks established a platform for generative art created and minted on-chain and became one of the defining institutions of the NFT art movement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Art Blocks — About Art Blocks",
+            "url": "https://www.artblocks.io/articles/about-art-blocks",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Art Blocks — Chromie Squiggle",
+            "url": "https://www.artblocks.io/collection/chromie-squiggle-by-snowfro",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -829,7 +880,7 @@
     {
       "id": "LORE-EVT-0346",
       "date": "2020",
-      "title": "Switzerland adopts DLT legal reforms",
+      "title": "Swiss Parliament passes DLT blanket act",
       "branch": [
         "GOVERNMENTS",
         "REGULATION"
@@ -837,12 +888,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2020-09",
+        "summary": "The Swiss Parliament passed the federal DLT blanket act in September 2020, establishing legal changes for ledger-based securities, trading facilities and insolvency treatment.",
+        "significance": "The legislation created one of the world's clearest national legal frameworks for tokenized assets and distributed-ledger financial infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Swiss Federal Council — DLT legislative framework",
+            "url": "https://www.admin.ch/en/nsb?id=84035",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -887,14 +944,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "This broad row describes the same expansion of digital-yuan pilots represented by the Shenzhen public pilot.",
+        "significance": "Use the specific Shenzhen pilot as the canonical 2020 event; broader national pilot expansion remains context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Shenzhen Government — digital RMB red-envelope pilot",
+            "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8166647.html",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Shenzhen Government — digital RMB pilot results",
+            "url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_8187712.html",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0153",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -909,25 +977,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
+        "state": "VERIFIED_AFTERMATH",
         "exact_date": "2020-11-22",
-        "summary": "KuCoin restored deposit and withdrawal services for all tokens by 22 November 2020 after its September hack; the exchange later reported recovering about 84% of affected value through partners and law enforcement while covering the remainder.",
-        "significance": "The recovery was unusually successful for a large exchange hack, but the key restoration milestone belongs in 2020, not 2021.",
+        "summary": "KuCoin announced that deposit and withdrawal services had been restored for all tokens following the September hack.",
+        "significance": "The recovery is useful aftermath showing the exchange's return to normal operations, but it is subordinate to the hack itself.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "KuCoin — services fully resumed after 2020 hack",
-            "url": "https://www.kucoin.com/announcement/en-deposit-and-withdrawal-services-for-all-tokens-now-resumed-on-kucoin?lang=en_US",
-            "type": "COMPANY_PRIMARY"
-          },
-          {
-            "title": "KuCoin CEO — hack recovery accounting",
-            "url": "https://www.kucoin.com/announcement/a-letter-from-kucoin-ceo-2020-2021-and-beyond",
+            "title": "KuCoin — Deposit and Withdrawal Services Resumed",
+            "url": "https://www.kucoin.com/announcement/en-deposit-and-withdrawal-services-for-all-tokens-now-resumed-on-kucoin",
             "type": "COMPANY_PRIMARY"
           }
         ],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0375",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -942,12 +1005,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-26",
+        "summary": "KuCoin disclosed a security incident in which private keys to hot wallets were compromised and crypto assets were transferred out without authorization.",
+        "significance": "The hack became one of 2020's largest centralized-exchange thefts and a major case study in recovery, token freezes and exchange coordination.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "KuCoin — Security Incident Update",
+            "url": "https://www.kucoin.com/announcement/en-kucoin-security-incident-update",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1020,15 +1089,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-06 to 2020-09",
+        "summary": "THORChain released a public testnet in June 2020 and launched BEPSwap on Chaosnet in September, but its true multichain Chaosnet launch followed in April 2021.",
+        "significance": "2020 was an important precursor year for THORChain rather than the canonical live multichain launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "THORChain — Release Public Testnet",
+            "url": "https://blog.thorchain.org/thorchain-release-public-testnet",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "THORChain — BEPSwap Trading Competition",
+            "url": "https://blog.thorchain.org/bepswap-trading-competition",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "THORChain — Multichain Chaosnet launch reference",
+            "url": "https://blog.thorchain.org/weekly-dev-update-89",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not describe THORChain's multichain network as live in 2020."
       }
     },
     {
@@ -1092,21 +1177,37 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Flash loans became a widely used DeFi primitive in 2020, enabling uncollateralized loans that must be borrowed and repaid within one transaction.",
+        "significance": "The primitive was innovative for arbitrage and refinancing but also became famous through exploit patterns such as bZx.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave — Changelog",
+            "url": "https://www.aave.com/docs/resources/changelog",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Aave — Legacy V1",
+            "url": "https://www.aave.com/docs/resources/legacy-versions/v1",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Nexus Mutual — bZx 2020 claims history",
+            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
-        "relation": null,
+        "relation": "CONTEXT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-0407",
       "date": "2020",
-      "title": "Aave introduces flash loans at scale",
+      "title": "Aave V1 launches with Flash Loans",
       "branch": [
         "DEFI",
         "TECHNOLOGY"
@@ -1114,12 +1215,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-01-08",
+        "summary": "Aave V1 launched in January 2020 and introduced Flash Loans as a core protocol feature.",
+        "significance": "Aave's flash loans became one of DeFi's most distinctive programmable-finance primitives and helped define the new possibilities and risks of composable lending.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave — Changelog",
+            "url": "https://www.aave.com/docs/resources/changelog",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Aave — Legacy V1",
+            "url": "https://www.aave.com/docs/resources/legacy-versions/v1",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1221,14 +1333,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-08 onward",
+        "summary": "Curve's CRV emissions and later vote-locking/gauge incentives laid the groundwork for the 'Curve Wars' over control of liquidity rewards.",
+        "significance": "The Curve Wars are a multi-year governance/liquidity struggle rather than one clean 2020 point event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve — The Rise of the Home of Stablecoins",
+            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Curve — CRV emission schedule",
+            "url": "https://news.curve.finance/crv-emission-rate-gets-a-cut-as-programmed/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0752",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -1496,7 +1619,7 @@
     {
       "id": "LORE-EVT-0574",
       "date": "2020",
-      "title": "Tornado Cash governance token launches",
+      "title": "Tornado Cash begins TORN governance-token distribution",
       "branch": [
         "PRIVACY",
         "DEFI"
@@ -1504,12 +1627,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE",
+        "exact_date": "2020-12-18",
+        "summary": "Tornado Cash began the TORN governance-token distribution/redemption period for eligible early users in December 2020.",
+        "significance": "TORN added tokenized governance to one of Ethereum's most prominent privacy applications, setting up later debates over decentralized governance and sanctions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Tornado Cash Docs — TORN governance token",
+            "url": "https://docs.tornado.cash/general/torn",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1548,12 +1677,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-06-25 to 2020-12-20",
+        "summary": "An attacker accessed Ledger's e-commerce and marketing database in June 2020. Ledger disclosed the breach in July; a large customer database containing emails and detailed contact information later became public in December.",
+        "significance": "The breach did not expose hardware-wallet private keys, but it created a lasting physical-security and phishing risk for self-custody users.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ledger — Addressing the July 2020 data breach",
+            "url": "https://www.ledger.com/addressing-the-july-2020-e-commerce-and-marketing-data-breach",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Ledger CEO message on data leak",
+            "url": "https://www.ledger.com/message-ledgers-ceo-data-leak",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1570,12 +1710,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-02-15 to 2020-02-18",
+        "summary": "bZx suffered two flash-loan-enabled attacks within days, exploiting interactions across lending, trading and oracle systems.",
+        "significance": "The attacks became the canonical early demonstration that DeFi composability could create new attack surfaces without compromising the underlying blockchains.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nexus Mutual — bZx 2020 claims history",
+            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1592,15 +1738,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2019-2020",
+        "summary": "Gitcoin Grants had already begun using quadratic funding before 2020 and expanded the model across successive grant rounds.",
+        "significance": "Quadratic funding is historically important, but this 2020 wording is a trend rather than a discrete launch event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gitcoin — What is a Grant?",
+            "url": "https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/what-is-a-grant",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "A specific grant round may be promoted later if desired."
       }
     },
     {
@@ -1948,21 +2100,32 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2020-06 onward",
+        "summary": "Synthetix expanded liquidity incentives across pools including Curve and Ren during the yield-farming boom.",
+        "significance": "These incentives helped shape early yield farming but are better treated as DeFi Summer context than as one standalone event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Synthetix — 2020 retrospective",
+            "url": "https://blog.synthetix.io/synthetix-2020-a-decade-in-review/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Synthetix — BTC yield farming pool",
+            "url": "https://blog.synthetix.io/btc-yield-farming-pool/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
-        "relation": null,
+        "relation": "CONTEXT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-0752",
       "date": "2020",
-      "title": "Curve CRV launch sparks governance and liquidity wars",
+      "title": "CRV and Curve governance launch",
       "branch": [
         "DEFI",
         "DAO"
@@ -1970,12 +2133,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-08-12",
+        "summary": "CRV launched and Curve's DAO/governance system came online in August 2020.",
+        "significance": "CRV emissions and vote-escrow governance later created one of DeFi's most important liquidity-incentive and governance economies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Curve — The Rise of the Home of Stablecoins",
+            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Curve — CRV emission schedule",
+            "url": "https://news.curve.finance/crv-emission-rate-gets-a-cut-as-programmed/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2092,14 +2266,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "Nexus Mutual paid claims connected to the 2020 bZx incident, demonstrating crypto-native smart-contract cover in a live DeFi failure.",
+        "significance": "This is a useful insurance milestone, but the protocol itself launched earlier; keep as context unless the first accepted claim is separately promoted.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nexus Mutual — Six years of covering crypto",
+            "url": "https://nexusmutual.io/blog/celebrating-six-years-of-covering-crypto-at-nexus-mutual",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Nexus Mutual — bZx 2020 claims history",
+            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0586",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -2568,12 +2753,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-02-20",
+        "summary": "Decentraland opened its public virtual world on 20 February 2020, transferring key governance and content control toward its community.",
+        "significance": "The launch created one of crypto's most prominent blockchain-native virtual worlds and became central to the later metaverse-land boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Decentraland Whitepaper v2",
+            "url": "https://decentraland.org/whitepaper2.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2937,5 +3128,6 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "note": "2020 evidence shard under active reconciliation. Resolved rows are explicitly classified; unresolved candidates remain held from card scoring."
 }
