@@ -6,10 +6,10 @@
   "evidence_file": "2020.json",
   "note": "Reconciliation generated from preserved 2020 research states. NEEDS_RESEARCH rows require explicit evidence review. Canonical file will be rewritten after those rows are resolved.",
   "counts": {
-    "CANONICAL": 30,
-    "CONTEXT": 7,
-    "NEEDS_RESEARCH": 66,
-    "MERGED": 12
+    "CANONICAL": 43,
+    "CONTEXT": 15,
+    "MERGED": 13,
+    "NEEDS_RESEARCH": 44
   },
   "rows": [
     {
@@ -212,11 +212,11 @@
         "GOVERNMENTS",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-shenzhen-digital-yuan-pilot",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -228,11 +228,11 @@
         "DEFI",
         "HACKS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-bzx-flash-loan-attacks",
+      "legacy_canonical_event_id": "LORE-EVT-0586",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -294,11 +294,11 @@
         "DEX",
         "STABLECOINS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-curve-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -341,11 +341,11 @@
         "ETHEREUM",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-flashbots-mev-geth",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -407,11 +407,11 @@
         "ALTCOINS",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-binance-smart-chain-mainnet",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -440,11 +440,11 @@
         "NFT",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-art-blocks-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -489,11 +489,11 @@
         "GOVERNMENTS",
         "REGULATION"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-swiss-dlt-act-passed",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -521,11 +521,11 @@
         "GOVERNMENTS",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-shenzhen-digital-yuan-pilot",
+      "legacy_canonical_event_id": "LORE-EVT-0153",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -537,10 +537,10 @@
         "EXCHANGES",
         "HACKS"
       ],
-      "legacy_research_state": "DATE_CORRECTED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
+      "legacy_research_state": "VERIFIED_AFTERMATH",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-kucoin-hack",
+      "legacy_canonical_event_id": "LORE-EVT-0375",
       "source_confidence": "HIGH",
       "note": null
     },
@@ -553,11 +553,11 @@
         "HACKS",
         "EXCHANGES"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-kucoin-hack",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -601,11 +601,11 @@
         "DEFI",
         "DEX"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -649,11 +649,11 @@
         "DEFI",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -665,11 +665,11 @@
         "DEFI",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-aave-v1-flash-loans",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -730,11 +730,11 @@
         "DEFI",
         "DEX"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-crv-curve-dao-launch",
+      "legacy_canonical_event_id": "LORE-EVT-0752",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -890,11 +890,11 @@
         "PRIVACY",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_DATE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-tornado-torn-governance",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -922,11 +922,11 @@
         "SECURITY",
         "DISASTERS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-ledger-customer-data-breach",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -938,11 +938,11 @@
         "DEFI",
         "HACKS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-bzx-flash-loan-attacks",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -954,11 +954,11 @@
         "DAO",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1196,11 +1196,11 @@
       "branches": [
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1212,11 +1212,11 @@
         "DEFI",
         "DAO"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-crv-curve-dao-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1293,11 +1293,11 @@
         "DEFI",
         "SECURITY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-bzx-flash-loan-attacks",
+      "legacy_canonical_event_id": "LORE-EVT-0586",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1619,11 +1619,11 @@
         "NFT",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-decentraland-public-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
