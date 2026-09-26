@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "year": 2021,
-  "status": "EVIDENCE_PASS_IN_PROGRESS",
-  "note": "2021 evidence file. Direct research and legacy evidence have been consolidated. Context and duplicate rows remain in reconciliation rather than being promoted to independent canonical events.",
+  "status": "EVIDENCE_PASS_COMPLETE",
+  "note": "All 176 legacy 2021 candidates have now been explicitly resolved through canonical evidence, context, duplicate merging, or corrected claim handling. Card scoring may use canonical 2021 evidence entries.",
   "events": [
     {
       "key": "2021-bitcoin-for-corporations",
@@ -1925,6 +1925,31 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "key": "2021-blockfi-cade-cunningham-partnership",
+      "master_event_ids": [
+        "LORE-EVT-0779"
+      ],
+      "date": "2021-08-19",
+      "title": "BlockFi signs Cade Cunningham sponsorship",
+      "state": "VERIFIED_WITH_CORRECTED_CLAIM",
+      "tier": "DEEP_CUT",
+      "branches": [
+        "CEFI",
+        "CULTURE"
+      ],
+      "summary": "The archive's 'naming rights' wording could not be substantiated. BlockFi did, however, sign a multi-year partnership with NBA No. 1 draft pick Cade Cunningham and paid his signing bonus in Bitcoin.",
+      "significance": "This is evidence of the 2021 crypto-sports sponsorship boom, but it is weaker than FTX/Crypto.com arena naming deals.",
+      "sources": [
+        {
+          "title": "BlockFi — Cade Cunningham partnership",
+          "url": "https://www.prnewswire.com/news-releases/basketball-star-cade-cunningham-partners-with-blockfi-301359053.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Legacy wording was corrected: this was an athlete partnership/signing-bonus arrangement, not a venue naming-rights deal."
     },
     {
       "key": "2021-visa-buys-cryptopunk",
