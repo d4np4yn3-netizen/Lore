@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2021 infrastructure/regulatory cleanup now includes Optimism, Phantom, Compound governance, Polkadot auctions, major bridges, Nigeria banking policy and FTX/MLB; Wormhole and Polymarket dates have been corrected.",
+  "status_note": "Evidence phase active. 2021 cultural/DAO/NFT/DeFi/CeFi research continues; major corrections include FTX-Blockfolio to 2020 and Twitter NFT profile pictures to January 2022.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -4968,12 +4968,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-12",
+        "summary": "Vitalik Buterin transferred more than 50 trillion SHIB, then valued at roughly $1 billion, to India's Crypto-Covid Relief Fund and also donated other meme tokens and crypto to charitable organizations.",
+        "significance": "The donation turned unsolicited meme-token holdings into one of crypto's largest high-profile charitable gifts and created a real liquidity challenge for the recipient.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Vitalik meme-token donations",
+            "url": "https://techcrunch.com/2021/05/12/vitalik-buterin-donates-1-billion-worth-of-meme-coins-to-india-covid-relief-fund/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "India Crypto Relief — SHIB donation accounting",
+            "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
+            "type": "CHARITY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -6543,12 +6554,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-03-15 to 2021-03-23",
+        "summary": "Olympus distributed alphaOHM through its initial community launch and began migration to OHM on 23 March, the date the project later described as its official launch.",
+        "significance": "Olympus popularized protocol-owned liquidity, extremely high staking yields and the '(3,3)' coordination meme, becoming a defining experiment of the 'DeFi 2.0' period.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OlympusDAO — First Month in Review",
+            "url": "https://olympusdao.medium.com/first-month-in-review-e415191d680a",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "OlympusDAO — Initial Discord Offering",
+            "url": "https://olympusdao.medium.com/initial-discord-offering-the-olympus-fair-launch-event-484987c32e89",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7482,14 +7504,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-05-12",
+        "summary": "This is the same Vitalik Buterin meme-token charity event as LORE-EVT-0182.",
+        "significance": "Canonicalized to LORE-EVT-0182.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Vitalik meme-token donations",
+            "url": "https://techcrunch.com/2021/05/12/vitalik-buterin-donates-1-billion-worth-of-meme-coins-to-india-covid-relief-fund/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "India Crypto Relief — SHIB donation accounting",
+            "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
+            "type": "CHARITY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0182",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -10648,14 +10681,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "StarkEx powered production applications such as dYdX's Layer 2 perpetuals system during 2021.",
+        "significance": "This is infrastructure context for the dYdX/StarkWare deployment and the wider rise of ZK-based scaling.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "dYdX Foundation — DYDX / Layer 2 history",
+            "url": "https://www.dydx.foundation/blog/introducing-dydx-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0402",
+        "relation": "TECHNOLOGY_CONTEXT",
         "notes": null
       }
     },
@@ -10670,12 +10709,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-02",
+        "summary": "dYdX and StarkWare launched a Layer 2 protocol for cross-margined perpetual trading using StarkEx.",
+        "significance": "The move demonstrated that zero-knowledge scaling could support high-volume non-custodial derivatives trading with lower costs and no per-trade gas.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "dYdX Foundation — DYDX / Layer 2 history",
+            "url": "https://www.dydx.foundation/blog/introducing-dydx-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -10875,15 +10920,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Lido's liquid-staking system grew rapidly during 2021, reaching hundreds of millions of dollars of value within months and expanding to additional proof-of-stake networks.",
+        "significance": "Lido made staked ETH liquid and composable in DeFi, helping create the liquid-staking-token category that would become central after the Merge.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Lido — Three Months of Lido",
+            "url": "https://blog.lido.fi/lido-development-update-3-months-of-lido/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "This is an adoption/growth row; Lido itself launched in late 2020."
       }
     },
     {
@@ -13389,12 +13440,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-27",
+        "summary": "Dom Hofmann launched Loot as 8,000 free-to-mint NFTs containing only randomized lists of fantasy-adventure equipment, deliberately omitting images, stats and a predefined game.",
+        "significance": "Loot inverted the conventional NFT model by giving the community primitives rather than a finished world, spawning a burst of derivative projects and bottom-up worldbuilding.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Loot launch history",
+            "url": "https://techcrunch.com/2021/09/03/loot-games-the-crypto-world/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -13543,12 +13600,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-03-26",
+        "summary": "Miami-Dade County approved a 19-year, $135 million naming-rights agreement with FTX.US for the county-owned Miami Heat arena, later branded FTX Arena.",
+        "significance": "The arena deal became one of the most visible symbols of FTX's rapid mainstream expansion—and, after 2022, of how quickly that image unraveled.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Miami-Dade County — FTX Arena naming-rights agreement",
+            "url": "https://www.miamidade.gov/govaction/matter.asp?file=false&fileAnalysis=false&matter=210781&yearFolder=Y2021",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15738,12 +15801,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-11",
+        "summary": "PleasrDAO won the auction for the original Doge meme NFT for 1,696.9 ETH, roughly $4 million at the time.",
+        "significance": "The purchase transformed one of the internet's most recognizable memes into a multi-million-dollar on-chain cultural artifact owned by a DAO.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Own The Doge — Doge NFT history",
+            "url": "https://www.ownthedoge.com/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15761,12 +15830,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-09",
+        "summary": "FreeRossDAO won Ross Ulbricht's Genesis Collection NFT auction for 1,446 ETH after more than a thousand contributors pooled funds.",
+        "significance": "The event combined DAO fundraising, NFT ownership, prison-reform advocacy and one of Bitcoin history's most controversial figures.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FreeRoss — Genesis Collection auction",
+            "url": "https://freeross.org/genesis-collection/",
+            "type": "PRIMARY_CAMPAIGN"
+          },
+          {
+            "title": "SuperRare — Ross Ulbricht Genesis Collection sale",
+            "url": "https://superrare.com/artwork-v2/ross-ulbricht-genesis-collection-30841",
+            "type": "MARKET_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -16083,12 +16163,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-09",
+        "summary": "Magic Eden launched in September 2021 as a Solana NFT marketplace.",
+        "significance": "It quickly became a central marketplace for Solana NFTs and a major non-Ethereum competitor in NFT trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Magic Eden — history / September 2021 inception",
+            "url": "https://community.magiceden.io/culture/rewards-manifesto",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -19737,12 +19823,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2021",
+        "summary": "MicroStrategy hosted its Bitcoin for Corporations program in 2021, sharing treasury, legal, accounting and operational material intended to help other companies evaluate Bitcoin.",
+        "significance": "The event turned MicroStrategy's own treasury strategy into an explicit corporate adoption playbook.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Strategy — Bitcoin for Corporations 2021",
+            "url": "https://www.strategy.com/software/bitcoin/bitcoin-for-corporations",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -19891,7 +19983,7 @@
     },
     {
       "id": "LORE-EVT-0765",
-      "date": "2021",
+      "date": "2022-01-20",
       "title": "Twitter adds NFT profile-picture verification",
       "branch": [
         "NFT",
@@ -19900,12 +19992,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-01-20",
+        "summary": "Twitter launched verified NFT profile pictures for Twitter Blue subscribers on iOS on 20 January 2022, not in 2021.",
+        "significance": "The hexagonal profile image made wallet-verified NFT ownership a native feature on a major social network.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Twitter launches NFT profile pictures",
+            "url": "https://www.investing.com/news/stock-market-news/twitter-debuts-hexagonshaped-nft-profile-pictures-2744469",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20032,14 +20130,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-08 onward",
+        "summary": "Loot rapidly inspired derivative art, games, rarity systems and other community-built projects.",
+        "significance": "This is the cultural aftermath of the canonical Loot launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Loot launch history",
+            "url": "https://techcrunch.com/2021/09/03/loot-games-the-crypto-world/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0501",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -20099,12 +20203,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-20",
+        "summary": "FTX closed a $900 million Series B financing round that valued the exchange at $18 billion.",
+        "significance": "The record-scale funding round captured FTX's extraordinary pre-collapse ascent and the level of institutional venture confidence behind it.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FTX — $900M Series B",
+            "url": "https://www.prnewswire.co.uk/news-releases/ftx-trading-ltd-closes-900m-series-b-round-largest-raise-in-crypto-exchange-history-847881913.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20135,7 +20245,7 @@
     },
     {
       "id": "LORE-EVT-0776",
-      "date": "2021",
+      "date": "2020-08-25",
       "title": "FTX acquires Blockfolio",
       "branch": [
         "FTX",
@@ -20144,12 +20254,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2020-08-25",
+        "summary": "FTX acquired the Blockfolio portfolio-tracking app for about $150 million in August 2020, not 2021.",
+        "significance": "The acquisition was a major step in FTX's push from derivatives into retail crypto users.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — FTX acquires Blockfolio",
+            "url": "https://www.theblock.co/news/deals/2020-08-25-ftx-blockfolio-crypto-app-acquisition-75965",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22982,12 +23098,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2021-12-16 to 2021-12-17",
+        "summary": "adidas announced its Into the Metaverse Web3/NFT project on 16 December and the first NFT sale followed on 17 December.",
+        "significance": "It was one of the clearest entries by a major global apparel brand into crypto-native NFT culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "adidas — Into the Metaverse",
+            "url": "https://news.adidas.com/originals/into-the-metaverse--how-we-got-here-and-where-we-are-headed/s/6ccb61cb-2135-453e-8626-ac3d56faab30",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23282,12 +23404,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-29",
+        "summary": "Formula 1 announced Crypto.com as a global partner and inaugural partner of its new Sprint series.",
+        "significance": "The partnership placed a crypto exchange brand across one of the world's most global sports during the peak sponsorship boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Formula 1 — Crypto.com global partnership",
+            "url": "https://www.formula1.com/en/latest/article/formula-1-anosystem-crypto-com-as-inaugural-global-partner-of-the-f1-sprint.ozYI9zd0622tZyvroYhcM",
+            "type": "PRIMARY_ORGANIZATION"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -24642,15 +24770,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-16",
+        "summary": "Buterin sent roughly 410 trillion SHIB to an inaccessible burn address after receiving an enormous allocation from the token's creators.",
+        "significance": "The burn removed a huge fraction of SHIB's supply and became a foundational piece of Shiba Inu lore.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Etherscan / on-chain SHIB burn evidence",
+            "url": "https://etherscan.io/address/0xdead000000000000000042069420694206942069",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Exact token quantity should be taken from the indexed on-chain transfer when used in card copy."
       }
     },
     {
@@ -25685,14 +25819,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021-12-09",
+        "summary": "This is the same FreeRossDAO purchase of Ulbricht's Genesis Collection represented by LORE-EVT-0603.",
+        "significance": "Canonicalized to LORE-EVT-0603.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FreeRoss — Genesis Collection auction",
+            "url": "https://freeross.org/genesis-collection/",
+            "type": "PRIMARY_CAMPAIGN"
+          },
+          {
+            "title": "SuperRare — Ross Ulbricht Genesis Collection sale",
+            "url": "https://superrare.com/artwork-v2/ross-ulbricht-genesis-collection-30841",
+            "type": "MARKET_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0603",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -27580,12 +27725,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2021-04",
+        "summary": "Centrifuge's New Silver pool became MakerDAO's first live real-world-asset collateral integration, receiving a $5 million debt ceiling and minting DAI backed by real-world loans.",
+        "significance": "This was a major step from purely crypto-backed DeFi toward tokenized real-world credit and later on-chain Treasury markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Centrifuge — first MakerDAO real-world asset onboarding",
+            "url": "https://gov.centrifuge.io/t/a-run-through-of-the-maker-governance-process-using-centrifuge/1984",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Centrifuge — first RWA-backed DAI live",
+            "url": "https://gov.centrifuge.io/t/we-just-got-a-5mm-credit-line-from-makerdao-ama/1970",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28530,12 +28686,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-08-08",
+        "summary": "Nouns DAO's first daily NFT auction settled on 8 August 2021; the protocol was designed to auction one new Noun every 24 hours and route proceeds directly into a DAO-controlled treasury.",
+        "significance": "Nouns created a distinctive self-funding DAO/brand model in which NFT sales continuously capitalized a public treasury governed by holders.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Nouns.wtf — protocol mechanics",
+            "url": "https://nouns.wtf/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Remilia — Nouns launch / first auction",
+            "url": "https://blog.remilia.org/nouns-wtf/",
+            "type": "CONTEMPORARY_ANALYSIS"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30427,12 +30594,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-03",
+        "summary": "Larva Labs launched Meebits, a collection of 20,000 generative 3D avatars with downloadable 3D assets and an embedded trading marketplace.",
+        "significance": "Meebits extended the CryptoPunks lineage from 2D profile pictures toward interoperable 3D avatars and metaverse identity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Larva Labs — Introducing the Meebits",
+            "url": "https://www.larvalabs.com/blog/2021-5-3-1-1/introducing-the-meebits",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
