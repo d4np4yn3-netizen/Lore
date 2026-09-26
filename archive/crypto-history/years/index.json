@@ -1,189 +1,111 @@
 {
   "schema_version": "1.0.0",
-  "archive": "LORE Crypto History Archive",
-  "storage": "YEAR_SHARDED",
   "generated": "2026-09-26",
-  "total_events": 1229,
-  "canonical_working_store": "archive/crypto-history/years/",
-  "legacy_snapshot": "archive/crypto-history/events.json",
-  "note": "Research/edit the year files. The legacy monolithic events.json is retained temporarily for migration validation only.",
-  "years": {
-    "1976": {
-      "count": 1,
-      "path": "years/1976.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+  "evidence_cutoff": "2026-09-26",
+  "raw_discovery_events": 1229,
+  "canonical_evidence_records": 248,
+  "scoring_rule": "Only canonical sourced evidence records should be scored. Raw discovery records must first be verified, deduplicated, rejected or linked as context.",
+  "files": [
+    {
+      "label": "2008",
+      "path": "archive/crypto-history/years/2008.json",
+      "record_count": 3
     },
-    "1977": {
-      "count": 1,
-      "path": "years/1977.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2009",
+      "path": "archive/crypto-history/years/2009.json",
+      "record_count": 6
     },
-    "1982": {
-      "count": 2,
-      "path": "years/1982.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2010",
+      "path": "archive/crypto-history/years/2010.json",
+      "record_count": 8
     },
-    "1988": {
-      "count": 1,
-      "path": "years/1988.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2011",
+      "path": "archive/crypto-history/years/2011.json",
+      "record_count": 10
     },
-    "1989": {
-      "count": 1,
-      "path": "years/1989.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2012",
+      "path": "archive/crypto-history/years/2012.json",
+      "record_count": 9
     },
-    "1990": {
-      "count": 1,
-      "path": "years/1990.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2013",
+      "path": "archive/crypto-history/years/2013.json",
+      "record_count": 14
     },
-    "1992": {
-      "count": 1,
-      "path": "years/1992.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2014",
+      "path": "archive/crypto-history/years/2014.json",
+      "record_count": 17
     },
-    "1993": {
-      "count": 1,
-      "path": "years/1993.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2015",
+      "path": "archive/crypto-history/years/2015.json",
+      "record_count": 10
     },
-    "1994": {
-      "count": 2,
-      "path": "years/1994.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2016",
+      "path": "archive/crypto-history/years/2016.json",
+      "record_count": 11
     },
-    "1996": {
-      "count": 1,
-      "path": "years/1996.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2017",
+      "path": "archive/crypto-history/years/2017.json",
+      "record_count": 20
     },
-    "1997": {
-      "count": 1,
-      "path": "years/1997.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2018",
+      "path": "archive/crypto-history/years/2018.json",
+      "record_count": 16
     },
-    "1998": {
-      "count": 2,
-      "path": "years/1998.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2019",
+      "path": "archive/crypto-history/years/2019.json",
+      "record_count": 14
     },
-    "1999": {
-      "count": 1,
-      "path": "years/1999.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2020",
+      "path": "archive/crypto-history/years/2020.json",
+      "record_count": 23
     },
-    "2001": {
-      "count": 1,
-      "path": "years/2001.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2021",
+      "path": "archive/crypto-history/years/2021.json",
+      "record_count": 23
     },
-    "2002": {
-      "count": 1,
-      "path": "years/2002.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2022",
+      "path": "archive/crypto-history/years/2022.json",
+      "record_count": 19
     },
-    "2004": {
-      "count": 1,
-      "path": "years/2004.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2023",
+      "path": "archive/crypto-history/years/2023.json",
+      "record_count": 13
     },
-    "2005": {
-      "count": 2,
-      "path": "years/2005.json",
-      "schema_key": "events",
-      "date_mismatch_count": 0
+    {
+      "label": "2024",
+      "path": "archive/crypto-history/years/2024.json",
+      "record_count": 8
     },
-    "2008": {
-      "count": 3,
-      "path": "years/2008.json",
-      "schema_key": "records",
-      "date_mismatch_count": 0
+    {
+      "label": "2025",
+      "path": "archive/crypto-history/years/2025.json",
+      "record_count": 8
     },
-    "2009": {
-      "count": 11,
-      "path": "years/2009.json"
+    {
+      "label": "2026",
+      "path": "archive/crypto-history/years/2026.json",
+      "record_count": 3
     },
-    "2010": {
-      "count": 20,
-      "path": "years/2010.json"
-    },
-    "2011": {
-      "count": 30,
-      "path": "years/2011.json"
-    },
-    "2012": {
-      "count": 15,
-      "path": "years/2012.json"
-    },
-    "2013": {
-      "count": 43,
-      "path": "years/2013.json"
-    },
-    "2014": {
-      "count": 66,
-      "path": "years/2014.json"
-    },
-    "2015": {
-      "count": 31,
-      "path": "years/2015.json"
-    },
-    "2016": {
-      "count": 45,
-      "path": "years/2016.json"
-    },
-    "2017": {
-      "count": 94,
-      "path": "years/2017.json"
-    },
-    "2018": {
-      "count": 67,
-      "path": "years/2018.json"
-    },
-    "2019": {
-      "count": 71,
-      "path": "years/2019.json"
-    },
-    "2020": {
-      "count": 115,
-      "path": "years/2020.json"
-    },
-    "2021": {
-      "count": 176,
-      "path": "years/2021.json"
-    },
-    "2022": {
-      "count": 153,
-      "path": "years/2022.json"
-    },
-    "2023": {
-      "count": 114,
-      "path": "years/2023.json"
-    },
-    "2024": {
-      "count": 127,
-      "path": "years/2024.json"
-    },
-    "2025": {
-      "count": 24,
-      "path": "years/2025.json"
+    {
+      "label": "origins",
+      "path": "archive/crypto-history/years/origins.json",
+      "record_count": 13
     }
-  },
-  "audit_generated": "2026-09-26"
+  ],
+  "next_phase": "Continue researching raw deep-cut candidates and reconcile them into canonical year records; then build card-scoring fields."
 }
