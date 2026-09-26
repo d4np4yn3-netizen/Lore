@@ -1,3188 +1,369 @@
 {
   "schema_version": "1.0.0",
-  "year": "2020",
+  "year": 2020,
   "generated": "2026-09-26",
-  "count": 115,
-  "events": [
+  "purpose": "Canonical evidence file for 2020.",
+  "records": [
     {
-      "id": "LORE-EVT-0041",
-      "date": "2020",
-      "title": "DeFi Summer",
-      "branch": [
-        "DEFI"
-      ],
+      "date": "2020-01",
+      "title": "Aave V1 launches",
+      "status": "VERIFIED_WITH_MONTH",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2020-06 to 2020-09",
-        "summary": "DeFi Summer describes the rapid 2020 expansion of decentralized lending, automated market makers, liquidity mining and yield farming after COMP distribution.",
-        "significance": "It is a major historical era node connecting Compound, Curve, Yearn, SushiSwap, Uniswap and many copycat protocols rather than one single event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Compound Digest — COMP distribution June 15 2020",
-            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
-            "type": "PROJECT_ARCHIVE"
-          },
-          {
-            "title": "Ethereum.org — DeFi history to 2021",
-            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Sushi — vampire attack history",
-            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "Aave V1 launched after the ETHLend team rebuilt its peer-to-peer lending model around pooled liquidity.",
+      "significance": "Aave became one of DeFi's dominant lending protocols and helped popularize pooled money markets and flash loans.",
+      "sources": [
+        {
+          "title": "Aave Labs — historical contributions",
+          "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0042",
-      "date": "2020",
-      "title": "SushiSwap vampire attack",
-      "branch": [
-        "DEFI",
-        "DEX",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_SEQUENCE",
-        "exact_date": "2020-08-28 to 2020-09-09",
-        "summary": "SushiSwap launched as a Uniswap fork with SUSHI liquidity-mining incentives and then migrated more than $800 million of liquidity away from Uniswap in a 'vampire attack.'",
-        "significance": "The episode became a defining demonstration of permissionless forks, liquidity incentives and community-owned protocol competition.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Sushi — vampire attack history",
-            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "CoinDesk — SushiSwap liquidity migration",
-            "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0111",
-      "date": "2020",
-      "title": "Compound launches COMP liquidity mining",
-      "branch": [
-        "DEFI"
-      ],
+      "date": "2020-03-04",
+      "title": "India Supreme Court overturns RBI crypto-banking restriction",
+      "status": "VERIFIED",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-06-15",
-        "summary": "Compound began distributing COMP governance tokens to protocol users who supplied or borrowed assets.",
-        "significance": "The distribution ignited the liquidity-mining and yield-farming boom that defined DeFi Summer.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Compound Digest — COMP distribution June 15 2020",
-            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
-            "type": "PROJECT_ARCHIVE"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "India's Supreme Court set aside the RBI's 2018 circular restricting regulated entities from servicing crypto businesses.",
+      "significance": "The ruling reopened banking access to India's crypto sector and became a landmark judicial check on central-bank restrictions.",
+      "sources": [
+        {
+          "title": "Supreme Court of India — IAMAI v RBI",
+          "url": "https://indiankanoon.org/doc/12397485/",
+          "type": "COURT"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0112",
-      "date": "2020",
-      "title": "YFI and Yearn become emblematic of DeFi Summer",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-07-17",
-        "summary": "Andre Cronje launched the YFI governance token with no pre-mine, investor sale or founder allocation, distributing the initial 30,000 tokens through liquidity provision.",
-        "significance": "YFI became the defining 'fair launch' of DeFi Summer and helped turn yield optimization into a community-governed movement.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Yearn historical governance explainer",
-            "url": "https://medium.com/iearn/yearn-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f",
-            "type": "PROJECT_ARCHIVE"
-          },
-          {
-            "title": "Yearn history / July 17 YFI launch",
-            "url": "https://medium.com/quantum-economics/yearn-is-the-future-of-defi-and-defi-is-the-future-of-finance-4822b9f9409",
-            "type": "SECONDARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0113",
-      "date": "2020",
-      "title": "Uniswap distributes UNI in a landmark airdrop",
-      "branch": [
-        "DEFI",
-        "DEX",
-        "CULTURE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-09-16",
-        "summary": "Uniswap launched the UNI governance token and allocated 15% of the genesis supply for immediate distribution to historical users and liquidity providers.",
-        "significance": "The airdrop became the canonical retroactive token distribution and reset competitive dynamics after SushiSwap's attack.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Uniswap — Introducing UNI",
-            "url": "https://blog.uniswap.org/uni",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0114",
-      "date": "2020",
-      "title": "PayPal announces cryptocurrency support",
-      "branch": [
-        "ADOPTION",
-        "INSTITUTIONS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-21",
-        "summary": "PayPal announced a service allowing US users to buy, hold and sell Bitcoin, Ether, Bitcoin Cash and Litecoin, with plans to use crypto as a funding source at merchants.",
-        "significance": "PayPal brought direct crypto access to a vast mainstream payments user base and signaled a major fintech shift toward digital assets.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "PayPal — crypto buy/hold/sell service",
-            "url": "https://newsroom.paypal-corp.com/2020-10-21-PayPal-Launches-New-Service-Enabling-Users-to-Buy-Hold-and-Sell-Cryptocurrency",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0147",
-      "date": "2020",
-      "title": "US authorities bring major enforcement action against BitMEX",
-      "branch": [
-        "GOVERNMENTS",
-        "REGULATION",
-        "EXCHANGES"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-01",
-        "summary": "The CFTC sued BitMEX entities and founders over alleged unregistered derivatives operations and AML failures, while US prosecutors separately charged four executives with Bank Secrecy Act offenses.",
-        "significance": "The coordinated action was a watershed enforcement event for offshore crypto derivatives platforms.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "CFTC — BitMEX enforcement action",
-            "url": "https://www.cftc.gov/PressRoom/PressReleases/8270-20",
-            "type": "GOVERNMENT"
-          },
-          {
-            "title": "DOJ — BitMEX founders charged",
-            "url": "https://www.justice.gov/usao-sdny/pr/founders-and-executives-shore-cryptocurrency-derivatives-exchange-charged-violation",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0151",
-      "date": "2020",
-      "title": "Bahamas launches the Sand Dollar CBDC",
-      "branch": [
-        "GOVERNMENTS",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-20",
-        "summary": "The Central Bank of The Bahamas began national rollout of the Sand Dollar, a digital version of the Bahamian dollar.",
-        "significance": "The Sand Dollar became the first widely recognized fully deployed central-bank digital currency at national scale.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Central Bank of Bahamas — Sand Dollar rollout",
-            "url": "https://www.centralbankbahamas.com/news/public-notices/the-sand-dollar-is-on-schedule-for-gradual-national-release-to-the-bahamas-in-mid-october-2020",
-            "type": "CENTRAL_BANK"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0153",
-      "date": "2020",
-      "title": "China expands public testing of the digital yuan",
-      "branch": [
-        "GOVERNMENTS",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-09 to 2020-10-18",
-        "summary": "Shenzhen and the People's Bank of China ran the first large-scale externally controlled public digital-yuan pilot, distributing 10 million yuan in 50,000 red packets for spending at local merchants.",
-        "significance": "The pilot was the digital yuan's first large public test and a major milestone in the global CBDC race.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Shenzhen Government — first external digital-yuan pilot",
-            "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10557982.html",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0160",
-      "date": "2020",
-      "title": "Flash-loan attacks expose new DeFi security risks",
-      "branch": [
-        "DEFI",
-        "HACKS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020-02",
-        "summary": "The bZx attacks made flash-loan-enabled manipulation a major DeFi security concern.",
-        "significance": "Security-era context under the canonical bZx exploit events.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Nexus Mutual — bZx hack",
-            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0586",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0188",
-      "date": "2020",
-      "title": "US government seizes a large cache of Silk Road-linked Bitcoin",
-      "branch": [
-        "GOVERNMENTS",
-        "BITCOIN",
-        "CRIME"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-11-03 to 2020-11-05",
-        "summary": "US authorities seized approximately 69,370 BTC linked to funds stolen from Silk Road and filed a civil forfeiture complaint days later.",
-        "significance": "At the time it was the largest cryptocurrency seizure announced by the US Department of Justice and added a huge new government Bitcoin holding.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "DOJ — November 2020 Silk Road-linked Bitcoin seizure",
-            "url": "https://www.justice.gov/usao-ndca/pr/united-states-files-civil-action-forfeit-cryptocurrency-valued-over-one-billion-us",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0227",
-      "date": "2020",
-      "title": "Solana mainnet beta launches",
-      "branch": [
-        "ALTCOINS",
-        "TECHNOLOGY"
-      ],
+      "date": "2020-03-12",
+      "title": "COVID Black Thursday crashes Bitcoin and DeFi",
+      "status": "VERIFIED",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_MONTH",
-        "exact_date": "2020-03",
-        "summary": "Solana initialized its Mainnet Beta with a global validator community in March 2020.",
-        "significance": "Solana introduced a high-throughput alternative smart-contract architecture that later became one of the largest non-Ethereum crypto ecosystems.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Solana — 2020 year in review",
-            "url": "https://solana.com/uk/news/year-in-review-2020",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Solana — May 2020 newsletter",
-            "url": "https://solana.com/nl/news/may-newsletter",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "During the global COVID-19 panic, Bitcoin fell violently alongside traditional risk assets while Ethereum congestion and falling collateral prices triggered severe DeFi liquidations.",
+      "significance": "Black Thursday shattered simple safe-haven narratives and became DeFi's first major systemic stress test.",
+      "sources": [
+        {
+          "title": "CoinDesk — Bitcoin March 12 crash",
+          "url": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "MakerDAO — DeFi History",
+          "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0228",
-      "date": "2020",
-      "title": "Avalanche mainnet launches",
-      "branch": [
-        "ALTCOINS",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_MONTH",
-        "exact_date": "2020-09",
-        "summary": "Avalanche launched its mainnet in September 2020.",
-        "significance": "Avalanche became a major smart-contract and subnet ecosystem built around the Avalanche consensus family.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Avalanche Support — mainnet history",
-            "url": "https://support.avax.network/en/articles/8460478-what-is-a-mainnet",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0229",
-      "date": "2020",
-      "title": "Curve becomes core stablecoin DEX infrastructure",
-      "branch": [
-        "DEFI",
-        "DEX",
-        "STABLECOINS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_YEAR",
-        "exact_date": "2020-01",
-        "summary": "Curve Finance launched in early 2020 with an automated market maker optimized for assets expected to trade at similar prices, initially stablecoins.",
-        "significance": "Curve became core DeFi infrastructure for low-slippage stablecoin and wrapped-asset trading.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Curve — history of the stablecoin AMM",
-            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0230",
-      "date": "2020",
-      "title": "Aave becomes a major decentralized lending protocol",
-      "branch": [
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_MONTH",
-        "exact_date": "2020-01",
-        "summary": "Aave V1 launched in January 2020 after the ETHLend team rebuilt its peer-to-peer lending model around pooled liquidity.",
-        "significance": "Aave became one of DeFi's dominant lending protocols and helped popularize flash loans and pooled money markets.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Aave Labs — historical contributions / Aave V1",
-            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0231",
-      "date": "2020",
-      "title": "Yam Finance rapid rise and bug become DeFi Summer lore",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-08-11 to 2020-08-13",
-        "summary": "Yam Finance launched after roughly ten days of development, rapidly attracted hundreds of millions of dollars of staked assets and then disclosed a critical rebase/governance bug.",
-        "significance": "YAM became the perfect symbol of DeFi Summer's speed, experimental 'food token' culture and smart-contract risk.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Ethereum.org — DeFi history to 2021",
-            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0272",
-      "date": "2020",
-      "title": "Flashbots forms to address MEV and transaction-ordering issues",
-      "branch": [
-        "ETHEREUM",
-        "TECHNOLOGY"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_SEQUENCE",
-        "exact_date": "2020-07 to 2020-11",
-        "summary": "The MEV-Ship research collective formed in July 2020; Flashbots Research Organization followed in November and published the initial Flashbots Auction architecture and open-sourced mev-geth.",
-        "significance": "Flashbots transformed MEV from an obscure research problem into explicit Ethereum infrastructure and shaped later block-building architecture.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Flashbots — history and auction timeline",
-            "url": "https://www.flashbots.net/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Flashbots Docs — Auction overview",
-            "url": "https://docs.flashbots.net/flashbots-auction/overview",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0291",
-      "date": "2020",
-      "title": "MakerDAO Black Thursday produces emergency governance",
-      "branch": [
-        "DEFI",
-        "STABLECOINS",
-        "DISASTERS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_RANGE",
-        "exact_date": "2020-03-12 to 2020-03-13",
-        "summary": "MakerDAO suffered severe liquidation stress during Black Thursday as collateral prices collapsed and congestion impaired keepers, producing zero-bid auctions and protocol bad debt.",
-        "significance": "The crisis became DeFi's first major systemic stress test and forced emergency governance, risk changes and new collateral choices.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "MakerDAO — DeFi History timeline",
-            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0292",
-      "date": "2020",
-      "title": "Uniswap V2 launches",
-      "branch": [
-        "DEX",
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-05-18",
-        "summary": "Uniswap v2 deployed to Ethereum mainnet with arbitrary ERC-20/ERC-20 pairs, flash swaps and improved oracle functionality.",
-        "significance": "V2 turned Uniswap from an elegant proof of concept into a major decentralized exchange and the platform targeted by SushiSwap's vampire attack.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Uniswap — v2 mainnet launch",
-            "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v2",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0293",
-      "date": "2020",
-      "title": "Square purchases Bitcoin for its corporate treasury",
-      "branch": [
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-08",
-        "summary": "Square announced the purchase of approximately 4,709 BTC for $50 million, about 1% of its assets at the time.",
-        "significance": "Square's purchase reinforced the emerging idea that public technology companies could hold Bitcoin on their balance sheets.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Square — invests $50M in Bitcoin",
-            "url": "https://squareup.com/us/en/press/2020-bitcoin-investment",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0311",
-      "date": "2020",
-      "title": "Binance Smart Chain launches",
-      "branch": [
-        "EXCHANGES",
-        "ALTCOINS",
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-09-01",
-        "summary": "Binance Smart Chain launched on mainnet as an EVM-compatible parallel chain supporting smart contracts and BNB staking.",
-        "significance": "BSC became the largest early low-cost EVM competitor to Ethereum and powered a huge retail DeFi boom.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "BNB Chain — BSC Mainnet Launch",
-            "url": "https://www.bnbchain.org/en/blog/binance-smart-chain-mainnet-launch",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0320",
-      "date": "2020",
-      "title": "Telegram abandons original TON project after SEC court battle",
-      "branch": [
-        "ICO",
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-05-12",
-        "summary": "Telegram founder Pavel Durov announced that Telegram was ending its involvement in the original TON blockchain after a US court blocked the planned Gram distribution.",
-        "significance": "The shutdown showed that even a globally distributed technology project backed by a huge private token raise could be stopped by securities enforcement.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Pavel Durov — What Was TON And Why It Is Over",
-            "url": "https://telegra.ph/What-Was-TON-And-Why-It-Is-Over-05-12",
-            "type": "FOUNDER_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0325",
-      "date": "2020",
-      "title": "Art Blocks launches generative on-chain art platform",
-      "branch": [
-        "NFT",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-11-27",
-        "summary": "Art Blocks launched in its modern form with Snowfro's Chromie Squiggle on 27 November 2020.",
-        "significance": "Art Blocks made fully on-chain generative art a major NFT category and influenced the art market far beyond profile-picture collections.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Art Blocks — About",
-            "url": "https://www.artblocks.io/articles/about-art-blocks",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Art Blocks — Chromie Squiggle",
-            "url": "https://www.artblocks.io/collection/chromie-squiggle-by-snowfro",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0329",
-      "date": "2020",
-      "title": "US OCC allows national banks to provide crypto custody services",
-      "branch": [
-        "GOVERNMENTS",
-        "REGULATION",
-        "INSTITUTIONS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-07-22",
-        "summary": "The US Office of the Comptroller of the Currency clarified that national banks and federal savings associations may provide cryptocurrency custody services.",
-        "significance": "The interpretation opened a formal route for federally chartered banks to hold cryptographic keys and offer crypto custody.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "OCC — national banks may provide crypto custody",
-            "url": "https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-98.html",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0339",
-      "date": "2020",
-      "title": "India Supreme Court overturns central-bank crypto banking restriction",
-      "branch": [
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-03-04",
-        "summary": "India's Supreme Court set aside the RBI's 2018 circular that had prohibited regulated entities from providing banking services to crypto businesses.",
-        "significance": "The decision reopened banking access to India's crypto sector and became a landmark judicial check on a central-bank restriction.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Supreme Court of India — IAMAI v RBI judgment",
-            "url": "https://indiankanoon.org/doc/12397485/",
-            "type": "COURT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0346",
-      "date": "2020",
-      "title": "Switzerland adopts DLT legal reforms",
-      "branch": [
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-09-25",
-        "summary": "The Swiss Parliament adopted the federal DLT blanket act on 25 September 2020, amending multiple laws to create clearer treatment for blockchain securities, custody and DLT market infrastructure.",
-        "significance": "Switzerland became an early major jurisdiction to build a broad statutory framework specifically accommodating distributed-ledger assets and trading.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Swiss Federal Council — DLT Act history",
-            "url": "https://www.admin.ch/en/nsb?id=80775",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0353",
-      "date": "2020",
-      "title": "Bahamas launches Sand Dollar CBDC",
-      "branch": [
-        "GOVERNMENTS",
-        "TECHNOLOGY"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE",
-        "exact_date": "2020-10-20",
-        "summary": "This is the same Sand Dollar national CBDC rollout as LORE-EVT-0151.",
-        "significance": "Canonicalized to LORE-EVT-0151.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Central Bank of Bahamas — Sand Dollar rollout",
-            "url": "https://www.centralbankbahamas.com/news/public-notices/the-sand-dollar-is-on-schedule-for-gradual-national-release-to-the-bahamas-in-mid-october-2020",
-            "type": "CENTRAL_BANK"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0151",
-        "relation": "DUPLICATE",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0355",
-      "date": "2020",
-      "title": "China expands digital-yuan pilots",
-      "branch": [
-        "GOVERNMENTS",
-        "TECHNOLOGY"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE",
-        "exact_date": "2020-10",
-        "summary": "This is the same large public digital-yuan pilot captured by LORE-EVT-0153.",
-        "significance": "Canonicalized to the Shenzhen digital-yuan pilot.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Shenzhen Government — digital yuan history",
-            "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_10557982.html",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0153",
-        "relation": "DUPLICATE",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0375",
-      "date": "2020",
-      "title": "KuCoin suffers a major exchange hack",
-      "branch": [
-        "HACKS",
-        "EXCHANGES"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-09-26",
-        "summary": "KuCoin detected unauthorized transfers from hot wallets after attackers obtained private keys in a sophisticated compromise; the exchange suspended deposits and withdrawals and later recovered or neutralized much of the affected value.",
-        "significance": "The incident was one of the largest exchange hacks of 2020 and demonstrated coordinated tracing, token freezes and exchange recovery responses.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "KuCoin — Security Incident Update",
-            "url": "https://www.kucoin.com/blog/kucoin-security-incident-update",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0383",
-      "date": "2020",
-      "title": "The Graph mainnet launches decentralized indexing network",
-      "branch": [
-        "TECHNOLOGY",
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-12-17",
-        "summary": "The Graph launched its decentralized indexing network mainnet.",
-        "significance": "The Graph became core data-query infrastructure for decentralized applications and a major piece of Web3's middleware stack.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "The Graph — mainnet launch",
-            "url": "https://thegraph.com/blog/the-graph-network-launches-mainnet/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0384",
-      "date": "2020",
-      "title": "Filecoin mainnet launches decentralized storage market",
-      "branch": [
-        "TECHNOLOGY",
-        "ALTCOINS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-15",
-        "summary": "Filecoin mainnet went live around 15:00 UTC on 15 October 2020.",
-        "significance": "Filecoin created a live token-incentivized decentralized storage marketplace after one of the ICO era's largest fundraises.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Filecoin — mainnet is live",
-            "url": "https://www.filecoin.io/blog/filecoin-mainnet-is-live",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0388",
-      "date": "2020",
-      "title": "THORChain begins cross-chain liquidity development",
-      "branch": [
-        "DEFI",
-        "DEX"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "THORChain's cross-chain liquidity protocol developed through 2020 ahead of later multichain launches and exploits.",
-        "significance": "Protocol-development context; choose a specific mainnet or exploit for card scoring.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0391",
-      "date": "2020",
-      "title": "Polkadot mainnet launch establishes relay-chain architecture",
-      "branch": [
-        "ALTCOINS",
-        "TECHNOLOGY"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-05-26",
-        "summary": "Web3 Foundation launched the initial version of Polkadot on 26 May 2020.",
-        "significance": "Polkadot became a major multi-chain architecture built around shared security and interoperability.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Web3 Foundation — Polkadot is live",
-            "url": "https://web3.foundation/press/polkadot-is-live/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0400",
-      "date": "2020",
-      "title": "Optimistic rollups emerge in production experiments",
-      "branch": [
-        "ETHEREUM",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Optimistic-rollup teams moved from research toward testnets and early production experiments during 2020.",
-        "significance": "Scaling-era context; Arbitrum/Optimism mainnet launches are stronger milestones.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0406",
-      "date": "2020",
-      "title": "Flash loans become a defining DeFi primitive",
-      "branch": [
-        "DEFI",
-        "TECHNOLOGY"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020",
-        "summary": "Flash loans became a defining DeFi primitive after Aave V1 introduced them at scale.",
-        "significance": "Canonicalized to Aave's flash-loan introduction.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Aave Labs — historical contributions report",
-            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0407",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0407",
-      "date": "2020",
-      "title": "Aave introduces flash loans at scale",
-      "branch": [
-        "DEFI",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_MONTH",
-        "exact_date": "2020-01",
-        "summary": "Aave V1 launched in January 2020 and introduced flash loans: uncollateralized loans that must be borrowed and repaid within one atomic transaction.",
-        "significance": "Flash loans became a uniquely crypto-native financial primitive used for arbitrage, refinancing, liquidations and, infamously, exploits.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Aave Labs — historical contributions report",
-            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0481",
-      "date": "2020",
-      "title": "March crash sends Bitcoin below 4000 dollars intraday",
-      "branch": [
-        "BITCOIN",
-        "MARKETS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_SUBEVENT",
-        "exact_date": "2020-03-12",
-        "summary": "Bitcoin's plunge below $6,000 and then $5,000 was part of the same Black Thursday crash.",
-        "significance": "Price detail belongs under the canonical March 12 crash.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "CoinDesk — Bitcoin crash March 12 2020",
-            "url": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0040",
-        "relation": "SUBEVENT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0482",
-      "date": "2020",
-      "title": "MakerDAO emergency auctions expose zero-bid liquidation failures",
-      "branch": [
-        "DEFI",
-        "STABLECOINS",
-        "DISASTERS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_SUBEVENT",
-        "exact_date": "2020-03-12",
-        "summary": "Zero-bid Maker collateral auctions were a key failure mode during Black Thursday.",
-        "significance": "Canonicalized as a technical subevent of the Maker Black Thursday crisis.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "MakerDAO — DeFi History timeline",
-            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0291",
-        "relation": "SUBEVENT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0483",
-      "date": "2020",
-      "title": "Compound governance token sparks liquidity-mining boom",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020-06-15",
-        "summary": "COMP distribution triggered the yield-farming frenzy associated with Compound.",
-        "significance": "Canonicalized under the COMP liquidity-mining launch.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Compound Digest — COMP distribution June 15 2020",
-            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
-            "type": "PROJECT_ARCHIVE"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0111",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0484",
-      "date": "2020",
-      "title": "Curve wars begin around stablecoin liquidity incentives",
-      "branch": [
-        "DEFI",
-        "DEX"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2020 onward",
-        "summary": "CRV's vote-escrow and emissions design created incentives for protocols to compete for control of Curve liquidity gauges; the full 'Curve Wars' became more pronounced after the 2020 token launch.",
-        "significance": "Important DeFi incentive-design context, but the CRV launch itself is the cleaner historical event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Curve — Curve Wars history",
-            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0752",
-        "relation": "AFTERMATH",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0485",
-      "date": "2020",
-      "title": "SushiSwap migrates liquidity away from Uniswap",
-      "branch": [
-        "DEFI",
-        "DEX",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_SUBEVENT",
-        "exact_date": "2020-09-09",
-        "summary": "The large liquidity migration from Uniswap to SushiSwap was the execution phase of the canonical vampire attack.",
-        "significance": "Canonicalized to LORE-EVT-0042.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "CoinDesk — SushiSwap liquidity migration",
-            "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0042",
-        "relation": "SUBEVENT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0486",
-      "date": "2020",
-      "title": "Chef Nomi sells SUSHI treasury tokens and later returns funds",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_SUBEVENT",
-        "exact_date": "2020-09",
-        "summary": "Chef Nomi sold developer-fund tokens amid accusations of a rug pull, handed control to Sam Bankman-Fried and later returned funds.",
-        "significance": "The founder drama made SushiSwap one of the most chaotic and memorable governance stories of DeFi Summer.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Sushi — vampire attack history",
-            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "CoinDesk — SushiSwap liquidity migration",
-            "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0042",
-        "relation": "LORE_SUBEVENT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0487",
-      "date": "2020",
-      "title": "YFI launches with no founder pre-mine",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020-07-17",
-        "summary": "YFI's no-pre-mine distribution is the core mechanism of the canonical Yearn/YFI launch.",
-        "significance": "Canonicalized to LORE-EVT-0112.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Yearn historical governance explainer",
-            "url": "https://medium.com/iearn/yearn-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f",
-            "type": "PROJECT_ARCHIVE"
-          },
-          {
-            "title": "Yearn history / July 17 YFI launch",
-            "url": "https://medium.com/quantum-economics/yearn-is-the-future-of-defi-and-defi-is-the-future-of-finance-4822b9f9409",
-            "type": "SECONDARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0112",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0488",
-      "date": "2020",
-      "title": "Yam Finance asks users to exit after a governance bug",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_SUBEVENT",
-        "exact_date": "2020-08-12",
-        "summary": "Yam's team warned users after discovering the governance/rebase bug.",
-        "significance": "Canonicalized as the failure phase of the YAM event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Ethereum.org — DeFi history to 2021",
-            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0231",
-        "relation": "SUBEVENT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0489",
-      "date": "2020",
-      "title": "MicroStrategy CEO Michael Saylor becomes a public Bitcoin advocate",
-      "branch": [
-        "BITCOIN",
-        "INSTITUTIONS",
-        "PEOPLE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2020 onward",
-        "summary": "MicroStrategy CEO Michael Saylor became one of Bitcoin's most prominent corporate advocates after the treasury purchase.",
-        "significance": "Founder/advocacy context flows from the canonical treasury event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "SEC filing — MicroStrategy adopts Bitcoin treasury reserve",
-            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849dex991.htm",
-            "type": "REGULATORY_FILING"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0043",
-        "relation": "PEOPLE_CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0490",
-      "date": "2020",
-      "title": "PayPal enables crypto purchases for US users",
-      "branch": [
-        "ADOPTION",
-        "INSTITUTIONS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_SUBEVENT",
-        "exact_date": "2020-11-12",
-        "summary": "PayPal later announced that all eligible US account holders could buy, hold and sell supported cryptocurrencies.",
-        "significance": "This was the consumer rollout phase of the canonical PayPal crypto announcement.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "PayPal — crypto buy/hold/sell service",
-            "url": "https://newsroom.paypal-corp.com/2020-10-21-PayPal-Launches-New-Service-Enabling-Users-to-Buy-Hold-and-Sell-Cryptocurrency",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0114",
-        "relation": "ROLLOUT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0491",
-      "date": "2020",
-      "title": "Ethereum deposit contract opens for Beacon Chain staking",
-      "branch": [
-        "ETHEREUM"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-14",
-        "summary": "Ethereum's staking deposit contract was deployed on mainnet as the gateway for validators joining the Beacon Chain.",
-        "significance": "The contract made the long-planned proof-of-stake transition economically real by allowing ETH to be committed to consensus.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Ethereum.org — fork timeline",
-            "url": "https://ethereum.org/ethereum-forks/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0492",
-      "date": "2020",
-      "title": "Beacon Chain reaches genesis threshold",
-      "branch": [
-        "ETHEREUM"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_SUBEVENT",
-        "exact_date": "2020-11-24 to 2020-11-27",
-        "summary": "The Beacon Chain reached the minimum validator-deposit threshold required for genesis before the deadline.",
-        "significance": "Reaching the threshold confirmed sufficient economic participation for proof-of-stake genesis.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Ethereum.org — Beacon Chain",
-            "url": "https://ethereum.org/roadmap/beacon-chain/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Ethereum.org — fork timeline",
-            "url": "https://ethereum.org/ethereum-forks/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0115",
-        "relation": "PRECURSOR",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0569",
-      "date": "2020",
-      "title": "Monero delistings increase on regulated exchanges",
-      "branch": [
-        "PRIVACY",
-        "REGULATION"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Regulated exchanges increasingly restricted privacy coins in some jurisdictions.",
-        "significance": "Regulatory trend; specific exchange delistings such as Bittrex/Kraken are cleaner events.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0574",
-      "date": "2020",
-      "title": "Tornado Cash governance token launches",
-      "branch": [
-        "PRIVACY",
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-12-18",
-        "summary": "Tornado Cash proposed and began distributing its TORN governance system to early users through vTORN claims and anonymity mining.",
-        "significance": "The move attempted to put governance of a major Ethereum privacy protocol into user hands, setting up later regulatory and governance controversies.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Tornado Cash — Governance Proposal",
-            "url": "https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Tornado Cash — TORN docs",
-            "url": "https://docs.tornado.cash/general/torn",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0578",
-      "date": "2020",
-      "title": "Samourai Wallet Whirlpool gains privacy-focused Bitcoin users",
-      "branch": [
-        "BITCOIN",
-        "PRIVACY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Samourai Wallet's Whirlpool CoinJoin gained use among Bitcoin privacy users.",
-        "significance": "Adoption context rather than one dated event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0582",
-      "date": "2020",
-      "title": "Ledger customer-data breach exposes hardware-wallet buyers",
-      "branch": [
-        "SECURITY",
-        "DISASTERS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_SEQUENCE",
-        "exact_date": "2020-06-25 to 2020-12-20",
-        "summary": "An attacker accessed Ledger's ecommerce/marketing database in June 2020. Ledger disclosed the breach in July; in December a database containing roughly one million email addresses and about 272,000 detailed customer records was dumped publicly.",
-        "significance": "The breach became a major lesson that hardware-wallet keys can remain secure while customer identity data creates severe physical and phishing risks.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Ledger — July 2020 data breach",
-            "url": "https://www.ledger.com/addressing-the-july-2020-e-commerce-and-marketing-data-breach",
-            "type": "COMPANY_PRIMARY"
-          },
-          {
-            "title": "Ledger — December database leak update",
-            "url": "https://www.ledger.com/message-ledgers-ceo-data-leak",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0586",
-      "date": "2020",
-      "title": "bZx flash-loan attacks expose composability risks",
-      "branch": [
-        "DEFI",
-        "HACKS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_RANGE",
-        "exact_date": "2020-02-15 to 2020-02-18",
-        "summary": "bZx suffered two closely spaced attacks in February 2020 that used flash loans and complex DeFi transactions to manipulate prices and extract value.",
-        "significance": "The attacks were DeFi's first famous flash-loan exploits and showed how composability could create entirely new attack surfaces.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Nexus Mutual — bZx February 2020 hack",
-            "url": "https://docs.nexusmutual.io/overview/claims-history/bzx-2020/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "bZx post-mortem analysis",
-            "url": "https://kermankohli.substack.com/p/announcing-defi-audits-and-the-holistic",
-            "type": "CONTEMPORARY_TECHNICAL"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0598",
-      "date": "2019",
-      "title": "Gitcoin Grants popularizes quadratic funding in crypto",
-      "branch": [
-        "DAO",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_OR_CLAIM_CORRECTED",
-        "exact_date": "2019 onward",
-        "summary": "Gitcoin Grants first used quadratic funding in its inaugural 2019 rounds and expanded significantly through 2020; the original row incorrectly implies the concept began in 2020.",
-        "significance": "Gitcoin became crypto's flagship real-world experiment in quadratic funding for digital public goods.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Gitcoin — Grants history",
-            "url": "https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/what-is-a-grant",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Gitcoin — grants round history",
-            "url": "https://support.gitcoin.co/gitcoin-knowledge-base/gitcoin-grants/general-questions/when-is-the-next-grants-round",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0607",
-      "date": "2020",
-      "title": "Total value locked becomes a headline DeFi metric",
-      "branch": [
-        "DEFI",
-        "MARKETS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2020",
-        "summary": "Total value locked became a headline metric used to compare DeFi protocols and the rapidly expanding sector.",
-        "significance": "Important measurement/culture context for DeFi Summer but not a discrete card event.",
-        "source_confidence": "MEDIUM",
-        "sources": [
-          {
-            "title": "Ethereum.org — DeFi history to 2021",
-            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0041",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0612",
-      "date": "2020",
-      "title": "Serum launches on Solana with FTX backing",
-      "branch": [
-        "ALTCOINS",
-        "DEX",
-        "FTX"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-08-31",
-        "summary": "Serum went live on Solana on 31 August 2020 as a non-custodial on-chain order-book exchange backed by FTX, Alameda Research and Solana ecosystem participants.",
-        "significance": "Serum became central liquidity infrastructure for early Solana DeFi and later a key example of FTX contagion risk.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Project Serum — Overview",
-            "url": "https://docs.projectserum.com/introduction/overview",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0621",
-      "date": "2020",
-      "title": "Cardano Shelley introduces staking",
-      "branch": [
-        "ALTCOINS",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-07-29T21:44:51Z",
-        "summary": "Cardano transitioned from Byron to the Shelley era, introducing stake pools, delegation and the path toward decentralized block production.",
-        "significance": "Shelley was Cardano's defining proof-of-stake decentralization milestone.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Cardano — Shelley hard fork",
-            "url": "https://cardanofoundation.org/blog/shelley-is-here-the-cardano-blockchain-undergoes-a-historic-hard-fork",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0627",
-      "date": "2020",
-      "title": "Steem hard forks after governance dispute involving Justin Sun",
-      "branch": [
-        "ALTCOINS",
-        "FORKS",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_PRECURSOR",
-        "exact_date": "2020-02 to 2020-03",
-        "summary": "Steem's governance crisis escalated after Justin Sun acquired Steemit Inc. and exchanges used customer-held stake in disputed witness votes, helping trigger the community fork to Hive.",
-        "significance": "The conflict exposed weaknesses in delegated proof-of-stake governance when large concentrated holdings and custodial exchanges could influence validator elections.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Hive — Origins",
-            "url": "https://hive.io/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0628",
-        "relation": "PRECURSOR",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0628",
-      "date": "2020",
-      "title": "Hive launches as community fork of Steem",
-      "branch": [
-        "ALTCOINS",
-        "FORKS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-03-20T14:00:00Z",
-        "summary": "Hive launched on 20 March 2020 as a community-driven fork of Steem after a governance conflict over Steemit Inc.'s stake and Justin Sun's takeover.",
-        "significance": "The fork became a major proof-of-stake governance case study in communities attempting to escape concentrated stake control.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Hive — Roadmap / Birth of Hive",
-            "url": "https://www.hive.io/en/roadmap/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Hive Developers — Hardfork timeline",
-            "url": "https://developers.hive.io/apidefinitions/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0630",
-      "date": "2020",
-      "title": "Polkadot mainnet launches",
-      "branch": [
-        "ALTCOINS",
-        "TECHNOLOGY"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE",
-        "exact_date": "2020-05-26",
-        "summary": "This is the same Polkadot mainnet launch as LORE-EVT-0391.",
-        "significance": "Canonicalized to LORE-EVT-0391.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Web3 Foundation — Polkadot is live",
-            "url": "https://web3.foundation/press/polkadot-is-live/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0391",
-        "relation": "DUPLICATE",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0743",
-      "date": "2020",
-      "title": "Bitcoin mining reward falls to 6.25 BTC at third halving",
-      "branch": [
-        "BITCOIN",
-        "MINING"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE",
-        "exact_date": "2020-05-11",
-        "summary": "This is the same third Bitcoin halving as LORE-EVT-0110.",
-        "significance": "Canonicalized to the halving event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Bitcoin.org — Halving history",
-            "url": "https://bitcoin.org/en/halving",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0110",
-        "relation": "DUPLICATE",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0744",
-      "date": "2020",
-      "title": "Paul Tudor Jones publicly reveals Bitcoin allocation",
-      "branch": [
-        "INSTITUTIONS",
-        "BITCOIN",
-        "PEOPLE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_SECONDARY",
-        "exact_date": "2020-05-07",
-        "summary": "Macro investor Paul Tudor Jones told clients his Tudor BVI fund could allocate a low-single-digit percentage to Bitcoin futures as an inflation hedge.",
-        "significance": "One of the earliest endorsements of Bitcoin by a globally prominent hedge-fund manager helped legitimize the institutional macro thesis.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Bloomberg — Paul Tudor Jones buys Bitcoin",
-            "url": "https://www.bloomberg.com/news/articles/2020-05-07/paul-tudor-jones-buys-bitcoin-says-he-s-reminded-of-gold-in-70s",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0745",
-      "date": "2020",
-      "title": "Stone Ridge and NYDIG expand institutional Bitcoin infrastructure",
-      "branch": [
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Stone Ridge and NYDIG expanded institutional Bitcoin custody, execution and investment infrastructure.",
-        "significance": "Institutional trend; named investments/purchases make stronger card events.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0746",
-      "date": "2020",
-      "title": "MassMutual buys Bitcoin for general investment account",
-      "branch": [
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-12-10",
-        "summary": "MassMutual disclosed a $100 million Bitcoin purchase for its general investment account, facilitated and custodied by NYDIG, alongside a $5 million equity investment in NYDIG.",
-        "significance": "A 169-year-old insurance company holding Bitcoin directly in its general account was a powerful institutional-adoption signal.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "NYDIG — MassMutual Bitcoin purchase",
-            "url": "https://www.prnewswire.com/news-releases/institutional-bitcoin-provider-nydig-announces-minority-stake-purchase-by-massmutual-301190811.html",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0747",
-      "date": "2020",
-      "title": "Grayscale television ads market crypto to mainstream investors",
-      "branch": [
-        "INSTITUTIONS",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Grayscale ran mass-market television advertising for Bitcoin and crypto trusts.",
-        "significance": "Marketing/culture context rather than a core historical event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0748",
-      "date": "2020",
-      "title": "Robinhood crypto trading grows with retail speculation",
-      "branch": [
-        "EXCHANGES",
-        "CULTURE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Robinhood crypto trading grew rapidly during the retail speculation boom.",
-        "significance": "Platform-growth context.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0749",
-      "date": "2020",
-      "title": "Robinhood outage controversies affect crypto traders",
-      "branch": [
-        "EXCHANGES",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Robinhood outages frustrated traders during periods of intense market activity.",
-        "significance": "Platform-operations context; not a singular crypto-history event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0750",
-      "date": "2020",
-      "title": "Wrapped Ether and wrapped-token usage becomes core DeFi plumbing",
-      "branch": [
-        "ETHEREUM",
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Wrapped Ether and other wrapped tokens became core DeFi plumbing.",
-        "significance": "Infrastructure trend rather than one event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0751",
-      "date": "2020",
-      "title": "Synthetix liquidity incentives help define early yield farming",
-      "branch": [
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Synthetix liquidity incentives helped shape early yield-farming mechanics.",
-        "significance": "DeFi-design context; protocol-specific launch events are stronger.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0752",
-      "date": "2020",
-      "title": "Curve CRV launch sparks governance and liquidity wars",
-      "branch": [
-        "DEFI",
-        "DAO"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_MONTH",
-        "exact_date": "2020-08",
-        "summary": "Curve's CRV governance token and DAO contracts were unexpectedly deployed in August 2020 by an anonymous community member using publicly available code; Curve verified the deployment and adopted it.",
-        "significance": "The strange launch introduced vote-escrowed CRV and the emissions-control system that later drove the 'Curve Wars.'",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Curve — history of Curve and CRV launch",
-            "url": "https://news.curve.finance/curve-finance-the-rise-of-the-home-of-stablecoins/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0753",
-      "date": "2020",
-      "title": "Pickle Finance and food-token farming epitomize DeFi Summer culture",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2020",
-        "summary": "Food-themed yield-farming tokens such as YAM, Sushi and Pickle became a defining visual/cultural motif of DeFi Summer.",
-        "significance": "Strong LORE/book context, but individual protocols make cleaner card events.",
-        "source_confidence": "MEDIUM",
-        "sources": [
-          {
-            "title": "Ethereum.org — DeFi history to 2021",
-            "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Sushi — vampire attack history",
-            "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0041",
-        "relation": "CULTURE_CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0754",
-      "date": "2020",
-      "title": "Andre Cronje 'test in prod' culture becomes famous in DeFi",
-      "branch": [
-        "PEOPLE",
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Andre Cronje's rapid experimentation and 'test in prod' reputation became emblematic of DeFi culture.",
-        "significance": "People/culture context with no single canonical date.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0755",
-      "date": "2020",
-      "title": "Cover Protocol exploit and token relaunch show DeFi fragility",
-      "branch": [
-        "DEFI",
-        "HACKS"
-      ],
-      "tier": "DEEP_CUT",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Cover Protocol suffered an exploit and token reset during the experimental DeFi period.",
-        "significance": "Potential deep-cut security lore; keep as context unless separately sourced for scoring.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0756",
-      "date": "2020",
-      "title": "Yearn merges informally with several DeFi projects",
-      "branch": [
-        "DEFI",
-        "GOVERNANCE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Yearn entered a series of informal collaborations or 'mergers' with other DeFi projects.",
-        "significance": "Governance/business-model context rather than one durable merger event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0757",
-      "date": "2020",
-      "title": "Nexus Mutual demonstrates crypto-native insurance",
-      "branch": [
-        "DEFI",
-        "SECURITY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Nexus Mutual demonstrated crypto-native mutualized smart-contract insurance.",
-        "significance": "Sector-development context; specific paid claims are cleaner events.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0893",
-      "date": "2020",
-      "title": "Satoshi-era Bitcoin movement sparks speculation despite no link to Satoshi",
-      "branch": [
-        "BITCOIN",
-        "MYSTERIES",
-        "MARKETS"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "A movement of coins mined in Bitcoin's earliest era triggered social-media speculation in 2020 despite no evidence that the coins belonged to Satoshi.",
-        "significance": "Whale/Satoshi-lore context; must always state the lack of Satoshi attribution.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0897",
-      "date": "2020",
-      "title": "Flow blockchain launches from Dapper Labs",
-      "branch": [
-        "ALTCOINS",
-        "NFT"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_YEAR",
-        "exact_date": "2020",
-        "summary": "Flow launched its mainnet in 2020, alongside developer tooling, token distribution and the early rollout of NBA Top Shot.",
-        "significance": "Dapper Labs' purpose-built consumer blockchain became the infrastructure behind one of the first mass-market NFT products.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Flow Roadmap — 2020 Mainnet Launch",
-            "url": "https://flow.com/flow-roadmap",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Flow — 2020 Year in Review",
-            "url": "https://flow.com/post/a-year-in-review-with-flow-2020",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0921",
-      "date": "2020",
-      "title": "Libra is redesigned amid regulatory pressure",
-      "branch": [
-        "STABLECOINS",
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_MONTH",
-        "exact_date": "2020-04",
-        "summary": "Libra published a redesigned white paper emphasizing single-currency stablecoins, stronger compliance controls and a more constrained architecture after global regulatory opposition.",
-        "significance": "The redesign showed regulators forcing a major private digital-currency project to retreat from its original global-money ambitions.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Diem Association — economics/reserve and White Paper v2 context",
-            "url": "https://www.diem.com/en-us/economics-and-the-reserve/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0107",
-        "relation": "AFTERMATH",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0922",
-      "date": "2020",
-      "title": "Libra project rebrands to Diem",
-      "branch": [
-        "STABLECOINS",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-12-01",
-        "summary": "The Libra Association renamed itself the Diem Association on 1 December 2020 as the project sought a narrower, more regulation-friendly path.",
-        "significance": "The rebrand symbolized how dramatically regulatory pressure had reshaped Facebook's original global-currency proposal.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Diem Association — reserve documentation",
-            "url": "https://www.diem.com/en-us/economics-and-the-reserve/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0925",
-      "date": "2020",
-      "title": "JPM Coin begins commercial use",
-      "branch": [
-        "INSTITUTIONS",
-        "STABLECOINS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_SECONDARY",
-        "exact_date": "2020-10-27",
-        "summary": "JPMorgan said JPM Coin was being used commercially for the first time by a large technology client for cross-border payments.",
-        "significance": "A systemically important global bank moving its own tokenized deposit instrument into live commercial use was a major institutional blockchain milestone.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "Banking Dive — JPM Coin commercial use",
-            "url": "https://www.bankingdive.com/news/jpmorgan-coin-crypto-blockchain/588022/",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0937",
-      "date": "2020",
-      "title": "Publicly listed Bitcoin miners begin expanding aggressively",
-      "branch": [
-        "BITCOIN",
-        "MINING",
-        "INSTITUTIONS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Publicly listed Bitcoin mining companies expanded capital spending and hashrate during 2020.",
-        "significance": "Mining-industry trend rather than one event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0961",
-      "date": "2020",
-      "title": "Number go up becomes a recurring Bitcoin meme",
-      "branch": [
-        "BITCOIN",
-        "MEMES",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "'Number go up' became recurring Bitcoin meme language.",
-        "significance": "Culture context with diffuse provenance.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0997",
-      "date": "2020",
-      "title": "Coinbase mission statement limits employee political activism and sparks debate",
-      "branch": [
-        "EXCHANGES",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-09-27",
-        "summary": "Coinbase CEO Brian Armstrong published 'Coinbase is a mission focused company,' saying the company would avoid activism and broader societal issues unrelated to its core economic-freedom mission.",
-        "significance": "The policy became a widely debated Silicon Valley culture/management moment tied to one of crypto's largest companies.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Coinbase — Coinbase is a mission focused company",
-            "url": "https://www.coinbase.com/en-gb/blog/coinbase-is-a-mission-focused-company",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1025",
-      "date": "2020",
-      "title": "Twitter celebrity-account hack requests Bitcoin payments",
-      "branch": [
-        "BITCOIN",
-        "HACKS",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-07-15",
-        "summary": "Attackers compromised around 130 high-profile Twitter accounts and used some to promote a Bitcoin doubling scam.",
-        "significance": "The incident put a crypto scam onto accounts belonging to some of the world's most recognizable politicians, celebrities and companies.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "DOJ — July 2020 Twitter hack",
-            "url": "https://www.justice.gov/usao-ndca/pr/three-individuals-charged-alleged-roles-twitter-hack",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1026",
-      "date": "2020",
-      "title": "Elon Musk, Barack Obama and other accounts are hijacked in Bitcoin scam",
-      "branch": [
-        "BITCOIN",
-        "HACKS",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_SUBEVENT",
-        "exact_date": "2020-07-15",
-        "summary": "Compromised accounts included prominent figures and companies such as Elon Musk and others, which were used to post the Bitcoin scam.",
-        "significance": "This is the celebrity-account detail of the canonical Twitter hack.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "DOJ — July 2020 Twitter hack",
-            "url": "https://www.justice.gov/usao-ndca/pr/three-individuals-charged-alleged-roles-twitter-hack",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-1025",
-        "relation": "SUBEVENT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1031",
-      "date": "2020",
-      "title": "Mt Gox rehabilitation plan negotiations continue",
-      "branch": [
-        "EXCHANGES",
-        "DISASTERS"
-      ],
-      "tier": "DEEP_CUT",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Mt. Gox civil-rehabilitation negotiations continued through 2020.",
-        "significance": "Long-running legal context; creditor repayments in 2024 are the stronger milestone.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1042",
-      "date": "2020",
-      "title": "Forsage draws regulatory scrutiny as smart-contract pyramid scheme",
-      "branch": [
-        "SCAMS",
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_LATER_ENFORCEMENT",
-        "exact_date": "2020-01 onward",
-        "summary": "Forsage launched in January 2020 as Ethereum smart-contract referral schemes that US regulators later alleged operated as a $300 million crypto pyramid and Ponzi scheme; Philippine regulators issued a cease-and-desist action in September 2020.",
-        "significance": "Forsage showed how smart contracts could automate pyramid-style referral economics while promoters claimed decentralization placed them beyond regulators.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "SEC — Forsage charges and background",
-            "url": "https://www.sec.gov/newsroom/press-releases/2022-134",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1059",
-      "date": "2020",
-      "title": "Crypto Twitter becomes dominant venue for DeFi launches",
-      "branch": [
-        "CULTURE",
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Crypto Twitter became the main social venue for DeFi launches, yield-farming discourse and protocol drama.",
-        "significance": "Culture trend rather than a discrete event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1071",
-      "date": "2020",
-      "title": "MetaMask user growth accelerates with DeFi",
-      "branch": [
-        "ETHEREUM",
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-10-05",
-        "summary": "MetaMask announced that it had exceeded one million monthly active users across desktop and mobile.",
-        "significance": "The milestone showed that DeFi had pushed a self-custodial Ethereum wallet from niche developer tool into a mass consumer gateway.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "MetaMask — 1 million monthly active users",
-            "url": "https://medium.com/%40JS_MetaMask/metamask-exceeds-1-million-monthly-active-users-9da72a1e915d",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Consensys — MetaMask growth history",
-            "url": "https://consensys.io/blog/metamask-surpasses-5-million-monthly-active-users",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1084",
-      "date": "2020",
-      "title": "1inch emerges from hackathon project into major DEX aggregator",
-      "branch": [
-        "DEX",
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "1inch evolved from its 2019 hackathon origins into a major DEX aggregator during 2020.",
-        "significance": "Project-growth context; a specific launch/token event would be stronger.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1088",
-      "date": "2020",
-      "title": "Aave rebrands from ETHLend",
-      "branch": [
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020-01",
-        "summary": "The ETHLend-to-Aave transformation culminated in Aave V1's January 2020 launch.",
-        "significance": "Canonicalized under Aave V1.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Aave Labs — historical contributions / Aave V1",
-            "url": "https://governance.aave.com/t/aave-labs-contributions-report/24155",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0230",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1093",
-      "date": "2020",
-      "title": "Maker adds USDC collateral during Black Thursday response",
-      "branch": [
-        "DEFI",
-        "STABLECOINS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_AFTERMATH",
-        "exact_date": "2020-03",
-        "summary": "Maker governance added USDC collateral during the post-Black-Thursday response to improve Dai liquidity and stability.",
-        "significance": "The change illustrated the trade-off between decentralization and stability in a crisis.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "MakerDAO — DeFi History timeline",
-            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0291",
-        "relation": "AFTERMATH",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1103",
-      "date": "2020",
-      "title": "Optimistic rollup teams begin public testnets",
-      "branch": [
-        "ETHEREUM",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Optimistic-rollup teams ran public testnets during 2020.",
-        "significance": "Scaling-development context; mainnet launches are stronger.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1115",
-      "date": "2020",
-      "title": "Decentraland opens its public virtual world",
-      "branch": [
-        "GAMING",
-        "NFT",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-02-20",
-        "summary": "Decentraland publicly launched its blockchain-based virtual world on 20 February 2020 and moved governance toward a DAO/Foundation structure.",
-        "significance": "It was one of the first fully launched crypto-native virtual worlds and became a flagship of the later metaverse land boom.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Decentraland historical whitepaper — 2020 public launch",
-            "url": "https://decentraland.org/whitepaper2.pdf",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1116",
-      "date": "2020",
-      "title": "Sorare raises major funding for fantasy sports NFTs",
-      "branch": [
-        "GAMING",
-        "NFT"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Sorare raised funding and expanded fantasy-sports NFTs during 2020.",
-        "significance": "NFT gaming adoption context rather than one defining historical event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1130",
-      "date": "2020",
-      "title": "Compound governance delegates voting power to token holders",
-      "branch": [
-        "DAO",
-        "GOVERNANCE",
-        "DEFI"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_VERIFIED",
-        "exact_date": "2020",
-        "summary": "Compound's governance token let holders delegate voting power and govern protocol upgrades.",
-        "significance": "Governance context is tied to the COMP rollout rather than a separate card event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Compound Digest — COMP distribution June 15 2020",
-            "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
-            "type": "PROJECT_ARCHIVE"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0111",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1131",
-      "date": "2020",
-      "title": "Uniswap governance launches with UNI token",
-      "branch": [
-        "DAO",
-        "GOVERNANCE",
-        "DEX"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020-09-16",
-        "summary": "Uniswap governance formally launched alongside the UNI token.",
-        "significance": "Governance context belongs under the canonical UNI launch/airdrop.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Uniswap — Introducing UNI",
-            "url": "https://blog.uniswap.org/uni",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0113",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1139",
-      "date": "2020",
-      "title": "Wormhole launches Solana–Ethereum token bridge",
-      "branch": [
-        "BRIDGES",
-        "TECHNOLOGY"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2020",
-        "summary": "Wormhole's first era introduced a Solana–Ethereum token bridge in 2020, not 2021.",
-        "significance": "The bridge became important cross-chain infrastructure and later the target of one of crypto's largest exploits.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Wormhole — Past, Present, and Future",
-            "url": "https://wormhole.com/blog/connecting-the-internet-economy-wormhole-and-the-w-tokens-past-present-and",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1158",
-      "date": "2021-01-11",
-      "title": "DarkMarket is taken down in international operation",
-      "branch": [
-        "DARK_SIDE",
-        "GOVERNMENTS",
-        "CRIME"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2021-01-11",
-        "summary": "DarkMarket was taken offline and its alleged operator arrested in January 2021, not 2020.",
-        "significance": "The takedown was a major multinational darknet-market enforcement event.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "German law-enforcement / Europol record of DarkMarket takedown",
-            "url": "https://takedownindex.org/sources/europol-darkmarket-world-s-largest-illegal-dark-web-marketplace-taken-down",
-            "type": "INTERGOVERNMENTAL_ARCHIVE"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1166",
-      "date": "2020",
-      "title": "PlusToken organizers are prosecuted in China",
-      "branch": [
-        "SCAMS",
-        "CRIME"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_COURT_OUTCOME",
-        "exact_date": "2020-11-26",
-        "summary": "A Chinese appeals court upheld convictions and prison sentences for 15 defendants in the PlusToken case; court records described millions of member accounts and cryptocurrency worth roughly 14.8 billion yuan at relevant prices.",
-        "significance": "The judgment documented the extraordinary scale of PlusToken and converted one of crypto's largest alleged Ponzi schemes into a criminal-court record.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "People's Daily — PlusToken final judgment report",
-            "url": "https://blockchain.people.com.cn/n1/2020/1201/c417685-31951069.html",
-            "type": "STATE_MEDIA_COURT_REPORT"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-0109",
-        "relation": "LEGAL_AFTERMATH",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1167",
-      "date": "2020",
-      "title": "Forsage smart-contract scheme spreads globally",
-      "branch": [
-        "SCAMS",
-        "DEFI"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2020",
-        "summary": "Forsage spread internationally through smart-contract referral marketing during 2020.",
-        "significance": "Growth context under the canonical Forsage record.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "SEC — Forsage case",
-            "url": "https://www.sec.gov/newsroom/press-releases/2022-134",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": "LORE-EVT-1042",
-        "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1192",
-      "date": "2020",
-      "title": "CipherTrace claims Monero tracing capabilities and sparks debate",
-      "branch": [
-        "PRIVACY",
-        "SECURITY",
-        "CULTURE"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "CipherTrace publicly claimed new Monero-tracing capabilities, prompting skepticism and privacy-community debate.",
-        "significance": "Attributed privacy/security claim context; no independent assertion that Monero was traceable.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1199",
-      "date": "2020",
-      "title": "Omen and Gnosis prediction markets grow during elections",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Omen, Gnosis and other prediction markets saw increased use around elections.",
-        "significance": "Sector context; Polymarket's launch is the cleaner canonical event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1200",
-      "date": "2020",
-      "title": "Polymarket launches",
-      "branch": [
-        "DEFI",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED_WITH_REGULATORY_SOURCE",
-        "exact_date": "2020-06 (approximately)",
-        "summary": "Polymarket began operating event-based prediction markets around June 2020 using blockchain smart contracts.",
-        "significance": "It revived decentralized prediction markets with a simple binary-market UX and later became one of crypto's most mainstream information-market products.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "CFTC — Polymarket order and operating history",
-            "url": "https://www.cftc.gov/PressRoom/PressReleases/8478-22",
-            "type": "GOVERNMENT"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-1207",
-      "date": "2020",
-      "title": "Rarible launches NFT marketplace and governance token",
-      "branch": [
-        "NFT",
-        "DAO"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Rarible grew as an NFT marketplace and introduced token-governance experiments.",
-        "significance": "NFT-marketplace context; no standalone score in current wording.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1208",
-      "date": "2020",
-      "title": "SuperRare establishes premium crypto-art marketplace model",
-      "branch": [
-        "NFT",
-        "CULTURE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "SuperRare strengthened the curated premium crypto-art marketplace model.",
-        "significance": "Digital-art market context; use a major sale/platform milestone if scored.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1209",
-      "date": "2020",
-      "title": "Nifty Gateway brings curated NFT drops to mainstream collectors",
-      "branch": [
-        "NFT",
-        "CULTURE"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Nifty Gateway's curated drops brought high-profile artists and collectors into NFTs during 2020.",
-        "significance": "NFT adoption context; individual record drops are stronger candidates.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-1221",
-      "date": "2020",
-      "title": "Robinhood expands crypto access during retail-trading boom",
-      "branch": [
-        "EXCHANGES",
-        "ADOPTION"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "CONTEXT_ONLY",
-        "exact_date": null,
-        "summary": "Robinhood expanded access to crypto trading during the retail-market boom.",
-        "significance": "Duplicate/platform context under Robinhood growth.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Retain for archive/book context; exclude from standalone card scoring."
-      }
-    },
-    {
-      "id": "LORE-EVT-0040",
-      "date": "2020-03",
-      "title": "COVID Black Thursday crypto crash",
-      "branch": [
-        "MARKETS"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-03-12",
-        "summary": "During the global COVID-19 market panic, Bitcoin fell violently alongside traditional risk assets, dropping below $6,000 and later below $5,000 during the wider selloff.",
-        "significance": "Black Thursday shattered the idea that Bitcoin would automatically behave as a crisis hedge and simultaneously stress-tested DeFi liquidation systems.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "CoinDesk — Bitcoin crash March 12 2020",
-            "url": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off",
-            "type": "CONTEMPORARY_SECONDARY"
-          },
-          {
-            "title": "MakerDAO — DeFi History timeline",
-            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0110",
       "date": "2020-05-11",
       "title": "Third Bitcoin halving",
-      "branch": [
-        "BITCOIN",
-        "MINING"
-      ],
+      "status": "VERIFIED",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-05-11",
-        "summary": "At block 630,000, Bitcoin's block subsidy fell from 12.5 BTC to 6.25 BTC.",
-        "significance": "The third halving reinforced Bitcoin's programmed scarcity just months before the institutional treasury-adoption wave.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Bitcoin.org — Halving history",
-            "url": "https://bitcoin.org/en/halving",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "At block 630,000, Bitcoin's subsidy fell from 12.5 BTC to 6.25 BTC.",
+      "significance": "The third halving reinforced Bitcoin's programmed scarcity just before the corporate treasury-adoption wave.",
+      "sources": [
+        {
+          "title": "Bitcoin.org — Halving history",
+          "url": "https://bitcoin.org/en/halving",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0043",
-      "date": "2020-08",
-      "title": "MicroStrategy adopts a Bitcoin treasury strategy",
-      "branch": [
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
+      "date": "2020-05-18",
+      "title": "Uniswap v2 launches",
+      "status": "VERIFIED",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-08-11",
-        "summary": "MicroStrategy announced it had purchased 21,454 BTC for $250 million and adopted Bitcoin as its primary treasury reserve asset.",
-        "significance": "The move created the modern corporate Bitcoin treasury playbook and turned a public operating company into a leveraged proxy for Bitcoin exposure.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "SEC filing — MicroStrategy adopts Bitcoin treasury reserve",
-            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849dex991.htm",
-            "type": "REGULATORY_FILING"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "Uniswap v2 deployed with arbitrary ERC-20/ERC-20 pairs, flash swaps and improved oracle functionality.",
+      "significance": "V2 turned Uniswap into a major decentralized exchange and the platform targeted by SushiSwap's vampire attack.",
+      "sources": [
+        {
+          "title": "Uniswap — v2 mainnet launch",
+          "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v2",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0776",
-      "date": "2020-08-25",
-      "title": "FTX acquires Blockfolio",
-      "branch": [
-        "FTX",
-        "EXCHANGES"
-      ],
+      "date": "2020-05-26",
+      "title": "Polkadot mainnet launches",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Web3 Foundation launched the initial version of Polkadot.",
+      "significance": "Polkadot became a major multi-chain architecture built around shared security and interoperability.",
+      "sources": [
+        {
+          "title": "Web3 Foundation — Polkadot is live",
+          "url": "https://web3.foundation/press/polkadot-is-live/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-06-15",
+      "title": "Compound launches COMP liquidity mining",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Compound began distributing COMP governance tokens to users supplying or borrowing assets.",
+      "significance": "The distribution ignited liquidity mining and yield farming and is one of the clearest starting points for DeFi Summer.",
+      "sources": [
+        {
+          "title": "Compound Digest — COMP distribution",
+          "url": "https://compound.substack.com/p/comp-distribution-key-delegates-new",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "date": "2020-06 to 2020-09",
+      "title": "DeFi Summer",
+      "status": "VERIFIED_AS_ERA",
+      "tier": "CORE",
+      "summary": "Liquidity mining, AMMs, yield farming, stablecoin trading and governance-token launches drove explosive on-chain financial activity during mid-2020.",
+      "significance": "DeFi Summer established decentralized finance as a major crypto sector rather than a collection of isolated experiments.",
+      "sources": [
+        {
+          "title": "Ethereum.org — DeFi history to 2021",
+          "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+          "type": "PROJECT_SECONDARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-07-15",
+      "title": "High-profile Twitter hack promotes Bitcoin scam",
+      "status": "VERIFIED",
+      "tier": "LORE",
+      "summary": "Attackers compromised around 130 prominent Twitter accounts and used some to promote a Bitcoin doubling scam.",
+      "significance": "The incident put a crypto scam onto accounts belonging to globally recognizable politicians, celebrities and companies.",
+      "sources": [
+        {
+          "title": "US DOJ — July 2020 Twitter hack",
+          "url": "https://www.justice.gov/usao-ndca/pr/three-individuals-charged-alleged-roles-twitter-hack",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "date": "2020-07-17",
+      "title": "YFI launches with no founder pre-mine",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Andre Cronje launched YFI with no pre-mine, investor sale or founder allocation, distributing the initial supply through liquidity provision.",
+      "significance": "YFI became the defining 'fair launch' of DeFi Summer and a landmark community-governance experiment.",
+      "sources": [
+        {
+          "title": "Yearn governance explainer",
+          "url": "https://medium.com/iearn/yearn-governance-explained-proposals-yfi-token-and-execution-113ec86c3a3f",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "date": "2020-07-22",
+      "title": "US OCC allows national banks to provide crypto custody",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "The OCC clarified that national banks and federal savings associations may provide cryptocurrency custody services.",
+      "significance": "The interpretation created a formal route for federally chartered banks to hold crypto keys and offer custody.",
+      "sources": [
+        {
+          "title": "OCC — national banks may provide crypto custody",
+          "url": "https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-98.html",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "date": "2020-08-11",
+      "title": "MicroStrategy adopts Bitcoin treasury strategy",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "MicroStrategy announced the purchase of 21,454 BTC for $250 million and adopted Bitcoin as its primary treasury reserve asset.",
+      "significance": "The move created the modern corporate Bitcoin treasury playbook.",
+      "sources": [
+        {
+          "title": "MicroStrategy SEC filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849dex991.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ]
+    },
+    {
+      "date": "2020-08-11 to 2020-08-13",
+      "title": "YAM explodes and breaks within days",
+      "status": "VERIFIED_WITH_RANGE",
+      "tier": "LORE",
+      "summary": "Yam Finance launched after roughly ten days of development, attracted hundreds of millions of dollars and then disclosed a critical rebase/governance bug.",
+      "significance": "YAM became the perfect symbol of DeFi Summer's speed, food-token culture and smart-contract risk.",
+      "sources": [
+        {
+          "title": "Ethereum.org — DeFi history",
+          "url": "https://ethereum.org/videos/defi-history-inception-to-2021/",
+          "type": "PROJECT_SECONDARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-08-28 to 2020-09-09",
+      "title": "SushiSwap executes vampire attack on Uniswap",
+      "status": "VERIFIED_WITH_SEQUENCE",
+      "tier": "CORE",
+      "summary": "SushiSwap launched as a Uniswap fork with SUSHI liquidity incentives and later migrated more than $800 million of liquidity away from Uniswap.",
+      "significance": "The episode became a defining demonstration of permissionless protocol forks and mercenary liquidity incentives.",
+      "sources": [
+        {
+          "title": "Sushi — tokenomics/history",
+          "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "CoinDesk — SushiSwap liquidity migration",
+          "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-09-16",
+      "title": "Uniswap launches UNI and landmark retroactive airdrop",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Uniswap launched UNI and allocated 15% of the genesis supply for immediate distribution to historical users and liquidity providers.",
+      "significance": "The airdrop became the canonical retroactive token distribution and reshaped protocol governance competition.",
+      "sources": [
+        {
+          "title": "Uniswap — Introducing UNI",
+          "url": "https://blog.uniswap.org/uni",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-10-01",
+      "title": "US authorities bring major enforcement action against BitMEX",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "The CFTC sued BitMEX entities and founders over alleged unregistered derivatives and AML failures while federal prosecutors charged executives with Bank Secrecy Act offenses.",
+      "significance": "The coordinated action was a watershed enforcement event for offshore crypto derivatives platforms.",
+      "sources": [
+        {
+          "title": "CFTC — BitMEX action",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8270-20",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "DOJ — BitMEX founders charged",
+          "url": "https://www.justice.gov/usao-sdny/pr/founders-and-executives-shore-cryptocurrency-derivatives-exchange-charged-violation",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "date": "2020-10-08",
+      "title": "Square purchases $50 million of Bitcoin",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "Square announced the purchase of approximately 4,709 BTC for $50 million.",
+      "significance": "Square reinforced the emerging view that public technology companies could hold Bitcoin on their balance sheets.",
+      "sources": [
+        {
+          "title": "Square — Bitcoin investment",
+          "url": "https://squareup.com/us/en/press/2020-bitcoin-investment",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-10-15",
+      "title": "Filecoin mainnet launches",
+      "status": "VERIFIED",
       "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2020-08-25",
-        "summary": "FTX acquired the Blockfolio portfolio-tracking app for about $150 million in August 2020, not 2021.",
-        "significance": "The acquisition was a major step in FTX's push from derivatives into retail crypto users.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "The Block — FTX acquires Blockfolio",
-            "url": "https://www.theblock.co/news/deals/2020-08-25-ftx-blockfolio-crypto-app-acquisition-75965",
-            "type": "CONTEMPORARY_SECONDARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "Filecoin mainnet went live, creating a token-incentivized decentralized storage market.",
+      "significance": "The launch delivered one of the ICO era's largest funded decentralized infrastructure projects.",
+      "sources": [
+        {
+          "title": "Filecoin — Mainnet is Live",
+          "url": "https://www.filecoin.io/blog/filecoin-mainnet-is-live",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-1222",
-      "date": "2020-11-02",
-      "title": "FTX launches tokenized-stock trading outside the United States",
-      "branch": [
-        "FTX",
-        "EXCHANGES"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2020-11-02",
-        "summary": "FTX publicly launched trading in tokenized representations of stocks such as Tesla, Apple and Amazon in November 2020, not 2021.",
-        "significance": "The product was an early attempt to blend 24/7 crypto-market infrastructure with synthetic/tokenized exposure to traditional equities.",
-        "source_confidence": "MEDIUM_HIGH",
-        "sources": [
-          {
-            "title": "SEC public comment exhibit documenting Nov 2020 FTX tokenized stocks launch",
-            "url": "https://www.sec.gov/comments/s7-2024-05/s7202405-typea.pdf",
-            "type": "GOVERNMENT_RECORD"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "date": "2020-10-20",
+      "title": "Bahamas launches Sand Dollar CBDC",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "The Central Bank of The Bahamas began national rollout of the Sand Dollar.",
+      "significance": "It became the first widely recognized nationally deployed central-bank digital currency.",
+      "sources": [
+        {
+          "title": "Central Bank of The Bahamas — Sand Dollar national release",
+          "url": "https://www.centralbankbahamas.com/news/public-notices/the-sand-dollar-is-on-schedule-for-gradual-national-release-to-the-bahamas-in-mid-october-2020",
+          "type": "CENTRAL_BANK"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0366",
-      "date": "2020-11-22",
-      "title": "KuCoin restores services after 2020 exchange hack",
-      "branch": [
-        "EXCHANGES",
-        "HACKS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "DATE_CORRECTED",
-        "exact_date": "2020-11-22",
-        "summary": "KuCoin restored deposit and withdrawal services for all tokens by 22 November 2020 after its September hack; the exchange later reported recovering about 84% of affected value through partners and law enforcement while covering the remainder.",
-        "significance": "The recovery was unusually successful for a large exchange hack, but the key restoration milestone belongs in 2020, not 2021.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "KuCoin — services fully resumed after 2020 hack",
-            "url": "https://www.kucoin.com/announcement/en-deposit-and-withdrawal-services-for-all-tokens-now-resumed-on-kucoin?lang=en_US",
-            "type": "COMPANY_PRIMARY"
-          },
-          {
-            "title": "KuCoin CEO — hack recovery accounting",
-            "url": "https://www.kucoin.com/announcement/a-letter-from-kucoin-ceo-2020-2021-and-beyond",
-            "type": "COMPANY_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "date": "2020-10-21",
+      "title": "PayPal announces consumer crypto service",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "PayPal announced that US users would be able to buy, hold and sell selected cryptocurrencies.",
+      "significance": "PayPal brought direct crypto access to a vast mainstream payments user base.",
+      "sources": [
+        {
+          "title": "PayPal — crypto service announcement",
+          "url": "https://newsroom.paypal-corp.com/2020-10-21-PayPal-Launches-New-Service-Enabling-Users-to-Buy-Hold-and-Sell-Cryptocurrency",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
     },
     {
-      "id": "LORE-EVT-0115",
-      "date": "2020-12",
+      "date": "2020-11-03 to 2020-11-05",
+      "title": "US government seizes roughly 69,370 Silk Road-linked BTC",
+      "status": "VERIFIED",
+      "tier": "CORE",
+      "summary": "US authorities seized approximately 69,370 BTC linked to funds stolen from Silk Road and filed a civil forfeiture complaint.",
+      "significance": "At the time it was the largest cryptocurrency seizure announced by the US Department of Justice.",
+      "sources": [
+        {
+          "title": "US DOJ — $1B+ Silk Road crypto forfeiture action",
+          "url": "https://www.justice.gov/usao-ndca/pr/united-states-files-civil-action-forfeit-cryptocurrency-valued-over-one-billion-us",
+          "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-01T12:00:23Z",
       "title": "Ethereum Beacon Chain launches",
-      "branch": [
-        "ETHEREUM"
-      ],
+      "status": "VERIFIED",
       "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "VERIFIED",
-        "exact_date": "2020-12-01T12:00:23Z",
-        "summary": "Ethereum's Beacon Chain produced its genesis block on 1 December 2020 and began running proof-of-stake consensus alongside the existing proof-of-work chain.",
-        "significance": "The Beacon Chain was the decisive live precursor to Ethereum's 2022 Merge.",
-        "source_confidence": "HIGH",
-        "sources": [
-          {
-            "title": "Ethereum.org — Beacon Chain",
-            "url": "https://ethereum.org/roadmap/beacon-chain/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Ethereum.org — fork timeline",
-            "url": "https://ethereum.org/ethereum-forks/",
-            "type": "PROJECT_PRIMARY"
-          }
-        ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
+      "summary": "Ethereum's Beacon Chain produced its genesis block and began running proof-of-stake consensus alongside the existing proof-of-work chain.",
+      "significance": "The Beacon Chain was the decisive live precursor to the 2022 Merge.",
+      "sources": [
+        {
+          "title": "Ethereum.org — Beacon Chain",
+          "url": "https://ethereum.org/roadmap/beacon-chain/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "date": "2020-12-17",
+      "title": "The Graph launches decentralized indexing network",
+      "status": "VERIFIED",
+      "tier": "MAJOR",
+      "summary": "The Graph launched its decentralized indexing-network mainnet.",
+      "significance": "The Graph became core data-query infrastructure for decentralized applications.",
+      "sources": [
+        {
+          "title": "The Graph — mainnet launch",
+          "url": "https://thegraph.com/blog/the-graph-network-launches-mainnet/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     }
-  ]
+  ],
+  "record_count": 23
 }
