@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. Core 2024 historical spine verified: US Bitcoin/Ether ETPs, Dencun, fourth halving and Runes, Mt. Gox repayments, $100k Bitcoin, MiCA application, BUIDL, Saxony Bitcoin sale and Hong Kong spot crypto ETFs.",
+  "status_note": "Evidence phase active. Second 2024 cluster verified: Bhutan disclosure, major hacks, EigenLayer/restaking, Pump.fun, ETF fund competition, prediction markets, Telegram gaming, Samourai, Craig Wright and CZ.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -5037,14 +5037,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Meme-token launchpads, led by Pump.fun, accelerated the pace and volume of token creation on Solana during 2024.",
+        "significance": "The trend is best treated as ecosystem context under the canonical Pump.fun launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pump.fun — PUMP Token / platform history",
+            "url": "https://pump.fun/pump-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0304",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -5117,15 +5123,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-09",
+        "summary": "The IMF's 2024 Bhutan consultation documented the scale and financing of state-owned DHI's crypto-mining investment: a 420 MW operation that had actually begun in 2022, plus Bitdeer's 100 MW facility operating from August 2023.",
+        "significance": "The 2024 disclosure made Bhutan one of the clearest examples of sovereign/state-owned participation in industrial Bitcoin mining powered by hydropower.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Bhutan 2024 Article IV Consultation",
+            "url": "https://www.imf.org/en/Publications/CR/Issues/2024/09/20/Bhutan-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-554890",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not state that Bhutan began mining in 2024; the IMF dates DHI's mining start to 2022."
       }
     },
     {
@@ -5646,15 +5658,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024",
+        "summary": "Crypto-based prediction markets, especially Polymarket, moved into mainstream financial and media attention during the 2024 US election cycle. Reuters reported about $3.1 billion traded on Polymarket's presidential-outcome market by 4 November.",
+        "significance": "The cycle transformed prediction markets from a crypto niche into a widely cited information and speculation venue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Record volume and public attention only; do not treat market prices as validated election forecasts."
       }
     },
     {
@@ -7469,12 +7487,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2024-05-31",
+        "summary": "DMM Bitcoin reported an unauthorized outflow of 4,502.9 BTC from its wallet, worth roughly $300 million at the time.",
+        "significance": "The theft was one of the largest centralized-exchange Bitcoin losses since the early exchange-hack era.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — DMM Bitcoin theft",
+            "url": "https://techcrunch.com/2024/05/31/hackers-steal-305-million-from-dmm-bitcoin-crypto-exchange/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7491,12 +7515,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-07-18",
+        "summary": "WazirX said a cyberattack on one of its multisig wallets resulted in theft of digital assets exceeding $230 million.",
+        "significance": "The incident became one of India's largest crypto-exchange losses and a major case study in multisig/custody operational risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WazirX — Preliminary Report: Cyber Attack on Multisig Wallet",
+            "url": "https://wazirx.com/blog/preliminary-report-cyber-attack-on-wazirx-multisig-wallet/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7513,14 +7543,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "TON and Telegram-linked crypto applications surged alongside the mini-app gaming cycle.",
+        "significance": "Canonicalized as ecosystem context under the Telegram gaming entries.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0548",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -7535,12 +7576,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2024-05-29",
+        "summary": "By late May, BlackRock's iShares Bitcoin Trust (IBIT) had grown to nearly $20 billion in assets and overtaken Grayscale's GBTC as the largest Bitcoin fund by assets.",
+        "significance": "IBIT's rapid rise demonstrated how quickly traditional asset-management distribution could reshape the Bitcoin investment-product market.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — BlackRock fund becomes largest Bitcoin fund",
+            "url": "https://www.reuters.com/technology/blackrocks-etf-becomes-largest-bitcoin-fund-world-bloomberg-news-reports-2024-05-29/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7586,14 +7633,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-09",
+        "summary": "This row refers to the same 2024 public attention around Bhutan's already-existing state-linked Bitcoin-mining program.",
+        "significance": "Canonicalized to the IMF-documented Bhutan mining context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Bhutan 2024 Article IV Consultation",
+            "url": "https://www.imf.org/en/Publications/CR/Issues/2024/09/20/Bhutan-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-554890",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0173",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -7978,14 +8031,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "This row describes the same 2024 Polymarket/election-volume surge captured by LORE-EVT-0192.",
+        "significance": "Canonicalized to the broader prediction-market mainstreaming event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -8870,12 +8929,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2024-01",
+        "summary": "Pump.fun launched on Solana in January 2024 with a streamlined mechanism allowing users to create and trade tokens almost instantly.",
+        "significance": "The launchpad dramatically lowered the barrier to meme-token creation and became one of the defining pieces of infrastructure behind the 2024 Solana meme-coin cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pump.fun — PUMP Token / platform history",
+            "url": "https://pump.fun/pump-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -8922,14 +8987,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-09",
+        "summary": "This row refers to the same 2024 public attention around Bhutan's already-existing state-linked Bitcoin-mining program.",
+        "significance": "Canonicalized to the IMF-documented Bhutan mining context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Bhutan 2024 Article IV Consultation",
+            "url": "https://www.imf.org/en/Publications/CR/Issues/2024/09/20/Bhutan-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-554890",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0173",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -11028,12 +11099,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-10-16",
+        "summary": "Radiant Capital suffered a sophisticated compromise in which attackers manipulated developer signing environments and maliciously changed contract ownership, leading to losses of roughly $50 million across Arbitrum and BNB Chain.",
+        "significance": "The incident became a striking example of operational/key-signing compromise defeating multisig and hardware-wallet assumptions rather than exploiting ordinary contract logic.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Radiant Capital — Post-Mortem",
+            "url": "https://medium.com/@RadiantCapital/radiant-post-mortem-fecd6cd38081",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -11483,12 +11560,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-04-09",
+        "summary": "EigenLayer and EigenDA launched on Ethereum mainnet with delegation to operators and registration of actively validated services.",
+        "significance": "The launch turned restaking from a deposit concept into live shared-security infrastructure for services beyond Ethereum consensus itself.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Mainnet Launch Announcement",
+            "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15347,12 +15430,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-01 to 2024-05",
+        "summary": "GBTC experienced sustained redemptions after converting from a trust to a spot Bitcoin ETP; Reuters reported roughly $17.46 billion of net outflows before its first daily inflow in early May.",
+        "significance": "The outflows showed how conversion to an open-ended ETP exposed a large legacy fund to fee competition and pent-up redemption demand.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — GBTC first inflow after sustained outflows",
+            "url": "https://www.reuters.com/business/finance/grayscale-bitcoin-trusts-shares-jump-after-first-inflow-since-january-2024-05-06/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15369,14 +15458,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2024-05-29",
+        "summary": "This is the same IBIT-over-GBTC asset milestone as LORE-EVT-0258.",
+        "significance": "Canonicalized to the IBIT milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — BlackRock fund becomes largest Bitcoin fund",
+            "url": "https://www.reuters.com/technology/blackrocks-etf-becomes-largest-bitcoin-fund-world-bloomberg-news-reports-2024-05-29/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0258",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -15469,14 +15564,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_NEEDS_PERIOD_DATA",
+        "exact_date": "2024",
+        "summary": "Large numbers of Pump.fun tokens graduated from its bonding curve into external Solana liquidity venues.",
+        "significance": "The mechanism is historically relevant, but the row needs a dated 2024 graduation count before publication.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Pump.fun — PUMP Token / platform history",
+            "url": "https://pump.fun/pump-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0304",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -15657,14 +15758,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2024-07-18",
+        "summary": "WazirX suspended or restricted withdrawals and other platform functions following the multisig-wallet theft.",
+        "significance": "Operational consequence of the canonical WazirX hack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WazirX — Preliminary Report: Cyber Attack on Multisig Wallet",
+            "url": "https://wazirx.com/blog/preliminary-report-cyber-attack-on-wazirx-multisig-wallet/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0256",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -15679,14 +15786,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2024-05-31",
+        "summary": "DMM Bitcoin announced the loss and restricted some services while saying customer Bitcoin deposits would be guaranteed.",
+        "significance": "Operational response to the canonical DMM Bitcoin theft.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — DMM Bitcoin theft",
+            "url": "https://techcrunch.com/2024/05/31/hackers-steal-305-million-from-dmm-bitcoin-crypto-exchange/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0255",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -15702,14 +15815,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Notcoin, Hamster Kombat and other Telegram mini-apps brought enormous user attention to TON-linked games and token distribution.",
+        "significance": "This is an ecosystem-level context node connecting individual game events.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0550",
+        "relation": "ECOSYSTEM_CONTEXT",
         "notes": null
       }
     },
@@ -15724,12 +15848,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_PLATFORM_METRIC",
+        "exact_date": "2024",
+        "summary": "Hamster Kombat became a viral Telegram mini-app game; official channel posts documented tens of millions of players and later a large token airdrop.",
+        "significance": "The game became the clearest symbol of the 2024 Telegram tap-to-earn boom and the scale at which mini-apps could funnel users toward TON-based crypto.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15746,12 +15876,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-05-16",
+        "summary": "Notcoin's NOT token went live across major venues and Telegram Wallet after a tap-to-earn game that the project's wallet partner said had attracted about 35 million users.",
+        "significance": "Notcoin demonstrated how a Telegram-native game could distribute a crypto token to a mass consumer audience with almost no traditional wallet onboarding.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15768,14 +15904,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "This row describes the same 2024 Polymarket/election-volume surge captured by LORE-EVT-0192.",
+        "significance": "Canonicalized to the broader prediction-market mainstreaming event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -15790,14 +15932,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Prediction-market prices and volume were increasingly cited in mainstream reporting during the 2024 election cycle.",
+        "significance": "Media citation is a cultural consequence of the canonical prediction-market boom, not evidence that the markets were inherently more accurate than polls.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "MEDIA_CONTEXT",
         "notes": null
       }
     },
@@ -16479,15 +16627,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_AS_CHARGES",
+        "exact_date": "2024-04-24",
+        "summary": "US prosecutors unsealed an indictment charging Samourai Wallet co-founders Keonne Rodriguez and William Lonergan Hill with conspiracy to commit money laundering and conspiracy to operate an unlicensed money transmitting business.",
+        "significance": "The case became a major legal flashpoint over non-custodial Bitcoin privacy tooling, mixers and the scope of money-transmission law.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Samourai Wallet founders charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "The 2024 event is the charge/arrest; allegations were not convictions at that time."
       }
     },
     {
@@ -16849,14 +17003,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-10-16",
+        "summary": "The Radiant breach highlighted multisig operational security risk after multiple developers signed malicious transactions while their interfaces displayed apparently legitimate data.",
+        "significance": "Security-mechanism context under the canonical Radiant exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Radiant Capital — Post-Mortem",
+            "url": "https://medium.com/@RadiantCapital/radiant-post-mortem-fecd6cd38081",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0381",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -17308,14 +17468,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Restaking grew into a major Ethereum DeFi sector around EigenLayer's mainnet launch and billions of dollars of restaked ETH.",
+        "significance": "Sector-growth context under the canonical EigenLayer launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Mainnet Launch Announcement",
+            "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0397",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -17330,14 +17496,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Liquid restaking tokens proliferated around EigenLayer, allowing users to hold transferable representations of restaked positions.",
+        "significance": "The trend added another layer of composability and leverage to Ethereum staking markets.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Mainnet Launch Announcement",
+            "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0397",
+        "relation": "ECOSYSTEM_CONTEXT",
         "notes": null
       }
     },
@@ -23413,12 +23585,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Points campaigns tied to restaking and liquid-restaking protocols became a widespread speculative mechanism for anticipating future token distributions.",
+        "significance": "This is an era/culture node best connected to EigenLayer and other individual airdrop events rather than scored as one invention.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Eigen Foundation — EIGEN token and Season 1 stakedrop",
+            "url": "https://blog.eigenfoundation.org/announcement/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23436,12 +23614,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-04-29",
+        "summary": "The Eigen Foundation announced EIGEN and its Season 1 'stakedrop,' initially making the token non-transferable and later responding to community criticism with additional allocations.",
+        "significance": "The rollout became a defining example of the contentious points-to-airdrop model that dominated 2024 DeFi incentives.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Eigen Foundation — EIGEN token and Season 1 stakedrop",
+            "url": "https://blog.eigenfoundation.org/announcement/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -27685,12 +27869,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024-03-14 to 2024-05-20",
+        "summary": "After a six-week identity trial, the UK High Court declared on 14 March that Craig Wright was not Satoshi Nakamoto, did not author the Bitcoin white paper, did not create Bitcoin and did not author the initial Bitcoin software; full reasons were handed down on 20 May.",
+        "significance": "The judgment was the strongest judicial resolution of Wright's long-running public claim to be Bitcoin's creator.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "UK High Court — COPA v Wright main judgment",
+            "url": "https://www.judiciary.uk/judgments/copa-v-wright/",
+            "type": "COURT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -30819,14 +31009,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Telegram mini-app games reached mass audiences during the Notcoin/Hamster Kombat cycle.",
+        "significance": "Canonicalized to the Telegram gaming context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0548",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -32748,14 +32949,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-04-24",
+        "summary": "The Samourai Wallet prosecution renewed debate over the legal treatment of Bitcoin privacy tools and non-custodial software.",
+        "significance": "Canonicalized to the founders' charge/arrest event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Samourai Wallet founders charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0579",
+        "relation": "LEGAL_CONTEXT",
         "notes": null
       }
     },
@@ -32927,14 +33134,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "This row describes the same 2024 Polymarket/election-volume surge captured by LORE-EVT-0192.",
+        "significance": "Canonicalized to the broader prediction-market mainstreaming event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -32949,14 +33162,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Prediction-market odds became a recurring topic on social media during the election cycle.",
+        "significance": "Canonicalized to the 2024 prediction-market mainstreaming event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CULTURE_CONTEXT",
         "notes": null
       }
     },
@@ -33588,15 +33807,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2024-05-31 to 2024-06-03",
+        "summary": "Former Binance CEO Changpeng Zhao reported to a low-security federal prison in California to begin his four-month sentence after pleading guilty in 2023 to a Bank Secrecy Act violation.",
+        "significance": "The imprisonment of one of crypto's most prominent exchange founders became a striking consequence of the US Binance enforcement settlement.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bloomberg Law — CZ reports to federal prison",
+            "url": "https://news.bloomberglaw.com/crypto/binance-founder-zhao-reports-to-low-security-california-prison",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Reports place his reporting date around May 31 / June 1; Bloomberg reported the custody status June 3."
       }
     },
     {
