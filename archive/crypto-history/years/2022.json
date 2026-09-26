@@ -4,7 +4,7 @@
   "generated": "2026-09-26",
   "purpose": "Evidence-ready working file for LORE Crypto History.",
   "scoring_status": "NOT_STARTED",
-  "progress_note": "15 canonical/core 2022 entries verified. Wormhole, Nomad, Mango, Celsius bankruptcy, Terra 2.0, NFT/metaverse and culture subevents remain for the next pass.",
+  "progress_note": "22 evidence-ready 2022 entries. Remaining research: Otherside gas war, NFT market crash, Super Bowl ads, Harmony hack, FTX wallet drain and selected deep cuts.",
   "entries": [
     {
       "master_event_id": "LORE-EVT-0051",
@@ -248,6 +248,131 @@
           "title": "US DOJ — FTX founder indicted",
           "url": "https://www.justice.gov/archives/opa/pr/ftx-founder-indicted-fraud-money-laundering-and-campaign-finance-offenses",
           "type": "GOVERNMENT"
+        }
+      ]
+    },
+    {
+      "master_event_id": "LORE-EVT-0122",
+      "date": "2022-02-02",
+      "title": "Wormhole bridge exploit mints 120,000 unbacked wETH",
+      "state": "VERIFIED",
+      "summary": "An attacker bypassed Wormhole's Solana-side verification logic and minted 120,000 unbacked Wormhole ETH, worth roughly $320-$325 million at the time.",
+      "significance": "The exploit was one of the largest bridge hacks in history and exposed the systemic risk created when cross-chain bridges mint representations of assets on other networks.",
+      "sources": [
+        {
+          "title": "Chainalysis — Lessons from the Wormhole Exploit",
+          "url": "https://www.chainalysis.com/blog/wormhole-hack-february-2022/",
+          "type": "BLOCKCHAIN_RESEARCH"
+        },
+        {
+          "title": "CertiK — Wormhole Bridge Exploit Incident Analysis",
+          "url": "https://www.certik.com/blog/wormhole-bridge-exploit-incident-analysis",
+          "type": "SECURITY_RESEARCH"
+        }
+      ]
+    },
+    {
+      "master_event_id": "LORE-EVT-0125",
+      "date": "2022-08-01",
+      "title": "Nomad bridge hack becomes a copy-paste free-for-all",
+      "state": "VERIFIED",
+      "summary": "A faulty Nomad Replica configuration allowed forged bridge messages to be accepted. More than 300 addresses participated in draining over $186 million after successful exploit transactions were copied.",
+      "significance": "Nomad became perhaps the purest example of a permissionless on-chain looting event, where the exploit became simple enough for many opportunistic addresses to repeat.",
+      "sources": [
+        {
+          "title": "Nomad — Root Cause Analysis",
+          "url": "https://medium.com/nomad-xyz-blog/nomad-bridge-hack-root-cause-analysis-875ad2e5aacd",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Nomad — The Road to Recovery",
+          "url": "https://medium.com/nomad-xyz-blog/the-road-to-recovery-6abe5eec8ff1",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2022-07-13",
+      "title": "Celsius files for Chapter 11 bankruptcy",
+      "state": "VERIFIED",
+      "summary": "About a month after freezing withdrawals, Celsius and certain subsidiaries filed voluntary Chapter 11 petitions in the Southern District of New York.",
+      "significance": "The filing confirmed that the withdrawal freeze was a solvency/restructuring crisis rather than a short-lived liquidity interruption.",
+      "sources": [
+        {
+          "title": "Celsius — financial restructuring announcement",
+          "url": "https://www.businesswire.com/news/home/20220713005911/en/Celsius-Network-Initiates-Financial-Restructuring-to-Stabilize-Business-and-Maximize-Value-for-All-Stakeholders",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2022-05-28",
+      "title": "Terra 2.0 launches after the UST/LUNA collapse",
+      "state": "VERIFIED",
+      "summary": "After governance proposal 1623 passed, a new Terra chain launched without the old algorithmic stablecoin; the original network became Terra Classic and LUNA became LUNC.",
+      "significance": "The relaunch was an unusual attempt to preserve a developer ecosystem after one of crypto's largest collapses while leaving the failed stablecoin design behind.",
+      "sources": [
+        {
+          "title": "Terra Docs — exchange migration guide",
+          "url": "https://docs.terra.money/migration/exchange-migration/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Terra Research Forum — Terra 2.0 live",
+          "url": "https://classic-agora.terra.money/t/terra-2-0-is-live-luna-airdrop-calculation-logic-details-inside/40742",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2022-10-11",
+      "title": "Mango Markets is manipulated for roughly $116 million",
+      "state": "VERIFIED",
+      "summary": "Avraham Eisenberg used large positions and purchases to drive up MNGO's oracle-reported price, borrowed against the inflated collateral and withdrew roughly $116 million from Mango Markets.",
+      "significance": "The incident became a landmark case at the boundary between market manipulation, oracle design and 'code is law' arguments in DeFi.",
+      "sources": [
+        {
+          "title": "Solidus Labs — Mango Markets Exploit",
+          "url": "https://www.soliduslabs.com/post/mango-hack",
+          "type": "MARKET_SURVEILLANCE_RESEARCH"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2022-02 to 2022-05",
+      "title": "STEPN turns move-to-earn into a crypto craze",
+      "state": "VERIFIED_AS_ERA",
+      "summary": "STEPN's NFT-sneaker fitness app grew rapidly in early 2022; by April BNB Chain highlighted a reported 300,000 daily active users and the project was expanding across app stores and chains.",
+      "significance": "STEPN extended play-to-earn token economics into real-world movement and became the defining example of the short-lived move-to-earn boom.",
+      "sources": [
+        {
+          "title": "STEPN — 2022 recap",
+          "url": "https://stepnofficial.medium.com/stepn-a-recap-of-2022-e8e5891d9986",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "BNB Chain — STEPN project spotlight",
+          "url": "https://www.bnbchain.org/en/blog/bnb-chain-project-spotlight-stepn",
+          "type": "ECOSYSTEM_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2022-09-15 to 2022-09-16",
+      "title": "EthereumPoW launches after The Merge",
+      "state": "VERIFIED_WITH_RANGE",
+      "summary": "A group of miners launched EthereumPoW shortly after Ethereum moved to proof of stake, preserving a proof-of-work fork with a new chain ID.",
+      "significance": "The fork captured the economic displacement of GPU miners after The Merge and tested whether a PoW continuation of Ethereum could retain meaningful users and applications.",
+      "sources": [
+        {
+          "title": "The Block — EthereumPoW fork launch plan",
+          "url": "https://www.theblock.co/news/ecosystems/2022-09-12-official-ethereumpow-ethw-fork-date-announced-169466",
+          "type": "CONTEMPORARY_SECONDARY"
         }
       ]
     }
