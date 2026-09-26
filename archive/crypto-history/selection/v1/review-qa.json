@@ -1,0 +1,685 @@
+{
+  "checked": "2026-09-26",
+  "selection_counts": {
+    "timeline_events": 250,
+    "card_moments": 100,
+    "supporting_events": 150,
+    "existing_visually_approved_cards": 11,
+    "new_card_moment_proposals": 89
+  },
+  "validation": {
+    "unique_event_ids": true,
+    "unique_date_title_pairs": true,
+    "every_selected_event_has_recorded_sources": true,
+    "all_11_approved_cards_included_once": true,
+    "no_records_marked_duplicate_selected": true,
+    "original_card_register_unchanged": true,
+    "numerical_card_scoring": "NOT_PERFORMED",
+    "full_archive_reconciliation": "NOT_REQUIRED_FOR_PROVISIONAL_SELECTION_AND_NOT_CLAIMED",
+    "all_sources_reopened_this_pass": false,
+    "all_events_publication_ready": false
+  },
+  "card_category_counts": {
+    "Foundations": 4,
+    "Bitcoin": 13,
+    "Culture": 16,
+    "Failures and exploits": 13,
+    "Adoption and government": 22,
+    "Networks and infrastructure": 15,
+    "NFTs and gaming": 8,
+    "DeFi and stablecoins": 9
+  },
+  "era_counts": {
+    "Foundations": {
+      "events": 13,
+      "cards": 4
+    },
+    "Bitcoin begins": {
+      "events": 29,
+      "cards": 11
+    },
+    "Crypto expands": {
+      "events": 49,
+      "cards": 22
+    },
+    "Mania and rebuilding": {
+      "events": 64,
+      "cards": 25
+    },
+    "Mainstream boom and contagion": {
+      "events": 46,
+      "cards": 22
+    },
+    "Recovery and institutions": {
+      "events": 44,
+      "cards": 16
+    },
+    "Current year — provisional perspective": {
+      "events": 5,
+      "cards": 0
+    }
+  },
+  "focused_review_flags": [
+    {
+      "id": "LORE-EVT-0635",
+      "title": "Diffie and Hellman publish foundational public-key cryptography work",
+      "date": "1976-11",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0001",
+      "title": "David Chaum proposes cryptographic digital cash",
+      "date": "1982",
+      "card_order": 1,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0193",
+      "title": "The Crypto Anarchist Manifesto circulates",
+      "date": "1988",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_DATE_QUALIFIER"
+    },
+    {
+      "id": "LORE-EVT-0002",
+      "title": "DigiCash is founded",
+      "date": "1989",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE",
+        "SOURCE_QUALITY_FOLLOWUP"
+      ],
+      "date_note": null,
+      "source_research_state": "RESEARCHED_SECONDARY"
+    },
+    {
+      "id": "LORE-EVT-0195",
+      "title": "e-gold launches as an early digital value system",
+      "date": "1996",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_YEAR"
+    },
+    {
+      "id": "LORE-EVT-0005",
+      "title": "Adam Back creates Hashcash",
+      "date": "1997-05",
+      "card_order": 3,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_DATE_QUALIFIER"
+    },
+    {
+      "id": "LORE-EVT-0006",
+      "title": "Wei Dai publishes b-money",
+      "date": "1998-11",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0640",
+      "title": "DigiCash files for bankruptcy",
+      "date": "1998",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE",
+        "SOURCE_QUALITY_FOLLOWUP"
+      ],
+      "date_note": null,
+      "source_research_state": "RESEARCHED_SECONDARY"
+    },
+    {
+      "id": "LORE-EVT-0014",
+      "title": "Silk Road launches",
+      "date": "2011-01 (approximately)",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_DATE_QUALIFIER"
+    },
+    {
+      "id": "LORE-EVT-1065",
+      "title": "Electrum establishes lightweight Bitcoin wallet model",
+      "date": "2011-11",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "DATE_CORRECTED"
+    },
+    {
+      "id": "LORE-SEL-2012-002",
+      "title": "Coinbase is founded",
+      "date": "2012-06",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-SEL-2012-003",
+      "title": "XRP Ledger launches",
+      "date": "2012-06",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-SEL-2012-004",
+      "title": "Bitcoin Savings & Trust collapses",
+      "date": "2012-08",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-EVT-0081",
+      "title": "Cyprus banking crisis draws attention to Bitcoin",
+      "date": "2013-03",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "CONTEXT_VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0208",
+      "title": "Mastercoin conducts an early token sale on Bitcoin",
+      "date": "2013-07-31 to 2013-08-31",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_RANGE"
+    },
+    {
+      "id": "LORE-EVT-0184",
+      "title": "James Howells loses access to Bitcoin keys in a discarded hard drive",
+      "date": "2013",
+      "card_order": 22,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": "Approved card is year-only. 27 November is a publicity milestone, not a verified date of disposal. No exact disposal day is invented.",
+      "source_research_state": "VERIFIED_WITH_DATE_QUALIFIER"
+    },
+    {
+      "id": "LORE-EVT-0086",
+      "title": "Ethereum is publicly unveiled",
+      "date": "2014-01-23 to 2014-01-26",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0211",
+      "title": "GHash.io approaches majority Bitcoin mining power",
+      "date": "2014-06",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0210",
+      "title": "Stellar network launches",
+      "date": "2014-07",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_DATE_QUALIFIER"
+    },
+    {
+      "id": "LORE-EVT-0692",
+      "title": "Linux Foundation launches Hyperledger project",
+      "date": "2015-12",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-EVT-0027",
+      "title": "The DAO crowdsale",
+      "date": "2016-04-30 to 2016-05-28",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0030",
+      "title": "Rare Pepes emerge on Counterparty",
+      "date": "2016-09-09 to 2016-09-13",
+      "card_order": 36,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0214",
+      "title": "Zcash trusted-setup ceremony becomes part of privacy-coin lore",
+      "date": "2016-10-22 to 2016-10-23",
+      "card_order": 37,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-EVT-0268",
+      "title": "MetaMask emerges as a key Ethereum browser wallet",
+      "date": "2016",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_YEAR"
+    },
+    {
+      "id": "LORE-EVT-0031",
+      "title": "CryptoPunks launches",
+      "date": "2017-06",
+      "card_order": 38,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-EVT-0215",
+      "title": "Cardano launches",
+      "date": "2017-09-23 to 2017-09-29",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-EVT-0181",
+      "title": "Pineapple Fund completes a major Bitcoin philanthropy campaign",
+      "date": "2018",
+      "card_order": 50,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE",
+        "SOURCE_QUALITY_FOLLOWUP"
+      ],
+      "date_note": null,
+      "source_research_state": "RESEARCHED_WITH_YEAR"
+    },
+    {
+      "id": "LORE-CAN-2019-006",
+      "title": "Lightning Torch travels globally across Twitter users",
+      "date": "2019-01-19 to 2019-04",
+      "card_order": 51,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_RANGE"
+    },
+    {
+      "id": "LORE-CAN-2019-005",
+      "title": "QuadrigaCX collapse and missing-key saga",
+      "date": "2019-01 to 2019-04",
+      "card_order": 52,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_QUALIFIER"
+    },
+    {
+      "id": "LORE-CAN-2019-018",
+      "title": "FTX exchange launches",
+      "date": "2019-05",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2019-025",
+      "title": "FATF introduces crypto Travel Rule framework",
+      "date": "2019-06",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2020-002",
+      "title": "Curve launches stablecoin-focused AMM",
+      "date": "2020-01",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2020-006",
+      "title": "Solana mainnet beta launches",
+      "date": "2020-03",
+      "card_order": 56,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2020-021",
+      "title": "Ledger customer-data breach exposes hardware-wallet buyers",
+      "date": "2020-06-25 to 2020-12-20",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-CAN-2020-034",
+      "title": "SushiSwap vampire attack",
+      "date": "2020-08-28 to 2020-09-09",
+      "card_order": 60,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-CAN-2020-037",
+      "title": "Avalanche mainnet launches",
+      "date": "2020-09",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2021-010",
+      "title": "Optimism deploys OP Mainnet",
+      "date": "2021-01",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2021-085",
+      "title": "China publishes a nationwide notice restricting cryptocurrency mining",
+      "date": "2021-09-24",
+      "card_order": 72,
+      "flags": [
+        "NOTICE_VS_EARLIER_CRACKDOWN"
+      ],
+      "date_note": "24 September is publication of a notice dated 3 September. Earlier May/June restrictions and mining migration must not be presented as beginning in September.",
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2021-001",
+      "title": "Axie Infinity play-to-earn and scholarship economy explodes",
+      "date": "2021",
+      "card_order": 75,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_YEAR"
+    },
+    {
+      "id": "LORE-CAN-2022-025",
+      "title": "Ronin bridge exploit is publicly disclosed",
+      "date": "2022-03-29",
+      "card_order": 78,
+      "flags": [
+        "ATTACK_VS_DISCLOSURE_DATE"
+      ],
+      "date_note": "Timeline anchors the 29 March disclosure. Contemporary reporting dates the attack to 23 March; the project's later reopening post conflates the dates. Resolve the original incident record before approving a card date for the attack itself.",
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2022-049",
+      "title": "Three Arrows Capital collapses",
+      "date": "2022-07",
+      "card_order": 81,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2022-002",
+      "title": "India introduces major crypto tax rules",
+      "date": "2022",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_RULE"
+    },
+    {
+      "id": "LORE-CAN-2023-021",
+      "title": "USDC temporarily depegs during the Silicon Valley Bank crisis",
+      "date": "2023-03-10 to 2023-03-13",
+      "card_order": 86,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-CAN-2023-023",
+      "title": "Euler exploit is followed by return of most stolen assets",
+      "date": "2023-03-13 to 2023-04-04",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-CAN-2023-013",
+      "title": "zkSync Era launches",
+      "date": "2023-03",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2023-031",
+      "title": "PEPE helps ignite a new meme-coin cycle",
+      "date": "2023-04-16 to 2023-05-05",
+      "card_order": 88,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-CAN-2023-042",
+      "title": "Ledger Recover controversy triggers self-custody debate",
+      "date": "2023-05-16 to 2023-05-23",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_SEQUENCE"
+    },
+    {
+      "id": "LORE-CAN-2024-002",
+      "title": "Pump.fun launches and industrializes Solana meme-token creation",
+      "date": "2024-01",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_PLATFORM_SOURCE"
+    },
+    {
+      "id": "LORE-CAN-2024-009",
+      "title": "Ethena launches USDe",
+      "date": "2024-02",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED_WITH_MONTH"
+    },
+    {
+      "id": "LORE-CAN-2024-034",
+      "title": "Saxony sells almost 50,000 seized Bitcoin",
+      "date": "2024-06-19 to 2024-07-12",
+      "card_order": null,
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2026-001",
+      "title": "Ethereum's second Fusaka BPO fork raises blob capacity again",
+      "date": "2026-01-07T01:01:11Z",
+      "card_order": null,
+      "flags": [
+        "CURRENT_YEAR_PERSPECTIVE_PROVISIONAL"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2026-002",
+      "title": "SEC and CFTC issue joint crypto-asset legal interpretation",
+      "date": "2026-03-17",
+      "card_order": null,
+      "flags": [
+        "CURRENT_YEAR_PERSPECTIVE_PROVISIONAL"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2026-003",
+      "title": "CFTC approves a listed Bitcoin perpetual contract on a US regulated exchange",
+      "date": "2026-05-29",
+      "card_order": null,
+      "flags": [
+        "CURRENT_YEAR_PERSPECTIVE_PROVISIONAL"
+      ],
+      "date_note": null,
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2026-006",
+      "title": "SEC proposes Regulation Crypto Assets",
+      "date": "2026-08-18",
+      "card_order": null,
+      "flags": [
+        "CURRENT_YEAR_PERSPECTIVE_PROVISIONAL"
+      ],
+      "date_note": "A proposed rule as of 26 September 2026, not adopted law.",
+      "source_research_state": "VERIFIED"
+    },
+    {
+      "id": "LORE-CAN-2026-005",
+      "title": "BitMEX ceases exchange operations",
+      "date": "2026-09-23",
+      "card_order": null,
+      "flags": [
+        "CURRENT_YEAR_PERSPECTIVE_PROVISIONAL"
+      ],
+      "date_note": "Uses the end of trading on 23 September; wind-down was announced on 23 July.",
+      "source_research_state": "VERIFIED"
+    }
+  ],
+  "primary_checks_this_pass": [
+    "TRUMP announcement and timezone",
+    "Ulbricht pardon",
+    "Tether first issuance",
+    "BAYC stated initial release",
+    "2026 SEC interpretation",
+    "2026 proposed rule status",
+    "2026 BitMEX closure",
+    "2026 CFTC BTCPERP announcement",
+    "Fusaka BPO schedule"
+  ],
+  "known_date_issue": "Ronin is anchored to public disclosure. Confirm attack-day treatment from the original incident/on-chain record before new card copy.",
+  "publication_gate": "Review event choice and copy, complete selected evidence checks and resolve known date distinctions before public release. Art, QR and printing approval remain separate."
+}

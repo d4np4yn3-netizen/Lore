@@ -4,7 +4,7 @@
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
   "score_status": "NOT_STARTED",
-  "event_count": 9,
+  "event_count": 11,
   "events": [
     {
       "id": "LORE-CAN-2025-001",
@@ -301,10 +301,68 @@
         null
       ],
       "notes": null
+    },
+    {
+      "id": "LORE-CAN-2025-010",
+      "canonical_key": "2025-official-trump-meme-token-announcement",
+      "date": "2025-01-17",
+      "title": "Donald Trump announces the official TRUMP meme token before his inauguration",
+      "branches": [
+        "MEMES",
+        "CULTURE",
+        "GOVERNMENTS"
+      ],
+      "source_event_ids": [],
+      "research_state": "VERIFIED_WITH_TIMEZONE_QUALIFIER",
+      "source_confidence": "HIGH",
+      "summary": "President-elect Donald Trump promoted the official TRUMP token in a Truth Social post on 17 January 2025, three days before his inauguration. The token was issued on Solana.",
+      "significance": "The announcement brought a president-elect directly into meme-token promotion, connecting crypto speculation, political identity and commercial interests.",
+      "sources": [
+        {
+          "title": "American Presidency Project — original Truth Social posts, 17 January 2025",
+          "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-january-17-2025",
+          "type": "PRIMARY_ARCHIVE"
+        },
+        {
+          "title": "Canary TRUMP ETF registration statement — issuer disclosure, not SEC endorsement",
+          "url": "https://www.sec.gov/Archives/edgar/data/2083122/000199937125012002/trump-s1_082625.htm",
+          "type": "ISSUER_FILING"
+        }
+      ],
+      "notes": "Date uses the US local calendar date of the announcement. The archived post is 18:00 Pacific / 21:00 Eastern on 17 January, which is 02:00 UTC on 18 January. It is not a claim about the first on-chain mint time.",
+      "score_status": "NOT_SCORED",
+      "research_added": "2026-09-26"
+    },
+    {
+      "id": "LORE-CAN-2025-011",
+      "canonical_key": "2025-ross-ulbricht-presidential-pardon",
+      "date": "2025-01-21",
+      "title": "Donald Trump pardons Silk Road founder Ross Ulbricht",
+      "branches": [
+        "GOVERNMENTS",
+        "CULTURE",
+        "BITCOIN"
+      ],
+      "source_event_ids": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "President Donald Trump granted Ross William Ulbricht a pardon on 21 January 2025. Ulbricht had been serving a life sentence following his 2015 conviction in the Silk Road case.",
+      "significance": "The pardon became a major political and cultural moment for a long-running crypto-associated campaign and the history of the Silk Road case.",
+      "sources": [
+        {
+          "title": "US Department of Justice — clemency grants, 21 January 2025",
+          "url": "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "notes": "A pardon is not a judicial finding of innocence. Keep the 2013 shutdown, 2015 conviction/sentence and 2025 pardon as distinct events.",
+      "score_status": "NOT_SCORED",
+      "research_added": "2026-09-26"
     }
   ],
   "updated": "2026-09-26",
   "note": "2025 canonical file synchronized from complete reconciliation. Only independently scoreable canonical events remain in this file; context and merged rows stay in reconciliation/legacy files.",
   "reconciliation_source": "2025-reconciliation.json",
-  "reconciliation_status": "COMPLETE"
+  "reconciliation_status": "COMPLETE",
+  "selection_addition_note": "Two primary-sourced 2025 events added during the 250/100 selection pass. The original nine events and source-event mappings are unchanged. The earlier reconciliation file covers the legacy discovery pool, not these additions."
 }

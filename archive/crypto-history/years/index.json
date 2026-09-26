@@ -5,7 +5,7 @@
   "mode": "YEAR_BY_YEAR",
   "raw_discovery_pool": "../events.json",
   "canonical_directory": "years/",
-  "rule": "The monolithic events.json is discovery input only. Research, deduplication and card scoring must operate on year shards. Canonical scoring uses only reconciled year files.",
+  "rule": "The monolithic events.json is discovery input only. Evidence research and reconciliation operate on year shards. Canonical numerical scoring requires reconciled records. Under Dan's 26 September direction, provisional editorial selection may use existing year research with source precision and unresolved issues preserved; see ../selection/v1/.",
   "workflow": [
     "raw discovery",
     "evidence research",
@@ -255,9 +255,19 @@
       "status": "CANONICAL_RECONCILED",
       "file": "2025.json",
       "reconciliation_file": "2025-reconciliation.json",
-      "canonical_event_count": 9,
+      "canonical_event_count": 11,
       "raw_candidate_count": 24,
-      "score_status": "NOT_STARTED"
+      "score_status": "NOT_STARTED",
+      "selection_pass_new_event_count": 2,
+      "note": "Original nine canonical events preserved; two new primary-sourced 2025 events added during the selection pass. Original raw discovery count remains 24."
+    },
+    "2026": {
+      "status": "CURRENT_YEAR_PROVISIONAL",
+      "file": "2026.json",
+      "canonical_event_count": 6,
+      "score_status": "NOT_STARTED",
+      "note": "Five events selected as provisional-perspective supporting context, no Season One card moments assigned."
     }
-  }
+  },
+  "editorial_selection": "../selection/v1/selection-v1.json"
 }

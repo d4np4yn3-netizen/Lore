@@ -2,13 +2,18 @@
 
 Updated 2026-09-26. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Active research: crypto timeline
+## Active milestone: crypto timeline and Season One selection
 
-Work in `archive/crypto-history/years/` and its `index.json`; never rewrite the monolithic discovery file for routine research.
-Latest continuation: **10 records refined in `2018.json`** and **three date clarifications in `2020.json`**, with primary sources, date precision and qualifiers recorded. Original event IDs and unrelated records are preserved.
-The latest concurrent work reconciled 2019 into **38 canonical events** and 2020 into **71**. This continuation builds on those commits.
-2018 still has **15 explicitly unresolved records** and needs final reconciliation. The premature scoring-ready flag was corrected; no card scoring was started.
-Next: finish the listed 2018 gaps in `archive/crypto-history/research-progress.json`, reconcile 2018, then continue backward.
+Dan approved the **250-event timeline / 100-card-moment direction** on 26 September 2026. Selection v1 contains **100 card moments + 150 supporting events**, spanning 1976–26 September 2026. The 100 proposed card moments run through 2025; current-year context remains provisional in historical perspective.
+
+Review: **archive/crypto-history/selection/v1/README.md**.
+- Exact 100: `season-one-100.md`; full chronology: `timeline-250.md`.
+- Shared data: `selection-v1.json`; checks and date/source flags: `review-qa.json`.
+- All **11 approved visuals** are included and unchanged. The **89 new event choices and working titles remain proposals for Dan's review**; no new art was generated and no website was deployed.
+- First Transfer/First Halving remain paused; prior parked Silk Road/Slush concepts are not restarted by timeline inclusion.
+- Two sourced 2025 gaps were added: the official TRUMP token announcement and Ulbricht's pardon. Other year research and the full discovery archive are preserved.
+
+Next: review the exact 100 choices, resolve targeted selected-event date/source flags, then finalise copy and new rarities. Do not require completion of all 1,229 discovery candidates before reviewing this selection. Earlier year-by-year reconciliation remains an archive backlog in `research-progress.json`.
 
 ## Current milestone: Crypto print rollout complete
 
@@ -22,7 +27,7 @@ QA: `cards/crypto/master/print-v1/qa/approved-card-conversions.json`.
 
 The original approved PNG/SVG/art files were not replaced. Every print derivative retains the approved wording, rarity and QR status. All QRs remain **DEMO_ONLY** and `print_release` remains **false**.
 
-## Next action
+## Next physical-print action
 
 Use the converted files for physical print samples. Check the physical cut/bleed/safe result and scan the printed QR before any production release. Live QR routing, CMYK/production colour decisions and foil separations remain separate gates.
 

@@ -11,7 +11,7 @@ implements Dan's crypto decisions; creator collections retain six moments per cr
 | Scarcity | Higher rarity means smaller print quantities; counts and pack odds remain undecided |
 | Finish | Standard and foil versions available for every card; foil is a finish, not a seventh rarity |
 | Under the rarity | Event date, formatted DD MMM YYYY, in the existing counter position |
-| Collection numbering | No creator-style 01/06; final set size and collector numbering remain undecided |
+| Collection numbering | Season One working scope: 100 distinct event cards (confirmed 26 September 2026); no creator-style 01/06. Final collector numbers remain unassigned. See the 100-event selection for review. |
 | Footer | CRYPTO • SEASON 01, as shown on the approved Pizza Day preview |
 | Subject label | Event's subject or network, e.g. BITCOIN, in the existing creator-name field |
 | Format | LORE-FRONT-v4 visual geometry with approved LORE-CRYPTO-PRINT-v1.0 print derivative, six rarity colours, collection-specific approved art style, shared back v5 |

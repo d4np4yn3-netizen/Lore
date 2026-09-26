@@ -17,7 +17,7 @@
       "2022": 83,
       "2023": 83,
       "2024": 52,
-      "2025": 9
+      "2025": 11
     },
     "current_year": {
       "2026": 6,
@@ -53,16 +53,17 @@
       "2016",
       "2017",
       "2018"
-    ]
+    ],
+    "selection_pass_new_events": 2
   },
   "next_work": [
-    "Continue the 15 explicitly unresolved 2018 records in active_checkpoints.2018.remaining_ids, then reconcile the year.",
-    "Review context, cross-year moves and source quality; a triage-complete label is not evidence completion.",
-    "Then continue backward from 2017 one year at a time, reading the current year file before research.",
-    "Add causal/related-event links and final semantic deduplication.",
-    "Only after all years are canonical, add card-scoring dimensions and season selection."
+    "Review archive/crypto-history/selection/v1/season-one-100.md with Dan: 100 selected moments, including the 11 previously approved cards.",
+    "Resolve targeted evidence/date flags for the selected events, using selection/v1/review-qa.json. Do not restart exhaustive archive expansion.",
+    "Finalise the selected event copy and the 89 new moment choices; retain earlier production pauses and parked art concepts.",
+    "Implement the approved vertical timeline direction from the shared selection data when website work is requested.",
+    "Retain remaining year reconciliation as archive backlog; it is not a prerequisite for this explicitly provisional selection."
   ],
-  "guardrail": "If a task requires reading more than one large year at once, process years sequentially. Never fetch the 1.29 MB monolithic events.json for routine research.",
+  "guardrail": "Research remains in year shards. Selection v1 is a separate review snapshot; it does not promote unreconciled year records to final publication-ready evidence. Read only the relevant year for follow-up.",
   "active_checkpoints": {
     "2018": {
       "file": "archive/crypto-history/years/2018.json",
@@ -98,5 +99,26 @@
       "2020": 3
     },
     "preservation": "2018 original IDs retained; 2020 canonical IDs and source-event mappings retained. Concurrent 2019/2020 reconciliation commits preserved."
+  },
+  "previous_archive_next_work": [
+    "Continue the 15 explicitly unresolved 2018 records in active_checkpoints.2018.remaining_ids, then reconcile the year.",
+    "Review context, cross-year moves and source quality; a triage-complete label is not evidence completion.",
+    "Then continue backward from 2017 one year at a time, reading the current year file before research.",
+    "Add causal/related-event links and final semantic deduplication.",
+    "Only after all years are canonical, add card-scoring dimensions and season selection."
+  ],
+  "editorial_selection": {
+    "revision": "v1",
+    "status": "EDITORIAL_SELECTION_FOR_REVIEW",
+    "scope_status": "250_TIMELINE_100_CARD_MOMENTS_CONFIRMED",
+    "timeline_events": 250,
+    "card_moments": 100,
+    "supporting_events": 150,
+    "approved_visuals_preserved": 11,
+    "new_moment_proposals": 89,
+    "file": "archive/crypto-history/selection/v1/selection-v1.json",
+    "selection_method": "MANUAL_EDITORIAL_CURATION",
+    "numerical_scoring": "NOT_PERFORMED",
+    "individual_new_moments_approved": false
   }
 }
