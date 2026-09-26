@@ -2,8 +2,441 @@
   "schema_version": "1.0",
   "year": 2021,
   "status": "EVIDENCE_PASS_IN_PROGRESS",
-  "note": "2021 evidence file. Includes direct 2021 research plus migrated evidence already completed in the preserved legacy master. Legacy IDs are retained for reconciliation.",
+  "note": "2021 evidence file. Direct research and legacy evidence have been consolidated. Context and duplicate rows remain in reconciliation rather than being promoted to independent canonical events.",
   "events": [
+    {
+      "key": "2021-bitcoin-for-corporations",
+      "master_event_ids": [
+        "LORE-EVT-0758"
+      ],
+      "date": "2021",
+      "title": "MicroStrategy hosts Bitcoin for Corporations conference",
+      "state": "VERIFIED_WITH_YEAR",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "summary": "MicroStrategy hosted its Bitcoin for Corporations program in 2021, sharing treasury, legal, accounting and operational material intended to help other companies evaluate Bitcoin.",
+      "significance": "The event turned MicroStrategy's own treasury strategy into an explicit corporate adoption playbook.",
+      "sources": [
+        {
+          "title": "Strategy — Bitcoin for Corporations 2021",
+          "url": "https://www.strategy.com/software/bitcoin/bitcoin-for-corporations",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-discord-hacks-become-major-nft-theft-vector",
+      "master_event_ids": [
+        "LORE-EVT-1061"
+      ],
+      "date": "2021",
+      "title": "Discord hacks become major NFT theft vector",
+      "state": "VERIFIED_WITH_RANGE",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "HACKS"
+      ],
+      "summary": "Attackers increasingly targeted NFT and crypto Discord communities through fake support accounts, phishing links and malware; OpenSea users were publicly targeted in August and broader malware campaigns were documented later in the year.",
+      "significance": "Discord compromise and phishing became a defining NFT security risk.",
+      "sources": [
+        {
+          "title": "BleepingComputer — OpenSea Discord phishing, Aug. 2021",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-opensea-support-staff-are-stealing-cryptowallets-and-nfts/",
+          "type": "SECURITY_SECONDARY"
+        },
+        {
+          "title": "BleepingComputer — Discord malware targets crypto/NFT communities",
+          "url": "https://www.bleepingcomputer.com/news/security/discord-malware-campaign-targets-crypto-and-nft-communities/",
+          "type": "SECURITY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-genesis-crypto-lending-originations-surge-to-131b-in-2021",
+      "master_event_ids": [
+        "LORE-EVT-0781"
+      ],
+      "date": "2021",
+      "title": "Genesis crypto lending originations surge to $131B in 2021",
+      "state": "VERIFIED_WITH_YEAR_DATA",
+      "tier": "MAJOR",
+      "branches": [
+        "CEFI",
+        "INSTITUTIONS"
+      ],
+      "summary": "Genesis reported $131 billion of loan originations during 2021, nearly seven times its 2020 total, and ended the year with $12.5 billion of active loans outstanding.",
+      "significance": "The growth illustrates the enormous institutional crypto-credit expansion that preceded the 2022 deleveraging crisis.",
+      "sources": [
+        {
+          "title": "Genesis — 2021 lending/trading growth report",
+          "url": "https://www.businesswire.com/news/home/20220127005286/en/Genesis-Q4-Report-Highlights-Key-Trends-from-2021-in-Crypto-Lending-Trading-and-Custody",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-hydra-dominates-russian-language-darknet-commerce",
+      "master_event_ids": [
+        "LORE-EVT-1159"
+      ],
+      "date": "2021",
+      "title": "Hydra dominates Russian-language darknet commerce",
+      "state": "VERIFIED_WITH_RETROSPECTIVE_DATA",
+      "tier": "MAJOR",
+      "branches": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "summary": "US law-enforcement analysis later estimated that Hydra accounted for roughly 80% of darknet-market-related cryptocurrency transactions in 2021.",
+      "significance": "Hydra's scale made it the dominant Russian-language darknet market before its 2022 international seizure.",
+      "sources": [
+        {
+          "title": "US DOJ — Hydra accounted for estimated 80% of darknet crypto transactions in 2021",
+          "url": "https://www.justice.gov/archives/opa/pr/justice-department-investigation-leads-shutdown-largest-online-darknet-marketplace",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-james-howells-proposes-high-tech-landfill-search-for-lost-bitcoin",
+      "master_event_ids": [
+        "LORE-EVT-0887"
+      ],
+      "date": "2021",
+      "title": "James Howells proposes high-tech landfill search for lost Bitcoin",
+      "state": "VERIFIED_WITH_YEAR",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "summary": "James Howells continued campaigning for permission to excavate a Newport landfill in search of the discarded hard drive he says held access to thousands of BTC, proposing increasingly elaborate recovery plans.",
+      "significance": "The decades-long recovery effort turned the lost-hard-drive story into enduring Bitcoin folklore about irreversible self-custody mistakes.",
+      "sources": [
+        {
+          "title": "CBS News — James Howells landfill recovery campaign",
+          "url": "https://www.cbsnews.com/news/hard-drive-lost-bitcoin-landfill/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "legacy_canonical_event_id": "LORE-EVT-0184",
+      "legacy_relation": "AFTERMATH"
+    },
+    {
+      "key": "2021-opensea-nft-explosion",
+      "date": "2021",
+      "title": "OpenSea becomes the defining marketplace of NFT mania",
+      "state": "VERIFIED_CONTEXT",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "MARKETS",
+        "CULTURE"
+      ],
+      "summary": "OpenSea reported explosive 2021 growth; it later stated that transaction volume increased more than 600-fold during the year.",
+      "significance": "OpenSea became the primary marketplace through which millions of users experienced the 2021 NFT boom.",
+      "sources": [
+        {
+          "title": "OpenSea — 2021 growth retrospective",
+          "url": "https://opensea.io/blog/articles/announcing-openseas-new-funding",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "OpenSea — July 2021 updates",
+          "url": "https://opensea.io/blog/articles/new-features-updates-july-2021",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Era/context node; individual NFT projects remain separate canonical events."
+    },
+    {
+      "key": "2021-phantom-wallet-launches-for-solana-users",
+      "master_event_ids": [
+        "LORE-EVT-1073"
+      ],
+      "date": "2021",
+      "title": "Phantom wallet launches for Solana users",
+      "state": "VERIFIED_WITH_YEAR",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "SECURITY"
+      ],
+      "summary": "Phantom formed in January 2021 and launched its Solana wallet during 2021, becoming one of the ecosystem's main consumer gateways.",
+      "significance": "Phantom gave Solana a polished self-custody wallet comparable to MetaMask's role on Ethereum and became central to Solana DeFi and NFTs.",
+      "sources": [
+        {
+          "title": "Phantom — About",
+          "url": "https://phantom.com/about",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Phantom — $9M Series A",
+          "url": "https://www.phantom.com/learn/blog/phantom-raises-usd9m-from-a16z-variant-jump-capital-and-more",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH",
+      "notes": "Exact first public-beta day is not asserted because the current primary sources establish the year and launch sequence more clearly than a single date."
+    },
+    {
+      "key": "2021-optimism-mainnet",
+      "date": "2021-01",
+      "title": "Optimism deploys OP Mainnet",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Optimism deployed its production optimistic-rollup network in January 2021, later opening permissionless deployment by year-end.",
+      "significance": "Optimism became one of Ethereum's first major production rollups and helped establish L2s as Ethereum's scaling strategy.",
+      "sources": [
+        {
+          "title": "Optimism — What Is OP Mainnet?",
+          "url": "https://optimism.io/blog/what-is-op-mainnet",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-stefan-thomas-reports-only-a-few-password-attempts-remain-for-7002-btc",
+      "master_event_ids": [
+        "LORE-EVT-0885"
+      ],
+      "date": "2021-01-12",
+      "title": "Stefan Thomas reports only a few password attempts remain for 7002 BTC",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MYSTERIES",
+        "CULTURE"
+      ],
+      "summary": "Programmer Stefan Thomas publicly described having only two password attempts left on an IronKey containing access to 7,002 BTC after eight failed guesses.",
+      "significance": "The story became one of crypto's most vivid self-custody and lost-key cautionary tales.",
+      "sources": [
+        {
+          "title": "The Guardian — Stefan Thomas has two password guesses left",
+          "url": "https://www.theguardian.com/technology/2021/jan/12/in-bits-the-programmer-locked-out-of-his-130m-bitcoin-account",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-bittrex-delists-major-privacy-coins-including-monero-zcash-and-dash",
+      "master_event_ids": [
+        "LORE-EVT-1193"
+      ],
+      "date": "2021-01-15",
+      "title": "Bittrex delists major privacy coins including Monero, Zcash and Dash",
+      "state": "VERIFIED_WITH_EXAMPLE",
+      "tier": "CORE",
+      "branches": [
+        "PRIVACY",
+        "REGULATION"
+      ],
+      "summary": "Bittrex Global removed trading markets for Monero, Zcash, Dash and Grin in January 2021.",
+      "significance": "The delisting illustrates the growing regulatory/compliance pressure faced by privacy-focused crypto assets.",
+      "sources": [
+        {
+          "title": "Bittrex Global — XMR, ZEC, DASH, GRIN delisting",
+          "url": "https://bittrexglobal.zendesk.com/hc/en-us/articles/6448634669083-Delisting-of-XMR-ZEC-DASH-and-GRIN",
+          "type": "EXCHANGE_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-axie-ronin-mainnet",
+      "date": "2021-02",
+      "title": "Axie Infinity launches Ronin mainnet",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "NFT",
+        "BRIDGES"
+      ],
+      "summary": "Axie Infinity launched Ronin mainnet in February 2021 and began migrating its assets away from Ethereum.",
+      "significance": "Ronin removed a major fee/scaling bottleneck and helped Axie's player economy grow dramatically later in 2021.",
+      "sources": [
+        {
+          "title": "Sky Mavis — Axie history",
+          "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-dydx-grows-as-a-major-decentralized-perpetuals-venue",
+      "master_event_ids": [
+        "LORE-EVT-0402"
+      ],
+      "date": "2021-02",
+      "title": "dYdX grows as a major decentralized perpetuals venue",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX"
+      ],
+      "summary": "dYdX and StarkWare launched a Layer 2 protocol for cross-margined perpetual trading using StarkEx.",
+      "significance": "The move demonstrated that zero-knowledge scaling could support high-volume non-custodial derivatives trading with lower costs and no per-trade gas.",
+      "sources": [
+        {
+          "title": "dYdX Foundation — DYDX / Layer 2 history",
+          "url": "https://www.dydx.foundation/blog/introducing-dydx-token",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-foundation-nft-art-marketplace-launches-publicly",
+      "master_event_ids": [
+        "LORE-EVT-1210"
+      ],
+      "date": "2021-02",
+      "title": "Foundation NFT art marketplace launches publicly",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Foundation opened its artist-focused NFT marketplace publicly in February 2021.",
+      "significance": "Foundation became one of the important curated digital-art venues of the 2021 NFT boom.",
+      "sources": [
+        {
+          "title": "Ethereum.org — Foundation marketplace",
+          "url": "https://ethereum.org/apps/foundation",
+          "type": "PROJECT_DIRECTORY"
+        },
+        {
+          "title": "Creative Review — Foundation launched Feb. 2021",
+          "url": "https://www.creativereview.co.uk/foundation-creative-start-ups/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-gbtc-discount-emerges-after-years-of-premium-trading",
+      "master_event_ids": [
+        "LORE-EVT-0782"
+      ],
+      "date": "2021-02 onward",
+      "title": "GBTC discount emerges after years of premium trading",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "CORE",
+      "branches": [
+        "INSTITUTIONS",
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "summary": "GBTC began trading at a discount to net asset value for the first time in late February 2021 after years of premium trading; by May the discount had exceeded 20%.",
+      "significance": "The reversal broke a highly profitable institutional arbitrage trade and became an important precursor to later leverage and credit stress.",
+      "sources": [
+        {
+          "title": "The Block — GBTC begins trading at a discount in 2021",
+          "url": "https://www.theblock.co/news/ecosystems/2021-03-22-grayscale-bitcoin-trust-discount-premium-98973",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-swiss-dlt-act",
+      "master_event_ids": [
+        "LORE-EVT-0347"
+      ],
+      "date": "2021-02-01 and 2021-08-01",
+      "title": "Swiss DLT Act reforms enter into force",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "Parts of Switzerland's DLT legal reform enabling ledger-based securities took effect on 1 February, and the remaining DLT Act and ordinance — including the DLT trading-facility regime — took full effect on 1 August 2021.",
+      "significance": "Switzerland created one of the world's earliest comprehensive statutory frameworks tailored to tokenized securities and DLT market infrastructure.",
+      "sources": [
+        {
+          "title": "Swiss Federal Council — DLT Act fully in force",
+          "url": "https://www.admin.ch/en/nsb?id=84035",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Swiss SIF — DLT/blockchain legal basis",
+          "url": "https://www.sif.admin.ch/en/dlt-blockchain-en",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-gemini-earn-expands-retail-crypto-lending",
+      "master_event_ids": [
+        "LORE-EVT-0994"
+      ],
+      "date": "2021-02-02",
+      "title": "Gemini Earn expands retail crypto lending",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "EXCHANGES"
+      ],
+      "summary": "Gemini launched Gemini Earn, allowing customers to lend supported crypto assets and earn advertised yields of up to 7.4% APY.",
+      "significance": "Gemini Earn became a prominent example of retail CeFi yield products and later a central piece of the Genesis/Gemini contagion dispute.",
+      "sources": [
+        {
+          "title": "Gemini — launch of Gemini Earn",
+          "url": "https://www.prnewswire.com/news-releases/gemini-launches-gemini-earn-a-new-way-to-earn-interest-on-crypto-assets-301219887.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-nigeria-restricts-banks-from-servicing-crypto-businesses",
+      "master_event_ids": [
+        "LORE-EVT-0336"
+      ],
+      "date": "2021-02-05",
+      "title": "Nigeria restricts banks from servicing crypto businesses",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "summary": "The Central Bank of Nigeria directed regulated banks and other financial institutions to stop providing services to cryptocurrency exchanges and to close accounts of persons or entities involved in cryptocurrency transactions.",
+      "significance": "The directive became one of Africa's most consequential crypto-banking restrictions and pushed more Nigerian activity toward peer-to-peer channels.",
+      "sources": [
+        {
+          "title": "Central Bank of Nigeria — Feb 2021 crypto banking restriction",
+          "url": "https://www.cbn.gov.ng/out/2021/ccd/volume%203%20number%202%20cbn%20update%20february%202021.pdf",
+          "type": "CENTRAL_BANK"
+        }
+      ],
+      "confidence": "HIGH"
+    },
     {
       "key": "2021-tesla-buys-bitcoin",
       "master_event_ids": [
@@ -34,22 +467,195 @@
       "confidence": "HIGH"
     },
     {
-      "key": "2021-axie-ronin-mainnet",
-      "date": "2021-02",
-      "title": "Axie Infinity launches Ronin mainnet",
-      "state": "VERIFIED_WITH_MONTH",
-      "tier": "MAJOR",
-      "branches": [
-        "GAMING",
-        "NFT",
-        "BRIDGES"
+      "key": "2021-laser-eyes",
+      "master_event_ids": [
+        "LORE-EVT-0762"
       ],
-      "summary": "Axie Infinity launched Ronin mainnet in February 2021 and began migrating its assets away from Ethereum.",
-      "significance": "Ronin removed a major fee/scaling bottleneck and helped Axie's player economy grow dramatically later in 2021.",
+      "date": "2021-02-16",
+      "title": "Laser-eyes profile pictures spread across Bitcoin Twitter",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "The #LaserRayUntil100K profile-picture campaign began on Bitcoin Twitter, with users adding glowing laser eyes to avatars until Bitcoin reached $100,000.",
+      "significance": "Laser eyes became one of Bitcoin's most visible social identity memes and spread to executives, politicians and eventually a head of state.",
       "sources": [
         {
-          "title": "Sky Mavis — Axie history",
-          "url": "https://support.axieinfinity.com/hc/en-us/articles/21397975338523-Lunacian-Homecoming-Navigating-the-History-of-Axie-Infinity-for-New-and-Returning-Players",
+          "title": "Bitcoin Annotated — Laser Eyes origin",
+          "url": "https://bitcoinannotated.com/entries/laser-eyes/",
+          "type": "ARCHIVAL_SECONDARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-canada-spot-bitcoin-etf",
+      "master_event_ids": [
+        "LORE-EVT-0330"
+      ],
+      "date": "2021-02-18",
+      "title": "Canada approves major spot Bitcoin ETFs",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GOVERNMENTS",
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "summary": "Purpose Bitcoin ETF began trading in Canada with direct holdings of physical Bitcoin, marketed as the world's first Bitcoin ETF of its type.",
+      "significance": "Canada delivered regulated spot Bitcoin ETF exposure years before US spot products were approved.",
+      "sources": [
+        {
+          "title": "Purpose Investments — Bitcoin ETF history",
+          "url": "https://www.purposeinvest.com/about",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Purpose Bitcoin ETF brochure — inception Feb 18 2021",
+          "url": "https://documents.purposeinvest.com/Docs/BTCC/brochure/en/Purpose%20Bitcoin%20ETF%20Brochure%202021-03-31.pdf",
+          "type": "FUND_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-cosmos-ibc",
+      "master_event_ids": [
+        "LORE-EVT-0633"
+      ],
+      "date": "2021-02-18",
+      "title": "Cosmos IBC launches cross-chain communication",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "summary": "Cosmos Hub completed the Stargate upgrade, enabling the Inter-Blockchain Communication protocol on the Hub.",
+      "significance": "IBC made standardized sovereign-chain interoperability a live capability and realized a core piece of the Cosmos 'internet of blockchains' vision.",
+      "sources": [
+        {
+          "title": "Cosmos Hub Forum — Stargate mainnet upgrade",
+          "url": "https://forum.cosmos.network/t/cosmos-hub-stargate/4416",
+          "type": "PROJECT_FORUM_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-pancakeswap-becomes-a-major-retail-dex",
+      "master_event_ids": [
+        "LORE-EVT-0312"
+      ],
+      "date": "2021-02-19",
+      "title": "PancakeSwap becomes a major retail DEX",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "MAJOR",
+      "branches": [
+        "DEX",
+        "DEFI"
+      ],
+      "summary": "PancakeSwap surpassed roughly $1 billion in project value and reported about $1.92 billion in 24-hour trading volume on 19 February 2021, overtaking Uniswap on that daily-volume snapshot.",
+      "significance": "PancakeSwap became the signature retail DEX of BNB Smart Chain and demonstrated that DeFi activity could scale rapidly outside Ethereum.",
+      "sources": [
+        {
+          "title": "Binance — PancakeSwap reaches leading DEX volume in Feb 2021",
+          "url": "https://www.binance.com/en/blog/all/421499824684901686",
+          "type": "ECOSYSTEM_PRIMARY"
+        },
+        {
+          "title": "PancakeSwap — five-year history",
+          "url": "https://blog.pancakeswap.finance/articles/5-years-of-pancakeswap",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-raydium-becomes-a-major-solana-dex",
+      "master_event_ids": [
+        "LORE-EVT-0616"
+      ],
+      "date": "2021-02-20",
+      "title": "Raydium becomes a major Solana DEX",
+      "state": "VERIFIED_WITH_DATE_QUALIFIER",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEX"
+      ],
+      "summary": "Raydium publicly introduced its Solana-based AMM on 20 February 2021, integrating liquidity with Serum's central-limit order book.",
+      "significance": "Raydium became a central liquidity venue during Solana's first major DeFi expansion.",
+      "sources": [
+        {
+          "title": "Raydium — protocol launch article",
+          "url": "https://raydium.medium.com/the-raydium-protocol-9809464e0105",
+          "type": "PROJECT_ARCHIVE"
+        },
+        {
+          "title": "Raydium — 100 Days of Raydium",
+          "url": "https://raydium.medium.com/100-days-of-raydium-453863c684f6",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-anchor-protocol-high-stablecoin-yield-becomes-central-to-terra-growth",
+      "master_event_ids": [
+        "LORE-EVT-0237"
+      ],
+      "date": "2021-03",
+      "title": "Anchor Protocol high stablecoin yield becomes central to Terra growth",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "DEFI"
+      ],
+      "summary": "Anchor Protocol launched on Terra in March 2021 and offered UST deposit yields targeted around 20%, funded by borrower interest, staking yield and later reserve support.",
+      "significance": "Anchor became the principal demand engine for UST and therefore a central piece of the system whose failure would amplify Terra's 2022 collapse.",
+      "sources": [
+        {
+          "title": "Anchor Protocol docs",
+          "url": "https://docs.anchorprotocol.com/anchor-2/user-guide/webapp",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Terra Research — Bolstering Anchor sustainability",
+          "url": "https://classic-agora.terra.money/t/bolstering-anchors-sustainability/1516",
+          "type": "PROJECT_FORUM_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-cardano-mary-enables-native-assets",
+      "master_event_ids": [
+        "LORE-EVT-0623"
+      ],
+      "date": "2021-03-01",
+      "title": "Cardano Mary enables native assets",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "summary": "Cardano's Mary hard fork activated native multi-asset functionality.",
+      "significance": "Mary allowed users to create custom tokens directly on Cardano without requiring smart contracts.",
+      "sources": [
+        {
+          "title": "Cardano — hard fork history",
+          "url": "https://cardano.org/hardforks/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Cardano — Mary glossary",
+          "url": "https://cardano.org/glossary/mary/",
           "type": "PROJECT_PRIMARY"
         }
       ],
@@ -80,6 +686,219 @@
       "confidence": "HIGH"
     },
     {
+      "key": "2021-olympusdao-popularizes-protocol-owned-liquidity-and-3-3-culture",
+      "master_event_ids": [
+        "LORE-EVT-0238"
+      ],
+      "date": "2021-03-15 to 2021-03-23",
+      "title": "OlympusDAO popularizes protocol-owned liquidity and 3,3 culture",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "LORE",
+      "branches": [
+        "DEFI",
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "Olympus distributed alphaOHM through its initial community launch and began migration to OHM on 23 March, the date the project later described as its official launch.",
+      "significance": "Olympus popularized protocol-owned liquidity, extremely high staking yields and the '(3,3)' coordination meme, becoming a defining experiment of the 'DeFi 2.0' period.",
+      "sources": [
+        {
+          "title": "OlympusDAO — First Month in Review",
+          "url": "https://olympusdao.medium.com/first-month-in-review-e415191d680a",
+          "type": "PROJECT_ARCHIVE"
+        },
+        {
+          "title": "OlympusDAO — Initial Discord Offering",
+          "url": "https://olympusdao.medium.com/initial-discord-offering-the-olympus-fair-launch-event-484987c32e89",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-tesla-begins-accepting-bitcoin-for-vehicle-purchases",
+      "master_event_ids": [
+        "LORE-EVT-0294"
+      ],
+      "date": "2021-03-24",
+      "title": "Tesla begins accepting Bitcoin for vehicle purchases",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "ADOPTION",
+        "INSTITUTIONS"
+      ],
+      "summary": "Tesla began accepting Bitcoin as payment for vehicles in the United States and said Bitcoin received would be retained rather than immediately converted to fiat.",
+      "significance": "A major manufacturer accepting Bitcoin for a high-value consumer product was a landmark merchant-adoption moment.",
+      "sources": [
+        {
+          "title": "Reuters — Tesla accepts Bitcoin for vehicles",
+          "url": "https://www.investing.com/news/cryptocurrency-news/musk-says-can-now-buy-a-tesla-with-bitcoin-2455443",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Tesla 2020 Form 10-K — $1.5bn Bitcoin investment",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-ftx-acquires-naming-rights-to-miami-heat-arena",
+      "master_event_ids": [
+        "LORE-EVT-0507"
+      ],
+      "date": "2021-03-26",
+      "title": "FTX acquires naming rights to Miami Heat arena",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "summary": "Miami-Dade County approved a 19-year, $135 million naming-rights agreement with FTX.US for the county-owned Miami Heat arena, later branded FTX Arena.",
+      "significance": "The arena deal became one of the most visible symbols of FTX's rapid mainstream expansion—and, after 2022, of how quickly that image unraveled.",
+      "sources": [
+        {
+          "title": "Miami-Dade County — FTX Arena naming-rights agreement",
+          "url": "https://www.miamidade.gov/govaction/matter.asp?file=false&fileAnalysis=false&matter=210781&yearFolder=Y2021",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-visa-usdc-settlement",
+      "date": "2021-03-29",
+      "title": "Visa settles a transaction in USDC on Ethereum",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "STABLECOINS",
+        "INSTITUTIONS",
+        "ADOPTION",
+        "ETHEREUM"
+      ],
+      "summary": "Visa announced a pilot allowing Crypto.com to settle a portion of its Visa card obligations in USDC over Ethereum through Anchorage.",
+      "significance": "The pilot was a major bridge between public-blockchain stablecoins and the treasury infrastructure of a global card network.",
+      "sources": [
+        {
+          "title": "Visa — first major payments network to settle transactions in USDC",
+          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseld.17821.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-nba-top-shot-mainstream",
+      "master_event_ids": [
+        "LORE-EVT-0296"
+      ],
+      "date": "2021-03-30",
+      "title": "NBA Top Shot helps take NFTs mainstream",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "By late March 2021, Dapper Labs said NBA Top Shot had generated about $500 million in sales and registered more than 800,000 accounts since its October 2020 public beta.",
+      "significance": "Top Shot turned licensed sports highlights into one of the first mass-market NFT collecting experiences and helped introduce NFTs to mainstream sports fans.",
+      "sources": [
+        {
+          "title": "NBA.com — Dapper Labs / NBA Top Shot March 2021",
+          "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
+          "type": "PRIMARY_ORGANIZATION"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-aave-launches-on-multiple-networks",
+      "master_event_ids": [
+        "LORE-EVT-1089"
+      ],
+      "date": "2021-04",
+      "title": "Aave launches on multiple networks",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "DEFI"
+      ],
+      "summary": "Aave went live on Polygon in April 2021, followed by liquidity-mining incentives that drove rapid growth in deposits and borrowing.",
+      "significance": "The deployment showed how leading Ethereum DeFi protocols could expand to lower-cost networks and became one of Aave's first major multi-chain successes.",
+      "sources": [
+        {
+          "title": "Polygon — 2021 in review",
+          "url": "https://polygon.technology/blog/polygons-breakthrough-year-2021-in-review",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Aave governance — Polygon deployment retrospective",
+          "url": "https://governance.aave.com/t/deploy-aave-v3-on-polygon-network/7252",
+          "type": "PROJECT_FORUM_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-maker-adds-real-world-asset-collateral",
+      "master_event_ids": [
+        "LORE-EVT-1094"
+      ],
+      "date": "2021-04",
+      "title": "Maker adds real-world asset collateral",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "INSTITUTIONS"
+      ],
+      "summary": "Centrifuge's New Silver pool became MakerDAO's first live real-world-asset collateral integration, receiving a $5 million debt ceiling and minting DAI backed by real-world loans.",
+      "significance": "This was a major step from purely crypto-backed DeFi toward tokenized real-world credit and later on-chain Treasury markets.",
+      "sources": [
+        {
+          "title": "Centrifuge — first MakerDAO real-world asset onboarding",
+          "url": "https://gov.centrifuge.io/t/a-run-through-of-the-maker-governance-process-using-centrifuge/1984",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Centrifuge — first RWA-backed DAI live",
+          "url": "https://gov.centrifuge.io/t/we-just-got-a-5mm-credit-line-from-makerdao-ama/1970",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-immutable-x-launches-as-nft-and-gaming-scaling-network",
+      "master_event_ids": [
+        "LORE-EVT-1120"
+      ],
+      "date": "2021-04-08",
+      "title": "Immutable X launches as NFT and gaming scaling network",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "GAMING",
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Immutable X launched its mainnet alpha as an Ethereum layer-2 focused on NFTs, offering gas-free minting and trading while retaining user custody.",
+      "significance": "It became one of the earliest dedicated NFT scaling networks and important gaming infrastructure.",
+      "sources": [
+        {
+          "title": "Immutable — Immutable X mainnet alpha launch",
+          "url": "https://www.globenewswire.com/news-release/2021/04/08/2206773/0/en/Immutable-X-Launches-Gas-Free-Layer-2-Solution-Paving-the-Way-to-Mainstream-NFT-Adoption.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
       "key": "2021-coinbase-direct-listing",
       "master_event_ids": [
         "LORE-EVT-0046"
@@ -99,6 +918,66 @@
           "title": "Coinbase anticipated Nasdaq listing date",
           "url": "https://investor.coinbase.com/news/news-details/2021/Coinbase-Announces-Effectiveness-of-Registration-Statement-and-Anticipated-Listing-Date-of-its-Class-A-Common-Stock-on-the-Nasdaq-Global-Select-Market/default.aspx",
           "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-safemoon-hype-peaks-during-retail-token-mania",
+      "master_event_ids": [
+        "LORE-EVT-1168"
+      ],
+      "date": "2021-04-20",
+      "title": "SafeMoon hype peaks during retail-token mania",
+      "state": "VERIFIED_WITH_LATER_ALLEGATIONS",
+      "tier": "MAJOR",
+      "branches": [
+        "SCAMS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "SafeMoon's price rose more than 55,000% from March 12 to April 20 2021 and its market capitalization exceeded $5.7 billion, according to the SEC's later complaint. The SEC later alleged fraud and misuse of project assets by executives.",
+      "significance": "SafeMoon became a defining example of the 2021 retail-token boom and later enforcement scrutiny.",
+      "sources": [
+        {
+          "title": "SEC — SafeMoon 2021 surge and later fraud allegations",
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-229",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "SEC complaint — SafeMoon 2021 price and market cap",
+          "url": "https://www.sec.gov/file/comp-pr2023-229",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Separate the documented 2021 market surge from the SEC's later allegations; attribute allegations to the SEC."
+    },
+    {
+      "key": "2021-thodex-collapse",
+      "master_event_ids": [
+        "LORE-EVT-0369"
+      ],
+      "date": "2021-04-20 to 2021-04-22",
+      "title": "Thodex exchange collapses in Turkey",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "MAJOR",
+      "branches": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "summary": "Thodex users lost access to the Turkish exchange as operations stopped; prosecutors confirmed founder Faruk Fatih Özer left Turkey on 20 April and opened a criminal investigation on 22 April.",
+      "significance": "The collapse became one of Turkey's largest and most notorious crypto-exchange scandals and led to an international manhunt.",
+      "sources": [
+        {
+          "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex investigation",
+          "url": "https://istanbulanadolu.adalet.gov.tr/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-basin-aciklamasi",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex founder left Turkey",
+          "url": "https://istanbulanadolu.adalet.gov.tr/amp/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-2-basin-aciklamasi",
+          "type": "GOVERNMENT"
         }
       ],
       "confidence": "HIGH"
@@ -125,6 +1004,31 @@
           "title": "Yuga Labs — About",
           "url": "https://yuga.com/about/",
           "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-cowswap-introduces-batch-auctions-and-mev-aware-trading",
+      "master_event_ids": [
+        "LORE-EVT-1085"
+      ],
+      "date": "2021-04-28",
+      "title": "CowSwap introduces batch auctions and MEV-aware trading",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "DEX",
+        "DEFI",
+        "TECHNOLOGY"
+      ],
+      "summary": "Gnosis announced Gnosis Protocol v2 and made CowSwap available as a proof-of-concept trading interface using batch auctions and solver-based execution designed to reduce MEV.",
+      "significance": "CowSwap helped pioneer intent-like trading and MEV-aware batch-auction execution that later evolved into CoW Protocol.",
+      "sources": [
+        {
+          "title": "Gnosis — Introducing Gnosis Protocol V2 and CowSwap",
+          "url": "https://medium.com/gnosis-pm/introducing-gnosis-protocol-v2-and-balancer-gnosis-protocol-f693b2938ae4",
+          "type": "PROJECT_ARCHIVE"
         }
       ],
       "confidence": "HIGH"
@@ -157,6 +1061,324 @@
       "confidence": "HIGH"
     },
     {
+      "key": "2021-tesla-bitcoin-payments-suspended",
+      "date": "2021-05",
+      "title": "Tesla suspends Bitcoin vehicle payments",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MINING"
+      ],
+      "summary": "Tesla's SEC filing confirms that it accepted Bitcoin for vehicle sales during the first quarter of 2021 and suspended the practice in May.",
+      "significance": "The reversal made Bitcoin's energy use a mainstream corporate issue and intensified public debate about proof-of-work mining's environmental footprint.",
+      "sources": [
+        {
+          "title": "Tesla Q2 2021 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000524/tsla-20210630.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-meebits-launches-from-larva-labs",
+      "master_event_ids": [
+        "LORE-EVT-1212"
+      ],
+      "date": "2021-05-03",
+      "title": "Meebits launches from Larva Labs",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Larva Labs launched Meebits, a collection of 20,000 generative 3D avatars with downloadable 3D assets and an embedded trading marketplace.",
+      "significance": "Meebits extended the CryptoPunks lineage from 2D profile pictures toward interoperable 3D avatars and metaverse identity.",
+      "sources": [
+        {
+          "title": "Larva Labs — Introducing the Meebits",
+          "url": "https://www.larvalabs.com/blog/2021-5-3-1-1/introducing-the-meebits",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-uniswap-v3",
+      "date": "2021-05-05",
+      "title": "Uniswap v3 launches on Ethereum",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "DEFI",
+        "DEX",
+        "ETHEREUM"
+      ],
+      "summary": "Uniswap v3 deployed to Ethereum mainnet with concentrated liquidity and more granular liquidity-provider price ranges.",
+      "significance": "V3 substantially improved capital efficiency and became a foundational design for modern decentralized exchange liquidity.",
+      "sources": [
+        {
+          "title": "Uniswap v3 Mainnet launch",
+          "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v3",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-colonial-pipeline-bitcoin-ransom",
+      "master_event_ids": [
+        "LORE-EVT-0265"
+      ],
+      "date": "2021-05-07 to 2021-06-07",
+      "title": "Colonial Pipeline ransomware payment puts Bitcoin tracing in spotlight",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "MAJOR",
+      "branches": [
+        "BITCOIN",
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "summary": "DarkSide ransomware disrupted Colonial Pipeline in May and received a Bitcoin ransom; on 7 June the US Department of Justice announced seizure of 63.7 BTC from the payment.",
+      "significance": "The case connected cryptocurrency, critical infrastructure, ransomware and blockchain tracing in a single globally visible event.",
+      "sources": [
+        {
+          "title": "US DOJ — Colonial Pipeline ransom recovery",
+          "url": "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-snl-dogecoin-episode-becomes-a-peak-meme-coin-culture-moment",
+      "master_event_ids": [
+        "LORE-EVT-0496"
+      ],
+      "date": "2021-05-08",
+      "title": "SNL Dogecoin episode becomes a peak meme-coin culture moment",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "Elon Musk hosted Saturday Night Live during the peak of 2021 Dogecoin speculation; DOGE fell sharply during and after the broadcast after enormous anticipation.",
+      "significance": "The episode was the clearest crossover of meme-coin speculation, celebrity influence and mainstream television culture.",
+      "sources": [
+        {
+          "title": "Reuters — Dogecoin and Elon Musk's SNL appearance",
+          "url": "https://www.euronews.com/next/2021/05/08/uk-crypto-currency-musk",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "Reuters — Dogecoin tumbles after SNL",
+          "url": "https://finance.yahoo.com/news/dogecoin-tumbles-elon-musk-calls-060852392.html",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-punks-comic-experiments-with-nft-native-storytelling",
+      "master_event_ids": [
+        "LORE-EVT-1213"
+      ],
+      "date": "2021-05-10",
+      "title": "Punks Comic experiments with NFT-native storytelling",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Pixel Vault launched PUNKS Comic Issue #1 on 10 May 2021, using characters inspired by specific CryptoPunks and building an NFT-native narrative universe.",
+      "significance": "It was an early experiment in turning PFP intellectual property into serialized storytelling and a broader media franchise.",
+      "sources": [
+        {
+          "title": "Pixel Vault — PUNKS Comic anniversary / May 10 2021 launch",
+          "url": "https://medium.com/@pixelvault/from-the-desk-an-open-letter-to-the-pixel-vault-community-6e46256a8f08",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-veefriends-links-nfts-to-gary-vaynerchuk-events",
+      "master_event_ids": [
+        "LORE-EVT-0772"
+      ],
+      "date": "2021-05-11",
+      "title": "VeeFriends links NFTs to Gary Vaynerchuk events",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "VeeFriends Series 1 launched on 11 May 2021 with 10,255 NFTs created by Gary Vaynerchuk, combining collectible characters with access and utility tied to the VeeCon event ecosystem.",
+      "significance": "VeeFriends became one of the clearest examples of a mainstream entrepreneur using NFTs as access passes and community membership rather than only digital art.",
+      "sources": [
+        {
+          "title": "VeeFriends — Series 1 Collection",
+          "url": "https://veefriends.com/about/explore/veefriends-series-1-collection",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Gary Vaynerchuk — VeeFriends",
+          "url": "https://garyvaynerchuk.com/veefriends/",
+          "type": "FOUNDER_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-vitalik-shib-charity-donation",
+      "master_event_ids": [
+        "LORE-EVT-0182"
+      ],
+      "date": "2021-05-12",
+      "title": "Vitalik Buterin donates large quantities of meme tokens to charity",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "Vitalik Buterin transferred more than 50 trillion SHIB, then valued at roughly $1 billion, to India's Crypto-Covid Relief Fund and also donated other meme tokens and crypto to charitable organizations.",
+      "significance": "The donation turned unsolicited meme-token holdings into one of crypto's largest high-profile charitable gifts and created a real liquidity challenge for the recipient.",
+      "sources": [
+        {
+          "title": "TechCrunch — Vitalik meme-token donations",
+          "url": "https://techcrunch.com/2021/05/12/vitalik-buterin-donates-1-billion-worth-of-meme-coins-to-india-covid-relief-fund/",
+          "type": "CONTEMPORARY_SECONDARY"
+        },
+        {
+          "title": "India Crypto Relief — SHIB donation accounting",
+          "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
+          "type": "CHARITY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-vitalik-burns-billions-of-dollars-worth-of-donated-shib-tokens",
+      "master_event_ids": [
+        "LORE-EVT-0971"
+      ],
+      "date": "2021-05-16",
+      "title": "Vitalik burns billions of dollars worth of donated SHIB tokens",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "PEOPLE",
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "Buterin sent roughly 410 trillion SHIB to an inaccessible burn address after receiving an enormous allocation from the token's creators.",
+      "significance": "The burn removed a huge fraction of SHIB's supply and became a foundational piece of Shiba Inu lore.",
+      "sources": [
+        {
+          "title": "Etherscan / on-chain SHIB burn evidence",
+          "url": "https://etherscan.io/address/0xdead000000000000000042069420694206942069",
+          "type": "ONCHAIN_REFERENCE"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH",
+      "notes": "Exact token quantity should be taken from the indexed on-chain transfer when used in card copy."
+    },
+    {
+      "key": "2021-gitcoin-community-transitions-toward-dao-governance",
+      "master_event_ids": [
+        "LORE-EVT-0599"
+      ],
+      "date": "2021-05-25",
+      "title": "Gitcoin community transitions toward DAO governance",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "DAO"
+      ],
+      "summary": "Gitcoin introduced the GTC governance token and GitcoinDAO on 25 May 2021, distributing governance to the community around its open-source funding ecosystem.",
+      "significance": "The move converted one of Ethereum's best-known public-goods funding projects into a token-governed DAO.",
+      "sources": [
+        {
+          "title": "Gitcoin Governance — GTC Distribution Q&A",
+          "url": "https://gov.gitcoin.co/t/gtc-distribution-q-a/3253",
+          "type": "PROJECT_FORUM_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-binance-faces-coordinated-regulatory-warnings-in-multiple-countries",
+      "master_event_ids": [
+        "LORE-EVT-1223"
+      ],
+      "date": "2021-06 onward",
+      "title": "Binance faces coordinated regulatory warnings in multiple countries",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "CORE",
+      "branches": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "summary": "Regulators in multiple jurisdictions issued warnings or restrictions involving Binance in 2021; Japan's FSA warned Binance on 25 June for operating without registration and the UK's FCA imposed restrictions on Binance Markets Limited on 26 June.",
+      "significance": "The cluster of regulatory actions marked a major shift from Binance's hypergrowth era toward sustained jurisdiction-by-jurisdiction compliance pressure.",
+      "sources": [
+        {
+          "title": "Japan FSA — June 25 2021 Binance warning",
+          "url": "https://www.fsa.go.jp/en/newsletter/weekly2021/447.html",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "FCA — consumer warning on Binance Markets Limited",
+          "url": "https://www.fca.org.uk/news/news-stories/consumer-warning-binance-markets-limited-and-binance-group",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Binance — clarification on FCA notice",
+          "url": "https://www.binance.com/en/support/announcement/detail/1e89bf44e2e041358e6b46dc9bad0b48",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Phrase carefully by legal entity and jurisdiction; do not imply every warning applied identically to Binance.com globally."
+    },
+    {
+      "key": "2021-bitcoin-miami-conference",
+      "master_event_ids": [
+        "LORE-EVT-0761"
+      ],
+      "date": "2021-06-04 to 2021-06-05",
+      "title": "Bitcoin 2021 Miami becomes a defining bull-market conference",
+      "state": "VERIFIED_WITH_RANGE",
+      "tier": "LORE",
+      "branches": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "summary": "Bitcoin 2021 brought a large concentration of Bitcoin companies, advocates and public figures to Miami and became the stage for El Salvador's legal-tender announcement.",
+      "significance": "The conference became a defining cultural event of Bitcoin's 2021 institutional/bull-market phase.",
+      "sources": [
+        {
+          "title": "Bitcoin Magazine — Bitcoin 2021 Day 1 livestream",
+          "url": "https://www.youtube.com/watch?v=Zp43Ktm3wos",
+          "type": "EVENT_PRIMARY"
+        },
+        {
+          "title": "Reuters — Bukele announces planned Bitcoin legal-tender bill at Bitcoin 2021",
+          "url": "https://finance.yahoo.com/news/el-salvadors-president-says-send-222240207.html",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
       "key": "2021-el-salvador-bitcoin-law",
       "date": "2021-06-08",
       "title": "El Salvador passes the Bitcoin Law",
@@ -179,6 +1401,427 @@
           "title": "El Salvador Presidency — Bitcoin adoption",
           "url": "https://www.presidencia.gob.sv/gobierno-del-presidente-nayib-bukele-cuenta-con-el-respaldo-del-bcie-para-adopcion-del-bitcoin/",
           "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-cryptopunk-7523-record-sale",
+      "master_event_ids": [
+        "LORE-EVT-0767"
+      ],
+      "date": "2021-06-10",
+      "title": "CryptoPunk sells for multi-million-dollar sums",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "CryptoPunk #7523, the 'Covid Alien,' sold at Sotheby's for $11.8 million.",
+      "significance": "The sale set a then-record auction price for a single CryptoPunk and helped establish Punks as blue-chip digital collectibles within traditional auction markets.",
+      "sources": [
+        {
+          "title": "Sotheby's — CryptoPunk #7523 record",
+          "url": "https://www.sothebys.com/en/press/punks-on-paper",
+          "type": "AUCTION_HOUSE_PRIMARY"
+        },
+        {
+          "title": "Sotheby's — 2021 Historic Year in Review",
+          "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+          "type": "AUCTION_HOUSE_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-pleasrdao-buys-the-original-doge-meme-nft",
+      "master_event_ids": [
+        "LORE-EVT-0602"
+      ],
+      "date": "2021-06-11",
+      "title": "PleasrDAO buys the original Doge meme NFT",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "PleasrDAO won the auction for the original Doge meme NFT for 1,696.9 ETH, roughly $4 million at the time.",
+      "significance": "The purchase transformed one of the internet's most recognizable memes into a multi-million-dollar on-chain cultural artifact owned by a DAO.",
+      "sources": [
+        {
+          "title": "Own The Doge — Doge NFT history",
+          "url": "https://www.ownthedoge.com/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-iron-finance-collapse",
+      "master_event_ids": [
+        "LORE-EVT-0317"
+      ],
+      "date": "2021-06-16",
+      "title": "Iron Finance stablecoin collapse becomes a high-profile failure",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "STABLECOINS",
+        "DISASTERS"
+      ],
+      "summary": "IRON Finance suffered an algorithmic stablecoin run as TITAN collapsed from roughly $60 toward zero within hours and IRON lost its dollar peg.",
+      "significance": "The collapse was an early large-scale warning that reflexive partially collateralized stablecoin designs could unwind catastrophically under a run.",
+      "sources": [
+        {
+          "title": "Federal Reserve — Runs on Algorithmic Stablecoins",
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/runs-on-algorithmic-stablecoins-evidence-from-iron-titan-and-steel-20220602.html",
+          "type": "GOVERNMENT_RESEARCH"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-ftx-sponsors-major-league-baseball-umpires",
+      "master_event_ids": [
+        "LORE-EVT-0915"
+      ],
+      "date": "2021-06-23 to 2021-07-13",
+      "title": "FTX sponsors Major League Baseball umpires",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "LORE",
+      "branches": [
+        "FTX",
+        "CULTURE"
+      ],
+      "summary": "Major League Baseball and FTX announced a global partnership on 23 June 2021; MLB umpires began wearing FTX patches at the All-Star Game in July.",
+      "significance": "The umpire patches became one of the most visually distinctive examples of peak-cycle crypto sports sponsorship.",
+      "sources": [
+        {
+          "title": "MLB — FTX cryptocurrency partnership",
+          "url": "https://www.mlb.com/press-release/press-release-mlb-ftx-cryptocurrency-partnership",
+          "type": "PRIMARY_ORGANIZATION"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-africrypt-founders-disappear-amid-disputed-missing-funds-claims",
+      "master_event_ids": [
+        "LORE-EVT-1044"
+      ],
+      "date": "2021-06-25",
+      "title": "Africrypt founders disappear amid disputed missing-funds claims",
+      "state": "VERIFIED_WITH_DISPUTED_AMOUNT",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "MYSTERIES"
+      ],
+      "summary": "Lawyers representing Africrypt investors told Reuters that client funds worth billions of dollars were missing and the two brothers who ran the South African platform could not be traced. Reuters explicitly noted that the claimed loss had not been independently confirmed.",
+      "significance": "Africrypt became one of crypto's biggest alleged missing-funds mysteries, but the scale of the loss must remain qualified.",
+      "sources": [
+        {
+          "title": "Reuters — Africrypt founders cannot be traced after disputed missing funds",
+          "url": "https://kfgo.com/2021/06/25/south-africa-crypto-exchange-brothers-disappear-after-client-cash-vanishes-lawyers-say/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "notes": "Always describe the multibillion-dollar figure as an investor-lawyer claim, not independently verified fact."
+    },
+    {
+      "key": "2021-crypto-com-becomes-formula-1-global-partner",
+      "master_event_ids": [
+        "LORE-EVT-0914"
+      ],
+      "date": "2021-06-29",
+      "title": "Crypto.com becomes Formula 1 global partner",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "CULTURE",
+        "INSTITUTIONS"
+      ],
+      "summary": "Formula 1 announced Crypto.com as a global partner and inaugural partner of its new Sprint series.",
+      "significance": "The partnership placed a crypto exchange brand across one of the world's most global sports during the peak sponsorship boom.",
+      "sources": [
+        {
+          "title": "Formula 1 — Crypto.com global partnership",
+          "url": "https://www.formula1.com/en/latest/article/formula-1-anosystem-crypto-com-as-inaugural-global-partner-of-the-f1-sprint.ozYI9zd0622tZyvroYhcM",
+          "type": "PRIMARY_ORGANIZATION"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-axie-infinity-daily-active-users-explode",
+      "master_event_ids": [
+        "LORE-EVT-1118"
+      ],
+      "date": "2021-07",
+      "title": "Axie Infinity daily active users explode",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "NFT"
+      ],
+      "summary": "Axie Infinity reported more than 800,000 daily active users in July 2021.",
+      "significance": "The growth made Axie the most visible proof that blockchain games could reach a large global daily audience.",
+      "sources": [
+        {
+          "title": "Axie Infinity — July development update",
+          "url": "https://blog.axieinfinity.com/p/july-development-update-ae9",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-cool-cats-launches-during-pfp-boom",
+      "master_event_ids": [
+        "LORE-EVT-0770"
+      ],
+      "date": "2021-07-01",
+      "title": "Cool Cats launches during PFP boom",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Cool Cats was first released on-chain on 1 July 2021.",
+      "significance": "Cool Cats became one of the recognizable profile-picture projects of the 2021 NFT boom and a useful marker of how rapidly PFP culture diversified beyond CryptoPunks and BAYC.",
+      "sources": [
+        {
+          "title": "Cool Cats — project history",
+          "url": "https://coolcats.com/news/cool-cats-newsletter-august-recap",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-hop-protocol-develops-ethereum-rollup-bridge-infrastructure",
+      "master_event_ids": [
+        "LORE-EVT-1141"
+      ],
+      "date": "2021-07-12",
+      "title": "Hop Protocol develops Ethereum rollup bridge infrastructure",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "ETHEREUM"
+      ],
+      "summary": "Hop Protocol publicly launched its first production bridge, beginning with USDC transfers between Ethereum and rollups.",
+      "significance": "Hop became early infrastructure for moving assets rapidly across Ethereum Layer 2 networks without waiting for native withdrawal periods.",
+      "sources": [
+        {
+          "title": "Hop Protocol — building bridges",
+          "url": "https://paragraph.com/@hop/building-bridges",
+          "type": "PROJECT_ARCHIVE"
+        },
+        {
+          "title": "Hop Protocol — FAQ",
+          "url": "https://docs.hop.exchange/developer-docs/other/faq",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-thorchain-suffers-repeated-exploits",
+      "master_event_ids": [
+        "LORE-EVT-0389"
+      ],
+      "date": "2021-07-15 to 2021-07-23",
+      "title": "THORChain suffers repeated exploits",
+      "state": "VERIFIED_WITH_RANGE",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "summary": "THORChain suffered two major back-to-back Ethereum-router exploits in July 2021 that tricked its Bifrost system into crediting assets that had not actually been received.",
+      "significance": "The attacks forced a prolonged shutdown and major security redesign for one of the earliest native cross-chain liquidity protocols.",
+      "sources": [
+        {
+          "title": "THORChain — ETH Router exploits postmortem",
+          "url": "https://blog.thorchain.org/post-mortem-eth-router-exploits-1-2-and-premature-return-to-trading-incident/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-ftx-valuation-rises-rapidly-through-major-venture-rounds",
+      "master_event_ids": [
+        "LORE-EVT-0774"
+      ],
+      "date": "2021-07-20",
+      "title": "FTX valuation rises rapidly through major venture rounds",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "FTX",
+        "INSTITUTIONS"
+      ],
+      "summary": "FTX closed a $900 million Series B financing round that valued the exchange at $18 billion.",
+      "significance": "The record-scale funding round captured FTX's extraordinary pre-collapse ascent and the level of institutional venture confidence behind it.",
+      "sources": [
+        {
+          "title": "FTX — $900M Series B",
+          "url": "https://www.prnewswire.co.uk/news-releases/ftx-trading-ltd-closes-900m-series-b-round-largest-raise-in-crypto-exchange-history-847881913.html",
+          "type": "COMPANY_PRESS_RELEASE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-opensea-raises-major-venture-rounds-during-nft-boom",
+      "master_event_ids": [
+        "LORE-EVT-0498"
+      ],
+      "date": "2021-07-20",
+      "title": "OpenSea raises major venture rounds during NFT boom",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS"
+      ],
+      "summary": "OpenSea announced a $100 million Series B led by Andreessen Horowitz during the accelerating NFT boom.",
+      "significance": "The funding round reflected the extraordinary speed with which NFT marketplace infrastructure became a major venture category.",
+      "sources": [
+        {
+          "title": "OpenSea — $100M Series B",
+          "url": "https://opensea.io/blog/articles/announcing-our-100m-raise-led-by-a16z",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-pudgy-penguins-launches",
+      "master_event_ids": [
+        "LORE-EVT-0769"
+      ],
+      "date": "2021-07-22",
+      "title": "Pudgy Penguins launches",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Pudgy Penguins minted on 22 July 2021; the 8,888-piece collection sold out in under 20 minutes at 0.03 ETH each.",
+      "significance": "The collection became a major PFP brand and later one of the most successful examples of an NFT project expanding into consumer products.",
+      "sources": [
+        {
+          "title": "Pudgy Penguins — Lore",
+          "url": "https://media.pudgypenguins.com/lore",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-yield-guild-games-formalizes-play-to-earn-guild-model",
+      "master_event_ids": [
+        "LORE-EVT-1117"
+      ],
+      "date": "2021-07-27",
+      "title": "Yield Guild Games formalizes play-to-earn guild model",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "GAMING",
+        "DAO"
+      ],
+      "summary": "Yield Guild Games conducted its public YGG token sale on 27 July 2021, with YGG serving as the utility and membership token for the guild's DAO.",
+      "significance": "YGG formalized the large-scale play-to-earn guild model that pooled NFT game assets and organized global player communities.",
+      "sources": [
+        {
+          "title": "Yield Guild Games — YGG Token Sale",
+          "url": "https://yieldguild.medium.com/ygg-token-sale-how-to-buy-9b22e8f4a019",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-budweiser-buys-an-ens-name-and-nft-imagery",
+      "master_event_ids": [
+        "LORE-EVT-0906"
+      ],
+      "date": "2021-08",
+      "title": "Budweiser buys an ENS name and NFT imagery",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "summary": "Budweiser purchased the ENS name beer.eth for 30 ETH and used NFT imagery on its social profile.",
+      "significance": "The move became an early example of a global consumer brand treating an ENS name and NFT identity as marketing assets.",
+      "sources": [
+        {
+          "title": "ENS DAO newsletter — Budweiser purchased beer.eth in Aug. 2021",
+          "url": "https://discuss.ens.domains/t/ens-dao-newsletter-3-04-01-2022/11794",
+          "type": "PROJECT_COMMUNITY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-kazakhstan-becomes-a-major-destination-for-displaced-chinese-miners",
+      "master_event_ids": [
+        "LORE-EVT-0938"
+      ],
+      "date": "2021-08",
+      "title": "Kazakhstan becomes a major destination for displaced Chinese miners",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "summary": "Cambridge data showed Kazakhstan accounting for about 18.1% of measured global Bitcoin hashrate by August 2021, up sharply as mining power migrated after China's crackdown.",
+      "significance": "Kazakhstan became one of the clearest destinations in Bitcoin's historic post-China mining migration before later energy and policy pressures reduced its role.",
+      "sources": [
+        {
+          "title": "Cambridge CCAF — geographic shift in Bitcoin mining",
+          "url": "https://www.jbs.cam.ac.uk/2021/geographic-shift/",
+          "type": "ACADEMIC_DATA"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-miamicoin-experiment-links-municipal-branding-and-crypto",
+      "master_event_ids": [
+        "LORE-EVT-0350"
+      ],
+      "date": "2021-08-03",
+      "title": "MiamiCoin experiment links municipal branding and crypto",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "summary": "CityCoins launched MiamiCoin mining on the Stacks network on 3 August 2021, with a mechanism that could direct a share of protocol value to a city-controlled wallet if the city chose to claim it.",
+      "significance": "MiamiCoin became one of the highest-profile experiments linking municipal branding, Bitcoin-adjacent smart contracts and community-issued tokens.",
+      "sources": [
+        {
+          "title": "CityCoins — MiamiCoin launch",
+          "url": "https://www.citycoins.co/post/miamicoin-mining-launch-august-3",
+          "type": "PROJECT_PRIMARY"
         }
       ],
       "confidence": "HIGH"
@@ -208,6 +1851,36 @@
       "confidence": "HIGH"
     },
     {
+      "key": "2021-nouns-dao-introduces-one-auction-per-day-treasury-governance",
+      "master_event_ids": [
+        "LORE-EVT-1134"
+      ],
+      "date": "2021-08-08",
+      "title": "Nouns DAO introduces one-auction-per-day treasury governance",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "NFT"
+      ],
+      "summary": "Nouns DAO's first daily NFT auction settled on 8 August 2021; the protocol was designed to auction one new Noun every 24 hours and route proceeds directly into a DAO-controlled treasury.",
+      "significance": "Nouns created a distinctive self-funding DAO/brand model in which NFT sales continuously capitalized a public treasury governed by holders.",
+      "sources": [
+        {
+          "title": "Nouns.wtf — protocol mechanics",
+          "url": "https://nouns.wtf/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Remilia — Nouns launch / first auction",
+          "url": "https://blog.remilia.org/nouns-wtf/",
+          "type": "CONTEMPORARY_ANALYSIS"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
       "key": "2021-poly-network-hack",
       "date": "2021-08-10",
       "title": "Poly Network suffers a roughly $610 million cross-chain exploit",
@@ -228,6 +1901,182 @@
         }
       ],
       "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "key": "2021-avalanche-rush-incentives-accelerate-ecosystem-growth",
+      "master_event_ids": [
+        "LORE-EVT-0393"
+      ],
+      "date": "2021-08-18",
+      "title": "Avalanche Rush incentives accelerate ecosystem growth",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "summary": "The Avalanche Foundation announced Avalanche Rush, a $180 million liquidity-mining incentive program initially designed to bring Aave and Curve to Avalanche.",
+      "significance": "The program accelerated the multichain DeFi race and helped Avalanche become a major alternative smart-contract ecosystem.",
+      "sources": [
+        {
+          "title": "Avalanche Foundation — $180M Avalanche Rush",
+          "url": "https://medium.com/avalancheavax/avalanche-foundation-announces-180m-defi-incentive-program-d320fdfafff7",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-visa-buys-cryptopunk",
+      "date": "2021-08-23",
+      "title": "Visa buys a CryptoPunk",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "summary": "Visa purchased CryptoPunk #7610 for 49.5 ETH, roughly $150,000 at the time.",
+      "significance": "A major global payments company buying a collectible NFT became a vivid symbol of institutional curiosity during peak NFT mania.",
+      "sources": [
+        {
+          "title": "Visa — Metaverse strategic paper citing CryptoPunk purchase",
+          "url": "https://corporate.visa.com/content/dam/VCOM/global/services/documents/vca-metaverse-paper-vf.pdf",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Visa — NFTs mark a new chapter for digital commerce",
+          "url": "https://usa.visa.com/visa-everywhere/blog/bdp/2021/08/18/nfts-mark-a-1629328216374.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-loot-launches-as-text-only-nft-primitives",
+      "master_event_ids": [
+        "LORE-EVT-0501"
+      ],
+      "date": "2021-08-27",
+      "title": "Loot launches as text-only NFT primitives",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Dom Hofmann launched Loot as 8,000 free-to-mint NFTs containing only randomized lists of fantasy-adventure equipment, deliberately omitting images, stats and a predefined game.",
+      "significance": "Loot inverted the conventional NFT model by giving the community primitives rather than a finished world, spawning a burst of derivative projects and bottom-up worldbuilding.",
+      "sources": [
+        {
+          "title": "TechCrunch — Loot launch history",
+          "url": "https://techcrunch.com/2021/09/03/loot-games-the-crypto-world/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-mutant-ape-yacht-club-launches-and-expands-the-bayc-ecosystem",
+      "master_event_ids": [
+        "LORE-EVT-0768"
+      ],
+      "date": "2021-08-28",
+      "title": "Mutant Ape Yacht Club launches and expands the BAYC ecosystem",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "Yuga Labs launched Mutant Ape Yacht Club through a serum airdrop to BAYC holders and a Dutch auction for additional Mutant Apes.",
+      "significance": "MAYC doubled the broader Ape ecosystem and demonstrated how a successful NFT collection could expand into a persistent franchise.",
+      "sources": [
+        {
+          "title": "BAYC — Mutant Ape Yacht Club launch",
+          "url": "https://boredapeyachtclub.com/activations/mutant-ape-yacht-club",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Yuga Labs — BAYC history",
+          "url": "https://yuga.com/about/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-fantom-defi-ecosystem-grows-rapidly",
+      "master_event_ids": [
+        "LORE-EVT-0505"
+      ],
+      "date": "2021-08-30",
+      "title": "Fantom DeFi ecosystem grows rapidly",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "summary": "The Fantom Foundation announced a 370 million FTM incentive program for protocols deploying on Fantom, allocating rewards based on sustained TVL.",
+      "significance": "The incentive program accelerated Fantom's 2021 DeFi expansion and exemplified the cross-chain liquidity-incentive competition of the period.",
+      "sources": [
+        {
+          "title": "Fantom Foundation — 370m FTM Incentive Program",
+          "url": "https://blog.fantom.foundation/announcing-370m-ftm-incentive-program/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-arbitrum-mainnet-opens-a-major-optimistic-rollup-era",
+      "master_event_ids": [
+        "LORE-EVT-0233"
+      ],
+      "date": "2021-08-31",
+      "title": "Arbitrum mainnet opens a major optimistic-rollup era",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "summary": "Arbitrum One opened publicly on 31 August 2021.",
+      "significance": "Its launch marked the beginning of large-scale production optimistic-rollup usage and made Ethereum Layer 2 a major live ecosystem rather than mainly research.",
+      "sources": [
+        {
+          "title": "Arbitrum — history noting Aug 31 2021 public launch",
+          "url": "https://blog.arbitrum.io/arbitrum-stylus-mainnet/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-magic-eden-launches-and-becomes-a-major-solana-nft-marketplace",
+      "master_event_ids": [
+        "LORE-EVT-0617"
+      ],
+      "date": "2021-09",
+      "title": "Magic Eden launches and becomes a major Solana NFT marketplace",
+      "state": "VERIFIED_WITH_MONTH",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "NFT"
+      ],
+      "summary": "Magic Eden launched in September 2021 as a Solana NFT marketplace.",
+      "significance": "It quickly became a central marketplace for Solana NFTs and a major non-Ethereum competitor in NFT trading.",
+      "sources": [
+        {
+          "title": "Magic Eden — history / September 2021 inception",
+          "url": "https://community.magiceden.io/culture/rewards-manifesto",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
     },
     {
       "key": "2021-el-salvador-law-effective",
@@ -257,6 +2106,81 @@
         "to": "2021-el-salvador-bitcoin-law",
         "type": "IMPLEMENTATION"
       }
+    },
+    {
+      "key": "2021-cardano-alonzo",
+      "master_event_ids": [
+        "LORE-EVT-0622"
+      ],
+      "date": "2021-09-12T21:44:51Z",
+      "title": "Cardano Alonzo enables smart contracts",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "summary": "Cardano's Alonzo hard fork activated Plutus smart-contract functionality on mainnet.",
+      "significance": "Alonzo turned Cardano from a staking/native-asset network into a smart-contract platform capable of hosting dapps.",
+      "sources": [
+        {
+          "title": "Cardano — hard fork history",
+          "url": "https://cardano.org/hardforks/",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Cardano roadmap — Alonzo mainnet schedule",
+          "url": "https://roadmap.cardano.org/en/status-updates/2021-09/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-solana-outage",
+      "date": "2021-09-14",
+      "title": "Solana goes offline for 17 hours",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "ALTCOINS",
+        "TECHNOLOGY",
+        "DISASTERS"
+      ],
+      "summary": "A surge of bot-generated transactions during a Raydium IDO caused memory pressure and validator crashes; Solana stopped confirming blocks for roughly 17 hours.",
+      "significance": "The outage became the first major test of Solana's high-throughput architecture and a lasting part of debate around performance versus resilience.",
+      "sources": [
+        {
+          "title": "Solana Foundation — 9-14 Network Outage Initial Overview",
+          "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-sorare-expands-fantasy-sports-nfts",
+      "master_event_ids": [
+        "LORE-EVT-0900"
+      ],
+      "date": "2021-09-21",
+      "title": "Sorare expands fantasy-sports NFTs",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "GAMING"
+      ],
+      "summary": "Sorare announced a $680 million Series B at a $4.3 billion valuation while operating an NFT fantasy-football platform with partnerships spanning major clubs and leagues.",
+      "significance": "The raise made sports NFTs one of the clearest mainstream consumer use cases of the 2021 NFT boom.",
+      "sources": [
+        {
+          "title": "Sorare — $680M Series B and sports NFT expansion",
+          "url": "https://medium.com/sorare/sorare-raises-a-record-680-million-series-b-round-to-build-the-next-sports-entertainment-giant-c9c987e4a26d",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
     },
     {
       "key": "2021-china-mining-crackdown",
@@ -305,113 +2229,102 @@
       "confidence": "HIGH"
     },
     {
-      "key": "2021-taproot-activation",
-      "date": "2021-11-14",
-      "title": "Bitcoin Taproot activates",
-      "state": "VERIFIED",
-      "tier": "CORE",
-      "branches": [
-        "BITCOIN",
-        "TECHNOLOGY"
+      "key": "2021-south-korea-exchange-registration-rules-reshape-domestic-market",
+      "master_event_ids": [
+        "LORE-EVT-0342"
       ],
-      "summary": "Bitcoin's Taproot soft fork activated at block 709,632 in November 2021, enabling Schnorr-signature and script-privacy improvements.",
-      "significance": "Taproot was Bitcoin's most significant consensus upgrade since SegWit and later enabled new wallet, multisignature and inscription-related possibilities.",
-      "sources": [
-        {
-          "title": "Bitcoin Optech — Taproot activated at block 709,632",
-          "url": "https://bitcoinops.org/en/newsletters/2021/11/17/",
-          "type": "TECHNICAL_PRIMARY_ADJACENT"
-        },
-        {
-          "title": "Bitcoin Optech — Taproot topic",
-          "url": "https://bitcoinops.org/en/topics/taproot/",
-          "type": "TECHNICAL_PRIMARY_ADJACENT"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-bitcoin-69k-cycle-peak",
-      "date": "2021-11",
-      "title": "Bitcoin reaches its 2021 cycle all-time high near $69,000",
-      "state": "VERIFIED_WITH_SOURCE_VARIANCE",
-      "tier": "CORE",
-      "branches": [
-        "BITCOIN",
-        "MARKETS"
-      ],
-      "summary": "Bitcoin reached a record near $69,000 in November 2021; exact peak figures vary by venue and index.",
-      "significance": "The peak capped the 2020–2021 bull market before the 2022 deleveraging and collapse cycle.",
-      "sources": [
-        {
-          "title": "Reuters — 2024 record surpasses November 2021 peak",
-          "url": "https://www.reuters.com/technology/view-bitcoin-rises-record-high-2024-03-05/",
-          "type": "HIGH_QUALITY_SECONDARY"
-        }
-      ],
-      "confidence": "MEDIUM_HIGH"
-    },
-    {
-      "key": "2021-uniswap-v3",
-      "date": "2021-05-05",
-      "title": "Uniswap v3 launches on Ethereum",
-      "state": "VERIFIED",
-      "tier": "CORE",
-      "branches": [
-        "DEFI",
-        "DEX",
-        "ETHEREUM"
-      ],
-      "summary": "Uniswap v3 deployed to Ethereum mainnet with concentrated liquidity and more granular liquidity-provider price ranges.",
-      "significance": "V3 substantially improved capital efficiency and became a foundational design for modern decentralized exchange liquidity.",
-      "sources": [
-        {
-          "title": "Uniswap v3 Mainnet launch",
-          "url": "https://blog.uniswap.org/es-ES/launch-uniswap-v3",
-          "type": "PROJECT_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-optimism-mainnet",
-      "date": "2021-01",
-      "title": "Optimism deploys OP Mainnet",
-      "state": "VERIFIED_WITH_MONTH",
-      "tier": "CORE",
-      "branches": [
-        "ETHEREUM",
-        "TECHNOLOGY"
-      ],
-      "summary": "Optimism deployed its production optimistic-rollup network in January 2021, later opening permissionless deployment by year-end.",
-      "significance": "Optimism became one of Ethereum's first major production rollups and helped establish L2s as Ethereum's scaling strategy.",
-      "sources": [
-        {
-          "title": "Optimism — What Is OP Mainnet?",
-          "url": "https://optimism.io/blog/what-is-op-mainnet",
-          "type": "PROJECT_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-solana-outage",
-      "date": "2021-09-14",
-      "title": "Solana goes offline for 17 hours",
-      "state": "VERIFIED",
+      "date": "2021-09-24",
+      "title": "South Korea exchange registration rules reshape domestic market",
+      "state": "VERIFIED_WITH_DEADLINE",
       "tier": "MAJOR",
       "branches": [
-        "ALTCOINS",
-        "TECHNOLOGY",
-        "DISASTERS"
+        "GOVERNMENTS",
+        "REGULATION"
       ],
-      "summary": "A surge of bot-generated transactions during a Raydium IDO caused memory pressure and validator crashes; Solana stopped confirming blocks for roughly 17 hours.",
-      "significance": "The outage became the first major test of Solana's high-throughput architecture and a lasting part of debate around performance versus resilience.",
+      "summary": "South Korea's VASP registration deadline took effect under amended financial-transaction law, forcing crypto businesses to register and imposing additional conditions on fiat-serving exchanges.",
+      "significance": "The regime consolidated the Korean exchange market and became a major example of regulation reshaping national crypto-market structure.",
       "sources": [
         {
-          "title": "Solana Foundation — 9-14 Network Outage Initial Overview",
-          "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
-          "type": "PROJECT_PRIMARY"
+          "title": "South Korea FSC — VASP registration deadline status",
+          "url": "https://www.fsc.go.kr/eng/pr010101/76569",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "South Korea FSC — VASP registration obligation",
+          "url": "https://fsc.go.kr/eng/pr010101/76279",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-compound-governance-bug-distributes-excess-comp",
+      "master_event_ids": [
+        "LORE-EVT-1133"
+      ],
+      "date": "2021-09-29",
+      "title": "Compound governance bug distributes excess COMP",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "summary": "Compound Proposal 62 executed with a bug that allowed some users to claim excess COMP from the Comptroller contract; later governance proposals constrained and repaired the distribution logic.",
+      "significance": "The incident showed that even mature DeFi governance upgrades could introduce economically significant smart-contract errors.",
+      "sources": [
+        {
+          "title": "Compound Treasury Updates — COMP Bug",
+          "url": "https://compound.substack.com/p/compound-treasury-updates-comp-bug",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-meta-nft-metaverse-mania-context",
+      "date": "2021-10 to 2021-12",
+      "title": "Metaverse tokens and virtual land surge after Meta rebrand",
+      "state": "CONTEXT_RESEARCHED",
+      "tier": "MAJOR",
+      "branches": [
+        "NFT",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "summary": "After Facebook became Meta, crypto markets attached renewed attention to virtual-world and metaverse projects.",
+      "significance": "This is an era/context node rather than a single canonical transaction and should connect Meta's rebrand to Decentraland, The Sandbox and later virtual-land speculation.",
+      "sources": [
+        {
+          "title": "Meta — Introducing Meta",
+          "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "MEDIUM",
+      "notes": "Requires market-data sources before quantitative publication."
+    },
+    {
+      "key": "2021-coinbase-debuts-nft-marketplace-plans-during-nft-mania",
+      "master_event_ids": [
+        "LORE-EVT-0785"
+      ],
+      "date": "2021-10-12",
+      "title": "Coinbase debuts NFT marketplace plans during NFT mania",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "EXCHANGES",
+        "NFT"
+      ],
+      "summary": "Coinbase announced Coinbase NFT and opened an early-access waitlist for a planned peer-to-peer NFT marketplace.",
+      "significance": "The announcement showed a major regulated exchange attempting to expand directly into the consumer NFT boom.",
+      "sources": [
+        {
+          "title": "Coinbase — Coinbase NFT coming soon",
+          "url": "https://www.coinbase.com/en-gb/blog/coinbase-nft-is-coming-soon-join-the-waitlist-today-for-early-access",
+          "type": "COMPANY_PRIMARY"
         }
       ],
       "confidence": "HIGH"
@@ -444,6 +2357,54 @@
       "confidence": "HIGH"
     },
     {
+      "key": "2021-enaira-launch",
+      "master_event_ids": [
+        "LORE-EVT-0152"
+      ],
+      "date": "2021-10-25",
+      "title": "Nigeria launches the eNaira CBDC",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "GOVERNMENTS",
+        "TECHNOLOGY"
+      ],
+      "summary": "Nigeria formally launched the eNaira central-bank digital currency.",
+      "significance": "The eNaira was among the earliest national retail CBDCs and represented a government-controlled digital-money path distinct from permissionless crypto.",
+      "sources": [
+        {
+          "title": "Central Bank of Nigeria — eNaira launch release",
+          "url": "https://www.cbn.gov.ng/out/2021/ccd/enaira%20launch%20press%20release%20%20231021.pdf",
+          "type": "CENTRAL_BANK"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-cream-finance-suffers-repeated-defi-exploits",
+      "master_event_ids": [
+        "LORE-EVT-0376"
+      ],
+      "date": "2021-10-27",
+      "title": "Cream Finance suffers repeated DeFi exploits",
+      "state": "VERIFIED_WITH_DATE",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "DEFI"
+      ],
+      "summary": "C.R.E.A.M. Finance's Ethereum v1 markets were exploited on 27 October 2021 in a large flash-loan-related attack; the protocol later published a postmortem and repayment plan.",
+      "significance": "The incident capped a run of CREAM exploits and illustrated the compounding security risks of highly composable DeFi lending markets.",
+      "sources": [
+        {
+          "title": "C.R.E.A.M. Finance — Oct 27 exploit postmortem",
+          "url": "https://medium.com/cream-finance/post-mortem-exploit-oct-27-507b12bb6f8e",
+          "type": "PROJECT_ARCHIVE"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
       "key": "2021-facebook-meta",
       "date": "2021-10-28",
       "title": "Facebook company rebrands as Meta",
@@ -471,6 +2432,51 @@
       "confidence": "HIGH"
     },
     {
+      "key": "2021-shib-token-frenzy-expands-the-meme-coin-category",
+      "master_event_ids": [
+        "LORE-EVT-0497"
+      ],
+      "date": "2021-10-28",
+      "title": "SHIB token frenzy expands the meme-coin category",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "CORE",
+      "branches": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "summary": "Shiba Inu surged into the ten largest crypto assets by market capitalization, briefly overtaking Dogecoin with a reported market value around $42 billion.",
+      "significance": "SHIB demonstrated that meme-coin culture had expanded beyond Dogecoin into a repeatable speculative category.",
+      "sources": [
+        {
+          "title": "Reuters — Shiba Inu enters crypto top 10",
+          "url": "https://www.euronews.com/next/2021/10/28/fintech-crypto-shibainu",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-bitcoin-69k-cycle-peak",
+      "date": "2021-11",
+      "title": "Bitcoin reaches its 2021 cycle all-time high near $69,000",
+      "state": "VERIFIED_WITH_SOURCE_VARIANCE",
+      "tier": "CORE",
+      "branches": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "summary": "Bitcoin reached a record near $69,000 in November 2021; exact peak figures vary by venue and index.",
+      "significance": "The peak capped the 2020–2021 bull market before the 2022 deleveraging and collapse cycle.",
+      "sources": [
+        {
+          "title": "Reuters — 2024 record surpasses November 2021 peak",
+          "url": "https://www.reuters.com/technology/view-bitcoin-rises-record-high-2024-03-05/",
+          "type": "HIGH_QUALITY_SECONDARY"
+        }
+      ],
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
       "key": "2021-ens-airdrop",
       "date": "2021-11",
       "title": "ENS launches governance token and airdrop",
@@ -493,438 +2499,79 @@
       "confidence": "HIGH"
     },
     {
-      "key": "2021-meta-nft-metaverse-mania-context",
-      "date": "2021-10 to 2021-12",
-      "title": "Metaverse tokens and virtual land surge after Meta rebrand",
-      "state": "CONTEXT_RESEARCHED",
-      "tier": "MAJOR",
-      "branches": [
-        "NFT",
-        "CULTURE",
-        "MARKETS"
+      "key": "2021-squid-game-themed-token-collapses-in-a-publicized-rug-pull-episode",
+      "master_event_ids": [
+        "LORE-EVT-0263"
       ],
-      "summary": "After Facebook became Meta, crypto markets attached renewed attention to virtual-world and metaverse projects.",
-      "significance": "This is an era/context node rather than a single canonical transaction and should connect Meta's rebrand to Decentraland, The Sandbox and later virtual-land speculation.",
-      "sources": [
-        {
-          "title": "Meta — Introducing Meta",
-          "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
-          "type": "COMPANY_PRIMARY"
-        }
-      ],
-      "confidence": "MEDIUM",
-      "notes": "Requires market-data sources before quantitative publication."
-    },
-    {
-      "key": "2021-tesla-bitcoin-payments-suspended",
-      "date": "2021-05",
-      "title": "Tesla suspends Bitcoin vehicle payments",
-      "state": "VERIFIED_WITH_MONTH",
-      "tier": "MAJOR",
-      "branches": [
-        "BITCOIN",
-        "INSTITUTIONS",
-        "MINING"
-      ],
-      "summary": "Tesla's SEC filing confirms that it accepted Bitcoin for vehicle sales during the first quarter of 2021 and suspended the practice in May.",
-      "significance": "The reversal made Bitcoin's energy use a mainstream corporate issue and intensified public debate about proof-of-work mining's environmental footprint.",
-      "sources": [
-        {
-          "title": "Tesla Q2 2021 Form 10-Q",
-          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000524/tsla-20210630.htm",
-          "type": "REGULATORY_FILING"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-visa-usdc-settlement",
-      "date": "2021-03-29",
-      "title": "Visa settles a transaction in USDC on Ethereum",
-      "state": "VERIFIED",
-      "tier": "CORE",
-      "branches": [
-        "STABLECOINS",
-        "INSTITUTIONS",
-        "ADOPTION",
-        "ETHEREUM"
-      ],
-      "summary": "Visa announced a pilot allowing Crypto.com to settle a portion of its Visa card obligations in USDC over Ethereum through Anchorage.",
-      "significance": "The pilot was a major bridge between public-blockchain stablecoins and the treasury infrastructure of a global card network.",
-      "sources": [
-        {
-          "title": "Visa — first major payments network to settle transactions in USDC",
-          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseld.17821.html",
-          "type": "COMPANY_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-visa-buys-cryptopunk",
-      "date": "2021-08-23",
-      "title": "Visa buys a CryptoPunk",
-      "state": "VERIFIED",
+      "date": "2021-11-01",
+      "title": "Squid Game-themed token collapses in a publicized rug-pull episode",
+      "state": "VERIFIED_WITH_CAUTION",
       "tier": "LORE",
       "branches": [
-        "NFT",
-        "INSTITUTIONS",
-        "CULTURE"
+        "SCAMS",
+        "MEMES"
       ],
-      "summary": "Visa purchased CryptoPunk #7610 for 49.5 ETH, roughly $150,000 at the time.",
-      "significance": "A major global payments company buying a collectible NFT became a vivid symbol of institutional curiosity during peak NFT mania.",
+      "summary": "The unaffiliated SQUID token, themed around Netflix's Squid Game, collapsed from a briefly quoted price above $2,800 to near zero after a spectacular late-October rally. Contemporary reporting described wallet activity consistent with a rug pull, while Reuters said it could not independently verify every allegation.",
+      "significance": "The episode became a textbook meme-token scam story and a warning about unaffiliated branding, illiquid tokens and sell restrictions.",
       "sources": [
         {
-          "title": "Visa — Metaverse strategic paper citing CryptoPunk purchase",
-          "url": "https://corporate.visa.com/content/dam/VCOM/global/services/documents/vca-metaverse-paper-vf.pdf",
-          "type": "COMPANY_PRIMARY"
-        },
-        {
-          "title": "Visa — NFTs mark a new chapter for digital commerce",
-          "url": "https://usa.visa.com/visa-everywhere/blog/bdp/2021/08/18/nfts-mark-a-1629328216374.html",
-          "type": "COMPANY_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-opensea-nft-explosion",
-      "date": "2021",
-      "title": "OpenSea becomes the defining marketplace of NFT mania",
-      "state": "VERIFIED_CONTEXT",
-      "tier": "CORE",
-      "branches": [
-        "NFT",
-        "MARKETS",
-        "CULTURE"
-      ],
-      "summary": "OpenSea reported explosive 2021 growth; it later stated that transaction volume increased more than 600-fold during the year.",
-      "significance": "OpenSea became the primary marketplace through which millions of users experienced the 2021 NFT boom.",
-      "sources": [
-        {
-          "title": "OpenSea — 2021 growth retrospective",
-          "url": "https://opensea.io/blog/articles/announcing-openseas-new-funding",
-          "type": "COMPANY_PRIMARY"
-        },
-        {
-          "title": "OpenSea — July 2021 updates",
-          "url": "https://opensea.io/blog/articles/new-features-updates-july-2021",
-          "type": "COMPANY_PRIMARY"
+          "title": "Reuters — Squid Game-inspired token crashes",
+          "url": "https://www.euronews.com/next/2021/11/02/fintech-crypto-squid",
+          "type": "CONTEMPORARY_SECONDARY"
         }
       ],
       "confidence": "HIGH",
-      "notes": "Era/context node; individual NFT projects remain separate canonical events."
+      "notes": "Do not state an exact stolen amount as settled fact; contemporary estimates varied."
     },
     {
-      "key": "2021-constitutiondao",
-      "date": "2021-11-18",
-      "title": "ConstitutionDAO raises tens of millions but loses the Constitution auction",
-      "state": "VERIFIED_WITH_SECONDARY",
-      "tier": "LORE",
-      "branches": [
-        "DAO",
-        "CULTURE"
-      ],
-      "summary": "More than 17,000 contributors pooled over $40 million in an internet-native DAO attempting to buy a rare first printing of the US Constitution, but the group was outbid at Sotheby's; the document sold for $43.173 million.",
-      "significance": "ConstitutionDAO became one of the clearest demonstrations of how quickly crypto communities could coordinate capital around a shared cultural objective—even though the purchase failed.",
-      "sources": [
-        {
-          "title": "Sotheby's — US Constitution auction",
-          "url": "https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation",
-          "type": "AUCTION_HOUSE_PRIMARY"
-        },
-        {
-          "title": "CoinDesk — ConstitutionDAO aftermath",
-          "url": "https://www.coindesk.com/podcasts/the-breakdown-with-nlw-episode/did-constitutiondao-shift-the-overton-window-on-what-daos-can-accomplish",
-          "type": "SECONDARY"
-        }
-      ],
-      "confidence": "MEDIUM_HIGH"
-    },
-    {
-      "key": "2021-enaira-launch",
+      "key": "2021-across-protocol-launches-l2-to-l1-bridge",
       "master_event_ids": [
-        "LORE-EVT-0152"
+        "LORE-EVT-1142"
       ],
-      "date": "2021-10-25",
-      "title": "Nigeria launches the eNaira CBDC",
+      "date": "2021-11-08",
+      "title": "Across Protocol launches L2-to-L1 bridge",
       "state": "VERIFIED",
       "tier": "MAJOR",
       "branches": [
-        "GOVERNMENTS",
-        "TECHNOLOGY"
+        "BRIDGES",
+        "ETHEREUM"
       ],
-      "summary": "Nigeria formally launched the eNaira central-bank digital currency.",
-      "significance": "The eNaira was among the earliest national retail CBDCs and represented a government-controlled digital-money path distinct from permissionless crypto.",
+      "summary": "Across Protocol publicly launched its bridge for fast transfers between Ethereum Layer 2 networks and Ethereum mainnet using relayers and an optimistic-oracle security model.",
+      "significance": "Across became an important bridge design in the later shift toward intent- and relayer-based cross-chain transfers.",
       "sources": [
         {
-          "title": "Central Bank of Nigeria — eNaira launch release",
-          "url": "https://www.cbn.gov.ng/out/2021/ccd/enaira%20launch%20press%20release%20%20231021.pdf",
-          "type": "CENTRAL_BANK"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-crypto-com-arena-name-effective",
-      "master_event_ids": [
-        "LORE-EVT-0165"
-      ],
-      "date": "2021-12-25",
-      "title": "Crypto.com Arena naming becomes a symbol of exchange-era marketing",
-      "state": "DATE_CORRECTED",
-      "tier": "LORE",
-      "branches": [
-        "CULTURE",
-        "EXCHANGES"
-      ],
-      "summary": "The former Staples Center officially became Crypto.com Arena on Christmas Day 2021; exterior signage continued being replaced into 2022.",
-      "significance": "The naming deal became one of the biggest symbols of crypto companies buying mainstream sports visibility.",
-      "sources": [
-        {
-          "title": "Crypto.com / AEG — Crypto.com Arena naming agreement",
-          "url": "https://crypto.com/en/company-news/aeg-and-crypto-com-to-lead-future-of-the-creative-capital-of-the-sports-music-and-entertainment-world-with-new-naming-rights-agreement-for-iconic-los-angeles-venue-formerly-known-as-staples-center",
-          "type": "COMPANY_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-vitalik-shib-charity-donation",
-      "master_event_ids": [
-        "LORE-EVT-0182"
-      ],
-      "date": "2021-05-12",
-      "title": "Vitalik Buterin donates large quantities of meme tokens to charity",
-      "state": "VERIFIED",
-      "tier": "LORE",
-      "branches": [
-        "PEOPLE",
-        "MEMES",
-        "CULTURE"
-      ],
-      "summary": "Vitalik Buterin transferred more than 50 trillion SHIB, then valued at roughly $1 billion, to India's Crypto-Covid Relief Fund and also donated other meme tokens and crypto to charitable organizations.",
-      "significance": "The donation turned unsolicited meme-token holdings into one of crypto's largest high-profile charitable gifts and created a real liquidity challenge for the recipient.",
-      "sources": [
-        {
-          "title": "TechCrunch — Vitalik meme-token donations",
-          "url": "https://techcrunch.com/2021/05/12/vitalik-buterin-donates-1-billion-worth-of-meme-coins-to-india-covid-relief-fund/",
-          "type": "CONTEMPORARY_SECONDARY"
+          "title": "Across — protocol announcement",
+          "url": "https://across.to/blog/Announcing-Across-Protocol-the-Fastest-Cheapest-and-Most-Secure-L2-to-L1-Bridge",
+          "type": "PROJECT_PRIMARY"
         },
         {
-          "title": "India Crypto Relief — SHIB donation accounting",
-          "url": "https://updates.cryptorelief.in/p/what-happened-to-the-shib-donation",
-          "type": "CHARITY_PRIMARY"
+          "title": "Across Protocol is live",
+          "url": "https://across.to/blog/Across-Protocol-is-live-and-you-can-be-a-Co-Founder",
+          "type": "PROJECT_PRIMARY"
         }
       ],
       "confidence": "HIGH"
     },
     {
-      "key": "2021-colonial-pipeline-bitcoin-ransom",
+      "key": "2021-defi-tvl-reaches-record-roughly-178b",
       "master_event_ids": [
-        "LORE-EVT-0265"
+        "LORE-EVT-0608"
       ],
-      "date": "2021-05-07 to 2021-06-07",
-      "title": "Colonial Pipeline ransomware payment puts Bitcoin tracing in spotlight",
-      "state": "VERIFIED_WITH_SEQUENCE",
-      "tier": "MAJOR",
-      "branches": [
-        "BITCOIN",
-        "CRIME",
-        "GOVERNMENTS"
-      ],
-      "summary": "DarkSide ransomware disrupted Colonial Pipeline in May and received a Bitcoin ransom; on 7 June the US Department of Justice announced seizure of 63.7 BTC from the payment.",
-      "significance": "The case connected cryptocurrency, critical infrastructure, ransomware and blockchain tracing in a single globally visible event.",
-      "sources": [
-        {
-          "title": "US DOJ — Colonial Pipeline ransom recovery",
-          "url": "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-nba-top-shot-mainstream",
-      "master_event_ids": [
-        "LORE-EVT-0296"
-      ],
-      "date": "2021-03-30",
-      "title": "NBA Top Shot helps take NFTs mainstream",
-      "state": "VERIFIED_WITH_MILESTONE",
+      "date": "2021-11-09",
+      "title": "DeFi TVL reaches record roughly $178B",
+      "state": "VERIFIED_WITH_DATA",
       "tier": "CORE",
       "branches": [
-        "NFT",
-        "CULTURE"
-      ],
-      "summary": "By late March 2021, Dapper Labs said NBA Top Shot had generated about $500 million in sales and registered more than 800,000 accounts since its October 2020 public beta.",
-      "significance": "Top Shot turned licensed sports highlights into one of the first mass-market NFT collecting experiences and helped introduce NFTs to mainstream sports fans.",
-      "sources": [
-        {
-          "title": "NBA.com — Dapper Labs / NBA Top Shot March 2021",
-          "url": "https://www.nba.com/news/dapper-labs-creators-of-nba-top-shot-get-305m-in-funding",
-          "type": "PRIMARY_ORGANIZATION"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-iron-finance-collapse",
-      "master_event_ids": [
-        "LORE-EVT-0317"
-      ],
-      "date": "2021-06-16",
-      "title": "Iron Finance stablecoin collapse becomes a high-profile failure",
-      "state": "VERIFIED",
-      "tier": "LORE",
-      "branches": [
-        "STABLECOINS",
-        "DISASTERS"
-      ],
-      "summary": "IRON Finance suffered an algorithmic stablecoin run as TITAN collapsed from roughly $60 toward zero within hours and IRON lost its dollar peg.",
-      "significance": "The collapse was an early large-scale warning that reflexive partially collateralized stablecoin designs could unwind catastrophically under a run.",
-      "sources": [
-        {
-          "title": "Federal Reserve — Runs on Algorithmic Stablecoins",
-          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/runs-on-algorithmic-stablecoins-evidence-from-iron-titan-and-steel-20220602.html",
-          "type": "GOVERNMENT_RESEARCH"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-crypto-com-staples-naming-deal",
-      "master_event_ids": [
-        "LORE-EVT-0318"
-      ],
-      "date": "2021-11-17",
-      "title": "Crypto.com buys naming rights to Staples Center",
-      "state": "VERIFIED",
-      "tier": "CORE",
-      "branches": [
-        "EXCHANGES",
-        "CULTURE"
-      ],
-      "summary": "AEG and Crypto.com announced a 20-year naming-rights deal to rename Staples Center as Crypto.com Arena, with the new name unveiled on Christmas Day.",
-      "significance": "The agreement became one of the most visible symbols of peak-cycle crypto marketing and exchange sponsorship.",
-      "sources": [
-        {
-          "title": "Crypto.com/AEG — Staples Center naming-rights agreement",
-          "url": "https://crypto.com/en/company-news/aeg-and-crypto-com-to-lead-future-of-the-creative-capital-of-the-sports-music-and-entertainment-world-with-new-naming-rights-agreement-for-iconic-los-angeles-venue-formerly-known-as-staples-center",
-          "type": "COMPANY_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-decentraland-record-land-sale",
-      "master_event_ids": [
-        "LORE-EVT-0321"
-      ],
-      "date": "2021-11-23",
-      "title": "Decentraland virtual land sells for record $2.4M during metaverse boom",
-      "state": "VERIFIED_WITH_MILESTONE",
-      "tier": "CORE",
-      "branches": [
-        "NFT",
-        "CULTURE",
+        "DEFI",
         "MARKETS"
       ],
-      "summary": "A Decentraland land parcel sold for about $2.4 million worth of cryptocurrency, then a record for virtual real estate on the platform.",
-      "significance": "The sale captured the peak of 2021 metaverse land speculation after Facebook's Meta rebrand.",
+      "summary": "DeFiLlama's historical data places aggregate DeFi TVL at an all-time high of roughly $177.6 billion on 9 November 2021.",
+      "significance": "The record quantified the extraordinary scale DeFi reached during the 2021 bull market.",
       "sources": [
         {
-          "title": "Reuters — Decentraland virtual land record",
-          "url": "https://www.investing.com/news/stock-market-news/virtual-real-estate-plot-sells-for-record-24-million-2688424",
-          "type": "CONTEMPORARY_SECONDARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-canada-spot-bitcoin-etf",
-      "master_event_ids": [
-        "LORE-EVT-0330"
-      ],
-      "date": "2021-02-18",
-      "title": "Canada approves major spot Bitcoin ETFs",
-      "state": "VERIFIED",
-      "tier": "CORE",
-      "branches": [
-        "GOVERNMENTS",
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
-      "summary": "Purpose Bitcoin ETF began trading in Canada with direct holdings of physical Bitcoin, marketed as the world's first Bitcoin ETF of its type.",
-      "significance": "Canada delivered regulated spot Bitcoin ETF exposure years before US spot products were approved.",
-      "sources": [
-        {
-          "title": "Purpose Investments — Bitcoin ETF history",
-          "url": "https://www.purposeinvest.com/about",
-          "type": "COMPANY_PRIMARY"
-        },
-        {
-          "title": "Purpose Bitcoin ETF brochure — inception Feb 18 2021",
-          "url": "https://documents.purposeinvest.com/Docs/BTCC/brochure/en/Purpose%20Bitcoin%20ETF%20Brochure%202021-03-31.pdf",
-          "type": "FUND_PRIMARY"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-swiss-dlt-act",
-      "master_event_ids": [
-        "LORE-EVT-0347"
-      ],
-      "date": "2021-02-01 and 2021-08-01",
-      "title": "Swiss DLT Act reforms enter into force",
-      "state": "VERIFIED_WITH_SEQUENCE",
-      "tier": "MAJOR",
-      "branches": [
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "summary": "Parts of Switzerland's DLT legal reform enabling ledger-based securities took effect on 1 February, and the remaining DLT Act and ordinance — including the DLT trading-facility regime — took full effect on 1 August 2021.",
-      "significance": "Switzerland created one of the world's earliest comprehensive statutory frameworks tailored to tokenized securities and DLT market infrastructure.",
-      "sources": [
-        {
-          "title": "Swiss Federal Council — DLT Act fully in force",
-          "url": "https://www.admin.ch/en/nsb?id=84035",
-          "type": "GOVERNMENT"
-        },
-        {
-          "title": "Swiss SIF — DLT/blockchain legal basis",
-          "url": "https://www.sif.admin.ch/en/dlt-blockchain-en",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "key": "2021-thodex-collapse",
-      "master_event_ids": [
-        "LORE-EVT-0369"
-      ],
-      "date": "2021-04-20 to 2021-04-22",
-      "title": "Thodex exchange collapses in Turkey",
-      "state": "VERIFIED_WITH_SEQUENCE",
-      "tier": "MAJOR",
-      "branches": [
-        "EXCHANGES",
-        "DISASTERS"
-      ],
-      "summary": "Thodex users lost access to the Turkish exchange as operations stopped; prosecutors confirmed founder Faruk Fatih Özer left Turkey on 20 April and opened a criminal investigation on 22 April.",
-      "significance": "The collapse became one of Turkey's largest and most notorious crypto-exchange scandals and led to an international manhunt.",
-      "sources": [
-        {
-          "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex investigation",
-          "url": "https://istanbulanadolu.adalet.gov.tr/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-basin-aciklamasi",
-          "type": "GOVERNMENT"
-        },
-        {
-          "title": "Istanbul Anadolu Chief Public Prosecutor — Thodex founder left Turkey",
-          "url": "https://istanbulanadolu.adalet.gov.tr/amp/istanbul-anadolu-cumhuriyet-bassavciliginin-thodex-hakkindaki-2-basin-aciklamasi",
-          "type": "GOVERNMENT"
+          "title": "DefiLlama — historical DeFi TVL cycle analysis",
+          "url": "https://defillama.com/pro/defi-tvl-vs-crypto-market-cap-0bkebd",
+          "type": "DATA_SOURCE"
         }
       ],
       "confidence": "HIGH"
@@ -964,161 +2611,253 @@
       "confidence": "HIGH"
     },
     {
-      "key": "2021-cardano-alonzo",
-      "master_event_ids": [
-        "LORE-EVT-0622"
-      ],
-      "date": "2021-09-12T21:44:51Z",
-      "title": "Cardano Alonzo enables smart contracts",
+      "key": "2021-taproot-activation",
+      "date": "2021-11-14",
+      "title": "Bitcoin Taproot activates",
       "state": "VERIFIED",
       "tier": "CORE",
       "branches": [
-        "ALTCOINS",
+        "BITCOIN",
         "TECHNOLOGY"
       ],
-      "summary": "Cardano's Alonzo hard fork activated Plutus smart-contract functionality on mainnet.",
-      "significance": "Alonzo turned Cardano from a staking/native-asset network into a smart-contract platform capable of hosting dapps.",
+      "summary": "Bitcoin's Taproot soft fork activated at block 709,632 in November 2021, enabling Schnorr-signature and script-privacy improvements.",
+      "significance": "Taproot was Bitcoin's most significant consensus upgrade since SegWit and later enabled new wallet, multisignature and inscription-related possibilities.",
       "sources": [
         {
-          "title": "Cardano — hard fork history",
-          "url": "https://cardano.org/hardforks/",
-          "type": "PROJECT_PRIMARY"
+          "title": "Bitcoin Optech — Taproot activated at block 709,632",
+          "url": "https://bitcoinops.org/en/newsletters/2021/11/17/",
+          "type": "TECHNICAL_PRIMARY_ADJACENT"
         },
         {
-          "title": "Cardano roadmap — Alonzo mainnet schedule",
-          "url": "https://roadmap.cardano.org/en/status-updates/2021-09/",
-          "type": "PROJECT_PRIMARY"
+          "title": "Bitcoin Optech — Taproot topic",
+          "url": "https://bitcoinops.org/en/topics/taproot/",
+          "type": "TECHNICAL_PRIMARY_ADJACENT"
         }
       ],
       "confidence": "HIGH"
     },
     {
-      "key": "2021-cosmos-ibc",
+      "key": "2021-crypto-com-staples-naming-deal",
       "master_event_ids": [
-        "LORE-EVT-0633"
+        "LORE-EVT-0318"
       ],
-      "date": "2021-02-18",
-      "title": "Cosmos IBC launches cross-chain communication",
+      "date": "2021-11-17",
+      "title": "Crypto.com buys naming rights to Staples Center",
       "state": "VERIFIED",
       "tier": "CORE",
       "branches": [
-        "ALTCOINS",
-        "TECHNOLOGY"
+        "EXCHANGES",
+        "CULTURE"
       ],
-      "summary": "Cosmos Hub completed the Stargate upgrade, enabling the Inter-Blockchain Communication protocol on the Hub.",
-      "significance": "IBC made standardized sovereign-chain interoperability a live capability and realized a core piece of the Cosmos 'internet of blockchains' vision.",
+      "summary": "AEG and Crypto.com announced a 20-year naming-rights deal to rename Staples Center as Crypto.com Arena, with the new name unveiled on Christmas Day.",
+      "significance": "The agreement became one of the most visible symbols of peak-cycle crypto marketing and exchange sponsorship.",
       "sources": [
         {
-          "title": "Cosmos Hub Forum — Stargate mainnet upgrade",
-          "url": "https://forum.cosmos.network/t/cosmos-hub-stargate/4416",
-          "type": "PROJECT_FORUM_PRIMARY"
+          "title": "Crypto.com/AEG — Staples Center naming-rights agreement",
+          "url": "https://crypto.com/en/company-news/aeg-and-crypto-com-to-lead-future-of-the-creative-capital-of-the-sports-music-and-entertainment-world-with-new-naming-rights-agreement-for-iconic-los-angeles-venue-formerly-known-as-staples-center",
+          "type": "COMPANY_PRIMARY"
         }
       ],
       "confidence": "HIGH"
     },
     {
-      "key": "2021-bitcoin-for-corporations",
+      "key": "2021-metamask-21m-users",
       "master_event_ids": [
-        "LORE-EVT-0758"
+        "LORE-EVT-1072"
       ],
-      "date": "2021",
-      "title": "MicroStrategy hosts Bitcoin for Corporations conference",
-      "state": "VERIFIED_WITH_YEAR",
+      "date": "2021-11-17",
+      "title": "MetaMask reaches tens of millions of monthly users",
+      "state": "VERIFIED",
       "tier": "CORE",
       "branches": [
-        "INSTITUTIONS",
-        "BITCOIN"
+        "ETHEREUM",
+        "ADOPTION"
       ],
-      "summary": "MicroStrategy hosted its Bitcoin for Corporations program in 2021, sharing treasury, legal, accounting and operational material intended to help other companies evaluate Bitcoin.",
-      "significance": "The event turned MicroStrategy's own treasury strategy into an explicit corporate adoption playbook.",
+      "summary": "Consensys announced that MetaMask had surpassed 21 million monthly active users.",
+      "significance": "The milestone showed that a self-custodial Web3 wallet had reached mass consumer scale during the DeFi and NFT boom.",
       "sources": [
         {
-          "title": "Strategy — Bitcoin for Corporations 2021",
-          "url": "https://www.strategy.com/software/bitcoin/bitcoin-for-corporations",
+          "title": "Consensys — MetaMask surpasses 21M MAUs",
+          "url": "https://consensys.io/blog/metamask-surpasses-21-million-maus-as-consensys-raises-200-million-to-make-web3-universally-easy-to-use-access-and-build-on",
           "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-constitutiondao",
+      "date": "2021-11-18",
+      "title": "ConstitutionDAO raises tens of millions but loses the Constitution auction",
+      "state": "VERIFIED_WITH_SECONDARY",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "CULTURE"
+      ],
+      "summary": "More than 17,000 contributors pooled over $40 million in an internet-native DAO attempting to buy a rare first printing of the US Constitution, but the group was outbid at Sotheby's; the document sold for $43.173 million.",
+      "significance": "ConstitutionDAO became one of the clearest demonstrations of how quickly crypto communities could coordinate capital around a shared cultural objective—even though the purchase failed.",
+      "sources": [
+        {
+          "title": "Sotheby's — US Constitution auction",
+          "url": "https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation",
+          "type": "AUCTION_HOUSE_PRIMARY"
+        },
+        {
+          "title": "CoinDesk — ConstitutionDAO aftermath",
+          "url": "https://www.coindesk.com/podcasts/the-breakdown-with-nlw-episode/did-constitutiondao-shift-the-overton-window-on-what-daos-can-accomplish",
+          "type": "SECONDARY"
         }
       ],
       "confidence": "MEDIUM_HIGH"
     },
     {
-      "key": "2021-bitcoin-miami-conference",
+      "key": "2021-decentraland-record-land-sale",
       "master_event_ids": [
-        "LORE-EVT-0761"
+        "LORE-EVT-0321"
       ],
-      "date": "2021-06-04 to 2021-06-05",
-      "title": "Bitcoin 2021 Miami becomes a defining bull-market conference",
-      "state": "VERIFIED_WITH_RANGE",
-      "tier": "LORE",
+      "date": "2021-11-23",
+      "title": "Decentraland virtual land sells for record $2.4M during metaverse boom",
+      "state": "VERIFIED_WITH_MILESTONE",
+      "tier": "CORE",
       "branches": [
-        "BITCOIN",
-        "CULTURE"
+        "NFT",
+        "CULTURE",
+        "MARKETS"
       ],
-      "summary": "Bitcoin 2021 brought a large concentration of Bitcoin companies, advocates and public figures to Miami and became the stage for El Salvador's legal-tender announcement.",
-      "significance": "The conference became a defining cultural event of Bitcoin's 2021 institutional/bull-market phase.",
+      "summary": "A Decentraland land parcel sold for about $2.4 million worth of cryptocurrency, then a record for virtual real estate on the platform.",
+      "significance": "The sale captured the peak of 2021 metaverse land speculation after Facebook's Meta rebrand.",
       "sources": [
         {
-          "title": "Bitcoin Magazine — Bitcoin 2021 Day 1 livestream",
-          "url": "https://www.youtube.com/watch?v=Zp43Ktm3wos",
-          "type": "EVENT_PRIMARY"
-        },
-        {
-          "title": "Reuters — Bukele announces planned Bitcoin legal-tender bill at Bitcoin 2021",
-          "url": "https://finance.yahoo.com/news/el-salvadors-president-says-send-222240207.html",
+          "title": "Reuters — Decentraland virtual land record",
+          "url": "https://www.investing.com/news/stock-market-news/virtual-real-estate-plot-sells-for-record-24-million-2688424",
           "type": "CONTEMPORARY_SECONDARY"
         }
       ],
       "confidence": "HIGH"
     },
     {
-      "key": "2021-laser-eyes",
+      "key": "2021-kraken-removes-monero-for-uk-customers",
       "master_event_ids": [
-        "LORE-EVT-0762"
+        "LORE-EVT-0570"
       ],
-      "date": "2021-02-16",
-      "title": "Laser-eyes profile pictures spread across Bitcoin Twitter",
-      "state": "VERIFIED",
-      "tier": "LORE",
+      "date": "2021-11-26",
+      "title": "Kraken removes Monero for UK customers",
+      "state": "DATE_CORRECTED",
+      "tier": "MAJOR",
       "branches": [
-        "BITCOIN",
-        "MEMES",
-        "CULTURE"
+        "PRIVACY",
+        "REGULATION"
       ],
-      "summary": "The #LaserRayUntil100K profile-picture campaign began on Bitcoin Twitter, with users adding glowing laser eyes to avatars until Bitcoin reached $100,000.",
-      "significance": "Laser eyes became one of Bitcoin's most visible social identity memes and spread to executives, politicians and eventually a head of state.",
+      "summary": "Kraken ceased Monero trading and new deposits for UK customers on 26 November 2021, not 2022, citing UK regulatory compliance.",
+      "significance": "The delisting is a useful early example of exchange access narrowing for privacy coins.",
       "sources": [
         {
-          "title": "Bitcoin Annotated — Laser Eyes origin",
-          "url": "https://bitcoinannotated.com/entries/laser-eyes/",
-          "type": "ARCHIVAL_SECONDARY"
+          "title": "Monero Observer — Kraken UK Monero support ends",
+          "url": "https://monero.observer/kraken-to-drop-monero-support-uk-customers/",
+          "type": "COMMUNITY_ARCHIVE"
         }
       ],
       "confidence": "MEDIUM_HIGH"
     },
     {
-      "key": "2021-cryptopunk-7523-record-sale",
+      "key": "2021-sam-bankman-fried-testifies-before-us-house-on-digital-assets",
       "master_event_ids": [
-        "LORE-EVT-0767"
+        "LORE-EVT-0775"
       ],
-      "date": "2021-06-10",
-      "title": "CryptoPunk sells for multi-million-dollar sums",
-      "state": "VERIFIED",
+      "date": "2021-12-08",
+      "title": "Sam Bankman-Fried testifies before US House on digital assets",
+      "state": "VERIFIED_WITH_PRECISE_EVENT",
       "tier": "CORE",
+      "branches": [
+        "FTX",
+        "PEOPLE",
+        "CULTURE"
+      ],
+      "summary": "FTX co-founder and CEO Sam Bankman-Fried testified before the US House Financial Services Committee at a hearing on digital assets and financial innovation.",
+      "significance": "The testimony marked FTX's and Bankman-Fried's growing visibility in US policy debates less than a year before the exchange collapsed.",
+      "sources": [
+        {
+          "title": "US House — Sam Bankman-Fried testimony, Dec. 8 2021",
+          "url": "https://www.congress.gov/117/meeting/house/114305/witnesses/HHRG-117-BA00-Wstate-Bankman-FriedS-20211208.pdf",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-sbf-testifies-publicly-and-promotes-crypto-regulation-proposals",
+      "master_event_ids": [
+        "LORE-EVT-0985"
+      ],
+      "date": "2021-12-08",
+      "title": "SBF testifies publicly and promotes crypto regulation proposals",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
+      "branches": [
+        "PEOPLE",
+        "FTX"
+      ],
+      "summary": "Sam Bankman-Fried testified before the U.S. House Committee on Financial Services alongside executives from Circle, Coinbase, Paxos, Stellar and Bitfury in a hearing on digital assets and financial innovation.",
+      "significance": "The hearing represented the crypto industry's growing direct engagement with US federal policymakers before FTX's collapse the following year.",
+      "sources": [
+        {
+          "title": "US House Financial Services — Digital Assets hearing",
+          "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=114305",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-freerossdao-raises-funds-around-ross-ulbricht-nft-auction",
+      "master_event_ids": [
+        "LORE-EVT-0603"
+      ],
+      "date": "2021-12-09",
+      "title": "FreeRossDAO raises funds around Ross Ulbricht NFT auction",
+      "state": "VERIFIED",
+      "tier": "LORE",
+      "branches": [
+        "DAO",
+        "NFT",
+        "CULTURE"
+      ],
+      "summary": "FreeRossDAO won Ross Ulbricht's Genesis Collection NFT auction for 1,446 ETH after more than a thousand contributors pooled funds.",
+      "significance": "The event combined DAO fundraising, NFT ownership, prison-reform advocacy and one of Bitcoin history's most controversial figures.",
+      "sources": [
+        {
+          "title": "FreeRoss — Genesis Collection auction",
+          "url": "https://freeross.org/genesis-collection/",
+          "type": "PRIMARY_CAMPAIGN"
+        },
+        {
+          "title": "SuperRare — Ross Ulbricht Genesis Collection sale",
+          "url": "https://superrare.com/artwork-v2/ross-ulbricht-genesis-collection-30841",
+          "type": "MARKET_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-xcopy-s-right-click-and-save-as-guy-sells-for-about-7m",
+      "master_event_ids": [
+        "LORE-EVT-0910"
+      ],
+      "date": "2021-12-09",
+      "title": "XCOPY's Right-click and Save As guy sells for about $7M",
+      "state": "VERIFIED",
+      "tier": "MAJOR",
       "branches": [
         "NFT",
         "CULTURE"
       ],
-      "summary": "CryptoPunk #7523, the 'Covid Alien,' sold at Sotheby's for $11.8 million.",
-      "significance": "The sale set a then-record auction price for a single CryptoPunk and helped establish Punks as blue-chip digital collectibles within traditional auction markets.",
+      "summary": "XCOPY's Right-click and Save As guy sold on SuperRare for 1,600 ETH, approximately $7 million at the time.",
+      "significance": "The sale turned one of NFT culture's sharpest jokes about digital ownership into one of its highest-value artworks.",
       "sources": [
         {
-          "title": "Sotheby's — CryptoPunk #7523 record",
-          "url": "https://www.sothebys.com/en/press/punks-on-paper",
-          "type": "AUCTION_HOUSE_PRIMARY"
-        },
-        {
-          "title": "Sotheby's — 2021 Historic Year in Review",
-          "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
-          "type": "AUCTION_HOUSE_PRIMARY"
+          "title": "Artnet — XCOPY Right-click and Save As guy sale",
+          "url": "https://news.artnet.com/market/most-expensive-nft-art-yearend-2052822",
+          "type": "ART_MARKET_SECONDARY"
         }
       ],
       "confidence": "HIGH"
@@ -1148,24 +2887,78 @@
       "confidence": "HIGH"
     },
     {
-      "key": "2021-metamask-21m-users",
+      "key": "2021-adidas-enters-nft-market",
       "master_event_ids": [
-        "LORE-EVT-1072"
+        "LORE-EVT-0901"
       ],
-      "date": "2021-11-17",
-      "title": "MetaMask reaches tens of millions of monthly users",
-      "state": "VERIFIED",
-      "tier": "CORE",
+      "date": "2021-12-16 to 2021-12-17",
+      "title": "Adidas enters NFT market",
+      "state": "VERIFIED_WITH_SEQUENCE",
+      "tier": "LORE",
       "branches": [
-        "ETHEREUM",
-        "ADOPTION"
+        "NFT",
+        "INSTITUTIONS",
+        "CULTURE"
       ],
-      "summary": "Consensys announced that MetaMask had surpassed 21 million monthly active users.",
-      "significance": "The milestone showed that a self-custodial Web3 wallet had reached mass consumer scale during the DeFi and NFT boom.",
+      "summary": "adidas announced its Into the Metaverse Web3/NFT project on 16 December and the first NFT sale followed on 17 December.",
+      "significance": "It was one of the clearest entries by a major global apparel brand into crypto-native NFT culture.",
       "sources": [
         {
-          "title": "Consensys — MetaMask surpasses 21M MAUs",
-          "url": "https://consensys.io/blog/metamask-surpasses-21-million-maus-as-consensys-raises-200-million-to-make-web3-universally-easy-to-use-access-and-build-on",
+          "title": "adidas — Into the Metaverse",
+          "url": "https://news.adidas.com/originals/into-the-metaverse--how-we-got-here-and-where-we-are-headed/s/6ccb61cb-2135-453e-8626-ac3d56faab30",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-multichain-expands-from-anyswap-into-multi-chain-bridge-leader",
+      "master_event_ids": [
+        "LORE-EVT-1140"
+      ],
+      "date": "2021-12-17",
+      "title": "Multichain expands from Anyswap into multi-chain bridge leader",
+      "state": "VERIFIED_WITH_DATE",
+      "tier": "MAJOR",
+      "branches": [
+        "BRIDGES",
+        "DEFI"
+      ],
+      "summary": "Anyswap began its transition and rebranding to Multichain, with ANY-to-MULTI token conversion opening on 17 December 2021.",
+      "significance": "The rebrand reflected the project's expansion from a cross-chain swap product into one of the largest multi-chain bridge infrastructures of the period.",
+      "sources": [
+        {
+          "title": "Multichain — FAQ/history",
+          "url": "https://docs.multichain.org/getting-started/faq",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Multichain — ANY to MULTI conversion",
+          "url": "https://docs.multichain.org/getting-started/governance-token/how-to-convert-any-to-multi",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2021-crypto-com-arena-name-effective",
+      "master_event_ids": [
+        "LORE-EVT-0165"
+      ],
+      "date": "2021-12-25",
+      "title": "Crypto.com Arena naming becomes a symbol of exchange-era marketing",
+      "state": "DATE_CORRECTED",
+      "tier": "LORE",
+      "branches": [
+        "CULTURE",
+        "EXCHANGES"
+      ],
+      "summary": "The former Staples Center officially became Crypto.com Arena on Christmas Day 2021; exterior signage continued being replaced into 2022.",
+      "significance": "The naming deal became one of the biggest symbols of crypto companies buying mainstream sports visibility.",
+      "sources": [
+        {
+          "title": "Crypto.com / AEG — Crypto.com Arena naming agreement",
+          "url": "https://crypto.com/en/company-news/aeg-and-crypto-com-to-lead-future-of-the-creative-capital-of-the-sports-music-and-entertainment-world-with-new-naming-rights-agreement-for-iconic-los-angeles-venue-formerly-known-as-staples-center",
           "type": "COMPANY_PRIMARY"
         }
       ],
