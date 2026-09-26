@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "1999",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0641",
+      "date": "1999",
+      "title": "Napster popularizes peer-to-peer file sharing at global scale",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "1999",
+        "summary": "Napster's global peer-to-peer file-sharing model demonstrated how decentralized-ish internet distribution could reach mass culture.",
+        "significance": "Relevant technological/cultural context, but not a crypto-history event itself.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Napster",
+            "url": "https://en.wikipedia.org/wiki/Napster",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Likely keep as background timeline context, not a physical-card candidate."
+      }
+    }
+  ]
+}

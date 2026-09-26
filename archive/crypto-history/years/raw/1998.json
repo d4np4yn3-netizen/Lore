@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "1998",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 2,
+  "events": [
+    {
+      "id": "LORE-EVT-0006",
+      "date": "1998",
+      "title": "Wei Dai publishes b-money",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "1998-11",
+        "summary": "Wei Dai published b-money in November 1998, describing protocols for money and contracts among untraceable entities.",
+        "significance": "Satoshi cited b-money in the Bitcoin white paper; it is a direct conceptual predecessor.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "b-money",
+            "url": "https://nakamotoinstitute.org/library/b-money/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0640",
+      "date": "1998",
+      "title": "DigiCash files for bankruptcy",
+      "branch": [
+        "ORIGINS",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_SECONDARY",
+        "exact_date": "1998",
+        "summary": "DigiCash entered bankruptcy in 1998 after failing to achieve broad commercial adoption.",
+        "significance": "Its failure is important contrast: cryptographic cash existed, but depended on a company and banking partners.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "DigiCash historical summary",
+            "url": "https://en.wikipedia.org/wiki/DigiCash",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "1989",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0002",
+      "date": "1989",
+      "title": "DigiCash is founded",
+      "branch": [
+        "ORIGINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_SECONDARY",
+        "exact_date": "1989",
+        "summary": "DigiCash was founded by David Chaum to commercialize cryptographic electronic-cash technology.",
+        "significance": "It was the most important pre-Bitcoin commercial attempt to deploy privacy-preserving digital cash.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          },
+          {
+            "title": "DigiCash historical summary",
+            "url": "https://en.wikipedia.org/wiki/DigiCash",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

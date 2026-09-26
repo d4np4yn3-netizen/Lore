@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "2008",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 6,
+  "events": [
+    {
+      "id": "LORE-EVT-0197",
+      "date": "2008",
+      "title": "bitcoin.org domain is registered",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2008-08-18",
+        "summary": "The bitcoin.org domain was registered on 18 August 2008.",
+        "significance": "It is the earliest clear public infrastructure footprint associated with the Bitcoin project before the white paper announcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org is 10 Years Old",
+            "url": "https://bitcoin.org/en/posts/ten-year-anniversary",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0198",
+      "date": "2008",
+      "title": "Satoshi announces Bitcoin on the cryptography mailing list",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2008-10-31",
+        "summary": "This is the mailing-list announcement that distributed the Bitcoin white paper.",
+        "significance": "Canonicalized to the white-paper publication event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/1/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0009",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0644",
+      "date": "2008",
+      "title": "Lehman-era financial crisis shapes the environment in which Bitcoin emerges",
+      "branch": [
+        "ORIGINS",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2008",
+        "summary": "Bitcoin emerged during the global financial crisis, but causal claims about the crisis motivating Satoshi cannot be stated as fact solely from timing.",
+        "significance": "Keep as historical context, not a verified motive claim.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Bitcoin white paper",
+            "url": "https://bitcoin.org/bitcoin.pdf",
+            "type": "PRIMARY"
+          },
+          {
+            "title": "Bitcoin Genesis Block",
+            "url": "https://chainquery.com/stories/genesis-block",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Rewrite to avoid asserting Satoshi's motive."
+      }
+    },
+    {
+      "id": "LORE-EVT-0645",
+      "date": "2008",
+      "title": "Satoshi references peer-to-peer electronic cash in first public Bitcoin announcement",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2008-10-31",
+        "summary": "This row describes the same first public Bitcoin announcement as LORE-EVT-0009.",
+        "significance": "Canonicalized to the white-paper event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/1/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0009",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0646",
+      "date": "2008",
+      "title": "Early cryptography-list discussion challenges Bitcoin's assumptions",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2008-10-31 to 2008-11-17",
+        "summary": "The first Cryptography Mailing List thread contains immediate technical skepticism and discussion of Bitcoin's assumptions.",
+        "significance": "Shows that Bitcoin's announcement was debated rather than instantly accepted.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — full thread",
+            "url": "https://bitcoin-institute.pages.dev/entries/threads/emails/cryptography/bitcoin-p2p-e-cash-paper/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0009",
+      "date": "2008-10-31",
+      "title": "Bitcoin whitepaper published",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2008-10-31",
+        "summary": "Satoshi Nakamoto posted Bitcoin: A Peer-to-Peer Electronic Cash System to the Cryptography Mailing List on 31 October 2008.",
+        "significance": "This is Bitcoin's public birth as a documented protocol proposal.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin P2P e-cash paper — Cryptography Mailing List",
+            "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/threads/1/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Bitcoin white paper",
+            "url": "https://bitcoin.org/bitcoin.pdf",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

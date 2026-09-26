@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "2002",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0642",
+      "date": "2002",
+      "title": "Hashcash gains attention as a proof-of-work anti-spam system",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2002-08-01",
+        "summary": "Back's formal Hashcash paper consolidated the proof-of-work system originally proposed in 1997.",
+        "significance": "The 2002 paper became the standard published description of Hashcash and is directly relevant to Bitcoin's PoW lineage.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hashcash — A Denial of Service Counter-Measure",
+            "url": "https://nakamotoinstitute.org/library/hashcash/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

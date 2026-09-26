@@ -1,0 +1,3652 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "2024",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 127,
+  "events": [
+    {
+      "id": "LORE-EVT-0064",
+      "date": "2024",
+      "title": "US spot Ether ETPs begin trading",
+      "branch": [
+        "INSTITUTIONS",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-07-23",
+        "summary": "US spot Ether exchange-traded products began trading on national securities exchanges on 23 July 2024.",
+        "significance": "The launch gave conventional brokerage investors a new regulated route to spot Ether exposure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — Grayscale Ethereum ETPs begin trading",
+            "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024085501/etheeth_press_release_7.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0135",
+      "date": "2024",
+      "title": "Runes protocol launches around the Bitcoin halving",
+      "branch": [
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-04-20T00:09:27Z",
+        "summary": "The Runes protocol activated at block 840,000, the same block as Bitcoin's fourth halving, enabling fungible-token issuance tracked by the ord reference implementation.",
+        "significance": "Runes extended the Ordinals-era experimentation with Bitcoin-native token issuance and made the halving block itself a major blockspace event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ordinal Theory Handbook — Runes specification guide",
+            "url": "https://docs.ordinals.com/runes/specification.html",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0136",
+      "date": "2024",
+      "title": "Mt. Gox creditor repayments begin",
+      "branch": [
+        "EXCHANGES",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-07-05",
+        "summary": "Mt. Gox's rehabilitation trustee announced that repayments in Bitcoin and Bitcoin Cash had begun for some creditors through designated exchanges.",
+        "significance": "The payments began returning crypto to creditors more than ten years after the exchange's collapse, closing one of the longest-running sagas in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox Trustee — Notice regarding Repayment in Bitcoin and Bitcoin Cash",
+            "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0137",
+      "date": "2024",
+      "title": "Bitcoin trades above $100,000",
+      "branch": [
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SOURCE_PRICE",
+        "exact_date": "2024-12-05",
+        "summary": "Bitcoin traded above $100,000 for the first time on 5 December 2024; Reuters reported an intraday high above $103,000.",
+        "significance": "Six figures became one of Bitcoin's most culturally anticipated price milestones and capped a year dominated by spot ETP adoption and renewed institutional demand.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin storms above $100,000",
+            "url": "https://www.reuters.com/technology/bitcoin-tops-100000-optimism-over-trump-crypto-plans-2024-12-05/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Use the cited Reuters price/index rather than imply a universal exchange high."
+      }
+    },
+    {
+      "id": "LORE-EVT-0139",
+      "date": "2024",
+      "title": "Major MiCA provisions begin applying across the EU",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-06-30 to 2024-12-30",
+        "summary": "MiCA entered operational application in two major stages during 2024: stablecoin provisions from 30 June and the wider framework from 30 December.",
+        "significance": "This umbrella row connects the two implementation milestones rather than representing a third separate event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — Digital finance / MiCA application dates",
+            "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0335",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0149",
+      "date": "2024",
+      "title": "US spot Ether ETP rule changes are approved",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-05-23",
+        "summary": "The SEC approved exchange rule changes to list and trade shares of multiple spot Ether-based exchange-traded products.",
+        "significance": "The decision cleared the key exchange-listing hurdle for US spot Ether ETPs and broadened regulated crypto-asset product access beyond Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Ether-Based ETP Rule-Change Approval",
+            "url": "https://www.sec.gov/rule-release/34-100224",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0170",
+      "date": "2024",
+      "title": "Solana meme-coin launchpads accelerate token creation",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Meme-token launchpads, led by Pump.fun, accelerated the pace and volume of token creation on Solana during 2024.",
+        "significance": "The trend is best treated as ecosystem context under the canonical Pump.fun launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pump.fun — PUMP Token / platform history",
+            "url": "https://pump.fun/pump-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0304",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0171",
+      "date": "2024",
+      "title": "BlackRock launches BUIDL tokenized fund",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-03-20",
+        "summary": "BlackRock launched the BlackRock USD Institutional Digital Liquidity Fund (BUIDL), its first tokenized fund issued on a public blockchain, initially on Ethereum via Securitize.",
+        "significance": "BUIDL brought the world's largest asset manager directly into public-blockchain tokenized cash and Treasury-fund infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BlackRock launches BUIDL",
+            "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0172",
+      "date": "2024",
+      "title": "German government-linked Bitcoin sales become a major market story",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-06-19 to 2024-07-12",
+        "summary": "German government-linked Bitcoin transfers and sales became a closely watched market narrative during the Saxony movie2k liquidation.",
+        "significance": "Canonicalized to the official Saxony sale event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Saxony — Emergency sale of almost 50,000 Bitcoin completed",
+            "url": "https://www.medienservice.sachsen.de/medien/news/1077662",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0305",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0173",
+      "date": "2024",
+      "title": "Bhutan's state-linked Bitcoin mining and holdings gain global attention",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-09",
+        "summary": "The IMF's 2024 Bhutan consultation documented the scale and financing of state-owned DHI's crypto-mining investment: a 420 MW operation that had actually begun in 2022, plus Bitdeer's 100 MW facility operating from August 2023.",
+        "significance": "The 2024 disclosure made Bhutan one of the clearest examples of sovereign/state-owned participation in industrial Bitcoin mining powered by hydropower.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Bhutan 2024 Article IV Consultation",
+            "url": "https://www.imf.org/en/Publications/CR/Issues/2024/09/20/Bhutan-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-554890",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Do not state that Bhutan began mining in 2024; the IMF dates DHI's mining start to 2022."
+      }
+    },
+    {
+      "id": "LORE-EVT-0192",
+      "date": "2024",
+      "title": "Prediction markets, led by Polymarket, gain major mainstream visibility",
+      "branch": [
+        "CULTURE",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024",
+        "summary": "Crypto-based prediction markets, especially Polymarket, moved into mainstream financial and media attention during the 2024 US election cycle. Reuters reported about $3.1 billion traded on Polymarket's presidential-outcome market by 4 November.",
+        "significance": "The cycle transformed prediction markets from a crypto niche into a widely cited information and speculation venue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Record volume and public attention only; do not treat market prices as validated election forecasts."
+      }
+    },
+    {
+      "id": "LORE-EVT-0255",
+      "date": "2024",
+      "title": "DMM Bitcoin suffers a major theft",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2024-05-31",
+        "summary": "DMM Bitcoin reported an unauthorized outflow of 4,502.9 BTC from its wallet, worth roughly $300 million at the time.",
+        "significance": "The theft was one of the largest centralized-exchange Bitcoin losses since the early exchange-hack era.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — DMM Bitcoin theft",
+            "url": "https://techcrunch.com/2024/05/31/hackers-steal-305-million-from-dmm-bitcoin-crypto-exchange/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0256",
+      "date": "2024",
+      "title": "WazirX suffers a major crypto theft",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-07-18",
+        "summary": "WazirX said a cyberattack on one of its multisig wallets resulted in theft of digital assets exceeding $230 million.",
+        "significance": "The incident became one of India's largest crypto-exchange losses and a major case study in multisig/custody operational risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WazirX — Preliminary Report: Cyber Attack on Multisig Wallet",
+            "url": "https://wazirx.com/blog/preliminary-report-cyber-attack-on-wazirx-multisig-wallet/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0257",
+      "date": "2024",
+      "title": "TON and Telegram-linked crypto applications surge",
+      "branch": [
+        "ALTCOINS",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "TON and Telegram-linked crypto applications surged alongside the mini-app gaming cycle.",
+        "significance": "Canonicalized as ecosystem context under the Telegram gaming entries.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0548",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0258",
+      "date": "2024",
+      "title": "BlackRock IBIT becomes a major Bitcoin investment vehicle",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2024-05-29",
+        "summary": "By late May, BlackRock's iShares Bitcoin Trust (IBIT) had grown to nearly $20 billion in assets and overtaken Grayscale's GBTC as the largest Bitcoin fund by assets.",
+        "significance": "IBIT's rapid rise demonstrated how quickly traditional asset-management distribution could reshape the Bitcoin investment-product market.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — BlackRock fund becomes largest Bitcoin fund",
+            "url": "https://www.reuters.com/technology/blackrocks-etf-becomes-largest-bitcoin-fund-world-bloomberg-news-reports-2024-05-29/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0259",
+      "date": "2024",
+      "title": "BlackRock launches BUIDL tokenized fund",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2024-03-20",
+        "summary": "This is the same BlackRock BUIDL launch as LORE-EVT-0171.",
+        "significance": "Canonicalized to LORE-EVT-0171.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BlackRock launches BUIDL",
+            "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0171",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0260",
+      "date": "2024",
+      "title": "Bhutan state-linked Bitcoin mining and holdings gain attention",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-09",
+        "summary": "This row refers to the same 2024 public attention around Bhutan's already-existing state-linked Bitcoin-mining program.",
+        "significance": "Canonicalized to the IMF-documented Bhutan mining context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Bhutan 2024 Article IV Consultation",
+            "url": "https://www.imf.org/en/Publications/CR/Issues/2024/09/20/Bhutan-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-554890",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0173",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0274",
+      "date": "2024",
+      "title": "Polymarket and prediction markets gain major mainstream visibility",
+      "branch": [
+        "CULTURE",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "This row describes the same 2024 Polymarket/election-volume surge captured by LORE-EVT-0192.",
+        "significance": "Canonicalized to the broader prediction-market mainstreaming event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0303",
+      "date": "2024",
+      "title": "Hong Kong launches spot Bitcoin and Ether ETFs",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-04-30",
+        "summary": "Hong Kong spot Bitcoin and Ether ETFs began trading on the Hong Kong Stock Exchange on 30 April 2024.",
+        "significance": "Hong Kong became a major Asian regulated market offering spot exchange-traded exposure to both Bitcoin and Ether.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HKEX — Trading arrangements for Harvest Bitcoin and Ether Spot ETFs",
+            "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2024/ce_SEHK_CT_052_2024.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0304",
+      "date": "2024",
+      "title": "Pump.fun becomes a defining Solana meme-token launch platform",
+      "branch": [
+        "ALTCOINS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2024-01",
+        "summary": "Pump.fun launched on Solana in January 2024 with a streamlined mechanism allowing users to create and trade tokens almost instantly.",
+        "significance": "The launchpad dramatically lowered the barrier to meme-token creation and became one of the defining pieces of infrastructure behind the 2024 Solana meme-coin cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pump.fun — PUMP Token / platform history",
+            "url": "https://pump.fun/pump-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0305",
+      "date": "2024",
+      "title": "German authorities sell seized Bitcoin into the market",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-06-19 to 2024-07-12",
+        "summary": "Saxony's authorities completed an emergency sale of approximately 49,858 BTC linked to the movie2k criminal case, realizing about €2.64 billion.",
+        "significance": "The liquidation became one of the largest government-linked Bitcoin sales and a major market-flow story during summer 2024.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Saxony — Emergency sale of almost 50,000 Bitcoin completed",
+            "url": "https://www.medienservice.sachsen.de/medien/news/1077662",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0306",
+      "date": "2024",
+      "title": "Bhutan state-linked Bitcoin mining gains global attention",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-09",
+        "summary": "This row refers to the same 2024 public attention around Bhutan's already-existing state-linked Bitcoin-mining program.",
+        "significance": "Canonicalized to the IMF-documented Bhutan mining context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Bhutan 2024 Article IV Consultation",
+            "url": "https://www.imf.org/en/Publications/CR/Issues/2024/09/20/Bhutan-2024-Article-IV-Consultation-Press-Release-Staff-Report-and-Statement-by-the-554890",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0173",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0334",
+      "date": "2024",
+      "title": "EU MiCA stablecoin rules begin applying",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "STABLECOINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-06-30",
+        "summary": "MiCA provisions covering asset-referenced tokens and e-money tokens — the framework's stablecoin rules — began applying on 30 June 2024.",
+        "significance": "The date moved the EU's comprehensive crypto framework from legislation into live stablecoin supervision.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — Digital finance / MiCA application dates",
+            "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0335",
+      "date": "2024",
+      "title": "EU MiCA broader crypto rules begin applying",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-12-30",
+        "summary": "The remaining main provisions of the EU Markets in Crypto-Assets Regulation became applicable from 30 December 2024.",
+        "significance": "MiCA created a broad, passportable EU regulatory framework for crypto-asset service providers and issuers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "European Commission — Digital finance / MiCA application dates",
+            "url": "https://finance.ec.europa.eu/news/digital-finance-2024-12-19_en",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0361",
+      "date": "2024",
+      "title": "Tokenized US Treasury market grows rapidly",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Tokenized US Treasury and cash-like products grew rapidly during 2024 as products such as BlackRock BUIDL and Ondo's OUSG/USDY gained scale and integrations.",
+        "significance": "The growth marked a major shift from crypto-native collateral toward tokenized traditional financial assets as a core on-chain yield source.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ondo Finance — Building on BUIDL",
+            "url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ondo Finance — One Year of USDY",
+            "url": "https://ondo.finance/blog/celebrating-one-year-of-usdy",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Era/context row; individual product launches such as BUIDL remain cleaner card events."
+      }
+    },
+    {
+      "id": "LORE-EVT-0381",
+      "date": "2024",
+      "title": "Radiant Capital suffers major security incidents",
+      "branch": [
+        "HACKS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-10-16",
+        "summary": "Radiant Capital suffered a sophisticated compromise in which attackers manipulated developer signing environments and maliciously changed contract ownership, leading to losses of roughly $50 million across Arbitrum and BNB Chain.",
+        "significance": "The incident became a striking example of operational/key-signing compromise defeating multisig and hardware-wallet assumptions rather than exploiting ordinary contract logic.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Radiant Capital — Post-Mortem",
+            "url": "https://medium.com/@RadiantCapital/radiant-post-mortem-fecd6cd38081",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0397",
+      "date": "2024",
+      "title": "EigenLayer expands restaking and shared-security market",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-04-09",
+        "summary": "EigenLayer and EigenDA launched on Ethereum mainnet with delegation to operators and registration of actively validated services.",
+        "significance": "The launch turned restaking from a deposit concept into live shared-security infrastructure for services beyond Ethereum consensus itself.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Mainnet Launch Announcement",
+            "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0398",
+      "date": "2024",
+      "title": "EIP-4844 blobs reshape Ethereum rollup economics",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-03-13",
+        "summary": "EIP-4844 introduced blob-carrying transactions as part of Dencun.",
+        "significance": "The blob mechanism is the key technical component of the canonical Dencun event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0134",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0532",
+      "date": "2024",
+      "title": "Bitcoin ETF issuers wage a fee war before launch",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-01",
+        "summary": "Issuers competed aggressively on fees immediately before the coordinated spot-Bitcoin ETP launch.",
+        "significance": "The fee war reflected how traditional asset managers expected scale and distribution, not merely product approval, to determine winners.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "SEC — Statement on Approval of Spot Bitcoin ETPs",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC filing — spot Bitcoin ETPs commenced trading Jan. 11",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017024015847/mstr-20231231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0062",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0533",
+      "date": "2024",
+      "title": "Grayscale experiences sustained Bitcoin ETF outflows",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-01 to 2024-05",
+        "summary": "GBTC experienced sustained redemptions after converting from a trust to a spot Bitcoin ETP; Reuters reported roughly $17.46 billion of net outflows before its first daily inflow in early May.",
+        "significance": "The outflows showed how conversion to an open-ended ETP exposed a large legacy fund to fee competition and pent-up redemption demand.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — GBTC first inflow after sustained outflows",
+            "url": "https://www.reuters.com/business/finance/grayscale-bitcoin-trusts-shares-jump-after-first-inflow-since-january-2024-05-06/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0534",
+      "date": "2024",
+      "title": "BlackRock IBIT overtakes major competitors in spot Bitcoin ETF assets",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2024-05-29",
+        "summary": "This is the same IBIT-over-GBTC asset milestone as LORE-EVT-0258.",
+        "significance": "Canonicalized to the IBIT milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — BlackRock fund becomes largest Bitcoin fund",
+            "url": "https://www.reuters.com/technology/blackrocks-etf-becomes-largest-bitcoin-fund-world-bloomberg-news-reports-2024-05-29/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0258",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0535",
+      "date": "2024",
+      "title": "Hong Kong spot crypto ETFs begin trading",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2024-04-30",
+        "summary": "This is the same Hong Kong spot crypto ETF trading launch as LORE-EVT-0303.",
+        "significance": "Canonicalized to LORE-EVT-0303.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HKEX — Trading arrangements for Harvest Bitcoin and Ether Spot ETFs",
+            "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2024/ce_SEHK_CT_052_2024.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0303",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0536",
+      "date": "2024",
+      "title": "Ethereum ETF issuers compete over fees and staking limitations",
+      "branch": [
+        "ETHEREUM",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-05",
+        "summary": "Prospective US spot Ether ETP issuers amended filings during the approval process, including changes to fees and product terms.",
+        "significance": "The pre-launch competition reflected how issuers were optimizing products for regulatory approval and distribution.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — Fidelity removes staking from prospective spot Ether ETF filing",
+            "url": "https://www.theblock.co/news/markets/2024-05-21-fidelity-ethereum-etf-staking-amendment-295605",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — Grayscale removes staking proposal",
+            "url": "https://www.theblock.co/post/295835/grayscale-removes-staking-proposal-from-its-spot-ethereum-etf-filing",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0149",
+        "relation": "PRELAUNCH_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0537",
+      "date": "2024",
+      "title": "Spot Ether ETFs begin trading in the United States",
+      "branch": [
+        "ETHEREUM",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2024-07-23",
+        "summary": "This is the same commencement of US spot Ether ETP trading as LORE-EVT-0064.",
+        "significance": "Canonicalized to the July 23 trading launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — Grayscale Ethereum ETPs begin trading",
+            "url": "https://www.sec.gov/Archives/edgar/data/1725210/000095017024085501/etheeth_press_release_7.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0064",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0538",
+      "date": "2024",
+      "title": "Pump.fun graduates thousands of meme tokens onto Solana DEXs",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_PERIOD_DATA",
+        "exact_date": "2024",
+        "summary": "Large numbers of Pump.fun tokens graduated from its bonding curve into external Solana liquidity venues.",
+        "significance": "The mechanism is historically relevant, but the row needs a dated 2024 graduation count before publication.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Pump.fun — PUMP Token / platform history",
+            "url": "https://pump.fun/pump-token",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0304",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0539",
+      "date": "2024",
+      "title": "Solana network congestion rises during meme-coin boom",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-03",
+        "summary": "Solana's own engineering update said extremely high network usage was stress-testing priority fees and the transaction scheduler during March 2024.",
+        "significance": "The congestion coincided with the explosive meme-token trading cycle and exposed practical limits in transaction scheduling despite high nominal throughput.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana — Block Optimization on the Solana Network",
+            "url": "https://solana.com/news/block-optimization-on-the-solana-network",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0540",
+      "date": "2024",
+      "title": "Jupiter becomes a central Solana trading aggregator",
+      "branch": [
+        "ALTCOINS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Jupiter remained Solana's dominant decentralized-exchange aggregator into 2024 and became an even more central venue through its JUP launch, routing liquidity across multiple Solana DEXs.",
+        "significance": "Jupiter's position made it core infrastructure for Solana's renewed trading and meme-token cycle.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — Jupiter JUP token launch",
+            "url": "https://www.theblock.co/news/ecosystems/2024-01-31-jupiter-token-275322",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — Jupiter confirms Jan. 31 token release",
+            "url": "https://www.theblock.co/news/ecosystems/2024-01-16-jupiter-jup-token-launch-date-memecoin-drop-planned-272800",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0615",
+        "relation": "INFRASTRUCTURE_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0541",
+      "date": "2024",
+      "title": "Base becomes a leading Ethereum L2 by activity",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_MARKET_DATA",
+        "exact_date": "2024",
+        "summary": "Base grew rapidly in activity during 2024 and continued increasing throughput and data-availability capacity after Dencun.",
+        "significance": "The 'leading L2' wording needs a dated comparative dataset before card scoring; retain as ecosystem context rather than a ranked claim.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Base — Scaling Base / 2024 roadmap progress",
+            "url": "https://blog.base.org/scaling-base-looking-towards-the-upcoming-pectra-upgrade",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Do not publish 'leading' without a period-specific L2 activity metric."
+      }
+    },
+    {
+      "id": "LORE-EVT-0542",
+      "date": "2024",
+      "title": "Farcaster launches interactive Frames",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-01-26",
+        "summary": "Farcaster launched Frames, turning social-feed posts into interactive mini-app surfaces that could identify users and trigger on-chain or web actions.",
+        "significance": "Frames created one of the clearest attempts to merge social feeds with lightweight crypto-native application experiences.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Farcaster protocol — Frames v2 FIP (notes original Frames launched Jan 2024)",
+            "url": "https://github.com/farcasterxyz/protocol/discussions/205",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0543",
+      "date": "2024",
+      "title": "friend.tech activity collapses after early social-finance boom",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2024-05-03",
+        "summary": "friend.tech released its v2 and FRIEND token in May 2024, but the token price fell more than 90% from an initial spike on launch day and activity failed to regain its 2023 peak.",
+        "significance": "The episode became a sharp illustration of how quickly a social-finance phenomenon built on speculative access keys could lose momentum.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — friend.tech token price plunges after launch",
+            "url": "https://www.theblock.co/news/markets/2024-05-03-friendtechs-token-price-plunges-over-90-after-launch-292412",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0544",
+      "date": "2024",
+      "title": "Runes launch creates a burst of Bitcoin blockspace demand",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2024-04-20T00:09:27Z",
+        "summary": "Block 840,000 contained hundreds of Rune etchings and generated roughly 37.6 BTC in transaction fees, far above the new 3.125 BTC block subsidy.",
+        "significance": "The fee spike provided a vivid demonstration that token/protocol demand could temporarily make transaction fees dominate miner revenue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0135",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0545",
+      "date": "2024",
+      "title": "Mt. Gox begins distributing Bitcoin to creditors through exchanges",
+      "branch": [
+        "EXCHANGES",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2024-07-05",
+        "summary": "Bitcoin and Bitcoin Cash began moving to eligible Mt. Gox creditors through designated exchanges.",
+        "significance": "Canonicalized to the first repayment announcement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox Trustee — Notice regarding Repayment in Bitcoin and Bitcoin Cash",
+            "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0136",
+        "relation": "ROLLOUT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0546",
+      "date": "2024",
+      "title": "WazirX freezes withdrawals after hack",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2024-07-18",
+        "summary": "WazirX suspended or restricted withdrawals and other platform functions following the multisig-wallet theft.",
+        "significance": "Operational consequence of the canonical WazirX hack.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WazirX — Preliminary Report: Cyber Attack on Multisig Wallet",
+            "url": "https://wazirx.com/blog/preliminary-report-cyber-attack-on-wazirx-multisig-wallet/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0256",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0547",
+      "date": "2024",
+      "title": "DMM Bitcoin announces losses after theft",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2024-05-31",
+        "summary": "DMM Bitcoin announced the loss and restricted some services while saying customer Bitcoin deposits would be guaranteed.",
+        "significance": "Operational response to the canonical DMM Bitcoin theft.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — DMM Bitcoin theft",
+            "url": "https://techcrunch.com/2024/05/31/hackers-steal-305-million-from-dmm-bitcoin-crypto-exchange/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0255",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0548",
+      "date": "2024",
+      "title": "TON ecosystem games bring crypto to huge Telegram audiences",
+      "branch": [
+        "ALTCOINS",
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Notcoin, Hamster Kombat and other Telegram mini-apps brought enormous user attention to TON-linked games and token distribution.",
+        "significance": "This is an ecosystem-level context node connecting individual game events.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0550",
+        "relation": "ECOSYSTEM_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0549",
+      "date": "2024",
+      "title": "Hamster Kombat becomes a viral Telegram crypto game",
+      "branch": [
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_PLATFORM_METRIC",
+        "exact_date": "2024",
+        "summary": "Hamster Kombat became a viral Telegram mini-app game; official channel posts documented tens of millions of players and later a large token airdrop.",
+        "significance": "The game became the clearest symbol of the 2024 Telegram tap-to-earn boom and the scale at which mini-apps could funnel users toward TON-based crypto.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0550",
+      "date": "2024",
+      "title": "Notcoin popularizes tap-to-earn token distribution on Telegram",
+      "branch": [
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-05-16",
+        "summary": "Notcoin's NOT token went live across major venues and Telegram Wallet after a tap-to-earn game that the project's wallet partner said had attracted about 35 million users.",
+        "significance": "Notcoin demonstrated how a Telegram-native game could distribute a crypto token to a mass consumer audience with almost no traditional wallet onboarding.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0551",
+      "date": "2024",
+      "title": "Polymarket election markets draw global mainstream attention",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "This row describes the same 2024 Polymarket/election-volume surge captured by LORE-EVT-0192.",
+        "significance": "Canonicalized to the broader prediction-market mainstreaming event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0552",
+      "date": "2024",
+      "title": "Prediction-market data is widely cited by mainstream media",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Prediction-market prices and volume were increasingly cited in mainstream reporting during the 2024 election cycle.",
+        "significance": "Media citation is a cultural consequence of the canonical prediction-market boom, not evidence that the markets were inherently more accurate than polls.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "MEDIA_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0579",
+      "date": "2024",
+      "title": "US authorities charge Samourai Wallet founders",
+      "branch": [
+        "BITCOIN",
+        "PRIVACY",
+        "GOVERNMENTS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_AS_CHARGES",
+        "exact_date": "2024-04-24",
+        "summary": "US prosecutors unsealed an indictment charging Samourai Wallet co-founders Keonne Rodriguez and William Lonergan Hill with conspiracy to commit money laundering and conspiracy to operate an unlicensed money transmitting business.",
+        "significance": "The case became a major legal flashpoint over non-custodial Bitcoin privacy tooling, mixers and the scope of money-transmission law.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Samourai Wallet founders charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "The 2024 event is the charge/arrest; allegations were not convictions at that time."
+      }
+    },
+    {
+      "id": "LORE-EVT-0593",
+      "date": "2024",
+      "title": "Radiant exploit highlights multisig and operational-security risk",
+      "branch": [
+        "HACKS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-10-16",
+        "summary": "The Radiant breach highlighted multisig operational security risk after multiple developers signed malicious transactions while their interfaces displayed apparently legitimate data.",
+        "significance": "Security-mechanism context under the canonical Radiant exploit.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Radiant Capital — Post-Mortem",
+            "url": "https://medium.com/@RadiantCapital/radiant-post-mortem-fecd6cd38081",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0381",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0610",
+      "date": "2024",
+      "title": "Restaking becomes one of Ethereum's largest new DeFi sectors",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Restaking grew into a major Ethereum DeFi sector around EigenLayer's mainnet launch and billions of dollars of restaked ETH.",
+        "significance": "Sector-growth context under the canonical EigenLayer launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Mainnet Launch Announcement",
+            "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0397",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0611",
+      "date": "2024",
+      "title": "Liquid restaking tokens proliferate",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Liquid restaking tokens proliferated around EigenLayer, allowing users to hold transferable representations of restaked positions.",
+        "significance": "The trend added another layer of composability and leverage to Ethereum staking markets.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "EigenLayer — Mainnet Launch Announcement",
+            "url": "https://www.eigenlabs.org/blog/mainnet-launch-eigenlayer-eigenda/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0397",
+        "relation": "ECOSYSTEM_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0615",
+      "date": "2024",
+      "title": "Jupiter DAO launches with JUP token",
+      "branch": [
+        "ALTCOINS",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-01-31",
+        "summary": "Jupiter launched its JUP governance token and first retrospective airdrop, targeting roughly 955,000 eligible wallets and putting 1.35 billion JUP into initial circulation.",
+        "significance": "The distribution formalized community ownership of Solana's dominant liquidity aggregator and became one of the chain's largest airdrops.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Jupiter JUP token launch",
+            "url": "https://www.theblock.co/news/ecosystems/2024-01-31-jupiter-token-275322",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — Jupiter confirms Jan. 31 token release",
+            "url": "https://www.theblock.co/news/ecosystems/2024-01-16-jupiter-jup-token-launch-date-memecoin-drop-planned-272800",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0620",
+      "date": "2024",
+      "title": "Solana Firedancer test development gains major attention",
+      "branch": [
+        "ALTCOINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Jump Crypto's Firedancer project progressed through test environments and hybrid Frankendancer deployments while targeting a fully independent Solana validator client.",
+        "significance": "Firedancer mattered because an independent high-performance validator implementation could reduce client monoculture risk and expand Solana throughput headroom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Firedancer Docs — Firedancer / Frankendancer guide",
+            "url": "https://docs.firedancer.io/guide/firedancer.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Trend/development row; not a mainnet Firedancer launch in 2024."
+      }
+    },
+    {
+      "id": "LORE-EVT-0825",
+      "date": "2024",
+      "title": "US spot Bitcoin ETF issuers launch massive marketing campaigns",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2024-01-11",
+        "summary": "The newly approved US spot Bitcoin ETPs began public trading on 11 January 2024; SEC-filed disclosures later cited about $4.6 billion of aggregate first-day trading volume.",
+        "significance": "The launch translated the regulatory approval into one of the largest coordinated product debuts in crypto-market history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing — spot Bitcoin ETPs commenced trading Jan. 11",
+            "url": "https://www.sec.gov/Archives/edgar/data/1050446/000095017024015847/mstr-20231231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0062",
+        "relation": "ROLLOUT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0826",
+      "date": "2024",
+      "title": "Bitcoin ETF inflows become a major source of daily market demand",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0827",
+      "date": "2024",
+      "title": "Spot Bitcoin ETF custody concentration sparks debate",
+      "branch": [
+        "BITCOIN",
+        "SECURITY",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0828",
+      "date": "2024",
+      "title": "BlackRock files for and expands tokenized fund products",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "BlackRock expanded its tokenization strategy around BUIDL after the March launch.",
+        "significance": "This is institutional-tokenization context under the canonical BUIDL event unless a specific later multi-chain expansion is selected.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Securitize — BlackRock launches BUIDL",
+            "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0171",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0829",
+      "date": "2024",
+      "title": "Ondo Finance helps popularize tokenized Treasury products",
+      "branch": [
+        "DEFI",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024-08-26",
+        "summary": "Ondo reported that USDY had surpassed $350 million in TVL, expanded to seven blockchains and reached more than 70 integrations; OUSG also integrated BlackRock's BUIDL as underlying reserve infrastructure.",
+        "significance": "Ondo became one of the clearest bridges between DeFi and tokenized US Treasury exposure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ondo Finance — Building on BUIDL",
+            "url": "https://ondo.finance/blog/building-on-buidl-how-ondo-leverages-blackrocks-tokenized-treasuries",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ondo Finance — One Year of USDY",
+            "url": "https://ondo.finance/blog/celebrating-one-year-of-usdy",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0830",
+      "date": "2024",
+      "title": "Ethena introduces synthetic-dollar model at scale",
+      "branch": [
+        "STABLECOINS",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2024-02-19",
+        "summary": "Ethena publicly launched USDe in February 2024 as a synthetic dollar backed through crypto collateral and delta-hedging rather than conventional bank deposits.",
+        "significance": "USDe introduced a new large-scale stable-value design that combined crypto collateral, derivatives hedging and protocol-generated yield.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Ethena USDe",
+            "url": "https://ethereum.org/apps/ethena-usde/",
+            "type": "PROJECT_REFERENCE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Public-launch date is supported by project/industry documentation; preserve the synthetic-dollar wording rather than calling it a fiat-backed stablecoin."
+      }
+    },
+    {
+      "id": "LORE-EVT-0831",
+      "date": "2024",
+      "title": "USDe grows rapidly as yield-bearing synthetic dollar",
+      "branch": [
+        "STABLECOINS",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "USDe's supply expanded rapidly after launch as users pursued protocol yield generated from staking and derivatives-market funding economics.",
+        "significance": "Its rapid growth made Ethena one of the largest new stable-value experiments of the 2024 cycle.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Ethena USDe",
+            "url": "https://ethereum.org/apps/ethena-usde/",
+            "type": "PROJECT_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0830",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0832",
+      "date": "2024",
+      "title": "MakerDAO rebrand and Endgame plans trigger governance debate",
+      "branch": [
+        "DEFI",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024",
+        "summary": "Maker's Endgame rollout and transition toward the Sky brand triggered governance debate over whether the protocol was abandoning a deeply established crypto identity; later governance polls explicitly considered re-centering the Maker brand.",
+        "significance": "The episode became a rare example of a major decentralized protocol debating not just parameters or code, but its own long-standing brand identity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO/Sky Whitepaper",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Brand re-centering vote",
+            "url": "https://vote.makerdao.com/polling/QmZzSVJE",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0833",
+        "relation": "GOVERNANCE_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0833",
+      "date": "2024",
+      "title": "Sky brand replaces Maker in major protocol reorganization",
+      "branch": [
+        "DEFI",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2024",
+        "summary": "MakerDAO rebranded its broader ecosystem to Sky in 2024 and introduced the USDS stablecoin and SKY governance token as part of the Endgame restructuring.",
+        "significance": "The rebrand was the largest identity and product reorganization in Maker's history after years as one of DeFi's foundational protocols.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO/Sky Whitepaper",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Sky — official blog",
+            "url": "https://sky.money/blog",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0834",
+      "date": "2024",
+      "title": "Aave governance explores cross-chain expansion and GHO stablecoin growth",
+      "branch": [
+        "DEFI",
+        "DAO",
+        "STABLECOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-04 to 2024-10",
+        "summary": "Aave governance developed and rolled out a cross-chain strategy for GHO, beginning with Arbitrum and later considering additional networks such as Avalanche.",
+        "significance": "The effort moved GHO from an Ethereum-only stablecoin toward multichain DeFi infrastructure governed by Aave DAO.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Aave Governance — GHO Cross-Chain Launch",
+            "url": "https://governance.aave.com/t/arfc-gho-cross-chain-launch/17616",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0835",
+      "date": "2024",
+      "title": "GHO stablecoin gains broader DeFi usage",
+      "branch": [
+        "DEFI",
+        "STABLECOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "GHO usage expanded beyond its initial Ethereum deployment as Aave governance increased bridge capacities, liquidity incentives and cross-chain availability.",
+        "significance": "This is adoption context under the broader GHO cross-chain expansion rather than a single launch.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Aave Governance — GHO Cross-Chain Launch",
+            "url": "https://governance.aave.com/t/arfc-gho-cross-chain-launch/17616",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0834",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0836",
+      "date": "2024",
+      "title": "Restaking points campaigns create a new speculative meta",
+      "branch": [
+        "ETHEREUM",
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Points campaigns tied to restaking and liquid-restaking protocols became a widespread speculative mechanism for anticipating future token distributions.",
+        "significance": "This is an era/culture node best connected to EigenLayer and other individual airdrop events rather than scored as one invention.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Eigen Foundation — EIGEN token and Season 1 stakedrop",
+            "url": "https://blog.eigenfoundation.org/announcement/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0837",
+      "date": "2024",
+      "title": "EigenLayer airdrop restrictions create community backlash",
+      "branch": [
+        "ETHEREUM",
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-04-29",
+        "summary": "The Eigen Foundation announced EIGEN and its Season 1 'stakedrop,' initially making the token non-transferable and later responding to community criticism with additional allocations.",
+        "significance": "The rollout became a defining example of the contentious points-to-airdrop model that dominated 2024 DeFi incentives.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Eigen Foundation — EIGEN token and Season 1 stakedrop",
+            "url": "https://blog.eigenfoundation.org/announcement/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0838",
+      "date": "2024",
+      "title": "Blast L2 launches with native-yield marketing",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-02-29",
+        "summary": "Blast opened its Ethereum Layer-2 mainnet after a pre-mainnet campaign that had attracted more than $2 billion in deposited assets and marketed native yield on ETH and stablecoins.",
+        "significance": "Blast became one of the most visible examples of the 2024 points-and-predeposit model for bootstrapping a new L2 before public mainnet access.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pyth Network — Blast mainnet launch",
+            "url": "https://www.pyth.network/blog/pyth-price-feeds-launch-on-blast-mainnet",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "The Block — Blast mainnet release",
+            "url": "https://www.theblock.co/news/ecosystems/2024-02-29-ethereum-layer-2-chain-blast-releases-official-mainnet-279883",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0839",
+      "date": "2024",
+      "title": "Manta Pacific and other L2s compete with points campaigns",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Manta Pacific and other L2s used points and reward campaigns to compete for capital and users during the 2024 L2 boom.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Trend row; needs a single dated milestone before scoring."
+      }
+    },
+    {
+      "id": "LORE-EVT-0840",
+      "date": "2024",
+      "title": "LayerZero token launch follows prolonged airdrop speculation",
+      "branch": [
+        "TECHNOLOGY",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SECONDARY",
+        "exact_date": "2024-06-20",
+        "summary": "LayerZero launched the ZRO token claim using a 'Proof-of-Donation' mechanism that asked claimants to donate a small amount per token to Protocol Guild.",
+        "significance": "The unusual claim design turned one of the cycle's most anticipated airdrops into a debate about entitlement, protocol funding and airdrop culture.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — LayerZero ZRO launch / Proof-of-Donation",
+            "url": "https://www.theblock.co/news/ecosystems/2024-06-20-layerzero-proof-of-donation-zro-claiming-mechanism-301043",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0841",
+      "date": "2024",
+      "title": "ZKsync launches 17.5% community ZK airdrop",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-06-17",
+        "summary": "ZKsync opened claims for its ZK token airdrop after allocating 17.5% of total supply to the community, including hundreds of thousands of eligible wallets.",
+        "significance": "The distribution became one of the largest ZK-rollup token launches and a focal point for arguments over how airdrops should reward users versus capital.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ZK Nation — ZK token allocation",
+            "url": "https://zknation.ghost.io/zk-token/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "ZK Nation — ZK airdrop docs",
+            "url": "https://docs.zknation.io/zk-token/zk-airdrop",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0842",
+      "date": "2024",
+      "title": "Starknet launches first STRK Provisions airdrop",
+      "branch": [
+        "ETHEREUM",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-02-20",
+        "summary": "Starknet opened the first phase of its STRK Provisions distribution, making more than 700 million STRK available to roughly 1.3 million eligible recipients.",
+        "significance": "The airdrop was a landmark token-distribution event for the ZK-rollup ecosystem and one of the largest eligibility sets of the cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Starknet — Provisions Program",
+            "url": "https://www.starknet.io/blog/starknet-provisions-program/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0843",
+      "date": "2024",
+      "title": "Scroll launches first SCR community airdrop",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-10-22",
+        "summary": "Scroll opened claims for its first SCR airdrop after a 19 October snapshot, allocating 7% of total token supply to the first distribution.",
+        "significance": "The event formalized token ownership for one of Ethereum's prominent zkEVM networks after months of mainnet usage and points-style reward programs.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Scroll — First Airdrop",
+            "url": "https://chain.scroll.io/blog/introducing-scrolls-first-airdrop-a-celebration-of-the-global-community",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Scroll — Largest Rewards Program",
+            "url": "https://chain.scroll.io/blog/announcing-scrolls-largest-rewards-program-to-date",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0844",
+      "date": "2024",
+      "title": "Linea expands as Consensys-backed zkEVM network",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Linea expanded during 2024 as a Consensys-backed zkEVM network.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Needs a concrete 2024 mainnet/activity/reward milestone before scoring."
+      }
+    },
+    {
+      "id": "LORE-EVT-0845",
+      "date": "2024",
+      "title": "Base meme culture expands around tokens and social apps",
+      "branch": [
+        "ETHEREUM",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Base developed a visible meme-token and social-app culture during 2024 alongside rapid L2 adoption and new consumer applications.",
+        "significance": "This is an ecosystem-culture row rather than a single invention; individual tokens/apps make cleaner card candidates.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Base — Scaling Base / 2024 roadmap progress",
+            "url": "https://blog.base.org/scaling-base-looking-towards-the-upcoming-pectra-upgrade",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Based Brett press release — BRETT on Seamless",
+            "url": "https://www.globenewswire.com/news-release/2024/06/03/2892035/0/en/BRETT-Goes-Live-on-the-Seamless-Protocol.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0846",
+      "date": "2024",
+      "title": "Brett becomes a prominent Base meme coin",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_PROJECT_CLAIM",
+        "exact_date": "2024-06-03",
+        "summary": "By June 2024, BRETT described itself as Base's leading meme coin and was being integrated into Base-native DeFi venues such as Seamless.",
+        "significance": "BRETT became one of the clearest symbols of Base's 2024 meme-token culture, though the project's own promotional market-ranking claims should be attributed rather than presented as independent fact.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Based Brett press release — BRETT on Seamless",
+            "url": "https://www.globenewswire.com/news-release/2024/06/03/2892035/0/en/BRETT-Goes-Live-on-the-Seamless-Protocol.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Project press release; attribute claims about rank/market status."
+      }
+    },
+    {
+      "id": "LORE-EVT-0847",
+      "date": "2024",
+      "title": "Dogwifhat becomes one of Solana's defining meme coins",
+      "branch": [
+        "ALTCOINS",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-03",
+        "summary": "Dogwifhat (WIF) became one of the Solana cycle's most visible meme coins, helped by major exchange listings and an unusually organized community marketing campaign.",
+        "significance": "Its rise embodied the 2024 Solana meme economy and the shift from developer-led token narratives toward community meme branding.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — Dogwifhat Sphere fundraiser begins",
+            "url": "https://www.theblock.co/news/web3/2024-03-10-sphere-wif-hat-dogwifhat-holders-set-sights-on-vegas-ad-raise-240000-281521",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — Dogwifhat Sphere fundraiser reaches target",
+            "url": "https://www.theblock.co/news/ecosystems/2024-03-13-solana-memecoin-dogwifihat-to-grace-las-vegas-skyline-after-650000-raise-282323",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0848",
+      "date": "2024",
+      "title": "Dogwifhat community funds Las Vegas Sphere advertising plan",
+      "branch": [
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-03-13",
+        "summary": "The Dogwifhat community fundraiser exceeded its $650,000 target to place the project's Shiba Inu mascot on the Las Vegas Sphere.",
+        "significance": "The campaign became one of the most extravagant examples of meme-token communities crowdfunding real-world advertising.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Dogwifhat Sphere fundraiser reaches target",
+            "url": "https://www.theblock.co/news/ecosystems/2024-03-13-solana-memecoin-dogwifihat-to-grace-las-vegas-skyline-after-650000-raise-282323",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0847",
+        "relation": "LORE_SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0849",
+      "date": "2024",
+      "title": "BOOK OF MEME launch fuels Solana meme mania",
+      "branch": [
+        "ALTCOINS",
+        "MEMES"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_EXCHANGE_MILESTONE",
+        "exact_date": "2024-03-16",
+        "summary": "Binance listed BOOK OF MEME (BOME), a newly launched Solana meme coin, within days of its appearance and flagged it as a high-risk 'Seed Tag' asset.",
+        "significance": "BOME's extraordinarily fast path from launch to top-tier exchange listing became a defining symbol of the March 2024 Solana meme-coin frenzy.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — BOOK OF MEME listing",
+            "url": "https://www.binance.com/az-AZ/support/announcement/detail/bca0f355cf004367b90d7e48fee3470c",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0850",
+      "date": "2024",
+      "title": "Meme-token presales become a speculative craze",
+      "branch": [
+        "MEMES",
+        "MARKETS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Meme-token presales became a visible speculative fundraising pattern during the 2024 Solana meme cycle.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Trend row; requires aggregate data or a specific presale before publication."
+      }
+    },
+    {
+      "id": "LORE-EVT-0851",
+      "date": "2024",
+      "title": "Celebrity tokens spark insider-trading and disclosure concerns",
+      "branch": [
+        "MEMES",
+        "GOVERNMENTS",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Celebrity-linked tokens generated repeated controversy over disclosures, allocations and trading behavior during 2024.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Use only specific token launches or documented enforcement/investigation events; do not generalize alleged insider conduct."
+      }
+    },
+    {
+      "id": "LORE-EVT-0852",
+      "date": "2024",
+      "title": "SEC approves spot Ether ETF rule changes after policy surprise",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2024-05-23",
+        "summary": "This is the same SEC approval of spot Ether ETP exchange rule changes as LORE-EVT-0149.",
+        "significance": "Canonicalized to the May 23 rule-change approval.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Ether-Based ETP Rule-Change Approval",
+            "url": "https://www.sec.gov/rule-release/34-100224",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0149",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0853",
+      "date": "2024",
+      "title": "Ether ETF issuers remove staking from initial product structures",
+      "branch": [
+        "ETHEREUM",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-05-21",
+        "summary": "Fidelity and Grayscale removed staking-related language or proposals from amended spot Ether ETP filings during the final approval push.",
+        "significance": "The absence of staking distinguished the initial US spot Ether products from direct on-chain ETH ownership and limited their ability to earn consensus rewards.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Fidelity removes staking from prospective spot Ether ETF filing",
+            "url": "https://www.theblock.co/news/markets/2024-05-21-fidelity-ethereum-etf-staking-amendment-295605",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Block — Grayscale removes staking proposal",
+            "url": "https://www.theblock.co/post/295835/grayscale-removes-staking-proposal-from-its-spot-ethereum-etf-filing",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0149",
+        "relation": "PRODUCT_DESIGN_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0854",
+      "date": "2024",
+      "title": "Ethereum Foundation selling activity becomes market-watch culture",
+      "branch": [
+        "ETHEREUM",
+        "MARKETS",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0855",
+      "date": "2024",
+      "title": "Vitalik Buterin publishes renewed rollup-centric roadmap commentary",
+      "branch": [
+        "ETHEREUM",
+        "PEOPLE",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0856",
+      "date": "2024",
+      "title": "Bitcoin Core OP_CAT discussions revive covenant debate",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2024",
+        "summary": "OP_CAT and covenant proposals returned to active Bitcoin developer discussion during 2024 as builders explored more expressive spending conditions and Layer-2 designs.",
+        "significance": "This is a research/debate trend rather than an activated Bitcoin upgrade, so it should not be scored as a protocol event.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Retain for archive context; require a specific BIP/proposal milestone for a physical card."
+      }
+    },
+    {
+      "id": "LORE-EVT-0857",
+      "date": "2024",
+      "title": "BitVM proposals stimulate Bitcoin smart-contract research",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2024",
+        "summary": "BitVM and successor designs continued stimulating research into verifying more complex off-chain computation with Bitcoin-enforced dispute mechanisms.",
+        "significance": "The concept is important to Bitcoin scaling research, but 2024 contains multiple papers/iterations rather than one universally canonical launch.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Replace with a specific BitVM paper/release if shortlisted."
+      }
+    },
+    {
+      "id": "LORE-EVT-0858",
+      "date": "2024",
+      "title": "Babylon expands Bitcoin staking concepts",
+      "branch": [
+        "BITCOIN",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024-08-22",
+        "summary": "Babylon opened Phase 1 of its Bitcoin staking mainnet, allowing BTC holders to lock coins in self-custodial Bitcoin scripts as the supply side of a future shared-security marketplace.",
+        "significance": "By the end of 2024, Babylon reported more than 57,000 BTC had been staked across three caps, making native Bitcoin staking one of the year's largest new BitcoinFi experiments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Babylon Labs — Bitcoin Staking Mainnet Phase 1",
+            "url": "https://babylonlabs.io/blog/babylon-bitcoin-staking-mainnet-launch-phase-1",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Babylon Labs — 2024 in Review",
+            "url": "https://babylonlabs.io/blog/2024-in-review-babylons-key-achievements-and-what-to-expect-in-2025",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0859",
+      "date": "2024",
+      "title": "Stacks Nakamoto upgrade advances Bitcoin L2 narrative",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-10-28",
+        "summary": "Stacks activated its Nakamoto upgrade on mainnet, introducing faster blocks and Bitcoin finality for Stacks transactions.",
+        "significance": "The upgrade substantially changed Stacks' block-production/security model and strengthened its claim to function as a Bitcoin-aligned execution layer.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Stacks — Nakamoto upgrade live",
+            "url": "https://www.stacks.co/blog/finally-finality-nakamoto-upgrade-sets-the-stage-sbtc-bitcoin-for-builders",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Stacks — Nakamoto testing / mainnet activation",
+            "url": "https://www.stacks.co/blog/how-nakamoto-hardened-the-stacks-network-through-new-testing-capabilities",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0860",
+      "date": "2024",
+      "title": "Lightning capacity and usage debates continue amid stablecoin rise",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2024",
+        "summary": "Lightning adoption, capacity and payment-use debates continued in parallel with rapid stablecoin growth.",
+        "significance": "This is a comparative trend, not a single event; use a specific Lightning implementation, channel-capacity or payments milestone if shortlisted.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0861",
+      "date": "2024",
+      "title": "El Salvador continues public Bitcoin accumulation policy",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "El Salvador continued its state Bitcoin strategy during 2024, including public messaging around ongoing accumulation and reserve holdings.",
+        "significance": "This is continuity of the 2021 adoption policy rather than a distinct 2024 legal milestone.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "IMF — Staff-Level Agreement with El Salvador",
+            "url": "https://www.imf.org/en/news/articles/2024/12/18/pr-24485-el-salvador-imf-reaches-staff-level-agreement-on-an-eff-arrangement",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0049",
+        "relation": "POLICY_CONTINUITY",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0862",
+      "date": "2024",
+      "title": "IMF negotiations intensify scrutiny of El Salvador Bitcoin law",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-12-18",
+        "summary": "IMF staff and El Salvador reached a staff-level agreement on a $1.4 billion Extended Fund Facility under which planned legal reforms would make private-sector Bitcoin acceptance voluntary, confine public-sector Bitcoin activity and gradually unwind government participation in Chivo.",
+        "significance": "The agreement marked a major retrenchment from the compulsory elements of El Salvador's 2021 Bitcoin legal-tender experiment.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IMF — Staff-Level Agreement with El Salvador",
+            "url": "https://www.imf.org/en/news/articles/2024/12/18/pr-24485-el-salvador-imf-reaches-staff-level-agreement-on-an-eff-arrangement",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0863",
+      "date": "2024",
+      "title": "Argentina sees rapid stablecoin usage amid inflation pressures",
+      "branch": [
+        "STABLECOINS",
+        "ADOPTION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024-10-09",
+        "summary": "Chainalysis reported that Argentina led Latin America in estimated crypto value received and had the region's highest stablecoin share, with retail stablecoin use rising as the peso weakened.",
+        "significance": "The data made Argentina one of the clearest examples of stablecoins being used as a practical dollar substitute under high inflation and currency volatility.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chainalysis — 2024 Latin America Crypto Adoption",
+            "url": "https://www.chainalysis.com/blog/2024-latin-america-crypto-adoption/",
+            "type": "ONCHAIN_ANALYTICS"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0864",
+      "date": "2024",
+      "title": "Turkey tightens crypto-asset service-provider rules",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-07-02",
+        "summary": "Turkey's Law No. 7518 entered into force, bringing crypto-asset service providers under the Capital Markets Board's authorization and supervision and establishing licensing, custody and operating requirements.",
+        "significance": "The law moved one of the world's largest retail crypto markets from partial rules toward a formal service-provider regulatory regime.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Turkey Official Gazette — Law No. 7518",
+            "url": "https://resmigazete.gov.tr/eskiler/2024/07/20240702-1.htm",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Turkey Capital Markets Board — Crypto Asset Service Providers Notice",
+            "url": "https://spk.gov.tr/duyurular/basin-duyurulari/2024/kripto-varlik-hizmet-saglayicilara-iliskin-duyuru_02072024",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0865",
+      "date": "2024",
+      "title": "Nigeria intensifies legal pressure on Binance executives",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-02 to 2024-04",
+        "summary": "Nigerian authorities detained Binance executives and brought tax and money-laundering proceedings amid a broader dispute over Binance's operations and the naira market.",
+        "significance": "The episode became one of the most severe jurisdictional confrontations between a national government and a major global crypto exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Binance executive court appearance in Nigeria",
+            "url": "https://www.reuters.com/world/africa/detained-binance-executive-court-nigerian-tax-money-laundry-charges-2024-04-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Binance working with Nigeria over executive detention",
+            "url": "https://www.reuters.com/world/africa/binance-working-closely-with-nigeria-authorities-resolve-execs-detention-ceo-2024-04-18/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Keep charges and government allegations attributed; do not state guilt unless adjudicated."
+      }
+    },
+    {
+      "id": "LORE-EVT-0866",
+      "date": "2024",
+      "title": "Binance executive detention in Nigeria becomes global regulatory story",
+      "branch": [
+        "GOVERNMENTS",
+        "EXCHANGES",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2024-02-26 onward",
+        "summary": "Binance compliance executive Tigran Gambaryan was detained in Nigeria after arriving for talks with officials and later became a defendant in tax and money-laundering proceedings.",
+        "significance": "His detention turned a corporate regulatory dispute into an international human and diplomatic issue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Binance executive court appearance in Nigeria",
+            "url": "https://www.reuters.com/world/africa/detained-binance-executive-court-nigerian-tax-money-laundry-charges-2024-04-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Binance working with Nigeria over executive detention",
+            "url": "https://www.reuters.com/world/africa/binance-working-closely-with-nigeria-authorities-resolve-execs-detention-ceo-2024-04-18/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0865",
+        "relation": "HUMAN_SUBEVENT",
+        "notes": "Binance said Gambaryan was not a decision-maker; preserve that attribution."
+      }
+    },
+    {
+      "id": "LORE-EVT-0867",
+      "date": "2024",
+      "title": "Hong Kong approves regulated virtual-asset ETFs",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-04-30",
+        "summary": "Hong Kong authorized and listed regulated spot virtual-asset ETFs, including Bitcoin and Ether products.",
+        "significance": "Canonicalized to the April 30 trading launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "HKEX — Trading arrangements for Harvest Bitcoin and Ether Spot ETFs",
+            "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2024/ce_SEHK_CT_052_2024.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0303",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0868",
+      "date": "2024",
+      "title": "Dubai VARA 2024 virtual-asset marketing regulations take effect",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-10-01",
+        "summary": "Dubai's Virtual Assets Regulatory Authority put updated 2024 marketing regulations for virtual assets and related activities into effect on 1 October.",
+        "significance": "The rules tightened how licensed and unlicensed entities could market crypto products in a jurisdiction that had simultaneously positioned itself as a major virtual-asset hub.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "VARA — 2024 Marketing Regulations",
+            "url": "https://rulebooks.vara.ae/rulebook/regulations-marketing-virtual-assets-and-related-activities-2024",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0869",
+      "date": "2024",
+      "title": "Singapore expands stablecoin and digital-payment token regulation",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "STABLECOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024-04-04",
+        "summary": "Singapore brought the Payment Services (Amendment) Act into force from 4 April 2024, expanding regulated digital-payment-token activities; related regulations took effect in stages in April and October.",
+        "significance": "The changes broadened MAS oversight of crypto service providers and added user-protection and financial-stability obligations.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Singapore Statutes — Payment Services Amendment Act commencement",
+            "url": "https://sso.agc.gov.sg/Details/GetAmendingLegislation?HistoryType=amend&SourceDocStatus=published&SourceDocType=act&SourceDocumentId=a949c2b8-f54d-428b-a8b8-ffed60d9bc3a&SourceNo=1&SourcePublishDate=20210301&SourceTransactionDate=20210301&SourceValidDate=20240404&SourceYear=2021&ValidTime=20200730",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Singapore Statutes — Payment Services Amendment Regulations 2024",
+            "url": "https://sso.agc.gov.sg/SL-Supp/S287-2024/Published/20240402",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0870",
+      "date": "2024",
+      "title": "UK regulators continue staged rollout of crypto financial-promotion rules",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "The UK's crypto financial-promotions regime moved through additional implementation stages in 2024 while the FCA reviewed firms' compliance with consumer-risk warnings, incentives and approval requirements.",
+        "significance": "The year was an enforcement/compliance phase of the regime that first took effect in October 2023 rather than a new standalone framework.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FCA — Cryptoasset financial promotions data 2024",
+            "url": "https://www.fca.org.uk/data/financial-promotions-data-2024",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0345",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0871",
+      "date": "2024",
+      "title": "EU prepares exchanges and stablecoin issuers for full MiCA compliance",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Crypto firms and stablecoin issuers prepared for MiCA's staged 2024 application dates.",
+        "significance": "This is implementation context under the canonical June 30 and December 30 MiCA milestones.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": "LORE-EVT-0335",
+        "relation": "IMPLEMENTATION_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0888",
+      "date": "2024",
+      "title": "James Howells takes lost-Bitcoin landfill claim to the High Court",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES",
+        "GOVERNMENTS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024-05-17 to 2024-12-03",
+        "summary": "James Howells filed a High Court claim against Newport City Council on 17 May 2024 seeking access to or compensation for the hard drive he says contains his lost Bitcoin private key; the council's strike-out/summary-judgment application was heard on 3 December.",
+        "significance": "The litigation transformed crypto's most famous lost-hard-drive story into a formal property and waste-law test, with judgment ultimately delivered in January 2025.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Howells v Newport City Council [2025] EWHC 22 (Ch)",
+            "url": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/22.html",
+            "type": "COURT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0895",
+      "date": "2024",
+      "title": "Dormant whale awakenings become recurring market-watch stories",
+      "branch": [
+        "BITCOIN",
+        "MYSTERIES",
+        "MARKETS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2024",
+        "summary": "Movements from long-dormant Bitcoin wallets repeatedly generated market speculation during 2024.",
+        "significance": "This recurring phenomenon is not one historical event; use a specific on-chain wallet movement if a card-worthy example is selected.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0927",
+      "date": "2024",
+      "title": "Major banks test tokenized deposits on permissioned networks",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_SPECIFIC_MILESTONE",
+        "exact_date": "2024",
+        "summary": "Banks continued testing tokenized deposits and permissioned settlement networks during 2024.",
+        "significance": "The trend is historically relevant but should be represented by a named bank, live transaction or production launch rather than a generic row.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0943",
+      "date": "2024",
+      "title": "Halving squeezes miner revenue and accelerates efficiency race",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-04 onward",
+        "summary": "The fourth halving cut the Bitcoin block subsidy to 3.125 BTC, intensifying pressure on miners to reduce costs, deploy more efficient hardware and seek fee revenue.",
+        "significance": "This is the mining-economics consequence of the canonical fourth-halving event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving history",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0063",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0944",
+      "date": "2024",
+      "title": "Bitcoin transaction fees briefly exceed block subsidy around halving",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "MARKETS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-04-20",
+        "summary": "Transaction fees in the halving block exceeded the 3.125 BTC subsidy by a wide margin because of intense blockspace competition around Runes.",
+        "significance": "Canonicalized as economic context under the Runes/halving block event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0544",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1006",
+      "date": "2024",
+      "title": "UK court rules Craig Wright is not Bitcoin creator Satoshi Nakamoto",
+      "branch": [
+        "MYSTERIES",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2024-03-14 to 2024-05-20",
+        "summary": "After a six-week identity trial, the UK High Court declared on 14 March that Craig Wright was not Satoshi Nakamoto, did not author the Bitcoin white paper, did not create Bitcoin and did not author the initial Bitcoin software; full reasons were handed down on 20 May.",
+        "significance": "The judgment was the strongest judicial resolution of Wright's long-running public claim to be Bitcoin's creator.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "UK High Court — COPA v Wright main judgment",
+            "url": "https://www.judiciary.uk/judgments/copa-v-wright/",
+            "type": "COURT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1032",
+      "date": "2024",
+      "title": "Mt Gox creditors receive Bitcoin after decade-long wait",
+      "branch": [
+        "EXCHANGES",
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-07",
+        "summary": "Mt. Gox creditors began receiving Bitcoin after a wait of roughly a decade.",
+        "significance": "Human/creditor context of the canonical repayment event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MtGox Trustee — Notice regarding Repayment in Bitcoin and Bitcoin Cash",
+            "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+            "type": "COURT_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0136",
+        "relation": "CULTURE_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1076",
+      "date": "2024",
+      "title": "Smart-account wallets become a growing consumer UX theme",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-02-29",
+        "summary": "Base published a strategy for making smart wallets the default consumer account model, emphasizing passkeys, account abstraction and simpler onboarding.",
+        "significance": "The push reflected a broader Ethereum UX shift from externally owned accounts toward programmable smart accounts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Base — Making Smart Wallets the Default",
+            "url": "https://blog.base.org/how-base-is-making-smart-wallets-the-default",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Base — 2024 Mission and Roadmap",
+            "url": "https://blog.base.org/bases-2024-mission-strategy-and-roadmap",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1100",
+      "date": "2024",
+      "title": "Uniswap announces $15.5M v4 bug bounty ahead of hooks-based launch",
+      "branch": [
+        "DEX",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_PRELAUNCH",
+        "exact_date": "2024-11-26",
+        "summary": "Uniswap Labs announced a $15.5 million bug bounty for v4 ahead of launch, describing hooks as one of the protocol's defining extensibility features.",
+        "significance": "The bounty became one of DeFi's largest pre-launch security programs and highlighted how v4's hook architecture was expected to make AMM behavior highly customizable.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — v4 Bug Bounty",
+            "url": "https://blog.uniswap.org/v4-bug-bounty",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Uniswap Developers — v4 Hooks",
+            "url": "https://developers.uniswap.org/docs/protocols/v4/concepts/hooks",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1110",
+      "date": "2024",
+      "title": "Dencun blobs trigger major L2 fee reductions",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_AFTERMATH",
+        "exact_date": "2024-03 onward",
+        "summary": "Major rollups adopted blobs after Dencun, sharply reducing the data component of many Layer-2 transaction fees.",
+        "significance": "This is the immediate economic consequence of Dencun rather than a separate protocol launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0134",
+        "relation": "AFTERMATH",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1111",
+      "date": "2024",
+      "title": "Blob fee markets become a new Ethereum scaling metric",
+      "branch": [
+        "ETHEREUM",
+        "MARKETS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024-03 onward",
+        "summary": "Ethereum gained a distinct blob-fee market after EIP-4844, creating a new metric for rollup data demand separate from ordinary execution gas.",
+        "significance": "Blob pricing became a new way to observe Layer-2 demand and Ethereum data-availability economics.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0134",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1126",
+      "date": "2024",
+      "title": "Telegram mini-app games bring crypto gaming to mass audiences",
+      "branch": [
+        "GAMING",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Telegram mini-app games reached mass audiences during the Notcoin/Hamster Kombat cycle.",
+        "significance": "Canonicalized to the Telegram gaming context.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Telegram Wallet — Notcoin launch in Wallet",
+            "url": "https://telegra.ph/Regarding-the-Notcoin-Launch-in-Wallet-05-19",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Hamster Kombat official Telegram announcements",
+            "url": "https://t.me/s/hamster_kombat",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0548",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1138",
+      "date": "2024",
+      "title": "Maker Endgame restructures governance into subDAOs",
+      "branch": [
+        "DAO",
+        "GOVERNANCE",
+        "DEFI"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2024",
+        "summary": "Maker's Endgame plan reorganized governance around smaller specialized units and a broader ecosystem structure that later became associated with Sky and its sub-entities.",
+        "significance": "The governance redesign is important structural context, but the brand/product reorganization is the cleaner discrete event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO/Sky Whitepaper",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Brand re-centering vote",
+            "url": "https://vote.makerdao.com/polling/QmZzSVJE",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0833",
+        "relation": "STRUCTURAL_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1150",
+      "date": "2024",
+      "title": "Bridge design shifts toward intents and native asset transfer",
+      "branch": [
+        "BRIDGES",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "Cross-chain protocols increasingly shifted toward intent-based routing and native asset-transfer designs during 2024.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Technology trend rather than one event; score specific protocols such as CCTP/Across instead."
+      }
+    },
+    {
+      "id": "LORE-EVT-1174",
+      "date": "2024",
+      "title": "FBI escalates response to large-scale crypto investment 'pig-butchering' fraud",
+      "branch": [
+        "SCAMS",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2024",
+        "summary": "The FBI described cryptocurrency investment fraud, often called 'pig butchering,' as one of the most prevalent and damaging fraud types and launched Operation Level Up in January 2024 to identify and warn victims while scams were still active.",
+        "significance": "The scale of the fraud showed how crypto rails were being exploited by organized social-engineering operations rather than only technical hacks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Cryptocurrency Investment Fraud",
+            "url": "https://www.fbi.gov/how-we-can-help-you/victim-services/national-crimes-and-victim-resources/cryptocurrency-investment-fraud",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "FBI — Operation Level Up",
+            "url": "https://www.fbi.gov/how-we-can-help-you/victim-services/national-crimes-and-victim-resources/operation-level-up",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1175",
+      "date": "2024",
+      "title": "Deepfake celebrity crypto scams become widespread",
+      "branch": [
+        "SCAMS",
+        "CULTURE",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "AI-generated celebrity impersonation and deepfake crypto scams became an expanding fraud vector.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Needs a specific law-enforcement or platform dataset before card scoring."
+      }
+    },
+    {
+      "id": "LORE-EVT-1196",
+      "date": "2024",
+      "title": "Samourai Wallet case renews Bitcoin privacy-tool debate",
+      "branch": [
+        "PRIVACY",
+        "BITCOIN",
+        "GOVERNMENTS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024-04-24",
+        "summary": "The Samourai Wallet prosecution renewed debate over the legal treatment of Bitcoin privacy tools and non-custodial software.",
+        "significance": "Canonicalized to the founders' charge/arrest event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Samourai Wallet founders charged",
+            "url": "https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0579",
+        "relation": "LEGAL_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1203",
+      "date": "2024",
+      "title": "Polymarket election volume reaches unprecedented scale",
+      "branch": [
+        "DEFI",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "This row describes the same 2024 Polymarket/election-volume surge captured by LORE-EVT-0192.",
+        "significance": "Canonicalized to the broader prediction-market mainstreaming event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1204",
+      "date": "2024",
+      "title": "Prediction-market odds become a recurring social-media talking point",
+      "branch": [
+        "DEFI",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Prediction-market odds became a recurring topic on social media during the election cycle.",
+        "significance": "Canonicalized to the 2024 prediction-market mainstreaming event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — 2024 election prediction-market boom",
+            "url": "https://www.reuters.com/markets/currencies/cryptoverse-us-election-punters-play-prediction-markets-2024-11-04/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0192",
+        "relation": "CULTURE_CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1217",
+      "date": "2024",
+      "title": "NFT lending liquidations rise as collateral values fall",
+      "branch": [
+        "NFT",
+        "DEFI",
+        "DISASTERS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2024",
+        "summary": "NFT-backed lending markets experienced liquidations as collateral values declined.",
+        "significance": "Held in archive but excluded from scoring until narrowed.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Needs protocol-level liquidation data and a specific period before scoring."
+      }
+    },
+    {
+      "id": "LORE-EVT-1228",
+      "date": "2024",
+      "title": "Binance founder CZ begins prison sentence after US case",
+      "branch": [
+        "EXCHANGES",
+        "CRIME",
+        "PEOPLE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "2024-05-31 to 2024-06-03",
+        "summary": "Former Binance CEO Changpeng Zhao reported to a low-security federal prison in California to begin his four-month sentence after pleading guilty in 2023 to a Bank Secrecy Act violation.",
+        "significance": "The imprisonment of one of crypto's most prominent exchange founders became a striking consequence of the US Binance enforcement settlement.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bloomberg Law — CZ reports to federal prison",
+            "url": "https://news.bloomberglaw.com/crypto/binance-founder-zhao-reports-to-low-security-california-prison",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Reports place his reporting date around May 31 / June 1; Bloomberg reported the custody status June 3."
+      }
+    },
+    {
+      "id": "LORE-EVT-1229",
+      "date": "2024",
+      "title": "Binance continues operations under independent compliance monitor",
+      "branch": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2024",
+        "summary": "Binance operated under independent compliance-monitor obligations arising from its 2023 US settlements, including a five-year monitor required by Treasury/OFAC-related terms.",
+        "significance": "The monitors represented unusually deep ongoing oversight of the world's largest crypto exchange after its guilty plea and multibillion-dollar settlement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US Treasury OFAC — Binance settlement and five-year compliance monitor",
+            "url": "https://ofac.treasury.gov/recent-actions/20231121",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "The monitor obligation arose from the 2023 settlement; 2024 is the implementation/oversight phase."
+      }
+    },
+    {
+      "id": "LORE-EVT-0062",
+      "date": "2024-01-10",
+      "title": "US spot Bitcoin ETPs approved",
+      "branch": [
+        "GOVERNMENTS",
+        "INSTITUTIONS",
+        "BITCOIN"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-01-10",
+        "summary": "The US SEC approved exchange rule changes permitting the listing and trading of multiple spot Bitcoin exchange-traded product shares.",
+        "significance": "After more than a decade of rejected proposals, the decision created a mainstream brokerage-access route to spot Bitcoin exposure in US securities markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Statement on Approval of Spot Bitcoin ETPs",
+            "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0134",
+      "date": "2024-03-13",
+      "title": "Ethereum Dencun upgrade introduces blobs",
+      "branch": [
+        "ETHEREUM",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-03-13T13:55:35Z",
+        "summary": "Ethereum activated the Dencun upgrade at epoch 269,568, including EIP-4844 proto-danksharding and temporary blob data for rollups.",
+        "significance": "Dencun substantially reduced the cost of posting rollup data to Ethereum and established blobs as a core part of Ethereum's scaling architecture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum.org — Dencun FAQ",
+            "url": "https://ethereum.org/roadmap/dencun/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — Dencun Mainnet Announcement",
+            "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0063",
+      "date": "2024-04-20",
+      "title": "Fourth Bitcoin halving",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2024-04-20",
+        "summary": "At Bitcoin block 840,000, the mining subsidy fell from 6.25 BTC to 3.125 BTC.",
+        "significance": "The fourth halving continued Bitcoin's programmed issuance schedule and intensified the mining industry's efficiency and fee-revenue pressure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Halving History",
+            "url": "https://bitcoin.org/en/halving",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ordinals.com — Bitcoin block 840,000",
+            "url": "https://ordinals.com/block/840000",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

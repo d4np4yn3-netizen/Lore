@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "2005",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 2,
+  "events": [
+    {
+      "id": "LORE-EVT-0643",
+      "date": "2005",
+      "title": "BitTorrent becomes a dominant peer-to-peer distribution technology",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2005",
+        "summary": "By the mid-2000s BitTorrent had become a major peer-to-peer distribution system.",
+        "significance": "Useful P2P context but not a discrete cryptocurrency event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "BitTorrent protocol history",
+            "url": "https://en.wikipedia.org/wiki/BitTorrent",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0007",
+      "date": "2005-12-29",
+      "title": "Nick Szabo describes Bit Gold",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_CORRECTED",
+        "exact_date": "2005-12-29",
+        "summary": "The surviving primary Bit Gold publication is Nick Szabo's 29 December 2005 post; it describes scarce digital objects created through proof of work and timestamping.",
+        "significance": "Bit Gold is an important conceptual predecessor to Bitcoin, but the archive should not assert a 1998 publication without stronger primary evidence.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bit Gold",
+            "url": "https://nakamotoinstitute.org/library/bit-gold/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Many secondary timelines date the concept to 1998. The verified surviving primary publication used here is 2005-12-29."
+      }
+    }
+  ]
+}

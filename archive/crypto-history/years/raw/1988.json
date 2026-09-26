@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "layer": "RAW_DISCOVERY",
+  "year": "1988",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0193",
+      "date": "1988",
+      "title": "The Crypto Anarchist Manifesto circulates",
+      "branch": [
+        "ORIGINS",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_DATE_QUALIFIER",
+        "exact_date": "1988",
+        "summary": "Timothy May stated that The Crypto Anarchist Manifesto dated to mid-1988 and was distributed at Crypto '88; he posted it electronically to the Cypherpunks list in November 1992.",
+        "significance": "It articulated the political and social vision that influenced later cypherpunk digital-money work.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Crypto Anarchist Manifesto",
+            "url": "https://www.activism.net/cypherpunk/crypto-anarchy.html",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Exact first-circulation day is not established in the source; electronic posting is dated 1992-11-22."
+      }
+    }
+  ]
+}
