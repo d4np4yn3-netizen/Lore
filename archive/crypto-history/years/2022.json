@@ -3,7 +3,7 @@
   "year": 2022,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
-  "score_status": "NOT_STARTED",
+  "score_status": "READY_FOR_EDITORIAL_SCORING",
   "event_count": 24,
   "events": [
     {
@@ -14,11 +14,22 @@
         "HACKS",
         "BRIDGES"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Wormhole suffered a major exploit in which approximately 120,000 wrapped ETH were created without corresponding collateral.",
-      "significance": "The attack became one of the largest bridge exploits and highlighted cross-chain verification risk.",
-      "sources": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "An attacker exploited Wormhole's Solana-side verification logic and minted 120,000 unbacked wrapped ETH, worth roughly $320-$325 million at the time; Wormhole subsequently restored backing.",
+      "significance": "The exploit became one of the largest bridge failures in crypto history and exposed the systemic security risk created by cross-chain message verification.",
+      "sources": [
+        {
+          "title": "Wormhole — Incident Report 02/02/22",
+          "url": "https://wormholecrypto.medium.com/wormhole-incident-report-02-02-22-ad9b8f21eec6",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "CertiK — Wormhole Bridge Exploit Incident Analysis",
+          "url": "https://www.certik.com/blog/wormhole-bridge-exploit-incident-analysis",
+          "type": "SECURITY_RESEARCH"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Add Wormhole first-party postmortem before VERIFIED."
     },
@@ -313,19 +324,30 @@
     },
     {
       "id": "LORE-CAN-2022-014",
-      "date": "2022-10",
+      "date": "2022-10-11",
       "title": "Mango Markets is manipulated and drained",
       "branches": [
         "HACKS",
         "DEFI"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "A trader manipulated Mango Markets collateral prices and extracted large amounts of crypto from the Solana-based protocol.",
-      "significance": "The case became a major test of whether aggressive on-chain market manipulation could be treated as legitimate trading or fraud.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_LATER_ENFORCEMENT",
+      "source_confidence": "HIGH",
+      "summary": "Avraham Eisenberg used two controlled accounts and large MNGO trades to manipulate the price of MNGO perpetuals, inflate collateral value and withdraw roughly $110-$116 million in crypto from Mango Markets.",
+      "significance": "The incident became a landmark DeFi market-manipulation case and tested whether actions executed through protocol rules could still constitute fraud and commodities manipulation.",
+      "sources": [
+        {
+          "title": "SEC — Charges Avraham Eisenberg over Mango Markets manipulation",
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-13",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "CFTC — Charges Avraham Eisenberg",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8647-23",
+          "type": "GOVERNMENT"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Add Mango/DOJ/CFTC court sources before VERIFIED."
+      "notes": "Later criminal and civil cases provide the strongest authoritative reconstruction of the 11 October 2022 event."
     },
     {
       "id": "LORE-CAN-2022-015",
@@ -358,13 +380,24 @@
         "EXCHANGES",
         "CULTURE"
       ],
-      "research_state": "RESEARCH_NEEDED_PRIMARY",
-      "source_confidence": "MEDIUM",
-      "summary": "Binance CEO Changpeng Zhao publicly said Binance would liquidate its remaining FTT holdings, intensifying concern around FTX and Alameda.",
-      "significance": "The announcement accelerated the crisis of confidence and became one of the most consequential social-media posts in crypto history.",
-      "sources": [],
+      "research_state": "VERIFIED_ARCHIVED_PRIMARY",
+      "source_confidence": "HIGH",
+      "summary": "Binance CEO Changpeng Zhao said Binance had decided to liquidate its remaining FTT holdings after 'recent revelations' and described the move as post-exit risk management following lessons from LUNA.",
+      "significance": "The public announcement accelerated scrutiny and withdrawals at FTX during the sequence that ended in its bankruptcy five days later; it should be treated as a catalyst in a broader solvency crisis, not the sole cause.",
+      "sources": [
+        {
+          "title": "Archived CZ tweet — 6 Nov 2022",
+          "url": "https://archive.ph/WmZJF",
+          "type": "PRIMARY_ARCHIVE"
+        },
+        {
+          "title": "Binance Square recap of CZ FTT announcement",
+          "url": "https://www.binance.com/en-TR/square/post/46039",
+          "type": "COMPANY_ARCHIVE"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Preserve primary tweet/archive before VERIFIED."
+      "notes": "Causal wording is deliberately limited: FTX's underlying balance-sheet and customer-fund problems predated the tweet."
     },
     {
       "id": "LORE-CAN-2022-017",
@@ -563,5 +596,7 @@
       ],
       "score_status": "NOT_SCORED"
     }
-  ]
+  ],
+  "updated": "2026-09-26",
+  "note": "2022 evidence pass tightened; 0 low-confidence/research-needed canonical entries remain."
 }
