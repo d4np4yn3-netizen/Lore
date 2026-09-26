@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0.0",
+  "year": "2010",
+  "generated": "2026-09-26",
+  "count": 20,
+  "events": [
+    {
+      "id": "LORE-EVT-0013",
+      "date": "2010",
+      "title": "Bitcoin value overflow incident and emergency fix",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-08-15",
+        "summary": "A value-overflow flaw was exploited in block 74,638 to create roughly 184.47 billion invalid BTC; developers rapidly patched the software and the valid chain rejected the bad history.",
+        "significance": "Bitcoin's first catastrophic protocol bug demonstrated both early fragility and emergency coordination.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.3.10 — overflow bug emergency fix",
+            "url": "https://bitcoin-institute.pages.dev/entries/aftermath/2010-08-15-bitcoin-v0310-overflow-bug-fix/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0070",
+      "date": "2010",
+      "title": "BitcoinMarket.com launches",
+      "branch": [
+        "BITCOIN",
+        "EXCHANGES"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-03-17",
+        "summary": "BitcoinMarket.com began operating as an early order-book Bitcoin/USD market.",
+        "significance": "It helped move Bitcoin price discovery from formula-based valuation toward actual exchange trading.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BitcoinMarket.com history",
+            "url": "https://bitcoinmarket.net/magazine/bitcoinmarket-first-bitcoin-exchange-history-en.html",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0071",
+      "date": "2010",
+      "title": "Gavin Andresen launches the Bitcoin Faucet",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-06-11",
+        "summary": "Gavin Andresen launched a faucet that gave each visitor 5 BTC, initially funding it with 1,100 BTC.",
+        "significance": "It lowered the barrier to experimenting with Bitcoin before easy retail on-ramps existed.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Faucet changes",
+            "url": "https://bitcointalk.org/index.php?topic=206",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0072",
+      "date": "2010",
+      "title": "Slush Pool begins pooled Bitcoin mining",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-11-27",
+        "summary": "Marek 'Slush' Palatinus announced a cooperative mining pool, widely recognized as the first public Bitcoin mining pool.",
+        "significance": "Pooled mining changed miner economics by trading rare solo jackpots for steadier proportional payouts.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Slush pooled mining announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1976",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0073",
+      "date": "2010",
+      "title": "GPU mining changes Bitcoin mining",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2010-05",
+        "summary": "Public GPU-mining software demonstrated large performance gains over CPU mining and began changing Bitcoin's mining economics.",
+        "significance": "Marks a major transition in mining specialization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Generating Bitcoins with your video card (OpenCL/CUDA)",
+            "url": "https://bitcointalk.org/index.php?topic=133.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0201",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0201",
+      "date": "2010",
+      "title": "Laszlo Hanyecz demonstrates GPU Bitcoin mining",
+      "branch": [
+        "BITCOIN",
+        "MINING",
+        "PEOPLE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-05-10",
+        "summary": "Laszlo Hanyecz posted a working OpenCL GPU miner and reported materially higher hashing performance than CPU mining.",
+        "significance": "GPU mining accelerated Bitcoin's shift from hobby CPU mining toward specialized hardware competition.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Generating Bitcoins with your video card (OpenCL/CUDA)",
+            "url": "https://bitcointalk.org/index.php?topic=133.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0202",
+      "date": "2010",
+      "title": "Bitcoin is featured on Slashdot",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-07-11",
+        "summary": "Slashdot coverage of Bitcoin v0.3 drew a significant influx of attention and users; contemporary BitcoinTalk discussion records the event.",
+        "significance": "An early mainstream-tech-community exposure point for Bitcoin.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Bitcointalk discussion of Slashdot coverage",
+            "url": "https://bitcointalk.org/index.php?topic=342.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0203",
+      "date": "2010",
+      "title": "Mt. Gox begins operating as a Bitcoin exchange",
+      "branch": [
+        "BITCOIN",
+        "EXCHANGES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-07-18",
+        "summary": "Jed McCaleb repurposed the mtgox.com domain and launched a Bitcoin exchange.",
+        "significance": "Mt. Gox would become Bitcoin's dominant early exchange and later its most notorious failure.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Mt. Gox early history",
+            "url": "https://en.wikipedia.org/wiki/Mt._Gox",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0419",
+      "date": "2010",
+      "title": "Laszlo Hanyecz offers 10000 BTC for two pizzas",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2010-05-18",
+        "summary": "Laszlo Hanyecz offered 10,000 BTC on Bitcointalk for 'a couple of pizzas.'",
+        "significance": "The offer set up the most famous early purchase of a tangible good with Bitcoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pizza for bitcoins?",
+            "url": "https://bitcointalk.org/index.php?topic=137.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0012",
+        "relation": "PRECURSOR",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0420",
+      "date": "2010",
+      "title": "Bitcoin Faucet gives away 5 BTC per visitor",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2010-06-11",
+        "summary": "This is the same 5-BTC Bitcoin Faucet launch.",
+        "significance": "Canonicalized to LORE-EVT-0071.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Faucet changes",
+            "url": "https://bitcointalk.org/index.php?topic=206",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0071",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0421",
+      "date": "2010",
+      "title": "Satoshi fixes the value-overflow bug after billions of invalid BTC are created",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2010-08-15",
+        "summary": "This is the same value-overflow incident and emergency fix.",
+        "significance": "Canonicalized to LORE-EVT-0013.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin v0.3.10 — overflow bug emergency fix",
+            "url": "https://bitcoin-institute.pages.dev/entries/aftermath/2010-08-15-bitcoin-v0310-overflow-bug-fix/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0013",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0422",
+      "date": "2010",
+      "title": "Slush Pool mines its first pooled Bitcoin blocks",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2010-11 to 2010-12",
+        "summary": "This row describes the first blocks mined by the Slush cooperative pool after its announcement.",
+        "significance": "Keep under the canonical Slush Pool launch unless a precisely sourced first-block timestamp adds unique value.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Slush pooled mining announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1976",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0072",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0423",
+      "date": "2010",
+      "title": "BitcoinTalk forum becomes the central early community hub",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0650",
+      "date": "2010",
+      "title": "First known Bitcoin difficulty jump reflects growing mining participation",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0651",
+      "date": "2010",
+      "title": "Bitcoin Pizza transaction is arranged on Bitcointalk",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_SUBEVENT",
+        "exact_date": "2010-05-18 to 2010-05-22",
+        "summary": "This row refers to the Bitcointalk-arranged pizza trade captured by LORE-EVT-0419 and LORE-EVT-0012.",
+        "significance": "Keep as timeline context, not a separate card candidate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pizza for bitcoins?",
+            "url": "https://bitcointalk.org/index.php?topic=137.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0012",
+        "relation": "SUBEVENT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0652",
+      "date": "2010",
+      "title": "Mt. Gox name shifts from Magic The Gathering cards to Bitcoin exchange lore",
+      "branch": [
+        "EXCHANGES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2010-07-18",
+        "summary": "The Mt. Gox name came from McCaleb's earlier Magic: The Gathering Online exchange concept before the domain was repurposed for Bitcoin.",
+        "significance": "One of crypto's best-known naming-origin stories.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Mt. Gox early history",
+            "url": "https://en.wikipedia.org/wiki/Mt._Gox",
+            "type": "SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0203",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0653",
+      "date": "2010",
+      "title": "Early OTC Bitcoin trading develops on forums and IRC",
+      "branch": [
+        "BITCOIN",
+        "MARKETS",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0654",
+      "date": "2010",
+      "title": "Bitcoin address and wallet backup practices begin forming community norms",
+      "branch": [
+        "BITCOIN",
+        "SECURITY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "UNRESEARCHED",
+        "exact_date": null,
+        "summary": null,
+        "significance": null,
+        "source_confidence": null,
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0012",
+      "date": "2010-05-22",
+      "title": "Bitcoin Pizza Day",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "existing_lore_artwork": true,
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2010-05-22",
+        "summary": "Laszlo Hanyecz reported successfully trading 10,000 BTC for pizza, thanking 'jercos.'",
+        "significance": "Bitcoin Pizza Day became the canonical story of Bitcoin crossing from digital experimentation into real-world commerce.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pizza for bitcoins?",
+            "url": "https://bitcointalk.org/index.php?topic=137.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0074",
+      "date": "2010-12",
+      "title": "Satoshi Nakamoto's public involvement winds down",
+      "branch": [
+        "BITCOIN",
+        "PEOPLE",
+        "MYSTERIES"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2010-12 to 2011-04",
+        "summary": "Satoshi's public involvement tapered off from late 2010, with final known private correspondence in April 2011.",
+        "significance": "The founder's disappearance is historically central, but it is a period rather than a single December 2010 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi — WikiLeaks has kicked the hornet's nest",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/542/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "Satoshi final email to Mike Hearn",
+            "url": "https://bitcoin-institute.pages.dev/entries/correspondence/mike-hearn/holding-coins/2011-04-23-satoshi-to-hearn-moved-on/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Keep as a period/context row; specific 2011 final-message event is separate."
+      }
+    }
+  ]
+}

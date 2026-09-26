@@ -1,14 +1,12 @@
-# Year Evidence Files
+# LORE Crypto History — Year Shards
 
-The original `events.json` remains the permanent discovery archive and retains every `LORE-EVT-####` ID.
+This directory is the **canonical working store** for the crypto-history archive.
 
-Evidence work is now written into year-sized files because the master archive is large enough to exceed connector read limits. These files are the working source for research, deduplication, canonical-event selection and later card scoring.
+- One JSON file per event year.
+- Permanent `LORE-EVT-####` IDs are preserved.
+- Evidence research, duplicate consolidation and later card scoring should update the relevant year file.
+- `index.json` records counts and paths.
+- If research corrects an event into a different year, move that record to the corrected year's file during normalization.
+- `../events.json` is retained temporarily as a legacy snapshot only; do not use it for routine research edits.
 
-Rules:
-
-- Never renumber an existing `LORE-EVT-####` master ID.
-- `master_event_id: null` means a researched event has not yet been reconciled to a raw master row.
-- Primary/government/project sources are preferred.
-- Context/era nodes are not automatically card candidates.
-- Duplicate or related raw events should eventually point to a single canonical event.
-- Card scoring starts only after an event is evidence-ready.
+This structure replaces repeated reads/writes of the oversized 1,229-event monolith.

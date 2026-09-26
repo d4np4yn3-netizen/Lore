@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "year": "2004",
+  "generated": "2026-09-26",
+  "count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0008",
+      "date": "2004",
+      "title": "Hal Finney creates reusable proof-of-work",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2004-08-15",
+        "summary": "Hal Finney announced RPOW, a server that exchanged Hashcash proofs for transferable reusable proof-of-work tokens.",
+        "significance": "RPOW was a sophisticated pre-Bitcoin experiment in scarce, transferable proof-of-work-based digital value.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "RPOW - Reusable Proofs of Work",
+            "url": "https://nakamotoinstitute.org/library/rpow/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

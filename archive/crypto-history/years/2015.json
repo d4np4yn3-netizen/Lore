@@ -1,0 +1,837 @@
+{
+  "schema_version": "1.0.0",
+  "year": "2015",
+  "generated": "2026-09-26",
+  "count": 31,
+  "events": [
+    {
+      "id": "LORE-EVT-0092",
+      "date": "2015",
+      "title": "MakerDAO project begins",
+      "branch": [
+        "DEFI",
+        "STABLECOINS",
+        "DAO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_ORIGIN_RANGE",
+        "exact_date": "2014-12 to 2015",
+        "summary": "MakerDAO traces its founding to late 2014, with active development of code, architecture and documentation underway from 2015; Rune Christensen described the eDollar precursor in March 2015.",
+        "significance": "Maker became one of Ethereum's foundational DeFi projects and ultimately created Dai, a decentralized stablecoin.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "MakerDAO/Sky whitepaper history",
+            "url": "https://makerdao.com/da/whitepaper/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Raw 2015 label captures active development, but founding is better dated to late 2014."
+      }
+    },
+    {
+      "id": "LORE-EVT-0093",
+      "date": "2015",
+      "title": "Bitstamp suffers a major hot-wallet breach",
+      "branch": [
+        "EXCHANGES",
+        "HACKS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-01-04",
+        "summary": "Bitstamp said operational wallets were compromised on 4 January 2015, resulting in the loss of less than 19,000 BTC; services were temporarily suspended and later rebuilt.",
+        "significance": "It was a major post-Mt.Gox exchange-security test and reinforced the importance of cold storage and operational compartmentalization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitstamp — January 2015 security breach",
+            "url": "https://blog.bitstamp.net/post/bitstamp-is-open-for-business-better-than-ever/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0145",
+      "date": "2015",
+      "title": "US CFTC treats Bitcoin and other virtual currencies as commodities in enforcement",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-09-17",
+        "summary": "In the Coinflip enforcement action, the CFTC formally held for the first time that Bitcoin and other virtual currencies are commodities under the Commodity Exchange Act.",
+        "significance": "The ruling established a central pillar of US federal commodities regulation for crypto derivatives.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CFTC — Coinflip order recognizes virtual currencies as commodities",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/7231-15",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0187",
+      "date": "2015",
+      "title": "Ross Ulbricht receives a life sentence in the Silk Road case",
+      "branch": [
+        "DARK_SIDE",
+        "GOVERNMENTS",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-05-29",
+        "summary": "Ross Ulbricht was sentenced to life in federal prison after being convicted on all seven counts arising from his operation of Silk Road.",
+        "significance": "The sentence became one of the most consequential criminal-justice events in Bitcoin's early history and fueled a long-running clemency campaign.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Ross Ulbricht sentenced to life",
+            "url": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0212",
+      "date": "2015",
+      "title": "Augur becomes an early Ethereum prediction-market project",
+      "branch": [
+        "ETHEREUM",
+        "DEFI"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_YEAR",
+        "exact_date": "2015",
+        "summary": "Augur was one of the earliest Ethereum prediction-market projects and conducted a REP crowdsale during the pre-mainnet/early-mainnet era.",
+        "significance": "Historically important as an early decentralized oracle/prediction-market design, but this broad row needs an exact launch source before full verification.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Augur whitepaper/current historical documentation",
+            "url": "https://www.augur.net/whitepapers/augur-v2/how-augur-works/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0281",
+      "date": "2015",
+      "title": "New York introduces BitLicense",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-06-24",
+        "summary": "New York's Department of Financial Services made its virtual-currency regulation, commonly called the BitLicense, effective on 24 June 2015.",
+        "significance": "BitLicense became one of the earliest comprehensive state-level crypto licensing regimes and influenced where firms would or would not serve customers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "NYDFS — Virtual Currency Business Licensing timeline",
+            "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0323",
+      "date": "2015",
+      "title": "Spells of Genesis develops blockchain gaming collectibles",
+      "branch": [
+        "NFT",
+        "GAMING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2015",
+        "summary": "Spells of Genesis developed blockchain-linked in-game collectibles using Counterparty-era assets.",
+        "significance": "It is an important pre-CryptoKitties gaming/NFT precursor, but the row needs an exact card/token launch milestone before scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0447",
+      "date": "2015",
+      "title": "Ethereum Frontier miners begin securing smart-contract mainnet",
+      "branch": [
+        "ETHEREUM",
+        "MINING"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2015-07-30",
+        "summary": "Frontier launched with miners and nodes securing Ethereum's first live network.",
+        "significance": "Mining/security context of the canonical Ethereum mainnet launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Ethereum Launches",
+            "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0026",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0448",
+      "date": "2015",
+      "title": "Augur crowdsale becomes an early Ethereum token sale",
+      "branch": [
+        "ETHEREUM",
+        "ICO"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "Augur conducted an early token crowdsale for REP.",
+        "significance": "Potential ICO-history milestone, but exact opening/closing dates and amount raised need a reliable archived Augur source before canonical scoring.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0449",
+      "date": "2015",
+      "title": "BitLicense takes effect in New York",
+      "branch": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "2015-06-24",
+        "summary": "This is the same BitLicense effective-date milestone as LORE-EVT-0281.",
+        "significance": [
+          {
+            "title": "NYDFS — Virtual Currency Business Licensing timeline",
+            "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "source_confidence": {
+          "canonical_event_id": "LORE-EVT-0281",
+          "relation": "DUPLICATE"
+        },
+        "sources": "HIGH",
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0450",
+      "date": "2015",
+      "title": "Coinbase secures major venture funding from traditional finance investors",
+      "branch": [
+        "EXCHANGES",
+        "INSTITUTIONS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-01-20",
+        "summary": "Coinbase announced a $75 million Series C led by DFJ Growth with participation from NYSE, USAA and BBVA among others.",
+        "significance": "The round was then the largest funding round for a Bitcoin company and one of the first major direct investments by established financial institutions into a crypto business.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — $75M Series C",
+            "url": "https://www.coinbase.com/blog/coinbase-raises-usd75m-from-dfj-growth-usaa-nyse-and-more",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0451",
+      "date": "2015",
+      "title": "21 Inc raises a massive Bitcoin startup funding round",
+      "branch": [
+        "BITCOIN",
+        "INSTITUTIONS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "Bitcoin hardware startup 21 Inc announced an unusually large financing round and became one of the best-funded Bitcoin startups of the era.",
+        "significance": "Strong venture-history context, but amount/date require authoritative sourcing before verification.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0563",
+      "date": "2015",
+      "title": "Colored Coins experimentation influences later NFT and token ideas",
+      "branch": [
+        "BITCOIN",
+        "NFT",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2012-2015",
+        "summary": "Colored Coins experiments on Bitcoin explored representing non-BTC assets in transaction metadata and influenced later token and NFT concepts.",
+        "significance": "This is an intellectual/technical lineage rather than a single 2015 event.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Nasdaq — Blockchain Technology Initiative",
+            "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-launches-enterprise-wide-blockchain-technology-initiative",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Blockstream — Enabling Blockchain Innovations with Pegged Sidechains",
+            "url": "https://blockstream.com/sidechains.pdf",
+            "type": "PRIMARY_PAPER"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Keep as context; replace with a specific Colored Coins paper/release if card consideration requires an event."
+      }
+    },
+    {
+      "id": "LORE-EVT-0566",
+      "date": "2015",
+      "title": "Dash rebrands from Darkcoin",
+      "branch": [
+        "ALTCOINS",
+        "PRIVACY"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCHED_WITH_DATE_QUALIFIER",
+        "exact_date": "2015-03",
+        "summary": "Darkcoin rebranded to Dash in 2015 after earlier names XCoin and Darkcoin.",
+        "significance": "The rebrand shifted positioning from explicit privacy branding toward broader digital cash/payments.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Dash project history",
+            "url": "https://www.dash.org/news/happy-birthday-darkcoin/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0687",
+      "date": "2015",
+      "title": "Ross Ulbricht's Silk Road trial results in conviction",
+      "branch": [
+        "DARK_SIDE",
+        "CRIME",
+        "GOVERNMENTS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2015-02-05",
+        "summary": "A federal jury found Ross Ulbricht guilty on all seven counts after a four-week Silk Road trial; sentencing followed in May.",
+        "significance": "The conviction preceded the life sentence and closed the central criminal trial phase of the original Silk Road case.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Ross Ulbricht sentenced to life",
+            "url": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0187",
+        "relation": "PRECURSOR",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0688",
+      "date": "2015",
+      "title": "US Marshals continue auctioning Silk Road Bitcoin",
+      "branch": [
+        "GOVERNMENTS",
+        "BITCOIN"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "The US Marshals Service held additional auctions of Silk Road-related Bitcoin after the first 2014 sale.",
+        "significance": "Use individual auction dates and quantities rather than one broad row if this survives card selection.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0689",
+      "date": "2015",
+      "title": "Coinbase opens first regulated Bitcoin exchange in multiple US states",
+      "branch": [
+        "EXCHANGES",
+        "REGULATION"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-01-26",
+        "summary": "Coinbase launched Coinbase Exchange, describing it as the first regulated US Bitcoin exchange, initially available in 24 states or territories.",
+        "significance": "It marked a significant shift toward regulated domestic exchange infrastructure in the United States.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Launches First Regulated Bitcoin Exchange in US",
+            "url": "https://www.coinbase.com/blog/coinbase-launches-first-regulated-bitcoin-exchange-in-the-u-s",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0690",
+      "date": "2015",
+      "title": "Nasdaq begins blockchain experiments for private markets",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-05-11",
+        "summary": "Nasdaq announced an enterprise blockchain initiative, initially applying Open Assets/colored-coin technology to its private-market equity infrastructure; Nasdaq Linq clients were announced later that year.",
+        "significance": "A major stock-exchange operator publicly experimenting with blockchain signaled institutional interest beyond cryptocurrency trading.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nasdaq — Blockchain Technology Initiative",
+            "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-launches-enterprise-wide-blockchain-technology-initiative",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Nasdaq — Inaugural Nasdaq Linq clients",
+            "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-announces-inaugural-clients-initial-blockchain-enabled",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0692",
+      "date": "2015",
+      "title": "Linux Foundation launches Hyperledger project",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2015-12",
+        "summary": "The Linux Foundation launched the Hyperledger collaborative blockchain effort in December 2015.",
+        "significance": "Hyperledger institutionalized open-source enterprise distributed-ledger development outside permissionless cryptocurrency networks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Hyperledger — 2019 annual report (history)",
+            "url": "https://www.hyperledger.org/hubfs/Hyperledger/Printables/HL_AnnualReport_Print.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0693",
+      "date": "2015",
+      "title": "OpenBazaar beta develops decentralized marketplace ideas",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "OpenBazaar beta development advanced a peer-to-peer marketplace without a central operator.",
+        "significance": "The full public launch is a cleaner 2016 event; this 2015 beta row needs exact archived release evidence.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0695",
+      "date": "2015",
+      "title": "Liquid sidechain development begins",
+      "branch": [
+        "BITCOIN",
+        "TECHNOLOGY"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-10-12",
+        "summary": "Blockstream announced Liquid, its first production sidechain project, with exchange and brokerage launch partners.",
+        "significance": "Liquid became a major Bitcoin federated sidechain for faster settlement and asset issuance.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockstream — Introducing Liquid",
+            "url": "https://blog.blockstream.com/en-introducing-liquid/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0932",
+      "date": "2015",
+      "title": "Hashnest and hosted mining products expand",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "Hosted and cloud-mining services expanded as ASIC mining became capital-intensive.",
+        "significance": "Trend rather than discrete event; needs provider-specific milestone if retained.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0954",
+      "date": "2015",
+      "title": "ChangeTip is acquired by Airbnb-linked talent move",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CLAIM_NEEDS_REWRITE",
+        "exact_date": "2015",
+        "summary": "ChangeTip's talent/acquisition story is too vaguely phrased and not a clear crypto-history milestone in its current wording.",
+        "significance": "Replace with a specific ChangeTip acquisition/shutdown source if culturally useful.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0955",
+      "date": "2015",
+      "title": "Bitcoin memes spread through Reddit and Bitcointalk communities",
+      "branch": [
+        "BITCOIN",
+        "MEMES",
+        "CULTURE"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "Bitcoin meme culture continued spreading on Reddit, Bitcointalk and social media.",
+        "significance": "Cultural trend rather than discrete event; individual memes are better candidates.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1012",
+      "date": "2015",
+      "title": "Silk Road court evidence exposes operational mistakes behind arrest",
+      "branch": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2015",
+        "summary": "Evidence presented at Ulbricht's trial showed operational-security mistakes that helped investigators connect him to Silk Road.",
+        "significance": "This is trial-story context rather than a separately dated event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Ross Ulbricht sentenced to life",
+            "url": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0687",
+        "relation": "CONTEXT",
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1017",
+      "date": "2015",
+      "title": "Evolution darknet market disappears in suspected exit scam",
+      "branch": [
+        "DARK_SIDE",
+        "SCAMS"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "Evolution Market disappeared in 2015 amid allegations of an exit scam.",
+        "significance": "Potential darknet LORE event, but exact date and loss amount need authoritative contemporary sourcing.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1036",
+      "date": "2015",
+      "title": "GAW Miners collapses",
+      "branch": [
+        "SCAMS",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2015",
+        "summary": "GAW Miners collapsed amid the Paycoin controversy and later criminal/regulatory proceedings.",
+        "significance": "Needs a specific bankruptcy/shutdown/enforcement date and court/SEC source.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-1154",
+      "date": "2015",
+      "title": "AlphaBay grows into a dominant darknet marketplace",
+      "branch": [
+        "DARK_SIDE",
+        "CRIME"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2015",
+        "summary": "AlphaBay grew into a leading darknet marketplace.",
+        "significance": "Growth trend rather than one clean event; the 2017 takedown is much stronger as a canonical card event.",
+        "source_confidence": "LOW",
+        "sources": [],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0026",
+      "date": "2015-07-30",
+      "title": "Ethereum mainnet launches",
+      "branch": [
+        "ETHEREUM"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2015-07-30T15:26:13Z",
+        "summary": "Ethereum's Frontier genesis launched on 30 July 2015, bringing the first live Ethereum mainnet into operation.",
+        "significance": "This was the birth of the programmable smart-contract network that would underpin ICOs, DeFi, NFTs, DAOs and much of later crypto culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Ethereum Launches",
+            "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum.org — protocol timeline",
+            "url": "https://ethereum.org/ethereum-forks/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0442",
+      "date": "2015-08-01",
+      "title": "Mark Karpeles is arrested in Japan over Mt. Gox-related charges",
+      "branch": [
+        "EXCHANGES",
+        "CRIME"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_CORRECTED",
+        "exact_date": "2015-08-01",
+        "summary": "Former Mt. Gox CEO Mark Karpeles was arrested in Japan on 1 August 2015, not 2014.",
+        "significance": "The arrest was part of the legal aftermath of Mt. Gox and should sit in the 2015 timeline.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Mark Karpeles arrested in Japan",
+            "url": "https://www.theguardian.com/technology/2015/aug/01/ex-boss-of-mtgox-bitcoin-exchange-arrested-in-japan-over-lost-480m",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0691",
+      "date": "2015-09-15",
+      "title": "R3 consortium forms around bank blockchain experimentation",
+      "branch": [
+        "INSTITUTIONS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DATE_CORRECTED",
+        "exact_date": "2015-09-15",
+        "summary": "Nine major banks joined R3 in September 2015 to develop common distributed-ledger frameworks; R3's own later history describes an earlier 2014 formation phase.",
+        "significance": "The bank consortium became one of the defining institutional-blockchain experiments of the mid-2010s.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reuters — nine banks join R3 blockchain partnership",
+            "url": "https://www.investing.com/news/technology-news/nine-of-worlds-biggest-banks-join-to-form-blockchain-partnership-361652",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Keep distinction between R3 corporate origins and September 2015 bank-consortium announcement."
+      }
+    }
+  ]
+}

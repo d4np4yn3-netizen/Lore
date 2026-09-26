@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "year": "1982",
+  "generated": "2026-09-26",
+  "count": 2,
+  "events": [
+    {
+      "id": "LORE-EVT-0001",
+      "date": "1982",
+      "title": "David Chaum proposes cryptographic digital cash",
+      "branch": [
+        "ORIGINS"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "1982",
+        "summary": "Chaum presented Blind Signatures for Untraceable Payments at CRYPTO '82, a direct foundation for privacy-preserving electronic cash.",
+        "significance": "One of the clearest technical ancestors of cryptocurrency-era digital cash.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum publications",
+            "url": "https://chaum.com/publications/",
+            "type": "PRIMARY"
+          },
+          {
+            "title": "David Chaum — eCash history",
+            "url": "https://chaum.com/ecash/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0637",
+      "date": "1982",
+      "title": "David Chaum's blind-signature ideas influence anonymous digital cash",
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "DUPLICATE",
+        "exact_date": "1982",
+        "summary": "This row describes the same Chaum blind-signature work as LORE-EVT-0001.",
+        "significance": "Keep the technical influence as a note on the canonical Chaum event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "David Chaum publications",
+            "url": "https://chaum.com/publications/",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0001",
+        "relation": "DUPLICATE",
+        "notes": null
+      }
+    }
+  ]
+}
