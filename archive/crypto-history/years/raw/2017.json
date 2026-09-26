@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2017",
   "source": "archive/crypto-history/events.json",
@@ -512,28 +512,6 @@
             "type": "PROJECT_PRIMARY"
           }
         ],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0216",
-      "date": "2017",
-      "title": "EOS begins its year-long token sale",
-      "branch": [
-        "ICO",
-        "ALTCOINS"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2551,6 +2529,39 @@
             "title": "Monero roadmap",
             "url": "https://www.getmonero.org/resources/roadmap/",
             "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0216",
+      "date": "2017-06-26",
+      "title": "EOS begins its year-long token sale",
+      "branch": [
+        "ICO",
+        "ALTCOINS"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2017-06-26 to 2018-06-01",
+        "summary": "Block.one conducted the EOS ERC-20 token sale from 26 June 2017 through 1 June 2018, distributing 900 million public-sale tokens through an approximately year-long ICO.",
+        "significance": "EOS became one of the largest and longest-running token sales of the ICO era and a major example in the later US securities-enforcement response to token fundraising.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Block.one administrative order",
+            "url": "https://www.sec.gov/files/litigation/admin/2019/33-10714.pdf",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — Block.one $24m settlement",
+            "url": "https://www.sec.gov/newsroom/press-releases/2019-202",
+            "type": "GOVERNMENT"
           }
         ],
         "canonical_event_id": null,

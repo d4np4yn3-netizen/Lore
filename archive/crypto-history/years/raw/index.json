@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "generated": "2026-09-26",
   "layer": "RAW_DISCOVERY_BY_YEAR",
   "source": "archive/crypto-history/events.json",
@@ -7,6 +7,7 @@
   "grouped_event_count": 1229,
   "ungrouped_event_count": 0,
   "integrity_ok": true,
+  "all_records_research_classified": true,
   "files": [
     {
       "year": "1976",
@@ -94,6 +95,11 @@
       "record_count": 2
     },
     {
+      "year": "2006",
+      "path": "archive/crypto-history/years/raw/2006.json",
+      "record_count": 1
+    },
+    {
       "year": "2008",
       "path": "archive/crypto-history/years/raw/2008.json",
       "record_count": 6
@@ -101,17 +107,17 @@
     {
       "year": "2009",
       "path": "archive/crypto-history/years/raw/2009.json",
-      "record_count": 11
+      "record_count": 13
     },
     {
       "year": "2010",
       "path": "archive/crypto-history/years/raw/2010.json",
-      "record_count": 20
+      "record_count": 18
     },
     {
       "year": "2011",
       "path": "archive/crypto-history/years/raw/2011.json",
-      "record_count": 30
+      "record_count": 29
     },
     {
       "year": "2012",

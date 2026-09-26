@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.2",
+  "layer": "RAW_DISCOVERY",
+  "year": "2006",
+  "source": "archive/crypto-history/events.json",
+  "record_count": 1,
+  "events": [
+    {
+      "id": "LORE-EVT-0656",
+      "date": "2006",
+      "title": "Liberty Reserve emerges as a centralized digital-currency system",
+      "branch": [
+        "ORIGINS",
+        "GOVERNMENTS"
+      ],
+      "tier": "DEEP_CUT",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2006",
+        "summary": "US Justice Department records state that Liberty Reserve was incorporated in Costa Rica in 2006 and operated an internet digital-currency/payment system that later became widely used by cybercriminals.",
+        "significance": "Liberty Reserve is useful pre-Bitcoin context for earlier centralized internet currencies and for understanding why decentralization, custody and law-enforcement resistance became important design questions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Liberty Reserve co-founder plea background",
+            "url": "https://www.justice.gov/archives/opa/pr/co-founder-liberty-reserve-pleads-guilty-money-laundering-manhattan-federal-court",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US DOJ — Liberty Reserve founder extradition background",
+            "url": "https://www.justice.gov/usao-sdny/pr/founder-liberty-reserve-arthur-budovsky-extradited-spain-face-charges-manhattan-federal",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    }
+  ]
+}

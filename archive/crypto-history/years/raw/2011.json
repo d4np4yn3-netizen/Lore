@@ -1,9 +1,9 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2011",
   "source": "archive/crypto-history/events.json",
-  "record_count": 30,
+  "record_count": 29,
   "events": [
     {
       "id": "LORE-EVT-0014",
@@ -521,28 +521,6 @@
         ],
         "canonical_event_id": "LORE-EVT-0014",
         "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0656",
-      "date": "2011",
-      "title": "Liberty Reserve and other centralized digital currencies remain common comparators to Bitcoin",
-      "branch": [
-        "ORIGINS",
-        "GOVERNMENTS"
-      ],
-      "tier": "DEEP_CUT",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
         "notes": null
       }
     },

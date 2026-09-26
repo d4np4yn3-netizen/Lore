@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2013",
   "source": "archive/crypto-history/events.json",
@@ -536,28 +536,6 @@
         ],
         "canonical_event_id": "LORE-EVT-0208",
         "relation": "CONTEXT",
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0665",
-      "date": "2013",
-      "title": "BitInstant founder Charlie Shrem becomes a prominent Bitcoin entrepreneur",
-      "branch": [
-        "PEOPLE",
-        "BITCOIN"
-      ],
-      "tier": "LORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
         "notes": null
       }
     },
@@ -1105,6 +1083,39 @@
         "canonical_event_id": null,
         "relation": null,
         "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0665",
+      "date": "2013-05-17",
+      "title": "BitInstant raises $1.5m led by Winklevoss Capital",
+      "branch": [
+        "PEOPLE",
+        "BITCOIN"
+      ],
+      "tier": "LORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED_WITH_2013_MILESTONE",
+        "exact_date": "2013-05",
+        "summary": "By May 2013, Charlie Shrem was CEO of BitInstant, vice chairman of the Bitcoin Foundation and a highly visible speaker in the early Bitcoin startup scene. BitInstant was reported to be processing roughly 30% of money moving into and out of Bitcoin.",
+        "significance": "Shrem became one of the first recognizable Bitcoin entrepreneurs, making his later arrest and conviction especially significant to the industry's early regulatory history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — BitInstant raises $1.5M, May 2013",
+            "url": "https://techcrunch.com/2013/05/17/with-1-5m-led-by-winklevoss-capital-bitinstant-aims-to-be-the-go-to-site-to-buy-and-sell-bitcoins/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "US DOJ — Charlie Shrem case background",
+            "url": "https://www.justice.gov/usao-sdny/pr/former-ceo-bitcoin-exchange-company-sentenced-manhattan-federal-court-two-years-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": "Vague prominence row narrowed to a specific financing milestone."
       }
     },
     {

@@ -1,9 +1,9 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2010",
   "source": "archive/crypto-history/events.json",
-  "record_count": 20,
+  "record_count": 18,
   "events": [
     {
       "id": "LORE-EVT-0013",
@@ -343,50 +343,6 @@
       }
     },
     {
-      "id": "LORE-EVT-0423",
-      "date": "2010",
-      "title": "BitcoinTalk forum becomes the central early community hub",
-      "branch": [
-        "BITCOIN",
-        "CULTURE"
-      ],
-      "tier": "CORE",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
-      "id": "LORE-EVT-0650",
-      "date": "2010",
-      "title": "First known Bitcoin difficulty jump reflects growing mining participation",
-      "branch": [
-        "BITCOIN",
-        "MINING"
-      ],
-      "tier": "MAJOR",
-      "status": "RESEARCH_REQUIRED",
-      "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
-      }
-    },
-    {
       "id": "LORE-EVT-0651",
       "date": "2010",
       "title": "Bitcoin Pizza transaction is arranged on Bitcointalk",
@@ -454,12 +410,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2010-10-18",
+        "summary": "The #bitcoin-otc marketplace was announced on Freenode IRC on 18 October 2010, with an order book for users to negotiate Bitcoin trades directly with one another.",
+        "significance": "Bitcoin-OTC was an important bridge between forum-era peer-to-peer trading and more formal exchanges, and helped establish reputation-based OTC market culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — Announcing #bitcoin-otc",
+            "url": "https://bitcointalk.org/index.php?topic=1491.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -476,15 +438,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_PRIMARY_ARCHIVE",
+        "exact_date": "2010-06 to 2010-09",
+        "summary": "Early Bitcoin users and developers documented wallet.dat backup practices in 2010, including Gavin Andresen's advice to copy wallet.dat securely and later discussion of how newly generated keys could make old backups incomplete.",
+        "significance": "These discussions capture the birth of crypto self-custody operational practice: users themselves became responsible for backing up the private keys controlling their money.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitcoinTalk — How to Backup Wallet",
+            "url": "https://bitcointalk.org/index.php?topic=213.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk — When to backup / What to backup",
+            "url": "https://bitcointalk.org/index.php?topic=1035.0",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "BitcoinTalk — wallet.dat backups may lose transactions",
+            "url": "https://bitcointalk.org/index.php?topic=1300.0",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context row spanning several documented 2010 discussions rather than one product launch."
       }
     },
     {

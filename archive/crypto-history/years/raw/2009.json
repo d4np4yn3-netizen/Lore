@@ -1,9 +1,9 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2009",
   "source": "archive/crypto-history/events.json",
-  "record_count": 11,
+  "record_count": 13,
   "events": [
     {
       "id": "LORE-EVT-0069",
@@ -309,6 +309,67 @@
             "title": "Bitcoin block 170",
             "url": "https://mempool.space/block/00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
             "type": "ONCHAIN"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0423",
+      "date": "2009-11-22",
+      "title": "Satoshi opens the new Bitcoin forum",
+      "branch": [
+        "BITCOIN",
+        "CULTURE"
+      ],
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-11-22T18:04:28Z",
+        "summary": "Satoshi posted 'Welcome to the new Bitcoin forum!' on 22 November 2009, pointing users to the older SourceForge forum and beginning the forum archive later known as BitcoinTalk.",
+        "significance": "The forum became the central surviving public record of much of Bitcoin's formative technical discussion, commerce, culture and Satoshi-era community activity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi Nakamoto Institute — Welcome to the new Bitcoin forum",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/threads/2/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "LORE-EVT-0650",
+      "date": "2009-12-30",
+      "title": "Bitcoin difficulty increases for the first time",
+      "branch": [
+        "BITCOIN",
+        "MINING"
+      ],
+      "tier": "MAJOR",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "2009-12-30T06:11:04Z",
+        "summary": "At block 32,256, Bitcoin's mining difficulty increased from 1.00 to about 1.18 for the first time.",
+        "significance": "The first upward retarget was direct on-chain evidence that mining participation had grown enough for Bitcoin's automatic difficulty mechanism to raise the work requirement.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockchain.com — Bitcoin block 32,256",
+            "url": "https://www.blockchain.com/en/explorer/blocks/btc/32256",
+            "type": "ONCHAIN_REFERENCE"
+          },
+          {
+            "title": "Satoshi Nakamoto Institute — Proof-of-work difficulty increasing",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/43/",
+            "type": "PRIMARY_ARCHIVE"
           }
         ],
         "canonical_event_id": null,

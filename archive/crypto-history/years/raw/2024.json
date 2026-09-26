@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2024",
   "source": "archive/crypto-history/events.json",
@@ -1636,15 +1636,31 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_DATA",
+        "exact_date": "2024-01 onward",
+        "summary": "After US spot Bitcoin ETPs began trading, their daily creations and redemptions became a major observable source of Bitcoin market demand. Contemporary reporting repeatedly linked strong ETF inflows with major 2024 price moves.",
+        "significance": "Spot ETF flows created a new institutional demand channel that traders began watching alongside exchange flows, derivatives and macro data.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters — Bitcoin reaches record high as ETF inflows surge",
+            "url": "https://www.reuters.com/technology/view-bitcoin-rises-record-high-2024-03-05/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Coinbase Institutional — Trading Activity From a US Lens",
+            "url": "https://www.coinbase.com/institutional/research-insights/research/market-intelligence/trading-activity-from-a-us-lens",
+            "type": "INSTITUTIONAL_RESEARCH"
+          },
+          {
+            "title": "Reuters — Crypto ETFs see big inflows ahead of US election",
+            "url": "https://www.reuters.com/technology/crypto-etfs-see-big-inflows-ahead-us-election-traders-brace-volatility-2024-11-01/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not imply ETF flows explain all Bitcoin price movement; use as a documented major demand/input channel."
       }
     },
     {
@@ -1659,15 +1675,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_CONCENTRATION_DATA",
+        "exact_date": "2024-03",
+        "summary": "Coinbase said it served as custodian for eight of the eleven US spot Bitcoin ETF mandates; contemporary reporting estimated it held custody for roughly 90% of spot-Bitcoin ETF assets at that stage.",
+        "significance": "The launch of decentralized-asset investment products created an unusually concentrated institutional custody layer, prompting resilience and counterparty-concentration debate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — How we keep digital assets safe",
+            "url": "https://www.coinbase.com/de/blog/how-we-keep-digital-assets-safe",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "The Block — Kraken challenging Coinbase's spot Bitcoin ETF custody dominance",
+            "url": "https://www.theblock.co/news/markets/2024-02-27-kraken-challenging-coinbases-reign-as-chief-custodian-of-spot-bitcoin-etfs-279434",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Coinbase 2023 Form 10-K",
+            "url": "https://investor.coinbase.com/files/doc_downloads/2024/Coinbase-Q4-23-10K.pdf",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Market share was time-specific and changed as products evolved."
       }
     },
     {
@@ -2440,15 +2472,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED_WITH_TREASURY_POLICY",
+        "exact_date": "2024",
+        "summary": "Ethereum Foundation treasury transactions became closely watched market events. Its 2024 report states that treasury policy includes periodically selling ETH to maintain fiat reserves for several years of operating expenses.",
+        "significance": "Foundation sales became part of Ethereum market-watch culture and highlighted how nonprofit treasury management intersects with a liquid native asset.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation 2024 Report",
+            "url": "https://ethereum.foundation/report-2024.pdf",
+            "type": "FOUNDATION_PRIMARY"
+          },
+          {
+            "title": "CoinDesk — Ethereum Foundation main-wallet balance discussion",
+            "url": "https://www.coindesk.com/tech/2024/09/06/ethereum-foundations-main-wallet-down-to-about-650m-top-official-says",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "This is a treasury-policy/context row, not an allegation that sales were improper or predictive of price."
       }
     },
     {
@@ -2463,12 +2506,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2024-10-17",
+        "summary": "Vitalik Buterin published 'Possible futures of the Ethereum protocol, part 2: The Surge,' reviewing the rollup-centric roadmap, blob scaling, interoperability and longer-term throughput goals.",
+        "significance": "The post captured Ethereum's mature scaling strategy: keep L1 decentralized while shifting much transaction execution to rollups.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Vitalik Buterin — Possible futures of the Ethereum protocol, part 2: The Surge",
+            "url": "https://vitalik.eth.limo/general/2024/10/17/futures2.html",
+            "type": "FOUNDER_PRIMARY"
+          },
+          {
+            "title": "Vitalik Buterin — Scaling Ethereum blobs",
+            "url": "https://vitalik.eth.limo/general/2024/03/28/blobs.html",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null

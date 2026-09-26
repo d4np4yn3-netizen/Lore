@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.2",
   "layer": "RAW_DISCOVERY",
   "year": "2014",
   "source": "archive/crypto-history/events.json",
@@ -804,15 +804,26 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2014",
+        "summary": "Namecoin continued developing non-currency naming and identity applications, including .bit domains and identity namespaces such as id/ used by NameID.",
+        "significance": "Namecoin showed very early that a blockchain could secure names and identities, not just monetary balances.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Namecoin FAQ — namespaces, .bit and identity",
+            "url": "https://www.namecoin.org/docs/faq/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Namecoin team — NameID and identity applications",
+            "url": "https://www.namecoin.org/team/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/technology lineage, not one single 2014 launch event."
       }
     },
     {
