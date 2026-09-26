@@ -6,10 +6,9 @@
   "evidence_file": "2023.json",
   "note": "Auto-generated reconciliation from preserved research states. NEEDS_RESEARCH rows require explicit evidence review before migration. Card scoring must use canonical year events only.",
   "counts": {
-    "CANONICAL": 82,
+    "CANONICAL": 83,
     "MERGED": 10,
-    "CONTEXT": 21,
-    "NEEDS_RESEARCH": 1
+    "CONTEXT": 21
   },
   "rows": [
     {
@@ -1317,12 +1316,12 @@
         "ALTCOINS",
         "NFT"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_MARKET_DATA",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_MARKET_DATA",
+      "resolution": "CANONICAL",
+      "canonical_key": "2023-tensor-challenges-magic-eden-solana-nft-share",
       "legacy_canonical_event_id": null,
-      "source_confidence": "MEDIUM",
-      "note": "Keep in archive; obtain period-specific Solana marketplace-share data."
+      "source_confidence": "HIGH",
+      "note": "Tensor first exceeded Magic Eden in 24h volume on 26 Apr; reached 45% vs 44% 7-day share in early May; by Dec Syndica estimated ~70% share. Use a specific measurement/window in published copy."
     },
     {
       "legacy_id": "LORE-EVT-0824",
@@ -1865,5 +1864,5 @@
       "note": null
     }
   ],
-  "status": "IN_PROGRESS"
+  "status": "COMPLETE"
 }
