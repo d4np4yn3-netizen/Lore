@@ -264,15 +264,31 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2016",
-        "summary": "Parity and other Ethereum clients/infrastructure expanded as Ethereum matured.",
-        "significance": "Too broad for card scoring; identify a specific Parity release, wallet launch, or later hack instead.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Parity 1.0 launched in March 2016 as a Rust Ethereum client, and by late 2016 the Ethereum Foundation listed Parity alongside Geth, Ethereum Wallet/Mist and ethereumJ as clients users should update for network hard forks.",
+        "significance": "The rise of multiple production Ethereum clients made client diversity, performance and independent infrastructure teams an important part of Ethereum's architecture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Parity Technologies — Parity 1.0 is here",
+            "url": "https://medium.com/paritytech/parity-1-0-is-here-41498a06f90b",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — October 2016 hard fork FAQ",
+            "url": "https://blog.ethereum.org/2016/10/18/faq-upcoming-ethereum-hard-fork",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — December 2016 research update",
+            "url": "https://blog.ethereum.org/2016/12/04/ethereum-research-update",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/infrastructure row, not one isolated product event."
       }
     },
     {
@@ -465,12 +481,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "The city of Zug in Switzerland began accepting small Bitcoin payments for selected municipal services during its 'Crypto Valley' experiment.",
-        "significance": "Strong government-adoption candidate, but exact implementation date and official city source should be added before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-07-01",
+        "summary": "The City of Zug began a pilot allowing residents to pay fees at the residents' registration office in Bitcoin up to CHF 200, following a city council decision in May.",
+        "significance": "Zug became a pioneering municipal authority accepting Bitcoin for public-service fees and strengthened the region's emerging 'Crypto Valley' identity.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "City of Zug — May 2 2016 council decision accepting Bitcoin from July 1",
+            "url": "https://www.stadtzug.ch/_doc/1214521",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "Canton Zug — later official history of Zug's Bitcoin acceptance",
+            "url": "https://zg.ch/de/news/2017/September/hr-zug-laesst-kryptowaehrungen-als-sacheinlage-zu",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -487,15 +514,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Altcoin exchange Cryptsy collapsed amid allegations of missing funds and later litigation.",
-        "significance": "Potentially important exchange-disaster event; needs court/receiver documentation and exact closure date.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_LATER_CRIMINAL_RECORD",
+        "exact_date": "2016-01 to 2016-04",
+        "summary": "Cryptsy stopped normal operations in early 2016 amid missing-funds allegations and entered receivership. Federal prosecutors later alleged that its CEO had stolen customer cryptocurrency and, after learning of the receivership in April 2016, hacked Cryptsy servers and destroyed the customer database.",
+        "significance": "Cryptsy became one of the major exchange collapses of the pre-ICO altcoin era and another warning about centralized custody and opaque exchange management.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Cryptsy CEO indictment and receivership background",
+            "url": "https://www.justice.gov/usao-sdfl/pr/ceo-major-online-cryptocurrency-exchange-company-indicted-defrauding-company-s",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "CoinDesk — Cryptsy trade engine and withdrawals suspended",
+            "url": "https://www.coindesk.com/markets/2016/01/14/cryptsy-halts-trade-engine-and-withdrawals-amid-investigation",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Later indictment supplies allegations/charges; describe criminal allegations as such unless resolved by judgment."
       }
     },
     {
@@ -802,15 +840,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "VERIFIED_CONTEXT",
         "exact_date": "2016",
-        "summary": "Bitcoin Unlimited gained support among some large-block advocates during the scaling conflict.",
-        "significance": "Political/software trend rather than one discrete event; replace with a release, mining-support threshold or conference agreement before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Bitcoin Unlimited developed into a prominent alternative Bitcoin implementation during the block-size dispute. Its February 2016 v0.12 experimental release let node operators configure block-size acceptance/mining limits and added Xtreme Thinblocks for larger-block propagation.",
+        "significance": "Bitcoin Unlimited embodied the large-block view that block-size policy should emerge from users and miners rather than remain fixed by the reference implementation, helping set up the 2017 block-size climax.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Unlimited — v0.12.0 experimental release",
+            "url": "https://bitco.in/forum/threads/announcing-bitcoinunlimited-v0-12-0-experimental-release.909/",
+            "type": "PROJECT_ARCHIVE"
+          },
+          {
+            "title": "Bitcoin Unlimited — BUIP010 Xtreme Thinblocks",
+            "url": "https://bitco.in/forum/threads/buip010-passed-xtreme-thinblocks.774/",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use as block-size-war context; avoid asserting a precise node/miner share without a separate dataset."
       }
     },
     {
@@ -937,15 +986,31 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2016",
-        "summary": "Microsoft Azure expanded blockchain-as-a-service experiments and partnerships with enterprise DLT providers.",
-        "significance": "Institutional technology trend, but requires a specific product/partnership milestone if used as a standalone event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Microsoft's Azure Blockchain as a Service expanded through 2016 after its November 2015 Ethereum/ConsenSys debut, adding additional Ethereum clients, BlockApps STRATO, OpenChain, IOTA and other enterprise blockchain tools and partners.",
+        "significance": "Azure's BaaS program shows how quickly 'blockchain' moved from public cryptocurrency networks into enterprise technology experimentation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Microsoft Azure — Blockchain as a Service Update #3",
+            "url": "https://azure.microsoft.com/en-us/blog/azure-blockchain-as-a-service-update-3/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Microsoft Azure — Blockchain as a Service Update #5",
+            "url": "https://azure.microsoft.com/en-us/blog/azure-blockchain-update-5/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Microsoft Azure — original Ethereum BaaS launch",
+            "url": "https://azure.microsoft.com/en-us/blog/ethereum-blockchain-as-a-service-now-on-azure/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Original launch was November 2015; 2016 is an expansion/context event."
       }
     },
     {
@@ -988,12 +1053,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Bitmain's Antminer S9 became an iconic and highly efficient SHA-256 ASIC generation during 2016.",
-        "significance": "Major mining-hardware candidate; needs manufacturer release announcement/date and efficiency specifications before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2016-05-31",
+        "summary": "Bitmain announced the Antminer S9 on 31 May 2016, advertising 14 TH/s at about 1,375 watts and calling it the first commercially available Bitcoin miner built on a 16nm process; first-batch shipping was scheduled for 12 June.",
+        "significance": "The S9 became one of the most recognizable and long-lived ASIC generations and helped define industrial Bitcoin mining through the next market cycle.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BITMAIN — Antminer S9 release announcement",
+            "url": "https://bitcointalk.org/index.php?topic=1493580.0",
+            "type": "COMPANY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1010,15 +1081,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Craig Wright publicly claimed to be Satoshi Nakamoto in 2016, generating intense media coverage and skepticism.",
-        "significance": "This is major Satoshi lore, but the archive should use a direct claim plus reputable contemporaneous verification/skepticism sources before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AS_DISPUTED_CLAIM",
+        "exact_date": "2016-05-02",
+        "summary": "Craig Wright publicly claimed that he was Bitcoin creator Satoshi Nakamoto in coordinated interviews and a blog demonstration. Cryptographers and Bitcoin developers quickly disputed the public proof, and Wright abandoned a promised further proof days later.",
+        "significance": "The episode became the most prominent Satoshi identity claim of the period and a lasting example of why cryptographic proof matters more than biography or media access.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ars Technica — Craig Wright publicly claims to be Satoshi",
+            "url": "https://arstechnica.com/information-technology/2016/05/craig-wright-says-loud-and-proud-i-am-satoshi-nakamoto/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — Wright ends attempt to prove claim",
+            "url": "https://www.wired.com/2016/05/craig-wright-ends-attempt-prove-created-bitcoin-im-sorry/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Never state that Wright was Satoshi. This row records a disputed public claim."
       }
     },
     {
@@ -1032,14 +1114,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Gavin Andresen publicly said he believed a private signing demonstration supported Wright's Satoshi claim; the evidence was not independently reproducible.",
-        "significance": "Needs Andresen's direct contemporaneous statement/source before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2016-05-02",
+        "summary": "Gavin Andresen said he believed Craig Wright was Satoshi after a private London demonstration in which Andresen said Wright signed a message with a key associated with an early Bitcoin block. Andresen acknowledged he could have been deceived and later said trusting Wright had been a mistake.",
+        "significance": "Andresen's endorsement gave Wright's claim unusual credibility and became one of the strangest episodes in Bitcoin's Satoshi mystery.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WIRED — How Craig Wright privately 'proved' his claim to Gavin Andresen",
+            "url": "https://www.wired.com/2016/05/craig-wright-privately-proved-hes-bitcoins-creator/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — Wright abandons public proof",
+            "url": "https://www.wired.com/2016/05/craig-wright-ends-attempt-prove-created-bitcoin-im-sorry/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1008",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -1054,14 +1147,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "Gavin Andresen's Bitcoin Core commit access was revoked amid the Craig Wright/Satoshi controversy and concerns around account/security circumstances.",
-        "significance": "Important governance story but requires Bitcoin Core/GitHub or maintainer-source documentation.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2016-05-02",
+        "summary": "Bitcoin Core maintainers revoked Gavin Andresen's ownership/write access to the project's GitHub organization after his endorsement of Craig Wright, citing concern that his account might have been compromised and the security risk of repository access.",
+        "significance": "The move became a notable Bitcoin governance and software-security episode, showing that social trust and repository permissions sit alongside consensus rules in open-source protocol development.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Guardian — Bitcoin project blocks out Gavin Andresen",
+            "url": "https://www.theguardian.com/technology/2016/may/06/bitcoin-project-blocks-out-gavin-andresen-over-satoshi-nakamoto-claims",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "The Register — Andresen write access revoked",
+            "url": "https://www.theregister.com/2016/05/06/bitcoin_chief_boffin_blocked/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1008",
+        "relation": "GOVERNANCE_AFTERMATH",
         "notes": null
       }
     },
@@ -1076,12 +1180,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2016",
-        "summary": "Bitcoin increasingly became a common ransomware payment method as ransomware campaigns expanded globally.",
-        "significance": "This is a cybercrime trend; individual attacks such as CryptoLocker and WannaCry make cleaner card events.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "The FBI reported a clear rise in ransomware and noted that victims were increasingly being instructed to pay ransoms in Bitcoin rather than older prepaid-card methods.",
+        "significance": "By 2016 Bitcoin had become closely associated with ransomware payments, setting the stage for globally disruptive attacks such as WannaCry in 2017.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FBI — Ransomware on the Rise",
+            "url": "https://www.fbi.gov/news/stories/ransomware-on-the-rise",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1089,28 +1199,39 @@
     },
     {
       "id": "LORE-EVT-1037",
-      "date": "2016",
-      "title": "BitConnect launches lending platform",
+      "date": "2017-01",
+      "title": "BitConnect launches its lending program",
       "branch": [
         "SCAMS"
       ],
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2016",
-        "summary": "BitConnect launched its token/lending ecosystem in the 2016 period before exploding in popularity in 2017.",
-        "significance": "Important precursor to the 2018 collapse, but exact launch and lending-platform dates need primary/contemporary documentation.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2017-01",
+        "summary": "BitConnect was created in approximately 2016 and conducted a BCC ICO from about November 2016 to January 2017, but the SEC's later complaint states that the BitConnect Lending Program began in January 2017.",
+        "significance": "The distinction matters historically: 2016 contains BitConnect's creation/token sale, while its notorious high-yield lending scheme belongs in 2017.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC complaint — BitConnect creation, 2016 ICO and January 2017 Lending Program",
+            "url": "https://www.sec.gov/files/litigation/complaints/2021/comp-pr2021-172.pdf",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC complaint — BitConnect promoter case and 2016 background",
+            "url": "https://www.sec.gov/files/litigation/complaints/2021/comp-pr2021-90.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Moved from 2016 to 2017 based on SEC pleadings."
       }
     },
     {
       "id": "LORE-EVT-1068",
-      "date": "2016",
+      "date": "2012-02-11",
       "title": "BIP32 and hierarchical deterministic wallet practices become mainstream",
       "branch": [
         "SECURITY",
@@ -1119,15 +1240,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": "2012 onward",
-        "summary": "BIP32 hierarchical deterministic wallets were proposed years before 2016, and the current 'become mainstream' wording is a trend rather than an event.",
-        "significance": "Replace with the BIP32 proposal/implementation milestone or a specific wallet adoption event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2012-02-11",
+        "summary": "BIP32 was assigned on 11 February 2012 and specified hierarchical deterministic wallets, allowing a tree of public/private keys to be generated from a single seed.",
+        "significance": "HD wallets radically simplified backups, account separation and key generation and became foundational wallet infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin BIPs — BIP32 Hierarchical Deterministic Wallets",
+            "url": "https://bitcoin.org/bip/32/",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Raw archive incorrectly treated widespread adoption as a 2016 event."
       }
     },
     {
@@ -1169,15 +1296,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2016",
-        "summary": "Multisignature smart-contract wallets increasingly became protocol and treasury infrastructure on Ethereum.",
-        "significance": "Trend, not discrete event. Replace with a specific wallet launch or major multisig incident.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2015-2016",
+        "summary": "Ethereum's official wallet supported contract-based multisignature wallets from its 2015 developer preview, and by 2016 the Foundation was issuing security guidance specifically for smart-contract wallets and multisig configurations.",
+        "significance": "Multisig contract wallets became an early way for Ethereum organizations and groups to protect shared funds, while also introducing a new class of smart-contract custody risk.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Ethereum Wallet developer preview with multisig",
+            "url": "https://blog.ethereum.org/2015/09/16/ethereum-wallet-developer-preview",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Ethereum Foundation — 2016 smart-contract wallet security alert",
+            "url": "https://blog.ethereum.org/2016/06/24/security-alert-smart-contract-wallets-created-in-frontier-are-vulnerable-to-phishing-attacks",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/adoption row; 'standard treasury infrastructure' is too strong for a single 2016 date."
       }
     },
     {
@@ -1237,5 +1375,7 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
