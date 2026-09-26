@@ -1155,14 +1155,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "Optimistic-rollup teams moved from research toward public testnets and protocol integrations during 2020, including Synthetix's September Optimistic Ethereum testnet.",
+        "significance": "The broader rollup transition is an era/context node; the Synthetix testnet is the cleaner discrete 2020 milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Synthetix — Optimistic Ethereum L2 testnet",
+            "url": "https://blog.synthetix.io/optimistic-ethereum-l2-testnet/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1103",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -2043,12 +2049,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-08-10",
+        "summary": "Grayscale launched a national television advertising campaign encouraging investors to move toward digital currencies through its investment products.",
+        "significance": "The campaign was a vivid mainstream-marketing moment in the institutionalization of crypto investment products.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Block — Grayscale national advertising campaign",
+            "url": "https://www.theblock.co/news/markets/2020-08-10-grayscale-ad-campaign-digital-currencies-74411",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2244,7 +2256,7 @@
     {
       "id": "LORE-EVT-0755",
       "date": "2020",
-      "title": "Cover Protocol exploit and token relaunch show DeFi fragility",
+      "title": "Cover Protocol suffers infinite-mint exploit",
       "branch": [
         "DEFI",
         "HACKS"
@@ -2252,12 +2264,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-28",
+        "summary": "Cover Protocol's Blacksmith mining contract was exploited through an infinite-mint bug that created an enormous quantity of COVER tokens and collapsed the token price; Cover published a post-mortem the following day.",
+        "significance": "The exploit became a memorable late-DeFi-Summer example of audited-contract logic risk and the fragility of token-reward systems.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Cover Protocol — 12/28 Post-Mortem",
+            "url": "https://coverprotocol.medium.com/12-28-post-mortem-34c5f9f718d4",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2349,7 +2367,7 @@
     {
       "id": "LORE-EVT-0893",
       "date": "2020",
-      "title": "Satoshi-era Bitcoin movement sparks speculation despite no link to Satoshi",
+      "title": "Dormant February 2009 Bitcoin moves after eleven years",
       "branch": [
         "BITCOIN",
         "MYSTERIES",
@@ -2358,15 +2376,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_CAUTION",
+        "exact_date": "2020-05-20",
+        "summary": "Fifty BTC mined in February 2009 moved after more than eleven years of dormancy. Contemporary analysis said there was little evidence the coins belonged to Satoshi Nakamoto.",
+        "significance": "The transfer became classic Bitcoin mystery lore because any movement of very early coins can trigger speculation about Satoshi-era miners.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — 50 BTC moved from 2009 wallet",
+            "url": "https://www.coindesk.com/markets/2020/05/20/50-btc-just-moved-for-first-time-since-2009-but-it-doesnt-look-like-satoshi",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not imply the wallet belonged to Satoshi; contemporary chain analysis argued otherwise."
       }
     },
     {
@@ -2400,7 +2424,7 @@
     {
       "id": "LORE-EVT-0921",
       "date": "2020",
-      "title": "Libra is redesigned amid regulatory pressure",
+      "title": "Libra redesigns its payment system after regulatory backlash",
       "branch": [
         "STABLECOINS",
         "GOVERNMENTS",
@@ -2409,12 +2433,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-04-16",
+        "summary": "The Libra Association published an updated White Paper v2.0 that moved away from the original single global-currency design toward single-currency stablecoins and stronger compliance controls.",
+        "significance": "The redesign showed how aggressively government and central-bank scrutiny reshaped Facebook's private-money ambitions.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Diem Association — Libra developers: The path forward",
+            "url": "https://www.diem.com/en-us/blog/libra-developers-the-path-forward/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2431,12 +2461,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-12-01",
+        "summary": "The Libra Association renamed itself the Diem Association on 1 December 2020.",
+        "significance": "The rebrand symbolized the project's attempt to distance itself from the controversy surrounding the original Libra proposal.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Diem Association — economics/reserve note on Dec. 1 rename",
+            "url": "https://www.diem.com/en-us/economics-and-the-reserve/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2521,12 +2557,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2020-09-27 to 2020-10-08",
+        "summary": "Brian Armstrong published Coinbase's 'mission focused' policy on 27 September, saying the company would avoid broader political and social activism at work; Coinbase then offered exit packages to employees who disagreed with the direction.",
+        "significance": "The policy became one of the crypto industry's most visible workplace-culture controversies and influenced later debates about corporate political neutrality.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Coinbase is a mission focused company",
+            "url": "https://www.coinbase.com/en-gb/blog/coinbase-is-a-mission-focused-company",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Coinbase — follow up to mission focused company",
+            "url": "https://www.coinbase.com/en-gb/blog/a-follow-up-to-coinbase-being-a-mission-focused-company",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2681,7 +2728,7 @@
     {
       "id": "LORE-EVT-1084",
       "date": "2020",
-      "title": "1inch emerges from hackathon project into major DEX aggregator",
+      "title": "1inch launches 1INCH governance token",
       "branch": [
         "DEX",
         "DEFI"
@@ -2689,15 +2736,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_OR_TITLE_CORRECTED",
+        "exact_date": "2020-12-25",
+        "summary": "1inch released the 1INCH governance and utility token on 25 December 2020 and introduced instant governance for the protocol.",
+        "significance": "The token launch marked 1inch's transition from a DEX aggregation product into a token-governed DeFi network; the aggregator itself originated from a 2019 hackathon.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "1inch — 1INCH token is released",
+            "url": "https://1inch.com/blog/post/1inch-token-is-released",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not describe 1inch itself as first emerging in 2020; its hackathon origin was in 2019."
       }
     },
     {
@@ -2758,7 +2811,7 @@
     {
       "id": "LORE-EVT-1103",
       "date": "2020",
-      "title": "Optimistic rollup teams begin public testnets",
+      "title": "Synthetix goes live on Optimistic Ethereum L2 testnet",
       "branch": [
         "ETHEREUM",
         "TECHNOLOGY"
@@ -2766,12 +2819,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-09-24",
+        "summary": "Synthetix announced that SNX staking was live on an incentivized Optimistic Ethereum Layer 2 testnet.",
+        "significance": "This was an important public test of a generalized optimistic-rollup design with a major live DeFi protocol before L2 mainnets opened broadly in 2021.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Synthetix — Optimistic Ethereum L2 testnet",
+            "url": "https://blog.synthetix.io/optimistic-ethereum-l2-testnet/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2809,7 +2868,7 @@
     {
       "id": "LORE-EVT-1116",
       "date": "2020",
-      "title": "Sorare raises major funding for fantasy sports NFTs",
+      "title": "Sorare raises $4M for fantasy-football NFTs",
       "branch": [
         "GAMING",
         "NFT"
@@ -2817,12 +2876,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2020",
-        "summary": "This 2020 candidate remains in the archive but still needs a precise event definition and authoritative evidence before becoming canonical.",
-        "significance": "It is excluded from card scoring until the research state is upgraded.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2020-07-16",
+        "summary": "Sorare announced a $4 million seed round led by e.ventures to expand its officially licensed fantasy-football game built around scarce Ethereum player cards.",
+        "significance": "The round was an important early validation of sports NFTs and blockchain fantasy gaming before the 2021 NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sorare — $4M seed round",
+            "url": "https://medium.com/sorare/our-next-chapter-sorare-raises-a-4m-seed-round-led-by-e-ventures-b8e615bce191",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
