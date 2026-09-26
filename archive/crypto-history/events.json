@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2018 has been comprehensively triaged: canonical events are verified where evidence is strong; duplicates, context rows, corrected dates and unresolved claims are explicitly marked before card scoring.",
+  "status_note": "Evidence phase active. Research is complete through 2018 and the core 2019 timeline is verified/triaged; unresolved 2019 candidates are explicitly held out of scoring until stronger evidence is attached.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -1171,12 +1171,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_QUALIFIER",
+        "exact_date": "2019-01 to 2019-04",
+        "summary": "QuadrigaCX shut down after founder Gerald Cotten's reported death and entered court-supervised proceedings. Later OSC review concluded the exchange owed clients roughly C$215 million with almost no assets available and that the shortfall resulted largely from Cotten's fraud and mismanagement, not simply inaccessible cold-wallet keys.",
+        "significance": "Quadriga became one of crypto's defining custody and founder-control disasters and a cautionary tale about opaque exchange operations.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ontario Securities Commission — QuadrigaCX review",
+            "url": "https://www.osc.ca/quadrigacxreport/web/files/QuadrigaCX-A-Review-by-Staff-of-the-Ontario-Securities-Commission.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2934,12 +2940,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-06-18",
+        "summary": "Facebook announced plans for Calibra, a digital wallet intended to support Libra, a proposed global blockchain-based currency.",
+        "significance": "Libra instantly moved stablecoins and private digital money into mainstream central-bank, parliamentary and regulatory debate.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Meta — Coming in 2020: Calibra",
+            "url": "https://about.fb.com/news/2019/06/coming-in-2020-calibra/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2956,12 +2968,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-05-07T17:15:24Z",
+        "summary": "Attackers withdrew 7,000 BTC from Binance's hot wallet after obtaining API keys, 2FA codes and other information through multiple attack methods.",
+        "significance": "It was Binance's defining exchange-security incident and became a major test of its SAFU user-protection reserve.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — Security Breach Update",
+            "url": "https://www.binance.com/en-PH/support/announcement/detail/360028031711",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Binance — Security Incident Recap",
+            "url": "https://www.binance.com/en/blog/all/336904059293999104",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2977,11 +3000,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "PlusToken became one of the largest alleged crypto Ponzi schemes, affecting investors across Asia and involving very large cryptocurrency balances.",
+        "significance": "Major scam-history candidate, but exact collapse/arrest milestones and confirmed figures need Chinese court or law-enforcement sourcing.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -5828,14 +5851,14 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_CORRECTED",
+        "state": "VERIFIED",
         "exact_date": "2019-01-31",
-        "summary": "Wrapped Bitcoin (WBTC) launched on Ethereum in January 2019, not 2018.",
-        "significance": "WBTC brought tokenized BTC liquidity into Ethereum and later became core DeFi collateral.",
+        "summary": "Wrapped Bitcoin (WBTC) officially launched on Ethereum as an ERC-20 token fully backed by Bitcoin held by custodians.",
+        "significance": "WBTC created a bridge between Bitcoin liquidity and Ethereum applications and later became major DeFi collateral.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "WBTC — January 2019 launch release",
+            "title": "WBTC — Now Live on Ethereum",
             "url": "https://wbtc.network/assets/WBTC_Press_Release_Jan_2019.pdf",
             "type": "PROJECT_PRIMARY"
           }
@@ -5856,12 +5879,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "Cosmos Hub launched in 2019 as the first major network in the Cosmos interchain ecosystem.",
+        "significance": "Important multi-chain architecture milestone, but the archive needs the exact genesis/mainnet date from a canonical Cosmos genesis record before verification.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Cosmos Hub documentation",
+            "url": "https://docs.cosmos.network/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5878,12 +5907,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-09-23",
+        "summary": "ICE Futures U.S. began trading Bakkt's daily and monthly physically settled Bitcoin futures contracts.",
+        "significance": "Bakkt represented a major attempt to bring regulated institutional Bitcoin futures with physical delivery into traditional market infrastructure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "ICE Futures U.S. — Bakkt Bitcoin futures launch reminder",
+            "url": "https://www.ice.com/publicdocs/futures_us/exchange_notices/ICE_Futures_US_BTC_LaunchReminder_20190910.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -5901,12 +5936,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-10-11",
+        "summary": "The SEC filed an emergency action and obtained a temporary restraining order against Telegram and TON Issuer over an alleged unregistered $1.7 billion token offering.",
+        "significance": "The case became one of the most important US enforcement actions against a large token financing and ultimately halted Telegram's original Gram distribution.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Telegram emergency action",
+            "url": "https://www.sec.gov/newsroom/press-releases/2019-212",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7383,12 +7424,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2019-06",
+        "summary": "FATF adopted updated standards and guidance applying AML/CFT obligations to virtual asset service providers, including the transfer-information requirement commonly called the Travel Rule.",
+        "significance": "The move exported crypto AML compliance expectations across jurisdictions and reshaped exchange and wallet infrastructure globally.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "FATF — Guidance for Virtual Assets and VASPs",
+            "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets.html",
+            "type": "INTERGOVERNMENTAL"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7405,12 +7452,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-11-18",
+        "summary": "MakerDAO launched Multi-Collateral Dai, allowing Dai to be generated against more than one collateral type and renaming the original Single-Collateral Dai to Sai.",
+        "significance": "MCD transformed Maker from an ETH-only stablecoin system into a broader DeFi credit platform and prepared Dai for much larger adoption.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MakerDAO — DeFi History timeline",
+            "url": "https://blog.makerdao.com/wp-content/uploads/2021/03/The-DeFi-History.pdf",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Multi-Collateral Dai migration proposal",
+            "url": "https://v2.vote.makerdao.com/polling/QmbA2HpV",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7426,11 +7484,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "Synthetix emerged as one of early DeFi's most important on-chain synthetic-asset and derivatives systems.",
+        "significance": "Needs a specific Havven-to-Synthetix rebrand, mainnet or trading-volume milestone before card scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -8020,12 +8078,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-04-25",
+        "summary": "The New York Attorney General obtained a court order in an investigation alleging that Bitfinex and Tether used transactions involving Tether reserves to conceal an apparent $850 million loss of co-mingled funds.",
+        "significance": "The case became a major turning point in scrutiny of Tether's reserves and the relationship between the stablecoin issuer and Bitfinex.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "New York Attorney General — Bitfinex/Tether court order",
+            "url": "https://ag.ny.gov/press-release/2019/attorney-general-james-announces-court-order-against-crypto-currency-company",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9189,12 +9253,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-05-14",
+        "summary": "Cryptopia was placed into liquidation after a January 2019 hack severely damaged the exchange.",
+        "significance": "The collapse became a major New Zealand test case for whether cryptocurrencies held by an exchange are property held for customers.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Grant Thornton — Cryptopia liquidators appointed",
+            "url": "https://www.grantthornton.co.nz/press/press-releases-2019/cryptopia-limited-appoints-grant-thornton-as-liquidators/",
+            "type": "LIQUIDATOR_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -9233,14 +9303,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2018-12 to 2019",
+        "summary": "Gerald Cotten's death became the public explanation for QuadrigaCX's inability to access funds, creating the famous 'missing keys' narrative.",
+        "significance": "The later OSC investigation showed the true insolvency was much broader, so the death/key story must be framed as the public mystery narrative rather than the sole cause.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ontario Securities Commission — QuadrigaCX review",
+            "url": "https://www.osc.ca/quadrigacxreport/web/files/QuadrigaCX-A-Review-by-Staff-of-the-Ontario-Securities-Commission.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0039",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -9255,14 +9331,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2019",
+        "summary": "Court and regulatory investigations uncovered major asset shortfalls and improvised trading/accounting practices at QuadrigaCX.",
+        "significance": "The proceedings transformed the story from a lost-key mystery into a documented exchange-fraud/custody failure.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ontario Securities Commission — QuadrigaCX review",
+            "url": "https://www.osc.ca/quadrigacxreport/web/files/QuadrigaCX-A-Review-by-Staff-of-the-Ontario-Securities-Commission.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0039",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -9593,12 +9675,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-05-30",
+        "summary": "Chainlink launched on Ethereum mainnet as a decentralized oracle network connecting smart contracts to off-chain data.",
+        "significance": "Chainlink solved a critical infrastructure problem for DeFi and became the dominant oracle layer for many smart-contract applications.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chainlink — Mainnet launch",
+            "url": "https://chain.link/blog/chainlink-connected-consensus-on-ethereum",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -12025,11 +12113,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "Binance Launchpad popularized the exchange-led IEO fundraising model during 2019.",
+        "significance": "Needs a specific launch or landmark BitTorrent token-sale event as the canonical milestone.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -12047,11 +12135,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2019",
+        "summary": "IEOs briefly replaced ICOs as a popular token fundraising model, with centralized exchanges acting as gatekeepers.",
+        "significance": "Market trend; requires fundraising data before publication.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -12069,14 +12157,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2019-06 onward",
+        "summary": "Facebook's Libra proposal triggered hearings and policy responses from governments and central banks around the world.",
+        "significance": "The regulatory reaction was part of Libra's significance rather than a separate launch event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Meta — Coming in 2020: Calibra",
+            "url": "https://about.fb.com/news/2019/06/coming-in-2020-calibra/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0107",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -12092,20 +12186,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_AFTERMATH",
+        "exact_date": "2019-10",
+        "summary": "Telegram halted its planned Gram distribution as litigation with the SEC intensified.",
+        "significance": "This is the direct consequence of the canonical SEC action.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Telegram emergency action",
+            "url": "https://www.sec.gov/newsroom/press-releases/2019-212",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0226",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-0479",
-      "date": "2019",
+      "date": "2018-12-19",
       "title": "Coinbase Earn popularizes token rewards for learning",
       "branch": [
         "EXCHANGES",
@@ -12114,12 +12214,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2018-12-19",
+        "summary": "Coinbase Earn launched in invite-only mode in December 2018, not 2019.",
+        "significance": "The product popularized the 'learn and earn' model in which users received tokens while completing educational lessons.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Earn launch",
+            "url": "https://www.coinbase.com/blog/earn-cryptocurrency-while-learning-about-new-digital-assets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -12136,14 +12242,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2019 onward",
+        "summary": "After mainnet launch, Chainlink data feeds were increasingly integrated across emerging DeFi protocols.",
+        "significance": "Adoption context under the canonical Chainlink launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Chainlink — Mainnet launch",
+            "url": "https://chain.link/blog/chainlink-connected-consensus-on-ethereum",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0382",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -14346,11 +14458,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "Wasabi Wallet's CoinJoin implementation gained adoption among privacy-conscious Bitcoin users.",
+        "significance": "Privacy-history candidate but needs a concrete usage/release milestone.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -14806,11 +14918,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "Unstoppable Domains expanded blockchain-based naming outside ENS.",
+        "significance": "Needs a clear product launch/funding/integration milestone.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15005,11 +15117,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2019",
+        "summary": "The term 'DeFi' became increasingly common for open financial protocols on Ethereum.",
+        "significance": "Cultural/terminology trend rather than a single event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15454,11 +15566,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2019",
+        "summary": "EOS governance controversies continued around block producers, voting and centralization.",
+        "significance": "Requires one concrete governance incident before card scoring.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15520,11 +15632,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_NARROWING",
+        "exact_date": "2019",
+        "summary": "Polkadot fundraising, governance and network preparation continued before mainnet.",
+        "significance": "Replace with a specific token sale or network-launch event.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -15586,14 +15698,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2019",
+        "summary": "This row is the same Cosmos Hub launch as LORE-EVT-0224.",
+        "significance": "Canonicalize once the exact genesis date is pinned down.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Cosmos Hub documentation",
+            "url": "https://docs.cosmos.network/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0224",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -18198,11 +18316,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18221,11 +18339,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18243,11 +18361,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18265,12 +18383,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2019",
+        "summary": "Fidelity Digital Assets launched institutional custody and trade-execution client services in the United States in 2019.",
+        "significance": "A major traditional financial institution offering crypto custody was a significant institutional-adoption milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Fidelity Digital Assets — About Us",
+            "url": "https://www.fidelitydigitalassets.com/about-us",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -18288,14 +18412,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2019-09 onward",
+        "summary": "Bakkt's initial trading volumes were widely viewed as modest relative to its pre-launch hype.",
+        "significance": "Potentially interesting institutional-adoption LORE, but needs exact launch-volume data and comparable benchmarks before publication.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "ICE Futures U.S. — Bakkt Bitcoin futures launch reminder",
+            "url": "https://www.ice.com/publicdocs/futures_us/exchange_notices/ICE_Futures_US_BTC_LaunchReminder_20190910.pdf",
+            "type": "EXCHANGE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0225",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -18310,12 +18440,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-04-23",
+        "summary": "Binance DEX launched on the newly live BNB Chain, with public trading and BNB mainnet migration beginning the same day.",
+        "significance": "The launch expanded Binance from a centralized exchange into its own blockchain and on-chain exchange ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — BNB Chain mainnet launch",
+            "url": "https://www.binance.com/en/support/announcement/detail/360027114471",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Binance — Binance DEX launch",
+            "url": "https://www.binance.com/en/blog/all/327334696200323072",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -18332,12 +18473,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2019-05",
+        "summary": "FTX launched in or around May 2019 as a global cryptocurrency exchange founded by Sam Bankman-Fried and colleagues from Alameda Research.",
+        "significance": "FTX grew from a new derivatives-focused venue into one of the world's largest exchanges before its spectacular 2022 collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ filing — FTX launched around May 2019",
+            "url": "https://www.justice.gov/usao-sdny/media/1313336/dl",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -18354,11 +18501,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18376,11 +18523,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18398,14 +18545,14 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "CONTEXT_NEEDS_DATA",
+        "exact_date": "2019",
+        "summary": "Analysts later linked movements from PlusToken-associated wallets with market selling pressure.",
+        "significance": "This market-impact claim requires a named blockchain-analysis report and careful causal wording.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0109",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -18419,11 +18566,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -18441,14 +18588,20 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2019",
+        "summary": "Maker governance increasingly managed collateral types, stability fees and risk parameters around the transition to Multi-Collateral Dai.",
+        "significance": "Important governance context under the canonical MCD transition rather than a single separate event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Maker Governance — Multi-Collateral Dai migration proposal",
+            "url": "https://v2.vote.makerdao.com/polling/QmbA2HpV",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0289",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -21590,11 +21743,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21613,11 +21766,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -21762,14 +21915,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2019",
+        "summary": "Investigators could not reconcile expected customer crypto with supposed cold-wallet balances.",
+        "significance": "Canonicalized under the QuadrigaCX collapse and investigation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ontario Securities Commission — QuadrigaCX review",
+            "url": "https://www.osc.ca/quadrigacxreport/web/files/QuadrigaCX-A-Review-by-Staff-of-the-Ontario-Securities-Commission.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0039",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -22413,14 +22572,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2019",
+        "summary": "The Libra Association was assembled around a group of major technology, payments and venture firms to govern the proposed Libra network.",
+        "significance": "Important institutional context, but a dated association-formation document should be attached before separate scoring.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Meta — Coming in 2020: Calibra",
+            "url": "https://about.fb.com/news/2019/06/coming-in-2020-calibra/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0107",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -22435,14 +22600,14 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019-10",
+        "summary": "Several high-profile partners, including PayPal and later Visa, Mastercard, Stripe and others, withdrew from the Libra Association before its formal launch meeting.",
+        "significance": "The exits showed how regulatory pressure could fracture a global corporate crypto initiative.",
+        "source_confidence": "LOW",
         "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "canonical_event_id": "LORE-EVT-0107",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -22524,12 +22689,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_YEAR",
+        "exact_date": "2019",
+        "summary": "J.P. Morgan launched JPM Coin, a bank-issued digital representation of US-dollar deposits for institutional blockchain settlement.",
+        "significance": "The product showed a systemically important bank adopting tokenized-money infrastructure even while public crypto remained controversial in traditional finance.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "J.P. Morgan — Kinexys history",
+            "url": "https://www.jpmorgan.com/kinexys/about",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22805,11 +22976,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23081,12 +23252,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-11-30",
+        "summary": "Monero activated RandomX proof of work at block 1,978,433.",
+        "significance": "RandomX aimed to keep Monero mining accessible to general-purpose CPUs and reduce the advantage of specialized ASIC hardware.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero — RandomX network upgrade announcement",
+            "url": "https://web.getmonero.org/2019/10/01/announcement-release-0-15.html",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Monero technical specifications",
+            "url": "https://docs.getmonero.org/technical-specs/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23360,11 +23542,11 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -23961,14 +24143,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_PEOPLE_CONTEXT",
+        "exact_date": "2019",
+        "summary": "Sam Bankman-Fried co-founded FTX in 2019.",
+        "significance": "Founder context is captured under the canonical FTX launch unless a separate SBF biography card is selected.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ filing — FTX launched around May 2019",
+            "url": "https://www.justice.gov/usao-sdny/media/1313336/dl",
+            "type": "GOVERNMENT"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0737",
+        "relation": "PEOPLE_CONTEXT",
         "notes": null
       }
     },
@@ -24181,11 +24369,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24432,11 +24620,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24454,11 +24642,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24796,11 +24984,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -24923,11 +25111,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25302,11 +25490,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25526,11 +25714,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -25570,11 +25758,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26174,11 +26362,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26354,11 +26542,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26463,11 +26651,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26551,11 +26739,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26683,11 +26871,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26936,11 +27124,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -26958,11 +27146,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -27300,11 +27488,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -27962,11 +28150,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -28160,11 +28348,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -28765,14 +28953,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2019-11-30",
+        "summary": "RandomX made Monero mining comparatively CPU-friendly as part of the same network upgrade.",
+        "significance": "Technical context under the canonical RandomX activation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Monero technical specifications",
+            "url": "https://docs.getmonero.org/technical-specs/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0948",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -29118,11 +29312,11 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
@@ -29427,11 +29621,11 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "exact_date": "2019",
+        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
+        "significance": "Keep in the archive research pool; do not card-score yet.",
+        "source_confidence": "LOW",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
