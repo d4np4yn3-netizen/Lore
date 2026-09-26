@@ -3,113 +3,94 @@
   "year": 2025,
   "generated": "2026-09-26",
   "purpose": "Canonical evidence shard for LORE Crypto History. Card scoring deferred until research and deduplication are complete.",
-  "score_status": "READY_FOR_EDITORIAL_SCORING",
-  "event_count": 14,
+  "score_status": "NOT_STARTED",
+  "event_count": 9,
   "events": [
     {
-      "id": "LORE-CAN-2025-012",
-      "date": "2025",
-      "title": "Corporate Bitcoin treasury strategies expand beyond early adopters",
-      "branches": [
-        "INSTITUTIONS",
-        "BITCOIN"
-      ],
-      "research_state": "CONTEXT_VERIFIED",
-      "source_confidence": "MEDIUM_HIGH",
-      "summary": "More public companies adopted or expanded Bitcoin treasury strategies during 2025, while Strategy raised large amounts of capital and ended the year holding 713,502 BTC according to its annual report.",
-      "significance": "Corporate Bitcoin accumulation evolved from a few isolated adopters into a distinct capital-markets strategy.",
-      "sources": [
-        {
-          "title": "Strategy 2025 Annual Report",
-          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
-          "type": "REGULATORY_FILING"
-        }
-      ],
-      "score_status": "NOT_SCORED",
-      "notes": "Context node; individual treasury-company launches can be separate events if card-worthy."
-    },
-    {
       "id": "LORE-CAN-2025-001",
-      "date": "2025-01-23",
-      "title": "US executive order establishes a digital-assets working group and changes federal policy",
-      "branches": [
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "A US executive order established the President's Working Group on Digital Asset Markets, directed review of federal digital-asset rules, called for recommendations on a federal framework, and prohibited agencies from establishing or promoting a US central bank digital currency except as required by law.",
-      "significance": "The order marked a major change in US executive-branch digital-asset policy and set up later 2025 reserve and regulatory actions.",
-      "sources": [
-        {
-          "title": "White House — Strengthening American Leadership in Digital Financial Technology",
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2025-002",
-      "date": "2025-01-29 to 2025-04-30",
-      "title": "El Salvador amends its Bitcoin Law and makes private acceptance voluntary",
+      "canonical_key": "LORE-EVT-0143",
+      "date": "2025-01-29",
+      "title": "El Salvador changes Bitcoin legal-tender requirements under an IMF-backed program",
       "branches": [
         "GOVERNMENTS",
         "REGULATION",
         "BITCOIN"
       ],
+      "source_event_ids": [
+        "LORE-EVT-0143"
+      ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "El Salvador's legislature approved Decree 199 on 29 January 2025, amending the Bitcoin Law. The reform removed mandatory acceptance, removed Bitcoin's characterization as currency in the law, required state monetary obligations to be paid in their contracted currencies, and took effect 90 days after publication.",
-      "significance": "The change materially scaled back key legal-tender features of El Salvador's 2021 Bitcoin experiment while leaving voluntary private use possible.",
+      "summary": "El Salvador's legislature approved amendments to the Bitcoin Law that removed mandatory acceptance and other essential legal-tender features, making private-sector Bitcoin acceptance voluntary as part of reforms linked to an IMF-supported program.",
+      "significance": "The amendment materially scaled back the compulsory elements of the world's first national Bitcoin legal-tender regime while leaving Bitcoin lawful to use.",
       "sources": [
         {
-          "title": "El Salvador Legislative Assembly — Decree 199",
-          "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/FC2C7E66-490B-4420-B8B5-221C2F2A4C28.pdf",
+          "title": "IMF — El Salvador EFF Staff Report",
+          "url": "https://www.elibrary.imf.org/view/journals/002/2025/058/article-A001-en.xml",
+          "type": "INTERGOVERNMENTAL"
+        },
+        {
+          "title": "Reuters — El Salvador lawmakers reform Bitcoin law",
+          "url": "https://www.reuters.com/world/americas/lawmakers-el-salvador-rush-new-bitcoin-reform-after-imf-deal-2025-01-30/",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
+    },
+    {
+      "id": "LORE-CAN-2025-002",
+      "canonical_key": "LORE-EVT-0065",
+      "date": "2025-02-21",
+      "title": "Bybit heist",
+      "branches": [
+        "HACKS",
+        "EXCHANGES"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0065"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Attackers stole approximately $1.5 billion in virtual assets from Bybit after compromising a signing workflow associated with an external multisignature service.",
+      "significance": "The incident became the largest publicly reported crypto theft to that point and a defining modern exchange-security failure.",
+      "sources": [
+        {
+          "title": "FBI — North Korea Responsible for $1.5 Billion Bybit Hack",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
           "type": "GOVERNMENT"
         },
         {
-          "title": "IMF — El Salvador program report",
-          "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1slvea2025001-print-pdf.pdf",
-          "type": "INTERGOVERNMENTAL"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2025-003",
-      "date": "2025-02-21",
-      "title": "Bybit suffers a roughly $1.5 billion cold-wallet theft",
-      "branches": [
-        "EXCHANGES",
-        "HACKS"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "Attackers compromised a Bybit Ethereum cold-wallet transaction flow and stole about $1.46 billion in ETH and liquid-staking assets.",
-      "significance": "The theft was the largest publicly reported crypto heist at the time and a major operational-security failure at a top centralized exchange.",
-      "sources": [
-        {
-          "title": "Bybit — Security Incident Timeline and FAQs",
+          "title": "Bybit — Security Incident Timeline",
           "url": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
           "type": "COMPANY_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2025-004",
+      "id": "LORE-CAN-2025-003",
+      "canonical_key": "LORE-EVT-0554",
       "date": "2025-02-26",
-      "title": "FBI attributes the Bybit theft to North Korea",
+      "title": "Lazarus Group attribution becomes central to Bybit investigation",
       "branches": [
         "HACKS",
-        "CRIME",
-        "GOVERNMENTS"
+        "CRIME"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0554"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "The FBI attributed the Bybit theft to North Korea, identifying the malicious activity as TraderTraitor and stating that approximately $1.5 billion in virtual assets had been stolen.",
-      "significance": "The attribution connected crypto's largest reported theft to state-linked cyber operations and reinforced North Korea's role in crypto-security history.",
+      "summary": "The FBI publicly attributed the Bybit theft to North Korea, calling the activity TraderTraitor and warning that the stolen assets were being rapidly converted and dispersed across blockchains.",
+      "significance": "The attribution made the heist a major state-linked cybercrime event and reinforced North Korea's central role in crypto theft.",
       "sources": [
         {
           "title": "FBI — North Korea Responsible for $1.5 Billion Bybit Hack",
@@ -117,54 +98,48 @@
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2025-005",
+      "id": "LORE-CAN-2025-004",
+      "canonical_key": "LORE-EVT-0066",
       "date": "2025-03-06",
-      "title": "United States establishes a Strategic Bitcoin Reserve",
+      "title": "US Strategic Bitcoin Reserve established",
       "branches": [
         "GOVERNMENTS",
         "BITCOIN"
       ],
+      "source_event_ids": [
+        "LORE-EVT-0066"
+      ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "A US executive order established a Strategic Bitcoin Reserve initially capitalized with finally forfeited government Bitcoin and stated that Bitcoin deposited in the reserve should not be sold, subject to the order and applicable law.",
-      "significance": "The policy reversed the historical pattern of disposing of seized Bitcoin through auctions and created an explicit federal reserve category for government-owned BTC.",
+      "summary": "A US executive order established a Strategic Bitcoin Reserve capitalized initially with finally forfeited government BTC and directed that Bitcoin deposited into the reserve not be sold.",
+      "significance": "The policy transformed confiscated Bitcoin from an asset normally disposed of by government into a formally designated reserve category.",
       "sources": [
         {
-          "title": "White House — Establishment of the Strategic Bitcoin Reserve and United States Digital Asset Stockpile",
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile Executive Order",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/?cst=&query-11-page=90",
           "type": "GOVERNMENT"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2025-006",
-      "date": "2025-03-06",
-      "title": "United States establishes a separate Digital Asset Stockpile",
-      "branches": [
-        "GOVERNMENTS",
-        "REGULATION"
-      ],
-      "research_state": "VERIFIED_SUBEVENT",
-      "source_confidence": "HIGH",
-      "summary": "The same executive order created a United States Digital Asset Stockpile for finally forfeited government digital assets other than Bitcoin.",
-      "significance": "The order explicitly separated Bitcoin reserve treatment from stewardship of other government-owned digital assets.",
-      "sources": [
+        },
         {
-          "title": "White House — Strategic Bitcoin Reserve and Digital Asset Stockpile",
-          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "White House — Strategic Bitcoin Reserve Fact Sheet",
+          "url": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/?query-11-page=3",
           "type": "GOVERNMENT"
         }
       ],
       "score_status": "NOT_SCORED",
-      "canonical_event_id": "LORE-CAN-2025-005",
-      "relation": "SUBEVENT"
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2025-014",
+      "id": "LORE-CAN-2025-005",
       "date": "2025-03-07 to 2025-04-24",
       "title": "US banking regulators roll back several crypto-specific supervisory hurdles",
       "branches": [
@@ -196,148 +171,140 @@
           "type": "CENTRAL_BANK"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "canonical_key": "LORE-EVT-0873",
+      "merged_legacy_titles": [
+        null
+      ]
     },
     {
-      "id": "LORE-CAN-2025-007",
+      "id": "LORE-CAN-2025-006",
+      "canonical_key": "LORE-EVT-0558",
       "date": "2025-03-13",
-      "title": "BlackRock's BUIDL tokenized fund passes $1 billion AUM",
+      "title": "Tokenized Treasury funds exceed major market milestones",
       "branches": [
         "INSTITUTIONS",
-        "TOKENIZATION"
+        "TECHNOLOGY"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0558"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Securitize announced that BlackRock's BUIDL tokenized liquidity fund had surpassed $1 billion in assets under management.",
-      "significance": "The milestone demonstrated that tokenized Treasury/cash-like products on public blockchains had grown beyond experimental scale.",
+      "summary": "BlackRock's tokenized BUIDL fund surpassed $1 billion in assets under management.",
+      "significance": "The milestone was a major proof point that public-blockchain tokenized Treasury/cash products had moved from experiment to billion-dollar institutional scale.",
       "sources": [
         {
-          "title": "Securitize — BUIDL Surpasses $1B in AUM",
+          "title": "Securitize — BUIDL Surpasses $1B AUM",
           "url": "https://investors.securitize.io/news/news-details/2025/BlackRock-USD-Institutional-Digital-Liquidity-Fund-BUIDL-Tokenized-By-Securitize-Surpasses-1B-in-AUM-03-13-2025/default.aspx",
           "type": "COMPANY_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2025-008",
-      "date": "2025-03-25",
-      "title": "BUIDL expands to Solana",
-      "branches": [
-        "INSTITUTIONS",
-        "TOKENIZATION",
-        "ALTCOINS"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "BlackRock and Securitize launched a BUIDL share class on Solana, extending the tokenized fund across seven supported blockchain networks.",
-      "significance": "The expansion illustrated how institutional tokenization was becoming multi-chain rather than confined to Ethereum.",
-      "sources": [
-        {
-          "title": "Securitize — BUIDL Share Class on Solana",
-          "url": "https://investors.securitize.io/news/news-details/2025/BlackRock-and-Securitize-Debut-New-BUIDL-Share-Class-on-Solana-Network-03-25-2025/default.aspx",
-          "type": "COMPANY_PRIMARY"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2025-009",
+      "id": "LORE-CAN-2025-007",
+      "canonical_key": "LORE-EVT-0067",
       "date": "2025-05-07T10:05:11Z",
-      "title": "Ethereum activates Pectra",
+      "title": "Ethereum Pectra upgrade",
       "branches": [
-        "ETHEREUM",
-        "TECHNOLOGY"
+        "ETHEREUM"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0067"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Ethereum activated the Prague-Electra (Pectra) upgrade at epoch 364,032. Major changes included EIP-7702 account functionality, validator-balance changes and higher blob throughput.",
-      "significance": "Pectra materially improved wallet programmability, validator operations and layer-2 scaling capacity.",
+      "summary": "Ethereum activated the Prague-Electra (Pectra) upgrade at epoch 364,032.",
+      "significance": "Pectra combined major validator, wallet and Layer-2-scaling improvements and was Ethereum's largest bundle of EIPs to that point.",
       "sources": [
-        {
-          "title": "Ethereum Foundation — Pectra Mainnet Announcement",
-          "url": "https://blog.ethereum.org/2025/04/23/pectra-mainnet",
-          "type": "PROJECT_PRIMARY"
-        },
         {
           "title": "Ethereum.org — Pectra",
           "url": "https://ethereum.org/roadmap/pectra/",
           "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ethereum Foundation — Pectra Mainnet Announcement",
+          "url": "https://blog.ethereum.org/2025/04/23/pectra-mainnet",
+          "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2025-010",
+      "id": "LORE-CAN-2025-008",
+      "canonical_key": "LORE-EVT-0175",
       "date": "2025-07-18",
-      "title": "US GENIUS Act becomes law",
+      "title": "Stablecoin legislation becomes a major US federal policy milestone",
       "branches": [
         "GOVERNMENTS",
         "REGULATION",
         "STABLECOINS"
       ],
+      "source_event_ids": [
+        "LORE-EVT-0175"
+      ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "The President signed S. 1582, the Guiding and Establishing National Innovation for U.S. Stablecoins Act, into law on 18 July 2025, establishing a federal framework for payment stablecoins.",
-      "significance": "The law was a major US federal legislative milestone for stablecoin issuance and regulation.",
+      "summary": "The US President signed S. 1582, the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act), into law.",
+      "significance": "The law created a federal statutory framework for payment stablecoins, marking a major shift from agency-led enforcement and state-by-state rules toward national legislation.",
       "sources": [
         {
-          "title": "White House — President Signed S. 1582 into Law",
+          "title": "White House — GENIUS Act Signed Into Law",
           "url": "https://www.whitehouse.gov/briefings-statements/2025/07/the-president-signed-into-law-s-1582/",
           "type": "GOVERNMENT"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     },
     {
-      "id": "LORE-CAN-2025-011",
-      "date": "2025-07-29",
-      "title": "SEC permits in-kind creations and redemptions for crypto ETPs",
-      "branches": [
-        "GOVERNMENTS",
-        "REGULATION",
-        "INSTITUTIONS"
-      ],
-      "research_state": "VERIFIED",
-      "source_confidence": "HIGH",
-      "summary": "The SEC approved orders allowing authorized participants in crypto-asset ETPs to create and redeem shares in kind rather than using only cash.",
-      "significance": "The change aligned spot Bitcoin and Ether ETP mechanics more closely with traditional commodity ETP structures.",
-      "sources": [
-        {
-          "title": "SEC — Permits In-Kind Creations and Redemptions for Crypto ETPs",
-          "url": "https://www.sec.gov/newsroom/press-releases/2025-101-sec-permits-kind-creations-redemptions-crypto-etps",
-          "type": "GOVERNMENT"
-        }
-      ],
-      "score_status": "NOT_SCORED"
-    },
-    {
-      "id": "LORE-CAN-2025-013",
+      "id": "LORE-CAN-2025-009",
+      "canonical_key": "LORE-EVT-0068",
       "date": "2025-12-03T21:49:11Z",
-      "title": "Ethereum activates Fusaka and PeerDAS",
+      "title": "Ethereum Fusaka upgrade",
       "branches": [
-        "ETHEREUM",
-        "TECHNOLOGY"
+        "ETHEREUM"
+      ],
+      "source_event_ids": [
+        "LORE-EVT-0068"
       ],
       "research_state": "VERIFIED",
       "source_confidence": "HIGH",
-      "summary": "Ethereum activated the Fulu-Osaka (Fusaka) upgrade at epoch 411,392. Its headline feature, PeerDAS, distributed blob data-availability work and enabled further scaling of rollup data throughput.",
-      "significance": "Fusaka represented another major step in Ethereum's rollup-centric scaling roadmap after Dencun and Pectra.",
+      "summary": "Ethereum activated the Fulu-Osaka (Fusaka) upgrade at epoch 411,392.",
+      "significance": "Fusaka advanced Ethereum's data-availability and Layer-2 scaling roadmap while also increasing Layer-1 performance capacity.",
       "sources": [
-        {
-          "title": "Ethereum Foundation — Fusaka Mainnet Announcement",
-          "url": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement",
-          "type": "PROJECT_PRIMARY"
-        },
         {
           "title": "Ethereum.org — Fusaka",
           "url": "https://ethereum.org/roadmap/fusaka/",
           "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Ethereum Foundation — Fusaka Mainnet Announcement",
+          "url": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement",
+          "type": "PROJECT_PRIMARY"
         }
       ],
-      "score_status": "NOT_SCORED"
+      "score_status": "NOT_SCORED",
+      "merged_legacy_titles": [
+        null
+      ],
+      "notes": null
     }
   ],
   "updated": "2026-09-26",
-  "note": "2025 canonical evidence is score-ready; context records remain available but are not independently scored unless editorially promoted."
+  "note": "2025 canonical file synchronized from complete reconciliation. Only independently scoreable canonical events remain in this file; context and merged rows stay in reconciliation/legacy files.",
+  "reconciliation_source": "2025-reconciliation.json",
+  "reconciliation_status": "COMPLETE"
 }
