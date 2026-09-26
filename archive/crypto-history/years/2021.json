@@ -355,6 +355,152 @@
         }
       ],
       "notes": "Exact all-time-high value varies by exchange and price index."
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-03-29",
+      "title": "Visa settles a transaction in USDC on Ethereum",
+      "state": "VERIFIED",
+      "summary": "Visa announced that Crypto.com had settled part of its obligations to Visa using USD Coin sent to Visa's Ethereum address via Anchorage.",
+      "significance": "The pilot connected a major card network's treasury settlement system directly to a public blockchain and stablecoin.",
+      "sources": [
+        {
+          "title": "Visa — first USDC settlement",
+          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseld.17821.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-02-01",
+      "title": "Ronin mainnet launches for Axie Infinity",
+      "state": "VERIFIED",
+      "summary": "Sky Mavis launched Ronin, its Ethereum sidechain, beginning with migration of Axie land and item assets.",
+      "significance": "Ronin removed Ethereum fee constraints from Axie and was a critical infrastructure step behind the game's explosive 2021 growth.",
+      "sources": [
+        {
+          "title": "Axie Infinity — Ronin Mainnet Launch",
+          "url": "https://blog.axieinfinity.com/p/ronin",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-10-19",
+      "title": "First US Bitcoin futures ETF begins trading",
+      "state": "VERIFIED",
+      "summary": "ProShares Bitcoin Strategy ETF (BITO) began trading on NYSE Arca on 19 October 2021, investing primarily in CME Bitcoin futures rather than spot Bitcoin.",
+      "significance": "BITO was the first US exchange-traded fund linked to Bitcoin and opened a regulated brokerage-account route to Bitcoin exposure years before spot ETFs.",
+      "sources": [
+        {
+          "title": "ProShares — BITO launch",
+          "url": "https://www.proshares.com/press-releases/proshares-to-launch-the-first-u.s.-bitcoin-linked-etf-on-october-19",
+          "type": "ISSUER_PRIMARY"
+        },
+        {
+          "title": "SEC filing for BITO",
+          "url": "https://www.sec.gov/Archives/edgar/data/1174610/000168386321006059/0001683863-21-006059-index.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-10-28",
+      "title": "Facebook rebrands to Meta and puts the metaverse at the center of its strategy",
+      "state": "VERIFIED",
+      "summary": "Facebook, Inc. changed its corporate name to Meta Platforms, Inc. and said the company would become 'metaverse-first.'",
+      "significance": "The rebrand pushed the metaverse concept into mainstream corporate culture and intensified speculation around virtual worlds, NFTs and metaverse tokens.",
+      "sources": [
+        {
+          "title": "Meta — Introducing Meta",
+          "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "Meta 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000071/fb-20211028.htm",
+          "type": "REGULATORY_FILING"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-03",
+      "title": "Anchor Protocol goes live on Terra",
+      "state": "VERIFIED_WITH_MONTH",
+      "summary": "Anchor's web application was live by March 2021, allowing users to deposit Terra stablecoins, borrow against bonded assets and participate in governance.",
+      "significance": "Anchor's high stablecoin yields later became central to UST demand and therefore to the build-up preceding Terra's 2022 collapse.",
+      "sources": [
+        {
+          "title": "Anchor Protocol documentation",
+          "url": "https://docs.anchorprotocol.com/anchor-2/user-guide/webapp",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-09-14",
+      "title": "Solana's growth collides with a 17-hour network outage",
+      "state": "VERIFIED",
+      "summary": "Bots flooding a Raydium IDO caused validator memory pressure and consensus failure, leaving Solana unable to confirm blocks for about 17 hours.",
+      "significance": "The outage became the defining reliability controversy of Solana's rapid 2021 expansion.",
+      "sources": [
+        {
+          "title": "Solana Foundation outage overview",
+          "url": "https://solana.com/uk/news/9-14-network-outage-initial-overview",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-11-08",
+      "title": "ENS DAO and ENS token launch",
+      "state": "VERIFIED",
+      "summary": "ENS launched its governance token and DAO on 8 November 2021, opening an airdrop claim to eligible .eth registrants.",
+      "significance": "The event became a flagship example of retroactive community ownership and protocol governance through an airdrop.",
+      "sources": [
+        {
+          "title": "ENS DAO — ENS Token",
+          "url": "https://basics.ensdao.org/ens-token",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-08-23",
+      "title": "Visa purchases CryptoPunk 7610",
+      "state": "VERIFIED",
+      "summary": "Visa purchased CryptoPunk 7610, saying it wanted firsthand experience acquiring, custodying and using NFTs.",
+      "significance": "A global payments company buying a CryptoPunk was one of the clearest institutional validation moments of NFT culture.",
+      "sources": [
+        {
+          "title": "Visa — NFTs mark a new chapter for digital commerce",
+          "url": "https://km.visamiddleeast.com/en_KM/visa-everywhere/blog/bdp/2021/08/23/nfts-mark-a-1629705939813.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ]
+    },
+    {
+      "master_event_id": null,
+      "date": "2021-10-27T10:56:23Z",
+      "title": "Ethereum Altair upgrade activates",
+      "state": "VERIFIED",
+      "summary": "Altair activated at Beacon Chain epoch 74,240, adding sync committees and strengthening validator penalty parameters.",
+      "significance": "Altair was the Beacon Chain's first scheduled mainnet upgrade and an important step toward The Merge.",
+      "sources": [
+        {
+          "title": "Ethereum.org Altair timeline",
+          "url": "https://ethereum.org/ethereum-forks/",
+          "type": "PROJECT_PRIMARY"
+        }
+      ]
     }
-  ]
+  ],
+  "progress_note": "31 evidence-ready 2021 entries. Deep-cut/context candidates remain to be reconciled."
 }
