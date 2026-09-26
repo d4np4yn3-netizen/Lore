@@ -6,10 +6,9 @@
   "evidence_file": "2020.json",
   "note": "Reconciliation generated from preserved 2020 research states. NEEDS_RESEARCH rows require explicit evidence review. Canonical file will be rewritten after those rows are resolved.",
   "counts": {
-    "CANONICAL": 61,
-    "CONTEXT": 19,
-    "MERGED": 13,
-    "NEEDS_RESEARCH": 22
+    "CANONICAL": 71,
+    "CONTEXT": 29,
+    "MERGED": 15
   },
   "rows": [
     {
@@ -874,11 +873,11 @@
         "PRIVACY",
         "REGULATION"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_EXAMPLE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-shapeshift-privacy-coin-delistings",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -906,11 +905,11 @@
         "BITCOIN",
         "PRIVACY"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM_HIGH",
       "note": null
     },
     {
@@ -1101,11 +1100,11 @@
         "INSTITUTIONS",
         "BITCOIN"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-stone-ridge-nydig-bitcoin",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1149,11 +1148,11 @@
         "EXCHANGES",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_NEEDS_SPECIFIC_METRIC",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM",
       "note": null
     },
     {
@@ -1165,12 +1164,12 @@
         "EXCHANGES",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "VERIFIED_WITH_SCOPE_QUALIFIER",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Platform-wide retail trading event; exclude from independent crypto card scoring unless editorially justified."
     },
     {
       "legacy_id": "LORE-EVT-0750",
@@ -1181,11 +1180,11 @@
         "ETHEREUM",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM",
       "note": null
     },
     {
@@ -1245,11 +1244,11 @@
         "DEFI",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM",
       "note": null
     },
     {
@@ -1277,11 +1276,11 @@
         "DEFI",
         "GOVERNANCE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-yearn-merger-spree",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1391,11 +1390,11 @@
         "INSTITUTIONS",
         "STABLECOINS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-jpm-coin-commercial-use",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1408,11 +1407,11 @@
         "MINING",
         "INSTITUTIONS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_EXAMPLE",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1425,8 +1424,8 @@
         "MEMES",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_NEEDS_PROVENANCE",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
       "source_confidence": "LOW",
@@ -1491,11 +1490,11 @@
         "EXCHANGES",
         "DISASTERS"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_RESEARCHED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM",
       "note": null
     },
     {
@@ -1507,11 +1506,11 @@
         "SCAMS",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-philippines-sec-forsage",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1523,11 +1522,11 @@
         "CULTURE",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "CONTEXT_VERIFIED",
+      "resolution": "CONTEXT",
       "canonical_key": null,
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM",
       "note": null
     },
     {
@@ -1539,11 +1538,11 @@
         "ETHEREUM",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_MONTH",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-metamask-1m-mau",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1685,9 +1684,9 @@
         "BRIDGES",
         "TECHNOLOGY"
       ],
-      "legacy_research_state": "DATE_CORRECTED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_WITH_SEQUENCE",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-wormhole-solana-ethereum-bridge",
       "legacy_canonical_event_id": null,
       "source_confidence": "HIGH",
       "note": null
@@ -1734,11 +1733,11 @@
         "SCAMS",
         "DEFI"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
+      "canonical_key": "2020-philippines-sec-forsage",
+      "legacy_canonical_event_id": "LORE-EVT-1042",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1751,12 +1750,12 @@
         "SECURITY",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED_AS_COMPANY_CLAIM",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-ciphertrace-monero-claim",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
-      "note": null
+      "source_confidence": "HIGH",
+      "note": "Attribute capability claims to CipherTrace."
     },
     {
       "legacy_id": "LORE-EVT-1199",
@@ -1767,11 +1766,11 @@
         "DEFI",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "CONTEXT_VERIFIED_WITH_MILESTONE",
+      "resolution": "CONTEXT",
+      "canonical_key": "2020-polymarket-beta-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "MEDIUM_HIGH",
       "note": null
     },
     {
@@ -1783,11 +1782,11 @@
         "DEFI",
         "CULTURE"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-polymarket-beta-launch",
       "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "source_confidence": "HIGH",
       "note": null
     },
     {
@@ -1847,11 +1846,11 @@
         "EXCHANGES",
         "ADOPTION"
       ],
-      "legacy_research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "resolution": "NEEDS_RESEARCH",
+      "legacy_research_state": "DUPLICATE_OR_CONTEXT",
+      "resolution": "MERGED",
       "canonical_key": null,
-      "legacy_canonical_event_id": null,
-      "source_confidence": "LOW",
+      "legacy_canonical_event_id": "LORE-EVT-0748",
+      "source_confidence": "MEDIUM",
       "note": null
     },
     {
@@ -1863,13 +1862,13 @@
         "FTX",
         "EXCHANGES"
       ],
-      "legacy_research_state": "DATE_CORRECTED",
-      "resolution": "NEEDS_RESEARCH",
-      "canonical_key": null,
+      "legacy_research_state": "VERIFIED",
+      "resolution": "CANONICAL",
+      "canonical_key": "2020-ftx-tokenized-stocks",
       "legacy_canonical_event_id": null,
-      "source_confidence": "MEDIUM_HIGH",
+      "source_confidence": "HIGH",
       "note": null
     }
   ],
-  "status": "IN_PROGRESS"
+  "status": "COMPLETE"
 }
