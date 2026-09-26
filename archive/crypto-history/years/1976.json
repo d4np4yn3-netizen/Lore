@@ -1,23 +1,38 @@
 {
-  "year": 1976,
-  "status": "RESEARCH_COMPLETE",
+  "schema_version": "1.0.0",
+  "archive": "LORE Crypto History Archive",
+  "year": "1976",
+  "generated_from": "archive/crypto-history/events.json",
+  "generated": "2026-09-26",
+  "event_count": 1,
   "events": [
     {
       "id": "LORE-EVT-0635",
-      "date": "1976-11",
+      "date": "1976",
       "title": "Diffie and Hellman publish foundational public-key cryptography work",
-      "summary": "Whitfield Diffie and Martin Hellman published New Directions in Cryptography, introducing the public-key cryptography framework and the concept of digital signatures to the open literature.",
-      "significance": "Public-key cryptography became foundational infrastructure for secure digital communication and later digital-cash and cryptocurrency systems.",
-      "tier": "CORE",
-      "source_confidence": "HIGH",
-      "sources": [
-        {
-          "title": "New Directions in Cryptography",
-          "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
-          "type": "PRIMARY"
-        }
+      "branch": [
+        "ORIGINS",
+        "TECHNOLOGY"
       ],
-      "card_scoring": null
+      "tier": "CORE",
+      "status": "RESEARCH_REQUIRED",
+      "research": {
+        "state": "VERIFIED",
+        "exact_date": "1976-11",
+        "summary": "Diffie and Hellman published New Directions in Cryptography, introducing the public-key cryptography framework and digital-signature concept to the open literature.",
+        "significance": "Foundational cryptographic infrastructure later used by digital-cash systems and cryptocurrencies.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "New Directions in Cryptography",
+            "url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
+            "type": "PRIMARY"
+          }
+        ],
+        "canonical_event_id": null,
+        "relation": null,
+        "notes": null
+      }
     }
   ]
 }
