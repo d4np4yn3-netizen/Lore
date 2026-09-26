@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2023 courtroom/contagion cluster verified, with date corrections and allegation/legal qualifiers applied before scoring.",
+  "status_note": "Evidence phase active. 2023 stablecoin stress, rulemaking litigation, Ripple relisting, institutional tokenization, Optimism airdrops, Solana compression and BONK chronology verified/corrected.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -4940,14 +4940,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2023",
+        "summary": "During 2023 BONK evolved from its late-2022 community airdrop into a widely held Solana meme asset and a recurring symbol of the ecosystem's post-FTX revival.",
+        "significance": "BONK is best understood as part of Solana's recovery narrative rather than as a separate 2023 launch event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BONK — About / launch history",
+            "url": "https://www.bonkcoin.com/about",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0530",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -10316,12 +10322,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-04-24 to 2023-04-26",
+        "summary": "Franklin Templeton said its Franklin OnChain U.S. Government Money Fund had exceeded $270 million in assets and then expanded blockchain support from Stellar to Polygon.",
+        "significance": "A regulated mutual fund maintaining its official shareholder record through public-blockchain infrastructure became a landmark real-world-asset and tokenization case.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Franklin Templeton — OnChain U.S. Government Money Fund surpasses $270M",
+            "url": "https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-announces-the-franklin-onchain-u.s-government-money-fund-surpasses-usd270-million-in-assets-under-management",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Franklin Templeton — Money Market Fund launches on Polygon",
+            "url": "https://www.franklintempleton.com/press-releases/news-room/2023/franklin-templeton-money-market-fund-launches-on-polygon-blockchain",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -14933,12 +14950,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-02-09 and 2023-09-18",
+        "summary": "Optimism distributed additional OP governance tokens through Airdrop #2 in February and Airdrop #3 in September 2023, rewarding hundreds of thousands of eligible addresses across the two distributions.",
+        "significance": "The recurring airdrops reinforced Optimism's strategy of distributing governance ownership over time instead of relying on a single token launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Optimism — Airdrop history",
+            "url": "https://app.optimism.io/airdrops/5%EC%97%90%EC%96%B4%EB%93%9C%EB%9E%8D",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15080,7 +15103,7 @@
     },
     {
       "id": "LORE-EVT-0530",
-      "date": "2023",
+      "date": "2022-12-25",
       "title": "BONK airdrop helps energize Solana ecosystem",
       "branch": [
         "ALTCOINS",
@@ -15089,12 +15112,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2022-12-25",
+        "summary": "BONK launched on Christmas Day 2022, with more than half of its supply distributed to developers and creators across the Solana ecosystem.",
+        "significance": "The community distribution arrived immediately after the FTX shock and became an important morale and meme-culture catalyst for Solana's recovery.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BONK — About / launch history",
+            "url": "https://www.bonkcoin.com/about",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22423,12 +22452,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2023-03-10 to 2023-03-13",
+        "summary": "USDC fell below its $1 target after Circle disclosed that $3.3 billion of its reserve cash was held at failed Silicon Valley Bank. DAI also traded below $1 because a large share of Maker's peg-supporting reserves depended on USDC. USDC returned toward parity after US authorities guaranteed SVB depositors.",
+        "significance": "The episode demonstrated how centralized banking risk could transmit directly into supposedly on-chain stablecoins and DeFi collateral.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Circle — $3.3B USDC Reserve Risk Removed, Dollar De-peg Closes",
+            "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Emergency Parameter Changes, March 11 2023",
+            "url": "https://vote.makerdao.com/executive/template-executive-vote-emergency-parameter-changes-march-11-2023",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22445,14 +22485,30 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED",
+        "exact_date": "2023-03-11 to 2023-03-29",
+        "summary": "Maker governance responded to the USDC depeg with emergency parameter changes that reduced exposure and altered Peg Stability Module settings, followed by debate over reserve diversification and later normalization.",
+        "significance": "The response was a live demonstration of decentralized risk management under banking-sector stress and exposed Maker's dependence on centralized stablecoin collateral.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Maker Governance — Emergency Parameter Changes, March 11 2023",
+            "url": "https://vote.makerdao.com/executive/template-executive-vote-emergency-parameter-changes-march-11-2023",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — Emergency PSM Changes, March 14 2023",
+            "url": "https://vote.makerdao.com/executive/template-executive-vote-emergency-psm-changes-march-14-2023",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Maker Governance — PSM Parameter Normalization, March 20 2023",
+            "url": "https://vote.makerdao.com/polling/QmQ1fYm3",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0808",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -22636,12 +22692,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-04-24",
+        "summary": "Coinbase filed a federal-court action seeking to compel the SEC to answer its July 2022 petition asking for crypto-specific rulemaking.",
+        "significance": "The action turned the industry's recurring demand for regulatory clarity into a direct administrative-law confrontation with the SEC.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Formal step seeking SEC response to rulemaking petition",
+            "url": "https://www.coinbase.com/en-de/blog/coinbase-takes-another-formal-step-to-seek-regulatory-clarity-from-sec-for",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22659,12 +22721,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-07-13",
+        "summary": "After the federal court's partial summary-judgment ruling in SEC v. Ripple, Coinbase announced that XRP trading had been relisted on its platform.",
+        "significance": "The relisting became the immediate market consequence of a ruling that distinguished Ripple's institutional sales from programmatic exchange sales.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC filing summary of July 13 2023 Ripple ruling",
+            "url": "https://www.sec.gov/Archives/edgar/data/2059438/000207184425000517/424b3.htm",
+            "type": "REGULATORY_FILING"
+          },
+          {
+            "title": "Coinbase Help — XRP relisted July 13",
+            "url": "https://help.coinbase.com/en/coinbase/trading-and-funding/cryptocurrency-trading-pairs/ripple-sec",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -22815,12 +22888,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2023-04-06",
+        "summary": "The Solana Foundation publicly highlighted state compression and compressed NFTs, showing that one million NFTs could be minted for roughly $110 at then-current prices.",
+        "significance": "Compressed NFTs dramatically changed the economics of mass-scale digital assets and enabled use cases such as loyalty, messaging and DePIN credentials.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Solana Foundation — State compression / compressed NFTs",
+            "url": "https://solana.com/ar/news/state-compression-compressed-nfts-solana",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
