@@ -3,7 +3,7 @@
   "archive": "LORE Crypto History Archive",
   "updated": "2026-09-25",
   "event_id_policy": "Permanent archive IDs are independent of season/card numbers.",
-  "status_note": "Evidence phase active. 2021 cleanup now also covers mining migration, Gemini Earn, CowSwap, Aave Polygon, Binance regulatory pressure, FTX sponsorships, Bitcoin 2021, laser eyes and major lost-key lore; FTX tokenized stocks were corrected to November 2020.",
+  "status_note": "Evidence phase active. 2021 NFT/PFP/DAO and culture cleanup now verifies VeeFriends, Pudgy Penguins, the $11.8m CryptoPunk, auction-house NFT adoption, GitcoinDAO, YGG, Fantom incentives, Coinbase NFT plans and the Dec. 8 House crypto hearing.",
   "events": [
     {
       "id": "LORE-EVT-0001",
@@ -5171,12 +5171,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Profile-picture NFT collections such as CryptoPunks, Bored Ape Yacht Club and Pudgy Penguins became visible social-identity markers across crypto communities during 2021.",
+        "significance": "PFP culture turned NFT ownership into public online identity and status, helping drive the mass NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — 2021 Historic Year in Review",
+            "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          },
+          {
+            "title": "Pudgy Penguins — Lore",
+            "url": "https://media.pudgypenguins.com/lore",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -7559,14 +7570,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE",
+        "exact_date": "2021",
+        "summary": "This is the same NFT profile-picture culture trend represented by LORE-EVT-0189.",
+        "significance": "Canonicalized to LORE-EVT-0189.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — 2021 Historic Year in Review",
+            "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          },
+          {
+            "title": "Pudgy Penguins — Lore",
+            "url": "https://media.pudgypenguins.com/lore",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0189",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -13442,14 +13464,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2021-09",
+        "summary": "Bored Ape Yacht Club moved from a fast-selling PFP collection into a high-value secondary and auction market; Sotheby's sold a lot of 101 Bored Apes for $24.4 million in September 2021.",
+        "significance": "The auction-market expansion demonstrated BAYC's shift from internet collectible to globally recognized luxury/status asset.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — 2021 Historic Year in Review",
+            "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0116",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
@@ -13613,12 +13641,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2021-08-30",
+        "summary": "The Fantom Foundation announced a 370 million FTM incentive program for protocols deploying on Fantom, allocating rewards based on sustained TVL.",
+        "significance": "The incentive program accelerated Fantom's 2021 DeFi expansion and exemplified the cross-chain liquidity-incentive competition of the period.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Fantom Foundation — 370m FTM Incentive Program",
+            "url": "https://blog.fantom.foundation/announcing-370m-ftm-incentive-program/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15791,12 +15825,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-25",
+        "summary": "Gitcoin introduced the GTC governance token and GitcoinDAO on 25 May 2021, distributing governance to the community around its open-source funding ecosystem.",
+        "significance": "The move converted one of Ethereum's best-known public-goods funding projects into a token-governed DAO.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gitcoin Governance — GTC Distribution Q&A",
+            "url": "https://gov.gitcoin.co/t/gtc-distribution-q-a/3253",
+            "type": "PROJECT_FORUM_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -15813,14 +15853,20 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021-08-08",
+        "summary": "Nouns DAO's daily-auction model is already captured in the canonical Nouns launch record LORE-EVT-1134.",
+        "significance": "Avoid double-counting the same DAO/NFT innovation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Nouns",
+            "url": "https://nouns.wtf/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1134",
+        "relation": "DUPLICATE",
         "notes": null
       }
     },
@@ -20061,14 +20107,25 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "DUPLICATE_OR_CONTEXT",
+        "exact_date": "2021",
+        "summary": "NFT avatars becoming status symbols on social media is the same wider PFP identity trend represented by LORE-EVT-0189.",
+        "significance": "Keep as social/cultural context rather than a competing card event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — 2021 Historic Year in Review",
+            "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          },
+          {
+            "title": "Pudgy Penguins — Lore",
+            "url": "https://media.pudgypenguins.com/lore",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0189",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
@@ -20133,12 +20190,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-06-10",
+        "summary": "CryptoPunk #7523, the 'Covid Alien,' sold at Sotheby's for $11.8 million.",
+        "significance": "The sale set a then-record auction price for a single CryptoPunk and helped establish Punks as blue-chip digital collectibles within traditional auction markets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — CryptoPunk #7523 record",
+            "url": "https://www.sothebys.com/en/press/punks-on-paper",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          },
+          {
+            "title": "Sotheby's — 2021 Historic Year in Review",
+            "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20177,12 +20245,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-22",
+        "summary": "Pudgy Penguins minted on 22 July 2021; the 8,888-piece collection sold out in under 20 minutes at 0.03 ETH each.",
+        "significance": "The collection became a major PFP brand and later one of the most successful examples of an NFT project expanding into consumer products.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Pudgy Penguins — Lore",
+            "url": "https://media.pudgypenguins.com/lore",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20249,12 +20323,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-05-11",
+        "summary": "VeeFriends Series 1 launched on 11 May 2021 with 10,255 NFTs created by Gary Vaynerchuk, combining collectible characters with access and utility tied to the VeeCon event ecosystem.",
+        "significance": "VeeFriends became one of the clearest examples of a mainstream entrepreneur using NFTs as access passes and community membership rather than only digital art.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "VeeFriends — Series 1 Collection",
+            "url": "https://veefriends.com/about/explore/veefriends-series-1-collection",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Gary Vaynerchuk — VeeFriends",
+            "url": "https://garyvaynerchuk.com/veefriends/",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -20272,14 +20357,25 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2021",
+        "summary": "Gary Vaynerchuk became one of the most visible mainstream promoters of NFTs while launching and marketing VeeFriends.",
+        "significance": "This is founder/culture context for the canonical VeeFriends launch rather than a separate historical event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "VeeFriends — Series 1 Collection",
+            "url": "https://veefriends.com/about/explore/veefriends-series-1-collection",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Gary Vaynerchuk — VeeFriends",
+            "url": "https://garyvaynerchuk.com/veefriends/",
+            "type": "FOUNDER_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0772",
+        "relation": "PEOPLE_CONTEXT",
         "notes": null
       }
     },
@@ -20569,12 +20665,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-10-12",
+        "summary": "Coinbase announced Coinbase NFT and opened an early-access waitlist for a planned peer-to-peer NFT marketplace.",
+        "significance": "The announcement showed a major regulated exchange attempting to expand directly into the consumer NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — Coinbase NFT coming soon",
+            "url": "https://www.coinbase.com/en-gb/blog/coinbase-nft-is-coming-soon-join-the-waitlist-today-for-early-access",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -23414,12 +23516,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2021",
+        "summary": "Sotheby's and Christie's rapidly expanded into NFTs in 2021. Sotheby's reported nearly $100 million in NFT sales and Christie's reported roughly $150 million, with both attracting large numbers of new buyers.",
+        "significance": "Traditional auction houses embracing NFTs was a major institutional-art-market validation of crypto-native digital ownership.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Sotheby's — 2021 Historic Year in Review",
+            "url": "https://www.sothebys.com/en/articles/2021-historic-year-in-review",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          },
+          {
+            "title": "Christie's — 2021 End of Year Press Release",
+            "url": "https://press.christies.com/christies-2021-end-of-year-press-release/",
+            "type": "AUCTION_HOUSE_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -25269,12 +25382,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-12-08",
+        "summary": "Sam Bankman-Fried testified before the U.S. House Committee on Financial Services alongside executives from Circle, Coinbase, Paxos, Stellar and Bitfury in a hearing on digital assets and financial innovation.",
+        "significance": "The hearing represented the crypto industry's growing direct engagement with US federal policymakers before FTX's collapse the following year.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US House Financial Services — Digital Assets hearing",
+            "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=114305",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -28439,12 +28558,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2021-07-27",
+        "summary": "Yield Guild Games conducted its public YGG token sale on 27 July 2021, with YGG serving as the utility and membership token for the guild's DAO.",
+        "significance": "YGG formalized the large-scale play-to-earn guild model that pooled NFT game assets and organized global player communities.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Yield Guild Games — YGG Token Sale",
+            "url": "https://yieldguild.medium.com/ygg-token-sale-how-to-buy-9b22e8f4a019",
+            "type": "PROJECT_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
