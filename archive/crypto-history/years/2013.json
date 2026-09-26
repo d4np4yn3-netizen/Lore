@@ -612,16 +612,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NARROWED_AND_VERIFIED",
-        "exact_date": "2013-05-17",
-        "summary": "BitInstant, led by CEO Charlie Shrem, publicly announced a $1.5 million seed round led by Winklevoss Capital; contemporaneous reporting described it as a major early Bitcoin on-ramp.",
-        "significance": "The financing captures the moment early Bitcoin entrepreneurship began attracting recognizable venture investors and made Shrem one of the era's most visible young executives.",
-        "source_confidence": "MEDIUM_HIGH",
+        "state": "VERIFIED_WITH_2013_MILESTONE",
+        "exact_date": "2013-05",
+        "summary": "By May 2013, Charlie Shrem was CEO of BitInstant, vice chairman of the Bitcoin Foundation and a highly visible speaker in the early Bitcoin startup scene. BitInstant was reported to be processing roughly 30% of money moving into and out of Bitcoin.",
+        "significance": "Shrem became one of the first recognizable Bitcoin entrepreneurs, making his later arrest and conviction especially significant to the industry's early regulatory history.",
+        "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "TechCrunch — BitInstant raises $1.5m led by Winklevoss Capital",
+            "title": "TechCrunch — BitInstant raises $1.5M, May 2013",
             "url": "https://techcrunch.com/2013/05/17/with-1-5m-led-by-winklevoss-capital-bitinstant-aims-to-be-the-go-to-site-to-buy-and-sell-bitcoins/",
             "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "US DOJ — Charlie Shrem case background",
+            "url": "https://www.justice.gov/usao-sdny/pr/former-ceo-bitcoin-exchange-company-sentenced-manhattan-federal-court-two-years-prison",
+            "type": "GOVERNMENT"
           }
         ],
         "canonical_event_id": null,
@@ -691,15 +696,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "LocalBitcoins grew as a global peer-to-peer venue, but 'expands worldwide' is not a single clean historical event.",
-        "significance": "Replace or link to a specific launch, country expansion, volume milestone or later closure event before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2013-06 to 2013-07",
+        "summary": "LocalBitcoins had expanded into a global peer-to-peer marketplace by mid-2013. Retrospective platform data reports about 44,000 users across 142 countries by its first anniversary, while contemporary WIRED reporting described it as ground zero for face-to-face Bitcoin trading.",
+        "significance": "LocalBitcoins became crucial infrastructure for buying Bitcoin with local cash and bank methods where conventional exchanges were unavailable or intrusive.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "WIRED — Why the Only Real Way to Buy Bitcoins Is on the Streets",
+            "url": "https://www.wired.com/2013/07/buttonwood/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Odaily retrospective — LocalBitcoins first-anniversary user/country figures",
+            "url": "https://www.odaily.news/en/post/5185579",
+            "type": "RETROSPECTIVE_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use platform-scale figures as retrospective data; WIRED provides contemporary evidence of its importance."
       }
     },
     {
@@ -797,15 +813,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NEEDS_REWRITE",
-        "exact_date": "2013",
-        "summary": "Headlines in 2013 described Thailand as having 'banned' Bitcoin, but the underlying position was more ambiguous than a formal nationwide statutory ban.",
-        "significance": "This belongs in the archive as an example of early regulatory uncertainty, but the current title overstates the verified fact.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AS_REPORTED_REGULATORY_AMBIGUITY",
+        "exact_date": "2013-07-29",
+        "summary": "Bitcoin Co. Ltd. said it suspended operations after Bank of Thailand officials advised that multiple Bitcoin activities were illegal because no applicable legal framework existed. Contemporary reporting called this a 'ban,' but the episode did not amount to a clearly documented nationwide statutory prohibition.",
+        "significance": "The incident is an early example of crypto headlines outrunning legal precision and helped establish the recurring 'country bans Bitcoin' news cycle.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Ars Technica — Thailand bitcoin-ban report",
+            "url": "https://arstechnica.com/tech-policy/2013/07/thailand-bans-using-bitcoin-in-any-way-local-startup-reports/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": "Needs country-primary-source research before canonical publication; do not score in current wording."
+        "notes": "Keep wording explicitly qualified as a reported regulator position, not an enacted blanket statute."
       }
     },
     {
@@ -904,12 +926,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2013",
-        "summary": "BTC Guild was a major early Bitcoin mining pool, but this row needs a precisely sourced hashrate or block-share milestone.",
-        "significance": "Important mining-concentration context; not ready for canonical scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_ACADEMIC_DATA",
+        "exact_date": "2013-04 to 2013-07",
+        "summary": "Academic measurements of Bitcoin mining in spring/summer 2013 showed BTC Guild and 50BTC together controlling more than 55% of network hashing power for part of the period.",
+        "significance": "The concentration made BTC Guild a central case in early debate over whether pooled mining could undermine Bitcoin's decentralization.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "IACR ePrint — Is Bitcoin a Decentralized Currency?",
+            "url": "https://eprint.iacr.org/2013/829.pdf",
+            "type": "ACADEMIC_PRIMARY"
+          },
+          {
+            "title": "UCL Discovery — published article record",
+            "url": "https://discovery.ucl.ac.uk/id/eprint/10182355/",
+            "type": "ACADEMIC_REPOSITORY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -927,15 +960,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "ASIC resistance became a recurring altcoin design goal as Bitcoin mining specialized.",
-        "significance": "A technological trend, not a single event. Replace with specific algorithm/project changes if selected.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2013 era",
+        "summary": "As Bitcoin mining became dominated by specialized ASICs, alternative cryptocurrencies increasingly experimented with memory-hard algorithms such as Scrypt and later explicit ASIC-resistance strategies.",
+        "significance": "ASIC resistance became a recurring design and governance question: whether mining should remain accessible to commodity hardware or optimize for specialized efficiency.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Litecoin — How Litecoin was created",
+            "url": "https://litecoin.com/learning-center/how-was-litecoin-created",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "IACR ePrint — Bitcoin mining concentration in 2013",
+            "url": "https://eprint.iacr.org/2013/829.pdf",
+            "type": "ACADEMIC_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Trend/context row; explicit anti-ASIC projects such as Vertcoin are cleaner later milestones."
       }
     },
     {
@@ -949,15 +993,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "Bitcoin tipping on Reddit and similar communities became common during the 2013 adoption wave.",
-        "significance": "Strong culture context but lacks one clean event/date.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CULTURE_CONTEXT_VERIFIED",
+        "exact_date": "2012-2013",
+        "summary": "Reddit's /u/bitcointip bot let users tip Bitcoin through comments and private messages; by 2013 tipping strangers had become a recognizable part of early Bitcoin internet culture.",
+        "significance": "Tiny tips exposed people to Bitcoin without an exchange account and helped frame BTC as native internet money rather than only an investment.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Reddit archive — Bitcointip bot how-to",
+            "url": "https://www.reddit.com/r/test/comments/11iby2/bitcointip_tip_redditors_with_bitcoin/",
+            "type": "COMMUNITY_PRIMARY"
+          },
+          {
+            "title": "Reddit retrospective — 2013 bitcoinbillionaire tipping episode",
+            "url": "https://www.reddit.com/r/Bitcoin/comments/igw8wr",
+            "type": "COMMUNITY_RETROSPECTIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "The bot existed in 2012; 2013 represents cultural growth, not launch."
       }
     },
     {
@@ -1028,15 +1083,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "Roger Ver invested in and promoted multiple early Bitcoin startups, but the current row is too broad to stand as one event.",
-        "significance": "Replace with a specific documented investment or company milestone before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SPECIFIC_INVESTMENT",
+        "exact_date": "2013-01-07",
+        "summary": "BitPay announced its first outside financing round in January 2013 with Roger Ver among the angel investors; Ver paid his investment contribution in Bitcoin.",
+        "significance": "Ver's early investments in Bitcoin businesses helped fund the first generation of commercial infrastructure and reinforced his 'Bitcoin Jesus' evangelist reputation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitPay — $510,000 funding round",
+            "url": "https://www.bitpay.com/blog/bitpay-to-expand-bitcoin-processing-space-with-510000-funding-round",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Roger Ver biography",
+            "url": "https://www.rogerver.com/bio/",
+            "type": "PERSONAL_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Rewritten around a documented investment rather than a vague claim that he funded startups generally."
       }
     },
     {
@@ -1135,15 +1201,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2013",
-        "summary": "Armory was influential in advanced Bitcoin wallet and cold-storage practices, but the current title describes a trend rather than a dated event.",
-        "significance": "Needs a specific release or feature milestone before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2013 era",
+        "summary": "Bitcoin Armory made offline 'cold storage' practical through watching-only wallets and offline signing, bringing an advanced key-security model to users managing larger Bitcoin balances.",
+        "significance": "Armory helped turn cold storage from an expert technique into recognizable wallet functionality and influenced later self-custody products.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Armory — Cold Storage",
+            "url": "https://www.bitcoinarmory.com/cold-storage/",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Bitcoin Armory — FAQ / offline wallets",
+            "url": "https://www.bitcoinarmory.com/faq/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/adoption row; not asserting cold storage itself was invented in 2013."
       }
     },
     {
