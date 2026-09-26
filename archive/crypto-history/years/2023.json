@@ -2506,15 +2506,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "VERIFIED_WITH_EXAMPLES",
         "exact_date": "2023",
-        "summary": "Movements from long-dormant Bitcoin addresses repeatedly generated speculation in 2023.",
-        "significance": "This is a recurring phenomenon rather than one historical event; replace with a specific wallet, block-era provenance and transaction if a LORE card is desired.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Multiple long-dormant Bitcoin wallets moved substantial balances during 2023. Examples included a nine-year-dormant wallet transferring 2,071.5 BTC in April and a 2010-mined 1,005 BTC stash moving in August.",
+        "significance": "These awakenings repeatedly revived speculation about early miners, old keys and whether dormant supply might return to the market.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "The Block — dormant Bitcoin whale transfers $60M after nine years",
+            "url": "https://www.theblock.co/news/ecosystems/2023-04-20-dormant-bitcoin-whale-60-million-9-years-227275",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Cointelegraph — 1,005 BTC mined in 2010 moves after 13 years",
+            "url": "https://cointelegraph.com/news/satoshi-era-bitcoin-awakens-1005-btc-from-2010-on-the-move",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/trend row based on documented examples; do not imply any wallet belonged to Satoshi without evidence."
       }
     },
     {
@@ -2556,15 +2567,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_WITH_DATA",
         "exact_date": "2023",
-        "summary": "Crypto sponsorships across sport were reduced, terminated or renegotiated after the 2022 market collapse and failures such as FTX.",
-        "significance": "The broader unwind is historically useful context but should be split into specific naming-rights or sponsorship terminations before card scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Crypto sports sponsorship activity fell sharply after the 2021-2022 boom and industry failures. CoinGecko's retrospective counted only eight new crypto sports sponsorships in 2023, versus much higher levels near the market peak.",
+        "significance": "The pullback visually captures how the bear market and failures such as FTX reversed crypto's aggressive mainstream marketing expansion.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinGecko Research — crypto sports sponsorships",
+            "url": "https://www.coingecko.com/research/publications/crypto-sports-sponsorships",
+            "type": "MARKET_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use the measured sponsorship decline rather than a vague claim that all deals disappeared."
       }
     },
     {
@@ -3419,5 +3436,7 @@
         "notes": null
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
