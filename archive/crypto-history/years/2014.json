@@ -638,15 +638,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_WITH_LATER_CASE_RECORD",
         "exact_date": "2014",
-        "summary": "Cryptsy grew into a large altcoin exchange during the 2013–2014 proliferation of alternative cryptocurrencies.",
-        "significance": "The row is a growth trend rather than a single event; replace with a sourced volume milestone or collapse event before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Cryptsy was a significant US-based altcoin exchange during 2014. A later federal indictment described its operator's control of customer wallets from 2013–2015 and alleged a July 2014 hack loss that was concealed from customers.",
+        "significance": "Cryptsy exemplifies the operational opacity and custody risk of the early altcoin-exchange era before its eventual collapse.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Cryptsy CEO indictment and 2014 hack background",
+            "url": "https://www.justice.gov/usao-sdfl/pr/ceo-major-online-cryptocurrency-exchange-company-indicted-defrauding-company-s",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use as exchange-era context; the later collapse is a cleaner standalone event."
       }
     },
     {
@@ -660,15 +666,21 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CLAIM_NEEDS_REWRITE",
-        "exact_date": null,
-        "summary": "The current claim that ENS 'concept emerges' in 2014 is too vague and predates the clearly documented ENS project launch era.",
-        "significance": "Do not score this row until replaced by a specific, sourced ENS proposal or launch milestone.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": "Likely replace with ENS launch in 2017 rather than preserve a speculative 2014 concept row."
+        "state": "CLAIM_REJECTED_AND_REDIRECTED",
+        "exact_date": "2017-05-04",
+        "summary": "The archive's original claim that ENS emerged as a distinct 2014 event is too early and vague. The initial ENS registrar launched on Ethereum in May 2017.",
+        "significance": "This row should not be treated as a 2014 event; ENS history is already represented by the canonical 2017 launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EIP-162 — Initial ENS Hash Registrar",
+            "url": "https://eips.ethereum.org/EIPS/eip-162",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0414",
+        "relation": "ERRONEOUS_PRECURSOR",
+        "notes": "Keep only as an editorial correction; exclude from card scoring."
       }
     },
     {
@@ -799,12 +811,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2014",
-        "summary": "Dogecoin's community also funded charitable clean-water efforts in Kenya during its early philanthropic phase.",
-        "significance": "Strong community-lore candidate but exact campaign date/amount needs a first-party/contemporary source.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-03-31",
+        "summary": "The Dogecoin community's Doge4Water fundraiser raised about $32,000 for charity: water, including a roughly $30,439 Dogecoin community contribution.",
+        "significance": "Alongside the Jamaican bobsled fundraiser, Doge4Water showed how meme-coin culture could mobilize real charitable funding.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "charity: water — Dogecoin Foundation / Doge4Water campaign",
+            "url": "https://www.charitywater.org/dogecoin-foundation",
+            "type": "CHARITY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -879,18 +897,13 @@
       "research": {
         "state": "CONTEXT_VERIFIED",
         "exact_date": "2014",
-        "summary": "Namecoin continued developing non-currency naming and identity applications, including .bit domains and identity namespaces such as id/ used by NameID.",
-        "significance": "Namecoin showed very early that a blockchain could secure names and identities, not just monetary balances.",
+        "summary": "Namecoin development continued focusing on decentralized .bit naming and identity-style records, with the project discussing Tor integration and privacy for purchasing records such as .bit domains and id/ identities.",
+        "significance": "Namecoin remained an early demonstration that blockchain namespaces could support identity and naming use cases beyond currency.",
         "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Namecoin FAQ — namespaces, .bit and identity",
-            "url": "https://www.namecoin.org/docs/faq/",
-            "type": "PROJECT_PRIMARY"
-          },
-          {
-            "title": "Namecoin team — NameID and identity applications",
-            "url": "https://www.namecoin.org/team/",
+            "title": "Namecoin — official 2014 development/social account notice",
+            "url": "https://www.namecoin.org/2014/10/03/official-social-media-accounts.html",
             "type": "PROJECT_PRIMARY"
           }
         ],
@@ -1079,15 +1092,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2011-2014",
-        "summary": "Gavin Andresen became Bitcoin's most visible lead maintainer after Satoshi stepped away.",
-        "significance": "Biographical/governance trend rather than one 2014 event; specific maintainer transitions are better candidates.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "After Satoshi withdrew, Gavin Andresen became Bitcoin's most visible lead developer/maintainer and a frequent public representative of the project.",
+        "significance": "The transition illustrates Bitcoin moving from founder-led development toward a broader maintainer and community governance model.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi final email to Mike Hearn — moved on",
+            "url": "https://bitcoin-institute.pages.dev/entries/correspondence/mike-hearn/holding-coins/2011-04-23-satoshi-to-hearn-moved-on/",
+            "type": "PRIMARY_ARCHIVE"
+          },
+          {
+            "title": "WIRED — 2014 discussion identifying Andresen as lead Bitcoin developer",
+            "url": "https://www.wired.com/2014/03/bitcoin-satoshi/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Biographical/governance context, not a single 2014 appointment."
       }
     },
     {
@@ -1101,12 +1125,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2014",
-        "summary": "The Bitcoin reference implementation's branding shifted from Bitcoin-Qt toward Bitcoin Core.",
-        "significance": "Potential software-history milestone; needs exact release/version documentation before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-03-19",
+        "summary": "Bitcoin Core 0.9.0 formally rebranded the reference client from Bitcoin-Qt to Bitcoin Core to reduce confusion between Bitcoin the network and Bitcoin the software.",
+        "significance": "The naming change reinforced the distinction between an open protocol/network and one particular software implementation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin.org — Bitcoin Core 0.9.0 release notes",
+            "url": "https://bitcoin.org/en/release/v0.9.0",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1124,12 +1154,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2014",
-        "summary": "BitPay sponsored a US college-football bowl game that was branded the Bitcoin St. Petersburg Bowl.",
-        "significance": "Strong mainstream-culture candidate; exact announcement/game date and sponsorship terms need authoritative sourcing.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-06-18",
+        "summary": "BitPay and ESPN Events announced a three-year sponsorship creating the Bitcoin St. Petersburg Bowl, with the first branded game scheduled for 26 December 2014.",
+        "significance": "The 'Bitcoin Bowl' was one of the earliest large-scale attempts to put Bitcoin branding in front of a mainstream US sports television audience.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitPay — ESPN and BitPay enter 3-year NCAA bowl deal",
+            "url": "https://www.bitpay.com/blog/espn-and-bitpay-enter-3-year-deal-to-produce-ncaa-bowl-game",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1258,12 +1294,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2014",
-        "summary": "The Moolah/MintPal story combined exchange acquisition, operational failure and allegations around Moolah's operator.",
-        "significance": "Potentially strong LORE, but this composite row needs splitting into named, sourced incidents before canonical publication.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2014-07 to 2014-10",
+        "summary": "Moolah acquired troubled altcoin exchange MintPal in July 2014, oversaw a problematic relaunch, and by mid-October announced a shutdown/bankruptcy plan amid a funding crisis.",
+        "significance": "The episode condensed early-exchange risk, opaque acquisitions and startup failure into one of 2014's most chaotic altcoin-platform stories.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Moolah acquires MintPal",
+            "url": "https://www.coindesk.com/markets/2014/07/28/moolah-acquires-troubled-altcoin-exchange-mintpal",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinDesk — Moolah announces bankruptcy plan and MintPal transition",
+            "url": "https://www.coindesk.com/markets/2014/10/15/moolah-announces-bankruptcy-plan-mintpal-transition-amid-money-crisis",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1280,15 +1327,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2014",
-        "summary": "MintPal suffered a major security incident during 2014.",
-        "significance": "Requires primary/contemporary source and exact loss/date before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_REPORTED_LOSS",
+        "exact_date": "2014-07 (reported)",
+        "summary": "MintPal suffered a severe security breach involving millions of Vericoin; contemporary coverage of its acquisition described the hack as compromising nearly $2 million in customer funds.",
+        "significance": "The hack weakened one of the era's popular altcoin exchanges and set the stage for its troubled acquisition and collapse.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Moolah acquires troubled MintPal after hack",
+            "url": "https://www.coindesk.com/markets/2014/07/28/moolah-acquires-troubled-altcoin-exchange-mintpal",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinDesk — MintPal relaunch problems and prior Vericoin theft",
+            "url": "https://www.coindesk.com/fr/markets/2014/10/08/mintpal-exchange-relaunch-plagued-by-technical-issues-user-complaints",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use contemporaneous reported figures; token/USD values varied."
       }
     },
     {
@@ -1356,13 +1414,19 @@
       "status": "RESEARCH_REQUIRED",
       "research": {
         "state": "DUPLICATE_OR_CONTEXT",
-        "exact_date": "2014",
-        "summary": "The Bitcoin St. Petersburg Bowl sponsorship and related BitPay branding were part of the same college-football marketing story.",
-        "significance": "Likely duplicate/context of LORE-EVT-0680 once the sponsorship announcement is precisely sourced.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "exact_date": "2014-12-26",
+        "summary": "The Bitcoin St. Petersburg Bowl was played on 26 December 2014 under the sponsorship announced by BitPay and ESPN.",
+        "significance": "Game-day context for the canonical Bitcoin Bowl sponsorship event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "BitPay — ESPN and BitPay enter 3-year NCAA bowl deal",
+            "url": "https://www.bitpay.com/blog/espn-and-bitpay-enter-3-year-deal-to-produce-ncaa-bowl-game",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0680",
-        "relation": "CONTEXT",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
@@ -1407,15 +1471,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_WITH_CASE_EXAMPLE",
         "exact_date": "2014",
-        "summary": "Retail cloud-mining services became popular as specialized hardware made home mining harder.",
-        "significance": "Trend row rather than one event; needs a specific provider/milestone before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Hosted/cloud mining products expanded rapidly as ASIC mining became harder for individuals to operate directly. GAW Miners and ZenMiner sold 'hashlets' representing purported shares of hosted mining power beginning in 2014.",
+        "significance": "Cloud mining turned industrial mining capacity into a retail financial product, but also created new fraud and counterparty risks.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — GAW Miners/ZenMiner fraud case background",
+            "url": "https://www.justice.gov/usao-ct/pr/former-virtual-currency-ceo-pleads-guilty-9-million-fraud-scheme",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Trend illustrated with a documented case, not a claim that all cloud mining was fraudulent."
       }
     },
     {
@@ -1429,12 +1499,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2014",
-        "summary": "Scrypt ASIC hardware began eroding Litecoin's earlier resistance to specialized mining.",
-        "significance": "Technological trend relevant to mining history, but current row lacks one clean event/date.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "Scrypt ASIC hardware arrived in 2014 and displaced GPU mining on Litecoin, ending the period in which Scrypt was widely viewed as resistant to specialized mining hardware.",
+        "significance": "The transition showed how difficult long-term ASIC resistance was to achieve and changed Litecoin mining economics.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Litecoin Learning Center — mining Litecoin / Scrypt ASICs",
+            "url": "https://litecoin.com/learning-center/how-to-mine-litecoin",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1451,12 +1527,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2014",
-        "summary": "ChangeTip became a prominent social tipping service using Bitcoin.",
-        "significance": "Potential culture card, but needs a specific launch/funding/adoption milestone sourced before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2014-12",
+        "summary": "ChangeTip raised a $3.5 million seed round as its Bitcoin micropayment/tipping service spread across social networks; it also reported bursts of roughly 10,000 tips in a day during its 2014 growth.",
+        "significance": "ChangeTip represented the idea that Bitcoin could become frictionless social-media money through tiny off-chain tips.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — ChangeTip raises $3.5M",
+            "url": "https://www.coindesk.com/markets/2014/12/02/changetip-raises-35-million-for-bitcoin-micropayments-service",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "CoinDesk — Bitcoin Giving Tuesday / ChangeTip activity",
+            "url": "https://www.coindesk.com/markets/2014/12/02/charities-and-businesses-unite-to-launch-bitcoin-giving-tuesday",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1530,12 +1617,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2014",
-        "summary": "McCaleb's proposed XRP sales created market and governance controversy after his departure from Ripple.",
-        "significance": "Requires direct contemporary/source documentation of the announcement and response before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_LEGAL_RECORD",
+        "exact_date": "2014-08-13",
+        "summary": "After leaving Ripple, Jed McCaleb and Ripple Labs entered an August 2014 agreement restricting sales of his large XRP holdings; later litigation centered on alleged violations of those restrictions.",
+        "significance": "The agreement made founder token concentration and controlled selling an early, visible crypto market-structure issue.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US federal court order describing the August 13 2014 McCaleb/Ripple agreement",
+            "url": "https://docs.justia.com/cases/federal/district-courts/california/candce/3%3A2015cv01503/286282/119",
+            "type": "COURT_RECORD"
+          },
+          {
+            "title": "SEC-filed XRP fund disclosure describing 2014 agreement",
+            "url": "https://www.sec.gov/Archives/edgar/data/2037427/000119312526104248/ck0002037427-20251231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1552,15 +1650,26 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2014",
-        "summary": "Nick Szabo has repeatedly appeared in media speculation about Satoshi Nakamoto.",
-        "significance": "This is an enduring theory rather than a single 2014 event; replace with a specific publication/claim if included.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_AS_SPECULATION_CONTEXT",
+        "exact_date": "2014-04-16",
+        "summary": "An Aston University stylometric analysis reported that Nick Szabo's writing was the closest match among its tested Satoshi candidates, adding to long-running speculation. Szabo has denied being Satoshi, and no cryptographic proof supports the identification.",
+        "significance": "The episode is part of the recurring Satoshi-identity industry and shows how linguistic evidence can create compelling but unproven narratives.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "NOS — 2014 report on Aston stylometric study naming Szabo",
+            "url": "https://nos.nl/artikel/636827-nieuwe-uitvinder-bitcoin-aangewezen",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — history of Satoshi identity speculation",
+            "url": "https://www.wired.com/2014/03/satoshi-nakamoto-identified/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Never state Szabo is Satoshi; this is speculation history."
       }
     },
     {
@@ -1632,12 +1741,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2014",
-        "summary": "A US court imposed remedies in the Bitcoin Savings & Trust securities-fraud case after the SEC action.",
-        "significance": "Needs exact judgment date, amount and court source before final verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2014-09-18",
+        "summary": "A US federal court entered final judgment against Trendon Shavers and Bitcoin Savings & Trust, ordering more than $40 million in disgorgement, interest and civil penalties over a Bitcoin-denominated Ponzi scheme.",
+        "significance": "It was one of the earliest major court judgments applying US securities law to Bitcoin-denominated investment fraud.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — Final judgment against Trendon Shavers and Bitcoin Savings & Trust",
+            "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-23090",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1654,15 +1769,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_LATER_CRIMINAL_FINDINGS",
         "exact_date": "2014",
-        "summary": "GAW Miners and Paycoin became a major mining/investment controversy in the 2014–2015 period.",
-        "significance": "Composite row requires splitting and government/court sourcing.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "GAW Miners, ZenMiner and related products sold hosted-mining 'hashlets' and later promoted PayCoin. Federal prosecutors later established that founder Homero Joshua Garza defrauded customers through the 2014–2015 scheme.",
+        "significance": "The GAW/PayCoin story became an early example of mining hype, cloud-mining financialization and a proprietary cryptocurrency converging in fraud.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "US DOJ — Garza guilty plea in $9M virtual-currency fraud",
+            "url": "https://www.justice.gov/usao-ct/pr/former-virtual-currency-ceo-pleads-guilty-9-million-fraud-scheme",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "US DOJ — Garza sentencing and scheme description",
+            "url": "https://www.justice.gov/usao-ct/pr/former-virtual-currency-ceo-involved-9-million-fraud-scheme-sentenced-prison",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Later court record used to establish facts about the 2014 scheme."
       }
     },
     {
@@ -1676,12 +1802,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2014",
-        "summary": "Blockchain.info became a widely used hosted/web Bitcoin wallet in the early adoption era.",
-        "significance": "Adoption trend, not one clean event; use a verified user-count milestone if retained.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MILESTONE",
+        "exact_date": "2014-01-06",
+        "summary": "Blockchain.info announced that its hosted Bitcoin wallet service had reached one million wallets, up from roughly 100,000 at the start of 2013.",
+        "significance": "The milestone demonstrated rapidly growing demand for easier web-based Bitcoin custody instead of running a full local client.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockchain.info — one million wallet announcement",
+            "url": "https://www.prweb.com/releases/blockchain_info_reaches_1_000_000_users/prweb11462968.htm",
+            "type": "COMPANY_PRESS_RELEASE"
+          },
+          {
+            "title": "CoinDesk — Blockchain.info reaches one million wallets",
+            "url": "https://www.coindesk.com/markets/2014/01/06/1-millionth-bitcoin-wallet-created-on-blockchaininfo",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1689,7 +1826,7 @@
     },
     {
       "id": "LORE-EVT-1065",
-      "date": "2014",
+      "date": "2011-11",
       "title": "Electrum establishes lightweight Bitcoin wallet model",
       "branch": [
         "BITCOIN",
@@ -1699,20 +1836,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": "2011 onward",
-        "summary": "Electrum was created in 2011 and helped establish the lightweight SPV-style wallet model; a generic 2014 'establishes' date is misleading.",
-        "significance": "Replace this row with Electrum's actual 2011 launch/release milestone after source verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2011-11",
+        "summary": "Electrum was created by Thomas Voegtlin in November 2011 as a lightweight Bitcoin client that could use remote servers instead of downloading the full blockchain.",
+        "significance": "Electrum established a durable lightweight-wallet model and remains one of Bitcoin's longest-lived self-custody wallets.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Electrum — official About history",
+            "url": "https://www.electrum.org/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Raw archive incorrectly placed this development in 2014."
       }
     },
     {
       "id": "LORE-EVT-1067",
-      "date": "2014",
+      "date": "2013-09-10",
       "title": "BIP39 mnemonic seed standard is proposed",
       "branch": [
         "SECURITY",
@@ -1721,15 +1864,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "DATE_OR_CLAIM_NEEDS_REWRITE",
-        "exact_date": "2013",
-        "summary": "BIP39, the mnemonic-code standard for deterministic wallet seeds, was proposed before 2014; the raw year assignment is inaccurate.",
-        "significance": "Move to the proposal/adoption date after direct BIP-history verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2013-09-10",
+        "summary": "BIP39 was assigned on 10 September 2013, specifying mnemonic word sequences that encode entropy and derive seeds for deterministic wallets.",
+        "significance": "BIP39 seed phrases became one of the most recognizable interfaces for self-custody and wallet recovery across crypto.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin BIPs — BIP39 Mnemonic code for generating deterministic keys",
+            "url": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Raw archive incorrectly placed the proposal in 2014."
       }
     },
     {
