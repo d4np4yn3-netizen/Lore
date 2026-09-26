@@ -57,8 +57,8 @@
     "selection_pass_new_events": 2
   },
   "next_work": [
-    "Review archive/crypto-history/selection/v1/season-one-100.md with Dan: 100 selected moments, including the 11 previously approved cards.",
-    "Resolve targeted evidence/date flags for the selected events, using selection/v1/review-qa.json. Do not restart exhaustive archive expansion.",
+    "Review the 100 selected moments and their briefs at cards/crypto/season-01/briefs/v1/README.md; retain all existing approvals and production holds.",
+    "Resolve targeted selected-event and Easter egg facts, dates, quotes and period-reference checks. Do not restart exhaustive archive expansion.",
     "Finalise the selected event copy and the 89 new moment choices; retain earlier production pauses and parked art concepts.",
     "Implement the approved vertical timeline direction from the shared selection data when website work is requested.",
     "Retain remaining year reconciliation as archive backlog; it is not a prerequisite for this explicitly provisional selection."
@@ -120,5 +120,21 @@
     "selection_method": "MANUAL_EDITORIAL_CURATION",
     "numerical_scoring": "NOT_PERFORMED",
     "individual_new_moments_approved": false
+  },
+  "card_briefs": {
+    "revision": "v1",
+    "status": "COMPLETE_DRAFT_PACK_FOR_REVIEW",
+    "file": "cards/crypto/season-01/briefs/v1/briefs-v1.json",
+    "index": "cards/crypto/season-01/briefs/v1/README.md",
+    "briefs": 100,
+    "easter_egg_concepts": 400,
+    "approved_visuals_preserved": 11,
+    "new_moment_proposals": 89,
+    "recorded_production_holds": 4,
+    "retained_details_from_approved_register": 4,
+    "new_egg_proposals": 396,
+    "new_artwork_created": false,
+    "new_approvals_created": false,
+    "full_new_source_audit_performed": false
   }
 }

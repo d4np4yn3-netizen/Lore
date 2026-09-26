@@ -2,18 +2,17 @@
 
 Updated 2026-09-26. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Active milestone: crypto timeline and Season One selection
+## Active milestone: 100 card briefs and 400 Easter egg concepts
 
-Dan approved the **250-event timeline / 100-card-moment direction** on 26 September 2026. Selection v1 contains **100 card moments + 150 supporting events**, spanning 1976–26 September 2026. The 100 proposed card moments run through 2025; current-year context remains provisional in historical perspective.
+Dan requested a brief and at least four Easter eggs for every selected card. The complete **100-brief / 400-clue draft pack** is at `cards/crypto/season-01/briefs/v1/README.md`, with individual briefs, a combined reading file, structured data and coverage QA. Each brief specifies story, scene, composition, mood, factual boundaries, four clue locations/meanings, copy status and sources.
 
-Review: **archive/crypto-history/selection/v1/README.md**.
-- Exact 100: `season-one-100.md`; full chronology: `timeline-250.md`.
-- Shared data: `selection-v1.json`; checks and date/source flags: `review-qa.json`.
-- All **11 approved visuals** are included and unchanged. The **89 new event choices and working titles remain proposals for Dan's review**; no new art was generated and no website was deployed.
-- First Transfer/First Halving remain paused; prior parked Silk Road/Slush concepts are not restarted by timeline inclusion.
-- Two sourced 2025 gaps were added: the official TRUMP token announcement and Ulbricht's pardon. Other year research and the full discovery archive are preserved.
+All **11 approved artworks and registers are unchanged**. Four clue entries retain details already described in approved records; 396 are new proposals. Additional clues on approved cards require separate revision approval. The 89 new moment choices and working titles remain proposals. No new illustration, phrase approval, rarity allocation, live QR or print release was created.
 
-Next: review the exact 100 choices, resolve targeted selected-event date/source flags, then finalise copy and new rarities. Do not require completion of all 1,229 discovery candidates before reviewing this selection. Earlier year-by-year reconciliation remains an archive backlog in `research-progress.json`.
+First Transfer/First Halving remain paused; parked Slush Pool/Silk Road concepts remain parked. Other existing holds are untouched. Historical references, symbolism and cross-card callbacks are labelled; inherited source/date flags remain open. This is complete briefing, not a claim of 400 newly verified historical props.
+
+The underlying **250-event timeline = 100 card moments + 150 supporting events**, spanning 1976–26 September 2026, remains at `archive/crypto-history/selection/v1/README.md`. Proposed cards stop at 2025; 2026 context is provisional.
+
+Next: review one active card's brief and four clues, resolve its targeted evidence/copy gaps, then make a separately reviewed illustration. CASH OUT remains the recorded proposed next concept. Do not restart exhaustive research on all 1,229 discovery candidates or automatically resume held art.
 
 ## Current milestone: Crypto print rollout complete
 
@@ -51,3 +50,4 @@ not change this pair.
 6. A large file may return an empty content field through GitHub's contents API. Check its blob SHA; do not assume it is missing or empty, or re-upload it unnecessarily.
 7. Verify the actual remote file/hash before saying uploaded. Save a small checkpoint for an incomplete transfer and resume only missing work.
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
+

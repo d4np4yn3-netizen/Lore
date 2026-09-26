@@ -1,0 +1,160 @@
+{
+  "checked": "2026-09-26",
+  "counts": {
+    "briefs": 100,
+    "easter_egg_concepts": 400,
+    "approved_visuals_preserved": 11,
+    "new_moment_proposals": 89,
+    "recorded_production_holds": 4,
+    "retained_details_from_approved_register": 4,
+    "new_egg_proposals": 396
+  },
+  "checks": {
+    "100_unique_briefs": true,
+    "400_unique_egg_ids": true,
+    "four_distinct_named_eggs_per_brief": true,
+    "100_distinct_scene_briefs": true,
+    "all_cross_card_targets_exist": true,
+    "exact_11_approved_ids_preserved": true,
+    "four_selected_holds_preserved": true,
+    "dates_sources_and_review_flags_match_selection": true,
+    "source_leads_present_for_every_card": true,
+    "no_new_artwork_generated_or_approved": true,
+    "no_new_rarities_or_collector_numbers_assigned": true
+  },
+  "egg_types": {
+    "Historical reference": 206,
+    "Symbolic detail": 89,
+    "Collection crossover": 104,
+    "Detail requiring targeted verification": 1
+  },
+  "event_flags_retained": [
+    {
+      "review_order": 1,
+      "title": "Blind Signatures",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 3,
+      "title": "Hashcash",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 22,
+      "title": "Buried Fortune",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 36,
+      "title": "Rare Pepes",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 37,
+      "title": "The Zcash Ceremony",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 38,
+      "title": "CryptoPunks",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 50,
+      "title": "The Pineapple Fund",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE",
+        "SOURCE_QUALITY_FOLLOWUP"
+      ]
+    },
+    {
+      "review_order": 51,
+      "title": "Lightning Torch",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 52,
+      "title": "QuadrigaCX",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 56,
+      "title": "Solana Mainnet Beta",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 60,
+      "title": "The Vampire Attack",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 72,
+      "title": "China's Mining Crackdown",
+      "flags": [
+        "NOTICE_VS_EARLIER_CRACKDOWN"
+      ]
+    },
+    {
+      "review_order": 75,
+      "title": "Play to Earn",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 78,
+      "title": "The Ronin Hack",
+      "flags": [
+        "ATTACK_VS_DISCLOSURE_DATE"
+      ]
+    },
+    {
+      "review_order": 81,
+      "title": "Three Arrows Falls",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 86,
+      "title": "USDC Loses Its Peg",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    },
+    {
+      "review_order": 88,
+      "title": "PEPE Returns",
+      "flags": [
+        "DATE_PRECISION_OR_RANGE"
+      ]
+    }
+  ],
+  "limits": [
+    "Text coverage check, not a full new primary-source audit.",
+    "No new artwork was inspected or produced; clue legibility remains an art-stage check.",
+    "Existing approvals remain unchanged; this QA does not confer user approval.",
+    "All inherited date/source flags and additional per-clue verification notes remain open."
+  ],
+  "remote_verification": "Compare committed Git blob hashes to delivery-manifest.json in the save workflow; that transient manifest is not an approved art register."
+}

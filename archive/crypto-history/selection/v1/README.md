@@ -2,6 +2,10 @@
 
 26 September 2026. Working scope: **250 timeline events, with 100 Season One card moments and 150 supporting events**. The scope and vertical browsing direction are confirmed; the concrete event choices are now available for review.
 
+## Complete card briefs
+
+The [100-brief pack](https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/briefs/v1/README.md) now gives every selected moment a scene, composition, factual limits and four Easter egg concepts with meanings and source leads. All 11 approved artworks remain unchanged; new moments, clues and copy remain review proposals. Existing holds persist.
+
 ## Review the selections
 
 - [The 100 card moments](season-one-100.md): date, reason for inclusion, proposed visual direction, evidence links and approval/production status.
@@ -29,4 +33,4 @@ Keep source-established date precision. A month or year is not silently converte
 
 ## Next action
 
-Review the 100 choices with Dan, resolve targeted date/source flags, then finalise event copy and rarity allocation. Existing First Transfer/First Halving pauses and parked Silk Road/Slush art remain in force. No new artwork was generated in this milestone. Current QR and print-release statuses are unchanged.
+Review the selected moments and their new briefs with Dan; resolve targeted event/clue flags, then agree copy and rarity allocation for each active card. Existing First Transfer/First Halving pauses and parked Silk Road/Slush art remain in force. No new artwork was generated in this milestone. Current QR and print-release statuses are unchanged.
