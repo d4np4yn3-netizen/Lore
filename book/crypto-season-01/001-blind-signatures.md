@@ -4,7 +4,7 @@
 
 **On the card:** UNTRACEABLE PAYMENTS.
 
-![Approved 001 front](../../cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v1.png)
+![Approved 001 front](../../cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v2.png)
 
 ## The story
 
@@ -27,4 +27,4 @@ The card freezes the instant after the seal is made. The signer has authenticate
 
 Chaum lists the paper as presented at CRYPTO 1982. The approved card uses **1982** because the selected event record has year precision. Read the [original paper](https://chaum.com/wp-content/uploads/2022/01/Chaum-blind-signatures.pdf) and [Chaum’s publication list](https://chaum.com/publications/). The room, computer, envelope, stamper, drawer and characters are illustrative; this is not a reconstruction of Chaum’s workspace or a photograph of the event.
 
-**Editorial status:** First book-chapter draft, 26 September 2026. The card front, art, phrase, rarity and number are approved. Book wording and page design have not received separate approval. Maintain this distinction when preparing the eventual printed book.
+**Editorial status:** Chapter draft and [two-page A4 layout study](proofs/001-blind-signatures-spread-v1.pdf), 26 September 2026. The card front, art, phrase, rarity and number are approved. Book wording, trim size and page design have not received separate approval. The QR works in the current digital scan; physical print proof remains separate.
