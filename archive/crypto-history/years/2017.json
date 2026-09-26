@@ -562,12 +562,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-06-26 to 2018-06-01",
+        "summary": "Block.one began a 341-day EOS ERC-20 token distribution on 26 June 2017, issuing one billion tokens through an unusually long continuous sale.",
+        "significance": "EOS became one of the largest and most distinctive ICO-era fundraisings, bridging the 2017 token boom into its 2018 mainnet launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "block.one — EOS year-long token distribution announcement",
+            "url": "https://www.prnewswire.com/news-releases/eos-blockchain-operating-system-unveils-year-long-token-distribution-300478085.html",
+            "type": "PROJECT_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -672,15 +678,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_WITH_REGULATORY_RECORD",
         "exact_date": "2017",
-        "summary": "EtherDelta became a prominent early non-custodial Ethereum token exchange during the ICO boom.",
-        "significance": "Needs a specific launch/volume/regulatory milestone before scoring as a standalone event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "EtherDelta became a heavily used Ethereum token marketplace during the ICO boom. The SEC later found that over its July 2016–December 2017 relevant period, users executed more than 3.6 million orders, with about 92% occurring after the July 2017 DAO Report.",
+        "significance": "EtherDelta demonstrated that smart contracts could support a non-custodial-style token marketplace, while later becoming the first SEC enforcement case finding such a platform operated as an unregistered national securities exchange.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC — EtherDelta founder order",
+            "url": "https://www.sec.gov/files/litigation/admin/2018/34-84553.pdf",
+            "type": "GOVERNMENT"
+          },
+          {
+            "title": "SEC — EtherDelta enforcement announcement",
+            "url": "https://www.sec.gov/newsroom/press-releases/2018-258",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Platform website launched in July 2016; 2017 is the high-volume ICO-era context."
       }
     },
     {
@@ -1377,12 +1394,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "VERIFIED_WITH_SALES_DATA",
         "exact_date": "2017",
-        "summary": "Ledger hardware-wallet adoption rose sharply with the bull market.",
-        "significance": "Trend rather than one event; use a sales/user milestone if sourced.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Ledger's consumer hardware-wallet sales exploded during the 2017 bull market. The company later said it sold roughly one million hardware wallets in 2017, compared with about 30,000 in 2016.",
+        "significance": "The surge shows self-custody hardware becoming a mass-market crypto product rather than a niche Bitcoin accessory.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ledger — later funding announcement noting over one million wallets sold",
+            "url": "https://www.ledger.com/ledger-raises-usd-75-million-secure-cryptocurrency-assets",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "TechCrunch — Ledger sold one million wallets in 2017",
+            "url": "https://techcrunch.com/2018/01/18/ledger-raises-another-70-million-to-become-the-leader-in-cryptocurrency-hardware-wallets/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1399,12 +1427,23 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2017",
-        "summary": "Trezor and other hardware wallets helped normalize mnemonic-recovery-seed self custody.",
-        "significance": "Industry adoption context rather than a discrete 2017 event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "Trezor shipped hardware wallets with physical recovery-seed cards and continued refining recovery workflows, including Advanced Recovery added in March 2017.",
+        "significance": "Trezor helped normalize the seed phrase as the human backup interface for self-custodied cryptocurrency.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Trezor — 2017 year review",
+            "url": "https://blog.trezor.io/2017-year-review-retrezor-60c60c2d023f",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Trezor — recovery-seed card packaging history",
+            "url": "https://blog.trezor.io/trezor-one-packaging-new-design-user-manual-recovery-seed-card-de4523d90f49",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1569,14 +1608,20 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Roger Ver became one of the most visible Bitcoin Cash advocates.",
-        "significance": "Biographical trend rather than a discrete event; a specific public endorsement/debate would make a cleaner candidate.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_CONTEXT",
+        "exact_date": "2017-08 onward",
+        "summary": "Roger Ver became one of Bitcoin Cash's most visible advocates after the August 2017 fork, publicly arguing that BCH better fulfilled Bitcoin's peer-to-peer cash purpose because of its lower fees and larger blocks.",
+        "significance": "His shift from early 'Bitcoin Jesus' evangelist to BCH champion personified the social rupture created by the block-size war.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Scott Horton Show — Roger Ver on Bitcoin Cash and Bitcoin Core",
+            "url": "https://scotthorton.org/interviews/122217-roger-ver-on-the-split-between-bitcoin-cash-and-bitcoin-core/",
+            "type": "CONTEMPORARY_INTERVIEW"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0034",
+        "relation": "PEOPLE_CONTEXT",
         "notes": null
       }
     },
@@ -1591,15 +1636,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2017",
-        "summary": "Craig Wright continued publicly asserting that he was Satoshi Nakamoto amid widespread skepticism.",
-        "significance": "Ongoing controversy rather than one discrete 2017 event; the strongest later canonical milestone is the UK court finding that he was not Satoshi.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
-        "notes": null
+        "summary": "Craig Wright continued publicly presenting himself as Satoshi Nakamoto after his disputed 2016 proof episode, keeping the identity claim active in Bitcoin's public controversies.",
+        "significance": "The continued claim is part of the broader Satoshi-identity saga rather than a clean new 2017 proof event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ars Technica — Wright's 2016 public Satoshi claim and skepticism",
+            "url": "https://arstechnica.com/information-technology/2016/05/craig-wright-says-loud-and-proud-i-am-satoshi-nakamoto/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "WIRED — Wright abandons promised public proof",
+            "url": "https://www.wired.com/2016/05/craig-wright-ends-attempt-prove-created-bitcoin-im-sorry/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1008",
+        "relation": "AFTERMATH",
+        "notes": "No separate 2017 cryptographic proof was established; treat this as continuing controversy."
       }
     },
     {
@@ -1613,12 +1669,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "John McAfee made extreme public Bitcoin price predictions during the bull market.",
-        "significance": "Strong culture/lore potential, but exact prediction, date and original post need primary archival evidence before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-07-17 and 2017-11-29",
+        "summary": "John McAfee predicted in July 2017 that Bitcoin would reach $500,000 by the end of 2020 and attached an infamous explicit wager; on 29 November he raised the prediction to $1 million.",
+        "significance": "The wager became a symbol of bull-market price maximalism and celebrity crypto forecasting.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "SEC complaint — McAfee's 2017 Bitcoin predictions and publicity",
+            "url": "https://business.cch.com/srd/comp-pr2020-246.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1692,12 +1754,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
-        "exact_date": "2017-12",
-        "summary": "South Korea's 'kimchi premium' became a widely discussed market phenomenon as local crypto prices traded substantially above global venues.",
-        "significance": "Strong market-culture story, but requires a robust exchange-data or contemporary-source citation before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_ACADEMIC_DATA",
+        "exact_date": "2017",
+        "summary": "During Korea's 2017 crypto frenzy, Bitcoin and other cryptocurrencies traded at persistent and sometimes extreme premiums to overseas markets, a price gap that became known as the 'Kimchi premium.'",
+        "significance": "The premium became one of crypto's clearest examples of market segmentation, capital-flow constraints and speculative local demand creating large cross-border price differences.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Research in International Business and Finance — Kimchi premium and speculative trading in bitcoin",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1544612319301357",
+            "type": "ACADEMIC"
+          },
+          {
+            "title": "Seoul National University — investigation into premium price in Korean Bitcoin market",
+            "url": "https://s-space.snu.ac.kr/bitstream/10371/161759/1/000000157313.pdf",
+            "type": "ACADEMIC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1714,12 +1787,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017-12",
-        "summary": "Coinbase's consumer app surged in US app-store rankings during the bull market.",
-        "significance": "Excellent mass-adoption visual, but exact ranking/date needs Apple/AppAnnie or contemporary reporting before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-12-07",
+        "summary": "Coinbase became the number-one free app in Apple's US App Store on 7 December 2017 as Bitcoin surged above $17,000, even while Coinbase's services struggled under record demand.",
+        "significance": "The chart position became a vivid measure of Bitcoin's 2017 move into mainstream consumer attention.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Coinbase hits top spot on Apple's US App Store",
+            "url": "https://techcrunch.com/2017/12/07/coinbase-hits-top-spot-on-apples-us-app-store/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1738,10 +1817,21 @@
       "research": {
         "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2017",
-        "summary": "Hardware-wallet sales surged as retail crypto holdings grew.",
-        "significance": "Overlaps LORE-EVT-0580/0581 and should be merged into sourced adoption milestones.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Hardware-wallet demand surged across Ledger and Trezor during the bull market.",
+        "significance": "This is market context already better represented by Ledger's documented 2017 sales surge and Trezor's self-custody development.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ledger — $7M Series A and 50,000 units sold by March 2017",
+            "url": "https://www.ledger.com/ledger-raises-7m-to-accelerate-worldwide-adoption-of-security-solutions-for-bitcoin-and-blockchain",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Trezor — 2017 year review",
+            "url": "https://blog.trezor.io/2017-year-review-retrezor-60c60c2d023f",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0580",
         "relation": "CONTEXT",
         "notes": null
@@ -1777,8 +1867,8 @@
     },
     {
       "id": "LORE-EVT-0718",
-      "date": "2017",
-      "title": "Golem launches tokenized decentralized-compute network",
+      "date": "2018-04-10",
+      "title": "Brass Golem launches on Ethereum mainnet",
       "branch": [
         "ALTCOINS",
         "TECHNOLOGY"
@@ -1786,15 +1876,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Golem launched its tokenized decentralized-compute project on Ethereum after an earlier token sale.",
-        "significance": "Potential decentralized-compute history candidate, but needs a specific mainnet/product launch milestone before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2018-04-10",
+        "summary": "Golem's first mainnet implementation, Brass Golem, launched in April 2018. The project itself was conceived earlier and crowdfunded in 2016, but it did not launch a production mainnet compute app in 2017.",
+        "significance": "Brass Golem was an early live marketplace for decentralized computing resources on Ethereum.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Golem — official project history",
+            "url": "https://www.golem.network/about",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Golem — project status before mainnet",
+            "url": "https://blog.golem.network/golem--what---who-we-are--where-we-are-at--revisited-/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Corrected from a vague 2017 launch claim."
       }
     },
     {
@@ -1809,12 +1910,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Status.im's token sale produced unusually intense Ethereum demand and congestion.",
-        "significance": "Potentially excellent ICO-era LORE, but exact date, amount and network effects need a primary Status/Ethereum source before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-06-20",
+        "summary": "Status held its SNT token sale on 20 June 2017. The rush of transactions overloaded Ethereum, with users reporting large backlogs and failed or pending contributions.",
+        "significance": "The sale became one of the ICO boom's clearest demonstrations that popular token offerings could overwhelm Ethereum's limited transaction capacity.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Status token-sale contemporary community archive",
+            "url": "https://bitcointalk.org/index.php?topic=1960733.180",
+            "type": "PRIMARY_COMMUNITY_ARCHIVE"
+          },
+          {
+            "title": "Bitcoin.com — Status ICO and Ethereum overload",
+            "url": "https://news.bitcoin.com/status-ico-generates-over-60-million-but-fails-to-deliver-meanwhile-ethereum-flounders/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1831,12 +1943,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Basic Attention Token's token sale sold out extremely rapidly during the ICO boom.",
-        "significance": "Strong ICO-culture candidate, but exact date, amount and sale duration need a primary Brave/BAT source.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2017-05-31",
+        "summary": "Brave sold one billion Basic Attention Tokens for 156,250 ETH on 31 May 2017, raising about $36 million in less than 30 seconds.",
+        "significance": "The BAT sale became one of the ICO boom's most dramatic sellouts and tied token economics to a mainstream-browser/ad-tech project.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Brave — 2017 achievements and BAT token sale",
+            "url": "https://brave.com/blog/update-brave-browser-and-bat-achievements-in-2017-and-goals-for-2018/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Basic Attention Token — sale finishes quickly",
+            "url": "https://basicattentiontoken.org/bat-sale-finishes-quickly/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1853,12 +1976,18 @@
       "tier": "DEEP_CUT",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "OmiseGO became a high-profile Ethereum token project during the ICO boom.",
-        "significance": "The current row is a broad prominence claim; replace with its token sale/listing/airdrop milestone before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_2017_LAUNCH_SEQUENCE",
+        "exact_date": "2017-06 to 2017-09",
+        "summary": "OmiseGO raised its self-imposed $25 million token-funding target in a presale rather than accepting additional demand, then distributed 5% of OMG to more than 450,000 Ethereum addresses in a September 2017 airdrop.",
+        "significance": "OMG became a high-profile Ethereum token and an early example of deliberately capped fundraising plus a mass holder airdrop.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "OmiseGO official guide — launch, $25M sale and 2017 airdrop",
+            "url": "https://cdn.omise.co/omg/officialguide.pdf",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1875,12 +2004,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2017",
-        "summary": "Recovery phrases and hardware wallets became much more common consumer self-custody practices during the bull market.",
-        "significance": "Trend/context, not one event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "The 2017 hardware-wallet boom brought recovery-seed backup practices to a much larger consumer audience as Ledger and Trezor sales surged.",
+        "significance": "Seed phrases became one of crypto's defining self-custody rituals—and a critical single point of human responsibility.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ledger — 2017 sales/funding context",
+            "url": "https://www.ledger.com/ledger-raises-usd-75-million-secure-cryptocurrency-assets",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Trezor — recovery seed card history",
+            "url": "https://blog.trezor.io/trezor-one-packaging-new-design-user-manual-recovery-seed-card-de4523d90f49",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1926,15 +2066,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_SOURCE",
+        "state": "VERIFIED_WITH_MARKET_ESTIMATE",
         "exact_date": "2017",
-        "summary": "Bitmain held a dominant position in the SHA-256 ASIC market during the late-2010s mining boom.",
-        "significance": "Needs market-share or shipment data from a reliable source before verification.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Industry estimates later cited in Bitmain's IPO-era coverage put the company at roughly two-thirds to more than four-fifths of the Bitcoin/cryptocurrency mining-hardware market during 2017, depending on methodology.",
+        "significance": "Bitmain's dominance made one private hardware company extraordinarily influential over the economics and geography of proof-of-work mining.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "TechCrunch — Bitmain 2017 mining hardware market-share estimate",
+            "url": "https://techcrunch.com/2018/08/10/crypto-mining-giant-bitmain-on-target-for-10b-revenue-this-year/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Reuters — Bitmain IPO coverage citing 85% 2017 mining-rig share estimate",
+            "url": "https://www.business-standard.com/article/reuters/cryptocurrency-giant-bitmain-chooses-hong-kong-for-ipo-118092601242_1.html",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use ranges/source attribution because estimates differ."
       }
     },
     {
@@ -1976,15 +2127,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Wojak/trader reaction images increasingly became part of crypto market culture.",
-        "significance": "Needs a specific historically traceable meme instance if considered for a card.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CULTURE_CONTEXT_VERIFIED",
+        "exact_date": "2017-06-15 onward",
+        "summary": "The Pink Wojak/'biz Wojak' variant emerged on 4chan's /biz/ board in June 2017 around Ether/crypto price crashes and spread as a visual shorthand for wrecked traders.",
+        "significance": "Wojak variants became a durable visual language for crypto fear, greed, capitulation and trader identity.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Know Your Meme — Pink Wojak",
+            "url": "https://knowyourmeme.com/memes/pink-wojak",
+            "type": "CULTURE_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Culture archive evidence; anonymous imageboard origins limit attribution to a single creator."
       }
     },
     {
@@ -2085,12 +2242,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Brad Garlinghouse became Ripple's prominent public-facing CEO during XRP's rapid growth.",
-        "significance": "Biographical trend rather than a discrete event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_ROLE_MILESTONE",
+        "exact_date": "2017-01-01 onward",
+        "summary": "Brad Garlinghouse became Ripple CEO effective 1 January 2017 and was the company's public voice as XRP liquidity, institutional payments partnerships and the token's market profile expanded.",
+        "significance": "His tenure made him one of the most recognizable executives in the long-running debate over XRP's role, distribution and regulation.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ripple — Brad Garlinghouse appointed CEO effective Jan 1 2017",
+            "url": "https://ripple.com/ripple-press/amid-high-growth-ripples-chris-larsen-appoints-brad-garlinghouse-chief-executive-officer/",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "Ripple — Garlinghouse on XRP escrow, May 2017",
+            "url": "https://ripple.com/insights/ripple-to-place-55-billion-xrp-in-escrow-to-ensure-certainty-into-total-xrp-supply/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2191,15 +2359,26 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2017",
-        "summary": "Brian Armstrong was increasingly prominent as Coinbase expanded during the bull market.",
-        "significance": "Biographical trend rather than a single historical event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Brian Armstrong publicly pushed Coinbase from a Bitcoin-only identity toward a broader regulated 'digital currency company' while Coinbase became one of the main consumer gateways during the 2017 retail boom.",
+        "significance": "Armstrong increasingly personified the strategy of making cryptocurrency accessible through a mainstream, compliant consumer platform.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — transition to a digital currency company",
+            "url": "https://www.coinbase.com/blog/completing-our-transition-to-becoming-a-digital-currency-company-not-just-a-bitcoin-company",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "TechCrunch — Coinbase app reaches No. 1 during 2017 boom",
+            "url": "https://techcrunch.com/2017/12/07/coinbase-hits-top-spot-on-apples-us-app-store/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Biographical/context row rather than a single public speech."
       }
     },
     {
@@ -2216,10 +2395,16 @@
       "research": {
         "state": "DUPLICATE_OR_CONTEXT",
         "exact_date": "2017",
-        "summary": "Roger Ver's transition into a leading BCH advocate is already represented by LORE-EVT-0709 and the BCH fork context.",
-        "significance": "Do not score separately without a specific event.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "This row is the same Roger Ver / Bitcoin Cash advocacy story represented by LORE-EVT-0709.",
+        "significance": "Keep as linked people context rather than a separate event.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Scott Horton Show — Roger Ver on the split",
+            "url": "https://scotthorton.org/interviews/122217-roger-ver-on-the-split-between-bitcoin-cash-and-bitcoin-core/",
+            "type": "CONTEMPORARY_INTERVIEW"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0709",
         "relation": "DUPLICATE_OR_CONTEXT",
         "notes": null
@@ -2325,12 +2510,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
-        "exact_date": "2017",
-        "summary": "Devcon had become Ethereum's flagship developer/community conference by this period.",
-        "significance": "Choose a specific Devcon milestone or announcement if a conference card is wanted.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SCALE_MILESTONE",
+        "exact_date": "2017-11-01 to 2017-11-04",
+        "summary": "Ethereum's Devcon3 in Cancun drew close to 2,000 participants, about 2.5 times the prior year's attendance, making it the largest Devcon to that point.",
+        "significance": "The jump from a roughly 50-person Devcon0 to nearly 2,000 attendees illustrated Ethereum's transformation into a large global developer ecosystem.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Devcon3 retrospective",
+            "url": "https://blog.ethereum.org/2017/11/16/devcon3",
+            "type": "PROJECT_PRIMARY"
+          },
+          {
+            "title": "Devcon official past-events archive",
+            "url": "https://devcon.org/en/past-events/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2347,12 +2543,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CULTURE_CONTEXT_VERIFIED",
         "exact_date": "2017",
-        "summary": "Lamborghinis became a widely used visual shorthand for speculative crypto wealth during the 2017 bull market.",
-        "significance": "Culture trend, not one date; potentially useful book/sidebar material rather than a numbered historical event.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "During the 2017 bull market, Lamborghini became a shorthand for sudden crypto wealth and the question 'When Lambo?' spread through trading culture. Dealers also documented real Lamborghini purchases paid in Bitcoin.",
+        "significance": "The supercar became one of the most recognizable symbols of speculative crypto success and excess.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Lamborghini Newport Beach — 2017 Huracán sold with Bitcoin",
+            "url": "https://www.linkedin.com/posts/lamborghini-newport-beach_fully-loaded-brand-new-2017-lamborghini-hurac%C3%A1n-activity-6337357718633869312-7r60",
+            "type": "BUSINESS_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2394,12 +2596,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2017",
-        "summary": "Gnosis developed prediction-market and multisig tooling during Ethereum's early application era.",
-        "significance": "The current row combines multiple product lines; split into a specific Gnosis token sale, prediction-market launch or Safe milestone before scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_TOKEN_SALE_MILESTONE",
+        "exact_date": "2017-04-24",
+        "summary": "Gnosis held a reverse Dutch-auction token sale on 24 April 2017 that sold 416,667 GNO and raised 250,000 ETH—about $12.5 million at the time—in under ten minutes.",
+        "significance": "The event put decentralized prediction markets and novel token-auction design at the center of the early Ethereum application/ICO boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Kraken — Gnosis token auction and GNO release",
+            "url": "https://blog.kraken.com/product/kraken-to-open-gnosis-gno-trading",
+            "type": "EXCHANGE_PRIMARY"
+          },
+          {
+            "title": "Gnosis — ten-year history of prediction-market origins",
+            "url": "https://www.gnosis.io/blog/ten-years-of-gnosis-from-prediction-markets-to-a-user-owned-open-finance-revolution",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -2559,15 +2772,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_RESEARCHED",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2017",
-        "summary": "Monero's privacy properties made it increasingly popular in darknet commerce as some markets diversified away from Bitcoin.",
-        "significance": "A privacy-adoption trend rather than one discrete event; needs market-specific evidence if considered for a card.",
-        "source_confidence": "MEDIUM",
-        "sources": [],
+        "summary": "Monero's privacy features drove growing adoption on darknet markets; WIRED reported AlphaBay had added Monero as an alternative to Bitcoin and described it as a budding favorite among darknet vendors.",
+        "significance": "The adoption provided an early real-world test of privacy-coin fungibility while also intensifying law-enforcement and regulatory scrutiny.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WIRED — Monero becomes popular on darknet markets",
+            "url": "https://www.wired.com/2017/01/monero-drug-dealers-cryptocurrency-choice-fire/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Privacy technology is neutral; source is about one use case, not the totality of Monero users."
       }
     },
     {
@@ -2581,16 +2800,29 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "CONTEXT_NEEDS_NARROWING",
+        "state": "CONTEXT_VERIFIED_WITH_EXAMPLES",
         "exact_date": "2017",
-        "summary": "Centralized exchanges rapidly listed new ICO tokens during the 2017 boom.",
-        "significance": "Industry trend rather than one event; not suitable for card scoring as written.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "The ICO boom created a rapid listing cycle for newly issued tokens across exchanges. Binance's own August 2017 history shows that within weeks of launching it was already adding tokens including QTUM, SNT, EOS and Bancor, while EtherDelta facilitated millions of ERC-20 orders through 2017.",
+        "significance": "Fast token listing expanded liquidity for ICO assets and helped exchanges become powerful gatekeepers of token-market access.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — August 2017 exchange history and listings",
+            "url": "https://www.binance.com/id/support/announcement/detail/115001292531",
+            "type": "COMPANY_PRIMARY"
+          },
+          {
+            "title": "SEC — EtherDelta order and 2017 ERC-20 trading activity",
+            "url": "https://www.sec.gov/files/litigation/admin/2018/34-84553.pdf",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context/trend row; no claim that literally every exchange listed hundreds."
       }
     }
-  ]
+  ],
+  "completed_research_review": "2026-09-26",
+  "research_status": "YEAR_TRIAGED_AND_SOURCED"
 }
