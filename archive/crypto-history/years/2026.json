@@ -1,91 +1,157 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.0.0",
   "year": 2026,
-  "status": "LIVE_ARCHIVE",
-  "as_of": "2026-09-26",
-  "note": "Current-year file. Completed events may be VERIFIED; recent developments remain provisional until historical significance is clearer. Future milestones are explicitly non-historical and excluded from card scoring.",
+  "through_date": "2026-09-26",
+  "generated": "2026-09-26",
+  "purpose": "Current-year canonical evidence shard for LORE Crypto History. Facts may be verified while long-term historical significance remains provisional.",
+  "score_status": "NOT_STARTED",
+  "event_count": 6,
   "events": [
     {
-      "key": "2026-ethereum-bpo2",
+      "id": "LORE-CAN-2026-001",
       "date": "2026-01-07T01:01:11Z",
-      "title": "Ethereum BPO2 raises blob target and maximum",
-      "state": "VERIFIED",
-      "historical_status": "CANDIDATE",
-      "tier": "MAJOR",
+      "title": "Ethereum's second Fusaka BPO fork raises blob capacity again",
       "branches": [
         "ETHEREUM",
         "TECHNOLOGY"
       ],
-      "summary": "The second Fusaka Blob Parameter Only fork activated on Ethereum mainnet at epoch 419,072, increasing the blob target to 14 and maximum to 21.",
-      "significance": "BPO2 demonstrated Ethereum's new ability to scale rollup data capacity through lightweight parameter-only forks instead of waiting for a full network upgrade cycle.",
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "historical_importance": "PROVISIONAL",
+      "summary": "The second Blob Parameter Only fork following Fusaka activated on 7 January 2026, raising Ethereum's per-block blob target to 14 and maximum to 21.",
+      "significance": "It extended Fusaka's PeerDAS scaling plan by increasing rollup data capacity without waiting for another full network upgrade.",
       "sources": [
         {
-          "title": "EIP-7607 — Fusaka hardfork meta",
-          "url": "https://eips.ethereum.org/EIPS/eip-7607",
-          "type": "PRIMARY_SPEC"
-        },
-        {
-          "title": "Ethereum Foundation — Checkpoint #8",
-          "url": "https://blog.ethereum.org/2026/01/20/checkpoint-8",
+          "title": "Ethereum Foundation — Fusaka Mainnet Announcement",
+          "url": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement",
           "type": "PROJECT_PRIMARY"
         }
       ],
-      "confidence": "HIGH"
+      "score_status": "NOT_SCORED"
     },
     {
-      "key": "2026-mica-transition-expiry",
-      "date": "2026-07-01",
-      "title": "EU-wide MiCA transitional ceiling expires for crypto service providers",
-      "state": "VERIFIED_WITH_JURISDICTION_QUALIFIER",
-      "historical_status": "CANDIDATE",
-      "tier": "MAJOR",
+      "id": "LORE-CAN-2026-002",
+      "date": "2026-03-17",
+      "title": "SEC and CFTC issue joint crypto-asset legal interpretation",
       "branches": [
         "GOVERNMENTS",
         "REGULATION"
       ],
-      "summary": "MiCA Article 143 allowed qualifying pre-existing crypto-asset service providers to continue under transitional arrangements only until 1 July 2026 at the latest, though individual member states could end their national transitional periods earlier.",
-      "significance": "The date marked the end of the EU-wide maximum grandfathering window and made MiCA authorization the baseline for continuing covered crypto-asset services across the EU.",
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "historical_importance": "PROVISIONAL",
+      "summary": "The SEC issued an interpretation clarifying how federal securities laws apply to certain crypto assets and transactions, with the CFTC joining to state it would administer the Commodity Exchange Act consistently with the interpretation.",
+      "significance": "The joint action was a major attempt by the two principal US market regulators to provide a common federal framework for classifying and treating crypto activity.",
       "sources": [
         {
-          "title": "ESMA — Article 143 Transitional measures",
-          "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-143-transitional-measures",
-          "type": "EU_REGULATOR"
+          "title": "SEC — Clarifies Application of Federal Securities Laws to Crypto Assets",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets",
+          "type": "GOVERNMENT"
         },
         {
-          "title": "ESMA — Statement on end of MiCA transitional periods",
-          "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
-          "type": "EU_REGULATOR"
+          "title": "CFTC — Joins SEC Interpretation",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9198-26",
+          "type": "GOVERNMENT"
         }
       ],
-      "confidence": "HIGH"
+      "score_status": "NOT_SCORED"
     },
     {
-      "key": "2026-glamsterdam",
-      "date": "Q4 2026 — not yet confirmed",
-      "title": "Ethereum Glamsterdam upgrade",
-      "state": "FUTURE_CANDIDATE",
-      "historical_status": "NOT_YET_HISTORY",
-      "tier": null,
+      "id": "LORE-CAN-2026-003",
+      "date": "2026-05-29",
+      "title": "CFTC approves a listed Bitcoin perpetual contract on a US regulated exchange",
       "branches": [
-        "ETHEREUM",
-        "TECHNOLOGY"
+        "BITCOIN",
+        "INSTITUTIONS",
+        "REGULATION"
       ],
-      "summary": "Ethereum currently expects Glamsterdam on mainnet in Q4 2026, but no mainnet date is confirmed as of 26 September 2026. Testing is ongoing and the next listed milestone is Sepolia on 6 October.",
-      "significance": "Do not treat this as a historical event yet. If it ships, its planned features include enshrined proposer-builder separation and block-level access lists.",
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "historical_importance": "PROVISIONAL",
+      "summary": "The CFTC approved KalshiEX's BTCPERP, a perpetual futures contract referencing the spot price of Bitcoin.",
+      "significance": "The approval brought a crypto-native perpetual-contract structure into a CFTC-regulated US exchange framework.",
       "sources": [
         {
-          "title": "Ethereum.org — Glamsterdam",
-          "url": "https://ethereum.org/roadmap/glamsterdam/",
-          "type": "PROJECT_PRIMARY"
-        },
-        {
-          "title": "Ethereum Foundation — Protocol priorities, September 2026",
-          "url": "https://blog.ethereum.org/2026/09/07/protocol-priorities",
-          "type": "PROJECT_PRIMARY"
+          "title": "CFTC — Approves BTCPERP Contract Submitted by KalshiEX",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9240-26",
+          "type": "GOVERNMENT"
         }
       ],
-      "confidence": "HIGH",
-      "notes": "Excluded from card scoring until mainnet activation occurs."
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2026-004",
+      "date": "2026-05-29",
+      "title": "CFTC issues guidance for 24/7 trading and clearing",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION",
+        "MARKETS"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "historical_importance": "PROVISIONAL",
+      "summary": "CFTC staff issued an advisory addressing regulatory expectations for 24/7 trading, clearing and settlement, noting crypto derivatives as a market that may be particularly suited to continuous trading.",
+      "significance": "The advisory reflected traditional regulated market infrastructure adapting toward the always-on model established by crypto markets.",
+      "sources": [
+        {
+          "title": "CFTC — Advisory on 24/7 Trading, Clearing, and Settlement",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9239-26",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2026-005",
+      "date": "2026-07-23 to 2026-09-23",
+      "title": "BitMEX closes after eleven years of exchange operations",
+      "branches": [
+        "EXCHANGES",
+        "CULTURE",
+        "MARKETS"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "historical_importance": "PROVISIONAL",
+      "summary": "BitMEX announced on 23 July that it would wind down following a strategic review, and all exchange trading ceased at 04:00 UTC on 23 September 2026.",
+      "significance": "The closure ended the exchange most closely associated with popularizing the crypto perpetual swap and 100x leverage during the industry's early derivatives era.",
+      "sources": [
+        {
+          "title": "BitMEX — Important Message",
+          "url": "https://www.bitmex.com/blog/bitmex-closure/",
+          "type": "COMPANY_PRIMARY"
+        },
+        {
+          "title": "BitMEX — Exchange Now Closed",
+          "url": "https://www.bitmex.com/wind-down/",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "score_status": "NOT_SCORED"
+    },
+    {
+      "id": "LORE-CAN-2026-006",
+      "date": "2026-08-18",
+      "title": "SEC proposes Regulation Crypto Assets",
+      "branches": [
+        "GOVERNMENTS",
+        "REGULATION"
+      ],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "historical_importance": "PROVISIONAL",
+      "summary": "The SEC proposed Regulation Crypto Assets, a tailored securities-offering regime for certain investment contracts involving crypto assets, including new registration exemptions and a conditional safe harbor.",
+      "significance": "If adopted, the proposal could materially reshape how some crypto-related offerings access US capital markets; as of September 2026 it remains a proposal, not a final rule.",
+      "sources": [
+        {
+          "title": "SEC — Regulation Crypto Assets",
+          "url": "https://www.sec.gov/rules-regulations/2026/08/s7-2026-27",
+          "type": "GOVERNMENT"
+        }
+      ],
+      "score_status": "NOT_SCORED",
+      "notes": "Do not describe proposed provisions as final law."
     }
   ]
 }
