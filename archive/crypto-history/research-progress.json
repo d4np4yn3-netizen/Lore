@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-09-26",
+  "scoring_status": "NOT_STARTED",
+  "raw_discovery_archive": {
+    "path": "archive/crypto-history/events.json",
+    "candidate_events": 1229,
+    "note": "Broad-capture archive. Oversized; do not use as the primary read/write surface during evidence research."
+  },
+  "evidence_workflow": {
+    "note": "Detailed evidence is being normalized into small year shards. VERIFIED facts may coexist with RESEARCH_NEEDED/context rows; scoring begins only after canonical research and deduplication.",
+    "legacy_master_research": "Origins through core 2020 research was written into events.json before shard migration. It still needs backfilling into smaller canonical year shards."
+  },
+  "year_shards": [
+    {
+      "year": 2021,
+      "path": "archive/crypto-history/years/2021.json",
+      "events": 36,
+      "status": "CANONICAL_PASS_1"
+    },
+    {
+      "year": 2022,
+      "path": "archive/crypto-history/years/2022.json",
+      "events": 24,
+      "status": "CANONICAL_PASS_1"
+    },
+    {
+      "year": 2023,
+      "path": "archive/crypto-history/years/2023.json",
+      "events": 17,
+      "status": "CANONICAL_PASS_1"
+    },
+    {
+      "year": 2024,
+      "path": "archive/crypto-history/years/2024.json",
+      "events": 19,
+      "status": "CANONICAL_PASS_1"
+    },
+    {
+      "year": 2025,
+      "path": "archive/crypto-history/years/2025.json",
+      "events": 13,
+      "status": "CANONICAL_PASS_1"
+    },
+    {
+      "year": 2026,
+      "path": "archive/crypto-history/years/2026.json",
+      "events": 6,
+      "status": "CURRENT_YEAR_PROVISIONAL",
+      "through_date": "2026-09-26"
+    }
+  ],
+  "next_work": [
+    "Backfill canonical year shards for pre-2021 researched history so the oversized master is no longer needed for evidence reads.",
+    "Deepen RESEARCH_NEEDED records in all shards until every scoreable event has authoritative sourcing.",
+    "Build causal/related-event links and merge remaining semantic duplicates.",
+    "Only then add card scoring dimensions and season-selection fields."
+  ]
+}
