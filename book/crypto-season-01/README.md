@@ -6,7 +6,9 @@ Build the book one approved card at a time. Each numbered chapter draws on the e
 | --- | --- | --- |
 | 001 — Blind Signatures | [Approved chapter](001-blind-signatures.md) · [Full-art spread with approved copy v3](proofs/001-blind-signatures-full-art-spread-v3.pdf) · [Earlier full-art v2](proofs/001-blind-signatures-full-art-spread-v2.pdf) | Story and clues approved for book and site; book page design remains a review proof |
 
-The other 99 chapter numbers should be added only as their collector sequence is approved. The previous 11 approved artworks retain their separate art approvals and do not gain chapter numbers from this table.
+| 002 - Cypherpunk Manifesto | [Chapter draft](002-cypherpunk-manifesto.md) · [Full-art spread v1](proofs/002-cypherpunk-manifesto-full-art-spread-v1.pdf) | Artwork approved with subsequent requested monitor edit; story and page design for review |
+
+The other 98 chapter numbers should be added only as their collector sequence is approved. The previous 11 approved artworks retain their separate art approvals and do not gain chapter numbers from this table.
 
 ## Proposed two-page entry pattern
 

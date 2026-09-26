@@ -13,3 +13,5 @@ The stable QR route https://lore-site-v1.vercel.app/crypto/002/ is live and temp
 Both fronts use the approved print template: 816×1110 at 300 DPI, 744×1038 trim, 684×981 safe. The raster QRs decode successfully. The fine illustration lettering is approximate; title, byline and date were visually checked. This imagined den is not a documented photograph of Hughes's workspace. The wax-envelope clue lies beneath the title fade in the card crop and is clearer in the full art.
 
 Source: https://nakamotoinstitute.org/library/cypherpunk-manifesto/
+
+Superseded by the approved expanded composition and requested monitor correction in `../the-cypherpunk-manifesto-master-01/`.

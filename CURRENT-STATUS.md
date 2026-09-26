@@ -2,7 +2,13 @@
 
 Updated 2026-09-26. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Latest: 001 Blind Signatures and print-first approval — 26 September 2026
+## Latest: 002 Cypherpunk Manifesto - 26 September 2026
+
+Dan approved the dark screen-lit expanded artwork, card assembly, a book spread and GitHub upload, then requested removal of the forward green CRT above the orange screen. That edit is applied while retaining the rear CRT. Current folder: `cards/crypto/season-01/the-cypherpunk-manifesto-master-01/`; exact current artwork `art.png`, assembled front `LORE-Cypherpunk-Manifesto-Epic-002-Print-v2.png` and SVG. Prior approved art is preserved beside it. The manifesto and card-001 handwritten envelope are clear of the fixed bottom overlays. Epic comes from row 002 of the saved rarity proposal; its Proposed status is not a final rarity lock. Front assembly is for review; no print release.
+
+002 uses the approved print geometry and bold phrase, number 002/100 and date 09 MAR 1993. Its QR decodes and the live `/crypto/002/` route temporarily redirects to the original manifesto. The new book chapter is `book/crypto-season-01/002-cypherpunk-manifesto.md`; its two-page A4 proof is `book/crypto-season-01/proofs/002-cypherpunk-manifesto-full-art-spread-v1.pdf`. New book wording and layout remain review drafts. 001 and the homepage collection are unchanged. Next: review the finished 002 front and chapter, then use the approved chapter as website copy.
+
+## Previous: 001 Blind Signatures and print-first approval — 26 September 2026
 
 Dan approved 001's exact illustration, **Legendary** rarity, bold
 `UNTRACEABLE PAYMENTS.` phrase and complete numbered front. The approved
