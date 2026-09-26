@@ -322,6 +322,82 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "key": "2022-3ac-default-voyager",
+      "date": "2022-06-27",
+      "title": "Three Arrows Capital defaults on Voyager loans",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "CEFI",
+        "CONTAGION",
+        "DISASTERS"
+      ],
+      "summary": "Voyager issued a notice of default to Three Arrows Capital after 3AC failed to repay 15,250 BTC and $350 million USDC.",
+      "significance": "The default gave a concrete view of the enormous counterparty exposures connecting crypto hedge funds and retail lending platforms and directly preceded Voyager's bankruptcy.",
+      "sources": [
+        {
+          "title": "Voyager — 3AC default notice",
+          "url": "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html",
+          "type": "COMPANY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH",
+      "relation": {
+        "to": "2022-voyager-chapter11",
+        "type": "PRECURSOR"
+      }
+    },
+    {
+      "key": "2022-harmony-horizon-hack",
+      "date": "2022-06-24",
+      "title": "Harmony Horizon Bridge loses about $100 million",
+      "state": "VERIFIED_WITH_PROJECT_SOURCE",
+      "tier": "MAJOR",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "ALTCOINS"
+      ],
+      "summary": "Harmony's Horizon bridge was exploited, causing losses later quantified by the project at $99,340,030 across about 65,000 wallets and 14 asset types.",
+      "significance": "The attack added to a devastating year for cross-chain bridges and reinforced concerns about concentrated bridge signing and custody designs.",
+      "sources": [
+        {
+          "title": "Harmony — Horizon incident reimbursement proposal",
+          "url": "https://talk.harmony.one/t/reimbursement-proposal-horizon-incident/20665",
+          "type": "PROJECT_COMMUNITY_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "key": "2022-bnb-token-hub-exploit",
+      "date": "2022-10-06 to 2022-10-07",
+      "title": "BNB Chain bridge exploit mints roughly 2 million BNB",
+      "state": "VERIFIED",
+      "tier": "CORE",
+      "branches": [
+        "HACKS",
+        "BRIDGES",
+        "ALTCOINS"
+      ],
+      "summary": "An attacker exploited the BSC Token Hub cross-chain bridge and withdrew roughly 2 million newly minted BNB. Validators temporarily halted BNB Smart Chain while the incident was contained.",
+      "significance": "The event became a major bridge-security and governance case because validators coordinated a temporary chain halt to limit losses.",
+      "sources": [
+        {
+          "title": "BNB Chain — Ecosystem Update",
+          "url": "https://www.bnbchain.org/en/blog/bnb-chain-ecosystem-update",
+          "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "BNB Chain — A Decentralized Response",
+          "url": "https://www.bnbchain.org/en/blog/bnb-chain-a-decentralized-response",
+          "type": "PROJECT_PRIMARY"
+        }
+      ],
+      "confidence": "HIGH"
     }
-  ]
+  ],
+  "updated": "2026-09-26"
 }
