@@ -107,15 +107,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "PlusToken became one of the largest alleged crypto Ponzi schemes, affecting investors across Asia and involving very large cryptocurrency balances.",
-        "significance": "Major scam-history candidate, but exact collapse/arrest milestones and confirmed figures need Chinese court or law-enforcement sourcing.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_FORENSIC_QUALIFIER",
+        "exact_date": "2019-06",
+        "summary": "PlusToken's organizers and promoters were linked to a large crypto investment scheme; Chainalysis later tracked roughly 180,000 BTC and other assets associated with it and reported that six people connected to the scheme were arrested in June 2019.",
+        "significance": "PlusToken became one of the largest crypto investment-fraud cases of its era and a major case study in tracing large illicit on-chain flows.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Chainalysis — Plustoken Scam: Tracking the $2 Billion in Cryptocurrency",
+            "url": "https://www.chainalysis.com/blog/plustoken-scam-bitcoin-price/",
+            "type": "BLOCKCHAIN_FORENSICS"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Asset/value totals vary by source; keep them attributed to Chainalysis or court findings rather than presenting one universal loss figure."
       }
     },
     {
@@ -158,21 +164,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "Cosmos Hub launched in 2019 as the first major network in the Cosmos interchain ecosystem.",
-        "significance": "Important multi-chain architecture milestone, but the archive needs the exact genesis/mainnet date from a canonical Cosmos genesis record before verification.",
-        "source_confidence": "MEDIUM",
+        "state": "VERIFIED",
+        "exact_date": "2019-03-13T23:08:00Z",
+        "summary": "Cosmos Hub launched its mainnet in March 2019 with an initial validator set, beginning the live Cosmos interchain ecosystem.",
+        "significance": "Cosmos introduced a major multi-chain architecture built around sovereign zones, Tendermint consensus and later IBC interoperability.",
+        "source_confidence": "HIGH",
         "sources": [
           {
-            "title": "Cosmos Hub documentation",
-            "url": "https://docs.cosmos.network/",
-            "type": "PROJECT_PRIMARY"
+            "title": "Cosmos Forum — Cosmos mainnet successful launch",
+            "url": "https://forum.cosmos.network/t/cosmos/1701",
+            "type": "PROJECT_ARCHIVE"
           }
         ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Launch was 14 March 07:08 Beijing time, approximately 13 March 23:08 UTC."
       }
     },
     {
@@ -296,19 +302,25 @@
     {
       "id": "LORE-EVT-0290",
       "date": "2019",
-      "title": "Synthetix becomes an early major DeFi derivatives protocol",
+      "title": "Synthetix.Exchange fully launches with sBTC and other Synths",
       "branch": [
         "DEFI"
       ],
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "Synthetix emerged as one of early DeFi's most important on-chain synthetic-asset and derivatives systems.",
-        "significance": "Needs a specific Havven-to-Synthetix rebrand, mainnet or trading-volume milestone before card scoring.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-02-26",
+        "summary": "Synthetix released the full Synthetix.Exchange along with new Synths including sBTC.",
+        "significance": "Synthetix became one of the earliest major DeFi derivatives/synthetic-asset protocols and showed how on-chain systems could create exposure to external asset prices without holding the underlying asset.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Synthetix — Q1 Release: sBTC, Synthetix.Exchange",
+            "url": "https://blog.synthetix.io/q1-release-sbtc-and-more/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -459,7 +471,7 @@
     {
       "id": "LORE-EVT-0475",
       "date": "2019",
-      "title": "Binance launches Launchpad IEO model",
+      "title": "Binance Launchpad's BitTorrent sale kick-starts the IEO era",
       "branch": [
         "EXCHANGES",
         "ICO"
@@ -467,12 +479,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "Binance Launchpad popularized the exchange-led IEO fundraising model during 2019.",
-        "significance": "Needs a specific launch or landmark BitTorrent token-sale event as the canonical milestone.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-01-28",
+        "summary": "Binance Launchpad ran the BitTorrent Token sale in two sessions that sold out in under 15 minutes each.",
+        "significance": "The sale became the flagship example of the exchange-led initial exchange offering model that briefly replaced ICOs as crypto's dominant retail fundraising format.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Binance — BitTorrent Token Sale Results",
+            "url": "https://www.binance.com/en/blog/all/296665704096014336",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -596,21 +614,27 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_RESEARCHED",
         "exact_date": "2019",
-        "summary": "Wasabi Wallet's CoinJoin implementation gained adoption among privacy-conscious Bitcoin users.",
-        "significance": "Privacy-history candidate but needs a concrete usage/release milestone.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Wasabi Wallet's Chaumian CoinJoin implementation gained visibility among privacy-focused Bitcoin users after Wasabi 1.0 had launched in 2018.",
+        "significance": "This is useful Bitcoin-privacy context, but no single 2019 adoption point is strong enough to treat it as a standalone historical event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Wasabi Wallet — Introduction FAQ",
+            "url": "https://docs.wasabiwallet.io/FAQ/FAQ-Introduction.html",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not score as a standalone card unless a specific usage milestone is sourced."
       }
     },
     {
       "id": "LORE-EVT-0597",
       "date": "2019",
-      "title": "Unstoppable Domains expands blockchain naming market",
+      "title": "Unstoppable Domains launches .crypto on Ethereum",
       "branch": [
         "ALTCOINS",
         "TECHNOLOGY"
@@ -618,12 +642,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "VERIFIED_WITH_YEAR",
         "exact_date": "2019",
-        "summary": "Unstoppable Domains expanded blockchain-based naming outside ENS.",
-        "significance": "Needs a clear product launch/funding/integration milestone.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Unstoppable Domains launched .crypto as an on-chain domain extension on Ethereum.",
+        "significance": "Blockchain naming expanded beyond ENS and became a distinct Web3 identity and naming category.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Unstoppable Domains — .crypto launch history",
+            "url": "https://unstoppabledomains.com/en-us/blog/categories/announcements/article/crypto-tld",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -733,12 +763,23 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2019-01-19 to 2019-04",
+        "summary": "The Lightning Torch began on 19 January 2019 and was passed between hundreds of participants across dozens of countries before reaching its protocol/payment limit.",
+        "significance": "The #LNTrustChain experiment became Lightning's first major social demonstration of global, near-instant Bitcoin payments.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitcoin Annotated — Lightning Torch",
+            "url": "https://bitcoinannotated.com/entries/lightning-torch/",
+            "type": "ARCHIVAL_SECONDARY"
+          },
+          {
+            "title": "Bitcoin Magazine — What We Can Learn About Lightning from #LNTrustChain2",
+            "url": "https://bitcoinmagazine.com/technical/what-we-can-learn-about-lightning-from-lntrustchain2-part-1",
+            "type": "INDUSTRY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -756,21 +797,32 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "VERIFIED_SUBEVENT",
+        "exact_date": "2019-02-05",
+        "summary": "Twitter and Square CEO Jack Dorsey received and forwarded the Lightning Torch.",
+        "significance": "His participation pushed the grassroots Lightning experiment into mainstream technology and finance coverage.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "CoinDesk — Jack Dorsey Takes the Lightning Torch",
+            "url": "https://www.coindesk.com/markets/2019/02/06/twitter-ceo-jack-dorsey-takes-the-lightning-torch/",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "Bitcoin Annotated — Lightning Torch",
+            "url": "https://bitcoinannotated.com/entries/lightning-torch/",
+            "type": "ARCHIVAL_SECONDARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0731",
+        "relation": "SUBEVENT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-0733",
       "date": "2019",
-      "title": "Square launches Bitcoin buying in Cash App more broadly",
+      "title": "Cash App Bitcoin trading scales materially in 2019",
       "branch": [
         "ADOPTION",
         "INSTITUTIONS"
@@ -778,15 +830,21 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED_WITH_SEC_FILING",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Square's Cash App Bitcoin business scaled sharply during 2019; Square's annual filing reported about $516.5 million of Bitcoin revenue for the year. Cash App had actually introduced Bitcoin buying earlier, in late 2017.",
+        "significance": "The growth showed that Bitcoin trading could become a material product inside a mainstream consumer-finance app.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Square 2019 Form 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828020002303/sq-20191231.htm",
+            "type": "REGULATORY_FILING"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Not a 2019 launch event; Bitcoin buying began in Q4 2017."
       }
     },
     {
@@ -918,12 +976,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_RESEARCHED",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Alameda Research operated as a major crypto quantitative trading and market-making firm as FTX launched in 2019.",
+        "significance": "This is important FTX prehistory, but the broad 'expands' wording is not one discrete milestone and should remain context rather than a scored card.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "DOJ — FTX/Alameda case background",
+            "url": "https://www.justice.gov/usao-sdny/media/1313336/dl",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -932,7 +996,7 @@
     {
       "id": "LORE-EVT-0739",
       "date": "2019",
-      "title": "BitMEX reaches huge perpetual-swap trading volumes",
+      "title": "BitMEX reports an $11 billion single-day trading record",
       "branch": [
         "EXCHANGES",
         "MARKETS"
@@ -940,12 +1004,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_COMPANY_REPORT",
+        "exact_date": "2019-05-11",
+        "summary": "BitMEX reported more than $11 billion of trading volume in a single day on 11 May 2019, led by its XBTUSD perpetual swap.",
+        "significance": "The record illustrated the extraordinary scale reached by crypto perpetual swaps and BitMEX's influence on price discovery before later regulatory action.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BitMEX — Thank You for Another Incredible Year",
+            "url": "https://www.bitmex.com/blog/en-thank-you-for-another-incredible-year",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -983,15 +1053,26 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED_WITH_COMPANY_MILESTONES",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Crypto lenders expanded rapidly in 2019: BlockFi publicly launched an interest account in March, while Celsius reported billions of dollars in originated crypto loans by November.",
+        "significance": "The growth foreshadowed the centralized crypto-credit boom whose leverage and counterparty risks would become central to the 2022 contagion.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "BlockFi — Interest Account now live",
+            "url": "https://www.prnewswire.com/news-releases/blockfi-interest-account-now-live-offering-6-2-compounding-interest-to-cryptocurrency-holders-300806440.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          },
+          {
+            "title": "Celsius — $4.25bn originated crypto loans milestone",
+            "url": "https://www.prnewswire.com/news-releases/celsius-hits-4-25-billion-in-originated-crypto-loans-setting-the-bar-for-crypto-lending-industry-300956493.html",
+            "type": "COMPANY_PRESS_RELEASE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Sector context, not a single card-worthy event as currently phrased."
       }
     },
     {
@@ -1025,7 +1106,7 @@
     {
       "id": "LORE-EVT-0883",
       "date": "2019",
-      "title": "Steel seed backups gain popularity after wallet-loss stories",
+      "title": "Metal seed-backup stress tests push self-custody hardware culture",
       "branch": [
         "SECURITY",
         "CULTURE"
@@ -1033,12 +1114,18 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2019-05-18",
+        "summary": "Jameson Lopp published another destructive stress test of metal seed-backup devices, part of a broader effort to compare fire, corrosion and crush resistance.",
+        "significance": "The testing helped turn durable physical seed storage into a recognizable subculture and security practice within self-custody.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Jameson Lopp — Metal Bitcoin Seed Storage Stress Test Part II",
+            "url": "https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-part-ii/",
+            "type": "TECHNICAL_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1046,7 +1133,7 @@
     },
     {
       "id": "LORE-EVT-0884",
-      "date": "2019",
+      "date": "2011",
       "title": "Stefan Thomas lost-password Bitcoin story becomes widely known",
       "branch": [
         "BITCOIN",
@@ -1056,15 +1143,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2011",
+        "summary": "Stefan Thomas's story of losing access to thousands of BTC because of an unrecoverable password was already reported by WIRED in 2011.",
+        "significance": "It became one of Bitcoin's defining lost-key cautionary tales, but it does not belong as a distinct 2019 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "WIRED — The Rise and Fall of Bitcoin",
+            "url": "https://www.wired.com/2011/11/mf-bitcoin/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move/canonicalize into the 2011 lost-key chronology rather than score in 2019."
       }
     },
     {
@@ -1134,12 +1227,23 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019-10",
-        "summary": "Several high-profile partners, including PayPal and later Visa, Mastercard, Stripe and others, withdrew from the Libra Association before its formal launch meeting.",
-        "significance": "The exits showed how regulatory pressure could fracture a global corporate crypto initiative.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_SEQUENCE",
+        "exact_date": "2019-10-04 to 2019-10-11",
+        "summary": "PayPal became the first major member to leave the Libra Association on 4 October; Visa, Mastercard, Stripe, eBay and others followed days later.",
+        "significance": "The departures showed how regulatory and political pressure could unravel a globally ambitious private digital-currency coalition before launch.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Reuters/Al Jazeera — PayPal pulls out of Libra Association",
+            "url": "https://www.aljazeera.com/economy/2019/10/4/paypal-pulls-out-of-facebooks-libra-association",
+            "type": "CONTEMPORARY_SECONDARY"
+          },
+          {
+            "title": "VentureBeat/Reuters — Visa, Mastercard, Stripe and eBay exit Libra",
+            "url": "https://venturebeat.com/business/visa-mastercard-stripe-and-ebay-quit-facebooks-libra-association/",
+            "type": "CONTEMPORARY_SECONDARY"
+          }
+        ],
         "canonical_event_id": "LORE-EVT-0107",
         "relation": "AFTERMATH",
         "notes": null
@@ -1176,7 +1280,7 @@
     {
       "id": "LORE-EVT-0936",
       "date": "2019",
-      "title": "New generation ASICs restore mining profitability",
+      "title": "Bitmain launches the 7nm Antminer 17 generation",
       "branch": [
         "BITCOIN",
         "MINING",
@@ -1185,12 +1289,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-04-09",
+        "summary": "Bitmain released its second-generation 7nm Antminer 17 series, including the S17 and S17 Pro, with materially improved hash rate and power efficiency.",
+        "significance": "The S17 generation marked the post-2018 mining industry's shift into more efficient 7nm ASIC hardware.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Bitmain — Antminer 17 Series specs and release times",
+            "url": "https://blog.bitmain.com/en/tag/antminer-s17/",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1242,15 +1352,21 @@
       "tier": "LORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_CULTURE_WITH_ORIGIN_QUALIFIER",
+        "exact_date": "2019-02-14",
+        "summary": "The phrase 'stacking sats' had appeared publicly earlier, but Matt Odell's February 2019 advocacy helped turn regular small Bitcoin accumulation into a recognizable community movement; Jack Dorsey amplified it in March.",
+        "significance": "Stacking sats became durable Bitcoin culture around incremental saving rather than whole-coin ownership.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Lolli — History & Meaning Behind Stacking Sats",
+            "url": "https://blog.lolli.com/stacking-sats/",
+            "type": "INDUSTRY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Earliest public tweet cited by Lolli dates to 20 Dec 2017; 2019 is the popularization milestone, not the phrase's birth."
       }
     },
     {
@@ -1292,12 +1408,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-09-10",
+        "summary": "Gemini launched Gemini Custody, a qualified-custodian platform for institutional crypto storage with expanded asset support and trading integration.",
+        "significance": "Institutional-grade custody became a key prerequisite for hedge funds, asset managers and other regulated capital entering crypto.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gemini — Introducing Gemini Custody",
+            "url": "https://www.gemini.com/blog/introducing-gemini-custody",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1315,21 +1437,27 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_RESEARCHED",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Craig Wright and Calvin Ayre were prominent supporters of Bitcoin SV after the 2018 BCH/BSV split, with Wright positioned as a leading technical/ideological figure and Ayre as a major financial/media backer.",
+        "significance": "This is movement/personality context rather than one cleanly dated 2019 event; the BCH/BSV split and later court rulings are stronger card candidates.",
+        "source_confidence": "MEDIUM",
+        "sources": [
+          {
+            "title": "Wright v McCormack — court background on Wright's Satoshi claims",
+            "url": "https://www.bailii.org/ew/cases/EWHC/KB/2023/1030.html",
+            "type": "COURT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Do not turn affiliation/backing into a standalone card without a specific event."
       }
     },
     {
       "id": "LORE-EVT-1005",
       "date": "2019",
-      "title": "Craig Wright files defamation lawsuits over Satoshi claims",
+      "title": "Craig Wright launches libel actions over challenges to his Satoshi claim",
       "branch": [
         "MYSTERIES",
         "PEOPLE"
@@ -1337,12 +1465,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_COURT_RECORD",
+        "exact_date": "2019-03 onward",
+        "summary": "Craig Wright began libel proceedings against critics who publicly rejected his claim to be Satoshi Nakamoto, including Peter McCormack; later judgments document the 2019 case.",
+        "significance": "The litigation turned the long-running Satoshi-identity dispute into years of court proceedings and eventually contributed to later judicial findings about Wright's claims.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Wright v McCormack [2023] EWHC 1030 (KB)",
+            "url": "https://www.bailii.org/ew/cases/EWHC/KB/2023/1030.html",
+            "type": "COURT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1359,15 +1493,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_RESEARCHED",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Hydra had been operating since 2015 and grew into the dominant Russian-language darknet marketplace; later US authorities described it as the world's largest and longest-running darknet market.",
+        "significance": "Its rise is historically important to crypto-linked illicit-market history, but 'becomes major in 2019' is not a clean point event; the 2022 takedown is the stronger canonical milestone.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Shutdown of Hydra Market",
+            "url": "https://www.justice.gov/archives/opa/pr/justice-department-investigation-leads-shutdown-largest-online-darknet-marketplace",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as context only in 2019."
       }
     },
     {
@@ -1381,21 +1521,27 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED_WITH_SECURITY_REPORT",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "Security reporting in 2019 identified Ryuk as a major enterprise-focused ransomware strain associated with large ransom demands, generally paid in Bitcoin.",
+        "significance": "Ryuk helped shift ransomware from high-volume small demands toward targeted 'big game' enterprise extortion.",
+        "source_confidence": "MEDIUM_HIGH",
+        "sources": [
+          {
+            "title": "Coveware — Ransomware Marketplace Report Q2 2019",
+            "url": "https://www.coveware.com/blog/2019/7/15/ransomware-amounts-rise-3x-in-q2-as-ryuk-ransomware-returns",
+            "type": "SECURITY_RESEARCH"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Trend/strain prominence rather than one single attack."
       }
     },
     {
       "id": "LORE-EVT-1040",
       "date": "2019",
-      "title": "OneCoin leaders face criminal proceedings",
+      "title": "US charges OneCoin leaders as Konstantin Ignatov is arrested",
       "branch": [
         "SCAMS",
         "CRIME"
@@ -1403,12 +1549,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-03-08",
+        "summary": "US prosecutors announced fraud and money-laundering charges against OneCoin leaders after Konstantin Ignatov had been arrested at Los Angeles International Airport on 6 March.",
+        "significance": "The action marked a major criminal-enforcement phase in dismantling one of the world's largest fake-cryptocurrency schemes.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Charges Against OneCoin Leaders",
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-charges-against-leaders-onecoin-multibillion-dollar",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1445,7 +1597,7 @@
     {
       "id": "LORE-EVT-1050",
       "date": "2019",
-      "title": "Devcon Osaka highlights Ethereum 2.0 roadmap",
+      "title": "Devcon5 convenes Ethereum's community in Osaka",
       "branch": [
         "ETHEREUM",
         "CULTURE"
@@ -1453,12 +1605,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_RANGE",
+        "exact_date": "2019-10-08 to 2019-10-11",
+        "summary": "Ethereum's Devcon5 convened the global Ethereum developer community in Osaka, with the Ethereum 2.0 roadmap and research a major focus of the surrounding program.",
+        "significance": "Devcon5 captured Ethereum at the transition point from early smart-contract growth toward proof-of-stake and scaling research.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — Devcon5 schedule and speakers",
+            "url": "https://blog.ethereum.org/2019/09/26/devcon-speaker-release",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1475,21 +1633,27 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "state": "CONTEXT_RESEARCHED",
+        "exact_date": "2019-02",
+        "summary": "ETHDenver had become a major Ethereum hackathon/community gathering by 2019; MolochDAO was publicly launched there on 14 February.",
+        "significance": "The conference is important ecosystem infrastructure, but MolochDAO's launch is the cleaner discrete historical event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MolochDAO — 2019 Year in Review",
+            "url": "https://medium.com/molochdao/moloch-2019-year-in-review-eb6f53dc035",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-1129",
+        "relation": "CONTEXT",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-1079",
       "date": "2019",
-      "title": "Gnosis Safe emerges as key multisig standard",
+      "title": "Gnosis Safe Multisig publicly launches",
       "branch": [
         "ETHEREUM",
         "SECURITY"
@@ -1497,12 +1661,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-12-18",
+        "summary": "Gnosis publicly launched Gnosis Safe Multisig, the successor to its earlier multisig wallet.",
+        "significance": "Safe became foundational treasury and smart-account infrastructure for DAOs, protocols and crypto organizations.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gnosis — Gnosis Safe Multisig Launch",
+            "url": "https://medium.com/gnosis-pm/announcing-the-gnosis-safe-multisig-launch-a5d4ab17bd01",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1511,19 +1681,25 @@
     {
       "id": "LORE-EVT-1087",
       "date": "2019",
-      "title": "Compound money markets popularize algorithmic interest rates",
+      "title": "Compound v2 launches on Ethereum mainnet",
       "branch": [
         "DEFI"
       ],
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-05-23",
+        "summary": "Compound v2 launched on Ethereum mainnet with cTokens, autonomous interest-rate markets and improved collateral/risk architecture.",
+        "significance": "Compound v2 helped establish pooled, algorithmic on-chain lending as a core DeFi primitive and became a foundation for the 2020 liquidity-mining boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Compound — Compound v2 is Live",
+            "url": "https://medium.com/compound-finance/compound-v2-is-live-157db0b7cfc8",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1541,15 +1717,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED_WITH_GOVERNANCE_RECORD",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "summary": "MakerDAO repeatedly used MKR-holder governance polls and executive votes to change the Dai Stability Fee in response to peg and market conditions.",
+        "significance": "The recurring fee votes were an early real-world demonstration of token-holder governance controlling monetary/risk parameters, but no single 2019 vote fully represents the trend.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Maker Governance — Stability Fee Adjustment Sep 23 2019",
+            "url": "https://vote.makerdao.com/polling/QmYab6vs",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Keep as governance context rather than standalone card."
       }
     },
     {
@@ -1563,21 +1745,27 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
+        "state": "CONTEXT_VERIFIED",
         "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
-        "canonical_event_id": null,
-        "relation": null,
+        "summary": "Uniswap's permissionless pool creation and token listing model became increasingly important as more Ethereum assets were traded without centralized-exchange approval.",
+        "significance": "This is a consequence of Uniswap's 2018 launch rather than a distinct 2019 event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Uniswap — A Short History of Uniswap",
+            "url": "https://blog.uniswap.org/uniswap-history",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
+        "canonical_event_id": "LORE-EVT-0038",
+        "relation": "AFTERMATH",
         "notes": null
       }
     },
     {
       "id": "LORE-EVT-1102",
       "date": "2019",
-      "title": "State-channel projects explore off-chain Ethereum scaling",
+      "title": "Connext brings Ethereum state channels into production",
       "branch": [
         "ETHEREUM",
         "TECHNOLOGY"
@@ -1585,12 +1773,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_MONTH",
+        "exact_date": "2019-09",
+        "summary": "Connext's state-channel micropayments system was live in production by September 2019, while the Counterfactual and Magmo research groups merged work into the unified StateChannels project.",
+        "significance": "It demonstrated that Ethereum state channels had moved from theory into production before rollups became the dominant scaling path.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Ethereum Foundation — State Channel Research update",
+            "url": "https://blog.ethereum.org/2019/12/03/ef-supported-teams-research-and-development-update-2019-pt-2",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1599,7 +1793,7 @@
     {
       "id": "LORE-EVT-1113",
       "date": "2019",
-      "title": "Gods Unchained gains traction as blockchain trading-card game",
+      "title": "Gods Unchained opens its official blockchain-card marketplace",
       "branch": [
         "GAMING",
         "NFT"
@@ -1607,12 +1801,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-11-22",
+        "summary": "Gods Unchained opened its official marketplace, allowing players to buy and sell blockchain-based game cards.",
+        "significance": "The launch was an early proof that collectible card-game assets could be genuinely tradable blockchain property rather than items locked inside a game publisher's database.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Gods Unchained — Timeline",
+            "url": "https://portal.godsunchained.com/blog/how-far-weve-come-the-timeline-of-gods-unchained",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1621,7 +1821,7 @@
     {
       "id": "LORE-EVT-1114",
       "date": "2019",
-      "title": "The Sandbox begins blockchain-based virtual-world expansion",
+      "title": "The Sandbox launches its first LAND presale",
       "branch": [
         "GAMING",
         "NFT"
@@ -1629,12 +1829,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-12-04",
+        "summary": "The Sandbox launched its first LAND presale and reported that the first round sold out.",
+        "significance": "The sale was an early milestone in the virtual-land/metaverse economy that would later explode during the 2021 NFT boom.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "The Sandbox — first LAND presale sold out",
+            "url": "https://www.sandbox.game/en/blog/audit-review-announcement-the-sandbox-ft-certik/550/",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1651,12 +1857,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-02-14",
+        "summary": "MolochDAO was officially launched at ETHDenver on Valentine's Day 2019 as a deliberately minimal DAO for funding Ethereum public goods.",
+        "significance": "Its 'ragequit' and minimalist governance design influenced a new generation of DAOs after the trauma of The DAO.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "MolochDAO — 2019 Year in Review",
+            "url": "https://medium.com/molochdao/moloch-2019-year-in-review-eb6f53dc035",
+            "type": "PROJECT_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1674,12 +1886,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED",
+        "exact_date": "2019-05-03",
+        "summary": "US authorities announced charges against alleged administrators of Wall Street Market after an international investigation; the market had about 5,400 vendors and 1.15 million customer accounts.",
+        "significance": "The takedown was one of the largest coordinated darknet-market enforcement actions of the post-Silk-Road era.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — Wall Street Market charges",
+            "url": "https://www.justice.gov/usao-edca/pr/three-germans-who-allegedly-operated-dark-web-marketplace-over-1-million-users-face-us",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -1697,15 +1915,21 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "VERIFIED_WITH_ALLEGATION_QUALIFIER",
+        "exact_date": "2019-12-10",
+        "summary": "US prosecutors charged several BitClub Network operators, alleging a cryptocurrency mining investment fraud that obtained at least $722 million from investors.",
+        "significance": "BitClub became one of the largest mining-themed fraud prosecutions in crypto history.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "DOJ — BitClub Network case",
+            "url": "https://www.justice.gov/doj/case/united-states-vs-matthew-brent-goettsche-et-al",
+            "type": "GOVERNMENT"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Use 'alleged' for the 2019 charging-stage description; later guilty pleas support parts of the government's case."
       }
     },
     {
@@ -1738,7 +1962,7 @@
     },
     {
       "id": "LORE-EVT-1206",
-      "date": "2019",
+      "date": "2018-06-17",
       "title": "ERC-1155 multi-token standard is adopted by gaming projects",
       "branch": [
         "NFT",
@@ -1748,21 +1972,27 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2018-06-17",
+        "summary": "EIP-1155, the multi-token standard associated with gaming and mixed fungible/non-fungible assets, was created in June 2018 rather than 2019.",
+        "significance": "The standard became important to blockchain games by allowing many token types to share one contract, but the raw 2019 'adoption' wording is a trend rather than a point event.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "EIP-1155 Multi Token Standard",
+            "url": "https://eips.ethereum.org/EIPS/eip-1155",
+            "type": "PRIMARY_SPEC"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Move to 2018 standards chronology; do not score as a separate 2019 event."
       }
     },
     {
       "id": "LORE-EVT-1220",
       "date": "2019",
-      "title": "Coinbase lists more altcoins after years of conservative selection",
+      "title": "Coinbase signals a broad expansion of its asset-listing strategy",
       "branch": [
         "EXCHANGES",
         "ALTCOINS"
@@ -1770,16 +2000,25 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "RESEARCH_NEEDED_SPECIFIC",
-        "exact_date": "2019",
-        "summary": "This 2019 candidate remains plausible but needs a precise event definition and authoritative source before it can be treated as canonical.",
-        "significance": "Keep in the archive research pool; do not card-score yet.",
-        "source_confidence": "LOW",
-        "sources": [],
+        "state": "CONTEXT_VERIFIED",
+        "exact_date": "2019-09-19",
+        "summary": "Coinbase publicly said its goal was to support all assets meeting technical and legal standards and that it was exploring many new networks and tokens, including assets that had not yet launched.",
+        "significance": "The announcement marked Coinbase's shift away from an extremely narrow asset-selection model toward much broader multi-asset support.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Coinbase — continues to explore support for new digital assets",
+            "url": "https://www.coinbase.com/blog/coinbase-continues-to-explore-support-for-new-digital-assets",
+            "type": "COMPANY_PRIMARY"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
       }
     }
-  ]
+  ],
+  "research_status": "YEAR_TRIAGED_AND_SOURCED",
+  "completed_research_review": "2026-09-26",
+  "score_status": "READY_FOR_EDITORIAL_SCORING"
 }
