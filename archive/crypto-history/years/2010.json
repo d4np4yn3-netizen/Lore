@@ -343,7 +343,7 @@
     },
     {
       "id": "LORE-EVT-0423",
-      "date": "2010",
+      "date": "2009-11-22",
       "title": "BitcoinTalk forum becomes the central early community hub",
       "branch": [
         "BITCOIN",
@@ -352,12 +352,18 @@
       "tier": "CORE",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2009-11-22",
+        "summary": "Satoshi's archived forum thread titled 'Welcome to the new Bitcoin forum!' is dated 22 November 2009, so the forum-origin milestone belongs in 2009 rather than 2010.",
+        "significance": "The forum became the central public venue for early Bitcoin development, trading, mining and culture.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Satoshi Nakamoto Institute — BitcoinTalk threads",
+            "url": "https://satoshi.nakamotoinstitute.org/posts/bitcointalk/threads/",
+            "type": "PRIMARY_ARCHIVE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -365,7 +371,7 @@
     },
     {
       "id": "LORE-EVT-0650",
-      "date": "2010",
+      "date": "2009-12-30",
       "title": "First known Bitcoin difficulty jump reflects growing mining participation",
       "branch": [
         "BITCOIN",
@@ -374,12 +380,18 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
-        "sources": [],
+        "state": "DATE_CORRECTED",
+        "exact_date": "2009-12-30T06:11:04Z",
+        "summary": "Bitcoin's first actual difficulty increase occurred at block 32,256 on 30 December 2009, when difficulty rose from 1 to 1.18.",
+        "significance": "It was the first time Bitcoin's automatic mining-difficulty mechanism increased in response to growing network hashpower.",
+        "source_confidence": "HIGH",
+        "sources": [
+          {
+            "title": "Blockchain.com — Bitcoin block 32,256",
+            "url": "https://www.blockchain.com/en/explorer/blocks/btc/32256",
+            "type": "ONCHAIN_REFERENCE"
+          }
+        ],
         "canonical_event_id": null,
         "relation": null,
         "notes": null
@@ -453,15 +465,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2010",
+        "summary": "OTC Bitcoin trading on forums and IRC developed alongside early exchange infrastructure, but this is a gradual market-development trend rather than one discrete event.",
+        "significance": "Useful book/timeline context; not suitable for independent card scoring without a specific documented trade or venue milestone.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context-only; exclude from card scoring as a standalone event."
       }
     },
     {
@@ -475,15 +487,15 @@
       "tier": "MAJOR",
       "status": "RESEARCH_REQUIRED",
       "research": {
-        "state": "UNRESEARCHED",
-        "exact_date": null,
-        "summary": null,
-        "significance": null,
-        "source_confidence": null,
+        "state": "EDITORIAL_CONTEXT_REVIEWED",
+        "exact_date": "2010",
+        "summary": "Early users gradually developed wallet-backup and key-management practices as Bitcoin moved beyond a small developer circle.",
+        "significance": "Important self-custody context, but the current row is a diffuse practice trend rather than a dated event.",
+        "source_confidence": "MEDIUM",
         "sources": [],
         "canonical_event_id": null,
         "relation": null,
-        "notes": null
+        "notes": "Context-only; specific wallet/security milestones should carry card scores instead."
       }
     },
     {
