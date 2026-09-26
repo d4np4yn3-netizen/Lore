@@ -149,19 +149,24 @@
         "TOKENS",
         "CULTURE"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "The Runes protocol launched around Bitcoin block 840,000 as a new fungible-token convention built on Bitcoin.",
-      "significance": "Runes created another wave of token issuance and blockspace demand on Bitcoin after Ordinals and BRC-20.",
+      "research_state": "VERIFIED_WITH_LAUNCH_CONTEXT",
+      "source_confidence": "HIGH",
+      "summary": "Casey Rodarmor's Runes protocol went live at Bitcoin's fourth-halving block 840,000 on 20 April 2024, providing a UTXO-native convention for fungible tokens.",
+      "significance": "Runes created a new Bitcoin token-issuance wave immediately after Ordinals and BRC-20.",
       "sources": [
         {
           "title": "Ordinals Handbook — Runes",
           "url": "https://docs.ordinals.com/runes.html",
           "type": "PROJECT_PRIMARY"
+        },
+        {
+          "title": "Casey Rodarmor — Runes",
+          "url": "https://casey.github.io/blog/runes/",
+          "type": "CREATOR_PRIMARY"
         }
       ],
       "score_status": "NOT_SCORED",
-      "notes": "Pin launch implementation/block evidence before upgrading to VERIFIED."
+      "notes": "Launch is tied to block 840,000."
     },
     {
       "id": "LORE-CAN-2024-008",
@@ -216,11 +221,22 @@
         "EXCHANGES",
         "HACKS"
       ],
-      "research_state": "RESEARCH_NEEDED_PRIMARY",
-      "source_confidence": "LOW",
-      "summary": "Japanese exchange DMM Bitcoin reported an unauthorized outflow of Bitcoin in late May 2024.",
-      "significance": "The theft became one of the largest centralized-exchange security incidents of 2024.",
-      "sources": [],
+      "research_state": "VERIFIED",
+      "source_confidence": "HIGH",
+      "summary": "Japan's Financial Services Agency said DMM Bitcoin found an unauthorized leakage of customer Bitcoin on 31 May 2024 worth about ¥48.2 billion; later regulatory material identified 4,502.9 BTC as the outflow.",
+      "significance": "The incident was one of 2024's largest centralized-exchange crypto thefts and led to Japanese supervisory action.",
+      "sources": [
+        {
+          "title": "Japan FSA — Minister press conference on DMM Bitcoin",
+          "url": "https://www.fsa.go.jp/en/conference/minister/2024/20240604.html",
+          "type": "GOVERNMENT"
+        },
+        {
+          "title": "Japan FSA Weekly Review — DMM Bitcoin action",
+          "url": "https://www.fsa.go.jp/en/newsletter/weekly2024/605.html",
+          "type": "GOVERNMENT"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Add DMM Bitcoin/Japanese regulatory primary notice and exact amount before VERIFIED."
     },
@@ -313,35 +329,47 @@
     },
     {
       "id": "LORE-CAN-2024-015",
-      "date": "2024",
-      "title": "Solana meme-token launch platforms accelerate token creation",
+      "date": "2024-01",
+      "title": "Pump.fun launches and industrializes Solana meme-token creation",
       "branches": [
         "ALTCOINS",
         "MEMES",
         "CULTURE"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Solana-based meme-token launch platforms, especially Pump.fun, dramatically lowered the friction for creating and trading new tokens during 2024.",
-      "significance": "The model became a defining mechanism of the 2024 meme-coin cycle and changed how speculative tokens were launched.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_PLATFORM_SOURCE",
+      "source_confidence": "HIGH",
+      "summary": "Pump.fun states that the platform launched in January 2024. Its bonding-curve model made creating and trading new meme tokens dramatically easier.",
+      "significance": "Pump.fun turned meme-token issuance into a consumer-facing launch flow and became a defining mechanism of Solana's 2024 speculative boom.",
+      "sources": [
+        {
+          "title": "Pump.fun — company/token history",
+          "url": "https://pump.fun/pump-token",
+          "type": "PLATFORM_PRIMARY"
+        }
+      ],
       "score_status": "NOT_SCORED",
       "notes": "Needs primary platform launch/volume evidence before scoring."
     },
     {
       "id": "LORE-CAN-2024-016",
-      "date": "2024",
+      "date": "2024-03",
       "title": "Dogwifhat becomes a defining Solana meme coin",
       "branches": [
         "ALTCOINS",
         "MEMES",
         "CULTURE"
       ],
-      "research_state": "RESEARCH_NEEDED_SPECIFIC",
-      "source_confidence": "LOW",
-      "summary": "Dogwifhat rose from a meme-token launch into one of Solana's largest meme-coin communities during 2024.",
-      "significance": "The project became a visual symbol of Solana's meme-coin boom and community-funded marketing culture.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_MARKET_SOURCE",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Dogwifhat surged into the top tier of Solana meme coins during March 2024, reaching record prices and becoming a prominent symbol of the network's meme-token cycle.",
+      "significance": "Its dog-in-a-hat image became one of the defining visuals of Solana's 2024 meme culture.",
+      "sources": [
+        {
+          "title": "CoinDesk — Dogwifhat surges to record",
+          "url": "https://www.coindesk.com/markets/2024/03/06/solana-meme-coin-dogwifhat-surges-48-outperforming-bonk-doge",
+          "type": "CONTEMPORARY_SECONDARY"
+        }
+      ],
       "score_status": "NOT_SCORED"
     },
     {
@@ -362,20 +390,31 @@
     },
     {
       "id": "LORE-CAN-2024-018",
-      "date": "2024",
-      "title": "Bhutan's state-linked Bitcoin mining and holdings gain global attention",
+      "date": "2024-09-16",
+      "title": "Arkham publicly identifies Bhutan's state-linked Bitcoin holdings",
       "branches": [
         "GOVERNMENTS",
         "BITCOIN",
         "MINING"
       ],
-      "research_state": "RESEARCH_NEEDED_PRIMARY",
-      "source_confidence": "LOW",
-      "summary": "Public attention grew around Bhutan's state-linked Bitcoin mining activity and cryptocurrency holdings.",
-      "significance": "The story added a distinctive sovereign-mining model to government involvement in Bitcoin.",
-      "sources": [],
+      "research_state": "VERIFIED_WITH_CHAIN_ANALYSIS_QUALIFIER",
+      "source_confidence": "MEDIUM_HIGH",
+      "summary": "Arkham Intelligence publicly labeled wallets it attributed to Bhutan's government investment arm, Druk Holding & Investments, showing more than $750 million of Bitcoin and linking the holdings to state-backed mining.",
+      "significance": "The disclosure drew global attention to a sovereign Bitcoin strategy based on mining rather than mainly criminal-asset seizures.",
+      "sources": [
+        {
+          "title": "Arkham — Bhutan Government's BTC holdings",
+          "url": "https://info.arkm.com/announcements/bhutan-governments-750m-btc-now-on-arkham",
+          "type": "CHAIN_ANALYSIS"
+        },
+        {
+          "title": "IMF — Bhutan Article IV report on public-sector Bitcoin estimates",
+          "url": "https://www.elibrary.imf.org/view/journals/002/2026/019/article-A001-en.xml",
+          "type": "INTERGOVERNMENTAL"
+        }
+      ],
       "score_status": "NOT_SCORED",
-      "notes": "Attach official Bhutan/Druk Holding or high-authority chain-analysis evidence before VERIFIED."
+      "notes": "Bhutanese authorities have not publicly confirmed Arkham's exact wallet/holding estimates."
     },
     {
       "id": "LORE-CAN-2024-019",
@@ -400,5 +439,6 @@
       "score_status": "NOT_SCORED",
       "notes": "Use Reuters' quoted market high rather than presenting one universal exchange price."
     }
-  ]
+  ],
+  "updated": "2026-09-26"
 }
