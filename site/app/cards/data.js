@@ -7,6 +7,7 @@ import chapter006 from './content/006.json';
 import chapter007 from './content/007.json';
 import chapter008 from './content/008.json';
 import chapter009 from './content/009.json';
+import chapter010 from './content/010.json';
 
 export const cards = [
   {
@@ -128,6 +129,20 @@ export const cards = [
     ...chapter009,
     source: 'https://bitcointalk.org/index.php?topic=183.0',
     number: '009/100',
+  },
+  {
+    slug: 'the-overflow',
+    title: 'THE OVERFLOW',
+    rarity: 'RARE',
+    date: '15 AUG 2010',
+    subject: 'BITCOIN',
+    phrase: 'WE NEED A FIX ASAP.',
+    image: 'cards/crypto/season-01/the-overflow-master-010/LORE-The-Overflow-Rare-010-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-overflow-master-010/art.png',
+    book: 'book/crypto-season-01/proofs/010-the-overflow-full-art-spread-v1.pdf',
+    ...chapter010,
+    source: 'https://bitcointalk.org/index.php?topic=823.0',
+    number: '010/100',
   },
 ];
 

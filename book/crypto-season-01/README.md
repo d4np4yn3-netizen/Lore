@@ -24,3 +24,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 009 The Faucet
 
 [Approved chapter](009-the-faucet.md) · [Approved boy-version book pages](proofs/009-the-faucet-full-art-spread-v1.pdf). Common 009/100; approved for site publication 27 September 2026.
+
+## 010 The Overflow
+
+[Approved chapter](010-the-overflow.md) · [Two-page full-art spread](proofs/010-the-overflow-full-art-spread-v1.pdf). Rare 010/100; larger Dogecoin version selected for the site 27 September 2026.
