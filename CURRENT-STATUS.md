@@ -2,9 +2,11 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Active: 004 and collection-wide cross-card Easter eggs — 27 September 2026
+## Active: 004 RPOW approved for GitHub and site — 27 September 2026
 
-Dan selected 004 Reusable Proof of Work as the next card. Its brief now includes a targeted check of Hal Finney's 15 August 2004 announcement, a workshop/token-exchange concept and phrase shortlist for review. No 004 artwork or final copy/rarity is approved yet. Dan also approved cross-card hidden objects as a recurring collection feature; record objects as they emerge, then review all 100 artworks together for proposed additions. See cards/crypto/COLLECTION-RULES.md and cards/crypto/CROSS-CARD-ITEMS.md. Preserve existing masters; later revisions need individual approval.
+Dan approved the darker token-lit Hal Finney artwork, Rare front and book chapter/spread and authorised upload and live publication. Canonical files are in `cards/crypto/season-01/rpow-master-01/`; approved chapter `book/crypto-season-01/004-rpow.md`, full-art spread `proofs/004-rpow-full-art-spread-v1.pdf`, website mirror `site/app/cards/content/004.json`. The 004/100 QR carries `https://lore-site-v1.vercel.app/crypto/004/`, which redirects to `/cards/rpow` after deployment. Physical print release remains false. GitHub and deployment verification are pending in this local build.
+
+The 100-moment selection and cross-card inventory remain at `archive/crypto-history/selection/v1/` and `cards/crypto/CROSS-CARD-ITEMS.md`. Its rarity quota is not assigned; current 15 approved visual counts: Common 1, Uncommon 0, Rare 5, Epic 5, Legendary 3, Mythic 1. See `cards/crypto/season-01/rarity-progress.md`.
 
 ## Latest: 003 Hashcash — 27 September 2026
 

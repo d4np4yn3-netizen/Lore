@@ -1,6 +1,7 @@
 import chapter001 from './content/001.json';
 import chapter002 from './content/002.json';
 import chapter003 from './content/003.json';
+import chapter004 from './content/004.json';
 
 export const cards = [
   {
@@ -38,6 +39,18 @@ export const cards = [
     ...chapter003,
     source: 'https://www.hashcash.org/papers/announce.txt',
     number: '003/100',
+  },
+  {
+    slug: 'rpow',
+    title: 'RPOW — REUSABLE PROOF OF WORK',
+    rarity: 'RARE',
+    date: '15 AUG 2004',
+    subject: 'HAL FINNEY',
+    phrase: 'BUT THEY ARE REUSABLE.',
+    image: 'cards/crypto/season-01/rpow-master-01/LORE-RPOW-Rare-004-Print-v1.png',
+    ...chapter004,
+    source: 'https://nakamotoinstitute.org/library/rpow/',
+    number: '004/100',
   },
 ];
 
