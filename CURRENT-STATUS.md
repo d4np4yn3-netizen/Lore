@@ -2,6 +2,10 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## Latest: 006 Genesis Block approved for publication — 27 September 2026
+
+Dan approved corrected art, Mythic 006/100 front, `SECOND BAILOUT FOR BANKS.` phrase and two-page book spread, then authorised GitHub and live site publication. Canonical files: `cards/crypto/season-01/genesis-block-master-006/`; chapter `book/crypto-season-01/006-genesis-block.md`; spread `book/crypto-season-01/proofs/006-genesis-block-full-art-spread-v1.pdf`; site text `site/app/cards/content/006.json`. Original review art preserved locally. Screen hex excerpt verified against raw block binary; orange is the 69-byte Times message. Site build and PDF rendering pass, vector QR encodes `/crypto/006/`. GitHub and production verification pending in this publication step. Physical print release false.
+
 ## Latest: 005 The Whitepaper published and verified — 27 September 2026
 
 Dan approved the Japanese-inspired fictional-town redraw, Legendary 005/100 front, four-paragraph book story and two-page editorial spread on 27 September, and authorised GitHub/site publication. Canonical art and front are in `cards/crypto/season-01/the-whitepaper-master-005/`, chapter `book/crypto-season-01/005-the-whitepaper.md`, full-art PDF `proofs/005-the-whitepaper-full-art-spread-v1.pdf`, website mirror `site/app/cards/content/005.json`. All 16 publication files are on GitHub in `2a4b8918827ea455f72863fe2dc515d94a94e229`; remote tree matches the prepared set. Production deployment `dpl_57A5h4B9Cu7txteNmf1iYtapRr4x` is READY. `/crypto/005/` redirects to `/cards/the-whitepaper` with HTTP 200; homepage includes 005. Full art, card PNG/SVG and book PDF remote SHA-256 hashes match their approved files, and book-to-site copy check passes. Current card register now selects this numbered master. The original approved Whitepaper master is preserved unchanged. The story distinguishes the fictional town from historical location; the nine-page paper cites b-money and Hashcash, not RPOW. Physical print release remains false. Legendary is already included in the 15-card rarity tally. Next: 006 after Dan's instruction.

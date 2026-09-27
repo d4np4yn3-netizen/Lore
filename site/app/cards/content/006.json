@@ -1,0 +1,27 @@
+{
+  "story": [
+    "A hooded figure sits before a wall of light. Rain streaks the window, a newspaper lies open beside the keyboard, and a familiar whitepaper rests on the desk. The room is imagined. The data on the screen comes from Bitcoin's first block.",
+    "On 3 January 2009, Satoshi Nakamoto created the Genesis block: block zero, the starting point of Bitcoin's chain. Its recorded timestamp is 18:15:05 UTC. With no earlier block to point to, it establishes the beginning of the history that later blocks would extend. The proposal introduced in the whitepaper now had its first block.",
+    "Inside its coinbase transaction, Satoshi placed a newspaper reference: *The Times 03/Jan/2009 Chancellor on brink of second bailout for banks*. A headline about rescuing banks became part of the new system's opening record. It anchors that record to the news of the day; reading it as a political statement is an interpretation, rather than an explanation supplied by the block itself.",
+    "The block contains a 50 BTC output that cannot be spent. On the monitor, orange characters reveal the newspaper message inside the raw data, while the rest remains blue. The whitepaper beside the keyboard links this scene to card 005: the published idea followed by a concrete beginning. The developer's face stays hidden, leaving the person behind the name unresolved."
+  ],
+  "eggs": [
+    {
+      "title": "The newspaper.",
+      "text": "The Times date and headline echo the text embedded in the first block. The physical paper and its layout are an artistic interpretation."
+    },
+    {
+      "title": "Orange bytes.",
+      "text": "The highlighted hexadecimal values encode the 69 characters of the newspaper message. The five rows are a checked excerpt of the real block; orange is our visual annotation."
+    },
+    {
+      "title": "Block zero.",
+      "text": "Height 0, the recorded timestamp, hash prefix and unspendable 50 BTC output identify the Genesis block. The monitor is an imagined interface."
+    },
+    {
+      "title": "The Whitepaper returns.",
+      "text": "The sheet on the right is the intentional card 005 callback. Its placement beside the keyboard is symbolic, not a documented object in Satoshi's room."
+    }
+  ],
+  "sourceNote": "[Bitcoin Core, Genesis block definition](https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp); [raw Genesis block](https://blockstream.info/api/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f/raw). The block data, timestamp, output and message were checked. The person, room, weather, newspaper layout and screen design are imagined; they do not establish Satoshi's identity or location."
+}

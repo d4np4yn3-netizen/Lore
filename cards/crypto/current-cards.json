@@ -1471,6 +1471,102 @@
         "physical_qr_scan_test": false,
         "converted_at": "2026-09-24"
       }
+    },
+    {
+      "id": "crypto-s01-genesis-block",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "mythic",
+      "creator": "BITCOIN",
+      "title_line_1": "GENESIS",
+      "title_line_2": "BLOCK",
+      "context": "SECOND BAILOUT FOR BANKS.",
+      "moment_label": "03 JAN 2009",
+      "set_label": "CRYPTO • SEASON 01 • 006/100",
+      "artwork": "cards/crypto/season-01/genesis-block-master-006/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/006/",
+      "status": "APPROVED_AND_PUBLISHED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "phrase_status": "APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
+      "sources": [
+        "https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp"
+      ],
+      "event_date": "2009-01-03",
+      "date_basis": "GENESIS_BLOCK_RECORDED_TIMESTAMP",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "live",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Anonymous hooded figure and room are symbolic. Actual Genesis block data is shown on the monitor, with embedded Times message highlighted. Whitepaper on desk intentionally recalls card 005.",
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "source_notes": "cards/crypto/season-01/genesis-block-master-006/README.md",
+      "front": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.svg",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-27",
+      "approval_quote": "All approved. Safe to GitHub, and live on the site.",
+      "approval_record": "cards/crypto/season-01/genesis-block-master-006/print-v1-manifest.json",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": true,
+      "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+      "moment_number": 6,
+      "set_size": 100,
+      "print_quantities": null,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.png",
+          "bytes": 793478,
+          "sha256": "56ab9684955b4647abe5b746530bfa696dd3c54515c7661d2605eb9f5d63b482"
+        },
+        {
+          "path": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.svg",
+          "bytes": 2678584,
+          "sha256": "08df9b07e434530c555a87493d7ff5a5bbcd3fc02326ea843fc4b92f6474d054"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/genesis-block-master-006/art.png",
+        "bytes": 1981642,
+        "sha256": "14e947d429f71dd2a356300cf7f6c80b46b0b37bf6f259ecd08dc950572e29b1"
+      },
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "front": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/genesis-block-master-006/print-v1-manifest.json",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+        "print_release": false,
+        "physical_proof_received": false,
+        "physical_qr_scan_test": false
+      },
+      "book_chapter": "book/crypto-season-01/006-genesis-block.md",
+      "book_spread": "book/crypto-season-01/proofs/006-genesis-block-full-art-spread-v1.pdf"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",

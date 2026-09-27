@@ -3,6 +3,7 @@ import chapter002 from './content/002.json';
 import chapter003 from './content/003.json';
 import chapter004 from './content/004.json';
 import chapter005 from './content/005.json';
+import chapter006 from './content/006.json';
 
 export const cards = [
   {
@@ -68,6 +69,20 @@ export const cards = [
     ...chapter005,
     source: 'https://bitcoin.org/bitcoin.pdf',
     number: '005/100',
+  },
+  {
+    slug: 'genesis-block',
+    title: 'GENESIS BLOCK',
+    rarity: 'MYTHIC',
+    date: '03 JAN 2009',
+    subject: 'BITCOIN',
+    phrase: 'SECOND BAILOUT FOR BANKS.',
+    image: 'cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.png',
+    artwork: 'cards/crypto/season-01/genesis-block-master-006/art.png',
+    book: 'book/crypto-season-01/proofs/006-genesis-block-full-art-spread-v1.pdf',
+    ...chapter006,
+    source: 'https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp',
+    number: '006/100',
   },
 ];
 
