@@ -1,6 +1,6 @@
 # LORE project memory
 
-- **009 The Faucet approved, 27 September 2026.** Dan selected the boy version for site publication. Common 009/100, GET 5 FREE BITCOINS., 11 JUN 2010. Exact wider-monitor review v1 art/card/book selected; canonical folder `the-faucet-master-009`. Woman drafts are unselected. Publication verification pending.
+- **009 The Faucet approved, 27 September 2026.** Dan selected the boy version for site publication. Common 009/100, GET 5 FREE BITCOINS., 11 JUN 2010. Exact wider-monitor review v1 art/card/book selected; canonical folder `the-faucet-master-009`. Woman drafts are unselected. Published in `1eea999bbb73e35bfb35e0285524573ca718f030`; production deployment `dpl_HZGEkX5amCFsnYoCHn1xr92AuKj8` is READY. QR route and homepage verified; all four public download hashes match the boy artwork/card/book.
 
 - **008 Pizza Day published and verified, 27 September 2026.** Tiny plane from 007 outside window approved with Legendary 008/100 card and book spread. Canonical master `cards/crypto/season-01/pizza-day-master-008`; preserve prior Pizza Day masters. Published in GitHub commit `92837d828a7257305fef35dd548b3a6111b590fc`; production deployment `dpl_EWD7UcFVURvFqRM6ApRLhDtj276Q` is READY. QR route `/crypto/008/` opens `/cards/pizza-day` with HTTP 200. All 21 files and four live download hashes match the approved set. Asana remains outstanding because its connection is unavailable. Next 009 Five-Bitcoin Faucet is proposed Common. Recovered 100-tier review exists in `cards/crypto/season-01/rarity-allocation-review-v2.md`.
 

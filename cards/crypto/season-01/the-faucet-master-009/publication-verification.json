@@ -1,0 +1,39 @@
+{
+  "published_at": "2026-09-27",
+  "publication_commit": "1eea999bbb73e35bfb35e0285524573ca718f030",
+  "deployment": "dpl_HZGEkX5amCFsnYoCHn1xr92AuKj8",
+  "deployment_status": "READY",
+  "all_19_committed_file_hashes_match": true,
+  "live_checks": {
+    "qr_url": "https://lore-site-v1.vercel.app/crypto/009/",
+    "resolved_url": "https://lore-site-v1.vercel.app/cards/the-faucet",
+    "status": 200,
+    "homepage_contains_009": true,
+    "four_clues_and_download_links": true,
+    "boy_master_path": true
+  },
+  "asset_checks": [
+    {
+      "path": "cards/crypto/season-01/the-faucet-master-009/art.png",
+      "sha256": "1a98767eb9b230eb8a3455c9ba401456b04fa2440e1e1a2352d7ce11ff969666",
+      "matches": true
+    },
+    {
+      "path": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.png",
+      "sha256": "c5cb9d2c9d31d3dbfcdd526112436107372287d6ecaad4659c16ef9b351afc99",
+      "matches": true
+    },
+    {
+      "path": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.svg",
+      "sha256": "36cb22cc9c89618d2dbef3f9a88bf21c6f145ea399e01c6c035b1a801a784008",
+      "matches": true
+    },
+    {
+      "path": "book/crypto-season-01/proofs/009-the-faucet-full-art-spread-v1.pdf",
+      "sha256": "a0b27a2f1a7eb889df261d226e60f74460f1b50374d02bdec66ebdd609364539",
+      "matches": true
+    }
+  ],
+  "selected_version": "approved boy, wider-monitor v1",
+  "print_release": false
+}

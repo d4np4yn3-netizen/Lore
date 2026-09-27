@@ -2,9 +2,9 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## 009 The Faucet approved; publication in progress — 27 September 2026
+## 009 The Faucet published and verified — 27 September 2026
 
-Dan selected the boy version and approved Common 009/100 for the site. Canonical folder `cards/crypto/season-01/the-faucet-master-009/`; approved art SHA-256 `1a98767eb9b230eb8a3455c9ba401456b04fa2440e1e1a2352d7ce11ff969666`. Card PNG/SVG and boy-version book PDF preserved exactly. Chapter `book/crypto-season-01/009-the-faucet.md`; PDF `proofs/009-the-faucet-full-art-spread-v1.pdf`. Site adds `/cards/the-faucet` and `/crypto/009/`, four clues and full-art/book links. GitHub/site verification pending. Woman variants are unselected. Approved unique designs: 18, including 2 Common. Physical print release remains false.
+Dan selected the boy version and approved Common 009/100 for the site. Canonical folder `cards/crypto/season-01/the-faucet-master-009/`; approved art SHA-256 `1a98767eb9b230eb8a3455c9ba401456b04fa2440e1e1a2352d7ce11ff969666`. Card PNG/SVG and boy-version book PDF preserved exactly. Chapter `book/crypto-season-01/009-the-faucet.md`; PDF `proofs/009-the-faucet-full-art-spread-v1.pdf`. Site adds `/cards/the-faucet` and `/crypto/009/`, four clues and full-art/book links. All 19 publication files verified in GitHub commit `1eea999bbb73e35bfb35e0285524573ca718f030`. Production deployment `dpl_HZGEkX5amCFsnYoCHn1xr92AuKj8` is READY. `/crypto/009/` redirects to `/cards/the-faucet` with HTTP 200; homepage, four clues and full-art/book links verified. Public art, card PNG/SVG and PDF hashes match the approved boy files. Woman variants are unselected. Approved unique designs: 18, including 2 Common. Physical print release remains false.
 
 ## 008 Pizza Day published and verified — 27 September 2026
 
