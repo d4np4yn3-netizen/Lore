@@ -102,3 +102,13 @@ SIX MOMENTS. ONE ICON. remains the creator-set line, not a crypto set-size claim
 COLLECT THE INTERNET. and ICONS ARE MADE OF MOMENTS. remain the brand lines.
 The optional small NFT companion and possible revenue sharing are ideas under
 consideration, not approved buyer entitlements or a launched product.
+
+## Cross-card Easter eggs — approved direction, 27 September 2026
+
+Dan wants recognisable items from one card hidden naturally inside other card illustrations as a recurring feature across the 100-card collection. The returning Blind Signatures envelope in 003 establishes the approach.
+
+Build an object inventory as artwork is approved: source card, exact approved art path, distinctive object, and receiving-card placement/status. Reuse identifiable approved objects; do not invent the final objects of cards not yet designed. There is no requirement for every card to contain a crossover or for equal numbers on each card.
+
+After all 100 illustrations exist, review the complete collection together and propose a deliberate pass adding suitable connections to earlier cards. Preserve their approved masters and present edited successors for review before promotion. This direction authorises planning the collection-wide pass, not silently changing existing approved art now.
+
+Keep crossovers subtle, legible at card size and consistent with each scene's perspective, lighting and locked HODL/Doge art style. Record their source and meaning for the book and website, distinguishing intentional connections or forward references from historical props. The active inventory is [CROSS-CARD-ITEMS.md](CROSS-CARD-ITEMS.md).

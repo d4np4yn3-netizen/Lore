@@ -89,3 +89,15 @@ Check exact text/numbers, technical or legal detail, and any recognisable period
 - [RPOW - Reusable Proofs of Work](https://nakamotoinstitute.org/library/rpow/) — inherited type: PRIMARY_ARCHIVE.
 
 [Canonical year research](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/years/2004.json); [selection record](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/selection/v1/selection-v1.json).
+
+## Active development — 27 September 2026
+
+Dan selected 004 as the next card after completing 003. The following is a researched illustration proposal, not an approved image, rarity or phrase.
+
+**Verified source:** Hal Finney's original announcement, dated 15 August 2004, archived at https://nakamotoinstitute.org/library/rpow/ (checked 27 September 2026). It describes exchanging Hashcash for RSA-signed tokens, one-use exchanges that issue fresh equal-value tokens, and an IBM 4758 security processor. RPOW was a server-based experiment.
+
+**Scene proposal:** A compact, screen-lit workshop with Hal at a secure exchange device. A spent input token is retired inside the housing as a fresh token emerges for another recipient. Use a worn envelope with 003's blue approval mark in the input tray as a subtle crossover; the physical machine and mail are teaching metaphors.
+
+**Four proposed clues:** 003's approved envelope; a small 4758 hardware plate; a retired-token tray beside the fresh-token output; an EARLY BETA screen status. Any recognizable hardware must be checked against a period reference before illustration. Remove the earlier proposed ten-dot First Transfer motif from the active concept: that artwork is paused and its final object is unknown. Historical brief text above remains archival.
+
+**Phrase shortlist from the announcement:** recommended BUT THEY ARE REUSABLE.; alternative FROM PERSON TO PERSON. Both are continuous excerpts with presentation punctuation normalised; Dan's choice remains pending. Working title REUSABLE PROOF OF WORK; subject HAL FINNEY; date 15 AUG 2004. Rarity remains a proposal-stage decision. Generate only with both locked HODL and Birth of Doge references, then review art and print-layout proof normally.

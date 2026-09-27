@@ -2,6 +2,10 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## Active: 004 and collection-wide cross-card Easter eggs — 27 September 2026
+
+Dan selected 004 Reusable Proof of Work as the next card. Its brief now includes a targeted check of Hal Finney's 15 August 2004 announcement, a workshop/token-exchange concept and phrase shortlist for review. No 004 artwork or final copy/rarity is approved yet. Dan also approved cross-card hidden objects as a recurring collection feature; record objects as they emerge, then review all 100 artworks together for proposed additions. See cards/crypto/COLLECTION-RULES.md and cards/crypto/CROSS-CARD-ITEMS.md. Preserve existing masters; later revisions need individual approval.
+
 ## Latest: 003 Hashcash — 27 September 2026
 
 **Delivery verified 27 September 2026:** all 31 files published in commit `3df8a78ba7fd9fa185608e6f2650ae0d8e7d3494`; remote tree matches the prepared approved set. Vercel production deployment `dpl_Hwzdf58kaPaaLjUnfMwkqYRuVEqe` is READY. `/crypto/003/` redirects successfully to `/cards/hashcash` (HTTP 200), the homepage includes 003, and the live image source SHA-256 exactly matches the approved print PNG. Art, PNG, SVG, chapter and two-page PDF match their manifest hashes; book-to-site copy check passes. The interrupted upload is complete.
