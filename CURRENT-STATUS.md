@@ -2,9 +2,9 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## 011 Slush Pool approved; publication in progress - 27 September 2026
+## 011 Slush Pool published and verified - 27 September 2026
 
-Dan approved Uncommon 011/100, the dark cavern with corrected right monitor and no cross-card object, the card and two-page book spread for GitHub and site. Canonical `cards/crypto/season-01/slush-pool-master-011/`; art SHA-256 `ccffb318b7f0268c6b5126cf08fc1ee162b331b2157de1f02bb1575007545530`. Card phrase `ARE YOU INTERESTED IN?`, date 27 NOV 2010 marks Slush’s proposal; operational launch followed 16 DEC. Chapter `book/crypto-season-01/011-slush-pool.md`; PDF `book/crypto-season-01/proofs/011-slush-pool-full-art-spread-v1.pdf`. Website adds `/cards/slush-pool` and `/crypto/011/`, five clues plus full artwork/book links. GitHub/site verification pending. Unique approved designs: 20, including 1 Uncommon. Physical print release false.
+Dan approved Uncommon 011/100, the dark cavern with corrected right monitor and no cross-card object, the card and two-page book spread for GitHub and site. Canonical `cards/crypto/season-01/slush-pool-master-011/`; art SHA-256 `ccffb318b7f0268c6b5126cf08fc1ee162b331b2157de1f02bb1575007545530`. Card phrase `ARE YOU INTERESTED IN?`, date 27 NOV 2010 marks Slush’s proposal; operational launch followed 16 DEC. Chapter `book/crypto-season-01/011-slush-pool.md`; PDF `book/crypto-season-01/proofs/011-slush-pool-full-art-spread-v1.pdf`. Website adds `/cards/slush-pool` and `/crypto/011/`, five clues plus full artwork/book links. All 22 publication blobs match GitHub commit `25f523cbb3cb856947e08f1ad5c7e931d9d8895c`. Production deployment `dpl_DhiuiN4VdK8brTNUGJeoSLbmXfjk` is READY. `/crypto/011/` opens `/cards/slush-pool` with HTTP 200; homepage, five clues and art/book links verified. Public art, card PNG/SVG and PDF hashes match the approved files. Unique approved designs: 20, including 1 Uncommon. Physical print release false.
 
 ## 010 The Overflow published and verified — 27 September 2026
 
