@@ -1,6 +1,6 @@
 {
   "event": "Pizza Day",
-  "status": "APPROVED_PUBLICATION_PENDING",
+  "status": "APPROVED_PUBLISHED_VERIFIED",
   "approved_by": "Dan Payne",
   "approved_at": "2026-09-27",
   "approval_quote": "Approved. Love it. Update it to GitHub, Asana, everything you need to do, and then we'll move on to the next card.",
@@ -34,7 +34,7 @@
   "phrase": "10,000 BITCOINS FOR PIZZA.",
   "event_date": "2010-05-22",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/008/",
-  "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+  "qr_status": "LIVE_ROUTE_VERIFIED",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "canvas_px": [
     816,
@@ -63,5 +63,14 @@
     "object": "folded whitepaper plane",
     "placement": "tiny silhouette outside the window above the bridge",
     "status": "APPROVED"
+  },
+  "publication": {
+    "status": "PUBLISHED_VERIFIED",
+    "github_commit": "92837d828a7257305fef35dd548b3a6111b590fc",
+    "deployment_id": "dpl_EWD7UcFVURvFqRM6ApRLhDtj276Q",
+    "page_url": "https://lore-site-v1.vercel.app/cards/pizza-day",
+    "qr_url": "https://lore-site-v1.vercel.app/crypto/008/",
+    "verified_at": "2026-09-27T13:21:02.887603+00:00",
+    "verification_record": "cards/crypto/season-01/pizza-day-master-008/publication-verification.json"
   }
 }

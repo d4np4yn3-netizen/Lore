@@ -204,7 +204,7 @@
         63,
         88
       ],
-      "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+      "qr_status": "LIVE_ROUTE_VERIFIED",
       "print_release": false,
       "publication_approved": true,
       "interpretation": "Original approved Pizza Day scene plus one tiny paper plane outside the window, a deliberate crossover from 007. Room, coin spiral and nighttime view are symbolic; monitor time is the block timestamp, not delivery time.",
@@ -293,7 +293,7 @@
           "weight": 700,
           "position_tracking_colour": "preserved"
         },
-        "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+        "qr_status": "LIVE_ROUTE_VERIFIED",
         "print_release": false,
         "physical_proof_received": false,
         "physical_qr_scan_test": false,
@@ -305,7 +305,16 @@
       ],
       "book_chapter": "book/crypto-season-01/008-pizza-day.md",
       "book_spread": "book/crypto-season-01/proofs/008-pizza-day-full-art-spread-v2.pdf",
-      "confirmed_lore_owned_route": true
+      "confirmed_lore_owned_route": true,
+      "publication": {
+        "status": "PUBLISHED_VERIFIED",
+        "github_commit": "92837d828a7257305fef35dd548b3a6111b590fc",
+        "deployment_id": "dpl_EWD7UcFVURvFqRM6ApRLhDtj276Q",
+        "page_url": "https://lore-site-v1.vercel.app/cards/pizza-day",
+        "qr_url": "https://lore-site-v1.vercel.app/crypto/008/",
+        "verified_at": "2026-09-27T13:21:02.887603+00:00",
+        "verification_record": "cards/crypto/season-01/pizza-day-master-008/publication-verification.json"
+      }
     },
     {
       "rarity": "epic",
