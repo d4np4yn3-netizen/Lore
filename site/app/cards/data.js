@@ -1,5 +1,6 @@
 import chapter001 from './content/001.json';
 import chapter002 from './content/002.json';
+import chapter003 from './content/003.json';
 
 export const cards = [
   {
@@ -25,6 +26,18 @@ export const cards = [
     ...chapter002,
     source: 'https://nakamotoinstitute.org/library/cypherpunk-manifesto/',
     number: '002/100',
+  },
+  {
+    slug: 'hashcash',
+    title: 'HASHCASH POSTAGE',
+    rarity: 'RARE',
+    date: '28 MAR 1997',
+    subject: 'ADAM BACK',
+    phrase: 'VERIFIED INSTANTLY.',
+    image: 'cards/crypto/season-01/hashcash-master-01/LORE-Hashcash-Rare-003-Print-v1.png',
+    ...chapter003,
+    source: 'https://www.hashcash.org/papers/announce.txt',
+    number: '003/100',
   },
 ];
 

@@ -1,5 +1,7 @@
 # LORE project memory
 
+- **003 Hashcash, 27 September 2026.** Dan approved the final Rare 003 card and two-page book copy/design and authorised GitHub/site publication. Exact approved art moves the sole 001 handwritten envelope to the marked upper sorter letter; the lower conveyor is filled with ordinary blue-approved mail. Canonical files: `cards/crypto/season-01/hashcash-master-01/`, `book/crypto-season-01/003-hashcash.md` and `proofs/003-hashcash-full-art-spread-v3.pdf`. Phrase `VERIFIED INSTANTLY.`, date 28 MAR 1997, number 003/100. Stable printed QR `/crypto/003/` redirects to `/cards/hashcash`. Preserve earlier review variants in `hashcash-review-01/`; physical production release remains false.
+
 - **Crypto print rollout complete, 24 September 2026.** All 11 approved Crypto Season One fronts now have verified `LORE-CRYPTO-PRINT-v1.0` PNG/SVG derivatives beside their approved masters, plus per-card print manifests and QA. Geometry remains 816×1110 @300DPI, cut 744×1038, safe 684×981, transform `translate(46.515 48.921) scale(0.8033)`, phrase 25/700. Original approved masters, wording, rarity and QR vectors are preserved. All QRs remain DEMO_ONLY and print release remains false. Next gate is physical sample/cut/QR verification; live routes and production release are separate.
 
 

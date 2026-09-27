@@ -1,0 +1,29 @@
+# 003 - Hashcash
+
+**Crypto · Season One · Rare · 28 March 1997**
+
+**Card phrase:** VERIFIED INSTANTLY.
+
+## The story
+
+An enormous sorting machine churns through a mountain of mail. Adam Back watches from the foreman's walkway as each letter spends time in the machinery before it can receive a stamp. On the far side, a much smaller gate checks the finished work in a moment. Letters with blue digital approval marks fill the outgoing belt. The factory is imaginary, but its unequal effort tells the story of Hashcash.
+
+On 28 March 1997, Back announced a working *hash cash postage* implementation to the cypherpunks mailing list. His idea gave a message a kind of computational postage. A sender's machine would search for a suitable partial hash collision. Finding one took repeated attempts; checking the result was quick. In his announcement, Back described the result as something that could be **verified instantly**.
+
+For someone sending a few messages, that work could be a modest inconvenience. For a sender attempting a vast mailing, the cost would multiply with each message. Hashcash was a proposal to make mass abuse of email and anonymous remailers harder to sustain. It was neither money spent at a post office nor a machine that could read an envelope and decide whether its words were spam.
+
+Years later, Bitcoin's whitepaper named Back's Hashcash as a model for its proof-of-work system. Bitcoin applied proof of work to a different job: securing a shared record of transactions. The small block by the foreman's feet is a wink towards that future. One familiar envelope in the upper sorter looks further back, to card 001 and Chaum's privacy work. This imagined factory makes the connection between separate ideas visible without pretending that any of its machinery existed in 1997.
+
+## Hidden in the artwork
+
+1. **The returning envelope.** A letter high in the sorter carries the cream pattern, handwritten *Blind Signatures / 1982* and round ink stamp from card 001. It is a LORE link between earlier privacy work and Hashcash, not a documented item Back handled. The lower belt instead carries ordinary mail with blue digital approval marks.
+2. **The SHA-1 plate.** The machine bears *SHA-1 / 1997*. Back's 1997 implementation included SHA-1; the date identifies this card's announcement. The factory itself is fictional.
+3. **The nonce counter.** Its changing number stands for repeated attempts to vary the input until a suitable proof is found. The pictured digits are illustrative, not an original program output.
+4. **The zero-target display.** *00000...* and a green check depict the later, simpler fixed-zero-target form described in Back's 2002 paper. The initial 1997 scheme searched for a partial collision against a service-dependent target, so this display is a teaching symbol rather than an exact recreation of the first implementation.
+5. **The [6] block.** A tiny block by the walkway carries the number of Back's Hashcash reference in Bitcoin's whitepaper. It points forward to another part of the collection; no Bitcoin block was present at the 1997 announcement.
+
+## Source and art note
+
+Adam Back, [1997 hash cash postage announcement](https://www.hashcash.org/papers/announce.txt), 28 March 1997; Back, [*Hashcash - A Denial of Service Counter-Measure*](https://nakamotoinstitute.org/library/hashcash/), 2002; Satoshi Nakamoto, [*Bitcoin: A Peer-to-Peer Electronic Cash System*](https://bitcoin.org/bitcoin.pdf), 2008. The 1997 announcement date differs from the May 1997 recollection in Back's later paper; this card portrays the dated announcement. The building, foreman pose and mechanical sorter are an artistic metaphor.
+
+**Editorial status:** Artwork, Rare designation, title, phrase, date treatment, card front and this book text approved by Dan on 27 September 2026. The stable QR route is `/crypto/003/`. Physical card and book reproduction remain subject to proofing.

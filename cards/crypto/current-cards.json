@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 13,
+  "approved_visual_count": 14,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -89,6 +89,54 @@
       "approved_at": "2026-09-26",
       "approved_by": "Dan Payne",
       "book_copy_status": "APPROVED_FOR_BOOK_AND_WEBSITE"
+    },
+    {
+      "id": "crypto-s01-hashcash",
+      "rarity": "rare",
+      "creator": "ADAM BACK",
+      "title_line_1": "HASHCASH",
+      "title_line_2": "POSTAGE",
+      "context": "VERIFIED INSTANTLY.",
+      "moment_label": "28 MAR 1997",
+      "set_label": "CRYPTO • SEASON 01 • 003/100",
+      "artwork": "cards/crypto/season-01/hashcash-master-01/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/003/",
+      "confirmed_lore_owned_route": true,
+      "status": "FRONT_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "front_status": "APPROVED_BY_DAN",
+      "rarity_status": "APPROVED_BY_DAN",
+      "phrase_status": "APPROVED_BY_DAN",
+      "book_copy_status": "APPROVED_FOR_BOOK_AND_WEBSITE",
+      "publication_approved": true,
+      "print_release": false,
+      "moment_number": 3,
+      "set_size": 100,
+      "front": "cards/crypto/season-01/hashcash-master-01/LORE-Hashcash-Rare-003-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/hashcash-master-01/LORE-Hashcash-Rare-003-Print-v1.svg",
+      "approval_record": "cards/crypto/season-01/hashcash-master-01/README.md",
+      "print_manifest": "cards/crypto/season-01/hashcash-master-01/print-v1-manifest.json",
+      "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+      "source": "https://www.hashcash.org/papers/announce.txt",
+      "approved_at": "2026-09-27",
+      "approved_by": "Dan Payne",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/hashcash-master-01/LORE-Hashcash-Rare-003-Print-v1.png",
+          "bytes": 997218,
+          "sha256": "2a76df8f6bc735f3e47bdbbbacb2aa09a0413c46da45ea7ddfc02ade76e759b2"
+        },
+        {
+          "path": "cards/crypto/season-01/hashcash-master-01/LORE-Hashcash-Rare-003-Print-v1.svg",
+          "bytes": 3248810,
+          "sha256": "6ddb250d02a2691b4d92043d62467fa01ab1578abe106e4e244490e88a63c51a"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/hashcash-master-01/art.png",
+        "bytes": 2409130,
+        "sha256": "021a42e525fa9549715fa01044a0889ebb0e6a0b952e8996efc14be10b0d24ff"
+      }
     },
     {
       "id": "crypto-s01-pizza-day",
@@ -1400,7 +1448,7 @@
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-09-24",
+  "updated_at": "2026-09-27",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 11
 }
