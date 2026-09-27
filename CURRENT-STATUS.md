@@ -2,9 +2,9 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## 007 The First Transfer approved for GitHub and site — 27 September 2026
+## 007 The First Transfer published and verified — 27 September 2026
 
-Dan approved the exact Legendary 007 card and full-art book spread and authorised publication. Master folder: `cards/crypto/season-01/the-first-transfer-master-007`; chapter `book/crypto-season-01/007-the-first-transfer.md`; spread `book/crypto-season-01/proofs/007-the-first-transfer-full-art-spread-v1.pdf`. Art SHA-256 `7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c`; approved card PNG and SVG are unchanged from the reviewed files. The site includes `/cards/the-first-transfer`, four art details and full-art/book links; `/crypto/007/` redirects there. GitHub upload and live verification are pending in this preparation commit. Physical print release remains false. This explicit approval supersedes older First Transfer pause notes.
+Dan approved the exact Legendary 007 card and full-art book spread and authorised publication. Master folder: `cards/crypto/season-01/the-first-transfer-master-007`; chapter `book/crypto-season-01/007-the-first-transfer.md`; spread `book/crypto-season-01/proofs/007-the-first-transfer-full-art-spread-v1.pdf`. Art SHA-256 `7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c`; approved card PNG and SVG are unchanged from the reviewed files. The site includes `/cards/the-first-transfer`, four art details and full-art/book links; `/crypto/007/` redirects there. All 18 publication files are verified on GitHub in `ae48520461f6c85e43e8e2993d4380c2771483e4`; the remote tree matches the local publication tree. Production deployment `dpl_BZ1AcnaGQ7FkP39NRcbmttEv7Dnm` is READY. `/crypto/007/` redirects to `/cards/the-first-transfer` with HTTP 200; the homepage includes 007, and the story contains four art details plus full-art/book links. Downloaded art, card PNG/SVG and book PDF SHA-256 hashes match the approved files. The QR vector payload is verified. Physical print release remains false. This explicit approval supersedes older First Transfer pause notes.
 
 ## Latest: 006 Genesis Block published and verified — 27 September 2026
 
