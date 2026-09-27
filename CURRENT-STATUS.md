@@ -2,7 +2,9 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Latest: 006 Genesis Block approved for publication — 27 September 2026
+## Latest: 006 Genesis Block published and verified — 27 September 2026
+
+Publication completed: all 20 files are on GitHub in `3b523a0207cd9b38f910e707e4e0ab25088eebec`, with the remote tree matching the local publication tree. Production deployment `dpl_43HicMYiMvEbtTDkgqESbs1iAeTx` is READY. `/crypto/006/` redirects to `/cards/genesis-block` with HTTP 200; the collection includes 006 and the page contains the approved story plus full artwork and book links. Downloaded art, front PNG/SVG and book PDF SHA-256 hashes match local approved files. This verification supersedes the preparation note below. Next: 007 after Dan's instruction.
 
 Dan approved corrected art, Mythic 006/100 front, `SECOND BAILOUT FOR BANKS.` phrase and two-page book spread, then authorised GitHub and live site publication. Canonical files: `cards/crypto/season-01/genesis-block-master-006/`; chapter `book/crypto-season-01/006-genesis-block.md`; spread `book/crypto-season-01/proofs/006-genesis-block-full-art-spread-v1.pdf`; site text `site/app/cards/content/006.json`. Original review art preserved locally. Screen hex excerpt verified against raw block binary; orange is the 69-byte Times message. Site build and PDF rendering pass, vector QR encodes `/crypto/006/`. GitHub and production verification pending in this publication step. Physical print release false.
 
