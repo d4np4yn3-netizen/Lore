@@ -5,6 +5,7 @@ import chapter004 from './content/004.json';
 import chapter005 from './content/005.json';
 import chapter006 from './content/006.json';
 import chapter007 from './content/007.json';
+import chapter008 from './content/008.json';
 
 export const cards = [
   {
@@ -98,6 +99,20 @@ export const cards = [
     ...chapter007,
     source: 'https://nakamotoinstitute.org/library/bitcoin-and-me/',
     number: '007/100',
+  },
+  {
+    slug: 'pizza-day',
+    title: 'PIZZA DAY',
+    rarity: 'LEGENDARY',
+    date: '22 MAY 2010',
+    subject: 'BITCOIN',
+    phrase: '10,000 BITCOINS FOR PIZZA.',
+    image: 'cards/crypto/season-01/pizza-day-master-008/LORE-Pizza-Day-Legendary-008-Print-v1.png',
+    artwork: 'cards/crypto/season-01/pizza-day-master-008/art.png',
+    book: 'book/crypto-season-01/proofs/008-pizza-day-full-art-spread-v2.pdf',
+    ...chapter008,
+    source: 'https://bitcointalk.org/index.php?topic=137.msg1195#msg1195',
+    number: '008/100',
   },
 ];
 

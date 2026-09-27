@@ -1,8 +1,8 @@
 # Season One rarity progress
 
-The [Season One selection](../../../archive/crypto-history/selection/v1/season-one-100.md) contains 100 specific proposed moments. Its review numbers are not all final collector numbers. The plan explicitly leaves new rarity assignments open; it does not set a six-tier quota or print quantities. Preserve the existing approvals and decide the remaining tier allocations across the full set before the 100-card run is complete.
+The [Season One selection](../../../archive/crypto-history/selection/v1/season-one-100.md) contains 100 specific proposed moments. Its review numbers are not all final collector numbers. The recovered [100-card rarity review](rarity-allocation-review-v2.md) proposes 30 Common, 25 Uncommon, 20 Rare, 13 Epic, 8 Legendary and 4 Mythic designs, with two balancing swaps awaiting review. Pack quantities remain undecided. Preserve the existing approvals and decide the remaining tier allocations across the full set before the 100-card run is complete.
 
-Current approved visuals after 007 The First Transfer (27 September 2026), derived from `cards/crypto/current-cards.json`:
+Current approved visuals after numbered 008 Pizza Day (an existing approved Legendary, so the unique-design count is unchanged) (27 September 2026), derived from `cards/crypto/current-cards.json`:
 
 | Tier | Approved designs |
 | --- | ---: |
