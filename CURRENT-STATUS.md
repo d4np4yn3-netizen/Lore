@@ -2,9 +2,9 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## 010 The Overflow approved; publication in progress — 27 September 2026
+## 010 The Overflow published and verified — 27 September 2026
 
-Dan selected the larger D coin, no keyring, approved Rare 010/100 card and two-page book spread and authorised site publication. Canonical folder `cards/crypto/season-01/the-overflow-master-010/`; art SHA-256 `40f532e615aa74d1b1bde52afc31dc92ca20f61650c9cd3994ecd715141cafec`. Chapter `book/crypto-season-01/010-the-overflow.md`; PDF `book/crypto-season-01/proofs/010-the-overflow-full-art-spread-v1.pdf`. Card `WE NEED A FIX ASAP.`, date 15 AUG 2010. Site adds `/cards/the-overflow` and `/crypto/010/`, four clues and full-art/book links. GitHub/site verification pending. Small-D artwork remains review history. Unique approved designs: 19; Rare 6. Physical print release false.
+Dan selected the larger D coin, no keyring, approved Rare 010/100 card and two-page book spread and authorised site publication. Canonical folder `cards/crypto/season-01/the-overflow-master-010/`; art SHA-256 `40f532e615aa74d1b1bde52afc31dc92ca20f61650c9cd3994ecd715141cafec`. Chapter `book/crypto-season-01/010-the-overflow.md`; PDF `book/crypto-season-01/proofs/010-the-overflow-full-art-spread-v1.pdf`. Card `WE NEED A FIX ASAP.`, date 15 AUG 2010. Site adds `/cards/the-overflow` and `/crypto/010/`, four clues and full-art/book links. All 21 publication files verified in GitHub commit `b924a8fa846e200e6fb6575299c7abe275561b97`. Production deployment `dpl_48a13dkVAJ6CTGX7gx5Ue81JsUaE` is READY. `/crypto/010/` redirects to `/cards/the-overflow` with HTTP 200; homepage, four clues and full-art/book links verified. Public art, card PNG/SVG and PDF hashes match the approved larger-D files. Small-D artwork remains review history. Unique approved designs: 19; Rare 6. Physical print release false.
 
 ## 009 The Faucet published and verified — 27 September 2026
 

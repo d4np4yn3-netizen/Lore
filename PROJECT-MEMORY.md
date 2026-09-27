@@ -1,6 +1,6 @@
 # LORE project memory
 
-- **010 The Overflow approved, 27 September 2026.** Dan selected the large D coin in the gold cascade, with no keyring; Rare 010/100 card, two-page book spread and site publication authorised. Canonical `cards/crypto/season-01/the-overflow-master-010`; the small D draft remains unselected. Publication verification pending. 19 approved unique designs.
+- **010 The Overflow approved, 27 September 2026.** Dan selected the large D coin in the gold cascade, with no keyring; Rare 010/100 card, two-page book spread and site publication authorised. Canonical `cards/crypto/season-01/the-overflow-master-010`; the small D draft remains unselected. Published in `b924a8fa846e200e6fb6575299c7abe275561b97`; production deployment `dpl_48a13dkVAJ6CTGX7gx5Ue81JsUaE` is READY. QR route and homepage verified; all four public download hashes match the larger-D artwork/card/book. 19 approved unique designs.
 
 - **009 The Faucet approved, 27 September 2026.** Dan selected the boy version for site publication. Common 009/100, GET 5 FREE BITCOINS., 11 JUN 2010. Exact wider-monitor review v1 art/card/book selected; canonical folder `the-faucet-master-009`. Woman drafts are unselected. Published in `1eea999bbb73e35bfb35e0285524573ca718f030`; production deployment `dpl_HZGEkX5amCFsnYoCHn1xr92AuKj8` is READY. QR route and homepage verified; all four public download hashes match the boy artwork/card/book.
 
