@@ -9,8 +9,9 @@ Build the book one approved card at a time. Each numbered chapter draws on the e
 | 002 - Cypherpunk Manifesto | [Approved chapter](002-cypherpunk-manifesto.md) · [Full-art spread with approved copy v2](proofs/002-cypherpunk-manifesto-full-art-spread-v2.pdf) · [Earlier v1](proofs/002-cypherpunk-manifesto-full-art-spread-v1.pdf) | Card and chapter approved for book and site; book page design remains a review proof |
 | 003 - Hashcash | [Approved chapter](003-hashcash.md) · [Approved editorial spread v3](proofs/003-hashcash-full-art-spread-v3.pdf) · [Review v2](proofs/003-hashcash-full-art-spread-review-v2.pdf) | Card, rarity, story and page design approved for book and site; physical reproduction pending |
 | 004 - RPOW | [Approved chapter](004-rpow.md) · [Approved editorial spread v1](proofs/004-rpow-full-art-spread-v1.pdf) | Card, Rare rarity, story and page design approved for GitHub and site; physical reproduction pending |
+| 005 - The Whitepaper | [Approved chapter](005-the-whitepaper.md) · [Approved editorial spread v1](proofs/005-the-whitepaper-full-art-spread-v1.pdf) | Card, Legendary rarity, story and page design approved for GitHub and site; physical reproduction pending |
 
-The other 97 chapter numbers should be added only as their collector sequence is approved. The previous 11 approved artworks retain their separate art approvals and do not gain chapter numbers from this table.
+The other 95 chapter numbers should be added only as their collector sequence is approved. The previous 11 approved artworks retain their separate art approvals and do not gain chapter numbers from this table.
 
 ## Proposed two-page entry pattern
 

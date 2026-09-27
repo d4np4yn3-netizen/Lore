@@ -2,6 +2,10 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## Active: 005 The Whitepaper approved for publication — 27 September 2026
+
+Dan approved the Japanese-inspired fictional-town redraw, Legendary 005/100 front, four-paragraph book story and two-page editorial spread on 27 September, and authorised GitHub/site publication. Canonical art and front are in `cards/crypto/season-01/the-whitepaper-master-005/`, chapter `book/crypto-season-01/005-the-whitepaper.md`, full-art PDF `proofs/005-the-whitepaper-full-art-spread-v1.pdf`, website mirror `site/app/cards/content/005.json`. The original approved Whitepaper master is preserved unchanged. The story distinguishes the fictional town from historical location; the nine-page paper cites b-money and Hashcash, not RPOW. The `/crypto/005/` QR is reserved until live deployment is verified. Physical print release remains false. Legendary is already included in the 15-card rarity tally.
+
 ## Active: 004 RPOW approved for GitHub and site — 27 September 2026
 
 Dan approved the darker token-lit Hal Finney artwork, Rare front and book chapter/spread and authorised upload and live publication. Canonical files are in `cards/crypto/season-01/rpow-master-01/`; approved chapter `book/crypto-season-01/004-rpow.md`, full-art spread `proofs/004-rpow-full-art-spread-v1.pdf`, website mirror `site/app/cards/content/004.json`. The 004/100 QR carries `https://lore-site-v1.vercel.app/crypto/004/`, which redirects to `/cards/rpow`. Physical print release remains false. All 26 publication files are on GitHub in commit `e8b87e2b7af58158549fd81f9799e84e2e10dcd9`; the remote tree matches the approved local set. Production deployment `dpl_7iGcW2sceRcv4W24x4H6K2zHCChp` serves the 004 page. `/crypto/004/` redirects to `/cards/rpow` with HTTP 200; the homepage includes 004 and the remote front PNG SHA-256 matches the approved file. Book-to-site copy check passes.

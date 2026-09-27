@@ -2,6 +2,7 @@ import chapter001 from './content/001.json';
 import chapter002 from './content/002.json';
 import chapter003 from './content/003.json';
 import chapter004 from './content/004.json';
+import chapter005 from './content/005.json';
 
 export const cards = [
   {
@@ -53,6 +54,20 @@ export const cards = [
     ...chapter004,
     source: 'https://nakamotoinstitute.org/library/rpow/',
     number: '004/100',
+  },
+  {
+    slug: 'the-whitepaper',
+    title: 'THE WHITEPAPER',
+    rarity: 'LEGENDARY',
+    date: '31 OCT 2008',
+    subject: 'SATOSHI NAKAMOTO',
+    phrase: 'NO TRUSTED THIRD PARTY.',
+    image: 'cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-whitepaper-master-005/art.png',
+    book: 'book/crypto-season-01/proofs/005-the-whitepaper-full-art-spread-v1.pdf',
+    ...chapter005,
+    source: 'https://bitcoin.org/bitcoin.pdf',
+    number: '005/100',
   },
 ];
 
