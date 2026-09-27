@@ -2,7 +2,7 @@
   "updated": "2026-09-27",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 15,
+  "approved_visual_count": 17,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -1567,6 +1567,105 @@
       },
       "book_chapter": "book/crypto-season-01/006-genesis-block.md",
       "book_spread": "book/crypto-season-01/proofs/006-genesis-block-full-art-spread-v1.pdf"
+    },
+    {
+      "rarity": "legendary",
+      "creator": "BITCOIN",
+      "title_line_1": "THE FIRST",
+      "title_line_2": "TRANSFER",
+      "context": "I WAS THE RECIPIENT.",
+      "moment_label": "12 JAN 2009",
+      "set_label": "CRYPTO • SEASON 01 • 007/100",
+      "artwork": "cards/crypto/season-01/the-first-transfer-master-007/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/007/",
+      "confirmed_lore_owned_route": true,
+      "id": "crypto-s01-the-first-transfer",
+      "collection": "crypto",
+      "season": 1,
+      "event_date": "2009-01-12",
+      "date_basis": "BLOCK_170_TIMESTAMP_UTC",
+      "status": "APPROVED_FOR_PUBLICATION",
+      "artwork_status": "VISUALLY_APPROVED",
+      "phrase_status": "APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
+      "sources": [
+        "https://nakamotoinstitute.org/library/bitcoin-and-me/",
+        "https://mempool.space/block/00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+        "https://www.noozhawk.com/112909_finney_family/"
+      ],
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "publication_authorised",
+      "qr_status": "PUBLICATION_AUTHORISED",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Whitepaper plane, single arc and subtle reaching cloud hands are symbolic; endpoint represents the Santa Barbara area; sender location unspecified.",
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "source_notes": "cards/crypto/season-01/the-first-transfer-master-007/README.md",
+      "front": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.svg",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-27",
+      "approval_quote": "Great, all approved to upload to site and github - can I see the legendary card?",
+      "approval_record": "cards/crypto/season-01/the-first-transfer-master-007/print-v1-manifest.json",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": true,
+      "moment_number": 7,
+      "set_size": 100,
+      "print_quantities": null,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.png",
+          "bytes": 1009189,
+          "sha256": "d2150897464c63794b3c4751188c002012470e32e58c6eaa46d635ab07b902a3"
+        },
+        {
+          "path": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.svg",
+          "bytes": 3472726,
+          "sha256": "1f2efbd0cf636a18cde32e0bb8d5296bee34fed51f40c82e0199e02f9f0b0950"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-first-transfer-master-007/art.png",
+        "bytes": 2577330,
+        "sha256": "7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c"
+      },
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "front": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/the-first-transfer-master-007/print-v1-manifest.json",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "qr_status": "PUBLICATION_AUTHORISED",
+        "print_release": false,
+        "physical_proof_received": false,
+        "physical_qr_scan_test": false
+      },
+      "book_chapter": "book/crypto-season-01/007-the-first-transfer.md",
+      "book_spread": "book/crypto-season-01/proofs/007-the-first-transfer-full-art-spread-v1.pdf"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",

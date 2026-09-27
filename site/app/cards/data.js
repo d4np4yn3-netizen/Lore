@@ -4,6 +4,7 @@ import chapter003 from './content/003.json';
 import chapter004 from './content/004.json';
 import chapter005 from './content/005.json';
 import chapter006 from './content/006.json';
+import chapter007 from './content/007.json';
 
 export const cards = [
   {
@@ -83,6 +84,20 @@ export const cards = [
     ...chapter006,
     source: 'https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp',
     number: '006/100',
+  },
+  {
+    slug: 'the-first-transfer',
+    title: 'THE FIRST TRANSFER',
+    rarity: 'LEGENDARY',
+    date: '12 JAN 2009',
+    subject: 'BITCOIN',
+    phrase: 'I WAS THE RECIPIENT.',
+    image: 'cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-first-transfer-master-007/art.png',
+    book: 'book/crypto-season-01/proofs/007-the-first-transfer-full-art-spread-v1.pdf',
+    ...chapter007,
+    source: 'https://nakamotoinstitute.org/library/bitcoin-and-me/',
+    number: '007/100',
   },
 ];
 

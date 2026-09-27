@@ -2,6 +2,10 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## 007 The First Transfer approved for GitHub and site — 27 September 2026
+
+Dan approved the exact Legendary 007 card and full-art book spread and authorised publication. Master folder: `cards/crypto/season-01/the-first-transfer-master-007`; chapter `book/crypto-season-01/007-the-first-transfer.md`; spread `book/crypto-season-01/proofs/007-the-first-transfer-full-art-spread-v1.pdf`. Art SHA-256 `7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c`; approved card PNG and SVG are unchanged from the reviewed files. The site includes `/cards/the-first-transfer`, four art details and full-art/book links; `/crypto/007/` redirects there. GitHub upload and live verification are pending in this preparation commit. Physical print release remains false. This explicit approval supersedes older First Transfer pause notes.
+
 ## Latest: 006 Genesis Block published and verified — 27 September 2026
 
 Publication completed: all 20 files are on GitHub in `3b523a0207cd9b38f910e707e4e0ab25088eebec`, with the remote tree matching the local publication tree. Production deployment `dpl_43HicMYiMvEbtTDkgqESbs1iAeTx` is READY. `/crypto/006/` redirects to `/cards/genesis-block` with HTTP 200; the collection includes 006 and the page contains the approved story plus full artwork and book links. Downloaded art, front PNG/SVG and book PDF SHA-256 hashes match local approved files. This verification supersedes the preparation note below. Next: 007 after Dan's instruction.
