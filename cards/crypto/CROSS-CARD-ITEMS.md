@@ -13,3 +13,5 @@ Direction approved by Dan on 27 September 2026. Expand as objects are approved; 
 | 007 The First Transfer | Folded whitepaper plane; source: the-first-transfer-master-007/art.png | 008 Pizza Day: tiny plane outside the window above the bridge | Approved in pizza-day-master-008/art.png, 27 September 2026 |
 
 Art paths above are relative to cards/crypto/season-01/. Crossovers are intentional LORE visual references, not claims that the pictured physical objects existed at the historical events. Future-card objects remain unassigned until designed and approved.
+
+- **008 → 009:** Pizza-box corner from Pizza Day appears at the lower-left edge of `the-faucet-master-009/art.png`. Approved 27 September 2026; symbolic crossover, not a historical prop claim.

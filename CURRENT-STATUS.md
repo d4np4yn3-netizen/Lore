@@ -2,6 +2,10 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## 009 The Faucet approved; publication in progress — 27 September 2026
+
+Dan selected the boy version and approved Common 009/100 for the site. Canonical folder `cards/crypto/season-01/the-faucet-master-009/`; approved art SHA-256 `1a98767eb9b230eb8a3455c9ba401456b04fa2440e1e1a2352d7ce11ff969666`. Card PNG/SVG and boy-version book PDF preserved exactly. Chapter `book/crypto-season-01/009-the-faucet.md`; PDF `proofs/009-the-faucet-full-art-spread-v1.pdf`. Site adds `/cards/the-faucet` and `/crypto/009/`, four clues and full-art/book links. GitHub/site verification pending. Woman variants are unselected. Approved unique designs: 18, including 2 Common. Physical print release remains false.
+
 ## 008 Pizza Day published and verified — 27 September 2026
 
 Dan approved the tiny paper-plane crossover, Legendary 008/100 card and full-art book spread and authorised GitHub/site updates. Canonical folder: `cards/crypto/season-01/pizza-day-master-008/`; chapter `book/crypto-season-01/008-pizza-day.md`; exact approved spread `proofs/008-pizza-day-full-art-spread-v2.pdf`. New art SHA-256 `88f57ef2c1a038b7118f48f219dd30cd1fb2b7ee4e4b8f3f90ca3b928f9dd987`. Site adds `/cards/pizza-day` and `/crypto/008/`, four art details and full-art/book links. All 21 publication files verified on GitHub in `92837d828a7257305fef35dd548b3a6111b590fc`. Production deployment `dpl_EWD7UcFVURvFqRM6ApRLhDtj276Q` is READY. `/crypto/008/` redirects to `/cards/pizza-day` with HTTP 200; the homepage includes 008. Four artwork clues, full-art and book links are live. Remote art, card PNG/SVG and book PDF hashes match the approved files. Verification is saved beside the master in `publication-verification.json`. Approved unique card designs remain 17 because Pizza Day was already approved. Asana is not exposed through the current connections. Next: 009 The Five-Bitcoin Faucet, proposed Common, using its saved brief and both mandatory style references. The recovered full rarity map is `cards/crypto/season-01/rarity-allocation-review-v2.md`; do not treat it as missing. Physical print release remains false.

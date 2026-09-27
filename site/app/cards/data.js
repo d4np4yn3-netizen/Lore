@@ -6,6 +6,7 @@ import chapter005 from './content/005.json';
 import chapter006 from './content/006.json';
 import chapter007 from './content/007.json';
 import chapter008 from './content/008.json';
+import chapter009 from './content/009.json';
 
 export const cards = [
   {
@@ -113,6 +114,20 @@ export const cards = [
     ...chapter008,
     source: 'https://bitcointalk.org/index.php?topic=137.msg1195#msg1195',
     number: '008/100',
+  },
+  {
+    slug: 'the-faucet',
+    title: 'THE FAUCET',
+    rarity: 'COMMON',
+    date: '11 JUN 2010',
+    subject: 'BITCOIN',
+    phrase: 'GET 5 FREE BITCOINS.',
+    image: 'cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-faucet-master-009/art.png',
+    book: 'book/crypto-season-01/proofs/009-the-faucet-full-art-spread-v1.pdf',
+    ...chapter009,
+    source: 'https://bitcointalk.org/index.php?topic=183.0',
+    number: '009/100',
   },
 ];
 

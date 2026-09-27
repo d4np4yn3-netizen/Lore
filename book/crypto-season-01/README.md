@@ -20,3 +20,7 @@ The remaining chapter numbers should be added only as their collector sequence i
 ## Proposed two-page entry pattern
 
 The two-page entry gives page one entirely to the approved illustration, edge to edge. Page two carries the number, rarity, date, phrase, historical explanation, decoded art details and primary-source/art note. The [earlier card-front layout](proofs/001-blind-signatures-spread-v1.pdf) remains available for comparison. The chapter Markdown is the approved copy master. Run the matching `sync_001.py`, `sync_002.py`, `sync_003.py`, `sync_004.py`, `sync_005.py`, `sync_006.py` `sync_007.py` or `sync_008.py` after editing a chapter to refresh its website JSON, then `--check` to verify the mirror. Each spread builder reads its chapter directly. The A4 PDFs are editorial studies; final book trim, bleed, binding, colour reproduction, rights and printer specifications are not locked. The 1060×1484 source art is roughly 128 DPI at full A4 and needs a higher-resolution source or a smaller page before production.
+
+## 009 The Faucet
+
+[Approved chapter](009-the-faucet.md) · [Approved boy-version book pages](proofs/009-the-faucet-full-art-spread-v1.pdf). Common 009/100; approved for site publication 27 September 2026.

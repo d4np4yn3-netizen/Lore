@@ -2,7 +2,7 @@
   "updated": "2026-09-27",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 17,
+  "approved_visual_count": 18,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -1691,6 +1691,98 @@
       },
       "book_chapter": "book/crypto-season-01/007-the-first-transfer.md",
       "book_spread": "book/crypto-season-01/proofs/007-the-first-transfer-full-art-spread-v1.pdf"
+    },
+    {
+      "id": "crypto-s01-the-faucet",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "common",
+      "rarity_status": "APPROVED_COMMON",
+      "creator": "BITCOIN",
+      "title_line_1": "THE",
+      "title_line_2": "FAUCET",
+      "context": "GET 5 FREE BITCOINS.",
+      "context_status": "APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
+      "moment_label": "11 JUN 2010",
+      "set_label": "CRYPTO • SEASON 01 • 009/100",
+      "collector_number_status": "APPROVED",
+      "artwork": "cards/crypto/season-01/the-faucet-master-009/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/009/",
+      "confirmed_lore_owned_route": true,
+      "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+      "print_release": false,
+      "artwork_status": "USER_APPROVED_BOY_VERSION",
+      "source": "https://bitcointalk.org/index.php?topic=183.0",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "status": "APPROVED_PUBLICATION_PENDING",
+      "front": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.svg",
+      "moment_number": 9,
+      "set_size": 100,
+      "event_date": "2010-06-11",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-27",
+      "approval_quote": "Let’s keep the boy, approved for uploaded to site",
+      "approval_record": "cards/crypto/season-01/the-faucet-master-009/approval.json",
+      "publication_approved": true,
+      "website_publication_in_this_change": true,
+      "qr_mode": "live_pending_verification",
+      "book_chapter": "book/crypto-season-01/009-the-faucet.md",
+      "book_spread": "book/crypto-season-01/proofs/009-the-faucet-full-art-spread-v1.pdf",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-faucet-master-009/art.png",
+        "bytes": 2200684,
+        "sha256": "1a98767eb9b230eb8a3455c9ba401456b04fa2440e1e1a2352d7ce11ff969666"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.png",
+          "bytes": 874959,
+          "sha256": "c5cb9d2c9d31d3dbfcdd526112436107372287d6ecaad4659c16ef9b351afc99"
+        },
+        {
+          "path": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.svg",
+          "bytes": 2970223,
+          "sha256": "36cb22cc9c89618d2dbef3f9a88bf21c6f145ea399e01c6c035b1a801a784008"
+        }
+      ],
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "source_notes": "book/crypto-season-01/009-the-faucet.md",
+      "interpretation": "Anonymous boy, room, monitor and brass tap are illustrated interpretation. Five coins represent the early five-BTC transfer. Pizza-box corner is a deliberate crossover from 008.",
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "front": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/the-faucet-master-009/print-v1-manifest.json",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+        "print_release": false,
+        "physical_qr_scan_test": false
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
