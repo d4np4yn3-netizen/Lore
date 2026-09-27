@@ -1,3 +1,5 @@
+> Historical review archive. The card and book were subsequently approved and published. Current approved files are in `../rpow-master-01/`; the notes below describe the earlier review stage.
+
 # 004 — RPOW review
 
 Review proof requested by Dan on 27 September 2026. Rare is the proposed rarity; neither this full card nor the editorial copy is approved for publication yet.

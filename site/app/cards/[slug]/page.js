@@ -43,6 +43,11 @@ export default async function CardPage({ params }) {
         <div className="date">{card.date} · {card.subject}</div>
         <blockquote>“{card.phrase}”</blockquote>
         {card.story.map((paragraph, i) => <p key={i}>{editorial(paragraph)}</p>)}
+        {(card.artwork || card.book) && <p>
+          {card.artwork && <a href={GH + card.artwork} target="_blank" rel="noopener noreferrer">VIEW FULL ARTWORK ↗</a>}
+          {card.artwork && card.book && ' · '}
+          {card.book && <a href={GH + card.book} target="_blank" rel="noopener noreferrer">READ BOOK PAGES ↗</a>}
+        </p>}
         <div className="scroll">SCROLL TO DECODE THE ART ↓</div>
       </div>
     </header>

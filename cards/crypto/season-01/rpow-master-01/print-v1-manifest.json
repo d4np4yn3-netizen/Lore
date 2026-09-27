@@ -1,6 +1,6 @@
 {
   "card": "004 RPOW",
-  "status": "CARD_APPROVED_BOOK_PENDING",
+  "status": "APPROVED_FOR_GITHUB_AND_SITE",
   "art_approved_by": "Dan Payne",
   "date": "2026-09-27",
   "rarity": "Rare",
@@ -10,7 +10,7 @@
   ],
   "dpi": 300,
   "qr_url": "https://lore-site-v1.vercel.app/crypto/004/",
-  "qr_status": "RESERVED_NOT_PUBLISHED",
+  "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
   "print_release": false,
   "files": {
     "art.png": {
@@ -29,5 +29,18 @@
       "sha256": "8d6db11b29aa7cafacc20132197b69e16d1e32281d2af43e708c8e180f64a140",
       "bytes": 394
     }
+  },
+  "book_copy_status": "APPROVED_FOR_BOOK_AND_WEBSITE",
+  "publication_commit": "e8b87e2b7af58158549fd81f9799e84e2e10dcd9",
+  "qr_route": "/cards/rpow",
+  "book_chapter": {
+    "path": "book/crypto-season-01/004-rpow.md",
+    "sha256": "49f99ad548d098b3c3daccb2a42bd94490f440b77d9865970c3a410b1e5cbc02",
+    "bytes": 4210
+  },
+  "book_spread": {
+    "path": "book/crypto-season-01/proofs/004-rpow-full-art-spread-v1.pdf",
+    "sha256": "73853421b85f57dbdef6a4500e353edd43a4b5db4d8cf3a012503a1cdaa19979",
+    "bytes": 3912637
   }
 }

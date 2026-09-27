@@ -48,6 +48,8 @@ export const cards = [
     subject: 'HAL FINNEY',
     phrase: 'BUT THEY ARE REUSABLE.',
     image: 'cards/crypto/season-01/rpow-master-01/LORE-RPOW-Rare-004-Print-v1.png',
+    artwork: 'cards/crypto/season-01/rpow-master-01/art.png',
+    book: 'book/crypto-season-01/proofs/004-rpow-full-art-spread-v1.pdf',
     ...chapter004,
     source: 'https://nakamotoinstitute.org/library/rpow/',
     number: '004/100',
