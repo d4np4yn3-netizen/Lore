@@ -673,10 +673,10 @@
       "title_line_2": "WHITEPAPER",
       "context": "NO TRUSTED THIRD PARTY.",
       "moment_label": "31 OCT 2008",
-      "set_label": "CRYPTO • SEASON 01",
-      "artwork": "cards/crypto/season-01/the-whitepaper-master-01/art.png",
-      "qr_url": "https://example.com/lore/crypto/the-whitepaper",
-      "status": "VISUALLY_APPROVED",
+      "set_label": "CRYPTO • SEASON 01 • 005/100",
+      "artwork": "cards/crypto/season-01/the-whitepaper-master-005/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/005/",
+      "status": "APPROVED_AND_PUBLISHED",
       "artwork_status": "VISUALLY_APPROVED",
       "concept_instruction": "Ok, amaze me with Whitepaper",
       "phrase_status": "APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
@@ -694,55 +694,55 @@
         63,
         88
       ],
-      "qr_mode": "demo",
+      "qr_mode": "live",
       "print_release": false,
       "publication_approved": true,
-      "interpretation": "Nine illuminated pages become connections above a fictional city. Symbolic interpretation of the whitepaper publication, not a reconstruction of Satoshi, a real city or the January 2009 network launch.",
+      "interpretation": "Nine illuminated sheets above a fictional Japanese-inspired town, symbolising publication of the whitepaper. The setting is a nod to the Satoshi pseudonym, not a claim about identity, address or Bitcoin's place of creation.",
       "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
       "required_style_references": [
         "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
         "cards/crypto/season-01/birth-of-doge-master-02/art.png"
       ],
-      "source_notes": "cards/crypto/season-01/the-whitepaper-master-01/source-notes.md",
-      "front": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1.png",
-      "editable_svg": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1.svg",
+      "source_notes": "cards/crypto/season-01/the-whitepaper-master-005/README.md",
+      "front": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.svg",
       "approved_by": "Dan Payne",
-      "approved_at": "2026-09-20",
-      "approval_quote": "Approved, looks pretty cool for a card, what’s next, can we do bitconnext lol? We need the food, the bad, the ugly, the crashes, the hacks, the bans etc",
-      "approval_record": "cards/crypto/season-01/the-whitepaper-master-01/approval.json",
+      "approved_at": "2026-09-27",
+      "approval_quote": "Approved, so yeah, upload to the site, upload to GitHub, approved card, make sure we have the art for the book as well, all saved. Thanks.",
+      "approval_record": "cards/crypto/season-01/the-whitepaper-master-005/print-v1-manifest.json",
       "style_migration_status": "APPROVED_CURRENT_STYLE",
       "style_revision": "LORE-CRYPTO-STYLE-v1.1",
       "github_upload_authorised": true,
-      "website_publication_in_this_change": false,
-      "qr_status": "DEMO_ONLY",
-      "moment_number": null,
-      "set_size": null,
+      "website_publication_in_this_change": true,
+      "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+      "moment_number": 5,
+      "set_size": 100,
       "print_quantities": null,
       "current_files": [
         {
-          "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1.png",
-          "bytes": 1706927,
-          "sha256": "15b70f3197397991f64c1ec37e0e039381f9bb28019378a433446035dcdd5356",
-          "git_blob": "a424d34fc490a1a6f6683b3d65de139f643aac7d"
+          "path": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.png",
+          "bytes": 1067016,
+          "sha256": "7e133bc2c0fbc31f3ddf484548aa70fe006252627709552acc33144689cc6534",
+          "git_blob": "8568cf59e13b30907ab40407005c838d0e2ff517"
         },
         {
-          "path": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1.svg",
-          "bytes": 3641844,
-          "sha256": "93d8eda644728f01984cfb82f7eff6bbbd33ee3f5ad8e3e880dd39b1504ed045",
-          "git_blob": "4ac323a9bae347283803eef126859e3bab99cc3e"
+          "path": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.svg",
+          "bytes": 3774171,
+          "sha256": "fcfb691e8f8c6d9baff5f68c6e805e84d3658f37347120cbcab9c8ad4000010b",
+          "git_blob": "e3ce7d2bf4b42832c3caf3a07e03b3611fdcdee6"
         }
       ],
       "artwork_file": {
-        "path": "cards/crypto/season-01/the-whitepaper-master-01/art.png",
-        "bytes": 2704505,
-        "sha256": "ffbf8109e6cb161312f9f7b7ba9995b363078c9a8b88438f375385c8556ed79f",
-        "git_blob": "8373fee31356111d209b2efcb0b0ef52e0f2783c"
+        "path": "cards/crypto/season-01/the-whitepaper-master-005/art.png",
+        "bytes": 2803263,
+        "sha256": "6dbd86e5e66e0584b1947840b83bf512761d7c7ffe0d4c02d96e69b6d9da6287",
+        "git_blob": "e10d8daf8c7db634b1dd8615c3b15edf884c2eab"
       },
       "print_derivative": {
         "revision": "LORE-CRYPTO-PRINT-v1.0",
-        "front": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.png",
-        "editable_svg": "cards/crypto/season-01/the-whitepaper-master-01/LORE-The-Whitepaper-Legendary-v1-Print-v1.svg",
-        "manifest": "cards/crypto/season-01/the-whitepaper-master-01/print-v1-manifest.json",
+        "front": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/the-whitepaper-master-005/print-v1-manifest.json",
         "canvas_px": [
           816,
           1110
@@ -762,12 +762,15 @@
           "weight": 700,
           "position_tracking_colour": "preserved"
         },
-        "qr_status": "DEMO_ONLY",
+        "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
         "print_release": false,
         "physical_proof_received": false,
         "physical_qr_scan_test": false,
-        "converted_at": "2026-09-24"
-      }
+        "converted_at": "2026-09-27"
+      },
+      "previous_master_preserved": "cards/crypto/season-01/the-whitepaper-master-01/",
+      "book_chapter": "book/crypto-season-01/005-the-whitepaper.md",
+      "book_spread": "book/crypto-season-01/proofs/005-the-whitepaper-full-art-spread-v1.pdf"
     },
     {
       "id": "crypto-s01-bitconnect",

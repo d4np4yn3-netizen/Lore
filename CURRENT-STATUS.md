@@ -2,9 +2,9 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
-## Active: 005 The Whitepaper approved for publication — 27 September 2026
+## Latest: 005 The Whitepaper published and verified — 27 September 2026
 
-Dan approved the Japanese-inspired fictional-town redraw, Legendary 005/100 front, four-paragraph book story and two-page editorial spread on 27 September, and authorised GitHub/site publication. Canonical art and front are in `cards/crypto/season-01/the-whitepaper-master-005/`, chapter `book/crypto-season-01/005-the-whitepaper.md`, full-art PDF `proofs/005-the-whitepaper-full-art-spread-v1.pdf`, website mirror `site/app/cards/content/005.json`. The original approved Whitepaper master is preserved unchanged. The story distinguishes the fictional town from historical location; the nine-page paper cites b-money and Hashcash, not RPOW. The `/crypto/005/` QR is reserved until live deployment is verified. Physical print release remains false. Legendary is already included in the 15-card rarity tally.
+Dan approved the Japanese-inspired fictional-town redraw, Legendary 005/100 front, four-paragraph book story and two-page editorial spread on 27 September, and authorised GitHub/site publication. Canonical art and front are in `cards/crypto/season-01/the-whitepaper-master-005/`, chapter `book/crypto-season-01/005-the-whitepaper.md`, full-art PDF `proofs/005-the-whitepaper-full-art-spread-v1.pdf`, website mirror `site/app/cards/content/005.json`. All 16 publication files are on GitHub in `2a4b8918827ea455f72863fe2dc515d94a94e229`; remote tree matches the prepared set. Production deployment `dpl_57A5h4B9Cu7txteNmf1iYtapRr4x` is READY. `/crypto/005/` redirects to `/cards/the-whitepaper` with HTTP 200; homepage includes 005. Full art, card PNG/SVG and book PDF remote SHA-256 hashes match their approved files, and book-to-site copy check passes. Current card register now selects this numbered master. The original approved Whitepaper master is preserved unchanged. The story distinguishes the fictional town from historical location; the nine-page paper cites b-money and Hashcash, not RPOW. Physical print release remains false. Legendary is already included in the 15-card rarity tally. Next: 006 after Dan's instruction.
 
 ## Active: 004 RPOW approved for GitHub and site — 27 September 2026
 
