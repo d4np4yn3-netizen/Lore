@@ -91,3 +91,7 @@ Check exact text/numbers, technical or legal detail, and any recognisable period
 - [Slush pooled mining announcement](https://bitcointalk.org/index.php?topic=1976) — inherited type: PRIMARY_ARCHIVE.
 
 [Canonical year research](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/years/2010.json); [selection record](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/selection/v1/selection-v1.json).
+
+## Superseding approval - 27 September 2026
+
+Dan restarted 011 and approved the darker cavern artwork, corrected monitor, Uncommon card and two-page book spread for GitHub and site publication. The previous artwork hold above applies only to the parked concept, not this selected new design. Current master: `cards/crypto/season-01/slush-pool-master-011`. No cross-card object was added.

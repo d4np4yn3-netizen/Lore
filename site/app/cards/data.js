@@ -8,6 +8,7 @@ import chapter007 from './content/007.json';
 import chapter008 from './content/008.json';
 import chapter009 from './content/009.json';
 import chapter010 from './content/010.json';
+import chapter011 from './content/011.json';
 
 export const cards = [
   {
@@ -143,6 +144,20 @@ export const cards = [
     ...chapter010,
     source: 'https://bitcointalk.org/index.php?topic=823.0',
     number: '010/100',
+  },
+  {
+    slug: 'slush-pool',
+    title: 'SLUSH POOL',
+    rarity: 'UNCOMMON',
+    date: '27 NOV 2010',
+    subject: 'BITCOIN',
+    phrase: 'ARE YOU INTERESTED IN?',
+    image: 'cards/crypto/season-01/slush-pool-master-011/LORE-Slush-Pool-Uncommon-011-Print-v1.png',
+    artwork: 'cards/crypto/season-01/slush-pool-master-011/art.png',
+    book: 'book/crypto-season-01/proofs/011-slush-pool-full-art-spread-v1.pdf',
+    ...chapter011,
+    source: 'https://bitcointalk.org/index.php?topic=1976.0',
+    number: '011/100',
   },
 ];
 

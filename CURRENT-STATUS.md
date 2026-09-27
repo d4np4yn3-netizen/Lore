@@ -2,6 +2,10 @@
 
 Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
 
+## 011 Slush Pool approved; publication in progress - 27 September 2026
+
+Dan approved Uncommon 011/100, the dark cavern with corrected right monitor and no cross-card object, the card and two-page book spread for GitHub and site. Canonical `cards/crypto/season-01/slush-pool-master-011/`; art SHA-256 `ccffb318b7f0268c6b5126cf08fc1ee162b331b2157de1f02bb1575007545530`. Card phrase `ARE YOU INTERESTED IN?`, date 27 NOV 2010 marks Slush’s proposal; operational launch followed 16 DEC. Chapter `book/crypto-season-01/011-slush-pool.md`; PDF `book/crypto-season-01/proofs/011-slush-pool-full-art-spread-v1.pdf`. Website adds `/cards/slush-pool` and `/crypto/011/`, five clues plus full artwork/book links. GitHub/site verification pending. Unique approved designs: 20, including 1 Uncommon. Physical print release false.
+
 ## 010 The Overflow published and verified — 27 September 2026
 
 Dan selected the larger D coin, no keyring, approved Rare 010/100 card and two-page book spread and authorised site publication. Canonical folder `cards/crypto/season-01/the-overflow-master-010/`; art SHA-256 `40f532e615aa74d1b1bde52afc31dc92ca20f61650c9cd3994ecd715141cafec`. Chapter `book/crypto-season-01/010-the-overflow.md`; PDF `book/crypto-season-01/proofs/010-the-overflow-full-art-spread-v1.pdf`. Card `WE NEED A FIX ASAP.`, date 15 AUG 2010. Site adds `/cards/the-overflow` and `/crypto/010/`, four clues and full-art/book links. All 21 publication files verified in GitHub commit `b924a8fa846e200e6fb6575299c7abe275561b97`. Production deployment `dpl_48a13dkVAJ6CTGX7gx5Ue81JsUaE` is READY. `/crypto/010/` redirects to `/cards/the-overflow` with HTTP 200; homepage, four clues and full-art/book links verified. Public art, card PNG/SVG and PDF hashes match the approved larger-D files. Small-D artwork remains review history. Unique approved designs: 19; Rare 6. Physical print release false.

@@ -28,3 +28,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 010 The Overflow
 
 [Approved chapter](010-the-overflow.md) · [Two-page full-art spread](proofs/010-the-overflow-full-art-spread-v1.pdf). Rare 010/100; larger Dogecoin version selected for the site 27 September 2026.
+
+## 011 Slush Pool
+
+[Approved chapter](011-slush-pool.md) · [Two-page full-art spread](proofs/011-slush-pool-full-art-spread-v1.pdf). Uncommon 011/100; approved for site publication 27 September 2026.
