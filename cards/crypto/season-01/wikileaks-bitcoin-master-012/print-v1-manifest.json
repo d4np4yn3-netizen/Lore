@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED_PUBLICATION_PENDING",
+  "status": "APPROVED_AND_PUBLISHED",
   "approval_quote": "Great, approved for upload to the live site",
   "artwork": {
     "path": "cards/crypto/season-01/wikileaks-bitcoin-master-012/art.png",
@@ -28,7 +28,7 @@
   },
   "selected_generated_art": "exec-4b66a347-e1d5-42cb-8050-b1c592ec6ba8.png",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/012/",
-  "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+  "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
   "print_release": false,
   "book_reproduction_release": false,
   "commercial_rights_review": "OPEN_FOR_PAYMENT_CIRCLE_AND_COLOUR_CUES",
@@ -45,5 +45,6 @@
   "safe_px": [
     684,
     981
-  ]
+  ],
+  "publication_verification": "cards/crypto/season-01/wikileaks-bitcoin-master-012/publication-verification.json"
 }

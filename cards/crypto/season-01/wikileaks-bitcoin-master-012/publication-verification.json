@@ -1,0 +1,28 @@
+{
+  "published_at": "2026-09-28",
+  "publication_commit": "76b95efb1b1a19f0771e73d0c3678a557ac713c9",
+  "deployment": "dpl_5ngLbYcTiCaWLgQVCyHoMtBy4c2h",
+  "deployment_status": "READY",
+  "committed_file_count": 23,
+  "all_committed_file_hashes_match": true,
+  "approved_art_card_svg_and_spread_blobs_match": true,
+  "live_checks": {
+    "home": {
+      "url": "https://lore-site-v1.vercel.app/",
+      "status": 200,
+      "lists_012": true
+    },
+    "qr": {
+      "url": "https://lore-site-v1.vercel.app/crypto/012/",
+      "status": 200,
+      "has_title_clues_and_book_link": true
+    },
+    "card": {
+      "url": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+      "status": 200,
+      "has_title_clues_and_book_link": true
+    }
+  },
+  "physical_print_release": false,
+  "commercial_rights_review": "OPEN"
+}
