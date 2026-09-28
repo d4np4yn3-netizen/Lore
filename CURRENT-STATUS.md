@@ -1,6 +1,10 @@
 # LORE — current status
 
-Updated 2026-09-27. Read with AGENTS.md and PROJECT-MEMORY.md.
+Updated 2026-09-28. Read with AGENTS.md and PROJECT-MEMORY.md.
+
+## 012 WikiLeaks Accepts Bitcoin approved; publication in progress - 28 September 2026
+
+Dan approved Uncommon 012/100, the selected donation-hatch artwork with abstract payment cues, bank façade and half-visible 001 Blind Signatures letter, card and two-page book spread for GitHub and live site. Canonical cards/crypto/season-01/wikileaks-bitcoin-master-012/; art SHA-256 1f7f5f66e61269f651d770cc917786f8fb554f9445a43841f30f443d57de01b8. Phrase BITCOIN DONATIONS. is excerpted from the original announcement reproduced in Reid/Harrigan (2011). Chapter book/crypto-season-01/012-wikileaks-accepts-bitcoin.md; PDF book/crypto-season-01/proofs/012-wikileaks-accepts-bitcoin-full-art-spread-v1.pdf. Website adds /cards/wikileaks-bitcoin and /crypto/012/ with five clues and art/book links. GitHub/site verification pending. Unique approved designs: 21, including 2 Uncommon. Physical print and commercial-rights review remain separate.
 
 ## 011 Slush Pool published and verified - 27 September 2026
 

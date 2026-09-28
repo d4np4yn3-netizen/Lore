@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 20,
+  "approved_visual_count": 21,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -1968,6 +1968,97 @@
       "approval_record": "cards/crypto/season-01/slush-pool-master-011/approval.json",
       "style_revision": "LORE-CRYPTO-STYLE-v1.1",
       "interpretation": "Cavern, anonymous miners, pool, energy streams and golden block are artistic metaphors. No crossover object was selected for this scene."
+    },
+    {
+      "id": "crypto-s01-wikileaks-bitcoin",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "uncommon",
+      "rarity_status": "APPROVED_UNCOMMON",
+      "creator": "BITCOIN",
+      "title_line_1": "WIKILEAKS",
+      "title_line_2": "ACCEPTS BTC",
+      "context": "BITCOIN DONATIONS.",
+      "context_status": "APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
+      "moment_label": "14 JUN 2011",
+      "set_label": "CRYPTO • SEASON 01 • 012/100",
+      "artwork": "cards/crypto/season-01/wikileaks-bitcoin-master-012/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/012/",
+      "confirmed_lore_owned_route": true,
+      "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+      "print_release": false,
+      "publication_approved": true,
+      "event_date": "2011-06-14",
+      "moment_number": 12,
+      "set_size": 100,
+      "artwork_status": "APPROVED_HALF_VISIBLE_001_LETTER",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "cross_card_item": "left half of the approved 001 Blind Signatures letter peeks from the donation hatch",
+      "status": "APPROVED_PUBLICATION_PENDING",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-28",
+      "approval_quote": "Great, approved for upload to the live site",
+      "website_publication_in_this_change": true,
+      "qr_mode": "live_pending_verification",
+      "front": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.svg",
+      "book_chapter": "book/crypto-season-01/012-wikileaks-accepts-bitcoin.md",
+      "book_spread": "book/crypto-season-01/proofs/012-wikileaks-accepts-bitcoin-full-art-spread-v1.pdf",
+      "source_notes": "cards/crypto/season-01/wikileaks-bitcoin-master-012/source-notes.md",
+      "approval_record": "cards/crypto/season-01/wikileaks-bitcoin-master-012/approval.json",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/wikileaks-bitcoin-master-012/art.png",
+        "bytes": 2139315,
+        "sha256": "1f7f5f66e61269f651d770cc917786f8fb554f9445a43841f30f443d57de01b8"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.png",
+          "bytes": 859186,
+          "sha256": "4ca3e75964aa559029416dd4298db33c30f5c4390fbce7af8a2a77ab8467b3b7"
+        },
+        {
+          "path": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.svg",
+          "bytes": 2888704,
+          "sha256": "2e48bf77616496477a971b0f66759e858ae03d771d4a1a0529a077c4d0aa755d"
+        }
+      ],
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "interpretation": "Anonymous donor, arcade, locked payment categories, lights, receipt and hatch are metaphors. The half-visible 001 Blind Signatures letter is an intentional collection crossover.",
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "print_release": false,
+        "front": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/wikileaks-bitcoin-master-012/print-v1-manifest.json",
+        "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+        "physical_qr_scan_test": false
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -1978,7 +2069,7 @@
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-09-27",
+  "updated_at": "2026-09-28",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 11
+  "approved_print_derivative_count": 12
 }

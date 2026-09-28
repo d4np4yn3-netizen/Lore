@@ -1,5 +1,8 @@
 # LORE project memory
 
+- **012 WikiLeaks Accepts Bitcoin approved, 28 September 2026.** Dan approved the exact Uncommon 012 card and full-art spread for GitHub/live site. Generic payment categories, muted circles/two blues, bank façade, no coin beam and half-visible 001 letter. Master: cards/crypto/season-01/wikileaks-bitcoin-master-012. Phrase BITCOIN DONATIONS., date 14 JUN 2011, four-paragraph story, five clues. Publication verification pending. Physical print and commercial-rights review remain separate. Unique approved designs: 21.
+
+
 - **011 Slush Pool approved, 27 September 2026.** Dan approved the dark block-lit cavern artwork with the right screen facing the miner and no cross-card item, Uncommon 011/100 card, four-paragraph book chapter, five clue notes, two-page spread and GitHub/site upload. `cards/crypto/season-01/slush-pool-master-011`. Card date 27 NOV is the proposal; the pool operated from 16 DEC. Published in `25f523cbb3cb856947e08f1ad5c7e931d9d8895c`; production deployment `dpl_DhiuiN4VdK8brTNUGJeoSLbmXfjk` READY. QR route and homepage verified; four public asset hashes match. Approved unique designs: 20.
 
 

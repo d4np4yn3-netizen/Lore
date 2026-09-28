@@ -90,3 +90,7 @@ Check exact text/numbers, technical or legal detail, and any recognisable period
 - [WIRED — The Rise and Fall of Bitcoin](https://www.wired.com/2011/11/mf-bitcoin/) — inherited type: CONTEMPORARY_SECONDARY.
 
 [Canonical year research](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/years/2011.json); [selection record](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/selection/v1/selection-v1.json).
+
+## Superseding approval - 28 September 2026
+
+Dan approved the Uncommon 012 card and book spread for live site publication. The open network thread and future parcel tie were not selected; a half-visible 001 Blind Signatures letter was. Current master: cards/crypto/season-01/wikileaks-bitcoin-master-012/. Physical print and rights review remain separate.

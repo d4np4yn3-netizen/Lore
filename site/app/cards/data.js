@@ -9,6 +9,7 @@ import chapter008 from './content/008.json';
 import chapter009 from './content/009.json';
 import chapter010 from './content/010.json';
 import chapter011 from './content/011.json';
+import chapter012 from './content/012.json';
 
 export const cards = [
   {
@@ -158,6 +159,20 @@ export const cards = [
     ...chapter011,
     source: 'https://bitcointalk.org/index.php?topic=1976.0',
     number: '011/100',
+  },
+  {
+    slug: 'wikileaks-bitcoin',
+    title: 'WIKILEAKS ACCEPTS BITCOIN',
+    rarity: 'UNCOMMON',
+    date: '14 JUN 2011',
+    subject: 'BITCOIN',
+    phrase: 'BITCOIN DONATIONS.',
+    image: 'cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.png',
+    artwork: 'cards/crypto/season-01/wikileaks-bitcoin-master-012/art.png',
+    book: 'book/crypto-season-01/proofs/012-wikileaks-accepts-bitcoin-full-art-spread-v1.pdf',
+    ...chapter012,
+    source: 'https://arxiv.org/abs/1107.4524',
+    number: '012/100',
   },
 ];
 

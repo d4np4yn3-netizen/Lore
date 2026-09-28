@@ -17,3 +17,5 @@ Art paths above are relative to cards/crypto/season-01/. Crossovers are intentio
 - **008 → 009:** Pizza-box corner from Pizza Day appears at the lower-left edge of `the-faucet-master-009/art.png`. Approved 27 September 2026; symbolic crossover, not a historical prop claim.
 
 - **Birth of Doge → 010 The Overflow:** One large Dogecoin-marked gold coin among the Bitcoin cascade in `the-overflow-master-010/art.png`. Dan selected this visible version on 27 September 2026. It is a deliberately anachronistic forward card reference, not a historical 2010 prop.
+
+- **001 → 012:** The left half of the cream Blind Signatures / 1982 letter peeks from the donation hatch in wikileaks-bitcoin-master-012/art.png. Dan selected the subtle callback on 28 September 2026. It is a series reference, not a historical 2011 document.

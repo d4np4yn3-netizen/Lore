@@ -32,3 +32,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 011 Slush Pool
 
 [Approved chapter](011-slush-pool.md) · [Two-page full-art spread](proofs/011-slush-pool-full-art-spread-v1.pdf). Uncommon 011/100; approved for site publication 27 September 2026.
+
+## 012 WikiLeaks Accepts Bitcoin
+
+[Approved chapter](012-wikileaks-accepts-bitcoin.md) · [Two-page full-art spread](proofs/012-wikileaks-accepts-bitcoin-full-art-spread-v1.pdf). Uncommon 012/100; approved for site publication 28 September 2026.
