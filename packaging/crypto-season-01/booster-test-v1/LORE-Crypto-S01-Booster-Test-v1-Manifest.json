@@ -1,0 +1,152 @@
+{
+  "revision": "LORE-Crypto-S01-Booster-Test-v1",
+  "status": "NEW_PACKAGING_LAYOUT_FOR_REVIEW_AND_TEST_PRINT",
+  "source_repository": "https://github.com/d4np4yn3-netizen/Lore",
+  "source_commit": "26bb69ef670b1a2b28cb342c3df601bd08ad2277",
+  "template": {
+    "path": "Booster-Pack.pdf",
+    "sha256": "604c4579ff47c022574a8ccfeab475a6eaf02ff13a32ed9ece27295bced1d3c3",
+    "page_pt": [
+      487.5589904785156,
+      374.1730041503906
+    ],
+    "page_mm": [
+      171.99997719658742,
+      131.99992090861002
+    ],
+    "trim_rect_top_left_pt": [
+      8.032012939453125,
+      8.96002197265625,
+      479.5260009765625,
+      365.2130126953125
+    ],
+    "fold_x_pt": [
+      144.57130432128906,
+      342.9971008300781
+    ],
+    "inner_heat_seal_rect_top_left_pt": [
+      37,
+      37,
+      451,
+      337
+    ],
+    "png_px": [
+      2032,
+      1560
+    ],
+    "dpi": 300,
+    "note": "Template page geometry and vector lines take priority over rounded and inconsistent template prose."
+  },
+  "palette": {
+    "black": "#0B0B0B",
+    "bone": "#F5F2EB",
+    "gold": "#D4AF37",
+    "charcoal": "#1A1A1A",
+    "white": "#FFFFFF"
+  },
+  "qr": {
+    "payload": "https://lore-site-v1.vercel.app/",
+    "modules_with_quiet_zone": 37,
+    "size_mm": 28.22222222222222,
+    "module_mm": 0.7627627627627628,
+    "quiet_zone_modules": 4
+  },
+  "art_placements": [
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "effective_dpi": 655.2,
+      "crop": [
+        80,
+        190,
+        990,
+        1430
+      ]
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "effective_dpi": 720.0,
+      "crop": [
+        120,
+        190,
+        1030,
+        1430
+      ]
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-005/art.png",
+      "effective_dpi": 919.5180722891566,
+      "crop": null
+    }
+  ],
+  "assets": [
+    {
+      "path": "brand/assets/svg/lore_logo_compact_gold_white.svg",
+      "sha256": "7ab0c09e95441ff4e1b903e540b5155ba88a6bb5d30868019aeec81d1d48828a"
+    },
+    {
+      "path": "brand/assets/svg/lore_logo_primary_gold_white.svg",
+      "sha256": "e1322c6f6eca4266921cbf9c3d28565c944ab5603155b340fe9ee576ed0d8f82"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    {
+      "path": "cards/crypto/season-01/the-whitepaper-master-005/art.png",
+      "sha256": "6dbd86e5e66e0584b1947840b83bf512761d7c7ffe0d4c02d96e69b6d9da6287"
+    }
+  ],
+  "typography": [
+    "DejaVuSans-Bold.ttf",
+    "DejaVuSans.ttf"
+  ],
+  "production_notes": [
+    "Exact approved source assets; clipping and uniform placement only; no AI repainting or logo reconstruction.",
+    "Fonts outlined in SVG/PDF; artwork embedded at original source resolution.",
+    "No die, fold, safe, dimension or heat-seal guide lines in the clean print files.",
+    "No quantity, pull rate, foil guarantee, barcode or unconfirmed commercial claim.",
+    "Colour output is RGB; printer profile, substrate and any metallic finish must be handled by printer.",
+    "Rear assembly preview is indicative; follow printer template for manufacturing."
+  ],
+  "files": [
+    {
+      "file": "LORE-Crypto-S01-Booster-Test-v1-300dpi.png",
+      "bytes": 1192825,
+      "sha256": "8f297075a252b6139946e2a30f3aa6498c9c45b47c208fd557785e113540eba6"
+    },
+    {
+      "file": "LORE-Crypto-S01-Booster-Test-v1-Preview.png",
+      "bytes": 599386,
+      "sha256": "624bbe2c38827eb18d344fc55060dd65ca90389d1f52d7f681f1004a39f564b5"
+    },
+    {
+      "file": "LORE-Crypto-S01-Booster-Test-v1-Proof.pdf",
+      "bytes": 11296087,
+      "sha256": "0f8391e0bf6cfa88ce22e238e0dff4adbc3db45b151538db7f8c64e14c9cf8f6"
+    },
+    {
+      "file": "LORE-Crypto-S01-Booster-Test-v1.pdf",
+      "bytes": 10884366,
+      "sha256": "d3fea7bf2064dcae9f8fd100616b0a96ad46e91274523779192acd94f29ff852"
+    },
+    {
+      "file": "LORE-Crypto-S01-Booster-Test-v1.svg",
+      "bytes": 10288044,
+      "sha256": "778cc06832aaa05b7ca274144bf259037d627be084b6a3da15d3f8a4950fca83"
+    }
+  ],
+  "qa": {
+    "approved_source_hashes_verified": true,
+    "rendered_pdf_pages_visually_reviewed": 2,
+    "clean_pdf_pages": 1,
+    "clean_pdf_fonts_outlined": true,
+    "digital_qr_decode_passed": true,
+    "site_http_status": 200,
+    "new_packaging_design_approved_by_user": false,
+    "physical_sample_reviewed": false
+  }
+}
