@@ -1,5 +1,10 @@
 # LORE — current status
 
+## 013 Casascius Coins approved; publication prepared — 29 September 2026
+
+Common 013/100, 6 September 2011, THESE TURNED OUT SWEET! Dan approved card and two book pages for GitHub and live site. Canonical folder `cards/crypto/season-01/casascius-coins-master-013/`. Artwork follows today’s attached card; the recovered prior book proof had removed the entire doorway and is preserved in review-history. The new book page one matches the attached card. Existing story and three detail notes are unchanged. Permanent QR `/crypto/013/` redirects to `/cards/casascius-coins`. Publication verification pending. 22 approved unique designs; 13 numbered site cards. Physical print release remains false.
+
+
 Updated 2026-09-28. Read with AGENTS.md and PROJECT-MEMORY.md.
 
 ## 012 WikiLeaks Accepts Bitcoin published and verified - 28 September 2026

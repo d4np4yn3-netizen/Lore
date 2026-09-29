@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 21,
+  "approved_visual_count": 22,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -2059,6 +2059,89 @@
         "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
         "physical_qr_scan_test": false
       }
+    },
+    {
+      "rarity": "common",
+      "creator": "BITCOIN",
+      "title_line_1": "CASASCIUS",
+      "title_line_2": "COINS",
+      "context": "THESE TURNED OUT SWEET!",
+      "moment_label": "06 SEP 2011",
+      "set_label": "CRYPTO • SEASON 01 • 013/100",
+      "artwork": "cards/crypto/season-01/casascius-coins-master-013/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/013/",
+      "id": "crypto-s01-casascius-coins",
+      "collection": "crypto",
+      "season": 1,
+      "rarity_status": "APPROVED_COMMON",
+      "event_date": "2011-09-06",
+      "moment_number": 13,
+      "set_size": 100,
+      "confirmed_lore_owned_route": true,
+      "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+      "qr_mode": "live",
+      "print_release": false,
+      "publication_approved": true,
+      "status": "APPROVED_PUBLICATION_PENDING",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-29",
+      "approval_quote": "Everything approved to be pushed to github and the site",
+      "artwork_status": "MATCHES_CURRENT_USER_ATTACHMENT",
+      "front": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.svg",
+      "book_chapter": "book/crypto-season-01/013-casascius-coins.md",
+      "book_spread": "book/crypto-season-01/proofs/013-casascius-coins-full-art-spread-v1.pdf",
+      "source_notes": "cards/crypto/season-01/casascius-coins-master-013/source-notes.md",
+      "approval_record": "cards/crypto/season-01/casascius-coins-master-013/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/casascius-coins-master-013/art.png",
+        "bytes": 2165013,
+        "sha256": "796220952943e28536f4f3e3144ad1576e4d2def4e1f1004d83d6ee03eb292ad"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png",
+          "bytes": 845991,
+          "sha256": "c53de35b4b37d326987e662f60388004e80fbc01a04ce65e623d8d20591f7b9a"
+        },
+        {
+          "path": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.svg",
+          "bytes": 2923116,
+          "sha256": "a6feb5e3848295b622436738c91034bc9eb0b8f2ead0fe9ae31519990ec96c2e"
+        }
+      ],
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "print_release": false,
+        "front": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/casascius-coins-master-013/print-v1-manifest.json",
+        "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+        "physical_qr_scan_test": false
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -2069,7 +2152,7 @@
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-09-28",
+  "updated_at": "2026-09-29",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 12
+  "approved_print_derivative_count": 13
 }

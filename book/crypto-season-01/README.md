@@ -36,3 +36,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 012 WikiLeaks Accepts Bitcoin
 
 [Approved chapter](012-wikileaks-accepts-bitcoin.md) · [Two-page full-art spread](proofs/012-wikileaks-accepts-bitcoin-full-art-spread-v1.pdf). Uncommon 012/100; approved for site publication 28 September 2026.
+
+## 013 Casascius Coins
+
+[Approved chapter](013-casascius-coins.md) · [Two-page spread](proofs/013-casascius-coins-full-art-spread-v1.pdf). Common 013/100; card, copy and layout approved for GitHub and site on 29 September 2026. Run `sync_013.py --check` to verify site copy.

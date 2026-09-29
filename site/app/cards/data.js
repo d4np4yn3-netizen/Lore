@@ -10,6 +10,7 @@ import chapter009 from './content/009.json';
 import chapter010 from './content/010.json';
 import chapter011 from './content/011.json';
 import chapter012 from './content/012.json';
+import chapter013 from './content/013.json';
 
 export const cards = [
   {
@@ -173,6 +174,15 @@ export const cards = [
     ...chapter012,
     source: 'https://arxiv.org/abs/1107.4524',
     number: '012/100',
+  },
+  {
+    slug: 'casascius-coins', title: 'CASASCIUS COINS', rarity: 'COMMON',
+    date: '06 SEP 2011', subject: 'BITCOIN', phrase: 'THESE TURNED OUT SWEET!',
+    image: 'cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png',
+    artwork: 'cards/crypto/season-01/casascius-coins-master-013/art.png',
+    book: 'book/crypto-season-01/proofs/013-casascius-coins-full-art-spread-v1.pdf',
+    ...chapter013,
+    source: 'https://bitcointalk.org/index.php?topic=41892.0', number: '013/100',
   },
 ];
 
