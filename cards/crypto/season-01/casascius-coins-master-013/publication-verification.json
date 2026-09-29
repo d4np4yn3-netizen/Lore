@@ -1,0 +1,63 @@
+{
+  "verified_at": "2026-09-29",
+  "publication_commit": "5db3ad9ac8831374590a1769cf7b5d2c26eff715",
+  "publication_tree": "f23172f3d912d4a9ab1670ba699837681847b0b9",
+  "publication_file_count": 24,
+  "all_blob_hashes_and_remote_tree_match": true,
+  "deployment_id": "dpl_4e6Gg4Rsd77tPj4G5m82Y4KfceMp",
+  "deployment_state": "READY",
+  "site_url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+  "live_checks": {
+    "/": {
+      "status": 200,
+      "final_url": "https://lore-site-v1.vercel.app/",
+      "approved_content_present": true
+    },
+    "/crypto/013/": {
+      "status": 200,
+      "final_url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+      "approved_content_present": true
+    },
+    "/cards/casascius-coins": {
+      "status": 200,
+      "final_url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+      "approved_content_present": true
+    }
+  },
+  "download_checks": [
+    {
+      "path": "cards/crypto/season-01/casascius-coins-master-013/art.png",
+      "sha256": "796220952943e28536f4f3e3144ad1576e4d2def4e1f1004d83d6ee03eb292ad",
+      "remote_bytes": 2165013,
+      "match": true
+    },
+    {
+      "path": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png",
+      "sha256": "c53de35b4b37d326987e662f60388004e80fbc01a04ce65e623d8d20591f7b9a",
+      "remote_bytes": 845991,
+      "match": true
+    },
+    {
+      "path": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.svg",
+      "sha256": "a6feb5e3848295b622436738c91034bc9eb0b8f2ead0fe9ae31519990ec96c2e",
+      "remote_bytes": 2923116,
+      "match": true
+    },
+    {
+      "path": "book/crypto-season-01/proofs/013-casascius-coins-full-art-spread-v1.pdf",
+      "sha256": "c2be569d3f8c98cf7202c38f3d63d37ca6009407cfb289e8006510848ccd472b",
+      "remote_bytes": 4228327,
+      "match": true
+    }
+  ],
+  "qa": {
+    "site_production_build": "PASS",
+    "book_site_text_sync": "PASS",
+    "two_page_pdf_render_visual_check": "PASS",
+    "book_page_two_text_matches_recovered_approved_copy": true,
+    "card_matches_current_attachment_except_qr": true,
+    "qr_payload_matches_permanent_route": true,
+    "physical_qr_scan_test": false
+  },
+  "print_release": false
+}

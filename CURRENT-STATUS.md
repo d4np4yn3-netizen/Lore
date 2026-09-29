@@ -1,8 +1,8 @@
 # LORE — current status
 
-## 013 Casascius Coins approved; publication prepared — 29 September 2026
+## 013 Casascius Coins published and verified — 29 September 2026
 
-Common 013/100, 6 September 2011, THESE TURNED OUT SWEET! Dan approved card and two book pages for GitHub and live site. Canonical folder `cards/crypto/season-01/casascius-coins-master-013/`. Artwork follows today’s attached card; the recovered prior book proof had removed the entire doorway and is preserved in review-history. The new book page one matches the attached card. Existing story and three detail notes are unchanged. Permanent QR `/crypto/013/` redirects to `/cards/casascius-coins`. Publication verification pending. 22 approved unique designs; 13 numbered site cards. Physical print release remains false.
+Common 013/100, 6 September 2011, THESE TURNED OUT SWEET! Dan approved card and two book pages for GitHub and live site. Canonical folder `cards/crypto/season-01/casascius-coins-master-013/`. Artwork follows today’s attached card; the recovered prior book proof had removed the entire doorway and is preserved in review-history. The new book page one matches the attached card. Existing story and three detail notes are unchanged. Permanent QR `/crypto/013/` redirects to `/cards/casascius-coins`. All 24 publication files and the complete tree match GitHub commit `5db3ad9ac8831374590a1769cf7b5d2c26eff715`. Production deployment `dpl_4e6Gg4Rsd77tPj4G5m82Y4KfceMp` is READY. Homepage, 013 QR redirect, story, three artwork details and art/book links return HTTP 200. Downloaded art, PNG, SVG and book PDF hashes match the checked files. 22 approved unique designs; 13 numbered site cards. Physical print release remains false.
 
 
 Updated 2026-09-28. Read with AGENTS.md and PROJECT-MEMORY.md.

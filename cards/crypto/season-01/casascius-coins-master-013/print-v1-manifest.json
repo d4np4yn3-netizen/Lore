@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED_PUBLICATION_PENDING",
+  "status": "APPROVED_AND_PUBLISHED",
   "artwork": {
     "path": "cards/crypto/season-01/casascius-coins-master-013/art.png",
     "bytes": 2165013,
@@ -26,7 +26,7 @@
     "sha256": "c2be569d3f8c98cf7202c38f3d63d37ca6009407cfb289e8006510848ccd472b"
   },
   "qr_url": "https://lore-site-v1.vercel.app/crypto/013/",
-  "qr_status": "APPROVED_ROUTE_PUBLICATION_PENDING",
+  "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
   "print_release": false,
   "book_reproduction_release": false,
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
@@ -49,5 +49,6 @@
     856,
     708,
     985
-  ]
+  ],
+  "publication_verification": "cards/crypto/season-01/casascius-coins-master-013/publication-verification.json"
 }
