@@ -1,5 +1,5 @@
 {
-  "status": "APPROVED_FOR_PUBLICATION",
+  "status": "APPROVED_AND_PUBLISHED_PRINT_APPROVED",
   "artwork": {
     "path": "cards/crypto/season-01/litecoin-launches-master-014/art.png",
     "bytes": 2271942,
@@ -22,12 +22,14 @@
   },
   "qr_url": "https://lore-site-v1.vercel.app/crypto/014/",
   "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
-  "print_release": false,
+  "print_release": true,
   "book_reproduction_release": false,
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "canvas_px": [816, 1110],
   "dpi": 300,
   "cut_px": [744, 1038],
   "safe_px": [684, 981],
-  "physical_qr_scan_test": false
+  "physical_qr_scan_test": false,
+  "qr_validation": "Decoded exported PNG URL and confirmed live 014 story HTTP 200 on 2026-09-29",
+  "physical_print_approval": "Dan Payne, 2026-09-29; QR condition satisfied digitally; printed-camera scan not yet performed"
 }
