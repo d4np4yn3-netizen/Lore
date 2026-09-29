@@ -1,8 +1,8 @@
 # LORE project memory
 
-## 015 The First Halving — approved for publication, 29 September 2026
+## 015 The First Halving — published and verified, 29 September 2026
 
-Dan approved the reviewed Legendary card and two-page book spread for GitHub and the site: “Ok approved, upload to the gothub, the site.” Exact selected art is preserved in `cards/crypto/season-01/first-halving-master-015/art.png` (SHA-256 dc81e6b806fe2a4069158624ebaf93b86ac1e0d3123d5e02f29ad200bd72faf7). The print front has a permanent `/crypto/015/` QR digitally decoded from the exported PNG. The four-paragraph story/five clues and spread are in `book/crypto-season-01/015-first-halving.md` and `proofs/015-first-halving-full-art-spread-v1.pdf`. Slush's Pool/laughingbear and the 13.56295554 BTC fees are explained with fiction vs fact separated. The phrase 50 TO 25. is editorial. GitHub push and production deployment verification pending; physical print release false and book reproduction separate. Approved unique designs: 24.
+Dan approved the reviewed Legendary card and two-page book spread for GitHub and the site: “Ok approved, upload to the gothub, the site.” Exact selected art is preserved in `cards/crypto/season-01/first-halving-master-015/art.png` (SHA-256 dc81e6b806fe2a4069158624ebaf93b86ac1e0d3123d5e02f29ad200bd72faf7). The print front has a permanent `/crypto/015/` QR digitally decoded from the exported PNG. The four-paragraph story/five clues and spread are in `book/crypto-season-01/015-first-halving.md` and `proofs/015-first-halving-full-art-spread-v1.pdf`. Slush's Pool/laughingbear and the 13.56295554 BTC fees are explained with fiction vs fact separated. The phrase 50 TO 25. is editorial. GitHub publication commit `794ed22d230961ff45c42551cb29e0701f9e9e60` and production deployment `dpl_7ofpVT2ZTr1xh6gF7zgHpb7PahaQ` READY are verified. QR route returns the approved story (HTTP 200), homepage includes 015, and downloaded art/front PNG/SVG/book hashes match. Physical print release false and book reproduction separate. Approved unique designs: 24; numbered site cards: 15.
 
 ## 014 Digital Silver — physical print approval, 29 September 2026
 
