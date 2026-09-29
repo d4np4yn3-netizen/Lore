@@ -21,3 +21,5 @@ Art paths above are relative to cards/crypto/season-01/. Crossovers are intentio
 - **001 → 012:** The left half of the cream Blind Signatures / 1982 letter peeks from the donation hatch in wikileaks-bitcoin-master-012/art.png. Dan selected the subtle callback on 28 September 2026. It is a series reference, not a historical 2011 document.
 
 - **013 Casascius Coins:** no new cross-card object added. Additional Easter eggs deferred to the collection-wide final review. Coin, seal and home scene are explained in the approved chapter.
+
+- **005 → 014:** The cream Bitcoin whitepaper hero page from the approved 005 artwork lies on Charlie Lee's lower-right lab bench in `litecoin-launches-master-014/art.png`. Its heading peeks above the card QR and the full sheet appears on book page one. Approved as a symbolic collection callback on 29 September 2026, not as a documented physical prop from Litecoin's launch.

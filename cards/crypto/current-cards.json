@@ -2,7 +2,7 @@
   "updated": "2026-09-29",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 22,
+  "approved_visual_count": 23,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -2139,6 +2139,73 @@
         "front": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png",
         "editable_svg": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.svg",
         "manifest": "cards/crypto/season-01/casascius-coins-master-013/print-v1-manifest.json",
+        "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+        "physical_qr_scan_test": false
+      }
+    },
+    {
+      "id": "crypto-s01-litecoin-launches",
+      "rarity": "uncommon",
+      "creator": "LITECOIN",
+      "title_line_1": "DIGITAL",
+      "title_line_2": "SILVER",
+      "context": "SILVER TO BITCOIN'S GOLD.",
+      "moment_label": "13 OCT 2011",
+      "set_label": "CRYPTO • SEASON 01 • 014/100",
+      "artwork": "cards/crypto/season-01/litecoin-launches-master-014/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/014/",
+      "collection": "crypto",
+      "season": 1,
+      "moment_number": 14,
+      "set_size": 100,
+      "event_date": "2011-10-13",
+      "rarity_status": "APPROVED_UNCOMMON",
+      "status": "APPROVED_FOR_PUBLICATION",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-29",
+      "approval_quote": "Ok let’s lock it in, create the book pages and upload to site",
+      "publication_approved": true,
+      "confirmed_lore_owned_route": true,
+      "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+      "qr_mode": "live",
+      "print_release": false,
+      "front": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.svg",
+      "book_chapter": "book/crypto-season-01/014-litecoin-launches.md",
+      "book_spread": "book/crypto-season-01/proofs/014-litecoin-launches-full-art-spread-v1.pdf",
+      "source_notes": "cards/crypto/season-01/litecoin-launches-master-014/source-notes.md",
+      "approval_record": "cards/crypto/season-01/litecoin-launches-master-014/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "finishes": ["standard", "foil"],
+      "physical_trim_mm": [63, 88],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/litecoin-launches-master-014/art.png",
+        "bytes": 2271942,
+        "sha256": "b1c2d5d6a9ceda9befddedaf45fbe4b488b2b9cd8e328ebb5b6a2615135ee326"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.png",
+          "bytes": 905244,
+          "sha256": "ffb8d9f426090b983091262e6ab1c442617b9df1af67704ca2d87c735281f1dd"
+        },
+        {
+          "path": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.svg",
+          "bytes": 3065511,
+          "sha256": "61e280ce96bc7895fc435f8933ab174257980347e6cff6f9439a540448557c07"
+        }
+      ],
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "canvas_px": [816, 1110],
+        "dpi": 300,
+        "cut_px": [744, 1038],
+        "safe_px": [684, 981],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "print_release": false,
+        "front": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/litecoin-launches-master-014/print-v1-manifest.json",
         "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
         "physical_qr_scan_test": false
       }

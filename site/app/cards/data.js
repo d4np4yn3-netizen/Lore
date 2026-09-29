@@ -11,6 +11,7 @@ import chapter010 from './content/010.json';
 import chapter011 from './content/011.json';
 import chapter012 from './content/012.json';
 import chapter013 from './content/013.json';
+import chapter014 from './content/014.json';
 
 export const cards = [
   {
@@ -183,6 +184,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/013-casascius-coins-full-art-spread-v1.pdf',
     ...chapter013,
     source: 'https://bitcointalk.org/index.php?topic=41892.0', number: '013/100',
+  },
+  {
+    slug: 'litecoin-launches', title: 'DIGITAL SILVER', rarity: 'UNCOMMON',
+    date: '13 OCT 2011', subject: 'LITECOIN', phrase: "SILVER TO BITCOIN'S GOLD.",
+    image: 'cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.png',
+    artwork: 'cards/crypto/season-01/litecoin-launches-master-014/art.png',
+    book: 'book/crypto-season-01/proofs/014-litecoin-launches-full-art-spread-v1.pdf',
+    ...chapter014,
+    source: 'https://bitcointalk.org/index.php?topic=47417.0', number: '014/100',
   },
 ];
 
