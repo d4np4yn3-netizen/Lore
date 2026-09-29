@@ -1,5 +1,9 @@
 # LORE project memory
 
+## 015 The First Halving — approved for publication, 29 September 2026
+
+Dan approved the reviewed Legendary card and two-page book spread for GitHub and the site: “Ok approved, upload to the gothub, the site.” Exact selected art is preserved in `cards/crypto/season-01/first-halving-master-015/art.png` (SHA-256 dc81e6b806fe2a4069158624ebaf93b86ac1e0d3123d5e02f29ad200bd72faf7). The print front has a permanent `/crypto/015/` QR digitally decoded from the exported PNG. The four-paragraph story/five clues and spread are in `book/crypto-season-01/015-first-halving.md` and `proofs/015-first-halving-full-art-spread-v1.pdf`. Slush's Pool/laughingbear and the 13.56295554 BTC fees are explained with fiction vs fact separated. The phrase 50 TO 25. is editorial. GitHub push and production deployment verification pending; physical print release false and book reproduction separate. Approved unique designs: 24.
+
 ## 014 Digital Silver — physical print approval, 29 September 2026
 
 Dan selected the darker Litecoin lab card, Whitepaper-page callback, no Casascius coin or moon; card and full-art two-page book spread were published with the story on the live site in GitHub commit `3fcb70519b37e2e8af2cdc2d73c7079116773443`. Dan subsequently said, “Ok and physical print is approved assuming the QR codes are correct.” The exact exported 014 PNG QR decodes to the live `/crypto/014/` story (HTTP 200); mark only this card `print_release: true`. A physical printed QR scan/cut proof has not yet been performed. Book reproduction permission is separate. Preserve the selected art, PNG/SVG and book PDF bytes.

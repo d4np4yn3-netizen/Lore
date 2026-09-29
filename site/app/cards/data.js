@@ -12,6 +12,7 @@ import chapter011 from './content/011.json';
 import chapter012 from './content/012.json';
 import chapter013 from './content/013.json';
 import chapter014 from './content/014.json';
+import chapter015 from './content/015.json';
 
 export const cards = [
   {
@@ -193,6 +194,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/014-litecoin-launches-full-art-spread-v1.pdf',
     ...chapter014,
     source: 'https://bitcointalk.org/index.php?topic=47417.0', number: '014/100',
+  },
+  {
+    slug: 'the-first-halving', title: 'THE FIRST HALVING', rarity: 'LEGENDARY',
+    date: '28 NOV 2012', subject: 'BITCOIN', phrase: '50 TO 25.',
+    image: 'cards/crypto/season-01/first-halving-master-015/LORE-First-Halving-Legendary-015-Print-v1.png',
+    artwork: 'cards/crypto/season-01/first-halving-master-015/art.png',
+    book: 'book/crypto-season-01/proofs/015-first-halving-full-art-spread-v1.pdf',
+    ...chapter015,
+    source: 'https://bitcoin.org/en/halving', number: '015/100',
   },
 ];
 
