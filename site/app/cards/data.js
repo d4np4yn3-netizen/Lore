@@ -13,6 +13,7 @@ import chapter012 from './content/012.json';
 import chapter013 from './content/013.json';
 import chapter014 from './content/014.json';
 import chapter015 from './content/015.json';
+import chapter016 from './content/016.json';
 
 export const cards = [
   {
@@ -203,6 +204,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/015-first-halving-full-art-spread-v1.pdf',
     ...chapter015,
     source: 'https://bitcoin.org/en/halving', number: '015/100',
+  },
+  {
+    slug: 'silk-road-shutdown', title: 'SILK ROAD SHUTDOWN', rarity: 'RARE',
+    date: '01 OCT 2013', subject: 'BITCOIN', phrase: 'DREAD PIRATE ROBERTS.',
+    image: 'cards/crypto/season-01/silk-road-shutdown-master-016/LORE-Silk-Road-Shutdown-Rare-016-Print-v1.png',
+    artwork: 'cards/crypto/season-01/silk-road-shutdown-master-016/art.png',
+    book: 'book/crypto-season-01/proofs/016-silk-road-shutdown-full-art-spread-v1.pdf',
+    ...chapter016,
+    source: 'https://www.fbi.gov/history/artifacts/ross-william-ulbrichts-laptop', number: '016/100',
   },
 ];
 

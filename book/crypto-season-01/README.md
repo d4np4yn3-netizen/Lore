@@ -40,3 +40,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 013 Casascius Coins
 
 [Approved chapter](013-casascius-coins.md) · [Two-page spread](proofs/013-casascius-coins-full-art-spread-v1.pdf). Common 013/100; card, copy and layout approved for GitHub and site on 29 September 2026. Run `sync_013.py --check` to verify site copy.
+
+## 016 Silk Road Shutdown
+
+[Approved chapter](016-silk-road-shutdown.md) · [Two-page spread](proofs/016-silk-road-shutdown-full-art-spread-v1.pdf). Rare 016/100; card, copy and layout approved for GitHub and site on 29 September 2026. Run `sync_016.py --check` to verify site copy.
