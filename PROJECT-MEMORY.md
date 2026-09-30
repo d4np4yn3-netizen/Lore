@@ -1,6 +1,6 @@
-# 018 Four Figures approved for publication - 30 September 2026
+# 018 Four Figures published and verified - 30 September 2026
 
-Dan approved the Common 018/100 card and both book pages for GitHub and site. Exact v1 art SHA-256 abf7eb6f9073cd6ab7a93a3e203a86b4c44129da87075164e7ccc1de2d746198; kitchen scene, returning WAVES cup and two empty digit boxes preserved. Canonical four-figures-master-018. HOW DO I GET BITCOIN?; 27 NOV 2013. Live QR /crypto/018/ redirects to /cards/four-figures. 27 approved unique designs; 18 numbered site cards. Physical print and book reproduction release false. Publication verification pending.
+Dan approved the Common 018/100 card and both book pages for GitHub and site. Exact v1 art SHA-256 abf7eb6f9073cd6ab7a93a3e203a86b4c44129da87075164e7ccc1de2d746198; kitchen scene, returning WAVES cup and two empty digit boxes preserved. Canonical four-figures-master-018. HOW DO I GET BITCOIN?; 27 NOV 2013. Live QR /crypto/018/ redirects to /cards/four-figures. 27 approved unique designs; 18 numbered site cards. Physical print and book reproduction release false. All 23 publication files and the full tree match GitHub commit `c678d4217aabe94f180f8ff4f8febb8da4467bf7`. Production deployment `dpl_4vdc4u39Wkju8ip2FZ6B2AGtjZL8` is READY. The exported PNG QR decodes to `/crypto/018/`, redirects to `/cards/four-figures` and returns HTTP 200. Homepage entry, all four story paragraphs, five details and artwork/book links verified. Downloaded art, PNG, SVG and PDF SHA-256 match the approved files. Both PDF pages visually checked; site build and chapter mirror check passed.
 
 # 017 Cash Out published and verified - 30 September 2026
 
