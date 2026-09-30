@@ -25,3 +25,6 @@ Art paths above are relative to cards/crypto/season-01/. Crossovers are intentio
 - **005 → 014:** The cream Bitcoin whitepaper hero page from the approved 005 artwork lies on Charlie Lee's lower-right lab bench in `litecoin-launches-master-014/art.png`. Its heading peeks above the card QR and the full sheet appears on book page one. Approved as a symbolic collection callback on 29 September 2026, not as a documented physical prop from Litecoin's launch.
 
 - **017 Cash Out:** The takeaway coffee cup with black lid, tan WAVES sleeve and maple-leaf motif in `cash-out-master-017/art.png` is available for future recurring appearances. Dan requested this on 30 September 2026. No receiving card is assigned; no extra object was added to the already busy 017 scene.
+
+- **017 -> 018 Four Figures:** The white WAVES takeaway cup, black lid, tan sleeve and maple leaf from `cash-out-master-017/art.png` reappear beside the monitor in `four-figures-master-018/art.png`. Approved 30 September 2026 as a symbolic collection callback.
+- **018 -> future 095 Six Figures:** The paper shows four filled digit boxes (1000) plus two empty boxes. Approved 30 September 2026 as a forward-reference puzzle, not a six-digit price in 2013 or a claim that 095 artwork is already designed.
