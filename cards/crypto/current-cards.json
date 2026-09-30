@@ -2,7 +2,7 @@
   "updated": "2026-09-29",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 25,
+  "approved_visual_count": 26,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -2355,6 +2355,91 @@
         "front": "cards/crypto/season-01/silk-road-shutdown-master-016/LORE-Silk-Road-Shutdown-Rare-016-Print-v1.png",
         "editable_svg": "cards/crypto/season-01/silk-road-shutdown-master-016/LORE-Silk-Road-Shutdown-Rare-016-Print-v1.svg",
         "manifest": "cards/crypto/season-01/silk-road-shutdown-master-016/print-v1-manifest.json",
+        "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+        "physical_qr_scan_test": false
+      }
+    },
+    {
+      "rarity": "common",
+      "creator": "BITCOIN",
+      "title_line_1": "CASH",
+      "title_line_2": "OUT",
+      "context": "TAP BUY OR SELL.",
+      "moment_label": "29 OCT 2013",
+      "set_label": "CRYPTO • SEASON 01 • 017/100",
+      "artwork": "cards/crypto/season-01/cash-out-master-017/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/017/",
+      "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+      "print_release": false,
+      "review_only": false,
+      "phrase_status": "APPROVED_CONTINUOUS_EXCERPT_FROM_LAUNCH_INTERVIEW",
+      "phrase_source": "https://www.coindesk.com/markets/2013/10/30/robocoin-launches-bitcoin-atm-in-vancouver",
+      "confirmed_lore_owned_route": true,
+      "id": "crypto-s01-cash-out",
+      "collection": "crypto",
+      "season": 1,
+      "moment_number": 17,
+      "set_size": 100,
+      "event_date": "2013-10-29",
+      "rarity_status": "APPROVED_COMMON",
+      "status": "APPROVED_FOR_PUBLICATION",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-30",
+      "approval_quote": "Okay, this is approved. Let’s get it uploaded to the site and, yeah, approved on GitHub, write QR code, etc.",
+      "publication_approved": true,
+      "qr_mode": "live",
+      "front": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.svg",
+      "book_chapter": "book/crypto-season-01/017-cash-out.md",
+      "book_spread": "book/crypto-season-01/proofs/017-cash-out-full-art-spread-v1.pdf",
+      "source_notes": "cards/crypto/season-01/cash-out-master-017/source-notes.md",
+      "approval_record": "cards/crypto/season-01/cash-out-master-017/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/cash-out-master-017/art.png",
+        "bytes": 2221366,
+        "sha256": "bd7201e50414b4b6d89b727991a15719aa326aca52f9f0af556ca7e508755e8b"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.png",
+          "bytes": 871297,
+          "sha256": "32965bb6bdfebccc9002c2517cba4dffa75aac8be8ee42711a1b34ca7fc0a1aa"
+        },
+        {
+          "path": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.svg",
+          "bytes": 2997563,
+          "sha256": "ae3bfbb4dad5dda9c5ade8eb3d86ac257b92254bc1f6d252bc2c11e935db1146"
+        }
+      ],
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "print_release": false,
+        "front": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/cash-out-master-017/print-v1-manifest.json",
         "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
         "physical_qr_scan_test": false
       }

@@ -14,6 +14,7 @@ import chapter013 from './content/013.json';
 import chapter014 from './content/014.json';
 import chapter015 from './content/015.json';
 import chapter016 from './content/016.json';
+import chapter017 from './content/017.json';
 
 export const cards = [
   {
@@ -213,6 +214,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/016-silk-road-shutdown-full-art-spread-v1.pdf',
     ...chapter016,
     source: 'https://www.fbi.gov/history/artifacts/ross-william-ulbrichts-laptop', number: '016/100',
+  },
+  {
+    slug: 'cash-out', title: 'CASH OUT', rarity: 'COMMON',
+    date: '29 OCT 2013', subject: 'BITCOIN', phrase: 'TAP BUY OR SELL.',
+    image: 'cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.png',
+    artwork: 'cards/crypto/season-01/cash-out-master-017/art.png',
+    book: 'book/crypto-season-01/proofs/017-cash-out-full-art-spread-v1.pdf',
+    ...chapter017,
+    source: 'https://www.coindesk.com/markets/2013/10/30/robocoin-launches-bitcoin-atm-in-vancouver', number: '017/100',
   },
 ];
 

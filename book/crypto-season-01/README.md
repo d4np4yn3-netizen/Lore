@@ -44,3 +44,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 016 Silk Road Shutdown
 
 [Approved chapter](016-silk-road-shutdown.md) · [Two-page spread](proofs/016-silk-road-shutdown-full-art-spread-v1.pdf). Rare 016/100; card, copy and layout approved for GitHub and site on 29 September 2026. Run `sync_016.py --check` to verify site copy.
+
+## 017 Cash Out
+
+[Approved chapter](017-cash-out.md) · [Two-page spread](proofs/017-cash-out-full-art-spread-v1.pdf). Common 017/100; card, copy and layout approved for GitHub and site on 30 September 2026. Run `sync_017.py --check` to verify site copy.

@@ -1,3 +1,7 @@
+# 017 Cash Out approved for publication - 30 September 2026
+
+Dan approved the Common 017/100 card and both book pages for GitHub and site. Exact v1 art SHA-256 bd7201e50414b4b6d89b727991a15719aa326aca52f9f0af556ca7e508755e8b; no new objects. Canonical cash-out-master-017. TAP BUY OR SELL.; 29 OCT 2013. Live QR /crypto/017/ redirects to /cards/cash-out. WAVES cup available for future callbacks. 26 approved unique designs; 17 numbered site cards. Physical print and book reproduction release false. Publication verification pending.
+
 # LORE project memory
 
 ## 016 Silk Road Shutdown — published and verified, 29 September 2026
