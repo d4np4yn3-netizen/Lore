@@ -1,3 +1,7 @@
+# Publication approval - 30 September 2026
+
+Dan approved the exact v1 Common card, TAP BUY OR SELL. phrase and two book pages for GitHub and the website. See approval.json. The notes below preserve the earlier review and generation history; their pending-review statuses are historical and superseded by this approval. Artwork is unchanged.
+
 # 017 — Cash Out: artwork review v1
 
 ## Card and book review — 30 September 2026

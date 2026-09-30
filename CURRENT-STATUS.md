@@ -1,6 +1,6 @@
-# 017 Cash Out approved for publication - 30 September 2026
+# 017 Cash Out published and verified - 30 September 2026
 
-Dan approved the Common 017/100 card and both book pages for GitHub and site. Exact v1 art SHA-256 bd7201e50414b4b6d89b727991a15719aa326aca52f9f0af556ca7e508755e8b; no new objects. Canonical cash-out-master-017. TAP BUY OR SELL.; 29 OCT 2013. Live QR /crypto/017/ redirects to /cards/cash-out. WAVES cup available for future callbacks. 26 approved unique designs; 17 numbered site cards. Physical print and book reproduction release false. Publication verification pending.
+Dan approved the Common 017/100 card and both book pages for GitHub and site. Exact v1 art SHA-256 bd7201e50414b4b6d89b727991a15719aa326aca52f9f0af556ca7e508755e8b; no new objects. Canonical cash-out-master-017. TAP BUY OR SELL.; 29 OCT 2013. Live QR /crypto/017/ redirects to /cards/cash-out. WAVES cup available for future callbacks. 26 approved unique designs; 17 numbered site cards. Physical print and book reproduction release false. All 21 publication files and the full tree match GitHub commit `94aa9c7cf7e00566535f4fe8652639b55d3ab097`. Production deployment `dpl_HQ1sghq8QQ54gvwZFLukx2R3aTew` is READY. The exported PNG QR decodes to `/crypto/017/`, redirects to `/cards/cash-out` and returns HTTP 200. Homepage entry, all four story paragraphs, five details and artwork/book links verified. Downloaded art, PNG, SVG and PDF SHA-256 match the approved files. Both PDF pages visually checked; site build and chapter mirror check passed.
 
 # LORE — current status
 

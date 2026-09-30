@@ -23,3 +23,5 @@ Art paths above are relative to cards/crypto/season-01/. Crossovers are intentio
 - **013 Casascius Coins:** no new cross-card object added. Additional Easter eggs deferred to the collection-wide final review. Coin, seal and home scene are explained in the approved chapter.
 
 - **005 → 014:** The cream Bitcoin whitepaper hero page from the approved 005 artwork lies on Charlie Lee's lower-right lab bench in `litecoin-launches-master-014/art.png`. Its heading peeks above the card QR and the full sheet appears on book page one. Approved as a symbolic collection callback on 29 September 2026, not as a documented physical prop from Litecoin's launch.
+
+- **017 Cash Out:** The takeaway coffee cup with black lid, tan WAVES sleeve and maple-leaf motif in `cash-out-master-017/art.png` is available for future recurring appearances. Dan requested this on 30 September 2026. No receiving card is assigned; no extra object was added to the already busy 017 scene.
