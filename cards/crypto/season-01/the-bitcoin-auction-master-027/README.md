@@ -1,0 +1,9 @@
+# 027 - THE BITCOIN AUCTION
+
+Common · BITCOIN · 27 JUN 2014 · FROM SEIZURE TO SALE.
+
+Dan approved the tightened card and authorised GitHub/site publication and book creation on 1 October 2026. Exact selected illustration bytes are preserved in art.png; the new front differs from the approved proof only in the QR square and removal of its outside-trim draft label.
+
+QR: https://lore-site-v1.vercel.app/crypto/027/ redirects to /cards/the-bitcoin-auction. 816 × 1110 px at 300 DPI, exact LORE-CRYPTO-PRINT-v1.0 geometry; matching editable SVG and physical-size front PDF with full BleedBox and centred TrimBox. Print actual size, 100%. Physical sample and scan remain unperformed, print_release false.
+
+[Two-page book spread](../../../../book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf). Book prose is sourced editorial writing; art props are qualified as symbolic where appropriate. The caption is approved editorial copy, not a historical quotation. Book reproduction/rights/colour approval remain separate.

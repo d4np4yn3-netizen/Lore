@@ -1,0 +1,34 @@
+{
+  "selected_art_sha256": "70023926bec7e14197ec87c832e0ff84b857c099ad6bbe06ecc65722dfa81faf",
+  "approval": "approval.json",
+  "approved_review_iteration": 2,
+  "review_artwork_sha256": "70023926bec7e14197ec87c832e0ff84b857c099ad6bbe06ecc65722dfa81faf",
+  "generated_art_unchanged_during_publication": true,
+  "artwork_clues": [
+    {
+      "detail": "850,000 BTC REPORTED MISSING newspaper",
+      "kind": "historical reference, fictional newspaper prop",
+      "meaning": "Initial 2014 report, not the final loss total; approximately 200,000 BTC were later located",
+      "visibility": "Raised and readable in full card"
+    },
+    {
+      "detail": "Chains, padlock and WITHDRAWAL PENDING display",
+      "kind": "symbolic setting",
+      "meaning": "Loss of access to exchange funds",
+      "visibility": "Clear"
+    },
+    {
+      "detail": "White paper plane beside the chains",
+      "kind": "intentional collection callback",
+      "meaning": "The First Transfer, card 007",
+      "visibility": "Plane silhouette is visible; tiny intended 10 BTC lettering is not reliably readable at small card size"
+    },
+    {
+      "detail": "2024 envelope on right wall",
+      "kind": "deliberate future callback, fictional prop",
+      "meaning": "Later Mt. Gox repayments; not an object documented at the 2014 scene",
+      "visibility": "2024 readable in full card"
+    }
+  ],
+  "style_reference_lock": "cards/crypto/style-reference-lock.json"
+}

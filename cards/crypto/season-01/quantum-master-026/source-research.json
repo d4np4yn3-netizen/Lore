@@ -1,0 +1,96 @@
+{
+  "id": "026",
+  "title": "Quantum",
+  "date": "2014-05-03",
+  "creator": "Digital Art",
+  "rarity": "common",
+  "phrase": "ART MEETS THE CHAIN.",
+  "phrase_status": "USER_APPROVED_EDITORIAL_CAPTION_NOT_VERBATIM_QUOTE",
+  "deck": "A small experiment asked whether a digital artwork could carry a public record of its own.",
+  "story": [
+    "Purple geometry seems to lift away from the monitor and gather above the artist’s hand. The desk is crowded with papers and studies; a lamp adds a small pool of amber to the screen’s colder light. LORE turns an abstract experiment into a visible encounter between image and record. The forms are newly invented for this illustration, rather than a reproduction of Quantum itself.",
+    "In May 2014, artist Kevin McCoy and technologist Anil Dash worked together for Rhizome’s Seven on Seven at the New Museum in New York. McCoy registered his animated artwork Quantum on the Namecoin blockchain. Sotheby’s later catalogue records the original registration as 3 May, the date carried by this card. Their experiment helped develop Monegraph, an early attempt to establish provenance for digital art through a public ledger.",
+    "The problem began with something the internet did very well: copying. An image could circulate widely while the record of its maker and ownership became harder to follow. McCoy and Dash explored attaching a verifiable record to a work without requiring the image itself to disappear behind a locked door. The experiment concerned a claim and its history; it did not make the digital file impossible to duplicate.",
+    "Quantum became a landmark in the early history of blockchain art, often discussed as an ancestor of the later NFT market. LORE holds the scene close to the desk, where the idea is still being worked out. The pinned studies suggest an animation taking shape, while the small Namecoin slip gives the experiment its technical anchor. Beyond them, the light leaves room for all the arguments and possibilities that would follow."
+  ],
+  "details": [
+    {
+      "title": "The Namecoin slip",
+      "text": "The slip beneath the lamp names the blockchain used for the early registration. It is an invented studio prop, not a surviving receipt or a later Ethereum interface."
+    },
+    {
+      "title": "Studies 01, 02 and 03",
+      "text": "The numbered geometric studies suggest successive animation frames. They are original illustrative designs, not claimed preparatory drawings by McCoy or reproductions of the animated Quantum artwork."
+    },
+    {
+      "title": "A grid from a later chapter",
+      "text": "The colourful catalogue grid foreshadows 064, Everydays at Auction. It is a deliberately anachronistic thematic clue, not a documented studio object or a copy of future card artwork."
+    },
+    {
+      "title": "The small paper plane",
+      "text": "The Bitcoin plane above the monitor returns from 007, The First Transfer. It links the movement of value to this new experiment in digital provenance; it is not a Whitepaper callback."
+    }
+  ],
+  "source_art_note": "[Sotheby’s catalogue](https://www.sothebys.com/en/buy/auction/2021/natively-digital-a-curated-nft-sale-2/quantum) supplies the card’s 3 May date; [Anil Dash’s contemporary account](https://medium.com/message/a-bitcoin-for-digital-art-8c7db719e495) describes work on the evening of 2 May. [Rhizome’s account](https://seed.trlab.com/article/the-first-nft) documents Quantum and Monegraph. These accounts use different date references; no exact local time is claimed. The studio, figure and floating geometry are interpretive. ART MEETS THE CHAIN is editorial copy. Quantum is treated as an early landmark, without claiming an uncontested first NFT or automatic legal ownership.",
+  "sources": [
+    {
+      "title": "Sotheby’s — Quantum catalogue entry",
+      "url": "https://www.sothebys.com/en/buy/auction/2021/natively-digital-a-curated-nft-sale-2/quantum",
+      "type": "AUCTION_PRIMARY",
+      "supports": "McCoy, Namecoin, original mint recorded3May2014; distinct2021token"
+    },
+    {
+      "title": "Anil Dash — A Bitcoin for Digital Art,9May2014",
+      "url": "https://medium.com/message/a-bitcoin-for-digital-art-8c7db719e495",
+      "type": "PARTICIPANT_PRIMARY",
+      "supports": "Seven on Seven/NewMuseum; McCoy/Dash; Monegraph and provenance; local-evening2May account"
+    },
+    {
+      "title": "Rhizome x TRLab — Quantum",
+      "url": "https://seed.trlab.com/article/the-first-nft",
+      "type": "ORGANISER_PRIMARY_RETROSPECTIVE",
+      "supports": "Animated work; Namecoin/Monegraph; context and early blockchain art role"
+    },
+    {
+      "title": "Namecoin.pro — Quantum Case timestamp analysis",
+      "url": "https://namecoin.pro/SitePages/March%2022,%202023.aspx",
+      "type": "INDEPENDENT_TECHNICAL_COMMENTARY_NOT_USED_FOR_LOCAL_TIME_CLAIM",
+      "supports": "Reports3May2014at01:27:34UTC; not independently node-verified and not used to assert exact reconciliation"
+    }
+  ],
+  "factual_qualifications": [
+    "Approved card date remains3May2014as recorded by Sotheby’s; story uses May2014for event narrative and explicitly attributes catalogue date.",
+    "Dash’s firsthand May2evening account and catalogue May3may involve date/timezone references. Do not assert UTC reconciliation without verified original blockchain timestamp.",
+    "No uncontested-first-NFT claim; avoid retrospective ERC721/Ethereum interface at2014launch.",
+    "Artwork in card is newly invented symbolic geometry; not a licensed reproduction of completeQuantum or authenticated portrait/studio.",
+    "Crypto registration is evidence/provenance claim, not automatic guarantee of all legal rights. Paper plane references007,not005."
+  ],
+  "final_clue_metadata": [
+    {
+      "detail": "NAMECOIN slip beneath lamp",
+      "kind": "historical reference, fictional prop",
+      "meaning": "Chain used for Quantum registration",
+      "visibility": "Readable and clear of rarity/date overlays"
+    },
+    {
+      "detail": "01/02/03 geometric studies",
+      "kind": "original symbolic studies",
+      "meaning": "Suggest animation frames; these are not reproduced originals of Kevin McCoy artwork",
+      "visibility": "All three number labels clear of header overlays"
+    },
+    {
+      "detail": "Colorful grid catalogue on shelf",
+      "kind": "thematic future callback",
+      "meaning": "Original thematic foreshadowing of draft card 064 Everydays at Auction. Intentionally anachronistic, not a documented 2014 prop; no approved future artwork was copied or supplied.",
+      "visibility": "Visible between geometry and artist"
+    },
+    {
+      "detail": "Small Bitcoin paper plane above monitor",
+      "kind": "intentional collection callback",
+      "meaning": "007 — The First Transfer (not 005 The Whitepaper)",
+      "visibility": "Plane visible above monitor, clear of overlays",
+      "reference_image": "/workspace/scratch/58d5f7ed8606/lore-references/props/paper-plane-source.png",
+      "reference_art_sha256": "7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c"
+    }
+  ]
+}

@@ -64,3 +64,29 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 021 Birth of HODL
 
 [Chapter](021-birth-of-hodl.md) · [Two-page spread](proofs/021-birth-of-hodl-full-art-spread-v1.pdf). Epic 021/100; creation and publication authorised 1 October 2026. Exact approved HODL artwork retained. Run `sync_021.py --check` to verify site copy.
+
+## 023 Doge Goes to Sochi
+
+[Chapter](023-doge-goes-to-sochi.md) · [Two-page spread](proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf). Common 023/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. Exact approved luggage-sticker revision retained. Run `sync_023.py --check` to verify site copy.
+
+## 024 Mt. Gox
+
+[Chapter](024-mt-gox.md) · [Two-page spread](proofs/024-mt-gox-full-art-spread-v1.pdf). Epic 024/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The chapter distinguishes the initial 850,000 BTC report from the later wallet discovery. Run `sync_024.py --check` to verify site copy.
+
+## 025 Monero Launches
+
+[Chapter](025-monero-launches.md) · [Two-page spread](proofs/025-monero-launches-full-art-spread-v1.pdf). Rare 025/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. Exact approved third-revision artwork retained; no footprint clue is claimed. Run `sync_025.py --check` to verify site copy.
+
+## 026 Quantum
+
+[Chapter](026-quantum.md) · [Two-page spread](proofs/026-quantum-full-art-spread-v1.pdf). Common 026/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The book identifies original geometric studies and deliberate future callbacks without presenting them as historical props or reproductions of other artists' works. Run `sync_026.py --check` to verify site copy.
+
+## 027 The Bitcoin Auction
+
+[Chapter](027-the-bitcoin-auction.md) · [Two-page spread](proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf). Common 027/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The book distinguishes the sealed-bid process from the symbolic gavel and room. Run `sync_027.py --check` to verify site copy.
+
+## Cards 023 to 027 review set
+
+The five individual two-page PDFs linked above present full-art/story pairs in collector order, following the established 019–021 A4 layout. All five approved source illustrations are 1060×1484 pixels, roughly 127 DPI at full A4. These are editorial review proofs, not a physical print release: final trim, bleed, binding, source resolution, colour reproduction, rights and printer specifications remain to be confirmed. The canonical chapter Markdown drives each matching website JSON; the four artwork clues distinguish documented facts from fictional settings, symbolism and intentionally anachronistic collection callbacks.
+
+The optional combined ten-page PDF is delivered through Library, not stored in this repository. Rebuild a local combined review set with `python build_023_027_review.py` after synchronising any edited chapters. [Book QA record](proofs/023-027-book-qa-v1.json) records page counts, approved artwork hashes, unchanged embedded pixels and visual checks.

@@ -1,0 +1,36 @@
+{
+  "selected_art_sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427",
+  "approval": "approval.json",
+  "approved_review_iteration": 2,
+  "review_artwork_sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427",
+  "generated_art_unchanged_during_publication": true,
+  "artwork_clues": [
+    {
+      "detail": "NAMECOIN slip beneath lamp",
+      "kind": "historical reference, fictional prop",
+      "meaning": "Chain used for Quantum registration",
+      "visibility": "Readable and clear of rarity/date overlays"
+    },
+    {
+      "detail": "01/02/03 geometric studies",
+      "kind": "original symbolic studies",
+      "meaning": "Suggest animation frames; these are not reproduced originals of Kevin McCoy artwork",
+      "visibility": "All three number labels clear of header overlays"
+    },
+    {
+      "detail": "Colorful grid catalogue on shelf",
+      "kind": "thematic future callback",
+      "meaning": "Original thematic foreshadowing of draft card 064 Everydays at Auction. Intentionally anachronistic, not a documented 2014 prop; no approved future artwork was copied or supplied.",
+      "visibility": "Visible between geometry and artist"
+    },
+    {
+      "detail": "Small Bitcoin paper plane above monitor",
+      "kind": "intentional collection callback",
+      "meaning": "007 \u2014 The First Transfer (not 005 The Whitepaper)",
+      "visibility": "Plane visible above monitor, clear of overlays",
+      "reference_image": "/workspace/scratch/58d5f7ed8606/lore-references/props/paper-plane-source.png",
+      "reference_art_sha256": "7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c"
+    }
+  ],
+  "style_reference_lock": "cards/crypto/style-reference-lock.json"
+}

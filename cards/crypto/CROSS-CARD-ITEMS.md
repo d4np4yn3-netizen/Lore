@@ -31,3 +31,7 @@ Art paths above are relative to cards/crypto/season-01/. Crossovers are intentio
 
 - **019 -> future Ethereum ecosystem:** The paper cat (CryptoKitties), unicorn (Uniswap) and ghost (Aave) were requested by Dan on 1 October 2026. They foreshadow later applications; none is claimed to exist in the 2013 writing scene. These are symbolic app references, not copied props from as-yet-undesigned future cards.
 - **019 -> 032 Ethereum Goes Live:** The distant unfinished doorway is a symbolic Frontier reference; no matching future-card doorway design is claimed.
+
+- **020 MUCH WOW → 023 DOGE GOES TO SOCHI:** Recognisable Shiba sticker on the raised right-hand luggage case. The SOCHI 2014 tag and sticker were raised above the final card footer before Dan approved the tightened batch on 1 October 2026; symbolic collection callback, not a historical luggage claim.
+- **001 BLIND SIGNATURES → 025 MONERO LAUNCHES:** The cream Blind Signatures / 1982 envelope with circular stamp is tucked into the vendor stall. It is an intentional collection callback, not a launch-day prop claim. The small awning spiral is a future thematic reference to Tornado Cash privacy debates, not an organisational connection.
+- **016 SILK ROAD SHUTDOWN → 027 THE BITCOIN AUCTION:** The navy THE PRINCESS BRIDE book and cream/red GLEN PARK library slip reuse visible objects from016. They are collection callbacks, not objects claimed to be at the auction. The red evidence cord and blank tag on the locked box symbolise seizure-to-disposal; no silk-trail motif is claimed.

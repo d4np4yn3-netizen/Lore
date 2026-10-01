@@ -1,5 +1,7 @@
 # LORE Crypto Season One site
 
-This site publishes approved cards one at a time. The collection contains 001 Blind Signatures through 006 Genesis Block. Their stable QR destinations are `/crypto/001/` through `/crypto/006/`, each redirecting to its detail page. The stories, clues and source notes mirror approved book chapters in `app/cards/content/001.json` through `006.json`; run the corresponding `book/crypto-season-01/sync_*.py --check` before deployment.
+Published collection: 001–021 and 023–027. Card 022 is deliberately absent pending its own publication; existing card numbers are unchanged. Stable /crypto/NNN/ QR routes redirect to /cards/{slug}. Each story, four art clues and source/art note mirrors the numbered Markdown chapter in book/crypto-season-01 through its sync_NNN.py script; run with --check before deployment. Exact approved artwork, printer fronts and full-art two-page editorial PDFs are linked from each card.
 
-Keep the printed QR destination stable when a custom domain is added, and verify the live destination before preparing each print-ready card. Card artwork and the season register elsewhere in the repository are preserved independently of the published collection.
+Keep stable printed QR routes when changing domains. Visual approval, source checks, live QR verification, physical print and book reproduction/rights approvals remain separate.
+
+Build: cd site && npm install && npm run build. The project currently exposes build only, with no lint/test scripts.

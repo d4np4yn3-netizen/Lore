@@ -1,0 +1,91 @@
+{
+  "format": "A4 editorial review; physical reproduction pending",
+  "combined": "book/crypto-season-01/proofs/023-027-full-art-spreads-review-v1.pdf",
+  "combined_pages": 10,
+  "spreads": [
+    {
+      "number": "023",
+      "pdf": "book/crypto-season-01/proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf",
+      "pages": 2,
+      "art_sha256": "f0c2bf55148d7d101233754cb408205e796cab35f9476a15c3b767354bf240be",
+      "art_px": [
+        1060,
+        1484
+      ],
+      "art_pixels_unchanged": true,
+      "canonical_metadata_present": true,
+      "page_bounds_pass": true,
+      "pdf_sha256": "7f3df401ba1b12cbd5ba0054f7448f1065a66ad65bedf7a5a7914e09d8a04584",
+      "effective_a4_dpi": 127
+    },
+    {
+      "number": "024",
+      "pdf": "book/crypto-season-01/proofs/024-mt-gox-full-art-spread-v1.pdf",
+      "pages": 2,
+      "art_sha256": "70023926bec7e14197ec87c832e0ff84b857c099ad6bbe06ecc65722dfa81faf",
+      "art_px": [
+        1060,
+        1484
+      ],
+      "art_pixels_unchanged": true,
+      "canonical_metadata_present": true,
+      "page_bounds_pass": true,
+      "pdf_sha256": "8ab8dffc6c66a6c4194cd87b246efcc086c7afc1bee287cf56a5d02113438277",
+      "effective_a4_dpi": 127
+    },
+    {
+      "number": "025",
+      "pdf": "book/crypto-season-01/proofs/025-monero-launches-full-art-spread-v1.pdf",
+      "pages": 2,
+      "art_sha256": "c81f9ea101bf458b44bfe9c7db9b0acf8a6e59c896ef4c43aa23810fc8822d82",
+      "art_px": [
+        1060,
+        1484
+      ],
+      "art_pixels_unchanged": true,
+      "canonical_metadata_present": true,
+      "page_bounds_pass": true,
+      "pdf_sha256": "a7a948ffac351f6e6c77b6aca747107383b240939510d5538f20e400a15970df",
+      "effective_a4_dpi": 127
+    },
+    {
+      "number": "026",
+      "pdf": "book/crypto-season-01/proofs/026-quantum-full-art-spread-v1.pdf",
+      "pages": 2,
+      "art_sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427",
+      "art_px": [
+        1060,
+        1484
+      ],
+      "art_pixels_unchanged": true,
+      "canonical_metadata_present": true,
+      "page_bounds_pass": true,
+      "pdf_sha256": "53d7a58a7000738f6fde625cf86f9563319b69df855595de863c80d394c3ca49",
+      "effective_a4_dpi": 127
+    },
+    {
+      "number": "027",
+      "pdf": "book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf",
+      "pages": 2,
+      "art_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
+      "art_px": [
+        1060,
+        1484
+      ],
+      "art_pixels_unchanged": true,
+      "canonical_metadata_present": true,
+      "page_bounds_pass": true,
+      "pdf_sha256": "78e9019589c97b5cb9e88d427a77566d0bc29fc3935f3e84aa7c77217ce5876a",
+      "effective_a4_dpi": 127
+    }
+  ],
+  "qa_date": "2026-10-01",
+  "status": "EDITORIAL_REVIEW_PROOF",
+  "layout_reference": "book/crypto-season-01/build_021_spread.py",
+  "visual_inspection": "All ten final rendered pages checked: no clipping, overlap, missing glyphs or overflow",
+  "print_release": false,
+  "physical_production_note": "A4 editorial layout, approximately127DPI effective source resolution; trim, bleed, binding, source resolution, colour reproduction, rights and printer specifications remain to be confirmed",
+  "website_copy_sync": "All five sync_023.py through sync_027.py --check passed",
+  "combined_pdf_sha256": "62445449719c33df1f5803e9c4df29f2ce542cfb3c37e30be51466e355dd943a",
+  "combined_publication": "Optional local/Library compilation; not included in GitHub. Five individual two-page PDFs are published."
+}

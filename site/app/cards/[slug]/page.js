@@ -41,7 +41,7 @@ export default async function CardPage({ params }) {
         <div className={'rarity ' + card.rarity.toLowerCase()}>{card.rarity} · CRYPTO SEASON ONE {card.number && '· ' + card.number}</div>
         <h1>{card.title}</h1>
         <div className="date">{card.date} · {card.subject}</div>
-        <blockquote>“{card.phrase}”</blockquote>
+        <blockquote>{card.phraseKind === 'editorial' ? card.phrase : `“${card.phrase}”`}</blockquote>
         {card.story.map((paragraph, i) => <p key={i}>{editorial(paragraph)}</p>)}
         {(card.artwork || card.book) && <p>
           {card.artwork && <a href={GH + card.artwork} target="_blank" rel="noopener noreferrer">VIEW FULL ARTWORK ↗</a>}

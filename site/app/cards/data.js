@@ -19,6 +19,11 @@ import chapter018 from './content/018.json';
 import chapter019 from './content/019.json';
 import chapter020 from './content/020.json';
 import chapter021 from './content/021.json';
+import chapter023 from './content/023.json';
+import chapter024 from './content/024.json';
+import chapter025 from './content/025.json';
+import chapter026 from './content/026.json';
+import chapter027 from './content/027.json';
 
 export const cards = [
   {
@@ -263,6 +268,76 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/021-birth-of-hodl-full-art-spread-v1.pdf',
     ...chapter021,
     source: 'https://bitcointalk.org/index.php?topic=375643.0', number: '021/100',
+  },
+  {
+    slug: "doge-goes-to-sochi",
+    title: "DOGE GOES TO SOCHI",
+    rarity: "COMMON",
+    date: "20 JAN 2014",
+    subject: "DOGECOIN",
+    phrase: "TOGETHER TO SOCHI.",
+    phraseKind: "editorial",
+    image: "cards/crypto/season-01/doge-goes-to-sochi-master-023/LORE-Crypto-023-Doge-Goes-To-Sochi-Common-Print-v1.png",
+    artwork: "cards/crypto/season-01/doge-goes-to-sochi-master-023/art.png",
+    book: "book/crypto-season-01/proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf",
+    number: "023/100",
+    ...chapter023,
+  },
+  {
+    slug: "mt-gox",
+    title: "MT. GOX",
+    rarity: "EPIC",
+    date: "28 FEB 2014",
+    subject: "BITCOIN",
+    phrase: "WITHDRAWALS SUSPENDED.",
+    phraseKind: "editorial",
+    image: "cards/crypto/season-01/mt-gox-master-024/LORE-Crypto-024-Mt-Gox-Epic-Print-v1.png",
+    artwork: "cards/crypto/season-01/mt-gox-master-024/art.png",
+    book: "book/crypto-season-01/proofs/024-mt-gox-full-art-spread-v1.pdf",
+    number: "024/100",
+    ...chapter024,
+  },
+  {
+    slug: "monero-launches",
+    title: "MONERO LAUNCHES",
+    rarity: "RARE",
+    date: "18 APR 2014",
+    subject: "MONERO",
+    phrase: "PRIVACY FOR ALL.",
+    phraseKind: "editorial",
+    image: "cards/crypto/season-01/monero-launches-master-025/LORE-Crypto-025-Monero-Launches-Rare-Print-v1.png",
+    artwork: "cards/crypto/season-01/monero-launches-master-025/art.png",
+    book: "book/crypto-season-01/proofs/025-monero-launches-full-art-spread-v1.pdf",
+    number: "025/100",
+    ...chapter025,
+  },
+  {
+    slug: "quantum",
+    title: "QUANTUM",
+    rarity: "COMMON",
+    date: "03 MAY 2014",
+    subject: "DIGITAL ART",
+    phrase: "ART MEETS THE CHAIN.",
+    phraseKind: "editorial",
+    image: "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.png",
+    artwork: "cards/crypto/season-01/quantum-master-026/art.png",
+    book: "book/crypto-season-01/proofs/026-quantum-full-art-spread-v1.pdf",
+    number: "026/100",
+    ...chapter026,
+  },
+  {
+    slug: "the-bitcoin-auction",
+    title: "THE BITCOIN AUCTION",
+    rarity: "COMMON",
+    date: "27 JUN 2014",
+    subject: "BITCOIN",
+    phrase: "FROM SEIZURE TO SALE.",
+    phraseKind: "editorial",
+    image: "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.png",
+    artwork: "cards/crypto/season-01/the-bitcoin-auction-master-027/art.png",
+    book: "book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf",
+    number: "027/100",
+    ...chapter027,
   },
 ];
 
