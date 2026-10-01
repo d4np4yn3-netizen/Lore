@@ -21,7 +21,7 @@
     "sha256": "674d6ec6c753dfb2a794a0d591b3b9a1e48ed37dcd511847fd8bf092af2b3aef"
   },
   "qr_url": "https://lore-site-v1.vercel.app/crypto/019/",
-  "qr_status": "PRODUCTION_ROUTE_CONFIGURED_VERIFICATION_PENDING",
+  "qr_status": "LIVE_PUBLIC_ROUTE_VERIFIED",
   "qr_decoded_from_exported_png": "https://lore-site-v1.vercel.app/crypto/019/",
   "artwork_sha256_matches_selected_v3": true,
   "svg_embedded_art_matches_selected_v3": true,
@@ -45,5 +45,8 @@
     684,
     981
   ],
-  "physical_qr_scan_test": false
+  "physical_qr_scan_test": false,
+  "publication_verification": "cards/crypto/season-01/ethereum-whitepaper-master-019/publication-verification.json",
+  "qr_live_http_status": 200,
+  "qr_final_url": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper"
 }
