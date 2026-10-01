@@ -18,6 +18,7 @@ import chapter017 from './content/017.json';
 import chapter018 from './content/018.json';
 import chapter019 from './content/019.json';
 import chapter020 from './content/020.json';
+import chapter021 from './content/021.json';
 
 export const cards = [
   {
@@ -253,6 +254,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/020-much-wow-full-art-spread-v1.pdf',
     ...chapter020,
     source: 'https://dogecoin.com/dogepedia/articles/history-of-dogecoin/', number: '020/100',
+  },
+  {
+    slug: 'birth-of-hodl', title: 'BIRTH OF HODL', rarity: 'EPIC',
+    date: '18 DEC 2013', subject: 'BITCOIN', phrase: 'I AM HODLING.',
+    image: 'cards/crypto/season-01/birth-of-hodl-master-021/LORE-Birth-of-HODL-Epic-021-Print-v1.png',
+    artwork: 'cards/crypto/season-01/birth-of-hodl-master-021/art.png',
+    book: 'book/crypto-season-01/proofs/021-birth-of-hodl-full-art-spread-v1.pdf',
+    ...chapter021,
+    source: 'https://bitcointalk.org/index.php?topic=375643.0', number: '021/100',
   },
 ];
 

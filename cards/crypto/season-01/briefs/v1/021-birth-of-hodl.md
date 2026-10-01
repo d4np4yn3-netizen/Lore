@@ -1,3 +1,5 @@
+> **021 publication authorised, 1 October 2026.** Exact original HODL art, title, Epic rarity, phrase and date are preserved. See [current numbered master](../../birth-of-hodl-master-021/README.md). The optional clue proposals below were not implemented.
+
 # 021 — Birth of HODL
 
 **Date:** 2013-12-18T10:03:03  ·  **Era:** Crypto expands

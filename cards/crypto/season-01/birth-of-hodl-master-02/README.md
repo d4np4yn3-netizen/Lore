@@ -26,3 +26,7 @@ Standard and foil share this artwork. QR is demo-only; print release separate.
 [Print PNG](LORE-Birth-of-HODL-Epic-v2-Print-v1.png) · [Print SVG](LORE-Birth-of-HODL-Epic-v2-Print-v1.svg) · [Print manifest](print-v1-manifest.json)
 
 Printer canvas **816 × 1110 px @ 300 DPI**; cut **744 × 1038 px**; safe **684 × 981 px**. Uniform transform `translate(46.515 48.921) scale(0.8033)`. The approved artwork, wording, rarity and QR vector are preserved; the crypto phrase uses the approved **25 / 700** treatment with its existing position, tracking and rarity colour. QR remains **DEMO_ONLY**. Physical proof, physical QR scan and print release remain separate gates.
+
+## Current numbered publication - 1 October 2026
+
+Dan approved **021/100** and authorised card, book and website publication. Current files: [birth-of-hodl-master-021](../birth-of-hodl-master-021/). The artwork here remains the exact pinned style reference. Earlier demo-QR statements apply only to the older files here.

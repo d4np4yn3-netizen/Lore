@@ -60,3 +60,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 020 Much Wow
 
 [Chapter](020-much-wow.md) · [Two-page spread](proofs/020-much-wow-full-art-spread-v1.pdf). Epic 020/100; renamed from Birth of Doge on 1 October 2026. Exact previously approved artwork and VERY CURRENCY. phrase retained. Run `sync_020.py --check` to verify site copy.
+
+## 021 Birth of HODL
+
+[Chapter](021-birth-of-hodl.md) · [Two-page spread](proofs/021-birth-of-hodl-full-art-spread-v1.pdf). Epic 021/100; creation and publication authorised 1 October 2026. Exact approved HODL artwork retained. Run `sync_021.py --check` to verify site copy.
