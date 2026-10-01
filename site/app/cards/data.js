@@ -16,6 +16,7 @@ import chapter015 from './content/015.json';
 import chapter016 from './content/016.json';
 import chapter017 from './content/017.json';
 import chapter018 from './content/018.json';
+import chapter019 from './content/019.json';
 
 export const cards = [
   {
@@ -233,6 +234,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/018-four-figures-full-art-spread-v1.pdf',
     ...chapter018,
     source: 'https://www.coindesk.com/markets/2013/11/27/bitcoin-price-hits-1000-after-doubling-in-7-days-what-next', number: '018/100',
+  },
+  {
+    slug: 'ethereum-whitepaper', title: 'ETHEREUM WHITEPAPER', rarity: 'EPIC',
+    date: '27 NOV 2013', subject: 'ETHEREUM', phrase: 'MORE THAN JUST MONEY.',
+    image: 'cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.png',
+    artwork: 'cards/crypto/season-01/ethereum-whitepaper-master-019/art.png',
+    book: 'book/crypto-season-01/proofs/019-ethereum-whitepaper-full-art-spread-v1.pdf',
+    ...chapter019,
+    source: 'https://blog.ethereum.org/2014/01/23/ethereum-now-going-public', number: '019/100',
   },
 ];
 

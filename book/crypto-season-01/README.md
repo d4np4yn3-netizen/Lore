@@ -52,3 +52,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 018 Four Figures
 
 [Approved chapter](018-four-figures.md) · [Two-page spread](proofs/018-four-figures-full-art-spread-v1.pdf). Common 018/100; card, copy and layout approved for GitHub and site on 30 September 2026. Run `sync_018.py --check` to verify site copy.
+
+## 019 Ethereum’s Whitepaper
+
+[Chapter](019-ethereum-whitepaper.md) · [Two-page spread](proofs/019-ethereum-whitepaper-full-art-spread-v1.pdf). Epic 019/100; creation and site publication authorised 1 October 2026. Exact v3 art preserved. Run `sync_019.py --check` to verify site copy.

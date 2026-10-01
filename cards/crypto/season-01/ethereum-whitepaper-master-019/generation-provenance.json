@@ -1,0 +1,100 @@
+{
+  "collector_number": "019",
+  "title": "Ethereum\u2019s Whitepaper",
+  "date": "2013-11-27",
+  "rarity": "Epic",
+  "rarity_status": "proposed",
+  "status": "SELECTED_ARTWORK_FOR_AUTHORISED_PUBLICATION",
+  "artwork_approved": true,
+  "publication_approved": true,
+  "physical_print_approved": false,
+  "book_reproduction_approved": false,
+  "current_review_art": "art-v3.png",
+  "sha256": "ea32593fa3a7b4f1721eb1170007c016aa6ada849c11b468f167ae4179f2a8da",
+  "dimensions": [
+    1060,
+    1484
+  ],
+  "required_style_references": [
+    {
+      "role": "style",
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "verified_and_visually_inspected": true
+    },
+    {
+      "role": "style",
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "verified_and_visually_inspected": true
+    }
+  ],
+  "generations": [
+    {
+      "version": 1,
+      "art": "art-v1-style-rejected.png",
+      "sha256": "83cf6dd812b899c34f8b09548e9b83906375c9912138c2fca3bfed4bfe1b8bb6",
+      "prompt": "generation-prompt-v1.txt",
+      "inputs": [
+        "Birth of HODL exact art",
+        "Birth of Doge exact art",
+        "references/vitalik-coindesk-2016.png"
+      ],
+      "assessment": "Superseded for face rendering being too photographic."
+    },
+    {
+      "version": 2,
+      "art": "art-v2.png",
+      "sha256": "1e7329b8491fc608ccbb1a34ef24d829795a69672bcf02beb4fb67ef98ae81bb",
+      "prompt": "generation-prompt-v2.txt",
+      "inputs": [
+        "Birth of HODL exact art",
+        "Birth of Doge exact art",
+        "art-v1-style-rejected.png"
+      ],
+      "assessment": "Presented for user review. Whole-scene ink and cel shading corrected. No user approval yet."
+    },
+    {
+      "version": 3,
+      "art": "art-v3.png",
+      "sha256": "ea32593fa3a7b4f1721eb1170007c016aa6ada849c11b468f167ae4179f2a8da",
+      "prompt": "generation-prompt-v3.txt",
+      "inputs": [
+        "art-v2.png",
+        "Birth of HODL exact art",
+        "Birth of Doge exact art"
+      ],
+      "assessment": "Manuscript now faces Vitalik; paper cat, unicorn and ghost integrated into the existing sculpture. Character, atelier, pose and lighting visually preserved. Presented for user review; no approval yet."
+    }
+  ],
+  "likeness_reference": {
+    "path": "references/vitalik-coindesk-2016.png",
+    "sha256": "7db80ee6a50f938a96ce8146e43d6f88fb713fc18527edda2f873810f16364d5",
+    "source": "https://www.coindesk.com/tech/2016/09/15/vitalik-buterin-to-debut-ethereum-scaling-paper-at-devcon",
+    "use": "Likeness only; later 2016 reference, interpreted as 19-year-old in 2013. Supplied directly to v1 only; v2 inherits likeness from v1."
+  },
+  "last_revision_request": {
+    "date": "2026-10-01",
+    "quote": "its pretty cool, i think the Draft needs to be the other way round, the right way for Vitalik, Also would be cool if the paper scuplture, mad references to top ETH apps, a cat fopr example, and other dapps"
+  },
+  "future_app_references": [
+    {
+      "symbol": "paper cat",
+      "project": "CryptoKitties",
+      "source": "https://guide.cryptokitties.co/guide/getting-started"
+    },
+    {
+      "symbol": "paper unicorn",
+      "project": "Uniswap",
+      "source": "https://blog.uniswap.org/introducing-uniswap-labs-x-kidsuper"
+    },
+    {
+      "symbol": "paper ghost",
+      "project": "Aave",
+      "source": "https://governance.aave.com/t/temp-check-aave-visual-identity/17542"
+    }
+  ],
+  "approval_record": "approval.json",
+  "current_art": "art.png",
+  "historical_paths_note": "Earlier version paths describe retained local review history; current published artwork is art.png. Photo source is documented for provenance, not republished."
+}

@@ -2,7 +2,7 @@
   "updated": "2026-09-30",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 27,
+  "approved_visual_count": 28,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -2526,6 +2526,91 @@
         "editable_svg": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.svg",
         "manifest": "cards/crypto/season-01/four-figures-master-018/print-v1-manifest.json",
         "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+        "physical_qr_scan_test": false
+      }
+    },
+    {
+      "rarity": "epic",
+      "creator": "ETHEREUM",
+      "title_line_1": "ETHEREUM",
+      "title_line_2": "WHITEPAPER",
+      "context": "MORE THAN JUST MONEY.",
+      "moment_label": "27 NOV 2013",
+      "set_label": "CRYPTO • SEASON 01 • 019/100",
+      "artwork": "cards/crypto/season-01/ethereum-whitepaper-master-019/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/019/",
+      "qr_status": "PRODUCTION_ROUTE_CONFIGURED_VERIFICATION_PENDING",
+      "confirmed_lore_owned_route": true,
+      "print_release": false,
+      "review_only": false,
+      "phrase_status": "SOURCE_VERIFIED_EXCERPT_SELECTED_UNDER_CREATE_AND_PUBLISH_INSTRUCTION",
+      "phrase_source": "https://blog.ethereum.org/2014/01/23/ethereum-now-going-public",
+      "id": "crypto-s01-ethereum-whitepaper",
+      "collection": "crypto",
+      "season": 1,
+      "moment_number": 19,
+      "set_size": 100,
+      "event_date": "2013-11-27",
+      "rarity_status": "APPROVED_EPIC",
+      "status": "AUTHORISED_FOR_PUBLICATION",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-10-01",
+      "approval_quote": "ok, create the card and the book pages, and upload to site",
+      "publication_approved": true,
+      "qr_mode": "live",
+      "front": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.svg",
+      "book_chapter": "book/crypto-season-01/019-ethereum-whitepaper.md",
+      "book_spread": "book/crypto-season-01/proofs/019-ethereum-whitepaper-full-art-spread-v1.pdf",
+      "source_notes": "cards/crypto/season-01/ethereum-whitepaper-master-019/source-notes.md",
+      "approval_record": "cards/crypto/season-01/ethereum-whitepaper-master-019/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/ethereum-whitepaper-master-019/art.png",
+        "bytes": 2178766,
+        "sha256": "ea32593fa3a7b4f1721eb1170007c016aa6ada849c11b468f167ae4179f2a8da"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.png",
+          "bytes": 868557,
+          "sha256": "e36b02b4dbd022d2cef90f75316907465164cd3f741c87045fb98b771cc6efea"
+        },
+        {
+          "path": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.svg",
+          "bytes": 2941271,
+          "sha256": "6117eda10433fd47a6df3363190d1ba54d9add4459f53f25bf95c73b43ed004d"
+        }
+      ],
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "print_release": false,
+        "front": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/ethereum-whitepaper-master-019/print-v1-manifest.json",
+        "qr_status": "PRODUCTION_ROUTE_CONFIGURED_VERIFICATION_PENDING",
         "physical_qr_scan_test": false
       }
     }

@@ -28,3 +28,6 @@ Art paths above are relative to cards/crypto/season-01/. Crossovers are intentio
 
 - **017 -> 018 Four Figures:** The white WAVES takeaway cup, black lid, tan sleeve and maple leaf from `cash-out-master-017/art.png` reappear beside the monitor in `four-figures-master-018/art.png`. Approved 30 September 2026 as a symbolic collection callback.
 - **018 -> future 095 Six Figures:** The paper shows four filled digit boxes (1000) plus two empty boxes. Approved 30 September 2026 as a forward-reference puzzle, not a six-digit price in 2013 or a claim that 095 artwork is already designed.
+
+- **019 -> future Ethereum ecosystem:** The paper cat (CryptoKitties), unicorn (Uniswap) and ghost (Aave) were requested by Dan on 1 October 2026. They foreshadow later applications; none is claimed to exist in the 2013 writing scene. These are symbolic app references, not copied props from as-yet-undesigned future cards.
+- **019 -> 032 Ethereum Goes Live:** The distant unfinished doorway is a symbolic Frontier reference; no matching future-card doorway design is claimed.
