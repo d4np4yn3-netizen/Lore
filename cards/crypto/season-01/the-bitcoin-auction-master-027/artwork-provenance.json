@@ -1,34 +1,36 @@
 {
-  "selected_art_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
+  "selected_art_sha256": "0cdb01774c2321a6a0415366110d3efd2a8ec1d1453fc64be1108783fe1d1342",
   "approval": "approval.json",
-  "approved_review_iteration": 2,
-  "review_artwork_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
-  "generated_art_unchanged_during_publication": true,
+  "approved_review_iteration": 3,
+  "review_artwork_sha256": "0cdb01774c2321a6a0415366110d3efd2a8ec1d1453fc64be1108783fe1d1342",
+  "generated_art_unchanged_during_publication": false,
   "artwork_clues": [
     {
-      "detail": "Navy THE PRINCESS BRIDE book and GLEN PARK cream/red library slip",
-      "kind": "intentional collection callback",
-      "meaning": "Reuses items from card 016 Silk Road Shutdown; visual callback, not a claim that these objects were at the auction",
-      "visibility": "Both above fade; titles readable in full card"
+      "detail": "The Princess Bride.",
+      "meaning": "The navy book returns from 016, Silk Road Shutdown. It connects the chapters visually, without claiming this copy appeared at the auction. Its placement is an intentional collection callback.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Red evidence cord and blank tag on locked box",
-      "kind": "symbolic prop",
-      "meaning": "Movement from seizure to disposal; not destruction of evidence",
-      "visibility": "Raised and clear"
+      "detail": "The evidence cord.",
+      "meaning": "Red cord and a blank tag sit with the locked box. They symbolise an asset moving from seizure into formal disposal. The locked box represents custody of a digital asset.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Sealed envelopes and gavel",
-      "kind": "symbolic process illustration",
-      "meaning": "Formal bidding process in a fictional administrative room",
-      "visibility": "Central and clear"
+      "detail": "Envelopes and a gavel.",
+      "meaning": "These familiar auction objects stand for formal bidding. The June sale was conducted online with sealed bids; the room and its desk are an illustrative interpretation, not a documentary reconstruction.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "BITCOIN / JUNE 2014 sheet",
-      "kind": "historical event reference, fictional prop",
-      "meaning": "Month of the first US Marshals bitcoin auction",
-      "visibility": "Readable above fade; no 29,656 amount appears in this final art"
+      "detail": "The dated sheet.",
+      "meaning": "BITCOIN and JUNE 2014 identify the subject and month of the sale. The sheet is a fictional administrative prop, rather than a reproduction of an official lot listing.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     }
   ],
-  "style_reference_lock": "cards/crypto/style-reference-lock.json"
+  "style_reference_lock": "cards/crypto/style-reference-lock.json",
+  "previous_published_art_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
+  "latest_art_correction": "Removed the Glen Park library slip and restored the tabletop. The navy Princess Bride book remains."
 }

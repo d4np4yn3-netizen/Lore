@@ -1,3 +1,7 @@
+# 023–027 final requested corrections - 1 October 2026
+
+Supersedes the earlier batch below. Dan removed023’s elevated luggage box and moved the sticker/tag to the lower box (intentionally covered by card QR but visible in book art), kept024 unchanged, restored025’s first delivered single-lens artwork, removed026’s airplane and027’s Glen Park slip, then approved the results. Titles, captions, dates, rarities, QR payloads and print geometry are unchanged. The book and website explanations match those final objects. Corrective GitHub publication/live verification in progress; the earlier batch remains in commit c0207642b1fa9768fb8c002667493971cefcd569. No022 added; physical print and book reproduction release remain false.
+
 # 023–027 approved publication batch - 1 October 2026
 
 Dan approved all five tightened iteration-2 fronts for GitHub and the live site and requested two-page book entries. 023 DOGE GOES TO SOCHI (Common), 024 MT. GOX (Epic), 025 MONERO LAUNCHES (Rare), 026 QUANTUM (Common), 027 THE BITCOIN AUCTION (Common). Exact approved art/copy/rarities are preserved; final fronts change only QR pixels and remove the review label. 022 stays absent. Stable production QR routes /crypto/023/ through /crypto/027/ point to corresponding story pages. Book prose and site mirrors are sourced editorial additions under this request, without a separate claim of user text approval. Physical print and book reproduction release remain false. Publication and deployment verification in progress; see per-card records.

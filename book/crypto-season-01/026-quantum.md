@@ -19,10 +19,10 @@ Quantum became a landmark in the early history of blockchain art, often discusse
 1. **The Namecoin slip.** The slip beneath the lamp names the blockchain used for the early registration. It is an invented studio prop, not a surviving receipt or a later Ethereum interface.
 2. **Studies 01, 02 and 03.** The numbered geometric studies suggest successive animation frames. They are original illustrative designs, not claimed preparatory drawings by McCoy or reproductions of the animated Quantum artwork.
 3. **A grid from a later chapter.** The colourful catalogue grid foreshadows planned card 064, Everydays at Auction. It is a deliberately anachronistic thematic clue, not a documented studio object or a copy of future card artwork.
-4. **The small paper plane.** The Bitcoin plane above the monitor returns from 007, The First Transfer. It links the movement of value to this new experiment in digital provenance.
+4. **The artist’s hand.** The open hand beneath the illuminated geometry keeps creation at the centre of the scene. Floating light gives an immaterial idea a visible form; it does not depict a physical event or a technical step in blockchain registration.
 
 ## Source and art note
 
 [Sotheby’s catalogue](https://www.sothebys.com/en/buy/auction/2021/natively-digital-a-curated-nft-sale-2/quantum) supplies the card’s 3 May date; [Anil Dash’s contemporary account](https://medium.com/message/a-bitcoin-for-digital-art-8c7db719e495) describes work on the evening of 2 May. [Rhizome’s account](https://seed.trlab.com/article/the-first-nft) documents Quantum and Monegraph. These accounts use different date references; no exact local time is claimed. The studio, figure and floating geometry are interpretive. ART MEETS THE CHAIN is editorial copy. Quantum is treated as an early landmark, without claiming an uncontested first NFT or automatic legal ownership.
 
-**Publication authorisation:** Dan approved the tightened cards and requested book spreads, GitHub upload and website publication on 1 October 2026. The book pages are editorial review proofs; final trim, bleed, binding, reproduction and printer approval remain separate.
+**Publication authorisation:** Dan approved the final revision with the paper plane removed on 1 October 2026. Book spreads, GitHub upload and website publication remain authorised. The book pages are editorial review proofs; final trim, bleed, binding, reproduction and printer approval remain separate.

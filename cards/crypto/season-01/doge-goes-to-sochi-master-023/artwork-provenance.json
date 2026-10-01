@@ -1,34 +1,36 @@
 {
-  "selected_art_sha256": "f0c2bf55148d7d101233754cb408205e796cab35f9476a15c3b767354bf240be",
+  "selected_art_sha256": "0e0aa1365455108c5d390b178210807d6530a4e55ccd0b954f8e671918770848",
   "approval": "approval.json",
-  "approved_review_iteration": 2,
-  "review_artwork_sha256": "f0c2bf55148d7d101233754cb408205e796cab35f9476a15c3b767354bf240be",
-  "generated_art_unchanged_during_publication": true,
+  "approved_review_iteration": 3,
+  "review_artwork_sha256": "0e0aa1365455108c5d390b178210807d6530a4e55ccd0b954f8e671918770848",
+  "generated_art_unchanged_during_publication": false,
   "artwork_clues": [
     {
-      "detail": "Shiba sticker on upper right luggage",
-      "kind": "intentional collection callback",
-      "meaning": "Birth of Doge / MUCH WOW, card 020",
-      "visibility": "Recognizable in full card and 340px-wide thumbnail; fully above footer"
+      "detail": "The Shiba on the luggage.",
+      "meaning": "The sticker on the lower-right case brings back the mascot from 020, Much Wow. It is a deliberate collection callback, not a documented piece of the team’s equipment.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "SOCHI 2014 luggage tag",
-      "kind": "historical event reference, fictional prop",
-      "meaning": "Destination and Winter Olympics year",
-      "visibility": "Full tag visible above footer; readable in full proof"
+      "detail": "Sochi 2014.",
+      "meaning": "The SOCHI 2014 luggage tag fixes the journey in place and time. This invented prop points to the Winter Games; it makes no claim about a race result.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Jamaican flag and team colors",
-      "kind": "historical event reference",
-      "meaning": "The Jamaican bobsled team supported by the fundraiser",
-      "visibility": "Clear in athletes clothing, sled and crowd"
+      "detail": "Jamaica’s colours.",
+      "meaning": "Black, green and yellow run through the sled, clothing and crowd. They identify the team being supported without presenting the illustrated athletes as portraits of particular competitors.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Green and yellow mittens on lower case",
-      "kind": "symbolic prop",
-      "meaning": "Ordinary practical support from a community; not a claimed historical object",
-      "visibility": "Visible beside sled above main title"
+      "detail": "A little warmth.",
+      "meaning": "A mitten in Jamaica’s colours rests on the lower case. It stands for practical help from strangers: an ordinary, fictional object carrying the idea behind many small donations.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     }
   ],
-  "style_reference_lock": "cards/crypto/style-reference-lock.json"
+  "style_reference_lock": "cards/crypto/style-reference-lock.json",
+  "previous_published_art_sha256": "f0c2bf55148d7d101233754cb408205e796cab35f9476a15c3b767354bf240be",
+  "latest_art_correction": "Removed the elevated luggage case; moved Shiba sticker and SOCHI 2014 tag to the lower foreground case. QR coverage is intentional; both remain visible in full book art."
 }

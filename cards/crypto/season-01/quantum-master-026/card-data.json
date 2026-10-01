@@ -2,54 +2,52 @@
   "creator": "DIGITAL ART",
   "rarity": "common",
   "title_line_1": "QUANTUM",
-  "title_line_2": "\u200b",
+  "title_line_2": "​",
   "context": "ART MEETS THE CHAIN.",
   "moment_label": "03 MAY 2014",
   "artwork": "cards/crypto/season-01/quantum-master-026/art.png",
-  "set_label": "CRYPTO \u2022 SEASON 01 \u2022 026/100",
+  "set_label": "CRYPTO • SEASON 01 • 026/100",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/026/",
   "status": "FRONT_APPROVED",
-  "qr_status": "PRODUCTION_ROUTE_PENDING_DEPLOYMENT",
+  "qr_status": "PRODUCTION_ROUTE_PENDING_CORRECTION_VERIFICATION",
   "print_release": false,
-  "artwork_sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427",
+  "artwork_sha256": "7afbd7ccd9b559b540a739af25a7f9214d118b61e01f55fbe923d6ef7f4a2e5c",
   "phrase_status": "APPROVED_EDITORIAL_CAPTION_NOT_A_QUOTATION",
   "rarity_status": "APPROVED_BY_DAN",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "review_iteration": 2,
-  "artwork_status": "USER_APPROVED_TIGHTENED_ART",
+  "review_iteration": 3,
+  "artwork_status": "USER_APPROVED_REQUESTED_FINAL_CORRECTION",
   "prior_art_approval": "ORIGINAL_PROOF_UNAPPROVED",
   "previous_art_sha256": "2558bde258879525b30080ed662141a8adc6b204dc27e2ff77c2bcc2df79e14e",
-  "output_sha256": "4afe0f155885e2d376368a8f062ebfad9ff05b178cd7855bbc424094dd7187b7",
+  "output_sha256": "73af0dcfe7c97f457a48992e4e4e24ef432acf4d7f2d4cc6e4eeffb5dbeb2045",
   "canvas_px": [
     816,
     1110
   ],
   "artwork_clues": [
     {
-      "detail": "NAMECOIN slip beneath lamp",
-      "kind": "historical reference, fictional prop",
-      "meaning": "Chain used for Quantum registration",
-      "visibility": "Readable and clear of rarity/date overlays"
+      "detail": "The Namecoin slip.",
+      "meaning": "The slip beneath the lamp names the blockchain used for the early registration. It is an invented studio prop, not a surviving receipt or a later Ethereum interface.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "01/02/03 geometric studies",
-      "kind": "original symbolic studies",
-      "meaning": "Suggest animation frames; these are not reproduced originals of Kevin McCoy artwork",
-      "visibility": "All three number labels clear of header overlays"
+      "detail": "Studies 01, 02 and 03.",
+      "meaning": "The numbered geometric studies suggest successive animation frames. They are original illustrative designs, not claimed preparatory drawings by McCoy or reproductions of the animated Quantum artwork.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Colorful grid catalogue on shelf",
-      "kind": "thematic future callback",
-      "meaning": "Original thematic foreshadowing of draft card 064 Everydays at Auction. Intentionally anachronistic, not a documented 2014 prop; no approved future artwork was copied or supplied.",
-      "visibility": "Visible between geometry and artist"
+      "detail": "A grid from a later chapter.",
+      "meaning": "The colourful catalogue grid foreshadows planned card 064, Everydays at Auction. It is a deliberately anachronistic thematic clue, not a documented studio object or a copy of future card artwork.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Small Bitcoin paper plane above monitor",
-      "kind": "intentional collection callback",
-      "meaning": "007 \u2014 The First Transfer (not 005 The Whitepaper)",
-      "visibility": "Plane visible above monitor, clear of overlays",
-      "reference_image": "/workspace/scratch/58d5f7ed8606/lore-references/props/paper-plane-source.png",
-      "reference_art_sha256": "7dd137915be9130c65a17978b37360c83865745298ef8e7bb68516cb4085700c"
+      "detail": "The artist’s hand.",
+      "meaning": "The open hand beneath the illuminated geometry keeps creation at the centre of the scene. Floating light gives an immaterial idea a visible form; it does not depict a physical event or a technical step in blockchain registration.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     }
   ],
   "clue_review_status": "CHECKED_IN_FINAL_FRAMED_PROOF",
@@ -62,8 +60,10 @@
   "editable_svg": "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.svg",
   "printer_pdf": "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.pdf",
   "qr_target": "https://lore-site-v1.vercel.app/cards/quantum",
-  "print_svg_sha256": "cccd2eca6da663dcc37c47eafb51a44cf3ec654480e43b84c48c0fbd99056bf7",
-  "printer_pdf_sha256": "ef12c3cd41ce4fb552587dac1e71d44ec0c0cadc76a0c1ece9848976130f1c6e",
+  "print_svg_sha256": "b9360d42ec6009f23787b32bd6165a40ed07cecaf130175ab7e756cfa4740ae6",
+  "printer_pdf_sha256": "f084d4eb39f06a280b920a651d4ed4031d2622433300405d127e267a8b699178",
   "book_spread": "book/crypto-season-01/proofs/026-quantum-full-art-spread-v1.pdf",
-  "chapter": "book/crypto-season-01/026-quantum.md"
+  "chapter": "book/crypto-season-01/026-quantum.md",
+  "previous_published_art_sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427",
+  "latest_art_correction": "Removed the small white paper airplane and restored the shelf. Namecoin slip, animation studies, catalogue grid and main scene remain."
 }

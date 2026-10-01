@@ -1,43 +1,43 @@
 {
   "artwork": {
     "path": "cards/crypto/season-01/monero-launches-master-025/art.png",
-    "bytes": 2438300,
-    "sha256": "c81f9ea101bf458b44bfe9c7db9b0acf8a6e59c896ef4c43aa23810fc8822d82"
+    "bytes": 2386524,
+    "sha256": "fa7e02e0625d3327e297961b4ae6edb5b2add6e26d4c9228b63de1d10873fa19"
   },
   "front": {
     "path": "cards/crypto/season-01/monero-launches-master-025/LORE-Crypto-025-Monero-Launches-Rare-Print-v1.png",
-    "bytes": 963465,
-    "sha256": "afdb2324a0c5564126f02b1d945f60dfdf5cce74ff3326170780dd0f6a418a65"
+    "bytes": 942152,
+    "sha256": "47d38237d10073802108e148b12e50bb75714c3e59fadbc938c3bbd1d8f1e848"
   },
   "editable_svg": {
     "path": "cards/crypto/season-01/monero-launches-master-025/LORE-Crypto-025-Monero-Launches-Rare-Print-v1.svg",
-    "bytes": 3287222,
-    "sha256": "2e062c20051e1d0f7a3f76752bf8ac5445f56429205b3ce887c9e7e57044fd90"
+    "bytes": 3218186,
+    "sha256": "bc328d2c6c3e61854c15b053e7c731601c2e82e5354a91f51095874671c2771d"
   },
   "printer_pdf": {
     "path": "cards/crypto/season-01/monero-launches-master-025/LORE-Crypto-025-Monero-Launches-Rare-Print-v1.pdf",
-    "bytes": 1702576,
-    "sha256": "f577f52fed7b5fbc54a3c81f1063f36c7a1f4564d3a6ade60d840a4581fc12d9"
+    "bytes": 1664495,
+    "sha256": "39bb84b1f2848728059b8bf3ca40774d68ae78a910d96bac352f8fa3b3ed733c"
   },
   "book_spread": {
     "path": "book/crypto-season-01/proofs/025-monero-launches-full-art-spread-v1.pdf",
-    "bytes": 4729303,
-    "sha256": "a7a948ffac351f6e6c77b6aca747107383b240939510d5538f20e400a15970df"
+    "bytes": 4614855,
+    "sha256": "a5cc8e441927be18b76fd9660c3cd41c659823d9682cca343a02adf5ec5af79c"
   },
   "chapter": {
     "path": "book/crypto-season-01/025-monero-launches.md",
-    "bytes": 3681,
-    "sha256": "6de6717edd99759b2b796d46b9291240ca78f5fe7d1415a253c2251e5561d0f8"
+    "bytes": 3839,
+    "sha256": "b3aaebf8753d1a3fe55d59232d1f96598aab6685eeb1a33c6c2a76768f576640"
   },
   "status": "AUTHORISED_PRINTER_FILES_AND_PUBLICATION",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/025/",
-  "qr_status": "PRODUCTION_ROUTE_PENDING_DEPLOYMENT",
+  "qr_status": "PRODUCTION_ROUTE_PENDING_CORRECTION_VERIFICATION",
   "qr_decoded_from_exported_png": "https://lore-site-v1.vercel.app/crypto/025/",
   "qr_decoded_from_300dpi_pdf_render": "https://lore-site-v1.vercel.app/crypto/025/",
   "artwork_unchanged": true,
   "svg_embedded_art_matches_approved_art": true,
   "printer_pdf_pixels_match_front_png": true,
-  "only_qr_and_review_label_changed": true,
+  "only_qr_and_review_label_changed": false,
   "print_release": false,
   "book_reproduction_release": false,
   "physical_qr_scan_test": false,
@@ -69,5 +69,8 @@
   ],
   "card_and_book_pages_visually_checked": true,
   "book_qa_record": "book/crypto-season-01/proofs/023-027-book-qa-v1.json",
-  "publication_verification": "cards/crypto/season-01/monero-launches-master-025/publication-verification.json"
+  "publication_verification": "cards/crypto/season-01/monero-launches-master-025/publication-verification.json",
+  "latest_art_correction": "Restored the exact first-delivered pre-tightening artwork at the user\u2019s request, including its single-lens phone, awning spiral, CryptoNote shelf book, plain coins and bottom footprints. The later Blind Signatures envelope is absent.",
+  "only_approved_artwork_changed_since_previous_publication": true,
+  "svg_geometry_copy_rarity_and_qr_unchanged": true
 }

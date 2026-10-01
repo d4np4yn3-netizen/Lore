@@ -16,13 +16,13 @@ The story gave Dogecoin’s playful identity a purpose people could immediately 
 
 ## Details in the artwork
 
-1. **The Shiba on the luggage.** The sticker on the upper-right case brings back the mascot from 020, Much Wow. It is a deliberate collection callback, not a documented piece of the team’s equipment.
+1. **The Shiba on the luggage.** The sticker on the lower-right case brings back the mascot from 020, Much Wow. It is a deliberate collection callback, not a documented piece of the team’s equipment.
 2. **Sochi 2014.** The SOCHI 2014 luggage tag fixes the journey in place and time. This invented prop points to the Winter Games; it makes no claim about a race result.
 3. **Jamaica’s colours.** Black, green and yellow run through the sled, clothing and crowd. They identify the team being supported without presenting the illustrated athletes as portraits of particular competitors.
-4. **A little warmth.** Green-and-yellow mittens rest on the lower case. They stand for practical help from strangers: an ordinary, fictional object carrying the idea behind many small donations.
+4. **A little warmth.** A mitten in Jamaica’s colours rests on the lower case. It stands for practical help from strangers: an ordinary, fictional object carrying the idea behind many small donations.
 
 ## Source and art note
 
 Contemporary accounts in [ABC News](https://abcnews.com/m/story?id=21601351), [The Guardian](https://www.theguardian.com/technology/2014/jan/20/jamaican-bobsled-team-raises-dogecoin-winter-olympics) and [Crowdfund Insider](https://www.crowdfundinsider.com/2014/01/30409-jamaican-bobsled-team-going-sochi-coolrunnings2-go/) document the appeal, early Dogecoin total and the team’s explanation of costs. The date marks the fundraising story, not an Olympic race. The trackside gathering and its props are imagined; Dogecoin contributed to a broader campaign and did not pay every expense or determine the sporting outcome. TOGETHER TO SOCHI is editorial copy.
 
-**Publication authorisation:** Dan approved the tightened cards and requested book spreads, GitHub upload and website publication on 1 October 2026. The book pages are editorial review proofs; final trim, bleed, binding, reproduction and printer approval remain separate.
+**Publication authorisation:** Dan approved the final revision on 1 October 2026: the upper luggage case is removed, with the Shiba sticker and Sochi tag moved to the lower case. Their visibility in full book art is intentional even where the card QR overlaps them. Book spreads, GitHub upload and website publication remain authorised. The book pages are editorial review proofs; final trim, bleed, binding, reproduction and printer approval remain separate.

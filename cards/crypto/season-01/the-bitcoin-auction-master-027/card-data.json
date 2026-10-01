@@ -6,48 +6,48 @@
   "context": "FROM SEIZURE TO SALE.",
   "moment_label": "27 JUN 2014",
   "artwork": "cards/crypto/season-01/the-bitcoin-auction-master-027/art.png",
-  "set_label": "CRYPTO \u2022 SEASON 01 \u2022 027/100",
+  "set_label": "CRYPTO • SEASON 01 • 027/100",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/027/",
   "status": "FRONT_APPROVED",
-  "qr_status": "PRODUCTION_ROUTE_PENDING_DEPLOYMENT",
+  "qr_status": "PRODUCTION_ROUTE_PENDING_CORRECTION_VERIFICATION",
   "print_release": false,
-  "artwork_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
+  "artwork_sha256": "0cdb01774c2321a6a0415366110d3efd2a8ec1d1453fc64be1108783fe1d1342",
   "phrase_status": "APPROVED_EDITORIAL_CAPTION_NOT_A_QUOTATION",
   "rarity_status": "APPROVED_BY_DAN",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "review_iteration": 2,
-  "artwork_status": "USER_APPROVED_TIGHTENED_ART",
+  "review_iteration": 3,
+  "artwork_status": "USER_APPROVED_REQUESTED_FINAL_CORRECTION",
   "prior_art_approval": "ORIGINAL_PROOF_UNAPPROVED",
   "previous_art_sha256": "edc1aee0971d1c99f579860a36c9f300247ddea9f28aae35b94ae4530eb65b5f",
-  "output_sha256": "1df4d1723cdb1617773393f9a902f59a33661d5e7490f91225b8379fcd169e62",
+  "output_sha256": "273bd7b72059e51233d07fd2cb44412df8bf2a48848dbe556382ff7a69ae2407",
   "canvas_px": [
     816,
     1110
   ],
   "artwork_clues": [
     {
-      "detail": "Navy THE PRINCESS BRIDE book and GLEN PARK cream/red library slip",
-      "kind": "intentional collection callback",
-      "meaning": "Reuses items from card 016 Silk Road Shutdown; visual callback, not a claim that these objects were at the auction",
-      "visibility": "Both above fade; titles readable in full card"
+      "detail": "The Princess Bride.",
+      "meaning": "The navy book returns from 016, Silk Road Shutdown. It connects the chapters visually, without claiming this copy appeared at the auction. Its placement is an intentional collection callback.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Red evidence cord and blank tag on locked box",
-      "kind": "symbolic prop",
-      "meaning": "Movement from seizure to disposal; not destruction of evidence",
-      "visibility": "Raised and clear"
+      "detail": "The evidence cord.",
+      "meaning": "Red cord and a blank tag sit with the locked box. They symbolise an asset moving from seizure into formal disposal. The locked box represents custody of a digital asset.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "Sealed envelopes and gavel",
-      "kind": "symbolic process illustration",
-      "meaning": "Formal bidding process in a fictional administrative room",
-      "visibility": "Central and clear"
+      "detail": "Envelopes and a gavel.",
+      "meaning": "These familiar auction objects stand for formal bidding. The June sale was conducted online with sealed bids; the room and its desk are an illustrative interpretation, not a documentary reconstruction.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     },
     {
-      "detail": "BITCOIN / JUNE 2014 sheet",
-      "kind": "historical event reference, fictional prop",
-      "meaning": "Month of the first US Marshals bitcoin auction",
-      "visibility": "Readable above fade; no 29,656 amount appears in this final art"
+      "detail": "The dated sheet.",
+      "meaning": "BITCOIN and JUNE 2014 identify the subject and month of the sale. The sheet is a fictional administrative prop, rather than a reproduction of an official lot listing.",
+      "kind": "See canonical book/source qualification",
+      "visibility": "Reviewed in final card and full artwork; some lower details are covered by card QR/footer by user direction"
     }
   ],
   "clue_review_status": "CHECKED_IN_FINAL_FRAMED_PROOF",
@@ -60,8 +60,10 @@
   "editable_svg": "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.svg",
   "printer_pdf": "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.pdf",
   "qr_target": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
-  "print_svg_sha256": "b5f34ba7f07c626b8a81fa23b25af5a2a0210fc7a6e247fa1c94ac10f87aea06",
-  "printer_pdf_sha256": "a653807c55531f10cfe81d13c68b5ac29b2c808ebbd40827f19a39241e74fc74",
+  "print_svg_sha256": "c67c2d33dfb716f57f391808a552059e484e824ca6ec2ef67158a41d8b030ab5",
+  "printer_pdf_sha256": "1c4393f07ee7fd975b3080c6bc5f9b6a394c8e6ecbb266bb039c3b7a7ec2f7f4",
   "book_spread": "book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf",
-  "chapter": "book/crypto-season-01/027-the-bitcoin-auction.md"
+  "chapter": "book/crypto-season-01/027-the-bitcoin-auction.md",
+  "previous_published_art_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
+  "latest_art_correction": "Removed the Glen Park library slip and restored the tabletop. The navy Princess Bride book remains."
 }

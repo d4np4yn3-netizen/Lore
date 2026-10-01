@@ -1,43 +1,43 @@
 {
   "artwork": {
     "path": "cards/crypto/season-01/the-bitcoin-auction-master-027/art.png",
-    "bytes": 2061319,
-    "sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f"
+    "bytes": 2032640,
+    "sha256": "0cdb01774c2321a6a0415366110d3efd2a8ec1d1453fc64be1108783fe1d1342"
   },
   "front": {
     "path": "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.png",
-    "bytes": 835155,
-    "sha256": "1df4d1723cdb1617773393f9a902f59a33661d5e7490f91225b8379fcd169e62"
+    "bytes": 829079,
+    "sha256": "273bd7b72059e51233d07fd2cb44412df8bf2a48848dbe556382ff7a69ae2407"
   },
   "editable_svg": {
     "path": "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.svg",
-    "bytes": 2784969,
-    "sha256": "b5f34ba7f07c626b8a81fa23b25af5a2a0210fc7a6e247fa1c94ac10f87aea06"
+    "bytes": 2746729,
+    "sha256": "c67c2d33dfb716f57f391808a552059e484e824ca6ec2ef67158a41d8b030ab5"
   },
   "printer_pdf": {
     "path": "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.pdf",
-    "bytes": 1502875,
-    "sha256": "a653807c55531f10cfe81d13c68b5ac29b2c808ebbd40827f19a39241e74fc74"
+    "bytes": 1513247,
+    "sha256": "1c4393f07ee7fd975b3080c6bc5f9b6a394c8e6ecbb266bb039c3b7a7ec2f7f4"
   },
   "book_spread": {
     "path": "book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf",
-    "bytes": 4103106,
-    "sha256": "78e9019589c97b5cb9e88d427a77566d0bc29fc3935f3e84aa7c77217ce5876a"
+    "bytes": 4119198,
+    "sha256": "f24c6f564f8beea895c34056402e0e41fe7b344efb789e0d7106db8930249fe6"
   },
   "chapter": {
     "path": "book/crypto-season-01/027-the-bitcoin-auction.md",
-    "bytes": 3906,
-    "sha256": "e40e888fd6a950ad0c369421b2fc5b2c053cbc66d2ded2d738a193a2925d3f43"
+    "bytes": 4029,
+    "sha256": "3e9b4e323fd09b3dfcb994ad4b8b4b6b4398a6f5c3d0be826d63b5c67e537816"
   },
   "status": "AUTHORISED_PRINTER_FILES_AND_PUBLICATION",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/027/",
-  "qr_status": "PRODUCTION_ROUTE_PENDING_DEPLOYMENT",
+  "qr_status": "PRODUCTION_ROUTE_PENDING_CORRECTION_VERIFICATION",
   "qr_decoded_from_exported_png": "https://lore-site-v1.vercel.app/crypto/027/",
   "qr_decoded_from_300dpi_pdf_render": "https://lore-site-v1.vercel.app/crypto/027/",
-  "artwork_unchanged": true,
+  "artwork_unchanged": false,
   "svg_embedded_art_matches_approved_art": true,
   "printer_pdf_pixels_match_front_png": true,
-  "only_qr_and_review_label_changed": true,
+  "only_qr_and_review_label_changed": false,
   "print_release": false,
   "book_reproduction_release": false,
   "physical_qr_scan_test": false,
@@ -69,5 +69,8 @@
   ],
   "card_and_book_pages_visually_checked": true,
   "book_qa_record": "book/crypto-season-01/proofs/023-027-book-qa-v1.json",
-  "publication_verification": "cards/crypto/season-01/the-bitcoin-auction-master-027/publication-verification.json"
+  "publication_verification": "cards/crypto/season-01/the-bitcoin-auction-master-027/publication-verification.json",
+  "latest_art_correction": "Removed the Glen Park library slip and restored the tabletop. The navy Princess Bride book remains.",
+  "only_approved_artwork_changed_since_previous_publication": true,
+  "svg_geometry_copy_rarity_and_qr_unchanged": true
 }

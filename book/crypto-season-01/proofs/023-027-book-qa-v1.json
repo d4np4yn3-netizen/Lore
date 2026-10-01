@@ -7,7 +7,7 @@
       "number": "023",
       "pdf": "book/crypto-season-01/proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf",
       "pages": 2,
-      "art_sha256": "f0c2bf55148d7d101233754cb408205e796cab35f9476a15c3b767354bf240be",
+      "art_sha256": "0e0aa1365455108c5d390b178210807d6530a4e55ccd0b954f8e671918770848",
       "art_px": [
         1060,
         1484
@@ -15,7 +15,7 @@
       "art_pixels_unchanged": true,
       "canonical_metadata_present": true,
       "page_bounds_pass": true,
-      "pdf_sha256": "7f3df401ba1b12cbd5ba0054f7448f1065a66ad65bedf7a5a7914e09d8a04584",
+      "pdf_sha256": "0280e9c866e9c59f35694e100677ed98fc37dde011c32fbcdec067274c89809a",
       "effective_a4_dpi": 127
     },
     {
@@ -37,7 +37,7 @@
       "number": "025",
       "pdf": "book/crypto-season-01/proofs/025-monero-launches-full-art-spread-v1.pdf",
       "pages": 2,
-      "art_sha256": "c81f9ea101bf458b44bfe9c7db9b0acf8a6e59c896ef4c43aa23810fc8822d82",
+      "art_sha256": "fa7e02e0625d3327e297961b4ae6edb5b2add6e26d4c9228b63de1d10873fa19",
       "art_px": [
         1060,
         1484
@@ -45,14 +45,14 @@
       "art_pixels_unchanged": true,
       "canonical_metadata_present": true,
       "page_bounds_pass": true,
-      "pdf_sha256": "a7a948ffac351f6e6c77b6aca747107383b240939510d5538f20e400a15970df",
+      "pdf_sha256": "a5cc8e441927be18b76fd9660c3cd41c659823d9682cca343a02adf5ec5af79c",
       "effective_a4_dpi": 127
     },
     {
       "number": "026",
       "pdf": "book/crypto-season-01/proofs/026-quantum-full-art-spread-v1.pdf",
       "pages": 2,
-      "art_sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427",
+      "art_sha256": "7afbd7ccd9b559b540a739af25a7f9214d118b61e01f55fbe923d6ef7f4a2e5c",
       "art_px": [
         1060,
         1484
@@ -60,14 +60,14 @@
       "art_pixels_unchanged": true,
       "canonical_metadata_present": true,
       "page_bounds_pass": true,
-      "pdf_sha256": "53d7a58a7000738f6fde625cf86f9563319b69df855595de863c80d394c3ca49",
+      "pdf_sha256": "a8414bbce76e2a09e65c7923b67cebbe6cd27fea1993fd3e08c1ae8fa462a705",
       "effective_a4_dpi": 127
     },
     {
       "number": "027",
       "pdf": "book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf",
       "pages": 2,
-      "art_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
+      "art_sha256": "0cdb01774c2321a6a0415366110d3efd2a8ec1d1453fc64be1108783fe1d1342",
       "art_px": [
         1060,
         1484
@@ -75,17 +75,25 @@
       "art_pixels_unchanged": true,
       "canonical_metadata_present": true,
       "page_bounds_pass": true,
-      "pdf_sha256": "78e9019589c97b5cb9e88d427a77566d0bc29fc3935f3e84aa7c77217ce5876a",
+      "pdf_sha256": "f24c6f564f8beea895c34056402e0e41fe7b344efb789e0d7106db8930249fe6",
       "effective_a4_dpi": 127
     }
   ],
   "qa_date": "2026-10-01",
-  "status": "EDITORIAL_REVIEW_PROOF",
+  "review_iteration": 2,
+  "status": "USER_APPROVED_EDITORIAL_REVISION",
   "layout_reference": "book/crypto-season-01/build_021_spread.py",
-  "visual_inspection": "All ten final rendered pages checked: no clipping, overlap, missing glyphs or overflow",
+  "visual_inspection": "All revised spreads rendered and inspected: no clipping, overlap, missing glyphs or overflow. 024 PDF is byte-for-byte unchanged.",
   "print_release": false,
-  "physical_production_note": "A4 editorial layout, approximately127DPI effective source resolution; trim, bleed, binding, source resolution, colour reproduction, rights and printer specifications remain to be confirmed",
+  "physical_production_note": "A4 editorial layout at approximately 127 DPI effective source resolution; trim, bleed, binding, source resolution, colour reproduction, rights and printer specifications remain to be confirmed",
   "website_copy_sync": "All five sync_023.py through sync_027.py --check passed",
-  "combined_pdf_sha256": "62445449719c33df1f5803e9c4df29f2ce542cfb3c37e30be51466e355dd943a",
-  "combined_publication": "Optional local/Library compilation; not included in GitHub. Five individual two-page PDFs are published."
+  "combined_scope": "Optional locally generated review set; excluded from the GitHub upload. Deliver current individual PDFs.",
+  "combined_pdf_sha256": "e55262b9b4c9d866b9959a29cfac004bb7b8de846a21f21a46203a6aee28e256",
+  "approved_revisions": {
+    "023": "Upper luggage case removed; Shiba sticker and Sochi tag on lower case, visible in full book art despite deliberate card QR overlap",
+    "024": "Unchanged",
+    "025": "Original first-delivered illustration restored; CryptoNote, large spiral, footprints and token tray; no Blind Signatures envelope",
+    "026": "Paper plane removed; fourth art note describes the existing symbolic hand and light",
+    "027": "Glen Park slip removed; Princess Bride book callback retained"
+  }
 }

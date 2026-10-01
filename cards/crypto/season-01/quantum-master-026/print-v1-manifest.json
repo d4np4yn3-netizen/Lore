@@ -1,43 +1,43 @@
 {
   "artwork": {
     "path": "cards/crypto/season-01/quantum-master-026/art.png",
-    "bytes": 2475956,
-    "sha256": "f6c6128ddc332dcbea7a7ca38fbe08fa91825254559f68dddfc457665b2ab427"
+    "bytes": 2343109,
+    "sha256": "7afbd7ccd9b559b540a739af25a7f9214d118b61e01f55fbe923d6ef7f4a2e5c"
   },
   "front": {
     "path": "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.png",
-    "bytes": 945734,
-    "sha256": "4afe0f155885e2d376368a8f062ebfad9ff05b178cd7855bbc424094dd7187b7"
+    "bytes": 916122,
+    "sha256": "73af0dcfe7c97f457a48992e4e4e24ef432acf4d7f2d4cc6e4eeffb5dbeb2045"
   },
   "editable_svg": {
     "path": "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.svg",
-    "bytes": 3337520,
-    "sha256": "cccd2eca6da663dcc37c47eafb51a44cf3ec654480e43b84c48c0fbd99056bf7"
+    "bytes": 3160392,
+    "sha256": "b9360d42ec6009f23787b32bd6165a40ed07cecaf130175ab7e756cfa4740ae6"
   },
   "printer_pdf": {
     "path": "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.pdf",
-    "bytes": 1689433,
-    "sha256": "ef12c3cd41ce4fb552587dac1e71d44ec0c0cadc76a0c1ece9848976130f1c6e"
+    "bytes": 1681075,
+    "sha256": "f084d4eb39f06a280b920a651d4ed4031d2622433300405d127e267a8b699178"
   },
   "book_spread": {
     "path": "book/crypto-season-01/proofs/026-quantum-full-art-spread-v1.pdf",
-    "bytes": 4736899,
-    "sha256": "53d7a58a7000738f6fde625cf86f9563319b69df855595de863c80d394c3ca49"
+    "bytes": 4678530,
+    "sha256": "a8414bbce76e2a09e65c7923b67cebbe6cd27fea1993fd3e08c1ae8fa462a705"
   },
   "chapter": {
     "path": "book/crypto-season-01/026-quantum.md",
-    "bytes": 3670,
-    "sha256": "21b4a5109c7124d65e00f1687ab3d1ca8029b6e089462c892b589d92973e85fa"
+    "bytes": 3780,
+    "sha256": "7629e59017d748a3d81e84b2779f010521f6eedbce14252deb09cd8b9e26d11f"
   },
   "status": "AUTHORISED_PRINTER_FILES_AND_PUBLICATION",
   "qr_url": "https://lore-site-v1.vercel.app/crypto/026/",
-  "qr_status": "PRODUCTION_ROUTE_PENDING_DEPLOYMENT",
+  "qr_status": "PRODUCTION_ROUTE_PENDING_CORRECTION_VERIFICATION",
   "qr_decoded_from_exported_png": "https://lore-site-v1.vercel.app/crypto/026/",
   "qr_decoded_from_300dpi_pdf_render": "https://lore-site-v1.vercel.app/crypto/026/",
-  "artwork_unchanged": true,
+  "artwork_unchanged": false,
   "svg_embedded_art_matches_approved_art": true,
   "printer_pdf_pixels_match_front_png": true,
-  "only_qr_and_review_label_changed": true,
+  "only_qr_and_review_label_changed": false,
   "print_release": false,
   "book_reproduction_release": false,
   "physical_qr_scan_test": false,
@@ -69,5 +69,8 @@
   ],
   "card_and_book_pages_visually_checked": true,
   "book_qa_record": "book/crypto-season-01/proofs/023-027-book-qa-v1.json",
-  "publication_verification": "cards/crypto/season-01/quantum-master-026/publication-verification.json"
+  "publication_verification": "cards/crypto/season-01/quantum-master-026/publication-verification.json",
+  "latest_art_correction": "Removed the small white paper airplane and restored the shelf. Namecoin slip, animation studies, catalogue grid and main scene remain.",
+  "only_approved_artwork_changed_since_previous_publication": true,
+  "svg_geometry_copy_rarity_and_qr_unchanged": true
 }

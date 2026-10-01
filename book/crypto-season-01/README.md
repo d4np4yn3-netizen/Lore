@@ -67,7 +67,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 
 ## 023 Doge Goes to Sochi
 
-[Chapter](023-doge-goes-to-sochi.md) · [Two-page spread](proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf). Common 023/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. Exact approved luggage-sticker revision retained. Run `sync_023.py --check` to verify site copy.
+[Chapter](023-doge-goes-to-sochi.md) · [Two-page spread](proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf). Common 023/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The final approved revision removes the upper case and places the Shiba sticker and Sochi tag on the lower case, visible in the book artwork even where the card QR overlaps them. Run `sync_023.py --check` to verify site copy.
 
 ## 024 Mt. Gox
 
@@ -75,15 +75,15 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 
 ## 025 Monero Launches
 
-[Chapter](025-monero-launches.md) · [Two-page spread](proofs/025-monero-launches-full-art-spread-v1.pdf). Rare 025/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. Exact approved third-revision artwork retained; no footprint clue is claimed. Run `sync_025.py --check` to verify site copy.
+[Chapter](025-monero-launches.md) · [Two-page spread](proofs/025-monero-launches-full-art-spread-v1.pdf). Rare 025/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The original first-delivered artwork is restored at Dan’s request: single-lens phone, CryptoNote book, large awning spiral, footprints and token tray. Run `sync_025.py --check` to verify site copy.
 
 ## 026 Quantum
 
-[Chapter](026-quantum.md) · [Two-page spread](proofs/026-quantum-full-art-spread-v1.pdf). Common 026/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The book identifies original geometric studies and deliberate future callbacks without presenting them as historical props or reproductions of other artists' works. Run `sync_026.py --check` to verify site copy.
+[Chapter](026-quantum.md) · [Two-page spread](proofs/026-quantum-full-art-spread-v1.pdf). Common 026/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The paper plane is removed. The book identifies original geometric studies, the symbolic hand and light, and the deliberate future catalogue callback without presenting them as historical props or reproductions of other artists' works. Run `sync_026.py --check` to verify site copy.
 
 ## 027 The Bitcoin Auction
 
-[Chapter](027-the-bitcoin-auction.md) · [Two-page spread](proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf). Common 027/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The book distinguishes the sealed-bid process from the symbolic gavel and room. Run `sync_027.py --check` to verify site copy.
+[Chapter](027-the-bitcoin-auction.md) · [Two-page spread](proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf). Common 027/100; tightened card approved and book creation, GitHub upload and site publication authorised 1 October 2026. The Glen Park library slip is removed; The Princess Bride book remains the callback to 016. The book distinguishes the sealed-bid process from the symbolic gavel and room. Run `sync_027.py --check` to verify site copy.
 
 ## Cards 023 to 027 review set
 
