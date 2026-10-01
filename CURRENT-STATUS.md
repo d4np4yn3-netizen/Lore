@@ -1,3 +1,9 @@
+# Website history experience approved — 1 October 2026
+
+Dan approved the rendered redesign and explicitly authorized making it the main site, preserving working QR destinations. The preview adds a chronological archive with year jumps, expandable story/art/clue/book views, 115 inspected clue thumbnails and 52 exact book-page previews. All 26 website card files are separately saved derivatives cropped only to the approved print-v1 trim box [36,36,744,1038]; source printer files remain byte-identical. See site/web-card-derivatives.json and site/media/README.md. Production publication/final verification is in progress through PR #6. Card 022 remains absent. Historical unnumbered demo cards are outside the published 26-card collection and are not silently released.
+
+The preceding corrected 023–027 publication at ac8d3634de5bf6e2e40a8692e751b2f0df0d281e is verified READY: all current five QR destinations, story/egg content and 25 downloadable asset hashes matched their final approved files. This supersedes the pending-verification wording below. Physical print and book reproduction release statuses remain separate and unchanged.
+
 # 023–027 final requested corrections - 1 October 2026
 
 Supersedes the earlier batch below. Dan removed023’s elevated luggage box and moved the sticker/tag to the lower box (intentionally covered by card QR but visible in book art), kept024 unchanged, restored025’s first delivered single-lens artwork, removed026’s airplane and027’s Glen Park slip, then approved the results. Titles, captions, dates, rarities, QR payloads and print geometry are unchanged. The book and website explanations match those final objects. Corrective GitHub publication/live verification in progress; the earlier batch remains in commit c0207642b1fa9768fb8c002667493971cefcd569. No022 added; physical print and book reproduction release remain false.
