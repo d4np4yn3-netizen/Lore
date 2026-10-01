@@ -1,3 +1,5 @@
+> **Current publication title: MUCH WOW.** Dan accepted this rename on 1 October 2026. Epic rarity, VERY CURRENCY. phrase, launch date and the exact approved artwork remain unchanged. See [current numbered master](../../much-wow-master-020/README.md). The historical brief and optional unimplemented clue proposals follow.
+
 # 020 — Birth of Doge
 
 **Date:** 2013-12-06  ·  **Era:** Crypto expands

@@ -564,14 +564,14 @@
     {
       "rarity": "epic",
       "creator": "DOGECOIN",
-      "title_line_1": "BIRTH OF",
-      "title_line_2": "DOGE",
+      "title_line_1": "MUCH",
+      "title_line_2": "WOW",
       "context": "VERY CURRENCY.",
       "moment_label": "06 DEC 2013",
-      "set_label": "CRYPTO • SEASON 01",
-      "artwork": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
-      "qr_url": "https://example.com/lore/crypto/birth-of-doge",
-      "status": "VISUALLY_APPROVED",
+      "set_label": "CRYPTO • SEASON 01 • 020/100",
+      "artwork": "cards/crypto/season-01/much-wow-master-020/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/020/",
+      "status": "AUTHORISED_PRINTER_FILES_AND_PUBLICATION",
       "artwork_status": "VISUALLY_APPROVED",
       "phrase_status": "APPROVED_AND_PRIMARY_SOURCE_VERIFIED",
       "sources": [
@@ -588,7 +588,7 @@
         63,
         88
       ],
-      "qr_mode": "demo",
+      "qr_mode": "live",
       "print_release": false,
       "publication_approved": true,
       "interpretation": "Kabosu likeness in an invented homemade coin-mint scene. The room, machine and props are fictional; this is not a reconstruction of her home or the founders workplace.",
@@ -597,50 +597,52 @@
       "season": 1,
       "subject": "DOGECOIN",
       "title_lines": [
-        "BIRTH OF",
-        "DOGE"
+        "MUCH",
+        "WOW"
       ],
       "event_date_display": "06 DEC 2013",
-      "footer": "CRYPTO • SEASON 01",
-      "front": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
-      "editable_svg": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
+      "footer": "CRYPTO • SEASON 01 • 020/100",
+      "front": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.svg",
       "github_upload_authorised": true,
-      "website_publication_in_this_change": false,
+      "website_publication_in_this_change": true,
       "approved_by": "Dan Payne",
-      "approved_at": "2026-09-20",
-      "approval_quote": "Approved!",
-      "approval_record": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
-      "source_notes": "cards/crypto/season-01/birth-of-doge-master-02/source-notes.md",
-      "moment_number": null,
-      "set_size": null,
+      "approved_at": "2026-10-01",
+      "approval_quote": "ok create trhe book pages, print ready file, qr code and upload to site",
+      "approval_record": "cards/crypto/season-01/much-wow-master-020/approval.json",
+      "source_notes": "cards/crypto/season-01/much-wow-master-020/source-notes.md",
+      "moment_number": 20,
+      "set_size": 100,
       "print_quantities": null,
-      "qr_status": "DEMO_ONLY",
+      "qr_status": "PRODUCTION_ROUTE_CONFIGURED_VERIFICATION_PENDING",
       "style_migration_status": "APPROVED_CURRENT_STYLE",
       "style_revision": "LORE-CRYPTO-STYLE-v1.0",
       "style_reference": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
       "style_reference_sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
       "style_reference_commit": "1910d0da5303603cfee9a54fa76e084beb700884",
       "composition_reference": "cards/crypto/season-01/birth-of-doge-master-01/art.png",
-      "supersedes": "cards/crypto/season-01/birth-of-doge-master-01/LORE-Birth-of-Doge-Epic-v1.png",
+      "supersedes": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
       "current_files": [
         {
-          "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
-          "bytes": 1539831,
-          "sha256": "2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7",
-          "git_blob": "70b4a9c074156ccc2c098133bffc3d5834c0cd2f"
+          "path": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.png",
+          "bytes": 935927,
+          "sha256": "a0c55e2a867a51dec56e75668c654af75529a16667e88b4472cd6eb8c01055f8"
         },
         {
-          "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
-          "bytes": 3288774,
-          "sha256": "b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4",
-          "git_blob": "89512b559629f9567c07a5782502e84ac6e15637"
+          "path": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.svg",
+          "bytes": 3290047,
+          "sha256": "fb04c4def1c39dc3faf9a778bcf8ecbd032640440ef2cbbde20888594daebe51"
+        },
+        {
+          "path": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.pdf",
+          "bytes": 1633671,
+          "sha256": "5c57e1ac700a28d60d6b93ba0ca018038dd89e982fd4789320cda466ace78b8c"
         }
       ],
       "artwork_file": {
-        "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+        "path": "cards/crypto/season-01/much-wow-master-020/art.png",
         "bytes": 2440155,
-        "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
-        "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6"
+        "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
       },
       "previous_approved_files": [
         {
@@ -654,14 +656,23 @@
           "bytes": 3940302,
           "sha256": "b38f8e2dcc85a560bfeece722307e30f2a303e7f28181e7b84066fc5392c8494",
           "git_blob": "3504810ab3b1a85d9b2bd972be98ad08e7f84aa0"
+        },
+        {
+          "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.png",
+          "bytes": 1539831,
+          "sha256": "2d20b982978dd712681783caccc528f4e6c4b6a315ac415e3187ff8431a59ee7",
+          "git_blob": "70b4a9c074156ccc2c098133bffc3d5834c0cd2f"
+        },
+        {
+          "path": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2.svg",
+          "bytes": 3288774,
+          "sha256": "b5ba0a6aa227a984c8e1d7f30199ca0464b26b2150124526e83b5c20082a19f4",
+          "git_blob": "89512b559629f9567c07a5782502e84ac6e15637"
         }
       ],
       "previous_approval_record": "cards/crypto/season-01/birth-of-doge-master-01/approval.json",
       "print_derivative": {
         "revision": "LORE-CRYPTO-PRINT-v1.0",
-        "front": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.png",
-        "editable_svg": "cards/crypto/season-01/birth-of-doge-master-02/LORE-Birth-of-Doge-Epic-v2-Print-v1.svg",
-        "manifest": "cards/crypto/season-01/birth-of-doge-master-02/print-v1-manifest.json",
         "canvas_px": [
           816,
           1110
@@ -676,17 +687,26 @@
           981
         ],
         "transform": "translate(46.515 48.921) scale(0.8033)",
-        "phrase": {
-          "size": 25,
-          "weight": 700,
-          "position_tracking_colour": "preserved"
-        },
-        "qr_status": "DEMO_ONLY",
         "print_release": false,
-        "physical_proof_received": false,
-        "physical_qr_scan_test": false,
-        "converted_at": "2026-09-24"
-      }
+        "front": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.svg",
+        "printer_pdf": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.pdf",
+        "manifest": "cards/crypto/season-01/much-wow-master-020/print-v1-manifest.json",
+        "qr_status": "PRODUCTION_ROUTE_CONFIGURED_VERIFICATION_PENDING",
+        "physical_qr_scan_test": false
+      },
+      "confirmed_lore_owned_route": true,
+      "review_only": false,
+      "phrase_source": "https://bitcointalk.org/index.php?topic=361813.0",
+      "title": "MUCH WOW",
+      "previous_title": "BIRTH OF DOGE",
+      "rarity_status": "APPROVED_EPIC",
+      "printer_pdf": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.pdf",
+      "book_chapter": "book/crypto-season-01/020-much-wow.md",
+      "book_spread": "book/crypto-season-01/proofs/020-much-wow-full-art-spread-v1.pdf",
+      "historical_art_approval": "cards/crypto/season-01/birth-of-doge-master-02/approval.json",
+      "title_change_approved_at": "2026-10-01",
+      "numbered_derivative_art_unchanged": true
     },
     {
       "id": "crypto-s01-the-whitepaper",

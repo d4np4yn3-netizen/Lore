@@ -56,3 +56,7 @@ The two-page entry gives page one entirely to the approved illustration, edge to
 ## 019 Ethereum’s Whitepaper
 
 [Chapter](019-ethereum-whitepaper.md) · [Two-page spread](proofs/019-ethereum-whitepaper-full-art-spread-v1.pdf). Epic 019/100; creation and site publication authorised 1 October 2026. Exact v3 art preserved. Run `sync_019.py --check` to verify site copy.
+
+## 020 Much Wow
+
+[Chapter](020-much-wow.md) · [Two-page spread](proofs/020-much-wow-full-art-spread-v1.pdf). Epic 020/100; renamed from Birth of Doge on 1 October 2026. Exact previously approved artwork and VERY CURRENCY. phrase retained. Run `sync_020.py --check` to verify site copy.

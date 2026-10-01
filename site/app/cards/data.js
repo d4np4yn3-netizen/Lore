@@ -17,6 +17,7 @@ import chapter016 from './content/016.json';
 import chapter017 from './content/017.json';
 import chapter018 from './content/018.json';
 import chapter019 from './content/019.json';
+import chapter020 from './content/020.json';
 
 export const cards = [
   {
@@ -243,6 +244,15 @@ export const cards = [
     book: 'book/crypto-season-01/proofs/019-ethereum-whitepaper-full-art-spread-v1.pdf',
     ...chapter019,
     source: 'https://blog.ethereum.org/2014/01/23/ethereum-now-going-public', number: '019/100',
+  },
+  {
+    slug: 'much-wow', title: 'MUCH WOW', rarity: 'EPIC',
+    date: '06 DEC 2013', subject: 'DOGECOIN', phrase: 'VERY CURRENCY.',
+    image: 'cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.png',
+    artwork: 'cards/crypto/season-01/much-wow-master-020/art.png',
+    book: 'book/crypto-season-01/proofs/020-much-wow-full-art-spread-v1.pdf',
+    ...chapter020,
+    source: 'https://dogecoin.com/dogepedia/articles/history-of-dogecoin/', number: '020/100',
   },
 ];
 
