@@ -11,13 +11,14 @@ function Moment({card,onOpen,compact=false}) {
 }
 export default function Home(){
  const [selected,setSelected]=useState(null),[activeYear,setActiveYear]=useState(years[0]),[view,setView]=useState('timeline'),[query,setQuery]=useState('');
+ const returnPoint=useRef(null);
  const rail=useRef(null),selectedIndex=archiveCards.findIndex(c=>c.slug===selected),card=archiveCards[selectedIndex];
  const filtered=archiveCards.filter(c=>`${c.title} ${c.date} ${c.subject} ${c.number} ${c.rarity}`.toLowerCase().includes(query.toLowerCase().trim()));
  const isGrid=view==='grid'||query.trim();
- useEffect(()=>{function sync(){const slug=new URL(window.location.href).searchParams.get('moment');setSelected(archiveCards.some(c=>c.slug===slug)?slug:null);}sync();window.addEventListener('popstate',sync);return()=>window.removeEventListener('popstate',sync);},[]);
+ useEffect(()=>{const restoration=window.history.scrollRestoration;window.history.scrollRestoration='manual';function sync(){const slug=new URL(window.location.href).searchParams.get('moment');setSelected(archiveCards.some(c=>c.slug===slug)?slug:null);if(!slug&&returnPoint.current){const point=returnPoint.current;requestAnimationFrame(()=>{window.scrollTo({top:point.y,behavior:'instant'});point.element?.focus({preventScroll:true});});}}sync();window.addEventListener('popstate',sync);return()=>{window.history.scrollRestoration=restoration;window.removeEventListener('popstate',sync);};},[]);
  useEffect(()=>{if(isGrid)return;const sections=[...document.querySelectorAll('[data-year]')];function update(){let current=years[0];for(const el of sections){if(el.getBoundingClientRect().top<window.innerHeight*.42)current=Number(el.dataset.year);}setActiveYear(current);}const observer=new IntersectionObserver(update,{rootMargin:'-10% 0px -45% 0px',threshold:[0,.1,.5,1]});sections.forEach(el=>observer.observe(el));update();return()=>observer.disconnect();},[isGrid]);
  useEffect(()=>{const active=rail.current?.querySelector('[aria-current="true"]');if(active){const parent=rail.current;parent.scrollTo({left:Math.max(0,active.offsetLeft-parent.offsetLeft-parent.clientWidth/2+active.clientWidth/2),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}},[activeYear]);
- function openCard(c,replace=false){const url=new URL(window.location.href);url.searchParams.set('moment',c.slug);window.history[replace?'replaceState':'pushState']({...window.history.state,loreMoment:true},'',url);setSelected(c.slug);}
+ function openCard(c,replace=false){if(!replace){const focused=document.activeElement;returnPoint.current={y:window.scrollY,element:focused?.matches('a,button')?focused:document.querySelector('#moment-'+c.slug+' a')};}const url=new URL(window.location.href);url.searchParams.set('moment',c.slug);window.history[replace?'replaceState':'pushState']({...window.history.state,loreMoment:true},'',url);setSelected(c.slug);}
  function closeCard(){if(window.history.state?.loreMoment)window.history.back();else{const url=new URL(window.location.href);url.searchParams.delete('moment');window.history.replaceState(window.history.state,'',url);setSelected(null);}}
  function jumpYear(year){document.getElementById('year-'+year)?.scrollIntoView();}
  const pizza=archiveCards.find(c=>c.slug==='pizza-day');
