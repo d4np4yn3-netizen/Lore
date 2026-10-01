@@ -26,7 +26,7 @@
     "sha256": "6ffccd1d20e7d3a7f5e88afa11b209f71f2808e99fbcfd7f5954a768bf532a0b"
   },
   "qr_url": "https://lore-site-v1.vercel.app/crypto/021/",
-  "qr_status": "PRODUCTION_ROUTE_CONFIGURED_VERIFICATION_PENDING",
+  "qr_status": "LIVE_PUBLIC_ROUTE_VERIFIED",
   "qr_decoded_from_exported_png": "https://lore-site-v1.vercel.app/crypto/021/",
   "qr_decoded_from_300dpi_pdf_render": "https://lore-site-v1.vercel.app/crypto/021/",
   "artwork_matches_pinned_hodl": true,
@@ -63,5 +63,8 @@
     187.2,
     257.76
   ],
-  "physical_qr_scan_test": false
+  "physical_qr_scan_test": false,
+  "publication_verification": "cards/crypto/season-01/birth-of-hodl-master-021/publication-verification.json",
+  "qr_live_http_status": 200,
+  "qr_final_url": "https://lore-site-v1.vercel.app/cards/birth-of-hodl"
 }
