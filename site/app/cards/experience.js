@@ -17,3 +17,10 @@ export const yearNotes = {
   2014: ['A much wider world.', 'Community, privacy, art and hard lessons.'],
 };
 export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, c => c.toUpperCase()).replace('Mt. Gox','Mt. Gox').replace('Rpow','RPOW').replace('Hodl','HODL').replace('Wikileaks','WikiLeaks');
+
+
+export const chapters = [
+  {number:'01',start:1982,range:'1982 — 2004',title:'Before Bitcoin.',copy:'From private signatures to reusable proof of work, the ideas that made a different kind of money possible.'},
+  {number:'02',start:2008,range:'2008 — 2012',title:'An idea becomes a network.',copy:'A whitepaper becomes working code. People send it, spend it, mine it and discover what it can do.'},
+  {number:'03',start:2013,range:'2013 — 2014',title:'The culture takes shape.',copy:'New communities and possibilities arrive, alongside failures and hard lessons. Crypto becomes much more than a technical experiment.'},
+];
