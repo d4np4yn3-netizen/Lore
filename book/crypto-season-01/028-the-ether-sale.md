@@ -1,0 +1,26 @@
+# 028 - The Ether Sale
+
+**Crypto · Season One · Uncommon · 22 July 2014**
+
+**Approved phrase:** FUND THE FUTURE. (original editorial caption, not a historical quotation)
+
+## The story
+
+A small stall stands at the edge of a cliff. Two visitors look beyond it towards a city still taking shape: cranes lift through the night, bridges reach across the valley, and a vast Ethereum-shaped frame rises above the scaffolding. One visitor carries an allocation slip. The drawing makes the distance between contributing to a project and using its finished network visible.
+
+On 22 July 2014, Ethereum opened its public ether sale. Participants paid with bitcoin through the project's website, helping fund further development. The sale ran for 42 days. Its opening rate was 2,000 ETH per BTC for the first 14 days, followed by a gradual reduction. The little BTC-to-ETH sign condenses that online process into a single, readable exchange at the edge of the scene.
+
+Buying ether did not provide immediate access to a working Ethereum network. The launch announcement said it could not be used or transferred before the genesis block. Frontier, the first live release, arrived on 30 July 2015. In the illustration, the paper in the visitor's hand represents an allocation waiting for that future network. It is an invented prop, rather than a reproduction of a sale wallet or official receipt.
+
+The city turns software development into construction. Its open steelwork leaves the outcome unfinished, while the two figures give that enormous undertaking a human scale. The chest, blueprint and stall belong to this visual metaphor; the sale itself took place online. LORE holds the scene at the point of commitment, with the imagined city still ahead. The title marks the fundraising event, and the caption, FUND THE FUTURE, describes its purpose without promising what ether would become worth.
+
+## Details in the artwork
+
+1. **BTC to ETH.** The wooden sign identifies the currency used to buy ether. The cliff-top stall is a visual shorthand for the online sale, not a historical location.
+2. **The 42-day placard.** The small calendar shows 22 JUL 2014 and 42 DAYS, fixing the opening date and the length of the sale beside the collection chest.
+3. **The allocation slip.** The paper in the visitor's hand carries BTC-to-ETH and ALLOCATION wording. It stands for a recorded purchase awaiting a network that had yet to launch.
+4. **The unfinished city.** Cranes and exposed scaffolding surround a giant octahedral structure. Ethereum's familiar shape identifies the project; the incomplete buildings picture the development still to come.
+
+## Source and art note
+
+Vitalik Buterin's [Launching the Ether Sale](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale) records the date, duration, opening rate and restrictions before genesis. Stephan Tual's [Ethereum Launches](https://blog.ethereum.org/2015/07/30/ethereum-launches) records Frontier's launch. The figures, cliff, stall, chest, slip and city are imagined. FUND THE FUTURE is editorial copy, not a quotation. Physical print proof and book reproduction approval remain separate.
