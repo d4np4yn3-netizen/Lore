@@ -10,3 +10,5 @@ Bundling keeps the preview publication atomic and avoids hundreds of individual 
 The 022 addition is append-only: display-06.bin holds eight new WebP images (card, full artwork, two PDF pages and four actual-art clue crops). The six earlier bundles and all 219 earlier media records and hashes are unchanged. The full index contains 227 images and 119 close-ups.
 
 The 028 addition is append-only: display-07.bin holds eight images from the approved cliff artwork and final card/book (card, full artwork, two PDF pages and four visually verified clue crops). All 227 earlier media records and bundles remain unchanged. The full index now contains 235 images, 123 clue close-ups and 56 book-page previews.
+
+029 is append-only: display-08.bin holds seven new WebPs (card trim, full art, two book pages, three actual-art clues). All 235 previous images and bundles are unchanged. Totals: 242 images, 126 clue close-ups and 58 book previews.

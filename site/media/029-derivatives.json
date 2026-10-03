@@ -1,0 +1,147 @@
+{
+  "card": "029",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/keys-in-your-pocket-master-029/art.png": "5091adf11aead01c438849febb8ef0ce59586f2947f6ee8ab24503f6f8005b68",
+    "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.png": "4a63b33e19ab331d5a3ee870db79ee2344fb5a170a9cd27cd10a9654c009e6a4",
+    "book/crypto-season-01/proofs/029-keys-in-your-pocket-full-art-spread-v1.pdf": "70e1d2e7569932427df29cf173b3cf1692ff68d0a627915133601a197f2c3ebb"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "Separate confirmation.",
+      "sourceBoxXYXY": [
+        421,
+        657,
+        653,
+        990
+      ],
+      "src": "/closeups/029-01.webp",
+      "width": 232,
+      "height": 333,
+      "alt": "Trezor device screen and two physical confirmation buttons",
+      "bbox": {
+        "x": 0.39717,
+        "y": 0.442722,
+        "w": 0.218868,
+        "h": 0.224394
+      }
+    },
+    {
+      "title": "The recovery sheet.",
+      "sourceBoxXYXY": [
+        0,
+        932,
+        390,
+        1318
+      ],
+      "src": "/closeups/029-02.webp",
+      "width": 390,
+      "height": 386,
+      "alt": "Recovery sheet with blank numbered lines beside the deliberately blank loose papers",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.628032,
+        "w": 0.367925,
+        "h": 0.260108
+      }
+    },
+    {
+      "title": "Two sources of light.",
+      "sourceBoxXYXY": [
+        0,
+        0,
+        1060,
+        690
+      ],
+      "src": "/closeups/029-03.webp",
+      "width": 700,
+      "height": 456,
+      "alt": "Warm desk lamp at upper left and red warning-filled computer screen at right",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 0.46496
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/029-art.webp",
+      "pack": "display-08.bin",
+      "offset": 0,
+      "length": 266228,
+      "sha256": "aaf278fece9f7442155c8fd71e148abc963497a3f932cbb1877171804c39e1a5"
+    },
+    {
+      "path": "archive/029-page-1.webp",
+      "pack": "display-08.bin",
+      "offset": 266228,
+      "length": 177546,
+      "sha256": "8df0ba606ae33268b793860edcd68200fec6f035a6bf92fd5a021d7dbc294218"
+    },
+    {
+      "path": "archive/029-page-2.webp",
+      "pack": "display-08.bin",
+      "offset": 443774,
+      "length": 120688,
+      "sha256": "7a5e9a48e459c40696c75519f383323ca217bf97313cbcb9c0ecc110f593a1c2"
+    },
+    {
+      "path": "archive/029-web-card.webp",
+      "pack": "display-08.bin",
+      "offset": 564462,
+      "length": 105048,
+      "sha256": "06b85da97b73ec6d4169749f867dca63ba0695e687b40321d1164ca7763401df"
+    },
+    {
+      "path": "closeups/029-01.webp",
+      "pack": "display-08.bin",
+      "offset": 669510,
+      "length": 15374,
+      "sha256": "57fb5d626c565c7812e873197315b8086d7d3eaeac4689532600bc18c0beba9d"
+    },
+    {
+      "path": "closeups/029-02.webp",
+      "pack": "display-08.bin",
+      "offset": 684884,
+      "length": 24426,
+      "sha256": "38a2e670fdc4a3efef767306ce903746f41b588e1b1ded7c982946431ad03615"
+    },
+    {
+      "path": "closeups/029-03.webp",
+      "pack": "display-08.bin",
+      "offset": 709310,
+      "length": 78094,
+      "sha256": "84d1cfcde537388be67aa26b0c3db0bf7e615c8102aa94e2ac570beb4738e2dc"
+    }
+  ],
+  "bundleSHA256": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+  "previousAssetsPreserved": 235,
+  "previousBundleSHA256": {
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349"
+  },
+  "originalMastersUnchanged": true
+}

@@ -17,13 +17,13 @@ const media = Object.values(mediaBySlug);
 const index = read('media/index.json');
 const derivatives = read('web-card-derivatives.json');
 const contentIds = fs.readdirSync(path.join(root, 'app/cards/content')).filter(f => /^\d{3}\.json$/.test(f)).map(f => f.slice(0, 3)).sort();
-const expectedIds = Array.from({ length: 28 }, (_, i) => String(i + 1).padStart(3, '0'));
+const expectedIds = Array.from({ length: 29 }, (_, i) => String(i + 1).padStart(3, '0'));
 const mediaIds = media.map(card => card.image.src.match(/\/(\d{3})-/)?.[1]).sort();
 const qrIds = fs.readdirSync(path.join(root, 'app/crypto')).filter(id => /^\d{3}$/.test(id)).sort();
 const cardSource = fs.readFileSync(path.join(root, 'app/cards/data.js'), 'utf8');
 const cardIds = [...cardSource.matchAll(/number:\s*['"](\d{3})\/100['"]/g)].map(m => m[1]).sort();
 for (const [label, ids] of Object.entries({ content: contentIds, media: mediaIds, clues: Object.keys(closeups).sort(), QR: qrIds, cards: cardIds })) {
-  assert.deepEqual(ids, expectedIds, `${label}: contiguous 001–028`);
+  assert.deepEqual(ids, expectedIds, `${label}: contiguous 001–029`);
 }
 
 let clues = 0;
@@ -63,18 +63,18 @@ for (const asset of index.assets) {
   assert.equal(hash(packed), asset.sha256, 'Packed bytes ' + asset.path);
 }
 
-// Pinned semantic snapshots from remote baseline 986261d9dad38198d201a34f53027564b2cfe93d.
-// Removing only the 028 additions must recover every earlier record exactly.
-const { '028': latestClues, ...priorCloseups } = closeups;
-const { 'the-ether-sale': latestMedia, ...priorMedia } = mediaBySlug;
-const priorIndex = { ...index, assets: index.assets.filter(asset => asset.pack !== 'display-07.bin') };
-const priorDerivatives = { ...derivatives, cards: derivatives.cards.filter(card => card.number !== '028') };
-assert.equal(jsonHash(priorCloseups), 'e6de4632aefb7d1b66ec841758c23a359f4825095f95ea761e05ad9733363f93', 'All 119 earlier clue records preserved');
-assert.equal(jsonHash(priorMedia), '6686d49cf24a79e6620b71e445ff13eccd85060481231a0674058f78ca186aa9', 'All 27 earlier card media records preserved');
-assert.equal(jsonHash(priorIndex), '4a79fbeff23b97f2816dd62d924de2ff41dc30f40090b773577d2f14a1db22f0', 'All 227 earlier media index records preserved');
-assert.equal(jsonHash(priorDerivatives), '380a567b777d57d8b3f92c193233c743f69f96c7a5453a9297215ec01884ee92', 'All 27 earlier trim records preserved');
+// Pinned semantic snapshots from remote baseline 8e5650391343628a988224d7089401a6a3e511f5.
+// Removing only the 029 additions must recover every earlier record exactly.
+const { '029': latestClues, ...priorCloseups } = closeups;
+const { 'keys-in-your-pocket': latestMedia, ...priorMedia } = mediaBySlug;
+const priorIndex = { ...index, assets: index.assets.filter(asset => asset.pack !== 'display-08.bin') };
+const priorDerivatives = { ...derivatives, cards: derivatives.cards.filter(card => card.number !== '029') };
+assert.equal(jsonHash(priorCloseups), '6abac39c1c9c64a6a99fedf6079081a3f30a974df1ecda3f3e3439371a381ee1', 'All 123 earlier clue records preserved');
+assert.equal(jsonHash(priorMedia), 'c36659f32c6ff65a9a57aed0599ede457c22b7773d86681a97a1da06d9104bcd', 'All 28 earlier card media records preserved');
+assert.equal(jsonHash(priorIndex), '2695996eb023e620b1f0697574613f39eac4b378552332748793ae1819d3a2ae', 'All 235 earlier media index records preserved');
+assert.equal(jsonHash(priorDerivatives), '17d6a1a19d44f3ca629cf8f86165b77a779f0e06dac84c4499a23c3232ca3bee', 'All 28 earlier trim records preserved');
 
-for (const id of ['022', '028']) {
+for (const id of ['022', '028', '029']) {
   const added = read('media/' + id + '-derivatives.json');
   assert.equal(added.displayAssets.length, 4 + closeups[id].length, id + ' display assets');
   assert.deepEqual(read('app/cards/content/' + id + '.json').eggs.map(egg => egg.title), added.clues.map(clue => clue.title), id + ' clue order');
@@ -84,23 +84,23 @@ for (const id of ['022', '028']) {
 }
 assert.equal(read('media/022-derivatives.json').previousAssetsPreserved, 219);
 assert.equal(mediaBySlug['buried-fortune'].hashes.artwork, '0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95');
-assert.equal(media.filter(card => card.assetOrigin).length, 2, 'Only 022 and 028 override original asset origin');
+assert.equal(media.filter(card => card.assetOrigin).length, 3, 'Only 022, 028 and 029 override original asset origin');
 for (const card of media.filter(card => card.assetOrigin)) assert(card.assetOrigin.startsWith('https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/'));
 const reader = fs.readFileSync(path.join(root, 'app/components/ReadingRoom.js'), 'utf8');
 assert(reader.includes('card.media.assetOrigin || ASSET_ORIGIN'), 'Per-card original asset fallback');
-assert.equal((reader.match(/href=\{assetOrigin\+/g) || []).length, 3, 'All three original links use per-card asset origin');
+assert.equal((reader.match(/href=\{assetOrigin\+/g) || []).length, 5, 'All original links use per-card asset origin');
 
-const added = read('media/028-derivatives.json');
+const added = read('media/029-derivatives.json');
 assert.equal(added.previousAssetsPreserved, priorIndex.assets.length);
-assert.equal(added.previousAssetsPreserved, 227);
-assert.equal(latestClues.length, 4);
-assert.deepEqual(added.displayAssets, index.assets.filter(asset => asset.pack === 'display-07.bin'), '028 index records');
-assert.equal(fileHash(path.join(root, 'media/display-07.bin')), added.bundleSHA256, '028 bundle');
-assert.equal(latestMedia.hashes.artwork, 'bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7', 'Approved 028 artwork');
-for (const [source, sha256] of Object.entries(added.sourcesSHA256)) assert.equal(fileHash(path.join(repo, source)), sha256, '028 unchanged original ' + source);
+assert.equal(added.previousAssetsPreserved, 235);
+assert.equal(latestClues.length, 3);
+assert.deepEqual(added.displayAssets, index.assets.filter(asset => asset.pack === 'display-08.bin'), '029 index records');
+assert.equal(fileHash(path.join(root, 'media/display-08.bin')), added.bundleSHA256, '029 bundle');
+assert.equal(latestMedia.hashes.artwork, '5091adf11aead01c438849febb8ef0ce59586f2947f6ee8ab24503f6f8005b68', 'Approved 029 artwork');
+for (const [source, sha256] of Object.entries(added.sourcesSHA256)) assert.equal(fileHash(path.join(repo, source)), sha256, '029 unchanged original ' + source);
 assert.equal(latestMedia.hashes.artwork, added.sourcesSHA256[latestMedia.originalArt]);
 assert.equal(latestMedia.hashes.book, added.sourcesSHA256[latestMedia.originalBook]);
-const trim = derivatives.cards.find(card => card.number === '028');
+const trim = derivatives.cards.find(card => card.number === '029');
 assert.equal(latestMedia.hashes.image, added.sourcesSHA256[trim.source]);
 assert.equal(trim.sourceSHA256, latestMedia.hashes.image);
 assert.deepEqual(trim.sourceDimensions, [816, 1110]);
@@ -111,24 +111,24 @@ const png = fs.readFileSync(path.join(repo, trim.source));
 assert.deepEqual([png.readUInt32BE(16), png.readUInt32BE(20)], trim.sourceDimensions);
 for (const [i, clue] of added.clues.entries()) {
   const { title, sourceBoxXYXY: box, ...display } = clue;
-  assert.deepEqual(display, latestClues[i], '028 clue metadata ' + title);
+  assert.deepEqual(display, latestClues[i], '029 clue metadata ' + title);
   const [x1, y1, x2, y2] = box;
   const [w, h] = added.artDimensions;
-  assert.deepEqual(display.bbox, Object.fromEntries(['x', 'y', 'w', 'h'].map((key, n) => [key, Number([x1 / w, y1 / h, (x2 - x1) / w, (y2 - y1) / h][n].toFixed(6))])), '028 source box ' + title);
+  assert.deepEqual(display.bbox, Object.fromEntries(['x', 'y', 'w', 'h'].map((key, n) => [key, Number([x1 / w, y1 / h, (x2 - x1) / w, (y2 - y1) / h][n].toFixed(6))])), '029 source box ' + title);
 }
-const chapter = fs.readFileSync(path.join(repo, 'book/crypto-season-01/028-the-ether-sale.md'), 'utf8');
+const chapter = fs.readFileSync(path.join(repo, 'book/crypto-season-01/029-keys-in-your-pocket.md'), 'utf8');
 // Parse sections with explicit heading boundaries so paragraph newlines remain intact.
 const chapterParts = Object.fromEntries(chapter.split('\n## ').slice(1).map(part => [part.slice(0, part.indexOf('\n')), part.slice(part.indexOf('\n') + 1).trim()]));
 const expectedCopy = {
   story: chapterParts['The story'].split('\n\n'),
   eggs: chapterParts['Details in the artwork'].split('\n').map(line => {
     const match = line.match(/^\d+\. \*\*(.*?)\*\* (.*)$/);
-    assert(match, '028 chapter clue format');
+    assert(match, '029 chapter clue format');
     return { title: match[1], text: match[2] };
   }),
   sourceNote: chapterParts['Source and art note'].split('\n\n')[0],
 };
-assert.deepEqual(read('app/cards/content/028.json'), expectedCopy, '028 book/site copy mirror');
+assert.deepEqual(read('app/cards/content/029.json'), expectedCopy, '029 book/site copy mirror');
 assert.equal(expectedCopy.story.length, 4);
-assert(fs.readFileSync(path.join(root, 'app/crypto/028/page.js'), 'utf8').includes("permanentRedirect('/cards/the-ether-sale')"), '028 QR target');
-console.log(`PASS: ${media.length} contiguous cards and QR sources, ${clues} clues, ${pages} book pages, ${positions} non-overlapping marker positions, ${index.assets.length} media hashes; all 119 earlier clues and 227 earlier images preserved; 028 sources and book/site copy match`);
+assert(fs.readFileSync(path.join(root, 'app/crypto/029/page.js'), 'utf8').includes("permanentRedirect('/cards/keys-in-your-pocket')"), '029 QR target');
+console.log(`PASS: ${media.length} contiguous cards and QR sources, ${clues} clues, ${pages} book pages, ${positions} non-overlapping marker positions, ${index.assets.length} media hashes; all 123 earlier clues and 235 earlier images preserved; 029 sources and book/site copy match`);

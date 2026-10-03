@@ -1,3 +1,9 @@
+# 029 Keys in Your Pocket approved for publication — 3 October 2026
+
+Dan approved the exact v5 artwork, Common card and two-page book spread, then requested full website publication with a working QR. TREZOR / 29 JUL 2014 / THE BITCOIN SAFE. / 029/100. Original art SHA-256 5091adf11aead01c438849febb8ef0ce59586f2947f6ee8ab24503f6f8005b68 is unchanged, including blank papers and natural nails. Final card differs only in the QR, SCAN TO DISCOVER caption and removed proof label. Approved story remains unchanged; proposed/review status is removed.
+
+Both final PNG and actual 300-DPI printer-PDF render decode to https://lore-site-v1.vercel.app/crypto/029/. Book/site copy mirror, three actual-art clue crops and two book previews are checked. All 235 existing display assets and prior sources remain unchanged. Numbered collection is 001–029, with 126 clues and 58 book-page previews; 34 unique approved designs. Live deployment verification is pending at publication. Physical print/phone-camera proof and book reproduction release remain separate and false. See the 029 master publication records.
+
 # 028 The Ether Sale approved for publication — 3 October 2026
 
 Dan approved the exact cliff-overlook card and two-page book spread, then requested publication with a working QR. Uncommon / ETHEREUM / 22 JUL 2014 / FUND THE FUTURE. / 028/100. Original art SHA-256 bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7 is preserved unchanged in cards/crypto/season-01/the-ether-sale-master-028. The final front changes only QR placeholder/caption and review label. Book/chapter changes remove proposed/review status only.
@@ -192,4 +198,3 @@ not change this pair.
 6. A large file may return an empty content field through GitHub's contents API. Check its blob SHA; do not assume it is missing or empty, or re-upload it unnecessarily.
 7. Verify the actual remote file/hash before saying uploaded. Save a small checkpoint for an incomplete transfer and resume only missing work.
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
-

@@ -2,7 +2,7 @@
   "updated": "2026-10-03",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 33,
+  "approved_visual_count": 34,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -3095,6 +3095,110 @@
         "sha256": "bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7",
         "git_blob": "48eb744c3f2974d6720e9922c976f78e69e1ef78"
       }
+    },
+    {
+      "id": "crypto-s01-keys-in-your-pocket",
+      "creator": "TREZOR",
+      "subject": "TREZOR",
+      "rarity": "common",
+      "title_line_1": "KEYS IN YOUR",
+      "title_line_2": "POCKET",
+      "title_lines": [
+        "KEYS IN YOUR",
+        "POCKET"
+      ],
+      "context": "THE BITCOIN SAFE.",
+      "moment_label": "29 JUL 2014",
+      "event_date": "2014-07-29",
+      "event_date_display": "29 JUL 2014",
+      "date_precision": "day",
+      "set_label": "CRYPTO • SEASON 01 • 029/100",
+      "footer": "CRYPTO • SEASON 01 • 029/100",
+      "moment_number": 29,
+      "set_size": 100,
+      "collection": "crypto",
+      "season": 1,
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "artwork": "cards/crypto/season-01/keys-in-your-pocket-master-029/art.png",
+      "artwork_sha256": "5091adf11aead01c438849febb8ef0ce59586f2947f6ee8ab24503f6f8005b68",
+      "front": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.svg",
+      "printer_pdf": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.pdf",
+      "book_spread": "book/crypto-season-01/proofs/029-keys-in-your-pocket-full-art-spread-v1.pdf",
+      "chapter": "book/crypto-season-01/029-keys-in-your-pocket.md",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/029/",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+      "confirmed_lore_owned_route": true,
+      "status": "FRONT_APPROVED_PUBLICATION_AUTHORISED",
+      "artwork_status": "USER_APPROVED_EXACT_V5_ARTWORK",
+      "phrase_status": "APPROVED_PERIOD_PRODUCT_TAGLINE_NOT_A_SPOKEN_QUOTE",
+      "rarity_status": "APPROVED_BY_DAN",
+      "book_copy_status": "APPROVED_FOR_BOOK_AND_WEBSITE",
+      "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+      "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "approval_record": "cards/crypto/season-01/keys-in-your-pocket-master-029/approval.json",
+      "print_manifest": "cards/crypto/season-01/keys-in-your-pocket-master-029/print-v1-manifest.json",
+      "publication_approved": true,
+      "approved_at": "2026-10-03",
+      "approved_by": "Dan Payne",
+      "print_release": false,
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "source": "https://trezor.io/blog/news/a-decade-of-pioneering-10-years-since-trezors-first-hardware-wallet-revolution",
+      "artwork_clues": [
+        {
+          "detail": "Separate confirmation.",
+          "meaning": "The device's screen and two physical buttons reference independent review and confirmation. The simplified \"Confirm?\" display is illustrative, not a verified July 2014 firmware screen.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "The recovery sheet.",
+          "meaning": "Blank numbered lines recall the need for an offline wallet backup. No secret words are shown, and the visible line count is not presented as a verified 2014 standard. The two loose sheets remain deliberately blank.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "Two sources of light.",
+          "meaning": "The warm upper-left lamp and red computer glow make the contrast between owner control and a threatening host visible. The person, room and warning screen are an invented scene, not a documented launch photograph.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        }
+      ],
+      "clue_review_status": "VISUALLY_CHECKED_IN_EXACT_APPROVED_ARTWORK",
+      "output_sha256": "4a63b33e19ab331d5a3ee870db79ee2344fb5a170a9cd27cd10a9654c009e6a4",
+      "print_svg_sha256": "1c67864d68e75b816c536566889224dbc6700e3fad8abeee0b4e7bb367530231",
+      "printer_pdf_sha256": "0a7377bc5dc63e9b34c6fc0241e3d74ff9e593b0acbe3f915f351322fb40fcc4",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.png",
+          "bytes": 835868,
+          "sha256": "4a63b33e19ab331d5a3ee870db79ee2344fb5a170a9cd27cd10a9654c009e6a4",
+          "git_blob": "f04ed4a5c7ce3767087c840c09c36bc932a6932c"
+        },
+        {
+          "path": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.svg",
+          "bytes": 2875705,
+          "sha256": "1c67864d68e75b816c536566889224dbc6700e3fad8abeee0b4e7bb367530231",
+          "git_blob": "9f61aca87d566f031eb21d6f897929b51ecd5216"
+        },
+        {
+          "path": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.pdf",
+          "bytes": 1520068,
+          "sha256": "0a7377bc5dc63e9b34c6fc0241e3d74ff9e593b0acbe3f915f351322fb40fcc4",
+          "git_blob": "becee8fafae42e0e9888f11648189d207823ece1"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/keys-in-your-pocket-master-029/art.png",
+        "bytes": 2129590,
+        "sha256": "5091adf11aead01c438849febb8ef0ce59586f2947f6ee8ab24503f6f8005b68",
+        "git_blob": "dd9ae74832eb73db8fb8e35701c835be2c095622"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -3107,7 +3211,7 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-03",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 33,
-  "numbered_published_count": 28,
-  "numbering_gap_note": "Numbered collection contains 001 through 028 without a gap."
+  "approved_print_derivative_count": 34,
+  "numbered_published_count": 29,
+  "numbering_gap_note": "Numbered collection contains 001 through 029 without a gap."
 }

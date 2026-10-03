@@ -26,6 +26,7 @@ import chapter025 from './content/025.json';
 import chapter026 from './content/026.json';
 import chapter027 from './content/027.json';
 import chapter028 from './content/028.json';
+import chapter029 from './content/029.json';
 
 export const cards = [
   {
@@ -361,6 +362,19 @@ export const cards = [
     source: 'https://blog.ethereum.org/2014/07/22/launching-the-ether-sale',
     ...chapter028,
     number: '028/100',
+  },
+  {
+    slug: 'keys-in-your-pocket', title: 'KEYS IN YOUR POCKET', rarity: 'COMMON',
+    date: '29 JUL 2014', subject: 'TREZOR', phrase: 'THE BITCOIN SAFE.',
+    phraseKind: 'product tagline',
+    image: 'cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.png',
+    artwork: 'cards/crypto/season-01/keys-in-your-pocket-master-029/art.png',
+    book: 'book/crypto-season-01/proofs/029-keys-in-your-pocket-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.svg',
+    source: 'https://trezor.io/blog/news/a-decade-of-pioneering-10-years-since-trezors-first-hardware-wallet-revolution',
+    ...chapter029,
+    number: '029/100',
   },
 ];
 
