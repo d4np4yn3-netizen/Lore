@@ -25,6 +25,7 @@ import chapter024 from './content/024.json';
 import chapter025 from './content/025.json';
 import chapter026 from './content/026.json';
 import chapter027 from './content/027.json';
+import chapter028 from './content/028.json';
 
 export const cards = [
   {
@@ -349,6 +350,17 @@ export const cards = [
     book: "book/crypto-season-01/proofs/027-the-bitcoin-auction-full-art-spread-v1.pdf?v=f24c6f564f8b",
     number: "027/100",
     ...chapter027,
+  },
+  {
+    slug: 'the-ether-sale', title: 'THE ETHER SALE', rarity: 'UNCOMMON',
+    date: '22 JUL 2014', subject: 'ETHEREUM', phrase: 'FUND THE FUTURE.',
+    phraseKind: 'editorial',
+    image: 'cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-ether-sale-master-028/art.png',
+    book: 'book/crypto-season-01/proofs/028-the-ether-sale-full-art-spread-v1.pdf',
+    source: 'https://blog.ethereum.org/2014/07/22/launching-the-ether-sale',
+    ...chapter028,
+    number: '028/100',
   },
 ];
 

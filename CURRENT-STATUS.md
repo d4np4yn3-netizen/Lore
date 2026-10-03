@@ -1,3 +1,9 @@
+# 028 The Ether Sale approved for publication — 3 October 2026
+
+Dan approved the exact cliff-overlook card and two-page book spread, then requested publication with a working QR. Uncommon / ETHEREUM / 22 JUL 2014 / FUND THE FUTURE. / 028/100. Original art SHA-256 bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7 is preserved unchanged in cards/crypto/season-01/the-ether-sale-master-028. The final front changes only QR placeholder/caption and review label. Book/chapter changes remove proposed/review status only.
+
+Both final PNG and 300-DPI printer-PDF render decode to https://lore-site-v1.vercel.app/crypto/028/. Digital geometry, embedded art and two-page PDF are checked; live publication verification is pending. Four details use actual sign, sale-date placard, allocation slip and Ethereum-shaped city scaffolding. The book and site mirror the same approved story. Numbered collection reaches 001–028 with 123 clues and 56 book previews; 33 unique approved designs. All older sources, brand/fonts/masters and 227 earlier display images remain unchanged. Physical print/phone-camera proof and book reproduction release remain separate and false.
+
 # 022 Buried Fortune publication - 3 October 2026
 
 Dan requested the full 022 card, two-page book, live QR, GitHub and website publication, then reattached and selected the matching fence-sign/WAVES-cup artwork. The exact supplied PNG is preserved at `cards/crypto/season-01/buried-fortune-master-022/art.png`, SHA-256 `0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95`. Historical byte identity with the unavailable October 1 file is not asserted. The older Doge-plush master remains unchanged.

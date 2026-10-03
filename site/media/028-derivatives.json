@@ -1,0 +1,172 @@
+{
+  "card": "028",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/the-ether-sale-master-028/art.png": "bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7",
+    "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.png": "ba087ce6bccb11c9500f51c04ab6e7ff16e9087f5c9804c2d02c30c2a07d6107",
+    "book/crypto-season-01/proofs/028-the-ether-sale-full-art-spread-v1.pdf": "e275a31d1c74436633c105e6d9b4f2051cf2877f18be0b5f14b3b72794854bdd"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "BTC to ETH.",
+      "sourceBoxXYXY": [
+        121,
+        460,
+        323,
+        584
+      ],
+      "src": "/closeups/028-01.webp",
+      "width": 202,
+      "height": 124,
+      "alt": "BTC to ETH sign on the cliff-top stall",
+      "bbox": {
+        "x": 0.114151,
+        "y": 0.309973,
+        "w": 0.190566,
+        "h": 0.083558
+      }
+    },
+    {
+      "title": "The 42-day placard.",
+      "sourceBoxXYXY": [
+        24,
+        728,
+        144,
+        847
+      ],
+      "src": "/closeups/028-02.webp",
+      "width": 120,
+      "height": 119,
+      "alt": "22 JUL 2014 and 42 DAYS on the sale calendar",
+      "bbox": {
+        "x": 0.022642,
+        "y": 0.490566,
+        "w": 0.113208,
+        "h": 0.080189
+      }
+    },
+    {
+      "title": "The allocation slip.",
+      "sourceBoxXYXY": [
+        490,
+        901,
+        603,
+        1013
+      ],
+      "src": "/closeups/028-03.webp",
+      "width": 113,
+      "height": 112,
+      "alt": "BTC-to-ETH allocation slip in the visitor\u2019s hand",
+      "bbox": {
+        "x": 0.462264,
+        "y": 0.607143,
+        "w": 0.106604,
+        "h": 0.075472
+      }
+    },
+    {
+      "title": "The unfinished city.",
+      "sourceBoxXYXY": [
+        709,
+        131,
+        941,
+        457
+      ],
+      "src": "/closeups/028-04.webp",
+      "width": 232,
+      "height": 326,
+      "alt": "Ethereum-shaped framework and cranes above the unfinished city",
+      "bbox": {
+        "x": 0.668868,
+        "y": 0.088275,
+        "w": 0.218868,
+        "h": 0.219677
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/028-art.webp",
+      "pack": "display-07.bin",
+      "offset": 0,
+      "length": 500496,
+      "sha256": "635fdedaa14749250626e4a34f434c4a7a3b1c5b2969cc7dd7840853eed43a08"
+    },
+    {
+      "path": "archive/028-page-1.webp",
+      "pack": "display-07.bin",
+      "offset": 500496,
+      "length": 313504,
+      "sha256": "4326f5326e6c391e8773ea1a95a13414b159b61981a3a1ce78f3d0bedc608a00"
+    },
+    {
+      "path": "archive/028-page-2.webp",
+      "pack": "display-07.bin",
+      "offset": 814000,
+      "length": 114502,
+      "sha256": "383b88c05b21b85acb23d09148294dc3d878cef0a042d7b7a51d8078280545d4"
+    },
+    {
+      "path": "archive/028-web-card.webp",
+      "pack": "display-07.bin",
+      "offset": 928502,
+      "length": 152556,
+      "sha256": "82ba4047b71fd5cbaf6c0c6af2783000162a479db0a64d7d222e166d5420f9de"
+    },
+    {
+      "path": "closeups/028-01.webp",
+      "pack": "display-07.bin",
+      "offset": 1081058,
+      "length": 8390,
+      "sha256": "fdda68a2427a573601788424ef812967de7d22d00fbb243e0e05a9b4b31b728b"
+    },
+    {
+      "path": "closeups/028-02.webp",
+      "pack": "display-07.bin",
+      "offset": 1089448,
+      "length": 6708,
+      "sha256": "b9edbf88c571a01603b6cca5bb8adc88a5f0f0424ca8c4cdfa88784952fb93f6"
+    },
+    {
+      "path": "closeups/028-03.webp",
+      "pack": "display-07.bin",
+      "offset": 1096156,
+      "length": 5058,
+      "sha256": "91c2e4935e8087d9e22ed7b12d9d7163806f73eddb9152d6c369975882f68cd4"
+    },
+    {
+      "path": "closeups/028-04.webp",
+      "pack": "display-07.bin",
+      "offset": 1101214,
+      "length": 36184,
+      "sha256": "d250866875c7eb523b3e5b4207cddfdfaa33a3461870d9cd656a5527fc8496c2"
+    }
+  ],
+  "bundleSHA256": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+  "previousAssetsPreserved": 227,
+  "previousBundleSHA256": {
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892"
+  },
+  "originalMastersUnchanged": true
+}

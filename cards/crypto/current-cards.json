@@ -2,7 +2,7 @@
   "updated": "2026-10-03",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 32,
+  "approved_visual_count": 33,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -2986,6 +2986,115 @@
       "print_manifest": "cards/crypto/season-01/the-bitcoin-auction-master-027/print-v1-manifest.json",
       "previous_published_art_sha256": "d7ff24f4d537bab61f3903bec50955beab20535a02d7080506bf621d9676f07f",
       "latest_art_correction": "Removed the Glen Park library slip and restored the tabletop. The navy Princess Bride book remains."
+    },
+    {
+      "id": "crypto-s01-the-ether-sale",
+      "creator": "ETHEREUM",
+      "subject": "ETHEREUM",
+      "rarity": "uncommon",
+      "title_line_1": "THE ETHER",
+      "title_line_2": "SALE",
+      "title_lines": [
+        "THE ETHER",
+        "SALE"
+      ],
+      "context": "FUND THE FUTURE.",
+      "moment_label": "22 JUL 2014",
+      "event_date": "2014-07-22",
+      "event_date_display": "22 JUL 2014",
+      "date_precision": "day",
+      "set_label": "CRYPTO • SEASON 01 • 028/100",
+      "footer": "CRYPTO • SEASON 01 • 028/100",
+      "moment_number": 28,
+      "set_size": 100,
+      "collection": "crypto",
+      "season": 1,
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "artwork": "cards/crypto/season-01/the-ether-sale-master-028/art.png",
+      "artwork_sha256": "bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7",
+      "front": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.svg",
+      "printer_pdf": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.pdf",
+      "book_spread": "book/crypto-season-01/proofs/028-the-ether-sale-full-art-spread-v1.pdf",
+      "chapter": "book/crypto-season-01/028-the-ether-sale.md",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/028/",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+      "confirmed_lore_owned_route": true,
+      "status": "FRONT_APPROVED_PUBLICATION_AUTHORISED",
+      "artwork_status": "USER_APPROVED_EXACT_CLIFF_ARTWORK",
+      "phrase_status": "APPROVED_EDITORIAL_CAPTION_NOT_A_QUOTATION",
+      "rarity_status": "APPROVED_BY_DAN",
+      "book_copy_status": "APPROVED_FOR_BOOK_AND_WEBSITE",
+      "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+      "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "approval_record": "cards/crypto/season-01/the-ether-sale-master-028/approval.json",
+      "print_manifest": "cards/crypto/season-01/the-ether-sale-master-028/print-v1-manifest.json",
+      "publication_approved": true,
+      "approved_at": "2026-10-03",
+      "approved_by": "Dan Payne",
+      "print_release": false,
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "source": "https://blog.ethereum.org/2014/07/22/launching-the-ether-sale",
+      "artwork_clues": [
+        {
+          "detail": "BTC to ETH.",
+          "meaning": "The wooden sign identifies the currency used to buy ether. The cliff-top stall is a visual shorthand for the online sale, not a historical location.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "The 42-day placard.",
+          "meaning": "The small calendar shows 22 JUL 2014 and 42 DAYS, fixing the opening date and the length of the sale beside the collection chest.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "The allocation slip.",
+          "meaning": "The paper in the visitor's hand carries BTC-to-ETH and ALLOCATION wording. It stands for a recorded purchase awaiting a network that had yet to launch.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "The unfinished city.",
+          "meaning": "Cranes and exposed scaffolding surround a giant octahedral structure. Ethereum's familiar shape identifies the project; the incomplete buildings picture the development still to come.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        }
+      ],
+      "clue_review_status": "VISUALLY_CHECKED_IN_EXACT_APPROVED_ARTWORK",
+      "output_sha256": "ba087ce6bccb11c9500f51c04ab6e7ff16e9087f5c9804c2d02c30c2a07d6107",
+      "print_svg_sha256": "24c9d652de56b65bbec0ff33c09cd10741911f198644b18f530edc5a55a40577",
+      "printer_pdf_sha256": "ba454b30209a5b148ad2b4a417b94ca9695f87943a5c0ae1de8017b7bd2af010",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.png",
+          "bytes": 1056546,
+          "sha256": "ba087ce6bccb11c9500f51c04ab6e7ff16e9087f5c9804c2d02c30c2a07d6107",
+          "git_blob": "a7430f440c2f49a8b386fb73feeab553c06f6031"
+        },
+        {
+          "path": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.svg",
+          "bytes": 3801256,
+          "sha256": "24c9d652de56b65bbec0ff33c09cd10741911f198644b18f530edc5a55a40577",
+          "git_blob": "c9bb55f12ae96f555e2a525d2c901eb55f601e00"
+        },
+        {
+          "path": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.pdf",
+          "bytes": 1789449,
+          "sha256": "ba454b30209a5b148ad2b4a417b94ca9695f87943a5c0ae1de8017b7bd2af010",
+          "git_blob": "c163b900a0c688245213a21bad3e195e27ece7f2"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-ether-sale-master-028/art.png",
+        "bytes": 2823732,
+        "sha256": "bf8010c31fd090b42aa4ecda171ae3de3212364433df231516a041a1ad080cf7",
+        "git_blob": "48eb744c3f2974d6720e9922c976f78e69e1ef78"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -2998,7 +3107,7 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-03",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 32,
-  "numbered_published_count": 27,
-  "numbering_gap_note": "022 added using the exact user-reattached selected artwork; numbered collection now contains 001 through 027 without a gap."
+  "approved_print_derivative_count": 33,
+  "numbered_published_count": 28,
+  "numbering_gap_note": "Numbered collection contains 001 through 028 without a gap."
 }
