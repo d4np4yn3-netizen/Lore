@@ -1,3 +1,11 @@
+# 030 The Dollar Token authorised for publication — 3 October 2026
+
+Dan authorised adding a tiny background paper plane, followed by card, book and QR publication. Exact final v6 ancient-ledger-library art SHA-256 0cc86230d8e5a6aa056351cd3d694f807b2f98c838e00bffd9f35b2a2eb33be9 is preserved unchanged. REALCOIN / Uncommon / 06 OCT 2014 / THE DOLLAR GOES DIGITAL. / 030/100. The title and caption are editorial wording, not historical quotations; the prose is sourced editorial content prepared under the authorised publication workflow, not a separate claim of exact wording approval.
+
+Final PNG and actual 300-DPI printer-PDF render both decode to https://lore-site-v1.vercel.app/crypto/030/ . The two-page A4 book pairs full art with a cream editorial page. Four actual-art clues cover the Realcoin clasp, dollar ledger entry, rising dollar seal and returning 007 paper plane. The date is the first issuance according to Tether’s retrospective, distinct from July announcement and November rename; backing statements remain issuer claims.
+
+Numbered collection reaches 001–030, 130 clues and 60 book previews; 35 unique approved designs. All 242 earlier display assets and previous source records are preserved. Website derivatives are separate; print sources stay 816 × 1110 at 300 DPI with 744 × 1038 trim. Live verification follows release. Physical print/phone-camera proof and book reproduction release remain separate and false; full-page art is approximately 127 PPI. Editable builder sources are archived with the 030 master.
+
 # 029 Keys in Your Pocket approved for publication — 3 October 2026
 
 Dan approved the exact v5 artwork, Common card and two-page book spread, then requested full website publication with a working QR. TREZOR / 29 JUL 2014 / THE BITCOIN SAFE. / 029/100. Original art SHA-256 5091adf11aead01c438849febb8ef0ce59586f2947f6ee8ab24503f6f8005b68 is unchanged, including blank papers and natural nails. Final card differs only in the QR, SCAN TO DISCOVER caption and removed proof label. Approved story remains unchanged; proposed/review status is removed.

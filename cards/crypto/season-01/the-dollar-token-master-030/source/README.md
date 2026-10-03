@@ -1,0 +1,3 @@
+# Exact 030 build sources
+
+These original builder scripts and uncommon template are archived unchanged from the final build. They ran in the source workspace with publication-assets as their output root and shared fonts/Python dependencies from lore-022. Their original relative workspace lookups are retained as provenance, rather than claiming a standalone installer. In a fresh checkout, set the font/dependency paths to the repository front-v3 font assets and installed Python packages before regeneration. The approved publication bytes and their checksums remain authoritative. Rebuilding does not confer a fresh visual approval.

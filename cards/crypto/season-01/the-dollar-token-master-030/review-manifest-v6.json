@@ -1,0 +1,222 @@
+{
+  "status": "USER_APPROVED_CONDITIONAL_PLANE_ADDITION_COMPLETED",
+  "created_at": "2026-10-03T14:46:00Z",
+  "canonical_repo": "https://github.com/d4np4yn3-netizen/Lore",
+  "verified_main": "57d82bf7bc184805822b6adeb572983f5269d4b8",
+  "planned_event": {
+    "review_number": "030",
+    "title": "The Dollar Token",
+    "date": "2014-10-06",
+    "rarity": "Uncommon",
+    "rarity_status": "PROPOSED",
+    "event": "First issuance of tokens by the project then called Realcoin, later renamed Tether",
+    "brief": "cards/crypto/season-01/briefs/v1/030-the-dollar-token.md",
+    "brief_git_blob": "73c896b99c9c6453aeadfe5bc0a797c45a4f18ba"
+  },
+  "art": {
+    "path": "lore-030/LORE-Crypto-030-The-Dollar-Token-Art-Final-v6.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 2467800,
+    "sha256": "0cc86230d8e5a6aa056351cd3d694f807b2f98c838e00bffd9f35b2a2eb33be9",
+    "library_file_id": "libfile_aadf8e0826cc81918090a97c8daa7817",
+    "library_version": 4,
+    "tool": "Built-in imagegen",
+    "prompt": "lore-030/prompt-030-the-dollar-token-v6-paper-plane.txt",
+    "initial_prompt": "lore-030/prompt-030-the-dollar-token-v4-ancient-ledger-library.txt"
+  },
+  "preserved_first_proof": {
+    "path": "lore-030/LORE-Crypto-030-The-Dollar-Token-Art-Review-v1.png",
+    "sha256": "fee4d0037b5c3b31323bc3bde9e11e201971cef4e1c5add74c425abd565e1aac",
+    "library_upload": false
+  },
+  "required_style_references": [
+    {
+      "path": "lore-030/references/birth-of-hodl-master-02.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "inspected": true,
+      "direct_input_both_generations": true,
+      "direct_input_v3_generation": true,
+      "direct_input_v4_generation": true,
+      "direct_input_v5_generation": true,
+      "direct_input_v6_generation": true
+    },
+    {
+      "path": "lore-030/references/birth-of-doge-master-02.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "inspected": true,
+      "direct_input_both_generations": true,
+      "direct_input_v3_generation": true,
+      "direct_input_v4_generation": true,
+      "direct_input_v5_generation": true,
+      "direct_input_v6_generation": true
+    }
+  ],
+  "content_reference": {
+    "path": "lore-030/references/user-ancient-library/image(20261003-141912).png",
+    "library_file_id": "libfile_7235392e08c4819185a35c4c8827a3d4",
+    "file_id": "file_00000000b9fc81f5a530ef87bdf776a0",
+    "sha256": "1a50ccf27203aeaa1b757f7fcf0c316ca4c2cc9fbc6ae4858c989ce1bd7ddd60",
+    "purpose": "User-supplied architectural/compositional reference for ancient Gothic library, archivist, reading table and currency-like stained glass; NOT style",
+    "inspected": true,
+    "direct_input_v4_generation": true,
+    "version": 0,
+    "direct_input_v5_generation": false,
+    "v5_note": "User architecture reference informed selected v4 target, not separately supplied in the narrow v5 edit",
+    "direct_input_v6_generation": false
+  },
+  "sources": [
+    {
+      "url": "https://tether.io/news/eight-years-of-stability-and-innovation/",
+      "type": "Retrospective issuer primary",
+      "supports": "Exact 6 October 2014 date for first token issuance; original Bitcoin overlay implementation",
+      "qualification": "Issuer uses later Tether/USDt branding retrospectively. Not independent evidence of reserves or a justified claim that Tether invented the first stablecoin."
+    },
+    {
+      "url": "https://www.marketscreener.com/news/latest/Realcoin-Rebrands-as-Tether-and-Enters-Private-Beta-19430207/",
+      "type": "Contemporaneous issuer press release, Marketwired republication",
+      "date": "2014-11-20",
+      "supports": "Realcoin to Tether rebrand/private beta; dollar denomination and redemption were issuer promises; contemporary Mastercoin terminology in wallet partner description",
+      "qualification": "Do not treat promised audit/backing statements as independent verification. Rename was November, not 6 October."
+    },
+    {
+      "url": "https://omnifoundation.wordpress.com/2015/01/",
+      "type": "Protocol foundation primary blog",
+      "specific_post": "Omni: the next layer, 18 January 2015",
+      "supports": "Mastercoin ecosystem relaunch as Omni; overlay built on Bitcoin"
+    }
+  ],
+  "clues": [
+    {
+      "name": "Realcoin binding plate",
+      "visible": "REALCOIN embossed on a brass plate at the front of the leather ledger",
+      "meaning": "Project name at the selected October 2014 issuance moment, before the later Tether rename",
+      "type": "Historical name on a fictional prop",
+      "location_fraction": [
+        0.71,
+        0.72
+      ]
+    },
+    {
+      "name": "Dollar-denominated ledger entry",
+      "visible": "A $1 entry and ledger columns oriented upright to the archivist, upside-down to the foreground viewer",
+      "meaning": "The token is denominated as a dollar claim; this does not prove reserves",
+      "type": "Symbolic account entry, not a reproduced historical balance sheet",
+      "location_fraction": [
+        0.49,
+        0.61
+      ]
+    },
+    {
+      "name": "Seal rising from the page",
+      "visible": "Small cream-and-teal dollar-symbol seal lifted above a ledger page by thin light strokes",
+      "meaning": "Paper-accounting promise represented in a digital token",
+      "type": "Artist-created metaphor",
+      "location_fraction": [
+        0.53,
+        0.47
+      ]
+    },
+    {
+      "name": "The returning paper plane",
+      "visible": "One tiny white dart-fold paper airplane high behind the archivist, by the broken upper gallery",
+      "meaning": "Intentional collection callback to 007 The First Transfer, whose whitepaper plane symbolises the early Bitcoin transfer",
+      "type": "Collection crossover, not a documented 2014 object",
+      "location_fraction": [
+        0.632,
+        0.095
+      ],
+      "text_note": "No tiny caption or 10 BTC lettering is rendered or claimed",
+      "visibility_note": "Plane lies roughly x650\u2013690/y127\u2013153 in full 1060\u00d71484 art. Card worker notified to check against the header without changing approved art."
+    }
+  ],
+  "fiction": "Ancient ruined ledger library, elderly archivist, currency-like stained glass, collapsed roof, ledger book, embossed nameplate and luminous seal are symbolic art. The Realcoin issuance occurred in 2014, not in an ancient library; no actual premises, founder portrait, magical money creation or documented reserve holdings are represented. The tiny paper airplane is an intentional collection callback to 007, not a historical 2014 artifact.",
+  "qa": {
+    "png_decode": true,
+    "dimensions_verified": true,
+    "style_hashes_verified": true,
+    "both_style_images_direct_inputs": true,
+    "user_reference_direct_input": true,
+    "full_art_inspected": true,
+    "hands_ledger_close_crop_inspected": "lore-030/qa-ledger-hands-v4.png",
+    "no_obvious_extra_or_fused_fingers": true,
+    "realcoin_spelling": true,
+    "dollar_1_entry_legible": true,
+    "no_giant_coin_or_cart": true,
+    "no_rails_or_network_tunnel": true,
+    "no_trezor": true,
+    "ruined_roof_and_broken_stained_glass_visible": true,
+    "deep_shelves_and_galleries_visible": true,
+    "no_title_border_qr": true,
+    "no_claim_of_audit_or_backing": true,
+    "card_overlay_tested": false,
+    "overlay_note": "REALCOIN plate sits around 72 percent down full art; check title/QR placement after scene review. Do not silently crop or move approved art.",
+    "print_release": false,
+    "user_art_approval": true,
+    "github_or_site_changed": false,
+    "page_dollar_1_facing_archivist": true,
+    "page_ledger_rows_oriented_consistently": true,
+    "inspection_view": "lore-030/qa-v6-ledger-archivist-view.png",
+    "inspection_view_note": "Temporary inspection crop turned 180 degrees to check the archivist reading direction; not a production edit or delivered artwork.",
+    "floating_dollar_seal_camera_upright_preserved": true,
+    "realcoin_front_plate_camera_upright_preserved": true,
+    "physical_book_geometry_visually_preserved": true,
+    "face_hands_pose_architecture_lighting_visually_preserved": true,
+    "exact_pixel_identity_outside_edit_not_asserted": true,
+    "single_tiny_folded_paper_plane": true,
+    "paper_plane_close_crop_inspected": "lore-030/qa-v6-paper-plane.png",
+    "plane_does_not_cover_face_or_token": true,
+    "other_scene_elements_visually_preserved": true,
+    "approval_basis": "User explicitly approved proceeding after adding a paper plane; requested narrow addition completed and inspected. No extra creative changes intended."
+  },
+  "open_items": [
+    "Card/book/QR completion delegated to finalize_lore_card_030 using the exact v6 PNG bytes",
+    "Check high-background plane against locked card header",
+    "Book/source language must distinguish symbolic antiquity and 007 callback from actual 2014 facts",
+    "Print release and physical proof are separate; not conferred by this art record"
+  ],
+  "revision": "v6-final-tiny-paper-plane-crossover",
+  "user_change_request": {
+    "message_id": "Sentinel_c8002474423c81918e313a8516fbd232",
+    "quote": "cool as fuck, this would be a good one to have the paper plane flying in the back ground somewhere? and then approved for card and book qr codes etc",
+    "changes": [
+      "Add one subtle folded paper airplane in the background",
+      "Conditional approval to proceed with card, book and QR after that addition"
+    ]
+  },
+  "generation_mode": "Built-in imagegen narrow single-plane addition to v5, with both pinned original style images and an inspected 007 art derivative supplied directly",
+  "rejected_concept_history": {
+    "versions": [
+      "v1",
+      "v2",
+      "v3"
+    ],
+    "reason": "User explicitly rejected the rail-cart design in favor of an ancient ledger library",
+    "local_files_preserved": true
+  },
+  "removed_details": [
+    "Rail-carriage Realcoin nameplate",
+    "Mastercoin/Bitcoin junction marker",
+    "Perforated CLAIM $1 ticket",
+    "Trezor satchel crossover",
+    "Young industrial operator",
+    "Network transfer tunnel"
+  ],
+  "edit_target": {
+    "path": "lore-030/LORE-Crypto-030-The-Dollar-Token-Art-Review-v5.png",
+    "sha256": "d86bcb912b3647c24773f74a9069dbe7f0ef58ceb12c36637fb7c58923009ae2",
+    "preserved": true
+  },
+  "crossover_reference": {
+    "path": "lore-030/references/007-first-transfer-approved-art-web-derivative.webp",
+    "source_path": "site/public/archive/007-art.webp",
+    "source_card": "007 The First Transfer",
+    "sha256": "75ffe7098294e0fd4f75ad2a124775b8661830b1bf339b33ae367d8a0b8bc09d",
+    "role": "Approved art WEB DERIVATIVE inspected for the paper-plane fold, not a replacement style reference or master",
+    "inspected": true,
+    "direct_input_v6_generation": true,
+    "copied_content": "Classic pointed folded white paper plane only; no printed text or 10 BTC claim copied"
+  }
+}

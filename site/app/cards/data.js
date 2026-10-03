@@ -27,6 +27,7 @@ import chapter026 from './content/026.json';
 import chapter027 from './content/027.json';
 import chapter028 from './content/028.json';
 import chapter029 from './content/029.json';
+import chapter030 from './content/030.json';
 
 export const cards = [
   {
@@ -375,6 +376,19 @@ export const cards = [
     source: 'https://trezor.io/blog/news/a-decade-of-pioneering-10-years-since-trezors-first-hardware-wallet-revolution',
     ...chapter029,
     number: '029/100',
+  },
+  {
+    slug: 'the-dollar-token', title: 'THE DOLLAR TOKEN', rarity: 'UNCOMMON',
+    date: '06 OCT 2014', subject: 'REALCOIN', phrase: 'THE DOLLAR GOES DIGITAL.',
+    phraseKind: 'editorial caption',
+    image: 'cards/crypto/season-01/the-dollar-token-master-030/LORE-Crypto-030-The-Dollar-Token-Uncommon-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-dollar-token-master-030/art.png',
+    book: 'book/crypto-season-01/proofs/030-the-dollar-token-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/the-dollar-token-master-030/LORE-Crypto-030-The-Dollar-Token-Uncommon-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/the-dollar-token-master-030/LORE-Crypto-030-The-Dollar-Token-Uncommon-Print-v1.svg',
+    source: 'https://tether.io/news/eight-years-of-stability-and-innovation/',
+    ...chapter030,
+    number: '030/100',
   },
 ];
 
