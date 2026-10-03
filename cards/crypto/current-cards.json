@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-03",
   "collection": "Crypto",
   "season": 1,
   "approved_visual_count": 32,
@@ -1383,96 +1383,115 @@
       }
     },
     {
-      "id": "crypto-s01-buried-fortune",
-      "collection": "crypto",
-      "season": 1,
-      "rarity": "rare",
       "creator": "BITCOIN",
+      "rarity": "rare",
       "title_line_1": "BURIED",
       "title_line_2": "FORTUNE",
       "context": "ONE DRIVE. A FORTUNE.",
       "moment_label": "2013",
-      "set_label": "CRYPTO • SEASON 01",
-      "artwork": "cards/crypto/season-01/buried-fortune-master-01/art.png",
-      "qr_url": "https://example.com/lore/crypto/buried-fortune",
-      "event_date": "2013",
+      "artwork": "cards/crypto/season-01/buried-fortune-master-022/art.png",
+      "set_label": "CRYPTO • SEASON 01 • 022/100",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/022/",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+      "confirmed_lore_owned_route": true,
+      "moment_number": 22,
+      "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+      "phrase_status": "APPROVED_EDITORIAL_CAPTION_NOT_A_QUOTATION",
       "date_precision": "year",
-      "date_note": "Exact disposal day not established. No invented day or month.",
-      "phrase_status": "USER_APPROVED_EDITORIAL_NOT_A_QUOTATION",
-      "status": "VISUALLY_APPROVED",
-      "concept_instruction": "haha draw the card =)",
-      "rarity_status": "APPROVED_RARE",
-      "finishes": [
-        "standard",
-        "foil"
+      "status": "FRONT_APPROVED_PUBLICATION_AUTHORISED",
+      "artwork_sha256": "0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95",
+      "artwork_clues": [
+        {
+          "detail": "The 2009 label.",
+          "meaning": "The handwritten tape points to 2009, when Howells mined the bitcoin. It is an invented label, not an authenticated mark on the lost drive. The disposal happened in 2013.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "Docks Way / Newport.",
+          "meaning": "The fence sign locates the scene at Newport's Docksway landfill. Its wording and weathered design are fictional props, rather than a reproduction of a verified historical sign.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "The WAVES cup.",
+          "meaning": "The partly buried coffee cup returns from 017, CASH OUT, and 018, FOUR FIGURES. It is a visual collection callback; no historical connection between this cup and the lost drive is claimed.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        },
+        {
+          "detail": "The buried drive.",
+          "meaning": "The oversized drive and exposed rubbish layers make an unseen loss visible. Their scale and position are symbolic. The drive held a private-key record; the bitcoin themselves were never physically buried.",
+          "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+        }
       ],
-      "physical_trim_mm": [
-        63,
-        88
-      ],
-      "qr_mode": "demo",
       "print_release": false,
+      "book_reproduction_release": false,
       "publication_approved": true,
-      "interpretation": "Poetic landfill cutaway with relative foreground enlargement; not a recovered object or witnessed excavation. Rain, character, machinery, in-scene sign and 2009 tape placement are editorial illustration. A dirty, mostly concealed Doge plush is a fictional visual callback. No value headline appears on the front.",
-      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
-      "source_notes": "cards/crypto/season-01/buried-fortune-master-01/source-notes.md",
-      "revision": 3,
-      "revision_instruction": "Remove newspaper; bury the Doge plush more deeply and make it dirty so it blends into the trash.",
-      "easter_eggs_added": [
-        "Heavily buried muddy Doge plush behind tin and plastic"
-      ],
-      "newspaper_removed": true,
-      "value_explanation": "Reserved for future QR story at user request; current QR remains demo-only.",
-      "artwork_status": "USER_APPROVED",
-      "front": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.png",
-      "editable_svg": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.svg",
-      "source_archive": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-Review-v3-Source.zip",
-      "approval_record": "cards/crypto/season-01/buried-fortune-master-01/approval.json",
       "approved_by": "Dan Payne",
-      "approved_at": "2026-09-20",
-      "approval_quote": "approved, up load to github and move to next card",
-      "review_version": 3,
-      "final_bytes_separately_reviewed": true,
-      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
-      "style_migration_status": "APPROVED_CURRENT_STYLE",
-      "github_upload_authorised": true,
-      "website_publication_in_this_change": false,
-      "qr_status": "DEMO_ONLY",
+      "approved_at": "2026-10-03",
+      "artwork_status": "USER_REATTACHED_SELECTED_ARTWORK",
+      "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+      "front": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.svg",
+      "printer_pdf": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.pdf",
+      "book_spread": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf",
+      "book_html": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.html",
+      "chapter": "book/crypto-season-01/022-buried-fortune.md",
+      "clue_review_status": "VISUALLY_CHECKED_IN_SUPPLIED_ART_AND_CARD",
+      "output_sha256": "e38e5fa2e71b5ddfb75897d8a7bee496dd4f45b3b6c92faa4ab43ca169e7c764",
+      "print_svg_sha256": "84e36fe0173576a35eed0cda3efabacaadaf2dfce1814920a87e04800f3f5347",
+      "printer_pdf_sha256": "84acd9097f987e950c759e1ef0157d10a86f32e23b80a0c4741475bd98913fcc",
+      "date_note": "2013 is the disposal year; the exact disposal day is not established. The illustrated 2009 label refers to the mining year.",
+      "historical_master": "cards/crypto/season-01/buried-fortune-master-01",
+      "interpretation": "Editorial landfill cutaway, enlarged drive, fictional fence sign and 2009 label; WAVES cup is a collection callback. No known exact drive position, excavation or recovery is claimed.",
+      "id": "crypto-s01-buried-fortune",
+      "collection": "crypto",
+      "season": 1,
       "subject": "BITCOIN",
       "title_lines": [
         "BURIED",
         "FORTUNE"
       ],
+      "event_date": "2013",
       "event_date_display": "2013",
-      "footer": "CRYPTO • SEASON 01",
-      "moment_number": null,
-      "set_size": null,
-      "print_quantities": null,
+      "footer": "CRYPTO • SEASON 01 • 022/100",
+      "set_size": 100,
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "approval_record": "cards/crypto/season-01/buried-fortune-master-022/approval.json",
+      "print_manifest": "cards/crypto/season-01/buried-fortune-master-022/print-v1-manifest.json",
       "current_files": [
         {
-          "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.png",
-          "bytes": 1554203,
-          "sha256": "7999e9c92af71543b4f88d623fb97443883163cf77351ee603630705d43237ed",
-          "git_blob": "9a504c617f4f78b225ee155899ac8d2e6c568882"
+          "path": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png",
+          "bytes": 1058821,
+          "sha256": "e38e5fa2e71b5ddfb75897d8a7bee496dd4f45b3b6c92faa4ab43ca169e7c764",
+          "git_blob": "da60b3868607cac57fedf5cefcf784affe0cd7f5"
         },
         {
-          "path": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1.svg",
-          "bytes": 3063116,
-          "sha256": "5939f7411a35344625c79b90935467d9445e85dfe82732304c2812ef7f665cc5",
-          "git_blob": "8de399f5d49e9fcb3fe1837c1c66761557f35a00"
+          "path": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.svg",
+          "bytes": 3618315,
+          "sha256": "84e36fe0173576a35eed0cda3efabacaadaf2dfce1814920a87e04800f3f5347",
+          "git_blob": "92163fc2e84786c2004257d052de73ef8e05e9bb"
+        },
+        {
+          "path": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.pdf",
+          "bytes": 1681351,
+          "sha256": "84acd9097f987e950c759e1ef0157d10a86f32e23b80a0c4741475bd98913fcc",
+          "git_blob": "37bb77f332ae6070223b2565bdfafe17fd9a63ac"
         }
       ],
       "artwork_file": {
-        "path": "cards/crypto/season-01/buried-fortune-master-01/art.png",
-        "bytes": 2270778,
-        "sha256": "aaa6342da6aa7274a1c518a2647229508a4586c630aa9cdfd2322eb2fee3117f",
-        "git_blob": "288390e9251ed9671417233aeaa197dd09a17483"
+        "path": "cards/crypto/season-01/buried-fortune-master-022/art.png",
+        "bytes": 2686847,
+        "sha256": "0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95",
+        "git_blob": "b7eb41aad86eac56d5bd92bd283e74b69cfbd342"
       },
+      "previous_master_preserved": "cards/crypto/season-01/buried-fortune-master-022/art.png",
       "print_derivative": {
         "revision": "LORE-CRYPTO-PRINT-v1.0",
-        "front": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.png",
-        "editable_svg": "cards/crypto/season-01/buried-fortune-master-01/LORE-Buried-Fortune-Rare-v1-Print-v1.svg",
-        "manifest": "cards/crypto/season-01/buried-fortune-master-01/print-v1-manifest.json",
+        "front": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/buried-fortune-master-022/print-v1-manifest.json",
         "canvas_px": [
           816,
           1110
@@ -1486,17 +1505,9 @@
           684,
           981
         ],
-        "transform": "translate(46.515 48.921) scale(0.8033)",
-        "phrase": {
-          "size": 25,
-          "weight": 700,
-          "position_tracking_colour": "preserved"
-        },
-        "qr_status": "DEMO_ONLY",
+        "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
         "print_release": false,
-        "physical_proof_received": false,
-        "physical_qr_scan_test": false,
-        "converted_at": "2026-09-24"
+        "physical_qr_scan_test": false
       }
     },
     {
@@ -2983,9 +2994,9 @@
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-03",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 32,
-  "numbered_published_count": 26,
-  "numbering_gap_note": "022 intentionally unchanged and unpublished in this batch; no renumbering."
+  "numbered_published_count": 27,
+  "numbering_gap_note": "022 added using the exact user-reattached selected artwork; numbered collection now contains 001 through 027 without a gap."
 }

@@ -19,6 +19,7 @@ import chapter018 from './content/018.json';
 import chapter019 from './content/019.json';
 import chapter020 from './content/020.json';
 import chapter021 from './content/021.json';
+import chapter022 from './content/022.json';
 import chapter023 from './content/023.json';
 import chapter024 from './content/024.json';
 import chapter025 from './content/025.json';
@@ -270,6 +271,16 @@ export const cards = [
     source: 'https://bitcointalk.org/index.php?topic=375643.0', number: '021/100',
   },
   {
+    slug: 'buried-fortune', title: 'BURIED FORTUNE', rarity: 'RARE',
+    date: '2013', subject: 'BITCOIN', phrase: 'ONE DRIVE. A FORTUNE.',
+    phraseKind: 'editorial',
+    image: 'cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png',
+    artwork: 'cards/crypto/season-01/buried-fortune-master-022/art.png',
+    book: 'book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf',
+    ...chapter022,
+    number: '022/100',
+  },
+  {
     slug: "doge-goes-to-sochi",
     title: "DOGE GOES TO SOCHI",
     rarity: "COMMON",
@@ -342,3 +353,4 @@ export const cards = [
 ];
 
 export const getCard = slug => cards.find(card => card.slug === slug);
+

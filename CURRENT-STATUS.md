@@ -1,3 +1,11 @@
+# 022 Buried Fortune publication - 3 October 2026
+
+Dan requested the full 022 card, two-page book, live QR, GitHub and website publication, then reattached and selected the matching fence-sign/WAVES-cup artwork. The exact supplied PNG is preserved at `cards/crypto/season-01/buried-fortune-master-022/art.png`, SHA-256 `0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95`. Historical byte identity with the unavailable October 1 file is not asserted. The older Doge-plush master remains unchanged.
+
+Rare / 2013 / ONE DRIVE. A FORTUNE. / 022/100. The source art has not been edited. Print-v1 PNG, SVG and front PDF use 816 x 1110 at 300 DPI, with exact 744 x 1038 trim. Both the exported PNG and a 300-DPI printer-PDF rendering decode to `https://lore-site-v1.vercel.app/crypto/022/`, intended to redirect permanently to `/cards/buried-fortune`. Full publication and live deployment verification are being completed; see the canonical manifest and publication verification record when present.
+
+The book and website share the same sourced story and four actual-art clues: 2009 label, Docks Way / Newport sign, WAVES cup and buried drive. The date distinction is explicit: 2009 mining versus 2013 disposal. The story qualifies the 2025 court outcome and does not describe old excavation proposals as current. All 115 earlier clues and their display files are preserved; the collection now includes 27 numbered cards, 119 clues and 54 book-page previews. There are still 32 unique approved visual designs because Buried Fortune was already in the register. Physical print and book reproduction release remain separate and false.
+
 # Website history experience approved — 1 October 2026
 
 Dan approved the rendered redesign and explicitly authorized making it the main site, preserving working QR destinations. The preview adds a chronological archive with year jumps, expandable story/art/clue/book views, 115 inspected clue thumbnails and 52 exact book-page previews. All 26 website card files are separately saved derivatives cropped only to the approved print-v1 trim box [36,36,744,1038]; source printer files remain byte-identical. See site/web-card-derivatives.json and site/media/README.md. Production publication/final verification is in progress through PR #6. Card 022 remains absent. Historical unnumbered demo cards are outside the published 26-card collection and are not silently released.
@@ -178,3 +186,4 @@ not change this pair.
 6. A large file may return an empty content field through GitHub's contents API. Check its blob SHA; do not assume it is missing or empty, or re-upload it unnecessarily.
 7. Verify the actual remote file/hash before saying uploaded. Save a small checkpoint for an incomplete transfer and resume only missing work.
 8. Report the outcome briefly with the file or commit link. Do not create another long handover for every interruption.
+

@@ -1,3 +1,11 @@
+# 022 Buried Fortune publication - 3 October 2026
+
+Dan requested the full 022 card, two-page book, live QR, GitHub and website publication, then reattached and selected the matching fence-sign/WAVES-cup artwork. The exact supplied PNG is preserved at `cards/crypto/season-01/buried-fortune-master-022/art.png`, SHA-256 `0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95`. Historical byte identity with the unavailable October 1 file is not asserted. The older Doge-plush master remains unchanged.
+
+Rare / 2013 / ONE DRIVE. A FORTUNE. / 022/100. The source art has not been edited. Print-v1 PNG, SVG and front PDF use 816 x 1110 at 300 DPI, with exact 744 x 1038 trim. Both the exported PNG and a 300-DPI printer-PDF rendering decode to `https://lore-site-v1.vercel.app/crypto/022/`, intended to redirect permanently to `/cards/buried-fortune`. Full publication and live deployment verification are being completed; see the canonical manifest and publication verification record when present.
+
+The book and website share the same sourced story and four actual-art clues: 2009 label, Docks Way / Newport sign, WAVES cup and buried drive. The date distinction is explicit: 2009 mining versus 2013 disposal. The story qualifies the 2025 court outcome and does not describe old excavation proposals as current. All 115 earlier clues and their display files are preserved; the collection now includes 27 numbered cards, 119 clues and 54 book-page previews. There are still 32 unique approved visual designs because Buried Fortune was already in the register. Physical print and book reproduction release remain separate and false.
+
 # 023–027 final requested corrections - 1 October 2026
 
 Supersedes the earlier batch below. Dan removed023’s elevated luggage box and moved the sticker/tag to the lower box (intentionally covered by card QR but visible in book art), kept024 unchanged, restored025’s first delivered single-lens artwork, removed026’s airplane and027’s Glen Park slip, then approved the results. Titles, captions, dates, rarities, QR payloads and print geometry are unchanged. The book and website explanations match those final objects. Corrective GitHub publication/live verification in progress; the earlier batch remains in commit c0207642b1fa9768fb8c002667493971cefcd569. No022 added; physical print and book reproduction release remain false.
@@ -248,3 +256,4 @@ precedence. Older pending-concept/next-card descriptions are historical.
 ## How to avoid drift
 
 Start each new illustration with the approved original references, even during revisions. Compare faces, ink and shading at card size. A recent generated image is not automatically the next master. Record new approvals by exact file/hash and keep factual source references separate from style references. Read the current GitHub standards before acting on remembered chat context.
+

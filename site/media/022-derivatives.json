@@ -1,0 +1,171 @@
+{
+  "card": "022",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/buried-fortune-master-022/art.png": "0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95",
+    "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png": "e38e5fa2e71b5ddfb75897d8a7bee496dd4f45b3b6c92faa4ab43ca169e7c764",
+    "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf": "e7f10367130c3ab925f7cd6af40a546961ff814e07350ebb0fd768b68926cb08"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The 2009 label.",
+      "sourceBoxXYXY": [
+        545,
+        792,
+        714,
+        910
+      ],
+      "src": "/closeups/022-01.webp",
+      "width": 169,
+      "height": 118,
+      "alt": "Handwritten 2009 label on the buried hard drive",
+      "bbox": {
+        "x": 0.514151,
+        "y": 0.533693,
+        "w": 0.159434,
+        "h": 0.079515
+      }
+    },
+    {
+      "title": "Docks Way / Newport.",
+      "sourceBoxXYXY": [
+        65,
+        211,
+        225,
+        294
+      ],
+      "src": "/closeups/022-02.webp",
+      "width": 160,
+      "height": 83,
+      "alt": "Docks Way / Newport sign on the landfill fence",
+      "bbox": {
+        "x": 0.061321,
+        "y": 0.142183,
+        "w": 0.150943,
+        "h": 0.05593
+      }
+    },
+    {
+      "title": "The WAVES cup.",
+      "sourceBoxXYXY": [
+        886,
+        711,
+        1011,
+        846
+      ],
+      "src": "/closeups/022-03.webp",
+      "width": 125,
+      "height": 135,
+      "alt": "Discarded WAVES coffee cup among the landfill rubbish",
+      "bbox": {
+        "x": 0.835849,
+        "y": 0.479111,
+        "w": 0.117925,
+        "h": 0.09097
+      }
+    },
+    {
+      "title": "The buried drive.",
+      "sourceBoxXYXY": [
+        257,
+        446,
+        861,
+        1083
+      ],
+      "src": "/closeups/022-04.webp",
+      "width": 474,
+      "height": 500,
+      "alt": "Enlarged hard drive beneath the landfill surface in the symbolic cutaway",
+      "bbox": {
+        "x": 0.242453,
+        "y": 0.300539,
+        "w": 0.569811,
+        "h": 0.429245
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/022-art.webp",
+      "pack": "display-06.bin",
+      "offset": 0,
+      "length": 364662,
+      "sha256": "922dc95c1f0b58cf3845ba471d68e912521a0cd88a5acac804abada886a0fe1c"
+    },
+    {
+      "path": "archive/022-page-1.webp",
+      "pack": "display-06.bin",
+      "offset": 364662,
+      "length": 241908,
+      "sha256": "aba5e76b62c1ddebafb793df9cf62cd1f7be3cda7f8b7cb6d7c723f5bbd3b1cf"
+    },
+    {
+      "path": "archive/022-page-2.webp",
+      "pack": "display-06.bin",
+      "offset": 606570,
+      "length": 126280,
+      "sha256": "2d04afe5551cbed827da1d71d6243c75d936e9ac4784be4e3a746dd58badbf2b"
+    },
+    {
+      "path": "archive/022-web-card.webp",
+      "pack": "display-06.bin",
+      "offset": 732850,
+      "length": 141298,
+      "sha256": "a552711567584183e2da0ffb0c02e25ce9813f0d2f68258062c49a033583ff61"
+    },
+    {
+      "path": "closeups/022-01.webp",
+      "pack": "display-06.bin",
+      "offset": 874148,
+      "length": 6880,
+      "sha256": "d068df365bac80d3f0cde5dee7bd2d210aa7707cf81f814d4fbab6c9acb315d1"
+    },
+    {
+      "path": "closeups/022-02.webp",
+      "pack": "display-06.bin",
+      "offset": 881028,
+      "length": 5116,
+      "sha256": "cab0be2f742b8444d3d313831b47d015742d31bee851f3ecc9d010a7bc123a4b"
+    },
+    {
+      "path": "closeups/022-03.webp",
+      "pack": "display-06.bin",
+      "offset": 886144,
+      "length": 6734,
+      "sha256": "64f8fa48db077664494fc7a953608ca4ec1d1c231aad46a8e9bc980b806a0924"
+    },
+    {
+      "path": "closeups/022-04.webp",
+      "pack": "display-06.bin",
+      "offset": 892878,
+      "length": 85264,
+      "sha256": "f67e5f19693842056259485d216dd56b752d98554b9dd748d92dd74f007e5342"
+    }
+  ],
+  "bundleSHA256": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+  "previousAssetsPreserved": 219,
+  "previousBundleSHA256": {
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe"
+  },
+  "originalMastersUnchanged": true
+}
