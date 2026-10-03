@@ -1428,7 +1428,7 @@
       "approved_by": "Dan Payne",
       "approved_at": "2026-10-03",
       "artwork_status": "USER_REATTACHED_SELECTED_ARTWORK",
-      "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+      "qr_status": "VERIFIED_PRODUCTION",
       "front": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png",
       "editable_svg": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.svg",
       "printer_pdf": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.pdf",
@@ -1505,10 +1505,12 @@
           684,
           981
         ],
-        "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+        "qr_status": "VERIFIED_PRODUCTION",
         "print_release": false,
         "physical_qr_scan_test": false
-      }
+      },
+      "publication_status": "PUBLISHED_AND_VERIFIED",
+      "publication_verification": "cards/crypto/season-01/buried-fortune-master-022/publication-verification.json"
     },
     {
       "id": "crypto-s01-genesis-block",
