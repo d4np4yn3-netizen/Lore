@@ -1,0 +1,113 @@
+{
+  "card": "022",
+  "title": "BURIED FORTUNE",
+  "checked_at": "2026-10-03T10:10:00Z",
+  "role": "Editorial book proof and standalone HTML; physical reproduction approval remains separate",
+  "art": {
+    "path": "cards/crypto/season-01/buried-fortune-master-022/art.png",
+    "sha256": "0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95",
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "selection": "User-supplied image selected 3 October 2026",
+    "source_bytes_unchanged": true,
+    "historical_byte_identity_established": false,
+    "visible_details": [
+      "DOCKS WAY / NEWPORT fence sign",
+      "Man overlooking landfill",
+      "2009 label on enlarged drive",
+      "Partly buried WAVES cup on right"
+    ],
+    "no_doge_present": true
+  },
+  "pdf": {
+    "path": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf",
+    "sha256": "e7f10367130c3ab925f7cd6af40a546961ff814e07350ebb0fd768b68926cb08",
+    "bytes": 4462643,
+    "pages": 2,
+    "page_size": "A4 portrait",
+    "design_source": "book/crypto-season-01/build_027_spread.py",
+    "body_font": "DejaVu 9.3pt / 13.8pt leading",
+    "story_bottom_pt": 109.2897637795276,
+    "notes_bottom_pt": 211.4897637795276,
+    "minimum_allowed_bottom_pt": 80,
+    "source_links": 4,
+    "embedded_art_pixels_identical": true,
+    "visual_review": {
+      "page_1": "PASS. Full-page template art treatment; sign, man, drive, year and WAVES cup clear; no new objects or altered source pixels.",
+      "page_2": "PASS. All four story paragraphs, four clue notes, source/art note and footer visible; no clipping, overlap or missing glyphs. Original 027 fonts, size, margins and two-column structure retained."
+    },
+    "exact_story_and_clue_text_verified": true
+  },
+  "html": {
+    "path": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.html",
+    "sha256": "ae58c7de2196e8f4db41569f7010fa9d2f9ea523ca351ce03042fafd79fbbc36",
+    "bytes": 6056909,
+    "two_page_structure": true,
+    "exact_story_clue_source_mirror": true,
+    "embedded_art_bytes_identical": true,
+    "embedded_original_fonts": true,
+    "network_asset_dependencies": false,
+    "source_links": 4,
+    "art_fit": "contain, complete selected image visible",
+    "responsive_single_column_text": true,
+    "visual_review": "PASS with WeasyPrint 70.0. The frozen HTML rendered to exactly two A4 pages. Both rendered pages were inspected: complete artwork visible, original typography clean, all story paragraphs, clue notes, source links and footer readable; no clipping, overlap or missing glyphs.",
+    "visual_renderer": {
+      "name": "WeasyPrint",
+      "version": "70.0",
+      "page_count": 2,
+      "page_size": "A4 portrait",
+      "all_story_and_clue_text_verified": true,
+      "page_1_png_review": "PASS",
+      "page_2_png_review": "PASS",
+      "frozen_html_unchanged": true,
+      "delivered_pdf_unchanged": true
+    },
+    "browser_qa": "UNRUN. Browser-specific desktop and mobile behavior was not checked for the standalone HTML. Both pages passed visual document-renderer verification."
+  },
+  "copy": {
+    "chapter": "book/crypto-season-01/022-buried-fortune.md",
+    "chapter_sha256": "2f80d9436d60e311895e7984ab45b448a294de98c398a229ef0774e7352ec4a2",
+    "website_json": "site/app/cards/content/022.json",
+    "website_json_sha256": "38dc71d9cbe5c3493a019a42953b816a33ab1bee0d2fe24f246cfd3bb321f6d8",
+    "story_paragraphs": 4,
+    "story_words": 260,
+    "clue_titles": [
+      "The 2009 label.",
+      "Docks Way / Newport.",
+      "The WAVES cup.",
+      "The buried drive."
+    ],
+    "sync_check": "PASS",
+    "key_boundaries": [
+      "2009 is mining year; 2013 is disposal year",
+      "Private-key record on hardware, no physical bitcoin",
+      "Court determined hardware ownership, not council ownership of bitcoin",
+      "Howells account assumed for application, not established at trial",
+      "Early 7,500 BTC and later 8,000 BTC distinguished",
+      "Recovery proposals described in past tense",
+      "Sign, handwritten label, cup, cutaway and oversized drive are illustrative"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Contemporary Sky News reporting",
+      "url": "https://news.sky.com/story/bitcoin-blunder-man-throws-away-4m-laptop-10426389"
+    },
+    {
+      "title": "High Court judgment",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/22"
+    },
+    {
+      "title": "33 Chambers",
+      "url": "https://www.33chambers.co.uk/news-events/%F0%9D%90%85%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%AC%F0%9D%90%AE%F0%9D%90%9C%F0%9D%90%9C%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AC-%F0%9D%90%A2%F0%9D%90%A7-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%A1-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%81%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A2%F0%9D%90%A7-%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%9E-%F0%9D%90%A2%F0%9D%90%A7-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%AD-%F0%9D%90%A8%F0%9D%90%9F-%F0%9D%90%80%F0%9D%90%A9%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%A5"
+    },
+    {
+      "title": "Bitcoin.org",
+      "url": "https://bitcoin.org/en/faq#what-is-a-bitcoin-wallet"
+    }
+  ],
+  "physical_print_release": false,
+  "book_reproduction_release": false
+}
