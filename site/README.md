@@ -1,6 +1,6 @@
 # LORE Crypto Season One site
 
-Collection: 001–030, including 022 BURIED FORTUNE and 028 THE ETHER SALE. Existing card numbers and the redesigned chronological archive are unchanged. All 30 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 130 inspected clues, 30 trimmed card previews and 60 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter in book/crypto-season-01 through its sync_NNN.py script; run with --check before deployment. Exact artwork, printer fronts and full-art two-page editorial PDFs are linked from each card.
+Collection: 001–031, including 022 BURIED FORTUNE and 028 THE ETHER SALE. Existing card numbers and the redesigned chronological archive are unchanged. All 31 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 133 inspected clues, 31 trimmed card previews and 62 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter in book/crypto-season-01 through its sync_NNN.py script; run with --check before deployment. Exact artwork, printer fronts and full-art two-page editorial PDFs are linked from each card.
 
 Keep stable printed QR routes when changing domains. Visual approval, source checks, live QR verification, physical print and book reproduction/rights approvals remain separate.
 
@@ -17,3 +17,7 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 030 The Dollar Token adds the authorised v6 library/paper-plane art, Uncommon print files, four actual-art clue crops and two-page A4 book. New web derivatives are append-only in display-09.bin; all 242 earlier images and previous sources remain unchanged. Title and caption are editorial wording, not quoted historical words.
 
 030 original downloads are pinned to immutable asset commit 4778e1c5c89839952acc9dd6e2c334ded537c0bd.
+
+031 BitLicense adds the exact approved v8 One State Street artwork, Rare print files, three actual-art clue crops and approved two-page A4 book. New web derivatives are append-only in display-10.bin; all 250 earlier display images and sources remain unchanged. The chapter and website preserve the Tdorante10 / CC BY-SA 4.0 architecture-reference attribution.
+
+031 original downloads are pinned to immutable asset commit edf711c467bcc1148646d70b479c5367b13fdaaf.

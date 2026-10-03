@@ -1,3 +1,11 @@
+# 031 BitLicense approved for publication — 3 October 2026
+
+Dan approved the exact v8 artwork, Rare card and two-page book proofs for upload. NEW YORK / BITLICENSE (single line) / 24 JUN 2015 / RULES FOR A NEW FRONTIER / 031/100. Original art SHA-256 edac6ab5c807165ccfa7c18ed5a2c1a7205ab45621b6e160e5ab2ee3cdf5e8be is preserved unchanged. The caption is editorial wording, not a historical quotation. Approved story is unchanged; final card replaces only the QR placeholder and proof status.
+
+Final PNG and actual 300-DPI printer-PDF render both decode to https://lore-site-v1.vercel.app/crypto/031/ . The book pairs full art with a cream editorial page. Three actual-art details cover the application folder, New York outline and One State Street entrance sign. The date is the rule’s effective date; filing and Circle’s first licence are separate milestones. The applicant, visit and street scene are imagined. Architecture reference attribution to Tdorante10 / CC BY-SA 4.0 is preserved in the chapter, website and provenance.
+
+Numbered collection reaches 001–031, 133 clues and 62 book previews; 36 unique approved designs. All 250 earlier display assets and previous source records are preserved. New website derivatives are separate and append-only in display-10.bin. Print source remains 816 × 1110 at 300 DPI with 744 × 1038 trim. Live verification follows release. Physical print/phone-camera proof and book reproduction release remain separate and false; full-page art is approximately 127 PPI. Exact builders are archived with the 031 master.
+
 # 030 The Dollar Token authorised for publication — 3 October 2026
 
 Dan authorised adding a tiny background paper plane, followed by card, book and QR publication. Exact final v6 ancient-ledger-library art SHA-256 0cc86230d8e5a6aa056351cd3d694f807b2f98c838e00bffd9f35b2a2eb33be9 is preserved unchanged. REALCOIN / Uncommon / 06 OCT 2014 / THE DOLLAR GOES DIGITAL. / 030/100. The title and caption are editorial wording, not historical quotations; the prose is sourced editorial content prepared under the authorised publication workflow, not a separate claim of exact wording approval.

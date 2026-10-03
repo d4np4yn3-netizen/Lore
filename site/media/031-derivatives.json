@@ -1,0 +1,149 @@
+{
+  "card": "031",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/bitlicense-master-031/art.png": "edac6ab5c807165ccfa7c18ed5a2c1a7205ab45621b6e160e5ab2ee3cdf5e8be",
+    "cards/crypto/season-01/bitlicense-master-031/LORE-Crypto-031-BitLicense-Rare-Print-v1.png": "7a7431d64a51e5858040d3a932d2c9ec9a35d0f0b0de8269d230845b4b612db7",
+    "book/crypto-season-01/proofs/031-bitlicense-full-art-spread-v1.pdf": "74a1ad74bfe9fbacc5698c645ddadadd09cdb067ff25775eb600f39db93ac316"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The application folder.",
+      "sourceBoxXYXY": [
+        611,
+        778,
+        787,
+        945
+      ],
+      "src": "/closeups/031-01.webp",
+      "width": 176,
+      "height": 167,
+      "alt": "Tan BITLICENSE APPLICATION folder carried under the anonymous applicant\u2019s arm",
+      "bbox": {
+        "x": 0.576415,
+        "y": 0.524259,
+        "w": 0.166038,
+        "h": 0.112534
+      }
+    },
+    {
+      "title": "The New York outline.",
+      "sourceBoxXYXY": [
+        670,
+        853,
+        736,
+        918
+      ],
+      "src": "/closeups/031-02.webp",
+      "width": 66,
+      "height": 65,
+      "alt": "Small New York state outline drawn on the application folder",
+      "bbox": {
+        "x": 0.632075,
+        "y": 0.574798,
+        "w": 0.062264,
+        "h": 0.043801
+      }
+    },
+    {
+      "title": "One State Street.",
+      "sourceBoxXYXY": [
+        708,
+        1010,
+        958,
+        1094
+      ],
+      "src": "/closeups/031-03.webp",
+      "width": 250,
+      "height": 84,
+      "alt": "ONE STATE STREET sign above the warmly lit entrance",
+      "bbox": {
+        "x": 0.667925,
+        "y": 0.680593,
+        "w": 0.235849,
+        "h": 0.056604
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/031-art.webp",
+      "pack": "display-10.bin",
+      "offset": 0,
+      "length": 474554,
+      "sha256": "9df848c441bf671e0c11abbd8adcb53c88a40040b52814217f76da48367839f9"
+    },
+    {
+      "path": "archive/031-page-1.webp",
+      "pack": "display-10.bin",
+      "offset": 474554,
+      "length": 308748,
+      "sha256": "5a56589a1692c71fe70c84708e86d09221a20c207eb5e0c313a27b474fdc259c"
+    },
+    {
+      "path": "archive/031-page-2.webp",
+      "pack": "display-10.bin",
+      "offset": 783302,
+      "length": 126446,
+      "sha256": "ceda0113e744b60589d6aea7fed340fc6aead76a437a386d2c64e759ec7ed3f0"
+    },
+    {
+      "path": "archive/031-web-card.webp",
+      "pack": "display-10.bin",
+      "offset": 909748,
+      "length": 148968,
+      "sha256": "ebed9be394523d93de4257a9ffcd2d79cf96dfdba88d23487f405cfdbaed1bfa"
+    },
+    {
+      "path": "closeups/031-01.webp",
+      "pack": "display-10.bin",
+      "offset": 1058716,
+      "length": 8794,
+      "sha256": "73c6d0d3e1616f902459dc5ff9fedf671dd0f4fd8a5f084380e7c34c29d039da"
+    },
+    {
+      "path": "closeups/031-02.webp",
+      "pack": "display-10.bin",
+      "offset": 1067510,
+      "length": 1190,
+      "sha256": "99825d3462236a735acb931e3535e3eb8e91df50ee393d47c634a3f5caec74d5"
+    },
+    {
+      "path": "closeups/031-03.webp",
+      "pack": "display-10.bin",
+      "offset": 1068700,
+      "length": 6822,
+      "sha256": "8741ae79739952746ad9a88c133d95aa1619285cfc28c04290e9fa1fa5664785"
+    }
+  ],
+  "bundleSHA256": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f",
+  "previousAssetsPreserved": 250,
+  "previousBundleSHA256": {
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1"
+  },
+  "originalMastersUnchanged": true
+}

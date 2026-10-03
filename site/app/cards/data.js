@@ -28,6 +28,7 @@ import chapter027 from './content/027.json';
 import chapter028 from './content/028.json';
 import chapter029 from './content/029.json';
 import chapter030 from './content/030.json';
+import chapter031 from './content/031.json';
 
 export const cards = [
   {
@@ -389,6 +390,19 @@ export const cards = [
     source: 'https://tether.io/news/eight-years-of-stability-and-innovation/',
     ...chapter030,
     number: '030/100',
+  },
+  {
+    slug: 'bitlicense', title: 'BITLICENSE', rarity: 'RARE',
+    date: '24 JUN 2015', subject: 'NEW YORK', phrase: 'RULES FOR A NEW FRONTIER',
+    phraseKind: 'editorial caption',
+    image: 'cards/crypto/season-01/bitlicense-master-031/LORE-Crypto-031-BitLicense-Rare-Print-v1.png',
+    artwork: 'cards/crypto/season-01/bitlicense-master-031/art.png',
+    book: 'book/crypto-season-01/proofs/031-bitlicense-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/bitlicense-master-031/LORE-Crypto-031-BitLicense-Rare-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/bitlicense-master-031/LORE-Crypto-031-BitLicense-Rare-Print-v1.svg',
+    source: 'https://dos.ny.gov/june-24-2015-rule-making-activities',
+    ...chapter031,
+    number: '031/100',
   },
 ];
 
