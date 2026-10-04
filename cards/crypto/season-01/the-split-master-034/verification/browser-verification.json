@@ -1,0 +1,83 @@
+{
+  "releaseCommit": "bb44d3a543bac9ae624056887e2da70249f28b78",
+  "deploymentId": "dpl_ACqgmfSvP8d7pAwsDmpWAMZfzXxG",
+  "deploymentReadiness": "Parent confirmed exact commit READY and production alias before live browser checks",
+  "productionURL": "https://lore-site-v1.vercel.app/cards/the-split",
+  "checkedAtUTC": "2026-10-04T14:06:16.695615+00:00",
+  "browser": "dot cloud Chromium through cua_repl",
+  "desktopViewportCSS": [
+    1180,
+    757
+  ],
+  "narrowViewportCSS": [
+    393,
+    252
+  ],
+  "narrowMethod": "300% native browser zoom; no device emulation or physical mobile testing; restored 100% after checks",
+  "passed": [
+    "Correct The Split heading, Epic rarity, 20 JUL 2016 date, ONE HISTORY. TWO CHAINS. phrase and 034/100 number",
+    "All four live story paragraphs exactly match release content/034.json",
+    "All five live clue titles and explanations exactly match release content/034.json",
+    "Expanded source/art note retains June alert, July fork completion, Ethereum fork history and Oulu photograph attribution, plus symbolic-scene/editorial-caption qualifications",
+    "Timeline displays 34 moments, 2016 contains 033 and 034, approved collectible image and title/date/rarity visible",
+    "Five artwork marker positions align with their crop bounding boxes: two maps, shared sleepers, block 1,920,000, refund station, ETH/ETC signs",
+    "All five desktop and narrow artwork marker inspectors open correct image/title/text, focus inspector and restore clicked-marker focus after dismissal",
+    "Desktop sequential closeup navigation displays all five correct crops and text; first previous and fifth next are disabled",
+    "Clue 5 Find it in full artwork opens zoomed artwork at ETH/ETC-sign region with five markers",
+    "Narrow All details restores focus to the enlarged Block 1,920,000 clue trigger",
+    "Full artwork zoom/fit works and viewer confines overflow on desktop and narrow layouts",
+    "Both book pages render correctly in desktop fit view; page 2 zoom positions story side and Fit pages restores spread",
+    "Narrow book reader switches between artwork and story pages; story enlargement and fit work without horizontal dialog overflow",
+    "034 previous navigates to 033; 033 next returns to 034; 034 has no next control",
+    "Desktop and narrow dialog close/reopen, browser Back/Forward, and repeated opens restore trigger focus and body scrolling correctly",
+    "Narrow Home key focuses and selects story tab; Escape dismisses dialog and restores trigger focus",
+    "Narrow five markers each measure 44 by 44 CSS px, stay within artwork horizontal bounds and do not overlap",
+    "No horizontal overflow in desktop story, narrow standalone story, or narrow dialog content including art/book zoom",
+    "Original-art/card PNG/printer PDF/SVG and book PDF hrefs point to immutable asset commit 87f64aa67693f1dc119307f2326b676974e1a78d",
+    "Shared dark/bone/gold site design and purple Epic treatment remain visually consistent"
+  ],
+  "nonblockingFindings": [
+    {
+      "severity": "measurement",
+      "finding": "Narrow closed timeline at 300% zoom reports scrollWidth 389 versus clientWidth 388 CSS px, same 1-CSS-px discrepancy recorded for 033. Narrow standalone story and dialog content show no overflow."
+    }
+  ],
+  "notRun": [
+    "Physical phone-camera QR scan",
+    "Physical print assessment",
+    "Physical book reproduction approval",
+    "Real-device touch/mobile browser test",
+    "Complete cross-browser suite"
+  ],
+  "knownLimits": [
+    "Captured console errors are browser extension metadata errors, with no assertion of a complete clean console sweep.",
+    "Full-page screenshot capture sometimes omitted an offscreen book image; normal viewport rendering showed both pages. Final desktop-book-spread.jpg is the verified viewport capture."
+  ],
+  "otherChecks": "Parent independently handles all 34 HTTP QR routes, nine display asset hashes, six immutable originals and QR decoding; not duplicated here.",
+  "evidenceFiles": [
+    "browser-interaction-evidence.json",
+    "desktop-2016-timeline.jpg",
+    "desktop-art-markers.jpg",
+    "desktop-book-page2-zoom.jpg",
+    "desktop-book-spread.jpg",
+    "desktop-clue-1.jpg",
+    "desktop-clue-2.jpg",
+    "desktop-clue-3.jpg",
+    "desktop-clue-4.jpg",
+    "desktop-clue-5.jpg",
+    "desktop-dialog.jpg",
+    "desktop-five-clues.jpg",
+    "desktop-marker-01.jpg",
+    "desktop-story.jpg",
+    "narrow-book-page1.jpg",
+    "narrow-book-page2-zoom.jpg",
+    "narrow-book-page2.jpg",
+    "narrow-clue-block.jpg",
+    "narrow-dialog-top.jpg",
+    "narrow-marker-05.jpg",
+    "narrow-markers.jpg",
+    "narrow-standalone-story.jpg"
+  ],
+  "externalEdits": false,
+  "releaseBlockerFound": false
+}

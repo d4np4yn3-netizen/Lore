@@ -24,5 +24,18 @@
   "print_release": false,
   "physical_qr_scan_test": false,
   "book_reproduction_release": false,
-  "full_page_art_ppi_approx": 126.91
+  "full_page_art_ppi_approx": 126.91,
+  "publication_status": "PUBLISHED_VERIFIED",
+  "publication_verification": "cards/crypto/season-01/the-split-master-034/publication-verification.json",
+  "main_publication_confirmation": {
+    "target": "d4np4yn3-netizen/Lore main",
+    "action": "Nonforced fast-forward to bb44d3a543bac9ae624056887e2da70249f28b78 to deploy approved034 release",
+    "assistant_message_id": "Sentinel_33382afdad54819180c083187c1c3afd",
+    "assistant_question": "The files are uploaded, but GitHub has blocked the final publishing step pending specific approval. May I update the Lore repository’s main branch with 034? That will deploy it to the live website",
+    "user_message_id": "Sentinel_31e11002e5888191acafbf9483f9ae5e",
+    "user_reply": "Ok approved, upload to site and GitHub then start next card!",
+    "approved_at": "2026-10-04T13:55:00Z",
+    "retry_count_after_specific_approval": 1,
+    "result": "success"
+  }
 }

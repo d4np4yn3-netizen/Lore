@@ -36,12 +36,12 @@
   "qr_url": "https://lore-site-v1.vercel.app/crypto/034/",
   "qr_target": "https://lore-site-v1.vercel.app/cards/the-split",
   "confirmed_lore_owned_route": true,
-  "status": "APPROVED_DIGITAL_PUBLICATION",
+  "status": "PUBLISHED_VERIFIED",
   "artwork_status": "EXACT_V7_USER_APPROVED",
   "phrase_status": "USER_APPROVED_EDITORIAL_WORDING_NOT_HISTORICAL_QUOTATION",
   "rarity_status": "EPIC_APPROVED",
   "book_copy_status": "NEW_SOURCED_COPY_UNDER_AUTHORISED_PUBLICATION_REQUEST",
-  "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+  "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "canvas_px": [
     816,
@@ -129,5 +129,7 @@
     "bytes": 3373088,
     "sha256": "56ce1ff1b5bcbc79df23dad5b8587c136b09e74c16447dd5170d60f1af4c274e",
     "git_blob": "f76256f7d23135394f51d10b796e06306d81a9e8"
-  }
+  },
+  "publication_status": "PUBLISHED_VERIFIED",
+  "publication_verification": "cards/crypto/season-01/the-split-master-034/publication-verification.json"
 }

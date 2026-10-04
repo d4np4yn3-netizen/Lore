@@ -1,0 +1,70 @@
+{
+  "release_commit": "bb44d3a543bac9ae624056887e2da70249f28b78",
+  "asset_commit": "87f64aa67693f1dc119307f2326b676974e1a78d",
+  "github_main_verified": "bb44d3a543bac9ae624056887e2da70249f28b78",
+  "deployment_id": "dpl_ACqgmfSvP8d7pAwsDmpWAMZfzXxG",
+  "production_url": "https://lore-site-v1.vercel.app/cards/the-split",
+  "status": "PUBLISHED_VERIFIED",
+  "artwork_sha256": "56ce1ff1b5bcbc79df23dad5b8587c136b09e74c16447dd5170d60f1af4c274e",
+  "checks": {
+    "github_all_40_release_files": true,
+    "unrelated_baseline_blobs_preserved": 1429,
+    "vercel_ready_exact_commit_and_production_alias": true,
+    "github_deployment_status": "success",
+    "all_34_qr_routes": true,
+    "new_display_image_hashes": 9,
+    "immutable_original_download_hashes": 6,
+    "downloaded_png_qr": true,
+    "downloaded_printer_pdf_300dpi_qr": true,
+    "book_and_website_story_and_five_clues_match": true,
+    "native_book_image_pixels_exact": true,
+    "desktop_reading_art_clue_book_history_focus": true,
+    "narrow_393_css_pixel_standalone_dialog_book_markers_history_focus": true
+  },
+  "print_release": false,
+  "physical_qr_scan_test": false,
+  "book_reproduction_release": false,
+  "full_page_native_art_ppi": 126.91,
+  "verified_at": "2026-10-04T14:06:00Z",
+  "narrow_testing_note": "393 × 252 CSS-pixel viewport using 300% native browser zoom, restored afterward; no physical mobile-device test. Existing 1-CSS-pixel timeline width rounding remains, with no dialog or standalone story overflow or blocked interaction.",
+  "browser_verification": "live-qa/browser-verification.json",
+  "evidence": [
+    {
+      "path": "cards/crypto/season-01/the-split-master-034/verification/release-tree-verification.json",
+      "bytes": 283,
+      "sha256": "603a9e538fca8ff6d4ea220f1e69546fc2ae57174eb2b20a9f8efc53c7661b62",
+      "git_blob": "d5f73c4361c30bfaacc9229e16a5aa6d49f225e8"
+    },
+    {
+      "path": "cards/crypto/season-01/the-split-master-034/verification/deployment-verification.json",
+      "bytes": 993,
+      "sha256": "b72e37899b9138fb50a42f005dc2f70e6d28fa31d2cc47906e1db87798f0a8bd",
+      "git_blob": "fdfa0dfe67c73e6804a9f5213879c4d92f5a1db1"
+    },
+    {
+      "path": "cards/crypto/season-01/the-split-master-034/verification/production-http-verification.json",
+      "bytes": 19332,
+      "sha256": "a1f6c78cedf0e3583b8eadfbe447677b7aab457e485e367533536db68f7e5c94",
+      "git_blob": "5945c1aa1241c33ce1ade927cf7caa78f6a1d6d6"
+    },
+    {
+      "path": "cards/crypto/season-01/the-split-master-034/verification/immutable-download-verification.json",
+      "bytes": 2213,
+      "sha256": "912186d129f6d5e5357c500aa5f6538a4cf280c23d6b0fb4e8f5a5dd7c13fff9",
+      "git_blob": "4a612498af6bfd8f560e3315a092df58f4f09c49"
+    },
+    {
+      "path": "cards/crypto/season-01/the-split-master-034/verification/qr-and-book-verification.json",
+      "bytes": 315,
+      "sha256": "68eb078db302393538dbd5e0b29cde6a713be3b49501099f3a14b027509cb476",
+      "git_blob": "a9970870b76478e4fb1a7390971dcf23c00d00fd"
+    },
+    {
+      "path": "cards/crypto/season-01/the-split-master-034/verification/browser-verification.json",
+      "bytes": 4733,
+      "sha256": "112d351502076fd06676c91b1d2128ee6f4a100117f1b2271552c6d43c518e86",
+      "git_blob": "e11f41859527aa7bc01b7a2d95877de6a276ce04"
+    }
+  ],
+  "verification_scope": "Full content release bb44d3a543bac9ae624056887e2da70249f28b78 verified on production. A records-only follow-on synchronises this verified status without changing any content or media."
+}

@@ -1,6 +1,6 @@
 # LORE Crypto Season One site
 
-Collection: 001–031, including 022 BURIED FORTUNE and 028 THE ETHER SALE. Existing card numbers and the redesigned chronological archive are unchanged. All 31 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 133 inspected clues, 31 trimmed card previews and 62 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter in book/crypto-season-01 through its sync_NNN.py script; run with --check before deployment. Exact artwork, printer fronts and full-art two-page editorial PDFs are linked from each card.
+Collection: 001–034, including 034 THE SPLIT. All 34 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 146 inspected clues, 34 trimmed card previews and 68 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter through its sync_NNN.py script. Exact artwork, printer fronts and full-art two-page editorial PDFs are linked from each card. 034 production is verified; see cards/crypto/season-01/the-split-master-034/publication-verification.json in the repository.
 
 Keep stable printed QR routes when changing domains. Visual approval, source checks, live QR verification, physical print and book reproduction/rights approvals remain separate.
 
@@ -23,3 +23,5 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 031 original downloads are pinned to immutable asset commit edf711c467bcc1148646d70b479c5367b13fdaaf.
 
 034 The Split adds exact approved v7 art, confirmed Epic/editorial caption, five actual-art clues and two-page A4 book. Collection 001-034 has 146 clues and 68 book previews. New web derivatives are append-only in display-13.bin; all 273 earlier images and source masters are preserved. Physical print/book reproduction remains separate.
+
+034 originals are pinned to immutable asset commit 87f64aa67693f1dc119307f2326b676974e1a78d. Content release bb44d3a543bac9ae624056887e2da70249f28b78 passed full production verification.

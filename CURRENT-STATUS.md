@@ -1,10 +1,10 @@
-# 034 The Split authorised digital release - 4 October 2026
+# 034 The Split published and verified - 4 October 2026
 
 Dan locked the exact v7 artwork and requested books, GitHub and website publication, then confirmed Epic and the editorial caption ONE HISTORY. TWO CHAINS. This new numbered master preserves exact art SHA-256 `56ce1ff1b5bcbc79df23dad5b8587c136b09e74c16447dd5170d60f1af4c274e`. ETHEREUM / THE SPLIT / 20 JUL 2016 / 034/100. The caption is not a historical quotation.
 
 The full card and two-page A4 book are digitally checked. PNG and actual 300-DPI PDF render decode to https://lore-site-v1.vercel.app/crypto/034/, configured to redirect to `/cards/the-split`. Book and website share four sourced story paragraphs and five actual-art clues: the opposing maps, shared sleepers, block 1,920,000, refund station and ETH/ETC signs. The marker remains readable just above the QR; exact art and fixed template are unchanged. The July recovery fork and June exploit remain distinct; ETH adopted the change and ETC continued the original chain. Railway/travellers are symbolic, with no cross-card cameo.
 
-Collection is 001-034, 146 clues, 68 book previews and 282 display assets; there are 38 unique approved designs. All 273 earlier display assets and previous registry objects are preserved. Originals are pinned to the new immutable asset commit, with new derivatives in display-13.bin. The source 1060 × 1484 artwork yields 126.91 PPI at full A4. Physical print release, printed phone-camera testing and book reproduction remain false. Publication verification follows the commit/deployment; do not infer a passed live check solely from local QA.
+Collection is 001-034, 146 clues, 68 book previews and 282 display assets; there are 38 unique approved designs. All 273 earlier display assets and previous registry objects are preserved. Originals are pinned to the new immutable asset commit, with new derivatives in display-13.bin. The source 1060 × 1484 artwork yields 126.91 PPI at full A4. Physical print release, printed phone-camera testing and book reproduction remain false. Content release `bb44d3a543bac9ae624056887e2da70249f28b78` is on GitHub main and Vercel production deployment `dpl_ACqgmfSvP8d7pAwsDmpWAMZfzXxG` is READY. All 34 QR routes, nine new display images, six original downloads, book/site story and five clues, downloaded PNG/PDF QR decodes, and independent desktop/narrow interactions pass. Final publication evidence is archived beside the numbered master.
 
 # 033 The DAO Hack published and verified — 4 October 2026
 

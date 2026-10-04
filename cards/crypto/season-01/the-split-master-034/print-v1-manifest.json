@@ -2,7 +2,7 @@
   "revision": "LORE-CRYPTO-034-PRINT-v1",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "created_at": "2026-10-04",
-  "status": "APPROVED_VISUAL_DIGITAL_QA_PASSED_PHYSICAL_RELEASE_SEPARATE",
+  "status": "APPROVED_VISUAL_DIGITAL_AND_LIVE_VERIFIED_PHYSICAL_RELEASE_SEPARATE",
   "approval_record": "cards/crypto/season-01/the-split-master-034/approval.json",
   "artwork": {
     "path": "cards/crypto/season-01/the-split-master-034/art.png",
@@ -136,9 +136,9 @@
     },
     {
       "path": "cards/crypto/season-01/the-split-master-034/source/final-qa.json",
-      "bytes": 1492,
-      "sha256": "937b7c50214f6dedaf2d07fb47cb2c3a111e4366fcd6d3b5635538cff6e65726",
-      "git_blob": "663abd819ec9010e828a0ca39691e9e142240a31"
+      "bytes": 1598,
+      "sha256": "3c6c286aff2c2d8f24354431acde253339764add51809a838a89059c3f982d9f",
+      "git_blob": "ae4b9e2e0c6e0c588ce1c06fa6266d5f69ac1e83"
     },
     {
       "path": "cards/crypto/season-01/the-split-master-034/source/qa_034_assets.py",
@@ -157,20 +157,21 @@
   "print_release": false,
   "book_reproduction_release": false,
   "release_gates": [
-    "Live release is verified after the publication commit; digital PDF and PNG decodes have passed.",
     "Physical printed phone-camera QR test and print/cut proof remain pending.",
     "Full-A4 book reproduction release remains separate; native artwork is 126.91 PPI."
   ],
   "digital_qa_record": {
     "path": "cards/crypto/season-01/the-split-master-034/source/final-qa.json",
-    "bytes": 1492,
-    "sha256": "937b7c50214f6dedaf2d07fb47cb2c3a111e4366fcd6d3b5635538cff6e65726",
-    "git_blob": "663abd819ec9010e828a0ca39691e9e142240a31"
+    "bytes": 1598,
+    "sha256": "3c6c286aff2c2d8f24354431acde253339764add51809a838a89059c3f982d9f",
+    "git_blob": "ae4b9e2e0c6e0c588ce1c06fa6266d5f69ac1e83"
   },
   "book_qa": {
     "path": "cards/crypto/season-01/the-split-master-034/source/book-qa.json",
     "bytes": 1671,
     "sha256": "53b055906c0312e08f8522f31ee65737c81ee3e3f7348fbe82e7f499607a1830",
     "git_blob": "2c3288e823210c40f0be0a170ebac1763c2b7a7a"
-  }
+  },
+  "qr_live_status": "VERIFIED",
+  "publication_verification": "cards/crypto/season-01/the-split-master-034/publication-verification.json"
 }
