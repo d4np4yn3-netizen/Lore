@@ -1,0 +1,177 @@
+{
+  "card": "033",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/the-dao-hack-master-033/art.png": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+    "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
+    "book/crypto-season-01/proofs/033-the-dao-hack-full-art-spread-v1.pdf": "59a244df39e7824ffb449dfe9ec4918afbb8d161909bc74838b7becb1e922d44"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The split function.",
+      "sourceBoxXYXY": [
+        586,
+        785,
+        828,
+        918
+      ],
+      "src": "/closeups/033-01.webp",
+      "width": 242,
+      "height": 133,
+      "alt": "split() label on the front window, referring to the contract function involved in the exploit",
+      "bbox": {
+        "x": 0.55283,
+        "y": 0.528976,
+        "w": 0.228302,
+        "h": 0.089623
+      }
+    },
+    {
+      "title": "The repeated calls.",
+      "sourceBoxXYXY": [
+        478,
+        611,
+        809,
+        810
+      ],
+      "src": "/closeups/033-02.webp",
+      "width": 331,
+      "height": 199,
+      "alt": "Nested repeat windows representing recursive calls; fictional interface design",
+      "bbox": {
+        "x": 0.450943,
+        "y": 0.411725,
+        "w": 0.312264,
+        "h": 0.134097
+      }
+    },
+    {
+      "title": "The locked Ether.",
+      "sourceBoxXYXY": [
+        881,
+        216,
+        1025,
+        295
+      ],
+      "src": "/closeups/033-03.webp",
+      "width": 144,
+      "height": 79,
+      "alt": "Approximately 27 DAYS display on the sealed Ether cabinet, symbolising the temporary withdrawal restriction",
+      "bbox": {
+        "x": 0.831132,
+        "y": 0.145553,
+        "w": 0.135849,
+        "h": 0.053235
+      }
+    },
+    {
+      "title": "The receiving address.",
+      "sourceBoxXYXY": [
+        887,
+        290,
+        1024,
+        350
+      ],
+      "src": "/closeups/033-04.webp",
+      "width": 137,
+      "height": 60,
+      "alt": "0x304a\u20263490 plate abbreviating the child DAO receiver address from the contemporary alert",
+      "bbox": {
+        "x": 0.836792,
+        "y": 0.195418,
+        "w": 0.129245,
+        "h": 0.040431
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/033-art.webp",
+      "pack": "display-12.bin",
+      "offset": 0,
+      "length": 294928,
+      "sha256": "45068ee627b9373985b9f3cdb752d009f34ce4f2ba438bfb712218ffbc12af11"
+    },
+    {
+      "path": "archive/033-page-1.webp",
+      "pack": "display-12.bin",
+      "offset": 294928,
+      "length": 189724,
+      "sha256": "a53392fa9c54add43448df89b6083247b147447de637230c0d6f470cce137f8f"
+    },
+    {
+      "path": "archive/033-page-2.webp",
+      "pack": "display-12.bin",
+      "offset": 484652,
+      "length": 117338,
+      "sha256": "bfd2caf6824aa1918ae3b4cfe1df8087d2cd88d68213e994dfa99d82e2628477"
+    },
+    {
+      "path": "archive/033-web-card.webp",
+      "pack": "display-12.bin",
+      "offset": 601990,
+      "length": 111684,
+      "sha256": "50ede0659b54128431a8ec2442d714df039cf24a9e22dce98e7ca481c550d902"
+    },
+    {
+      "path": "closeups/033-01.webp",
+      "pack": "display-12.bin",
+      "offset": 713674,
+      "length": 5168,
+      "sha256": "aa6f5932de6f3f4bded14eba4df2cae733825501015fa107ce3859434da9af57"
+    },
+    {
+      "path": "closeups/033-02.webp",
+      "pack": "display-12.bin",
+      "offset": 718842,
+      "length": 17274,
+      "sha256": "6f8d50d9d8d853d46d2f3554f21534e47508b354541c8e76cbc895d41f6a53af"
+    },
+    {
+      "path": "closeups/033-03.webp",
+      "pack": "display-12.bin",
+      "offset": 736116,
+      "length": 3686,
+      "sha256": "01e9da07f2c8683984d1645fde12c1b4a1f23be7bff8d98490099fd2111e13d4"
+    },
+    {
+      "path": "closeups/033-04.webp",
+      "pack": "display-12.bin",
+      "offset": 739802,
+      "length": 2818,
+      "sha256": "a887009ad44cc8a840bd7a5a069a49035c5430de6a225464abe216541b32e1e2"
+    }
+  ],
+  "bundleSHA256": "9fb3716d0adcefc592c0e3b9a3603d5174d861521ac794d4a6beb41b82d574e9",
+  "previousAssetsPreserved": 265,
+  "previousBundleSHA256": {
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-11.bin": "f586a324adacf85a6b029e3ec08142482037adf41f5e5e10749f2a2e1024d6a7",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-10.bin": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa"
+  },
+  "originalMastersUnchanged": true
+}

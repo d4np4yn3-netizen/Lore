@@ -16,6 +16,7 @@ export const yearNotes = {
   2013: ['Crypto finds its culture.', 'New ideas, everyday uses and unforgettable memes.'],
   2014: ['A much wider world.', 'Community, privacy, art and hard lessons.'],
   2015: ['A network and its rules.', 'New York regulates virtual-currency businesses as Ethereum’s Frontier goes live.'],
+  2016: ['A crisis in the contract.', 'The DAO exploit tests the security of smart contracts and the choices of a young community.'],
 };
 export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, c => c.toUpperCase()).replace('Mt. Gox','Mt. Gox').replace('Rpow','RPOW').replace('Hodl','HODL').replace('Wikileaks','WikiLeaks').replace('Bitlicense','BitLicense');
 
@@ -23,5 +24,5 @@ export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, 
 export const chapters = [
   {number:'01',start:1982,range:'1982 — 2004',title:'Before Bitcoin.',copy:'From private signatures to reusable proof of work, the ideas that made a different kind of money possible.'},
   {number:'02',start:2008,range:'2008 — 2012',title:'An idea becomes a network.',copy:'A whitepaper becomes working code. People send it, spend it, mine it and discover what it can do.'},
-  {number:'03',start:2013,range:'2013 — 2015',title:'The culture takes shape.',copy:'New communities and possibilities arrive, alongside failures and hard lessons. Crypto becomes much more than a technical experiment.'},
+  {number:'03',start:2013,range:'2013 — 2016',title:'The culture takes shape.',copy:'New communities and possibilities arrive, alongside failures and hard lessons. Crypto becomes much more than a technical experiment.'},
 ];

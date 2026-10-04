@@ -1,0 +1,122 @@
+{
+  "selected_at": "2026-10-04",
+  "source": "Exact selected v5 rear-view red-alert scene with requested young Vitalik-inspired likeness and keyboard SPLIT plaque removed.",
+  "sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+  "native_dimensions": [
+    1060,
+    1484
+  ],
+  "status": "USER_APPROVED_EXACT_V5",
+  "artwork_regenerated_during_publication": false,
+  "artwork_resized_during_publication": false,
+  "generation_tool": "built-in image_gen",
+  "required_style_references": [
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "STYLE",
+      "direct_generation_input": true
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "STYLE",
+      "direct_generation_input": true
+    }
+  ],
+  "reference_use_note": "The v5 generation QA and exact prompt record direct inputs: v4 edit target, approved 019 art for character likeness only, and both pinned HODL and Doge style masters. Card 006 belongs to earlier composition lineage and is not claimed as a direct v5 input or cameo.",
+  "other_direct_generation_inputs": [
+    {
+      "role": "v4 edit target",
+      "sha256": "686e7cbf0fe9272749cf1d93d220380cbc58f9d216c0c2c86f3c4f3cd0d88b7f"
+    },
+    {
+      "role": "019 character likeness only",
+      "path": "cards/crypto/season-01/ethereum-whitepaper-master-019/art.png",
+      "sha256": "ea32593fa3a7b4f1721eb1170007c016aa6ada849c11b468f167ae4179f2a8da",
+      "git_blob": "7762cfd0745d8239fe12e4fc4c45a16862a73984",
+      "canonical_url": "https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/ethereum-whitepaper-master-019/art.png"
+    }
+  ],
+  "revision_history": [
+    {
+      "version": "v4",
+      "sha256": "686e7cbf0fe9272749cf1d93d220380cbc58f9d216c0c2c86f3c4f3cd0d88b7f",
+      "change": "Rear-view red-alert composition preceding requested likeness and keyboard corrections.",
+      "selected": false
+    },
+    {
+      "version": "v5",
+      "sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+      "change": "Young Vitalik-inspired likeness using 019 as character reference; keyboard SPLIT plaque removed; split() screen label and all four clues preserved.",
+      "selected": true
+    }
+  ],
+  "historical_master": {
+    "path": "cards/crypto/season-01/the-dao-hack-master-01",
+    "artwork_file": {
+      "path": "cards/crypto/season-01/the-dao-hack-master-01/art.png",
+      "bytes": 2506007,
+      "sha256": "5240d0aa938f19d5157c7c0f7b7cc37323b447732309cfb6658efe3366555ee3",
+      "git_blob": "5ebaf6a39bd60acf9747216879409a8ca5fe8ec2"
+    },
+    "preservation": "All original artwork, source files and prior approvals are historical and remain unchanged. This numbered successor updates one existing event, not a second unique design."
+  },
+  "interpretation": "Fictional young-Vitalik-inspired response scene. The room, terminal, nested windows, receipts, locked Ether cabinet, posture and response actions are invented symbolic staging, not documented actions or an identification of the attacker. The DAO application exploit is distinct from an Ethereum consensus failure. The split() contract function and 17 June exploit are distinct from the 20 July hard fork. The approximate 27-day display is a reported temporary withdrawal restriction, not a precise fork countdown.",
+  "artwork_clues": [
+    {
+      "detail": "The split function.",
+      "meaning": "The front window's split() label points to the contract operation involved in the exploit. It does not refer to the later Ethereum and Ethereum Classic fork.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The repeated calls.",
+      "meaning": "Nested windows and the paper trail visualise recursion. Their repetition conveys the same operation happening again inside an unfinished call; the interface and receipts are invented.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The locked Ether.",
+      "meaning": "The cabinet and ≈27 DAYS display recall the temporary withdrawal restriction. The number is an approximate period reported during the attack, not a precise countdown to the hard fork.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The receiving address.",
+      "meaning": "The plate reads 0x304a…3490, abbreviating the child DAO address named in the contemporary alert. Its correctly retained beginning and ending anchor the fictional machinery to the historical record.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    }
+  ],
+  "cross_card_cameo": null,
+  "sources": [
+    {
+      "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+      "title": "Vitalik Buterin: Critical Update re DAO Vulnerability",
+      "type": "PRIMARY_CONTEMPORANEOUS",
+      "supports": "17 June 2016 exploit; recursive split calls; child DAO address; at least roughly another 27 days before withdrawal; continuous phrase remain calm; application versus Ethereum distinction."
+    },
+    {
+      "url": "https://www.sec.gov/files/litigation/investreport/34-81207.pdf",
+      "title": "SEC Release No. 81207, Report of Investigation, 25 July 2017, pp. 4 and 9",
+      "type": "OFFICIAL_RETROSPECTIVE",
+      "supports": "DAO token purchases and project voting, June exploit, July hard fork and continuation of the original chain as Ethereum Classic."
+    },
+    {
+      "url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+      "title": "Vitalik Buterin: Hard Fork Completed",
+      "type": "PRIMARY_CONTEMPORANEOUS",
+      "supports": "20 July 2016 hard fork and transfer of DAO funds to a recovery contract, distinct from the June exploit and contract split function."
+    }
+  ],
+  "caption_provenance": {
+    "text": "REMAIN CALM.",
+    "source": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+    "status": "CONTINUOUS_TWO_WORD_EXCERPT",
+    "normalisation": "Capitalisation and terminal punctuation only; original alert contains remain calm."
+  },
+  "child_dao_address": {
+    "full": "0x304a554a310c7e546dfe434669c62820b7d83490",
+    "display": "0x304a…3490",
+    "source": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability"
+  },
+  "native_source_resolution_note": "1060 × 1484 raster, 126.91 PPI at the full-A4 fill scale. No source upscaling or physical book reproduction approval is implied.",
+  "card_size_readability_note": "Four clue areas are unobstructed in the reviewed card. The address and small nested labels are very fine at physical size; no unaided readability or phone-camera claim is made."
+}

@@ -1,0 +1,253 @@
+{
+  "id": "crypto-s01-the-dao-hack",
+  "creator": "ETHEREUM",
+  "subject": "ETHEREUM",
+  "rarity": "epic",
+  "title_line_1": "THE DAO",
+  "title_line_2": "HACK",
+  "title_lines": [
+    "THE DAO",
+    "HACK"
+  ],
+  "title_status": "EDITORIAL_EVENT_TITLE",
+  "context": "REMAIN CALM.",
+  "moment_label": "17 JUN 2016",
+  "event_date": "2016-06-17",
+  "event_date_display": "17 JUN 2016",
+  "date_precision": "day",
+  "date_qualification": "The DAO exploit and contemporaneous alert. The later 20 July 2016 hard fork is a separate milestone.",
+  "set_label": "CRYPTO • SEASON 01 • 033/100",
+  "footer": "CRYPTO • SEASON 01 • 033/100",
+  "moment_number": 33,
+  "set_size": 100,
+  "collection": "crypto",
+  "season": 1,
+  "finishes": [
+    "standard",
+    "foil"
+  ],
+  "artwork": "cards/crypto/season-01/the-dao-hack-master-033/art.png",
+  "artwork_sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+  "front": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png",
+  "editable_svg": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.svg",
+  "printer_pdf": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.pdf",
+  "book_spread": "book/crypto-season-01/proofs/033-the-dao-hack-full-art-spread-v1.pdf",
+  "chapter": "book/crypto-season-01/033-the-dao-hack.md",
+  "qr_url": "https://lore-site-v1.vercel.app/crypto/033/",
+  "qr_target": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+  "confirmed_lore_owned_route": true,
+  "status": "FRONT_AND_BOOK_APPROVED_PUBLICATION_AUTHORISED",
+  "artwork_status": "EXACT_V5_USER_APPROVED",
+  "phrase_status": "APPROVED_PRIMARY_SOURCE_EXCERPT_CASE_AND_PUNCTUATION_NORMALISED",
+  "rarity_status": "EPIC_APPROVED",
+  "book_copy_status": "APPROVED_BOOK_PROOF_STORY_PRESERVED",
+  "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+  "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "approval_record": "cards/crypto/season-01/the-dao-hack-master-033/approval.json",
+  "print_manifest": "cards/crypto/season-01/the-dao-hack-master-033/print-v1-manifest.json",
+  "publication_approved": true,
+  "publication_status": "PENDING_LIVE_VERIFICATION",
+  "approved_at": "2026-10-04",
+  "approved_by": "Dan Payne",
+  "print_release": false,
+  "book_reproduction_release": false,
+  "physical_qr_scan_test": false,
+  "source": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+  "sources": [
+    {
+      "url": "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+      "title": "Vitalik Buterin: Critical Update re DAO Vulnerability",
+      "type": "PRIMARY_CONTEMPORANEOUS",
+      "supports": "17 June 2016 exploit; recursive split calls; child DAO address; at least roughly another 27 days before withdrawal; continuous phrase remain calm; application versus Ethereum distinction."
+    },
+    {
+      "url": "https://www.sec.gov/files/litigation/investreport/34-81207.pdf",
+      "title": "SEC Release No. 81207, Report of Investigation, 25 July 2017, pp. 4 and 9",
+      "type": "OFFICIAL_RETROSPECTIVE",
+      "supports": "DAO token purchases and project voting, June exploit, July hard fork and continuation of the original chain as Ethereum Classic."
+    },
+    {
+      "url": "https://blog.ethereum.org/2016/07/20/hard-fork-completed",
+      "title": "Vitalik Buterin: Hard Fork Completed",
+      "type": "PRIMARY_CONTEMPORANEOUS",
+      "supports": "20 July 2016 hard fork and transfer of DAO funds to a recovery contract, distinct from the June exploit and contract split function."
+    }
+  ],
+  "artwork_clues": [
+    {
+      "detail": "The split function.",
+      "meaning": "The front window's split() label points to the contract operation involved in the exploit. It does not refer to the later Ethereum and Ethereum Classic fork.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The repeated calls.",
+      "meaning": "Nested windows and the paper trail visualise recursion. Their repetition conveys the same operation happening again inside an unfinished call; the interface and receipts are invented.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The locked Ether.",
+      "meaning": "The cabinet and ≈27 DAYS display recall the temporary withdrawal restriction. The number is an approximate period reported during the attack, not a precise countdown to the hard fork.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The receiving address.",
+      "meaning": "The plate reads 0x304a…3490, abbreviating the child DAO address named in the contemporary alert. Its correctly retained beginning and ending anchor the fictional machinery to the historical record.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    }
+  ],
+  "cross_card_cameo": null,
+  "interpretation": "Fictional young-Vitalik-inspired response scene. The room, terminal, nested windows, receipts, locked Ether cabinet, posture and response actions are invented symbolic staging, not documented actions or an identification of the attacker. The DAO application exploit is distinct from an Ethereum consensus failure. The split() contract function and 17 June exploit are distinct from the 20 July hard fork. The approximate 27-day display is a reported temporary withdrawal restriction, not a precise fork countdown.",
+  "clue_review_status": "VISUALLY_CHECKED_IN_APPROVED_REVIEW_CARD_AND_BOOK",
+  "card_size_readability_note": "Four clue areas are unobstructed in the reviewed card. The address and small nested labels are very fine at physical size; no unaided readability or phone-camera claim is made.",
+  "output_sha256": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
+  "print_svg_sha256": "a6218c993f691995b9f8eef53aa1d533475bd9e9a9038c4f8d80ac470dd8a5bb",
+  "printer_pdf_sha256": "b73b452403a9d82d750342fd315a381155c379c77087943bec01d36c940ea8d6",
+  "current_files": [
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png",
+      "bytes": 852909,
+      "sha256": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
+      "git_blob": "1e00c72cbda3e4524e09044de6ee750f7e2e90c7"
+    },
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.svg",
+      "bytes": 2870076,
+      "sha256": "a6218c993f691995b9f8eef53aa1d533475bd9e9a9038c4f8d80ac470dd8a5bb",
+      "git_blob": "778be598cd099bb1b0d75f2d1ef9cc51747c9d13"
+    },
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.pdf",
+      "bytes": 1557282,
+      "sha256": "b73b452403a9d82d750342fd315a381155c379c77087943bec01d36c940ea8d6",
+      "git_blob": "7d08730dccd046325c5b3f24fc0964a286b40441"
+    }
+  ],
+  "artwork_file": {
+    "path": "cards/crypto/season-01/the-dao-hack-master-033/art.png",
+    "bytes": 2125274,
+    "sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+    "git_blob": "93edce692c5329c903cc90ce73795e3a8cee7096"
+  },
+  "historical_versions": [
+    {
+      "id": "crypto-s01-the-dao-hack",
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "epic",
+      "creator": "ETHEREUM",
+      "title_line_1": "THE DAO",
+      "title_line_2": "HACK",
+      "context": "REMAIN CALM.",
+      "moment_label": "17 JUN 2016",
+      "set_label": "CRYPTO • SEASON 01",
+      "artwork": "cards/crypto/season-01/the-dao-hack-master-01/art.png",
+      "qr_url": "https://example.com/lore/crypto/the-dao-hack",
+      "status": "VISUALLY_APPROVED",
+      "artwork_status": "VISUALLY_APPROVED",
+      "concept_instruction": "ok, redraw",
+      "phrase_status": "PRIMARY_SOURCE_VERIFIED_CONCEPT_BUILD_AUTHORISED",
+      "event_date": "2016-06-17",
+      "date_basis": "CONTEMPORANEOUS_ETHEREUM_FOUNDATION_EMERGENCY_NOTICE",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "qr_mode": "demo",
+      "print_release": false,
+      "publication_approved": true,
+      "interpretation": "Fictional sealed vaults visualise The DAO exploit. A one-way violet stream depicts ETH diverted into the locked child DAO. A small amber loop at the SPLIT control represents recursive calls, not funds returned to The DAO. Enlarged fictional engineers convey urgency. The receiver display references the approximate 27-day withdrawal restriction reported during the attack. No actual physical building, identifiable attacker, Ethereum consensus breach or later July fork is depicted.",
+      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "source_notes": "cards/crypto/season-01/the-dao-hack-master-01/source-notes.md",
+      "sources": [
+        "https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability",
+        "https://www.sec.gov/files/litigation/investreport/34-81207.pdf"
+      ],
+      "review_version": 2,
+      "rarity_status": "APPROVED_EPIC",
+      "front": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.svg",
+      "source_archive": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-Review-v2-Source.zip",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-09-20",
+      "approval_quote": "ok, approved, upload and next card =)",
+      "approval_record": "cards/crypto/season-01/the-dao-hack-master-01/approval.json",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "style_migration_status": "APPROVED_CURRENT_STYLE",
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": false,
+      "qr_status": "DEMO_ONLY",
+      "subject": "ETHEREUM",
+      "title_lines": [
+        "THE DAO",
+        "HACK"
+      ],
+      "event_date_display": "17 JUN 2016",
+      "footer": "CRYPTO • SEASON 01",
+      "moment_number": null,
+      "set_size": null,
+      "print_quantities": null,
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.png",
+          "bytes": 1626808,
+          "sha256": "d6e34a15618791cfe2988736020104b06ef53fb4c58e0c26434e0cd676c5618c",
+          "git_blob": "074af689b2ddcbb633c61202fb23c37eaa8318fa"
+        },
+        {
+          "path": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1.svg",
+          "bytes": 3376402,
+          "sha256": "5c695863d223abd8c292057e4d7b7a85cc922cae6ee66ddf2ff5519f0c81eeb1",
+          "git_blob": "e002d29c2c1d1ab13ebae75d8fe7812bfd93a271"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-dao-hack-master-01/art.png",
+        "bytes": 2506007,
+        "sha256": "5240d0aa938f19d5157c7c0f7b7cc37323b447732309cfb6658efe3366555ee3",
+        "git_blob": "5ebaf6a39bd60acf9747216879409a8ca5fe8ec2"
+      },
+      "print_derivative": {
+        "revision": "LORE-CRYPTO-PRINT-v1.0",
+        "front": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.png",
+        "editable_svg": "cards/crypto/season-01/the-dao-hack-master-01/LORE-The-DAO-Hack-Epic-v1-Print-v1.svg",
+        "manifest": "cards/crypto/season-01/the-dao-hack-master-01/print-v1-manifest.json",
+        "canvas_px": [
+          816,
+          1110
+        ],
+        "dpi": 300,
+        "cut_px": [
+          744,
+          1038
+        ],
+        "safe_px": [
+          684,
+          981
+        ],
+        "transform": "translate(46.515 48.921) scale(0.8033)",
+        "phrase": {
+          "size": 25,
+          "weight": 700,
+          "position_tracking_colour": "preserved"
+        },
+        "qr_status": "DEMO_ONLY",
+        "print_release": false,
+        "physical_proof_received": false,
+        "physical_qr_scan_test": false,
+        "converted_at": "2026-09-24"
+      }
+    }
+  ]
+}

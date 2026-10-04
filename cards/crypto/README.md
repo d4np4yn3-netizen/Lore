@@ -1,8 +1,8 @@
 # LORE Crypto — Season One
 
-## Latest approved numbered card: 032
+## Latest approved numbered card: 033
 
-[Ethereum Goes Live — Mythic](season-01/ethereum-goes-live-master-032/README.md) was approved for repository and website upload on 4 October 2026, including its exact v12 illustration and two-page book proof. The current register contains 37 unique approved designs and 32 approved numbered entries; 032 live verification remains pending. Physical print, physical QR testing and book reproduction release remain separate. Use [current cards](current-cards.json) and the latest project status for the current sequence; the migration notes below preserve the earlier rollout history.
+[The DAO Hack — Epic](season-01/the-dao-hack-master-033/README.md) was approved for repository and website upload on 4 October 2026, including its exact selected v5 illustration and two-page book proof. The current register contains 37 unique approved designs and 33 approved numbered entries. This replaces the current pointer for the existing DAO event; its complete prior registry object and original master-01 files remain historical. Final digital asset QA passes; 033 live verification is pending. Physical print, physical QR testing and book reproduction release remain separate. Use [current cards](current-cards.json) and the latest project status for the current sequence; the migration notes below preserve the earlier rollout history.
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·
@@ -23,7 +23,7 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 | Birth of Doge — Epic | [Approved v2](season-01/birth-of-doge-master-02/README.md) | Complete; required reference |
 | The Whitepaper — Legendary | [Approved v1](season-01/the-whitepaper-master-01/README.md) | Complete; both references used |
 | BitConnect — Rare | [Approved v1](season-01/bitconnect-master-01/README.md) | Complete; single-word title |
-| The DAO Hack — Epic | [Approved v1](season-01/the-dao-hack-master-01/README.md) | Complete; exact Review-v2 |
+| The DAO Hack — Epic | [Approved numbered 033 / selected v5](season-01/the-dao-hack-master-033/README.md) · [Historical original](season-01/the-dao-hack-master-01/README.md) | 033 publication authorised; original preserved |
 | The Depeg — Rare | [Approved v1](season-01/the-depeg-master-01/README.md) | Complete; latest selected edits |
 | MT. GOX — Epic | [Approved v1](season-01/mt-gox-master-01/README.md) | Complete; exact Review-v3 |
 | Behind the Chair — Common | [Approved v1](season-01/behind-the-chair-master-01/README.md) | Complete; exact Review-v2 |

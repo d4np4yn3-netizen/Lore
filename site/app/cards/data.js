@@ -30,6 +30,7 @@ import chapter029 from './content/029.json';
 import chapter030 from './content/030.json';
 import chapter031 from './content/031.json';
 import chapter032 from './content/032.json';
+import chapter033 from './content/033.json';
 
 export const cards = [
   {
@@ -417,6 +418,19 @@ export const cards = [
     source: 'https://blog.ethereum.org/2015/07/30/ethereum-launches',
     ...chapter032,
     number: '032/100',
+  },
+  {
+    slug: 'the-dao-hack', title: 'THE DAO HACK', rarity: 'EPIC',
+    date: '17 JUN 2016', subject: 'ETHEREUM', phrase: 'REMAIN CALM.',
+    phraseKind: 'verified contemporary excerpt',
+    image: 'cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-dao-hack-master-033/art.png',
+    book: 'book/crypto-season-01/proofs/033-the-dao-hack-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.svg',
+    source: 'https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability',
+    ...chapter033,
+    number: '033/100',
   },
 ];
 
