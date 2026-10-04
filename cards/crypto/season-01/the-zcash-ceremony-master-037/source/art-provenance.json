@@ -1,0 +1,135 @@
+{
+  "artwork": {
+    "path": "cards/crypto/season-01/the-zcash-ceremony-master-037/art.png",
+    "bytes": 2580078,
+    "sha256": "1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1",
+    "git_blob": "2cac21b263ee579881e7f1c9000b4bc1161bcdfa"
+  },
+  "native_dimensions_px": [
+    1060,
+    1484
+  ],
+  "final_revision": "v5",
+  "artifact_revision": "coinlit-anime-v5",
+  "status": "USER_APPROVED_DIGITAL_PUBLICATION",
+  "method": "Approved imagegen illustration preserved exactly; final assembly changes only the proof QR/caption and removes review labels. No source artwork edits.",
+  "mandatory_style_references": [
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/zcash/mpc#zcash-ceremony",
+      "title": "Original Zcash ceremony repository",
+      "type": "PRIMARY_PROJECT_RECORD",
+      "supports": "The Sprout parameter-generation ceremony ran on 22–23 October 2016; public proving and verifying parameters."
+    },
+    {
+      "url": "https://zodl.com/the-design-of-the-ceremony/",
+      "title": "ECC design of the ceremony account, now hosted by Zodl",
+      "type": "PRIMARY_PROJECT_ACCOUNT",
+      "supports": "Six geographically separated participants, offline compute nodes, removed wireless hardware, DVD evidence trail and one-honest-participant security assumption."
+    },
+    {
+      "url": "https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#term-Sprout",
+      "title": "Zcash Sprout glossary entry",
+      "type": "PRIMARY_PROJECT_DOCUMENTATION",
+      "supports": "The Sprout network launched on 28 October 2016, separately from the parameter ceremony."
+    },
+    {
+      "url": "https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony#destroying-the-compute-node",
+      "title": "Peter Todd’s first-person ceremony and hardware-destruction account",
+      "type": "PRIMARY_PARTICIPANT_ACCOUNT",
+      "supports": "Physical precautions and Todd’s further dismantling/heating of components on 24 October, after the computation."
+    },
+    {
+      "url": "https://www.prnewswire.com/in/news-releases/edward-snowden-revealed-as-john-dobbertin-the-final-pseudonymous-member-of-2016-s-setup-process-for-privacy-preserving-cryptocurrency-zcash-confirmed-in-zcash-media-s-latest-video-876640545.html",
+      "title": "Zcash Media announcement of Edward Snowden’s participation",
+      "type": "PRIMARY_ANNOUNCEMENT_VIA_NEWSWIRE",
+      "supports": "Snowden participated as John Dobbertin; his identity became public in 2022."
+    }
+  ],
+  "likeness_cast": [
+    {
+      "position": "back left",
+      "person": "Zooko Wilcox"
+    },
+    {
+      "position": "back centre",
+      "person": "Andrew Miller"
+    },
+    {
+      "position": "back right",
+      "person": "Peter Van Valkenburgh"
+    },
+    {
+      "position": "front left",
+      "person": "Derek Hinch"
+    },
+    {
+      "position": "middle right",
+      "person": "Peter Todd"
+    },
+    {
+      "position": "front right",
+      "person": "Edward Snowden"
+    }
+  ],
+  "public_portrait_reference_sources": [
+    {
+      "person": "Zooko Wilcox",
+      "source": "https://shieldedlabs.net/board/",
+      "source_kind": "FIRST_PARTY_NAMED_BOARD_PROFILE",
+      "date_note": "Preferred first-party reference; upload path indicates November 2024, exposure date unverified. Not established as a 2016 portrait."
+    },
+    {
+      "person": "Andrew Miller",
+      "source": "https://simons.berkeley.edu/people/andrew-miller",
+      "source_kind": "INSTITUTIONAL_NAMED_PROFILE",
+      "date_note": "Profile describes a summer 2015 Berkeley visit; portrait exposure date not independently documented.",
+      "supplemental_source": "https://ece.illinois.edu/about/directory/faculty/soc1024"
+    },
+    {
+      "person": "Peter Van Valkenburgh",
+      "source": "https://coincenter.org/people/peter-van-valkenburgh/",
+      "source_kind": "FIRST_PARTY_NAMED_PROFILE",
+      "date_note": "Image upload path is June 2018; exposure date unverified. Not proven to depict 2016 appearance."
+    },
+    {
+      "person": "Derek Hinch",
+      "source": "https://www.linkedin.com/in/derekhinch",
+      "source_kind": "NAMED_SELF_PUBLISHED_PROFILE",
+      "date_note": "Current profile photograph; exposure date unknown. Reference is small and sunglasses obscure the eyes; used as a broad likeness cue, not proof of exact 2016 appearance."
+    },
+    {
+      "person": "Peter Todd",
+      "source": "https://qconlondon.com/london-2017/london-2017/speakers/peter-todd.html",
+      "source_kind": "NAMED_CONFERENCE_PROFILE",
+      "date_note": "2017 conference reference, later than the ceremony; exact exposure date unverified."
+    },
+    {
+      "person": "Edward Snowden",
+      "source": "https://freedom.press/people/edward-snowden/",
+      "source_kind": "FIRST_PARTY_NAMED_PROFILE",
+      "date_note": "Freedom of the Press Foundation profile; portrait exposure date is undocumented."
+    }
+  ],
+  "likeness_qualification": "Several public portrait references are later or undated. These are stylised likenesses, not exact documented 2016 appearances. Original photographs are not reproduced.",
+  "photo_rights_note": "Reference use does not establish a licence to reproduce the original photographs. No source photographs or contact sheets are included in this release.",
+  "interpretation": "Six stylised likenesses gather around an imagined altar, while the historical participants worked in geographically separate locations. Six crystals and connecting light symbolise the private contributions and shared public result. The altar, floating coin, crystals, gathering and jar are invented staging. The detached CPU-like board is a generic symbolic radio-removal/air-gap cue, not an exact Wi-Fi card. The jar combines Todd’s 24 October hardware-destruction phase with the 22–23 October computation. No physical coin was summoned and no cross-card cameo is claimed.",
+  "security_qualification": "ONE HONEST WITNESS is an approved editorial paraphrase, not a quotation. Under the protocol’s assumptions, one honest, uncompromised participant securely destroying their private contribution was sufficient to prevent reconstruction of the combined secret. This does not remove every trust assumption or exclude software and cryptographic flaws.",
+  "visible_clues": [
+    "Six witnesses and crystals",
+    "The DVD-R",
+    "The detached radio",
+    "The broken remnants",
+    "The Sprout carving"
+  ],
+  "cross_card_cameo": null
+}

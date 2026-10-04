@@ -1,3 +1,13 @@
+# 037 The Zcash Ceremony authorised digital release - 4 October 2026
+
+Dan approved the exact reviewed coinlit-anime v5 artwork, card, metadata and two-page book, then requested GitHub/site upload. ZCASH / THE ZCASH CEREMONY / Uncommon / 22–23 OCT 2016 / ONE HONEST WITNESS / 037/100. The phrase is an approved editorial paraphrase, not a historical quotation. Exact art SHA-256 `1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1` is unchanged.
+
+Final card changes are confined to the QR and scan caption; book review labels are removed. PNG and actual 300-DPI PDF render decode to https://lore-site-v1.vercel.app/crypto/037/, configured for /cards/the-zcash-ceremony. The approved chapter contains five story paragraphs and five actual-art details: six witnesses/crystals, DVD-R, generic detached radio board, broken-remnants jar and Sprout carving. Six faces, six crystals and all five clue groups remain visible. The ceremony’s 22–23 October date, Todd’s 24 October hardware destruction and Sprout’s 28 October launch are distinct. ONE HONEST WITNESS is qualified by the protocol’s assumptions and secure destruction of an uncompromised contribution; it does not eliminate every risk.
+
+The intended cast is Wilcox, Miller, Van Valkenburgh, Hinch, Todd and Snowden. Public portraits informed stylised likenesses, with later/undated sources qualified. The real witnesses worked separately. Their common altar, floating coin, glowing crystals, generic board and jar are symbolic, and the image combines successive phases. No cross-card cameo or exact 2016 likeness claim is made; reference photographs are not included in this release.
+
+The prepared collection reaches 001–037, with target totals of 159 clues, 74 book previews and 307 display assets; 41 unique approved designs. The 36 prior published cards, all 40 prior registry objects and 298 prior display assets remain preserved. New derivatives append to display-16.bin. Native 1060 × 1484 art is 126.91 PPI at full A4. Physical print, phone-camera QR testing and book reproduction remain false. Small lettering and fine hardware require physical assessment. Live verification for 037 follows publication and must not be inferred from local QA. No 038 publication is included.
+
 # 036 Rare Pepes published and verified - 4 October 2026
 
 Dan approved the reviewed 036 artwork/card/book and requested GitHub/site publication. COUNTERPARTY / RARE PEPES / Uncommon / 09 SEP 2016 / THE MOST RARE PEPE / 036/100. The phrase is an exact continuous excerpt from the original RAREPEPE issuance description. Exact v4 artwork SHA-256 `6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f` is unchanged.

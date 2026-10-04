@@ -4,7 +4,7 @@ These deterministic transport bundles contain the individual display files liste
 
 Bundling keeps the preview publication atomic and avoids hundreds of individual upload operations. It does not alter or combine the images displayed on the site. Each is served at its own URL, loaded independently and eligible for Next image optimization.
 
-`web-card-derivatives.json` records all 31 card sources, original checksums and precise print-bleed removal. Cropped web previews use the approved print-v1 cut box [36,36,744,1038] on the 816×1110 master. Originals are unchanged. Book pages are rasterized from their current published PDFs. Clues are deterministic, visually verified crops of the exact approved artwork; no generated objects.
+`web-card-derivatives.json` records all 37 card sources, original checksums and precise print-bleed removal. Cropped web previews use the approved print-v1 cut box [36,36,744,1038] on the 816×1110 master. Originals are unchanged. Book pages are rasterized from their current published PDFs. Clues are deterministic, visually verified crops of the exact approved artwork; no generated objects.
 
 
 The 022 addition is append-only: display-06.bin holds eight new WebP images (card, full artwork, two PDF pages and four actual-art clue crops). The six earlier bundles and all 219 earlier media records and hashes are unchanged. The full index contains 227 images and 119 close-ups.
@@ -26,3 +26,5 @@ The approved 032 artwork, Mythic card and two-page book are preserved as origina
 035 The Bitfinex Heist adds exact approved date-free v8 art, Uncommon, TRUST LEFT THE EXCHANGE., four actual-art clues and the two-page book. Collection 001-035 contains 150 clues and 70 book previews. New derivatives are in display-14.bin; all 282 earlier images are preserved. Physical reproduction remains separate.
 
 036 Rare Pepes adds exact approved v4 art, Uncommon, THE MOST RARE PEPE, five story paragraphs, four actual-art clues and the two-page book. Collection 001-036 contains 154 clues and 72 book previews. New derivatives are in display-15.bin; all 290 earlier images are preserved. Physical reproduction remains separate.
+
+037 The Zcash Ceremony appends nine WebPs in display-16.bin: card trim, full art, two book pages and five actual-art clues. The 298 previous images, bundles and media records are unchanged. Totals: 307 images, 159 clue close-ups and 74 book previews. See 037-derivatives.json for exact source hashes and crop coordinates. Physical reproduction remains separate.

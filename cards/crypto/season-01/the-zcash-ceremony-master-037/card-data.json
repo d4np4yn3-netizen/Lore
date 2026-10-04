@@ -1,0 +1,181 @@
+{
+  "id": "crypto-s01-the-zcash-ceremony",
+  "creator": "ZCASH",
+  "subject": "ZCASH",
+  "rarity": "uncommon",
+  "title_line_1": "THE ZCASH",
+  "title_line_2": "CEREMONY",
+  "title_lines": [
+    "THE ZCASH",
+    "CEREMONY"
+  ],
+  "title_status": "EDITORIAL_EVENT_TITLE",
+  "context": "ONE HONEST WITNESS",
+  "moment_label": "22–23 OCT 2016",
+  "event_date": "2016-10-22",
+  "event_date_start": "2016-10-22",
+  "event_date_end": "2016-10-23",
+  "event_date_display": "22–23 OCT 2016",
+  "date_precision": "range",
+  "date_qualification": "22–23 October 2016 parameter-generation ceremony. Distinct milestones: Todd’s further hardware destruction on 24 October and Sprout network launch on 28 October.",
+  "set_label": "CRYPTO • SEASON 01 • 037/100",
+  "footer": "CRYPTO • SEASON 01 • 037/100",
+  "moment_number": 37,
+  "set_size": 100,
+  "collection": "crypto",
+  "season": 1,
+  "finishes": [
+    "standard",
+    "foil"
+  ],
+  "artwork": "cards/crypto/season-01/the-zcash-ceremony-master-037/art.png",
+  "artwork_sha256": "1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1",
+  "front": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.png",
+  "editable_svg": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.svg",
+  "printer_pdf": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.pdf",
+  "book_spread": "book/crypto-season-01/proofs/037-the-zcash-ceremony-full-art-spread-v1.pdf",
+  "chapter": "book/crypto-season-01/037-the-zcash-ceremony.md",
+  "qr_url": "https://lore-site-v1.vercel.app/crypto/037/",
+  "qr_target": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+  "confirmed_lore_owned_route": true,
+  "status": "APPROVED_DIGITAL_PUBLICATION",
+  "artwork_status": "EXACT_V5_USER_APPROVED",
+  "phrase_status": "USER_APPROVED_EDITORIAL_PARAPHRASE_NOT_HISTORICAL_QUOTATION",
+  "rarity_status": "UNCOMMON_APPROVED",
+  "book_copy_status": "APPROVED_PROOF_COPY_WITH_REVIEW_LABELS_REMOVED",
+  "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+  "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "approval_record": "cards/crypto/season-01/the-zcash-ceremony-master-037/approval.json",
+  "print_manifest": "cards/crypto/season-01/the-zcash-ceremony-master-037/print-v1-manifest.json",
+  "publication_approved": true,
+  "approved_at": "2026-10-04",
+  "approved_by": "Dan Payne",
+  "print_release": false,
+  "book_reproduction_release": false,
+  "physical_qr_scan_test": false,
+  "source": "https://github.com/zcash/mpc#zcash-ceremony",
+  "sources": [
+    {
+      "url": "https://github.com/zcash/mpc#zcash-ceremony",
+      "title": "Original Zcash ceremony repository",
+      "type": "PRIMARY_PROJECT_RECORD",
+      "supports": "The Sprout parameter-generation ceremony ran on 22–23 October 2016; public proving and verifying parameters."
+    },
+    {
+      "url": "https://zodl.com/the-design-of-the-ceremony/",
+      "title": "ECC design of the ceremony account, now hosted by Zodl",
+      "type": "PRIMARY_PROJECT_ACCOUNT",
+      "supports": "Six geographically separated participants, offline compute nodes, removed wireless hardware, DVD evidence trail and one-honest-participant security assumption."
+    },
+    {
+      "url": "https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#term-Sprout",
+      "title": "Zcash Sprout glossary entry",
+      "type": "PRIMARY_PROJECT_DOCUMENTATION",
+      "supports": "The Sprout network launched on 28 October 2016, separately from the parameter ceremony."
+    },
+    {
+      "url": "https://petertodd.org/2016/cypherpunk-desert-bus-zcash-trusted-setup-ceremony#destroying-the-compute-node",
+      "title": "Peter Todd’s first-person ceremony and hardware-destruction account",
+      "type": "PRIMARY_PARTICIPANT_ACCOUNT",
+      "supports": "Physical precautions and Todd’s further dismantling/heating of components on 24 October, after the computation."
+    },
+    {
+      "url": "https://www.prnewswire.com/in/news-releases/edward-snowden-revealed-as-john-dobbertin-the-final-pseudonymous-member-of-2016-s-setup-process-for-privacy-preserving-cryptocurrency-zcash-confirmed-in-zcash-media-s-latest-video-876640545.html",
+      "title": "Zcash Media announcement of Edward Snowden’s participation",
+      "type": "PRIMARY_ANNOUNCEMENT_VIA_NEWSWIRE",
+      "supports": "Snowden participated as John Dobbertin; his identity became public in 2022."
+    }
+  ],
+  "artwork_clues": [
+    {
+      "detail": "Six witnesses and crystals.",
+      "meaning": "Six figures and six separate crystals stand for the six contributions. The light joining them is an invented metaphor for the shared public result, not a depiction of real equipment.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The DVD-R.",
+      "meaning": "The disc and labelled sleeve recall the write-once media that carried messages between offline compute nodes and networked machines, preserving an evidence trail.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The detached radio.",
+      "meaning": "The generic circuit board beside the laptop represents removal of Wi-Fi and Bluetooth hardware. It is a visual shorthand, not an exact model of a ceremony component.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The broken remnants.",
+      "meaning": "The jar evokes destruction of hardware that might retain secrets. Todd dismantled and heated electronic components on 24 October; the jar combines that later phase with the ceremony, rather than documenting a real container.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    },
+    {
+      "detail": "The Sprout carving.",
+      "meaning": "The two-leaf motif identifies Zcash's original shielded protocol. The altar, floating coin and glowing crystals are fictional; no physical coin was summoned during the historical event.",
+      "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+    }
+  ],
+  "cross_card_cameo": null,
+  "interpretation": "Six stylised likenesses gather around an imagined altar, while the historical participants worked in geographically separate locations. Six crystals and connecting light symbolise the private contributions and shared public result. The altar, floating coin, crystals, gathering and jar are invented staging. The detached CPU-like board is a generic symbolic radio-removal/air-gap cue, not an exact Wi-Fi card. The jar combines Todd’s 24 October hardware-destruction phase with the 22–23 October computation. No physical coin was summoned and no cross-card cameo is claimed.",
+  "security_qualification": "ONE HONEST WITNESS is an approved editorial paraphrase, not a quotation. Under the protocol’s assumptions, one honest, uncompromised participant securely destroying their private contribution was sufficient to prevent reconstruction of the combined secret. This does not remove every trust assumption or exclude software and cryptographic flaws.",
+  "likeness_cast": [
+    {
+      "position": "back left",
+      "person": "Zooko Wilcox"
+    },
+    {
+      "position": "back centre",
+      "person": "Andrew Miller"
+    },
+    {
+      "position": "back right",
+      "person": "Peter Van Valkenburgh"
+    },
+    {
+      "position": "front left",
+      "person": "Derek Hinch"
+    },
+    {
+      "position": "middle right",
+      "person": "Peter Todd"
+    },
+    {
+      "position": "front right",
+      "person": "Edward Snowden"
+    }
+  ],
+  "likeness_qualification": "Several public portrait references are later or undated. These are stylised likenesses, not exact documented 2016 appearances. Original photographs are not reproduced.",
+  "clue_review_status": "FIVE_CLUES_SIX_FACES_AND_SIX_CRYSTALS_VISUALLY_CHECKED_IN_FINAL_CARD_AND_BOOK",
+  "card_size_readability_note": "Six faces, six crystals and five clue groups remain visible above the title/QR. Lower foreground approaches the fade; small lettering and fine hardware detail still need physical proof assessment.",
+  "output_sha256": "fe7f51ceba0eb078f70fe2683b7ce97a87c886666d3838fd666665a5123e2b67",
+  "print_svg_sha256": "f301eac3b774ae91f4356a6e822337877857114d215b23e1df735960d091316e",
+  "printer_pdf_sha256": "513deadd951bcfc838fdc61a41af23b8a4864a6156d5fe7adfb4c62e540c8c89",
+  "current_files": [
+    {
+      "path": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.png",
+      "bytes": 1021270,
+      "sha256": "fe7f51ceba0eb078f70fe2683b7ce97a87c886666d3838fd666665a5123e2b67",
+      "git_blob": "644cd66edf3288648905f60a5d68c5870d91d4b6"
+    },
+    {
+      "path": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.svg",
+      "bytes": 3476456,
+      "sha256": "f301eac3b774ae91f4356a6e822337877857114d215b23e1df735960d091316e",
+      "git_blob": "b889020aca261d5b218a08bc93cb0b556aa81cbb"
+    },
+    {
+      "path": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.pdf",
+      "bytes": 1737604,
+      "sha256": "513deadd951bcfc838fdc61a41af23b8a4864a6156d5fe7adfb4c62e540c8c89",
+      "git_blob": "e05a6dddb4db89e948ac8ab6d65bc2109ebc77a8"
+    }
+  ],
+  "artwork_file": {
+    "path": "cards/crypto/season-01/the-zcash-ceremony-master-037/art.png",
+    "bytes": 2580078,
+    "sha256": "1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1",
+    "git_blob": "2cac21b263ee579881e7f1c9000b4bc1161bcdfa"
+  }
+}

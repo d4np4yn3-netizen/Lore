@@ -34,6 +34,7 @@ import chapter033 from './content/033.json';
 import chapter034 from './content/034.json';
 import chapter035 from './content/035.json';
 import chapter036 from './content/036.json';
+import chapter037 from './content/037.json';
 
 export const cards = [
   {
@@ -473,6 +474,19 @@ export const cards = [
     source: 'https://tokenscan.io/tx/563597',
     ...chapter036,
     number: '036/100',
+  },
+  {
+    slug: 'the-zcash-ceremony', title: 'THE ZCASH CEREMONY', rarity: 'UNCOMMON',
+    date: '22–23 OCT 2016', subject: 'ZCASH', phrase: 'ONE HONEST WITNESS',
+    phraseKind: 'editorial paraphrase',
+    image: 'cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-zcash-ceremony-master-037/art.png',
+    book: 'book/crypto-season-01/proofs/037-the-zcash-ceremony-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.svg',
+    source: 'https://github.com/zcash/mpc#zcash-ceremony',
+    ...chapter037,
+    number: '037/100',
   },
 ];
 

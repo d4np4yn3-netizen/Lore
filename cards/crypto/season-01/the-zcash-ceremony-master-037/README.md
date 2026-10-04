@@ -1,0 +1,11 @@
+# 037 The Zcash Ceremony
+
+Exact approved coinlit-anime v5 art, Uncommon, 22–23 OCT 2016, ONE HONEST WITNESS, ZCASH, 037/100. Dan approved the card/two-page book and GitHub/site publication on 4 October 2026. The caption is an editorial paraphrase of the setup’s security assumption, not a historical quotation. See approval.json and print-v1-manifest.json.
+
+Five approved story paragraphs and five actual-art clues are the chapter authority for the website. QR payload: https://lore-site-v1.vercel.app/crypto/037/ with target /cards/the-zcash-ceremony. Ceremony dates, Todd’s 24 October hardware destruction and Sprout’s 28 October launch remain distinct. One honest, uncompromised participant securely destroying their contribution was sufficient under the protocol’s assumptions; this is not a claim that every trust assumption or cryptographic/software risk disappeared.
+
+Six stylised likenesses and crystals remain visible. Cast: back left Zooko Wilcox, back centre Andrew Miller, back right Peter Van Valkenburgh; front left Derek Hinch, middle right Peter Todd, front right Edward Snowden. Their actual work was geographically separated. The shared altar, floating coin, crystals and jar are fictional staging. The generic detached board represents radio removal, not an exact hardware replica. Some portrait references are later or undated; the figures are not exact documented 2016 appearances. No cross-card cameo is claimed and no reference photographs are reproduced.
+
+Build with source/build_037_final_front.py and source/build_037_spread.py, book/crypto-season-01/sync_037.py and site/scripts/build-037-media.py. Verify source/qa_037_assets.py, chapter --check, site/scripts/check-discovery.mjs and npm run build. Dependencies: Pillow, ReportLab, pypdf, qrcode, zxing-cpp, Inkscape, Poppler and exact shared fonts.
+
+Native artwork 1060 × 1484 is approximately 127 PPI at full A4. Small lettering and fine hardware detail require physical assessment. Print release, phone-camera QR testing and book reproduction remain false. Live release verification follows publication.

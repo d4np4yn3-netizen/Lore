@@ -1,6 +1,6 @@
 # LORE Crypto Season One site
 
-Collection: 001–036, including 036 RARE PEPES. All 36 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 154 inspected clues, 36 trimmed card previews and 72 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter through sync_NNN.py. Original artwork, printer fronts and two-page books are linked from each card. 036 production is verified; see the numbered master's publication-verification.json.
+Collection: 001–037, including 037 THE ZCASH CEREMONY. All 37 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 159 inspected clues, 37 trimmed card previews and 74 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter through sync_NNN.py. Original artwork, printer fronts and two-page books are linked from each card. 037 publication verification is pending.
 
 Keep stable printed QR routes when changing domains. Visual approval, source checks, live QR verification, physical print and book reproduction/rights approvals remain separate.
 
@@ -33,3 +33,5 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 036 Rare Pepes adds exact approved v4 art, Uncommon, THE MOST RARE PEPE, five story paragraphs, four actual-art clues and the two-page book. Collection 001-036 contains 154 clues and 72 book previews. New derivatives are in display-15.bin; all 290 earlier images are preserved. Physical reproduction remains separate.
 
 036 originals are pinned to immutable asset commit 2b95209a344c2b81c5ad0bb66357eba9c14e9f05. Content release 516ddeb5ed2d5b3cc96f796acca6675092cbe124 passed full production verification.
+
+037 The Zcash Ceremony adds exact approved v5 art, Uncommon, ONE HONEST WITNESS, five story paragraphs, five actual-art clues and the two-page book. The caption is editorial wording, not a historical quotation. The ceremony date is distinct from the network launch; the shared altar is symbolic staging. New derivatives are append-only in display-16.bin; all 298 earlier images are preserved. Original download pinning and live publication verification follow the asset release. Physical reproduction remains separate.

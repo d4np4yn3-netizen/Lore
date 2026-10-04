@@ -104,3 +104,9 @@ The optional combined ten-page PDF is delivered through Library, not stored in t
 035 The Bitfinex Heist adds exact approved date-free v8 art, Uncommon, TRUST LEFT THE EXCHANGE., four actual-art clues and the two-page book. Collection 001-035 contains 150 clues and 70 book previews. New derivatives are in display-14.bin; all 282 earlier images are preserved. Physical reproduction remains separate.
 
 036 Rare Pepes adds exact approved v4 art, Uncommon, THE MOST RARE PEPE, five story paragraphs, four actual-art clues and the two-page book. Collection 001-036 contains 154 clues and 72 book previews. New derivatives are in display-15.bin; all 290 earlier images are preserved. Physical reproduction remains separate.
+
+## 037 The Zcash Ceremony
+
+[Approved chapter](037-the-zcash-ceremony.md) · [Two-page full-art spread](proofs/037-the-zcash-ceremony-full-art-spread-v1.pdf). Uncommon 037/100; exact coinlit-anime v5 art, card and book approved for GitHub/site upload on 4 October 2026. ONE HONEST WITNESS is an editorial paraphrase, not a quotation. The five actual-art details are six witnesses/crystals, DVD-R, symbolic detached radio board, broken-remnants jar and Sprout carving. The source note identifies six stylised likenesses and qualifies later/undated portrait references. Separate participants and successive phases are combined in the fictional gathering; the 22–23 October ceremony, Todd’s 24 October hardware destruction and 28 October Sprout launch remain distinct. Run `sync_037.py --check` to verify website copy. Digital asset QA passes; live publication verification remains pending. Physical print, phone-camera QR and book reproduction are separate and false. Native full-A4 artwork is 126.91 PPI.
+
+The prepared 001–037 collection targets 159 clues and 74 book-page previews. New website derivatives use append-only display-16.bin; the prior 298 display assets and all previous source masters remain unchanged.
