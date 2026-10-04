@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-04T17:16:00Z",
+  "production_commit_supplied_by_publisher": "516ddeb5ed2d5b3cc96f796acca6675092cbe124",
+  "deployment_supplied_by_publisher": "dpl_bDDXsRdt4rxE3PsrFBvy3gzxqD8z",
+  "browser": "Cloud Chromium through CUA",
+  "story": "A visitor follows the 036 QR route, reads the Rare Pepes story, explores the art and its four details, opens both companion-book pages and moves between moments 035 and 036.",
+  "urls": {
+    "qr_entry": "https://lore-site-v1.vercel.app/crypto/036/",
+    "observed_after_redirect": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+    "previous": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist"
+  },
+  "viewport_observations": {
+    "desktop_client_css_px": [
+      1180,
+      756
+    ],
+    "narrow_client_css_px": [
+      485,
+      756
+    ],
+    "narrow_window_content_width_including_scrollbar": 500,
+    "narrow_method": "Resized cloud Chromium window with native desktop drag; not mobile emulation or physical-device testing",
+    "desktop_restored_after_test": true
+  },
+  "checks": {
+    "qr_route_redirect": "PASS: /crypto/036/ resolves to /cards/rare-pepes",
+    "metadata": "PASS: 036/100, Rare Pepes, 09 SEP 2016, COUNTERPARTY, UNCOMMON, THE MOST RARE PEPE",
+    "story": "PASS: five historical/editorial paragraphs visibly rendered; original issuance date and quantity, community-archive 13 September date, edition-specific quantity, token/image distinction and fictional Moroccan staging retained",
+    "source_disclosure": "PASS: expandable sources include original transaction, Counterparty asset docs, Book of Kek history and Series 1; explicitly distinguishes archive evidence, unidentified photo credits, invented staging and no cross-card cameo",
+    "artwork": "PASS: approved-looking v4 illustration loads; full-art tab, Fit/Zoom and four markers work; zoomed artwork scrolls in its own viewer",
+    "clues": "PASS: four loaded clue crops and matching descriptions: Counterparty receipt, Directory/Series 1, frog footprint, RAREPEPE 300 ISSUED",
+    "detail_navigation": "PASS: Directory -> footprint -> issuance via Next; final Next disabled; All details returns to cards and focuses last selected clue",
+    "art_detail_close_focus": "PASS on desktop and narrow: inspector closes and focus returns to the selected numbered marker",
+    "clue_to_art": "PASS on narrow: Find it in the full artwork switches to artwork and brings the footprint area into view; marker opens corresponding inspector",
+    "book_desktop": "PASS: two-page spread loads; page 2 zooms for reading; Fit restores spread",
+    "book_narrow": "PASS: 01 Artwork and 02 The story selectors both work; selected page loads; Enlarge/Fit works with contained scrolling",
+    "cross_card_navigation": "PASS: 036 Previous opens 035; 035 Next moment opens 036; browser Back/Forward returns between correct pages",
+    "responsive_layout": "PASS: narrow story/clues stack cleanly, all four main tabs remain accessible and no document-level horizontal overflow observed; intended horizontal scrolling confined to zoomed viewers",
+    "console": "PASS for site: no site-origin errors or warnings observed; 64 browser-extension metadata errors captured separately"
+  },
+  "issues": [],
+  "console_summary": {
+    "captured": 64,
+    "site_origin_messages": 0,
+    "external_extension_message": "Error sending browser metadata to extension: Object",
+    "log_file": "browser-console.json"
+  },
+  "limits": [
+    "Narrow browser resize is not a physical phone test",
+    "Publisher separately verifies QR decoding, release commit/tree, HTTP route sweep, image/download hashes and PDF content equality",
+    "No art edits, repository writes or publication actions from this QA"
+  ],
+  "screenshots": [
+    {
+      "file": "01-desktop-story.jpg",
+      "dimensions_px": [
+        1165,
+        1701
+      ],
+      "sha256": "735135e4b5aa41d9cf55e104d9ab648ce9f1e58d7875dc1f4ed78f4d5b59b6c6"
+    },
+    {
+      "file": "02-desktop-art.jpg",
+      "dimensions_px": [
+        1165,
+        1763
+      ],
+      "sha256": "227e0e1c59710afab4e0cd2f68d039c6deb844495be8a009975b485a47de9a6b"
+    },
+    {
+      "file": "03-desktop-art-zoom-markers.jpg",
+      "dimensions_px": [
+        1165,
+        1521
+      ],
+      "sha256": "88725abee8a12eac6ff447c69e8f9eb3a356f4156ee12180ba0f5fe5b1516a7b"
+    },
+    {
+      "file": "04-desktop-art-detail-inspector.jpg",
+      "dimensions_px": [
+        1165,
+        746
+      ],
+      "sha256": "d4c8a98baa044196783404130ba57c00c592193cd64455cf5291f36fd1a5d6b9"
+    },
+    {
+      "file": "05-desktop-four-clues.jpg",
+      "dimensions_px": [
+        1165,
+        1760
+      ],
+      "sha256": "378d846c434fed056fc4781384a6a23b3b654a06f86b346ecfe1ed650e0674b6"
+    },
+    {
+      "file": "06-desktop-directory-detail.jpg",
+      "dimensions_px": [
+        1165,
+        746
+      ],
+      "sha256": "31264407e3112138a74db744f5bc1c4908e9101f7c455538b0e3c06ec1497789"
+    },
+    {
+      "file": "07-desktop-footprint-detail.jpg",
+      "dimensions_px": [
+        1165,
+        746
+      ],
+      "sha256": "2ae86d780ba68b4ef9ae02080bd2e0bf60d8ea031927ca11ea16b45e98a8b76b"
+    },
+    {
+      "file": "08-desktop-issuance-detail.jpg",
+      "dimensions_px": [
+        1165,
+        746
+      ],
+      "sha256": "bd28a3925b2da7b48e2e1606fd62c72c44e3a37050860520b4d424f5ef9c9354"
+    },
+    {
+      "file": "09-desktop-book-spread.jpg",
+      "dimensions_px": [
+        1165,
+        1549
+      ],
+      "sha256": "be1aebf817828dde65f0aa3e9716951e59fdd813911ec95f4769aeff6cb9c564"
+    },
+    {
+      "file": "10-desktop-book-page-2.jpg",
+      "dimensions_px": [
+        1165,
+        746
+      ],
+      "sha256": "3903d5b437a5f6bd49c3f5d5ad3a92d2b488237febe6528cea9e6c3b97d3ed28"
+    },
+    {
+      "file": "11-desktop-035-navigation.jpg",
+      "dimensions_px": [
+        1165,
+        746
+      ],
+      "sha256": "fec4ce0cf5fab9543294297e7f9896c202449ecad97a75280806fb51bec59a57"
+    },
+    {
+      "file": "12-narrow-story.jpg",
+      "dimensions_px": [
+        485,
+        2189
+      ],
+      "sha256": "705cdcae7a6b689c67e62492257e8b6af15b5b42e995cbdd6fa0220181fd8ebf"
+    },
+    {
+      "file": "13-narrow-four-clues.jpg",
+      "dimensions_px": [
+        485,
+        2403
+      ],
+      "sha256": "f6a1a2610e00a6f6ea40ceb10aa4bcfcbca44d41872b59c210d23d08a46d0d0a"
+    },
+    {
+      "file": "14-narrow-footprint-detail.jpg",
+      "dimensions_px": [
+        485,
+        733
+      ],
+      "sha256": "1cd61bb502e0431f4311a9dc4f8ca930bd1d50e2700cb4a1befe771c4003b921"
+    },
+    {
+      "file": "15-narrow-art-location.jpg",
+      "dimensions_px": [
+        485,
+        733
+      ],
+      "sha256": "55d2b692711b71c5ecfbcedbcc633cb937995083b6b63edba22438bb5f4e4946"
+    },
+    {
+      "file": "16-narrow-art-detail.jpg",
+      "dimensions_px": [
+        485,
+        733
+      ],
+      "sha256": "e69f2e2f789a99f57d0d0251f252eee1cd8ecb415d6df0a07276262d115ccc77"
+    },
+    {
+      "file": "17-narrow-book-fit.jpg",
+      "dimensions_px": [
+        485,
+        1483
+      ],
+      "sha256": "f3329e32a0704e65b89eeac577a49e1e0f8c287353e3c4d75bb0597d0e84ea13"
+    },
+    {
+      "file": "18-narrow-book-story-fit.jpg",
+      "dimensions_px": [
+        485,
+        733
+      ],
+      "sha256": "f6a7a655b7a64feb1c83cb0e1e78f41b8bc49adac4aea8a0fb771c6f1efea51b"
+    },
+    {
+      "file": "19-narrow-book-story-zoom.jpg",
+      "dimensions_px": [
+        485,
+        733
+      ],
+      "sha256": "f8db595e2ec88a1876cd3d6a194033fa038c2e7caf2518584c9869e981c889e1"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "revision": "LORE-CRYPTO-036-PRINT-v1",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "created_at": "2026-10-04",
-  "status": "APPROVED_VISUAL_DIGITAL_QA_PASSED_PHYSICAL_RELEASE_SEPARATE",
+  "status": "APPROVED_VISUAL_DIGITAL_AND_LIVE_VERIFIED_PHYSICAL_RELEASE_SEPARATE",
   "approval_record": "cards/crypto/season-01/rare-pepes-master-036/approval.json",
   "artwork": {
     "path": "cards/crypto/season-01/rare-pepes-master-036/art.png",
@@ -107,15 +107,14 @@
   "print_release": false,
   "book_reproduction_release": false,
   "release_gates": [
-    "Live release is verified after publication; digital PDF and PNG decode checks have passed.",
     "Physical phone-camera QR test and print/cut proof remain pending.",
     "Full-A4 book reproduction release remains separate; native artwork is 126.91 PPI."
   ],
   "digital_qa_record": {
     "path": "cards/crypto/season-01/rare-pepes-master-036/source/final-qa.json",
-    "bytes": 1654,
-    "sha256": "48676b65682191d0a8f022af183a0c78367ecb1db41b381b9cbbda2b84e1191c",
-    "git_blob": "d9a3db909773273e74d8d47dbcaab41b385844d4"
+    "bytes": 1761,
+    "sha256": "f2b9392039aaadd799597c72720ffeac97c4dd5cfb449218463bae43452a5da4",
+    "git_blob": "ec8e8f33b3da29d5ee36410dd1de1757d9fcc987"
   },
   "source_files": [
     {
@@ -150,9 +149,9 @@
     },
     {
       "path": "cards/crypto/season-01/rare-pepes-master-036/source/final-qa.json",
-      "bytes": 1654,
-      "sha256": "48676b65682191d0a8f022af183a0c78367ecb1db41b381b9cbbda2b84e1191c",
-      "git_blob": "d9a3db909773273e74d8d47dbcaab41b385844d4"
+      "bytes": 1761,
+      "sha256": "f2b9392039aaadd799597c72720ffeac97c4dd5cfb449218463bae43452a5da4",
+      "git_blob": "ec8e8f33b3da29d5ee36410dd1de1757d9fcc987"
     },
     {
       "path": "cards/crypto/season-01/rare-pepes-master-036/source/qa_036_assets.py",
@@ -172,5 +171,7 @@
       "sha256": "8363a0b8112b34835490dd211f965d7380a084c3291d422f160d32cd7aaa2c46",
       "git_blob": "31c91e909a0995ace7f1251c2c98c22bb867abe6"
     }
-  ]
+  ],
+  "qr_live_status": "VERIFIED",
+  "publication_verification": "cards/crypto/season-01/rare-pepes-master-036/publication-verification.json"
 }

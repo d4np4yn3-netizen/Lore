@@ -4006,12 +4006,12 @@
       "qr_url": "https://lore-site-v1.vercel.app/crypto/036/",
       "qr_target": "https://lore-site-v1.vercel.app/cards/rare-pepes",
       "confirmed_lore_owned_route": true,
-      "status": "APPROVED_DIGITAL_PUBLICATION",
+      "status": "PUBLISHED_VERIFIED",
       "artwork_status": "EXACT_V4_USER_APPROVED",
       "phrase_status": "USER_APPROVED_CONTINUOUS_EXACT_ISSUANCE_DESCRIPTION_EXCERPT",
       "rarity_status": "UNCOMMON_APPROVED",
       "book_copy_status": "APPROVED_PROOF_COPY_WITH_REVIEW_LABELS_REMOVED",
-      "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+      "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
       "template_revision": "LORE-CRYPTO-PRINT-v1.0",
       "canvas_px": [
         816,
@@ -4106,7 +4106,9 @@
         "bytes": 2772140,
         "sha256": "6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f",
         "git_blob": "aecf6a4b1f6ae32b86de38417c4b6f217fc33568"
-      }
+      },
+      "publication_status": "PUBLISHED_VERIFIED",
+      "publication_verification": "cards/crypto/season-01/rare-pepes-master-036/publication-verification.json"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -4120,10 +4122,8 @@
   "updated_at": "2026-10-04",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 40,
-  "numbered_published_count": 35,
-  "numbering_gap_note": "Numbered digital collection contains 001 through 036 without a gap. 036 adds one new approved unique design. Historical assets and previous registry objects remain unchanged.",
-  "pending_live_verification_numbers": [
-    "036"
-  ],
+  "numbered_published_count": 36,
+  "numbering_gap_note": "Published numbered digital collection contains 001 through 036 without a gap. 036 adds one new approved unique design. All 40 approved registry entries, historical assets and previous registry objects are preserved.",
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 36
 }

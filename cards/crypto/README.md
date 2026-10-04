@@ -2,7 +2,7 @@
 
 ## Latest approved numbered card: 036
 
-[Rare Pepes - Uncommon](season-01/rare-pepes-master-036/README.md) preserves exact approved v4 art, 09 SEP 2016 and THE MOST RARE PEPE. The register contains 40 unique approved designs and 36 prepared numbered entries. Five story paragraphs and four actual-art clues mirror the book/website. Digital checks pass; live verification follows publication. Physical print and book reproduction remain separate.
+[Rare Pepes - Uncommon](season-01/rare-pepes-master-036/README.md) preserves exact approved v4 art, 09 SEP 2016 and THE MOST RARE PEPE. The register contains 40 unique approved designs and 36 published numbered entries. Five story paragraphs and four actual-art clues mirror the book/website. Digital and live checks pass, including all 36 QR routes, eight new images, six original downloads and desktop/narrow interactions. Physical print and book reproduction remain separate.
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·
