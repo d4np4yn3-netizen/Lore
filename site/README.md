@@ -1,6 +1,6 @@
 # LORE Crypto Season One site
 
-Collection: 001–034, including 034 THE SPLIT. All 34 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 146 inspected clues, 34 trimmed card previews and 68 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter through its sync_NNN.py script. Exact artwork, printer fronts and full-art two-page editorial PDFs are linked from each card. 034 production is verified; see cards/crypto/season-01/the-split-master-034/publication-verification.json in the repository.
+Collection: 001–035, including 035 THE BITFINEX HEIST. All 35 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 150 inspected clues, 35 trimmed card previews and 70 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter through sync_NNN.py. Original artwork, printer fronts and two-page books are linked from each card. 035 production is verified; see the numbered master's publication-verification.json.
 
 Keep stable printed QR routes when changing domains. Visual approval, source checks, live QR verification, physical print and book reproduction/rights approvals remain separate.
 
@@ -27,3 +27,5 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 034 originals are pinned to immutable asset commit 87f64aa67693f1dc119307f2326b676974e1a78d. Content release bb44d3a543bac9ae624056887e2da70249f28b78 passed full production verification.
 
 035 The Bitfinex Heist adds exact approved date-free v8 art, Uncommon, TRUST LEFT THE EXCHANGE., four actual-art clues and the two-page book. Collection 001-035 contains 150 clues and 70 book previews. New derivatives are in display-14.bin; all 282 earlier images are preserved. Physical reproduction remains separate.
+
+035 originals are pinned to immutable asset commit e39d9009c160bce00a71a3860ea1f13be6f54b42. Content release 9190ffb219f627dca3b444a4cb364c27160eaf17 passed full production verification.

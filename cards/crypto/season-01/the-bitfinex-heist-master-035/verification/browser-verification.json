@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-04T16:04:30Z",
+  "deployment_reported_by_publisher": {
+    "commit": "9190ffb219f627dca3b444a4cb364c27160eaf17",
+    "deployment_id": "dpl_4HkSDk4rQR8NQ3DLN2bFnKhS8pYn"
+  },
+  "site": "https://lore-site-v1.vercel.app",
+  "verified_card_url": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+  "browser": "Dedicated cloud Chromium, operated through CUA browser/desktop APIs",
+  "viewports": [
+    {
+      "mode": "desktop",
+      "inner_width_css": 1180,
+      "inner_height_css": 757,
+      "device_pixel_ratio": 1
+    },
+    {
+      "mode": "narrow actual browser window",
+      "inner_width_css": 500,
+      "inner_height_css": 756,
+      "device_pixel_ratio": 1,
+      "client_width_css": 485
+    },
+    {
+      "mode": "narrow with browser zoom",
+      "inner_width_css": 400,
+      "inner_height_css": 605,
+      "device_pixel_ratio": 1.25,
+      "client_width_css": 388,
+      "zoom": "125%"
+    }
+  ],
+  "checks": [
+    {
+      "check": "Live card story",
+      "result": "PASS",
+      "detail": "035 title, 2 August 2016 date, Uncommon rarity, approved date-free artwork and story visibly render"
+    },
+    {
+      "check": "Full artwork",
+      "result": "PASS",
+      "detail": "Full artwork tab opens, zoom changes to Fit artwork, internal zoomed canvas scrolls; fit restoration works"
+    },
+    {
+      "check": "Four art clues",
+      "result": "PASS",
+      "detail": "All four numbered markers open correct image and text: Ilya-inspired helm, 119,755 BTC, withdrawals halted, Bitfinex case"
+    },
+    {
+      "check": "Clue close and focus",
+      "result": "PASS",
+      "detail": "Close artwork detail and Return to artwork dismiss selected clue and restore focus to its numbered marker"
+    },
+    {
+      "check": "Book desktop",
+      "result": "PASS",
+      "detail": "Both image pages load side-by-side; enlargement and fit controls work"
+    },
+    {
+      "check": "Book narrow",
+      "result": "PASS",
+      "detail": "01 / Artwork and 02 / The story switch between correct pages, and page enlargement works"
+    },
+    {
+      "check": "034 / 035 navigation",
+      "result": "PASS",
+      "detail": "035 Previous reaches The Split; 034 Next moment returns to The Bitfinex Heist"
+    },
+    {
+      "check": "Browser Back / Forward",
+      "result": "PASS",
+      "detail": "Returns between 034 and 035 with matching page title and URL"
+    },
+    {
+      "check": "Timeline",
+      "result": "PASS",
+      "detail": "2016 timeline displays 035 after 034, card image visible and entry opens correct story modal"
+    },
+    {
+      "check": "Modal dismissal",
+      "result": "PASS",
+      "detail": "Close story and return to timeline on desktop and Escape at narrow width dismiss modal and restore focus to Explore The Bitfinex Heist, 02 AUG 2016"
+    },
+    {
+      "check": "Responsive overflow",
+      "result": "PASS",
+      "detail": "document scrollWidth equals clientWidth in narrow story, art, book enlargement and after modal dismissal. Intended artwork/book internal scrolling works"
+    },
+    {
+      "check": "QR public route",
+      "result": "PASS",
+      "detail": "Navigating /crypto/035/ resolves visibly to /cards/the-bitfinex-heist"
+    },
+    {
+      "check": "Scene/content consistency",
+      "result": "PASS",
+      "detail": "No box date plaque, Heather or 2022 clipping. Amount/building sign/case are visible; copy distinguishes symbolic boat/building and custody breach from Bitcoin network"
+    }
+  ],
+  "defects": [],
+  "limits": [
+    "Responsive testing used resized desktop Chromium and browser zoom, not a physical phone, mobile Safari, or touch gestures.",
+    "Image/hash/download and complete QR-route checks belong to publisher's separate verification; this report does not duplicate them.",
+    "Browser-extension metadata errors appeared in the observed log sample; no application error was established from those extension-origin entries.",
+    "Initial image states briefly loaded blank before resolving; final captured key asset states show loaded artwork and book pages.",
+    "Temporary browser zoom and window size were restored to the original desktop dimensions after testing."
+  ],
+  "screenshots": [
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-desktop-story.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-desktop-art-zoom.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-clue-01.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-clue-02.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-clue-03.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-clue-04.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-desktop-book-spread.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-desktop-book-enlarged.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-timeline.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-narrow-story.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-narrow-art.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-narrow-clue.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-narrow-book-page1.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-narrow-book-page2.jpg",
+    "/workspace/scratch/58d5f7ed8606/lore-035/live-qa/035-narrow-modal.jpg"
+  ]
+}

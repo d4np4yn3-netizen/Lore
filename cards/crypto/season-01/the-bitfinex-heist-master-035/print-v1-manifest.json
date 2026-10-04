@@ -2,7 +2,7 @@
   "revision": "LORE-CRYPTO-035-PRINT-v1",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "created_at": "2026-10-04",
-  "status": "APPROVED_VISUAL_DIGITAL_QA_PASSED_PHYSICAL_RELEASE_SEPARATE",
+  "status": "APPROVED_VISUAL_DIGITAL_AND_LIVE_VERIFIED_PHYSICAL_RELEASE_SEPARATE",
   "approval_record": "cards/crypto/season-01/the-bitfinex-heist-master-035/approval.json",
   "artwork": {
     "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/art.png",
@@ -105,6 +105,12 @@
   ],
   "source_files": [
     {
+      "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/source/README.md",
+      "bytes": 504,
+      "sha256": "aabc4416999a8821f83b249b566a0a15ce9c735eefd817aa8b7e5bb8caa0a06b",
+      "git_blob": "d3965056f481481e896925773ad20067640df1a4"
+    },
+    {
       "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/source/art-provenance.json",
       "bytes": 2791,
       "sha256": "27943ab08392ffb12aaeb1b8c5ed64b4ff6a7b11c4f5188774cb174221ff720f",
@@ -130,9 +136,9 @@
     },
     {
       "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/source/final-qa.json",
-      "bytes": 1597,
-      "sha256": "ca0ef7af670627b2b17e79b12568884eab6279fa91074af941374a1fa487e299",
-      "git_blob": "3f039667394f5a0d08c7d1bed571ed6e39925217"
+      "bytes": 1712,
+      "sha256": "796812bf9067ab4a2e3abe0d045173b660e20527925c10ca82d409241bbd0dfb",
+      "git_blob": "1f083df4f4ffbb246920adf04415bd92e29f72b4"
     },
     {
       "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/source/qa_035_assets.py",
@@ -157,14 +163,15 @@
   "print_release": false,
   "book_reproduction_release": false,
   "release_gates": [
-    "Live release is verified after publication; digital PDF and PNG decode checks have passed.",
     "Physical phone-camera QR test and print/cut proof remain pending.",
     "Full-A4 book reproduction release remains separate; native artwork is 126.91 PPI."
   ],
   "digital_qa_record": {
     "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/source/final-qa.json",
-    "bytes": 1597,
-    "sha256": "ca0ef7af670627b2b17e79b12568884eab6279fa91074af941374a1fa487e299",
-    "git_blob": "3f039667394f5a0d08c7d1bed571ed6e39925217"
-  }
+    "bytes": 1712,
+    "sha256": "796812bf9067ab4a2e3abe0d045173b660e20527925c10ca82d409241bbd0dfb",
+    "git_blob": "1f083df4f4ffbb246920adf04415bd92e29f72b4"
+  },
+  "qr_live_status": "VERIFIED",
+  "publication_verification": "cards/crypto/season-01/the-bitfinex-heist-master-035/publication-verification.json"
 }

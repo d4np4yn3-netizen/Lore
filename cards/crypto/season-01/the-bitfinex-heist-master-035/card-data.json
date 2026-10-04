@@ -36,12 +36,12 @@
   "qr_url": "https://lore-site-v1.vercel.app/crypto/035/",
   "qr_target": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
   "confirmed_lore_owned_route": true,
-  "status": "APPROVED_DIGITAL_PUBLICATION",
+  "status": "PUBLISHED_VERIFIED",
   "artwork_status": "EXACT_V8_USER_APPROVED_DATE_REMOVAL_COMPLETED",
   "phrase_status": "USER_APPROVED_EDITORIAL_WORDING_NOT_HISTORICAL_QUOTATION",
   "rarity_status": "UNCOMMON_APPROVED",
   "book_copy_status": "NEW_SOURCED_COPY_UNDER_AUTHORISED_PUBLICATION_REQUEST",
-  "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+  "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "canvas_px": [
     816,
@@ -136,5 +136,7 @@
     "bytes": 2899641,
     "sha256": "9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4",
     "git_blob": "16ed25fbe2a3d570c408261995814bb7c1f8e640"
-  }
+  },
+  "publication_status": "PUBLISHED_VERIFIED",
+  "publication_verification": "cards/crypto/season-01/the-bitfinex-heist-master-035/publication-verification.json"
 }

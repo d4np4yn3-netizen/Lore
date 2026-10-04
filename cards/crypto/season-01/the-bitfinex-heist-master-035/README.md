@@ -6,4 +6,4 @@ The two-page book pairs full art with the cream history/details page. Four story
 
 Build with source/build_035_final_front.py and source/build_035_spread.py, book/crypto-season-01/sync_035.py and site/scripts/build-035-media.py. Verify source/qa_035_assets.py, chapter --check, site/scripts/check-discovery.mjs and npm run build. Required dependencies: Pillow, ReportLab, pypdf, qrcode, zxing-cpp, Inkscape, Poppler and the exact shared fonts.
 
-Native artwork is 1060 × 1484, approximately 127 PPI at full A4. Physical print release, printed phone-camera QR testing and book reproduction remain separate and false. Live release verification follows publication.
+Native artwork is 1060 × 1484, approximately 127 PPI at full A4. Physical print release, printed phone-camera QR testing and book reproduction remain separate and false. Live content release is verified on GitHub and Vercel. All 35 QR routes, eight new images, six original downloads, book/site copy, downloaded PNG/PDF QR decodes and desktop/narrow interactions pass. See publication-verification.json and verification/ for evidence.

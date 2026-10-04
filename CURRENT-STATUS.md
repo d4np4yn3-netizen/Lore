@@ -1,10 +1,10 @@
-# 035 The Bitfinex Heist authorised digital release - 4 October 2026
+# 035 The Bitfinex Heist published and verified - 4 October 2026
 
 Dan requested removal of the case date, then card/book/site creation, and explicitly confirmed Uncommon, TRUST LEFT THE EXCHANGE. and publication through Lore GitHub main to the live site. Exact v8 artwork SHA-256 `9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4` is preserved. BITFINEX / THE BITFINEX HEIST / 02 AUG 2016 / 035/100. The caption is editorial wording, not a quotation.
 
 The card and two-page A4 book pass digital layout and QR checks. PNG and actual 300-DPI PDF render decode to https://lore-site-v1.vercel.app/crypto/035/, configured for /cards/the-bitfinex-heist. Book and site share four story paragraphs and four actual-art details: Ilya-inspired driver, 119,755 BTC display, withdrawal-halt sign and branded custody case. The source note attributes the exact display amount to Bitfinex, distinguishes DOJ's 119,754 BTC figure, and credits Malcolm Koo's 2012 Hong Kong city reference under CC BY 4.0. The speedboat, cargo and building are invented staging for digital theft, not a physical escape or verified office. No cross-card cameo is claimed.
 
-Collection is 001-035, 150 clues, 70 book previews and 290 display assets; 39 unique approved designs. All 282 earlier display assets and previous registry objects remain unchanged. New derivatives are append-only in display-14.bin. Native 1060 × 1484 artwork yields 126.91 PPI at full A4. Physical print release, printed phone-camera testing and book reproduction remain false. Live verification follows publication and must not be inferred from local QA.
+Collection is 001-035, 150 clues, 70 book previews and 290 display assets; 39 unique approved designs. All 282 earlier display assets and previous registry objects remain unchanged. New derivatives are append-only in display-14.bin. Native 1060 × 1484 artwork yields 126.91 PPI at full A4. Physical print release, printed phone-camera testing and book reproduction remain false. Content release `9190ffb219f627dca3b444a4cb364c27160eaf17` is on GitHub main and production deployment `dpl_4HkSDk4rQR8NQ3DLN2bFnKhS8pYn` is READY. All 35 QR routes, eight new images, six original downloads, book/site copy, digital PNG/PDF decodes and desktop/narrow browser checks pass. Publication evidence is archived beside the master.
 
 # 034 The Split published and verified - 4 October 2026
 
