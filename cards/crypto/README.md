@@ -1,8 +1,8 @@
 # LORE Crypto — Season One
 
-## Latest approved numbered card: 035
+## Latest approved numbered card: 036
 
-[The Bitfinex Heist - Uncommon](season-01/the-bitfinex-heist-master-035/README.md) preserves the exact approved date-free v8 illustration, 02 AUG 2016 and TRUST LEFT THE EXCHANGE. The register contains 39 unique approved designs and 35 published numbered entries. Four actual-art clues and the sourced two-page book mirror the website. Digital and live checks pass, including all 35 QR routes, eight new images, six original downloads and desktop/narrow interactions. Physical print and book reproduction remain separate.
+[Rare Pepes - Uncommon](season-01/rare-pepes-master-036/README.md) preserves exact approved v4 art, 09 SEP 2016 and THE MOST RARE PEPE. The register contains 40 unique approved designs and 36 prepared numbered entries. Five story paragraphs and four actual-art clues mirror the book/website. Digital checks pass; live verification follows publication. Physical print and book reproduction remain separate.
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·

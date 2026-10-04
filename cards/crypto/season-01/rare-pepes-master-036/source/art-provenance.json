@@ -1,0 +1,52 @@
+{
+  "artwork": {
+    "path": "cards/crypto/season-01/rare-pepes-master-036/art.png",
+    "bytes": 2772140,
+    "sha256": "6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f",
+    "git_blob": "aecf6a4b1f6ae32b86de38417c4b6f217fc33568"
+  },
+  "native_dimensions_px": [
+    1060,
+    1484
+  ],
+  "final_revision": "v4",
+  "method": "Approved imagegen illustration preserved exactly; no art edits in final card/book/site assembly.",
+  "mandatory_style_references": [
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://tokenscan.io/tx/563597",
+      "title": "Original RAREPEPE issuance record",
+      "type": "BLOCKCHAIN_EXPLORER_RECORD",
+      "supports": "9 September 2016 at 01:46:42 UTC, block 428,919, 300 indivisible units and original issuance description."
+    },
+    {
+      "url": "https://docs.counterparty.io/docs/basics/assets/counterparty-assets/",
+      "title": "Counterparty asset documentation",
+      "type": "PRIMARY_PROTOCOL_DOCUMENTATION",
+      "supports": "Counterparty asset balances and transfers recorded in Bitcoin transactions."
+    },
+    {
+      "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+      "title": "Book of Kek project history",
+      "type": "COMMUNITY_ARCHIVE",
+      "supports": "13 September directory milestone; explicitly distinguished from first issuance."
+    },
+    {
+      "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project/series-and-card-specific-lore/series-1",
+      "title": "Book of Kek Series 1 archive",
+      "type": "COMMUNITY_ARCHIVE",
+      "supports": "RAREPEPE is Series 1, Card 1."
+    }
+  ],
+  "architecture_reference_note": "Architecture inspired by two user-supplied photographs without supplied photographer or licence metadata; no direct photo compositing or clearance claim.",
+  "interpretation": "The merchant, collector, paper receipt, market exchange, frog footprint and Moroccan souk are fictional staging for digital collecting. The pictured cards are invented designs, not reproductions of the original Nakamoto card. The footprint is not a real authentication method. No Morocco origin or cross-card cameo is claimed. The 300 refers only to the original RAREPEPE issuance, not all Rare Pepe editions or present circulating supply."
+}

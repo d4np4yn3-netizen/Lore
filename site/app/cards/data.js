@@ -33,6 +33,7 @@ import chapter032 from './content/032.json';
 import chapter033 from './content/033.json';
 import chapter034 from './content/034.json';
 import chapter035 from './content/035.json';
+import chapter036 from './content/036.json';
 
 export const cards = [
   {
@@ -459,6 +460,19 @@ export const cards = [
     source: 'https://blog.bitfinex.com/announcements/security-breach/',
     ...chapter035,
     number: '035/100',
+  },
+  {
+    slug: 'rare-pepes', title: 'RARE PEPES', rarity: 'UNCOMMON',
+    date: '09 SEP 2016', subject: 'COUNTERPARTY', phrase: 'THE MOST RARE PEPE',
+    phraseKind: 'verified issuance-description excerpt',
+    image: 'cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.png',
+    artwork: 'cards/crypto/season-01/rare-pepes-master-036/art.png',
+    book: 'book/crypto-season-01/proofs/036-rare-pepes-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.svg',
+    source: 'https://tokenscan.io/tx/563597',
+    ...chapter036,
+    number: '036/100',
   },
 ];
 

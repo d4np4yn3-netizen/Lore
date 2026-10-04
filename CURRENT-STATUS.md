@@ -1,3 +1,11 @@
+# 036 Rare Pepes authorised digital release - 4 October 2026
+
+Dan approved the reviewed 036 artwork/card/book and requested GitHub/site publication. COUNTERPARTY / RARE PEPES / Uncommon / 09 SEP 2016 / THE MOST RARE PEPE / 036/100. The phrase is an exact continuous excerpt from the original RAREPEPE issuance description. Exact v4 artwork SHA-256 `6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f` is unchanged.
+
+The final card substitutes the real QR and removes proof labels. PNG and actual 300-DPI PDF render decode to https://lore-site-v1.vercel.app/crypto/036/, configured for /cards/rare-pepes. Book and site share five approved story paragraphs and four actual-art details: Counterparty receipt, Directory/Series 1 binder, magnified frog footprint and RAREPEPE 300 ISSUED placard. The date marks first issuance; 13 September directory addition remains qualified community-archive evidence. The 300 belongs to the first asset issuance, not the whole collection or current supply. The Moroccan souk and cards are invented staging; user-photo architecture inspiration has no supplied credit metadata. No cross-card cameo is claimed.
+
+Collection is 001-036, 154 clues, 72 book previews and 298 display assets; 40 unique approved designs. All 290 earlier display assets and prior registry objects remain unchanged. New derivatives are append-only in display-15.bin. Native 1060 × 1484 art is 126.91 PPI at full A4. Physical print release, phone-camera QR testing and book reproduction remain false. Series 1 is visible but small in the card's lower fade. Live verification follows publication and must not be inferred from local QA. No 037 work is included in this release.
+
 # 035 The Bitfinex Heist published and verified - 4 October 2026
 
 Dan requested removal of the case date, then card/book/site creation, and explicitly confirmed Uncommon, TRUST LEFT THE EXCHANGE. and publication through Lore GitHub main to the live site. Exact v8 artwork SHA-256 `9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4` is preserved. BITFINEX / THE BITFINEX HEIST / 02 AUG 2016 / 035/100. The caption is editorial wording, not a quotation.

@@ -29,3 +29,5 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 035 The Bitfinex Heist adds exact approved date-free v8 art, Uncommon, TRUST LEFT THE EXCHANGE., four actual-art clues and the two-page book. Collection 001-035 contains 150 clues and 70 book previews. New derivatives are in display-14.bin; all 282 earlier images are preserved. Physical reproduction remains separate.
 
 035 originals are pinned to immutable asset commit e39d9009c160bce00a71a3860ea1f13be6f54b42. Content release 9190ffb219f627dca3b444a4cb364c27160eaf17 passed full production verification.
+
+036 Rare Pepes adds exact approved v4 art, Uncommon, THE MOST RARE PEPE, five story paragraphs, four actual-art clues and the two-page book. Collection 001-036 contains 154 clues and 72 book previews. New derivatives are in display-15.bin; all 290 earlier images are preserved. Physical reproduction remains separate.

@@ -2,7 +2,7 @@
   "updated": "2026-10-04",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 39,
+  "approved_visual_count": 40,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -3967,6 +3967,146 @@
       },
       "publication_status": "PUBLISHED_VERIFIED",
       "publication_verification": "cards/crypto/season-01/the-bitfinex-heist-master-035/publication-verification.json"
+    },
+    {
+      "id": "crypto-s01-rare-pepes",
+      "creator": "COUNTERPARTY",
+      "subject": "COUNTERPARTY",
+      "rarity": "uncommon",
+      "title_line_1": "RARE",
+      "title_line_2": "PEPES",
+      "title_lines": [
+        "RARE",
+        "PEPES"
+      ],
+      "title_status": "EDITORIAL_EVENT_TITLE",
+      "context": "THE MOST RARE PEPE",
+      "moment_label": "09 SEP 2016",
+      "event_date": "2016-09-09",
+      "event_date_display": "09 SEP 2016",
+      "date_precision": "day",
+      "date_qualification": "First RAREPEPE asset issuance; 13 September directory addition is a separate community-archive milestone. Broader launch period 9-13 September 2016.",
+      "set_label": "CRYPTO • SEASON 01 • 036/100",
+      "footer": "CRYPTO • SEASON 01 • 036/100",
+      "moment_number": 36,
+      "set_size": 100,
+      "collection": "crypto",
+      "season": 1,
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "artwork": "cards/crypto/season-01/rare-pepes-master-036/art.png",
+      "artwork_sha256": "6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f",
+      "front": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.svg",
+      "printer_pdf": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.pdf",
+      "book_spread": "book/crypto-season-01/proofs/036-rare-pepes-full-art-spread-v1.pdf",
+      "chapter": "book/crypto-season-01/036-rare-pepes.md",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/036/",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+      "confirmed_lore_owned_route": true,
+      "status": "APPROVED_DIGITAL_PUBLICATION",
+      "artwork_status": "EXACT_V4_USER_APPROVED",
+      "phrase_status": "USER_APPROVED_CONTINUOUS_EXACT_ISSUANCE_DESCRIPTION_EXCERPT",
+      "rarity_status": "UNCOMMON_APPROVED",
+      "book_copy_status": "APPROVED_PROOF_COPY_WITH_REVIEW_LABELS_REMOVED",
+      "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+      "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "approval_record": "cards/crypto/season-01/rare-pepes-master-036/approval.json",
+      "print_manifest": "cards/crypto/season-01/rare-pepes-master-036/print-v1-manifest.json",
+      "publication_approved": true,
+      "approved_at": "2026-10-04",
+      "approved_by": "Dan Payne",
+      "print_release": false,
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "source": "https://tokenscan.io/tx/563597",
+      "sources": [
+        {
+          "url": "https://tokenscan.io/tx/563597",
+          "title": "Original RAREPEPE issuance record",
+          "type": "BLOCKCHAIN_EXPLORER_RECORD",
+          "supports": "9 September 2016 at 01:46:42 UTC, block 428,919, 300 indivisible units and original issuance description."
+        },
+        {
+          "url": "https://docs.counterparty.io/docs/basics/assets/counterparty-assets/",
+          "title": "Counterparty asset documentation",
+          "type": "PRIMARY_PROTOCOL_DOCUMENTATION",
+          "supports": "Counterparty asset balances and transfers recorded in Bitcoin transactions."
+        },
+        {
+          "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project",
+          "title": "Book of Kek project history",
+          "type": "COMMUNITY_ARCHIVE",
+          "supports": "13 September directory milestone; explicitly distinguished from first issuance."
+        },
+        {
+          "url": "https://wiki.pepe.wtf/chapter-2-the-rare-pepe-project/the-rare-pepe-blockchain-project/series-and-card-specific-lore/series-1",
+          "title": "Book of Kek Series 1 archive",
+          "type": "COMMUNITY_ARCHIVE",
+          "supports": "RAREPEPE is Series 1, Card 1."
+        }
+      ],
+      "artwork_clues": [
+        {
+          "detail": "The Counterparty receipt.",
+          "meaning": "The paper marked COUNTERPARTY and the Bitcoin symbol link the imagined exchange to the protocol and blockchain used for the tokens. A paper receipt is a visual metaphor, not a historical transaction document.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "Directory and Series 1.",
+          "meaning": "The open binder makes the numbered catalogue visible. The Series 1 tab points to the collection's earliest group; the illustrated cards inside are invented designs.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "The frog footprint.",
+          "meaning": "A magnifying glass enlarges a green print, playing with the idea of checking a card's authenticity. It is an invented clue, not a real Rare Pepe authentication method or artefact.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "RAREPEPE 300 issued.",
+          "meaning": "The placard points to the 300 units originally issued for the first RAREPEPE asset. The number does not describe every Rare Pepe card or the collection's present supply.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        }
+      ],
+      "cross_card_cameo": null,
+      "interpretation": "The merchant, collector, paper receipt, market exchange, frog footprint and Moroccan souk are fictional staging for digital collecting. The pictured cards are invented designs, not reproductions of the original Nakamoto card. The footprint is not a real authentication method. No Morocco origin or cross-card cameo is claimed. The 300 refers only to the original RAREPEPE issuance, not all Rare Pepe editions or present circulating supply.",
+      "clue_review_status": "FOUR_CLUES_VISUALLY_CHECKED_IN_FINAL_CARD_AND_BOOK",
+      "card_size_readability_note": "All four clue groups remain visible. The Series 1 tab is small, near the right edge and partly in the lower card fade; microtext needs physical proof assessment.",
+      "output_sha256": "f49b7328e1096a33a7c55b0ad568a15ba17f3f0a0ae25fe19dc8a2a089798cd6",
+      "print_svg_sha256": "9a9fbddaf427453fee7a8a418533f6c1b6fab6101d71235741724a245d6bdd60",
+      "printer_pdf_sha256": "dd1d9bb3de3dd41ac9dadafbd65109523cdf351dfb85bed87deedb424159c68e",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.png",
+          "bytes": 1072043,
+          "sha256": "f49b7328e1096a33a7c55b0ad568a15ba17f3f0a0ae25fe19dc8a2a089798cd6",
+          "git_blob": "fc0fd842e854be80ed477b5fdc263189fb4eed83"
+        },
+        {
+          "path": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.svg",
+          "bytes": 3732506,
+          "sha256": "9a9fbddaf427453fee7a8a418533f6c1b6fab6101d71235741724a245d6bdd60",
+          "git_blob": "bfd8a6e272b76c22f1f961b4065a7cf63fe3b071"
+        },
+        {
+          "path": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.pdf",
+          "bytes": 1850004,
+          "sha256": "dd1d9bb3de3dd41ac9dadafbd65109523cdf351dfb85bed87deedb424159c68e",
+          "git_blob": "81308c033fc79ee4fd23ba87ea1609b77d96317b"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/rare-pepes-master-036/art.png",
+        "bytes": 2772140,
+        "sha256": "6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f",
+        "git_blob": "aecf6a4b1f6ae32b86de38417c4b6f217fc33568"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -3979,9 +4119,11 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-04",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 39,
+  "approved_print_derivative_count": 40,
   "numbered_published_count": 35,
-  "numbering_gap_note": "Published numbered digital collection contains 001 through 035 without a gap. 035 adds one new approved unique design. All 39 approved registry entries, historical assets and previous registry objects are preserved.",
-  "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 35
+  "numbering_gap_note": "Numbered digital collection contains 001 through 036 without a gap. 036 adds one new approved unique design. Historical assets and previous registry objects remain unchanged.",
+  "pending_live_verification_numbers": [
+    "036"
+  ],
+  "prepared_numbered_count": 36
 }

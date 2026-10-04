@@ -1,0 +1,180 @@
+{
+  "card": "036",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/rare-pepes-master-036/art.png": "6785c45c12c7efb0da14e2cba3307f3001b4bd793942f1cdd7ff7f71fe015f2f",
+    "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.png": "f49b7328e1096a33a7c55b0ad568a15ba17f3f0a0ae25fe19dc8a2a089798cd6",
+    "book/crypto-season-01/proofs/036-rare-pepes-full-art-spread-v1.pdf": "6bf62ec7bcbdb6482172c3895a1acbf1d6ac9ba71a811d21e0569da4f1379d02"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The Counterparty receipt.",
+      "sourceBoxXYXY": [
+        637,
+        570,
+        823,
+        729
+      ],
+      "src": "/closeups/036-01.webp",
+      "width": 186,
+      "height": 159,
+      "alt": "Fictional paper receipt marked COUNTERPARTY with a Bitcoin symbol",
+      "bbox": {
+        "x": 0.600943,
+        "y": 0.384097,
+        "w": 0.175472,
+        "h": 0.107143
+      }
+    },
+    {
+      "title": "Directory and Series 1.",
+      "sourceBoxXYXY": [
+        756,
+        878,
+        1060,
+        1137
+      ],
+      "src": "/closeups/036-02.webp",
+      "width": 304,
+      "height": 259,
+      "alt": "Open card binder labelled DIRECTORY with a SERIES 1 tab",
+      "bbox": {
+        "x": 0.713208,
+        "y": 0.591644,
+        "w": 0.286792,
+        "h": 0.174528
+      }
+    },
+    {
+      "title": "The frog footprint.",
+      "sourceBoxXYXY": [
+        383,
+        868,
+        554,
+        1033
+      ],
+      "src": "/closeups/036-03.webp",
+      "width": 171,
+      "height": 165,
+      "alt": "Magnifying glass enlarging an invented green frog footprint on a card",
+      "bbox": {
+        "x": 0.361321,
+        "y": 0.584906,
+        "w": 0.161321,
+        "h": 0.111186
+      }
+    },
+    {
+      "title": "RAREPEPE 300 issued.",
+      "sourceBoxXYXY": [
+        383,
+        771,
+        572,
+        902
+      ],
+      "src": "/closeups/036-04.webp",
+      "width": 189,
+      "height": 131,
+      "alt": "Market placard marked RAREPEPE 300 ISSUED, referring to the first asset issuance",
+      "bbox": {
+        "x": 0.361321,
+        "y": 0.519542,
+        "w": 0.178302,
+        "h": 0.088275
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/036-art.webp",
+      "pack": "display-15.bin",
+      "offset": 0,
+      "length": 470306,
+      "sha256": "388ecd0a779f99c277ec40fd8e6523c02d631dd7088c7d9fe6f074e16eabf406"
+    },
+    {
+      "path": "archive/036-page-1.webp",
+      "pack": "display-15.bin",
+      "offset": 470306,
+      "length": 296852,
+      "sha256": "db9df3f59d8670e944d79227736bbab2e2ba5e61d75900716a86f740fca6bc39"
+    },
+    {
+      "path": "archive/036-page-2.webp",
+      "pack": "display-15.bin",
+      "offset": 767158,
+      "length": 118756,
+      "sha256": "98d88e934c35d1db5ca502ee63b876c5ba874a9a9937eacfab15fd168d32f2d9"
+    },
+    {
+      "path": "archive/036-web-card.webp",
+      "pack": "display-15.bin",
+      "offset": 885914,
+      "length": 151494,
+      "sha256": "f8ed05c7ae2af31b81f69a50ba0ae074cc4330642ea48304ca23086e2f43086b"
+    },
+    {
+      "path": "closeups/036-01.webp",
+      "pack": "display-15.bin",
+      "offset": 1037408,
+      "length": 10750,
+      "sha256": "b5500cca77f13c034bb0d8f0eed44c9b30691e7e70b2b2e5d388c0ad75bd8da2"
+    },
+    {
+      "path": "closeups/036-02.webp",
+      "pack": "display-15.bin",
+      "offset": 1048158,
+      "length": 27102,
+      "sha256": "ca8958abd34cbe357b292ed35c2db8993569223d725a70448d73e97a59c40fd4"
+    },
+    {
+      "path": "closeups/036-03.webp",
+      "pack": "display-15.bin",
+      "offset": 1075260,
+      "length": 11876,
+      "sha256": "c93c56dc30d7c5c01ab6f43cd4369231a3f647392547112e25ccf177ec498eab"
+    },
+    {
+      "path": "closeups/036-04.webp",
+      "pack": "display-15.bin",
+      "offset": 1087136,
+      "length": 10834,
+      "sha256": "037b48ae6f09c02394ea0caa2229324864a1b28f873e2e13f3c17ce982a712f9"
+    }
+  ],
+  "bundleSHA256": "9f978038be5ed98af8dbd49d7ec391c2edd911fee7bace5ca3ad346e0168aaab",
+  "previousAssetsPreserved": 290,
+  "previousBundleSHA256": {
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-14.bin": "88ec063b9661e379627dbbc06b98428ce3e6fcbc1614b3311c4bdd72856aad4f",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-13.bin": "8ddaf9ac74a26ce5e813565d86bd42ba596f94e9c5eb947d90c00505c7e0f30a",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-11.bin": "f586a324adacf85a6b029e3ec08142482037adf41f5e5e10749f2a2e1024d6a7",
+    "display-12.bin": "9fb3716d0adcefc592c0e3b9a3603d5174d861521ac794d4a6beb41b82d574e9",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-10.bin": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f"
+  },
+  "originalMastersUnchanged": true
+}
