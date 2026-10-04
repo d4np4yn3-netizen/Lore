@@ -1,0 +1,26 @@
+# 033 - The DAO Hack
+
+**Crypto · Season One · Epic · 17 June 2016**
+
+**Phrase:** REMAIN CALM. A continuous excerpt from Vitalik Buterin's 17 June 2016 alert; capitals and punctuation normalised.
+
+## The story
+
+Red warning lights fill the room. At the terminal, a young Vitalik-inspired figure watches windows multiply across a blue screen. Beyond it, Ether glows behind the glass of a locked cabinet. The imagined scene catches the first shock of The DAO crisis: the system is still running, but something inside it has gone badly wrong.
+
+The DAO was an experiment in organising investment through code. Participants bought tokens with Ether and were meant to vote on projects to fund. On 17 June 2016, an attacker exploited a flaw in its smart contract. Recursive calls through the split function allowed Ether to be collected repeatedly in one transaction and diverted into a child DAO. The vulnerable application ran on Ethereum; the attack did not break Ethereum's underlying consensus.
+
+The receiving contract imposed a delay. Buterin's alert reported that the attacker could not withdraw the diverted Ether for at least roughly another 27 days, giving the community time to consider a response. His advice to holders and users included two words that sit uneasily beneath the alarms: REMAIN CALM. The sealed cabinet turns that temporary restriction into a physical image.
+
+The crisis forced a question that code alone could not settle: how should a community respond when a contract behaves exactly as written, with disastrous results? On 20 July, a hard fork moved DAO funds into a recovery contract. Others continued the original chain, later known as Ethereum Classic. That split belongs to the next chapter. This card stays with June's emergency, when an ambitious experiment had exposed how much depended on getting the contract right.
+
+## Details in the artwork
+
+1. **The split function.** The front window's split() label points to the contract operation involved in the exploit. It does not refer to the later Ethereum and Ethereum Classic fork.
+2. **The repeated calls.** Nested windows and the paper trail visualise recursion. Their repetition conveys the same operation happening again inside an unfinished call; the interface and receipts are invented.
+3. **The locked Ether.** The cabinet and ≈27 DAYS display recall the temporary withdrawal restriction. The number is an approximate period reported during the attack, not a precise countdown to the hard fork.
+4. **The receiving address.** The plate reads 0x304a…3490, abbreviating the child DAO address named in the contemporary alert. Its correctly retained beginning and ending anchor the fictional machinery to the historical record.
+
+## Source and art note
+
+[Buterin's 17 June alert](https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability) supports the exploit, address, waiting period and phrase. The [SEC's 2017 report, pp. 4 and 9](https://www.sec.gov/files/litigation/investreport/34-81207.pdf) supplies DAO context and chronology; the [20 July completion notice](https://blog.ethereum.org/2016/07/20/hard-fork-completed) records the fork. The Vitalik-inspired figure, room and response actions are illustrative, not a documented reconstruction or a portrayal of the attacker.
