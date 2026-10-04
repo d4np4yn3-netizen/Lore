@@ -4150,12 +4150,12 @@
       "qr_url": "https://lore-site-v1.vercel.app/crypto/037/",
       "qr_target": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
       "confirmed_lore_owned_route": true,
-      "status": "APPROVED_DIGITAL_PUBLICATION",
+      "status": "PUBLISHED_VERIFIED",
       "artwork_status": "EXACT_V5_USER_APPROVED",
       "phrase_status": "USER_APPROVED_EDITORIAL_PARAPHRASE_NOT_HISTORICAL_QUOTATION",
       "rarity_status": "UNCOMMON_APPROVED",
       "book_copy_status": "APPROVED_PROOF_COPY_WITH_REVIEW_LABELS_REMOVED",
-      "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+      "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
       "template_revision": "LORE-CRYPTO-PRINT-v1.0",
       "canvas_px": [
         816,
@@ -4289,7 +4289,9 @@
         "bytes": 2580078,
         "sha256": "1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1",
         "git_blob": "2cac21b263ee579881e7f1c9000b4bc1161bcdfa"
-      }
+      },
+      "publication_status": "PUBLISHED_VERIFIED",
+      "publication_verification": "cards/crypto/season-01/the-zcash-ceremony-master-037/publication-verification.json"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -4303,10 +4305,8 @@
   "updated_at": "2026-10-04",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 41,
-  "numbered_published_count": 36,
-  "numbering_gap_note": "Numbered digital collection contains published 001 through 036 plus prepared 037 without a gap. 037 adds one new approved unique design. All 40 prior registry objects and historical assets remain unchanged; live verification for 037 follows publication.",
-  "pending_live_verification_numbers": [
-    "037"
-  ],
+  "numbered_published_count": 37,
+  "numbering_gap_note": "Published numbered digital collection contains 001 through 037 without a gap. 037 adds one approved unique design. All 41 approved registry entries, historical assets and 40 prior card objects are preserved.",
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 37
 }

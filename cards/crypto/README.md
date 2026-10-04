@@ -2,7 +2,7 @@
 
 ## Latest approved numbered card: 037
 
-[The Zcash Ceremony - Uncommon](season-01/the-zcash-ceremony-master-037/README.md) preserves exact approved coinlit-anime v5 art, 22–23 OCT 2016 and ONE HONEST WITNESS. The caption is editorial wording, not a quotation. The register contains 41 unique approved designs and 37 prepared numbered entries, with 36 previously published. Five approved story paragraphs and five actual-art clues drive the book/website. Digital asset checks pass; live verification for 037 follows publication. Physical print and book reproduction remain separate.
+[The Zcash Ceremony - Uncommon](season-01/the-zcash-ceremony-master-037/README.md) preserves exact approved coinlit-anime v5 art, 22–23 OCT 2016 and ONE HONEST WITNESS. The caption is editorial wording, not a quotation. The register contains 41 unique approved designs and 37 published numbered entries. Five approved story paragraphs and five actual-art clues drive the book/website. Digital and live checks pass, including all 37 routes, nine new display images, six original downloads and desktop/narrow interactions. Physical print and book reproduction remain separate.
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·

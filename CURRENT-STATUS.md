@@ -1,4 +1,4 @@
-# 037 The Zcash Ceremony authorised digital release - 4 October 2026
+# 037 The Zcash Ceremony published and verified - 4 October 2026
 
 Dan approved the exact reviewed coinlit-anime v5 artwork, card, metadata and two-page book, then requested GitHub/site upload. ZCASH / THE ZCASH CEREMONY / Uncommon / 22–23 OCT 2016 / ONE HONEST WITNESS / 037/100. The phrase is an approved editorial paraphrase, not a historical quotation. Exact art SHA-256 `1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1` is unchanged.
 
@@ -6,7 +6,7 @@ Final card changes are confined to the QR and scan caption; book review labels a
 
 The intended cast is Wilcox, Miller, Van Valkenburgh, Hinch, Todd and Snowden. Public portraits informed stylised likenesses, with later/undated sources qualified. The real witnesses worked separately. Their common altar, floating coin, glowing crystals, generic board and jar are symbolic, and the image combines successive phases. No cross-card cameo or exact 2016 likeness claim is made; reference photographs are not included in this release.
 
-The prepared collection reaches 001–037, with target totals of 159 clues, 74 book previews and 307 display assets; 41 unique approved designs. The 36 prior published cards, all 40 prior registry objects and 298 prior display assets remain preserved. New derivatives append to display-16.bin. Native 1060 × 1484 art is 126.91 PPI at full A4. Physical print, phone-camera QR testing and book reproduction remain false. Small lettering and fine hardware require physical assessment. Live verification for 037 follows publication and must not be inferred from local QA. No 038 publication is included.
+The published collection reaches 001–037, with 159 clues, 74 book previews and 307 display assets; 41 unique approved designs. The 36 prior published cards, all 40 prior registry objects and 298 prior display assets remain preserved. New derivatives append to display-16.bin. Native 1060 × 1484 art is 126.91 PPI at full A4. Physical print, phone-camera QR testing and book reproduction remain false. Small lettering and fine hardware require physical assessment. Content release `f5a87d35d1ecbf3fe6bc96b8455b09b0c1d9ac70` is on GitHub main and production deployment `dpl_FH1M1fdE9u35JJjTZDoBxvk9B9H1` is READY. All 37 QR routes, nine new images, six original downloads, exact book/site copy, downloaded PNG/PDF QR decodes and independent desktop/narrow checks pass. Browser coverage is desktop 1181 × 756 and a 500 × 756 narrow window; sub-500px and physical mobile devices were not tested. Publication evidence is archived beside the numbered master. No 038 publication is included.
 
 # 036 Rare Pepes published and verified - 4 October 2026
 

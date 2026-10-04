@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "status": "PASS_WITH_SCOPE_LIMITATIONS",
+  "tested_at_utc": "2026-10-04T18:46:40Z",
+  "production_commit_supplied_by_publisher": "f5a87d35d1ecbf3fe6bc96b8455b09b0c1d9ac70",
+  "production_deployment_supplied_by_publisher": "dpl_FH1M1fdE9u35JJjTZDoBxvk9B9H1",
+  "browser": "dot cloud Chromium via CUA",
+  "urls": {
+    "page": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+    "qr_requested": "https://lore-site-v1.vercel.app/crypto/037/",
+    "qr_observed_destination": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony"
+  },
+  "viewports": [
+    {
+      "label": "desktop",
+      "inner_width_css_px": 1181,
+      "inner_height_css_px": 756,
+      "page_scroll_width_css_px": 1166
+    },
+    {
+      "label": "actual narrow Chromium window",
+      "inner_width_css_px": 500,
+      "inner_height_css_px": 756,
+      "page_scroll_width_css_px": 485,
+      "method": "Resized actual Linux Chromium window by dragging its corner; no emulation or CSS injection."
+    },
+    {
+      "label": "restored desktop book screenshot",
+      "height": 756,
+      "scrollWidth": 1167,
+      "width": 1182
+    }
+  ],
+  "checks": {
+    "approved_metadata": {
+      "pass": true,
+      "date": "22–23 OCT 2016",
+      "rarity": "UNCOMMON",
+      "tagline": "ONE HONEST WITNESS"
+    },
+    "five_exact_story_paragraphs": {
+      "pass": true,
+      "matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "five_exact_clues": {
+      "pass": true,
+      "matches": [
+        {
+          "title": "Six witnesses and crystals.",
+          "titleMatches": true,
+          "textMatches": true
+        },
+        {
+          "title": "The DVD-R.",
+          "titleMatches": true,
+          "textMatches": true
+        },
+        {
+          "title": "The detached radio.",
+          "titleMatches": true,
+          "textMatches": true
+        },
+        {
+          "title": "The broken remnants.",
+          "titleMatches": true,
+          "textMatches": true
+        },
+        {
+          "title": "The Sprout carving.",
+          "titleMatches": true,
+          "textMatches": true
+        }
+      ]
+    },
+    "five_markers": {
+      "pass": true,
+      "desktop_all_five_clicked": true,
+      "narrow_all_five_visible": true,
+      "narrow_detail_3_clicked": true,
+      "details": "Each desktop marker opened the correct crop, heading and text; Close/Return restored focus to the marker. Narrow markers remained over corresponding visible objects."
+    },
+    "clue_enlargement": {
+      "pass": true,
+      "desktop_sequence": "1 → 2 → 3 → 4 → 5 → 4 → All details",
+      "first_previous_disabled": true,
+      "last_next_disabled": true,
+      "narrow_clue_5_enlargement": true,
+      "all_five_narrow_images_loaded": true
+    },
+    "artwork_zoom_fit": {
+      "pass": true,
+      "desktop_contained_scroll": {
+        "clientWidth": 1045,
+        "scrollWidth": 1400,
+        "clientHeight": 552,
+        "scrollHeight": 1960
+      },
+      "narrow_contained_scroll": {
+        "scrollWidth": 485,
+        "viewer": [
+          {
+            "clientHeight": 552,
+            "clientWidth": 420,
+            "scrollHeight": 1680,
+            "scrollWidth": 1200
+          }
+        ],
+        "viewport": 500
+      }
+    },
+    "book_pages": {
+      "pass": true,
+      "desktop_both_visible_and_loaded": true,
+      "desktop_each_page_enlarge_and_fit": true,
+      "narrow_page_selectors_and_both_enlargements": true,
+      "narrow_contained_scroll": {
+        "reader": [
+          {
+            "clientHeight": 552,
+            "clientWidth": 420,
+            "scrollHeight": 1103,
+            "scrollWidth": 780
+          }
+        ],
+        "scrollWidth": 485,
+        "viewport": 500
+      },
+      "notes": "At narrow width the reader shows one page at a time via 01 / Artwork and 02 / The story."
+    },
+    "standalone_036_037_navigation": {
+      "pass": true,
+      "next": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+      "back": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+      "forward": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony"
+    },
+    "archive_modal": {
+      "pass": true,
+      "desktop_close_focus": {
+        "href": "/cards/the-zcash-ceremony",
+        "label": "Explore The Zcash Ceremony, 22–23 OCT 2016",
+        "tag": "A"
+      },
+      "desktop_escape_focus": {
+        "href": "/cards/the-zcash-ceremony",
+        "label": "Explore The Zcash Ceremony, 22–23 OCT 2016",
+        "tag": "A"
+      },
+      "desktop_closed_url": "https://lore-site-v1.vercel.app/#moment-the-zcash-ceremony",
+      "narrow_close_focus": {
+        "href": "/cards/the-zcash-ceremony",
+        "label": "Explore The Zcash Ceremony, 22–23 OCT 2016",
+        "tag": "A"
+      },
+      "narrow_escape_focus": {
+        "href": "/cards/the-zcash-ceremony",
+        "label": "Explore The Zcash Ceremony, 22–23 OCT 2016",
+        "tag": "A"
+      },
+      "narrow_previous_next_036_037": true,
+      "narrow_browser_back": {
+        "url": "https://lore-site-v1.vercel.app/#moment-the-zcash-ceremony",
+        "snapshot": []
+      },
+      "narrow_browser_forward": {
+        "url": "https://lore-site-v1.vercel.app/?moment=the-zcash-ceremony#moment-the-zcash-ceremony",
+        "snapshot": [
+          "- dialog \"The Zcash Ceremony\":"
+        ]
+      },
+      "notes": "Browser Back closes the modal to the originating timeline; Forward reopens 037. Previous/Next inside the modal switches moments without adding individual history entries."
+    },
+    "page_horizontal_overflow": {
+      "pass": true,
+      "desktop_scroll_width": 1166,
+      "desktop_inner_width": 1181,
+      "narrow_scroll_width": 485,
+      "narrow_inner_width": 500,
+      "notes": "Intentional art/book viewer scrollbars stayed within the page."
+    },
+    "immutable_asset_controls": {
+      "pass": true,
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/9139d035818e8f259f48e365379679142a195cf2/cards/crypto/season-01/the-zcash-ceremony-master-037/art.png",
+          "label": "Open original artwork ↗"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/9139d035818e8f259f48e365379679142a195cf2/cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.png",
+          "label": "View collectible card ↗"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/9139d035818e8f259f48e365379679142a195cf2/cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.pdf",
+          "label": "Print card PDF ↗"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/9139d035818e8f259f48e365379679142a195cf2/cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.svg",
+          "label": "Editable card SVG ↗"
+        },
+        {
+          "label": "Open PDF ↗",
+          "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/9139d035818e8f259f48e365379679142a195cf2/book/crypto-season-01/proofs/037-the-zcash-ceremony-full-art-spread-v1.pdf"
+        }
+      ]
+    },
+    "console": {
+      "site_errors_observed": [],
+      "extension_warning_error_entries": 152,
+      "notes": "All captured warn/error entries originated from the cloud browser extension; no site-origin warn/error entries in returned logs."
+    }
+  },
+  "observations": [
+    {
+      "severity": "informational",
+      "text": "The inline artwork detail inspector on the standalone page remains open on Escape. It is an inline aside, not a modal. Its Close and Return controls work and restore marker focus. Archive modal Escape was separately verified working."
+    },
+    {
+      "severity": "evidence_capture",
+      "text": "Full-page screenshot capture can trigger responsive image reloads. desktop-book-loaded.jpg is a stable actual-viewport capture showing both loaded pages; desktop-book.jpg is an earlier loading-state capture and is not completion evidence."
+    }
+  ],
+  "material_defects": [],
+  "scope_limitations": [
+    "Actual narrow browser testing reached Chromium window minimum width of 500 CSS pixels. Sub-500px layouts were not tested.",
+    "No physical iOS/Android phone, touch input, mobile Safari or device camera QR scanning was tested.",
+    "Source asset hrefs were verified in browser. Download hashes, QR decoding and PDF checks are handled separately by the publisher."
+  ],
+  "screenshots": {
+    "desktop_story": "desktop-story-full.jpg",
+    "desktop_art_markers": "desktop-art-markers.jpg",
+    "desktop_clue_grid": "desktop-clues-grid.jpg",
+    "desktop_clue_details": [
+      "desktop-clue-1.jpg",
+      "desktop-clue-2.jpg",
+      "desktop-clue-3.jpg",
+      "desktop-clue-4.jpg",
+      "desktop-clue-5.jpg"
+    ],
+    "desktop_clue_enlargements": [
+      "desktop-clue-enlarge-1.jpg",
+      "desktop-clue-enlarge-2.jpg",
+      "desktop-clue-enlarge-3.jpg",
+      "desktop-clue-enlarge-4.jpg",
+      "desktop-clue-enlarge-5.jpg"
+    ],
+    "desktop_art_zoom": "desktop-art-zoom.jpg",
+    "desktop_book_loaded": "desktop-book-loaded.jpg",
+    "desktop_book_enlargements": [
+      "desktop-book-enlarged.jpg",
+      "desktop-book-page2-enlarged.jpg"
+    ],
+    "desktop_modal": "desktop-modal.jpg",
+    "narrow_story": "narrow-story-full.jpg",
+    "narrow_clues": "narrow-clues-full.jpg",
+    "narrow_clue_enlargement": "narrow-clue5-enlarged.jpg",
+    "narrow_art": [
+      "narrow-art-markers.jpg",
+      "narrow-art-detail.jpg",
+      "narrow-art-zoom.jpg"
+    ],
+    "narrow_book": [
+      "narrow-book-full.jpg",
+      "narrow-book-page2.jpg",
+      "narrow-book-page1-enlarged.jpg",
+      "narrow-book-page2-enlarged.jpg"
+    ],
+    "narrow_modal": [
+      "narrow-modal.jpg",
+      "narrow-modal-closed-focus.jpg"
+    ]
+  }
+}
