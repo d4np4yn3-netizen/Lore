@@ -1,0 +1,39 @@
+{
+  "status": "DIGITAL_QA_PASSED_LIVE_VERIFICATION_PENDING",
+  "art_sha256": "5db2bd45176367f74c595925fecb3d537b5a493966ca02850178903563422ef0",
+  "art_bytes_unchanged": true,
+  "svg_embedded_art_exact": true,
+  "book_embedded_art_pixels_exact": true,
+  "card_canvas_px": [
+    816,
+    1110
+  ],
+  "trim_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "dpi": 300,
+  "qr_url": "https://lore-site-v1.vercel.app/crypto/032/",
+  "png_qr_decoded": true,
+  "pdf_300dpi_qr_decoded": true,
+  "book_pages": 2,
+  "book_source_art_px": [
+    1060,
+    1484
+  ],
+  "book_effective_ppi": 126.91,
+  "visual_checks": {
+    "front": "PASS: four unique clues and all three GAS bands visible; exact logo and title geometry retained",
+    "book_art": "PASS: approved full-art layout unchanged",
+    "book_story": "PASS: approved story and details unchanged; proposal/review labels removed"
+  },
+  "caption": "Approved editorial caption, not historical quotation",
+  "proof_to_final_change": "Card differs only in QR rectangle/caption; book differs only in proposal/review labels and metadata",
+  "print_release": false,
+  "physical_qr_scan_test": false,
+  "book_reproduction_release": false
+}

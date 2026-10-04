@@ -1,3 +1,11 @@
+# 032 Ethereum Goes Live approved for publication — 4 October 2026
+
+Dan approved the exact v12 artwork, Mythic card and two-page book proofs: “Approved, please upload”. ETHEREUM / GOES LIVE / 30 JUL 2015 / THE WORLD COMPUTER WAKES / 032/100. The caption is editorial wording, not a historical quotation. Selected art SHA-256 `5db2bd45176367f74c595925fecb3d537b5a493966ca02850178903563422ef0` is preserved unchanged; the final front substitutes the stable QR and removes proof status.
+
+Final PNG and actual 300-DPI printer-PDF rendering both decode to https://lore-site-v1.vercel.app/crypto/032/, with intended story target `/cards/ethereum-goes-live`. Live publication verification remains pending. Four actual-art clues cover Frontier, the genesis zero, the initial 5,000 block-gas limit and the unfinished landmark. The fictional pipe city visualises computational work; there is thematic continuity with 028 and no cameo prop.
+
+The prepared collection reaches 001–032, 137 clues, 64 book-page previews, 265 display-media records and 37 approved unique designs. Preserve all 257 earlier display assets and every previous source/register object. Print geometry remains 816 × 1110 at 300 DPI, 744 × 1038 trim, 684 × 981 safe. Physical print release, physical phone-camera QR test and book reproduction release remain false; native 1060 × 1484 artwork is approximately 127 PPI at full A4. Exact builders and approval/provenance/print records are archived with `cards/crypto/season-01/ethereum-goes-live-master-032/`.
+
 # 031 BitLicense approved for publication — 3 October 2026
 
 Dan approved the exact v8 artwork, Rare card and two-page book proofs for upload. NEW YORK / BITLICENSE (single line) / 24 JUN 2015 / RULES FOR A NEW FRONTIER / 031/100. Original art SHA-256 edac6ab5c807165ccfa7c18ed5a2c1a7205ab45621b6e160e5ab2ee3cdf5e8be is preserved unchanged. The caption is editorial wording, not a historical quotation. Approved story is unchanged; final card replaces only the QR placeholder and proof status.

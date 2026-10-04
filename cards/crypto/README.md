@@ -1,5 +1,9 @@
 # LORE Crypto — Season One
 
+## Latest approved numbered card: 032
+
+[Ethereum Goes Live — Mythic](season-01/ethereum-goes-live-master-032/README.md) was approved for repository and website upload on 4 October 2026, including its exact v12 illustration and two-page book proof. The current register contains 37 unique approved designs and 32 approved numbered entries; 032 live verification remains pending. Physical print, physical QR testing and book reproduction release remain separate. Use [current cards](current-cards.json) and the latest project status for the current sequence; the migration notes below preserve the earlier rollout history.
+
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·
 [Restyle queue](STYLE-MIGRATION.md)

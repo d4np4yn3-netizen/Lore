@@ -1,0 +1,124 @@
+{
+  "selected_at": "2026-10-04",
+  "source": "Exact selected v12 purple-pipe vista, with concrete-panel Ethereum landmark and crane-like skyline projections removed before approval.",
+  "sha256": "5db2bd45176367f74c595925fecb3d537b5a493966ca02850178903563422ef0",
+  "native_dimensions": [
+    1060,
+    1484
+  ],
+  "status": "USER_APPROVED_EXACT_V12",
+  "artwork_regenerated_during_publication": false,
+  "artwork_resized_during_publication": false,
+  "generation_tool": "built-in image_gen",
+  "required_style_references": [
+    {
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "STYLE",
+      "direct_generation_input": true,
+      "recovered_from_pinned_repo_commit": "5d07ecb8f805de0006e871224a2937888190d0a2"
+    },
+    {
+      "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "STYLE",
+      "direct_generation_input": true,
+      "recovered_from_pinned_repo_commit": "5d07ecb8f805de0006e871224a2937888190d0a2"
+    }
+  ],
+  "reference_use_note": "Both pinned HODL and Doge artworks were supplied directly for the recorded generation and edits; user-provided industrial and concrete-panel architectural references informed composition and structures.",
+  "user_inspiration_reference_hashes": [
+    {
+      "role": "Pipe fittings, supports and direction bands",
+      "sha256": "4362356c4297db65db20b692e3c7911048d8e5e39ea89fbd4ea306dc6badb4e5"
+    },
+    {
+      "role": "Industrial scale and infrastructure",
+      "sha256": "0d233469cbc62eeafbc58f4ffd8a39fd1b512fa5022658f75c7712757a85afc8"
+    },
+    {
+      "role": "PRIMARY right-hand composition: low viewpoint, parallel pipes converging into skyline at sunset",
+      "sha256": "4ae351e6143bd17de2d05c89871ea3657042fb25611c371565c6e4ed0bb90540"
+    },
+    {
+      "role": "User explicitly selected concrete-panel architecture, with open floors and scaffolding",
+      "sha256": "3cb46abd0444c9c441537b26d43f69217186d376c182ff364fe18afb5bdf4028"
+    }
+  ],
+  "revision_history": [
+    {
+      "version": "v9",
+      "sha256": "a2f4b35fc504f0c300cb007aed41995f347cf7fd3edef7f3b37998f7987e4f15",
+      "change": "Purple-pipe vista preceding the selected concrete-panel revision.",
+      "selected": false
+    },
+    {
+      "version": "v10",
+      "sha256": "ec456a1e887a726c54ab293ae2bb8b9d07776ae2c126fefa36726a47394b8767",
+      "change": "Concrete Ethereum-shaped building, main crane removal",
+      "selected": false
+    },
+    {
+      "version": "v11",
+      "sha256": "c0abec0e6f45b7512dae82455449311a8ac074fcdca469c40a44aafd12985df6",
+      "change": "First small right-tower cleanup; one thin crane-like accessory remained",
+      "selected": false
+    },
+    {
+      "version": "v12",
+      "sha256": "5db2bd45176367f74c595925fecb3d537b5a493966ca02850178903563422ef0",
+      "change": "Final clean capped right-side tower with no diagonal crane/davit remnant",
+      "selected": true
+    }
+  ],
+  "interpretation": "Fictional industrial metaphor for the Frontier launch, not a historical Ethereum installation, central gasworks or physical fuel supply. GAS arrows show visual flow toward the city. BLOCK GAS LIMIT 5,000 is gas per block, not a gas price, gwei amount or pressure reading. The genesis-zero module and Ethereum-shaped architecture are invented visual symbols; no modern fee mechanics or later ecosystem brands are claimed.",
+  "artwork_clues": [
+    {
+      "detail": "The Frontier sign.",
+      "meaning": "The gantry names Ethereum's first live release. Its placement in a fictional industrial city makes a software milestone part of the landscape.",
+      "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+    },
+    {
+      "detail": "The genesis zero.",
+      "meaning": "The illuminated 0 at the central junction represents the genesis block, the network's starting point. The physical module is an invented visual symbol.",
+      "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+    },
+    {
+      "detail": "The 5,000 limit.",
+      "meaning": "BLOCK GAS LIMIT 5,000 records Frontier's initial thawing restriction. It is a limit on gas per block, not a gas price or a pressure reading.",
+      "kind": "SOURCE_QUALIFIED_EDITORIAL_INTERPRETATION"
+    },
+    {
+      "detail": "The unfinished landmark.",
+      "meaning": "Concrete panels, open floors and scaffolding turn Ethereum's diamond into architecture. They express the developer-focused release's unfinished state. The city also echoes card 028, The Ether Sale, carrying its imagined future into the first live network.",
+      "kind": "SYMBOLIC_EDITORIAL_INTERPRETATION_WITH_THEMATIC_COLLECTION_CONTINUITY"
+    }
+  ],
+  "cross_card_cameo": null,
+  "thematic_continuity": {
+    "card_number": "028",
+    "title": "The Ether Sale",
+    "relationship": "The imagined future city becomes infrastructure beginning to work; no returning cameo prop is claimed."
+  },
+  "sources": [
+    {
+      "url": "https://blog.ethereum.org/2015/07/30/ethereum-launches",
+      "title": "Ethereum Foundation: Ethereum Launches",
+      "type": "PRIMARY_CONTEMPORANEOUS",
+      "supports": "30 July 2015, Frontier first live Ethereum release and genesis block."
+    },
+    {
+      "url": "https://blog.ethereum.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare",
+      "title": "Ethereum Foundation: Frontier is coming",
+      "type": "PRIMARY_CONTEMPORANEOUS",
+      "supports": "Barebone developer release, initial 5,000 gas-per-block thawing limit preventing transactions."
+    },
+    {
+      "url": "https://ethereum.org/developers/docs/gas/",
+      "title": "Ethereum gas and fees: technical overview",
+      "type": "PROJECT_PRIMARY_CURRENT_EXPLANATORY",
+      "supports": "Gas measures computational effort; gas prices quoted in gwei. Used only for stable unit distinction, not modern base-fee/tip mechanics or any claimed 2015 fee."
+    }
+  ],
+  "native_source_resolution_note": "1060 × 1484 raster. Approximately 127 PPI when filled across an A4 page; no higher-resolution or physical book reproduction approval is implied."
+}

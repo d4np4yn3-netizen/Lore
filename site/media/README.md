@@ -16,3 +16,7 @@ The 028 addition is append-only: display-07.bin holds eight images from the appr
 030 is append-only: display-09.bin holds eight new WebPs (card trim, full art, two book pages and four actual-art clues). All 242 previous images and bundles are unchanged. Totals: 250 images, 130 clue close-ups and 60 book previews.
 
 031 is append-only: display-10.bin holds seven WebPs (card trim, full art, two book pages and three actual-art clues). All 250 earlier images and bundles are unchanged. Totals: 257 images, 133 clue close-ups and 62 book previews.
+
+## 032 Ethereum Goes Live
+
+The approved 032 artwork, Mythic card and two-page book are preserved as originals. `display-11.bin` appends eight separate website images: a bleed-free trim preview, full art, two full book-page previews and four actual-art clue crops. The first 257 image records and all earlier bundles are unchanged. See `032-derivatives.json` for source hashes, crop boxes and derived-image hashes. Original downloads are pinned to the immutable 032 asset commit; full-A4 reproduction remains a separate approval.

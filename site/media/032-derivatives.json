@@ -1,0 +1,176 @@
+{
+  "card": "032",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/ethereum-goes-live-master-032/art.png": "5db2bd45176367f74c595925fecb3d537b5a493966ca02850178903563422ef0",
+    "cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.png": "8c319c8c906a0c39122cbbac5dba055064eb245c6a6990bcf8c604519e280c44",
+    "book/crypto-season-01/proofs/032-ethereum-goes-live-full-art-spread-v1.pdf": "1f4493ababb7a2f5f94cac2ff58c27ee01c1e2c2399fcf16043f77f57b6fb007"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The Frontier sign.",
+      "sourceBoxXYXY": [
+        290,
+        513,
+        450,
+        577
+      ],
+      "src": "/closeups/032-01.webp",
+      "width": 160,
+      "height": 64,
+      "alt": "FRONTIER gantry sign naming Ethereum\u2019s first live release",
+      "bbox": {
+        "x": 0.273585,
+        "y": 0.345687,
+        "w": 0.150943,
+        "h": 0.043127
+      }
+    },
+    {
+      "title": "The genesis zero.",
+      "sourceBoxXYXY": [
+        488,
+        575,
+        580,
+        656
+      ],
+      "src": "/closeups/032-02.webp",
+      "width": 92,
+      "height": 81,
+      "alt": "Illuminated zero at the central pipe junction symbolising the genesis block",
+      "bbox": {
+        "x": 0.460377,
+        "y": 0.387466,
+        "w": 0.086792,
+        "h": 0.054582
+      }
+    },
+    {
+      "title": "The 5,000 limit.",
+      "sourceBoxXYXY": [
+        912,
+        597,
+        1060,
+        696
+      ],
+      "src": "/closeups/032-03.webp",
+      "width": 148,
+      "height": 99,
+      "alt": "BLOCK GAS LIMIT 5,000 sign recording the initial Frontier thawing restriction",
+      "bbox": {
+        "x": 0.860377,
+        "y": 0.402291,
+        "w": 0.139623,
+        "h": 0.066712
+      }
+    },
+    {
+      "title": "The unfinished landmark.",
+      "sourceBoxXYXY": [
+        290,
+        2,
+        584,
+        466
+      ],
+      "src": "/closeups/032-04.webp",
+      "width": 294,
+      "height": 464,
+      "alt": "Unfinished concrete-panel Ethereum-shaped tower with open floors and scaffolding",
+      "bbox": {
+        "x": 0.273585,
+        "y": 0.001348,
+        "w": 0.277358,
+        "h": 0.312668
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/032-art.webp",
+      "pack": "display-11.bin",
+      "offset": 0,
+      "length": 426734,
+      "sha256": "fe07a17a9d27afa1a0ef03bfe2fbbd4124c9b5da5f8faf9fa6abe581c83b7eb5"
+    },
+    {
+      "path": "archive/032-page-1.webp",
+      "pack": "display-11.bin",
+      "offset": 426734,
+      "length": 275218,
+      "sha256": "40073d916420500c682cdb2b536873412bcab71df819b9494d06920cb1610251"
+    },
+    {
+      "path": "archive/032-page-2.webp",
+      "pack": "display-11.bin",
+      "offset": 701952,
+      "length": 117986,
+      "sha256": "20b21225b637d24aa986bc5f9c87b7e0c157b1f1d2a7193270336b0bbbcecb5c"
+    },
+    {
+      "path": "archive/032-web-card.webp",
+      "pack": "display-11.bin",
+      "offset": 819938,
+      "length": 154746,
+      "sha256": "a60f490cc7d9471ef791ea4973e3fa100aed809b00235706ce11f1b10366fb29"
+    },
+    {
+      "path": "closeups/032-01.webp",
+      "pack": "display-11.bin",
+      "offset": 974684,
+      "length": 3028,
+      "sha256": "36d7be01bdeefcd7b8ca9f8b0cf02e2fd56359b78a39c1831de4c0550f8353a5"
+    },
+    {
+      "path": "closeups/032-02.webp",
+      "pack": "display-11.bin",
+      "offset": 977712,
+      "length": 3066,
+      "sha256": "2a30997d5932ee54262abfbbc0278eec95d19f991b95868dd76e277a860bed20"
+    },
+    {
+      "path": "closeups/032-03.webp",
+      "pack": "display-11.bin",
+      "offset": 980778,
+      "length": 4822,
+      "sha256": "87865972eefca55398989aafcc590fc2e58adfbdc8616cefbccd8949dd1890cd"
+    },
+    {
+      "path": "closeups/032-04.webp",
+      "pack": "display-11.bin",
+      "offset": 985600,
+      "length": 44996,
+      "sha256": "b85b32dd4fe6e725f31e71c15344655cbb4fa5f18a3bc9b472507eebfea32faf"
+    }
+  ],
+  "bundleSHA256": "f586a324adacf85a6b029e3ec08142482037adf41f5e5e10749f2a2e1024d6a7",
+  "previousAssetsPreserved": 257,
+  "previousBundleSHA256": {
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-10.bin": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe"
+  },
+  "originalMastersUnchanged": true
+}

@@ -1,0 +1,154 @@
+{
+  "revision": "LORE-CRYPTO-032-PRINT-v1",
+  "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+  "created_at": "2026-10-04",
+  "status": "APPROVED_VISUAL_DIGITAL_QR_CHECKED_LIVE_VERIFICATION_PENDING",
+  "approval_record": "cards/crypto/season-01/ethereum-goes-live-master-032/approval.json",
+  "artwork": {
+    "path": "cards/crypto/season-01/ethereum-goes-live-master-032/art.png",
+    "bytes": 2624391,
+    "sha256": "5db2bd45176367f74c595925fecb3d537b5a493966ca02850178903563422ef0",
+    "git_blob": "50da8449a0864c7d470a6a284aaf1ba4f2317487"
+  },
+  "native_art_dimensions_px": [
+    1060,
+    1484
+  ],
+  "artwork_bytes_preserved": true,
+  "svg_embedded_art_matches": true,
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "trim_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "transform": "translate(46.515 48.921) scale(0.8033)",
+  "pdf_pages": 1,
+  "pdf_media_box_pt": [
+    0.0,
+    0.0,
+    195.84,
+    266.4
+  ],
+  "pdf_trim_box_pt": [
+    8.64,
+    8.64,
+    187.2,
+    257.76
+  ],
+  "rarity": "Mythic",
+  "subject": "ETHEREUM",
+  "title_lines": [
+    "ETHEREUM",
+    "GOES LIVE"
+  ],
+  "caption": "THE WORLD COMPUTER WAKES",
+  "caption_status": "APPROVED_EDITORIAL_CAPTION_NOT_HISTORICAL_QUOTE",
+  "event_date_display": "30 JUL 2015",
+  "collector_number": "032/100",
+  "qr_payload": "https://lore-site-v1.vercel.app/crypto/032/",
+  "qr_target": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+  "qr_decodes": {
+    "final_png": [
+      "https://lore-site-v1.vercel.app/crypto/032/"
+    ],
+    "actual_300_dpi_printer_pdf_render": [
+      "https://lore-site-v1.vercel.app/crypto/032/"
+    ]
+  },
+  "qr_live_status": "PENDING_LIVE_VERIFICATION",
+  "physical_qr_scan_test": false,
+  "digital_qa_note": "Final PNG and actual 300-DPI printer-PDF rendering decoded to the stable route during the publication workflow. Local checks confirm source-art hash, embedded SVG art, canvas dimensions, inset and PDF media/trim boxes.",
+  "book": {
+    "chapter": {
+      "path": "book/crypto-season-01/032-ethereum-goes-live.md",
+      "bytes": 3173,
+      "sha256": "f1c4c6bee4aa46027983257f8d3fd01c747552977132cff52ff46645687d6a84",
+      "git_blob": "9740f628f9e855648b36741545eda3f790ed2af5"
+    },
+    "spread": {
+      "path": "book/crypto-season-01/proofs/032-ethereum-goes-live-full-art-spread-v1.pdf",
+      "bytes": 5130627,
+      "sha256": "1f4493ababb7a2f5f94cac2ff58c27ee01c1e2c2399fcf16043f77f57b6fb007",
+      "git_blob": "ed5defe581ba3ed19ea0f3b5611bcf073ef8ffc3"
+    },
+    "pages": 2,
+    "page_dimensions_pt": [
+      [
+        0.0,
+        0.0,
+        595.2756,
+        841.8898
+      ],
+      [
+        0.0,
+        0.0,
+        595.2756,
+        841.8898
+      ]
+    ],
+    "full_page_art_ppi_approx": 127,
+    "reproduction_release": false
+  },
+  "files": [
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.png",
+      "bytes": 1055618,
+      "sha256": "8c319c8c906a0c39122cbbac5dba055064eb245c6a6990bcf8c604519e280c44",
+      "git_blob": "e25bbbc5844cb06612e34875cc78efd6203ca09f"
+    },
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.svg",
+      "bytes": 3535411,
+      "sha256": "e1de6be52031015c000c58c3c7ca39f1ec0894ef028561b9ce048b411c0bf28c",
+      "git_blob": "cfc94770e87b2925ded968ec76dae1de90664d22"
+    },
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.pdf",
+      "bytes": 1879019,
+      "sha256": "acc5a397b9380fa1d8a6ddb8308162bd62897ccc14902d2117a2504d30f03214",
+      "git_blob": "85b449cf310bba36ed8f80209a1168b0d2eb8bfb"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/source/build_032_final_front.py",
+      "bytes": 4045,
+      "sha256": "3b83f385948d1c49f511d9bfa6fc17a694cd82cca4adab5f6da690d3e5cf712a",
+      "git_blob": "6e167ceb00768275ec143b8e5aea23b7f9045bf0"
+    },
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/source/build_032_spread.py",
+      "bytes": 4320,
+      "sha256": "df1aa1ff8892da68236c22a5bea53586d98a3c9ee18af83ffa1e43ed1c9a33d5",
+      "git_blob": "9857ac1f56b1521ab5df19602658937dfc89fc0f"
+    },
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/source/mythic.svg",
+      "bytes": 28123,
+      "sha256": "b511b4e05ccd1819e098502674d181fb93fffe0958d28473bdbed24646f279bd",
+      "git_blob": "ccb2cb013c77d435e7f8507e8640832f909e926c"
+    },
+    {
+      "path": "cards/crypto/season-01/ethereum-goes-live-master-032/source/card-layout-check.json",
+      "bytes": 633,
+      "sha256": "0b59037eb3a21e60ea3a34f1dee58e6189950eb17c4dffd3e33a2c7e474ae841",
+      "git_blob": "481d5d7d4d278f68469c11181d8e1d5e61a8933a"
+    }
+  ],
+  "publication_approved": true,
+  "print_release": false,
+  "book_reproduction_release": false,
+  "release_gates": [
+    "Live route, story, downloads and deployment verification remain pending.",
+    "A physical printed phone-camera QR test and print/cut proof remain pending.",
+    "Book reproduction release remains separate; full-A4 native artwork is approximately 127 PPI."
+  ]
+}

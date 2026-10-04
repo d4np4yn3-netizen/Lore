@@ -15,7 +15,7 @@ export const yearNotes = {
   2012: ['The rules keep their promise.', 'The block reward is cut in half.'],
   2013: ['Crypto finds its culture.', 'New ideas, everyday uses and unforgettable memes.'],
   2014: ['A much wider world.', 'Community, privacy, art and hard lessons.'],
-  2015: ['A new framework takes effect.', 'New York introduces rules for virtual-currency businesses.'],
+  2015: ['A network and its rules.', 'New York regulates virtual-currency businesses as Ethereum’s Frontier goes live.'],
 };
 export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, c => c.toUpperCase()).replace('Mt. Gox','Mt. Gox').replace('Rpow','RPOW').replace('Hodl','HODL').replace('Wikileaks','WikiLeaks').replace('Bitlicense','BitLicense');
 

@@ -29,6 +29,7 @@ import chapter028 from './content/028.json';
 import chapter029 from './content/029.json';
 import chapter030 from './content/030.json';
 import chapter031 from './content/031.json';
+import chapter032 from './content/032.json';
 
 export const cards = [
   {
@@ -404,7 +405,19 @@ export const cards = [
     ...chapter031,
     number: '031/100',
   },
+  {
+    slug: 'ethereum-goes-live', title: 'ETHEREUM GOES LIVE', rarity: 'MYTHIC',
+    date: '30 JUL 2015', subject: 'ETHEREUM', phrase: 'THE WORLD COMPUTER WAKES',
+    phraseKind: 'editorial caption',
+    image: 'cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.png',
+    artwork: 'cards/crypto/season-01/ethereum-goes-live-master-032/art.png',
+    book: 'book/crypto-season-01/proofs/032-ethereum-goes-live-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.svg',
+    source: 'https://blog.ethereum.org/2015/07/30/ethereum-launches',
+    ...chapter032,
+    number: '032/100',
+  },
 ];
 
 export const getCard = slug => cards.find(card => card.slug === slug);
-
