@@ -2,7 +2,7 @@
   "updated": "2026-10-04",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 38,
+  "approved_visual_count": 39,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -3825,6 +3825,146 @@
       },
       "publication_status": "PUBLISHED_VERIFIED",
       "publication_verification": "cards/crypto/season-01/the-split-master-034/publication-verification.json"
+    },
+    {
+      "id": "crypto-s01-the-bitfinex-heist",
+      "creator": "BITFINEX",
+      "subject": "BITFINEX",
+      "rarity": "uncommon",
+      "title_line_1": "THE BITFINEX",
+      "title_line_2": "HEIST",
+      "title_lines": [
+        "THE BITFINEX",
+        "HEIST"
+      ],
+      "title_status": "EDITORIAL_EVENT_TITLE",
+      "context": "TRUST LEFT THE EXCHANGE.",
+      "moment_label": "02 AUG 2016",
+      "event_date": "2016-08-02",
+      "event_date_display": "02 AUG 2016",
+      "date_precision": "day",
+      "date_qualification": "Date of Bitfinex breach announcement. Artwork date plaque removed at user request.",
+      "set_label": "CRYPTO • SEASON 01 • 035/100",
+      "footer": "CRYPTO • SEASON 01 • 035/100",
+      "moment_number": 35,
+      "set_size": 100,
+      "collection": "crypto",
+      "season": 1,
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "artwork": "cards/crypto/season-01/the-bitfinex-heist-master-035/art.png",
+      "artwork_sha256": "9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4",
+      "front": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.png",
+      "editable_svg": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.svg",
+      "printer_pdf": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.pdf",
+      "book_spread": "book/crypto-season-01/proofs/035-the-bitfinex-heist-full-art-spread-v1.pdf",
+      "chapter": "book/crypto-season-01/035-the-bitfinex-heist.md",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/035/",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+      "confirmed_lore_owned_route": true,
+      "status": "APPROVED_DIGITAL_PUBLICATION",
+      "artwork_status": "EXACT_V8_USER_APPROVED_DATE_REMOVAL_COMPLETED",
+      "phrase_status": "USER_APPROVED_EDITORIAL_WORDING_NOT_HISTORICAL_QUOTATION",
+      "rarity_status": "UNCOMMON_APPROVED",
+      "book_copy_status": "NEW_SOURCED_COPY_UNDER_AUTHORISED_PUBLICATION_REQUEST",
+      "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+      "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "approval_record": "cards/crypto/season-01/the-bitfinex-heist-master-035/approval.json",
+      "print_manifest": "cards/crypto/season-01/the-bitfinex-heist-master-035/print-v1-manifest.json",
+      "publication_approved": true,
+      "approved_at": "2026-10-04",
+      "approved_by": "Dan Payne",
+      "print_release": false,
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "source": "https://blog.bitfinex.com/announcements/security-breach/",
+      "sources": [
+        {
+          "url": "https://blog.bitfinex.com/announcements/security-breach/",
+          "title": "Bitfinex: Security Breach, 2 August 2016",
+          "supports": "Announcement date and halt of trading, deposits and withdrawals; bitcoin wallets affected."
+        },
+        {
+          "url": "https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ",
+          "title": "Bitfinex: 2016 Security Breach Bitcoin Recovery FAQ",
+          "supports": "Company figure of 119,755 BTC and BFX token aftermath."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/bitfinex-hacker-sentenced-money-laundering-conspiracy-involving-billions-stolen",
+          "title": "DOJ: Bitfinex Hacker Sentenced, 14 November 2024",
+          "supports": "Ilya Lichtenstein as hacker, more than 2,000 unauthorised transactions and 119,754 BTC."
+        }
+      ],
+      "artwork_clues": [
+        {
+          "detail": "The man at the helm.",
+          "meaning": "The character is inspired by Ilya Lichtenstein, identified in the later criminal case as the hacker. His pose and speedboat journey are fictional; the actual theft used unauthorised digital transfers.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "119,755 BTC.",
+          "meaning": "The case display uses the amount reported in Bitfinex's recovery FAQ. DOJ documents give 119,754 BTC; the story uses about 120,000 rather than treating those exact figures as identical.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "Withdrawals halted.",
+          "meaning": "The red sign echoes the exchange's real suspension of withdrawals, deposits and trading on 2 August. The illuminated facade is an invented visualisation of that announcement, not a verified physical notice.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "The Bitfinex case.",
+          "meaning": "The branded cargo represents bitcoin taken from exchange custody. It is a symbolic digital-value container, not evidence that physical bitcoin cases were transported by boat.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        }
+      ],
+      "cross_card_cameo": null,
+      "interpretation": "Anime interpretation of Ilya Lichtenstein at the helm of an imagined speedboat. The scene symbolises digital exchange-custody theft. Boat escape, physical cargo and branded waterfront building are invented, not a documented physical crime or verified Bitfinex office. No Heather Morgan, later arrest scene, date plaque or cross-card cameo is depicted. Displayed 119,755 BTC follows Bitfinex; DOJ gives 119,754 BTC, so narrative uses about 120,000.",
+      "city_reference_credit": {
+        "author": "Malcolm Koo",
+        "title": "Victoria Harbour at night (Hong Kong)",
+        "date": "2012",
+        "source": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_at_night_(Hong_Kong).jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "adaptation": "Reinterpreted as an illustration; fictional branded building and shoreline arrangement."
+      },
+      "clue_review_status": "FOUR_CLUES_VISUALLY_CHECKED_IN_FINAL_CARD_AND_BOOK",
+      "card_size_readability_note": "Amount display, cargo brand, driver and halt sign are visible above title and QR; fine text needs physical print assessment.",
+      "output_sha256": "7e885e5f133f0baf71e73f33fa0ab22ce43b14f531cf522300eb0662c16f4013",
+      "print_svg_sha256": "11fe8cb58219b6851029cade98529a5db4ade2fdb4d1f2be3a1e2489d1a42319",
+      "printer_pdf_sha256": "23c1b6251ad531c9034f0d05c39ee367b065773988794ab541b16e2f7fc752ec",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.png",
+          "bytes": 1118769,
+          "sha256": "7e885e5f133f0baf71e73f33fa0ab22ce43b14f531cf522300eb0662c16f4013",
+          "git_blob": "da1d36ee023e0a07ba2cffe18b34b77d0d9cf5ab"
+        },
+        {
+          "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.svg",
+          "bytes": 3902474,
+          "sha256": "11fe8cb58219b6851029cade98529a5db4ade2fdb4d1f2be3a1e2489d1a42319",
+          "git_blob": "8b162dd3451ef0f694070fd6b53d7469d3156cb7"
+        },
+        {
+          "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.pdf",
+          "bytes": 1832712,
+          "sha256": "23c1b6251ad531c9034f0d05c39ee367b065773988794ab541b16e2f7fc752ec",
+          "git_blob": "5abef1af3d55a3a083d460c5bf812ceb18ae9da4"
+        }
+      ],
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-bitfinex-heist-master-035/art.png",
+        "bytes": 2899641,
+        "sha256": "9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4",
+        "git_blob": "16ed25fbe2a3d570c408261995814bb7c1f8e640"
+      }
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -3837,9 +3977,11 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-04",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 38,
+  "approved_print_derivative_count": 39,
   "numbered_published_count": 34,
-  "numbering_gap_note": "Published numbered digital collection contains 001 through 034 without a gap. 034 The Split adds one new approved unique design. All 38 approved registry entries, historical assets and previous registry objects are preserved.",
-  "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 34
+  "numbering_gap_note": "Numbered digital collection contains 001 through 035 without a gap. 035 adds one new approved unique design. Historical assets and previous registry objects remain unchanged.",
+  "pending_live_verification_numbers": [
+    "035"
+  ],
+  "prepared_numbered_count": 35
 }

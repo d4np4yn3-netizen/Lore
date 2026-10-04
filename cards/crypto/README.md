@@ -1,8 +1,8 @@
 # LORE Crypto — Season One
 
-## Latest approved numbered card: 034
+## Latest approved numbered card: 035
 
-[The Split - Epic](season-01/the-split-master-034/README.md) preserves the exact approved v7 railway artwork, 20 JUL 2016 and the confirmed editorial caption ONE HISTORY. TWO CHAINS. The registry contains 38 unique approved designs and 34 published numbered entries. Five actual-art clues and the sourced two-page book match the website. Digital and live publication checks pass, including all 34 QR routes, nine new images, six original downloads and desktop/narrow interactions. Physical print and book reproduction remain separate.
+[The Bitfinex Heist - Uncommon](season-01/the-bitfinex-heist-master-035/README.md) preserves the exact approved date-free v8 illustration, 02 AUG 2016 and TRUST LEFT THE EXCHANGE. The register contains 39 unique approved designs and 35 prepared numbered entries. Four actual-art clues and the sourced two-page book mirror the website. Digital checks pass; live verification follows publication. Physical print and book reproduction remain separate.
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·

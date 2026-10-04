@@ -1,3 +1,11 @@
+# 035 The Bitfinex Heist authorised digital release - 4 October 2026
+
+Dan requested removal of the case date, then card/book/site creation, and explicitly confirmed Uncommon, TRUST LEFT THE EXCHANGE. and publication through Lore GitHub main to the live site. Exact v8 artwork SHA-256 `9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4` is preserved. BITFINEX / THE BITFINEX HEIST / 02 AUG 2016 / 035/100. The caption is editorial wording, not a quotation.
+
+The card and two-page A4 book pass digital layout and QR checks. PNG and actual 300-DPI PDF render decode to https://lore-site-v1.vercel.app/crypto/035/, configured for /cards/the-bitfinex-heist. Book and site share four story paragraphs and four actual-art details: Ilya-inspired driver, 119,755 BTC display, withdrawal-halt sign and branded custody case. The source note attributes the exact display amount to Bitfinex, distinguishes DOJ's 119,754 BTC figure, and credits Malcolm Koo's 2012 Hong Kong city reference under CC BY 4.0. The speedboat, cargo and building are invented staging for digital theft, not a physical escape or verified office. No cross-card cameo is claimed.
+
+Collection is 001-035, 150 clues, 70 book previews and 290 display assets; 39 unique approved designs. All 282 earlier display assets and previous registry objects remain unchanged. New derivatives are append-only in display-14.bin. Native 1060 × 1484 artwork yields 126.91 PPI at full A4. Physical print release, printed phone-camera testing and book reproduction remain false. Live verification follows publication and must not be inferred from local QA.
+
 # 034 The Split published and verified - 4 October 2026
 
 Dan locked the exact v7 artwork and requested books, GitHub and website publication, then confirmed Epic and the editorial caption ONE HISTORY. TWO CHAINS. This new numbered master preserves exact art SHA-256 `56ce1ff1b5bcbc79df23dad5b8587c136b09e74c16447dd5170d60f1af4c274e`. ETHEREUM / THE SPLIT / 20 JUL 2016 / 034/100. The caption is not a historical quotation.

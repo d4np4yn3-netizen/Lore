@@ -32,6 +32,7 @@ import chapter031 from './content/031.json';
 import chapter032 from './content/032.json';
 import chapter033 from './content/033.json';
 import chapter034 from './content/034.json';
+import chapter035 from './content/035.json';
 
 export const cards = [
   {
@@ -445,6 +446,19 @@ export const cards = [
     source: 'https://blog.ethereum.org/2016/07/20/hard-fork-completed',
     ...chapter034,
     number: '034/100',
+  },
+  {
+    slug: 'the-bitfinex-heist', title: 'THE BITFINEX HEIST', rarity: 'UNCOMMON',
+    date: '02 AUG 2016', subject: 'BITFINEX', phrase: 'TRUST LEFT THE EXCHANGE.',
+    phraseKind: 'editorial wording',
+    image: 'cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-bitfinex-heist-master-035/art.png',
+    book: 'book/crypto-season-01/proofs/035-the-bitfinex-heist-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.svg',
+    source: 'https://blog.bitfinex.com/announcements/security-breach/',
+    ...chapter035,
+    number: '035/100',
   },
 ];
 

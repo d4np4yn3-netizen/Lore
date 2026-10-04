@@ -16,7 +16,7 @@ export const yearNotes = {
   2013: ['Crypto finds its culture.', 'New ideas, everyday uses and unforgettable memes.'],
   2014: ['A much wider world.', 'Community, privacy, art and hard lessons.'],
   2015: ['A network and its rules.', 'New York regulates virtual-currency businesses as Ethereum’s Frontier goes live.'],
-  2016: ['A crisis and a choice.', 'The DAO exploit and Ethereum split test the security of smart contracts and the choices of a young community.'],
+  2016: ['Security, trust and a split.', 'The DAO exploit, Ethereum split and Bitfinex theft expose different risks in contracts, governance and exchange custody.'],
 };
 export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, c => c.toUpperCase()).replace('Mt. Gox','Mt. Gox').replace('Rpow','RPOW').replace('Hodl','HODL').replace('Wikileaks','WikiLeaks').replace('Bitlicense','BitLicense').replace('Dao','DAO');
 

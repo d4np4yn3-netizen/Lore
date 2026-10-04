@@ -25,3 +25,5 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 034 The Split adds exact approved v7 art, confirmed Epic/editorial caption, five actual-art clues and two-page A4 book. Collection 001-034 has 146 clues and 68 book previews. New web derivatives are append-only in display-13.bin; all 273 earlier images and source masters are preserved. Physical print/book reproduction remains separate.
 
 034 originals are pinned to immutable asset commit 87f64aa67693f1dc119307f2326b676974e1a78d. Content release bb44d3a543bac9ae624056887e2da70249f28b78 passed full production verification.
+
+035 The Bitfinex Heist adds exact approved date-free v8 art, Uncommon, TRUST LEFT THE EXCHANGE., four actual-art clues and the two-page book. Collection 001-035 contains 150 clues and 70 book previews. New derivatives are in display-14.bin; all 282 earlier images are preserved. Physical reproduction remains separate.

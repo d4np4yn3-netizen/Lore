@@ -1,0 +1,179 @@
+{
+  "card": "035",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/the-bitfinex-heist-master-035/art.png": "9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4",
+    "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.png": "7e885e5f133f0baf71e73f33fa0ab22ce43b14f531cf522300eb0662c16f4013",
+    "book/crypto-season-01/proofs/035-the-bitfinex-heist-full-art-spread-v1.pdf": "4d784b5e01c40a828dfd20e4d8e28a6f8588379f9db546e4fd6b0aea485894de"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The man at the helm.",
+      "sourceBoxXYXY": [
+        225,
+        366,
+        594,
+        709
+      ],
+      "src": "/closeups/035-01.webp",
+      "width": 369,
+      "height": 343,
+      "alt": "Anime interpretation of Ilya Lichtenstein at the helm of a fictional speedboat",
+      "bbox": {
+        "x": 0.212264,
+        "y": 0.246631,
+        "w": 0.348113,
+        "h": 0.231132
+      }
+    },
+    {
+      "title": "119,755 BTC.",
+      "sourceBoxXYXY": [
+        693,
+        819,
+        956,
+        965
+      ],
+      "src": "/closeups/035-02.webp",
+      "width": 263,
+      "height": 146,
+      "alt": "Digital case display showing 119,755 BTC, the amount reported by Bitfinex",
+      "bbox": {
+        "x": 0.653774,
+        "y": 0.551887,
+        "w": 0.248113,
+        "h": 0.098383
+      }
+    },
+    {
+      "title": "Withdrawals halted.",
+      "sourceBoxXYXY": [
+        615,
+        294,
+        952,
+        408
+      ],
+      "src": "/closeups/035-03.webp",
+      "width": 337,
+      "height": 114,
+      "alt": "Imagined red building sign reading WITHDRAWALS HALTED",
+      "bbox": {
+        "x": 0.580189,
+        "y": 0.198113,
+        "w": 0.317925,
+        "h": 0.076819
+      }
+    },
+    {
+      "title": "The Bitfinex case.",
+      "sourceBoxXYXY": [
+        635,
+        936,
+        909,
+        1068
+      ],
+      "src": "/closeups/035-04.webp",
+      "width": 274,
+      "height": 132,
+      "alt": "Bitfinex branding on symbolic cargo representing exchange custody",
+      "bbox": {
+        "x": 0.599057,
+        "y": 0.630728,
+        "w": 0.258491,
+        "h": 0.088949
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/035-art.webp",
+      "pack": "display-14.bin",
+      "offset": 0,
+      "length": 539106,
+      "sha256": "01001cfcb6162d73be7eee840e81d3b45093dcd2b679dd9bad68876b6960545f"
+    },
+    {
+      "path": "archive/035-page-1.webp",
+      "pack": "display-14.bin",
+      "offset": 539106,
+      "length": 350674,
+      "sha256": "f6b9fab98f33b31abeedca3a08d8bd2117b572b76c6aeaedfd74704f2d69e29e"
+    },
+    {
+      "path": "archive/035-page-2.webp",
+      "pack": "display-14.bin",
+      "offset": 889780,
+      "length": 108530,
+      "sha256": "783989aedfa229fe675ab37cd4cc7a48e92ddc3492e37098317cb64d709e7b42"
+    },
+    {
+      "path": "archive/035-web-card.webp",
+      "pack": "display-14.bin",
+      "offset": 998310,
+      "length": 170998,
+      "sha256": "0af70b53539f2b83db5ec92c7960ad2dae9dae6331a149ab83037a158f1f9e1b"
+    },
+    {
+      "path": "closeups/035-01.webp",
+      "pack": "display-14.bin",
+      "offset": 1169308,
+      "length": 45750,
+      "sha256": "99d15b3db6f0fe9c83482dba12e23aaa169372d32c93aa372ce5eb4ee19c4833"
+    },
+    {
+      "path": "closeups/035-02.webp",
+      "pack": "display-14.bin",
+      "offset": 1215058,
+      "length": 10558,
+      "sha256": "c045b8d10c92eddddcd8e9a370ab6041e5e538f86f5309147cfd38deda75be30"
+    },
+    {
+      "path": "closeups/035-03.webp",
+      "pack": "display-14.bin",
+      "offset": 1225616,
+      "length": 13140,
+      "sha256": "2706f34d4ff256f274fa4701943396b7c551054639339ff676e702ad9b40c8d6"
+    },
+    {
+      "path": "closeups/035-04.webp",
+      "pack": "display-14.bin",
+      "offset": 1238756,
+      "length": 9894,
+      "sha256": "3a83380af98f5ad2dc3dcba067ba32f20537d247269b03e2f5fa887d9788c616"
+    }
+  ],
+  "bundleSHA256": "88ec063b9661e379627dbbc06b98428ce3e6fcbc1614b3311c4bdd72856aad4f",
+  "previousAssetsPreserved": 282,
+  "previousBundleSHA256": {
+    "display-11.bin": "f586a324adacf85a6b029e3ec08142482037adf41f5e5e10749f2a2e1024d6a7",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-12.bin": "9fb3716d0adcefc592c0e3b9a3603d5174d861521ac794d4a6beb41b82d574e9",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-13.bin": "8ddaf9ac74a26ce5e813565d86bd42ba596f94e9c5eb947d90c00505c7e0f30a",
+    "display-10.bin": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1"
+  },
+  "originalMastersUnchanged": true
+}

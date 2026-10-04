@@ -1,0 +1,7 @@
+# 035 source verification
+
+Anime interpretation of Ilya Lichtenstein at the helm of an imagined speedboat. The scene symbolises digital exchange-custody theft. Boat escape, physical cargo and branded waterfront building are invented, not a documented physical crime or verified Bitfinex office. No Heather Morgan, later arrest scene, date plaque or cross-card cameo is depicted. Displayed 119,755 BTC follows Bitfinex; DOJ gives 119,754 BTC, so narrative uses about 120,000.
+
+Sources: Bitfinex's [2 August breach notice](https://blog.bitfinex.com/announcements/security-breach/), its [recovery FAQ](https://support.bitfinex.com/hc/en-us/articles/4417401349657-2016-Security-Breach-Bitcoin-Recovery-Frequently-Asked-Questions-FAQ), and the [DOJ case account](https://www.justice.gov/usao-dc/pr/bitfinex-hacker-sentenced-money-laundering-conspiracy-involving-billions-stolen). City reference: Malcolm Koo, [Victoria Harbour at night](https://commons.wikimedia.org/wiki/File:Victoria_Harbour_at_night_%28Hong_Kong%29.jpg) (2012), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), reinterpreted as an illustration. Character, building, boat and cargo are symbolic adaptations; no physical escape or exact office location is claimed. No cross-card cameo is identified.
+
+Publication art hash: 9122618aa3ae141d1b81a1e11fa092c876c33ab3faddfcd4d43c159c4c83d1e4. Exact source pixels retained in SVG and book PDF; date now appears in card metadata only within the card front. Both HODL and Doge references remain pinned; no new style master.
