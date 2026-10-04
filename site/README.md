@@ -21,3 +21,5 @@ The 029 Keys in Your Pocket release adds exact v5 art, final Common print files,
 031 BitLicense adds the exact approved v8 One State Street artwork, Rare print files, three actual-art clue crops and approved two-page A4 book. New web derivatives are append-only in display-10.bin; all 250 earlier display images and sources remain unchanged. The chapter and website preserve the Tdorante10 / CC BY-SA 4.0 architecture-reference attribution.
 
 031 original downloads are pinned to immutable asset commit edf711c467bcc1148646d70b479c5367b13fdaaf.
+
+034 The Split adds exact approved v7 art, confirmed Epic/editorial caption, five actual-art clues and two-page A4 book. Collection 001-034 has 146 clues and 68 book previews. New web derivatives are append-only in display-13.bin; all 273 earlier images and source masters are preserved. Physical print/book reproduction remains separate.

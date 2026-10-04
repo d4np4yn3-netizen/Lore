@@ -1,0 +1,204 @@
+{
+  "card": "034",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/the-split-master-034/art.png": "56ce1ff1b5bcbc79df23dad5b8587c136b09e74c16447dd5170d60f1af4c274e",
+    "cards/crypto/season-01/the-split-master-034/LORE-Crypto-034-The-Split-Epic-Print-v1.png": "8a866824d89b650f2b0537299b6ea42d53e52805b9c760616328b51bb2e1f40a",
+    "book/crypto-season-01/proofs/034-the-split-full-art-spread-v1.pdf": "68599a3f4a0dc462464bde442dc413575410179359b8cb9fc033d16cc9ac565a"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The two maps.",
+      "sourceBoxXYXY": [
+        159,
+        540,
+        942,
+        716
+      ],
+      "src": "/closeups/034-01.webp",
+      "width": 700,
+      "height": 157,
+      "alt": "Two fictional maps carry a return arrow and a padlock, symbolising recovery intervention and immutability",
+      "bbox": {
+        "x": 0.15,
+        "y": 0.363881,
+        "w": 0.738679,
+        "h": 0.118598
+      }
+    },
+    {
+      "title": "The shared sleepers.",
+      "sourceBoxXYXY": [
+        281,
+        1182,
+        765,
+        1465
+      ],
+      "src": "/closeups/034-02.webp",
+      "width": 484,
+      "height": 283,
+      "alt": "One incoming track on shared sleepers represents the common history before the fork",
+      "bbox": {
+        "x": 0.265094,
+        "y": 0.796496,
+        "w": 0.456604,
+        "h": 0.190701
+      }
+    },
+    {
+      "title": "Block 1,920,000.",
+      "sourceBoxXYXY": [
+        765,
+        985,
+        918,
+        1168
+      ],
+      "src": "/closeups/034-03.webp",
+      "width": 153,
+      "height": 183,
+      "alt": "The trackside milestone reads 1,920,000, the block at which the DAO recovery change was applied",
+      "bbox": {
+        "x": 0.721698,
+        "y": 0.663747,
+        "w": 0.14434,
+        "h": 0.123315
+      }
+    },
+    {
+      "title": "The refund station.",
+      "sourceBoxXYXY": [
+        0,
+        71,
+        280,
+        233
+      ],
+      "src": "/closeups/034-04.webp",
+      "width": 280,
+      "height": 162,
+      "alt": "The REFUND sign and envelopes on the ETH branch symbolise the recovery contract",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.047844,
+        "w": 0.264151,
+        "h": 0.109164
+      }
+    },
+    {
+      "title": "ETH and ETC.",
+      "sourceBoxXYXY": [
+        323,
+        112,
+        877,
+        292
+      ],
+      "src": "/closeups/034-05.webp",
+      "width": 554,
+      "height": 180,
+      "alt": "ETH and ETC signs identify the two continuing networks, not two pre-fork chains",
+      "bbox": {
+        "x": 0.304717,
+        "y": 0.075472,
+        "w": 0.522642,
+        "h": 0.121294
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/034-art.webp",
+      "pack": "display-13.bin",
+      "offset": 0,
+      "length": 680628,
+      "sha256": "1aec8b60609dfe094bb7409725b36292f9cea8498022da2b8550a61aff1472b4"
+    },
+    {
+      "path": "archive/034-page-1.webp",
+      "pack": "display-13.bin",
+      "offset": 680628,
+      "length": 416196,
+      "sha256": "17f2f87e930a0490b7c8b0f7100aaaf1f130201820e47a7a1f10b420c51789fc"
+    },
+    {
+      "path": "archive/034-page-2.webp",
+      "pack": "display-13.bin",
+      "offset": 1096824,
+      "length": 126352,
+      "sha256": "218a4f8177b17e5f4dc872735ef199cafba9b36d1d8300d8bfdd596df093e86f"
+    },
+    {
+      "path": "archive/034-web-card.webp",
+      "pack": "display-13.bin",
+      "offset": 1223176,
+      "length": 184214,
+      "sha256": "95dee6bcbe946c6ac4070d1446c2c618e5076e84696a4e4797607dd47dff5a44"
+    },
+    {
+      "path": "closeups/034-01.webp",
+      "pack": "display-13.bin",
+      "offset": 1407390,
+      "length": 53906,
+      "sha256": "3d459b63d82206c4c0bfaf5b576b8f1fd6bbcea4857e55718e927730495faeb7"
+    },
+    {
+      "path": "closeups/034-02.webp",
+      "pack": "display-13.bin",
+      "offset": 1461296,
+      "length": 50662,
+      "sha256": "333724d614d19b0d4e474d877e03767e06aff89412ba1816222294f2feae8bb4"
+    },
+    {
+      "path": "closeups/034-03.webp",
+      "pack": "display-13.bin",
+      "offset": 1511958,
+      "length": 13646,
+      "sha256": "d7a9fdb7b11f0edd5c9cdfbcdbfbe672486f2407403912846afcfa885dbc19de"
+    },
+    {
+      "path": "closeups/034-04.webp",
+      "pack": "display-13.bin",
+      "offset": 1525604,
+      "length": 18922,
+      "sha256": "c80037ccf03ede7e35a457e25b71782f7b9eb25557c9f7bbad2285ac6b17f2ed"
+    },
+    {
+      "path": "closeups/034-05.webp",
+      "pack": "display-13.bin",
+      "offset": 1544526,
+      "length": 44602,
+      "sha256": "4c445b460ab91478cfb773a4e66be2a7ec598ced0e636731a200f7fdce12c113"
+    }
+  ],
+  "bundleSHA256": "8ddaf9ac74a26ce5e813565d86bd42ba596f94e9c5eb947d90c00505c7e0f30a",
+  "previousAssetsPreserved": 273,
+  "previousBundleSHA256": {
+    "display-10.bin": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f",
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-11.bin": "f586a324adacf85a6b029e3ec08142482037adf41f5e5e10749f2a2e1024d6a7",
+    "display-12.bin": "9fb3716d0adcefc592c0e3b9a3603d5174d861521ac794d4a6beb41b82d574e9",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d"
+  },
+  "originalMastersUnchanged": true
+}

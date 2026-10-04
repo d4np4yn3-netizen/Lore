@@ -31,6 +31,7 @@ import chapter030 from './content/030.json';
 import chapter031 from './content/031.json';
 import chapter032 from './content/032.json';
 import chapter033 from './content/033.json';
+import chapter034 from './content/034.json';
 
 export const cards = [
   {
@@ -431,6 +432,19 @@ export const cards = [
     source: 'https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability',
     ...chapter033,
     number: '033/100',
+  },
+  {
+    slug: 'the-split', title: 'THE SPLIT', rarity: 'EPIC',
+    date: '20 JUL 2016', subject: 'ETHEREUM', phrase: 'ONE HISTORY. TWO CHAINS.',
+    phraseKind: 'editorial wording',
+    image: 'cards/crypto/season-01/the-split-master-034/LORE-Crypto-034-The-Split-Epic-Print-v1.png',
+    artwork: 'cards/crypto/season-01/the-split-master-034/art.png',
+    book: 'book/crypto-season-01/proofs/034-the-split-full-art-spread-v1.pdf',
+    printerPdf: 'cards/crypto/season-01/the-split-master-034/LORE-Crypto-034-The-Split-Epic-Print-v1.pdf',
+    editableSvg: 'cards/crypto/season-01/the-split-master-034/LORE-Crypto-034-The-Split-Epic-Print-v1.svg',
+    source: 'https://blog.ethereum.org/2016/07/20/hard-fork-completed',
+    ...chapter034,
+    number: '034/100',
   },
 ];
 

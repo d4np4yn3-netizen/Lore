@@ -1,8 +1,8 @@
 # LORE Crypto — Season One
 
-## Latest approved numbered card: 033
+## Latest approved numbered card: 034
 
-[The DAO Hack — Epic](season-01/the-dao-hack-master-033/README.md) was approved for repository and website upload on 4 October 2026, including its exact selected v5 illustration and two-page book proof. The current register contains 37 unique approved designs and 33 approved numbered entries. This replaces the current pointer for the existing DAO event; its complete prior registry object and original master-01 files remain historical. Final digital asset QA passes; 033 live verification is pending. Physical print, physical QR testing and book reproduction release remain separate. Use [current cards](current-cards.json) and the latest project status for the current sequence; the migration notes below preserve the earlier rollout history.
+[The Split - Epic](season-01/the-split-master-034/README.md) preserves the exact approved v7 railway artwork, 20 JUL 2016 and the confirmed editorial caption ONE HISTORY. TWO CHAINS. The registry contains 38 unique approved designs and 34 prepared numbered entries. Five actual-art clues and the sourced two-page book match the website. Digital geometry/QR checks pass; live checks follow publication. Physical print and book reproduction remain separate.
 
 [Art style](ART-STYLE.md) · [Pinned style reference](style-reference-lock.json) ·
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·
