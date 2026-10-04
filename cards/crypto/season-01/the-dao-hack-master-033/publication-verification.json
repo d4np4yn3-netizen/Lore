@@ -1,0 +1,30 @@
+{
+  "release_commit": "845c86e3295b0c0580f3110bee92b715d4ef7d15",
+  "asset_commit": "85850ed5abfcdcfe60c958bc2340f464fbe333b2",
+  "deployment_id": "dpl_A9syFFUTabgi8hj6GeQLnnVZHLoX",
+  "verified_at": "2026-10-04",
+  "production_url": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+  "status": "PUBLISHED_VERIFIED",
+  "checks": {
+    "github_main_and_all_38_release_files": true,
+    "unrelated_baseline_blobs_preserved": 1404,
+    "historical_dao_master_blobs_preserved": 15,
+    "vercel_ready_exact_commit_and_production_alias": true,
+    "github_deployment_status": "success",
+    "all_33_qr_routes": true,
+    "new_display_image_hashes": 8,
+    "immutable_original_download_hashes": 6,
+    "downloaded_png_qr": true,
+    "downloaded_printer_pdf_300dpi_qr": true,
+    "book_and_website_story_and_four_clues_match": true,
+    "desktop_reading_art_clue_book_history_focus": true,
+    "narrow_393_css_pixel_dialog_book_markers_history_focus": true
+  },
+  "narrow_testing_note": "Browser zoom produced a 393 CSS-pixel viewport; no physical mobile-device test. Timeline after dismissal had a one-CSS-pixel scroll/client width rounding difference at 300% zoom, with no blocking interaction defect.",
+  "follow_on_change": "Correct shared title formatting from The Dao Hack to The DAO Hack. Regression confirms all 32 preceding displayed titles unchanged. Its deployment is checked separately after commit.",
+  "artwork_sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+  "print_release": false,
+  "physical_qr_scan_test": false,
+  "book_reproduction_release": false,
+  "full_page_native_art_ppi": 126.91
+}

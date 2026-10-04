@@ -2,7 +2,7 @@
   "revision": "LORE-CRYPTO-033-PRINT-v1",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "created_at": "2026-10-04",
-  "status": "APPROVED_VISUAL_DIGITAL_QR_CHECKED_LIVE_VERIFICATION_PENDING",
+  "status": "APPROVED_VISUAL_DIGITAL_AND_LIVE_VERIFIED_PHYSICAL_RELEASE_SEPARATE",
   "approval_record": "cards/crypto/season-01/the-dao-hack-master-033/approval.json",
   "artwork": {
     "path": "cards/crypto/season-01/the-dao-hack-master-033/art.png",
@@ -64,7 +64,7 @@
     ]
   },
   "digital_qa_status": "PASSED",
-  "qr_live_status": "PENDING_LIVE_VERIFICATION",
+  "qr_live_status": "VERIFIED",
   "physical_qr_scan_test": false,
   "book": {
     "chapter": {
@@ -178,7 +178,6 @@
   "print_release": false,
   "book_reproduction_release": false,
   "release_gates": [
-    "Live route, story, downloads and deployment verification remain pending.",
     "Physical printed phone-camera QR test and print/cut proof remain pending; the address is tiny at card size.",
     "Book reproduction release remains separate; full-A4 native artwork is 126.91 PPI."
   ],
@@ -188,5 +187,6 @@
     "sha256": "de2a9db9c1d411c86cb0a322525cda76d68e17b9b68f4546512a64251b1296ee",
     "git_blob": "85344a6b5d1cb8146fa34859ab8f27a3954d18f3"
   },
-  "digital_qa_note": "Final PNG and actual 300-DPI printer-PDF rendering decode to the stable route. Final asset QA confirms original-art hash, exact SVG embedding, fixed template geometry/logo/colours, canvas and PDF boxes, exact native book pixels and three source links. Live route verification and physical QR tests remain separate."
+  "digital_qa_note": "Final PNG and actual 300-DPI printer-PDF rendering decode to the stable route. Final asset QA confirms original-art hash, exact SVG embedding, fixed template geometry/logo/colours, canvas and PDF boxes, exact native book pixels and three source links. Live route verification and physical QR tests remain separate.",
+  "publication_verification": "cards/crypto/season-01/the-dao-hack-master-033/publication-verification.json"
 }

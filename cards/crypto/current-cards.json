@@ -988,12 +988,12 @@
       "qr_url": "https://lore-site-v1.vercel.app/crypto/033/",
       "qr_target": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
       "confirmed_lore_owned_route": true,
-      "status": "FRONT_AND_BOOK_APPROVED_PUBLICATION_AUTHORISED",
+      "status": "PUBLISHED_VERIFIED",
       "artwork_status": "EXACT_V5_USER_APPROVED",
       "phrase_status": "APPROVED_PRIMARY_SOURCE_EXCERPT_CASE_AND_PUNCTUATION_NORMALISED",
       "rarity_status": "EPIC_APPROVED",
       "book_copy_status": "APPROVED_BOOK_PROOF_STORY_PRESERVED",
-      "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+      "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
       "template_revision": "LORE-CRYPTO-PRINT-v1.0",
       "canvas_px": [
         816,
@@ -1002,7 +1002,7 @@
       "approval_record": "cards/crypto/season-01/the-dao-hack-master-033/approval.json",
       "print_manifest": "cards/crypto/season-01/the-dao-hack-master-033/print-v1-manifest.json",
       "publication_approved": true,
-      "publication_status": "PENDING_LIVE_VERIFICATION",
+      "publication_status": "PUBLISHED_VERIFIED",
       "approved_at": "2026-10-04",
       "approved_by": "Dan Payne",
       "print_release": false,
@@ -1201,7 +1201,8 @@
             "converted_at": "2026-09-24"
           }
         }
-      ]
+      ],
+      "publication_verification": "cards/crypto/season-01/the-dao-hack-master-033/publication-verification.json"
     },
     {
       "id": "crypto-s01-the-depeg",
@@ -3702,10 +3703,8 @@
   "updated_at": "2026-10-04",
   "print_revision": "LORE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 37,
-  "numbered_published_count": 32,
+  "numbered_published_count": 33,
   "numbering_gap_note": "Prepared numbered collection contains 001 through 033 without a gap. The 033 successor replaces the existing DAO event entry; 37 unique approved designs remain. Publication status is separate from registry inclusion; pending live-verification numbers are recorded below.",
-  "pending_live_verification_numbers": [
-    "033"
-  ],
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 33
 }

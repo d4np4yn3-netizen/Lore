@@ -36,12 +36,12 @@
   "qr_url": "https://lore-site-v1.vercel.app/crypto/033/",
   "qr_target": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
   "confirmed_lore_owned_route": true,
-  "status": "FRONT_AND_BOOK_APPROVED_PUBLICATION_AUTHORISED",
+  "status": "PUBLISHED_VERIFIED",
   "artwork_status": "EXACT_V5_USER_APPROVED",
   "phrase_status": "APPROVED_PRIMARY_SOURCE_EXCERPT_CASE_AND_PUNCTUATION_NORMALISED",
   "rarity_status": "EPIC_APPROVED",
   "book_copy_status": "APPROVED_BOOK_PROOF_STORY_PRESERVED",
-  "qr_status": "PRODUCTION_ROUTE_PENDING_LIVE_VERIFICATION",
+  "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "canvas_px": [
     816,
@@ -50,7 +50,7 @@
   "approval_record": "cards/crypto/season-01/the-dao-hack-master-033/approval.json",
   "print_manifest": "cards/crypto/season-01/the-dao-hack-master-033/print-v1-manifest.json",
   "publication_approved": true,
-  "publication_status": "PENDING_LIVE_VERIFICATION",
+  "publication_status": "PUBLISHED_VERIFIED",
   "approved_at": "2026-10-04",
   "approved_by": "Dan Payne",
   "print_release": false,
@@ -249,5 +249,6 @@
         "converted_at": "2026-09-24"
       }
     }
-  ]
+  ],
+  "publication_verification": "cards/crypto/season-01/the-dao-hack-master-033/publication-verification.json"
 }

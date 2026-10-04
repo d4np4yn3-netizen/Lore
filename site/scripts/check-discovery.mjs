@@ -143,3 +143,6 @@ for (const year of [...cardSource.matchAll(/date:\s*['"][^'"]*?(\d{4})['"]/g)].m
 }
 assert(experienceSource.includes("range:'2013 — 2016'"), 'Current chapter range reaches 2016');
 assert(fs.readFileSync(path.join(root, 'app/page.js'), 'utf8').includes('years[years.length-1]'), 'Hero year range derives from collection');
+
+const titleCaseFunction = new Function('return ' + experienceSource.match(/^export const titleCase = (.+);$/m)[1])();
+assert.equal(titleCaseFunction('THE DAO HACK'), 'The DAO Hack', 'DAO acronym preserved in visible title');

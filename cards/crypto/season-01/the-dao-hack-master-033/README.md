@@ -1,6 +1,6 @@
 # 033 — The DAO Hack
 
-Dan reviewed the exact selected v5 Epic card and two-page book spread on 4 October 2026 and said “Ok upload to site and GitHub”. The full approval context is in [approval.json](approval.json). This authorises repository and website publication; final digital QA passes and live verification remains pending.
+Dan reviewed the exact selected v5 Epic card and two-page book spread on 4 October 2026 and said “Ok upload to site and GitHub”. The full approval context is in [approval.json](approval.json). Repository and website publication is verified; see [publication-verification.json](publication-verification.json). All 33 QR routes, eight new display images and six original downloads passed independent live checks.
 
 - Subject: ETHEREUM
 - Title: THE DAO / HACK
