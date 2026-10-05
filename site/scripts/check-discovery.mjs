@@ -49,3 +49,13 @@ assert.equal(Object.values(media).filter(x=>x.assetOrigin).length,13);assert.equ
 const experience=fs.readFileSync(path.join(root,'app/cards/experience.js'),'utf8');assert(experience.includes('2017:'));assert(experience.includes("range:'2013 — 2017'"));
 const titleCase=new Function('return '+experience.match(/^export const titleCase = (.+);$/m)[1])();assert.equal(titleCase('CRYPTOPUNKS'),'CryptoPunks');assert.equal(titleCase('THE DAO HACK'),'The DAO Hack');
 console.log(`PASS: 39 cards and QR sources, ${clues} clues, ${pages} book pages, ${positions} marker positions, 324 image hashes; all 37 previous card records and 307 earlier images preserved; both new originals and book/site copy match`);
+
+// Preserve the existing reader-download and derived timeline regression coverage.
+const readerSource=fs.readFileSync(path.join(root,'app/components/ReadingRoom.js'),'utf8');
+assert(readerSource.includes('card.media.assetOrigin || ASSET_ORIGIN'),'Per-card original asset fallback');
+assert.equal((readerSource.match(/href=\{assetOrigin\+/g)||[]).length,5,'All five reader original links use the per-card immutable origin');
+for(const card of Object.values(media).filter(card=>card.assetOrigin))assert(card.assetOrigin.startsWith('https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/'),'Valid original asset host');
+const yearMetadata=experience.slice(experience.indexOf('export const yearNotes'),experience.indexOf('export const titleCase'));
+for(const year of [...cardSource.matchAll(/date["']?:\s*['"][^'"]*?(\d{4})['"]/g)].map(match=>Number(match[1])))assert(yearMetadata.includes(year+':'),'Timeline note exists for '+year);
+assert(fs.readFileSync(path.join(root,'app/page.js'),'utf8').includes('years[years.length-1]'),'Hero range derives from the current collection');
+console.log('PASS: preserved reader asset-origin, five original-link, all-year timeline and derived-hero regression guards');

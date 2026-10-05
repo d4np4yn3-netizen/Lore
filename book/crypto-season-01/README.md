@@ -1,6 +1,6 @@
-# 038 and 039 publication preparation
+# 038 and 039 published and verified
 
-Two approved cards have been added: CryptoPunks (038) and Behind the Chair (039). The prepared collection contains 39 cards, 168 clues, 78 book previews and 324 display images. Publication verification remains pending; previously published 001–037 and all earlier masters/media are preserved. New display packs are append-only. Physical reproduction remains separate.
+CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 collection: 168 clues, 78 book previews and 324 display images. Content release b16e2f5440f8e34bf449119ae2d14c10b268c7c7 passed all 39 live QR routes, 17 new media hashes, 12 original downloads, digital QR decoding, exact book/site copy and independent desktop browser checks. All earlier sources/media are preserved. Narrow visual-browser testing was unavailable; physical/device reproduction remains separate. Original downloads are pinned to 22f32e165862020b5ec5bbd837f65e58e3b72364.
 
 # LORE — Crypto Season One book manuscript
 
@@ -114,3 +114,11 @@ The optional combined ten-page PDF is delivered through Library, not stored in t
 [Approved chapter](037-the-zcash-ceremony.md) · [Two-page full-art spread](proofs/037-the-zcash-ceremony-full-art-spread-v1.pdf). Uncommon 037/100; exact coinlit-anime v5 art, card and book approved for GitHub/site upload on 4 October 2026. ONE HONEST WITNESS is an editorial paraphrase, not a quotation. The five actual-art details are six witnesses/crystals, DVD-R, symbolic detached radio board, broken-remnants jar and Sprout carving. The source note identifies six stylised likenesses and qualifies later/undated portrait references. Separate participants and successive phases are combined in the fictional gathering; the 22–23 October ceremony, Todd’s 24 October hardware destruction and 28 October Sprout launch remain distinct. Run `sync_037.py --check` to verify website copy. Digital asset and live publication checks pass, including all 37 routes, nine new display images, six immutable originals, exact book/site copy and desktop/narrow interactions. Physical print, phone-camera QR and book reproduction are separate and false. Native full-A4 artwork is 126.91 PPI.
 
 The published 001–037 collection contains 159 clues and 74 book-page previews. New website derivatives use append-only display-16.bin; the prior 298 display assets and all previous source masters remain unchanged.
+
+## 038 CryptoPunks
+
+[Approved chapter](038-cryptopunks.md) · [Two-page book](proofs/038-cryptopunks-full-art-spread-v1.pdf). Epic, JUN 2017, FREE TO CLAIM. Five approved paragraphs and four actual-art details. Digital publication verified; physical reproduction remains separate.
+
+## 039 Behind the Chair
+
+[Approved chapter](039-behind-the-chair.md) · [Two-page book](proofs/039-behind-the-chair-full-art-spread-v1.pdf). Common, 12 JUL 2017, BUY BITCOIN. Five approved paragraphs and five actual-art details. Digital publication verified; physical reproduction remains separate.

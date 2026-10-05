@@ -1,0 +1,148 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "checkedAtUtc": "2026-10-05T05:47:19.317479+00:00",
+  "deployment": {
+    "id": "dpl_FFa5659v6xdChxAFb875q2xWwy7q",
+    "stateVerified": "READY",
+    "gitCommit": "b16e2f5440f8e34bf449119ae2d14c10b268c7c7",
+    "deploymentUrl": "https://lore-site-v1-50mw835ru-d4n1.vercel.app",
+    "testedAlias": "https://lore-site-v1.vercel.app",
+    "aliasMappingVerified": true
+  },
+  "viewports": [
+    {
+      "width": 1180,
+      "height": 757,
+      "contentScrollWidth": 1165,
+      "device": "desktop",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "device": "intended narrow viewport",
+      "status": "NOT RUN",
+      "reason": "No supported viewport/context/window-sizing API. Official isolated agent-browser launch failed before browser startup at Unix socket bind: Operation not permitted (os error 1)."
+    }
+  ],
+  "urls": [
+    "https://lore-site-v1.vercel.app/cards/cryptopunks",
+    "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+    "https://lore-site-v1.vercel.app/#moment-cryptopunks",
+    "https://lore-site-v1.vercel.app/?moment=behind-the-chair#moment-cryptopunks"
+  ],
+  "checks": [
+    {
+      "scope": "038 and 039 standalone pages",
+      "result": "PASS",
+      "checks": [
+        "Story tab content and metadata render",
+        "Full artwork tab loads approved art",
+        "Clue-marker toggle reveals four markers for 038 and five for 039",
+        "Visible desktop markers remain on corresponding artwork; close-up content matches selected clue",
+        "Artwork inspector opens, closes, reopens, and returns to artwork",
+        "Easter-egg gallery opens an individual detail, pages to another detail, and returns to gallery",
+        "Book tab shows both pages and supports enlarge/fit",
+        "Original card PNG destination opens as an 816×1110 image",
+        "Visible original art/card PNG/card PDF/card SVG/book PDF links are immutable and use expected commit"
+      ]
+    },
+    {
+      "scope": "039 story source note",
+      "result": "PASS",
+      "checks": [
+        "Full source/art caveats appear when expanded",
+        "Federal Reserve and Scarce City source links visible"
+      ]
+    },
+    {
+      "scope": "Cross-page browser history",
+      "result": "PASS",
+      "checks": [
+        "Previous on 039 reaches 038",
+        "Back returns to 039",
+        "Forward returns to 038"
+      ]
+    },
+    {
+      "scope": "Timeline and story overlay",
+      "result": "PASS",
+      "checks": [
+        "038 Timeline link returns to #moment-cryptopunks",
+        "2017 archive visibly includes 038 and 039",
+        "039 timeline card opens its story overlay",
+        "Closing removes moment query and returns to timeline",
+        "Same 039 story overlay reopens successfully"
+      ]
+    },
+    {
+      "scope": "Application console",
+      "result": "PASS",
+      "applicationErrorsOrWarnings": [],
+      "browserExtensionMessagesExcluded": 88,
+      "exclusionReason": "All observed warnings/errors came from chrome-extension:// metadata bridge, not the application"
+    }
+  ],
+  "originalDownloadDestinations": [
+    {
+      "page": "038",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/cryptopunks-master-038/art.png",
+      "text": "Open original artwork ↗"
+    },
+    {
+      "page": "038",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.png",
+      "text": "View collectible card ↗"
+    },
+    {
+      "page": "038",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.pdf",
+      "text": "Print card PDF ↗"
+    },
+    {
+      "page": "038",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.svg",
+      "text": "Editable card SVG ↗"
+    },
+    {
+      "page": "038",
+      "text": "Open PDF",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/book/crypto-season-01/proofs/038-cryptopunks-full-art-spread-v1.pdf"
+    },
+    {
+      "page": "039",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/behind-the-chair-master-039/art.png",
+      "text": "Open original artwork ↗"
+    },
+    {
+      "page": "039",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.png",
+      "text": "View collectible card ↗"
+    },
+    {
+      "page": "039",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.pdf",
+      "text": "Print card PDF ↗"
+    },
+    {
+      "page": "039",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.svg",
+      "text": "Editable card SVG ↗"
+    },
+    {
+      "page": "039",
+      "text": "Open PDF",
+      "href": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/22f32e165862020b5ec5bbd837f65e58e3b72364/book/crypto-season-01/proofs/039-behind-the-chair-full-art-spread-v1.pdf"
+    }
+  ],
+  "failures": [],
+  "browser": "Chromium desktop",
+  "limitations": [
+    "Desktop UI tested at 1180 × 757. Narrow-width visual UI and physical mobile-device testing were not run.",
+    "Available browser controls did not support viewport sizing. An isolated browser launch was blocked by an operating-system socket restriction.",
+    "Localhost UI was not tested. All successful visual checks used the public production site.",
+    "Visible download destinations and card PNG views were checked in the browser. Byte hashes and QR decodes are recorded separately in immutable-download-verification.json."
+  ],
+  "screenshots_retained_count": 11,
+  "screenshot_evidence": "Captured during verification; retained with the working QA deliverables."
+}

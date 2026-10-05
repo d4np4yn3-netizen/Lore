@@ -160,9 +160,9 @@
   "qr_url": "https://lore-site-v1.vercel.app/crypto/039/",
   "qr_target": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
   "confirmed_lore_owned_route": true,
-  "status": "APPROVED_DIGITAL_PUBLICATION",
-  "publication_status": "PENDING_LIVE_VERIFICATION",
-  "qr_status": "DIGITAL_PNG_AND_RENDERED_PDF_DECODE_VERIFIED",
+  "status": "PUBLISHED_VERIFIED",
+  "publication_status": "PUBLISHED_VERIFIED",
+  "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
   "template_revision": "LORE-CRYPTO-PRINT-v1.0",
   "canvas_px": [
     816,
@@ -233,5 +233,7 @@
   },
   "output_sha256": "899f47cae488dce2760bc4b7c2209e7821a676bcd07a433461096fe04055bc3f",
   "print_svg_sha256": "4748eb21d9dbf723193030727aa565d1b729f73ff3ed5093bb833f079fe1bd65",
-  "printer_pdf_sha256": "d5fc6fe8a05d3e41f168b0e36f57148816c9089d75829ee5aaf143a413d6ca08"
+  "printer_pdf_sha256": "d5fc6fe8a05d3e41f168b0e36f57148816c9089d75829ee5aaf143a413d6ca08",
+  "publication_verification": "cards/crypto/season-01/behind-the-chair-master-039/publication-verification.json",
+  "asset_commit": "22f32e165862020b5ec5bbd837f65e58e3b72364"
 }

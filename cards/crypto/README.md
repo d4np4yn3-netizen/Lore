@@ -1,10 +1,14 @@
-# 038 and 039 publication preparation
+# 038 and 039 published and verified
 
-Two approved cards have been added: CryptoPunks (038) and Behind the Chair (039). The prepared collection contains 39 cards, 168 clues, 78 book previews and 324 display images. Publication verification remains pending; previously published 001–037 and all earlier masters/media are preserved. New display packs are append-only. Physical reproduction remains separate.
+CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 collection: 168 clues, 78 book previews and 324 display images. Content release b16e2f5440f8e34bf449119ae2d14c10b268c7c7 passed all 39 live QR routes, 17 new media hashes, 12 original downloads, digital QR decoding, exact book/site copy and independent desktop browser checks. All earlier sources/media are preserved. Narrow visual-browser testing was unavailable; physical/device reproduction remains separate. Original downloads are pinned to 22f32e165862020b5ec5bbd837f65e58e3b72364.
 
 # LORE Crypto — Season One
 
-## Latest approved numbered card: 037
+## Latest approved numbered cards: 038 and 039
+
+[CryptoPunks - Epic](season-01/cryptopunks-master-038/README.md) and [Behind the Chair - Common](season-01/behind-the-chair-master-039/README.md) preserve their exact approved artwork and copy. The register contains 42 unique approved designs and 39 published numbered cards. Both stable QR routes, new media, immutable original downloads, book/site copy and desktop interactions pass. Narrow visual-browser testing was unavailable; physical reproduction remains separate.
+
+## Previous verified release: 037
 
 [The Zcash Ceremony - Uncommon](season-01/the-zcash-ceremony-master-037/README.md) preserves exact approved coinlit-anime v5 art, 22–23 OCT 2016 and ONE HONEST WITNESS. The caption is editorial wording, not a quotation. The register contains 41 unique approved designs and 37 published numbered entries. Five approved story paragraphs and five actual-art clues drive the book/website. Digital and live checks pass, including all 37 routes, nine new display images, six original downloads and desktop/narrow interactions. Physical print and book reproduction remain separate.
 

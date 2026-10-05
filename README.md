@@ -1,6 +1,6 @@
-# 038 and 039 publication preparation
+# 038 and 039 published and verified
 
-Two approved cards have been added: CryptoPunks (038) and Behind the Chair (039). The prepared collection contains 39 cards, 168 clues, 78 book previews and 324 display images. Publication verification remains pending; previously published 001–037 and all earlier masters/media are preserved. New display packs are append-only. Physical reproduction remains separate.
+CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 collection: 168 clues, 78 book previews and 324 display images. Content release b16e2f5440f8e34bf449119ae2d14c10b268c7c7 passed all 39 live QR routes, 17 new media hashes, 12 original downloads, digital QR decoding, exact book/site copy and independent desktop browser checks. All earlier sources/media are preserved. Narrow visual-browser testing was unavailable; physical/device reproduction remains separate. Original downloads are pinned to 22f32e165862020b5ec5bbd837f65e58e3b72364.
 
 # LORE
 
