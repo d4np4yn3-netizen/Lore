@@ -35,6 +35,8 @@ import chapter034 from './content/034.json';
 import chapter035 from './content/035.json';
 import chapter036 from './content/036.json';
 import chapter037 from './content/037.json';
+import chapter039 from './content/039.json';
+import chapter038 from './content/038.json';
 
 export const cards = [
   {
@@ -487,6 +489,40 @@ export const cards = [
     source: 'https://github.com/zcash/mpc#zcash-ceremony',
     ...chapter037,
     number: '037/100',
+  },
+  {
+    slug: "cryptopunks",
+    title: "CRYPTOPUNKS",
+    rarity: "EPIC",
+    date: "JUN 2017",
+    subject: "LARVA LABS",
+    phrase: "FREE TO CLAIM",
+    phraseKind: "retrospective project wording",
+    image: "cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.png",
+    artwork: "cards/crypto/season-01/cryptopunks-master-038/art.png",
+    book: "book/crypto-season-01/proofs/038-cryptopunks-full-art-spread-v1.pdf",
+    printerPdf: "cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.pdf",
+    editableSvg: "cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.svg",
+    source: "https://nodefoundation.com/cryptopunks",
+    ...chapter038,
+    number: '038/100',
+  },
+  {
+    slug: "behind-the-chair",
+    title: "BEHIND THE CHAIR",
+    rarity: "COMMON",
+    date: "12 JUL 2017",
+    subject: "BITCOIN",
+    phrase: "BUY BITCOIN.",
+    phraseKind: "verified sign words with normalised capitals and punctuation",
+    image: "cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.png",
+    artwork: "cards/crypto/season-01/behind-the-chair-master-039/art.png",
+    book: "book/crypto-season-01/proofs/039-behind-the-chair-full-art-spread-v1.pdf",
+    printerPdf: "cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.pdf",
+    editableSvg: "cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.svg",
+    source: "https://www.federalreserve.gov/newsevents/testimony/yellen20170712a.htm",
+    ...chapter039,
+    number: '039/100',
   },
 ];
 

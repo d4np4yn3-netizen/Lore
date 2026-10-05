@@ -1,0 +1,99 @@
+{
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "coordinateFormat": "x0,y0,x1,y1; origin at top-left",
+  "crops": [
+    {
+      "number": 1,
+      "title": "THE HANDWRITTEN SIGN",
+      "body": "The yellow legal pad carries the moment's two-word message. Its ordinary paper and improvised lettering are central to the real stunt, bringing a personal appeal into a televised policy hearing.",
+      "artBBoxPx": [
+        590,
+        305,
+        925,
+        580
+      ],
+      "artBBoxNormalized": [
+        0.556604,
+        0.205526,
+        0.872642,
+        0.390836
+      ],
+      "grounding": "Visually inspected unchanged native artwork; no invented objects."
+    },
+    {
+      "number": 2,
+      "title": "THE NO SIGNS PLAQUE",
+      "body": "This invented wall fixture makes the raised sign a visual joke about the room's rules. It is illustrative staging, not a claim that this plaque hung at the hearing.",
+      "artBBoxPx": [
+        65,
+        180,
+        220,
+        300
+      ],
+      "artBBoxNormalized": [
+        0.061321,
+        0.121294,
+        0.207547,
+        0.202156
+      ],
+      "grounding": "Visually inspected unchanged native artwork; no invented objects."
+    },
+    {
+      "number": 3,
+      "title": "THE REPORT HEADING",
+      "body": "MONETARY POLICY REPORT identifies the business of Yellen's appearance. The drawn document is a contextual prop, not a facsimile of her papers or evidence that she wrote the annotations.",
+      "artBBoxPx": [
+        265,
+        1000,
+        790,
+        1165
+      ],
+      "artBBoxNormalized": [
+        0.25,
+        0.673854,
+        0.745283,
+        0.78504
+      ],
+      "grounding": "Visually inspected unchanged native artwork; no invented objects."
+    },
+    {
+      "number": 4,
+      "title": "THE ROUNDED PRICE NOTE",
+      "body": "BTC approximately $2,400 evokes a reported price that afternoon. The amount is rounded for the illustration and does not establish Bitcoin's price at the instant the sign appeared.",
+      "artBBoxPx": [
+        360,
+        1060,
+        615,
+        1150
+      ],
+      "artBBoxNormalized": [
+        0.339623,
+        0.714286,
+        0.580189,
+        0.774933
+      ],
+      "grounding": "Visually inspected unchanged native artwork; no invented objects."
+    },
+    {
+      "number": 5,
+      "title": "THE 16 BTC FLASHFORWARD",
+      "body": "This small annotation points to the original sign's 2024 winning auction bid. It deliberately reaches forward seven years; it is not a note made at the 2017 hearing.",
+      "artBBoxPx": [
+        565,
+        1065,
+        715,
+        1140
+      ],
+      "artBBoxNormalized": [
+        0.533019,
+        0.717655,
+        0.674528,
+        0.768194
+      ],
+      "grounding": "Visually inspected unchanged native artwork; no invented objects."
+    }
+  ]
+}

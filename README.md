@@ -1,3 +1,7 @@
+# 038 and 039 publication preparation
+
+Two approved cards have been added: CryptoPunks (038) and Behind the Chair (039). The prepared collection contains 39 cards, 168 clues, 78 book previews and 324 display images. Publication verification remains pending; previously published 001–037 and all earlier masters/media are preserved. New display packs are append-only. Physical reproduction remains separate.
+
 # LORE
 
 **COLLECT THE INTERNET.**

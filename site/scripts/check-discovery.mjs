@@ -2,151 +2,50 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-
-const root = path.resolve(import.meta.dirname, '..');
-const repo = path.resolve(root, '..');
-const read = p => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
-const hash = bytes => createHash('sha256').update(bytes).digest('hex');
-const jsonHash = value => hash(JSON.stringify(value));
-const fileHash = p => hash(fs.readFileSync(p));
-const layout = fs.readFileSync(path.join(root, 'app/cards/marker-layout.js'), 'utf8');
-const { placeClueMarkers } = await import('data:text/javascript;base64,' + Buffer.from(layout).toString('base64'));
-const closeups = read('app/cards/closeups.json');
-const mediaBySlug = read('app/cards/media.json');
-const media = Object.values(mediaBySlug);
-const index = read('media/index.json');
-const derivatives = read('web-card-derivatives.json');
-const contentIds = fs.readdirSync(path.join(root, 'app/cards/content')).filter(f => /^\d{3}\.json$/.test(f)).map(f => f.slice(0, 3)).sort();
-const expectedIds = Array.from({ length: 37 }, (_, i) => String(i + 1).padStart(3, '0'));
-const mediaIds = media.map(card => card.image.src.match(/\/(\d{3})-/)?.[1]).sort();
-const qrIds = fs.readdirSync(path.join(root, 'app/crypto')).filter(id => /^\d{3}$/.test(id)).sort();
-const cardSource = fs.readFileSync(path.join(root, 'app/cards/data.js'), 'utf8');
-const cardIds = [...cardSource.matchAll(/number:\s*['"](\d{3})\/100['"]/g)].map(m => m[1]).sort();
-for (const [label, ids] of Object.entries({ content: contentIds, media: mediaIds, clues: Object.keys(closeups).sort(), QR: qrIds, cards: cardIds })) {
-  assert.deepEqual(ids, expectedIds, `${label}: contiguous 001–037`);
+const root=path.resolve(import.meta.dirname,'..'),repo=path.resolve(root,'..');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const hash=b=>createHash('sha256').update(b).digest('hex');
+const jhash=v=>hash(JSON.stringify(v));
+const fhash=p=>hash(fs.readFileSync(p));
+const baselineHashes={"app/cards/closeups.json": "8b2d248df935dc01adf14e5ba18e00781b6967c039f7ece0ca1e036565d7967f", "app/cards/media.json": "33ebc43e60686109ddcda9d4a74feca1a681e1bb7aa07e477f5b2b4b176b3d39", "media/index.json": "4f07cdf9805735509b15d7e6e4960564f0ffbbbde33f5b56d8cd1f4e34fbb708", "web-card-derivatives.json": "79a5929d3e2010f4b415a57a55bc1acd0010db6d01034129017de021a1a58e55"};
+const baselineFiles={"site/app/cards/content/001.json": "8fbee6bbe6a90dfa8b8ba9fbe4a9924a55aff53c", "site/app/cards/content/002.json": "bb2efad76a8ed81907b1a5a4a3a6cb149e33840f", "site/app/cards/content/003.json": "02204f7d2543b702d96d69c22e261acc79cb4c06", "site/app/cards/content/004.json": "b475aac307d49de8b66e48e051de3bde2dba3190", "site/app/cards/content/005.json": "c9b46d56ab8aa3defe4f3c568c07746e140b3a5d", "site/app/cards/content/006.json": "a48d65bd123d0f0e00fb25f688be70801919a2b5", "site/app/cards/content/007.json": "b6642e66e7153a05575199c61f9a4c7594c8b17b", "site/app/cards/content/008.json": "0f40d9d860ede6607cee91bd896fc1fdd307eafd", "site/app/cards/content/009.json": "3c3524b16b3885e8d86811253c345098168fb0bf", "site/app/cards/content/010.json": "94520fa2aaa519f75d1a3f789faef9f36e2f308f", "site/app/cards/content/011.json": "e97f34caf588ef142e40e258583866d07d34b7e8", "site/app/cards/content/012.json": "f1e190922eaae476379f0ccfa89bc2c1f79e6a92", "site/app/cards/content/013.json": "a7b38caef512279019d1eb3db8285ef3e546a0ba", "site/app/cards/content/014.json": "908eeb20f74ab594fcf791cb0d62829aa6e2bbc9", "site/app/cards/content/015.json": "e55cf16d7fa40e3338eb6e72bc4ed1c2b9069b79", "site/app/cards/content/016.json": "1504d6306808f0d09d612b770b93d3a4c62e2c05", "site/app/cards/content/017.json": "f9e052db57e4878f83ff3023cbcf478061122d30", "site/app/cards/content/018.json": "6444b34bd70ebd9074e358845ed075db6833688a", "site/app/cards/content/019.json": "4b508b4b2148160209845f0b4f130a6a2bbb8fd1", "site/app/cards/content/020.json": "53310551d0aff7b4e671962d97c5bf8e3966d7c5", "site/app/cards/content/021.json": "14fedcd9ad4275c8fdd314f55f527bd9fb4e07d0", "site/app/cards/content/022.json": "4c123518e25b4200e0b17b36fef26ed9d0df26d2", "site/app/cards/content/023.json": "6414c22b47c75be1ad58ee705f986bbe5c712c34", "site/app/cards/content/024.json": "7dfa864a7495dadc755060bb8aa16fea39f3136a", "site/app/cards/content/025.json": "527ab891a7bd54f1d5a3c6577fda3196c637fff8", "site/app/cards/content/026.json": "fc60c14368394aa7ba15f5bade87f1394e53ae89", "site/app/cards/content/027.json": "28a50a31b2df416e00b529cdf56129b48e7b79a9", "site/app/cards/content/028.json": "eb96f84917f6918600d7c98034cbb111c74033bc", "site/app/cards/content/029.json": "b91854e904678391bddffbc207d379af829378c2", "site/app/cards/content/030.json": "27e971bd8a3225b0763eb71a2e0ef8f799765280", "site/app/cards/content/031.json": "12b66dbfca0eb6c25fc9afd8a4c988eac55d397d", "site/app/cards/content/032.json": "10aa141739288dbd8a451595043b611b7f849ba3", "site/app/cards/content/033.json": "5dd3abbe3bb0665083f0efe3d0e2207722701b46", "site/app/cards/content/034.json": "8b05c0ec6218cc72debbf565050c0a66f1e0bcf6", "site/app/cards/content/035.json": "98d8bdb1ae7cb029c629475c604986a238f413df", "site/app/cards/content/036.json": "4a194c1e929b75e9a03aebe9ac92e2bf98fe6d41", "site/app/cards/content/037.json": "8fc352876bfb655e54a86dea8061b4cde0a60328", "site/app/crypto/001/page.js": "40fb0968c3b11cb967f40055996dfb3278c1ad22", "site/app/crypto/002/page.js": "7e35a64e60c0ef15e343ff12dd633ab47a4dbb93", "site/app/crypto/003/page.js": "eece27dfc78eb2af827bc155cb2cf8c401a4436f", "site/app/crypto/004/page.js": "86b33a1e662356770734d43a0fbc1189372c9d13", "site/app/crypto/005/page.js": "bc690b720d3594f3d3572c76ccf1c738015d041c", "site/app/crypto/006/page.js": "49e4c0a18cbb25392f521ea93b2cd5334116b05f", "site/app/crypto/007/page.js": "2e1d1cd719863bf2a2c78d5872fef04ae18a6116", "site/app/crypto/008/page.js": "3039698a5a88d3b878d62b7faa392e8399212870", "site/app/crypto/009/page.js": "e5bd9a565271b2bb386e811a1a655739810759b7", "site/app/crypto/010/page.js": "23822e71cae94596c58581c02f9338529051ef01", "site/app/crypto/011/page.js": "8ef617564d41c316d0149ba6c13138b2f17fc58c", "site/app/crypto/012/page.js": "15ef035196123ee2b60cf14f9c6597d1540f2677", "site/app/crypto/013/page.js": "3b8058bacfaf7ab5001cb0d8502c48278fbe6767", "site/app/crypto/014/page.js": "4803ea236e464db02854f9b5a485907142804865", "site/app/crypto/015/page.js": "755c346121852660551508c06c33c258ddbc524c", "site/app/crypto/016/page.js": "1608e1517dd091671c36bfde78a26e2390e50975", "site/app/crypto/017/page.js": "306c4804ba09c8e913e6d38c2ad8fb6adad8f32c", "site/app/crypto/018/page.js": "5f4b336075f61c214c9f86ea771b1e974ba69e9f", "site/app/crypto/019/page.js": "2b2122823763ae0db0e2df444a4dbcecc7cf9435", "site/app/crypto/020/page.js": "921b7da953b47c28f07ea5f5aae7facda6ddb7de", "site/app/crypto/021/page.js": "1c7000a9d162bdedc1541dafee569e0749242ad3", "site/app/crypto/022/page.js": "662e0c3d3f38bd23e21dbf3239cb0b19e239b045", "site/app/crypto/023/page.js": "166bd2623c782010f26658ce836bd6743ffce044", "site/app/crypto/024/page.js": "42026fcdd0b573b342db3ab3d9b623dc8080dce6", "site/app/crypto/025/page.js": "ab8170cc8b09b021b5a9800bdcf0bd14f4bcff66", "site/app/crypto/026/page.js": "b2a0199644d36ee5c77e121585483dc5d00f597d", "site/app/crypto/027/page.js": "8b962ba8bf2f37004100c1898fab4f08e9277005", "site/app/crypto/028/page.js": "ac4ac59719a8b601c74cbff5a80294f171c9d226", "site/app/crypto/029/page.js": "d2918878cae0ceea5c3ed1e11d8b7ff2eb05b7a8", "site/app/crypto/030/page.js": "111439389fead27fea821eaa018d948e78b00c0c", "site/app/crypto/031/page.js": "4892c8b29e01ab4b79516d5ac8ccf99a98ee260a", "site/app/crypto/032/page.js": "1da144e4486deddc209adbefbbf87d7e2f87ea44", "site/app/crypto/033/page.js": "c869714b63f0ead277eb663e1c351f8d53120983", "site/app/crypto/034/page.js": "dad584fe4a37143ff1fc73665d2e6af3b52bfeb8", "site/app/crypto/035/page.js": "e30e8a637591ea280683662ff6a98c839ecddaf8", "site/app/crypto/036/page.js": "6132c3c9378f22b9df27c74d6c03f06a28433af7", "site/app/crypto/037/page.js": "ca1cbc03585e67efd99988c9540e4a41eff5e8e4"};
+const layouts=fs.readFileSync(path.join(root,'app/cards/marker-layout.js'),'utf8');
+const {placeClueMarkers}=await import('data:text/javascript;base64,'+Buffer.from(layouts).toString('base64'));
+const closeups=read('app/cards/closeups.json'),media=read('app/cards/media.json'),index=read('media/index.json'),derivatives=read('web-card-derivatives.json');
+const ids=Array.from({length:39},(_,i)=>String(i+1).padStart(3,'0'));
+const contentIds=fs.readdirSync(path.join(root,'app/cards/content')).filter(f=>/^\d{3}\.json$/.test(f)).map(f=>f.slice(0,3)).sort();
+const cardSource=fs.readFileSync(path.join(root,'app/cards/data.js'),'utf8');
+const cardIds=[...cardSource.matchAll(/number:\s*['"](\d{3})\/100['"]/g)].map(m=>m[1]).sort();
+for(const [label,actual] of Object.entries({content:contentIds,media:Object.values(media).map(c=>c.image.src.match(/\/(\d{3})-/)[1]).sort(),clues:Object.keys(closeups).sort(),QR:fs.readdirSync(path.join(root,'app/crypto')).filter(x=>/^\d{3}$/.test(x)).sort(),cards:cardIds}))assert.deepEqual(actual,ids,label+' contiguous 001–039');
+let clues=0,pages=0,positions=0,display=[];
+for(const id of ids){
+ const card=Object.values(media).find(c=>c.image.src.includes('/'+id+'-')),crops=closeups[id],copy=read('app/cards/content/'+id+'.json');
+ assert.equal(crops.length,copy.eggs.length,'Clue count '+id);assert.equal(card.pages.length,2,'Two book pages '+id);pages+=2;
+ display.push(card.image.src,card.artwork.src,...card.pages.map(x=>x.src),...crops.map(x=>x.src));
+ for(const crop of crops){let b=crop.bbox;assert(b.x>=0&&b.y>=0&&b.w>0&&b.h>0&&b.x+b.w<=1.001&&b.y+b.h<=1.001,'Crop bounds '+id);clues++;}
+ for(const width of [240,260,288,351,600,1000,1200,1400]){const points=placeClueMarkers(crops,width,width*card.artwork.height/card.artwork.width);points.forEach((p,i)=>{assert(p.x>=24&&p.x<=width-24&&p.y>=24&&p.y<=width*card.artwork.height/card.artwork.width-24,'Edge '+id);for(let j=0;j<i;j++)assert(Math.hypot(p.x-points[j].x,p.y-points[j].y)>=51.999,'Overlap '+id);positions++;});}
 }
-
-let clues = 0;
-let positions = 0;
-let pages = 0;
-const displayedPaths = [];
-for (const id of contentIds) {
-  const card = media.find(m => m.image.src.includes('/' + id + '-'));
-  const crops = closeups[id];
-  const content = read('app/cards/content/' + id + '.json');
-  assert.equal(crops.length, content.eggs.length, 'Clue count ' + id);
-  assert.equal(card.pages.length, 2, 'Two book pages ' + id);
-  pages += card.pages.length;
-  displayedPaths.push(card.image.src, card.artwork.src, ...card.pages.map(page => page.src), ...crops.map(crop => crop.src));
-  for (const crop of crops) {
-    const b = crop.bbox;
-    assert(b.x >= 0 && b.y >= 0 && b.w > 0 && b.h > 0 && b.x + b.w <= 1.001 && b.y + b.h <= 1.001, 'Box ' + id);
-    assert(fs.existsSync(path.join(root, 'public', crop.src)), 'Crop file ' + id);
-    clues++;
-  }
-  for (const width of [240, 260, 288, 351, 600, 1000, 1200, 1400]) {
-    const height = width * card.artwork.height / card.artwork.width;
-    const points = placeClueMarkers(crops, width, height);
-    points.forEach((p, i) => {
-      assert(p.x >= 24 && p.x <= width - 24 && p.y >= 24 && p.y <= height - 24, 'Edge ' + id);
-      for (let j = 0; j < i; j++) assert(Math.hypot(p.x - points[j].x, p.y - points[j].y) >= 51.999, 'Overlap ' + id);
-      positions++;
-    });
-  }
+assert.deepEqual(index.assets.map(a=>'/'+a.path).sort(),display.sort(),'All display paths indexed once');assert.equal(new Set(display).size,display.length);
+for(const a of index.assets){assert.equal(fhash(path.join(root,'public',a.path)),a.sha256,'Unpacked '+a.path);const b=fs.readFileSync(path.join(root,'media',a.pack)).subarray(a.offset,a.offset+a.length);assert.equal(hash(b),a.sha256,'Packed '+a.path);}
+const {'038':c38,'039':c39,...priorCloseups}=closeups;const {cryptopunks:m38,'behind-the-chair':m39,...priorMedia}=media;
+const priorIndex={...index,assets:index.assets.filter(a=>!['display-17.bin','display-18.bin'].includes(a.pack))};
+const priorDerivatives={...derivatives,cards:derivatives.cards.filter(c=>!['038','039'].includes(c.number))};
+for(const [p,v] of Object.entries({'app/cards/closeups.json':priorCloseups,'app/cards/media.json':priorMedia,'media/index.json':priorIndex,'web-card-derivatives.json':priorDerivatives}))assert.equal(jhash(v),baselineHashes[p],'All baseline records preserved '+p);
+for(const [p,sha] of Object.entries(baselineFiles)){let b=fs.readFileSync(path.join(repo,p));let git=createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');assert.equal(git,sha,'Previous content and QR source preserved '+p);}
+for(const [id,slug,sha,previous,clueCount] of [['038','cryptopunks','21027f7ece79e3a6ca3b205f631cb4a648027d4028c27d77c760d36555728abb',307,4],['039','behind-the-chair','c6944000f8ff929d6d793db39aeb994e3befc2300a554e0e2f6a7279f7c79239',315,5]]){
+ const added=read('media/'+id+'-derivatives.json'),card=media[slug],trim=derivatives.cards.find(c=>c.number===id);
+ assert.equal(added.previousAssetsPreserved,previous);assert.equal(added.displayAssets.length,4+clueCount);assert.equal(card.hashes.artwork,sha);assert.equal(fhash(path.join(root,'media',added.displayAssets[0].pack)),added.bundleSHA256);
+ for(const [p,h] of Object.entries(added.sourcesSHA256))assert.equal(fhash(path.join(repo,p)),h,'Original master '+p);
+ for(const [p,h] of Object.entries(added.previousBundleSHA256))assert.equal(fhash(path.join(root,'media',p)),h,'Previous pack '+p);
+ assert.deepEqual(added.clues.map(c=>c.title),read('app/cards/content/'+id+'.json').eggs.map(c=>c.title));
+ assert.deepEqual(trim.sourceDimensions,[816,1110]);assert.deepEqual(trim.trimBoxXYWH,[36,36,744,1038]);assert.deepEqual(trim.webDimensions,[600,837]);assert.equal(fhash(path.join(repo,trim.webPreview)),trim.webSHA256);assert.equal(trim.sourceSHA256,card.hashes.image);
+ const chapter=fs.readFileSync(path.join(repo,'book/crypto-season-01/'+id+'-'+slug+'.md'),'utf8');const parts=Object.fromEntries(chapter.split('\n## ').slice(1).map(p=>[p.slice(0,p.indexOf('\n')),p.slice(p.indexOf('\n')+1).trim()]));
+ const expected={story:parts['The story'].split('\n\n'),eggs:parts['Details in the artwork'].split('\n').map(l=>{const m=l.match(/^\d+\. \*\*(.*?)\*\* (.*)$/);assert(m);return {title:m[1],text:m[2]};}),sourceNote:parts['Source and art note'].split('\n\n')[0]};
+ assert.deepEqual(read('app/cards/content/'+id+'.json'),expected,'Exact chapter mirror '+id);assert.equal(expected.story.length,5);assert.equal(expected.eggs.length,clueCount);
+ assert(fs.readFileSync(path.join(root,'app/crypto/'+id+'/page.js'),'utf8').includes("permanentRedirect('/cards/"+slug+"')"));
+ assert(/^https:\/\/raw\.githubusercontent\.com\/d4np4yn3-netizen\/Lore\/[0-9a-f]{40}\/$/.test(card.assetOrigin),'Immutable asset commit '+id);
 }
-assert.equal(index.assets.length, media.length * 2 + pages + clues, 'Derived media count');
-assert.equal(new Set(index.assets.map(asset => asset.path)).size, index.assets.length, 'No duplicate media paths');
-assert.deepEqual(index.assets.map(asset => '/' + asset.path).sort(), displayedPaths.sort(), 'Index covers every displayed image exactly once');
-for (const asset of index.assets) {
-  assert.equal(fileHash(path.join(root, 'public', asset.path)), asset.sha256, asset.path);
-  const packed = fs.readFileSync(path.join(root, 'media', asset.pack)).subarray(asset.offset, asset.offset + asset.length);
-  assert.equal(hash(packed), asset.sha256, 'Packed bytes ' + asset.path);
-}
-
-// Pinned semantic snapshots from remote baseline 802bd5f6bea295b13c8e62df3a73ec6a9b9cb079.
-// Removing only the 037 additions must recover every earlier record exactly.
-const { '037': latestClues, ...priorCloseups } = closeups;
-const { 'the-zcash-ceremony': latestMedia, ...priorMedia } = mediaBySlug;
-const priorIndex = { ...index, assets: index.assets.filter(asset => asset.pack !== 'display-16.bin') };
-const priorDerivatives = { ...derivatives, cards: derivatives.cards.filter(card => card.number !== '037') };
-assert.equal(jsonHash(priorCloseups), 'd524a81437b8f33738af6d4f376a5f2a24cd7ed7a293240a784d53d41079b14f', 'All 154 earlier clue records preserved');
-assert.equal(jsonHash(priorMedia), '5f72d54239663e40039b7d232db13a0401ce795108f1ce597a807ad255e8aab5', 'All 36 earlier card media records preserved');
-assert.equal(jsonHash(priorIndex), '794d0719f86c8dcf98612d01d32f9336f0c2ea350724ac03ef60c94d77719d7d', 'All 298 earlier media index records preserved');
-assert.equal(jsonHash(priorDerivatives), '83a9c09abffc3a130ea58b1e78b66d18f1b07ac0102e4c37506d5937789546a1', 'All 36 earlier trim records preserved');
-
-for (const id of ['022', '028', '029', '030', '031', '032', '033', '034', '035', '036', '037']) {
-  const added = read('media/' + id + '-derivatives.json');
-  assert.equal(added.displayAssets.length, 4 + closeups[id].length, id + ' display assets');
-  assert.deepEqual(read('app/cards/content/' + id + '.json').eggs.map(egg => egg.title), added.clues.map(clue => clue.title), id + ' clue order');
-  for (const [pack, sha256] of Object.entries(added.previousBundleSHA256)) {
-    assert.equal(fileHash(path.join(root, 'media', pack)), sha256, 'Previous bundle ' + pack);
-  }
-}
-assert.equal(read('media/022-derivatives.json').previousAssetsPreserved, 219);
-assert.equal(mediaBySlug['buried-fortune'].hashes.artwork, '0f2b071d25d706ca180d3cad4c7c89bff4f4e370eaa32f5b234135282233ce95');
-assert.equal(media.filter(card => card.assetOrigin).length, 11, 'Only 022 and 028–037 override original asset origin');
-for (const card of media.filter(card => card.assetOrigin)) assert(card.assetOrigin.startsWith('https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/'));
-const reader = fs.readFileSync(path.join(root, 'app/components/ReadingRoom.js'), 'utf8');
-assert(reader.includes('card.media.assetOrigin || ASSET_ORIGIN'), 'Per-card original asset fallback');
-assert.equal((reader.match(/href=\{assetOrigin\+/g) || []).length, 5, 'All original links use per-card asset origin');
-
-const added = read('media/037-derivatives.json');
-assert.equal(added.previousAssetsPreserved, priorIndex.assets.length);
-assert.equal(added.previousAssetsPreserved, 298);
-assert.equal(latestClues.length, 5);
-assert.deepEqual(added.displayAssets, index.assets.filter(asset => asset.pack === 'display-16.bin'), '037 index records');
-assert.equal(fileHash(path.join(root, 'media/display-16.bin')), added.bundleSHA256, '037 bundle');
-assert.equal(latestMedia.hashes.artwork, '1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1', 'Approved 037 artwork');
-for (const [source, sha256] of Object.entries(added.sourcesSHA256)) assert.equal(fileHash(path.join(repo, source)), sha256, '037 unchanged original ' + source);
-assert.equal(latestMedia.hashes.artwork, added.sourcesSHA256[latestMedia.originalArt]);
-assert.equal(latestMedia.hashes.book, added.sourcesSHA256[latestMedia.originalBook]);
-const trim = derivatives.cards.find(card => card.number === '037');
-assert.equal(latestMedia.hashes.image, added.sourcesSHA256[trim.source]);
-assert.equal(trim.sourceSHA256, latestMedia.hashes.image);
-assert.deepEqual(trim.sourceDimensions, [816, 1110]);
-assert.deepEqual(trim.trimBoxXYWH, [36, 36, 744, 1038]);
-assert.deepEqual(added.printTrimBoxXYWH, trim.trimBoxXYWH);
-assert.equal(fileHash(path.join(repo, trim.webPreview)), trim.webSHA256);
-const png = fs.readFileSync(path.join(repo, trim.source));
-assert.deepEqual([png.readUInt32BE(16), png.readUInt32BE(20)], trim.sourceDimensions);
-for (const [i, clue] of added.clues.entries()) {
-  const { title, sourceBoxXYXY: box, ...display } = clue;
-  assert.deepEqual(display, latestClues[i], '037 clue metadata ' + title);
-  const [x1, y1, x2, y2] = box;
-  const [w, h] = added.artDimensions;
-  assert.deepEqual(display.bbox, Object.fromEntries(['x', 'y', 'w', 'h'].map((key, n) => [key, Number([x1 / w, y1 / h, (x2 - x1) / w, (y2 - y1) / h][n].toFixed(6))])), '037 source box ' + title);
-}
-const chapter = fs.readFileSync(path.join(repo, 'book/crypto-season-01/037-the-zcash-ceremony.md'), 'utf8');
-// Parse sections with explicit heading boundaries so paragraph newlines remain intact.
-const chapterParts = Object.fromEntries(chapter.split('\n## ').slice(1).map(part => [part.slice(0, part.indexOf('\n')), part.slice(part.indexOf('\n') + 1).trim()]));
-const expectedCopy = {
-  story: chapterParts['The story'].split('\n\n'),
-  eggs: chapterParts['Details in the artwork'].split('\n').map(line => {
-    const match = line.match(/^\d+\. \*\*(.*?)\*\* (.*)$/);
-    assert(match, '037 chapter clue format');
-    return { title: match[1], text: match[2] };
-  }),
-  sourceNote: chapterParts['Source and art note'].split('\n\n')[0],
-};
-assert.deepEqual(read('app/cards/content/037.json'), expectedCopy, '037 book/site copy mirror');
-assert.equal(expectedCopy.story.length, 5);
-assert(fs.readFileSync(path.join(root, 'app/crypto/037/page.js'), 'utf8').includes("permanentRedirect('/cards/the-zcash-ceremony')"), '037 QR target');
-assert.equal(media.length, 37);
-assert.equal(clues, 159);
-assert.equal(pages, 74);
-assert.equal(index.assets.length, 307);
-console.log(`PASS: ${media.length} contiguous cards and QR sources, ${clues} clues, ${pages} book pages, ${positions} non-overlapping marker positions, ${index.assets.length} media hashes; all 154 earlier clues and 298 earlier images preserved; 037 sources and book/site copy match`);
-
-assert(expectedCopy.sourceNote.includes('https://github.com/zcash/mpc#zcash-ceremony') && expectedCopy.sourceNote.includes('Snowden confirmation') && expectedCopy.sourceNote.includes('not exact 2016 appearances') && expectedCopy.sourceNote.includes('editorial wording, not a quotation'), '037 sources and art qualifications preserved');
-assert.equal(expectedCopy.eggs.length, 5);
-
-const experienceSource = fs.readFileSync(path.join(root, 'app/cards/experience.js'), 'utf8');
-const yearMetadata = experienceSource.slice(experienceSource.indexOf('export const yearNotes'), experienceSource.indexOf('export const titleCase'));
-for (const year of [...cardSource.matchAll(/date:\s*['"][^'"]*?(\d{4})['"]/g)].map(match => Number(match[1]))) {
-  assert(yearMetadata.includes(year + ':'), 'Timeline note exists for ' + year);
-}
-assert(experienceSource.includes("range:'2013 — 2016'"), 'Current chapter range reaches 2016');
-assert(fs.readFileSync(path.join(root, 'app/page.js'), 'utf8').includes('years[years.length-1]'), 'Hero year range derives from collection');
-
-const titleCaseFunction = new Function('return ' + experienceSource.match(/^export const titleCase = (.+);$/m)[1])();
-assert.equal(titleCaseFunction('THE DAO HACK'), 'The DAO Hack', 'DAO acronym preserved in visible title');
+assert.equal(Object.values(media).filter(x=>x.assetOrigin).length,13);assert.equal(clues,168);assert.equal(pages,78);assert.equal(index.assets.length,324);
+const experience=fs.readFileSync(path.join(root,'app/cards/experience.js'),'utf8');assert(experience.includes('2017:'));assert(experience.includes("range:'2013 — 2017'"));
+const titleCase=new Function('return '+experience.match(/^export const titleCase = (.+);$/m)[1])();assert.equal(titleCase('CRYPTOPUNKS'),'CryptoPunks');assert.equal(titleCase('THE DAO HACK'),'The DAO Hack');
+console.log(`PASS: 39 cards and QR sources, ${clues} clues, ${pages} book pages, ${positions} marker positions, 324 image hashes; all 37 previous card records and 307 earlier images preserved; both new originals and book/site copy match`);

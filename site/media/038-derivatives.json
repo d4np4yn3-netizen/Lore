@@ -1,0 +1,182 @@
+{
+  "card": "038",
+  "purpose": "Separately saved website-only derivatives from exact selected original files.",
+  "sourcesSHA256": {
+    "cards/crypto/season-01/cryptopunks-master-038/art.png": "21027f7ece79e3a6ca3b205f631cb4a648027d4028c27d77c760d36555728abb",
+    "cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.png": "d0af66dbb31e0c0cf86860d26b2293bdf8be31c398b5e69415cda15a6d722254",
+    "book/crypto-season-01/proofs/038-cryptopunks-full-art-spread-v1.pdf": "b8c6d27e7fe90e21842d832325d36081fc5705a39965e8c910f4d57931739974"
+  },
+  "artDimensions": [
+    1060,
+    1484
+  ],
+  "webpEncoding": {
+    "quality": 90,
+    "method": 6
+  },
+  "printTrimBoxXYWH": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "bookRasterization": "Poppler pdftoppm, full pages, 1100 pixels high",
+  "clues": [
+    {
+      "title": "The 10,000 Sign.",
+      "sourceBoxXYXY": [
+        609,
+        576,
+        785,
+        707
+      ],
+      "src": "/closeups/038-01.webp",
+      "width": 176,
+      "height": 131,
+      "alt": "The fixed collection count under the pixel reflection",
+      "bbox": {
+        "x": 0.574528,
+        "y": 0.38814,
+        "w": 0.166038,
+        "h": 0.088275
+      }
+    },
+    {
+      "title": "The Claim Receipt.",
+      "sourceBoxXYXY": [
+        425,
+        801,
+        610,
+        1014
+      ],
+      "src": "/closeups/038-02.webp",
+      "width": 185,
+      "height": 213,
+      "alt": "CLAIM / 0 ETH + GAS paper slip, a symbolic digital-claim prop",
+      "bbox": {
+        "x": 0.400943,
+        "y": 0.539757,
+        "w": 0.174528,
+        "h": 0.143531
+      }
+    },
+    {
+      "title": "The 24 X 24 Note.",
+      "sourceBoxXYXY": [
+        800,
+        826,
+        936,
+        929
+      ],
+      "src": "/closeups/038-03.webp",
+      "width": 136,
+      "height": 103,
+      "alt": "Interior note naming the original portraits\u2019 resolution, not the reflection grid",
+      "bbox": {
+        "x": 0.754717,
+        "y": 0.556604,
+        "w": 0.128302,
+        "h": 0.069407
+      }
+    },
+    {
+      "title": "The Matching Reflection.",
+      "sourceBoxXYXY": [
+        180,
+        98,
+        1025,
+        578
+      ],
+      "src": "/closeups/038-04.webp",
+      "width": 700,
+      "height": 398,
+      "alt": "Human and reflected copper hair, facial features and dark clothing",
+      "bbox": {
+        "x": 0.169811,
+        "y": 0.066038,
+        "w": 0.79717,
+        "h": 0.32345
+      }
+    }
+  ],
+  "displayAssets": [
+    {
+      "path": "archive/038-art.webp",
+      "pack": "display-17.bin",
+      "offset": 0,
+      "length": 375146,
+      "sha256": "d2fd58f9fc418fd774e8546752c0aca21c68d5a01f7ecc17af27c6c544c6de53"
+    },
+    {
+      "path": "archive/038-page-1.webp",
+      "pack": "display-17.bin",
+      "offset": 375146,
+      "length": 247996,
+      "sha256": "31549eab654474ed1a6e4037ab98abca27c59370f0d46850b6bd5b60e9d8f7ec"
+    },
+    {
+      "path": "archive/038-page-2.webp",
+      "pack": "display-17.bin",
+      "offset": 623142,
+      "length": 115610,
+      "sha256": "a2586fa6472ae7dfd3fe672c19fda1057fe253b31772a6ad3d4dadd2c2cc4191"
+    },
+    {
+      "path": "archive/038-web-card.webp",
+      "pack": "display-17.bin",
+      "offset": 738752,
+      "length": 131242,
+      "sha256": "13a76d553f42455a9472919a86141293398f7e7b18d2708e3087dc46b0f55479"
+    },
+    {
+      "path": "closeups/038-01.webp",
+      "pack": "display-17.bin",
+      "offset": 869994,
+      "length": 5684,
+      "sha256": "22143a122658d5f29086780e963b3c28bda82a50e7a5d3c1fedb3efea6ccd5a1"
+    },
+    {
+      "path": "closeups/038-02.webp",
+      "pack": "display-17.bin",
+      "offset": 875678,
+      "length": 13360,
+      "sha256": "ab65c29e49b9f4b6b69a3d9d2f7d8a8878281b75d573419064c2e477289fc2ea"
+    },
+    {
+      "path": "closeups/038-03.webp",
+      "pack": "display-17.bin",
+      "offset": 889038,
+      "length": 4316,
+      "sha256": "34ebbf097099d85a23d11f3815fd3a1e1839c71f664b576e698c0708ea2ae11d"
+    },
+    {
+      "path": "closeups/038-04.webp",
+      "pack": "display-17.bin",
+      "offset": 893354,
+      "length": 79418,
+      "sha256": "ca1eded040950d013a6b6fa44358beeede69823fe93cf03aa5865669734c4fcd"
+    }
+  ],
+  "bundleSHA256": "1d766339f09dd39688e9c14c6878178d1400e0da6c4cc0b36a5c17cf386b3a7e",
+  "previousAssetsPreserved": 307,
+  "previousBundleSHA256": {
+    "display-00.bin": "e5099685d1370d4c8ab4266b5f96e9b73f722a4bf7d6018a35c2f2b9a49b73fe",
+    "display-01.bin": "09e8b8b73a5850771e6879b4a12ada9c53e16b983e4fe908847610277d2b567d",
+    "display-02.bin": "fa397b42e4223e8e10f4f90a4a9959f1a2faf5fb1b9c009e86380e9bc4c65349",
+    "display-03.bin": "e31e793a80f54bbb2b61d661471a30891db8570e09847d988a48dafb167706a1",
+    "display-04.bin": "5f09b26b3c0b7c3cad0effc781f7ca7c3c6c0b3148e7c28411a725581c7fea2b",
+    "display-05.bin": "02ae01506d0402da04db09ad4c009672206b2195a54a317b920a7d928d6743f5",
+    "display-06.bin": "95e61f9b2b27a4f4659938b9bc7f1383cb658de12244bceb82a269e6a3e83892",
+    "display-07.bin": "8216a6ad67b83d418d2098a76bf5cc2b6140428e96961aaa0398a2a634bb07aa",
+    "display-08.bin": "236fff901d67e0cc04d8fc5932cc4b01c4f72bed6a88b121896c3d215f53d8a6",
+    "display-09.bin": "114d9c09f4f1a5273c3051c73c9f9d7ada5c008e1572b348b34cd0c96f5bf4ec",
+    "display-10.bin": "202825ede482fdac0b0593f0c466ffd2de9626bbe7c2dd0c6eb82a278ab4515f",
+    "display-11.bin": "f586a324adacf85a6b029e3ec08142482037adf41f5e5e10749f2a2e1024d6a7",
+    "display-12.bin": "9fb3716d0adcefc592c0e3b9a3603d5174d861521ac794d4a6beb41b82d574e9",
+    "display-13.bin": "8ddaf9ac74a26ce5e813565d86bd42ba596f94e9c5eb947d90c00505c7e0f30a",
+    "display-14.bin": "88ec063b9661e379627dbbc06b98428ce3e6fcbc1614b3311c4bdd72856aad4f",
+    "display-15.bin": "9f978038be5ed98af8dbd49d7ec391c2edd911fee7bace5ca3ad346e0168aaab",
+    "display-16.bin": "80b2edeb5b18a8e3bd85eee2898b9fd49b2acd4b4878a3b453e15bf336bfe68c"
+  },
+  "originalMastersUnchanged": true
+}

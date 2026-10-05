@@ -1,3 +1,7 @@
+# 038 and 039 publication preparation
+
+Two approved cards have been added: CryptoPunks (038) and Behind the Chair (039). The prepared collection contains 39 cards, 168 clues, 78 book previews and 324 display images. Publication verification remains pending; previously published 001–037 and all earlier masters/media are preserved. New display packs are append-only. Physical reproduction remains separate.
+
 # Separately saved website media
 
 These deterministic transport bundles contain the individual display files listed in index.json. They are separate from every approved art, book and print master. `npm run build` and `npm run dev` automatically restore each file into public/archive or public/closeups and verify its SHA-256 before serving it.

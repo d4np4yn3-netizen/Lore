@@ -1,3 +1,7 @@
+# 038 and 039 publication preparation
+
+Two approved cards have been added: CryptoPunks (038) and Behind the Chair (039). The prepared collection contains 39 cards, 168 clues, 78 book previews and 324 display images. Publication verification remains pending; previously published 001–037 and all earlier masters/media are preserved. New display packs are append-only. Physical reproduction remains separate.
+
 # LORE Crypto Season One site
 
 Collection: 001–037, including 037 THE ZCASH CEREMONY. All 37 stable /crypto/NNN/ QR routes redirect to /cards/{slug}. The archive has 159 inspected clues, 37 trimmed card previews and 74 book-page previews. Each story, art clue and source/art note mirrors its numbered Markdown chapter through sync_NNN.py. Original artwork, printer fronts and two-page books are linked from each card. 037 production is verified; see the numbered master's publication-verification.json.

@@ -1,3 +1,11 @@
+# 038 CryptoPunks and 039 Behind the Chair prepared for authorised publication - 5 October 2026
+
+Dan explicitly authorised restarting publication of both saved, approved cards, including GitHub main and the live site. 038 preserves exact reflection v3 art, Epic / JUN 2017 / FREE TO CLAIM. 039 preserves the previously approved canonical artwork, Common / 12 JUL 2017 / BUY BITCOIN. No illustration was regenerated or edited.
+
+Both cards retain the locked print geometry and decode to their stable /crypto/038/ and /crypto/039/ routes in PNG and actual 300-DPI PDF renders. 038 changes only the pending QR/caption and removes book review labels; its four existing Library identities now hold final versions. 039 existing final PNG, printer PDF and book PDF are byte-for-byte preserved; its recovered SVG renders pixel-identically. Each book contains five approved story paragraphs. The site mirrors the same wording and four 038 clues / five 039 clues. Source/art qualifications remain explicit: 2017 CryptoPunks contract image hash versus 2021 pixel storage, free claim plus gas, fictional gallery and original character; Yellen's 12 July House testimony, the fictional plaque and price notes, and the 16 BTC 2024 auction flash-forward.
+
+Prepared collection: 001–039, 168 clues, 78 book-page previews and 324 display assets. New derivatives append in display-17.bin and display-18.bin. All 307 previous display images, 37 published card records, old master files and the previous Behind the Chair registry object are preserved. There are 42 unique approved designs. Live publication checks are pending; the published count remains 37 until those checks pass. Native artwork remains 1060 × 1484, about 126.91 PPI at full A4. Physical print release, phone-camera QR testing and book reproduction remain false.
+
 # 037 The Zcash Ceremony published and verified - 4 October 2026
 
 Dan approved the exact reviewed coinlit-anime v5 artwork, card, metadata and two-page book, then requested GitHub/site upload. ZCASH / THE ZCASH CEREMONY / Uncommon / 22–23 OCT 2016 / ONE HONEST WITNESS / 037/100. The phrase is an approved editorial paraphrase, not a historical quotation. Exact art SHA-256 `1e0cd87ba01008d353ce974ffa059920d22fb4d527b1a3c09ceb458652107ae1` is unchanged.
