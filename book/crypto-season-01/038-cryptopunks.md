@@ -1,0 +1,28 @@
+# 038 — CryptoPunks
+
+JUN 2017 / LARVA LABS / EPIC
+
+FREE TO CLAIM
+
+## The story
+
+In June 2017, Matt Hall and John Watkinson of Larva Labs released CryptoPunks: 10,000 unique, algorithmically generated characters on Ethereum. Each original portrait occupied just 24 by 24 pixels. Hairstyles, accessories and facial details made the tiny figures distinct, drawing on punk and cyberpunk culture.
+
+The initial claim had no purchase price, but it still required an Ethereum transaction and a network fee. An Ethereum wallet could claim a Punk and then keep it, offer it for sale or trade through the project's built-in marketplace. The experiment asked whether a digital collectible could carry the feeling of ownership associated with a physical one.
+
+Collectors began using Punks as profile pictures, turning a small image into a public identity. The collection helped establish the familiar pattern of generative traits, limited supply and communities formed around avatars. It also influenced the later ERC-721 token standard. CryptoPunks became a defining early profile-picture collection.
+
+The images' blockchain history has two stages. In 2017, the contract stored a cryptographic hash linking it to the composite image of all 10,000 Punks. The image pixels themselves were not stored there at launch. Larva Labs announced a separate on-chain home for the images and their attributes on 18 August 2021.
+
+Here, an original copper-haired character meets a pixelated reflection in a rain-soaked shop window. Their shared features turn the idea of choosing an avatar into a personal encounter. The street, shop and receipt are imagined staging for a digital claim, rather than a reconstruction of a real June 2017 exhibition.
+
+## Details in the artwork
+
+1. **The 10,000 Sign.** The number beneath the reflection points to the collection's fixed set of 10,000 distinct characters. It is a collection count, not a price or an edition size for this LORE card.
+2. **The Claim Receipt.** CLAIM / 0 ETH + GAS separates the initial purchase price from the Ethereum network fee. The paper slip is a symbolic prop; the claim happened digitally.
+3. **The 24 X 24 Note.** The small interior label names the original CryptoPunks portraits' pixel resolution. The larger reflection is an artistic interpretation, not a verified literal 24-by-24 grid.
+4. **The Matching Reflection.** Copper hair, facial features and clothing connect the visitor to their digital counterpart. This expresses avatar identity; it is an original character, not a claimed reproduction of a specific numbered Punk.
+
+## Source and art note
+
+Sources: [NODE project history](https://nodefoundation.com/cryptopunks); [Larva Labs project account](https://www.larvalabs.com/cryptopunks); [Larva Labs on-chain announcement](https://www.larvalabs.com/writing/2021-8-18-18-0/on-chain-cryptopunks). FREE TO CLAIM uses NODE's retrospective wording, not a verified 2017 launch quotation. The scene and character are original illustrative interpretations. No affiliation, endorsement or rights clearance is implied.
