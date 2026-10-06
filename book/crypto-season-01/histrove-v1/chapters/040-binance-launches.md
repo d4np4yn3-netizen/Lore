@@ -1,0 +1,28 @@
+# 040 - Binance Launches
+
+14 JUL 2017 / UNCOMMON
+
+OPEN FOR THE WORLD.
+
+## The story
+
+On 14 July 2017, Changpeng Zhao and a team that included colleagues from his earlier company, Bijie Tech, launched Binance. They brought experience building exchange software to a new task: operating a cryptocurrency exchange of their own.
+
+The launch followed the BNB token sale. Binance's announcement of 8 July recorded the issuance of 100 million BNB for the ICO. BNB and the exchange were closely linked from the beginning, but the token sale and the opening of trading were separate events.
+
+This was a small startup, not the vast institution the name would later suggest. Binance's own retrospective describes a founding team of approximately 30 people, mostly former software engineers, initially providing crypto-to-crypto spot trading.
+
+The illustration brings that beginning back to human scale. CZ opens a glass door into an ordinary reception area: a counter, plants, ceiling lights and colleagues working beyond it. The composition draws on surviving office-tour footage, while the welcoming pose, warm light and small props are artistic staging.
+
+Binance's first months also brought disruption. In his later account, Zhao describes the September 2017 restrictions in China and the team's departure. This card stays with the opening chapter, before that relocation and the exchange's later global growth.
+
+## Details in the artwork
+
+1. **THE BNB FOLDER** BNB / ICO 2017 connects the new exchange to the preceding token sale. The folder is an illustrative prop, not an authenticated company document.
+2. **THE JULY CALENDAR** July 2017 anchors the launch month. The card date, 14 July, is supported by Zhao’s retrospective; the calendar is invented staging.
+3. **BUY BITCOIN** The yellow note is a deliberate callback to card 039 and its handwritten sign. It is not claimed to have appeared in the real office.
+4. **THE MODEST RECEPTION** The glass doorway, counter, wall sign and plants draw on office-tour footage. This environmental detail recalls the startup’s small beginnings; the footage’s exact recording date and address are unverified.
+
+## Source and art note
+
+Sources: [CZ’s 2022 account](https://www.binance.com/en/blog/from-our-ceo/2386330931319516973); [BNB issuance announcement, 8 July 2017](https://www.binance.com/en/support/announcement/detail/115000574131); [Binance’s 2023 founding-team retrospective](https://www.binance.com/en/blog/ecosystem/1968152125579137703); [reposted office-tour footage](https://www.binance.com/en/square/post/1186706). The scene is an artistic interpretation, not a photograph of launch day. OPEN FOR THE WORLD. is editorial wording, not a quotation. Binance marks belong to their owner; no affiliation, endorsement or rights clearance is implied. Commercial rights and physical-print review remain outstanding.
