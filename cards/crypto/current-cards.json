@@ -2,7 +2,7 @@
   "updated": "2026-10-06",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 44,
+  "approved_visual_count": 45,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -6472,6 +6472,56 @@
         "physical_print_release": false
       },
       "book": "book/crypto-season-01/histrove-v1/041-bitcoin-cash-fork-histrove-v1.pdf",
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
+    },
+    {
+      "id": "crypto-s01-segwit-activates",
+      "moment_number": 42,
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "uncommon",
+      "creator": "BITCOIN",
+      "title_line_1": "SEGWIT",
+      "title_line_2": "ACTIVATES",
+      "context": "BITCOIN UPGRADED.",
+      "moment_label": "24 AUG 2017",
+      "set_label": "CRYPTO • SEASON 01 • 042/100",
+      "artwork": "cards/crypto/season-01/segwit-activates-master-042/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/042/",
+      "status": "PUBLICATION_AUTHORISED",
+      "artwork_status": "APPROVED_BY_DAN",
+      "phrase_status": "EDITORIAL_UNDER_PUBLICATION_REQUEST",
+      "qr_status": "PUBLISHED_ROUTE",
+      "print_release": false,
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-042-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-042-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-042-Front-Print-v1.pdf",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/segwit-activates-master-042/art.png",
+        "bytes": 3185051,
+        "sha256": "576e9b94275106918e77ea41720a21d127cee6cf92dd5e433c6388d490ec11ba"
+      },
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-042-Front-Print-v1.png",
+          "bytes": 1130436,
+          "sha256": "40c81d41ceec3d605323e475ffa1fb0b374095f5f93ea8832ca25ee24fa7e16d"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-042-Front-Print-v1.pdf",
+          "bytes": 4754126,
+          "sha256": "99b1f59de0c68c21d1893a0569ccdb65046ba368d8ba5ee2bae61e0532685ef6"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-042-Front-Print-v1.svg",
+          "bytes": 4814600,
+          "sha256": "290f6c68b0ea383ba760b6bce583e6a370b4a32627c91aa47357aa180e6bb26b"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/042.json",
+        "physical_print_release": false
+      },
+      "book": "book/crypto-season-01/histrove-v1/042-segwit-activates-histrove-v1.pdf",
       "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
     }
   ],
