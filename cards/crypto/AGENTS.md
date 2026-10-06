@@ -1,3 +1,11 @@
+# Crypto print v1.2 — approved framing, 6 October 2026
+
+Dan approved the exact 001 v1.2 proof and authorised the 39-card rollout and a matching shared back. For **new Crypto print derivatives**, use `cards/crypto/master/print-v1.2` and its renderer/templates. This supersedes the 24 September print-v1.0 geometry below; creator masters and original approved artwork are unchanged.
+
+Current delivery folder: `cards/crypto/print-ready/v1.2`. Canvas 816×1110 at 300 DPI, cut 744×1038, safe 684×981. Frame margins are 3.080 mm on all four straight sides for fronts; shared back 3.048 mm. The approved template is 900×1287.625 units, scale 672/886, translated equally by 66.690744921 in x and y. Illustration fills proportionally with the approved slight side crop. Preserve exact source image bytes, approved per-card artwork offsets, wording, rarity, font styles, logo paths and QR payload. Header/footer repositioning is the specific authorised exception.
+
+See `cards/crypto/master/print-v1.2/approval.json` and `print-spec.json`. Keep the old masters and all historical print files. The 39 published numbered cards have active `print_ready` records in `cards/crypto/current-cards.json`; the three unnumbered archived designs keep their old records and placeholder QR status. Future cards must start with the new print template and follow the normal art/copy approval workflow. Physical printer/sample acceptance remains a separate status; do not infer it from visual approval or automated QA.
+
 # Crypto collection instructions
 
 Read ART-STYLE.md, style-reference-lock.json, COLLECTION-RULES.md and

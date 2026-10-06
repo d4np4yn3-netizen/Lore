@@ -1,3 +1,13 @@
+# Crypto print framing v1.2 — 6 October 2026
+
+Dan approved the exact 001 v1.2 front and authorised GitHub save, the agreed 39 numbered approved cards, a dedicated printer folder, the matching shared back and future templates. Active printer files: `cards/crypto/print-ready/v1.2`; future six-rarity template: `cards/crypto/master/print-v1.2`. Registry records now add `print_ready` pointers without replacing original art, source masters or older card records.
+
+All 39 PNG and PDF exports pass dimension, safe-area and QR checks. 001 PNG is pixel-identical to Dan's reviewed reference. Native illustration bytes, copy, rarity, typography, logo and QR geometry are preserved; Pizza Day's intentional artwork offset is retained. The back is adapted from the exact previously approved no-tagline v6 source, using even framing and its original centred logo. Review pair and contact sheets are in the new print folder.
+
+The front frame margin is 3.080 mm on every straight cut edge; back 3.048 mm. PNGs are 816×1110 at 300 DPI, as required by the supplied template. Vector PDFs keep native art and outlined lettering. The website's full art, displayed cards, book pages and clue assets remain unchanged; print-download links use the new revision. No physical printer/sample acceptance is inferred. The three older unnumbered designs retain their placeholder QR and historical print status.
+
+Next: Dan reviews the matching back and sends the clean files to the printer for acceptance/sample production. Continue future cards with the new template. See the approval/spec/QA records for exact scope and hashes.
+
 # 038 CryptoPunks and 039 Behind the Chair published and verified - 5 October 2026
 
 Both approved cards are live on GitHub main and production. Content release b16e2f5440f8e34bf449119ae2d14c10b268c7c7 is deployed READY as dpl_FFa5659v6xdChxAFb875q2xWwy7q; all twelve originals are pinned to immutable asset commit 22f32e165862020b5ec5bbd837f65e58e3b72364. The full 39-route sweep, seventeen new display-image hashes, twelve original-download hashes, actual PNG and 300-DPI printer-PDF QR decodes, native book pixels, exact book/site copy and independent desktop browser interactions pass. See each numbered master's publication-verification.json and verification records for coverage and limitations.

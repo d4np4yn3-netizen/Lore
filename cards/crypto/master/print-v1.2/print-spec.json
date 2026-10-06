@@ -1,0 +1,84 @@
+{
+  "revision": "LORE-CRYPTO-PRINT-v1.2",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-10-06",
+  "approval_scope": "001 v1.2 framing and authorised application to numbered cards 001-039; matching shared back requested",
+  "full_bleed_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "full_bleed_mm": [
+    69.088,
+    93.98
+  ],
+  "trim_box_px": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "safe_box_px": [
+    66,
+    64.5,
+    684,
+    981
+  ],
+  "layout_units": [
+    900,
+    1287.625
+  ],
+  "scale": 0.7584650112866818,
+  "translate": [
+    66.69074492099321,
+    66.69074492099321
+  ],
+  "layout_height_delta": 27.625,
+  "front_frame_stroke_bounds_px": [
+    72.37923250564333,
+    72.37923250564333,
+    743.6207674943566,
+    1037.6207674943566
+  ],
+  "front_margin_mm": 3.0801083521444683,
+  "back_margin_mm": 3.048,
+  "artwork_proportional_enlargement_from_v1_1_percent": 2.242288961038961,
+  "illustration_bytes": "unchanged; proportional centre fill with existing per-card translations retained",
+  "text_logo_qr": "same dimensions as approved 001 v1.2; header/footer positions follow taller frame",
+  "fonts": "cards/master/front-v3/source/fontconfig.xml",
+  "templates": [
+    {
+      "path": "cards/crypto/master/print-v1.2/templates/common.svg",
+      "bytes": 28267,
+      "sha256": "9367ce37a6d0079c2f09803af61d146a7ea4e394cfc2804fb0d5841c4d54931e"
+    },
+    {
+      "path": "cards/crypto/master/print-v1.2/templates/epic.svg",
+      "bytes": 28268,
+      "sha256": "fd7d66a92560afd62fc19dab8f6a76bf97139d0ef6966be0422942596e881cc4"
+    },
+    {
+      "path": "cards/crypto/master/print-v1.2/templates/legendary.svg",
+      "bytes": 28273,
+      "sha256": "926ea5b7b849f2b3d0b812794d71ecea50b20a4772fb3996e03859f1a4807b8e"
+    },
+    {
+      "path": "cards/crypto/master/print-v1.2/templates/mythic.svg",
+      "bytes": 28274,
+      "sha256": "e89fabd101f295cbb5170e30286f2d0a23fa817ba91de0b11574323071d6553c"
+    },
+    {
+      "path": "cards/crypto/master/print-v1.2/templates/rare.svg",
+      "bytes": 28270,
+      "sha256": "1ae2d62bc9065f572905b4e28acefd0c3dd8e35e80dc0af74723df692a373c07"
+    },
+    {
+      "path": "cards/crypto/master/print-v1.2/templates/uncommon.svg",
+      "bytes": 28279,
+      "sha256": "2da23b83714e31975f9bed764e60a1d94690455f91518155efb0cd80870226db"
+    }
+  ],
+  "printer_acceptance": false,
+  "physical_sample_approval": false,
+  "print_release": false
+}
