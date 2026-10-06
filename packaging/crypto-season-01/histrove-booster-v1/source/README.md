@@ -1,0 +1,9 @@
+# Exact review composition source
+
+`build-as-reviewed.py` is the exact script executed for the approved deliverables, retained without a post-approval rewrite. `build_booster.py` supplies the original vector lettering and layout helpers. `approved-type-overlay.svg` contains the exact outlined new type. `v2-clean-recovered.pdf` is the clean embedded wrapper PDF Form recovered from page 2 of the archived v2 guide proof; it preserves native raster images, clipping, vector framing, and QR. This extraction is not a claim that an independently uploaded v2 clean PDF was supplied.
+
+The script records the original working-folder arrangement. To reproduce in a new workspace, map its original inputs as follows: `histrove-booster/source` to this source folder (template was `Lore/Booster-Pack.pdf`); `histrove-rollout/repo` to the repository root; its `brand/assets/png/histrove_compact_white_transparent-2400.png` to the approved current compact logo; and `cards/master/front-v3/source/fonts` to the pinned font folder. The script writes to `output`; move review previews into the review subfolder only after checks. Do not overwrite the approved artifacts with a rerender without comparing the result.
+
+No illustration regeneration occurred. Full-contained vector redaction removes old lettering in the replacement regions while preserving the original clipped artwork. The approved alpha-clean PNG is used for the identity because the SVG mask produced a visible dark backing in this PDF-export path. Two exact native 1060 × 1484 illustrations remain embedded in the final PDF. Original approved artwork and all historical package files remain recoverable.
+
+Dependencies used: Python, Pillow, NumPy, PyMuPDF, pypdf, fontTools, Inkscape; QR QA used zxing-cpp. Technical QA is recorded in the parent manifest. No physical print or trademark clearance is claimed.

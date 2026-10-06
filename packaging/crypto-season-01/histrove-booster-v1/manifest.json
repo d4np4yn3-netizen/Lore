@@ -1,0 +1,102 @@
+{
+  "status": "USER_APPROVED_DESIGN_GITHUB_PUBLICATION_AUTHORISED",
+  "template_sha256": "604c4579ff47c022574a8ccfeab475a6eaf02ff13a32ed9ece27295bced1d3c3",
+  "page_pt": [
+    0.0,
+    0.0,
+    487.5589904785156,
+    374.1730041503906
+  ],
+  "canvas_mm": [
+    172,
+    132
+  ],
+  "png_px": [
+    2032,
+    1560
+  ],
+  "dpi": [
+    299.9994,
+    299.9994
+  ],
+  "qr": "https://lore-site-v1.vercel.app/",
+  "png_and_pdf_qr_decode_pass": true,
+  "live_destination_http_status": 200,
+  "original_art_regions_and_qr_pixel_identical": true,
+  "visual_QA": "Front/back and guide PDF renders inspected; no collisions or visible obsolete brand names except retained live URL. Text is within template heat-seal boundary. Front count is 5.3 pt and warrants physical sample inspection.",
+  "front_tagline_pt": 6.4,
+  "art_resolution": [
+    {
+      "native_px": [
+        1060,
+        1484
+      ],
+      "placed_rect_pt": [
+        137.79579162597656,
+        68.39349365234375,
+        342.9971008300781,
+        355.6753234863281
+      ],
+      "effective_ppi_x": 371.9274516133278,
+      "effective_ppi_y": 371.92745556426513
+    },
+    {
+      "native_px": [
+        1060,
+        1484
+      ],
+      "placed_rect_pt": [
+        321.19317626953125,
+        119.07273864746094,
+        464.7749938964844,
+        320.0872802734375
+      ],
+      "effective_ppi_x": 531.5436262151987,
+      "effective_ppi_y": 531.5436342849752
+    }
+  ],
+  "logo": "Exact approved 2400px compact PNG, approximately 909ppi on front; native embedded brush source 2172px. Raster logo, vector QR and added outlined text.",
+  "old_pdf_source_layers": "Old lettering paths removed by fully-contained vector redaction in replacement regions; original images and clipped art geometry preserved.",
+  "production_limits": [
+    "RGB colour, no printer profile",
+    "No foil separation or physical material simulation",
+    "Physical sample and printer acceptance pending",
+    "Indicative rear assembly requires printer fin-seal confirmation"
+  ],
+  "files": [
+    {
+      "name": "HISTROVE-Crypto-S01-Booster-Review-v1-Clean.pdf",
+      "sha256": "26965c3d43884a1c51b9b84f7304306022cb55544a46664b4f4176559927e83e",
+      "bytes": 7273421
+    },
+    {
+      "name": "HISTROVE-Crypto-S01-Booster-Review-v1-Guide-Proof.pdf",
+      "sha256": "d77cf3628902a0b9337b72ae68d102c32b580049298234f4821dfd9acec7417f",
+      "bytes": 7684514
+    },
+    {
+      "name": "HISTROVE-Crypto-S01-Booster-Review-v1-Front-and-Back.png",
+      "sha256": "bbd7dce37d6e5be70e67f32f1d9775f7e518845390ccaff045226c1082f93e6a",
+      "bytes": 905631
+    },
+    {
+      "name": "HISTROVE-Crypto-S01-Booster-Review-v1-300dpi.png",
+      "sha256": "353f6429695c8ccbfe2ff51d247bb9e486c62ff801d3bf2c9b01f113400c4a43",
+      "bytes": 1426693
+    }
+  ],
+  "approval": {
+    "approved_by": "Dan Payne",
+    "date": "2026-10-06",
+    "exact_message": "happy, upload to github!",
+    "scope": "Exact HISTROVE booster review v1 files; GitHub publication. Physical manufacturing approval is not inferred."
+  },
+  "parent_commit": "12c6e49b03fad905b5a6680608d76a614e60e9dd",
+  "archive": "../archive/lore-booster-review-v2",
+  "library_ids": {
+    "HISTROVE-Crypto-S01-Booster-Review-v1-Front-and-Back.png": "libfile_a3e662a31c208191932140cf888bc80b",
+    "HISTROVE-Crypto-S01-Booster-Review-v1-300dpi.png": "libfile_ce501ef0cd88819197271788d49fd59d",
+    "HISTROVE-Crypto-S01-Booster-Review-v1-Clean.pdf": "libfile_1b69e43da45c81918643eaf34660699a",
+    "HISTROVE-Crypto-S01-Booster-Review-v1-Guide-Proof.pdf": "libfile_a6c80b3c4ad08191a9d7accaa7362e6b"
+  }
+}
