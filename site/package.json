@@ -7,7 +7,7 @@
     "start": "next start",
     "prebuild": "node scripts/unpack-media.cjs",
     "predev": "node scripts/unpack-media.cjs",
-    "test": "node scripts/unpack-media.cjs && node scripts/check-discovery.mjs && node scripts/check-print-files.mjs && node scripts/check-book-assets.mjs"
+    "test": "node scripts/unpack-media.cjs && node scripts/check-discovery.mjs && node scripts/check-print-files.mjs && node scripts/check-book-assets.mjs && node scripts/check-040.mjs"
   },
   "dependencies": {
     "next": "16.0.10",

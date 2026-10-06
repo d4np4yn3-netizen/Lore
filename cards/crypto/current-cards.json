@@ -2,7 +2,7 @@
   "updated": "2026-10-06",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 42,
+  "approved_visual_count": 43,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -6372,6 +6372,56 @@
           "physical_print_release": false
         }
       ]
+    },
+    {
+      "id": "crypto-s01-binance-launches",
+      "moment_number": 40,
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "uncommon",
+      "creator": "CHANGPENG ZHAO",
+      "title_line_1": "BINANCE",
+      "title_line_2": "LAUNCHES",
+      "context": "OPEN FOR THE WORLD.",
+      "moment_label": "14 JUL 2017",
+      "set_label": "CRYPTO • SEASON 01 • 040/100",
+      "artwork": "cards/crypto/season-01/binance-launches-master-040/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/040/",
+      "status": "PUBLICATION_AUTHORISED",
+      "artwork_status": "APPROVED_BY_DAN",
+      "phrase_status": "EDITORIAL_UNDER_PUBLICATION_REQUEST",
+      "qr_status": "PUBLICATION_PENDING",
+      "print_release": false,
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v1.pdf",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/binance-launches-master-040/art.png",
+        "bytes": 2059933,
+        "sha256": "bd146617ae8b78edf5d7e19c451b7134f1686439755fdb05ab0a7ea8aadd94d8"
+      },
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v1.png",
+          "bytes": 741513,
+          "sha256": "ec0e291f50b229a02b0794b42f057186e838276ee64d2c87ae1b203492687dc4"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v1.pdf",
+          "bytes": 3739972,
+          "sha256": "91cbede771f0c765e7a421bcf3d53f8150a78917db26a465a0fd78d42b7a6db8"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v1.svg",
+          "bytes": 3314243,
+          "sha256": "536f21eda019a84c79d2d31f19f0b5f07bf5216e9452461409a969cf662282b9"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/040.json",
+        "physical_print_release": false
+      },
+      "book": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v1.pdf",
+      "rights_review": "BINANCE logo rights not cleared; user chose publication 6 October 2026 and will review before printing/launch."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
