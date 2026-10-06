@@ -1,0 +1,26 @@
+# 032 - Ethereum Goes Live
+
+**Crypto · Season One · Mythic · 30 July 2015**
+
+**Phrase:** THE WORLD COMPUTER WAKES (editorial wording, not a historical quotation)
+
+## The story
+
+Purple light runs through a bank of pipes toward a city still being built. Above the junction, concrete panels form an Ethereum-shaped tower, its open floors and scaffolding exposed to the evening sky. This imagined industrial landscape gives computation a physical form: the machinery has come alive while much of the building remains unfinished.
+
+On 30 July 2015, Ethereum's Frontier release went live. Participants generated and loaded the genesis block, establishing the starting point of the new network. The launch brought the idea of a programmable blockchain into a live system that developers could begin working with. Ethereum's announcement described the ambition as a world computer that anyone could program, paying for the resources they used.
+
+Frontier was deliberately early and rough. The team described it as a barebone release for technical users, with command-line tools, limited documentation and bugs still to be expected. Its first software imposed a temporary block gas limit of 5,000, effectively preventing normal transactions during the initial thawing period while miners and other participants got their clients running.
+
+Gas measures computational work. In this illustration, glowing pipes make that abstract resource visible, directing the eye toward the zero at the city's junction. The scene is fictional: Ethereum has no central gasworks or physical fuel supply. The unfinished tower expresses a network ready for builders, with its future still open. Where The Ether Sale imagined what might be built, Ethereum Goes Live shows the infrastructure beginning to work.
+
+## Details in the artwork
+
+1. **The Frontier sign.** The gantry names Ethereum's first live release. Its placement in a fictional industrial city makes a software milestone part of the landscape.
+2. **The genesis zero.** The illuminated 0 at the central junction represents the genesis block, the network's starting point. The physical module is an invented visual symbol.
+3. **The 5,000 limit.** BLOCK GAS LIMIT 5,000 records Frontier's initial thawing restriction. It is a limit on gas per block, not a gas price or a pressure reading.
+4. **The unfinished landmark.** Concrete panels, open floors and scaffolding turn Ethereum's diamond into architecture. They express the developer-focused release's unfinished state. The city also echoes card 028, The Ether Sale, carrying its imagined future into the first live network.
+
+## Source and art note
+
+[Ethereum Launches, 30 July 2015](https://blog.ethereum.org/2015/07/30/ethereum-launches) confirms Frontier and the genesis block. [Frontier is coming, 22 July 2015](https://blog.ethereum.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare) describes the early release and 5,000-gas thawing limit. [Ethereum's gas guide](https://ethereum.org/developers/docs/gas/) explains gas as computational work. The city, pipes and buildings are an artistic metaphor, not a historical site. The GAS arrows guide the eye toward the city.

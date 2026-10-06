@@ -1,0 +1,28 @@
+# 002 - Cypherpunk Manifesto
+
+**Crypto · Season One · Epic · 9 March 1993**
+
+**On the card:** CYPHERPUNKS WRITE CODE.
+
+## The story
+
+A manifesto is passed towards you while a programmer keeps typing. One person shares the argument; another builds the tools. The scene imagines the practical spirit of the cypherpunks: privacy needs people willing to make it work.
+
+On 9 March 1993, Eric Hughes set out that argument in *A Cypherpunk's Manifesto*. Privacy, he wrote, was different from secrecy. Keeping something private did not mean hiding everything from everyone. It meant having a choice about what to reveal, to whom, and when. An open electronic society needed room for that choice.
+
+The manifesto connected this principle to everyday dealings. A transaction need not reveal every personal detail about the people involved. Cryptography, digital signatures and anonymous systems could help limit what others learned. Hughes called for people to build and share the software themselves. The card's phrase, **CYPHERPUNKS WRITE CODE.**, captures that shift from an argument to an action.
+
+In HISTROVE's imagined den, the screens light the work in progress. The paper reaches beyond the room, inviting the next person to take part. On the left, an envelope marked *Blind Signatures, 1982* links this moment back to card 001. Chaum's earlier work and Hughes's manifesto are different contributions to the same question: how can people participate in electronic life without giving away more than they choose?
+
+## Hidden in the artwork
+
+1. **The returning envelope.** The cream envelope carries the handwriting, year and round ink-stamp motif from card 001. It connects Chaum's blind-signature idea to this later call for privacy tools; it is a HISTROVE callback, not a historical artefact.
+2. **The forwarding sketch.** The envelope-and-arrows diagram on the left CRT points to anonymous mail forwarding, named in the manifesto. It is a visual clue, not a complete diagram of an anonymity system.
+3. **The code on screen.** The braces and terminal text echo the instruction to build working software. The developer's hands stay on the keyboard while the manifesto is shared. The pictured code is illustrative, not a verified cryptographic program.
+4. **The privacy curtain.** The small teal curtain at the upper right partly covers a note. It turns selective disclosure into a physical detail: some information is visible, while the person keeps control of the rest.
+
+## Source and art note
+
+Eric Hughes, [A Cypherpunk's Manifesto](https://nakamotoinstitute.org/library/cypherpunk-manifesto/), 9 March 1993. The den, people and paper handoff are an imagined scene, not a documented meeting or reconstruction of Hughes's workspace. Fine illustration lettering is approximate. The full original text is available through the card's QR link.
+
+**Editorial status:** Dan approved the finished 002 card and this chapter text for the book and website on 26 September 2026. The full-art A4 spread uses approved copy; page design and physical print reproduction remain review proofs. The QR leads to the card's story, four decoded details and the original manifesto. Physical print release remains separate.

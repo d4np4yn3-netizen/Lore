@@ -1,0 +1,28 @@
+# 008 - Pizza Day
+
+**Crypto · Season One · Legendary · 22 May 2010**
+
+**Card phrase:** 10,000 BITCOINS FOR PIZZA.
+
+## The story
+
+Two open pizza boxes fill the desk. Steam rises into a spiral of golden coins, while the computer glows blue behind them. The scene gives an invisible payment a physical destination: dinner. After the whitepaper, the first block and the first transfer, this chapter brings Bitcoin into an ordinary human exchange.
+
+On 18 May 2010, Laszlo Hanyecz offered 10,000 bitcoins on the Bitcoin Forum for two large pizzas delivered to his home in Jacksonville, Florida. Four days later, he returned to report success and thank the user known as jercos. That confirmation on 22 May gives this card its date. The phrase beneath the title is drawn from his completion post.
+
+Jercos was Jeremy Sturdivant. In a later interview, he recalled paying for the delivery online with a card and arranging the exchange through IRC. The bitcoin went to another person who organised the meal; the restaurant was paid through an ordinary ordering system. A small online community had found a way to turn its experimental currency into something useful beyond a computer screen.
+
+The familiar temptation is to imagine what those coins could buy years later. This image stays with the moment when they bought food. The pizzas are large, warm and immediate; the coins are a visual metaphor for value changing hands. The room, moonlit view and flying gold are an imagined setting, rather than a reconstruction of Hanyecz's home or the delivery hour. The meal makes the experiment tangible.
+
+## Hidden in the artwork
+
+1. **A plane from the previous chapter.** A tiny folded-paper plane passes the window above the bridge. It echoes the whitepaper plane from 007, The First Transfer: a quiet connection between the first handoff and a later everyday purchase. This is a collection crossover, not a historical aircraft.
+2. **The transaction screen.** The monitor shows 10,000 BTC, block 57043 and the shortened transaction ID a1075d...f5d48d. Its 18:16:31 UTC time belongs to the block record, not the moment the pizzas arrived.
+3. **The bridge beyond the window.** The cable-stayed bridge is a visual reference to Jacksonville, the city Hanyecz gave in his forum reply. This is an invented view, not evidence of his actual address or window.
+4. **The tucked-away napkin.** The Papa John's lettering sits near the lower-left pizza box. It recalls the branding visible in the original pizza photographs; the napkin itself is an imagined prop.
+
+## Source and art note
+
+Laszlo Hanyecz's [original forum thread](https://bitcointalk.org/index.php?topic=137.0), including the 18 May offer and [22 May completion post](https://bitcointalk.org/index.php?topic=137.msg1195#msg1195); [Jeremy Sturdivant interview](https://www.bitcoinwhoswho.com/blog/2016/01/30/a-living-currency-an-interview-with-jercos-party-to-first-bitcoin-pizza-transaction/), 30 January 2016; [transaction record](https://blockchair.com/bitcoin/transaction/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d). The original photos show Papa John's; Sturdivant's later recollection of the ordering website differs. The room, night sky, napkin and coin spiral are artistic interpretation. The tiny paper plane is a deliberate crossover from card 007.
+
+**Editorial status:** Artwork with the tiny paper-plane crossover, Legendary 008/100 card, book text and two-page spread approved by Dan on 27 September 2026. GitHub and website publication authorised. Approval: “Approved. Love it. Update it to GitHub, Asana, everything you need to do, and then we'll move on to the next card.” Physical print release and book reproduction specifications remain separate.

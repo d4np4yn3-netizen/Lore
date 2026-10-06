@@ -1,0 +1,28 @@
+# 026 - Quantum
+
+**Crypto · Season One · Common · 3 May 2014**
+
+**Approved phrase:** ART MEETS THE CHAIN. (editorial caption, not a quotation)
+
+## The story
+
+Purple geometry seems to lift away from the monitor and gather above the artist’s hand. The desk is crowded with papers and studies; a lamp adds a small pool of amber to the screen’s colder light. HISTROVE turns an abstract experiment into a visible encounter between image and record. The forms are newly invented for this illustration, rather than a reproduction of Quantum itself.
+
+In May 2014, artist Kevin McCoy and technologist Anil Dash worked together for Rhizome’s Seven on Seven at the New Museum in New York. McCoy registered his animated artwork Quantum on the Namecoin blockchain. Sotheby’s later catalogue records the original registration as 3 May, the date carried by this card. Their experiment helped develop Monegraph, an early attempt to establish provenance for digital art through a public ledger.
+
+The problem began with something the internet did very well: copying. An image could circulate widely while the record of its maker and ownership became harder to follow. McCoy and Dash explored attaching a verifiable record to a work without requiring the image itself to disappear behind a locked door. The experiment concerned a claim and its history; it did not make the digital file impossible to duplicate.
+
+Quantum became a landmark in the early history of blockchain art, often discussed as an ancestor of the later NFT market. HISTROVE holds the scene close to the desk, where the idea is still being worked out. The pinned studies suggest an animation taking shape, while the small Namecoin slip gives the experiment its technical anchor. Beyond them, the light leaves room for all the arguments and possibilities that would follow.
+
+## Details in the artwork
+
+1. **The Namecoin slip.** The slip beneath the lamp names the blockchain used for the early registration. It is an invented studio prop, not a surviving receipt or a later Ethereum interface.
+2. **Studies 01, 02 and 03.** The numbered geometric studies suggest successive animation frames. They are original illustrative designs, not claimed preparatory drawings by McCoy or reproductions of the animated Quantum artwork.
+3. **A grid from a later chapter.** The colourful catalogue grid foreshadows planned card 064, Everydays at Auction. It is a deliberately anachronistic thematic clue, not a documented studio object or a copy of future card artwork.
+4. **The artist’s hand.** The open hand beneath the illuminated geometry keeps creation at the centre of the scene. Floating light gives an immaterial idea a visible form; it does not depict a physical event or a technical step in blockchain registration.
+
+## Source and art note
+
+[Sotheby’s catalogue](https://www.sothebys.com/en/buy/auction/2021/natively-digital-a-curated-nft-sale-2/quantum) supplies the card’s 3 May date; [Anil Dash’s contemporary account](https://medium.com/message/a-bitcoin-for-digital-art-8c7db719e495) describes work on the evening of 2 May. [Rhizome’s account](https://seed.trlab.com/article/the-first-nft) documents Quantum and Monegraph. These accounts use different date references; no exact local time is claimed. The studio, figure and floating geometry are interpretive. ART MEETS THE CHAIN is editorial copy. Quantum is treated as an early landmark, without claiming an uncontested first NFT or automatic legal ownership.
+
+**Publication authorisation:** Dan approved the final revision with the paper plane removed on 1 October 2026. Book spreads, GitHub upload and website publication remain authorised. The book pages are editorial review proofs; final trim, bleed, binding, reproduction and printer approval remain separate.
