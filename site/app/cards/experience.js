@@ -1,7 +1,8 @@
 import { cards } from './data';
 import media from './media.json';
+import printFiles from './print-files.json';
 export const ASSET_ORIGIN = 'https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/ac8d3634de5bf6e2e40a8692e751b2f0df0d281e/';
-export const archiveCards = cards.map(card => ({ ...card, id: card.number.split('/')[0], year: Number(card.date.match(/\d{4}/)[0]), media: media[card.slug] }));
+export const archiveCards = cards.map(card => ({ ...card, id: card.number.split('/')[0], year: Number(card.date.match(/\d{4}/)[0]), media: media[card.slug], printFiles: printFiles.cards[card.number.split('/')[0]], printAssetOrigin: printFiles.assetOrigin, sharedPrintBack: printFiles.sharedBack }));
 export const years = [...new Set(archiveCards.map(card => card.year))];
 export const yearNotes = {
   1982: ['The idea before the coin.', 'Privacy becomes a question of mathematics.'],

@@ -53,9 +53,10 @@ console.log(`PASS: 39 cards and QR sources, ${clues} clues, ${pages} book pages,
 // Preserve the existing reader-download and derived timeline regression coverage.
 const readerSource=fs.readFileSync(path.join(root,'app/components/ReadingRoom.js'),'utf8');
 assert(readerSource.includes('card.media.assetOrigin || ASSET_ORIGIN'),'Per-card original asset fallback');
-assert.equal((readerSource.match(/href=\{assetOrigin\+/g)||[]).length,5,'All five reader original links use the per-card immutable origin');
+assert.equal((readerSource.match(/href=\{assetOrigin\+/g)||[]).length,2,'Original artwork and book keep the per-card immutable origin');
+assert.equal((readerSource.match(/href=\{printOrigin\+/g)||[]).length,4,'Three card print formats and shared back use the print origin');
 for(const card of Object.values(media).filter(card=>card.assetOrigin))assert(card.assetOrigin.startsWith('https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/'),'Valid original asset host');
 const yearMetadata=experience.slice(experience.indexOf('export const yearNotes'),experience.indexOf('export const titleCase'));
 for(const year of [...cardSource.matchAll(/date["']?:\s*['"][^'"]*?(\d{4})['"]/g)].map(match=>Number(match[1])))assert(yearMetadata.includes(year+':'),'Timeline note exists for '+year);
 assert(fs.readFileSync(path.join(root,'app/page.js'),'utf8').includes('years[years.length-1]'),'Hero range derives from the current collection');
-console.log('PASS: preserved reader asset-origin, five original-link, all-year timeline and derived-hero regression guards');
+console.log('PASS: preserved reader asset-origin, separate original/print links, all-year timeline and derived-hero regression guards');
