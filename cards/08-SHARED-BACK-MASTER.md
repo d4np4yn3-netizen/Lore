@@ -1,3 +1,13 @@
+# Current shared Crypto print back: HISTROVE, 6 October 2026
+
+Dan approved the HISTROVE crown/brush identity and History Worth Holding tagline, then authorised the full print rollout. Current back: [PNG](crypto/print-ready/histrove-v1/back/HISTROVE-Shared-Back-Print-v1.png) · [PDF](crypto/print-ready/histrove-v1/back/HISTROVE-Shared-Back-Print-v1.pdf) · [SVG](crypto/print-ready/histrove-v1/back/HISTROVE-Shared-Back-Print-v1.svg).
+
+The exact approved v1.2 black background and double gold frame are retained. The complete HISTROVE identity replaces LORE, with the tagline at 6.48 pt for physical sample readability. The 816 × 1110 canvas at 300 DPI, 744 × 1038 trim and 684 × 981 safe area match the current front. PDFs contain raster brush lettering with vector crown/frame and outlined tagline. Printer/physical-sample acceptance and trademark clearance are not claimed.
+
+Historical LORE visual master below remains reproducible; it is superseded for the current Crypto print batch. Do not use the historical branding for new Crypto print files.
+
+---
+
 # LORE — approved shared card back
 
 **Revision: LORE-BACK-v5. Approved by Daniel Payne, 12 September 2026.**

@@ -1,3 +1,9 @@
+# HISTROVE — current brand and printer files
+
+The current identity is HISTROVE / History Worth Holding. [Approved printer files](cards/crypto/print-ready/histrove-v1) · [Future templates](cards/crypto/master/histrove-print-v1) · [Brand pack](brand) · [Historical LORE brand](archive/brand) · [Historical print archive](archive/print). Physical printer/sample acceptance remains separate. Website content and branding are not changed by this repository release.
+
+## Historical project introduction
+
 # 038 and 039 published and verified
 
 CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 collection: 168 clues, 78 book previews and 324 display images. Content release b16e2f5440f8e34bf449119ae2d14c10b268c7c7 passed all 39 live QR routes, 17 new media hashes, 12 original downloads, digital QR decoding, exact book/site copy and independent desktop browser checks. All earlier sources/media are preserved. Narrow visual-browser testing was unavailable; physical/device reproduction remains separate. Original downloads are pinned to 22f32e165862020b5ec5bbd837f65e58e3b72364.

@@ -1,3 +1,17 @@
+# HISTROVE print and brand release — 6 October 2026
+
+Dan approved the HISTROVE name, History Worth Holding tagline, exact crown/brush identity, 001 front placement and shared back, then authorised all 39 numbered cards, six future rarity templates and the replacement brand pack in GitHub. Current printer folder: `cards/crypto/print-ready/histrove-v1`; future master: `cards/crypto/master/histrove-print-v1`. Current branding is `brand/`. Original LORE assets and printer revisions are preserved in their historical locations and SHA-identical archives.
+
+The new revision retains exact v1.2 dimensions: 816×1110 at 300 DPI; trim 744×1038; safe 684×981. Use original repository-pinned fonts. Every remote original PNG is hash-verified and compared outside the logo area; illustration bytes, copy, QR, rarity and framing are unchanged. The longer HISTROVE logo uses the approved wider top-right placement. All 39 PNG and PDF QR checks pass. The full shared-back tagline is 6.48 pt. PDFs contain raster illustration/brush lettering and vector crown/frame/QR/outlined text; they are not fully vector. See the current specification for native/effective resolution.
+
+This supersedes earlier LORE name/logo/template instructions below for current Crypto print and brand work. It does not authorise website rebranding, new artwork, changes to book pages/clues or replacement of live QR routes. Website files and existing website print links are unchanged. Physical printer/sample acceptance and trademark clearance remain separate and are not claimed.
+
+Next: printer review and physical samples. Keep earlier approved print/artwork versions recoverable. Follow the current manifests and archive records.
+
+---
+
+## Historical records below
+
 # Crypto print framing v1.2 — 6 October 2026
 
 Dan approved the exact 001 v1.2 front and authorised GitHub save, the agreed 39 numbered approved cards, a dedicated printer folder, the matching shared back and future templates. Active printer files: `cards/crypto/print-ready/v1.2`; future six-rarity template: `cards/crypto/master/print-v1.2`. Registry records now add `print_ready` pointers without replacing original art, source masters or older card records.

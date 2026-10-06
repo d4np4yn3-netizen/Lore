@@ -1,3 +1,7 @@
+# Historical LORE revision — superseded 6 October 2026
+
+Retained unchanged artwork and geometry for reproducibility. Current HISTROVE printer files: `cards/crypto/print-ready/histrove-v1`; future templates: `cards/crypto/master/histrove-print-v1`. Do not use this historical branding for new print runs.
+
 # Approved Crypto cards — print v1.2
 
 39 numbered fronts (001–039), plus one shared back, prepared with the even framing approved by Dan on 6 October 2026. This is the active printer-file folder. Previous masters stay in their original locations.

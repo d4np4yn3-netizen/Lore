@@ -1,0 +1,103 @@
+{
+  "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+  "approved_by": "Dan Payne",
+  "approved_at": "2026-10-06",
+  "approval_scope": "001 HISTROVE logo placement, shared back, all39 numbered cards, six future rarity templates; no illustration or typography changes",
+  "full_bleed_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "full_bleed_mm": [
+    69.088,
+    93.98
+  ],
+  "trim_box_px": [
+    36,
+    36,
+    744,
+    1038
+  ],
+  "safe_box_px": [
+    66,
+    64.5,
+    684,
+    981
+  ],
+  "layout_units": [
+    900,
+    1287.625
+  ],
+  "scale": 0.7584650112866818,
+  "translate": [
+    66.69074492099321,
+    66.69074492099321
+  ],
+  "layout_height_delta": 27.625,
+  "front_frame_stroke_bounds_px": [
+    72.37923250564333,
+    72.37923250564333,
+    743.6207674943566,
+    1037.6207674943566
+  ],
+  "front_margin_mm": 3.0801083521444683,
+  "back_margin_mm": 3.048,
+  "artwork_proportional_enlargement_from_v1_1_percent": 2.242288961038961,
+  "illustration_bytes": "unchanged; proportional centre fill with existing per-card translations retained",
+  "text_logo_qr": "same dimensions as approved 001 v1.2; header/footer positions follow taller frame",
+  "fonts": "cards/master/front-v3/source/fontconfig.xml",
+  "templates": [
+    {
+      "path": "cards/crypto/master/histrove-print-v1/templates/common.svg",
+      "bytes": 559327,
+      "sha256": "f949afaa887319b6ccb0a33cfeb5f4179370fdea98c51a52ab2b033c34ee7c79"
+    },
+    {
+      "path": "cards/crypto/master/histrove-print-v1/templates/epic.svg",
+      "bytes": 559328,
+      "sha256": "3bedcfc9330f067b76bbe0022d0ba33068ef69f39c25ba1fc510642dc816123d"
+    },
+    {
+      "path": "cards/crypto/master/histrove-print-v1/templates/legendary.svg",
+      "bytes": 559333,
+      "sha256": "daa36317500df84c88a79136c9007aa33a828e875dc2037019d86b586a2e156e"
+    },
+    {
+      "path": "cards/crypto/master/histrove-print-v1/templates/mythic.svg",
+      "bytes": 559334,
+      "sha256": "bb8627a93f9b5c090b4736545a7534f45dcf2fa13b3373cc0418b93b689c4161"
+    },
+    {
+      "path": "cards/crypto/master/histrove-print-v1/templates/rare.svg",
+      "bytes": 559330,
+      "sha256": "ff9c1a840fca644acf240cf3a76028748105ee4e0d3c945db889d5902207720a"
+    },
+    {
+      "path": "cards/crypto/master/histrove-print-v1/templates/uncommon.svg",
+      "bytes": 559339,
+      "sha256": "ebd4a1d69d7495f7b1627e04e7374c379437728eff6087fd1092307a50b606df"
+    }
+  ],
+  "printer_acceptance": false,
+  "physical_sample_approval": false,
+  "print_release": false,
+  "supersedes": "LORE-CRYPTO-PRINT-v1.2",
+  "logo": {
+    "id": "histrove-front-logo",
+    "x": "610",
+    "y": "34",
+    "width": "250",
+    "height": "112.5",
+    "viewBox": "0 100 2400 1080",
+    "preserveAspectRatio": "xMidYMid meet"
+  },
+  "artwork_effective_ppi_range": [
+    465.68,
+    465.99
+  ],
+  "brush_wordmark_native_px": [
+    2172,
+    724
+  ],
+  "raster_resolution_note": "300 DPI card export. Original illustration bytes preserved. Brush wordmark derives from 2172x724 source; larger intermediate exports do not add native detail. PDF keeps native images and vector frame/crown/QR/outlined text. No 600-DPI native-art claim."
+}

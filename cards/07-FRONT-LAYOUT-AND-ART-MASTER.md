@@ -1,3 +1,7 @@
+# Current Crypto printer override: HISTROVE, 6 October 2026
+
+Use [the HISTROVE print master](crypto/master/histrove-print-v1) and [approved print files](crypto/print-ready/histrove-v1). This replaces the front logo and shared back branding while preserving exact selected v1.2 printer geometry. The historical visual and size records below remain unchanged.
+
 # LORE — selected front layout and illustration master
 
 Crypto illustration exception (19 September 2026): use [the approved HODL style](crypto/ART-STYLE.md)

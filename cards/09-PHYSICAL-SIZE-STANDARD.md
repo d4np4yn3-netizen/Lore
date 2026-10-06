@@ -1,3 +1,7 @@
+# Current Crypto printer override: HISTROVE, 6 October 2026
+
+Use [the HISTROVE print master](crypto/master/histrove-print-v1) and [approved print files](crypto/print-ready/histrove-v1). This replaces the front logo and shared back branding while preserving exact selected v1.2 printer geometry. The historical visual and size records below remain unchanged.
+
 # LORE — locked physical card size
 
 **LORE-SIZE-v1.0 — approved by Daniel Payne, 12 September 2026.**

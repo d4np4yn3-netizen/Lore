@@ -1,3 +1,7 @@
+# Historical LORE revision — superseded 6 October 2026
+
+Retained unchanged artwork and geometry for reproducibility. Current HISTROVE printer files: `cards/crypto/print-ready/histrove-v1`; future templates: `cards/crypto/master/histrove-print-v1`. Do not use this historical branding for new print runs.
+
 # LORE-CRYPTO-PRINT-v1.2
 
 Dan approved the exact 001 even-frame proof and authorised its application to the 39 numbered cards on 6 October 2026. See [approval](approval.json), [specification](print-spec.json) and [current printer files](../../print-ready/v1.2).

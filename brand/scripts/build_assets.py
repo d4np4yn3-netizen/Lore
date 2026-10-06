@@ -1,124 +1,83 @@
-#!/usr/bin/env python3
-"""Export the approved LORE artwork. Requires Inkscape and Pillow."""
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor
-from xml.sax.saxutils import escape
-import hashlib
-import json
-import subprocess
-from PIL import Image
-
-ROOT = Path(__file__).resolve().parents[2]
-BRAND = ROOT / 'brand'
-MASTER = BRAND / 'source/master-components.json'
-M = json.loads(MASTER.read_text())
-ASSETS = []
-GOLD = '#D4AF37'
-INK = '#0B0B0B'
-BONE = '#F5F2EB'
-
-
-def component(shape, x, y, width, colour):
-    x0, y0, x1, y1 = shape['bounds']
-    scale = width / (x1 - x0)
-    return (f'<g transform="translate({x:.6f} {y:.6f}) scale({scale:.8f}) '
-            f'translate({-x0:.6f} {-y0:.6f})"><path fill="{colour}" '
-            f'fill-rule="evenodd" d="{shape["d"]}"/></g>')
-
-
-def crown(x, y, width, colour):
-    return component(M['crown'], x, y, width, colour)
-
-
-def wordmark(x, y, width, colour):
-    return component(M['wordmark'], x, y, width, colour)
-
-
-def tagline(key, x, y, width, colour):
-    return component(M['taglines'][key], x, y, width, colour)
-
-
-def document(width, height, body, title, description):
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
-            f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">'
-            f'<title id="title">{escape(title)}</title><desc id="desc">'
-            f'{escape(description)}</desc>{body}</svg>')
-
-
-def add(name, width, height, body, png_width, role, colours, transparent=True, copy=None):
-    svg = BRAND / 'assets/svg' / (name + '.svg')
-    png = BRAND / 'assets/png' / (name + '.png')
-    svg.parent.mkdir(parents=True, exist_ok=True)
-    png.parent.mkdir(parents=True, exist_ok=True)
-    svg.write_text(document(width, height, body, f'LORE — {role}',
-        'LORE-04-v1.0. Approved Rising Strokes crown and preserved LORE lettering. '
-        'Vector paths; flat fills; derived from the locked component master.'))
-    ASSETS.append(dict(name=name, svg=str(svg.relative_to(ROOT)), png=str(png.relative_to(ROOT)),
-        png_width=png_width, viewbox=[0, 0, width, height], role=role, colours=colours,
-        transparent=transparent, copy=copy))
-
-
-def render(svg, png, width):
-    for attempt in range(3):
-        subprocess.run(['inkscape', str(svg), '--export-type=png',
-            f'--export-width={width}', f'--export-filename={png}'], check=True,
-            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        try:
-            with Image.open(png) as im:
-                im.load()
-                if im.width != width:
-                    raise ValueError('Incorrect PNG export width')
-            return
-        except (OSError, ValueError):
-            if attempt == 2:
-                raise
-
-
-def main():
-    ASSETS.clear()
-    for name, colour in [('gold', GOLD), ('white', '#FFFFFF'), ('black', '#000000')]:
-        b = M['crown']['bounds']
-        height = 1000 * (b[3] - b[1]) / (b[2] - b[0])
-        add(f'lore_crown_{name}', 1200, 1200, crown(100, (1200-height)/2, 1000, colour),
-            2048, 'Crown', [colour])
-    for variant, cc, lc in [('gold_white', GOLD, '#FFFFFF'), ('gold_black', GOLD, '#000000'),
-                            ('white', '#FFFFFF', '#FFFFFF'), ('black', '#000000', '#000000')]:
-        # Keep the exact groups and transforms from the approved option 04 proof.
-        groups = [M['primary_groups'][0].replace(GOLD, cc)] + [
-            g.replace('#FFFFFF', lc) for g in M['primary_groups'][1:]]
-        add(f'lore_logo_primary_{variant}', 1200, 1020, ''.join(groups), 4096,
-            'Primary logo with tagline', [cc, lc], copy='COLLECT THE INTERNET.')
-        add(f'lore_logo_compact_{variant}', 1200, 950, ''.join(groups[:2]), 4096,
-            'Compact logo', [cc, lc])
-        cb = M['crown']['bounds']; wb = M['wordmark']['bounds']
-        ch = 240 * (cb[3]-cb[1])/(cb[2]-cb[0])
-        wh = 1050 * (wb[3]-wb[1])/(wb[2]-wb[0])
-        body = crown(100, 100 + wh/2 - ch/2, 240, cc) + wordmark(410, 100, 1050, lc)
-        body += tagline('tagline_primary', 455, 710, 960, lc)
-        add(f'lore_lockup_horizontal_{variant}', 1560, 860, body, 4096,
-            'Horizontal logo with tagline', [cc, lc], copy='COLLECT THE INTERNET.')
-    for name, colour in [('white', '#FFFFFF'), ('black', '#000000')]:
-        add(f'lore_wordmark_{name}', 1200, 740, wordmark(100, 100, 1000, colour),
-            4096, 'Wordmark', [colour])
-        for key, shape in M['taglines'].items():
-            add('lore_' + key + '_' + name, 1400, 300, tagline(key, 100, 110, 1200, colour),
-                4096, shape['text'], [colour], copy=shape['text'])
-    for name, fg, bg in [('gold_dark', GOLD, INK), ('white_dark', '#FFFFFF', INK),
-                          ('black_light', '#000000', BONE), ('gold_light', GOLD, BONE)]:
-        cb = M['crown']['bounds']; height = 340 * (cb[3]-cb[1])/(cb[2]-cb[0])
-        body = f'<rect width="512" height="512" fill="{bg}"/>' + crown(86, (512-height)/2, 340, fg)
-        add('lore_avatar_' + name, 512, 512, body, 1024, 'Social avatar', [fg, bg], False)
-    add('lore_app_icon_dark', 512, 512, '<rect width="512" height="512" fill="#0B0B0B"/>' +
-        wordmark(48, 145, 416, '#FFFFFF'), 512, 'App icon', ['#FFFFFF', INK], False)
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        list(pool.map(lambda a: render(ROOT/a['svg'], ROOT/a['png'], a['png_width']), ASSETS))
-    manifest = dict(revision=M['revision'], date='2026-09-11', release_status='VALIDATION_PENDING',
-        source_master='brand/source/master-components.json', source_master_sha256=hashlib.sha256(MASTER.read_bytes()).hexdigest(),
-        approval_record='operations/10-BRAND-APPROVAL-04.md', approved_by='Daniel Payne',
-        approved_at='2026-09-11', approved_exports=[], assets=ASSETS)
-    (BRAND/'assets/asset-manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
-    print(f'Exported {len(ASSETS)} SVGs and {len(ASSETS)} PNGs from the approved master.')
-
-
-if __name__ == '__main__':
-    main()
+import copy, json, hashlib, subprocess, xml.etree.ElementTree as ET
+from PIL import Image,ImageDraw,ImageFont
+B=Path(__file__).resolve().parents[1]
+NS='http://www.w3.org/2000/svg'; ET.register_namespace('',NS);ET.register_namespace('xlink','http://www.w3.org/1999/xlink')
+def tag(n): return '{'+NS+'}'+n
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def export(root,name,width):
+ p=B/'assets/svg'/f'{name}.svg'; ET.ElementTree(root).write(p,encoding='utf-8',xml_declaration=True)
+ png=B/'assets/png'/f'{name}-{width}.png'; subprocess.run(['inkscape',str(p),f'--export-width={width}',f'--export-filename={png}'],check=True,capture_output=True)
+ return p,png
+master=ET.parse(B/'source/approved-primary.svg').getroot()
+for t in master.findall(tag('desc')):t.text='HISTROVE approved primary lockup, 6 October 2026. Exact approved raster brush lettering; original vector crown; outlined tagline. Raster lettering is not an infinitely scalable vector master.'
+for t in master.findall(tag('title')):t.text='HISTROVE — History Worth Holding — Approved Primary'
+ET.ElementTree(master).write(B/'source/approved-primary.svg',encoding='utf-8',xml_declaration=True)
+base=copy.deepcopy(master)
+for e in list(base):
+ if e.tag==tag('rect') and e.get('width')=='2400':base.remove(e)
+# Master retains approved transform; crop changes below remove surrounding empty canvas only.
+variants=[]
+for kind in ['primary','compact','wordmark']:
+ for color in ['white','obsidian']:
+  r=copy.deepcopy(base)
+  if kind!='primary':
+   for e in list(r):
+    if e.get('id')=='tagline':r.remove(e)
+  if kind=='compact':r.set('viewBox','0 0 2400 1180');r.set('height','1180')
+  if kind=='wordmark':
+   for e in list(r):
+    if e.get('id')=='approved-rising-strokes-crown':r.remove(e)
+   r.set('viewBox','0 380 2400 780');r.set('height','780')
+  if color=='obsidian':
+   for e in r.iter():
+    if e.tag==tag('rect') and e.get('mask'):e.set('fill','#0B0B0B')
+    if e.get('id')=='tagline':
+     for t in e.iter():
+      if 'fill' in t.attrib:t.set('fill','#0B0B0B')
+      if 'style' in t.attrib:t.set('style',t.get('style').replace('#f5f2eb','#0b0b0b'))
+  variants.append((f'histrove_{kind}_{color}_transparent',r,2400))
+  if kind=='primary':
+   bg=copy.deepcopy(r); bg.insert(0,ET.Element(tag('rect'),{'width':'2400','height':'1440','fill':'#0B0B0B' if color=='white' else '#F5F2EB'}))
+   variants.append((f'histrove_primary_{"obsidian" if color=="white" else "bone"}',bg,2400))
+comp=json.loads((B/'source/master-components.json').read_text())
+for color,fill in [('gold','#D4AF37'),('white','#FFFFFF'),('obsidian','#0B0B0B')]:
+ r=ET.Element(tag('svg'),{'width':'2048','height':'2048','viewBox':'0 0 512 512'})
+ ET.SubElement(r,tag('title')).text='HISTROVE Rising Strokes crown'
+ ET.SubElement(r,tag('path'),{'fill':fill,'fill-rule':'evenodd','d':comp['crown']['d'],'transform':'translate(82 116) scale(1.11182108626) translate(-4 -8)'})
+ variants.append((f'histrove_crown_{color}_transparent',r,2048))
+ if color=='gold':
+  a=copy.deepcopy(r);a.insert(0,ET.Element(tag('rect'),{'width':'512','height':'512','fill':'#0B0B0B'}));variants.append(('histrove_avatar_gold_obsidian',a,1024))
+assets=[]
+for name,r,width in variants:
+ p,png=export(r,name,width)
+ for f in [p,png]:
+  entry={'path':'brand/'+str(f.relative_to(B)),'sha256':sha(f),'byte_count':f.stat().st_size,'role':name,'contains_raster_wordmark':any(z.tag==tag('image') for z in r.iter())}
+  if f.suffix=='.png':
+   im=Image.open(f).convert('RGBA');a=im.getchannel('A');entry.update(dimensions_px=list(im.size),transparent=a.getextrema()[0]==0,alpha_bbox=a.getbbox())
+   box=a.getbbox();assert box
+   if entry['transparent']:assert box[0]>0 and box[1]>0 and box[2]<im.width and box[3]<im.height
+  assets.append(entry)
+ if width==2400:
+  web=B/'assets/png'/f'{name}-1200.png';subprocess.run(['inkscape',str(p),'--export-width=1200',f'--export-filename={web}'],check=True,capture_output=True)
+  im=Image.open(web).convert('RGBA');assets.append({'path':'brand/'+str(web.relative_to(B)),'sha256':sha(web),'byte_count':web.stat().st_size,'role':name+' web','dimensions_px':list(im.size),'transparent':im.getchannel('A').getextrema()[0]==0,'contains_raster_wordmark':True})
+# Alpha geometry must remain identical in light/dark variants.
+for kind in ['primary','compact','wordmark']:
+ a=Image.open(B/'assets/png'/f'histrove_{kind}_white_transparent-2400.png').getchannel('A')
+ b=Image.open(B/'assets/png'/f'histrove_{kind}_obsidian_transparent-2400.png').getchannel('A')
+ assert a.tobytes()==b.tobytes(),kind
+# A useful contact sheet showing real assets against contrasting surfaces.
+font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',22)
+sheet=Image.new('RGB',(1600,1900),'#e7e3dc');d=ImageDraw.Draw(sheet)
+d.text((40,25),'HISTROVE  /  BRAND PACK v1.0',font=font,fill='#0b0b0b')
+for i,(name,r,width) in enumerate(variants):
+ x=40+(i%2)*780;y=85+(i//2)*295
+ light='obsidian_transparent' in name or 'bone' in name
+ bg='#F5F2EB' if light else '#0B0B0B';d.rectangle((x,y,x+740,y+245),fill=bg)
+ im=Image.open(B/'assets/png'/f'{name}-{width}.png').convert('RGBA');im.thumbnail((700,220),Image.Resampling.LANCZOS);sheet.paste(im,(x+(740-im.width)//2,y+(245-im.height)//2),im)
+ d.text((x,y+252),name.replace('histrove_','').replace('_',' '),font=font,fill='#0b0b0b')
+sheet.save(B/'previews/HISTROVE-Brand-Guide.png')
+manifest={'revision':'HISTROVE-v1.0','date':'2026-10-06','release_status':'APPROVED_IDENTITY_DETERMINISTIC_EXPORTS','approval_scope':'User approved HISTROVE full proof and 001 placement and requested replacement brand pack with PNG variants. Export QA does not imply trademark clearance or physical print approval.','source_master':'brand/source/approved-primary.svg','source_raster_native_px':[2172,724],'raster_limit':'2400px full canvas uses a 2080px-wide lettering image. Larger interpolation creates no new brush detail. SVG assemblies embed raster lettering. Crown and outlined tagline are vector.','approved_exports':assets}
+(B/'assets/asset-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+(B/'qa/technical-qa.json').write_text(json.dumps({'revision':'HISTROVE-v1.0','automated_checks':'PASS','png_count':sum(a['path'].endswith('.png') for a in assets),'svg_count':sum(a['path'].endswith('.svg') for a in assets),'light_dark_alpha_identical':True,'transparent_edges_clear':True,'crown_d_sha256':hashlib.sha256(comp['crown']['d'].encode()).hexdigest(),'visual_review':'PENDING','physical_print_approval':False},indent=2)+'\n')
+print('Built',len(assets),'assets')
