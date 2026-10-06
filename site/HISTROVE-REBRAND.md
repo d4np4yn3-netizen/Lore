@@ -1,3 +1,13 @@
+# Card-edge preview correction — 6 October 2026
+
+Dan requested cutting website cards at their visible borders. The first HISTROVE web export removed physical bleed at the trim line but retained the intentional black print margin outside the coloured frame. Current derivatives are cropped at the frame's outer stroke instead, with SVG-derived transparent rounded corners. All 39 use source bounds (72.3792325, 72.3792325) to (743.6207675, 1037.6207675), conservative integer crop [72,72,744,1038], and 600×863 WebP output. The complete stroke, artwork, lettering and QR remain inside the crop; every actual final QR decodes correctly.
+
+Homepage, timeline/grid/discovery previews, reader's View collectible card link, and social metadata use the current versioned border assets. All earlier web assets remain available. The existing print PNG link is explicitly labelled Print card PNG; its URL and file bytes are unchanged. No shared-back image is displayed on this website; the existing Print shared back PDF download is unchanged. Original art, books, print masters, source files, QR routes and all factual data are unchanged.
+
+Current generator: `python site/scripts/build-histrove-border-cards.py --repo . --out /tmp/histrove-border-review` (Pillow and zxing-cpp). Current exact geometry/QR/hash record: `media/histrove-border-manifest.json`. The earlier trim-only generator below is historical.
+
+---
+
 # HISTROVE website rebrand
 
 6 October 2026 · History Worth Holding

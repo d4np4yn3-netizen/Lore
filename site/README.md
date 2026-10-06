@@ -28,3 +28,7 @@ npm start
 The existing deployment address and GitHub repository name intentionally remain unchanged to protect printed QR routes. Do not purchase or rename a domain as part of this release. Historical LORE source files/builders remain archived and must not overwrite the current release. [Release audit](HISTROVE-REBRAND.md).
 
 Digital visual/QR checks do not establish physical manufacturing or book-reproduction approval.
+
+## Current card-edge previews
+
+Web fronts now follow the SVG outer coloured border, with transparent rounded corners (600×863). The former physical-trim web images remain archived. Current generator: `python site/scripts/build-histrove-border-cards.py --repo . --out /tmp/histrove-border-review` from the repository root, with Pillow and zxing-cpp installed. See `media/histrove-border-manifest.json`. Print/art/book files and their download destinations are unchanged.

@@ -32,3 +32,6 @@
 .bottom-coordinate{text-transform:none}
 @media(max-width:440px){.header-nav{gap:14px}.header-nav .header-action{padding:9px 10px;gap:8px}}
 @media(max-width:360px){.site-footer{flex-wrap:wrap;gap:24px}.footer-right{align-items:flex-start}.footer-right>span,.footer-right small{text-align:left;max-width:100%}}
+
+/* The web asset carries the exact SVG border/corner shape; CSS must not clip its stroke. */
+.hero-card img,.moment-art>img{border-radius:0}

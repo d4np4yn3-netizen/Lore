@@ -1,7 +1,7 @@
 {
   "revision": "HISTROVE-WEB-BORDER-v2",
-  "brand": "HISTROVE",
-  "history": "media/archive/histrove-trim-v1/web-card-derivatives.json",
+  "reason": "User requested web previews cut to the visible card border; physical trim still had a black surround",
+  "sourceCommit": "f8be5b7af291f192e2731949424de559eb87796a",
   "cards": [
     {
       "number": "001",
@@ -1836,5 +1836,17 @@
       "qr_pass": true,
       "print_source_unchanged": true
     }
-  ]
+  ],
+  "social": {
+    "path": "site/public/brand/histrove-social-border.png",
+    "public_path": "/brand/histrove-social-border.png",
+    "sha256": "98c9ee57b9c07a31c499ab0006cc95a93d9db7cf1d04e3f682bde8a95ab7d11d",
+    "dimensions_px": [
+      1200,
+      630
+    ]
+  },
+  "all39QrPass": true,
+  "all39PrintPngAndSvgHashesUnchanged": true,
+  "oldWebAssetsRetained": true
 }

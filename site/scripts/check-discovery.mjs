@@ -18,7 +18,7 @@ for(const [slug,card] of Object.entries(media)){
  assert.equal(hash(file('app/cards/content/'+id+'.json')),contract.contentAfterBrandOnly[id],'Brand-only editorial change '+id);
  assert.equal(hash(file('app/crypto/'+id+'/page.js')),contract.qrSourceSHA256[id],'Printed QR source unchanged '+id);
  assert.deepEqual(card.artwork,old.artwork);assert.equal(card.originalArt,old.originalArt);assert.equal(card.assetOrigin,old.assetOrigin);assert.equal(card.hashes.artwork,old.hashes.artwork);
- assert(card.image.src.endsWith('-histrove-card.webp'));assert.equal(card.image.width,600);assert.equal(card.image.height,837);
+ assert(card.image.src.endsWith('-histrove-border-card.webp'));assert.equal(card.image.width,600);assert.equal(card.image.height,863);
  assert.equal(card.pages.length,2);assert(card.originalBook.includes('/histrove-v1/'));assert.match(card.bookAssetOrigin,/^https:\/\/raw\.githubusercontent\.com\/d4np4yn3-netizen\/Lore\/[0-9a-f]{40}\/$/);
  assert.equal(crops.length,copy.eggs.length);clues+=crops.length;pages+=2;
  for(const asset of [card.image,card.artwork,...card.pages,...crops]){
@@ -43,3 +43,6 @@ for(const p of ['app/page.js','app/components/SiteChrome.js','app/components/Dis
 console.log(`PASS: 39 cards and unchanged QR sources, ${clues} unchanged clues, ${pages} current book previews, ${positions} marker positions; all ${index.assets.length} image hashes and historical assets verified`);
 const brand=read('media/histrove-brand-manifest.json');assert.equal(brand.card_count,39);assert.equal(brand.master_tagline,'History Worth Holding');for(const asset of brand.files){assert.equal(hash(fs.readFileSync(path.join(root,'..',asset.path))),asset.sha256,'Final brand asset '+asset.path);}
 console.log('PASS: every final logo, social image, icon, booster and current card derivative matches its completed QA manifest');
+
+const border=read('media/histrove-border-manifest.json');assert.equal(border.cards.length,39);assert.equal(border.all39QrPass,true);for(const c of border.cards){assert.deepEqual(c.dimensions_px,[600,863]);assert.deepEqual(c.conservative_crop_ltrb,[72,72,744,1038]);assert.equal(c.complete_border_geometry_retained,true);assert.equal(c.print_source_unchanged,true);assert.equal(c.qr_pass,true);assert.deepEqual(c.qr_payloads,['https://lore-site-v1.vercel.app/crypto/'+c.number+'/']);assert.equal(hash(file('public'+c.public_path)),c.sha256);}
+assert(reader.includes('href={card.media.image.src}'),'Reader opens the border-only web card');assert(reader.includes('Print card PNG'),'Print PNG destination remains separately available');console.log('PASS: all39 SVG-derived complete-border crops, recorded final QR decodes and separate web/print links');
