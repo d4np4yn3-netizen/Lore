@@ -23,3 +23,12 @@
 @media(max-width:360px){.discovery-heading h2{font-size:29px}.discovery-visual{height:290px}.discovery-copy h3{font-size:26px}.discovery-steps button{font-size:10px}.era-number{font-size:50px}.era-chapter{gap:14px}.era-chapter h3{font-size:25px}.collection-heading h2{font-size:32px}.collection-stage{height:290px}}
 
 .marker-leaders{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible;filter:drop-shadow(0 1px 2px #000)}.marker-leaders line{stroke:var(--gold);stroke-width:1.5}.marker-leaders circle{fill:var(--gold);stroke:var(--black);stroke-width:1}
+
+/* HISTROVE: preserve the editorial layout while accommodating the approved wider wordmark. */
+.brand img{width:144px;height:72px;object-fit:contain}.site-footer>div>img{width:200px;height:100px;object-fit:contain}.site-footer>div>p{text-transform:none;letter-spacing:.07em}.hero h1{font-size:clamp(66px,7.1vw,114px);line-height:.94;letter-spacing:-.06em}.hero h1 span{display:inline}
+@media(max-width:760px){.brand img{width:120px;height:60px}.site-header{gap:18px}.hero h1{font-size:clamp(58px,12vw,86px)}}
+@media(max-width:440px){.brand img{width:108px;height:54px}.hero h1{font-size:clamp(52px,13.8vw,62px)}.site-footer>div>img{width:155px;height:78px}}
+
+.bottom-coordinate{text-transform:none}
+@media(max-width:440px){.header-nav{gap:14px}.header-nav .header-action{padding:9px 10px;gap:8px}}
+@media(max-width:360px){.site-footer{flex-wrap:wrap;gap:24px}.footer-right{align-items:flex-start}.footer-right>span,.footer-right small{text-align:left;max-width:100%}}

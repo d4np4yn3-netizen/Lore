@@ -1,12 +1,13 @@
 {
-  "name": "lore-site",
+  "name": "histrove-site",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "prebuild": "node scripts/unpack-media.cjs",
-    "predev": "node scripts/unpack-media.cjs"
+    "predev": "node scripts/unpack-media.cjs",
+    "test": "node scripts/unpack-media.cjs && node scripts/check-discovery.mjs && node scripts/check-print-files.mjs && node scripts/check-book-assets.mjs"
   },
   "dependencies": {
     "next": "16.0.10",

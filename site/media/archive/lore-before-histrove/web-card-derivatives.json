@@ -1,0 +1,863 @@
+{
+  "purpose": "Separate website-only previews. Removes only printer bleed at approved print-v1 cut boundary; original print files and designed border are retained.",
+  "cards": [
+    {
+      "number": "001",
+      "source": "cards/crypto/season-01/blind-signatures-master-01/LORE-Blind-Signatures-Legendary-v1-Print-v2.png",
+      "sourceSHA256": "ddaea1f2e6b2258ca6b9840c0642248e57dda20a86760d7f82060ea6d7f260d7",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/001-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "5fce7985f618adf887f695c3f954b4111ea63320bbf3ef16bc8858ef95c2d282",
+      "masterUnchanged": true
+    },
+    {
+      "number": "002",
+      "source": "cards/crypto/season-01/the-cypherpunk-manifesto-master-01/LORE-Cypherpunk-Manifesto-Epic-002-Print-v2.png",
+      "sourceSHA256": "7502288486340f329e3b9f465bfd3a87fe89f7ae0ffff65616ea68674de658de",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/002-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "5604f158101fbce929ca9dc999b587820db67dbdc74eba96e50486008dd770e7",
+      "masterUnchanged": true
+    },
+    {
+      "number": "003",
+      "source": "cards/crypto/season-01/hashcash-master-01/LORE-Hashcash-Rare-003-Print-v1.png",
+      "sourceSHA256": "2a76df8f6bc735f3e47bdbbbacb2aa09a0413c46da45ea7ddfc02ade76e759b2",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/003-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "75c9afc765018b8efaa6d4c5488d4f682b8c494bc1fc3adec9a667a855b3b846",
+      "masterUnchanged": true
+    },
+    {
+      "number": "004",
+      "source": "cards/crypto/season-01/rpow-master-01/LORE-RPOW-Rare-004-Print-v1.png",
+      "sourceSHA256": "26d1c23699d7202c25742a3caabe6c37cb2d0b478451b98aa6ac306799610f2d",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/004-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "fc06caee0ed61c82461506e97b49d7fab13763020928f71d2b1bf02eca81f297",
+      "masterUnchanged": true
+    },
+    {
+      "number": "005",
+      "source": "cards/crypto/season-01/the-whitepaper-master-005/LORE-The-Whitepaper-Legendary-005-Print-v1.png",
+      "sourceSHA256": "7e133bc2c0fbc31f3ddf484548aa70fe006252627709552acc33144689cc6534",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/005-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "f790c2480c37aefdd7456b60aba051f8e00964d5bd8665ecbca24c6f7b4e26b0",
+      "masterUnchanged": true
+    },
+    {
+      "number": "006",
+      "source": "cards/crypto/season-01/genesis-block-master-006/LORE-Genesis-Block-Mythic-006-Print-v1.png",
+      "sourceSHA256": "56ab9684955b4647abe5b746530bfa696dd3c54515c7661d2605eb9f5d63b482",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/006-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "8b83b928e70f8fcd588df0a878b7a848eea3f74caac1862b72459560375501ee",
+      "masterUnchanged": true
+    },
+    {
+      "number": "007",
+      "source": "cards/crypto/season-01/the-first-transfer-master-007/LORE-The-First-Transfer-Legendary-007-Print-v1.png",
+      "sourceSHA256": "d2150897464c63794b3c4751188c002012470e32e58c6eaa46d635ab07b902a3",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/007-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "dccfd770fcd24f04ba2d2458632209ce88b42a00f4ae0aec567570965a2f2af9",
+      "masterUnchanged": true
+    },
+    {
+      "number": "008",
+      "source": "cards/crypto/season-01/pizza-day-master-008/LORE-Pizza-Day-Legendary-008-Print-v1.png",
+      "sourceSHA256": "6151d5fef1214bb05f66690380346e9312f8ce5e7926956e50f02e8c442f31dc",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/008-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "4cc2e20665aa949d3257bf739072b356b56bda1bc3fb5fd8d22e454ce0ce6833",
+      "masterUnchanged": true
+    },
+    {
+      "number": "009",
+      "source": "cards/crypto/season-01/the-faucet-master-009/LORE-The-Faucet-Common-009-Print-v1.png",
+      "sourceSHA256": "c5cb9d2c9d31d3dbfcdd526112436107372287d6ecaad4659c16ef9b351afc99",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/009-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "e3c50991b830c254686fac91b1400ea2591e268520254261e379578d0b474119",
+      "masterUnchanged": true
+    },
+    {
+      "number": "010",
+      "source": "cards/crypto/season-01/the-overflow-master-010/LORE-The-Overflow-Rare-010-Print-v1.png",
+      "sourceSHA256": "1c2d6b9bb026b793910646dbf3bc4b414f80340c7b7b7b92836d0d727498ace7",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/010-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "60e137b1c1e74b8a72966a4c0344d321133ad89b7f3a9701cef2a667481179f3",
+      "masterUnchanged": true
+    },
+    {
+      "number": "011",
+      "source": "cards/crypto/season-01/slush-pool-master-011/LORE-Slush-Pool-Uncommon-011-Print-v1.png",
+      "sourceSHA256": "d6bf5657f603ebf74da3e4b233f166932d212903acc3157bcb836b453799b394",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/011-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "b9d3f63f252c7ee1f0cfc87701d8a5e06e2a155ebb8375267dc2fb9cd06dca39",
+      "masterUnchanged": true
+    },
+    {
+      "number": "012",
+      "source": "cards/crypto/season-01/wikileaks-bitcoin-master-012/LORE-WikiLeaks-Uncommon-012-Print-v1.png",
+      "sourceSHA256": "4ca3e75964aa559029416dd4298db33c30f5c4390fbce7af8a2a77ab8467b3b7",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/012-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "a2e6fb90cabe87154bfebe088f7b5b26ee513c873d64edbd5fed2ebb2768f6c4",
+      "masterUnchanged": true
+    },
+    {
+      "number": "013",
+      "source": "cards/crypto/season-01/casascius-coins-master-013/LORE-Casascius-Common-013-Print-v1.png",
+      "sourceSHA256": "c53de35b4b37d326987e662f60388004e80fbc01a04ce65e623d8d20591f7b9a",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/013-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "f53dd89490def38f4298ea6ca9d5b5e1485ace85e17520047d1064d994e39e9d",
+      "masterUnchanged": true
+    },
+    {
+      "number": "014",
+      "source": "cards/crypto/season-01/litecoin-launches-master-014/LORE-Litecoin-Uncommon-014-Print-v1.png",
+      "sourceSHA256": "ffb8d9f426090b983091262e6ab1c442617b9df1af67704ca2d87c735281f1dd",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/014-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "4598477bbc4e09e5132873185be2f0abe7ae2ea3967e0ccfc2313b593747e284",
+      "masterUnchanged": true
+    },
+    {
+      "number": "015",
+      "source": "cards/crypto/season-01/first-halving-master-015/LORE-First-Halving-Legendary-015-Print-v1.png",
+      "sourceSHA256": "f598fe2f8c7f37e42e499b85f3a1385f73032af08fe9570b44bfc464725ca41d",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/015-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "cd81117ad9698e4b8e9192d77cc4da171541518b3c2e88b9a422adfeb8ceb53e",
+      "masterUnchanged": true
+    },
+    {
+      "number": "016",
+      "source": "cards/crypto/season-01/silk-road-shutdown-master-016/LORE-Silk-Road-Shutdown-Rare-016-Print-v1.png",
+      "sourceSHA256": "abf218ab0bd55787087221278cd216160e3d2c4109b78ad4040ea80e1dbfbbd3",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/016-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "93fec4f8e07158d3c6b3f18e847be149dc8e9833fc6ce415ada742951194aa97",
+      "masterUnchanged": true
+    },
+    {
+      "number": "017",
+      "source": "cards/crypto/season-01/cash-out-master-017/LORE-Cash-Out-Common-017-Print-v1.png",
+      "sourceSHA256": "32965bb6bdfebccc9002c2517cba4dffa75aac8be8ee42711a1b34ca7fc0a1aa",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/017-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "73fa5e3f797f81ba632f54c6022caae8cb429dbe94a11c046f183bb6248961bc",
+      "masterUnchanged": true
+    },
+    {
+      "number": "018",
+      "source": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.png",
+      "sourceSHA256": "03937a7d39ccfd9a1a8f8bfb80863bb300976313e47dc4dc44e3e6819af1ff5a",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/018-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "1e18712d157991be4cfb2ec015215495ef9857247473f8ae4aa77dd4ce8ec55c",
+      "masterUnchanged": true
+    },
+    {
+      "number": "019",
+      "source": "cards/crypto/season-01/ethereum-whitepaper-master-019/LORE-Ethereum-Whitepaper-Epic-019-Print-v1.png",
+      "sourceSHA256": "e36b02b4dbd022d2cef90f75316907465164cd3f741c87045fb98b771cc6efea",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/019-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "2bb846abc764f545380ccbe5ca31dcffa8864d0d758a8d62a708f519f9062595",
+      "masterUnchanged": true
+    },
+    {
+      "number": "020",
+      "source": "cards/crypto/season-01/much-wow-master-020/LORE-Much-Wow-Epic-020-Print-v1.png",
+      "sourceSHA256": "a0c55e2a867a51dec56e75668c654af75529a16667e88b4472cd6eb8c01055f8",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/020-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "a52febfc5afe7cd68a46a3cdb145c55c23c96463008ce0ab56723e4bb0f214db",
+      "masterUnchanged": true
+    },
+    {
+      "number": "021",
+      "source": "cards/crypto/season-01/birth-of-hodl-master-021/LORE-Birth-of-HODL-Epic-021-Print-v1.png",
+      "sourceSHA256": "71baf5c8d0b563d3f37f293dd282bc6ba6cb502d31dec4118f6f1f98b0f286db",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/021-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "44fad2705788d3141cbc1183cd7efdb3eff32a3bf943331701400fee4290e44c",
+      "masterUnchanged": true
+    },
+    {
+      "number": "023",
+      "source": "cards/crypto/season-01/doge-goes-to-sochi-master-023/LORE-Crypto-023-Doge-Goes-To-Sochi-Common-Print-v1.png",
+      "sourceSHA256": "a88d6759007d89c6779df23ec4414ee87bfb15330b55e42f962196ddf7e1de59",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/023-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "5dc900f52ca16815c4388f0a64a74cd202c579bea52b6dc8596eb95ab1ffa9d2",
+      "masterUnchanged": true
+    },
+    {
+      "number": "024",
+      "source": "cards/crypto/season-01/mt-gox-master-024/LORE-Crypto-024-Mt-Gox-Epic-Print-v1.png",
+      "sourceSHA256": "01d60a5f2e0d92a29b3ac0c9fc0ffc210134382ad62f567021f7e58da891b775",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/024-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "f9458919e1ed1f017a9250ecdca82e50c9e21bf48766a2f2a74f9ac5b74c928c",
+      "masterUnchanged": true
+    },
+    {
+      "number": "025",
+      "source": "cards/crypto/season-01/monero-launches-master-025/LORE-Crypto-025-Monero-Launches-Rare-Print-v1.png",
+      "sourceSHA256": "47d38237d10073802108e148b12e50bb75714c3e59fadbc938c3bbd1d8f1e848",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/025-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "a59d8bb2cf21a8bd7dc3d315eae7d3b7ae6e29e17c14f5d4264cab62d45cd735",
+      "masterUnchanged": true
+    },
+    {
+      "number": "026",
+      "source": "cards/crypto/season-01/quantum-master-026/LORE-Crypto-026-Quantum-Common-Print-v1.png",
+      "sourceSHA256": "73af0dcfe7c97f457a48992e4e4e24ef432acf4d7f2d4cc6e4eeffb5dbeb2045",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/026-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "97b1b288693ff653a1974421cb3dce7ea69f37a791f3e819b95ced8c0aa37678",
+      "masterUnchanged": true
+    },
+    {
+      "number": "027",
+      "source": "cards/crypto/season-01/the-bitcoin-auction-master-027/LORE-Crypto-027-The-Bitcoin-Auction-Common-Print-v1.png",
+      "sourceSHA256": "273bd7b72059e51233d07fd2cb44412df8bf2a48848dbe556382ff7a69ae2407",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/027-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "05a8a3aaecd3dff67bd83c46568120121777c343796a058d321612b362829e36",
+      "masterUnchanged": true
+    },
+    {
+      "number": "022",
+      "source": "cards/crypto/season-01/buried-fortune-master-022/LORE-Crypto-022-Buried-Fortune-Rare-Print-v1.png",
+      "sourceSHA256": "e38e5fa2e71b5ddfb75897d8a7bee496dd4f45b3b6c92faa4ab43ca169e7c764",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/022-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "a552711567584183e2da0ffb0c02e25ce9813f0d2f68258062c49a033583ff61",
+      "masterUnchanged": true
+    },
+    {
+      "number": "028",
+      "source": "cards/crypto/season-01/the-ether-sale-master-028/LORE-Crypto-028-The-Ether-Sale-Uncommon-Print-v1.png",
+      "sourceSHA256": "ba087ce6bccb11c9500f51c04ab6e7ff16e9087f5c9804c2d02c30c2a07d6107",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/028-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "82ba4047b71fd5cbaf6c0c6af2783000162a479db0a64d7d222e166d5420f9de",
+      "masterUnchanged": true
+    },
+    {
+      "number": "029",
+      "source": "cards/crypto/season-01/keys-in-your-pocket-master-029/LORE-Crypto-029-Keys-in-Your-Pocket-Common-Print-v1.png",
+      "sourceSHA256": "4a63b33e19ab331d5a3ee870db79ee2344fb5a170a9cd27cd10a9654c009e6a4",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/029-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "06b85da97b73ec6d4169749f867dca63ba0695e687b40321d1164ca7763401df",
+      "masterUnchanged": true
+    },
+    {
+      "number": "030",
+      "source": "cards/crypto/season-01/the-dollar-token-master-030/LORE-Crypto-030-The-Dollar-Token-Uncommon-Print-v1.png",
+      "sourceSHA256": "627fcd723f6423b3bf8eaba5fa652334ca4e3bc28e62afc6d3f42ad6fe043baf",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/030-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "bd5b9055c3dc6321168f432e911f6ef6592285c1aac424f10d03eb60ea05e3ce",
+      "masterUnchanged": true
+    },
+    {
+      "number": "031",
+      "source": "cards/crypto/season-01/bitlicense-master-031/LORE-Crypto-031-BitLicense-Rare-Print-v1.png",
+      "sourceSHA256": "7a7431d64a51e5858040d3a932d2c9ec9a35d0f0b0de8269d230845b4b612db7",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/031-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "ebed9be394523d93de4257a9ffcd2d79cf96dfdba88d23487f405cfdbaed1bfa",
+      "masterUnchanged": true
+    },
+    {
+      "number": "032",
+      "source": "cards/crypto/season-01/ethereum-goes-live-master-032/LORE-Crypto-032-Ethereum-Goes-Live-Mythic-Print-v1.png",
+      "sourceSHA256": "8c319c8c906a0c39122cbbac5dba055064eb245c6a6990bcf8c604519e280c44",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/032-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "a60f490cc7d9471ef791ea4973e3fa100aed809b00235706ce11f1b10366fb29",
+      "masterUnchanged": true
+    },
+    {
+      "number": "033",
+      "source": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png",
+      "sourceSHA256": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/033-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "50ede0659b54128431a8ec2442d714df039cf24a9e22dce98e7ca481c550d902",
+      "masterUnchanged": true
+    },
+    {
+      "number": "034",
+      "source": "cards/crypto/season-01/the-split-master-034/LORE-Crypto-034-The-Split-Epic-Print-v1.png",
+      "sourceSHA256": "8a866824d89b650f2b0537299b6ea42d53e52805b9c760616328b51bb2e1f40a",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/034-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "95dee6bcbe946c6ac4070d1446c2c618e5076e84696a4e4797607dd47dff5a44",
+      "masterUnchanged": true
+    },
+    {
+      "number": "035",
+      "source": "cards/crypto/season-01/the-bitfinex-heist-master-035/LORE-Crypto-035-The-Bitfinex-Heist-Uncommon-Print-v1.png",
+      "sourceSHA256": "7e885e5f133f0baf71e73f33fa0ab22ce43b14f531cf522300eb0662c16f4013",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/035-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "0af70b53539f2b83db5ec92c7960ad2dae9dae6331a149ab83037a158f1f9e1b",
+      "masterUnchanged": true
+    },
+    {
+      "number": "036",
+      "source": "cards/crypto/season-01/rare-pepes-master-036/LORE-Crypto-036-Rare-Pepes-Uncommon-Print-v1.png",
+      "sourceSHA256": "f49b7328e1096a33a7c55b0ad568a15ba17f3f0a0ae25fe19dc8a2a089798cd6",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/036-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "f8ed05c7ae2af31b81f69a50ba0ae074cc4330642ea48304ca23086e2f43086b",
+      "masterUnchanged": true
+    },
+    {
+      "number": "037",
+      "source": "cards/crypto/season-01/the-zcash-ceremony-master-037/LORE-Crypto-037-The-Zcash-Ceremony-Uncommon-Print-v1.png",
+      "sourceSHA256": "fe7f51ceba0eb078f70fe2683b7ce97a87c886666d3838fd666665a5123e2b67",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/037-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "8e94bbb48430667846e72a10169a1c13eea21ee5553d8b222c73e1bc26124899",
+      "masterUnchanged": true
+    },
+    {
+      "number": "038",
+      "source": "cards/crypto/season-01/cryptopunks-master-038/LORE-Crypto-038-CryptoPunks-Epic-Print-v1.png",
+      "sourceSHA256": "d0af66dbb31e0c0cf86860d26b2293bdf8be31c398b5e69415cda15a6d722254",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/038-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "13a76d553f42455a9472919a86141293398f7e7b18d2708e3087dc46b0f55479",
+      "masterUnchanged": true
+    },
+    {
+      "number": "039",
+      "source": "cards/crypto/season-01/behind-the-chair-master-039/LORE-Crypto-039-Behind-the-Chair-Common-Print-v1.png",
+      "sourceSHA256": "899f47cae488dce2760bc4b7c2209e7821a676bcd07a433461096fe04055bc3f",
+      "sourceDimensions": [
+        816,
+        1110
+      ],
+      "trimBoxXYWH": [
+        36,
+        36,
+        744,
+        1038
+      ],
+      "webPreview": "site/public/archive/039-web-card.webp",
+      "webDimensions": [
+        600,
+        837
+      ],
+      "webSHA256": "266535e4b2787544cb5b47d28a105ba760770cb22ef1554e6e505f439575019e",
+      "masterUnchanged": true
+    }
+  ]
+}
