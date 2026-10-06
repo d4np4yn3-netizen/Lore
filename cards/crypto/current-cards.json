@@ -2,7 +2,7 @@
   "updated": "2026-10-06",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 46,
+  "approved_visual_count": 47,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -6545,7 +6545,7 @@
       "print_release": false,
       "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-043-Front-Print-v1.png",
       "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-043-Front-Print-v1.svg",
-      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-043-Front-Print-v1.pdf",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-043-Front-Print-v1-TrimBox-Corrected.pdf",
       "artwork_file": {
         "path": "cards/crypto/season-01/china-bans-icos-master-043/art.png",
         "bytes": 2341808,
@@ -6559,9 +6559,9 @@
           "sha256": "d3c3f5e170e7490ddaa99bcd041a10db4d234555962cf1d8f4c5674882126b60"
         },
         "pdf": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-043-Front-Print-v1.pdf",
-          "bytes": 4057808,
-          "sha256": "cb22d60cc73598a8cb13f803e24f865f886593892e205f1a643cb8a194925c57"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-043-Front-Print-v1-TrimBox-Corrected.pdf",
+          "bytes": 4056588,
+          "sha256": "a7fc097eea586ba588e423671a51a9977fecf0825119219e2562e8193b0663c4"
         },
         "svg": {
           "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-043-Front-Print-v1.svg",
@@ -6572,6 +6572,56 @@
         "physical_print_release": false
       },
       "book": "book/crypto-season-01/histrove-v1/043-china-bans-icos-histrove-v1.pdf",
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
+    },
+    {
+      "id": "crypto-s01-the-missing-cryptoqueen",
+      "moment_number": 44,
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "uncommon",
+      "creator": "CRYPTO",
+      "title_line_1": "THE MISSING",
+      "title_line_2": "CRYPTOQUEEN",
+      "context": "THE FINAL ACT.",
+      "moment_label": "25 OCT 2017",
+      "set_label": "CRYPTO • SEASON 01 • 044/100",
+      "artwork": "cards/crypto/season-01/the-missing-cryptoqueen-master-044/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/044/",
+      "status": "PUBLICATION_AUTHORISED",
+      "artwork_status": "APPROVED_BY_DAN",
+      "phrase_status": "EDITORIAL_UNDER_PUBLICATION_REQUEST",
+      "qr_status": "PUBLISHED_ROUTE",
+      "print_release": false,
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-044-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-044-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-044-Front-Print-v1.pdf",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-missing-cryptoqueen-master-044/art.png",
+        "bytes": 2228051,
+        "sha256": "ddeffeaa017353051dbab23fda2ac182bd1388877463d3e5ba3e5e72bc55c4a3"
+      },
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-044-Front-Print-v1.png",
+          "bytes": 800004,
+          "sha256": "82fe6ef2cd7419ac5ad156ae175fbde3f960be0ee69d618d321f255c3d277009"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-044-Front-Print-v1.pdf",
+          "bytes": 3818621,
+          "sha256": "cb67b400057b91194b8bebf3f18462fe233cc5c53e6a7d6cdbc616679dea2baf"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-044-Front-Print-v1.svg",
+          "bytes": 3538552,
+          "sha256": "79f9481eec5bd731d4a08730522750db7f02fb7ac3954d2ea27d103db30e825b"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/044.json",
+        "physical_print_release": false
+      },
+      "book": "book/crypto-season-01/histrove-v1/044-the-missing-cryptoqueen-histrove-v1.pdf",
       "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
     }
   ],

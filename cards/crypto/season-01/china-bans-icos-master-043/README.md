@@ -9,3 +9,7 @@ The final printer front is in cards/crypto/print-ready/histrove-v1/fronts. The t
 Use the HISTROVE print master and pinned FONTCONFIG_FILE=cards/master/front-v3/source/fontconfig.xml. Export front 816×1110 at 300 DPI and outlined-text PDF. The website uses a separate 600×863 complete-border crop with transparent corners; printer downloads retain bleed. The adjacent build_book.py reads art.png; copy the folder before rerendering to avoid overwriting approved outputs. Artwork is 1060×1484, about 126.91 PPI at A4.
 
 QR: https://lore-site-v1.vercel.app/crypto/043/ → /cards/china-bans-icos. Digital checks do not establish physical print sample acceptance, phone-camera scanning or commercial rights clearance.
+
+## PDF box metadata correction — 6 October 2026
+
+The active printer PDF is HISTROVE-Crypto-043-Front-Print-v1-TrimBox-Corrected.pdf in the same current HISTROVE printer folder. This additive revision sets the audited TrimBox, BleedBox and ArtBox without changing any page content, artwork, layout or full-page rendered pixel. The earlier PDF remains at its original historical path. See pdf-box-correction-2026-10-06.json for both hashes, exact boxes and comparison checks. The existing Library printer-PDF identity retains its original version and now serves corrected version 1.
