@@ -2,7 +2,7 @@
   "updated": "2026-10-06",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 43,
+  "approved_visual_count": 44,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -6423,6 +6423,56 @@
       "book": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v1.pdf",
       "rights_review": "BINANCE logo rights not cleared; user chose publication 6 October 2026 and will review before printing/launch.",
       "publication_verification": "cards/crypto/season-01/binance-launches-master-040/publication-verification.json"
+    },
+    {
+      "id": "crypto-s01-bitcoin-cash-fork",
+      "moment_number": 41,
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "uncommon",
+      "creator": "BTC / BCH",
+      "title_line_1": "BITCOIN",
+      "title_line_2": "CASH FORK",
+      "context": "ONE PAST. TWO PATHS.",
+      "moment_label": "01 AUG 2017",
+      "set_label": "CRYPTO • SEASON 01 • 041/100",
+      "artwork": "cards/crypto/season-01/bitcoin-cash-fork-master-041/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/041/",
+      "status": "PUBLICATION_AUTHORISED",
+      "artwork_status": "APPROVED_BY_DAN",
+      "phrase_status": "EDITORIAL_UNDER_PUBLICATION_REQUEST",
+      "qr_status": "PUBLISHED_ROUTE",
+      "print_release": false,
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-041-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-041-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-041-Front-Print-v1.pdf",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/bitcoin-cash-fork-master-041/art.png",
+        "bytes": 2553838,
+        "sha256": "ee7e875aaf2999f675f154514adf292be8ce534fce5ebb32b442be1b38dd16ff"
+      },
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-041-Front-Print-v1.png",
+          "bytes": 1113200,
+          "sha256": "817894e1ae4aba46a12a0a256e5fcffb3a108ef0cd75e147b270fe64bf35cc1a"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-041-Front-Print-v1.pdf",
+          "bytes": 4320082,
+          "sha256": "885d81ca50c5b3e83dcf8ffe861ab553bd28b7612c4938df77601dabc77bb06f"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-041-Front-Print-v1.svg",
+          "bytes": 3972838,
+          "sha256": "3f74c5aa19a6f4f40a701b229df4a48f96cc46671b86f639780eebd1f550d3a1"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/041.json",
+        "physical_print_release": false
+      },
+      "book": "book/crypto-season-01/histrove-v1/041-bitcoin-cash-fork-histrove-v1.pdf",
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",

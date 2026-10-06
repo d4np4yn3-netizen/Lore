@@ -36,6 +36,7 @@ import chapter035 from './content/035.json';
 import chapter036 from './content/036.json';
 import chapter037 from './content/037.json';
 import chapter040 from './content/040.json';
+import chapter041 from './content/041.json';
 import chapter039 from './content/039.json';
 import chapter038 from './content/038.json';
 
@@ -526,6 +527,7 @@ export const cards = [
     number: '039/100',
   },
   { slug: 'binance-launches', title: 'BINANCE LAUNCHES', rarity: 'UNCOMMON', date: '14 JUL 2017', subject: 'CHANGPENG ZHAO', phrase: 'OPEN FOR THE WORLD.', phraseKind: 'editorial wording', image: 'cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v1.png', artwork: 'cards/crypto/season-01/binance-launches-master-040/art.png', book: 'book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v1.pdf', printerPdf: 'cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v1.pdf', editableSvg: 'cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v1.svg', source: 'https://www.binance.com/en/blog/from-our-ceo/2386330931319516973', ...chapter040, number: '040/100' },
+  { slug: 'bitcoin-cash-fork', title: 'BITCOIN CASH FORK', rarity: 'UNCOMMON', date: '01 AUG 2017', subject: 'BTC / BCH', phrase: 'ONE PAST. TWO PATHS.', phraseKind: 'editorial wording', image: 'cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-041-Front-Print-v1.png', artwork: 'cards/crypto/season-01/bitcoin-cash-fork-master-041/art.png', book: 'book/crypto-season-01/histrove-v1/041-bitcoin-cash-fork-histrove-v1.pdf', printerPdf: 'cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-041-Front-Print-v1.pdf', editableSvg: 'cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-041-Front-Print-v1.svg', source: 'https://www.irs.gov/pub/irs-wd/202114020.pdf', ...chapter041, number: '041/100' },
 ];
 
 export const getCard = slug => cards.find(card => card.slug === slug);

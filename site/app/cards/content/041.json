@@ -1,0 +1,28 @@
+{
+  "story": [
+    "On 1 August 2017, a long-running argument over Bitcoin's capacity produced a lasting split. Bitcoin and Bitcoin Cash shared the same transaction history through block 478,558. After that common point, their networks began extending separate chains under different rules.",
+    "The disagreement was about how to serve more users. Supporters of larger blocks wanted more payments recorded directly on the blockchain. Bitcoin Cash launched with an 8 MB block-size limit, allowing larger batches of transactions than Bitcoin's existing rules permitted.",
+    "Others worried that sharply increasing the data processed by the network would make it harder for ordinary users to run a fully validating node. Bitcoin's alternative scaling path included Segregated Witness and payment-channel technology. SegWit's activation was a separate event later that August, not the Bitcoin Cash split itself.",
+    "Because the chains inherited a common ledger, a person controlling the private keys for coins before the split could generally control corresponding balances on both networks. Custodial users depended on their provider's support. Two balances did not mean the market value of their holdings had doubled.",
+    "The artwork turns the disagreement into two routes through one city. The matching ledgers hold a common past; the gateways lead toward different futures. The fictional engineers and capacity plans describe competing priorities, without declaring either community fraudulent or reducing the debate to a fight between heroes and villains."
+  ],
+  "eggs": [
+    {
+      "title": "THE SHARED BLOCK",
+      "text": "478,558 is the last common block. The plaque marks the shared history before the two chains diverged; it is not the number of Bitcoin Cash’s first distinct block."
+    },
+    {
+      "title": "THE 8 MB PLAQUE",
+      "text": "This refers to Bitcoin Cash’s initial block-size limit in August 2017, not its present limit, a transaction count or a guarantee of speed."
+    },
+    {
+      "title": "THE MATCHING LEDGERS",
+      "text": "Identical books symbolise the common transaction record inherited by both networks. No real historical books or physical coin duplication are claimed."
+    },
+    {
+      "title": "THE CAPACITY PLANS",
+      "text": "Both drawings show a linear sequence of blocks. Larger boxes and more slips on the BCH plan illustrate extra capacity. They are not to scale or literal software diagrams, and do not imply a different block interval."
+    }
+  ],
+  "sourceNote": "Sources: [IRS memorandum: Bitcoin / Bitcoin Cash hard-fork background](https://www.irs.gov/pub/irs-wd/202114020.pdf); [Bitcoin Cash Node upgrade documentation](https://docs.bitcoincashnode.org/doc/bch-upgrades/); [Bitcoin Core capacity roadmap](https://bitcoincore.org/en/2015/12/07/roadmap/). The fictional city, people, books and plans are visual metaphors. ONE PAST. TWO PATHS. is editorial wording, not a quotation. No affiliation or endorsement is implied."
+}
