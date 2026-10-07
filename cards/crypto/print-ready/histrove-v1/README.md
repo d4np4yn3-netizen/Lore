@@ -81,3 +81,7 @@ Visual approval and digital checks are recorded. Printer acceptance, physical sa
 ## 045 — BitConnect, 7 October 2026
 
 The approved Rare front is appended as HISTROVE-Crypto-045-Front-Print-v1 in png/pdf/svg. It preserves the selected v3 illustration and single-word title, uses `/crypto/045/`, and passes digital PNG/PDF QR and exact Media/Bleed/Trim/ArtBox checks. Earlier masters remain unchanged. Physical printer/sample acceptance is still separate.
+
+## 046 — CryptoKitties, 7 October 2026
+
+The approved Epic front is appended as HISTROVE-Crypto-046-Front-Print-v1 in png/pdf/svg. It uses the corrected upper-right-symbol illustration, CRYPTO / KITTIES title, `/crypto/046/`, and passes digital PNG/PDF QR and exact PDF-box checks. Earlier masters remain unchanged. Physical printer/sample acceptance is still separate.

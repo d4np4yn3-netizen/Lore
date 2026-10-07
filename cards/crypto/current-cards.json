@@ -2,7 +2,7 @@
   "updated": "2026-10-07",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 47,
+  "approved_visual_count": 48,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -6719,6 +6719,103 @@
       },
       "book": "book/crypto-season-01/histrove-v1/044-the-missing-cryptoqueen-histrove-v1.pdf",
       "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
+    },
+    {
+      "id": "crypto-s01-cryptokitties",
+      "moment_number": 46,
+      "collection": "crypto",
+      "season": 1,
+      "rarity": "epic",
+      "creator": "ETHEREUM",
+      "title_line_1": "CRYPTO",
+      "title_line_2": "KITTIES",
+      "context": "THE POWER OF FUN.",
+      "moment_label": "28 NOV 2017",
+      "set_label": "CRYPTO • SEASON 01 • 046/100",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/046/",
+      "canonical_title": "CryptoKitties",
+      "status": "PUBLICATION_AUTHORISED",
+      "provisional_fields": [],
+      "qr_destination_status": "PENDING_PUBLICATION",
+      "edit_condition_verified": true,
+      "edit_condition_verified_at_utc": "2026-10-07T06:01:09Z",
+      "artwork": "cards/crypto/season-01/cryptokitties-master-046/art.png",
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-046-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-046-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-046-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/046-cryptokitties-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/046-cryptokitties.md",
+      "artwork_status": "VISUALLY_APPROVED",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-10-07",
+      "approval_record": "cards/crypto/season-01/cryptokitties-master-046/approval.json",
+      "phrase_status": "APPROVED_SOURCE_BACKED_EXCERPT",
+      "event_date": "2017-11-28",
+      "date_basis": "CryptoKitties public launch on 28 November 2017; subsequent early-December demand and Ethereum congestion are distinct.",
+      "qr_mode": "live",
+      "qr_status": "PUBLISHED_ROUTE_PENDING_LIVE_VERIFICATION",
+      "print_release": false,
+      "publication_approved": true,
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": true,
+      "artwork_file": {
+        "path": "cards/crypto/season-01/cryptokitties-master-046/art.png",
+        "bytes": 2408921,
+        "sha256": "6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-046-Front-Print-v1.png",
+          "bytes": 878924,
+          "sha256": "20154282e985bac2485f30d28f43c3c6995bc9953144d51a2e6859ba2ec5210a"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-046-Front-Print-v1.pdf",
+          "bytes": 4007827,
+          "sha256": "c17ff8a2b4a2346fb7eba3c0b2cbea57a59dfb10410168fa4d685d88ce1f9f52"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-046-Front-Print-v1.svg",
+          "bytes": 3779104,
+          "sha256": "7b455d4a02fd1f9d28d3d92e04c22f3441d3602b110c40a5b3a906883c660b9f"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-046-Front-Print-v1.png",
+          "bytes": 878924,
+          "sha256": "20154282e985bac2485f30d28f43c3c6995bc9953144d51a2e6859ba2ec5210a"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-046-Front-Print-v1.pdf",
+          "bytes": 4007827,
+          "sha256": "c17ff8a2b4a2346fb7eba3c0b2cbea57a59dfb10410168fa4d685d88ce1f9f52"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-046-Front-Print-v1.svg",
+          "bytes": 3779104,
+          "sha256": "7b455d4a02fd1f9d28d3d92e04c22f3441d3602b110c40a5b3a906883c660b9f"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/046.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "source_notes": "cards/crypto/season-01/cryptokitties-master-046/source-notes.md",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+      "required_style_references": [
+        "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+        "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+      ],
+      "set_size": 100,
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -6731,12 +6828,14 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-07",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 47,
+  "approved_print_derivative_count": 48,
   "numbered_published_count": 45,
-  "numbering_gap_note": "Current numbered collection 001–045 has no gap. 045 supersedes the older unnumbered BitConnect design within the same event identity; its complete previous registry object and files remain preserved.",
-  "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 45,
-  "current_numbered_print_count": 45,
+  "numbering_gap_note": "Current numbered collection 001–046 has no gap. Two unnumbered designs remain archived. All prior registry objects are unchanged.",
+  "pending_live_verification_numbers": [
+    "046"
+  ],
+  "prepared_numbered_count": 46,
+  "current_numbered_print_count": 46,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
   "print_master_directory": "cards/crypto/master/histrove-print-v1",
   "shared_print_back": {
@@ -6766,5 +6865,5 @@
     "physical_print_release": false,
     "matches_approved_back_pixels": true
   },
-  "print_revision_note": "HISTROVE is current for numbered fronts 001–045 and shared back. Exact earlier files are preserved. Physical printer/sample acceptance remains separate."
+  "print_revision_note": "HISTROVE is current for numbered fronts 001–046 and shared back. Exact earlier files are preserved. Physical printer/sample acceptance remains separate."
 }

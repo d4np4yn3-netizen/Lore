@@ -2,7 +2,7 @@
 
 **History Worth Holding**
 
-An illustrated, interactive timeline of 45 approved crypto-history moments, with full artwork, 192 linked art details and 90 companion-book page previews. The desktop/mobile editorial experience, reader controls and 45 stable printed QR redirects are preserved.
+An illustrated, interactive timeline of 46 approved crypto-history moments, with full artwork, 196 linked art details and 92 companion-book page previews. The desktop/mobile editorial experience, reader controls and 46 stable printed QR redirects are preserved.
 
 ## Run and verify
 
@@ -36,3 +36,7 @@ Web fronts now follow the SVG outer coloured border, with transparent rounded co
 ## 045 BitConnect
 
 Exact approved v3 artwork and HISTROVE Rare card, five-paragraph story, four actual-art clues and two-page book. `/crypto/045/` redirects to `/cards/bitconnect`. `media/display-045.bin` adds eight images while preserving all 520 earlier assets. Original artwork and downloads are pinned to the immutable release asset commit. The legacy unnumbered master remains archived.
+
+## 046 CryptoKitties
+
+Corrected approved artwork and HISTROVE Epic card, story, four actual-art clues and two-page book. `/crypto/046/` redirects to `/cards/cryptokitties`. `media/display-046.bin` adds eight images while preserving all 528 earlier assets. Original artwork and downloads are pinned to the immutable release asset commit. Launch and the following week's congestion are explicitly separate.

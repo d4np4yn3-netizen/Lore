@@ -1,3 +1,15 @@
+# 046 CryptoKitties approved for publication — 7 October 2026
+
+Dan approved CryptoKitties after requesting removal of the upper-right Ethereum symbol behind the HISTROVE mark, then authorised the book and GitHub/site upload. Parent independently verified that correction and retention of the left Ethereum symbol. ETHEREUM / CRYPTO KITTIES / Epic / 28 NOV 2017 / THE POWER OF FUN. / 046/100. Exact corrected art SHA-256 `6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e` is preserved. Current master: `cards/crypto/season-01/cryptokitties-master-046`; print files remain under `cards/crypto/print-ready/histrove-v1`; two-page book: `book/crypto-season-01/histrove-v1/046-cryptokitties-histrove-v1.pdf`.
+
+The stable QR is https://lore-site-v1.vercel.app/crypto/046/ and resolves through `/cards/cryptokitties`. Book and site share the story, sources and four actual-art details: parent A/B traits, pending tags, paw/hourglass machine and the still-lit Ethereum power box. Public launch on 28 November 2017 is distinct from the following week's congestion. No first-NFT or stopped-blockchain claim is made. The scene and mechanisms are artistic interpretation.
+
+The prepared collection has 46 numbered cards, 196 clues, 92 book previews and 536 packed display assets. There are 48 unique approved designs including two unnumbered archived designs. All 47 prior registry objects, 45 earlier cards, 528 prior display assets and historical masters remain unchanged. Print geometry is 816×1110@300DPI, trim744×1038, safe684×981 with exact PDF boxes. Native artwork remains 1060×1484. Digital QR/layout approval is separate from physical printer/sample acceptance, phone-camera scanning and commercial-reproduction clearance.
+
+Local and remote verification are recorded beside the numbered master. Do not mark remote verification complete until the exact commit and production release have been checked.
+
+---
+
 # 045 BitConnect published and verified — 7 October 2026
 
 Dan approved the exact latest v3 spotlight artwork and HISTROVE Rare card, then authorised the book and GitHub/site upload. BITCONNECT / 28 OCT 2017 / HEY, HEY, HEY! / 045/100. Approved art SHA-256 `06a19f961a37259c8c3d1bf194cf4b8711a920e92e99a12619092428f939a95b` is unchanged, including the joined INVESTOR lanyard. Current master: `cards/crypto/season-01/bitconnect-master-045`; print files remain under `cards/crypto/print-ready/histrove-v1`; the two-page book is `book/crypto-season-01/histrove-v1/045-bitconnect-histrove-v1.pdf`.

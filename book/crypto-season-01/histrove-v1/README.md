@@ -34,3 +34,5 @@ Previews use distinct `NNN-histrove-page-N.webp` paths. First-page previews are 
 All 39 PDFs pass digital checks. At 144 dpi there are zero altered pixels outside the permitted header and brand-paragraph regions. All original paragraph punctuation and word order are retained after replacing LORE with HISTROVE. Source URI target lists remain exact. Every changed paragraph and all artwork pages have been visually inspected. Physical reproduction and print acceptance remain separate.
 
 045 BitConnect appends a two-page full-art/editorial book chapter, matching 044's layout. Five story paragraphs and four clue texts exactly mirror the site. The native artwork remains 1060×1484; contain placement is 128.21 effective PPI. Physical reproduction approval is not implied.
+
+046 CryptoKitties appends a two-page full-art/editorial chapter. Story and four clue texts exactly mirror the site. Native art is 1060×1484; physical reproduction approval is not implied.
