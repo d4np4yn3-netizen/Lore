@@ -1,0 +1,102 @@
+{
+  "status": "VISUALLY_APPROVED",
+  "source_art_sha256": "06a19f961a37259c8c3d1bf194cf4b8711a920e92e99a12619092428f939a95b",
+  "input_art_bytes_preserved": true,
+  "template_sha256": "ff9c1a840fca644acf240cf3a76028748105ee4e0d3c945db889d5902207720a",
+  "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+  "repository_commit": "ac21a2bd4eb64c1fe2cb4d76a313a66c4901c323",
+  "locked_logo_identical_to_master": true,
+  "approved_framing_unchanged": true,
+  "single_word_title_exception_preserved": true,
+  "title_tracking": 0,
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "dpi": 300,
+  "trim_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "front_margin_mm": 3.0801083521444683,
+  "pdf_boxes_pt": {
+    "mediabox": [
+      0.0,
+      0.0,
+      195.84,
+      266.4
+    ],
+    "cropbox": [
+      0.0,
+      0.0,
+      195.84,
+      266.4
+    ],
+    "bleedbox": [
+      0.0,
+      0.0,
+      195.84,
+      266.4
+    ],
+    "trimbox": [
+      8.64,
+      8.64,
+      187.2,
+      257.76
+    ],
+    "artbox": [
+      15.84,
+      15.48,
+      180,
+      250.92
+    ]
+  },
+  "pdf_media_normalized": "Exact 195.84 x 266.4 pt prevents fractional export rounding into an extra row; content unscaled.",
+  "digital_qr_checks": {
+    "print_png": [
+      "https://lore-site-v1.vercel.app/crypto/045/"
+    ],
+    "print_pdf_render_300dpi": [
+      "https://lore-site-v1.vercel.app/crypto/045/"
+    ],
+    "trimmed_web_png": [
+      "https://lore-site-v1.vercel.app/crypto/045/"
+    ]
+  },
+  "live_qr_destination": "Publication verification pending",
+  "comparison_044_exact_pixels": true,
+  "physical_print_release": false,
+  "phone_camera_scan_tested": false,
+  "visual_qa": "Approved exact v3 card retained. Text, logo, fist/headroom, QR and four clue groups have clear separation. Physical print and phone-camera checks remain separate.",
+  "files": [
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-045-Front-Print-v1.png",
+      "bytes": 712486,
+      "sha256": "40903c8751cf9df52c667d0fc31ea0fe1519bf8d51723af22c91cf93620aa5a3"
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-045-Front-Print-v1.pdf",
+      "bytes": 3399064,
+      "sha256": "79ebe97954abca984aa5aee582486d924976438959e5b8a7d88ba67a8b0b054e"
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-045-Front-Print-v1.svg",
+      "bytes": 3167348,
+      "sha256": "41eba5303a3b65d9f631ff742e455b62cef7fc04cad266c06c1c83ea397ca634"
+    }
+  ],
+  "v2_to_v3_scope": "Artwork input only: both lanyard straps join the same bottom fabric tab and single badge ring. Exact imagegen source retained.",
+  "comparison_to_v2_template_identical": true,
+  "artifact_input_status": "VISUALLY_APPROVED",
+  "approval": {
+    "by": "Dan Payne",
+    "timestamp_utc": "2026-10-07T05:13:20Z",
+    "quote": "Approved for book and upload to site and GitHub",
+    "scope": "Exact latest v3 framed card and illustration; create book and publish to GitHub/site"
+  },
+  "publication_status": "PENDING_PUBLISHER"
+}

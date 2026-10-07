@@ -1,0 +1,28 @@
+# 045 - BitConnect
+
+28 OCT 2017 / RARE
+
+HEY, HEY, HEY!
+
+## The story
+
+On 28 October 2017, Carlos Matos took the stage at BitConnect's annual ceremony in Pattaya, Thailand. His exuberant greeting, HEY, HEY, HEY!, became the sound of a crypto meme that outlived the company it celebrated.
+
+BitConnect sold an appealing story: software could turn cryptocurrency trading into dependable returns. Promoters spread that pitch through videos, testimonials and a referral network. The Pattaya ceremony wrapped it in spectacle, recognising leading promoters with cash and luxury cars. A celebration of success doubled as an advertisement for joining in.
+
+Matos later told WNYC that he had invested $25,610. He described being caught up in the event and wanting to tell other people what had happened to him. The speech travelled through remixes, songs and reaction clips. Its confidence made it instantly recognisable, even to people who had never used BitConnect.
+
+The lending operation and exchange closed on 16 January 2018. The later legal record described a Ponzi scheme, in which money from new investors paid earlier ones. U.S. authorities identified Satish Kumbhani as BitConnect's founder. Matos is shown here as the enthusiastic investor and viral speaker, not as the founder or the architect of the scheme.
+
+HISTROVE holds the image at the 2017 celebration. Amber beams and blue stage lights frame a raised fist, a microphone and a crowd swept up in the moment. The miniature car, numbered plinth and cracked pyramid are illustrated clues rather than a reconstruction of the stage. The crack lets hindsight enter the scene while the performance is still full of conviction.
+
+## Details in the artwork
+
+1. **THE MINIATURE CAR** The small sports car recalls luxury-car awards to leading promoters at the convention. Its placement is symbolic; it does not claim that Matos won a car or that this model stood onstage.
+2. **25,610** The number on the plinth is the US-dollar amount Matos later said he invested. It is a self-reported investment, not an audited balance, a prize value or a promised return.
+3. **THE CRACKED PYRAMID** The broken gold pyramid is a retrospective metaphor for the scheme's failure. It brings knowledge of the later collapse into the illustration; it is not a documented stage prop.
+4. **THE INVESTOR LANYARD** The badge makes Matos's role explicit: investor and viral speaker. It is an illustrative label, not a reproduction of an authenticated event badge. BitConnect's founder was Satish Kumbhani.
+
+## Source and art note
+
+Sources: [Conceptual Events: 28 October 2017 ceremony](https://micemagic.wixsite.com/conceptual-events/single-post/2017/10/28/crypto-currency-event-bitconnect-1st-annual-ceremony-in-pattaya-thailand); [WNYC: Matos interview and speech, 2021](https://www.wnycstudios.org/podcasts/otm/segments/meme-known-cryptocurrencys-biggest-scam-now-nft-on-the-media); [SEC complaint, 2021, paras. 71, 81-82, 222](https://www.sec.gov/files/litigation/complaints/2021/comp-pr2021-90.pdf); [DOJ: BitConnect restitution, 2023](https://www.justice.gov/archives/opa/pr/crypto-fraud-victims-receive-over-17-million-restitution-bitconnect-scheme). The date is corroborated by the organiser; the speech excerpt is verified through WNYC, not the original full video. The stage and props are artistic interpretation. The car does not identify Matos as a prize winner; the pyramid is retrospective symbolism. The 2018 closure is separate. Matos's investment figure is self-reported; SEC complaint claims remain allegations.
