@@ -6734,7 +6734,7 @@
       "set_label": "CRYPTO • SEASON 01 • 046/100",
       "qr_url": "https://lore-site-v1.vercel.app/crypto/046/",
       "canonical_title": "CryptoKitties",
-      "status": "PUBLICATION_AUTHORISED",
+      "status": "PUBLISHED_DIGITAL_VERIFIED",
       "provisional_fields": [],
       "qr_destination_status": "PENDING_PUBLICATION",
       "edit_condition_verified": true,
@@ -6753,7 +6753,7 @@
       "event_date": "2017-11-28",
       "date_basis": "CryptoKitties public launch on 28 November 2017; subsequent early-December demand and Ethereum congestion are distinct.",
       "qr_mode": "live",
-      "qr_status": "PUBLISHED_ROUTE_PENDING_LIVE_VERIFICATION",
+      "qr_status": "PUBLISHED_ROUTE",
       "print_release": false,
       "publication_approved": true,
       "github_upload_authorised": true,
@@ -6815,7 +6815,10 @@
         "cards/crypto/season-01/birth-of-doge-master-02/art.png"
       ],
       "set_size": 100,
-      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate.",
+      "publication_verification": "cards/crypto/season-01/cryptokitties-master-046/publication-verification.json",
+      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+      "book_native_effective_ppi": 128.2095238095238
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -6829,11 +6832,9 @@
   "updated_at": "2026-10-07",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 48,
-  "numbered_published_count": 45,
+  "numbered_published_count": 46,
   "numbering_gap_note": "Current numbered collection 001–046 has no gap. Two unnumbered designs remain archived. All prior registry objects are unchanged.",
-  "pending_live_verification_numbers": [
-    "046"
-  ],
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 46,
   "current_numbered_print_count": 46,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
