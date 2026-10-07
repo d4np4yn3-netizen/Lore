@@ -1,0 +1,54 @@
+{
+  "card": "047",
+  "revision": "gold-level-v8",
+  "status": "UNAPPROVED_PRECISE_CORRECTION_READY_FOR_DAN_REVIEW",
+  "created_at": "2026-10-07T09:13:43Z",
+  "built_in_imagegen": true,
+  "user_direction": "Gold receiving tube appears to have two levels; make a single continuous liquid volume with one surface.",
+  "user_screenshot": {
+    "library_file_id": "libfile_546488a6e148819185a270ae1d32ec2a",
+    "filename": "IMG_5126.jpeg",
+    "inspected": true
+  },
+  "file": "HISTROVE-Crypto-047-Dai-Goes-Live-Glass-Experiment-v8.png",
+  "pixels": [
+    1060,
+    1484
+  ],
+  "mode": "RGB",
+  "bytes": 2442150,
+  "sha256": "e144c21d3a83cf3f96b39ffb1822f7bc4848fafd96769dc15610cc3c95e93bd8",
+  "prompt": "generation-prompt.txt",
+  "references": [
+    {
+      "name": "HODL raw v2",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1"
+    },
+    {
+      "name": "Doge raw v2",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422"
+    }
+  ],
+  "edit_target": {
+    "library_file_id": "libfile_480e6221dac48191bd3d1eda1d21aea7",
+    "revision": "v7",
+    "preserved": true
+  },
+  "qa": {
+    "full_image_viewed": true,
+    "actual_pixel_gold_tube_closeup": "qa-gold-tube-3x.png",
+    "closeup_method": "Deterministic crop at 3x nearest-neighbour for inspection only; main file unaltered.",
+    "single_meniscus": "One surface near the upper DAI label; old lower wavy surface removed.",
+    "continuous_liquid": "Gold liquid now continuous below the sole surface down to the lower connection.",
+    "other_elements": "Hands, tipped flask necks and drop paths, left tube, labels, stand, padlock, target marker, wrench and lab are visually retained; no pixel-identical claim.",
+    "limitations": "Art proof only, no final card overlay or printed-size QA."
+  },
+  "publication": false,
+  "library_file_id": "libfile_b89ef19c4e7c8191a30c49c6221325cb",
+  "backing_file_id": "file_00000000843481f7909971109ae9dea2",
+  "library_version": 0,
+  "parent_visual_review": {
+    "at": "2026-10-07T09:14:43Z",
+    "result": "Tube close-up shows one upper surface and continuous fill, lower wave gone. Save for user review."
+  }
+}
