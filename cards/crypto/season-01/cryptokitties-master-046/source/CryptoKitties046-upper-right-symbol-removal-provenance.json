@@ -1,0 +1,62 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "source_path": "/workspace/scratch/58d5f7ed8606/card046/recovered/LORE-Crypto-046-CryptoKitties-Art-Draft-v1.png",
+  "source_sha256": "c5eedef4d0868013c7d0f5694474c51547a3f6fd4fb8945d10c91241150284ae",
+  "output_path": "/workspace/scratch/58d5f7ed8606/card046/final-art/LORE-Crypto-046-CryptoKitties-Art-No-Upper-ETH-v2.png",
+  "output_sha256": "6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e",
+  "source_dimensions": [
+    1060,
+    1484
+  ],
+  "output_dimensions": [
+    1060,
+    1484
+  ],
+  "raw_generated_path": "/workspace/scratch/58d5f7ed8606/generated_images/exec-95a1268c-31ff-4a1b-8b6c-6704ac857596.png",
+  "prompt_file": "CryptoKitties046-upper-right-symbol-removal-prompt.txt",
+  "postprocessing": "None. Output copied byte-for-byte from built-in generated file.",
+  "pixel_diff": {
+    "overall_mean_abs_rgb": 6.440917798233569,
+    "outside_target_region_mean_abs_rgb": 6.245030146314688,
+    "outside_target_region_percent_pixels_changed": 98.98587454330263,
+    "excluded_target_box_xyxy": [
+      825,
+      60,
+      940,
+      220
+    ]
+  },
+  "style_reference_inputs": [
+    {
+      "path": "/workspace/scratch/58d5f7ed8606/card045/references/LORE-Birth-of-HODL-Epic-v2-Print-v1.png",
+      "sha256": "243cc4e7763f309c1efb4964ea4ca121016171b0731f2eb2ca9ef49dea1973b6",
+      "role": "Style context only; not compositional inputs"
+    },
+    {
+      "path": "/workspace/scratch/58d5f7ed8606/card045/references/LORE-Birth-of-Doge-Epic-v2-Print-v1.png",
+      "sha256": "c6346f502e5c4458a2603a8191ebd011285c766228ca05498620646578d7bd33",
+      "role": "Style context only; not compositional inputs"
+    }
+  ],
+  "qa_notes": [
+    "Inspected source and both style references before editing.",
+    "Upper-right Ethereum diamond and its bright outline removed, replaced by purple city background.",
+    "Left Ethereum electrical-box emblem retained.",
+    "Canvas unchanged at 1060x1484.",
+    "Visual layout, cream cat identity, green eyes, raised paw, hourglass, green trolley, parent-trait cards, pending tags, NOV 2017 tag and kitten queue preserved.",
+    "Generative re-render causes global pixel/linework/texture variation; output is not pixel-identical outside target region. Reported to parent for independent acceptance.",
+    "No Python image editing, compositing, resizing or corrective postprocessing used. Python used only to inspect dimensions, calculate pixel differences and write provenance."
+  ],
+  "pinned_style_references": [
+    {
+      "filename": "LORE-Birth-of-Doge-Epic-v2-Print-v1.png",
+      "sha256": "c6346f502e5c4458a2603a8191ebd011285c766228ca05498620646578d7bd33",
+      "role": "Style context only"
+    },
+    {
+      "filename": "LORE-Birth-of-HODL-Epic-v2-Print-v1.png",
+      "sha256": "243cc4e7763f309c1efb4964ea4ca121016171b0731f2eb2ca9ef49dea1973b6",
+      "role": "Style context only"
+    }
+  ]
+}

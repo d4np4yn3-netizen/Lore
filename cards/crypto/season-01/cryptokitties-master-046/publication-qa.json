@@ -1,0 +1,50 @@
+{
+  "local_tests": "PASS full 46-card suite",
+  "production_build": "PASS Next.js 16.0.10 production build,95 static pages",
+  "initial_build_recovery": "Executor-local external node_modules symlink rejected by Turbopack; copied same existing dependencies into project and production build passed without repository configuration changes",
+  "lint": "No separately configured lint command",
+  "typecheck": "Next production compilation/type-check stage passed",
+  "card_png_pdf_web_digital_qr": "PASS",
+  "pdf_boxes_points": {
+    "mediabox": [
+      0,
+      0,
+      195.84,
+      266.4
+    ],
+    "cropbox": [
+      0,
+      0,
+      195.84,
+      266.4
+    ],
+    "bleedbox": [
+      0,
+      0,
+      195.84,
+      266.4
+    ],
+    "trimbox": [
+      8.64,
+      8.64,
+      187.2,
+      257.76
+    ],
+    "artbox": [
+      15.84,
+      15.48,
+      180,
+      250.92
+    ]
+  },
+  "new_media_hashes_verified": 8,
+  "all_47_prior_registry_objects_preserved": true,
+  "all_528_prior_display_assets_preserved": true,
+  "prior_content_001_045_preserved": true,
+  "source_package_hashes_verified": 49,
+  "card_artwork_sha256": "6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e",
+  "site_verified": false,
+  "physical_print_release": false,
+  "physical_device_tested": false,
+  "repository_card_builder_reproduction": "PASS byte-identical PNG/PDF/SVG/web using local repository and archived dependencies"
+}

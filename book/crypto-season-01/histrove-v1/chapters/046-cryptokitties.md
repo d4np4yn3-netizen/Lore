@@ -1,0 +1,28 @@
+# 046 - CryptoKitties
+
+28 NOV 2017 / ETHEREUM / EPIC
+
+THE POWER OF FUN.
+
+## The story
+
+On 28 November 2017, Axiom Zen released CryptoKitties to the public on Ethereum. Players could collect and breed digital cats, paying with ether. The launch announcement aimed to make blockchain accessible through the power of fun: a playful introduction to a technical world.
+
+Each cat carried programmed traits. Pairing two cats produced a new one whose appearance drew on both parents. Players could explore combinations and see which features emerged. The breeding was a software mechanic, with smart contracts doing the work on Ethereum.
+
+The queues followed the launch. By early December, demand was putting pressure on the network. On 4 December, the CryptoKitties team reported congestion, recommended higher gas prices and raised the birthing fee. Players were encountering the cost and delay of completing their game's transactions on a busy blockchain.
+
+Developers from CryptoKitties, MetaMask, Infura and other projects worked on the response. Their later accounts describe growing pending-transaction queues and confused players. Status indicators and ways to resubmit transactions helped. A popular game had made Ethereum's capacity limits tangible to people using it.
+
+HISTROVE turns that experience into a workshop. Parent-trait cards hang beside a kitten's cradle; waiting cats fill a railway of baskets. PENDING tags crowd the counter, and a raised paw hovers above a pink hourglass. The left Ethereum box stays lit. This imagined scene joins the November launch to the congestion that followed in December.
+
+## Details in the artwork
+
+1. **THE PARENT TRAIT CARDS** PARENT A and PARENT B point towards a new kitten. They explain the game's trait-combination mechanic through an illustrated workshop diagram. The cards are invented props, and the breeding is a software process.
+2. **THE PENDING TAGS** The stacked tags turn delayed transactions into a visible backlog. They refer to congestion in early December, after the 28 November launch. They do not represent lost kittens or documented delivery slips.
+3. **THE IMPATIENT PAW** The raised paw and pink hourglass make waiting personal. This is a comic expression of the player's experience, not a recorded incident or a timer for the release of new cats.
+4. **THE STILL-LIT ETHEREUM BOX** The illuminated box recalls Ethereum's first-light motif elsewhere in the collection. Its continuing glow links the game to the network beneath it: busy and under strain. The electrical box is a symbolic crossover, not historical equipment.
+
+## Source and art note
+
+Sources: [Axiom Zen: launch release, 28 November 2017](https://www.prnewswire.com/news-releases/cryptokitties-the-worlds-first-ethereum-game-launches-today-660494083.html); [CryptoKitties: fee update, 4 December 2017](https://medium.com/cryptokitties/cryptokitties-birthing-fees-increases-in-order-to-accommodate-demand-acc314fcadf5); [Consensys: developer interviews, 20 February 2018](https://consensys.io/blog/the-inside-story-of-the-cryptokitties-congestion-crisis). 28 November marks the public launch; the queue anticipates early December's congestion. The phrase is adapted from the launch-release subheading. All four workshop clues are artistic interpretations. The continuing light does not depict a network shutdown. Logo use is not a claim of endorsement or legal clearance.
