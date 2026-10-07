@@ -28,7 +28,7 @@ All three pass locally. `test:search` examines built HTML for all preferred rout
 
 A same-process local HTTP sweep also passes: all 47 editorial routes return 200; all printed `/crypto/NNN/` aliases retain their existing 308 → 308 → 200 chain; homepage, sitemap and robots return 200; unknown stories and the nonexistent collection endpoint return 404.
 
-Browser interaction and visual checks are pending on the protected preview. These local checks do not establish search-engine indexing, physical-device testing, social-platform crop appearance or email deliverability.
+Protected-preview desktop checks pass for the closed form, keyboard tabs, artwork markers, clue navigation, book zoom/PDF links and modal dismissal/history. The new section fits a 507px narrow browser viewport. QA caught and corrected a scroll-restoration interaction: restore the archive position only when leaving a card modal, so later section-anchor navigation is not pulled back. The follow-up preview must verify this correction. Sub-500px and physical-phone browser testing remain unverified. These local checks do not establish search-engine indexing, physical-device testing, social-platform crop appearance or email deliverability.
 
 ## Email activation gate
 
