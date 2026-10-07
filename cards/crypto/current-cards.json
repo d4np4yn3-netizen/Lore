@@ -6832,9 +6832,9 @@
       "qr_url": "https://lore-site-v1.vercel.app/crypto/047/",
       "confirmed_lore_owned_route": true,
       "canonical_title": "Dai Goes Live",
-      "status": "APPROVED_FOR_CARD_BOOK_GITHUB_SITE",
+      "status": "PUBLISHED_DIGITAL_VERIFIED",
       "provisional_fields": [],
-      "qr_destination_status": "PENDING_PUBLICATION",
+      "qr_destination_status": "VERIFIED_HTTP_200",
       "id": "crypto-s01-dai-goes-live",
       "moment_number": 47,
       "collection": "crypto",
@@ -6857,7 +6857,7 @@
       "approval_record": "cards/crypto/season-01/dai-goes-live-master-047/approval.json",
       "phrase_status": "APPROVED_SOURCE_LAUNCH_HEADLINE",
       "qr_mode": "live",
-      "qr_status": "PUBLISHED_ROUTE_PENDING_LIVE_VERIFICATION",
+      "qr_status": "PUBLISHED_ROUTE",
       "print_release": false,
       "publication_approved": true,
       "github_upload_authorised": true,
@@ -6910,7 +6910,9 @@
       "source_notes": "cards/crypto/season-01/dai-goes-live-master-047/source-notes.md",
       "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
       "book_native_effective_ppi": 128.2095238095238,
-      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate.",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+      "publication_verification": "cards/crypto/season-01/dai-goes-live-master-047/publication-verification.json"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -6924,11 +6926,9 @@
   "updated_at": "2026-10-07",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 49,
-  "numbered_published_count": 46,
+  "numbered_published_count": 47,
   "numbering_gap_note": "Current numbered collection 001–047 has no gap. Two unnumbered designs remain archived. All prior registry objects are unchanged.",
-  "pending_live_verification_numbers": [
-    "047"
-  ],
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 47,
   "current_numbered_print_count": 47,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
