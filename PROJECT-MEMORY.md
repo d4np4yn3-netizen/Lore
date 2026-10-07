@@ -1,12 +1,12 @@
-# 045 BitConnect approved for publication — 7 October 2026
+# 045 BitConnect published and verified — 7 October 2026
 
 Dan approved the exact latest v3 spotlight artwork and HISTROVE Rare card, then authorised the book and GitHub/site upload. BITCONNECT / 28 OCT 2017 / HEY, HEY, HEY! / 045/100. Approved art SHA-256 `06a19f961a37259c8c3d1bf194cf4b8711a920e92e99a12619092428f939a95b` is unchanged, including the joined INVESTOR lanyard. Current master: `cards/crypto/season-01/bitconnect-master-045`; print files remain under `cards/crypto/print-ready/histrove-v1`; the two-page book is `book/crypto-season-01/histrove-v1/045-bitconnect-histrove-v1.pdf`.
 
 The stable QR is https://lore-site-v1.vercel.app/crypto/045/ and resolves through `/cards/bitconnect`. Five story paragraphs and four actual-art details are shared by book and site: miniature car, 25,610, cracked pyramid and INVESTOR lanyard. The car is symbolic convention-prize imagery, not a claim that Carlos Matos won it. The amount is his self-reported USD investment; the pyramid is retrospective symbolism. Matos is the investor and viral speaker, not BitConnect's founder. Sources distinguish the 2017 ceremony from the 2018 closure and civil allegations from adjudicated facts.
 
-The prepared collection has 45 numbered cards, 192 clues, 90 book previews and 528 packed display assets. It still contains 47 unique approved designs: 045 replaces the unnumbered BitConnect registry object while preserving it in full under historical_versions. All 44 earlier cards, 520 prior display assets and archived masters are unchanged. Print geometry is 816×1110@300DPI, trim744×1038, safe684×981 with exact PDF boxes. Native full-art book placement is 128.21 PPI. Physical print acceptance, phone-camera scanning and commercial-reproduction clearance remain separate and are not claimed.
+The published collection has 45 numbered cards, 192 clues, 90 book previews and 528 packed display assets. It still contains 47 unique approved designs: 045 replaces the unnumbered BitConnect registry object while preserving it in full under historical_versions. All 44 earlier cards, 520 prior display assets and archived masters are unchanged. Print geometry is 816×1110@300DPI, trim744×1038, safe684×981 with exact PDF boxes. Native full-art book placement is 128.21 PPI. Physical print acceptance, phone-camera scanning and commercial-reproduction clearance remain separate and are not claimed.
 
-Local build/testing and remote publication verification are recorded in the numbered master. Do not mark remote verification complete until the exact commit and production release have been checked.
+Release `6fd0805f59cab9f0a5227efa13a40f9a0a29ed91` is verified on GitHub main and READY in production deployment `dpl_77sVyNRsGK23HC2yQt3FkHjqFXQc`; originals are pinned to immutable asset commit `57f426a116375d69896973711aff4487f1d2776a`. Local test/build pass. All 45 live QR routes, eight new display hashes, six original-download hashes and actual downloaded PNG/PDF/web QR decodes pass. The numbered master records digital checks and browser coverage separately from physical printing.
 
 ---
 

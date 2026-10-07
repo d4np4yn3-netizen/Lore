@@ -1223,7 +1223,7 @@
       "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-045-Front-Print-v1.pdf",
       "book": "book/crypto-season-01/histrove-v1/045-bitconnect-histrove-v1.pdf",
       "chapter": "book/crypto-season-01/histrove-v1/chapters/045-bitconnect.md",
-      "status": "PUBLICATION_AUTHORISED",
+      "status": "PUBLISHED_DIGITAL_VERIFIED",
       "artwork_status": "VISUALLY_APPROVED",
       "approved_by": "Dan Payne",
       "approved_at": "2026-10-07",
@@ -1232,7 +1232,7 @@
       "event_date": "2017-10-28",
       "date_basis": "Contemporaneous organiser account dated 28 October 2017, corroborated by SEC October 2017 ceremony account; original company video remains unavailable.",
       "qr_mode": "live",
-      "qr_status": "PUBLISHED_ROUTE_PENDING_LIVE_VERIFICATION",
+      "qr_status": "PUBLISHED_ROUTE",
       "print_release": false,
       "publication_approved": true,
       "github_upload_authorised": true,
@@ -1411,7 +1411,8 @@
             "converted_at": "2026-09-24"
           }
         }
-      ]
+      ],
+      "publication_verification": "cards/crypto/season-01/bitconnect-master-045/publication-verification.json"
     },
     {
       "id": "crypto-s01-the-dao-hack",
@@ -6731,11 +6732,9 @@
   "updated_at": "2026-10-07",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 47,
-  "numbered_published_count": 39,
+  "numbered_published_count": 45,
   "numbering_gap_note": "Current numbered collection 001–045 has no gap. 045 supersedes the older unnumbered BitConnect design within the same event identity; its complete previous registry object and files remain preserved.",
-  "pending_live_verification_numbers": [
-    "045"
-  ],
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 45,
   "current_numbered_print_count": 45,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
