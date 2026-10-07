@@ -2,7 +2,7 @@
 
 **History Worth Holding**
 
-An illustrated, interactive timeline of 46 approved crypto-history moments, with full artwork, 196 linked art details and 92 companion-book page previews. The desktop/mobile editorial experience, reader controls and 46 stable printed QR redirects are preserved.
+An illustrated, interactive timeline of 47 approved crypto-history moments, with full artwork, 200 linked art details and 94 companion-book page previews. The desktop/mobile editorial experience, reader controls and 47 stable printed QR redirects are preserved.
 
 ## Run and verify
 
@@ -40,3 +40,7 @@ Exact approved v3 artwork and HISTROVE Rare card, five-paragraph story, four act
 ## 046 CryptoKitties
 
 Corrected approved artwork and HISTROVE Epic card, story, four actual-art clues and two-page book. `/crypto/046/` redirects to `/cards/cryptokitties`. `media/display-046.bin` adds eight images while preserving all 528 earlier assets. Original artwork and downloads are pinned to the immutable release asset commit. Launch and the following week's congestion are explicitly separate.
+
+## 047 Dai Goes Live
+
+Approved v8 glass-experiment artwork, HISTROVE Rare card, five-paragraph story, four full-art clues and two-page book. `/crypto/047/` redirects to `/cards/dai-goes-live`. `media/display-047.bin` adds eight images while preserving all 536 earlier assets. PETH, CDPs, a soft dollar target and symbolic maintenance are distinguished from a literal mechanism. Original downloads are pinned to the immutable asset commit.

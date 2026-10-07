@@ -36,3 +36,5 @@ All 39 PDFs pass digital checks. At 144 dpi there are zero altered pixels outsid
 045 BitConnect appends a two-page full-art/editorial book chapter, matching 044's layout. Five story paragraphs and four clue texts exactly mirror the site. The native artwork remains 1060×1484; contain placement is 128.21 effective PPI. Physical reproduction approval is not implied.
 
 046 CryptoKitties appends a two-page full-art/editorial chapter. Story and four clue texts exactly mirror the site. Native art is 1060×1484; physical reproduction approval is not implied.
+
+047 Dai Goes Live adds approved v8 art, Rare, 18 DEC 2017 and the launch-headline phrase DAI IS NOW LIVE! Four full-art clues and five story paragraphs match the two-page book and site. Current numbered collection: 001–047. Previous approved files remain unchanged. Physical print/book-quality review remains separate.

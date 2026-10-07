@@ -49,3 +49,5 @@ Set size, collector numbering, production quantities and pack odds are undecided
 
 The collection covers breakthroughs, culture, scams, crashes, hacks and bans.
 See the [editorial backlog](EDITORIAL-BACKLOG.md) for unapproved candidate themes.
+
+047 Dai Goes Live adds approved v8 art, Rare, 18 DEC 2017 and the launch-headline phrase DAI IS NOW LIVE! Four full-art clues and five story paragraphs match the two-page book and site. Current numbered collection: 001–047. Previous approved files remain unchanged. Physical print/book-quality review remains separate.

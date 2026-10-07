@@ -85,3 +85,5 @@ The approved Rare front is appended as HISTROVE-Crypto-045-Front-Print-v1 in png
 ## 046 — CryptoKitties, 7 October 2026
 
 The approved Epic front is appended as HISTROVE-Crypto-046-Front-Print-v1 in png/pdf/svg. It uses the corrected upper-right-symbol illustration, CRYPTO / KITTIES title, `/crypto/046/`, and passes digital PNG/PDF QR and exact PDF-box checks. Earlier masters remain unchanged. Physical printer/sample acceptance is still separate.
+
+047 Dai Goes Live adds approved v8 art, Rare, 18 DEC 2017 and the launch-headline phrase DAI IS NOW LIVE! Four full-art clues and five story paragraphs match the two-page book and site. Current numbered collection: 001–047. Previous approved files remain unchanged. Physical print/book-quality review remains separate.

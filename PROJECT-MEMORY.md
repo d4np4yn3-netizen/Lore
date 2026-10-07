@@ -1,3 +1,15 @@
+# 047 Dai Goes Live authorised for publication — 7 October 2026
+
+Dan approved the latest gold-level-v8 glass experiment for card, book, GitHub and website publication. MAKERDAO / DAI GOES LIVE / Rare / 18 DEC 2017 / DAI IS NOW LIVE! / 047/100. Exact art SHA-256 `e144c21d3a83cf3f96b39ffb1822f7bc4848fafd96769dc15610cc3c95e93bd8` is preserved. Current master: `cards/crypto/season-01/dai-goes-live-master-047`. The original source package remains sealed; print files use the current HISTROVE folder and geometry.
+
+The stable QR is https://lore-site-v1.vercel.app/crypto/047/ and resolves to `/cards/dai-goes-live`. Book and site share five story paragraphs, two sources and four actual-art clues: the PETH vessel, CDP lock, one-dollar target and maintenance wrench. The wrench is a full-illustration detail beneath the card title area. The glass experiment and professor are symbolic; no portrait, literal liquid mechanism or guaranteed dollar price is claimed. The phrase comes from the launch headline.
+
+The prepared collection has 47 numbered cards, 200 clues, 94 book previews and 544 packed display assets. There are 49 unique approved designs including two unnumbered archived designs. All 48 prior registry objects, 46 earlier cards, 536 prior display assets and historical masters remain unchanged. Print geometry is 816×1110@300DPI, trim744×1038, safe684×981 with exact PDF boxes. Native 1060×1484 full-A4 book art remains 128.21 effective PPI, with resolution review deferred to the final collection review as requested. Physical printer/sample acceptance, phone-camera scanning and rights clearance remain separate.
+
+Local and live verification are recorded beside the numbered master. Do not infer a full live route sweep or physical quality acceptance from targeted digital tests.
+
+---
+
 # 046 CryptoKitties published and digitally verified — 7 October 2026
 
 Dan approved CryptoKitties after requesting removal of the upper-right Ethereum symbol behind the HISTROVE mark, then authorised the book and GitHub/site upload. Parent independently verified that correction and retention of the left Ethereum symbol. ETHEREUM / CRYPTO KITTIES / Epic / 28 NOV 2017 / THE POWER OF FUN. / 046/100. Exact corrected art SHA-256 `6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e` is preserved. Current master: `cards/crypto/season-01/cryptokitties-master-046`; print files remain under `cards/crypto/print-ready/histrove-v1`; two-page book: `book/crypto-season-01/histrove-v1/046-cryptokitties-histrove-v1.pdf`.

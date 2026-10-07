@@ -2,7 +2,7 @@
   "updated": "2026-10-07",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 48,
+  "approved_visual_count": 49,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -6819,6 +6819,98 @@
       "publication_verification": "cards/crypto/season-01/cryptokitties-master-046/publication-verification.json",
       "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
       "book_native_effective_ppi": 128.2095238095238
+    },
+    {
+      "rarity": "rare",
+      "creator": "MAKERDAO",
+      "title_line_1": "DAI",
+      "title_line_2": "GOES LIVE",
+      "context": "DAI IS NOW LIVE!",
+      "moment_label": "18 DEC 2017",
+      "set_label": "CRYPTO • SEASON 01 • 047/100",
+      "artwork": "cards/crypto/season-01/dai-goes-live-master-047/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/047/",
+      "confirmed_lore_owned_route": true,
+      "canonical_title": "Dai Goes Live",
+      "status": "APPROVED_FOR_CARD_BOOK_GITHUB_SITE",
+      "provisional_fields": [],
+      "qr_destination_status": "PENDING_PUBLICATION",
+      "id": "crypto-s01-dai-goes-live",
+      "moment_number": 47,
+      "collection": "crypto",
+      "season": 1,
+      "set_size": 100,
+      "event_date": "2017-12-18",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/dai-goes-live-master-047/art.png",
+        "bytes": 2442150,
+        "sha256": "e144c21d3a83cf3f96b39ffb1822f7bc4848fafd96769dc15610cc3c95e93bd8"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-047-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-047-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-047-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/047-dai-goes-live-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/047-dai-goes-live.md",
+      "artwork_status": "VISUALLY_APPROVED",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-10-07",
+      "approval_record": "cards/crypto/season-01/dai-goes-live-master-047/approval.json",
+      "phrase_status": "APPROVED_SOURCE_LAUNCH_HEADLINE",
+      "qr_mode": "live",
+      "qr_status": "PUBLISHED_ROUTE_PENDING_LIVE_VERIFICATION",
+      "print_release": false,
+      "publication_approved": true,
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": true,
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-047-Front-Print-v1.png",
+          "bytes": 904689,
+          "sha256": "12f48f718424c415e114c083039b1fe029fb9d56e968f53df41fa20d98048fae"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-047-Front-Print-v1.pdf",
+          "bytes": 4221431,
+          "sha256": "27d7b799f4baf8a62409a80bccd064a995f28635b11a88ac357ea2f144547378"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-047-Front-Print-v1.svg",
+          "bytes": 3823905,
+          "sha256": "fec29ac7bb5b84539e53fbe1a85ee7fb0ddf3c8c7cafdc390a20252b42bb9c5e"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-047-Front-Print-v1.png",
+          "bytes": 904689,
+          "sha256": "12f48f718424c415e114c083039b1fe029fb9d56e968f53df41fa20d98048fae"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-047-Front-Print-v1.pdf",
+          "bytes": 4221431,
+          "sha256": "27d7b799f4baf8a62409a80bccd064a995f28635b11a88ac357ea2f144547378"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-047-Front-Print-v1.svg",
+          "bytes": 3823905,
+          "sha256": "fec29ac7bb5b84539e53fbe1a85ee7fb0ddf3c8c7cafdc390a20252b42bb9c5e"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/047.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "source_notes": "cards/crypto/season-01/dai-goes-live-master-047/source-notes.md",
+      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+      "book_native_effective_ppi": 128.2095238095238,
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -6831,12 +6923,14 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-07",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 48,
+  "approved_print_derivative_count": 49,
   "numbered_published_count": 46,
-  "numbering_gap_note": "Current numbered collection 001–046 has no gap. Two unnumbered designs remain archived. All prior registry objects are unchanged.",
-  "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 46,
-  "current_numbered_print_count": 46,
+  "numbering_gap_note": "Current numbered collection 001–047 has no gap. Two unnumbered designs remain archived. All prior registry objects are unchanged.",
+  "pending_live_verification_numbers": [
+    "047"
+  ],
+  "prepared_numbered_count": 47,
+  "current_numbered_print_count": 47,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
   "print_master_directory": "cards/crypto/master/histrove-print-v1",
   "shared_print_back": {
@@ -6866,5 +6960,5 @@
     "physical_print_release": false,
     "matches_approved_back_pixels": true
   },
-  "print_revision_note": "HISTROVE is current for numbered fronts 001–046 and shared back. Exact earlier files are preserved. Physical printer/sample acceptance remains separate."
+  "print_revision_note": "HISTROVE is current for numbered fronts 001–047 and shared back. Exact earlier files are preserved. Physical printer/sample acceptance remains separate."
 }

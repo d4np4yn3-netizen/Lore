@@ -122,3 +122,5 @@ The published 001–037 collection contains 159 clues and 74 book-page previews.
 ## 039 Behind the Chair
 
 [Approved chapter](039-behind-the-chair.md) · [Two-page book](proofs/039-behind-the-chair-full-art-spread-v1.pdf). Common, 12 JUL 2017, BUY BITCOIN. Five approved paragraphs and five actual-art details. Digital publication verified; physical reproduction remains separate.
+
+047 Dai Goes Live adds approved v8 art, Rare, 18 DEC 2017 and the launch-headline phrase DAI IS NOW LIVE! Four full-art clues and five story paragraphs match the two-page book and site. Current numbered collection: 001–047. Previous approved files remain unchanged. Physical print/book-quality review remains separate.
