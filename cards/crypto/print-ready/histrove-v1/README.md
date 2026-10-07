@@ -77,3 +77,7 @@ Visual approval and digital checks are recorded. Printer acceptance, physical sa
 | 037 | THE ZCASH CEREMONY | uncommon | [PNG](fronts/png/HISTROVE-Crypto-037-Front-Print-v1.png) | [PDF](fronts/pdf/HISTROVE-Crypto-037-Front-Print-v1.pdf) | [SVG](fronts/svg/HISTROVE-Crypto-037-Front-Print-v1.svg) |
 | 038 | CRYPTO PUNKS | epic | [PNG](fronts/png/HISTROVE-Crypto-038-Front-Print-v1.png) | [PDF](fronts/pdf/HISTROVE-Crypto-038-Front-Print-v1.pdf) | [SVG](fronts/svg/HISTROVE-Crypto-038-Front-Print-v1.svg) |
 | 039 | BEHIND THE CHAIR | common | [PNG](fronts/png/HISTROVE-Crypto-039-Front-Print-v1.png) | [PDF](fronts/pdf/HISTROVE-Crypto-039-Front-Print-v1.pdf) | [SVG](fronts/svg/HISTROVE-Crypto-039-Front-Print-v1.svg) |
+
+## 045 — BitConnect, 7 October 2026
+
+The approved Rare front is appended as HISTROVE-Crypto-045-Front-Print-v1 in png/pdf/svg. It preserves the selected v3 illustration and single-word title, uses `/crypto/045/`, and passes digital PNG/PDF QR and exact Media/Bleed/Trim/ArtBox checks. Earlier masters remain unchanged. Physical printer/sample acceptance is still separate.

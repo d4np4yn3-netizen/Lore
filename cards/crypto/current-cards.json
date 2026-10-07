@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "collection": "Crypto",
   "season": 1,
   "approved_visual_count": 47,
@@ -1205,6 +1205,7 @@
     },
     {
       "id": "crypto-s01-bitconnect",
+      "moment_number": 45,
       "collection": "crypto",
       "season": 1,
       "rarity": "rare",
@@ -1213,15 +1214,71 @@
       "title_line_2": "",
       "context": "HEY, HEY, HEY!",
       "moment_label": "28 OCT 2017",
-      "set_label": "CRYPTO • SEASON 01",
-      "artwork": "cards/crypto/season-01/bitconnect-master-01/art.png",
-      "qr_url": "https://example.com/lore/crypto/bitconnect",
-      "status": "VISUALLY_APPROVED",
+      "set_label": "CRYPTO • SEASON 01 • 045/100",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/045/",
+      "single_line_title": true,
+      "artwork": "cards/crypto/season-01/bitconnect-master-045/art.png",
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-045-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-045-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-045-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/045-bitconnect-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/045-bitconnect.md",
+      "status": "PUBLICATION_AUTHORISED",
       "artwork_status": "VISUALLY_APPROVED",
-      "concept_instruction": "Cool, let’s make bitconnect",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-10-07",
+      "approval_record": "cards/crypto/season-01/bitconnect-master-045/approval.json",
       "phrase_status": "PRIMARY_SOURCE_CLIP_TRANSCRIPT_VERIFIED_CONCEPT_BUILD_AUTHORISED",
       "event_date": "2017-10-28",
-      "date_basis": "CONVENTION_SPEECH_SECONDARY_EVENT_ARCHIVE_CORROBORATED; original video unavailable",
+      "date_basis": "Contemporaneous organiser account dated 28 October 2017, corroborated by SEC October 2017 ceremony account; original company video remains unavailable.",
+      "qr_mode": "live",
+      "qr_status": "PUBLISHED_ROUTE_PENDING_LIVE_VERIFICATION",
+      "print_release": false,
+      "publication_approved": true,
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": true,
+      "artwork_file": {
+        "path": "cards/crypto/season-01/bitconnect-master-045/art.png",
+        "bytes": 1949673,
+        "sha256": "06a19f961a37259c8c3d1bf194cf4b8711a920e92e99a12619092428f939a95b"
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-045-Front-Print-v1.png",
+          "bytes": 712486,
+          "sha256": "40903c8751cf9df52c667d0fc31ea0fe1519bf8d51723af22c91cf93620aa5a3"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-045-Front-Print-v1.pdf",
+          "bytes": 3399064,
+          "sha256": "79ebe97954abca984aa5aee582486d924976438959e5b8a7d88ba67a8b0b054e"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-045-Front-Print-v1.svg",
+          "bytes": 3167348,
+          "sha256": "41eba5303a3b65d9f631ff742e455b62cef7fc04cad266c06c1c83ea397ca634"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-045-Front-Print-v1.png",
+          "bytes": 712486,
+          "sha256": "40903c8751cf9df52c667d0fc31ea0fe1519bf8d51723af22c91cf93620aa5a3"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-045-Front-Print-v1.pdf",
+          "bytes": 3399064,
+          "sha256": "79ebe97954abca984aa5aee582486d924976438959e5b8a7d88ba67a8b0b054e"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-045-Front-Print-v1.svg",
+          "bytes": 3167348,
+          "sha256": "41eba5303a3b65d9f631ff742e455b62cef7fc04cad266c06c1c83ea397ca634"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/045.json",
+        "physical_print_release": false
+      },
       "finishes": [
         "standard",
         "foil"
@@ -1230,93 +1287,131 @@
         63,
         88
       ],
-      "qr_mode": "demo",
-      "print_release": false,
-      "publication_approved": true,
-      "interpretation": "Carlos Matos convention speech, heightened with imagined stage, confetti and three symbolic props. Not a literal reconstruction of every prop, nor a depiction of the later shutdown. Carlos is the investor/meme speaker, not presented as the founder.",
-      "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+      "source_notes": "cards/crypto/season-01/bitconnect-master-045/source-notes.md",
+      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
       "required_style_references": [
         "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
         "cards/crypto/season-01/birth-of-doge-master-02/art.png"
       ],
-      "source_notes": "cards/crypto/season-01/bitconnect-master-01/source-notes.md",
-      "rarity_status": "APPROVED_RARE",
-      "revision_instruction": "sorry, i think i actualy prefer this pyramid location and size?",
-      "selected_artwork_library_id": "libfile_2025213532b48191b5e1dfc64e1414b7",
-      "single_line_title": true,
-      "title_instruction": "also, shouldnt BitConnect be all one word on card text?",
-      "layout_exception": "User requested a single-word title. First title baseline/font unchanged; second title field empty. No fixed element moved or resized.",
-      "front": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
-      "editable_svg": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
-      "source_archive": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-Review-v3-Source.zip",
-      "approved_by": "Dan Payne",
-      "approved_at": "2026-09-20",
-      "approval_quote": "approved, uplaod and then on to the next card",
-      "approval_record": "cards/crypto/season-01/bitconnect-master-01/approval.json",
-      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
-      "style_migration_status": "APPROVED_CURRENT_STYLE",
-      "github_upload_authorised": true,
-      "website_publication_in_this_change": false,
-      "qr_status": "DEMO_ONLY",
-      "subject": "BITCONNECT",
-      "title_lines": [
-        "BITCONNECT"
-      ],
-      "event_date_display": "28 OCT 2017",
-      "footer": "CRYPTO • SEASON 01",
-      "moment_number": null,
-      "set_size": null,
-      "print_quantities": null,
-      "current_files": [
+      "set_size": 100,
+      "rights_review": "No affiliation or endorsement implied; commercial reproduction review remains separate.",
+      "historical_versions": [
         {
-          "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
-          "bytes": 1245181,
-          "sha256": "b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36",
-          "git_blob": "5a85cbbb93ce7f65debee930b3816030ed3f9173"
-        },
-        {
-          "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
-          "bytes": 2632475,
-          "sha256": "151f518c635a99a2fede6aa89afa00ba45ef8163b9335f3a7592e4ea802eded3",
-          "git_blob": "df7da26c31c6215109e0222dad43d0ea4377d80a"
+          "id": "crypto-s01-bitconnect",
+          "collection": "crypto",
+          "season": 1,
+          "rarity": "rare",
+          "creator": "BITCONNECT",
+          "title_line_1": "BITCONNECT",
+          "title_line_2": "",
+          "context": "HEY, HEY, HEY!",
+          "moment_label": "28 OCT 2017",
+          "set_label": "CRYPTO • SEASON 01",
+          "artwork": "cards/crypto/season-01/bitconnect-master-01/art.png",
+          "qr_url": "https://example.com/lore/crypto/bitconnect",
+          "status": "VISUALLY_APPROVED",
+          "artwork_status": "VISUALLY_APPROVED",
+          "concept_instruction": "Cool, let’s make bitconnect",
+          "phrase_status": "PRIMARY_SOURCE_CLIP_TRANSCRIPT_VERIFIED_CONCEPT_BUILD_AUTHORISED",
+          "event_date": "2017-10-28",
+          "date_basis": "CONVENTION_SPEECH_SECONDARY_EVENT_ARCHIVE_CORROBORATED; original video unavailable",
+          "finishes": [
+            "standard",
+            "foil"
+          ],
+          "physical_trim_mm": [
+            63,
+            88
+          ],
+          "qr_mode": "demo",
+          "print_release": false,
+          "publication_approved": true,
+          "interpretation": "Carlos Matos convention speech, heightened with imagined stage, confetti and three symbolic props. Not a literal reconstruction of every prop, nor a depiction of the later shutdown. Carlos is the investor/meme speaker, not presented as the founder.",
+          "reference_policy": "LORE-CRYPTO-STYLE-v1.1",
+          "required_style_references": [
+            "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+            "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+          ],
+          "source_notes": "cards/crypto/season-01/bitconnect-master-01/source-notes.md",
+          "rarity_status": "APPROVED_RARE",
+          "revision_instruction": "sorry, i think i actualy prefer this pyramid location and size?",
+          "selected_artwork_library_id": "libfile_2025213532b48191b5e1dfc64e1414b7",
+          "single_line_title": true,
+          "title_instruction": "also, shouldnt BitConnect be all one word on card text?",
+          "layout_exception": "User requested a single-word title. First title baseline/font unchanged; second title field empty. No fixed element moved or resized.",
+          "front": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
+          "editable_svg": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
+          "source_archive": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-Review-v3-Source.zip",
+          "approved_by": "Dan Payne",
+          "approved_at": "2026-09-20",
+          "approval_quote": "approved, uplaod and then on to the next card",
+          "approval_record": "cards/crypto/season-01/bitconnect-master-01/approval.json",
+          "style_revision": "LORE-CRYPTO-STYLE-v1.1",
+          "style_migration_status": "APPROVED_CURRENT_STYLE",
+          "github_upload_authorised": true,
+          "website_publication_in_this_change": false,
+          "qr_status": "DEMO_ONLY",
+          "subject": "BITCONNECT",
+          "title_lines": [
+            "BITCONNECT"
+          ],
+          "event_date_display": "28 OCT 2017",
+          "footer": "CRYPTO • SEASON 01",
+          "moment_number": null,
+          "set_size": null,
+          "print_quantities": null,
+          "current_files": [
+            {
+              "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.png",
+              "bytes": 1245181,
+              "sha256": "b50068a86875723079e4e232f06acb808a6aa910c15dacc6f8a39e09d8f10a36",
+              "git_blob": "5a85cbbb93ce7f65debee930b3816030ed3f9173"
+            },
+            {
+              "path": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1.svg",
+              "bytes": 2632475,
+              "sha256": "151f518c635a99a2fede6aa89afa00ba45ef8163b9335f3a7592e4ea802eded3",
+              "git_blob": "df7da26c31c6215109e0222dad43d0ea4377d80a"
+            }
+          ],
+          "artwork_file": {
+            "path": "cards/crypto/season-01/bitconnect-master-01/art.png",
+            "bytes": 1949101,
+            "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0",
+            "git_blob": "3634799b1f761cd7e36438fadc9ef57482d4f8fb"
+          },
+          "print_derivative": {
+            "revision": "LORE-CRYPTO-PRINT-v1.0",
+            "front": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.png",
+            "editable_svg": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.svg",
+            "manifest": "cards/crypto/season-01/bitconnect-master-01/print-v1-manifest.json",
+            "canvas_px": [
+              816,
+              1110
+            ],
+            "dpi": 300,
+            "cut_px": [
+              744,
+              1038
+            ],
+            "safe_px": [
+              684,
+              981
+            ],
+            "transform": "translate(46.515 48.921) scale(0.8033)",
+            "phrase": {
+              "size": 25,
+              "weight": 700,
+              "position_tracking_colour": "preserved"
+            },
+            "qr_status": "DEMO_ONLY",
+            "print_release": false,
+            "physical_proof_received": false,
+            "physical_qr_scan_test": false,
+            "converted_at": "2026-09-24"
+          }
         }
-      ],
-      "artwork_file": {
-        "path": "cards/crypto/season-01/bitconnect-master-01/art.png",
-        "bytes": 1949101,
-        "sha256": "58ccb9e5b8347e389e73e5cf343bdb3d637e97456aed2df35f910ccf015951b0",
-        "git_blob": "3634799b1f761cd7e36438fadc9ef57482d4f8fb"
-      },
-      "print_derivative": {
-        "revision": "LORE-CRYPTO-PRINT-v1.0",
-        "front": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.png",
-        "editable_svg": "cards/crypto/season-01/bitconnect-master-01/LORE-BitConnect-Rare-v1-Print-v1.svg",
-        "manifest": "cards/crypto/season-01/bitconnect-master-01/print-v1-manifest.json",
-        "canvas_px": [
-          816,
-          1110
-        ],
-        "dpi": 300,
-        "cut_px": [
-          744,
-          1038
-        ],
-        "safe_px": [
-          684,
-          981
-        ],
-        "transform": "translate(46.515 48.921) scale(0.8033)",
-        "phrase": {
-          "size": 25,
-          "weight": 700,
-          "position_tracking_colour": "preserved"
-        },
-        "qr_status": "DEMO_ONLY",
-        "print_release": false,
-        "physical_proof_received": false,
-        "physical_qr_scan_test": false,
-        "converted_at": "2026-09-24"
-      }
+      ]
     },
     {
       "id": "crypto-s01-the-dao-hack",
@@ -6633,14 +6728,16 @@
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-07",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 42,
+  "approved_print_derivative_count": 47,
   "numbered_published_count": 39,
-  "numbering_gap_note": "Published numbered digital collection contains 001 through 039 without a gap. There are 42 unique approved designs. All previous masters and 307 earlier display images are preserved; the entire previous Behind the Chair registry entry is retained under historical_versions.",
-  "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 39,
-  "current_numbered_print_count": 39,
+  "numbering_gap_note": "Current numbered collection 001–045 has no gap. 045 supersedes the older unnumbered BitConnect design within the same event identity; its complete previous registry object and files remain preserved.",
+  "pending_live_verification_numbers": [
+    "045"
+  ],
+  "prepared_numbered_count": 45,
+  "current_numbered_print_count": 45,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
   "print_master_directory": "cards/crypto/master/histrove-print-v1",
   "shared_print_back": {
@@ -6670,5 +6767,5 @@
     "physical_print_release": false,
     "matches_approved_back_pixels": true
   },
-  "print_revision_note": "HISTROVE replaces LORE on approved numbered fronts 001-039 and shared back; exact v1.2 framing, typography, art and QR retained. Historical print revisions are archived; physical printer/sample acceptance is separate."
+  "print_revision_note": "HISTROVE is current for numbered fronts 001–045 and shared back. Exact earlier files are preserved. Physical printer/sample acceptance remains separate."
 }

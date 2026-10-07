@@ -2,7 +2,7 @@
 
 **History Worth Holding**
 
-An illustrated, interactive timeline of 39 approved crypto-history moments, with full artwork, 168 linked art details and 78 companion-book page previews. The desktop/mobile editorial experience, reader controls and 39 stable printed QR redirects are preserved.
+An illustrated, interactive timeline of 45 approved crypto-history moments, with full artwork, 192 linked art details and 90 companion-book page previews. The desktop/mobile editorial experience, reader controls and 45 stable printed QR redirects are preserved.
 
 ## Run and verify
 
@@ -32,3 +32,7 @@ Digital visual/QR checks do not establish physical manufacturing or book-reprodu
 ## Current card-edge previews
 
 Web fronts now follow the SVG outer coloured border, with transparent rounded corners (600×863). The former physical-trim web images remain archived. Current generator: `python site/scripts/build-histrove-border-cards.py --repo . --out /tmp/histrove-border-review` from the repository root, with Pillow and zxing-cpp installed. See `media/histrove-border-manifest.json`. Print/art/book files and their download destinations are unchanged.
+
+## 045 BitConnect
+
+Exact approved v3 artwork and HISTROVE Rare card, five-paragraph story, four actual-art clues and two-page book. `/crypto/045/` redirects to `/cards/bitconnect`. `media/display-045.bin` adds eight images while preserving all 520 earlier assets. Original artwork and downloads are pinned to the immutable release asset commit. The legacy unnumbered master remains archived.
