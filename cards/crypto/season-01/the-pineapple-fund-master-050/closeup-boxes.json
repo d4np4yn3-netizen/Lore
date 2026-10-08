@@ -1,0 +1,111 @@
+{
+  "source_dimensions": [
+    1060,
+    1484
+  ],
+  "boxes": [
+    [
+      472,
+      450,
+      597,
+      570
+    ],
+    [
+      611,
+      837,
+      861,
+      995
+    ],
+    [
+      826,
+      750,
+      1058,
+      865
+    ],
+    [
+      853,
+      847,
+      1041,
+      1027
+    ]
+  ],
+  "titles": [
+    "THE PINE PLAQUE",
+    "THE WATER TEST KIT",
+    "THE BITCOIN CASE",
+    "THE IMPACT NOTEBOOK"
+  ],
+  "coordinate_system": "Source pixels; [left, top, right, bottom], right and bottom exclusive",
+  "source_art_sha256": "816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192",
+  "crop_operation": "Exact pixel crop only; no resizing, retouching, colour conversion or generation",
+  "clues": [
+    {
+      "index": 1,
+      "title": "THE PINE PLAQUE",
+      "caption": "The pineapple and PINE name point to the fund's pseudonymous founder. This invented plaque is a storytelling clue, not a documented dedication at a particular water point.",
+      "file": "closeups/050-detail-1.png",
+      "box": [
+        472,
+        450,
+        597,
+        570
+      ],
+      "dimensions_px": [
+        125,
+        120
+      ],
+      "sha256": "c7ecfaa5e87618900d9a6aeb5bc60a9ff748a3c06ab446ad7b7388279d1ebdc5"
+    },
+    {
+      "index": 2,
+      "title": "THE WATER TEST KIT",
+      "caption": "Sample vials and a colour comparison strip represent continuing water-quality checks. The gift supported testing and maintenance as well as new infrastructure.",
+      "file": "closeups/050-detail-2.png",
+      "box": [
+        611,
+        837,
+        861,
+        995
+      ],
+      "dimensions_px": [
+        250,
+        158
+      ],
+      "sha256": "b50f41a8bdb18a451696c03edb092f9c630e67f680125ca15b3c03dbb4999248"
+    },
+    {
+      "index": 3,
+      "title": "THE BITCOIN CASE",
+      "caption": "The Bitcoin symbol connects the technician's everyday tools to a cryptocurrency-funded gift. It links an abstract asset to practical work without identifying Pine or a real field team.",
+      "file": "closeups/050-detail-3.png",
+      "box": [
+        826,
+        750,
+        1058,
+        865
+      ],
+      "dimensions_px": [
+        232,
+        115
+      ],
+      "sha256": "f65b04d4049b232adca33a4aad8529c2cc825c5134f3af0c924128b808ac22c1"
+    },
+    {
+      "index": 4,
+      "title": "THE IMPACT NOTEBOOK",
+      "caption": "37 PROJECTS recalls The Water Project's impact account. The 2019 notation signals the later reporting context; it does not date all 37 completions to 2018 or identify this fictional scene as a documented visit.",
+      "file": "closeups/050-detail-4.png",
+      "box": [
+        853,
+        847,
+        1041,
+        1027
+      ],
+      "dimensions_px": [
+        188,
+        180
+      ],
+      "sha256": "1f9905b59e70f78506aea797f2bd682bac63d44e26a6ae07b495413ffdc3895e"
+    }
+  ]
+}

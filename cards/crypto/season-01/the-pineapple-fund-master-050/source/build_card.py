@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""Rebuild approved HISTROVE Crypto 050 using its exact art and pinned print master."""
+from pathlib import Path
+import argparse,hashlib,importlib.util,json,subprocess,sys,os,xml.etree.ElementTree as ET
+from PIL import Image
+from pypdf import PdfReader,PdfWriter
+from pypdf.generic import RectangleObject
+
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+
+def main():
+ here=Path(__file__).resolve().parent;p=argparse.ArgumentParser(description=__doc__);p.add_argument('--repo-root',type=Path,required=True);p.add_argument('--data',type=Path,default=here.parent/'card-data.json');p.add_argument('--out-dir',type=Path,default=here.parent);a=p.parse_args();root=a.repo_root.resolve();lock=json.loads((here/'source-lock.json').read_text())
+ for name,expected in lock['files'].items():assert sha(root/name)==expected,'Pinned source changed: '+name
+ dpath=a.data.resolve();data=json.loads(dpath.read_text());art=Path(data['artwork']);art=art if art.is_absolute() else dpath.parent/art
+ assert sha(art)=='816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192','Approved art changed';assert Image.open(art).size==(1060,1484)
+ expected={'rarity':'common','creator':'BITCOIN','title_line_1':'PINEAPPLE','title_line_2':'FUND','context':'WEALTH INTO WATER.','moment_label':'2018','set_label':'CRYPTO • SEASON 01 • 050/100','qr_url':'https://lore-site-v1.vercel.app/crypto/050/'}
+ for k,v in expected.items():assert data[k]==v,'Approved field changed: '+k
+ data['artwork']=str(art);data['confirmed_lore_owned_route']=True;master=root/'cards/crypto/master/histrove-print-v1';s=importlib.util.spec_from_file_location('renderer',master/'source/render_print_card.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m);a.out_dir.mkdir(parents=True,exist_ok=True);svg=a.out_dir/'HISTROVE-Crypto-050-Front-Print-v1.svg';m.render(data,svg)
+ env=os.environ.copy();env['FONTCONFIG_FILE']=str(root/'cards/master/front-v3/source/fontconfig.xml');subprocess.run(['inkscape',str(svg),'--export-type=png','--export-width=816','--export-height=1110',f'--export-filename={svg.with_suffix(".png")}'],env=env,check=True,capture_output=True)
+ with Image.open(svg.with_suffix('.png')) as im:png=im.convert('RGB')
+ png.save(svg.with_suffix('.png'),dpi=(300,300))
+ pdf=svg.with_suffix('.pdf');subprocess.run([sys.executable,str(master/'source/export_print_pdf.py'),str(svg),str(pdf)],check=True)
+ page=PdfReader(pdf).pages[0];page.mediabox=RectangleObject([0,0,195.84,266.4]);page.cropbox=RectangleObject([0,0,195.84,266.4]);w=PdfWriter();w.add_page(page);w.add_metadata({'/Title':'HISTROVE 050 The Pineapple Fund','/Subject':'Approved card illustration and layout, 8 October 2026. Digital publication authorized. Physical printing approval remains separate.'})
+ with pdf.open('wb') as f:w.write(f)
+ with Image.open(svg.with_suffix('.png')) as im:im.crop((36,36,780,1074)).save(a.out_dir/'HISTROVE-Crypto-050-Front-Web-v1.png',dpi=(300,300))
+ print(json.dumps({'source_art_sha256':sha(art),'files':[str(f) for f in a.out_dir.glob('HISTROVE-*')]}))
+if __name__=='__main__':main()
