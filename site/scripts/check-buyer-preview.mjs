@@ -1,0 +1,61 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const root = path.resolve(import.meta.dirname, '..');
+const read = p => fs.readFileSync(path.join(root, p), 'utf8');
+const context = JSON.parse(read('app/cards/story-context.json'));
+const metadata = JSON.parse(read('app/cards/search-metadata.json'));
+const slugs = Object.keys(metadata);
+const decode = s => s.replace(/&amp;/g,'&').replace(/&#x27;/g,"'").replace(/&quot;/g,'"');
+assert.deepEqual(Object.keys(context).sort(), slugs.toSorted());
+let links = 0, leads = 0;
+for (const [index, slug] of slugs.entries()) {
+  const html = read(`.next/server/app/cards/${slug}.html`);
+  const c = context[slug];
+  assert.equal(typeof c.useLead, 'boolean');
+  assert(c.related.length >= 2 && c.related.length <= 3);
+  assert.equal(new Set(c.related.map(item => item.slug)).size, c.related.length);
+  const related = html.match(/<section class="related-moments".*?<\/section>/s)?.[0];
+  assert(related, `${slug}: related stories server rendered`);
+  for (const item of c.related) {
+    assert(item.slug !== slug && slugs.includes(item.slug));
+    assert(related.includes(`href="/cards/${item.slug}"`));
+    assert(decode(related).includes(item.reason));
+    links++;
+  }
+  assert.equal(html.includes('class="story-lead"'), c.useLead, `${slug}: factual introduction eligibility`);
+  if (c.useLead) { assert(decode(html).includes(c.lead)); leads++; }
+  const sequence = html.match(/<div class="story-sequence">.*?<\/div>/s)?.[0];
+  assert(sequence, `${slug}: descriptive chronological navigation`);
+  if (index) assert(sequence.includes(`href="/cards/${slugs[index-1]}"`));
+  if (index < slugs.length-1) assert(sequence.includes(`href="/cards/${slugs[index+1]}"`));
+  assert(sequence.includes('<strong>'));
+  for (const key of ['story','art','clues','book']) assert(html.includes(`id="tab-${key}"`));
+  assert(html.includes('class="reading-toolbar"'));
+}
+const home = read('.next/server/app/index.html');
+assert(home.includes('Crypto History Collectible Cards &amp; Illustrated Stories | HISTROVE'));
+assert(home.includes('<h1 id="hero-title">History<br/>Worth <span>Holding</span></h1>'));
+assert(home.includes('Physical cards, a companion book and an online archive'));
+assert(home.includes('stories online') && home.includes('cards in the making'));
+const hero = home.match(/<section class="hero".*?<\/section>/s)[0];
+assert.deepEqual([...hero.matchAll(/alt="([^"]+)"/g)].map(m=>m[1]), ['The Whitepaper','Birth Of HODL','Genesis Block']);
+const discovery = home.match(/<section class="discovery".*?<\/section>/s)[0];
+assert(discovery.includes('046-histrove-border-card.webp'));
+assert(discovery.includes('CryptoKitties. 28 November 2017.'));
+assert(discovery.includes('046') && discovery.includes('CRYPTOKITTIES') && discovery.includes('28 NOV 2017'));
+assert(!discovery.includes('Pizza Day') && !discovery.includes('PIZZA DAY'));
+assert(!/Pizza Day|PIZZA DAY|008 \/|22 MAY 2010/.test(read('app/components/DiscoveryReveal.js')));
+assert(read('app/shop/page.js').includes("card.slug === 'pizza-day'"));
+assert.equal((home.match(/id="about"/g)||[]).length,1);
+assert(home.includes('HOW TO READ THE ARCHIVE'));
+assert(!home.includes('THE ART DISPLAY') && !home.includes('proposed display frame'));
+assert(home.indexOf('id="coming-soon"') > home.indexOf('id="archive"'));
+assert(home.includes('class="launch-preview-details"'));
+const shop = read('.next/server/app/shop.html');
+assert(shop.includes('href="/#archive" class="retail-cta"') || shop.includes('class="retail-cta" href="/#archive"'));
+assert(shop.includes('return=shop'));
+assert(!/<a class="retail-cta" href="#launch-details"/.test(shop));
+assert.equal((shop.match(/class="retail-cta"/g)||[]).length,2);
+assert(!shop.includes('<form'));
+console.log(`PASS: slogan retained, honest two-product journey, compact closed signup, About/editorial context, ${leads} additive leads and ${links} contextual story links across 47 unchanged narratives`);

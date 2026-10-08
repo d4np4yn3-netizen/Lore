@@ -1,0 +1,728 @@
+{
+  "blind-signatures": {
+    "lead": "In 1982, David Chaum presented blind signatures as a way to support untraceable digital payments.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "cypherpunk-manifesto",
+        "reason": "Follow the argument for privacy from cryptography into a manifesto"
+      },
+      {
+        "slug": "monero-launches",
+        "reason": "Compare a later approach to privacy in everyday payments"
+      }
+    ]
+  },
+  "cypherpunk-manifesto": {
+    "lead": "Eric Hughes’ 1993 Cypherpunk Manifesto argued for privacy through code.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "blind-signatures",
+        "reason": "Read the earlier privacy work referenced in the manifesto illustration"
+      },
+      {
+        "slug": "rpow",
+        "reason": "Explore a later cypherpunk experiment in reusable digital value"
+      }
+    ]
+  },
+  "hashcash": {
+    "lead": "Adam Back’s 1997 Hashcash announcement proposed computational postage that was costly to produce and quick to verify.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "rpow",
+        "reason": "See how RPOW extended Hashcash into reusable digital value"
+      },
+      {
+        "slug": "the-whitepaper",
+        "reason": "Follow Hashcash into Bitcoin’s cited proof-of-work model"
+      },
+      {
+        "slug": "litecoin-launches",
+        "reason": "Compare a later choice of proof-of-work algorithm"
+      }
+    ]
+  },
+  "rpow": {
+    "lead": "In 2004, Hal Finney introduced RPOW, an experiment in reusable proof-of-work tokens.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "hashcash",
+        "reason": "Start with the proof-of-work tokens RPOW accepted"
+      },
+      {
+        "slug": "the-first-transfer",
+        "reason": "Continue Finney’s story with Bitcoin’s first person-to-person test"
+      }
+    ]
+  },
+  "the-whitepaper": {
+    "lead": "Satoshi Nakamoto announced the Bitcoin whitepaper on 31 October 2008.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "hashcash",
+        "reason": "Explore a proof-of-work predecessor named in the paper"
+      },
+      {
+        "slug": "genesis-block",
+        "reason": "Follow the proposal to Bitcoin’s first block"
+      },
+      {
+        "slug": "ethereum-whitepaper",
+        "reason": "Compare a later proposal for a programmable blockchain"
+      }
+    ]
+  },
+  "genesis-block": {
+    "lead": "Bitcoin’s Genesis block was created on 3 January 2009 with a newspaper message inside it.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-whitepaper",
+        "reason": "Read the proposal that preceded the first block"
+      },
+      {
+        "slug": "the-first-transfer",
+        "reason": "See the network carry a transfer between two people"
+      },
+      {
+        "slug": "the-first-halving",
+        "reason": "Follow Bitcoin’s scheduled issuance to its first halving"
+      }
+    ]
+  },
+  "the-first-transfer": {
+    "lead": "Satoshi Nakamoto’s 10 BTC transfer to Hal Finney was recorded in Bitcoin block 170 in January 2009.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "rpow",
+        "reason": "Meet Hal Finney through his earlier digital-value experiment"
+      },
+      {
+        "slug": "pizza-day",
+        "reason": "Follow a test transfer with a real-world exchange"
+      }
+    ]
+  },
+  "pizza-day": {
+    "lead": "Laszlo Hanyecz confirmed a 10,000 BTC pizza exchange on 22 May 2010.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-first-transfer",
+        "reason": "Trace the earlier test that sent 10 BTC to Hal Finney"
+      },
+      {
+        "slug": "the-faucet",
+        "reason": "See another way newcomers began using Bitcoin"
+      },
+      {
+        "slug": "cash-out",
+        "reason": "Compare an early purchase with a later cash-to-bitcoin service"
+      }
+    ]
+  },
+  "the-faucet": {
+    "lead": "Gavin Andresen announced his Bitcoin faucet on 11 June 2010, offering five BTC per visitor.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "pizza-day",
+        "reason": "Laszlo Hanyecz joined the faucet’s launch discussion"
+      },
+      {
+        "slug": "cash-out",
+        "reason": "Follow access to Bitcoin from free coins to a public ATM"
+      }
+    ]
+  },
+  "the-overflow": {
+    "lead": "Bitcoin’s August 2010 value overflow incident prompted a repair that removed an invalid transaction from the accepted chain.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-dao-hack",
+        "reason": "Compare a Bitcoin validation bug with an Ethereum application exploit"
+      },
+      {
+        "slug": "segwit-activates",
+        "reason": "Compare an emergency repair with a later planned protocol upgrade"
+      }
+    ]
+  },
+  "slush-pool": {
+    "lead": "In November 2010, Slush proposed cooperative Bitcoin mining so miners could combine their work.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-first-halving",
+        "reason": "Slush’s pool found the block that triggered the first halving"
+      },
+      {
+        "slug": "keys-in-your-pocket",
+        "reason": "Follow Slush’s later work on the Trezor hardware wallet"
+      }
+    ]
+  },
+  "wikileaks-bitcoin": {
+    "lead": "WikiLeaks announced that it would accept Bitcoin donations in June 2011 during a payment blockade.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "blind-signatures",
+        "reason": "Explore the earlier privacy question behind electronic payments"
+      },
+      {
+        "slug": "doge-goes-to-sochi",
+        "reason": "Compare another community’s use of cryptocurrency for donations"
+      }
+    ]
+  },
+  "casascius-coins": {
+    "lead": "Mike Caldwell launched Casascius physical bitcoins in September 2011 with private keys concealed inside the coins.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "keys-in-your-pocket",
+        "reason": "Compare physical coins and hardware wallets as ways to handle keys"
+      },
+      {
+        "slug": "buried-fortune",
+        "reason": "See why access depends on preserving private-key information"
+      }
+    ]
+  },
+  "litecoin-launches": {
+    "lead": "Charlie Lee’s Litecoin launched publicly on 13 October 2011.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-whitepaper",
+        "reason": "Read the Bitcoin proposal behind Litecoin’s point of departure"
+      },
+      {
+        "slug": "bitcoin-cash-fork",
+        "reason": "Compare a new network with a later split of Bitcoin’s ledger"
+      }
+    ]
+  },
+  "the-first-halving": {
+    "lead": "Bitcoin’s first halving on 28 November 2012 reduced the block subsidy from 50 to 25 BTC.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "slush-pool",
+        "reason": "Meet the pool that found the first halving block"
+      },
+      {
+        "slug": "genesis-block",
+        "reason": "Return to the chain’s starting point and original 50 BTC output"
+      }
+    ]
+  },
+  "silk-road-shutdown": {
+    "lead": "Ross Ulbricht was arrested and the Silk Road marketplace was shut down in October 2013.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-bitcoin-auction",
+        "reason": "Follow the seized server-wallet bitcoins into a government auction"
+      },
+      {
+        "slug": "bitlicense",
+        "reason": "Compare marketplace enforcement with regulation of virtual-currency businesses"
+      }
+    ]
+  },
+  "cash-out": {
+    "lead": "The first permanent public Bitcoin ATM installation launched at Waves Coffee House in Vancouver on 29 October 2013.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "pizza-day",
+        "reason": "Compare two ways digital money reached everyday transactions"
+      },
+      {
+        "slug": "the-faucet",
+        "reason": "Compare buying bitcoin in person with an earlier online giveaway"
+      }
+    ]
+  },
+  "four-figures": {
+    "lead": "Bitcoin reached a US-dollar price of $1,000 on Mt. Gox on 27 November 2013.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "mt-gox",
+        "reason": "Follow the same exchange from a price milestone to insolvency"
+      },
+      {
+        "slug": "birth-of-hodl",
+        "reason": "Read the forum response to a later 2013 market fall"
+      }
+    ]
+  },
+  "ethereum-whitepaper": {
+    "lead": "Vitalik Buterin’s early Ethereum whitepaper proposal dates to November 2013, before the network’s launch.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-ether-sale",
+        "reason": "Follow the proposal into a development-funding sale"
+      },
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "Continue to the launch of the Ethereum network"
+      },
+      {
+        "slug": "cryptokitties",
+        "reason": "Meet a later Ethereum application foreshadowed in the illustration"
+      }
+    ]
+  },
+  "much-wow": {
+    "lead": "Dogecoin launched on 6 December 2013 with an identity inspired by the Kabosu-based Doge meme.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "doge-goes-to-sochi",
+        "reason": "See Dogecoin’s community turn its shared joke into fundraising"
+      },
+      {
+        "slug": "birth-of-hodl",
+        "reason": "Compare another internet phrase that became part of crypto culture"
+      },
+      {
+        "slug": "rare-pepes",
+        "reason": "Follow another meme into a blockchain collecting community"
+      }
+    ]
+  },
+  "birth-of-hodl": {
+    "lead": "GameKyuubi’s BitcoinTalk post I AM HODLING on 18 December 2013 gave rise to the word HODL.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "four-figures",
+        "reason": "Return to Bitcoin’s $1,000 milestone earlier that year"
+      },
+      {
+        "slug": "much-wow",
+        "reason": "Compare a forum-born slogan with a meme-born cryptocurrency"
+      },
+      {
+        "slug": "behind-the-chair",
+        "reason": "See another short message become a memorable Bitcoin moment"
+      }
+    ]
+  },
+  "buried-fortune": {
+    "lead": "James Howells’ account of a hard drive discarded in Newport in 2013 became a story of lost access to bitcoin.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "keys-in-your-pocket",
+        "reason": "Explore a later approach to protecting and backing up private keys"
+      },
+      {
+        "slug": "casascius-coins",
+        "reason": "See a different physical object carrying control of bitcoin"
+      }
+    ]
+  },
+  "doge-goes-to-sochi": {
+    "lead": "The Dogecoin community supported Jamaica’s Olympic bobsleigh team through fundraising in 2014.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "much-wow",
+        "reason": "Start with the Dogecoin launch that brought the community together"
+      },
+      {
+        "slug": "wikileaks-bitcoin",
+        "reason": "Compare cryptocurrency donations in a different public campaign"
+      }
+    ]
+  },
+  "mt-gox": {
+    "lead": "Mt. Gox filed for civil rehabilitation on 28 February 2014, reporting missing bitcoins at the time.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "four-figures",
+        "reason": "Look back at Mt. Gox’s earlier $1,000 price milestone"
+      },
+      {
+        "slug": "the-bitfinex-heist",
+        "reason": "Compare another loss involving funds held by an exchange"
+      },
+      {
+        "slug": "keys-in-your-pocket",
+        "reason": "Explore self-custody and the responsibilities of holding private keys"
+      }
+    ]
+  },
+  "monero-launches": {
+    "lead": "Monero launched as BitMonero on 18 April 2014 with a focus on transaction privacy.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "blind-signatures",
+        "reason": "Trace an earlier attempt to limit links between digital payments"
+      },
+      {
+        "slug": "the-zcash-ceremony",
+        "reason": "Compare another privacy project’s different setup assumptions"
+      },
+      {
+        "slug": "cypherpunk-manifesto",
+        "reason": "Read the argument for privacy through software"
+      }
+    ]
+  },
+  "quantum": {
+    "lead": "Kevin McCoy registered Quantum on Namecoin in May 2014 as an early experiment in digital-art provenance.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "rare-pepes",
+        "reason": "Follow digital-art records into a meme-collecting community"
+      },
+      {
+        "slug": "cryptopunks",
+        "reason": "Compare an early provenance experiment with an Ethereum collection"
+      }
+    ]
+  },
+  "the-bitcoin-auction": {
+    "lead": "The US Marshals Service auctioned bitcoins from Silk Road server wallets on 27 June 2014.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "silk-road-shutdown",
+        "reason": "Read the shutdown that preceded this sale of server-wallet bitcoins"
+      },
+      {
+        "slug": "bitlicense",
+        "reason": "Compare a government asset sale with a later licensing framework"
+      }
+    ]
+  },
+  "the-ether-sale": {
+    "lead": "Ethereum opened its public ether sale on 22 July 2014 to fund development.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "ethereum-whitepaper",
+        "reason": "Read the proposal that preceded the funding sale"
+      },
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "See when purchased ether could reach a live network"
+      },
+      {
+        "slug": "china-bans-icos",
+        "reason": "Compare the sale model with later restrictions on token fundraising"
+      }
+    ]
+  },
+  "keys-in-your-pocket": {
+    "lead": "The original Trezor hardware wallet launched on 29 July 2014 with an approach designed to isolate private keys.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "buried-fortune",
+        "reason": "See why safeguarding recoverable key information matters"
+      },
+      {
+        "slug": "casascius-coins",
+        "reason": "Compare two physical approaches to keeping a Bitcoin private key"
+      },
+      {
+        "slug": "slush-pool",
+        "reason": "Meet Trezor co-founder Slush through his earlier mining-pool proposal"
+      }
+    ]
+  },
+  "the-dollar-token": {
+    "lead": "Realcoin first issued tokens on 6 October 2014, before the project was rebranded as Tether.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "dai-goes-live",
+        "reason": "Compare issuer-backed tokens with Dai’s Ether-backed dollar target"
+      },
+      {
+        "slug": "cash-out",
+        "reason": "Contrast tokenised dollars with a machine exchanging bitcoin and cash"
+      }
+    ]
+  },
+  "bitlicense": {
+    "lead": "New York’s BitLicense regulation took effect on 24 June 2015.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "china-bans-icos",
+        "reason": "Compare two jurisdictions’ different approaches to virtual-currency activity"
+      },
+      {
+        "slug": "mt-gox",
+        "reason": "Explore an earlier exchange failure and questions of customer custody"
+      }
+    ]
+  },
+  "ethereum-goes-live": {
+    "lead": "Ethereum’s Frontier release launched on 30 July 2015, establishing the network’s genesis block.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "ethereum-whitepaper",
+        "reason": "Return to the proposal behind the programmable network"
+      },
+      {
+        "slug": "the-ether-sale",
+        "reason": "Read how the project funded development before launch"
+      },
+      {
+        "slug": "cryptokitties",
+        "reason": "See the live network used for a digital-cat breeding game"
+      }
+    ]
+  },
+  "the-dao-hack": {
+    "lead": "The DAO’s smart contract on Ethereum was exploited on 17 June 2016.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-split",
+        "reason": "Follow the recovery decision that led to two Ethereum chains"
+      },
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "Meet the network on which The DAO’s contract ran"
+      },
+      {
+        "slug": "the-overflow",
+        "reason": "Compare an application exploit with an earlier Bitcoin validation bug"
+      }
+    ]
+  },
+  "the-split": {
+    "lead": "Ethereum’s 20 July 2016 hard fork followed the DAO attack and led to separate Ethereum and Ethereum Classic chains.",
+    "useLead": true,
+    "related": [
+      {
+        "slug": "the-dao-hack",
+        "reason": "Read the exploit that prompted the recovery fork"
+      },
+      {
+        "slug": "bitcoin-cash-fork",
+        "reason": "Compare a different disagreement that also produced separate chains"
+      }
+    ]
+  },
+  "the-bitfinex-heist": {
+    "lead": "Bitfinex suffered a Bitcoin theft in August 2016 involving the exchange’s custody of customer funds.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "mt-gox",
+        "reason": "Compare another exchange-custody failure and its effect on customers"
+      },
+      {
+        "slug": "keys-in-your-pocket",
+        "reason": "Explore the different responsibilities of personal key custody"
+      }
+    ]
+  },
+  "rare-pepes": {
+    "lead": "The first RAREPEPE asset was issued on Counterparty on 9 September 2016.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "quantum",
+        "reason": "Look back at an earlier blockchain record for digital art"
+      },
+      {
+        "slug": "cryptopunks",
+        "reason": "Compare Bitcoin-based collecting with Ethereum avatar collecting"
+      },
+      {
+        "slug": "much-wow",
+        "reason": "See another community built around an internet meme"
+      }
+    ]
+  },
+  "the-zcash-ceremony": {
+    "lead": "Six participants took part in Zcash’s trusted-setup ceremony in October 2016.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "monero-launches",
+        "reason": "Compare different privacy approaches and trust assumptions"
+      },
+      {
+        "slug": "blind-signatures",
+        "reason": "Return to an early cryptographic proposal for private payments"
+      }
+    ]
+  },
+  "cryptopunks": {
+    "lead": "Larva Labs released CryptoPunks on Ethereum in June 2017 with a free-to-claim model.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "quantum",
+        "reason": "Trace an earlier experiment in recording digital-art provenance"
+      },
+      {
+        "slug": "rare-pepes",
+        "reason": "Compare an earlier community-made blockchain collection"
+      },
+      {
+        "slug": "cryptokitties",
+        "reason": "See Ethereum collectibles develop into a breeding game"
+      }
+    ]
+  },
+  "behind-the-chair": {
+    "lead": "A Buy Bitcoin sign appeared behind Janet Yellen during a congressional hearing in July 2017.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "birth-of-hodl",
+        "reason": "Compare another brief message that became part of crypto culture"
+      },
+      {
+        "slug": "casascius-coins",
+        "reason": "Follow another physical object into Bitcoin collecting history"
+      }
+    ]
+  },
+  "binance-launches": {
+    "lead": "Binance launched its cryptocurrency exchange on 14 July 2017 after its earlier BNB sale.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "china-bans-icos",
+        "reason": "Read the restrictions described in Binance’s early history"
+      },
+      {
+        "slug": "mt-gox",
+        "reason": "Compare an exchange’s opening with an earlier exchange’s failure"
+      }
+    ]
+  },
+  "bitcoin-cash-fork": {
+    "lead": "Bitcoin Cash split from Bitcoin on 1 August 2017 amid the block-size debate.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "segwit-activates",
+        "reason": "See Bitcoin’s separate scaling change later in the same month"
+      },
+      {
+        "slug": "the-split",
+        "reason": "Compare a chain split driven by a different dispute"
+      }
+    ]
+  },
+  "segwit-activates": {
+    "lead": "Segregated Witness, known as SegWit, activated on Bitcoin on 24 August 2017.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "bitcoin-cash-fork",
+        "reason": "Read the block-size disagreement that produced a separate chain"
+      },
+      {
+        "slug": "the-overflow",
+        "reason": "Compare a planned protocol upgrade with an emergency bug repair"
+      }
+    ]
+  },
+  "china-bans-icos": {
+    "lead": "Chinese authorities issued a joint notice halting token fundraising on 4 September 2017.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "binance-launches",
+        "reason": "Follow the exchange whose early history included these restrictions"
+      },
+      {
+        "slug": "bitlicense",
+        "reason": "Compare the notice with New York’s earlier licensing framework"
+      },
+      {
+        "slug": "the-ether-sale",
+        "reason": "Look back at a development-funding token sale before the notice"
+      }
+    ]
+  },
+  "the-missing-cryptoqueen": {
+    "lead": "Ruja Ignatova disappeared in October 2017, and investigators later alleged fraud involving OneCoin.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "bitconnect",
+        "reason": "Compare another sales spectacle with a later fraud case"
+      },
+      {
+        "slug": "the-whitepaper",
+        "reason": "Compare OneCoin’s sales claims with Bitcoin’s peer-to-peer proposal"
+      }
+    ]
+  },
+  "bitconnect": {
+    "lead": "Carlos Matos’ viral speech at BitConnect’s Pattaya ceremony took place in October 2017.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "the-missing-cryptoqueen",
+        "reason": "Compare another promotion-driven venture and its fraud allegations"
+      },
+      {
+        "slug": "birth-of-hodl",
+        "reason": "Compare a viral stage speech with a forum-born crypto catchphrase"
+      }
+    ]
+  },
+  "cryptokitties": {
+    "lead": "CryptoKitties launched on Ethereum on 28 November 2017 with digital cats that players could collect and breed.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "cryptopunks",
+        "reason": "Compare Ethereum avatars with collectible cats that could be bred"
+      },
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "Return to the network launch that made these applications possible"
+      },
+      {
+        "slug": "rare-pepes",
+        "reason": "Compare game-based collecting with a meme-card collecting community"
+      }
+    ]
+  },
+  "dai-goes-live": {
+    "lead": "MakerDAO launched Dai on 18 December 2017 using Ether-backed collateralised debt positions and a soft dollar target.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "the-dollar-token",
+        "reason": "Compare two different ways to pursue a dollar-denominated token"
+      },
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "Return to the launch of the network hosting Dai’s contracts"
+      }
+    ]
+  }
+}
