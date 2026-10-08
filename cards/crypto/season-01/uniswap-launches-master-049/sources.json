@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Hayden Adams: A Short History of Uniswap",
+    "url": "https://blog.uniswap.org/uniswap-history",
+    "supports": "2 November 2018 mainnet announcement; Devcon 4 in Prague; development history and x*y=k background.",
+    "type": "PROJECT_CREATOR_HISTORY",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "Uniswap V1: original overview",
+    "url": "https://github.com/Uniswap/v1-docs/blob/3d71d5d7e0ffefd08596de29b7630fe9744721d2/README.md",
+    "supports": "ETH-ERC20 exchange contracts, factory, paired reserves, token-to-token routing via ETH, constant-product pricing and 0.3% liquidity-provider fee.",
+    "type": "ORIGINAL_PROTOCOL_DOCUMENTATION",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "Uniswap V1: pool liquidity",
+    "url": "https://github.com/Uniswap/v1-docs/blob/3d71d5d7e0ffefd08596de29b7630fe9744721d2/frontend-integration/pool.md",
+    "supports": "Reserve definitions; paired asset deposits at the existing ratio; initial-provider exception; liquidity tokens and proportional withdrawals.",
+    "type": "ORIGINAL_PROTOCOL_DOCUMENTATION",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "Uniswap V1: exchange contract",
+    "url": "https://github.com/Uniswap/v1-contracts/blob/master/contracts/uniswap_exchange.vy",
+    "supports": "addLiquidity/removeLiquidity change reserves; getInputPrice applies the 997/1000 fee factor. Pool tokens are distinct from the later governance token.",
+    "type": "ORIGINAL_PROTOCOL_CODE",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "Uniswap Labs: Introducing UNI",
+    "url": "https://blog.uniswap.org/uni",
+    "supports": "Governance-token introduction dated 16 September 2020, separate from the 2018 V1 launch and liquidity-share tokens.",
+    "type": "PROJECT_ANNOUNCEMENT",
+    "verified": "2026-10-08"
+  }
+]

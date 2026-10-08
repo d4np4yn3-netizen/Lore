@@ -1,0 +1,111 @@
+{
+  "source_dimensions": [
+    1060,
+    1484
+  ],
+  "boxes": [
+    [
+      270,
+      778,
+      800,
+      992
+    ],
+    [
+      434,
+      1026,
+      631,
+      1096
+    ],
+    [
+      480,
+      983,
+      585,
+      1031
+    ],
+    [
+      447,
+      1160,
+      618,
+      1209
+    ]
+  ],
+  "titles": [
+    "THE PAIRED RESERVES",
+    "THE CONSTANT-PRODUCT PLATE",
+    "THE V1 BADGE",
+    "THE LAUNCH DATE"
+  ],
+  "coordinate_system": "Source pixels; [left, top, right, bottom], right and bottom exclusive",
+  "source_art_sha256": "80a69feb4ecdadc0baa9e5bb38a23f359bba0d78e1984b5aa1eb22fa2433aea1",
+  "crop_operation": "Exact pixel crop only; no resizing, retouching, colour conversion or generation",
+  "clues": [
+    {
+      "index": 1,
+      "title": "THE PAIRED RESERVES",
+      "caption": "ETH and ERC20 label the two chambers. Together they represent one V1 exchange's paired reserves. Pouring into both suggests providing liquidity; a swap instead adds one asset and removes some of the other.",
+      "file": "closeups/049-detail-1.png",
+      "box": [
+        270,
+        778,
+        800,
+        992
+      ],
+      "dimensions_px": [
+        530,
+        214
+      ],
+      "sha256": "641a9646eb0a06868757ea57057eae80ac0f23821406c265b00ed218c3cc1ea5"
+    },
+    {
+      "index": 2,
+      "title": "THE CONSTANT-PRODUCT PLATE",
+      "caption": "The x*y=k engraving recalls the pricing rule. The reserve ratio changes as trades occur. Fees and liquidity changes affect the reserve product, so the inscription does not promise a fixed price or an unchanging k.",
+      "file": "closeups/049-detail-2.png",
+      "box": [
+        434,
+        1026,
+        631,
+        1096
+      ],
+      "dimensions_px": [
+        197,
+        70
+      ],
+      "sha256": "ce397cf2e19aee8277e875208778e097e74784809f80890f66171b637e4e59ac"
+    },
+    {
+      "index": 3,
+      "title": "THE V1 BADGE",
+      "caption": "V1 identifies the original protocol generation. Its exchanges paired a token with ETH, and token-to-token swaps could route through ETH. The badge keeps the scene distinct from later Uniswap versions.",
+      "file": "closeups/049-detail-3.png",
+      "box": [
+        480,
+        983,
+        585,
+        1031
+      ],
+      "dimensions_px": [
+        105,
+        48
+      ],
+      "sha256": "bb2d89cfd57c5cbcbe8839f24f40f79db5222038e29f60e9b4651695658ef302"
+    },
+    {
+      "index": 4,
+      "title": "THE LAUNCH DATE",
+      "caption": "2 NOV 2018 marks the public launch on Ethereum mainnet during Devcon 4 in Prague. It is visible on the engine in the full artwork and repeated at the top of the framed card.",
+      "file": "closeups/049-detail-4.png",
+      "box": [
+        447,
+        1160,
+        618,
+        1209
+      ],
+      "dimensions_px": [
+        171,
+        49
+      ],
+      "sha256": "21a596237c4e9f619f2cbaae2f50968c2769c74a930c92385cf43ab040809474"
+    }
+  ]
+}
