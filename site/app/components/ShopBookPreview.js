@@ -28,15 +28,17 @@ export default function ShopBookPreview({ card }) {
     else {
       window.history.replaceState(window.history.state, '', '#companion-book');
       setOpen(false);
-      requestAnimationFrame(() => document.getElementById('companion-book')?.scrollIntoView());
     }
   }
   useEffect(() => {
     if (open) { hasOpened.current = true; return; }
     if (!hasOpened.current) return;
-    if (returnPoint.current !== null) window.scrollTo({ top: returnPoint.current, behavior: 'instant' });
-    else document.getElementById('companion-book')?.scrollIntoView({ behavior: 'instant', block: 'start' });
-    trigger.current?.focus({ preventScroll: true });
+    const frame = requestAnimationFrame(() => {
+      if (returnPoint.current !== null) window.scrollTo({ top: returnPoint.current, behavior: 'instant' });
+      else document.getElementById('companion-book')?.scrollIntoView({ behavior: 'instant', block: 'start' });
+      trigger.current?.focus({ preventScroll: true });
+    });
+    return () => cancelAnimationFrame(frame);
   }, [open]);
   return <>
     <a ref={trigger} className="retail-cta" href="/?moment=pizza-day&view=book&return=shop" onClick={openPreview}>Preview the book pages <Book/></a>
