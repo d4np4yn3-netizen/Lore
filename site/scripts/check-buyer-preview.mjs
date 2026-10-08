@@ -55,6 +55,8 @@ assert(home.includes('class="launch-preview-details"'));
 const shop = read('.next/server/app/shop.html');
 assert(shop.includes('href="/#archive" class="retail-cta"') || shop.includes('class="retail-cta" href="/#archive"'));
 assert(shop.includes('return=shop'));
+assert(read('app/shop/page.js').includes('Explore the first {archiveCards.length} moments'));
+assert(shop.replace(/<!--.*?-->/g,'').includes(`Explore the first ${slugs.length} moments`), 'Shop moment count matches the archive');
 assert(!/<a class="retail-cta" href="#launch-details"/.test(shop));
 assert.equal((shop.match(/class="retail-cta"/g)||[]).length,2);
 assert(!shop.includes('<form'));

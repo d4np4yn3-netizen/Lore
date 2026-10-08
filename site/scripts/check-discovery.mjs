@@ -47,3 +47,9 @@ console.log('PASS: every final logo, social image, icon, booster and current car
 
 const border=read('media/histrove-border-manifest.json');assert.equal(border.cards.length,39);assert.equal(border.all39QrPass,true);for(const c of border.cards){assert.deepEqual(c.dimensions_px,[600,863]);assert.deepEqual(c.conservative_crop_ltrb,[72,72,744,1038]);assert.equal(c.complete_border_geometry_retained,true);assert.equal(c.print_source_unchanged,true);assert.equal(c.qr_pass,true);assert.deepEqual(c.qr_payloads,['https://lore-site-v1.vercel.app/crypto/'+c.number+'/']);assert.equal(hash(file('public'+c.public_path)),c.sha256);}
 assert(reader.includes('href={card.media.image.src}'),'Reader opens the border-only web card');assert(reader.includes('Print card PNG'),'Print PNG destination remains separately available');console.log('PASS: all39 SVG-derived complete-border crops, recorded final QR decodes and separate web/print links');
+
+const css=file('app/globals.css').toString();
+assert(css.includes('.clue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));'));
+assert(css.includes('.clue-grid{gap:35px;grid-template-columns:minmax(0,1fr)}'));
+assert(css.includes('.clue{min-width:0}'));
+console.log('PASS: clue tracks can shrink below native crop widths in both desktop and narrow layouts');
