@@ -724,5 +724,23 @@
         "reason": "Return to the launch of the network hosting Dai’s contracts"
       }
     ]
+  },
+  "lightning-goes-live": {
+    "lead": "Lightning Labs released lnd 0.4-beta, its first mainnet beta, on 15 March 2018.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "segwit-activates",
+        "reason": "Return to Bitcoin’s 2017 upgrade before the mainnet beta milestone"
+      },
+      {
+        "slug": "the-first-transfer",
+        "reason": "Compare Bitcoin’s early on-chain transfers with payments through channels"
+      },
+      {
+        "slug": "the-whitepaper",
+        "reason": "Revisit the base-layer payment proposal that Lightning builds upon"
+      }
+    ]
   }
 }

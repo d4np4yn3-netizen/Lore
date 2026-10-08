@@ -21,10 +21,10 @@ const prior=read('media/pre046-preservation.json'),allMedia=read('app/cards/medi
 for(const [slug,record] of Object.entries(prior.media))assert.deepEqual(allMedia[slug],record);
 for(const [id,record] of Object.entries(prior.closeups))assert.deepEqual(allCloseups[id],record);
 for(const record of prior.index.assets)assert.deepEqual(allIndex.assets.find(a=>a.path===record.path),record);
-assert.equal(allIndex.assets.filter(a=>a.pack!=='display-047.bin').length,prior.index.assets.length+8);
+assert.equal(allIndex.assets.filter(a=>!['display-047.bin','display-048.bin'].includes(a.pack)).length,prior.index.assets.length+8);
 const registry=read('../cards/crypto/current-cards.json'),r=registry.cards.find(c=>c.id==='crypto-s01-cryptokitties');
 for(const old of prior.registry.cards)assert.deepEqual(registry.cards.find(c=>c.id===old.id),old);
-assert.equal(registry.cards.filter(c=>c.moment_number!==47).length,prior.registry.cards.length+1);assert.equal(r.moment_number,46);assert.equal(r.title_line_1,'CRYPTO');assert.equal(r.title_line_2,'KITTIES');assert.equal(r.rarity,'epic');assert.equal(r.creator,'ETHEREUM');assert.equal(r.context,'THE POWER OF FUN.');assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);assert.equal(registry.cards.filter(c=>c.moment_number===46).length,1);
+assert.equal(registry.cards.filter(c=>![47,48].includes(c.moment_number)).length,prior.registry.cards.length+1);assert.equal(r.moment_number,46);assert.equal(r.title_line_1,'CRYPTO');assert.equal(r.title_line_2,'KITTIES');assert.equal(r.rarity,'epic');assert.equal(r.creator,'ETHEREUM');assert.equal(r.context,'THE POWER OF FUN.');assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);assert.equal(registry.cards.filter(c=>c.moment_number===46).length,1);
 assert.equal(r.artwork_file.sha256,m.art.sha256);assert.equal(r.print_ready.pdf.sha256,m.print.pdf.sha256);assert.equal(r.print_release,false);
 const master='../cards/crypto/season-01/cryptokitties-master-046/';
 assert.equal(h(master+'original-review-v1.png'),'c5eedef4d0868013c7d0f5694474c51547a3f6fd4fb8945d10c91241150284ae');

@@ -19,9 +19,9 @@ const prior=read('media/pre045-preservation.json'),allMedia=read('app/cards/medi
 for(const [slug,record] of Object.entries(prior.media))assert.deepEqual(allMedia[slug],record);
 for(const [id,record] of Object.entries(prior.closeups))assert.deepEqual(allCloseups[id],record);
 for(const record of prior.index.assets)assert.deepEqual(allIndex.assets.find(a=>a.path===record.path),record);
-assert.equal(allIndex.assets.filter(a=>!['display-046.bin','display-047.bin'].includes(a.pack)).length,prior.index.assets.length+8);
+assert.equal(allIndex.assets.filter(a=>!['display-046.bin','display-047.bin','display-048.bin'].includes(a.pack)).length,prior.index.assets.length+8);
 const registry=read('../cards/crypto/current-cards.json'),r=registry.cards.find(c=>c.id==='crypto-s01-bitconnect');
 for(const old of prior.registry.cards){const current=registry.cards.find(c=>c.id===old.id);if(old.id==='crypto-s01-bitconnect')assert.deepEqual(current.historical_versions.at(-1),old);else assert.deepEqual(current,old);}
-assert.equal(registry.cards.filter(c=>![46,47].includes(c.moment_number)).length,prior.registry.cards.length);assert.equal(r.moment_number,45);assert.equal(r.title_line_1,'BITCONNECT');assert.equal(r.title_line_2,'');assert.equal(r.single_line_title,true);assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);assert.equal(registry.cards.filter(c=>c.moment_number===45).length,1);
+assert.equal(registry.cards.filter(c=>![46,47,48].includes(c.moment_number)).length,prior.registry.cards.length);assert.equal(r.moment_number,45);assert.equal(r.title_line_1,'BITCONNECT');assert.equal(r.title_line_2,'');assert.equal(r.single_line_title,true);assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);assert.equal(registry.cards.filter(c=>c.moment_number===45).length,1);
 assert.equal(r.artwork_file.sha256,m.art.sha256);assert.equal(r.print_ready.pdf.sha256,m.print.pdf.sha256);assert.equal(r.print_release,false);
 console.log('PASS: 045 exact art/print/book/chapter, eight display hashes, five shared paragraphs, four actual-art clues, stable QR, all 44 prior card records/520 assets and complete legacy BitConnect preserved');

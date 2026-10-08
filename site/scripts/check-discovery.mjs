@@ -9,13 +9,13 @@ const file=p=>fs.readFileSync(path.join(root,p));
 const contract=read('rebrand-preservation.json'),media=read('app/cards/media.json'),index=read('media/index.json'),closeups=read('app/cards/closeups.json');
 const layouts=file('app/cards/marker-layout.js').toString();
 const {placeClueMarkers}=await import('data:text/javascript;base64,'+Buffer.from(layouts).toString('base64'));
-const ids=Array.from({length:47},(_,i)=>String(i+1).padStart(3,'0'));
-assert.equal(Object.keys(media).length,47);assert.deepEqual(Object.keys(closeups).sort(),ids);
-assert.equal(hash(file('media/pre040-closeups.json')),contract.closeupsSHA256);assert.deepEqual(Object.fromEntries(Object.entries(closeups).filter(([id])=>!['040','041','042','043','044','045','046','047'].includes(id))),read('media/pre040-closeups.json'),'Prior39 clues preserved');
+const ids=Array.from({length:48},(_,i)=>String(i+1).padStart(3,'0'));
+assert.equal(Object.keys(media).length,48);assert.deepEqual(Object.keys(closeups).sort(),ids);
+assert.equal(hash(file('media/pre040-closeups.json')),contract.closeupsSHA256);assert.deepEqual(Object.fromEntries(Object.entries(closeups).filter(([id])=>!['040','041','042','043','044','045','046','047','048'].includes(id))),read('media/pre040-closeups.json'),'Prior39 clues preserved');
 let clues=0,pages=0,positions=0;
 for(const [slug,card] of Object.entries(media)){
  const id=card.image.src.match(/\/(\d{3})-/)[1],old=contract.originalMedia[slug],copy=read('app/cards/content/'+id+'.json'),crops=closeups[id];
- if(!['040','041','042','043','044','045','046','047'].includes(id)){assert.equal(hash(file('app/cards/content/'+id+'.json')),contract.contentAfterBrandOnly[id],'Brand-only editorial change '+id);
+ if(!['040','041','042','043','044','045','046','047','048'].includes(id)){assert.equal(hash(file('app/cards/content/'+id+'.json')),contract.contentAfterBrandOnly[id],'Brand-only editorial change '+id);
  assert.equal(hash(file('app/crypto/'+id+'/page.js')),contract.qrSourceSHA256[id],'Printed QR source unchanged '+id);
  assert.deepEqual(card.artwork,old.artwork);assert.equal(card.originalArt,old.originalArt);assert.equal(card.assetOrigin,old.assetOrigin);assert.equal(card.hashes.artwork,old.hashes.artwork);
  }
@@ -32,16 +32,16 @@ for(const [slug,card] of Object.entries(media)){
   points.forEach((p,i)=>{assert(p.x>=24&&p.x<=width-24&&p.y>=24&&p.y<=height-24);for(let j=0;j<i;j++)assert(Math.hypot(p.x-points[j].x,p.y-points[j].y)>=51.999);positions++;});
  }
 }
-assert.equal(clues,200);assert.equal(pages,94);
+assert.equal(clues,204);assert.equal(pages,96);
 assert.equal(new Set(index.assets.map(a=>a.path)).size,index.assets.length,'Unique media paths');
 for(const asset of contract.originalIndex.assets)assert.deepEqual(index.assets.find(a=>a.path===asset.path),asset,'Historical display asset retained '+asset.path);
 for(const a of index.assets){const packed=fs.readFileSync(path.join(root,'media',a.pack)).subarray(a.offset,a.offset+a.length);assert.equal(hash(packed),a.sha256);assert.equal(hash(file('public/'+a.path)),a.sha256);}
 const reader=file('app/components/ReadingRoom.js').toString(),experience=file('app/cards/experience.js').toString(),home=file('app/page.js').toString();
 assert(reader.includes('card.media.assetOrigin || ASSET_ORIGIN'));assert(reader.includes('card.media.bookAssetOrigin || assetOrigin'));assert.equal((reader.match(/href=\{printOrigin\+/g)||[]).length,4);
-assert(home.includes('years[years.length-1]'));assert(experience.includes("range:'2013 — 2017'"));
+assert(home.includes('years[years.length-1]'));assert(experience.includes("range:'2013 — 2018'"));
 assert(home.includes('History<br/>Worth <span>Holding</span>'));assert(!home.includes('COLLECT THE INTERNET'));assert(!home.includes('loreMoment'));
 for(const p of ['app/page.js','app/components/SiteChrome.js','app/components/DiscoveryReveal.js','app/components/PhysicalCollection.js','app/layout.js','app/cards/[slug]/page.js'])assert(!/\bLORE\b/.test(file(p).toString()),'Current brand '+p);
-console.log(`PASS: 47 cards and preserved earlier QR sources, ${clues} total clues, ${pages} current book previews, ${positions} marker positions; all ${index.assets.length} image hashes and historical assets verified`);
+console.log(`PASS: 48 cards and preserved earlier QR sources, ${clues} total clues, ${pages} current book previews, ${positions} marker positions; all ${index.assets.length} image hashes and historical assets verified`);
 const brand=read('media/histrove-brand-manifest.json');assert.equal(brand.card_count,39);assert.equal(brand.master_tagline,'History Worth Holding');for(const asset of brand.files){assert.equal(hash(fs.readFileSync(path.join(root,'..',asset.path))),asset.sha256,'Final brand asset '+asset.path);}
 console.log('PASS: every final logo, social image, icon, booster and current card derivative matches its completed QA manifest');
 

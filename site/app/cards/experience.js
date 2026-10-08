@@ -18,6 +18,7 @@ export const yearNotes = {
   2014: ['A much wider world.', 'Community, privacy, art and hard lessons.'],
   2015: ['A network and its rules.', 'New York regulates virtual-currency businesses as Ethereum’s Frontier goes live.'],
   2016: ['Security, splits and collecting.', 'The DAO exploit, Ethereum split and Bitfinex theft test security and trust, Rare Pepes bring meme collecting onto Bitcoin, and Zcash prepares its trusted setup.'],
+  2018: ['Payments find another path.', 'Lightning Labs releases its first mainnet beta, bringing payment channels to a new stage of experimentation.'],
   2017: ['New venues and separate paths.', 'CryptoPunks give digital collecting a face, a yellow sign reaches a congressional hearing, Binance launches, and Bitcoin Cash splits from Bitcoin.'],
 };
 export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, c => c.toUpperCase()).replace('Mt. Gox','Mt. Gox').replace('Rpow','RPOW').replace('Hodl','HODL').replace('Wikileaks','WikiLeaks').replace('Bitlicense','BitLicense').replace('Dao','DAO').replace('Cryptopunks','CryptoPunks').replace('Bitconnect','BitConnect').replace('Cryptokitties','CryptoKitties');
@@ -26,5 +27,5 @@ export const titleCase = title => title.toLowerCase().replace(/(^|[\s—])\S/g, 
 export const chapters = [
   {number:'01',start:1982,range:'1982 — 2004',title:'Before Bitcoin.',copy:'From private signatures to reusable proof of work, the ideas that made a different kind of money possible.'},
   {number:'02',start:2008,range:'2008 — 2012',title:'An idea becomes a network.',copy:'A whitepaper becomes working code. People send it, spend it, mine it and discover what it can do.'},
-  {number:'03',start:2013,range:'2013 — 2017',title:'The culture takes shape.',copy:'New communities and possibilities arrive, alongside failures and hard lessons. Crypto becomes much more than a technical experiment.'},
+  {number:'03',start:2013,range:'2013 — 2018',title:'The culture takes shape.',copy:'New communities and possibilities arrive, alongside failures and hard lessons. Crypto becomes much more than a technical experiment.'},
 ];

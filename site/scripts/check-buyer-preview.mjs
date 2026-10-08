@@ -58,4 +58,4 @@ assert(shop.includes('return=shop'));
 assert(!/<a class="retail-cta" href="#launch-details"/.test(shop));
 assert.equal((shop.match(/class="retail-cta"/g)||[]).length,2);
 assert(!shop.includes('<form'));
-console.log(`PASS: slogan retained, honest two-product journey, compact closed signup, About/editorial context, ${leads} additive leads and ${links} contextual story links across 47 unchanged narratives`);
+console.log(`PASS: slogan retained, honest two-product journey, compact closed signup, About/editorial context, ${leads} additive leads and ${links} contextual story links across 48 narratives with all 47 earlier narratives unchanged`);
