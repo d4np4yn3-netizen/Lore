@@ -1,6 +1,6 @@
 # Latest publication: 049 Uniswap Launches
 
-The approved 049 card and two-page book are prepared with LIQUIDITY, PAIRED. and exact v9 art. See [current status](CURRENT-STATUS.md) and [049 technical records](cards/crypto/season-01/uniswap-launches-master-049/README.md). Stable story route: https://lore-site-v1.vercel.app/crypto/049/. Local counts: 49 numbered cards, 208 clues and 98 book previews. Live verification is recorded separately in the card master.
+The approved 049 card and two-page book are published with LIQUIDITY, PAIRED. and exact v9 art. See [current status](CURRENT-STATUS.md) and [049 technical records](cards/crypto/season-01/uniswap-launches-master-049/README.md). Stable story route: https://lore-site-v1.vercel.app/crypto/049/. Verified counts: 49 numbered cards, 208 clues and 98 book previews. Live verification is recorded separately in the card master.
 
 ---
 
