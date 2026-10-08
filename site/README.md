@@ -11,6 +11,7 @@ cd site
 npm install
 npm test
 npm run build
+npm run test:search
 npm start
 ```
 
@@ -44,3 +45,7 @@ Corrected approved artwork and HISTROVE Epic card, story, four actual-art clues 
 ## 047 Dai Goes Live
 
 Approved v8 glass-experiment artwork, HISTROVE Rare card, five-paragraph story, four full-art clues and two-page book. `/crypto/047/` redirects to `/cards/dai-goes-live`. `media/display-047.bin` adds eight images while preserving all 536 earlier assets. PETH, CDPs, a soft dollar target and symbolic maintenance are distinguished from a literal mechanism. Original downloads are pinned to the immutable asset commit.
+
+## Search and launch-list preview
+
+See [search and Coming soon review](SEO-COMING-SOON-REVIEW.md). The launch list is deliberately closed until provider, consent, privacy and costs are approved. Existing printed QR routes and approved collection assets remain unchanged.
