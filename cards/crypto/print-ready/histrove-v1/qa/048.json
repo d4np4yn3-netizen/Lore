@@ -100,7 +100,7 @@
   },
   "rarity_status": "APPROVED",
   "phrase_status": "APPROVED_SOURCE_VERIFIED_EXCERPT",
-  "qr_destination_status": "PENDING_PUBLICATION",
+  "qr_destination_status": "VERIFIED_HTTP_200",
   "print_release": false,
   "physical_sample_approval": false,
   "art_to_card": {
@@ -124,10 +124,11 @@
     "twin_Bitcoin_channel_clasp": "Both clasp halves and their luminous join visible",
     "Sphinx_bracer_relief": "Visible on foreground arm; motif remains small at card size"
   },
-  "qa_status": "PASS_DIGITAL_REVIEW_PROOF",
+  "qa_status": "PASS_DIGITAL_AND_LIVE_PUBLICATION",
   "review_to_final_png_byte_identical": true,
   "review_to_final_svg_byte_identical": true,
   "pdf_change": "Document metadata only; unchanged page streams and image pixels",
   "pdf_page_streams_unchanged": true,
-  "pdf_raster_pixels_unchanged": true
+  "pdf_raster_pixels_unchanged": true,
+  "publication_verification": "publication-verification.json"
 }

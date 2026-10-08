@@ -86,13 +86,13 @@
     },
     {
       "path": "card-data.json",
-      "bytes": 618,
-      "sha256": "f4fc2ee76ee7cbb0dacd5333dcb1b1d7e5cc83abdbe694bc809a1e3180b3deae"
+      "bytes": 665,
+      "sha256": "42943f9d443a9ab835bb722545fb28c21c0282168eccd6d00eb0c3a9bd3ebf92"
     },
     {
       "path": "card-final-qa.json",
-      "bytes": 3949,
-      "sha256": "bcaf3893fe09ad8c4aae159ba289e30ed1fa1a2be07a3872e76566f38c2bf5ba"
+      "bytes": 4018,
+      "sha256": "9cf2287b8c6559bbc3637f901a76a49310791680b3c4d22f53bbf343f00c721c"
     },
     {
       "path": "closeup-boxes.json",
@@ -122,7 +122,7 @@
     {
       "path": "publication-manifest.json",
       "bytes": 2574,
-      "sha256": "d1511e503cb06eb8cee83f77d239c458929b4d81a3eb1404a9be4959707c19b3"
+      "sha256": "3400c0d22c1de1e94b12ff8224557a5ce94f4bae5d32a3220e38317b22e67527"
     },
     {
       "path": "source/artwork-provenance-v2.json",
@@ -149,5 +149,7 @@
       "bytes": 2214,
       "sha256": "fde3179deac81d3b3f978a24c58e8c2c875d0147bd8636a639bed0ace0a63406"
     }
-  ]
+  ],
+  "initial_asset_commit": "d4deca450a5993bd1c8672d2f21a0d3deb945df3",
+  "status_record_refresh": "Publication status records reconciled after the live route and downloaded assets were verified. Artwork, PNG, SVG, PDF and book output bytes remain unchanged; initial records remain in the immutable asset commit."
 }

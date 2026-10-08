@@ -1,0 +1,488 @@
+{
+  "card": "048",
+  "status": "PUBLISHED_DIGITAL_VERIFIED",
+  "checked_at_utc": "2026-10-08T16:00:41.733764+00:00",
+  "base_commit": "f7713fc954cecdbe94295a02bef380b9a746a72d",
+  "release_commit": "7e7813fb5b50199af9627a29933b6e0b53a5a5e3",
+  "asset_commit": "d4deca450a5993bd1c8672d2f21a0d3deb945df3",
+  "deployment": {
+    "id": "dpl_D7kF6DVzJE69XvuRFStRT1d1tBCE",
+    "state": "READY",
+    "target": "production",
+    "github_commit": "7e7813fb5b50199af9627a29933b6e0b53a5a5e3",
+    "production_alias": "lore-site-v1.vercel.app"
+  },
+  "live_qr_route": "https://lore-site-v1.vercel.app/crypto/048/",
+  "canonical_story": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+  "http_status": 200,
+  "github_status": "Vercel success",
+  "github_check_runs": 0,
+  "local_checks": {
+    "npm_test": "PASS",
+    "production_build": "PASS",
+    "search_checks": "PASS",
+    "buyer_preview_checks": "PASS",
+    "standalone_lint_or_typecheck": "NOT_CONFIGURED",
+    "active_year_regression": "PASS"
+  },
+  "counts": {
+    "numbered_cards": 48,
+    "unique_approved_designs": 50,
+    "clues": 204,
+    "book_previews": 96,
+    "packed_display_assets": 552,
+    "related_story_links": 114,
+    "current_print_download_hashes": 147,
+    "responsive_marker_positions": 1632
+  },
+  "preservation": {
+    "prior_registry_objects": 49,
+    "prior_numbered_cards": 47,
+    "prior_display_assets": 544,
+    "initial_release_unrelated_baseline_git_blobs": 2620,
+    "all_preserved": true,
+    "existing_hero": "Birth of HODL retained",
+    "existing_discovery": "CryptoKitties retained",
+    "root_status_documents": "Unchanged"
+  },
+  "live_routes": [
+    {
+      "number": "004",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/rpow",
+      "redirects": "2"
+    },
+    {
+      "number": "009",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-faucet",
+      "redirects": "2"
+    },
+    {
+      "number": "008",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/pizza-day",
+      "redirects": "2"
+    },
+    {
+      "number": "011",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/slush-pool",
+      "redirects": "2"
+    },
+    {
+      "number": "002",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cypherpunk-manifesto",
+      "redirects": "2"
+    },
+    {
+      "number": "003",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/hashcash",
+      "redirects": "2"
+    },
+    {
+      "number": "006",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/genesis-block",
+      "redirects": "2"
+    },
+    {
+      "number": "001",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/blind-signatures",
+      "redirects": "2"
+    },
+    {
+      "number": "005",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-whitepaper",
+      "redirects": "2"
+    },
+    {
+      "number": "012",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+      "redirects": "2"
+    },
+    {
+      "number": "010",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-overflow",
+      "redirects": "2"
+    },
+    {
+      "number": "007",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-first-transfer",
+      "redirects": "2"
+    },
+    {
+      "number": "013",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+      "redirects": "2"
+    },
+    {
+      "number": "015",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-first-halving",
+      "redirects": "2"
+    },
+    {
+      "number": "014",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/litecoin-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "016",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/silk-road-shutdown",
+      "redirects": "2"
+    },
+    {
+      "number": "017",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cash-out",
+      "redirects": "2"
+    },
+    {
+      "number": "018",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/four-figures",
+      "redirects": "2"
+    },
+    {
+      "number": "019",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper",
+      "redirects": "2"
+    },
+    {
+      "number": "021",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/birth-of-hodl",
+      "redirects": "2"
+    },
+    {
+      "number": "020",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/much-wow",
+      "redirects": "2"
+    },
+    {
+      "number": "024",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/mt-gox",
+      "redirects": "2"
+    },
+    {
+      "number": "023",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/doge-goes-to-sochi",
+      "redirects": "2"
+    },
+    {
+      "number": "025",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/monero-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "026",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/quantum",
+      "redirects": "2"
+    },
+    {
+      "number": "028",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+      "redirects": "2"
+    },
+    {
+      "number": "033",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+      "redirects": "2"
+    },
+    {
+      "number": "032",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+      "redirects": "2"
+    },
+    {
+      "number": "035",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+      "redirects": "2"
+    },
+    {
+      "number": "034",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-split",
+      "redirects": "2"
+    },
+    {
+      "number": "030",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-dollar-token",
+      "redirects": "2"
+    },
+    {
+      "number": "036",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+      "redirects": "2"
+    },
+    {
+      "number": "027",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
+      "redirects": "2"
+    },
+    {
+      "number": "022",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+      "redirects": "2"
+    },
+    {
+      "number": "029",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+      "redirects": "2"
+    },
+    {
+      "number": "031",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/bitlicense",
+      "redirects": "2"
+    },
+    {
+      "number": "037",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+      "redirects": "2"
+    },
+    {
+      "number": "039",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+      "redirects": "2"
+    },
+    {
+      "number": "038",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cryptopunks",
+      "redirects": "2"
+    },
+    {
+      "number": "040",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/binance-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "042",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/segwit-activates",
+      "redirects": "2"
+    },
+    {
+      "number": "041",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/bitcoin-cash-fork",
+      "redirects": "2"
+    },
+    {
+      "number": "048",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+      "redirects": "2"
+    },
+    {
+      "number": "043",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/china-bans-icos",
+      "redirects": "2"
+    },
+    {
+      "number": "044",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-missing-cryptoqueen",
+      "redirects": "2"
+    },
+    {
+      "number": "045",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/bitconnect",
+      "redirects": "2"
+    },
+    {
+      "number": "046",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cryptokitties",
+      "redirects": "2"
+    },
+    {
+      "number": "047",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+      "redirects": "2"
+    }
+  ],
+  "original_downloads": [
+    {
+      "path": "cards/crypto/season-01/lightning-goes-live-master-048/art.png",
+      "sha256": "40f90c2493495e519f4c53d2333dbfb37aa13b5c7e0e49efd1b2df1a78fbd662",
+      "verified": true
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-048-Front-Print-v1.png",
+      "sha256": "ac6d783d5a183b7ff53ccf4114a4251488c6cd27840cf942c5518bbe71e8afd4",
+      "verified": true
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-048-Front-Print-v1.pdf",
+      "sha256": "5de7a3cebf9c2e780e6b07b606d8d526584f6b2dba931242dab4e4069f7a2aea",
+      "verified": true
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-048-Front-Print-v1.svg",
+      "sha256": "0bd36fd3dc1d0404e76e6f35c6e575827bd4cb9a77b3bf8cc3eb91f64ece5517",
+      "verified": true
+    },
+    {
+      "path": "book/crypto-season-01/histrove-v1/048-lightning-goes-live-histrove-v1.pdf",
+      "sha256": "036680f86c03a222ff6999e60331c4f3d6e1030e74bce1ab82e675c6c6d1259f",
+      "verified": true
+    },
+    {
+      "path": "book/crypto-season-01/histrove-v1/chapters/048-lightning-goes-live.md",
+      "sha256": "e6126f7ceb7621fb7301030ffbf7511d1f9aaa529e4aa186859324af6dd533f7",
+      "verified": true
+    }
+  ],
+  "live_display_assets": [
+    {
+      "path": "archive/048-histrove-border-card.webp",
+      "sha256": "33aac1bddfa3014cd69c35feed224466f828db2e9c751fae77d178074f1a9bba",
+      "verified": true
+    },
+    {
+      "path": "archive/048-art.webp",
+      "sha256": "da4447764eb4231e4f87b5ed73e29683b7dd0f6f9c36cd062a5689ebc99dcb64",
+      "verified": true
+    },
+    {
+      "path": "archive/048-histrove-page-1.webp",
+      "sha256": "07ba4b70a2cd98c9db129f977274e5c12c2ccc7088d88ee62e140b8063279af3",
+      "verified": true
+    },
+    {
+      "path": "archive/048-histrove-page-2.webp",
+      "sha256": "31b56cfdd2dad5492afe51eff573a69f753fbe1162af19f0628e3d80c6f0cd91",
+      "verified": true
+    },
+    {
+      "path": "closeups/048-01.webp",
+      "sha256": "57d14fb1c8608f53f28565fbbe22bca999b87d6546ddd6e925e2c84a008a0c66",
+      "verified": true
+    },
+    {
+      "path": "closeups/048-02.webp",
+      "sha256": "af615457dae5d81bae981ce08cf186b1f037800a43b2026d0a1f2eb00a4ba777",
+      "verified": true
+    },
+    {
+      "path": "closeups/048-03.webp",
+      "sha256": "867e93b10a6e90e26546125c6a19aa06c02f54d167172307ae017e3663723503",
+      "verified": true
+    },
+    {
+      "path": "closeups/048-04.webp",
+      "sha256": "5dc668dd720b9f9984d4d749c88b2ade2d2ab05e3f441d4c9782af159b3efe98",
+      "verified": true
+    }
+  ],
+  "digital_qr_checks": {
+    "original-1.png": [
+      "https://lore-site-v1.vercel.app/crypto/048/"
+    ],
+    "downloaded-pdf-300dpi.png": [
+      "https://lore-site-v1.vercel.app/crypto/048/"
+    ],
+    "display-0.webp": [
+      "https://lore-site-v1.vercel.app/crypto/048/"
+    ]
+  },
+  "live_seo_and_related": {
+    "live_story_pages": 48,
+    "unique_titles": 48,
+    "canonical_links": 48,
+    "related_story_links": 114
+  },
+  "browser_verification": {
+    "tested_content_release": "7e7813fb5b50199af9627a29933b6e0b53a5a5e3",
+    "browser": "Cloud Chromium on Linux",
+    "viewports": [
+      {
+        "name": "desktop",
+        "css_width": 1188,
+        "css_height": 761,
+        "device_pixel_ratio": 1,
+        "browser_zoom_percent": 100
+      },
+      {
+        "name": "narrow",
+        "css_width": 393,
+        "css_height": 507,
+        "device_pixel_ratio": 1.5,
+        "browser_zoom_percent": 150,
+        "method": "Ordinary desktop window resize and browser zoom; no mobile/touch emulation"
+      }
+    ],
+    "passed_interactions": [
+      "Released home displays 48 stories and 1982–2018; Birth of HODL hero and CryptoKitties discovery remain present and open their correct stories",
+      "2018 timeline control reaches 048; collectible opens Lightning Goes Live modal at both widths",
+      "/crypto/048/ redirects to /cards/lightning-goes-live at both widths",
+      "Standalone Story displays the approved artwork, five story paragraphs and source disclosure",
+      "Full artwork shows four distinct, non-overlapping numbered markers; every marker opens its corresponding beta plaque, hanging date, Bitcoin clasps or Sphinx bracer crop and explanation at both widths",
+      "Marker inspector receives focus; Return to artwork restores focus to the initiating marker",
+      "Artwork zoom/fit works; desktop Find it in the full artwork opens the zoomed illustration at the selected detail",
+      "Details grid and enlargement work; narrow Previous/Next navigation reaches all four details, disables Next at the last detail, and All details restores focus to the selected grid control",
+      "Both companion-book previews load; narrow page selection, enlarge and fit work; desktop displays both pages and enlarges the selected second page with internal scrolling",
+      "Repeated Story/Artwork/Details/Book switching preserves a single selected tab and visible panel; Home/End keyboard tab navigation works at both widths, with ArrowRight wrap tested narrowly",
+      "Modal Escape and close button dismiss the reader and restore focus to the 048 timeline link at both widths; browser Forward reopens the modal and Back returns to the timeline",
+      "All three related-story links navigate to Segwit Activates, The First Transfer and The Whitepaper; settled browser Back returns to 048 at both widths",
+      "All eight new 048 display assets were visibly loaded and confirmed complete with nonzero natural dimensions: collectible, artwork, four clue crops and two book previews",
+      "No horizontal document overflow in checked Story, Artwork, Details, Book or modal states; desktop document client/scroll width 1173/1173px and narrow 383/383px. Intentional zoom-viewer internal scrolling remains usable"
+    ],
+    "limits": [
+      "No physical mobile device, touch interaction, Safari, Firefox or other browser-engine test",
+      "Narrow coverage is a 393px CSS layout in desktop Chromium at 150% zoom, not device emulation",
+      "No exhaustive browser interaction or lazy-image sweep of all 47 earlier story pages or every homepage asset",
+      "No exhaustive accessibility audit; focus entry/return and tab keys were sampled, but a complete focus-trap traversal was not performed",
+      "Backdrop-click dismissal was not tested",
+      "No physical print acceptance, phone-camera QR scan, full-resolution reproduction assessment or original-download hash verification in this browser pass"
+    ],
+    "navigation_correction": {
+      "initial_observation": "Direct 048 moment-hash navigation could leave the year rail highlighting 2017 while the 2018 card was visible.",
+      "cause": "Intersection thresholds did not necessarily trigger when the section crossed the existing position-selection line.",
+      "correction": "The same position-derived selection is scheduled on passive scroll, resize and hashchange with requestAnimationFrame coalescing and full cleanup.",
+      "local_regression": "PASS: direct 048 position, ordinary and earlier-year anchors, restored history positions, resize, coalescing and cleanup.",
+      "regression_test": "site/scripts/check-year-navigation.mjs"
+    }
+  },
+  "artwork_sha256": "40f90c2493495e519f4c53d2333dbfb37aa13b5c7e0e49efd1b2df1a78fbd662",
+  "downloaded_book_native_pixels_equal_source": true,
+  "book_native_effective_ppi": 128.2095238095238,
+  "book_resolution_review": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+  "physical_print_release": false,
+  "physical_phone_camera_qr_test": false,
+  "rights_clearance": false
+}
