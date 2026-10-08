@@ -2,7 +2,7 @@
 
 **History Worth Holding**
 
-An illustrated, interactive timeline of 47 approved crypto-history moments, with full artwork, 200 linked art details and 94 companion-book page previews. The desktop/mobile editorial experience, reader controls and 47 stable printed QR redirects are preserved.
+An illustrated, interactive timeline of 50 approved crypto-history moments, with full artwork, 212 linked art details and 100 companion-book page previews. The desktop/mobile editorial experience, reader controls and 50 stable printed QR redirects are preserved.
 
 ## Run and verify
 
@@ -49,3 +49,7 @@ Approved v8 glass-experiment artwork, HISTROVE Rare card, five-paragraph story, 
 ## Search and launch-list preview
 
 See [search and Coming soon review](SEO-COMING-SOON-REVIEW.md). The launch list is deliberately closed until provider, consent, privacy and costs are approved. Existing printed QR routes and approved collection assets remain unchanged.
+
+## 050 The Pineapple Fund
+
+Exact approved First Clear Water art, Common HISTROVE card, five-paragraph story, four exact-art clues and two-page A4 book. `/crypto/050/` redirects to `/cards/the-pineapple-fund`. `media/display-050.bin` adds eight images while preserving all 560 earlier assets. Campaign year 2018 is separate from the late-2017 beginning and later 37-project impact account. Original downloads are pinned to the immutable asset commit.
