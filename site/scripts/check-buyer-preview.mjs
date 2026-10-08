@@ -38,6 +38,8 @@ assert(home.includes('Crypto History Collectible Cards &amp; Illustrated Stories
 assert(home.includes('<h1 id="hero-title">History<br/>Worth <span>Holding</span></h1>'));
 assert(home.includes('Physical cards, a companion book and an online archive'));
 assert(home.includes('stories online') && home.includes('cards in the making'));
+const hero = home.match(/<section class="hero".*?<\/section>/s)[0];
+assert.deepEqual([...hero.matchAll(/alt="([^"]+)"/g)].map(m=>m[1]), ['The Whitepaper','Birth Of HODL','Genesis Block']);
 assert.equal((home.match(/id="about"/g)||[]).length,1);
 assert(home.includes('HOW TO READ THE ARCHIVE'));
 assert(!home.includes('THE ART DISPLAY') && !home.includes('proposed display frame'));

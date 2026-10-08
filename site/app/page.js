@@ -9,7 +9,7 @@ import DiscoveryReveal from './components/DiscoveryReveal';
 import PhysicalCollection from './components/PhysicalCollection';
 import ComingSoon from './components/ComingSoon';
 import AboutHistrove from './components/AboutHistrove';
-const featured = ['pizza-day','genesis-block','birth-of-hodl'].map(slug=>archiveCards.find(c=>c.slug===slug));
+const featured = ['the-whitepaper','birth-of-hodl','genesis-block'].map(slug=>archiveCards.find(c=>c.slug===slug));
 function Moment({card,onOpen,compact=false}) {
  return <article className={'moment'+(compact?' compact-moment':'')} id={'moment-'+card.slug}><a href={'/cards/'+card.slug} className="moment-open" onClick={e=>{if(e.button===0&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&!e.altKey){e.preventDefault();onOpen(card,false,e.currentTarget);}}} aria-label={'Explore '+titleCase(card.title)+', '+card.date}><div className="moment-art"><div className="moment-topline"><span>NO. {card.id}</span><Expand/></div><Image src={card.media.image.src} width={card.media.image.width} height={card.media.image.height} alt={titleCase(card.title)+' collectible card'} sizes="(max-width:600px) 85vw, (max-width:1000px) 42vw, 32vw"/><div className="moment-bottomline"><span>HISTROVE / CRYPTO</span><span>VIEW MOMENT <Arrow/></span></div></div><div className="moment-info"><span className="moment-date">{card.date}</span><h3>{titleCase(card.title)}</h3><div className="moment-info-bottom"><span>{card.subject}</span><span className={'rarity '+card.rarity.toLowerCase()}>{card.rarity}</span></div></div></a></article>;
 }
