@@ -1,0 +1,133 @@
+{
+  "card": "048",
+  "status": "APPROVED_FOR_PUBLICATION",
+  "master": "HISTROVE-CRYPTO-PRINT-v1.0",
+  "source_commit": "f7713fc954cecdbe94295a02bef380b9a746a72d",
+  "source_artwork_path": "art.png",
+  "source_art_sha256": "40f90c2493495e519f4c53d2333dbfb37aa13b5c7e0e49efd1b2df1a78fbd662",
+  "native_art_px": [
+    1060,
+    1484
+  ],
+  "svg_embedded_art_exact": true,
+  "pdf_embedded_art_pixels_exact": true,
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "trim_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "pdf_boxes_points": {
+    "mediabox": [
+      0,
+      0,
+      195.84,
+      266.4
+    ],
+    "cropbox": [
+      0,
+      0,
+      195.84,
+      266.4
+    ],
+    "trimbox": [
+      8.64,
+      8.64,
+      187.2,
+      257.76
+    ],
+    "bleedbox": [
+      0,
+      0,
+      195.84,
+      266.4
+    ],
+    "artbox": [
+      15.84,
+      15.48,
+      180,
+      250.92
+    ]
+  },
+  "qr_decode": {
+    "HISTROVE-Crypto-048-Front-Print-v1.png": "https://lore-site-v1.vercel.app/crypto/048/",
+    "HISTROVE-Crypto-048-Front-Web-v1.png": "https://lore-site-v1.vercel.app/crypto/048/",
+    "card-pdf-300dpi.png": "https://lore-site-v1.vercel.app/crypto/048/"
+  },
+  "text_fit": {
+    "creator-name": {
+      "text": "BITCOIN",
+      "right_edge": 203.21875,
+      "limit": 620,
+      "font_size": "25"
+    },
+    "title-line-1": {
+      "text": "LIGHTNING",
+      "right_edge": 489.09375,
+      "limit": 620,
+      "font_size": "70"
+    },
+    "title-line-2": {
+      "text": "GOES LIVE",
+      "right_edge": 466.203125,
+      "limit": 620,
+      "font_size": "70"
+    },
+    "moment-context": {
+      "text": "THE VERY BEGINNING.",
+      "right_edge": 390.70625,
+      "limit": 620,
+      "font_size": "25"
+    },
+    "moment-number": {
+      "text": "15 MAR 2018",
+      "right_edge": 206.25,
+      "limit": 620,
+      "font_size": "19"
+    },
+    "set-number": {
+      "text": "CRYPTO • SEASON 01 • 048/100",
+      "right_edge": 361.375,
+      "limit": 620,
+      "font_size": "17"
+    }
+  },
+  "rarity_status": "APPROVED",
+  "phrase_status": "APPROVED_SOURCE_VERIFIED_EXCERPT",
+  "qr_destination_status": "PENDING_PUBLICATION",
+  "print_release": false,
+  "physical_sample_approval": false,
+  "art_to_card": {
+    "scale": 0.6437880659312577,
+    "x_offset": 66.79232505644018,
+    "y_offset": 77.30925507901355,
+    "fade_start_source_y": 1051.625883,
+    "art_effective_ppi": 465.99186265753696
+  },
+  "visual_review": {
+    "card": "Pass: guardian face and full hair silhouette, both hands, four clue areas and raised Earth are visible; no title/QR/brand collision",
+    "earth": "Blue horizon crosses the lower illustrated zone; connected lights and bright lightning landing remain visible above title and QR. Lower remainder is intentionally faded under the text.",
+    "style": "Pass for review: sharper anime face, hair shapes, inked armour and cel-shaded clothing in the supplied corrected art",
+    "pdf": "Actual 300-DPI PDF rendering inspected; frame, complete logo, title and phrase are unclipped",
+    "fine_detail_limit": "Digital visual inspection only. Physical printed fine-detail readability and press colour acceptance remain unverified",
+    "artwork_worker_independent_review": "Passed final card for anime treatment, Earth/bolt story, and clue visibility"
+  },
+  "clue_visibility": {
+    "lnd_0_4_beta_chest_tag": "Visible above all text overlays",
+    "15_MAR_2018_date_charm": "Visible on belt, above title and QR",
+    "twin_Bitcoin_channel_clasp": "Both clasp halves and their luminous join visible",
+    "Sphinx_bracer_relief": "Visible on foreground arm; motif remains small at card size"
+  },
+  "qa_status": "PASS_DIGITAL_REVIEW_PROOF",
+  "review_to_final_png_byte_identical": true,
+  "review_to_final_svg_byte_identical": true,
+  "pdf_change": "Document metadata only; unchanged page streams and image pixels",
+  "pdf_page_streams_unchanged": true,
+  "pdf_raster_pixels_unchanged": true
+}

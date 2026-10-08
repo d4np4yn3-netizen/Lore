@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Lightning Labs: mainnet beta announcement",
+    "url": "https://lightning.engineering/posts/2018-03-15-lnd-beta/",
+    "supports": "15 March 2018 date; lnd 0.4-beta as Lightning Labs' first mainnet beta; technical-user audience; small-amounts caution; fault handling and route finding; Beyond Beta opening contains the continuous words 'the very beginning'.",
+    "type": "PROJECT_ANNOUNCEMENT",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "lnd v0.4-beta release notes",
+    "url": "https://github.com/lightningnetwork/lnd/releases/tag/v0.4-beta",
+    "supports": "Specific release and mainnet flag, compatibility and reliability work, routing updates and fees. Its reference to closing prior channels confirms this milestone should not be represented as Lightning's first-ever payment.",
+    "type": "PROJECT_RELEASE_NOTES",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "Poon and Dryja: Lightning whitepaper",
+    "url": "https://lightning.network/lightning-network-paper.pdf",
+    "supports": "Historical proposal, funded payment channels, off-chain balance updates, on-chain settlement and enforcement, and conditional transfers across multiple channels. Used for the broad channel model, not to claim every draft implementation detail shipped in March 2018.",
+    "type": "ORIGINAL_TECHNICAL_WHITEPAPER",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "lightning-onion: historical Sphinx design",
+    "url": "https://github.com/lightningnetwork/lightning-onion/blob/6d4b1353e2835def84ee240f40499464521c6046/README.md",
+    "supports": "Exact lightning-onion revision used by lnd v0.4-beta explains a Sphinx-derived message format, onion routing and per-hop forwarding instructions.",
+    "type": "PROJECT_TECHNICAL_DOCUMENTATION",
+    "verified": "2026-10-08"
+  },
+  {
+    "title": "lnd v0.4-beta: dependency record",
+    "url": "https://github.com/lightningnetwork/lnd/blob/v0.4-beta/Gopkg.lock",
+    "supports": "Pins lightningnetwork/lightning-onion at revision 6d4b1353e2835def84ee240f40499464521c6046, establishing that the cited Sphinx-derived design was present for this release.",
+    "type": "PROJECT_RELEASE_DEPENDENCY_RECORD",
+    "verified": "2026-10-08"
+  }
+]

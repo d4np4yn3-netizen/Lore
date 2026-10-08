@@ -1,0 +1,29 @@
+{
+  "source_art_sha256": "40f90c2493495e519f4c53d2333dbfb37aa13b5c7e0e49efd1b2df1a78fbd662",
+  "native_dimensions": [
+    1060,
+    1484
+  ],
+  "selected_revision": "Storm Guardian anime v2 with raised Earth",
+  "generation_method": "Built-in imagegen; combined anime + Earth correction, then one focused Earth-only correction after actual fixed-template inspection demonstrated crop failure",
+  "visual_checks": {
+    "anime": "Sharper drawn face/hair contours, expressive mature eyes, cel-shaded clothing and armour matched to both viewed approved HODL/Doge refs",
+    "earth_raise": "Right horizon around y910; connected gold routes and key landing read clearly above fixed card text/QR after compositing",
+    "anatomy": "Original coherent two-hand gesture retained; five fingers of active hand legible",
+    "historical_clues": [
+      "lnd 0.4-beta collar plaque",
+      "15 MAR 2018 belt tag",
+      "Sphinx bracer relief",
+      "two coin clasp linked by gold seam"
+    ],
+    "frame_safety": "Guardian hair safely below top identity elements; all four clue areas unobscured",
+    "original_v1_preserved": true
+  },
+  "approved_at": "2026-10-08",
+  "source_original_v1_preserved": true,
+  "required_style_references": [
+    "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+    "cards/crypto/season-01/birth-of-doge-master-02/art.png"
+  ],
+  "style_reference_usage": "Both exact original references were supplied to the artwork edit; framing reused the exact generated source without raster editing."
+}

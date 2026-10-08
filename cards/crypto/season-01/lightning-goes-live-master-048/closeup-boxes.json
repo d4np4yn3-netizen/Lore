@@ -1,0 +1,111 @@
+{
+  "source_dimensions": [
+    1060,
+    1484
+  ],
+  "boxes": [
+    [
+      412,
+      376,
+      536,
+      459
+    ],
+    [
+      432,
+      636,
+      522,
+      774
+    ],
+    [
+      510,
+      429,
+      646,
+      534
+    ],
+    [
+      151,
+      465,
+      348,
+      641
+    ]
+  ],
+  "titles": [
+    "THE BETA PLAQUE",
+    "THE HANGING DATE",
+    "THE BITCOIN CLASPS",
+    "THE SPHINX BRACER"
+  ],
+  "coordinate_system": "Source pixels; [left, top, right, bottom], right and bottom exclusive",
+  "source_art_sha256": "40f90c2493495e519f4c53d2333dbfb37aa13b5c7e0e49efd1b2df1a78fbd662",
+  "crop_operation": "Exact pixel crop only; no resizing, retouching, colour conversion or generation",
+  "clues": [
+    {
+      "index": 1,
+      "title": "THE BETA PLAQUE",
+      "caption": "The chest plaque reads lnd 0.4-beta. It identifies the specific software release, anchoring the scene to Lightning Labs' first mainnet beta rather than the invention of Lightning itself.",
+      "file": "closeups/048-detail-1.png",
+      "box": [
+        412,
+        376,
+        536,
+        459
+      ],
+      "dimensions_px": [
+        124,
+        83
+      ],
+      "sha256": "67dee12eb9f1a8e34eb1d324e3b30bd82bd1de4f11e488698c6a72bbea755d35"
+    },
+    {
+      "index": 2,
+      "title": "THE HANGING DATE",
+      "caption": "The tag reads 15 MAR 2018, the release announcement's date. It records this milestone, not the date of the first Lightning idea or the first payment ever made.",
+      "file": "closeups/048-detail-2.png",
+      "box": [
+        432,
+        636,
+        522,
+        774
+      ],
+      "dimensions_px": [
+        90,
+        138
+      ],
+      "sha256": "a20184a22d1e8a4cadfea7ec250466d455477a7795031e40a4071c9e3dfbb83d"
+    },
+    {
+      "index": 3,
+      "title": "THE BITCOIN CLASPS",
+      "caption": "Two Bitcoin clasp halves are joined by light. They suggest the two participants in a funded channel, whose balances can change off-chain while their channel remains anchored to Bitcoin's blockchain.",
+      "file": "closeups/048-detail-3.png",
+      "box": [
+        510,
+        429,
+        646,
+        534
+      ],
+      "dimensions_px": [
+        136,
+        105
+      ],
+      "sha256": "6096fd9f53e1a42b987cbab19f90dda5b68488528bd2199dd4ec072a9e20b651"
+    },
+    {
+      "index": 4,
+      "title": "THE SPHINX BRACER",
+      "caption": "The engraved Sphinx nods to the Sphinx-derived packet format used for Lightning onion routing. Layered instructions guide a payment through its route. The mythical engraving is an artistic clue, not actual networking equipment.",
+      "file": "closeups/048-detail-4.png",
+      "box": [
+        151,
+        465,
+        348,
+        641
+      ],
+      "dimensions_px": [
+        197,
+        176
+      ],
+      "sha256": "6a4648af7e60ad35bb944d39a267fb4f66cff349da30b51557b4fe3400e93c2f"
+    }
+  ]
+}
