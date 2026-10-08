@@ -15,3 +15,9 @@ The approved card/art/book/print assets and QR destinations remain unchanged. Th
 Local validation: full preservation suite, production build and 49-page search checks pass, including all 47 story-to-shop links and /shop canonical/sitemap coverage. Browser interaction and narrow-width visual verification are required on the new review deployment before handoff.
 
 Concept-image details and hashes: shop-preview-media.json. The book image retains the existing source page's small review footer; it is not a finished-cover or manufacturing proof.
+
+## Retail hierarchy revision
+
+The initial shop now contains only two clear product choices: a 10-card booster pack and a crypto history companion book. The framed-art offer has been removed from /shop; artwork within the card/story archive is retained. Each product has a prominent coming-soon action leading to launch information, plus a working preview link. No purchase is implied.
+
+The card-reader booster link now sits immediately left of the full-artwork action over the image. At narrow widths the two actions stack, booster first. They are sibling interactive controls; there is no link nested inside a button. The duplicate below-story link is removed. This applies to both standalone stories and dialogs, with all 47 built pages checked.
