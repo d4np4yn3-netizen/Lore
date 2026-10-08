@@ -46,28 +46,30 @@ the authorised style migration creates a separately reviewed successor.
 These authorised collection exceptions supersede earlier creator-only launch
 wording. They do not approve NFT financial entitlements or new brand geometry.
 
-## Approved crypto art direction — updated 20 September 2026
+## Approved crypto art direction — updated 8 October 2026
 
-Before EVERY crypto card, inspect and supply BOTH exact approved artwork files
-directly in every image generation and edit:
-- Birth of HODL v2: cards/crypto/season-01/birth-of-hodl-master-02/art.png
-- Birth of Doge v2: cards/crypto/season-01/birth-of-doge-master-02/art.png
+Before EVERY Crypto Season One card and every artwork edit, inspect and supply
+ALL FOUR exact approved raw illustrations directly as style references:
+- HODL 021: cards/crypto/season-01/birth-of-hodl-master-02/art.png
+- Birth of Doge 020: cards/crypto/season-01/birth-of-doge-master-02/art.png
+- CryptoPunks 038: cards/crypto/season-01/cryptopunks-master-038/art.png
+- CryptoKitties 046: cards/crypto/season-01/cryptokitties-master-046/art.png
 
-Read cards/crypto/ART-STYLE.md, cards/crypto/style-reference-lock.json and
-cards/crypto/STYLE-MIGRATION.md. Verify both pinned hashes in required_references;
-neither reference is optional. A text description or a later derivative is not
-a substitute. The target card supplies separate event/content/composition facts.
-Both references govern characters, creatures, props AND the entire background.
-Do not import their literal dog, man, room, coins or palette into unrelated events.
-Keep both pinned after later card approvals unless Dan explicitly changes them.
+Read cards/crypto/ART-STYLE.md and cards/crypto/style-reference-lock.json.
+Verify all four hashes in required_references[].art; use the raw art, not frames
+or web derivatives. HODL and Doge remain pinned. CryptoPunks and CryptoKitties
+extend the pack across the current 100-card Crypto collection and all rarities.
+Creator collections keep their separate style references.
 
-Dan's 20 September instruction adds approved Birth of Doge as a mandatory direct
-reference alongside HODL. It supersedes earlier HODL-only workflow wording.
-Crypto and Creator cards are separate products. Creator art references stay fixed.
-Eleven crypto cards are approved, including Buried Fortune; preserve their exact files.
-First Transfer is paused at Dan's request and must not be resumed automatically.
-Move to a different event design; develop one card at a time and review it before
-promotion. Existing brand, layout, fonts, rarity colours, back and size still apply.
+Compare mature anime coherence, cinematic lighting, controlled material texture,
+and background perspective across the entire scene. Keep event facts and
+composition separate. Do not transplant reference characters, logos or motifs
+into unrelated events. Style selection does not confer rights clearance.
+
+Preserve approved artwork and its true generation history. This update does not
+regenerate existing cards or restart paused work. Later card approvals do not
+change the four-reference pack without explicit selection. Current HISTROVE
+brand assets, print masters, fonts, rarity colours and shared back remain fixed.
 
 ## Current card layout and badge rule
 

@@ -8,7 +8,7 @@ The primary placement is the approved 2400 × 1440 proof. Compact exports only c
 
 Lettering is an embedded 2172 × 724 raster at 2080px placement width. SVG assemblies retain raster lettering and are not fully vector. Tagline is outlined; crown retains its original vector path. Built-in padding protects all brush/crown tips. Never substitute fonts, regenerate, retrace, or distort the identity.
 
-Crypto and creator collection art rules remain separate. Use the exact current HODL and Doge references under the crypto style lock, and current creator references for creator artwork. This branding change does not alter illustrations, rarity colors, card copy, or rights status.
+Crypto and creator collection art rules remain separate. Use all four exact raw-art references (HODL 021, Birth of Doge 020, CryptoPunks 038 and CryptoKitties 046) under the [Crypto style lock](../cards/crypto/style-reference-lock.json), and current creator references for creator artwork. This branding change does not alter illustrations, rarity colors, card copy, or rights status.
 
 ## Art direction
 

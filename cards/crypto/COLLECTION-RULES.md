@@ -32,12 +32,13 @@ for both finishes; do not publish invented edition totals or pull rates.
 
 Keep LORE-FRONT-v4 geometry, badge padding, logo asset, title and QR placement. The approved field differences are: event date replaces the creator moment counter, subject replaces creator name, and the crypto season label replaces the creator footer. **Crypto print derivatives additionally use the approved phrase typography override in LORE-CRYPTO-PRINT-v1.0: the moment phrase is 25 units and 700 bold, retaining its position, tracking and rarity colour.** Do not apply this crypto-only phrase change to creator cards.
 
-Use the existing renderer and BOTH exact approved art references, HODL v2 AND
-Birth of Doge v2, before every new crypto card and revision. Inspect and supply
-both art files directly to generation; typeset text in the existing fields. Read
+Use the existing renderer and all FOUR exact approved raw-art references: HODL 021,
+Birth of Doge 020, CryptoPunks 038 and CryptoKitties 046, before every new crypto card
+and artwork revision. Inspect and supply all four directly to generation;
+typeset text in the existing fields. Read
 [ART-STYLE.md](ART-STYLE.md) and [the style lock](style-reference-lock.json).
 Crypto and Creator cards are separate products with separate drawing directions.
-Both full illustrations, including backgrounds, props and creatures, are mandatory
+All four full illustrations, including backgrounds, props and creatures, are mandatory
 crypto style references. Retain the exact brand
 assets; generate illustrations separately. All objects and scenery must share
 the drawn anime treatment. Easter eggs belong naturally in the scene's ink,
@@ -60,9 +61,10 @@ Going forward, create the print-layout proof as part of each card's visual/copy 
 ## Approved style migration
 
 The four approved crypto cards completed style migration on 20 September 2026.
-Dan then required BOTH HODL v2 and Birth of Doge v2 before every card. Preserve
-old versions and review new work one card at a time. New approvals do not change
-the pinned pair automatically. First Transfer is paused at Dan's request; follow
+The initial mandatory HODL/Doge pair was extended on 8 October 2026 with
+CryptoPunks 038 and CryptoKitties 046. Preserve old versions and their true
+generation history; review new work one card at a time. New approvals do not
+change the four-reference pack automatically. First Transfer is paused at Dan's request; follow
 [the queue](STYLE-MIGRATION.md) for a different next design.
 
 ## Date and source evidence
@@ -91,7 +93,7 @@ Cover breakthroughs and adoption, memes and communities, scams and fraud,
 market crashes and institutional collapses, hacks and exploits, and bans or
 regulatory shocks. Rarity reflects the selected event's place in the collection,
 not moral approval of a person or scheme. Continue one documented event per card,
-one rarity per event, both finishes, and both mandatory style references.
+one rarity per event, both finishes, and all four mandatory style references.
 
 Candidate topics in EDITORIAL-BACKLOG.md are editorial options, not an approved
 set size, rarity allocation or completed card. Research the exact event/date
@@ -119,4 +121,4 @@ Build an object inventory as artwork is approved: source card, exact approved ar
 
 After all 100 illustrations exist, review the complete collection together and propose a deliberate pass adding suitable connections to earlier cards. Preserve their approved masters and present edited successors for review before promotion. This direction authorises planning the collection-wide pass, not silently changing existing approved art now.
 
-Keep crossovers subtle, legible at card size and consistent with each scene's perspective, lighting and locked HODL/Doge art style. Record their source and meaning for the book and website, distinguishing intentional connections or forward references from historical props. The active inventory is [CROSS-CARD-ITEMS.md](CROSS-CARD-ITEMS.md).
+Keep crossovers subtle, legible at card size and consistent with each scene's perspective, lighting and locked four-reference Crypto art style. Record their source and meaning for the book and website, distinguishing intentional connections or forward references from historical props. The active inventory is [CROSS-CARD-ITEMS.md](CROSS-CARD-ITEMS.md).

@@ -1,7 +1,17 @@
 # Crypto style migration and design queue
 
-Mandatory reference pair: Birth of HODL v2 AND Birth of Doge v2. Resolve exact
-artwork and hashes through style-reference-lock.json before every card.
+Current mandatory pack: HODL 021, Birth of Doge 020, CryptoPunks 038 and
+CryptoKitties 046. Resolve all four raw illustrations and hashes through
+[style-reference-lock.json](style-reference-lock.json) before every new card or
+artwork edit. See [ART-STYLE.md](ART-STYLE.md) for comparison and workflow guidance.
+The 8 October 2026 update adds two references without changing approved artwork,
+Creator references or historical generation provenance.
+
+## Historical migration and queue snapshot — September 2026
+
+The entries below preserve the earlier migration record; current numbered assets
+are resolved through current-cards.json and current work through CURRENT-STATUS.md.
+This reference-pack update does not restart paused work or select the next event.
 
 | Card | State | Next action |
 | --- | --- | --- |
@@ -30,5 +40,5 @@ Earlier Review-v2: Library libfile_95b5827a02988191aab7457b806919f4.
 The earlier restriction against new event concepts during migration no longer
 applies: the migration is complete and Dan explicitly requested another design.
 Eleven crypto cards are approved overall.
-Buried Fortune is complete; the first Bitcoin ATM is the proposed next concept. See EDITORIAL-BACKLOG.md. Continue one card at a time and include BOTH pinned art
+Buried Fortune is complete; the first Bitcoin ATM is the proposed next concept. See EDITORIAL-BACKLOG.md. Continue one card at a time and include all FOUR pinned raw art
 references directly in every generation/edit; keep the shared brand/layout rules.

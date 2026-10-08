@@ -8,6 +8,12 @@ The current identity is the approved HISTROVE brush wordmark with the exact **04
 
 ![HISTROVE brand pack](previews/HISTROVE-Brand-Guide.png)
 
+## Crypto illustration reference pack
+
+[View the four approved raw-art references](../cards/crypto/ART-STYLE.md) · [Exact paths and hashes](../cards/crypto/style-reference-lock.json)
+
+HODL 021, Birth of Doge 020, CryptoPunks 038 and CryptoKitties 046 guide all new Crypto Season One art and artwork edits. Compare mature anime coherence, cinematic lighting, controlled texture and background perspective. Use raw art rather than card frames; do not import unrelated characters, logos or motifs. Reference selection does not confer rights clearance. Creator artwork references stay separate. This linked illustration pack does not change the identity-export ZIP above.
+
 ## Choose a file
 
 - Dark surfaces: `histrove_primary_white_transparent-2400.png`

@@ -1,12 +1,10 @@
 {
-  "revision": "LORE-CRYPTO-STYLE-v1.1",
-  "status": "APPROVED_MANDATORY_REFERENCE_PAIR",
+  "revision": "HISTROVE-CRYPTO-STYLE-v1.2",
+  "status": "APPROVED_MANDATORY_REFERENCE_PACK",
   "approved_by": "Dan Payne",
-  "approved_at": "2026-09-20",
-  "approval_quote": "I’m really not a fan of the first transfer card, let’s move to another design for now, have we updated github for the style direction? Before every card I want to use HODL and Birth of Doge as reference",
-  "product_scope": "All crypto collection cards and all rarity levels; creator collection unchanged.",
+  "approved_at": "2026-10-08",
+  "product_scope": "All Crypto Season One cards in the current 100-card collection, across all rarity levels; Creator collections unchanged.",
   "standard": "cards/crypto/ART-STYLE.md",
-  "approval_record": "cards/crypto/style-reference-approval-v1.1.json",
   "master": {
     "card": {
       "path": "cards/crypto/season-01/birth-of-hodl-master-02/LORE-Birth-of-HODL-Epic-v2.png",
@@ -59,8 +57,15 @@
         "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
         "bytes": 2365820,
         "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
-        "git_blob": "bf4905441d3668c47006f103993489de3ba0c368"
-      }
+        "git_blob": "bf4905441d3668c47006f103993489de3ba0c368",
+        "dimensions_px": [
+          1060,
+          1484
+        ]
+      },
+      "card_number": "021",
+      "numbered_art_alias": "cards/crypto/season-01/birth-of-hodl-master-021/art.png",
+      "historical_derivative_note": "card and editable_svg retain historical provenance only; supply the unframed art PNG as the style input."
     },
     {
       "id": "birth-of-doge-v2",
@@ -85,20 +90,81 @@
         "path": "cards/crypto/season-01/birth-of-doge-master-02/art.png",
         "bytes": 2440155,
         "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
-        "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6"
+        "git_blob": "76c39716ee7384538fdc98014b3662b2fb51fba6",
+        "dimensions_px": [
+          1060,
+          1484
+        ]
+      },
+      "card_number": "020",
+      "numbered_art_alias": "cards/crypto/season-01/much-wow-master-020/art.png",
+      "historical_derivative_note": "card and editable_svg retain historical provenance only; supply the unframed art PNG as the style input."
+    },
+    {
+      "id": "cryptopunks-038",
+      "name": "CryptoPunks 038",
+      "card_number": "038",
+      "required": true,
+      "role": "Mature anime character treatment, cinematic warm/cool light, selective rain and reflections, coherent architecture and depth",
+      "approval_record": "cards/crypto/season-01/cryptopunks-master-038/approval.json",
+      "source_commit": "9e71c54b64212f955e6f85eaf40b5ab9f934ac30",
+      "art": {
+        "path": "cards/crypto/season-01/cryptopunks-master-038/art.png",
+        "bytes": 2455091,
+        "sha256": "21027f7ece79e3a6ca3b205f631cb4a648027d4028c27d77c760d36555728abb",
+        "git_blob": "1907bdb04c693fa471a390e5d7cbf6362fedf59f",
+        "dimensions_px": [
+          1060,
+          1484
+        ]
+      }
+    },
+    {
+      "id": "cryptokitties-046",
+      "name": "CryptoKitties 046",
+      "card_number": "046",
+      "required": true,
+      "role": "Expressive drawn creatures, controlled grouped fur and materials, integrated cinematic light, layered background perspective and story props",
+      "approval_record": "cards/crypto/season-01/cryptokitties-master-046/approval.json",
+      "source_commit": "9e71c54b64212f955e6f85eaf40b5ab9f934ac30",
+      "selected_revision": "Corrected approved raw artwork: upper-right Ethereum symbol removed; left symbol retained",
+      "art": {
+        "path": "cards/crypto/season-01/cryptokitties-master-046/art.png",
+        "bytes": 2408921,
+        "sha256": "6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e",
+        "git_blob": "79f7213cdf589a283c8c54ecf0554b7beca1d423",
+        "dimensions_px": [
+          1060,
+          1484
+        ]
       }
     }
   ],
-  "required_reference_count": 2,
+  "required_reference_count": 4,
   "include_all_references_in_every_generation_and_edit": true,
-  "inspect_both_before_every_card": true,
-  "master_field_note": "The historical master alias remains HODL for provenance. required_references is authoritative: BOTH HODL and Doge are mandatory inputs. Neither is optional.",
-  "prior_reference_policy": {
-    "revision": "LORE-CRYPTO-STYLE-v1.0",
-    "approved_at": "2026-09-19",
-    "approval_quote": "Ok, I think this is the approved style, we now need to save this and change each card one by one, using this card as the art reference for all cards in this collection going forward!",
-    "approval_record": "cards/crypto/season-01/birth-of-hodl-master-02/approval.json"
-  },
+  "master_field_note": "The historical master alias remains HODL for provenance. required_references is authoritative: all four raw art PNGs are mandatory style inputs. Framed card and SVG entries are historical records, not replacements for art.",
   "existing_card_provenance_unchanged": true,
-  "reference_pair_changes_require_explicit_user_selection": true
+  "previous_reference_manifest_revision": "LORE-CRYPTO-STYLE-v1.1",
+  "selection_scope": "Add the exact approved CryptoPunks 038 and corrected CryptoKitties 046 raw illustrations alongside the retained HODL 021 and Birth of Doge 020 style references.",
+  "generation_input_selector": "required_references[].art",
+  "framed_cards_are_not_style_inputs": true,
+  "inspect_all_before_every_card": true,
+  "reference_pack_changes_require_explicit_user_selection": true,
+  "comparison_priorities": [
+    "Mature anime/manhwa drawing and strong silhouettes",
+    "One coherent drawing treatment across people, creatures, props and the entire background",
+    "Cinematic, motivated lighting and controlled highlight contrast",
+    "Selective material texture without photographic or glossy 3D drift",
+    "Consistent background perspective, scale and atmospheric depth",
+    "Target-event subjects, palette and evidence remain independent of style references"
+  ],
+  "motif_rule": "Do not transplant reference characters, cats, dogs, pixel portraits, logos, symbols, labels, props or scenes into an unrelated event. An intentional cross-card object needs its own documented relevance and approval.",
+  "rights_note": "Style-reference selection is not copyright, trademark, character, likeness or commercial-reproduction clearance. Underlying characters, logos and motifs retain their separate rights status.",
+  "verification": {
+    "repository_commit": "9e71c54b64212f955e6f85eaf40b5ab9f934ac30",
+    "all_four_raw_images_visually_inspected": true,
+    "sha256_bytes_dimensions_and_git_blobs_verified": true,
+    "existing_artwork_bytes_unchanged": true,
+    "no_duplicate_binary_assets_added": true
+  }
 }

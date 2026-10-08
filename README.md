@@ -2,6 +2,12 @@
 
 The current identity is HISTROVE / History Worth Holding. [Approved printer files](cards/crypto/print-ready/histrove-v1) · [Future templates](cards/crypto/master/histrove-print-v1) · [Brand pack](brand) · [Historical LORE brand](archive/brand) · [Historical print archive](archive/print). Physical printer/sample acceptance remains separate. Website content and branding are not changed by this repository release.
 
+## Current Crypto art reference pack
+
+[Four approved raw-art references](cards/crypto/ART-STYLE.md) · [Pinned paths and hashes](cards/crypto/style-reference-lock.json)
+
+HODL 021 and Birth of Doge 020 remain joined by CryptoPunks 038 and CryptoKitties 046 for all new Crypto Season One cards and artwork edits. The current pack governs whole-scene drawing treatment; Creator references, approved art, card framing and rights status are unchanged.
+
 ## Historical project introduction
 
 # 038 and 039 published and verified

@@ -11,24 +11,25 @@ See `cards/crypto/master/print-v1.2/approval.json` and `print-spec.json`. Keep t
 Read ART-STYLE.md, style-reference-lock.json, COLLECTION-RULES.md and
 current-cards.json before crypto art or edits. Parent brand/layout rules apply.
 
-Mandatory reference pair, explicitly selected by Dan on 20 September 2026:
-Birth of HODL v2 AND Birth of Doge v2, both in season-01/*-master-02/art.png.
-Resolve exact paths and hashes through required_references in the style lock.
-Before every card, inspect both and include both original art files directly in
-every generation and revision. Do not use only one, rely on remembered images,
-or substitute the latest output for either. Their complete scenes govern drawing
-style across characters, creatures, objects, lighting and backgrounds.
+Mandatory reference pack, updated 8 October 2026:
+HODL 021, Birth of Doge 020, CryptoPunks 038 and CryptoKitties 046.
+Resolve all four exact raw art paths and hashes through required_references[].art
+in style-reference-lock.json. Inspect and supply all four PNGs directly for every
+new card and every artwork edit. Framed cards and remembered images are not
+substitutes. Preserve the original HODL/Doge paths and use the corrected 046 art.
 
-Use an existing target card separately for composition/content when restyling.
-Keep each event's own subjects, story, palette and sourced Easter eggs. The pair
-is a rendering reference, not permission to repeat HODL's man or Doge's scene.
-Crypto is distinct from Creator cards; the Asmongold set is not its style gate.
+The complete scenes govern mature anime drawing, creatures, props, cinematic
+lighting, controlled texture and background perspective. Keep target content,
+composition and factual references separate. Do not transplant literal reference
+characters, third-party logos or motifs into unrelated events. Style selection
+does not provide character, trademark, copyright or reproduction clearance.
 
-Eleven crypto cards are approved, including Buried Fortune; keep their exact files. First Transfer is
-paused because Dan dislikes the current design; do not resume it automatically.
-Follow STYLE-MIGRATION.md for the current queue. New artwork still needs visual
-selection before archival/promotion. Preserve prior versions. Later card
-approvals do not alter this required pair without explicit user selection.
+This pack applies across the current 100-card Crypto collection and all rarities.
+Creator references remain separate. Existing approved art and its true source
+history are unchanged; do not regenerate approved work or claim it used four
+inputs retroactively. Preserve prior versions and review each new card before
+promotion. Later approvals do not alter the pack without explicit selection.
+Use current-cards.json for current files and preserve paused/parked work.
 
 ## Approved crypto print master — 24 September 2026
 

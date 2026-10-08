@@ -16,9 +16,11 @@ CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 co
 [Collection rules](COLLECTION-RULES.md) · [Approved print master](master/print-v1/README.md) · [Current cards](current-cards.json) ·
 [Restyle queue](STYLE-MIGRATION.md)
 
-**Mandatory before every card: [Birth of HODL v2](season-01/birth-of-hodl-master-02/README.md) AND [Birth of Doge v2](season-01/birth-of-doge-master-02/README.md).**
-Dan explicitly selected this pair on 20 September 2026. Inspect and attach both
-exact art files directly in every generation and revision, including backgrounds.
+**Mandatory reference pack: HODL 021, Birth of Doge 020, CryptoPunks 038 and CryptoKitties 046.**
+The [current illustrated pack](ART-STYLE.md) and [four-image lock](style-reference-lock.json)
+pin the exact raw-art files. Inspect and attach all four directly in every new
+Crypto card generation and artwork edit, including backgrounds. Framed cards are
+not substitutes. This 8 October 2026 addition preserves both original references.
 
 Crypto and Creator cards are separate products. The creator art direction stays
 unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
@@ -41,7 +43,7 @@ unchanged. Crypto now follows HODL's cleaner whole-scene anime/manhwa rendering.
 All eleven approved crypto cards use the approved crypto art direction.
 [First Transfer](next-card-first-transfer.md) is paused at Dan's request.
 [Buried Fortune](season-01/buried-fortune-master-01/README.md) is complete. Proposed next: [First Bitcoin ATM](next-card-first-bitcoin-atm.md). Silk Road and Dogecar are parked; First Halving also remains paused.
-Continue one card at a time with BOTH HODL and Doge supplied directly.
+Continue one card at a time with all FOUR pinned raw-art references supplied directly.
 
 One rarity per event, standard and foil editions, event dates under the badge.
 LORE-FRONT-v4 remains the visual geometry source. **LORE-CRYPTO-PRINT-v1.0 is now the approved front print master for all six rarities**: 816 × 1110 px full bleed, 744 × 1038 px cut and 684 × 981 px safe area at 300 DPI. The crypto phrase line is now 25-unit / 700 bold. Shared back v5 remains unchanged.

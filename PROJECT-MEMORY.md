@@ -1,3 +1,23 @@
+# Crypto style reference pack updated — 8 October 2026
+
+The current [Crypto reference pack](cards/crypto/ART-STYLE.md), revision
+HISTROVE-CRYPTO-STYLE-v1.2, contains four exact approved raw illustrations:
+HODL 021, Birth of Doge 020, CryptoPunks 038 and corrected CryptoKitties 046.
+The [lock](cards/crypto/style-reference-lock.json) pins each source path,
+SHA-256, Git blob, byte count and dimensions. The two original references remain
+unchanged; all four were visually inspected and verified against repository
+commit 9e71c54b64212f955e6f85eaf40b5ab9f934ac30.
+
+Use all four raw PNGs for future Crypto card generation and artwork edits,
+comparing mature anime coherence, cinematic light, controlled material texture
+and whole-background perspective. Keep target-event facts and composition
+separate, and do not transplant unrelated characters, logos or motifs.
+Creator references and existing artwork remain unchanged. Existing cards retain
+their true generation history. This update does not regenerate approved work,
+change website assets or confer rights/physical-print clearance.
+
+---
+
 # 047 Dai Goes Live published and digitally verified — 7 October 2026
 
 Dan approved the latest gold-level-v8 glass experiment for card, book, GitHub and website publication. MAKERDAO / DAI GOES LIVE / Rare / 18 DEC 2017 / DAI IS NOW LIVE! / 047/100. Exact art SHA-256 `e144c21d3a83cf3f96b39ffb1822f7bc4848fafd96769dc15610cc3c95e93bd8` is preserved. Current master: `cards/crypto/season-01/dai-goes-live-master-047`. The original source package remains sealed; print files use the current HISTROVE folder and geometry.
