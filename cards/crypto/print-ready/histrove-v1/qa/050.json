@@ -93,7 +93,7 @@
       "font_size": "19"
     },
     "set-number": {
-      "text": "CRYPTO \u2022 SEASON 01 \u2022 050/100",
+      "text": "CRYPTO • SEASON 01 • 050/100",
       "right_edge": 361.375,
       "limit": 620,
       "font_size": "17"
@@ -101,7 +101,7 @@
   },
   "rarity_status": "APPROVED",
   "phrase_status": "APPROVED_EDITORIAL_WORDING",
-  "qr_destination_status": "PENDING_PUBLICATION_CHECK",
+  "qr_destination_status": "VERIFIED_HTTP_200",
   "publication_authorized": true,
   "print_release": false,
   "physical_sample_approval": false,
@@ -142,5 +142,7 @@
     "/Producer": "pypdf",
     "/Title": "HISTROVE 050 The Pineapple Fund",
     "/Subject": "Approved First Clear Water artwork, Common rarity and WEALTH INTO WATER. caption. Digital publication authorized 8 October 2026. Physical print release remains separate."
-  }
+  },
+  "qa_status": "PASS_DIGITAL_AND_LIVE_PUBLICATION",
+  "publication_verification": "publication-verification.json"
 }

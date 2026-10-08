@@ -1,0 +1,1270 @@
+{
+  "card": "050",
+  "status": "PUBLISHED_DIGITAL_VERIFIED",
+  "checked_at_utc": "2026-10-08T19:02:42.413968+00:00",
+  "base_commit": "ad904b57d45a9d76ff26ab22209728e027bd549a",
+  "verified_content_release_commit": "407c4183d0e58450185154efe2b4579d7b5d5fb7",
+  "asset_commit": "931591f44424bb70c5ed996901aac9ff6065b7da",
+  "deployment": {
+    "id": "dpl_6ySre39VDMQJBTQ9dssjVKFZsshs",
+    "state": "READY",
+    "target": "production",
+    "github_commit": "407c4183d0e58450185154efe2b4579d7b5d5fb7",
+    "production_alias": "lore-site-v1.vercel.app"
+  },
+  "live_qr_route": "https://lore-site-v1.vercel.app/crypto/050/",
+  "canonical_story": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+  "http_status": 200,
+  "github_status": "Vercel success",
+  "local_checks": {
+    "npm_test": "PASS",
+    "production_build": "PASS",
+    "search_checks": "PASS",
+    "buyer_preview_checks": "PASS",
+    "standalone_lint_or_typecheck": "NOT_CONFIGURED",
+    "active_year_regression": "PASS"
+  },
+  "counts": {
+    "numbered_cards": 50,
+    "unique_approved_designs": 52,
+    "clues": 212,
+    "book_previews": 100,
+    "packed_display_assets": 568,
+    "related_story_links": 120,
+    "current_print_download_hashes": 153,
+    "responsive_marker_positions": 1696
+  },
+  "preservation": {
+    "prior_registry_objects": 51,
+    "prior_numbered_cards": 49,
+    "prior_display_assets": 560,
+    "unrelated_baseline_git_blobs": 2700,
+    "all_preserved": true,
+    "four_style_reference_pack": "Preserved with exact existing provenance",
+    "existing_hero": "Birth of HODL retained",
+    "existing_discovery": "CryptoKitties retained",
+    "shop_count": "Existing archiveCards.length-derived implementation retained; now 50",
+    "narrow_details_grid": "Existing responsive fix retained"
+  },
+  "live_routes": [
+    {
+      "number": "001",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/blind-signatures",
+      "redirects": "2"
+    },
+    {
+      "number": "002",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cypherpunk-manifesto",
+      "redirects": "2"
+    },
+    {
+      "number": "003",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/hashcash",
+      "redirects": "2"
+    },
+    {
+      "number": "004",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/rpow",
+      "redirects": "2"
+    },
+    {
+      "number": "005",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-whitepaper",
+      "redirects": "2"
+    },
+    {
+      "number": "006",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/genesis-block",
+      "redirects": "2"
+    },
+    {
+      "number": "007",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-first-transfer",
+      "redirects": "2"
+    },
+    {
+      "number": "008",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/pizza-day",
+      "redirects": "2"
+    },
+    {
+      "number": "009",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-faucet",
+      "redirects": "2"
+    },
+    {
+      "number": "010",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-overflow",
+      "redirects": "2"
+    },
+    {
+      "number": "011",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/slush-pool",
+      "redirects": "2"
+    },
+    {
+      "number": "012",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+      "redirects": "2"
+    },
+    {
+      "number": "013",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+      "redirects": "2"
+    },
+    {
+      "number": "014",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/litecoin-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "015",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-first-halving",
+      "redirects": "2"
+    },
+    {
+      "number": "016",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/silk-road-shutdown",
+      "redirects": "2"
+    },
+    {
+      "number": "017",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cash-out",
+      "redirects": "2"
+    },
+    {
+      "number": "018",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/four-figures",
+      "redirects": "2"
+    },
+    {
+      "number": "019",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper",
+      "redirects": "2"
+    },
+    {
+      "number": "020",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/much-wow",
+      "redirects": "2"
+    },
+    {
+      "number": "021",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/birth-of-hodl",
+      "redirects": "2"
+    },
+    {
+      "number": "022",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+      "redirects": "2"
+    },
+    {
+      "number": "023",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/doge-goes-to-sochi",
+      "redirects": "2"
+    },
+    {
+      "number": "024",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/mt-gox",
+      "redirects": "2"
+    },
+    {
+      "number": "025",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/monero-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "026",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/quantum",
+      "redirects": "2"
+    },
+    {
+      "number": "027",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
+      "redirects": "2"
+    },
+    {
+      "number": "028",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+      "redirects": "2"
+    },
+    {
+      "number": "029",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+      "redirects": "2"
+    },
+    {
+      "number": "030",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-dollar-token",
+      "redirects": "2"
+    },
+    {
+      "number": "031",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/bitlicense",
+      "redirects": "2"
+    },
+    {
+      "number": "032",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+      "redirects": "2"
+    },
+    {
+      "number": "033",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+      "redirects": "2"
+    },
+    {
+      "number": "034",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-split",
+      "redirects": "2"
+    },
+    {
+      "number": "035",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+      "redirects": "2"
+    },
+    {
+      "number": "036",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+      "redirects": "2"
+    },
+    {
+      "number": "037",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+      "redirects": "2"
+    },
+    {
+      "number": "038",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cryptopunks",
+      "redirects": "2"
+    },
+    {
+      "number": "039",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+      "redirects": "2"
+    },
+    {
+      "number": "040",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/binance-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "041",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/bitcoin-cash-fork",
+      "redirects": "2"
+    },
+    {
+      "number": "042",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/segwit-activates",
+      "redirects": "2"
+    },
+    {
+      "number": "043",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/china-bans-icos",
+      "redirects": "2"
+    },
+    {
+      "number": "044",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-missing-cryptoqueen",
+      "redirects": "2"
+    },
+    {
+      "number": "045",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/bitconnect",
+      "redirects": "2"
+    },
+    {
+      "number": "046",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/cryptokitties",
+      "redirects": "2"
+    },
+    {
+      "number": "047",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+      "redirects": "2"
+    },
+    {
+      "number": "048",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+      "redirects": "2"
+    },
+    {
+      "number": "049",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/uniswap-launches",
+      "redirects": "2"
+    },
+    {
+      "number": "050",
+      "http": "200",
+      "url": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+      "redirects": "2"
+    }
+  ],
+  "original_downloads": [
+    {
+      "path": "cards/crypto/season-01/the-pineapple-fund-master-050/art.png",
+      "sha256": "816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192",
+      "verified": true
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-050-Front-Print-v1.png",
+      "sha256": "24d0e2b067c919a9ace629186a36d5c731e9fd2aab3b11fd40fb89c7d65ddbb0",
+      "verified": true
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-050-Front-Print-v1.pdf",
+      "sha256": "f31f039b84cac0b73d1d52f4add86c90ef8762933232783c517bff4b7a0f6970",
+      "verified": true
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-050-Front-Print-v1.svg",
+      "sha256": "2ea360f2f2a8656578a8367dc47d72f1f5af0e0e3d8ac268d18e99f6b80488c1",
+      "verified": true
+    },
+    {
+      "path": "book/crypto-season-01/histrove-v1/050-the-pineapple-fund-histrove-v1.pdf",
+      "sha256": "2a642e31d4beee485faea23a993255cd1093690d040fcdada8501d6ed1f57808",
+      "verified": true
+    },
+    {
+      "path": "book/crypto-season-01/histrove-v1/chapters/050-the-pineapple-fund.md",
+      "sha256": "0849d43bb33e547a7f2548a01dc1d0238d71ca4f0907b489e4bc3c164f1d7ee6",
+      "verified": true
+    }
+  ],
+  "live_display_assets": [
+    {
+      "path": "archive/050-histrove-border-card.webp",
+      "sha256": "eaf17a6f79bbd61f6c30d6524d892582ff53e0e021d53c038877692e704d2d97",
+      "verified": true
+    },
+    {
+      "path": "archive/050-art.webp",
+      "sha256": "2173ef1b09b541f42867475bad09ba2d0ca8b1cd673c0fb0a96ce83cbed5ad4e",
+      "verified": true
+    },
+    {
+      "path": "archive/050-histrove-page-1.webp",
+      "sha256": "5fd7add2ebe90cad8c258245e8b48f402156ccf8911d68bcbddaf3e3aa535161",
+      "verified": true
+    },
+    {
+      "path": "archive/050-histrove-page-2.webp",
+      "sha256": "06a77e8287fd7162369d30c95d3b1ca97fa83034df1aedfabd79009f6833c8d9",
+      "verified": true
+    },
+    {
+      "path": "closeups/050-01.webp",
+      "sha256": "28d1156b5323f4f9f6a3f1759e91ccae23be2d9fec0e5e10e760f9e833f0b5ca",
+      "verified": true
+    },
+    {
+      "path": "closeups/050-02.webp",
+      "sha256": "e8f6a14b1f3b223eca7a5dc2abba16b42c89684e6c7f05c7bd99990c283338c7",
+      "verified": true
+    },
+    {
+      "path": "closeups/050-03.webp",
+      "sha256": "035fad326dccbc7faad77d01d6b6d807cba459f5275c047b05965337d5a64293",
+      "verified": true
+    },
+    {
+      "path": "closeups/050-04.webp",
+      "sha256": "80af8c49d70fb3d0225608d584091e0af61e05494ccee360ba53b685a7a67b8e",
+      "verified": true
+    }
+  ],
+  "digital_qr_checks": [
+    {
+      "file": "original-1.png",
+      "payloads": [
+        "https://lore-site-v1.vercel.app/crypto/050/"
+      ],
+      "pass": true
+    },
+    {
+      "file": "downloaded-card-pdf.png",
+      "payloads": [
+        "https://lore-site-v1.vercel.app/crypto/050/"
+      ],
+      "pass": true
+    },
+    {
+      "file": "display-0.webp",
+      "payloads": [
+        "https://lore-site-v1.vercel.app/crypto/050/"
+      ],
+      "pass": true
+    }
+  ],
+  "all50_local_print_png_and_web_qr_checks": [
+    {
+      "number": "001",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "002",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "003",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "004",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "005",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "006",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "007",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "008",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "009",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "010",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "011",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "012",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "013",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "014",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "015",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "016",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "017",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "018",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "019",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "020",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "021",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "022",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "023",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "024",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "025",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "026",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "027",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "028",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "029",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "030",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "031",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "032",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "033",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "034",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "035",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "036",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "037",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "038",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "039",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "040",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "041",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "042",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "043",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "044",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "045",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "046",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "047",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "048",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "049",
+      "print_png": true,
+      "web_card": true
+    },
+    {
+      "number": "050",
+      "print_png": true,
+      "web_card": true
+    }
+  ],
+  "live_seo_and_related": [
+    {
+      "number": "001",
+      "slug": "blind-signatures",
+      "canonical": "https://lore-site-v1.vercel.app/cards/blind-signatures",
+      "title": "David Chaum’s Blind Signatures (1982) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "002",
+      "slug": "cypherpunk-manifesto",
+      "canonical": "https://lore-site-v1.vercel.app/cards/cypherpunk-manifesto",
+      "title": "Eric Hughes’ Cypherpunk Manifesto (1993) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "003",
+      "slug": "hashcash",
+      "canonical": "https://lore-site-v1.vercel.app/cards/hashcash",
+      "title": "Adam Back’s Hashcash Announcement (1997) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "004",
+      "slug": "rpow",
+      "canonical": "https://lore-site-v1.vercel.app/cards/rpow",
+      "title": "Hal Finney’s Reusable Proof of Work (2004) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "005",
+      "slug": "the-whitepaper",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-whitepaper",
+      "title": "The Bitcoin Whitepaper (2008) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "006",
+      "slug": "genesis-block",
+      "canonical": "https://lore-site-v1.vercel.app/cards/genesis-block",
+      "title": "Bitcoin’s Genesis Block (2009) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "007",
+      "slug": "the-first-transfer",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-first-transfer",
+      "title": "Bitcoin’s First Transfer to Hal Finney (2009) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "008",
+      "slug": "pizza-day",
+      "canonical": "https://lore-site-v1.vercel.app/cards/pizza-day",
+      "title": "Bitcoin Pizza Day (2010) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "009",
+      "slug": "the-faucet",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-faucet",
+      "title": "Gavin Andresen’s Bitcoin Faucet (2010) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "010",
+      "slug": "the-overflow",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-overflow",
+      "title": "Bitcoin’s Value Overflow Incident (2010) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "011",
+      "slug": "slush-pool",
+      "canonical": "https://lore-site-v1.vercel.app/cards/slush-pool",
+      "title": "Slush Pool and Cooperative Bitcoin Mining (2010) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "012",
+      "slug": "wikileaks-bitcoin",
+      "canonical": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+      "title": "WikiLeaks Accepts Bitcoin Donations (2011) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "013",
+      "slug": "casascius-coins",
+      "canonical": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+      "title": "Casascius Physical Bitcoins (2011) | HISTROVE",
+      "clues": 3,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "014",
+      "slug": "litecoin-launches",
+      "canonical": "https://lore-site-v1.vercel.app/cards/litecoin-launches",
+      "title": "Digital Silver: Litecoin’s Launch (2011) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "015",
+      "slug": "the-first-halving",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-first-halving",
+      "title": "Bitcoin’s First Halving (2012) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "016",
+      "slug": "silk-road-shutdown",
+      "canonical": "https://lore-site-v1.vercel.app/cards/silk-road-shutdown",
+      "title": "Silk Road’s Shutdown (2013) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "017",
+      "slug": "cash-out",
+      "canonical": "https://lore-site-v1.vercel.app/cards/cash-out",
+      "title": "Cash Out: Vancouver’s Bitcoin ATM (2013) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "018",
+      "slug": "four-figures",
+      "canonical": "https://lore-site-v1.vercel.app/cards/four-figures",
+      "title": "Four Figures: Bitcoin Reaches $1,000 on Mt. Gox | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "019",
+      "slug": "ethereum-whitepaper",
+      "canonical": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper",
+      "title": "Ethereum’s Early Whitepaper (2013) | HISTROVE",
+      "clues": 7,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "020",
+      "slug": "much-wow",
+      "canonical": "https://lore-site-v1.vercel.app/cards/much-wow",
+      "title": "Much Wow: Dogecoin’s Launch (2013) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "021",
+      "slug": "birth-of-hodl",
+      "canonical": "https://lore-site-v1.vercel.app/cards/birth-of-hodl",
+      "title": "The Birth of HODL (2013) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "023",
+      "slug": "doge-goes-to-sochi",
+      "canonical": "https://lore-site-v1.vercel.app/cards/doge-goes-to-sochi",
+      "title": "Doge Goes to Sochi: Jamaica’s Bobsleigh Fundraiser | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "024",
+      "slug": "mt-gox",
+      "canonical": "https://lore-site-v1.vercel.app/cards/mt-gox",
+      "title": "Mt. Gox’s Insolvency Filing (2014) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "025",
+      "slug": "monero-launches",
+      "canonical": "https://lore-site-v1.vercel.app/cards/monero-launches",
+      "title": "Monero’s Launch (2014) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "026",
+      "slug": "quantum",
+      "canonical": "https://lore-site-v1.vercel.app/cards/quantum",
+      "title": "Kevin McCoy’s Quantum and Digital Art (2014) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "027",
+      "slug": "the-bitcoin-auction",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
+      "title": "The US Marshals’ Bitcoin Auction (2014) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "022",
+      "slug": "buried-fortune",
+      "canonical": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+      "title": "Buried Fortune: James Howells’ Lost Bitcoin Drive | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "028",
+      "slug": "the-ether-sale",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+      "title": "Ethereum’s Ether Sale (2014) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "029",
+      "slug": "keys-in-your-pocket",
+      "canonical": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+      "title": "Keys in Your Pocket: Trezor’s Launch (2014) | HISTROVE",
+      "clues": 3,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "030",
+      "slug": "the-dollar-token",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-dollar-token",
+      "title": "The Dollar Token: Realcoin’s First Issuance (2014) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "031",
+      "slug": "bitlicense",
+      "canonical": "https://lore-site-v1.vercel.app/cards/bitlicense",
+      "title": "New York’s BitLicense Takes Effect (2015) | HISTROVE",
+      "clues": 3,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "032",
+      "slug": "ethereum-goes-live",
+      "canonical": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+      "title": "Ethereum’s Frontier Launch (2015) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "033",
+      "slug": "the-dao-hack",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+      "title": "The DAO Hack on Ethereum (2016) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "034",
+      "slug": "the-split",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-split",
+      "title": "The Split: Ethereum and Ethereum Classic (2016) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "035",
+      "slug": "the-bitfinex-heist",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+      "title": "The Bitfinex Bitcoin Heist (2016) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "036",
+      "slug": "rare-pepes",
+      "canonical": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+      "title": "Rare Pepes and Counterparty Collectibles (2016) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "037",
+      "slug": "the-zcash-ceremony",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+      "title": "The Zcash Trusted-Setup Ceremony (2016) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "038",
+      "slug": "cryptopunks",
+      "canonical": "https://lore-site-v1.vercel.app/cards/cryptopunks",
+      "title": "CryptoPunks by Larva Labs (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "039",
+      "slug": "behind-the-chair",
+      "canonical": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+      "title": "Behind the Chair: Bitcoin Sign Guy (2017) | HISTROVE",
+      "clues": 5,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "040",
+      "slug": "binance-launches",
+      "canonical": "https://lore-site-v1.vercel.app/cards/binance-launches",
+      "title": "Binance’s Exchange Launch (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "041",
+      "slug": "bitcoin-cash-fork",
+      "canonical": "https://lore-site-v1.vercel.app/cards/bitcoin-cash-fork",
+      "title": "The Bitcoin Cash Fork (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "042",
+      "slug": "segwit-activates",
+      "canonical": "https://lore-site-v1.vercel.app/cards/segwit-activates",
+      "title": "Bitcoin’s SegWit Activation (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "043",
+      "slug": "china-bans-icos",
+      "canonical": "https://lore-site-v1.vercel.app/cards/china-bans-icos",
+      "title": "China’s ICO Ban (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "044",
+      "slug": "the-missing-cryptoqueen",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-missing-cryptoqueen",
+      "title": "The Missing Cryptoqueen: Ruja Ignatova and OneCoin | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "045",
+      "slug": "bitconnect",
+      "canonical": "https://lore-site-v1.vercel.app/cards/bitconnect",
+      "title": "BitConnect’s Pattaya Ceremony (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "046",
+      "slug": "cryptokitties",
+      "canonical": "https://lore-site-v1.vercel.app/cards/cryptokitties",
+      "title": "CryptoKitties’ Ethereum Launch (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "047",
+      "slug": "dai-goes-live",
+      "canonical": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+      "title": "MakerDAO’s Dai Launch (2017) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 2,
+      "pass": true
+    },
+    {
+      "number": "048",
+      "slug": "lightning-goes-live",
+      "canonical": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+      "title": "Lightning’s First Mainnet Beta (2018) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "049",
+      "slug": "uniswap-launches",
+      "canonical": "https://lore-site-v1.vercel.app/cards/uniswap-launches",
+      "title": "Uniswap Launches on Ethereum (2018) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    },
+    {
+      "number": "050",
+      "slug": "the-pineapple-fund",
+      "canonical": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+      "title": "The Pineapple Fund: Bitcoin Giving (2018) | HISTROVE",
+      "clues": 4,
+      "book_previews": 2,
+      "related_story_links": 3,
+      "pass": true
+    }
+  ],
+  "browser_verification": {
+    "status": "passed_with_documented_limits",
+    "browser": "Cloud Chromium on Linux",
+    "checked_at_utc": "2026-10-08T19:02:28.133109+00:00",
+    "tested_content_commit": "407c4183d0e58450185154efe2b4579d7b5d5fb7",
+    "site": "https://lore-site-v1.vercel.app/",
+    "live_story": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+    "viewports": [
+      {
+        "name": "desktop",
+        "css_width": 1188,
+        "css_height": 761,
+        "device_pixel_ratio": 1,
+        "browser_zoom_percent": 100
+      },
+      {
+        "name": "narrow",
+        "css_width": 393,
+        "css_height": 507,
+        "device_pixel_ratio": 1.5,
+        "browser_zoom_percent": 150,
+        "method": "Ordinary cloud desktop window resize and browser zoom; no mobile or touch emulation"
+      }
+    ],
+    "passed_interactions": [
+      "At desktop and 393px widths, /crypto/050/ redirects to /cards/the-pineapple-fund and renders The Pineapple Fund, 2018, BITCOIN, COMMON and WEALTH INTO WATER. with the approved First Clear Water artwork.",
+      "At both widths, full artwork loads and each of the four numbered markers opens the correct Pine plaque, water test kit, Bitcoin case or impact notebook explanation and crop. Inspector focus entry and Return to artwork focus restoration were observed. Measured marker rectangles do not overlap; narrow markers are 44px square.",
+      "Artwork zoom and fit work at both widths. Desktop Find it in the full artwork opens the selected Bitcoin-case area in the zoomed illustration.",
+      "All four detail crops load at both widths. Next reaches each detail, Previous returns to the preceding one, and Next disables at detail four. Narrow All details restores focus to the selected grid button.",
+      "The 050 narrow Details grid, enlarged clues and All details return retain document client/scroll width 383/383px. All four narrow clue tracks measure 344.92px. Desktop retains two columns of 518.72px at document width 1173/1173px.",
+      "Both companion-book pages load. Desktop spread and page-two enlargement work. Narrow page-one/page-two selection, enlargement and fit work; Home, End and left-arrow wrapping select the expected reading tabs.",
+      "The collectible-card link opens a loaded 600x863 image with the complete HISTROVE framing, Common rarity, 2018 date, title, caption and QR area. All six original file links retrieve nonempty PNG/PDF/SVG/Markdown files through the browser file-link download API; all six downloaded byte sequences match the prepared release files.",
+      "At both widths, the direct 050 timeline link settles at the Pineapple entry in 2018 with 2018 active. The 2018 control and 050 collectible link reach the expected timeline section and reader.",
+      "At both widths, modal Close and Escape dismiss 050 and return focus to the Pineapple timeline link. Browser Forward reopens the correct reader; Back dismisses it and restores the timeline link focus.",
+      "All three related stories, Pizza Day, WikiLeaks Accepts Bitcoin and Lightning Goes Live, navigate to their correct routes at both widths, with settled browser Back returns to 050.",
+      "/crypto/049/ still redirects to /cards/uniswap-launches with its approved story artwork at both widths, and Next moment reaches 050. The 049 narrow Details grid, paired-reserves enlargement and All details return preserve 383/383px document width and selected-button focus.",
+      "Birth Of HODL hero and CryptoKitties discovery buttons open their correct stories at both widths. Shop navigation works at both widths.",
+      "The shop closing copy says Explore the first 50 moments at both widths. Pizza Day book preview opens with Book selected; Close, browser Forward and Back preserve the shop return point and preview-link focus at both widths.",
+      "No horizontal document overflow was found in sampled Story, Artwork, Details, enlarged clue, Book, timeline, modal, related-story or shop states. Zoomed artwork/book readers keep their intentional internal scrolling."
+    ],
+    "unresolved_new_defects": [],
+    "limitations": [
+      "Narrow coverage is a 393x507 CSS layout in desktop cloud Chromium at 150% zoom, not a physical mobile device or mobile/touch emulation. No Safari, Firefox or alternate-engine test.",
+      "The existing same-document hash-history scroll limitation recorded before this release was not changed or retested here. Back/Forward may change a timeline moment hash without scrolling to its corresponding position. The 050 direct anchor, 2018 controls and modal history were tested separately and pass.",
+      "No exhaustive accessibility audit, complete focus-trap traversal or backdrop-click dismissal test. Keyboard tabs and selected focus-entry/return paths were sampled.",
+      "No signup or purchase forms were submitted and no checkout flow was tested.",
+      "No physical print acceptance, phone-camera QR scan, rights clearance or full-resolution print reproduction assessment.",
+      "No exhaustive interaction sweep of all earlier stories. The requested 049, homepage discovery, related-story and shop regressions were sampled.",
+      "Download bytes were retrieved through the browser file-link download API; this is not a test of every browser save dialog or every external original-file viewer."
+    ]
+  },
+  "artwork_sha256": "816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192",
+  "native_art_verification": {
+    "source_bytes_verified": true,
+    "svg_embedded_art_bytes_equal_source": true,
+    "card_pdf_native_art_pixels_equal_source": true,
+    "book_pdf_native_art_pixels_equal_source": true,
+    "book_pages": 2,
+    "caption": "WEALTH INTO WATER."
+  },
+  "approved_editorial_caption": "WEALTH INTO WATER.",
+  "card_artwork_transform": "MASTER_DEFAULT_NO_ADDITIONAL_REFRAME",
+  "book_native_effective_ppi": 128.2095238095238,
+  "book_resolution_review": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+  "physical_print_release": false,
+  "physical_phone_camera_qr_test": false,
+  "rights_clearance": false,
+  "github_check_runs": 0
+}

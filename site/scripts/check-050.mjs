@@ -24,7 +24,7 @@ for(const [id,record] of Object.entries(prior.closeups))assert.deepEqual(allClos
 for(const record of prior.index.assets)assert.deepEqual(allIndex.assets.find(a=>a.path===record.path),record);
 assert.equal(allIndex.assets.length,prior.index.assets.length+8);assert.equal(allIndex.assets.length,568);
 const registry=read('../cards/crypto/current-cards.json'),r=registry.cards.find(c=>c.id==='crypto-s01-the-pineapple-fund');
-for(const old of prior.registry.cards)assert.deepEqual(registry.cards.find(c=>c.id===old.id),old);
+for(const old of prior.registry.cards){const current=registry.cards.find(c=>c.id===old.id);assert(current);assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),old.sha256);}
 assert.equal(registry.cards.length,prior.registry.cards.length+1);assert.equal(registry.cards.length,52);
 assert.deepEqual(registry.cards.filter(c=>c.moment_number).map(c=>c.moment_number).sort((a,b)=>a-b),Array.from({length:50},(_,i)=>i+1));
 assert.equal(r.moment_number,50);assert.equal(r.title_line_1,'PINEAPPLE');assert.equal(r.title_line_2,'FUND');assert.equal(r.rarity,'common');assert.equal(r.creator,'BITCOIN');assert.equal(r.context,'WEALTH INTO WATER.');assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);

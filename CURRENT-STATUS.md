@@ -1,12 +1,12 @@
-# 050 The Pineapple Fund approved digital publication — 8 October 2026
+# 050 The Pineapple Fund published and digitally verified — 8 October 2026
 
 The approved First Clear Water artwork and exact master-default card framing are preserved. BITCOIN / PINEAPPLE FUND / Common / 2018 / WEALTH INTO WATER. / 050/100. The caption is original editorial wording. Source artwork SHA-256: `816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192`. Current master: `cards/crypto/season-01/the-pineapple-fund-master-050`.
 
 Stable QR: https://lore-site-v1.vercel.app/crypto/050/ → `/cards/the-pineapple-fund`. Card, two-page A4 book and website share five story paragraphs, two primary sources and four exact-art clues: the PINE plaque, water test kit, Bitcoin case and later impact notebook. The campaign began in late 2017 and continued in 2018. The Water Project’s US$1 million Bitcoin gift and later 37-project account are distinguished from the campaign year; the notebook’s 2019 date marks later context. People, village and plaque are fictional representative imagery. No charity endorsement is implied.
 
-Local publication checks cover 50 numbered cards, 52 unique approved designs including two archived unnumbered designs, 212 clues, 100 book previews, 568 packed display assets and 120 related-story links. All 51 prior registry objects and 560 prior display assets are retained. HODL hero, CryptoKitties discovery, dynamic shop count, narrow clue-grid correction and the four-reference art-style pack remain unchanged.
+Publication checks cover 50 numbered cards, 52 unique approved designs including two archived unnumbered designs, 212 clues, 100 book previews, 568 packed display assets and 120 related-story links. All 51 prior registry objects and 560 prior display assets are retained. HODL hero, CryptoKitties discovery, dynamic shop count, narrow clue-grid correction and the four-reference art-style pack remain unchanged.
 
-Live verification is pending until the publication verification record is finalized. Native book art remains 128.21 effective PPI in the unchanged A4 layout, with resolution review deferred to the final collection review. Physical printer/sample acceptance, camera QR tests and rights clearance remain separate and are not claimed.
+Content release `407c4183d0e58450185154efe2b4579d7b5d5fb7` is verified on GitHub main and production deployment `dpl_6ySre39VDMQJBTQ9dssjVKFZsshs` is READY. All 50 live QR routes, eight new display hashes, six original-download hashes, embedded artwork pixels and PNG/PDF/web-card QR decoding pass. Browser coverage and limits are recorded in the master’s publication-verification.json. Original downloads are pinned to asset commit `931591f44424bb70c5ed996901aac9ff6065b7da`. Native book art remains 128.21 effective PPI in the unchanged A4 layout, with resolution review deferred to the final collection review. Physical printer/sample acceptance, camera QR tests and rights clearance remain separate and are not claimed.
 
 ---
 
