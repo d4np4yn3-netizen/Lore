@@ -32,6 +32,8 @@ for (const [slug, data] of Object.entries(search)) {
   assert(actions.indexOf('Explore booster packs') < actions.indexOf('Explore the full art'));
   assert.equal(tags(actions, 'a').length, 1);
   assert(!html.includes('story-shop-note'), slug + ': no duplicate below-story CTA');
+  assert(!html.includes('↗'), slug + ': no system/emoji link arrows');
+  assert(html.includes('class="link-icon"'), slug + ': outline SVG link icons');
   assert.equal(meta(html, 'og:type'), 'article');
   assert.equal(meta(html, 'twitter:image'), origin + media[slug].artwork.src);
   assert.equal(meta(html, 'og:image'), origin + media[slug].artwork.src);
