@@ -8,6 +8,7 @@ export default function ShopBookPreview({ card }) {
   const [open, setOpen] = useState(false);
   const trigger = useRef(null);
   const returnPoint = useRef(null);
+  const hasOpened = useRef(false);
   useEffect(() => {
     const sync = () => setOpen(window.location.hash === '#book-preview');
     sync();
@@ -31,8 +32,10 @@ export default function ShopBookPreview({ card }) {
     }
   }
   useEffect(() => {
-    if (open || returnPoint.current === null) return;
-    window.scrollTo({ top: returnPoint.current, behavior: 'instant' });
+    if (open) { hasOpened.current = true; return; }
+    if (!hasOpened.current) return;
+    if (returnPoint.current !== null) window.scrollTo({ top: returnPoint.current, behavior: 'instant' });
+    else document.getElementById('companion-book')?.scrollIntoView({ behavior: 'instant', block: 'start' });
     trigger.current?.focus({ preventScroll: true });
   }, [open]);
   return <>
