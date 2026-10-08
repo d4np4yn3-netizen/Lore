@@ -1,3 +1,9 @@
+# Latest publication: 049 Uniswap Launches
+
+The approved 049 card and two-page book are prepared with LIQUIDITY, PAIRED. and exact v9 art. See [current status](CURRENT-STATUS.md) and [049 technical records](cards/crypto/season-01/uniswap-launches-master-049/README.md). Stable story route: https://lore-site-v1.vercel.app/crypto/049/. Local counts: 49 numbered cards, 208 clues and 98 book previews. Live verification is recorded separately in the card master.
+
+---
+
 # HISTROVE — current brand and printer files
 
 The current identity is HISTROVE / History Worth Holding. [Approved printer files](cards/crypto/print-ready/histrove-v1) · [Future templates](cards/crypto/master/histrove-print-v1) · [Brand pack](brand) · [Historical LORE brand](archive/brand) · [Historical print archive](archive/print). Physical printer/sample acceptance remains separate. Website content and branding are not changed by this repository release.

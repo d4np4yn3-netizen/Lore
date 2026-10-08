@@ -1,3 +1,15 @@
+# 049 Uniswap Launches approved digital publication — 8 October 2026
+
+The approved unicorn v9 artwork and fixed 1.12× centered artwork-only card crop are preserved. ETHEREUM / UNISWAP LAUNCHES / Legendary / 02 NOV 2018 / LIQUIDITY, PAIRED. / 049/100. The caption is original editorial wording, not a historical quotation. Source artwork SHA-256: `80a69feb4ecdadc0baa9e5bb38a23f359bba0d78e1984b5aa1eb22fa2433aea1`. Current master: `cards/crypto/season-01/uniswap-launches-master-049`; exact files use `cards/crypto/print-ready/histrove-v1` and `book/crypto-season-01/histrove-v1`.
+
+Stable QR: https://lore-site-v1.vercel.app/crypto/049/ → `/cards/uniswap-launches`. The book and site share five story paragraphs, five primary sources and four clues: paired ETH/ERC20 reserves, constant-product plate, V1 badge and launch date. The two chambers are the reserves of one illustrated pool. The unicorn and exchange engine are original allegory. UNI arrived in 2020; the constant-product inscription is a simplified swap relation, and fees or liquidity changes affect the reserve product.
+
+Local publication checks confirm 49 numbered cards, 51 unique approved designs including two archived unnumbered designs, 208 clues, 98 book previews, 560 packed display assets and 117 related-story links. All 50 prior registry objects and 552 prior display assets are retained. HODL and CryptoKitties discovery, shop, Pizza book preview, earlier stories and SEO remain covered by regression checks. The preceding 14-file four-reference-pack update is preserved; no generation provenance is retroactively changed.
+
+Live verification is pending until the publication verification record is finalized. Native book art remains 128.21 effective PPI in the unchanged A4 layout; its resolution review is deferred to the final collection review. Physical printer/sample acceptance, camera QR tests and rights clearance are separate and are not claimed.
+
+---
+
 # Crypto style reference pack updated — 8 October 2026
 
 The current [Crypto reference pack](cards/crypto/ART-STYLE.md), revision
