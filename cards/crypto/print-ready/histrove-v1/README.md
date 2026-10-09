@@ -1,3 +1,11 @@
+# Current numbered collection — 9 October 2026
+
+The manifest now includes 52 HISTROVE fronts, numbered 001–052, with corresponding PNG, PDF and SVG files and the unchanged shared back. Card 051 uses the final centred Lightning Torch illustration with a corrected +10,000 SATS engraving. The fixed geometry remains 816 × 1110 at 300 DPI, trim 744 × 1038 and safe 684 × 981. Physical printer acceptance remains separate.
+
+See [manifest.json](manifest.json) and the [current card registry](../../current-cards.json) for authoritative files, hashes and digital-publication status. The original 39-card branding rollout record follows as historical context.
+
+---
+
 # HISTROVE approved print files
 
 Current print revision: **HISTROVE-CRYPTO-PRINT-v1.0**, approved by Dan Payne on 6 October 2026. These files supersede the LORE v1.2 print derivatives. The original illustration bytes, wording, typography, QR data and framing remain unchanged; only the approved brand layer changes.

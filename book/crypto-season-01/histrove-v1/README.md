@@ -1,3 +1,11 @@
+# Current book collection — 9 October 2026
+
+The [manifest](manifest.json) now contains 52 numbered chapters and two-page PDFs, 001–052. Lightning Torch 051 is inserted before QuadrigaCX 052. Its narrative, four exact-art details and source links match the website. The unchanged A4 layout embeds native 1060 × 1484 artwork at 128.21 effective PPI; final resolution review remains deferred.
+
+Earlier branding and layout records follow as historical context.
+
+---
+
 # HISTROVE Crypto Season One book revision
 
 Current branded online-book derivatives, 6 October 2026. The 39 historical two-page proofs remain intact under `../proofs/`; this revision adds separate PDFs and page previews. The original artwork, history, clues, source links and page dimensions are preserved. This is not a physical book reproduction or printer approval.

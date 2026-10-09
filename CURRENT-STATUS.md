@@ -1,3 +1,13 @@
+# 051 Lightning Torch release prepared — 9 October 2026
+
+The approved centred Portofino composition now has a clear +10,000 SATS engraving. BITCOIN / LIGHTNING TORCH / Common / 19 JAN 2019 / PASS IT ON. Final artwork SHA-256: `0451d34936796252c7a1f01675597fbb88bd855b15195bc7171021578db5581e`. Current master: `cards/crypto/season-01/lightning-torch-master-051`.
+
+The release inserts 051 between 050 and 052, closing the numbering gap. The prepared collection has 52 numbered cards, 220 clues, 104 book previews, 584 display assets and 126 related-story links. Existing card objects, 052, marketing files, branding, SEO and shop remain preserved. Book and site share five paragraphs, two primary sources and four visible-art clues. The requested 10,000-satoshi additions are distinguished from actual exceptions; the harbour and boat are fictional metaphorical imagery.
+
+Exact card/PDF/web QR checks, unchanged print geometry, native book pixels, deterministic book rebuild and all local site tests/build pass. Immutable originals are pinned to asset commit `ad1d48395aeddbb1b3077fac42b6f943e7206b87`. GitHub main publication and live deployment verification are pending. Native A4 artwork remains 128.21 effective PPI with final resolution review deferred. Physical printing and rights review remain separate.
+
+---
+
 # 052 QuadrigaCX published and digitally verified — 9 October 2026
 
 The approved hidden-note artwork and final logo-clearance framing are preserved. EXCHANGES / QUADRIGACX / Common / JAN–APR 2019 / BALANCES WITHOUT BACKING. / 052/100. The caption is original editorial wording. Final artwork SHA-256: `52cd74fb1de6fab8379e3a8b2f94002d38f769faa407b29702b582e1d37fa08e`. Current master: `cards/crypto/season-01/quadrigacx-master-052`.

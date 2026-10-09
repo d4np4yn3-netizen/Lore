@@ -680,6 +680,38 @@
       ]
     },
     {
+      "number": "022",
+      "slug": "buried-fortune",
+      "oldPdf": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf",
+      "sourcePdf": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf",
+      "sourceSHA256": "e7f10367130c3ab925f7cd6af40a546961ff814e07350ebb0fd768b68926cb08",
+      "newPdf": "book/crypto-season-01/histrove-v1/022-buried-fortune-histrove-v1.pdf",
+      "pdfSHA256": "73eee248b404d95c4df5392feb3a6e96440e90453083eda776528a1b0449292d",
+      "pdfBytes": 4461457,
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/022-buried-fortune.md",
+      "chapterSHA256": "2f80d9436d60e311895e7984ab45b448a294de98c398a229ef0774e7352ec4a2",
+      "pages": [
+        {
+          "old": "/archive/022-page-1.webp",
+          "new": "/archive/022-histrove-page-1.webp",
+          "file": "site/public/archive/022-histrove-page-1.webp",
+          "width": 778,
+          "height": 1100,
+          "sha256": "aba5e76b62c1ddebafb793df9cf62cd1f7be3cda7f8b7cb6d7c723f5bbd3b1cf",
+          "unchangedBytes": true
+        },
+        {
+          "old": "/archive/022-page-2.webp",
+          "new": "/archive/022-histrove-page-2.webp",
+          "file": "site/public/archive/022-histrove-page-2.webp",
+          "width": 778,
+          "height": 1100,
+          "sha256": "d58e9434d891b65b14db76841b3814853126672ba100ba229cbdda37166c6078",
+          "unchangedBytes": false
+        }
+      ]
+    },
+    {
       "number": "023",
       "slug": "doge-goes-to-sochi",
       "oldPdf": "book/crypto-season-01/proofs/023-doge-goes-to-sochi-full-art-spread-v1.pdf?v=0280e9c866e9",
@@ -835,38 +867,6 @@
           "width": 778,
           "height": 1100,
           "sha256": "6d4b3229af08b648095a064b131fed95763ecf331ae9831b25205ca29c162140",
-          "unchangedBytes": false
-        }
-      ]
-    },
-    {
-      "number": "022",
-      "slug": "buried-fortune",
-      "oldPdf": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf",
-      "sourcePdf": "book/crypto-season-01/proofs/022-buried-fortune-full-art-spread-v1.pdf",
-      "sourceSHA256": "e7f10367130c3ab925f7cd6af40a546961ff814e07350ebb0fd768b68926cb08",
-      "newPdf": "book/crypto-season-01/histrove-v1/022-buried-fortune-histrove-v1.pdf",
-      "pdfSHA256": "73eee248b404d95c4df5392feb3a6e96440e90453083eda776528a1b0449292d",
-      "pdfBytes": 4461457,
-      "chapter": "book/crypto-season-01/histrove-v1/chapters/022-buried-fortune.md",
-      "chapterSHA256": "2f80d9436d60e311895e7984ab45b448a294de98c398a229ef0774e7352ec4a2",
-      "pages": [
-        {
-          "old": "/archive/022-page-1.webp",
-          "new": "/archive/022-histrove-page-1.webp",
-          "file": "site/public/archive/022-histrove-page-1.webp",
-          "width": 778,
-          "height": 1100,
-          "sha256": "aba5e76b62c1ddebafb793df9cf62cd1f7be3cda7f8b7cb6d7c723f5bbd3b1cf",
-          "unchangedBytes": true
-        },
-        {
-          "old": "/archive/022-page-2.webp",
-          "new": "/archive/022-histrove-page-2.webp",
-          "file": "site/public/archive/022-histrove-page-2.webp",
-          "width": 778,
-          "height": 1100,
-          "sha256": "d58e9434d891b65b14db76841b3814853126672ba100ba229cbdda37166c6078",
           "unchangedBytes": false
         }
       ]
@@ -1528,6 +1528,31 @@
           "width": 778,
           "height": 1100,
           "sha256": "06a77e8287fd7162369d30c95d3b1ca97fa83034df1aedfabd79009f6833c8d9"
+        }
+      ]
+    },
+    {
+      "number": "051",
+      "slug": "lightning-torch",
+      "newPdf": "book/crypto-season-01/histrove-v1/051-lightning-torch-histrove-v1.pdf",
+      "pdfSHA256": "0a0637665045c99b9eaf655510f8156ef3f855fdb546293133354ba5128af698",
+      "pdfBytes": 4484745,
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/051-lightning-torch.md",
+      "chapterSHA256": "b20893f9129cec4313ade016f868f83f5b8fd03711d6abefb850010bf4f7b82e",
+      "pages": [
+        {
+          "new": "/archive/051-histrove-page-1.webp",
+          "file": "site/public/archive/051-histrove-page-1.webp",
+          "width": 778,
+          "height": 1100,
+          "sha256": "c065fb4612410a4acb64c30c26b2a0c9e4fe960cc1aed7c666dd6d2ebcfe4dee"
+        },
+        {
+          "new": "/archive/051-histrove-page-2.webp",
+          "file": "site/public/archive/051-histrove-page-2.webp",
+          "width": 778,
+          "height": 1100,
+          "sha256": "c84ce69aaa89c1345fd2e4cf18d56aa29d03176ce0a8cedfbfa03c10e871d5f5"
         }
       ]
     },

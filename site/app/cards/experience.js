@@ -18,7 +18,7 @@ export const yearNotes = {
   2014: ['A much wider world.', 'Community, privacy, art and hard lessons.'],
   2015: ['A network and its rules.', 'New York regulates virtual-currency businesses as Ethereum’s Frontier goes live.'],
   2016: ['Security, splits and collecting.', 'The DAO exploit, Ethereum split and Bitfinex theft test security and trust, Rare Pepes bring meme collecting onto Bitcoin, and Zcash prepares its trusted setup.'],
-  2019: ['Trust meets its reckoning.', 'QuadrigaCX exposes the gulf between account balances and assets under opaque custody.'],
+  2019: ['Trust travels, and is tested.', 'The Lightning Torch turns payments into a global relay, while QuadrigaCX exposes the gulf between account balances and backing.'],
   2018: ['Payments, exchange and giving.', 'Lightning Labs and Uniswap open new possibilities for payments and exchange, while the Pineapple Fund turns Bitcoin wealth into charitable work.'],
   2017: ['New venues and separate paths.', 'CryptoPunks give digital collecting a face, a yellow sign reaches a congressional hearing, Binance launches, and Bitcoin Cash splits from Bitcoin.'],
 };

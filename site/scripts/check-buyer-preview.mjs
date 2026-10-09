@@ -5,7 +5,8 @@ const root = path.resolve(import.meta.dirname, '..');
 const read = p => fs.readFileSync(path.join(root, p), 'utf8');
 const context = JSON.parse(read('app/cards/story-context.json'));
 const metadata = JSON.parse(read('app/cards/search-metadata.json'));
-const slugs = Object.keys(metadata);
+const slugs = [...read('app/cards/data.js').matchAll(/\{\s*slug:\s*['"]([^'"]+)['"]/g)].map(match=>match[1]);
+assert.deepEqual(Object.keys(metadata).sort(),slugs.toSorted());
 const decode = s => s.replace(/&amp;/g,'&').replace(/&#x27;/g,"'").replace(/&quot;/g,'"');
 assert.deepEqual(Object.keys(context).sort(), slugs.toSorted());
 let links = 0, leads = 0;
@@ -60,4 +61,4 @@ assert(shop.replace(/<!--.*?-->/g,'').includes(`Explore the first ${slugs.length
 assert(!/<a class="retail-cta" href="#launch-details"/.test(shop));
 assert.equal((shop.match(/class="retail-cta"/g)||[]).length,2);
 assert(!shop.includes('<form'));
-console.log(`PASS: slogan retained, honest two-product journey, compact closed signup, About/editorial context, ${leads} additive leads and ${links} contextual story links across 50 narratives with all 49 earlier narratives unchanged`);
+console.log(`PASS: slogan retained, honest two-product journey, compact closed signup, About/editorial context, ${leads} additive leads and ${links} contextual story links across ${slugs.length} narratives with earlier narratives preserved`);
