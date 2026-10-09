@@ -1,3 +1,15 @@
+# 052 QuadrigaCX published and digitally verified — 9 October 2026
+
+The approved hidden-note artwork and final logo-clearance framing are preserved. EXCHANGES / QUADRIGACX / Common / JAN–APR 2019 / BALANCES WITHOUT BACKING. / 052/100. The caption is original editorial wording. Final artwork SHA-256: `52cd74fb1de6fab8379e3a8b2f94002d38f769faa407b29702b582e1d37fa08e`. Current master: `cards/crypto/season-01/quadrigacx-master-052`.
+
+Stable QR: https://lore-site-v1.vercel.app/crypto/052/ → `/cards/quadrigacx`. Card, two-page A4 book and website use the same final artwork. Five story paragraphs, three primary sources and four exact-art clues distinguish displayed balances from backing, C$215 million liabilities, customers' claims and the hidden access-note motif. The OSC account is attributed to staff, not adjudicated findings. The archive, customer, torn paper and hidden note are allegorical; no discovered usable key or actual destruction of records is asserted.
+
+The published numbered collection has 51 cards: 001–050 plus 052. Card 051 remains unpublished. There are 216 clues, 102 book previews, 576 display assets and 123 related-story links. All 52 prior registry objects, 568 prior display assets and the preceding marketing updates are preserved.
+
+Content release `a0784bc581fda7577bee23d9c80c596be6cbb30a` is on main and production deployment `dpl_2LtAj2ZdXmB6J9n7c11Ae9NEBtjZ` is READY. Original downloads are pinned to asset commit `065785c4f7dfd38956f7171d7b336cd3efe85abe`. Live route, asset and original-download checks, QR decoding and browser evidence are recorded in the master's publication-verification.json. Native book art remains 128.21 effective PPI in the unchanged A4 layout, with resolution review deferred to final collection review. Physical printer/sample acceptance, camera QR testing and commercial rights review are separate and not claimed.
+
+---
+
 # 050 The Pineapple Fund published and digitally verified — 8 October 2026
 
 The approved First Clear Water artwork and exact master-default card framing are preserved. BITCOIN / PINEAPPLE FUND / Common / 2018 / WEALTH INTO WATER. / 050/100. The caption is original editorial wording. Source artwork SHA-256: `816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192`. Current master: `cards/crypto/season-01/the-pineapple-fund-master-050`.

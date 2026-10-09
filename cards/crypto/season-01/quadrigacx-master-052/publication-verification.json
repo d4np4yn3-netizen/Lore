@@ -1,0 +1,3063 @@
+{
+  "checked_date": "2026-10-09",
+  "content_commit": "a0784bc581fda7577bee23d9c80c596be6cbb30a",
+  "asset_commit": "065785c4f7dfd38956f7171d7b336cd3efe85abe",
+  "production_deployment": "dpl_2LtAj2ZdXmB6J9n7c11Ae9NEBtjZ",
+  "production_state": "READY",
+  "url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+  "http": {
+    "state": "passed",
+    "checked_at": "2026-10-09T05:43:46.461085+00:00",
+    "base_url": "https://lore-site-v1.vercel.app",
+    "expected_publication_commit": "a0784bc581fda7577bee23d9c80c596be6cbb30a",
+    "immutable_asset_commit": "065785c4f7dfd38956f7171d7b336cd3efe85abe",
+    "verification_scope": "Read-only HTTP; browser interaction QA handled separately. Commit association supplied by publisher; production content and asset identity independently checked here.",
+    "availability": [
+      {
+        "checked_at": "2026-10-09T05:41:55.299419+00:00",
+        "url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "status": 404,
+        "final_url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "redirects": [],
+        "bytes": 12344,
+        "sha256": "ba657ad1f39f536ce1f5ebc9cdaafd6926ce7995fc52711b74c9014cde373f6c",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::iad1::4d5gs-1791524515257-46be77391b20",
+        "x_vercel_cache": "HIT",
+        "seconds": 6.296
+      },
+      {
+        "checked_at": "2026-10-09T05:42:19.477696+00:00",
+        "url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "redirects": [],
+        "bytes": 67182,
+        "sha256": "408c809bfd40d40a090d09a5d7246a37737156829d0d286183771e49f8cb40f4",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::glxq5-1791524538931-84c4d0003316",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.177
+      }
+    ],
+    "canonical_routes": [
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/blind-signatures",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/blind-signatures",
+        "redirects": [],
+        "bytes": 60383,
+        "sha256": "9f17d0eab90c385248a7aff2d17902fbd89149b0bd5a4a141b21318a62bb146d",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::srnkm-1791524543949-69a646ae3601",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.898,
+        "number": "001",
+        "slug": "blind-signatures",
+        "h1": "Blind Signatures",
+        "canonical": "https://lore-site-v1.vercel.app/cards/blind-signatures",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/cypherpunk-manifesto",
+            "text": "Next moment Cypherpunk Manifesto"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/cypherpunk-manifesto"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/cypherpunk-manifesto",
+            "text": "9 MAR 1993 Cypherpunk Manifesto Follow the argument for privacy from cryptography into a manifesto Read the story"
+          },
+          {
+            "href": "/cards/monero-launches",
+            "text": "18 APR 2014 Monero Launches Compare a later approach to privacy in everyday payments Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/cypherpunk-manifesto",
+          "/cards/monero-launches"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/cypherpunk-manifesto",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/cypherpunk-manifesto",
+        "redirects": [],
+        "bytes": 65186,
+        "sha256": "9bf624c3f6c77a89f012758a5dcea71fa60e0d053737864679a95656d6a7f974",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::pqxsb-1791524543959-8574cfc8eb2d",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.92,
+        "number": "002",
+        "slug": "cypherpunk-manifesto",
+        "h1": "Cypherpunk Manifesto",
+        "canonical": "https://lore-site-v1.vercel.app/cards/cypherpunk-manifesto",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/blind-signatures",
+            "text": "Previous moment Blind Signatures"
+          },
+          {
+            "href": "/cards/hashcash",
+            "text": "Next moment Hashcash Postage"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/blind-signatures",
+          "/cards/hashcash"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/blind-signatures",
+            "text": "1982 Blind Signatures Read the earlier privacy work referenced in the manifesto illustration Read the story"
+          },
+          {
+            "href": "/cards/rpow",
+            "text": "15 AUG 2004 RPOW \u2014 Reusable Proof Of Work Explore a later cypherpunk experiment in reusable digital value Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/blind-signatures",
+          "/cards/rpow"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/hashcash",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/hashcash",
+        "redirects": [],
+        "bytes": 70871,
+        "sha256": "6afd742af2c78aace404b8ee81b5f565f918e491019944674f521eebac0428b6",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::2gfgw-1791524543985-d8a4e9e57217",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.885,
+        "number": "003",
+        "slug": "hashcash",
+        "h1": "Hashcash Postage",
+        "canonical": "https://lore-site-v1.vercel.app/cards/hashcash",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/cypherpunk-manifesto",
+            "text": "Previous moment Cypherpunk Manifesto"
+          },
+          {
+            "href": "/cards/rpow",
+            "text": "Next moment RPOW \u2014 Reusable Proof Of Work"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/cypherpunk-manifesto",
+          "/cards/rpow"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/rpow",
+            "text": "15 AUG 2004 RPOW \u2014 Reusable Proof Of Work See how RPOW extended Hashcash into reusable digital value Read the story"
+          },
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "31 OCT 2008 The Whitepaper Follow Hashcash into Bitcoin\u2019s cited proof-of-work model Read the story"
+          },
+          {
+            "href": "/cards/litecoin-launches",
+            "text": "13 OCT 2011 Digital Silver Compare a later choice of proof-of-work algorithm Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/rpow",
+          "/cards/the-whitepaper",
+          "/cards/litecoin-launches"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/rpow",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/rpow",
+        "redirects": [],
+        "bytes": 70617,
+        "sha256": "5008651965a9b0058c5bd5a92ddeff3720be69de226154997d25150c4b838070",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::6xmzn-1791524543949-50833e76b9b8",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.973,
+        "number": "004",
+        "slug": "rpow",
+        "h1": "RPOW \u2014 Reusable Proof Of Work",
+        "canonical": "https://lore-site-v1.vercel.app/cards/rpow",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/hashcash",
+            "text": "Previous moment Hashcash Postage"
+          },
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "Next moment The Whitepaper"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/hashcash",
+          "/cards/the-whitepaper"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/hashcash",
+            "text": "28 MAR 1997 Hashcash Postage Start with the proof-of-work tokens RPOW accepted Read the story"
+          },
+          {
+            "href": "/cards/the-first-transfer",
+            "text": "12 JAN 2009 The First Transfer Continue Finney\u2019s story with Bitcoin\u2019s first person-to-person test Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/hashcash",
+          "/cards/the-first-transfer"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-whitepaper",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-whitepaper",
+        "redirects": [],
+        "bytes": 67389,
+        "sha256": "ee95660e53a29125ecf12abea9b7ec3fddcdddfaf85fc41e93b9de3781374bf4",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::wj5cf-1791524543925-f3f7deebe2cf",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.918,
+        "number": "005",
+        "slug": "the-whitepaper",
+        "h1": "The Whitepaper",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-whitepaper",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/rpow",
+            "text": "Previous moment RPOW \u2014 Reusable Proof Of Work"
+          },
+          {
+            "href": "/cards/genesis-block",
+            "text": "Next moment Genesis Block"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/rpow",
+          "/cards/genesis-block"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/hashcash",
+            "text": "28 MAR 1997 Hashcash Postage Explore a proof-of-work predecessor named in the paper Read the story"
+          },
+          {
+            "href": "/cards/genesis-block",
+            "text": "03 JAN 2009 Genesis Block Follow the proposal to Bitcoin\u2019s first block Read the story"
+          },
+          {
+            "href": "/cards/ethereum-whitepaper",
+            "text": "27 NOV 2013 Ethereum Whitepaper Compare a later proposal for a programmable blockchain Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/hashcash",
+          "/cards/genesis-block",
+          "/cards/ethereum-whitepaper"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/genesis-block",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/genesis-block",
+        "redirects": [],
+        "bytes": 65838,
+        "sha256": "8534e6e0869bf50adde44a476d97315789590901490dec8c5414f49775a1b363",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::fxlk5-1791524543919-ff55f3eb8251",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.911,
+        "number": "006",
+        "slug": "genesis-block",
+        "h1": "Genesis Block",
+        "canonical": "https://lore-site-v1.vercel.app/cards/genesis-block",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "Previous moment The Whitepaper"
+          },
+          {
+            "href": "/cards/the-first-transfer",
+            "text": "Next moment The First Transfer"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-whitepaper",
+          "/cards/the-first-transfer"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "31 OCT 2008 The Whitepaper Read the proposal that preceded the first block Read the story"
+          },
+          {
+            "href": "/cards/the-first-transfer",
+            "text": "12 JAN 2009 The First Transfer See the network carry a transfer between two people Read the story"
+          },
+          {
+            "href": "/cards/the-first-halving",
+            "text": "28 NOV 2012 The First Halving Follow Bitcoin\u2019s scheduled issuance to its first halving Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-whitepaper",
+          "/cards/the-first-transfer",
+          "/cards/the-first-halving"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-first-transfer",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-first-transfer",
+        "redirects": [],
+        "bytes": 68695,
+        "sha256": "cec9a5dca1e48cc021d02750a4980e08a0f326462363b102a8bb8154e0701c42",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::vvbdp-1791524543975-c59cc4f99672",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.888,
+        "number": "007",
+        "slug": "the-first-transfer",
+        "h1": "The First Transfer",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-first-transfer",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/genesis-block",
+            "text": "Previous moment Genesis Block"
+          },
+          {
+            "href": "/cards/pizza-day",
+            "text": "Next moment Pizza Day"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/genesis-block",
+          "/cards/pizza-day"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/rpow",
+            "text": "15 AUG 2004 RPOW \u2014 Reusable Proof Of Work Meet Hal Finney through his earlier digital-value experiment Read the story"
+          },
+          {
+            "href": "/cards/pizza-day",
+            "text": "22 MAY 2010 Pizza Day Follow a test transfer with a real-world exchange Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/rpow",
+          "/cards/pizza-day"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/pizza-day",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/pizza-day",
+        "redirects": [],
+        "bytes": 68965,
+        "sha256": "e48bd61bf94cb516190e26a0a5dfa5b4b3de085e6df78eb9f112d88c364a6041",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::zl8cn-1791524543984-ea037652ad1c",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.974,
+        "number": "008",
+        "slug": "pizza-day",
+        "h1": "Pizza Day",
+        "canonical": "https://lore-site-v1.vercel.app/cards/pizza-day",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-first-transfer",
+            "text": "Previous moment The First Transfer"
+          },
+          {
+            "href": "/cards/the-faucet",
+            "text": "Next moment The Faucet"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-first-transfer",
+          "/cards/the-faucet"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-first-transfer",
+            "text": "12 JAN 2009 The First Transfer Trace the earlier test that sent 10 BTC to Hal Finney Read the story"
+          },
+          {
+            "href": "/cards/the-faucet",
+            "text": "11 JUN 2010 The Faucet See another way newcomers began using Bitcoin Read the story"
+          },
+          {
+            "href": "/cards/cash-out",
+            "text": "29 OCT 2013 Cash Out Compare an early purchase with a later cash-to-bitcoin service Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-first-transfer",
+          "/cards/the-faucet",
+          "/cards/cash-out"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-faucet",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-faucet",
+        "redirects": [],
+        "bytes": 67691,
+        "sha256": "ce7bb7e61341850a24f53d4a2d536c5d7d6f9aa66132504ba75a365f9de64fe5",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::8lg8h-1791524547478-b3d6fb180ce2",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.385,
+        "number": "009",
+        "slug": "the-faucet",
+        "h1": "The Faucet",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-faucet",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/pizza-day",
+            "text": "Previous moment Pizza Day"
+          },
+          {
+            "href": "/cards/the-overflow",
+            "text": "Next moment The Overflow"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/pizza-day",
+          "/cards/the-overflow"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/pizza-day",
+            "text": "22 MAY 2010 Pizza Day Laszlo Hanyecz joined the faucet\u2019s launch discussion Read the story"
+          },
+          {
+            "href": "/cards/cash-out",
+            "text": "29 OCT 2013 Cash Out Follow access to Bitcoin from free coins to a public ATM Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/pizza-day",
+          "/cards/cash-out"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-overflow",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-overflow",
+        "redirects": [],
+        "bytes": 66765,
+        "sha256": "6f1f7fa1087ac4cbed9f021899f1a31d95f9df61c5de7fc98ac7846b830ad552",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::z4ngs-1791524547543-e62343476972",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.376,
+        "number": "010",
+        "slug": "the-overflow",
+        "h1": "The Overflow",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-overflow",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-faucet",
+            "text": "Previous moment The Faucet"
+          },
+          {
+            "href": "/cards/slush-pool",
+            "text": "Next moment Slush Pool"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-faucet",
+          "/cards/slush-pool"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-dao-hack",
+            "text": "17 JUN 2016 The DAO Hack Compare a Bitcoin validation bug with an Ethereum application exploit Read the story"
+          },
+          {
+            "href": "/cards/segwit-activates",
+            "text": "24 AUG 2017 Segwit Activates Compare an emergency repair with a later planned protocol upgrade Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-dao-hack",
+          "/cards/segwit-activates"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/slush-pool",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/slush-pool",
+        "redirects": [],
+        "bytes": 67761,
+        "sha256": "d6f1463f6ee01cdbdc3a5917c25a065439a6b2744a2326ec4a88bff8cc801779",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::lrwdq-1791524547595-1e53ef06cf28",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.457,
+        "number": "011",
+        "slug": "slush-pool",
+        "h1": "Slush Pool",
+        "canonical": "https://lore-site-v1.vercel.app/cards/slush-pool",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-overflow",
+            "text": "Previous moment The Overflow"
+          },
+          {
+            "href": "/cards/wikileaks-bitcoin",
+            "text": "Next moment WikiLeaks Accepts Bitcoin"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-overflow",
+          "/cards/wikileaks-bitcoin"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-first-halving",
+            "text": "28 NOV 2012 The First Halving Slush\u2019s pool found the block that triggered the first halving Read the story"
+          },
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "29 JUL 2014 Keys In Your Pocket Follow Slush\u2019s later work on the Trezor hardware wallet Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-first-halving",
+          "/cards/keys-in-your-pocket"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+        "redirects": [],
+        "bytes": 69353,
+        "sha256": "d309690b6b01c87317e52e90ee9be18f47d6a7139e4a21b2340bced574d4a9d2",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::f8wfj-1791524547547-77b1856a8586",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.386,
+        "number": "012",
+        "slug": "wikileaks-bitcoin",
+        "h1": "WikiLeaks Accepts Bitcoin",
+        "canonical": "https://lore-site-v1.vercel.app/cards/wikileaks-bitcoin",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/slush-pool",
+            "text": "Previous moment Slush Pool"
+          },
+          {
+            "href": "/cards/casascius-coins",
+            "text": "Next moment Casascius Coins"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/slush-pool",
+          "/cards/casascius-coins"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/blind-signatures",
+            "text": "1982 Blind Signatures Explore the earlier privacy question behind electronic payments Read the story"
+          },
+          {
+            "href": "/cards/doge-goes-to-sochi",
+            "text": "20 JAN 2014 Doge Goes To Sochi Compare another community\u2019s use of cryptocurrency for donations Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/blind-signatures",
+          "/cards/doge-goes-to-sochi"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+        "redirects": [],
+        "bytes": 65465,
+        "sha256": "cc4d3b605e4d96b74b70235549148a8129c96931719510350d31b3303fb37a3f",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::wpjnb-1791524547494-bc00e1eea796",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.278,
+        "number": "013",
+        "slug": "casascius-coins",
+        "h1": "Casascius Coins",
+        "canonical": "https://lore-site-v1.vercel.app/cards/casascius-coins",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/wikileaks-bitcoin",
+            "text": "Previous moment WikiLeaks Accepts Bitcoin"
+          },
+          {
+            "href": "/cards/litecoin-launches",
+            "text": "Next moment Digital Silver"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/wikileaks-bitcoin",
+          "/cards/litecoin-launches"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "29 JUL 2014 Keys In Your Pocket Compare physical coins and hardware wallets as ways to handle keys Read the story"
+          },
+          {
+            "href": "/cards/buried-fortune",
+            "text": "2013 Buried Fortune See why access depends on preserving private-key information Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/keys-in-your-pocket",
+          "/cards/buried-fortune"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/litecoin-launches",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/litecoin-launches",
+        "redirects": [],
+        "bytes": 68812,
+        "sha256": "58897b17efb83a9fe43ea5ecb0e8b7929b3fc21d40f52ff7b8709ed794cc201d",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::zqbqm-1791524547543-ccd2d550e4d4",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.372,
+        "number": "014",
+        "slug": "litecoin-launches",
+        "h1": "Digital Silver",
+        "canonical": "https://lore-site-v1.vercel.app/cards/litecoin-launches",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/casascius-coins",
+            "text": "Previous moment Casascius Coins"
+          },
+          {
+            "href": "/cards/the-first-halving",
+            "text": "Next moment The First Halving"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/casascius-coins",
+          "/cards/the-first-halving"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "31 OCT 2008 The Whitepaper Read the Bitcoin proposal behind Litecoin\u2019s point of departure Read the story"
+          },
+          {
+            "href": "/cards/bitcoin-cash-fork",
+            "text": "01 AUG 2017 Bitcoin Cash Fork Compare a new network with a later split of Bitcoin\u2019s ledger Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-whitepaper",
+          "/cards/bitcoin-cash-fork"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-first-halving",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-first-halving",
+        "redirects": [],
+        "bytes": 70247,
+        "sha256": "54e4cc918fab949a08b2547a5c16992e18df3736c332e9001370b7db41458bda",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::bf8nk-1791524547535-d86971db81f7",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.282,
+        "number": "015",
+        "slug": "the-first-halving",
+        "h1": "The First Halving",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-first-halving",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/litecoin-launches",
+            "text": "Previous moment Digital Silver"
+          },
+          {
+            "href": "/cards/silk-road-shutdown",
+            "text": "Next moment Silk Road Shutdown"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/litecoin-launches",
+          "/cards/silk-road-shutdown"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/slush-pool",
+            "text": "27 NOV 2010 Slush Pool Meet the pool that found the first halving block Read the story"
+          },
+          {
+            "href": "/cards/genesis-block",
+            "text": "03 JAN 2009 Genesis Block Return to the chain\u2019s starting point and original 50 BTC output Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/slush-pool",
+          "/cards/genesis-block"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/silk-road-shutdown",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/silk-road-shutdown",
+        "redirects": [],
+        "bytes": 71159,
+        "sha256": "e4ce63ee333a52f3492411e650b0a5b975f1c25ff96f1fda5735e05e48cc56e7",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::d5k9s-1791524547534-1347fbd0630d",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 3.277,
+        "number": "016",
+        "slug": "silk-road-shutdown",
+        "h1": "Silk Road Shutdown",
+        "canonical": "https://lore-site-v1.vercel.app/cards/silk-road-shutdown",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-first-halving",
+            "text": "Previous moment The First Halving"
+          },
+          {
+            "href": "/cards/cash-out",
+            "text": "Next moment Cash Out"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-first-halving",
+          "/cards/cash-out"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-bitcoin-auction",
+            "text": "27 JUN 2014 The Bitcoin Auction Follow the seized server-wallet bitcoins into a government auction Read the story"
+          },
+          {
+            "href": "/cards/bitlicense",
+            "text": "24 JUN 2015 BitLicense Compare marketplace enforcement with regulation of virtual-currency businesses Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-bitcoin-auction",
+          "/cards/bitlicense"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/cash-out",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/cash-out",
+        "redirects": [],
+        "bytes": 70804,
+        "sha256": "cf9b7fd236ab0a67304e59b19f907f5444842b66e4bbbd8c580e4761a7622436",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::nnpcv-1791524553177-0bd819718585",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.739,
+        "number": "017",
+        "slug": "cash-out",
+        "h1": "Cash Out",
+        "canonical": "https://lore-site-v1.vercel.app/cards/cash-out",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/silk-road-shutdown",
+            "text": "Previous moment Silk Road Shutdown"
+          },
+          {
+            "href": "/cards/four-figures",
+            "text": "Next moment Four Figures"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/silk-road-shutdown",
+          "/cards/four-figures"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/pizza-day",
+            "text": "22 MAY 2010 Pizza Day Compare two ways digital money reached everyday transactions Read the story"
+          },
+          {
+            "href": "/cards/the-faucet",
+            "text": "11 JUN 2010 The Faucet Compare buying bitcoin in person with an earlier online giveaway Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/pizza-day",
+          "/cards/the-faucet"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/four-figures",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/four-figures",
+        "redirects": [],
+        "bytes": 69064,
+        "sha256": "588ebcf55db49ada3edfa9963d120e63ae3ca9090d660b23619f155684833867",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::ttl72-1791524553246-558bf7b6e947",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.724,
+        "number": "018",
+        "slug": "four-figures",
+        "h1": "Four Figures",
+        "canonical": "https://lore-site-v1.vercel.app/cards/four-figures",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/cash-out",
+            "text": "Previous moment Cash Out"
+          },
+          {
+            "href": "/cards/ethereum-whitepaper",
+            "text": "Next moment Ethereum Whitepaper"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/cash-out",
+          "/cards/ethereum-whitepaper"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/mt-gox",
+            "text": "28 FEB 2014 Mt. Gox Follow the same exchange from a price milestone to insolvency Read the story"
+          },
+          {
+            "href": "/cards/birth-of-hodl",
+            "text": "18 DEC 2013 Birth Of HODL Read the forum response to a later 2013 market fall Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/mt-gox",
+          "/cards/birth-of-hodl"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper",
+        "redirects": [],
+        "bytes": 71765,
+        "sha256": "0403300bbbfff6d919fb5fefca4138feeadc423f706534d9591177c5e07ea750",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::776zg-1791524553285-ec7ab07b45a2",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.751,
+        "number": "019",
+        "slug": "ethereum-whitepaper",
+        "h1": "Ethereum Whitepaper",
+        "canonical": "https://lore-site-v1.vercel.app/cards/ethereum-whitepaper",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/four-figures",
+            "text": "Previous moment Four Figures"
+          },
+          {
+            "href": "/cards/much-wow",
+            "text": "Next moment Much Wow"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/four-figures",
+          "/cards/much-wow"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-ether-sale",
+            "text": "22 JUL 2014 The Ether Sale Follow the proposal into a development-funding sale Read the story"
+          },
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "30 JUL 2015 Ethereum Goes Live Continue to the launch of the Ethereum network Read the story"
+          },
+          {
+            "href": "/cards/cryptokitties",
+            "text": "28 NOV 2017 CryptoKitties Meet a later Ethereum application foreshadowed in the illustration Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-ether-sale",
+          "/cards/ethereum-goes-live",
+          "/cards/cryptokitties"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/much-wow",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/much-wow",
+        "redirects": [],
+        "bytes": 66980,
+        "sha256": "67c7eb75dbd96794a9ce791c71c2fb0a8cc1fa765d798bb361985a0c95458215",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::clbl6-1791524553204-92be3dda9d8a",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.717,
+        "number": "020",
+        "slug": "much-wow",
+        "h1": "Much Wow",
+        "canonical": "https://lore-site-v1.vercel.app/cards/much-wow",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/ethereum-whitepaper",
+            "text": "Previous moment Ethereum Whitepaper"
+          },
+          {
+            "href": "/cards/birth-of-hodl",
+            "text": "Next moment Birth Of HODL"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/ethereum-whitepaper",
+          "/cards/birth-of-hodl"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/doge-goes-to-sochi",
+            "text": "20 JAN 2014 Doge Goes To Sochi See Dogecoin\u2019s community turn its shared joke into fundraising Read the story"
+          },
+          {
+            "href": "/cards/birth-of-hodl",
+            "text": "18 DEC 2013 Birth Of HODL Compare another internet phrase that became part of crypto culture Read the story"
+          },
+          {
+            "href": "/cards/rare-pepes",
+            "text": "09 SEP 2016 Rare Pepes Follow another meme into a blockchain collecting community Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/doge-goes-to-sochi",
+          "/cards/birth-of-hodl",
+          "/cards/rare-pepes"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/birth-of-hodl",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/birth-of-hodl",
+        "redirects": [],
+        "bytes": 66337,
+        "sha256": "fceef7d095782f156902fa4b9305cfc93bbcadcf29f80168cccf3c3f9092ba06",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::2zfmw-1791524553146-c724d5136429",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.694,
+        "number": "021",
+        "slug": "birth-of-hodl",
+        "h1": "Birth Of HODL",
+        "canonical": "https://lore-site-v1.vercel.app/cards/birth-of-hodl",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/much-wow",
+            "text": "Previous moment Much Wow"
+          },
+          {
+            "href": "/cards/buried-fortune",
+            "text": "Next moment Buried Fortune"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/much-wow",
+          "/cards/buried-fortune"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/four-figures",
+            "text": "27 NOV 2013 Four Figures Return to Bitcoin\u2019s $1,000 milestone earlier that year Read the story"
+          },
+          {
+            "href": "/cards/much-wow",
+            "text": "06 DEC 2013 Much Wow Compare a forum-born slogan with a meme-born cryptocurrency Read the story"
+          },
+          {
+            "href": "/cards/behind-the-chair",
+            "text": "12 JUL 2017 Behind The Chair See another short message become a memorable Bitcoin moment Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/four-figures",
+          "/cards/much-wow",
+          "/cards/behind-the-chair"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+        "redirects": [],
+        "bytes": 71677,
+        "sha256": "55aa0765cdc3bf7cf4f22b032eb5e1e57db11635553cc38b032f6c84bdbe2595",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::ttl72-1791524553218-96e6d08013c3",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.648,
+        "number": "022",
+        "slug": "buried-fortune",
+        "h1": "Buried Fortune",
+        "canonical": "https://lore-site-v1.vercel.app/cards/buried-fortune",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/birth-of-hodl",
+            "text": "Previous moment Birth Of HODL"
+          },
+          {
+            "href": "/cards/doge-goes-to-sochi",
+            "text": "Next moment Doge Goes To Sochi"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/birth-of-hodl",
+          "/cards/doge-goes-to-sochi"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "29 JUL 2014 Keys In Your Pocket Explore a later approach to protecting and backing up private keys Read the story"
+          },
+          {
+            "href": "/cards/casascius-coins",
+            "text": "06 SEP 2011 Casascius Coins See a different physical object carrying control of bitcoin Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/keys-in-your-pocket",
+          "/cards/casascius-coins"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/doge-goes-to-sochi",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/doge-goes-to-sochi",
+        "redirects": [],
+        "bytes": 69715,
+        "sha256": "ee2b5843599f1e59b66c09b17b4ca5115d655c7f5eb33e599b6a5d9762748c33",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::d58ch-1791524553134-bfc3327083ca",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.588,
+        "number": "023",
+        "slug": "doge-goes-to-sochi",
+        "h1": "Doge Goes To Sochi",
+        "canonical": "https://lore-site-v1.vercel.app/cards/doge-goes-to-sochi",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/buried-fortune",
+            "text": "Previous moment Buried Fortune"
+          },
+          {
+            "href": "/cards/mt-gox",
+            "text": "Next moment Mt. Gox"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/buried-fortune",
+          "/cards/mt-gox"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/much-wow",
+            "text": "06 DEC 2013 Much Wow Start with the Dogecoin launch that brought the community together Read the story"
+          },
+          {
+            "href": "/cards/wikileaks-bitcoin",
+            "text": "14 JUN 2011 WikiLeaks Accepts Bitcoin Compare cryptocurrency donations in a different public campaign Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/much-wow",
+          "/cards/wikileaks-bitcoin"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/mt-gox",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/mt-gox",
+        "redirects": [],
+        "bytes": 68359,
+        "sha256": "747c62eec3468fe28a27275dbc5ec134ffcfd1dc644188b9d478690c58840dcd",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::r949q-1791524553235-dae3f7e1038e",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.602,
+        "number": "024",
+        "slug": "mt-gox",
+        "h1": "Mt. Gox",
+        "canonical": "https://lore-site-v1.vercel.app/cards/mt-gox",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/doge-goes-to-sochi",
+            "text": "Previous moment Doge Goes To Sochi"
+          },
+          {
+            "href": "/cards/monero-launches",
+            "text": "Next moment Monero Launches"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/doge-goes-to-sochi",
+          "/cards/monero-launches"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/four-figures",
+            "text": "27 NOV 2013 Four Figures Look back at Mt. Gox\u2019s earlier $1,000 price milestone Read the story"
+          },
+          {
+            "href": "/cards/the-bitfinex-heist",
+            "text": "02 AUG 2016 The Bitfinex Heist Compare another loss involving funds held by an exchange Read the story"
+          },
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "29 JUL 2014 Keys In Your Pocket Explore self-custody and the responsibilities of holding private keys Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/four-figures",
+          "/cards/the-bitfinex-heist",
+          "/cards/keys-in-your-pocket"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/monero-launches",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/monero-launches",
+        "redirects": [],
+        "bytes": 70344,
+        "sha256": "a3ac2e9546f172dba322a24298e1bbf45e1c849586657f3d5460f50442bd65b3",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::dw4vc-1791524558336-df10e3c5f56b",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.166,
+        "number": "025",
+        "slug": "monero-launches",
+        "h1": "Monero Launches",
+        "canonical": "https://lore-site-v1.vercel.app/cards/monero-launches",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/mt-gox",
+            "text": "Previous moment Mt. Gox"
+          },
+          {
+            "href": "/cards/quantum",
+            "text": "Next moment Quantum"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/mt-gox",
+          "/cards/quantum"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/blind-signatures",
+            "text": "1982 Blind Signatures Trace an earlier attempt to limit links between digital payments Read the story"
+          },
+          {
+            "href": "/cards/the-zcash-ceremony",
+            "text": "22\u201323 OCT 2016 The Zcash Ceremony Compare another privacy project\u2019s different setup assumptions Read the story"
+          },
+          {
+            "href": "/cards/cypherpunk-manifesto",
+            "text": "9 MAR 1993 Cypherpunk Manifesto Read the argument for privacy through software Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/blind-signatures",
+          "/cards/the-zcash-ceremony",
+          "/cards/cypherpunk-manifesto"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/quantum",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/quantum",
+        "redirects": [],
+        "bytes": 69060,
+        "sha256": "e247dccd042be95b8dc95a694857c2cc1d1ec81b1ba42878970357c5fce2ef35",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::d5k9s-1791524558378-1635efcf3808",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.144,
+        "number": "026",
+        "slug": "quantum",
+        "h1": "Quantum",
+        "canonical": "https://lore-site-v1.vercel.app/cards/quantum",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/monero-launches",
+            "text": "Previous moment Monero Launches"
+          },
+          {
+            "href": "/cards/the-bitcoin-auction",
+            "text": "Next moment The Bitcoin Auction"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/monero-launches",
+          "/cards/the-bitcoin-auction"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/rare-pepes",
+            "text": "09 SEP 2016 Rare Pepes Follow digital-art records into a meme-collecting community Read the story"
+          },
+          {
+            "href": "/cards/cryptopunks",
+            "text": "JUN 2017 CryptoPunks Compare an early provenance experiment with an Ethereum collection Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/rare-pepes",
+          "/cards/cryptopunks"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
+        "redirects": [],
+        "bytes": 70487,
+        "sha256": "0b6346cd28a860810f03128db40971fd0a74b37a31e98c971bf9b4b668cb8d4f",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::mlhqf-1791524558342-cbdf665ecc0a",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.125,
+        "number": "027",
+        "slug": "the-bitcoin-auction",
+        "h1": "The Bitcoin Auction",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-bitcoin-auction",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/quantum",
+            "text": "Previous moment Quantum"
+          },
+          {
+            "href": "/cards/the-ether-sale",
+            "text": "Next moment The Ether Sale"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/quantum",
+          "/cards/the-ether-sale"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/silk-road-shutdown",
+            "text": "01 OCT 2013 Silk Road Shutdown Read the shutdown that preceded this sale of server-wallet bitcoins Read the story"
+          },
+          {
+            "href": "/cards/bitlicense",
+            "text": "24 JUN 2015 BitLicense Compare a government asset sale with a later licensing framework Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/silk-road-shutdown",
+          "/cards/bitlicense"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+        "redirects": [],
+        "bytes": 68818,
+        "sha256": "5f2305e89d7e6b52649d6488365134a89e5f1adfe24ebd7eda1fb43602efd017",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::42gm4-1791524558375-ef8b57f7134a",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.144,
+        "number": "028",
+        "slug": "the-ether-sale",
+        "h1": "The Ether Sale",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-ether-sale",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-bitcoin-auction",
+            "text": "Previous moment The Bitcoin Auction"
+          },
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "Next moment Keys In Your Pocket"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-bitcoin-auction",
+          "/cards/keys-in-your-pocket"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/ethereum-whitepaper",
+            "text": "27 NOV 2013 Ethereum Whitepaper Read the proposal that preceded the funding sale Read the story"
+          },
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "30 JUL 2015 Ethereum Goes Live See when purchased ether could reach a live network Read the story"
+          },
+          {
+            "href": "/cards/china-bans-icos",
+            "text": "04 SEP 2017 China Bans Icos Compare the sale model with later restrictions on token fundraising Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/ethereum-whitepaper",
+          "/cards/ethereum-goes-live",
+          "/cards/china-bans-icos"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+        "redirects": [],
+        "bytes": 69037,
+        "sha256": "32477e6210dc0447c9486bf3efbb1fb673e045599ee5e2433074144e78070b94",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::8f5w7-1791524558337-9b0319fab165",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.087,
+        "number": "029",
+        "slug": "keys-in-your-pocket",
+        "h1": "Keys In Your Pocket",
+        "canonical": "https://lore-site-v1.vercel.app/cards/keys-in-your-pocket",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-ether-sale",
+            "text": "Previous moment The Ether Sale"
+          },
+          {
+            "href": "/cards/the-dollar-token",
+            "text": "Next moment The Dollar Token"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-ether-sale",
+          "/cards/the-dollar-token"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/buried-fortune",
+            "text": "2013 Buried Fortune See why safeguarding recoverable key information matters Read the story"
+          },
+          {
+            "href": "/cards/casascius-coins",
+            "text": "06 SEP 2011 Casascius Coins Compare two physical approaches to keeping a Bitcoin private key Read the story"
+          },
+          {
+            "href": "/cards/slush-pool",
+            "text": "27 NOV 2010 Slush Pool Meet Trezor co-founder Slush through his earlier mining-pool proposal Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/buried-fortune",
+          "/cards/casascius-coins",
+          "/cards/slush-pool"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-dollar-token",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-dollar-token",
+        "redirects": [],
+        "bytes": 69396,
+        "sha256": "6b7f596bd0fdeb724df002034e4e6cc568844976e0313c1813f93104edbb0844",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::gswzn-1791524558370-88d06fbfcb66",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.103,
+        "number": "030",
+        "slug": "the-dollar-token",
+        "h1": "The Dollar Token",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-dollar-token",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "Previous moment Keys In Your Pocket"
+          },
+          {
+            "href": "/cards/bitlicense",
+            "text": "Next moment BitLicense"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/keys-in-your-pocket",
+          "/cards/bitlicense"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/dai-goes-live",
+            "text": "18 DEC 2017 Dai Goes Live Compare issuer-backed tokens with Dai\u2019s Ether-backed dollar target Read the story"
+          },
+          {
+            "href": "/cards/cash-out",
+            "text": "29 OCT 2013 Cash Out Contrast tokenised dollars with a machine exchanging bitcoin and cash Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/dai-goes-live",
+          "/cards/cash-out"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/bitlicense",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/bitlicense",
+        "redirects": [],
+        "bytes": 71127,
+        "sha256": "ef031bb2a62b158e67d0283cca68242c110b6f00e46662da4c4880ee17a448bc",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::dcrwb-1791524558343-d8221ef6f529",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.16,
+        "number": "031",
+        "slug": "bitlicense",
+        "h1": "BitLicense",
+        "canonical": "https://lore-site-v1.vercel.app/cards/bitlicense",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-dollar-token",
+            "text": "Previous moment The Dollar Token"
+          },
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "Next moment Ethereum Goes Live"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-dollar-token",
+          "/cards/ethereum-goes-live"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/china-bans-icos",
+            "text": "04 SEP 2017 China Bans Icos Compare two jurisdictions\u2019 different approaches to virtual-currency activity Read the story"
+          },
+          {
+            "href": "/cards/mt-gox",
+            "text": "28 FEB 2014 Mt. Gox Explore an earlier exchange failure and questions of customer custody Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/china-bans-icos",
+          "/cards/mt-gox"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+        "redirects": [],
+        "bytes": 70161,
+        "sha256": "6811590274e7e96beaad04055f754d368fb5677a6f6dfa64774daf44489cc88b",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::n75gv-1791524558343-e5b8607a3822",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.063,
+        "number": "032",
+        "slug": "ethereum-goes-live",
+        "h1": "Ethereum Goes Live",
+        "canonical": "https://lore-site-v1.vercel.app/cards/ethereum-goes-live",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/bitlicense",
+            "text": "Previous moment BitLicense"
+          },
+          {
+            "href": "/cards/the-dao-hack",
+            "text": "Next moment The DAO Hack"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/bitlicense",
+          "/cards/the-dao-hack"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/ethereum-whitepaper",
+            "text": "27 NOV 2013 Ethereum Whitepaper Return to the proposal behind the programmable network Read the story"
+          },
+          {
+            "href": "/cards/the-ether-sale",
+            "text": "22 JUL 2014 The Ether Sale Read how the project funded development before launch Read the story"
+          },
+          {
+            "href": "/cards/cryptokitties",
+            "text": "28 NOV 2017 CryptoKitties See the live network used for a digital-cat breeding game Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/ethereum-whitepaper",
+          "/cards/the-ether-sale",
+          "/cards/cryptokitties"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+        "redirects": [],
+        "bytes": 70123,
+        "sha256": "057c14c3ae97cfa9850c3cbb46f011346fb9094094c20fb1c533eca0aecf3239",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::lrk22-1791524562561-45b03c515b7b",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.234,
+        "number": "033",
+        "slug": "the-dao-hack",
+        "h1": "The DAO Hack",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "Previous moment Ethereum Goes Live"
+          },
+          {
+            "href": "/cards/the-split",
+            "text": "Next moment The Split"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/ethereum-goes-live",
+          "/cards/the-split"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-split",
+            "text": "20 JUL 2016 The Split Follow the recovery decision that led to two Ethereum chains Read the story"
+          },
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "30 JUL 2015 Ethereum Goes Live Meet the network on which The DAO\u2019s contract ran Read the story"
+          },
+          {
+            "href": "/cards/the-overflow",
+            "text": "15 AUG 2010 The Overflow Compare an application exploit with an earlier Bitcoin validation bug Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-split",
+          "/cards/ethereum-goes-live",
+          "/cards/the-overflow"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-split",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-split",
+        "redirects": [],
+        "bytes": 72599,
+        "sha256": "63f9150a72fad44dc61d38f9819bbf11d1c04f8ff7b583844dec31ce05139ad4",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::sc8lt-1791524562578-a662767d179c",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.253,
+        "number": "034",
+        "slug": "the-split",
+        "h1": "The Split",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-split",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-dao-hack",
+            "text": "Previous moment The DAO Hack"
+          },
+          {
+            "href": "/cards/the-bitfinex-heist",
+            "text": "Next moment The Bitfinex Heist"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-dao-hack",
+          "/cards/the-bitfinex-heist"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-dao-hack",
+            "text": "17 JUN 2016 The DAO Hack Read the exploit that prompted the recovery fork Read the story"
+          },
+          {
+            "href": "/cards/bitcoin-cash-fork",
+            "text": "01 AUG 2017 Bitcoin Cash Fork Compare a different disagreement that also produced separate chains Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-dao-hack",
+          "/cards/bitcoin-cash-fork"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+        "redirects": [],
+        "bytes": 70652,
+        "sha256": "acaedb8a9813d03634af3754eb7d65216860f577ca7979e8c8f07e5712a82e38",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::tnqfr-1791524562577-3f939d400b23",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.239,
+        "number": "035",
+        "slug": "the-bitfinex-heist",
+        "h1": "The Bitfinex Heist",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-bitfinex-heist",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-split",
+            "text": "Previous moment The Split"
+          },
+          {
+            "href": "/cards/rare-pepes",
+            "text": "Next moment Rare Pepes"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-split",
+          "/cards/rare-pepes"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/mt-gox",
+            "text": "28 FEB 2014 Mt. Gox Compare another exchange-custody failure and its effect on customers Read the story"
+          },
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "29 JUL 2014 Keys In Your Pocket Explore the different responsibilities of personal key custody Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/mt-gox",
+          "/cards/keys-in-your-pocket"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+        "redirects": [],
+        "bytes": 71054,
+        "sha256": "4f9605f58cbe089c17eaacb86cfc68d4543e36c4973b947e01f4ab322c75d974",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::mz4s5-1791524562510-801cfb526877",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.223,
+        "number": "036",
+        "slug": "rare-pepes",
+        "h1": "Rare Pepes",
+        "canonical": "https://lore-site-v1.vercel.app/cards/rare-pepes",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-bitfinex-heist",
+            "text": "Previous moment The Bitfinex Heist"
+          },
+          {
+            "href": "/cards/the-zcash-ceremony",
+            "text": "Next moment The Zcash Ceremony"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-bitfinex-heist",
+          "/cards/the-zcash-ceremony"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/quantum",
+            "text": "03 MAY 2014 Quantum Look back at an earlier blockchain record for digital art Read the story"
+          },
+          {
+            "href": "/cards/cryptopunks",
+            "text": "JUN 2017 CryptoPunks Compare Bitcoin-based collecting with Ethereum avatar collecting Read the story"
+          },
+          {
+            "href": "/cards/much-wow",
+            "text": "06 DEC 2013 Much Wow See another community built around an internet meme Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/quantum",
+          "/cards/cryptopunks",
+          "/cards/much-wow"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+        "redirects": [],
+        "bytes": 73790,
+        "sha256": "49f87e23ea919bb3eb3a46c8bd3a7846ea64ee5b0d495acdb4b78ec9f0ffc7f2",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::mz4s5-1791524562674-f26a400eba5a",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.306,
+        "number": "037",
+        "slug": "the-zcash-ceremony",
+        "h1": "The Zcash Ceremony",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-zcash-ceremony",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/rare-pepes",
+            "text": "Previous moment Rare Pepes"
+          },
+          {
+            "href": "/cards/cryptopunks",
+            "text": "Next moment CryptoPunks"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/rare-pepes",
+          "/cards/cryptopunks"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/monero-launches",
+            "text": "18 APR 2014 Monero Launches Compare different privacy approaches and trust assumptions Read the story"
+          },
+          {
+            "href": "/cards/blind-signatures",
+            "text": "1982 Blind Signatures Return to an early cryptographic proposal for private payments Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/monero-launches",
+          "/cards/blind-signatures"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/cryptopunks",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/cryptopunks",
+        "redirects": [],
+        "bytes": 70349,
+        "sha256": "882cb132ef5e2c0b64bee75736f10fe8b44bfc5c2491b7def7bae2d795e1bb52",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::vkhcf-1791524562583-529e2c5530ec",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.233,
+        "number": "038",
+        "slug": "cryptopunks",
+        "h1": "CryptoPunks",
+        "canonical": "https://lore-site-v1.vercel.app/cards/cryptopunks",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-zcash-ceremony",
+            "text": "Previous moment The Zcash Ceremony"
+          },
+          {
+            "href": "/cards/behind-the-chair",
+            "text": "Next moment Behind The Chair"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-zcash-ceremony",
+          "/cards/behind-the-chair"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/quantum",
+            "text": "03 MAY 2014 Quantum Trace an earlier experiment in recording digital-art provenance Read the story"
+          },
+          {
+            "href": "/cards/rare-pepes",
+            "text": "09 SEP 2016 Rare Pepes Compare an earlier community-made blockchain collection Read the story"
+          },
+          {
+            "href": "/cards/cryptokitties",
+            "text": "28 NOV 2017 CryptoKitties See Ethereum collectibles develop into a breeding game Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/quantum",
+          "/cards/rare-pepes",
+          "/cards/cryptokitties"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+        "redirects": [],
+        "bytes": 71765,
+        "sha256": "d9dcb07bfb28c6bba8d71a0a081d0f2dfbb1c4d2179511cc25438adbd5bb628f",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::22v7l-1791524562630-2938247af374",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.261,
+        "number": "039",
+        "slug": "behind-the-chair",
+        "h1": "Behind The Chair",
+        "canonical": "https://lore-site-v1.vercel.app/cards/behind-the-chair",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/cryptopunks",
+            "text": "Previous moment CryptoPunks"
+          },
+          {
+            "href": "/cards/binance-launches",
+            "text": "Next moment Binance Launches"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/cryptopunks",
+          "/cards/binance-launches"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/birth-of-hodl",
+            "text": "18 DEC 2013 Birth Of HODL Compare another brief message that became part of crypto culture Read the story"
+          },
+          {
+            "href": "/cards/casascius-coins",
+            "text": "06 SEP 2011 Casascius Coins Follow another physical object into Bitcoin collecting history Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/birth-of-hodl",
+          "/cards/casascius-coins"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/binance-launches",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/binance-launches",
+        "redirects": [],
+        "bytes": 69747,
+        "sha256": "15f330a7ce188b4fe53cfa017b3392b1c1eb73a93bba69085c8fe0e68decc14c",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::dpvq5-1791524562586-12d0bb5f5ba8",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.206,
+        "number": "040",
+        "slug": "binance-launches",
+        "h1": "Binance Launches",
+        "canonical": "https://lore-site-v1.vercel.app/cards/binance-launches",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/behind-the-chair",
+            "text": "Previous moment Behind The Chair"
+          },
+          {
+            "href": "/cards/bitcoin-cash-fork",
+            "text": "Next moment Bitcoin Cash Fork"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/behind-the-chair",
+          "/cards/bitcoin-cash-fork"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/china-bans-icos",
+            "text": "04 SEP 2017 China Bans Icos Read the restrictions described in Binance\u2019s early history Read the story"
+          },
+          {
+            "href": "/cards/mt-gox",
+            "text": "28 FEB 2014 Mt. Gox Compare an exchange\u2019s opening with an earlier exchange\u2019s failure Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/china-bans-icos",
+          "/cards/mt-gox"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/bitcoin-cash-fork",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/bitcoin-cash-fork",
+        "redirects": [],
+        "bytes": 69841,
+        "sha256": "e50f0c8692d4e70bd3aa44af9ce1ee350857fbb6ff5a867b3394ad3878e24f27",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::gmfnn-1791524567093-428a88f09d2e",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.517,
+        "number": "041",
+        "slug": "bitcoin-cash-fork",
+        "h1": "Bitcoin Cash Fork",
+        "canonical": "https://lore-site-v1.vercel.app/cards/bitcoin-cash-fork",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/binance-launches",
+            "text": "Previous moment Binance Launches"
+          },
+          {
+            "href": "/cards/segwit-activates",
+            "text": "Next moment Segwit Activates"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/binance-launches",
+          "/cards/segwit-activates"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/segwit-activates",
+            "text": "24 AUG 2017 Segwit Activates See Bitcoin\u2019s separate scaling change later in the same month Read the story"
+          },
+          {
+            "href": "/cards/the-split",
+            "text": "20 JUL 2016 The Split Compare a chain split driven by a different dispute Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/segwit-activates",
+          "/cards/the-split"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/segwit-activates",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/segwit-activates",
+        "redirects": [],
+        "bytes": 73186,
+        "sha256": "5695987359a095848f88cfe4d287b707a5538239cf184372c127b682ac08209f",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::glxq5-1791524567161-6d7287942824",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.634,
+        "number": "042",
+        "slug": "segwit-activates",
+        "h1": "Segwit Activates",
+        "canonical": "https://lore-site-v1.vercel.app/cards/segwit-activates",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/bitcoin-cash-fork",
+            "text": "Previous moment Bitcoin Cash Fork"
+          },
+          {
+            "href": "/cards/china-bans-icos",
+            "text": "Next moment China Bans Icos"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/bitcoin-cash-fork",
+          "/cards/china-bans-icos"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/bitcoin-cash-fork",
+            "text": "01 AUG 2017 Bitcoin Cash Fork Read the block-size disagreement that produced a separate chain Read the story"
+          },
+          {
+            "href": "/cards/the-overflow",
+            "text": "15 AUG 2010 The Overflow Compare a planned protocol upgrade with an emergency bug repair Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/bitcoin-cash-fork",
+          "/cards/the-overflow"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/china-bans-icos",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/china-bans-icos",
+        "redirects": [],
+        "bytes": 70912,
+        "sha256": "bbc615fb900b9d1dff99204e8364d92d35138f064ec9d726d236d6fde043e125",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::6xmzn-1791524567155-36e51d738232",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.623,
+        "number": "043",
+        "slug": "china-bans-icos",
+        "h1": "China Bans Icos",
+        "canonical": "https://lore-site-v1.vercel.app/cards/china-bans-icos",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/segwit-activates",
+            "text": "Previous moment Segwit Activates"
+          },
+          {
+            "href": "/cards/the-missing-cryptoqueen",
+            "text": "Next moment The Missing Cryptoqueen"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/segwit-activates",
+          "/cards/the-missing-cryptoqueen"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/binance-launches",
+            "text": "14 JUL 2017 Binance Launches Follow the exchange whose early history included these restrictions Read the story"
+          },
+          {
+            "href": "/cards/bitlicense",
+            "text": "24 JUN 2015 BitLicense Compare the notice with New York\u2019s earlier licensing framework Read the story"
+          },
+          {
+            "href": "/cards/the-ether-sale",
+            "text": "22 JUL 2014 The Ether Sale Look back at a development-funding token sale before the notice Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/binance-launches",
+          "/cards/bitlicense",
+          "/cards/the-ether-sale"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-missing-cryptoqueen",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-missing-cryptoqueen",
+        "redirects": [],
+        "bytes": 71781,
+        "sha256": "2d024c4085423dddf4f1059881c677ec24949cf2a5e083d444e44807abb4a2d9",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::f4hw8-1791524567161-507c73602c43",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.595,
+        "number": "044",
+        "slug": "the-missing-cryptoqueen",
+        "h1": "The Missing Cryptoqueen",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-missing-cryptoqueen",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/china-bans-icos",
+            "text": "Previous moment China Bans Icos"
+          },
+          {
+            "href": "/cards/bitconnect",
+            "text": "Next moment BitConnect"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/china-bans-icos",
+          "/cards/bitconnect"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/bitconnect",
+            "text": "28 OCT 2017 BitConnect Compare another sales spectacle with a later fraud case Read the story"
+          },
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "31 OCT 2008 The Whitepaper Compare OneCoin\u2019s sales claims with Bitcoin\u2019s peer-to-peer proposal Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/bitconnect",
+          "/cards/the-whitepaper"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/bitconnect",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/bitconnect",
+        "redirects": [],
+        "bytes": 76282,
+        "sha256": "3829338c3490a8a888a569cb1cec6ff45c19a84793cc6a263311bd9805eeafcf",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::scbrl-1791524567160-eddd06017e90",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.548,
+        "number": "045",
+        "slug": "bitconnect",
+        "h1": "BitConnect",
+        "canonical": "https://lore-site-v1.vercel.app/cards/bitconnect",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-missing-cryptoqueen",
+            "text": "Previous moment The Missing Cryptoqueen"
+          },
+          {
+            "href": "/cards/cryptokitties",
+            "text": "Next moment CryptoKitties"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-missing-cryptoqueen",
+          "/cards/cryptokitties"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-missing-cryptoqueen",
+            "text": "25 OCT 2017 The Missing Cryptoqueen Compare another promotion-driven venture and its fraud allegations Read the story"
+          },
+          {
+            "href": "/cards/birth-of-hodl",
+            "text": "18 DEC 2013 Birth Of HODL Compare a viral stage speech with a forum-born crypto catchphrase Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-missing-cryptoqueen",
+          "/cards/birth-of-hodl"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/cryptokitties",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/cryptokitties",
+        "redirects": [],
+        "bytes": 75681,
+        "sha256": "4d952c6316f92f6f361c38a8bc3b3760f764f122849bc7fd41e5711ca0295184",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::wpjnb-1791524567142-c110da5f9dbe",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.51,
+        "number": "046",
+        "slug": "cryptokitties",
+        "h1": "CryptoKitties",
+        "canonical": "https://lore-site-v1.vercel.app/cards/cryptokitties",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/bitconnect",
+            "text": "Previous moment BitConnect"
+          },
+          {
+            "href": "/cards/dai-goes-live",
+            "text": "Next moment Dai Goes Live"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/bitconnect",
+          "/cards/dai-goes-live"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/cryptopunks",
+            "text": "JUN 2017 CryptoPunks Compare Ethereum avatars with collectible cats that could be bred Read the story"
+          },
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "30 JUL 2015 Ethereum Goes Live Return to the network launch that made these applications possible Read the story"
+          },
+          {
+            "href": "/cards/rare-pepes",
+            "text": "09 SEP 2016 Rare Pepes Compare game-based collecting with a meme-card collecting community Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/cryptopunks",
+          "/cards/ethereum-goes-live",
+          "/cards/rare-pepes"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+        "redirects": [],
+        "bytes": 74011,
+        "sha256": "c90b6407cc80495573f9f032cd4d4ccc56fc4f7217445331229b3852af648110",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::lrk22-1791524567142-154a99264270",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.492,
+        "number": "047",
+        "slug": "dai-goes-live",
+        "h1": "Dai Goes Live",
+        "canonical": "https://lore-site-v1.vercel.app/cards/dai-goes-live",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/cryptokitties",
+            "text": "Previous moment CryptoKitties"
+          },
+          {
+            "href": "/cards/lightning-goes-live",
+            "text": "Next moment Lightning Goes Live"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/cryptokitties",
+          "/cards/lightning-goes-live"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/the-dollar-token",
+            "text": "06 OCT 2014 The Dollar Token Compare two different ways to pursue a dollar-denominated token Read the story"
+          },
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "30 JUL 2015 Ethereum Goes Live Return to the launch of the network hosting Dai\u2019s contracts Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/the-dollar-token",
+          "/cards/ethereum-goes-live"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+        "redirects": [],
+        "bytes": 78500,
+        "sha256": "d422fc4d46fd218a7dce9e12b3bc97735d82011af435fd83941511a6db74a77b",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::lllqh-1791524567136-64ef6af3c94d",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 4.472,
+        "number": "048",
+        "slug": "lightning-goes-live",
+        "h1": "Lightning Goes Live",
+        "canonical": "https://lore-site-v1.vercel.app/cards/lightning-goes-live",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/dai-goes-live",
+            "text": "Previous moment Dai Goes Live"
+          },
+          {
+            "href": "/cards/uniswap-launches",
+            "text": "Next moment Uniswap Launches"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/dai-goes-live",
+          "/cards/uniswap-launches"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/segwit-activates",
+            "text": "24 AUG 2017 Segwit Activates Return to Bitcoin\u2019s 2017 upgrade before the mainnet beta milestone Read the story"
+          },
+          {
+            "href": "/cards/the-first-transfer",
+            "text": "12 JAN 2009 The First Transfer Compare Bitcoin\u2019s early on-chain transfers with payments through channels Read the story"
+          },
+          {
+            "href": "/cards/the-whitepaper",
+            "text": "31 OCT 2008 The Whitepaper Revisit the base-layer payment proposal that Lightning builds upon Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/segwit-activates",
+          "/cards/the-first-transfer",
+          "/cards/the-whitepaper"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/uniswap-launches",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/uniswap-launches",
+        "redirects": [],
+        "bytes": 78579,
+        "sha256": "4ca86a310271dba995c3df475ff7f263ba0ddf8ae4fafc4e313814cf5a3e579b",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::lwnb6-1791524572994-487b660eeb16",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 6.072,
+        "number": "049",
+        "slug": "uniswap-launches",
+        "h1": "Uniswap Launches",
+        "canonical": "https://lore-site-v1.vercel.app/cards/uniswap-launches",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/lightning-goes-live",
+            "text": "Previous moment Lightning Goes Live"
+          },
+          {
+            "href": "/cards/the-pineapple-fund",
+            "text": "Next moment The Pineapple Fund"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/lightning-goes-live",
+          "/cards/the-pineapple-fund"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/ethereum-goes-live",
+            "text": "30 JUL 2015 Ethereum Goes Live Return to the network that made Uniswap\u2019s on-chain exchange contracts possible Read the story"
+          },
+          {
+            "href": "/cards/dai-goes-live",
+            "text": "18 DEC 2017 Dai Goes Live Explore another early Ethereum application built around on-chain assets Read the story"
+          },
+          {
+            "href": "/cards/cryptokitties",
+            "text": "28 NOV 2017 CryptoKitties See a different use of Ethereum before Uniswap\u2019s launch Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/ethereum-goes-live",
+          "/cards/dai-goes-live",
+          "/cards/cryptokitties"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+        "redirects": [],
+        "bytes": 74192,
+        "sha256": "fec8ce13f46f67416cb68113b073650cb60c63a728550cd9c6a5e60673b3531c",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::6xmzn-1791524573074-3a662f9f01ff",
+        "x_vercel_cache": "PRERENDER",
+        "seconds": 5.953,
+        "number": "050",
+        "slug": "the-pineapple-fund",
+        "h1": "The Pineapple Fund",
+        "canonical": "https://lore-site-v1.vercel.app/cards/the-pineapple-fund",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/uniswap-launches",
+            "text": "Previous moment Uniswap Launches"
+          },
+          {
+            "href": "/cards/quadrigacx",
+            "text": "Next moment QuadrigaCX"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/uniswap-launches",
+          "/cards/quadrigacx"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/pizza-day",
+            "text": "22 MAY 2010 Pizza Day Return to an earlier moment when Bitcoin became something tangible Read the story"
+          },
+          {
+            "href": "/cards/wikileaks-bitcoin",
+            "text": "14 JUN 2011 WikiLeaks Accepts Bitcoin Explore an earlier use of Bitcoin for donations Read the story"
+          },
+          {
+            "href": "/cards/lightning-goes-live",
+            "text": "15 MAR 2018 Lightning Goes Live See another 2018 experiment in what Bitcoin could make possible Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/pizza-day",
+          "/cards/wikileaks-bitcoin",
+          "/cards/lightning-goes-live"
+        ],
+        "related_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "redirects": [],
+        "bytes": 67182,
+        "sha256": "408c809bfd40d40a090d09a5d7246a37737156829d0d286183771e49f8cb40f4",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::rnhhg-1791524573034-9a818dbd751b",
+        "x_vercel_cache": "HIT",
+        "seconds": 5.778,
+        "number": "052",
+        "slug": "quadrigacx",
+        "h1": "QuadrigaCX",
+        "canonical": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "canonical_matches": true,
+        "sequence": [
+          {
+            "href": "/cards/the-pineapple-fund",
+            "text": "Previous moment The Pineapple Fund"
+          }
+        ],
+        "expected_sequence": [
+          "/cards/the-pineapple-fund"
+        ],
+        "sequence_matches": true,
+        "related": [
+          {
+            "href": "/cards/mt-gox",
+            "text": "28 FEB 2014 Mt. Gox Compare an earlier exchange collapse, with different causes and recovery proceedings Read the story"
+          },
+          {
+            "href": "/cards/keys-in-your-pocket",
+            "text": "29 JUL 2014 Keys In Your Pocket Explore the difference between holding private keys and trusting a custodian Read the story"
+          },
+          {
+            "href": "/cards/the-bitfinex-heist",
+            "text": "02 AUG 2016 The Bitfinex Heist Contrast theft from an exchange with the misconduct identified in the Quadriga review Read the story"
+          }
+        ],
+        "expected_related": [
+          "/cards/mt-gox",
+          "/cards/keys-in-your-pocket",
+          "/cards/the-bitfinex-heist"
+        ],
+        "related_matches": true,
+        "passed": true
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://lore-site-v1.vercel.app/archive/052-histrove-border-card.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/archive/052-histrove-border-card.webp",
+        "redirects": [],
+        "bytes": 542466,
+        "sha256": "6365e3af5b34dadd53e0ec1e8fccb7c6d3d27e1a0a970c101a27a1ac4232b201",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::g6q52-1791524578689-a69418081310",
+        "x_vercel_cache": "MISS",
+        "seconds": 5.525,
+        "name": "display:archive/052-histrove-border-card.webp",
+        "expected_sha256": "6365e3af5b34dadd53e0ec1e8fccb7c6d3d27e1a0a970c101a27a1ac4232b201",
+        "expected_bytes": 542466,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/archive/052-art.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/archive/052-art.webp",
+        "redirects": [],
+        "bytes": 1681792,
+        "sha256": "94748c04ee5a1d988f3e9dbad26d7fa775ae901d77520a9044d3be3d5688422c",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::5nz8j-1791524578770-5425dfb6265d",
+        "x_vercel_cache": "MISS",
+        "seconds": 5.844,
+        "name": "display:archive/052-art.webp",
+        "expected_sha256": "94748c04ee5a1d988f3e9dbad26d7fa775ae901d77520a9044d3be3d5688422c",
+        "expected_bytes": 1681792,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/archive/052-histrove-page-1.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/archive/052-histrove-page-1.webp",
+        "redirects": [],
+        "bytes": 983368,
+        "sha256": "895f860f66fd5c93259598f415f9147c42f90dca99e70da595006bb99d55a380",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::tnqfr-1791524578688-79b8afbbaa68",
+        "x_vercel_cache": "MISS",
+        "seconds": 5.614,
+        "name": "display:archive/052-histrove-page-1.webp",
+        "expected_sha256": "895f860f66fd5c93259598f415f9147c42f90dca99e70da595006bb99d55a380",
+        "expected_bytes": 983368,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/archive/052-histrove-page-2.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/archive/052-histrove-page-2.webp",
+        "redirects": [],
+        "bytes": 257264,
+        "sha256": "5e883a1e1311b057b8837b4fb1c12d904a93919d936cb6202fc8dae5a76befa8",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::k5k7f-1791524578770-949eeccf4b1b",
+        "x_vercel_cache": "MISS",
+        "seconds": 5.585,
+        "name": "display:archive/052-histrove-page-2.webp",
+        "expected_sha256": "5e883a1e1311b057b8837b4fb1c12d904a93919d936cb6202fc8dae5a76befa8",
+        "expected_bytes": 257264,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/closeups/052-01.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/closeups/052-01.webp",
+        "redirects": [],
+        "bytes": 425916,
+        "sha256": "a65e8f6be6d3cfd1be79fe56187a1ea31a925f35c1686fef18b8c93b90dd3897",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::v52st-1791524578717-4280cb89e3e9",
+        "x_vercel_cache": "MISS",
+        "seconds": 5.719,
+        "name": "display:closeups/052-01.webp",
+        "expected_sha256": "a65e8f6be6d3cfd1be79fe56187a1ea31a925f35c1686fef18b8c93b90dd3897",
+        "expected_bytes": 425916,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/closeups/052-02.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/closeups/052-02.webp",
+        "redirects": [],
+        "bytes": 67786,
+        "sha256": "d21a7f3c7ed46e222d2d4dbdfaf2aa7540a9c94431b5944a7bad992136ee8b6b",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::hh687-1791524578686-3ae9afa8db67",
+        "x_vercel_cache": "MISS",
+        "seconds": 5.443,
+        "name": "display:closeups/052-02.webp",
+        "expected_sha256": "d21a7f3c7ed46e222d2d4dbdfaf2aa7540a9c94431b5944a7bad992136ee8b6b",
+        "expected_bytes": 67786,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/closeups/052-03.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/closeups/052-03.webp",
+        "redirects": [],
+        "bytes": 101122,
+        "sha256": "9a9f6b31d61985c3688a09bc5781dcfe07548ec367d9f7d75c50740711884cab",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::2m4gw-1791524582885-b21076667f2d",
+        "x_vercel_cache": "MISS",
+        "seconds": 4.193,
+        "name": "display:closeups/052-03.webp",
+        "expected_sha256": "9a9f6b31d61985c3688a09bc5781dcfe07548ec367d9f7d75c50740711884cab",
+        "expected_bytes": 101122,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/closeups/052-04.webp",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/closeups/052-04.webp",
+        "redirects": [],
+        "bytes": 12494,
+        "sha256": "c5dcaf3018654f2eff2a6a53ff4fe47e5ae978057af8579af55a3858e6b981b7",
+        "content_type": "image/webp",
+        "x_vercel_id": "sfo1::n9q9r-1791524582836-43780d0ba1aa",
+        "x_vercel_cache": "MISS",
+        "seconds": 4.052,
+        "name": "display:closeups/052-04.webp",
+        "expected_sha256": "c5dcaf3018654f2eff2a6a53ff4fe47e5ae978057af8579af55a3858e6b981b7",
+        "expected_bytes": 12494,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/season-01/quadrigacx-master-052/art.png",
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/season-01/quadrigacx-master-052/art.png",
+        "redirects": [],
+        "bytes": 2167814,
+        "sha256": "52cd74fb1de6fab8379e3a8b2f94002d38f769faa407b29702b582e1d37fa08e",
+        "content_type": "image/png",
+        "x_vercel_id": null,
+        "x_vercel_cache": null,
+        "seconds": 5.831,
+        "name": "download:art",
+        "expected_sha256": "52cd74fb1de6fab8379e3a8b2f94002d38f769faa407b29702b582e1d37fa08e",
+        "expected_bytes": 2167814,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/book/crypto-season-01/histrove-v1/052-quadrigacx-histrove-v1.pdf",
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/book/crypto-season-01/histrove-v1/052-quadrigacx-histrove-v1.pdf",
+        "redirects": [],
+        "bytes": 4428069,
+        "sha256": "4b69f32e2e0cd067200f9e6a7cfddb9f029cff1da7192419f8f1e7b8f3792be2",
+        "content_type": "application/octet-stream",
+        "x_vercel_id": null,
+        "x_vercel_cache": null,
+        "seconds": 5.814,
+        "name": "download:book",
+        "expected_sha256": "4b69f32e2e0cd067200f9e6a7cfddb9f029cff1da7192419f8f1e7b8f3792be2",
+        "expected_bytes": 4428069,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/book/crypto-season-01/histrove-v1/chapters/052-quadrigacx.md",
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/book/crypto-season-01/histrove-v1/chapters/052-quadrigacx.md",
+        "redirects": [],
+        "bytes": 3309,
+        "sha256": "7cf79844331431e721cf1d80eba6c4b53379dd834be84f2d814849ad166285d8",
+        "content_type": "text/plain; charset=utf-8",
+        "x_vercel_id": null,
+        "x_vercel_cache": null,
+        "seconds": 5.382,
+        "name": "download:chapter",
+        "expected_sha256": "7cf79844331431e721cf1d80eba6c4b53379dd834be84f2d814849ad166285d8",
+        "expected_bytes": 3309,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-052-Front-Print-v1.png",
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-052-Front-Print-v1.png",
+        "redirects": [],
+        "bytes": 778909,
+        "sha256": "cfc9c7d7641053613fdb93f45558bd631d46d2c5005ad27c66edf3aba5c3334a",
+        "content_type": "image/png",
+        "x_vercel_id": null,
+        "x_vercel_cache": null,
+        "seconds": 5.326,
+        "name": "download:print-png",
+        "expected_sha256": "cfc9c7d7641053613fdb93f45558bd631d46d2c5005ad27c66edf3aba5c3334a",
+        "expected_bytes": 778909,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-052-Front-Print-v1.pdf",
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-052-Front-Print-v1.pdf",
+        "redirects": [],
+        "bytes": 3832404,
+        "sha256": "9bb09792145d3a057c19fe18cfe38e90384af703373bd7c98c1f6799204322f8",
+        "content_type": "application/octet-stream",
+        "x_vercel_id": null,
+        "x_vercel_cache": null,
+        "seconds": 1.73,
+        "name": "download:print-pdf",
+        "expected_sha256": "9bb09792145d3a057c19fe18cfe38e90384af703373bd7c98c1f6799204322f8",
+        "expected_bytes": 3832404,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      },
+      {
+        "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-052-Front-Print-v1.svg",
+        "status": 200,
+        "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/065785c4f7dfd38956f7171d7b336cd3efe85abe/cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-052-Front-Print-v1.svg",
+        "redirects": [],
+        "bytes": 3458055,
+        "sha256": "7c764fbdede969179fb6289b846557e6bb922b9b828aa38d89249c3b707adf6a",
+        "content_type": "image/svg+xml",
+        "x_vercel_id": null,
+        "x_vercel_cache": null,
+        "seconds": 1.779,
+        "name": "download:print-svg",
+        "expected_sha256": "7c764fbdede969179fb6289b846557e6bb922b9b828aa38d89249c3b707adf6a",
+        "expected_bytes": 3458055,
+        "hash_matches": true,
+        "length_matches": true,
+        "passed": true
+      }
+    ],
+    "qr_redirects": [
+      {
+        "url": "https://lore-site-v1.vercel.app/crypto/052",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "redirects": [
+          {
+            "status": 308,
+            "from": "https://lore-site-v1.vercel.app/crypto/052",
+            "to": "https://lore-site-v1.vercel.app/cards/quadrigacx"
+          }
+        ],
+        "bytes": 67182,
+        "sha256": "408c809bfd40d40a090d09a5d7246a37737156829d0d286183771e49f8cb40f4",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::pz5ch-1791524598161-ef204c5d9fbb",
+        "x_vercel_cache": "HIT",
+        "seconds": 13.391,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/crypto/052/",
+        "status": 200,
+        "final_url": "https://lore-site-v1.vercel.app/cards/quadrigacx",
+        "redirects": [
+          {
+            "status": 308,
+            "from": "https://lore-site-v1.vercel.app/crypto/052/",
+            "to": "https://lore-site-v1.vercel.app/crypto/052"
+          },
+          {
+            "status": 308,
+            "from": "https://lore-site-v1.vercel.app/crypto/052",
+            "to": "https://lore-site-v1.vercel.app/cards/quadrigacx"
+          }
+        ],
+        "bytes": 67182,
+        "sha256": "408c809bfd40d40a090d09a5d7246a37737156829d0d286183771e49f8cb40f4",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::gsvbl-1791524610979-fff6a1d72df9",
+        "x_vercel_cache": "HIT",
+        "seconds": 12.812,
+        "passed": true
+      }
+    ],
+    "unpublished_051": [
+      {
+        "url": "https://lore-site-v1.vercel.app/crypto/051",
+        "status": 404,
+        "final_url": "https://lore-site-v1.vercel.app/crypto/051",
+        "redirects": [],
+        "bytes": 13983,
+        "sha256": "ba5b9a0f8fdbf9192dc8b4bd144eef4002cc5118fbcd8cca82b2d69b224afd8c",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::tkntx-1791524614291-a5a8e1655de4",
+        "x_vercel_cache": "MISS",
+        "seconds": 3.404,
+        "passed": true
+      },
+      {
+        "url": "https://lore-site-v1.vercel.app/crypto/051/",
+        "status": 404,
+        "final_url": "https://lore-site-v1.vercel.app/crypto/051",
+        "redirects": [
+          {
+            "status": 308,
+            "from": "https://lore-site-v1.vercel.app/crypto/051/",
+            "to": "https://lore-site-v1.vercel.app/crypto/051"
+          }
+        ],
+        "bytes": 13983,
+        "sha256": "ba5b9a0f8fdbf9192dc8b4bd144eef4002cc5118fbcd8cca82b2d69b224afd8c",
+        "content_type": "text/html; charset=utf-8",
+        "x_vercel_id": "sfo1::bbqsn-1791524622696-18c7d87e45b0",
+        "x_vercel_cache": "HIT",
+        "seconds": 8.326,
+        "passed": true
+      }
+    ],
+    "sitemap": {
+      "url": "https://lore-site-v1.vercel.app/sitemap.xml",
+      "status": 200,
+      "final_url": "https://lore-site-v1.vercel.app/sitemap.xml",
+      "redirects": [],
+      "bytes": 4155,
+      "sha256": "42e5c97d132bcabec32a6cb602194309effaf342488ba9f6d8c10977fecb84e3",
+      "content_type": "application/xml",
+      "x_vercel_id": "sfo1::nnpcv-1791524626248-fc3fb1928ea5",
+      "x_vercel_cache": "PRERENDER",
+      "seconds": 3.724,
+      "canonical_card_count": 51,
+      "expected_card_count": 51,
+      "missing": [],
+      "unexpected": [],
+      "contains_crypto_051": false,
+      "passed": true
+    },
+    "chronology": {
+      "archive_order": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018",
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024",
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030",
+        "031",
+        "032",
+        "033",
+        "034",
+        "035",
+        "036",
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042",
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "048",
+        "049",
+        "050",
+        "052"
+      ],
+      "quadrigacx_previous": [
+        {
+          "href": "/cards/the-pineapple-fund",
+          "text": "Previous moment The Pineapple Fund"
+        }
+      ],
+      "pineapple_sequence": [
+        {
+          "href": "/cards/uniswap-launches",
+          "text": "Previous moment Uniswap Launches"
+        },
+        {
+          "href": "/cards/quadrigacx",
+          "text": "Next moment QuadrigaCX"
+        }
+      ],
+      "quadrigacx_is_final": true,
+      "years_nondecreasing": true,
+      "all_sequence_links_passed": true,
+      "no_051_link_in_pages": true,
+      "passed": true
+    },
+    "summary": {
+      "canonical_routes_passed": 51,
+      "canonical_routes_total": 51,
+      "display_assets_passed": 8,
+      "immutable_downloads_passed": 6,
+      "qr_redirects_passed": 2,
+      "unpublished_051_checks_passed": 2,
+      "sitemap_passed": true,
+      "chronology_passed": true
+    }
+  },
+  "qr": {
+    "png": true,
+    "pdf": true,
+    "web_card": true,
+    "target": "https://lore-site-v1.vercel.app/crypto/052/"
+  },
+  "browser": {
+    "environment": "Cloud Chromium",
+    "desktop": {
+      "viewport_width": 1180,
+      "document_scroll_width": 1165,
+      "story": true,
+      "four_clues": true,
+      "hidden_note_zoom": true,
+      "clue_to_artwork_navigation": true,
+      "two_book_pages_rendered": true
+    },
+    "narrow": {
+      "viewport_css_width": 400,
+      "document_client_width": 388,
+      "document_scroll_width": 388,
+      "method": "Resized desktop window with browser zoom; responsive CSS, not physical-device emulation",
+      "story": true,
+      "single_column_clues": true,
+      "book_page_switch": true,
+      "no_horizontal_document_overflow": true
+    },
+    "limitations": [
+      "Physical mobile device and camera QR not tested"
+    ],
+    "result": "passed"
+  },
+  "build_tests": "npm test, npm run test:search, npm run test:buyer, npm run build passed",
+  "native_book_effective_ppi": 128.2095238095238,
+  "physical_print_acceptance": false,
+  "camera_qr_test": false,
+  "commercial_rights_review": "Separate"
+}
