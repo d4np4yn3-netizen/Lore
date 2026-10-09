@@ -1,8 +1,106 @@
 {
-  "status": "PUBLICATION_PENDING",
+  "status": "PUBLISHED_AND_DIGITALLY_VERIFIED",
+  "verified_date": "2026-10-09",
+  "publication_commit": "d1ada38cd6de91560f97d26b7332804a9706e0ac",
+  "immutable_asset_commit": "ad1d48395aeddbb1b3077fac42b6f943e7206b87",
+  "deployment": {
+    "id": "dpl_3uy1qt924mNgosQZo99G3z4AmKjh",
+    "state": "READY",
+    "url": "lore-site-v1-hwpxr0wo6-d4n1.vercel.app",
+    "commit": "d1ada38cd6de91560f97d26b7332804a9706e0ac",
+    "target": "production"
+  },
   "art_sha256": "0451d34936796252c7a1f01675597fbb88bd855b15195bc7171021578db5581e",
-  "local_card_qa": "PASS",
-  "book_qa": "PASS",
-  "publication_scope": "Card051, book, website and immutable downloads;001–052 preserved",
-  "physical_print_acceptance": false
+  "book_sha256": "0a0637665045c99b9eaf655510f8156ef3f855fdb546293133354ba5128af698",
+  "local_checks": {
+    "test": "PASS",
+    "build": "PASS",
+    "search": "PASS",
+    "buyer": "PASS",
+    "card_qr_variants": 4,
+    "numbered_cards": 52,
+    "clues": 220,
+    "book_previews": 104,
+    "display_assets": 584,
+    "related_links": 126,
+    "prior_registry_objects_preserved": 53,
+    "prior_display_assets_preserved": 576,
+    "existing_local_files_verified_against_base": 940,
+    "marketing_modified": false,
+    "new_public_text_privacy_check": "PASS"
+  },
+  "remote_tree": {
+    "tree": "bf3b3fe07d24d8ea4489a56d1237ac802f22fd18",
+    "files_written": 77,
+    "previous_blobs_preserved": 2799,
+    "errors": []
+  },
+  "live_http": {
+    "summary": {
+      "canonical_routes_passed": 52,
+      "canonical_routes_total": 52,
+      "display_assets_passed": 8,
+      "display_assets_total": 8,
+      "immutable_downloads_passed": 6,
+      "immutable_downloads_total": 6,
+      "qr_redirect_variants_passed": 104,
+      "qr_redirect_variants_total": 104,
+      "qr_numbers_tested": 52,
+      "sequence_links_checked": 102,
+      "related_links_checked": 126,
+      "link_targets_passed": 228,
+      "sitemap_passed": true,
+      "chronology_passed": true,
+      "lightning_torch_content_passed": true
+    },
+    "evidence_sha256": "a5d5f67347c4c4b730da876f7c7b390fc84004ca8d2d676ba07ea45577a4782e"
+  },
+  "browser": {
+    "environment": "Cloud Chromium",
+    "verified_at_utc": "2026-10-09T06:24:43Z",
+    "desktop": {
+      "viewport_css_width": 1180,
+      "document_client_width": 1165,
+      "document_scroll_width": 1165,
+      "story_rendered": true,
+      "two_book_pages_rendered": true
+    },
+    "narrow": {
+      "viewport_css_width": 402,
+      "document_client_width": 390,
+      "document_scroll_width": 390,
+      "method": "Resized desktop window at 125 percent browser zoom; responsive CSS layout",
+      "story_rendered": true,
+      "four_clues_rendered": true,
+      "corrected_plus_visible": true,
+      "clue_to_full_artwork_markers": true,
+      "both_book_page_buttons_and_images": true
+    },
+    "chronological_navigation": {
+      "next_to_quadrigacx": true,
+      "browser_back_to_lightning_torch": true
+    },
+    "console": {
+      "site_errors_observed": false,
+      "extension_metadata_errors_observed": true
+    },
+    "browser_restored": {
+      "zoom_percent": 100,
+      "window_width": 510
+    },
+    "limits": [
+      "Physical mobile device and device-camera QR scans were not tested"
+    ],
+    "result": "passed"
+  },
+  "qr": {
+    "payload": "https://lore-site-v1.vercel.app/crypto/051/",
+    "target": "https://lore-site-v1.vercel.app/cards/lightning-torch",
+    "full_png_trim_png_pdf_web_pass": true
+  },
+  "book_native_effective_ppi": 128.2095238095238,
+  "book_resolution_review": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+  "physical_print_acceptance": false,
+  "device_camera_qr_test": false,
+  "rights_clearance": "SEPARATE_NOT_CLAIMED"
 }

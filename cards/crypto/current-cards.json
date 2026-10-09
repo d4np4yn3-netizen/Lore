@@ -7227,7 +7227,7 @@
       "approved_at": "2026-10-09",
       "approval_record": "cards/crypto/season-01/lightning-torch-master-051/approval.json",
       "qr_mode": "live",
-      "qr_status": "PUBLICATION_PENDING",
+      "qr_status": "LIVE_VERIFIED",
       "print_release": false,
       "publication_approved": true,
       "github_upload_authorised": true,
@@ -7282,7 +7282,10 @@
       "book_native_effective_ppi": 128.2095238095238,
       "rights_review": "Separate commercial reproduction review; fictional travellers and Portofino-inspired handoff.",
       "qr_target": "https://lore-site-v1.vercel.app/cards/lightning-torch",
-      "publication_verification": "cards/crypto/season-01/lightning-torch-master-051/publication-verification.json"
+      "publication_verification": "cards/crypto/season-01/lightning-torch-master-051/publication-verification.json",
+      "publication_status": "PUBLISHED_AND_VERIFIED",
+      "publication_commit": "d1ada38cd6de91560f97d26b7332804a9706e0ac",
+      "production_deployment": "dpl_3uy1qt924mNgosQZo99G3z4AmKjh"
     },
     {
       "rarity": "common",
@@ -7389,11 +7392,9 @@
   "updated_at": "2026-10-09",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 54,
-  "numbered_published_count": 51,
-  "numbering_gap_note": "Prepared numbered collection 001–052 with no numbering gaps. Two unnumbered designs remain archived.",
-  "pending_live_verification_numbers": [
-    "051"
-  ],
+  "numbered_published_count": 52,
+  "numbering_gap_note": "Published numbered collection 001–052 with no numbering gaps. Two unnumbered designs remain archived.",
+  "pending_live_verification_numbers": [],
   "prepared_numbered_count": 52,
   "current_numbered_print_count": 52,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",

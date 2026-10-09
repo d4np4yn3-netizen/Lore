@@ -1,10 +1,12 @@
-# 051 Lightning Torch release prepared — 9 October 2026
+# 051 Lightning Torch published and digitally verified — 9 October 2026
 
-The approved centred Portofino composition now has a clear +10,000 SATS engraving. BITCOIN / LIGHTNING TORCH / Common / 19 JAN 2019 / PASS IT ON. Final artwork SHA-256: `0451d34936796252c7a1f01675597fbb88bd855b15195bc7171021578db5581e`. Current master: `cards/crypto/season-01/lightning-torch-master-051`.
+The centred Portofino composition and corrected +10,000 SATS engraving are preserved in final artwork SHA-256 `0451d34936796252c7a1f01675597fbb88bd855b15195bc7171021578db5581e`. BITCOIN / LIGHTNING TORCH / Common / 19 JAN 2019 / PASS IT ON. Current master: `cards/crypto/season-01/lightning-torch-master-051`.
 
-The release inserts 051 between 050 and 052, closing the numbering gap. The prepared collection has 52 numbered cards, 220 clues, 104 book previews, 584 display assets and 126 related-story links. Existing card objects, 052, marketing files, branding, SEO and shop remain preserved. Book and site share five paragraphs, two primary sources and four visible-art clues. The requested 10,000-satoshi additions are distinguished from actual exceptions; the harbour and boat are fictional metaphorical imagery.
+The published collection now has all 52 numbered cards, 001–052, with 051 inserted between 050 and 052. There are 220 clues, 104 book previews, 584 display assets and 126 related-story links. All 53 prior registry objects, 576 prior display assets and unrelated repository files including marketing are preserved. Book and site share five story paragraphs, two primary sources and four visible-art clues. The requested 10,000-satoshi additions are distinguished from actual exceptions; the harbour and boat are fictional metaphorical imagery.
 
-Exact card/PDF/web QR checks, unchanged print geometry, native book pixels, deterministic book rebuild and all local site tests/build pass. Immutable originals are pinned to asset commit `ad1d48395aeddbb1b3077fac42b6f943e7206b87`. GitHub main publication and live deployment verification are pending. Native A4 artwork remains 128.21 effective PPI with final resolution review deferred. Physical printing and rights review remain separate.
+Content release `d1ada38cd6de91560f97d26b7332804a9706e0ac` is verified on GitHub main and production deployment `dpl_3uy1qt924mNgosQZo99G3z4AmKjh` is READY. Originals are pinned to asset commit `ad1d48395aeddbb1b3077fac42b6f943e7206b87`. All 52 canonical card pages, 104 slash/no-slash QR variants, 8 new display assets, 6 immutable downloads, navigation, sitemap and desktop/narrow browser flows pass. Full local tests, production build, search and buyer checks pass. The master’s publication-verification.json records evidence and limits.
+
+Native A4 artwork remains 128.21 effective PPI with resolution review deferred to the final collection review. Physical printer acceptance, device-camera scanning and commercial rights review remain separate.
 
 ---
 
