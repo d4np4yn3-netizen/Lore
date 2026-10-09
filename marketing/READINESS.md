@@ -40,3 +40,4 @@ Research snapshot: 8 October 2026. This is a preparation checklist, not legal ad
 ## Small pilot, then learn
 
 Select a small approved group, personalise the angle, and obtain send approval. Keep private correspondence, quotes, sample addresses, opt-outs and relationship notes in a private system, not this public repository. Track qualified replies, buyer referrals, sample requests and viable commercial conversations rather than treating a large address list as success.
+

@@ -1,6 +1,10 @@
 # Coverage and refresh plan
 
-This is a first researched wave, not a complete worldwide list of crypto companies, events or creators. Inclusion indicates a possible fit inferred from public evidence, not willingness to buy, current budget, legal clearance, product endorsement or a verified decision-maker.
+This is a two-pass researched register, not a complete worldwide list of crypto companies, events or creators. Inclusion indicates a possible fit inferred from public evidence, not willingness to buy, current budget, legal clearance, product endorsement or a verified decision-maker.
+
+## Coverage added on 9 October
+
+The second pass adds APAC retail/distribution, Latin American and African media/events, North American non-sports collectible retailers/distribution, and European book/arts/privacy communities. It adds 46 opportunities and clarifies contact purpose on 23 existing records. Geographic labels describe market relevance, not verified legal domicile. Watchlists retain route, activity or date gaps explicitly.
 
 ## Next research passes
 
@@ -21,4 +25,5 @@ Dates are research dates, not guarantees of live deliverability. Search-index ev
 
 The master register merges direct duplicates such as a company and its store where identified, retaining the additional retail angle. Related brands and event editions can remain separate opportunities but must be approached as a coordinated account: BTC Inc / Bitcoin Magazine / Bitcoin Conference; Animoca / The Sandbox; CoinDesk / Consensus; Blockworks / Permissionless; and similar groups. Avoid parallel approaches to a parent and subsidiary without checking ownership and the best route.
 
-The category CSVs preserve research detail. Use the master register as the outreach-planning starting point and the shortlist as an initial review queue. Do not import the entire dataset into a sending system without individual qualification and approval.
+Current category CSVs partition the master using the same schema. Original first-pass category research is preserved in archive/2026-10-08; current contact corrections take precedence. Use the master register as the outreach-planning starting point and the shortlist as an initial review queue. Do not import the entire dataset into a sending system without individual qualification and approval.
+
