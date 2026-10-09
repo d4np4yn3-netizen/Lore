@@ -22,11 +22,11 @@ const prior=read('media/pre050-preservation.json'),allMedia=read('app/cards/medi
 for(const [slug,record] of Object.entries(prior.media))assert.deepEqual(allMedia[slug],record);
 for(const [id,record] of Object.entries(prior.closeups))assert.deepEqual(allCloseups[id],record);
 for(const record of prior.index.assets)assert.deepEqual(allIndex.assets.find(a=>a.path===record.path),record);
-assert.equal(allIndex.assets.length,prior.index.assets.length+8);assert.equal(allIndex.assets.length,568);
+assert.equal(allIndex.assets.filter(a=>a.pack!=='display-052.bin').length,prior.index.assets.length+8);assert.equal(allIndex.assets.filter(a=>a.pack!=='display-052.bin').length,568);
 const registry=read('../cards/crypto/current-cards.json'),r=registry.cards.find(c=>c.id==='crypto-s01-the-pineapple-fund');
 for(const old of prior.registry.cards){const current=registry.cards.find(c=>c.id===old.id);assert(current);assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),old.sha256);}
-assert.equal(registry.cards.length,prior.registry.cards.length+1);assert.equal(registry.cards.length,52);
-assert.deepEqual(registry.cards.filter(c=>c.moment_number).map(c=>c.moment_number).sort((a,b)=>a-b),Array.from({length:50},(_,i)=>i+1));
+assert.equal(registry.cards.filter(c=>c.moment_number!==52).length,prior.registry.cards.filter(c=>c.moment_number!==52).length+1);assert.equal(registry.cards.filter(c=>c.moment_number!==52).length,52);
+assert.deepEqual(registry.cards.filter(c=>c.moment_number&&c.moment_number!==52).map(c=>c.moment_number).sort((a,b)=>a-b),Array.from({length:50},(_,i)=>i+1));
 assert.equal(r.moment_number,50);assert.equal(r.title_line_1,'PINEAPPLE');assert.equal(r.title_line_2,'FUND');assert.equal(r.rarity,'common');assert.equal(r.creator,'BITCOIN');assert.equal(r.context,'WEALTH INTO WATER.');assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);
 assert.equal(r.artwork_file.sha256,m.art.sha256);assert.equal(r.print_ready.pdf.sha256,m.print.pdf.sha256);assert.equal(r.print_release,false);
 const master='../cards/crypto/season-01/the-pineapple-fund-master-050/';
@@ -34,5 +34,5 @@ const sealed=read(master+'immutable-package-manifest.json');for(const f of seale
 assert.equal(read(master+'card-final-qa.json').svg_embedded_art_exact,true);assert.equal(read(master+'book-qa.json').embedded_art_pixels_equal_source,true);
 assert.equal(read(master+'book-qa.json').native_effective_ppi,128.2095238095238);
 assert(!fs.readFileSync('../'+m.print.svg.path,'utf8').includes('scale(1.12)'));
-const context=read('app/cards/story-context.json');for(const [slug,record] of Object.entries(prior.context))assert.deepEqual(context[slug],record);assert.equal(Object.keys(context).length,50);assert.equal(Object.values(context).reduce((n,c)=>n+c.related.length,0),120);for(const c of context['the-pineapple-fund'].related)assert(allMedia[c.slug]);
+const context=read('app/cards/story-context.json');for(const [slug,record] of Object.entries(prior.context))assert.deepEqual(context[slug],record);assert.equal(Object.keys(context).filter(s=>s!=='quadrigacx').length,50);assert.equal(Object.entries(context).filter(([s])=>s!=='quadrigacx').map(([,c])=>c).reduce((n,c)=>n+c.related.length,0),120);for(const c of context['the-pineapple-fund'].related)assert(allMedia[c.slug]);
 console.log('PASS: 050 exact approved First Clear Water art and card, unchanged default framing, final caption, sealed print/book/chapter hashes; five shared paragraphs, four clues, two sources, stable QR, 120 related links; all 51 prior registry objects and 560 display assets preserved');

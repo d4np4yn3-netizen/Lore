@@ -1,7 +1,7 @@
 {
   "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_at": "2026-10-06",
-  "front_count": 50,
+  "front_count": 51,
   "shared_back_count": 1,
   "fronts": [
     {
@@ -2413,6 +2413,42 @@
       "artwork_sha256": "816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192",
       "physical_print_release": false,
       "qa": "cards/crypto/print-ready/histrove-v1/qa/050.json"
+    },
+    {
+      "png": {
+        "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-052-Front-Print-v1.png",
+        "bytes": 778909,
+        "sha256": "cfc9c7d7641053613fdb93f45558bd631d46d2c5005ad27c66edf3aba5c3334a"
+      },
+      "pdf": {
+        "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-052-Front-Print-v1.pdf",
+        "bytes": 3832404,
+        "sha256": "9bb09792145d3a057c19fe18cfe38e90384af703373bd7c98c1f6799204322f8"
+      },
+      "svg": {
+        "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-052-Front-Print-v1.svg",
+        "bytes": 3458055,
+        "sha256": "7c764fbdede969179fb6289b846557e6bb922b9b828aa38d89249c3b707adf6a"
+      },
+      "qr_png_pdf_pass": true,
+      "outlined_pdf_text": true,
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "dpi": 300,
+      "number": "052",
+      "title": "QUADRIGACX",
+      "rarity": "common",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/052/",
+      "artwork_native_px": [
+        1060,
+        1484
+      ],
+      "artwork_effective_ppi": 465.99186265753696,
+      "artwork_sha256": "816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192",
+      "physical_print_release": false,
+      "qa": "cards/crypto/print-ready/histrove-v1/qa/052.json"
     }
   ],
   "shared_back": {

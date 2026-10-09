@@ -21,10 +21,10 @@ const prior=read('media/pre047-preservation.json'),allMedia=read('app/cards/medi
 for(const [slug,record] of Object.entries(prior.media))assert.deepEqual(allMedia[slug],record);
 for(const [id,record] of Object.entries(prior.closeups))assert.deepEqual(allCloseups[id],record);
 for(const record of prior.index.assets)assert.deepEqual(allIndex.assets.find(a=>a.path===record.path),record);
-assert.equal(allIndex.assets.filter(a=>!['display-048.bin','display-049.bin','display-050.bin'].includes(a.pack)).length,prior.index.assets.length+8);
+assert.equal(allIndex.assets.filter(a=>!['display-048.bin','display-049.bin','display-050.bin','display-052.bin'].includes(a.pack)).length,prior.index.assets.length+8);
 const registry=read('../cards/crypto/current-cards.json'),r=registry.cards.find(c=>c.id==='crypto-s01-dai-goes-live');
 for(const old of prior.registry.cards)assert.deepEqual(registry.cards.find(c=>c.id===old.id),old);
-assert.equal(registry.cards.filter(c=>![48,49,50].includes(c.moment_number)).length,prior.registry.cards.length+1);assert.equal(r.moment_number,47);assert.equal(r.title_line_1,'DAI');assert.equal(r.title_line_2,'GOES LIVE');assert.equal(r.rarity,'rare');assert.equal(r.creator,'MAKERDAO');assert.equal(r.context,'DAI IS NOW LIVE!');assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);assert.equal(registry.cards.filter(c=>c.moment_number===47).length,1);
+assert.equal(registry.cards.filter(c=>![48,49,50,52].includes(c.moment_number)).length,prior.registry.cards.length+1);assert.equal(r.moment_number,47);assert.equal(r.title_line_1,'DAI');assert.equal(r.title_line_2,'GOES LIVE');assert.equal(r.rarity,'rare');assert.equal(r.creator,'MAKERDAO');assert.equal(r.context,'DAI IS NOW LIVE!');assert.equal(r.qr_mode,'live');assert.equal(r.qr_url,m.qr);assert.equal(registry.cards.filter(c=>c.moment_number===47).length,1);
 assert.equal(r.artwork_file.sha256,m.art.sha256);assert.equal(r.print_ready.pdf.sha256,m.print.pdf.sha256);assert.equal(r.print_release,false);
 const master='../cards/crypto/season-01/dai-goes-live-master-047/';
 const sealed=read(master+'immutable-package-manifest.json');for(const f of sealed.files)assert.equal(h(master+f.path),f.sha256);
