@@ -1,6 +1,6 @@
 # HISTROVE marketing research
 
-**Two researched passes · 8–9 October 2026 · 172 deduplicated opportunities · 25-priority review shortlist**
+**Three researched passes · 8–9 October 2026 · 201 deduplicated opportunities · 25-priority review shortlist**
 
 HISTROVE / **History Worth Holding**: an anime-styled physical crypto-history card collection, planned as 100 cards, 10-card booster packs and a companion book. This folder supports later partnership, retail, event and creator outreach. It does not imply an investment product, gameplay, NFT entitlement or an existing partnership.
 
@@ -13,15 +13,17 @@ HISTROVE / **History Worth Holding**: an anime-styled physical crypto-history ca
 
 ## Research detail
 
-- [Companies](companies.csv): 51 companies, publishers and community organisations
+- [Companies](companies.csv): 55 companies, publishers and community organisations
 - [Events](events.csv): 53 event opportunities, including clearly labelled watchlists
-- [Creators](creators.csv): 39 public creator/media brands
-- [Retailers](retailers.csv): 29 shops, distributors and marketplace channels
+- [Creators](creators.csv): 46 public creator/media brands
+- [Retailers](retailers.csv): 47 shops, art/merchandise venues, distributors and marketplace channels
+- [Third-pass findings](THIRD-PASS.md): 29 selected additions, seven revised records and 12 contact-gap checks
+- [Contact gap review](contact-review-pass3.csv): resolved, partial and unresolved routing outcomes
 - [Second-pass findings](SECOND-PASS.md): 46 additions, 23 rechecked existing records, contact corrections and strongest new candidates
 
-These four current CSVs use the same schema as the master and partition its 172 rows exactly. Original first-pass category research is preserved under [archive/2026-10-08](archive/2026-10-08/); it contains 127 historical research rows before the Blockstream store/company merge, and is not the current contact list. Current cautions and routes take precedence.
+These four current CSVs use the same schema as the master and partition its 201 rows exactly. Original first-pass category research is preserved under [archive/2026-10-08](archive/2026-10-08/); it contains 127 historical research rows before the Blockstream store/company merge, and is not the current contact list. Current cautions and routes take precedence.
 
-Related event editions and brands remain separate opportunities with account groups for coordination; 172 is not a count of unique legal entities. Record IDs remain stable. New columns distinguish segment, research wave and next qualification step. Do not approach related editions or parent/child brands in parallel without checking ownership and the best account route.
+Related event editions and brands remain separate opportunities with account groups for coordination; 201 is not a count of unique legal entities. Record IDs remain stable. New columns distinguish segment, research wave and next qualification step. Do not approach related editions or parent/child brands in parallel without checking ownership and the best account route.
 
 ## What is verified, and what is not
 
@@ -32,6 +34,11 @@ A = strongest initial research fit; B = plausible but requires referral or fit c
 Proposed angles and use cases are inferences. A sales form for buying a company's own service is not evidence that its team buys external merchandise. A sponsorship form usually sells event space. Public contact publication does not establish consent to unsolicited marketing.
 
 ## Useful current findings
+
+- Third pass prioritises physical-product relevance: Dezentralshop and BitcoinStuffStore explicitly invite seller/collaboration approaches; Copiaro stocks Bitcoin card games; Bitcoin Center Seoul has a shop and proposal route
+- Bitget business email is verified on the current official site. CoinCorner has a report-related marketing inbox; Kraken has indexed official email corroboration, with live recheck still required
+- Bitpanda is now B-watch because its officially linked partnership form returned404 in this research check
+- Six weaker discoveries were excluded from the master rather than increasing the headline count. Cultural venues, marketplaces and media sellers are labelled by purpose, not represented as confirmed stock buyers
 
 - Second pass adds specialist collectibles distribution and APAC, Latin American, African and arts/education coverage
 - Natalie Brunell has an explicit sponsorship email; OneKey has a purpose-specific Web3 marketing application
@@ -53,5 +60,5 @@ Research only. Nobody has been contacted, subscribed, booked, promised samples o
 
 This repository is public. These files use public business/organisational channels and concise research summaries. Keep future correspondence, personal delivery addresses, private quotes, negotiations, opt-outs and relationship records outside this folder in a private system. No private contact enrichment, guessed emails or follower estimates are included.
 
-This is a two-pass researched register, not an exhaustive global directory. Source links and checked dates make later validation possible; they do not remove the need to reopen the source immediately before use.
+This is a three-pass researched register, not an exhaustive global directory. Source links and checked dates make later validation possible; they do not remove the need to reopen the source immediately before use.
 

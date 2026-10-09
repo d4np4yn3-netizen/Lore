@@ -1,6 +1,12 @@
 # Coverage and refresh plan
 
-This is a two-pass researched register, not a complete worldwide list of crypto companies, events or creators. Inclusion indicates a possible fit inferred from public evidence, not willingness to buy, current budget, legal clearance, product endorsement or a verified decision-maker.
+This is a three-pass researched register, not a complete worldwide list of crypto companies, events or creators. Inclusion indicates a possible fit inferred from public evidence, not willingness to buy, current budget, legal clearance, product endorsement or a verified decision-maker.
+
+## Third-pass qualification focus
+
+The third pass adds 29 selected opportunities with stronger physical-product, cultural or language-market relevance. Six discoveries were omitted: five hardware-only adjacency businesses and a proposed museum without a current physical buying operation. Twelve existing contact gaps were reviewed; seven records changed. A successfully resolved business route still does not prove buying authority or consent.
+
+Next priority is qualifying product scope, landed costs, samples and actual buying ownership on the strongest retailers, rather than adding more broad support addresses. Keep watches for unresolved forms and distinguish paid media sellers, event-space sellers, marketplaces and potential inventory buyers.
 
 ## Coverage added on 9 October
 

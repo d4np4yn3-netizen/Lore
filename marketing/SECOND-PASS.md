@@ -1,5 +1,7 @@
 # Second-pass findings — 9 October 2026
 
+Historical snapshot of the second pass. The current master and [third-pass findings](THIRD-PASS.md) supersede counts and contact routes below.
+
 ## Result
 
 46 new opportunities bring the master from 126 to **172**. New coverage: 5 company/publisher/community, 20 event, 9 creator/media and 12 retail/distribution opportunities. New priorities: A: 13, B: 25, B-watch: 3, C: 5. Lower-priority and watchlist entries are discovery reserves, not ready-to-contact prospects. Overall category totals: 51 companies, 53 events, 39 creators/media and 29 retailers.

@@ -1,8 +1,8 @@
 # First 25 prospects to qualify
 
-Second pass: 9 October 2026. The original 25 remain a review queue, with contact-purpose checks strengthened. This is not an approved send list. Each checked date is individual: untouched event and retailer evidence remains dated 8 October. Priority measures inferred fit, not buying intent. Ledger is now B because the visible form sells its own hardware.
+Third pass: 9 October 2026. The original 25 remain a review queue, with contact-purpose checks strengthened. This is not an approved send list. Each checked date is individual: untouched event and retailer evidence remains dated 8 October. Priority measures inferred fit, not buying intent. Ledger is now B because the visible form sells its own hardware.
 
-Read [readiness gates](READINESS.md). Prices, stock, samples, rights, fulfilment and appropriate outreach permission still need to be established. For Bitcoin-only audiences, disclose the broader crypto collection; no separate Bitcoin-only edition is assumed. New candidates are listed in [second-pass findings](SECOND-PASS.md).
+Read [readiness gates](READINESS.md). Prices, stock, samples, rights, fulfilment and appropriate outreach permission still need to be established. For Bitcoin-only audiences, disclose the broader crypto collection; no separate Bitcoin-only edition is assumed. New candidates are listed in [third-pass findings](THIRD-PASS.md), with the previous wave in [second-pass findings](SECOND-PASS.md). Bitpanda is now B-watch because its linked form could not be opened. Kraken’s exact email is indexed-official corroboration and still requires a current live check.
 
 ## 1. FREE Madeira x Monstera Books (RET-001)
 
@@ -39,14 +39,14 @@ Read [readiness gates](READINESS.md). Prices, stock, samples, rights, fulfilment
 
 ## 4. Bitpanda (COM-002)
 
-- **Priority:** A
-- **Route:** https://www.group.bitpanda.com/partners (Official partnership page; Marketing / Tailored proposal route)
+- **Priority:** B-watch
+- **Route:** https://www.group.bitpanda.com/partners (Marketing / Tailored partnership page; linked form currently unresolved)
 - **Evidence:** Official group page explicitly invites marketing and cultural collaborations and tailored proposals.
 - **Personalised angle, inferred:** Culture-led community gift or staff launch pack
 - **Contact intent / next question:** Qualify whether the marketing/partnership team has a physical-gifting use case and who buys merchandise. A vendor sales or affiliate route alone is insufficient.
-- **Check first:** Buyer budget, procurement owner and willingness to buy HISTROVE are unverified. Get in touch links to an embedded Fillout form; final endpoint needs live browser verification.
+- **Check first:** Official Get in touch points to https://bitpanda.fillout.com/partnerwithus, which returned 404 in this check. Do not treat it as an actionable form or substitute an affiliate/support route. Buyer, budget and product fit unverified.
 - **Sources:** https://www.group.bitpanda.com/partners | https://www.group.bitpanda.com/partners | https://www.bitpanda.com/en/partnership
-- **Checked:** 2026-10-09; Official partnership page opened; Marketing and Tailored route descriptions checked; no form submitted
+- **Checked:** 2026-10-09; Official partnership page opened; exact linked Fillout destination followed and returned404
 
 ## 5. CoinJar (COM-004)
 
@@ -84,13 +84,13 @@ Read [readiness gates](READINESS.md). Prices, stock, samples, rights, fulfilment
 ## 8. Kraken (COM-006)
 
 - **Priority:** A
-- **Route:** https://support.kraken.com/articles/4410362151828-business-inquiries (Official Marketing or sponsorship with Kraken route; email destination still needs verification)
+- **Route:** marketing@kraken.com (Published marketing/content/sponsorship email; indexed localisation corroboration)
 - **Evidence:** Business inquiries article updated 1 October 2026 explicitly routes marketing, content and sponsorship initiatives.
 - **Personalised angle, inferred:** Crypto-history activation or employee gift
 - **Contact intent / next question:** Qualify whether the marketing/partnership team has a physical-gifting use case and who buys merchandise. A vendor sales or affiliate route alone is insufficient.
-- **Check first:** Email masked by web renderer; use official page link and verify displayed destination before outreach. Buyer budget unverified. Current English/German page confirms marketing/content/sponsorship intent but masks the email in the readable extraction. Reopen the email link before use; press and affiliate routes serve different purposes.
-- **Sources:** https://support.kraken.com/articles/4410362151828-business-inquiries | https://support.kraken.com/articles/4410362151828-business-inquiries
-- **Checked:** 2026-10-09; Current official English and German business-inquiry articles opened; email masked; no destination guessed
+- **Check first:** Exact address appears in official indexed Korean/Dutch/Danish business-inquiry text dated April 2025. Current English article confirms purpose but masks address in extraction. Reconfirm live destination before sending; no buyer authority or budget established.
+- **Sources:** https://support.kraken.com/ko/articles/4410362151828-business-inquiries | https://support.kraken.com/articles/4410362151828-business-inquiries | https://support.kraken.com/ko/articles/4410362151828-business-inquiries | https://support.kraken.com/nl/articles/4410362151828-business-inquiries
+- **Checked:** 2026-10-09; Official articles opened; exact email corroborated in multiple official indexed localisations, not visible in current extracted page
 
 ## 9. OneKey (COM-008)
 
@@ -110,9 +110,9 @@ Read [readiness gates](READINESS.md). Prices, stock, samples, rights, fulfilment
 - **Evidence:** Official partners page includes Bitcoin educators and authors and invites partnership proposals.
 - **Personalised angle, inferred:** Bitcoin education/community gift
 - **Contact intent / next question:** Qualify whether the marketing/partnership team has a physical-gifting use case and who buys merchandise. A vendor sales or affiliate route alone is insufficient.
-- **Check first:** Bitcoin-only audience: show representative Bitcoin history cards and check broader-crypto content fit before pitching. Current page describes educators and book authors, but the final contact destination could not be opened; no email inferred.
+- **Check first:** Bitcoin-focused brand; disclose wider-crypto subjects. Contact us currently resolves through an email-protection link whose address could not be read; no guessed address. Partner page supports education/book-author relevance but not merchandise procurement.
 - **Sources:** https://relai.app/partner/ | https://relai.app/partner/
-- **Checked:** 2026-10-09; Official partner page opened; Contact us destination unresolved
+- **Checked:** 2026-10-09; Official partner page opened; CTA followed to masked email-protection endpoint; destination remains unresolved
 
 ## 11. Ledger (COM-007)
 
