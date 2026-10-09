@@ -1,0 +1,126 @@
+{
+  "page_count": 2,
+  "page_size_points": [
+    595.2755905511812,
+    841.8897637795277
+  ],
+  "source_art_dimensions_px": [
+    1060,
+    1484
+  ],
+  "source_art_sha256": "0451d34936796252c7a1f01675597fbb88bd855b15195bc7171021578db5581e",
+  "source_art_unmodified": true,
+  "native_effective_ppi": 128.2095238095238,
+  "art_fit": "Contain proportional full artwork with black edge bars; unchanged 048 layout",
+  "story_column_bottom_points": 120.88976377952764,
+  "clues_column_bottom_points": 294.5897637795277,
+  "story_paragraphs": 5,
+  "clue_count": 4,
+  "source_count": 2,
+  "linked_source_annotations": 3,
+  "event_date": "19 JAN 2019",
+  "rarity": "common",
+  "collector_number": "051/100",
+  "card_phrase": "PASS IT ON.",
+  "pdf_sha256": "0a0637665045c99b9eaf655510f8156ef3f855fdb546293133354ba5128af698",
+  "visual_review": "Both final pages, complete spread and all four native-pixel closeups inspected. No clipping, overlap, missing glyphs or unintended crop changes. The lantern plus is visibly upright.",
+  "physical_print_acceptance": "Not claimed",
+  "logo_legal_clearance": "Not established; artwork approval does not imply rights clearance",
+  "reference_layout": "cards/crypto/season-01/the-pineapple-fund-master-050/build_book.py",
+  "reference_050_build_sha256": "8cfc699e49adb076416cdd941545c370f7c048b71c3c89cab6215daf6dca4276",
+  "ancestor_048_layout_commit": "9e71c54b64212f955e6f85eaf40b5ab9f934ac30",
+  "reference_048_build_sha256": "6125ff644b42c1be45718389f636ad5276868b3979eebf14e364774f2f4e3418",
+  "embedded_art_pixels_match_original": true,
+  "closeups_are_exact_native_pixel_crops": true,
+  "all_pdf_text_within_page_bounds": true,
+  "unique_linked_sources": 2,
+  "required_text_verified": true,
+  "exact_card_phrase_with_period_verified": true,
+  "build_deterministic": true,
+  "portable_build_from_bundled_inputs_verified": true,
+  "portable_rebuild_pdf_sha256_matched": true,
+  "expected_final_page_number": "102",
+  "crop_checks": [
+    {
+      "path": "closeups/051-detail-1.png",
+      "box": [
+        211,
+        598,
+        294,
+        728
+      ],
+      "dimensions": [
+        83,
+        130
+      ],
+      "sha256": "00ac6a922dbb4028c84f5eed53656145f4481df21f959459a294265263bffa9c",
+      "exact_native_pixel_crop": true
+    },
+    {
+      "path": "closeups/051-detail-2.png",
+      "box": [
+        135,
+        552,
+        225,
+        635
+      ],
+      "dimensions": [
+        90,
+        83
+      ],
+      "sha256": "0f07078acf65be1b905332af908451cf02acaa7f831a7c3005fb32d5690f23d1",
+      "exact_native_pixel_crop": true
+    },
+    {
+      "path": "closeups/051-detail-3.png",
+      "box": [
+        49,
+        598,
+        220,
+        736
+      ],
+      "dimensions": [
+        171,
+        138
+      ],
+      "sha256": "a476493f0e20c9f507215aa6137c50599fffa6ce248695ff5a23da0d99e143de",
+      "exact_native_pixel_crop": true
+    },
+    {
+      "path": "closeups/051-detail-4.png",
+      "box": [
+        481,
+        555,
+        589,
+        750
+      ],
+      "dimensions": [
+        108,
+        195
+      ],
+      "sha256": "a8c93d15f220834ef38d34f0cda259d080441f0670cf041bfdf6a8c1ba80c2f6",
+      "exact_native_pixel_crop": true
+    }
+  ],
+  "story_and_clues_shared_with_site_content": true,
+  "render_sha256": {
+    "book-page-1.png": "1bbf0777824a7d7584106a4c7266e12e7b77ce2c0e5377d1b0efbf36b26eacfa",
+    "book-page-2.png": "1bc92ba0f861755f1b873f181a4b0305b24939c888a28e4fd70758f013c97201",
+    "HISTROVE-051-Lightning-Torch-Book-Spread.png": "e0db2376d288ea6fa509ad165dca4b8588e9a52c288cb7c093ab0dde52c7283f"
+  },
+  "notes": [
+    "A4 format and approximately 128.21 native effective PPI are preserved; no resolution upgrade is claimed.",
+    "January 19, 2019 marks the start. April 11 and the relay totals are attributed to CoinGecko.",
+    "The 10,000-satoshi increment was requested; the account explicitly acknowledges exceptions.",
+    "Portofino-inspired harbour, people, lantern, satchel and boat are fictional imagery, not a documented journey.",
+    "PASS IT ON. is an editorial caption, not an attributed historical quotation."
+  ],
+  "visual_review_date": "2026-10-09",
+  "visual_review_render_sha256": {
+    "book-page-1.png": "1bbf0777824a7d7584106a4c7266e12e7b77ce2c0e5377d1b0efbf36b26eacfa",
+    "book-page-2.png": "1bc92ba0f861755f1b873f181a4b0305b24939c888a28e4fd70758f013c97201",
+    "HISTROVE-051-Lightning-Torch-Book-Spread.png": "e0db2376d288ea6fa509ad165dca4b8588e9a52c288cb7c093ab0dde52c7283f"
+  },
+  "typography_helper_functions_identical_to_050": true,
+  "page_geometry_and_layout_preserved_from_050": true
+}
