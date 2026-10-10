@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_DIGITAL_CHECKS_PASSED_LIVE_VERIFICATION_PENDING",
+  "status": "PUBLISHED_DIGITALLY_VERIFIED",
   "local_test": "npm test passed including prior-card preservation and053 checks",
   "production_build": "npm run build passed",
   "seo": "npm run test:search passed",
@@ -11,6 +11,19 @@
   "clues": 224,
   "book_previews": 106,
   "related_links": 129,
-  "browser": "Local Chromium launch unavailable due to executor socket restriction; live cloud browser check pending",
-  "physical_print_release": false
+  "browser": "Cloud Chrome desktop1188px: story/full-art/clues/book panels, clue marker reveal, archive inclusion, loaded images and no horizontal overflow verified. No site-origin console errors observed; browser-extension metadata errors excluded. Archive card opens correct story dialog.",
+  "physical_print_release": false,
+  "verified_at_utc": "2026-10-10T09:12:00Z",
+  "release_commit": "ea5fc62806c32288f71858b65ffc1815cc879462",
+  "release_tree": "e700ee7b728f0e86bf874a9347cb51424fa1d29b",
+  "deployment_id": "dpl_HMvegWFq1GR7Xq1Cn6oB7F3Ub1c1",
+  "deployment_state": "READY",
+  "production_alias": "https://lore-site-v1.vercel.app",
+  "story_url": "https://lore-site-v1.vercel.app/cards/chainlink-mainnet",
+  "all_53_live_qr_routes_pass": true,
+  "sitemap_053_present": true,
+  "archive_card_count": 53,
+  "untouched_files_preserved": 2848,
+  "mobile_visual_qa": "Not verified: cloud browser has no viewport-resize capability; local Chromium launch blocked by executor socket restrictions. Existing responsive CSS unchanged.",
+  "live_asset_readback": "PASS: six immutable source/print/book/chapter URLs and eight production display URLs returned200 with exact byte counts and SHA-256s."
 }
