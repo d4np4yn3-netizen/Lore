@@ -2,9 +2,10 @@ import { cards } from './data';
 import media from './media.json';
 import printFiles from './print-files.json';
 export const ASSET_ORIGIN = 'https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/ac8d3634de5bf6e2e40a8692e751b2f0df0d281e/';
-export const archiveCards = cards.map(card => ({ ...card, id: card.number.split('/')[0], year: Number(card.date.match(/\d{4}/)[0]), media: media[card.slug], printFiles: printFiles.cards[card.number.split('/')[0]], printAssetOrigin: printFiles.assetOrigin, sharedPrintBack: printFiles.sharedBack }));
+export const archiveCards = cards.map(card => ({ ...card, id: card.number.split('/')[0], year: Number(card.date.match(/\d{4}/)[0]), media: media[card.slug], printFiles: printFiles.cards[card.number.split('/')[0]], printAssetOrigin: printFiles.cards[card.number.split('/')[0]]?.assetOrigin || printFiles.assetOrigin, sharedPrintBack: printFiles.sharedBack }));
 export const years = [...new Set(archiveCards.map(card => card.year))];
 export const yearNotes = {
+  2020: ['The world reaches crypto.', 'Pandemic panic crashes through markets and tests decentralised finance.'],
   1982: ['The idea before the coin.', 'Privacy becomes a question of mathematics.'],
   1993: ['A movement finds its voice.', 'Cypherpunks put their principles into code.'],
   1997: ['The cost of a computation.', 'Proof of work takes an early, practical form.'],
@@ -29,4 +30,5 @@ export const chapters = [
   {number:'01',start:1982,range:'1982 — 2004',title:'Before Bitcoin.',copy:'From private signatures to reusable proof of work, the ideas that made a different kind of money possible.'},
   {number:'02',start:2008,range:'2008 — 2012',title:'An idea becomes a network.',copy:'A whitepaper becomes working code. People send it, spend it, mine it and discover what it can do.'},
   {number:'03',start:2013,range:'2013 — 2019',title:'The culture takes shape.',copy:'New communities and possibilities arrive, alongside failures and hard lessons. Crypto becomes much more than a technical experiment.'},
+  {number:'04',start:2020,range:'2020',title:'A world under pressure.',copy:'A global crisis tests crypto markets, financial mechanisms and the people holding on.'},
 ];
