@@ -36,11 +36,11 @@ for (const [index, slug] of slugs.entries()) {
 }
 const home = read('.next/server/app/index.html');
 assert(home.includes('Crypto History Collectible Cards &amp; Illustrated Stories | HISTROVE'));
-assert(home.includes('<h1 id="hero-title">History<br/>Worth <span>Holding</span></h1>'));
-assert(home.includes('Physical cards, a companion book and an online archive'));
-assert(home.includes('stories online') && home.includes('cards in the making'));
+assert(home.includes('<h1 id="hero-title">Physical cards.<br/><span>Crypto history.</span></h1>'));assert(home.includes('History Worth Holding'));
+assert(home.includes('illustrated trading cards'));
+assert(home.includes('100-CARD COLLECTION IN THE MAKING'));assert(home.includes('STORIES TO EXPLORE'));
 const hero = home.match(/<section class="hero".*?<\/section>/s)[0];
-assert.deepEqual([...hero.matchAll(/alt="([^"]+)"/g)].map(m=>m[1]), ['The Whitepaper','Birth Of HODL','Genesis Block']);
+assert.deepEqual([...hero.matchAll(/alt="([^"]+)"/g)].map(m=>m[1]), ['CryptoPunks','Birth Of HODL','CryptoKitties']);
 const discovery = home.match(/<section class="discovery".*?<\/section>/s)[0];
 assert(discovery.includes('046-histrove-border-card.webp'));
 assert(discovery.includes('CryptoKitties. 28 November 2017.'));
@@ -54,7 +54,7 @@ assert(!home.includes('THE ART DISPLAY') && !home.includes('proposed display fra
 assert(home.indexOf('id="coming-soon"') > home.indexOf('id="archive"'));
 assert(home.includes('class="launch-preview-details"'));
 const shop = read('.next/server/app/shop.html');
-assert(shop.includes('href="/#archive" class="retail-cta"') || shop.includes('class="retail-cta" href="/#archive"'));
+assert(shop.includes('href="/timeline" class="retail-cta"') || shop.includes('class="retail-cta" href="/timeline"'));
 assert(shop.includes('return=shop'));
 assert(read('app/shop/page.js').includes('Explore the first {archiveCards.length} moments'));
 assert(shop.replace(/<!--.*?-->/g,'').includes(`Explore the first ${slugs.length} moments`), 'Shop moment count matches the archive');
@@ -62,3 +62,13 @@ assert(!/<a class="retail-cta" href="#launch-details"/.test(shop));
 assert.equal((shop.match(/class="retail-cta"/g)||[]).length,2);
 assert(!shop.includes('<form'));
 console.log(`PASS: slogan retained, honest two-product journey, compact closed signup, About/editorial context, ${leads} additive leads and ${links} contextual story links across ${slugs.length} narratives with earlier narratives preserved`);
+
+const timeline = read('.next/server/app/timeline.html');
+assert(!home.includes('class="year-rail"') && !home.includes('class="all-cards-grid"'));
+assert(home.indexOf('id="collection"') < home.indexOf('class="discovery"'));
+assert(home.includes('histrove-booster-concept-v1-web.webp') && home.includes('histrove-book-concept-v1-web.webp'));
+assert(home.includes('Six rarity tiers.') && home.includes('still to be confirmed'));
+for (const slug of slugs) assert(timeline.includes(`href="/cards/${slug}"`));
+assert(timeline.includes('Jump to a year') && timeline.includes('Search cards by title, year, subject or number'));
+assert(home.includes('preview-only signup'));
+console.log('PASS: product-first homepage, three approved hero cards, all 55 moments on dedicated timeline, product mockups, honest rarity and signup labels');

@@ -82,10 +82,10 @@ assert(shop.includes('id="launch-details"'));
 assert(!shop.includes('ART DISPLAY') && !shop.includes('proposed display frame'));
 assert.equal((shop.match(/class="retail-cta"/g)||[]).length, 2);
 assert(!shop.includes('<form') && !shop.includes('Add to cart') && !shop.includes('Buy now'));
-assert(home.includes('Explore the shop') && home.includes('Explore the timeline'));
+assert(home.includes('Discover the collection') && home.includes('Explore the timeline'));
 const sitemap = read('.next/server/app/sitemap.xml.body');
 const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => decode(m[1]));
-assert.equal(urls.length, 57); assert.equal(new Set(urls).size, 57); assert(urls.includes(origin + '/shop'));
+assert.equal(urls.length, 58); assert.equal(new Set(urls).size, 58); assert(urls.includes(origin + '/shop'));
 assert(urls.includes(origin + '/'));for (const slug of Object.keys(search)) assert(urls.includes(origin + '/cards/' + slug));
 assert(!sitemap.includes('<lastmod>') && !sitemap.includes('/crypto/'));
 const robots = read('.next/server/app/robots.txt.body');
@@ -93,4 +93,6 @@ assert(robots.includes('Allow: /') && robots.includes(`Sitemap: ${origin}/sitema
 const helper = read('app/seo.js').match(/export function jsonLd\(value\) \{(.*?)\}/s)[1];
 const safeJson = new Function('value', helper)({ text: '</script><script>alert(1)</script>' });
 assert(!safeJson.includes('<')); assert.equal(JSON.parse(safeJson).text, '</script><script>alert(1)</script>');
-console.log(`PASS: 57 canonical pages, 55 unique descriptive titles/descriptions/social images, 232 SSR clues, 110 lazy book previews, sitemap/robots, truthful closed signup and safe JSON-LD`);
+console.log(`PASS: 58 canonical pages, 55 unique descriptive titles/descriptions/social images, 232 SSR clues, 110 lazy book previews, sitemap/robots, truthful closed signup and safe JSON-LD`);
+
+const timeline = read('.next/server/app/timeline.html'); assert.equal(canonical(timeline),origin+'/timeline'); assert(urls.includes(origin+'/timeline'));

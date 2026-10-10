@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const source=fs.readFileSync('app/page.js','utf8');
+const source=fs.readFileSync('app/timeline/Timeline.js','utf8');
 const match=source.match(/useEffect\(\(\)=>\{(if\(isGrid\)return;.*?)\},\[isGrid\]\);/s);
 assert(match,'Active-year effect is present');
 const listeners=new Map(),queue=new Map();let active,token=0,disconnects=0;

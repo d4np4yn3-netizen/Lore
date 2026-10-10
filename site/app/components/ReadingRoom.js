@@ -53,7 +53,7 @@ export function ReadingRoom({ card, onClose, standalone = false, onNavigate, pre
     if(index===null)return;event.preventDefault();chooseTab(tabs[index][0]);tabList.current.querySelectorAll('[role="tab"]')[index].focus();
   }
   return <div className={'reading-room'+(standalone?' standalone':'')}>
-    <div className="reading-header"><div><span className="label gold">CRYPTO / {card.number}</span><h1 id="reading-title">{titleCase(card.title)}</h1></div>{!onClose && <Link className="back-link" href={'/#moment-'+card.slug}><Arrow direction="left"/> Timeline</Link>}</div>
+    <div className="reading-header"><div><span className="label gold">CRYPTO / {card.number}</span><h1 id="reading-title">{titleCase(card.title)}</h1></div>{!onClose && <Link className="back-link" href={'/timeline#moment-'+card.slug}><Arrow direction="left"/> Timeline</Link>}</div>
     <div className="reading-meta"><span>{card.date}</span><span>{card.subject}</span><span className={'rarity '+card.rarity.toLowerCase()}>{card.rarity}</span></div>
     <div className="reading-toolbar"><div className="reading-tabs" role="tablist" aria-label="Explore this moment" ref={tabList} onKeyDown={tabKeys}>{tabs.map(([key,label,shortLabel])=><button key={key} role="tab" id={'tab-'+key} aria-label={label} aria-controls={'panel-'+key} aria-selected={tab===key} tabIndex={tab===key?0:-1} onClick={()=>chooseTab(key)}><span className="tab-full">{label}</span><span className="tab-short" aria-hidden="true">{shortLabel}</span>{key==='clues' && <span className="tab-count">{card.eggs.length}</span>}</button>)}</div>{onClose && <button className="icon-button close-reading" aria-label={closeLabel} onClick={onClose}><Close/></button>}</div>
     <div className="reading-content" ref={content}>

@@ -38,8 +38,8 @@ for(const asset of contract.originalIndex.assets)assert.deepEqual(index.assets.f
 for(const a of index.assets){const packed=fs.readFileSync(path.join(root,'media',a.pack)).subarray(a.offset,a.offset+a.length);assert.equal(hash(packed),a.sha256);assert.equal(hash(file('public/'+a.path)),a.sha256);}
 const reader=file('app/components/ReadingRoom.js').toString(),experience=file('app/cards/experience.js').toString(),home=file('app/page.js').toString();
 assert(reader.includes('card.media.assetOrigin || ASSET_ORIGIN'));assert(reader.includes('card.media.bookAssetOrigin || assetOrigin'));assert.equal((reader.match(/href=\{printOrigin\+/g)||[]).length,4);
-assert(home.includes('years[years.length-1]'));assert(experience.includes("range:'2013 — 2019'"));
-assert(home.includes('History<br/>Worth <span>Holding</span>'));assert(!home.includes('COLLECT THE INTERNET'));assert(!home.includes('loreMoment'));
+assert(file('app/timeline/Timeline.js').toString().includes('years.map('));assert(experience.includes("range:'2013 — 2019'"));
+assert(home.includes('History Worth Holding'));assert(!home.includes('COLLECT THE INTERNET'));assert(!home.includes('loreMoment'));
 for(const p of ['app/page.js','app/components/SiteChrome.js','app/components/DiscoveryReveal.js','app/components/PhysicalCollection.js','app/layout.js','app/cards/[slug]/page.js'])assert(!/\bLORE\b/.test(file(p).toString()),'Current brand '+p);
 console.log(`PASS: 55 cards and preserved earlier QR sources, ${clues} total clues, ${pages} current book previews, ${positions} marker positions; all ${index.assets.length} image hashes and historical assets verified`);
 const brand=read('media/histrove-brand-manifest.json');assert.equal(brand.card_count,39);assert.equal(brand.master_tagline,'History Worth Holding');for(const asset of brand.files){assert.equal(hash(fs.readFileSync(path.join(root,'..',asset.path))),asset.sha256,'Final brand asset '+asset.path);}

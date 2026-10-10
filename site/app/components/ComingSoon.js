@@ -7,13 +7,13 @@ export default function ComingSoon() {
       <span className="label gold"><span className="status-dot"/> THE NEXT CHAPTER</span>
       <h2 id="launch-heading">More history to come.</h2>
       <p>The collection and companion book are taking shape. A puzzle around the history is still to come.</p>
-      <a className="text-link" href="#archive">Explore the published stories <Arrow/></a>
+      <a className="text-link" href="/timeline">Explore the published stories <Arrow/></a>
     </div>
     <aside className="launch-list" aria-labelledby="launch-list-heading">
       <span className="label">LAUNCH UPDATES</span>
       <h3 id="launch-list-heading">Email registration opens soon</h3>
-      <p id="launch-status" className="launch-status">Signups are not open yet.</p>
-      <details className="launch-preview-details"><summary>View the signup preview</summary>
+      <p id="launch-status" className="launch-status">Preview only · Signups are not open yet.</p>
+      <details className="launch-preview-details"><summary>View the preview-only signup</summary>
         <div className="launch-form-preview" aria-describedby="launch-status launch-privacy">
           <label htmlFor="launch-email">Email address</label>
           <input id="launch-email" type="email" placeholder="you@example.com" autoComplete="off" disabled aria-describedby="launch-status launch-privacy"/>
