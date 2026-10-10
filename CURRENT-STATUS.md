@@ -1,6 +1,10 @@
-# Card 054 — Libra Unveiled — publication in progress, 10 October 2026
+# Card 054 — Libra Unveiled — published and digitally verified, 10 October 2026
 
-Final hidden-hand blue-lit art approved by Dan Payne (“Ok, this really is the one”). GitHub/site publication authorised. Source: `cards/crypto/season-01/libra-unveiled-master-054`. Common; FACEBOOK; 18 JUN 2019; A NEW GLOBAL CURRENCY. Final SHA-256 `4f7240578b8f380e98db36c4aeaea97489992799d9f582c04ad4f3d5fd2169b7`. All four style references supplied. QR and exact embedded artwork checks passed. Live publication verification pending. Physical acceptance separate.
+Final hidden-hand blue-lit art approved by Dan Payne (“Ok, this really is the one”). Common; FACEBOOK; 18 JUN 2019; A NEW GLOBAL CURRENCY. Final artwork SHA-256 `4f7240578b8f380e98db36c4aeaea97489992799d9f582c04ad4f3d5fd2169b7`. Master: `cards/crypto/season-01/libra-unveiled-master-054`.
+
+GitHub asset commit `0ebe6298b1d626271cd4b090509d07cc2097decc` and website commit `570e959ca2bdace2e1cd00bf92c3235b8687d024` are published. Production deployment `dpl_4Xs4pCN7WNYDigrkymk4xcBjjixH` is READY. Live card: https://lore-site-v1.vercel.app/cards/libra-unveiled . Both QR URL variants resolve correctly. All eight web images and six immutable source/print/book downloads returned HTTP 200 with matching SHA-256 hashes. The card is in the sitemap.
+
+Collection: 54 numbered cards, 600 display assets, 228 clues, 108 book previews and 132 related-story links. Collection tests, production build, search checks, buyer checks, embedded-art checks, QR checks and prior-card preservation passed. The master's `publication-verification.json` contains live evidence. Physical print acceptance and final book-resolution review remain separate.
 
 ---
 
