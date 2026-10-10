@@ -1,3 +1,9 @@
+# Card 054 — Libra Unveiled — publication in progress, 10 October 2026
+
+Final hidden-hand blue-lit art approved by Dan Payne (“Ok, this really is the one”). GitHub/site publication authorised. Source: `cards/crypto/season-01/libra-unveiled-master-054`. Common; FACEBOOK; 18 JUN 2019; A NEW GLOBAL CURRENCY. Final SHA-256 `4f7240578b8f380e98db36c4aeaea97489992799d9f582c04ad4f3d5fd2169b7`. All four style references supplied. QR and exact embedded artwork checks passed. Live publication verification pending. Physical acceptance separate.
+
+---
+
 # 051 Lightning Torch published and digitally verified — 9 October 2026
 
 The centred Portofino composition and corrected +10,000 SATS engraving are preserved in final artwork SHA-256 `0451d34936796252c7a1f01675597fbb88bd855b15195bc7171021578db5581e`. BITCOIN / LIGHTNING TORCH / Common / 19 JAN 2019 / PASS IT ON. Current master: `cards/crypto/season-01/lightning-torch-master-051`.
