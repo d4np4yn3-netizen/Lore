@@ -1,7 +1,7 @@
 {
   "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_at": "2026-10-06",
-  "front_count": 52,
+  "front_count": 53,
   "shared_back_count": 1,
   "fronts": [
     {
@@ -2485,6 +2485,42 @@
       "artwork_sha256": "816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192",
       "physical_print_release": false,
       "qa": "cards/crypto/print-ready/histrove-v1/qa/052.json"
+    },
+    {
+      "png": {
+        "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-053-Front-Print-v1.png",
+        "bytes": 1062912,
+        "sha256": "2ce4d1df79398af74c1ce2d9944ab7cd46b5906c40f9affb09032a892e23f273"
+      },
+      "pdf": {
+        "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-053-Front-Print-v1.pdf",
+        "bytes": 4304902,
+        "sha256": "3c412fb5e46f9cf3f347cba0523297fee8e7745a223c4ab61f37d881ff878c2f"
+      },
+      "svg": {
+        "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-053-Front-Print-v1.svg",
+        "bytes": 4449128,
+        "sha256": "befea04e2391623f1c07fb9cc4eadda72e42142d931afa2a8de692d351bb72bc"
+      },
+      "qr_png_pdf_pass": true,
+      "outlined_pdf_text": true,
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "dpi": 300,
+      "number": "053",
+      "title": "CHAINLINK MAINNET",
+      "rarity": "common",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/053/",
+      "artwork_native_px": [
+        1060,
+        1484
+      ],
+      "artwork_effective_ppi": 465.99186265753696,
+      "artwork_sha256": "b61779066c394f7470038d917e6e99650e2f03ea26543ea7b8480ae9add2bf2a",
+      "physical_print_release": false,
+      "qa": "cards/crypto/print-ready/histrove-v1/qa/053.json"
     }
   ],
   "shared_back": {

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 54,
+  "approved_visual_count": 55,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -7379,24 +7379,115 @@
       "rights_review": "Separate commercial reproduction review; fictional archive and customer.",
       "qr_target": "https://lore-site-v1.vercel.app/cards/quadrigacx",
       "publication_verification": "cards/crypto/season-01/quadrigacx-master-052/publication-verification.json"
+    },
+    {
+      "rarity": "common",
+      "creator": "ETHEREUM",
+      "title_line_1": "CHAINLINK",
+      "title_line_2": "MAINNET",
+      "context": "THE WORLD, ON-CHAIN.",
+      "moment_label": "30 MAY 2019",
+      "set_label": "CRYPTO • SEASON 01 • 053/100",
+      "artwork": "cards/crypto/season-01/chainlink-mainnet-master-053/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/053/",
+      "confirmed_lore_owned_route": true,
+      "status": "APPROVED_FOR_SITE_PUBLICATION",
+      "qr_status": "PUBLICATION_IN_PROGRESS",
+      "artwork_transform": "translate(0 -80)",
+      "id": "crypto-s01-chainlink-mainnet",
+      "moment_number": 53,
+      "collection": "crypto",
+      "season": 1,
+      "set_size": 100,
+      "event_date": "2019-05-30",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/chainlink-mainnet-master-053/art.png",
+        "bytes": 2910907,
+        "sha256": "b61779066c394f7470038d917e6e99650e2f03ea26543ea7b8480ae9add2bf2a"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-053-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-053-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-053-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/053-chainlink-mainnet-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/053-chainlink-mainnet.md",
+      "artwork_status": "VISUALLY_APPROVED",
+      "approved_at": "2026-10-10",
+      "approval_record": "cards/crypto/season-01/chainlink-mainnet-master-053/approval.json",
+      "qr_mode": "live",
+      "print_release": false,
+      "publication_approved": true,
+      "github_upload_authorised": true,
+      "website_publication_in_this_change": true,
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-053-Front-Print-v1.png",
+          "bytes": 1062912,
+          "sha256": "2ce4d1df79398af74c1ce2d9944ab7cd46b5906c40f9affb09032a892e23f273"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-053-Front-Print-v1.pdf",
+          "bytes": 4304902,
+          "sha256": "3c412fb5e46f9cf3f347cba0523297fee8e7745a223c4ab61f37d881ff878c2f"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-053-Front-Print-v1.svg",
+          "bytes": 4449128,
+          "sha256": "befea04e2391623f1c07fb9cc4eadda72e42142d931afa2a8de692d351bb72bc"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-053-Front-Print-v1.png",
+          "bytes": 1062912,
+          "sha256": "2ce4d1df79398af74c1ce2d9944ab7cd46b5906c40f9affb09032a892e23f273"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-053-Front-Print-v1.pdf",
+          "bytes": 4304902,
+          "sha256": "3c412fb5e46f9cf3f347cba0523297fee8e7745a223c4ab61f37d881ff878c2f"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-053-Front-Print-v1.svg",
+          "bytes": 4449128,
+          "sha256": "befea04e2391623f1c07fb9cc4eadda72e42142d931afa2a8de692d351bb72bc"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/053.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+      "book_native_effective_ppi": 128.2095238095238,
+      "rights_review": "Separate commercial-reproduction review; traveller, beacons and mountain city are fictional visual metaphor.",
+      "qr_target": "https://lore-site-v1.vercel.app/cards/chainlink-mainnet",
+      "publication_verification": "cards/crypto/season-01/chainlink-mainnet-master-053/publication-verification.json"
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
   "style_reference_lock": "cards/crypto/style-reference-lock.json",
-  "approved_in_current_style_count": 11,
+  "approved_in_current_style_count": 12,
   "required_style_references": [
     "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 54,
-  "numbered_published_count": 52,
+  "approved_print_derivative_count": 55,
+  "numbered_published_count": 53,
   "numbering_gap_note": "Published numbered collection 001–052 with no numbering gaps. Two unnumbered designs remain archived.",
-  "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 52,
-  "current_numbered_print_count": 52,
+  "pending_live_verification_numbers": [
+    53
+  ],
+  "prepared_numbered_count": 53,
+  "current_numbered_print_count": 53,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
   "print_master_directory": "cards/crypto/master/histrove-print-v1",
   "shared_print_back": {
