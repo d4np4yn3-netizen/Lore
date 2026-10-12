@@ -1,0 +1,46 @@
+{
+  "story": [
+    "From 28 August to 9 September 2020, SushiSwap turned token rewards into a challenge to Uniswap's liquidity. The new exchange borrowed Uniswap's open-source design and offered SUSHI incentives to participating liquidity providers. The strategy became known as a vampire attack: a rival attracting the assets that enabled an established market's trades.",
+    "The invitation began with pool shares. Providers who supplied assets to Uniswap received liquidity-provider tokens, or LP tokens, representing claims on their pools. They could stake eligible tokens in SushiSwap's MasterChef contract to earn SUSHI. At first, the trading liquidity remained on Uniswap while these ownership receipts were committed to SushiSwap's program.",
+    "On 9 September, migration began. Deposited Uniswap LP tokens were redeemed for underlying assets to supply new SushiSwap pools; new LP tokens replaced the old claims. Participants had chosen to stake for this migration. The vampire label described incentives and a movement of liquidity, rather than a hack or theft.",
+    "The illustration gives that invitation a welcoming face. An attractive, fictional vampire chef turns liquidity mining into a restaurant pitch. The unicorn jar recalls Uniswap and card 049, the LP SHARES receipt makes a digital claim tangible, and the SUSHI REWARDS menu presents the inducement. A smiling fang charm completes the joke.",
+    "Generous rewards could attract deposits quickly; retaining providers was a separate challenge. Sushi's later retrospective acknowledged that some reward-seeking farmers moved on. A TASTE FOR LIQUIDITY captures this moment of temptation and competition, when an extra token reward could help a new exchange recruit participants from an existing market."
+  ],
+  "eggs": [
+    {
+      "title": "THE UNICORN JAR",
+      "text": "The unicorn refers to Uniswap and calls back to card 049. The jar is a fictional shorthand for pooled liquidity, not evidence of a stolen reserve or a real container."
+    },
+    {
+      "title": "LP SHARES",
+      "text": "The receipt represents liquidity-provider tokens: transferable claims on pool assets. Staking eligible Uniswap LP tokens in MasterChef earned SUSHI and made those deposited claims available for migration."
+    },
+    {
+      "title": "SUSHI REWARDS",
+      "text": "The menu points to the token incentives used to attract providers. It depicts the 2020 liquidity-mining offer; no reward rate, token price or guaranteed return is stated."
+    },
+    {
+      "title": "THE SMILING FANG",
+      "text": "The friendly fang charm names the vampire strategy in miniature. Its smile reinforces the chef's invitation and the providers' voluntary participation in the liquidity migration."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CoinDesk migration report, 9 September 2020",
+      "url": "https://www.coindesk.com/tech/2020/09/09/sushiswap-will-withdraw-up-to-830m-from-uniswap-today-why-it-matters-for-defi/"
+    },
+    {
+      "title": "SushiSwap MasterChef V1 source code",
+      "url": "https://github.com/sushiswap/masterchef/blob/master/contracts/MasterChef.sol"
+    },
+    {
+      "title": "Uniswap v2 pool-token documentation",
+      "url": "https://developers.uniswap.org/docs/protocols/v2/concepts/pools"
+    },
+    {
+      "title": "Sushi tokenomics retrospective, 7 November 2023",
+      "url": "https://www.sushi.com/blog/breaking-down-the-sushi-tokenomics"
+    }
+  ],
+  "art_note": "The chef and props are fictional metaphors, not a portrait of Chef Nomi or a historical scene. The 2023 source supplies retrospective context; its later tokenomics proposal is not depicted. A TASTE FOR LIQUIDITY is original editorial copy. No endorsement or financial advice is implied."
+}
