@@ -1,3 +1,7 @@
+## 064 — Everydays at Auction · 13 October 2026
+
+Approved raw v1 artwork and card layout, Epic / DIGITAL ART / 11 MAR 2021 / EVERY DAY ADDS UP. The matching two-page book and site contain five story paragraphs, four actual-art clues and three primary sources. Current numbered collection: 63 cards, 001–057 and 059–064; 058 remains deferred. The $69,346,250 online auction result is distinct from the token mint date and daily-work endpoints. Digital publication authorization does not establish physical print acceptance or rights clearance.
+
 ## 063 — Tesla Buys Bitcoin · 13 October 2026
 
 Approved v7 artwork and card layout, Uncommon / TESLA / 08 FEB 2021 / BITCOIN ON THE BALANCE SHEET. The matching two-page book and site contain five story paragraphs, five actual-art clues and three primary sources. Current numbered collection: 62 cards, 001–057 and 059–063; 058 remains deferred. Digital publication authorization does not establish physical print acceptance or rights clearance.

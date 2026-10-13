@@ -1,3 +1,13 @@
+# Current release — 064 Everydays at Auction
+
+Approved 13 October 2026 for digital publication: raw v1 artwork and card proof v1, unchanged. EPIC / DIGITAL ART / EVERYDAYS AT AUCTION / EVERY DAY ADDS UP. / 11 MAR 2021.
+
+Local release checks pass for 63 numbered cards (001–057 and 059–064; 058 deferred), 267 artwork clues, 126 book previews, 675 packed display assets and 159 related-story links. Full collection tests, production build, search/SEO, buyer journey and pack-model checks pass. Source artwork remains byte-identical at SHA-256 7c50b57a9de033bdb2c24781a18d4f87e1ab50cbf72149a8081dac2d60039c27.
+
+Original asset downloads are pinned to commit 3c863e519cfa4f691f916f9f5027172d35202c38. Canonical master: cards/crypto/season-01/everydays-at-auction-master-064. Stable QR: https://lore-site-v1.vercel.app/crypto/064/ → /cards/everydays-at-auction. The five story paragraphs, four actual-art clues and three primary sources distinguish the $69,346,250 online auction result from the token mint date and daily-work endpoints. Gallery, artist, original mosaic and paper props are illustrative fiction. Remote publication and live verification are recorded separately; local checks alone do not establish production deployment. Physical printer acceptance, book reproduction review and commercial rights clearance remain pending.
+
+## Historical status
+
 # Current release — 063 Tesla Buys Bitcoin
 
 Approved 13 October 2026 for digital publication: final v7 raw artwork and card proof v2, with the notebook and pencil included. UNCOMMON / TESLA / TESLA BUYS BITCOIN / BITCOIN ON THE BALANCE SHEET. / 08 FEB 2021.
