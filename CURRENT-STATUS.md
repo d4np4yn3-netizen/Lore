@@ -1,3 +1,15 @@
+# Current release — 065 Coinbase on Nasdaq
+
+Approved 13 October 2026 for digital publication: raw v2 artwork and card proof v1, unchanged. UNCOMMON / PUBLIC MARKETS / COINBASE ON NASDAQ / IT’S ONLY THE BEGINNING. / 14 APR 2021.
+
+Local release checks pass for 64 numbered cards (001–057 and 059–065; 058 deferred), 271 artwork clues, 128 book previews, 683 packed display assets and 162 related-story links. Full collection tests, production build, search/SEO, buyer journey and pack-model checks pass. Source artwork remains byte-identical at SHA-256 0629da3ad0b613fda3cf4823f0b16e23e0cf68fb4444a9617a4c0fa2f51edd0b.
+
+Original artwork, book, print files and chapter downloads are pinned to commit 0959131d205435eefb2763f0ed2a62486fe7d609. Canonical master: cards/crypto/season-01/coinbase-on-nasdaq-master-065. Stable QR: https://lore-site-v1.vercel.app/crypto/065/ → /cards/coinbase-on-nasdaq. The five story paragraphs, four actual-art clues and four primary sources distinguish Coinbase Class A stock from bitcoin, the direct listing from a traditional IPO, and the remote bell ceremony from the first COIN trade. The twenty-one-second countdown is distinct from any share price. Observers, video participants and the redesigned display are illustrative fiction. The approved phrase is an excerpt of Coinbase’s listing-day headline. The 2021 timeline introduction now includes Tesla, digital art and public markets. Previous cards, homepage and pack design are preserved.
+
+Remote publication and live verification are recorded separately; local checks alone do not establish production deployment. Physical printer acceptance, final book reproduction review and commercial rights clearance remain pending. Native book artwork is 128.21 effective PPI.
+
+## Historical status
+
 # Current release — 064 Everydays at Auction
 
 Approved 13 October 2026 for digital publication: raw v1 artwork and card proof v1, unchanged. EPIC / DIGITAL ART / EVERYDAYS AT AUCTION / EVERY DAY ADDS UP. / 11 MAR 2021.

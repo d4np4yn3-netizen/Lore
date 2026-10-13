@@ -1,3 +1,7 @@
+## 065 — Coinbase on Nasdaq · 13 October 2026
+
+Approved raw v2 artwork and card v1: Uncommon / PUBLIC MARKETS / 14 APR 2021 / IT’S ONLY THE BEGINNING. The matching two-page book and site contain the same story, four actual-art clues and primary sources. Current numbered collection: 64 cards, 001–057 and 059–065; 058 remains deferred. Coinbase’s direct listing is distinguished from a traditional IPO; the opening-bell ceremony is separate from the first COIN trade. Digital publication authorization does not establish physical print acceptance or rights clearance.
+
 ## 064 — Everydays at Auction · 13 October 2026
 
 Approved raw v1 artwork and card layout, Epic / DIGITAL ART / 11 MAR 2021 / EVERY DAY ADDS UP. The matching two-page book and site contain five story paragraphs, four actual-art clues and three primary sources. Current numbered collection: 63 cards, 001–057 and 059–064; 058 remains deferred. The $69,346,250 online auction result is distinct from the token mint date and daily-work endpoints. Digital publication authorization does not establish physical print acceptance or rights clearance.

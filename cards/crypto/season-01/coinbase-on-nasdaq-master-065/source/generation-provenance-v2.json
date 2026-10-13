@@ -1,0 +1,74 @@
+{
+  "card": "065",
+  "title": "Coinbase on Nasdaq",
+  "concept": "Twenty-One Seconds",
+  "revision": "v2 completely new scene",
+  "generated_with": "built-in imagegen",
+  "image": "../art.png",
+  "sha256": "0629da3ad0b613fda3cf4823f0b16e23e0cf68fb4444a9617a4c0fa2f51edd0b",
+  "dimensions": [
+    1060,
+    1484
+  ],
+  "status": "APPROVED_RAW_V2_FOR_AUTHORIZED_PUBLICATION",
+  "prompt": "generation-prompt-v2.txt",
+  "v1_used_as_input": false,
+  "style_references": [
+    {
+      "name": "hodl-021.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "STYLE_ONLY"
+    },
+    {
+      "name": "doge-020.png",
+      "sha256": "6b106345ef9c6564e7ede345196eb34120eb19b5e4a1240af0f33b9e5876f422",
+      "role": "STYLE_ONLY"
+    },
+    {
+      "name": "cryptopunks-038.png",
+      "sha256": "21027f7ece79e3a6ca3b205f631cb4a648027d4028c27d77c760d36555728abb",
+      "role": "STYLE_ONLY"
+    },
+    {
+      "name": "cryptokitties-046.png",
+      "sha256": "6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e",
+      "role": "STYLE_ONLY"
+    }
+  ],
+  "factual_reference": {
+    "source_url": "https://images.ctfassets.net/q5ulk4bp65r7/3Gz6fugIywWsxwHbruWklT/29722009cae81937690a9203143cff33/opening-bell.png",
+    "source_page": "https://www.coinbase.com/en-gb/listingday",
+    "sha256": "337ffca8791204a223f18f3b24eaf510532263a599a5dfba4afcf87f3cd80061",
+    "role": "FACTUAL_ARCHITECTURE_SIGNAGE_ONLY"
+  },
+  "clues": [
+    {
+      "detail": "21 countdown",
+      "meaning": "Nasdaq's documented 21-second countdown referred to Bitcoin's maximum 21 million supply",
+      "source": "https://www.nasdaq.com/events/coinbase-global-inc.-rings-the-opening-bell-in-celebration-of-its-direct-listing"
+    },
+    {
+      "detail": "COIN / CLASS A on dark secondary tower display",
+      "meaning": "Coinbase Class A stock rather than bitcoin; no live stock price during the earlier bell ceremony",
+      "source": "https://www.sec.gov/Archives/edgar/data/1679788/000167978821000010/coin-20210331.htm"
+    },
+    {
+      "detail": "DIRECT LISTING on dark secondary tower display",
+      "meaning": "Direct listing mechanism; exact illustrative display arrangement is not claimed as documentary reproduction",
+      "source": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETA2021-28"
+    },
+    {
+      "detail": "Four remote participants in tower broadcast strip",
+      "meaning": "Actual ceremony was remote across the country; these people and precise screen arrangement are fictional",
+      "source": "https://www.nasdaq.com/events/coinbase-global-inc.-rings-the-opening-bell-in-celebration-of-its-direct-listing"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "gaze": "Both adults are seen from behind/right in profile, visibly oriented up-left toward the actual Coinbase tower and countdown. Neither looks at camera or at the other observer.",
+    "anatomy": "Woman has one clearly connected relaxed hanging arm; far arm naturally occluded. Man hands rest in jacket pockets. No phone, bag, strap or held paper. Adult proportions and shared ground plane coherent.",
+    "text": "coinbase, 21, COIN / CLASS A, DIRECT LISTING and Nasdaq are readable. Four remote participant windows visible.",
+    "style": "Cinematic drawn anime with warm right-side sunlight and blue tower light; wholly new character designs, clothing and viewpoint."
+  },
+  "approval_note": "Approved raw v2 and framed v1 are the designated publication inputs; the book preserves the raw art without modification."
+}

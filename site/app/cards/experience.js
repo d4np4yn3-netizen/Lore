@@ -5,7 +5,7 @@ export const ASSET_ORIGIN = 'https://raw.githubusercontent.com/d4np4yn3-netizen/
 export const archiveCards = cards.map(card => ({ ...card, id: card.number.split('/')[0], year: Number(card.date.match(/\d{4}/)[0]), media: media[card.slug], printFiles: printFiles.cards[card.number.split('/')[0]], printAssetOrigin: printFiles.cards[card.number.split('/')[0]]?.assetOrigin || printFiles.assetOrigin, sharedPrintBack: printFiles.sharedBack }));
 export const years = [...new Set(archiveCards.map(card => card.year))];
 export const yearNotes = {
-  2021: ['Bitcoin enters another balance sheet.', 'Tesla discloses a major bitcoin investment as corporate treasury interest grows.'],
+  2021: ['Crypto reaches wider institutions.', 'Tesla adds bitcoin to its balance sheet, digital art reaches a major auction house, and Coinbase enters public markets.'],
   2020: ['The world reaches crypto.', 'Pandemic panic crashes through markets and tests decentralised finance.'],
   1982: ['The idea before the coin.', 'Privacy becomes a question of mathematics.'],
   1993: ['A movement finds its voice.', 'Cypherpunks put their principles into code.'],
