@@ -1,0 +1,75 @@
+{
+  "page_count": 2,
+  "page_size_points": [
+    595.2755905511812,
+    841.8897637795277
+  ],
+  "source_art_dimensions_px": [
+    1060,
+    1484
+  ],
+  "source_art_sha256": "0d8663dd6b814d96eaf4841e1d0647eb4c638f6d42b8a1d669e9bf0a1ed6620f",
+  "source_art_unmodified": true,
+  "native_effective_ppi": 128.2095238095238,
+  "native_resolution_note": "1060 x 1484 raw pixels at proportional A4 fit; 128.21 effective PPI. Upsampling is not native resolution.",
+  "art_fit": "Contain proportional full native artwork with black edge bars; unchanged 060 layout",
+  "story_column_bottom_points": 148.48976377952755,
+  "clues_column_bottom_points": 328.0897637795277,
+  "story_paragraphs": 5,
+  "clue_count": 3,
+  "source_count": 3,
+  "story_word_count": 222,
+  "event_date": "16 SEP 2020",
+  "rarity": "common",
+  "collector_number": "061/100",
+  "card_phrase": "USERS BECOME OWNERS.",
+  "phrase_status": "Approved original editorial copy",
+  "linked_source_annotations": 5,
+  "pdf_sha256": "68008bebc7dbb026db9ef8ee4b60fb418e1ceb633076a29ed2d9de95d08f5184",
+  "visual_review": "PASS: both A4 pages and all three actual-art crops inspected; no clipping, overlap, missing glyphs or wrong crops",
+  "physical_print_acceptance": "Not claimed",
+  "rights_clearance": "Not established; artwork approval does not imply rights clearance",
+  "layout_reference": {
+    "reference_060_commit": "a8870d3f0f8d4b22d4508a7e098239022ef0fa23",
+    "reference_060_git_blob": "53c24a1ab5a738fb67221aac3b36d126b2558df9",
+    "reference_060_build_sha256": "fc249e88f96a456e19d1aadbfe5d2302f4a667416b6784bef8d8f0d6d87331fc",
+    "reference_060_path": "cards/crypto/season-01/the-vampire-attack-master-060/build_book.py",
+    "unchanged_layout": "Two-page A4; proportional full native art with black edge bars; original fonts, margins, columns, type sizes, heading and footer positions",
+    "changes": "061 event copy, source art, three actual-art details and crop boxes; collection page number 122"
+  },
+  "source_verification_date": "2026-10-13",
+  "book_approval_status": "Publication authorized; technical QA separate",
+  "publication_authorized": true,
+  "content_review": "UNI launch, not Uniswap founding; 400 UNI per eligible historical user address with 1 September 2020 cutoff; historical LP distribution separate; governance meaning distinguished from company equity; no all-wallet eligibility or profit claims; three actual visual motifs and no invented snapshot-tag or key clue.",
+  "pdf_embedded_art_matches_source_pixels": true,
+  "exact_crop_pixel_checks": "All three crops match raw-art pixels exactly; no resampling",
+  "all_story_and_clue_text_present_in_pdf": true,
+  "content_mirror_parity": true,
+  "unique_linked_sources": 3,
+  "fonts_match_repository_pins": [
+    {
+      "file": "source/fonts/DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "git_blob": "fb0bd945a4f5aa716dcb8d9b7476bfa30e365a1e",
+      "bytes": 759720
+    },
+    {
+      "file": "source/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "git_blob": "426812b9b0ce12f20285adf46d8acc0dd40dfba5",
+      "bytes": 708920
+    }
+  ],
+  "used_fonts": [
+    "DejaVuSans",
+    "DejaVuSans-Bold"
+  ],
+  "deterministic_rebuild": "PASS: PDF, spread, page PNGs, content mirrors and crop files are byte-identical after rebuild",
+  "source_package_self_contained": true,
+  "privacy_scan": "PASS: no private paths or conversation/file identities in publication inputs",
+  "native_effective_ppi_rounded": 128.21,
+  "poppler_visual_review": "PASS: independent Poppler renders of both pages inspected",
+  "visual_review_date": "2026-10-13",
+  "raw_art_editing": "None; source art bytes and embedded pixels are preserved",
+  "layout_validation": "Exact 060 page geometry, type sizes, margins, columns and footer positions; event copy and actual-art detail count adapted for 061"
+}

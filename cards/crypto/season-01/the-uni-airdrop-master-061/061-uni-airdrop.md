@@ -1,0 +1,27 @@
+# 061 - UNI Airdrop
+
+16 SEP 2020 / UNISWAP / COMMON
+
+USERS BECOME OWNERS.
+
+## The story
+
+On 16 September 2020, Uniswap introduced UNI, its governance token, and opened a retrospective distribution to earlier participants. The exchange itself had launched on 2 November 2018. This was a new chapter in how an existing protocol would be governed.
+
+Each eligible historical user address could claim 400 UNI. Eligibility drew on Uniswap v1 or v2 activity before a snapshot ending at 00:00 UTC on 1 September 2020. The announcement counted 251,534 user addresses, including around 12,000 whose interactions had only resulted in failed transactions.
+
+Historical liquidity providers received a separate allocation calculated from their past contributions. The user grant was therefore one part of a wider distribution. UNI also carried the ability to delegate voting power, connecting possession of a token with participation in decisions about the protocol.
+
+The artwork turns an onchain distribution into an airborne delivery. A cargo aircraft crosses a glowing sea of clouds while three pink parachutes lower crates marked 400 UNI. Their repeated labels make the equal user grant visible; their different distances give the imagined delivery depth and movement.
+
+USERS BECOME OWNERS expresses the move toward community governance. It is editorial shorthand, not a claim that UNI made recipients shareholders in Uniswap Labs. The scene celebrates recognition of past participation, while the historical cutoff remains essential: simply owning a wallet did not make someone eligible.
+
+## Details in the artwork
+
+1. **THE 400 UNI CARGO** The crate label recalls the fixed grant for each eligible historical user address. It does not describe the separately calculated liquidity-provider allocation or promise a future token price.
+2. **THREE PINK PARACHUTES** Bright pink canopies repeat the delivery motif across the cloudscape. The three illustrated drops create scale and rhythm; they are not a count of recipients or categories of eligibility.
+3. **THE CARGO AIRCRAFT** The plane makes the word airdrop literal in the picture. The aircraft and sunset cloud sea are imaginative staging for a digital distribution, not a reconstruction of an actual flight.
+
+## Source and art note
+
+Sources: [Uniswap, Introducing UNI, 16 September 2020](https://blog.uniswap.org/uni); [Hayden Adams, A Short History of Uniswap](https://blog.uniswap.org/uniswap-history); [Uniswap UNI token contract and vote delegation](https://github.com/Uniswap/governance/blob/master/contracts/Uni.sol). The airborne scene is a visual metaphor. Aircraft markings are incidental, not historical clues. USERS BECOME OWNERS is approved original editorial copy. No endorsement, guaranteed return or financial advice is implied.
