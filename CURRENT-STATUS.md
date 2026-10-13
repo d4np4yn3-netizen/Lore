@@ -1,3 +1,13 @@
+# Current release — 063 Tesla Buys Bitcoin
+
+Approved 13 October 2026 for digital publication: final v7 raw artwork and card proof v2, with the notebook and pencil included. UNCOMMON / TESLA / TESLA BUYS BITCOIN / BITCOIN ON THE BALANCE SHEET. / 08 FEB 2021.
+
+Local release checks pass for 62 numbered cards (001–057 and 059–063; 058 deferred), 263 artwork clues, 124 book previews, 667 packed display assets and 156 related-story links. Full test suite, production build, search/SEO, buyer journey and pack-model checks pass. Source artwork remains byte-identical at SHA-256 8144c8146664e39d8d1d4c525aa271bf32e79047748b4d376ed24d828a26cad9.
+
+Original asset downloads are pinned to commit 8bd52e19ef25bc9ee391e46a4083a6d5546d3160. Canonical master: cards/crypto/season-01/tesla-buys-bitcoin-master-063. Stable QR: https://lore-site-v1.vercel.app/crypto/063/ → /cards/tesla-buys-bitcoin. Remote publication and live verification are recorded separately; local checks alone do not establish production deployment. Physical printer acceptance, book reproduction review and commercial rights clearance remain pending.
+
+## Historical status
+
 # Card 054 — Libra Unveiled — published and digitally verified, 10 October 2026
 
 Final hidden-hand blue-lit art approved by Dan Payne (“Ok, this really is the one”). Common; FACEBOOK; 18 JUN 2019; A NEW GLOBAL CURRENCY. Final artwork SHA-256 `4f7240578b8f380e98db36c4aeaea97489992799d9f582c04ad4f3d5fd2169b7`. Master: `cards/crypto/season-01/libra-unveiled-master-054`.

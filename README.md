@@ -1,3 +1,7 @@
+## 063 — Tesla Buys Bitcoin · 13 October 2026
+
+Approved v7 artwork and card layout, Uncommon / TESLA / 08 FEB 2021 / BITCOIN ON THE BALANCE SHEET. The matching two-page book and site contain five story paragraphs, five actual-art clues and three primary sources. Current numbered collection: 62 cards, 001–057 and 059–063; 058 remains deferred. Digital publication authorization does not establish physical print acceptance or rights clearance.
+
 # 050 The Pineapple Fund published and digitally verified — 8 October 2026
 
 The approved First Clear Water artwork and exact master-default card framing are preserved. BITCOIN / PINEAPPLE FUND / Common / 2018 / WEALTH INTO WATER. / 050/100. The caption is original editorial wording. Source artwork SHA-256: `816fe9705bd6812b84d9ace829ebb91067922f8106818d70b3f74eb329143192`. Current master: `cards/crypto/season-01/the-pineapple-fund-master-050`.

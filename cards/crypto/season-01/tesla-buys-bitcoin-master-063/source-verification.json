@@ -1,0 +1,51 @@
+{
+  "verified_on": "2026-10-13",
+  "primary_sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/0001564590-21-004599-index.html",
+      "checked": "SEC filing detail record",
+      "supports": [
+        "Form 10-K",
+        "filing date 2021-02-08",
+        "period of report 2020-12-31",
+        "accession 0001564590-21-004599"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm",
+      "checked": "Indexed SEC annual-report text; direct HTML opening was unreliable, corroborated against Tesla's investor-relations PDF",
+      "supports": [
+        "January 2021 investment-policy change",
+        "aggregate $1.50 billion bitcoin investment followed",
+        "payment acceptance described as a future plan"
+      ]
+    },
+    {
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459021004599/tsla-10k_20201231-gen.pdf#page=106",
+      "checked": "Tesla investor-relations PDF, PDF page 106, printed page 106, Note 23 Subsequent Events and Investments",
+      "supports": [
+        "Note 23 is Subsequent Events",
+        "policy change precedes investment",
+        "no exact purchase day supplied",
+        "payment acceptance future and qualified"
+      ]
+    }
+  ],
+  "artwork_source": "User-approved v7 raw PNG",
+  "artwork_interpretations": [
+    "fictional professor crossover to 047",
+    "FUTURE-envelope car crossover to 059",
+    "showroom and documents are illustrative fiction"
+  ],
+  "claims_explicitly_avoided": [
+    "purchase happened on 8 February",
+    "purchase happened on a specified day in January",
+    "all purchases were one transaction",
+    "bitcoin payments were already accepted on 8 February",
+    "bitcoin was held on the 31 December 2020 balance sheet",
+    "depiction is a real Tesla employee or authentic SEC document",
+    "commercial rights are cleared"
+  ],
+  "artwork_sha256": "8144c8146664e39d8d1d4c525aa271bf32e79047748b4d376ed24d828a26cad9",
+  "revision_note": "The notebook and pencil are incidental illustrated props; historical content and five clues unchanged"
+}

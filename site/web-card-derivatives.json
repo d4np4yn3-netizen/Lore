@@ -1086,7 +1086,7 @@
     },
     {
       "number": "024",
-      "title": "MT. GOX \u200b",
+      "title": "MT. GOX ​",
       "rarity": "epic",
       "path": "site/public/archive/024-histrove-border-card.webp",
       "public_path": "/archive/024-histrove-border-card.webp",
@@ -1180,7 +1180,7 @@
     },
     {
       "number": "026",
-      "title": "QUANTUM \u200b",
+      "title": "QUANTUM ​",
       "rarity": "common",
       "path": "site/public/archive/026-histrove-border-card.webp",
       "public_path": "/archive/026-histrove-border-card.webp",
@@ -1832,6 +1832,53 @@
       "complete_border_geometry_retained": true,
       "qr_payloads": [
         "https://lore-site-v1.vercel.app/crypto/039/"
+      ],
+      "qr_pass": true,
+      "print_source_unchanged": true
+    },
+    {
+      "number": "063",
+      "title": "TESLA BUYS BITCOIN",
+      "rarity": "uncommon",
+      "path": "site/public/archive/063-histrove-border-card.webp",
+      "public_path": "/archive/063-histrove-border-card.webp",
+      "sha256": "864edaf00e8adf6c6edc0a83f6e70176fc6a75194b63a458dee681eade53a57d",
+      "bytes": 547796,
+      "dimensions_px": [
+        600,
+        863
+      ],
+      "source": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-063-Front-Print-v1.png",
+      "source_sha256": "2ff40b480aab0937bc2dcfed8b6e2b66aad760929fa0b93e56ecd10612cb737a",
+      "source_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-063-Front-Print-v1.svg",
+      "source_svg_sha256": "3bb4e08d5121bf4440efef398192f243654da4afc86887311f4d92329445bdc6",
+      "source_dimensions_px": [
+        816,
+        1110
+      ],
+      "outer_border_bounds_ltrb": [
+        72.37923250565251,
+        72.37923250565251,
+        743.6207674946475,
+        1037.6207674947707
+      ],
+      "outer_radius_px": 20.857787810392498,
+      "conservative_crop_ltrb": [
+        72,
+        72,
+        744,
+        1038
+      ],
+      "crop_dimensions_px": [
+        672,
+        966
+      ],
+      "mask": "Exact outer stroked rounded rectangle, 8x supersampling, transparent exterior",
+      "resampling": "LANCZOS",
+      "lossless": true,
+      "complete_border_geometry_retained": true,
+      "qr_payloads": [
+        "https://lore-site-v1.vercel.app/crypto/063/"
       ],
       "qr_pass": true,
       "print_source_unchanged": true

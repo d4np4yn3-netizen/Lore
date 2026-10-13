@@ -1,3 +1,7 @@
+## 063 — Tesla Buys Bitcoin · 13 October 2026
+
+Approved v7 artwork and card layout, Uncommon / TESLA / 08 FEB 2021 / BITCOIN ON THE BALANCE SHEET. The matching two-page book and site contain five story paragraphs, five actual-art clues and three primary sources. Current numbered collection: 62 cards, 001–057 and 059–063; 058 remains deferred. Digital publication authorization does not establish physical print acceptance or rights clearance.
+
 # Current book collection — 9 October 2026
 
 The [manifest](manifest.json) now contains 52 numbered chapters and two-page PDFs, 001–052. Lightning Torch 051 is inserted before QuadrigaCX 052. Its narrative, four exact-art details and source links match the website. The unchanged A4 layout embeds native 1060 × 1484 artwork at 128.21 effective PPI; final resolution review remains deferred.

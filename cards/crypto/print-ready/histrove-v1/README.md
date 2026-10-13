@@ -1,3 +1,7 @@
+## 063 — Tesla Buys Bitcoin · 13 October 2026
+
+Approved v7 artwork and card layout, Uncommon / TESLA / 08 FEB 2021 / BITCOIN ON THE BALANCE SHEET. The matching two-page book and site contain five story paragraphs, five actual-art clues and three primary sources. Current numbered collection: 62 cards, 001–057 and 059–063; 058 remains deferred. Digital publication authorization does not establish physical print acceptance or rights clearance.
+
 # Current numbered collection — 9 October 2026
 
 The manifest now includes 52 HISTROVE fronts, numbered 001–052, with corresponding PNG, PDF and SVG files and the unchanged shared back. Card 051 uses the final centred Lightning Torch illustration with a corrected +10,000 SATS engraving. The fixed geometry remains 816 × 1110 at 300 DPI, trim 744 × 1038 and safe 684 × 981. Physical printer acceptance remains separate.

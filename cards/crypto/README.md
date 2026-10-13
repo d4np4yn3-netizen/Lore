@@ -1,3 +1,7 @@
+## 063 — Tesla Buys Bitcoin · 13 October 2026
+
+Approved v7 artwork and card layout, Uncommon / TESLA / 08 FEB 2021 / BITCOIN ON THE BALANCE SHEET. The matching two-page book and site contain five story paragraphs, five actual-art clues and three primary sources. Current numbered collection: 62 cards, 001–057 and 059–063; 058 remains deferred. Digital publication authorization does not establish physical print acceptance or rights clearance.
+
 # 038 and 039 published and verified
 
 CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 collection: 168 clues, 78 book previews and 324 display images. Content release b16e2f5440f8e34bf449119ae2d14c10b268c7c7 passed all 39 live QR routes, 17 new media hashes, 12 original downloads, digital QR decoding, exact book/site copy and independent desktop browser checks. All earlier sources/media are preserved. Narrow visual-browser testing was unavailable; physical/device reproduction remains separate. Original downloads are pinned to 22f32e165862020b5ec5bbd837f65e58e3b72364.
