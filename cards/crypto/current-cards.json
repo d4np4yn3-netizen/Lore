@@ -2,7 +2,7 @@
   "updated": "2026-10-13",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 62,
+  "approved_visual_count": 63,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -8095,6 +8095,94 @@
       "book_native_effective_ppi": 128.2095238095238,
       "qr_target": "https://lore-site-v1.vercel.app/cards/the-uni-airdrop",
       "rights_review": "Separate commercial-reproduction review; aircraft and airborne delivery are illustrative metaphor."
+    },
+    {
+      "rarity": "rare",
+      "creator": "ETHEREUM",
+      "title_line_1": "BEACON",
+      "title_line_2": "CHAIN",
+      "context": "THE FIRST LIGHT.",
+      "moment_label": "01 DEC 2020",
+      "set_label": "CRYPTO • SEASON 01 • 062/100",
+      "artwork": "cards/crypto/season-01/beacon-chain-master-062/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/062/",
+      "confirmed_lore_owned_route": true,
+      "art_preserve_aspect_ratio": "xMinYMid slice",
+      "status": "PUBLICATION_APPROVED",
+      "phrase_status": "Approved original editorial wording",
+      "art_sha256": "4fca850ba75fd0bbdb7a5552b8c27dd5069044bc4d10ca7c39b50bef75c02b9d",
+      "id": "crypto-s01-beacon-chain",
+      "moment_number": 62,
+      "collection": "crypto",
+      "season": 1,
+      "set_size": 100,
+      "event_date": "2020-12-01",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/beacon-chain-master-062/art.png",
+        "bytes": 2604219,
+        "sha256": "4fca850ba75fd0bbdb7a5552b8c27dd5069044bc4d10ca7c39b50bef75c02b9d"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-062-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-062-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-062-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/062-beacon-chain-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/062-beacon-chain.md",
+      "artwork_status": "VISUALLY_APPROVED",
+      "approved_at": "2026-10-13",
+      "approval_record": "cards/crypto/season-01/beacon-chain-master-062/approval.json",
+      "qr_mode": "live",
+      "qr_status": "PUBLICATION_APPROVED",
+      "print_release": false,
+      "publication_approved": true,
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-062-Front-Print-v1.png",
+          "bytes": 901664,
+          "sha256": "58f132d3a80db5bfcb37346620dd979162ecabfb93a663ffa78cacf5f19cc8b6"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-062-Front-Print-v1.pdf",
+          "bytes": 4045523,
+          "sha256": "9f4c03462ba85b94846e510b185246157020f392a4c552e27d3aadda66a5cc40"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-062-Front-Print-v1.svg",
+          "bytes": 4039902,
+          "sha256": "abe72ef876e939a65922cabb29931c4d9f8cf19d3fd894a9c049e833ee54865f"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-062-Front-Print-v1.png",
+          "bytes": 901664,
+          "sha256": "58f132d3a80db5bfcb37346620dd979162ecabfb93a663ffa78cacf5f19cc8b6"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-062-Front-Print-v1.pdf",
+          "bytes": 4045523,
+          "sha256": "9f4c03462ba85b94846e510b185246157020f392a4c552e27d3aadda66a5cc40"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-062-Front-Print-v1.svg",
+          "bytes": 4039902,
+          "sha256": "abe72ef876e939a65922cabb29931c4d9f8cf19d3fd894a9c049e833ee54865f"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/062.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+      "book_native_effective_ppi": 128.2095238095238,
+      "qr_target": "https://lore-site-v1.vercel.app/cards/beacon-chain",
+      "rights_review": "Separate commercial-reproduction review; harbor, lighthouse, mine and unfinished bridge are symbolic scenery, not literal construction. Client names are historical references, not endorsements."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -8107,12 +8195,12 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-13",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 60,
-  "numbered_published_count": 60,
-  "numbering_gap_note": "Published numbered cards 001–057 and 059–061. Card 058 remains deferred; two unnumbered designs remain archived.",
+  "approved_print_derivative_count": 61,
+  "numbered_published_count": 61,
+  "numbering_gap_note": "Published numbered cards 001–057 and 059–062. Card 058 remains deferred; two unnumbered designs remain archived.",
   "pending_live_verification_numbers": [],
-  "prepared_numbered_count": 60,
-  "current_numbered_print_count": 60,
+  "prepared_numbered_count": 61,
+  "current_numbered_print_count": 61,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
   "print_master_directory": "cards/crypto/master/histrove-print-v1",
   "shared_print_back": {
@@ -8142,5 +8230,5 @@
     "physical_print_release": false,
     "matches_approved_back_pixels": true
   },
-  "print_revision_note": "Current HISTROVE fronts 001–057 and 059–061 with unchanged shared back. Physical acceptance separate."
+  "print_revision_note": "Current HISTROVE fronts 001–057 and 059–062 with unchanged shared back. Physical acceptance separate."
 }
