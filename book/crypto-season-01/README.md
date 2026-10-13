@@ -1,3 +1,8 @@
+## 066 — Bored Ape Yacht Club · 13 October 2026
+
+Approved composite v3 artwork and card v3: Uncommon / NFT CULTURE / 23 APR 2021 / WELCOME TO THE CLUB. The matching two-page book and site share five story paragraphs, four actual-art clues and four primary sources. Current numbered collection after this release: 65 cards, 001–057 and 059–066; 058 remains deferred. The 23 April presale is distinguished from the 1 May sellout. The membership hardware and gathering are illustrative fiction; the poster deliberately reuses the approved HISTROVE 038 portrait. The phrase is approved editorial wording. Digital publication authorization does not establish physical print acceptance or commercial rights clearance.
+
+
 ## 065 — Coinbase on Nasdaq · 13 October 2026
 
 Approved raw v2 artwork and card v1: Uncommon / PUBLIC MARKETS / 14 APR 2021 / IT’S ONLY THE BEGINNING. The matching two-page book and site contain the same story, four actual-art clues and primary sources. Current numbered collection: 64 cards, 001–057 and 059–065; 058 remains deferred. Coinbase’s direct listing is distinguished from a traditional IPO; the opening-bell ceremony is separate from the first COIN trade. Digital publication authorization does not establish physical print acceptance or rights clearance.

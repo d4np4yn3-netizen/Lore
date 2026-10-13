@@ -1,3 +1,15 @@
+# Current release — 066 Bored Ape Yacht Club
+
+Approved 13 October 2026 for digital publication: exact composite v3 artwork and framed card v3, unchanged. UNCOMMON / NFT CULTURE / BORED APE YACHT CLUB / WELCOME TO THE CLUB / 23 APR 2021.
+
+Local release checks pass for 65 numbered cards (001–057 and 059–066; 058 deferred), 275 artwork clues, 130 book previews, 691 packed display assets and 165 related-story links. Full collection tests, production build, search/SEO, buyer journey and pack-model checks pass. Source artwork remains byte-identical at SHA-256 8bde272b72eb06276bcec1420b5868f51e4d0fbef9fce40d2fc93cbb8c409cee.
+
+Original artwork, book, print files and chapter downloads are pinned to commit ab8ba350d02176e2f671a2251c769815522ec643. Canonical master: cards/crypto/season-01/bored-ape-yacht-club-master-066. Stable QR: https://lore-site-v1.vercel.app/crypto/066/ → /cards/bored-ape-yacht-club. The five story paragraphs, four actual-art clues and four primary sources distinguish the 23 April presale from the 1 May sellout, mint price from gas, and fictional physical membership hardware from NFT membership. The postcard deliberately reuses an exact portrait crop from approved HISTROVE 038 art. The phrase is editorial wording, not a historical quotation. The founders' retrospective is qualified as indexed primary-source text because its original link now redirects. Previous cards, the broader 2021 timeline introduction, homepage and pack design are preserved.
+
+Remote publication and live verification are recorded separately; local checks alone do not establish production deployment. Physical printer acceptance, final book reproduction review and commercial rights clearance remain pending. Native book artwork is 128.21 effective PPI.
+
+## Historical status
+
 # Current release — 065 Coinbase on Nasdaq
 
 Approved 13 October 2026 for digital publication: raw v2 artwork and card proof v1, unchanged. UNCOMMON / PUBLIC MARKETS / COINBASE ON NASDAQ / IT’S ONLY THE BEGINNING. / 14 APR 2021.

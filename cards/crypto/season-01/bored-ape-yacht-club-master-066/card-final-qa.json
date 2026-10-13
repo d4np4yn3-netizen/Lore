@@ -1,0 +1,154 @@
+{
+  "status": "APPROVED_ARTWORK_AND_LAYOUT_DIGITAL_QA_PASSED",
+  "card": "066",
+  "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+  "canonical_static_template_exact": true,
+  "approved_logo_child_elements_exact": true,
+  "artwork_byte_preservation": true,
+  "raw_sha256": "8bde272b72eb06276bcec1420b5868f51e4d0fbef9fce40d2fc93cbb8c409cee",
+  "embedded_art_sha256": "8bde272b72eb06276bcec1420b5868f51e4d0fbef9fce40d2fc93cbb8c409cee",
+  "print_spec": {
+    "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+    "approved_by": "Dan Payne",
+    "approved_at": "2026-10-06",
+    "approval_scope": "001 HISTROVE logo placement, shared back, all39 numbered cards, six future rarity templates; no illustration or typography changes",
+    "full_bleed_px": [
+      816,
+      1110
+    ],
+    "dpi": 300,
+    "full_bleed_mm": [
+      69.088,
+      93.98
+    ],
+    "trim_box_px": [
+      36,
+      36,
+      744,
+      1038
+    ],
+    "safe_box_px": [
+      66,
+      64.5,
+      684,
+      981
+    ],
+    "layout_units": [
+      900,
+      1287.625
+    ],
+    "scale": 0.7584650112866818,
+    "translate": [
+      66.69074492099321,
+      66.69074492099321
+    ],
+    "layout_height_delta": 27.625,
+    "front_frame_stroke_bounds_px": [
+      72.37923250564333,
+      72.37923250564333,
+      743.6207674943566,
+      1037.6207674943566
+    ],
+    "front_margin_mm": 3.0801083521444683,
+    "back_margin_mm": 3.048,
+    "artwork_proportional_enlargement_from_v1_1_percent": 2.242288961038961,
+    "illustration_bytes": "unchanged; proportional centre fill with existing per-card translations retained",
+    "text_logo_qr": "same dimensions as approved 001 v1.2; header/footer positions follow taller frame",
+    "fonts": "cards/master/front-v3/source/fontconfig.xml",
+    "templates": [
+      {
+        "path": "cards/crypto/master/histrove-print-v1/templates/common.svg",
+        "bytes": 559327,
+        "sha256": "f949afaa887319b6ccb0a33cfeb5f4179370fdea98c51a52ab2b033c34ee7c79"
+      },
+      {
+        "path": "cards/crypto/master/histrove-print-v1/templates/epic.svg",
+        "bytes": 559328,
+        "sha256": "3bedcfc9330f067b76bbe0022d0ba33068ef69f39c25ba1fc510642dc816123d"
+      },
+      {
+        "path": "cards/crypto/master/histrove-print-v1/templates/legendary.svg",
+        "bytes": 559333,
+        "sha256": "daa36317500df84c88a79136c9007aa33a828e875dc2037019d86b586a2e156e"
+      },
+      {
+        "path": "cards/crypto/master/histrove-print-v1/templates/mythic.svg",
+        "bytes": 559334,
+        "sha256": "bb8627a93f9b5c090b4736545a7534f45dcf2fa13b3373cc0418b93b689c4161"
+      },
+      {
+        "path": "cards/crypto/master/histrove-print-v1/templates/rare.svg",
+        "bytes": 559330,
+        "sha256": "ff9c1a840fca644acf240cf3a76028748105ee4e0d3c945db889d5902207720a"
+      },
+      {
+        "path": "cards/crypto/master/histrove-print-v1/templates/uncommon.svg",
+        "bytes": 559339,
+        "sha256": "ebd4a1d69d7495f7b1627e04e7374c379437728eff6087fd1092307a50b606df"
+      }
+    ],
+    "printer_acceptance": false,
+    "physical_sample_approval": false,
+    "print_release": false,
+    "supersedes": "LORE-CRYPTO-PRINT-v1.2",
+    "logo": {
+      "id": "histrove-front-logo",
+      "x": "610",
+      "y": "34",
+      "width": "250",
+      "height": "112.5",
+      "viewBox": "0 100 2400 1080",
+      "preserveAspectRatio": "xMidYMid meet"
+    },
+    "artwork_effective_ppi_range": [
+      465.68,
+      465.99
+    ],
+    "brush_wordmark_native_px": [
+      2172,
+      724
+    ],
+    "raster_resolution_note": "300 DPI card export. Original illustration bytes preserved. Brush wordmark derives from 2172x724 source; larger intermediate exports do not add native detail. PDF keeps native images and vector frame/crown/QR/outlined text. No 600-DPI native-art claim."
+  },
+  "fixed_text_fit": {
+    "creator-name": {
+      "rightmost_layout_x": 295.859375,
+      "limit_x": 620
+    },
+    "title-line-1": {
+      "rightmost_layout_x": 504.34375,
+      "limit_x": 620
+    },
+    "title-line-2": {
+      "rightmost_layout_x": 537.921875,
+      "limit_x": 620
+    },
+    "moment-context": {
+      "rightmost_layout_x": 412.14375,
+      "limit_x": 620
+    },
+    "moment-number": {
+      "rightmost_layout_x": 201.3125,
+      "limit_x": 620
+    },
+    "set-number": {
+      "rightmost_layout_x": 361.375,
+      "limit_x": 620
+    }
+  },
+  "qr_url": "https://lore-site-v1.vercel.app/crypto/066/",
+  "qr_status": "ROUTE_PENDING_PUBLICATION",
+  "all_png_pdf_decodes_pass": true,
+  "artwork_status": "APPROVED_SOURCE_COMPOSITE_V3",
+  "copy_status": "APPROVED",
+  "visual_qa": "All three ape faces and four source-qualified clues retained. Actual approved 038 portrait crop is perspective-fitted on the poster. Paper pins and border preserved. Logo brush tip is close to doorway ape hair but covers no facial feature. No title, date, phrase or QR collisions.",
+  "physical_print_release": false,
+  "book_reproduction_release": false,
+  "device_camera_scan": false,
+  "source_art_unmodified": true,
+  "approved_trim_pixel_match": true,
+  "qr": [
+    "https://lore-site-v1.vercel.app/crypto/066/"
+  ],
+  "publication_authorized": true
+}

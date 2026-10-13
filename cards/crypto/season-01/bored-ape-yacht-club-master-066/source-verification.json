@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-13",
+  "status": "PRIMARY_SOURCES_CHECKED_WITH_DISCLOSED_REDIRECT_LIMIT",
+  "sources": [
+    {
+      "url": "https://boredapeyachtclub.com/activations/bayc-founding",
+      "method": "Live primary page retrieved",
+      "location": "The Birth of the Bored Ape Yacht Club; April 2021 introduction",
+      "claims": [
+        "23 April 2021 collection release date",
+        "10,000 Bored Apes"
+      ]
+    },
+    {
+      "url": "https://news.yuga.com/lets-make-a-nft",
+      "method": "Indexed primary-source article text verified; direct URL now redirects to https://yuga.com/",
+      "location": "Sections It became real and What happened when; April 23, 2021",
+      "claims": [
+        "Week-long presale began on 23 April 2021",
+        "Original mint price 0.08 ETH",
+        "About 500 apes minted during presale",
+        "Collection sold out on 1 May 2021",
+        "Founders described bored crypto traders and a secret club in a swamp"
+      ],
+      "alternate_indexed_url": "https://paragraph.com/@yuga-labs/let-s-make-a-nft",
+      "alternate_url_limits": "Indexed counterpart; the current article body was not directly retrieved. No successful current-page retrieval claimed."
+    },
+    {
+      "url": "https://yuga.com/about/",
+      "method": "Live primary page retrieved",
+      "location": "About Yuga opening paragraphs",
+      "claims": [
+        "April 2021 launch",
+        "Each of 10,000 NFTs described as membership pass to a digital club",
+        "Identity and community central to project framing"
+      ]
+    },
+    {
+      "url": "https://ethereum.org/developers/docs/gas/",
+      "method": "Official Ethereum documentation retrieved through search results",
+      "location": "What is gas; transaction-value and fee example",
+      "claims": [
+        "Ethereum operations consume computational resources paid through gas fees",
+        "Gas is separate from transferred value"
+      ],
+      "scope_note": "Supports only the general separation of transaction fees from mint payment. Current EIP-1559 mechanism is not applied retrospectively to April 2021."
+    }
+  ],
+  "qualifications": [
+    "23 April is the start of the presale, not the sellout date",
+    "Mint price is not resale price and excludes transaction gas",
+    "Three apes are original fictional characters, not specific official NFT tokens",
+    "No documented physical launch gathering depicted",
+    "Plastic portrait card and reader are membership symbols, not historical hardware",
+    "Postcard is a direct crop of approved HISTROVE 038 illustration; it is not an official CryptoPunk token image",
+    "Postcard retains the source crop small 10,000 caption",
+    "WELCOME TO THE CLUB is approved editorial copy, not a sourced quotation",
+    "Artwork approval does not imply rights clearance or physical print acceptance"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "zip_integrity": "PASS",
+  "manifest_file_hashes": "PASS",
+  "self_contained_rebuild": "Extracted package rebuilt PDF, page images, spread, JSON, Markdown, crops and verified book QA byte-identically",
+  "manual_poster_reproduction": "Exact approved final art SHA-256 reproduced from packaged original raw and source portrait crop",
+  "outputs_checked": [
+    {
+      "path": "HISTROVE-066-Bored-Ape-Yacht-Club-Book.pdf",
+      "sha256": "823e34669a14bc46770d328b7692e583cf8d61920e61abb7790af87d138dd6b2"
+    },
+    {
+      "path": "HISTROVE-066-Bored-Ape-Yacht-Club-Book-Spread.png",
+      "sha256": "a4977dcab1cc96fcc70d28a6004edf107e4b9e4e6843cc537f104930d2e63e6f"
+    },
+    {
+      "path": "book-page-1.png",
+      "sha256": "606a47219c91fa575e7cb2810948dd7de421761a9cd904ec84f35c12157a5eef"
+    },
+    {
+      "path": "book-page-2.png",
+      "sha256": "0c6d305c553cd8f1d7210c04f373a1d0b92af164fd746734a189facf579b8f53"
+    },
+    {
+      "path": "066.json",
+      "sha256": "b9dc23e91b55d0757b14f4010ae078bf0031efb0311276aef443178bf174ecfe"
+    },
+    {
+      "path": "066-bored-ape-yacht-club.md",
+      "sha256": "02e66c3a7280cd70db4b852df09132510869030bb29fa7ebd30edb15fd885e43"
+    },
+    {
+      "path": "sources.json",
+      "sha256": "36412c37e3a1017dcabcb3692aa39b8586128e013de58ef742d45dd880bbd4aa"
+    },
+    {
+      "path": "closeup-boxes.json",
+      "sha256": "bd8d9b2c808915b52e3ea9f85b48f0a4da000fff139898468aae36a85e595b19"
+    },
+    {
+      "path": "book-qa.json",
+      "sha256": "3ab4cd81e133ca5c777a0e43e3564d7a32761c170afda45ead332fbe78cd0931"
+    },
+    {
+      "path": "closeups/066-detail-1.png",
+      "sha256": "78a5057a7d05b7b118e5a605a985684ec0174d97a6d4e97bb77de216e4dff2db"
+    },
+    {
+      "path": "closeups/066-detail-2.png",
+      "sha256": "4f8f10b71c0db599b323d6918340aab4d7734fe99a79c0f35e584b8e49d2d9f2"
+    },
+    {
+      "path": "closeups/066-detail-3.png",
+      "sha256": "d578baa0710d5d1730e028aa8d83d42fa9de0180791d4b2e8aab9ef147b17a63"
+    },
+    {
+      "path": "closeups/066-detail-4.png",
+      "sha256": "f55cb645d508dfb78a3095e41586765047abb03fd854650e3135922814b2dd91"
+    }
+  ]
+}
