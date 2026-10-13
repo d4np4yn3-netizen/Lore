@@ -1,0 +1,78 @@
+{
+  "page_count": 2,
+  "page_size_points": [
+    595.2755905511812,
+    841.8897637795277
+  ],
+  "source_art_dimensions_px": [
+    1060,
+    1484
+  ],
+  "source_art_sha256": "4fca850ba75fd0bbdb7a5552b8c27dd5069044bc4d10ca7c39b50bef75c02b9d",
+  "source_art_unmodified": true,
+  "native_effective_ppi": 128.2095238095238,
+  "native_resolution_note": "1060 x 1484 raw pixels at proportional A4 fit; 128.21 effective PPI. Upsampling is not native resolution.",
+  "art_fit": "Contain proportional full native artwork with black edge bars; unchanged 061 layout",
+  "story_column_bottom_points": 162.28976377952762,
+  "clues_column_bottom_points": 211.0897637795277,
+  "story_paragraphs": 5,
+  "clue_count": 5,
+  "source_count": 4,
+  "story_word_count": 211,
+  "event_date": "01 DEC 2020",
+  "rarity": "rare",
+  "collector_number": "062/100",
+  "card_phrase": "THE FIRST LIGHT.",
+  "phrase_status": "Approved original editorial copy",
+  "linked_source_annotations": 6,
+  "pdf_sha256": "94c1a59408ba55ef9de2771822943a07ec70961a1835b61409d3e0f7114805de",
+  "visual_review": "PASS: both A4 pages and all five actual-art crops inspected; no clipping, overlap, missing glyphs or wrong crops",
+  "physical_print_acceptance": "Not claimed",
+  "rights_clearance": "Not established; artwork approval does not imply rights clearance",
+  "layout_reference": {
+    "reference_060_commit": "a8870d3f0f8d4b22d4508a7e098239022ef0fa23",
+    "reference_060_git_blob": "53c24a1ab5a738fb67221aac3b36d126b2558df9",
+    "reference_060_build_sha256": "fc249e88f96a456e19d1aadbfe5d2302f4a667416b6784bef8d8f0d6d87331fc",
+    "reference_060_path": "cards/crypto/season-01/the-vampire-attack-master-060/build_book.py",
+    "unchanged_layout": "Two-page A4; proportional full native art with black edge bars; original fonts, margins, columns, type sizes, heading and footer positions",
+    "changes": "062 event copy, approved art, five actual-art detail entries and crop boxes; collection page number 124",
+    "reference_061_build_sha256": "c0203ca73e239630a30f751c10739125bbef22918ad0c46805c21af849256f31",
+    "reference_061_path": "reference-061-build_book.py"
+  },
+  "source_verification_date": "2026-10-13",
+  "book_approval_status": "Publication authorized; technical QA separate",
+  "publication_authorized": true,
+  "content_review": "Beacon genesis on 1 December 2020 at 12:00:23 UTC; minimum 16,384 deposits of 32 ETH distinguished from actual genesis count; four launch-era clients verified; parallel proof-of-work Mainnet distinguished from the Merge on 15 September 2022; five actual-art detail entries covering six motifs; scenery explicitly symbolic.",
+  "pdf_embedded_art_matches_source_pixels": true,
+  "exact_crop_pixel_checks": "All five crops match raw-art pixels exactly; no resampling",
+  "all_story_and_clue_text_present_in_pdf": true,
+  "content_mirror_parity": true,
+  "unique_linked_sources": 4,
+  "fonts_match_repository_pins": [
+    {
+      "file": "source/fonts/DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "git_blob": "fb0bd945a4f5aa716dcb8d9b7476bfa30e365a1e",
+      "bytes": 759720
+    },
+    {
+      "file": "source/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "git_blob": "426812b9b0ce12f20285adf46d8acc0dd40dfba5",
+      "bytes": 708920
+    }
+  ],
+  "used_fonts": [
+    "DejaVuSans",
+    "DejaVuSans-Bold"
+  ],
+  "deterministic_rebuild": "PASS: PDF, spread, page PNGs, content mirrors and crop files are byte-identical after rebuild",
+  "source_package_self_contained": true,
+  "privacy_scan": "PASS: no private paths or conversation/file identities in publication inputs",
+  "native_effective_ppi_rounded": 128.21,
+  "poppler_visual_review": "PASS: independent Poppler renders of both pages inspected",
+  "visual_review_date": "2026-10-13",
+  "raw_art_editing": "None; source art bytes and embedded pixels are preserved",
+  "layout_validation": "Exact 061 page geometry, type sizes, margins, columns and footer positions; event copy and actual-art detail count adapted for 062",
+  "publication_approved_at": "2026-10-13"
+}

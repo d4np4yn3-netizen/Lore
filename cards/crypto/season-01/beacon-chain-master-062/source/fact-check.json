@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-13",
+  "status": "Primary sources verified; artwork inspected",
+  "claims": [
+    {
+      "fact": "Genesis at 12:00:23 UTC on 1 December 2020; Unix timestamp 1606824023",
+      "source": "https://blog.ethereum.org/2020/11/27/eth2-quick-update-no-21",
+      "evidence_location": "Eth2 genesis, December 1st. Get ready!"
+    },
+    {
+      "fact": "Minimum 16,384 qualifying 32-ETH validator deposits, equivalent to 524,288 ETH; not an actual genesis-validator count",
+      "source": "https://blog.ethereum.org/2020/11/27/eth2-quick-update-no-21",
+      "evidence_location": "Opening threshold paragraph; 524,288 is arithmetic from 16,384 times 32"
+    },
+    {
+      "fact": "Lighthouse, Nimbus, Prysm and Teku identified as launch-era clients, with mainnet v1.0 releases",
+      "source": "https://blog.ethereum.org/2020/11/27/eth2-quick-update-no-21",
+      "evidence_location": "Monitor updates through genesis"
+    },
+    {
+      "fact": "Earlier MIN_GENESIS_TIME was 1 December 2020 at noon UTC",
+      "source": "https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19",
+      "evidence_location": "v1.0 spec release"
+    },
+    {
+      "fact": "Beacon Chain initially ran alongside proof-of-work Ethereum and did not process Mainnet transactions",
+      "source": "https://ethereum.org/roadmap/beacon-chain/",
+      "evidence_location": "What is the Beacon Chain? and What does the Beacon Chain do?"
+    },
+    {
+      "fact": "The Merge on 15 September 2022 joined the execution and consensus systems and replaced Mainnet proof-of-work",
+      "source": "https://ethereum.org/roadmap/merge/",
+      "evidence_location": "When's it shipping? and Merging with Mainnet"
+    },
+    {
+      "fact": "Lighthouse beacon, timestamp plaque, minimum-threshold sign, four client plaques, lit mining rigs and unfinished bridge are present in approved raw image",
+      "source": "art.png",
+      "evidence_location": "Five native-pixel boxes in closeup-boxes.json; visual interpretation explicitly symbolic"
+    }
+  ]
+}
