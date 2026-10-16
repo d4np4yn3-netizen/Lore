@@ -1,3 +1,15 @@
+# Current release — 067 Doge on Saturday Night Live
+
+Approved 16 October 2026 for digital publication: exact backstage framing crop v2 and framed front proof v2, unchanged. COMMON / DOGECOIN / DOGE / ON SNL / THE WORLD IS WATCHING. / 08 MAY 2021.
+
+Local release checks pass for 66 numbered cards (001–057 and 059–067; 058 deferred), 279 artwork clues, 132 book previews, 699 packed display assets and 168 related-story links. Full collection tests, production build, search/SEO, buyer journey and pack-model checks pass. Exact approved source art SHA-256: baa63e7ba08b7ac5f739f8727d6fdfc7df97905fb6fa1c0b44a1f7369abadc06.
+
+Original artwork, book, print files and chapter downloads are pinned to commit 33ca549cb6544975ba9a17c184caa3961da57493. Canonical master: cards/crypto/season-01/doge-on-saturday-night-live-master-067. Stable QR: https://lore-site-v1.vercel.app/crypto/067/ → /cards/doge-on-saturday-night-live. Both local HTTP QR variants resolve to the correct canonical card. The five story paragraphs, four actual-art clues and three sources distinguish the US broadcast date from the following UTC day, the fictional Lloyd Ostertag sketch character, exchange/window-specific reported price movement and the imaginary backstage Doge. The caption is editorial wording, not a quotation or a measured audience claim. Prior card records, all earlier packed assets, homepage/pack design and the broad 2021 timeline introduction are preserved.
+
+The final art is the exact approved 960×1344 crop of outpaint v8-1. The original v8 and outpaint are separately retained; the outpaint is not claimed pixel-identical to v8. SVG embedded art, print trim and supplied card proof match the approved final image. Remote publication and live verification are recorded separately; local checks alone do not establish production deployment. Physical printer acceptance, final book reproduction review and commercial rights clearance remain pending. Native book artwork is 116.11 effective PPI.
+
+## Historical status
+
 # Card 054 — Libra Unveiled — published and digitally verified, 10 October 2026
 
 Final hidden-hand blue-lit art approved by Dan Payne (“Ok, this really is the one”). Common; FACEBOOK; 18 JUN 2019; A NEW GLOBAL CURRENCY. Final artwork SHA-256 `4f7240578b8f380e98db36c4aeaea97489992799d9f582c04ad4f3d5fd2169b7`. Master: `cards/crypto/season-01/libra-unveiled-master-054`.

@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-16",
+  "source_commit": "d8553b8390380680629c4ea35a7e4470ba071ddc",
+  "asset_commit": "33ca549cb6544975ba9a17c184caa3961da57493",
+  "scope": "Local repository integration and technical validation; no remote writes by this build process",
+  "checks": {
+    "npm_test": "passed",
+    "production_build": "passed",
+    "search_and_seo": "passed",
+    "buyer_journey": "passed",
+    "pack_model": "passed",
+    "independent_approved_art_and_print_pixel_checks": "passed",
+    "local_http_qr_both_variants": "passed",
+    "git_diff_check": "passed"
+  },
+  "counts": {
+    "numbered_cards": 66,
+    "clues": 279,
+    "book_previews": 132,
+    "packed_assets": 699,
+    "related_story_links": 168,
+    "deferred_numbers": [
+      58
+    ]
+  },
+  "limits": [
+    "No production deployment or live public-route verification is claimed here.",
+    "No device-camera or physical sample acceptance test.",
+    "Book native effective resolution is116.11PPI; final reproduction review remains separate.",
+    "Commercial rights clearance remains unresolved.",
+    "Official clip source verification used indexed metadata, with dialogue corroborated by Reuters; full video playback was not performed."
+  ]
+}

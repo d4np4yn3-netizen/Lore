@@ -1,3 +1,7 @@
+## 067 — Doge on Saturday Night Live · 16 October 2026
+
+Approved backstage framing crop v2 and exact card proof v2: Common / DOGECOIN / 08 MAY 2021 / THE WORLD IS WATCHING. The matching two-page book and site share five story paragraphs, four actual-art clues and three sources. Current numbered collection after this release: 66 cards, 001–057 and 059–067; 058 remains deferred. The US broadcast date, fictional sketch character, exchange-specific reported price movement and imaginary backstage Doge remain distinct. The caption is editorial wording. Physical print acceptance, native book-resolution review and commercial rights clearance remain separate.
+
 ## 066 — Bored Ape Yacht Club · 13 October 2026
 
 Approved composite v3 artwork and card v3: Uncommon / NFT CULTURE / 23 APR 2021 / WELCOME TO THE CLUB. The matching two-page book and site share five story paragraphs, four actual-art clues and four primary sources. Current numbered collection after this release: 65 cards, 001–057 and 059–066; 058 remains deferred. The 23 April presale is distinguished from the 1 May sellout. The membership hardware and gathering are illustrative fiction; the poster deliberately reuses the approved HISTROVE 038 portrait. The phrase is approved editorial wording. Digital publication authorization does not establish physical print acceptance or commercial rights clearance.
