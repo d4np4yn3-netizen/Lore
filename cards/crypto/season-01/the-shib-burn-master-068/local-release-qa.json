@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-16",
+  "source_commit": "835cc65bc6b0905d4763e9c4b40b1ad605757d9f",
+  "asset_commit": "1852f7b1e284d285997f38073e2337ff0979bf03",
+  "scope": "Local release validation; production verification recorded separately",
+  "checks": {
+    "npm_test": "passed",
+    "production_build": "passed",
+    "search_and_seo": "passed",
+    "buyer_journey": "passed",
+    "pack_model": "passed",
+    "approved_art_and_print_hashes": "passed"
+  },
+  "counts": {
+    "numbered_cards": 67,
+    "clues": 283,
+    "book_previews": 134,
+    "packed_assets": 707,
+    "related_story_links": 171,
+    "deferred_numbers": [
+      58
+    ]
+  },
+  "limits": [
+    "No physical sample acceptance test.",
+    "Native book artwork is approximately128.21 effective PPI.",
+    "Commercial rights clearance remains unresolved.",
+    "Etherscan payload retrieval unavailable; contemporaneous reporting corroborates historical claims."
+  ]
+}

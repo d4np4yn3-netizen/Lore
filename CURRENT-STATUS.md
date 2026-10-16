@@ -1,3 +1,13 @@
+# Current release — 068 The SHIB Burn
+
+Approved 16 October 2026: exact straight-window art v7 and card proof v3. COMMON / SHIBA INU / THE SHIB BURN / NO WAY BACK. / 16 MAY 2021.
+
+Local collection tests, production build, search/SEO, buyer journey and pack-model checks pass: 67 published-numbered entries (001–057 and 059–068; 058 deferred), 283 artwork clues, 134 book previews, 707 packed assets and 171 related-story links. Original downloads are pinned to asset commit 1852f7b1e284d285997f38073e2337ff0979bf03. Canonical master: cards/crypto/season-01/the-shib-burn-master-068. Stable QR: https://lore-site-v1.vercel.app/crypto/068/.
+
+The book and site distinguish the 16 May burn of roughly 410 trillion SHIB, described as 90% of Buterin's remaining SHIB holdings, from the earlier charity donation. The space scene and caption are interpretive. Transaction links are provided; direct Etherscan payload retrieval was unavailable, with historical claims corroborated by contemporaneous reporting. No exact block timestamp or decimal token balance is asserted. Approved source SHA-256: 615ff09d85ba65ebb92316d40c09929a36c5298061136faeb595875802401067. Book artwork is approximately 128.21 effective PPI. Physical print acceptance, final reproduction review and commercial rights clearance remain separate. Production verification is recorded separately from these local checks.
+
+## Historical status
+
 # Current release — 067 Doge on Saturday Night Live
 
 Approved 16 October 2026 for digital publication: exact backstage framing crop v2 and framed front proof v2, unchanged. COMMON / DOGECOIN / DOGE / ON SNL / THE WORLD IS WATCHING. / 08 MAY 2021.

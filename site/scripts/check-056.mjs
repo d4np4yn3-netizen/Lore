@@ -9,7 +9,7 @@ for(const [k,v] of Object.entries(prior.closeups))assert.deepEqual(close[k],v);
 for(const [k,v] of Object.entries(prior.context))assert.deepEqual(ctx[k],v);
 for(const a of prior.index.assets)assert.deepEqual(index.assets.find(b=>b.path===a.path),a);
 for(const old of prior.registry.cards){const c=registry.cards.find(c=>c.id===old.id);assert.equal(createHash('sha256').update(JSON.stringify(c)).digest('hex'),old.sha256);}
-assert.deepEqual(registry.cards.filter(c=>c.moment_number&&c.moment_number<=56).map(c=>c.moment_number).sort((a,b)=>a-b),Array.from({length:56},(_,i)=>i+1));assert.equal(Object.keys(media).length,66);assert.equal(index.assets.length,699);assert.equal(Object.keys(ctx).length,66);
+assert.deepEqual(registry.cards.filter(c=>c.moment_number&&c.moment_number<=56).map(c=>c.moment_number).sort((a,b)=>a-b),Array.from({length:56},(_,i)=>i+1));assert.equal(Object.keys(media).length,67);assert.equal(index.assets.length,707);assert.equal(Object.keys(ctx).length,67);
 assert.equal(chapter.story.length,5);assert.equal(chapter.eggs.length,6);assert.equal(chapter.sources.length,6);assert(chapter.sourceNote.includes('hindsight'));assert(chapter.sourceNote.includes('fictional'));
 const text=fs.readFileSync('../'+m.chapter.path,'utf8');for(const p of chapter.story)assert(text.includes(p));for(const e of chapter.eggs){assert(text.includes(e.title));assert(text.includes(e.text));}
 const svg=fs.readFileSync('../'+m.print.svg.path,'utf8');assert(svg.includes('translate(0 14)'));assert(svg.includes('generated-top-sky-extension'));assert(svg.includes('BUILT FOR WHAT COMES NEXT.'));assert(fs.readFileSync('app/crypto/056/page.js','utf8').includes('/cards/solana-mainnet-beta'));
