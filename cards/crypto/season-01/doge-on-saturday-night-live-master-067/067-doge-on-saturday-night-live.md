@@ -1,0 +1,28 @@
+# 067 - Doge on Saturday Night Live
+
+08 MAY 2021 / DOGECOIN / COMMON
+
+THE WORLD IS WATCHING.
+
+## The story
+
+On 8 May 2021, Elon Musk hosted NBC's Saturday Night Live, with Miley Cyrus as musical guest. For Dogecoin followers, the booking turned a late-night comedy programme into an anticipated crypto event. The card uses the episode's US broadcast date; its 11:30 p.m. Eastern start was already 9 May in UTC.
+
+Enthusiasts had spent days waiting to hear what Musk would say. His tweets had helped draw attention to a cryptocurrency that began as an internet joke. The television appearance brought that speculation into a familiar entertainment format, where a coin could be discussed, promoted and mocked in the same conversation.
+
+During Weekend Update, Musk played the fictional financial expert Lloyd Ostertag. The segment repeatedly returned to the question of what Dogecoin actually was. When Michael Che described it as a hustle, Musk agreed with the punchline, 'Yeah, it's a hustle.' It was an exchange within a comedy sketch.
+
+Reuters reported the following day that Dogecoin traded as low as $0.416 on Binance, about 36% below roughly $0.65 before the show, before recovering some ground. Those figures describe a particular exchange and reporting window. The timing does not establish one joke as the sole cause of every price move, or make celebrity attention a guarantee of gains.
+
+The artwork holds the moment at the curtain: a suited Doge waiting beside a brightly lit television set. This anthropomorphic character and backstage scene are fictional, visualising a meme's encounter with mainstream attention. The card commemorates the anticipation and cultural crossover around that broadcast, rather than promising an outcome for the coin.
+
+## Details in the artwork
+
+1. **THE ON AIR SIGN** The illuminated sign marks the threshold of live television. It anchors the scene to the broadcast moment, while the exact sign and backstage view are illustrative inventions.
+2. **THE WEEKEND UPDATE DESK** The desk names the segment where Musk played Lloyd Ostertag and discussed Dogecoin. The recognisable setting is an artistic interpretation, not a frame copied from the broadcast.
+3. **THE STUDIO CAMERAS** The cameras turn the empty desk into a scene prepared for an audience. Their placement symbolises television's reach; it does not document the actual studio's equipment or floor plan.
+4. **DOGE AT THE CURTAIN** The suit and curtain place the meme in a performer's waiting position. Doge is a fictional stand-in for the coin's public moment; no real dog on the SNL set is being depicted.
+
+## Source and art note
+
+Sources: [SNL's official Weekend Update clip](https://www.youtube.com/watch?v=x5RCfQyTDFI); [NBC/Peacock's episode record](https://www.peacocktv.com/watch-online/tv/saturday-night-live/8885992813767211112/seasons/46/episodes/elon-musk-may-8-2021-episode-18/b3cef99d-e191-3f0c-bbdb-bb554a08aafd); [Reuters' 9 May 2021 report](https://www.investing.com/news/economy/dogecoin-tumbles-after-elon-musk-calls-it-a-hustle-on-snl-show-2500280). The anthropomorphic Doge, backstage scene and props are illustrative fiction, not documentary evidence of a dog on set. THE WORLD IS WATCHING. is approved editorial copy, not a broadcast quotation or a measured audience claim. Artwork approval does not establish rights clearance.
