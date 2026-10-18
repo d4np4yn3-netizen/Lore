@@ -1,0 +1,54 @@
+{
+  "story": [
+    "On 14 November 2021, Bitcoin's Taproot soft fork activated at block 709,632. Bitcoin Core 0.21.1 had supplied the activation rules earlier that year. The change extended Bitcoin's existing network, introducing new ways to authorise spending. Older software remained compatible with the chain, while upgraded nodes enforced the new rules.",
+    "Three linked specifications did different jobs. BIP 340 defined Bitcoin's Schnorr signatures. BIP 341 introduced Taproot outputs and their spending paths. BIP 342 defined Tapscript, the rules for executing scripts within Taproot. Together, they gave developers a more flexible foundation for building payments and contracts.",
+    "Taproot can let an output be spent using a signature or an alternative script. With suitable signing protocols, cooperating participants can combine their keys and produce one signature. A successful key path spend keeps any alternative scripts unrevealed, helping a complex arrangement resemble a simple payment.",
+    "When a script path is needed, the spender reveals the chosen script and a proof connecting it to the committed tree. Other scripts remain hidden. These constructions can save transaction space and reduce fees for suitable spending arrangements; the upgrade did not make every Bitcoin payment cheaper or anonymous.",
+    "Activation made the rules available, while wallets and services still needed support to use them. The imagined gardener captures that continuing work: a fresh branch carefully joined to an established tree. NEW GROWTH, SAME ROOTS presents Taproot as an extension of Bitcoin, with benefits that depended on how people built and used it."
+  ],
+  "eggs": [
+    {
+      "title": "THE ROOT MARKER",
+      "text": "The Bitcoin symbol on the old bronze plaque beside the roots identifies the established tree. It anchors the grafting metaphor: Taproot added spending capabilities to Bitcoin through a soft fork, preserving continuity with the existing chain."
+    },
+    {
+      "title": "BLOCK 709632",
+      "text": "The small horizontal tag hanging beside the graft reads 709632. That number identifies the block height at which Taproot became active on 14 November 2021. It marks activation itself, after the earlier miner signalling process."
+    },
+    {
+      "title": "THE SCHNORR TOOLS",
+      "text": "The open tool roll carries the SCHNORR label beneath its brown-handled tools. It links practical craft to the signature scheme specified by BIP 340, one component of the upgrade alongside Taproot's construction and Tapscript's rules."
+    },
+    {
+      "title": "THE SEGWIT CHARM",
+      "text": "The small train charm at the gardener's waist has two connected compartments. This invented keepsake recalls SegWit, the earlier upgrade whose witness framework Taproot builds upon. Taproot outputs use SegWit version 1, continuing that technical lineage."
+    }
+  ],
+  "sourceNote": "Sources: [Bitcoin Core 0.21.1 release notes](https://bitcoincore.org/en/releases/0.21.1/); [BIP 341 Taproot spending rules](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki); [Optech activation report, November 2021](https://bitcoinops.org/en/newsletters/2021/11/17/); [BIP 340 Schnorr signature specification](https://bips.dev/340/); [BIP 342 Tapscript validation rules](https://bips.dev/342/); [Blockstream Taproot activation and SegWit](https://help.blockstream.com/education/development/how-bitcoin-evolves/what-is-taproot). The gardener, tree and walled garden are imagined symbols. The graft represents new capabilities within Bitcoin; the tag records the activation height. The root plaque, Schnorr tools and SegWit charm connect that metaphor to technical history. The scene depicts no identifiable developer or historical gathering.",
+  "sources": [
+    {
+      "title": "Bitcoin Core 0.21.1 release notes",
+      "url": "https://bitcoincore.org/en/releases/0.21.1/"
+    },
+    {
+      "title": "BIP 341 Taproot spending rules",
+      "url": "https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki"
+    },
+    {
+      "title": "Optech activation report, November 2021",
+      "url": "https://bitcoinops.org/en/newsletters/2021/11/17/"
+    },
+    {
+      "title": "BIP 340 Schnorr signature specification",
+      "url": "https://bips.dev/340/"
+    },
+    {
+      "title": "BIP 342 Tapscript validation rules",
+      "url": "https://bips.dev/342/"
+    },
+    {
+      "title": "Blockstream Taproot activation and SegWit",
+      "url": "https://help.blockstream.com/education/development/how-bitcoin-evolves/what-is-taproot"
+    }
+  ]
+}

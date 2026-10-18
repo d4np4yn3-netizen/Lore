@@ -1,0 +1,310 @@
+{
+  "card": "HISTROVE 073 — Taproot Activates",
+  "verified_at": "2026-10-18",
+  "canonical_date": "2021-11-14",
+  "event_date_basis": "Bitcoin mainnet activation of the Taproot soft fork at block height 709632; not the earlier miner-signalling lock-in or a software release date",
+  "approved_frame": {
+    "rarity": "Uncommon",
+    "top": "BITCOIN",
+    "title": "TAPROOT ACTIVATES",
+    "caption": "NEW GROWTH, SAME ROOTS"
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card073-concept/HISTROVE-073-Taproot-Art-v7-Brown-Handles.png",
+    "sha256": "8a04b8dcddb62efde1c422d3bc25253eeda33e4a67fd06342807bccb8f121d75",
+    "width": 1060,
+    "height": 1484,
+    "visually_inspected": true,
+    "version": "v7 Brown Handles"
+  },
+  "content_checks": {
+    "story_paragraphs": 5,
+    "story_word_count": 242,
+    "story_paragraph_word_counts": [
+      49,
+      45,
+      46,
+      49,
+      53
+    ],
+    "clue_count": 4,
+    "clue_text_word_count": 142,
+    "clue_text_word_counts": [
+      36,
+      35,
+      35,
+      36
+    ],
+    "clue_order": [
+      "root Bitcoin marker",
+      "horizontal 709632 tag",
+      "Schnorr tool roll",
+      "SegWit train charm"
+    ],
+    "literal_art_tag_709632_in_copy": true,
+    "verbatim_source_quotations": false,
+    "art_note_word_count": 45,
+    "print_source_labels": 6,
+    "source_label_word_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "word_count_method": "Whitespace-separated words; clue titles excluded"
+  },
+  "claim_audit": [
+    {
+      "claim": "Taproot mainnet activation at height 709632",
+      "locations": [
+        "story[0]",
+        "eggs[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        1,
+        2
+      ],
+      "locator": "Core: Taproot Soft Fork; BIP 341: Deployment; Optech: News / Taproot activated"
+    },
+    {
+      "claim": "Activation occurred on 14 November 2021",
+      "locations": [
+        "story[0]",
+        "eggs[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        5
+      ],
+      "locator": "Activation Process and FAQ: When was Taproot activated on Bitcoin?",
+      "qualification": "The date is explicit in Blockstream’s retrospective documentation. Optech’s 17 November report confirms activation and height but does not itself state the exact day."
+    },
+    {
+      "claim": "Core 0.21.1 carried the activation rules earlier in 2021",
+      "locations": [
+        "story[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0
+      ],
+      "supplemental_source": "https://bitcoincore.org/en/2021/05/01/release-0.21.1/",
+      "locator": "May 1 release announcement, opening paragraphs"
+    },
+    {
+      "claim": "Soft-fork compatibility, with new rules enforced by upgraded nodes",
+      "locations": [
+        "story[0]",
+        "eggs[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        1
+      ],
+      "locator": "Core upgrade guidance; BIP 341: Backwards compatibility",
+      "qualification": "Compatibility does not mean old nodes fully validate Taproot spending rules."
+    },
+    {
+      "claim": "BIP 340 signatures; BIP 341 outputs and spending paths; BIP 342 Tapscript rules",
+      "locations": [
+        "story[1]",
+        "eggs[2]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "locator": "Core Taproot Soft Fork; BIPs’ Abstract, Design and Specification sections"
+    },
+    {
+      "claim": "Cooperative key aggregation and one signature require suitable signing protocols",
+      "locations": [
+        "story[2]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        3
+      ],
+      "locator": "BIP 340: Motivation / Linearity and Applications",
+      "qualification": "No claim that activation automatically combined existing signatures or supplied a complete multisignature protocol."
+    },
+    {
+      "claim": "Key-path use leaves scripts undisclosed; script-path use reveals the chosen script and proof",
+      "locations": [
+        "story[2]",
+        "story[3]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1
+      ],
+      "locator": "BIP 341: Design; Specification / Script validation rules",
+      "qualification": "Privacy concerns unused scripts and spending-policy structure, not universal transaction anonymity."
+    },
+    {
+      "claim": "Space and fee benefits depend on the spending arrangement",
+      "locations": [
+        "story[3]"
+      ],
+      "status": "verified_with_qualification",
+      "source_indices": [
+        0,
+        1
+      ],
+      "locator": "Core: Taproot Soft Fork; BIP 341: Design",
+      "qualification": "No global fee decrease, guaranteed lower fee, or anonymity claim is made."
+    },
+    {
+      "claim": "Practical use required wallet and service support",
+      "locations": [
+        "story[4]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        2
+      ],
+      "locator": "Core wallet limitations; Optech: Changes to services and client software"
+    },
+    {
+      "claim": "Taproot uses SegWit version 1",
+      "locations": [
+        "eggs[3]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1
+      ],
+      "locator": "BIP 341: Abstract and Script validation rules"
+    },
+    {
+      "claim": "Root plaque, horizontal 709632 tag, labelled tool roll with brown handles, paired train-compartment charm",
+      "locations": [
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "eggs[3]"
+      ],
+      "status": "verified_by_direct_art_inspection",
+      "source": "approved v7 raw image",
+      "qualification": "Charm is an invented SegWit callback, not an official SegWit emblem. No legible SegWit word is claimed on the charm."
+    },
+    {
+      "claim": "Gardener, graft, tree and garden are symbolic",
+      "locations": [
+        "story[4]",
+        "art_note"
+      ],
+      "status": "editorial_art_interpretation",
+      "source": "approved art and its generation brief",
+      "qualification": "No real gardener, location, developer likeness, ceremony or historical gathering is asserted."
+    }
+  ],
+  "source_audit": [
+    {
+      "index": 0,
+      "type": "original Bitcoin Core release documentation",
+      "access": "Taproot Soft Fork section read",
+      "date_note": "The release is pre-activation; prospective statements are not treated as proof of completed activation."
+    },
+    {
+      "index": 1,
+      "type": "original technical specification in the Bitcoin BIPs repository",
+      "access": "GitHub original and bips.dev rendering read",
+      "readable_mirror": "https://bips.dev/341/",
+      "sections_checked": [
+        "Abstract",
+        "Design",
+        "Script validation rules",
+        "Constructing and spending Taproot outputs",
+        "Deployment",
+        "Backwards compatibility"
+      ]
+    },
+    {
+      "index": 2,
+      "type": "contemporaneous original Bitcoin Optech technical report",
+      "access": "Full relevant news and service-support sections read",
+      "date_note": "Published 17 November 2021; reports that activation already occurred at 709632."
+    },
+    {
+      "index": 3,
+      "type": "original BIP specification rendered by bips.dev",
+      "access": "Abstract, Motivation, and Applications read",
+      "original_url": "https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki"
+    },
+    {
+      "index": 4,
+      "type": "original BIP specification rendered by bips.dev",
+      "access": "Abstract, Motivation, Design and Specification read",
+      "original_url": "https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki"
+    },
+    {
+      "index": 5,
+      "type": "first-party developer organisation’s retrospective educational documentation",
+      "access": "Activation Process and FAQ read",
+      "scope_used": "Explicit calendar date and historical context only; detailed technical claims are grounded in the BIPs."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bitcoin Core 0.21.1 release notes",
+      "url": "https://bitcoincore.org/en/releases/0.21.1/"
+    },
+    {
+      "title": "BIP 341 Taproot spending rules",
+      "url": "https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki"
+    },
+    {
+      "title": "Optech activation report, November 2021",
+      "url": "https://bitcoinops.org/en/newsletters/2021/11/17/"
+    },
+    {
+      "title": "BIP 340 Schnorr signature specification",
+      "url": "https://bips.dev/340/"
+    },
+    {
+      "title": "BIP 342 Tapscript validation rules",
+      "url": "https://bips.dev/342/"
+    },
+    {
+      "title": "Blockstream Taproot activation and SegWit",
+      "url": "https://help.blockstream.com/education/development/how-bitcoin-evolves/what-is-taproot"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "title": "Bitcoin Core 0.21.1 release announcement, 1 May 2021",
+      "url": "https://bitcoincore.org/en/2021/05/01/release-0.21.1/",
+      "purpose": "Confirms that release and activation rules preceded the November activation."
+    },
+    {
+      "title": "Bitcoin Optech 2021 year-in-review, 22 December 2021",
+      "url": "https://bitcoinops.org/en/newsletters/2021/12/22/",
+      "purpose": "Cross-checks June lock-in, November activation, and continuing software support; does not supply the exact November day."
+    }
+  ],
+  "retrieval_limitations": [
+    "Block-explorer API and height-page requests did not return readable chain data through the web tool. No independent raw-block timestamp verification is claimed.",
+    "Core release notes and Optech’s 17 November report establish the height but do not explicitly state 14 November; the exact day was separately checked against Blockstream’s documentation."
+  ],
+  "release_guardrails": [
+    "Keep 14 November 2021 as the activation date and 709632 as the visible tag.",
+    "Do not conflate Schnorr, Taproot and Tapscript or imply ECDSA vanished from Bitcoin.",
+    "Keep privacy conditional on construction and spending path; amounts and transaction relationships are not made universally secret.",
+    "Do not imply an automatic, network-wide fee cut or instant wallet adoption.",
+    "Do not refer to the removed branch bag or hidden sleeve from earlier image versions.",
+    "Use the four clue crops in the specified order; preserve the approved final brown-handled tools.",
+    "The grafting scene and SegWit charm are editorial symbolism, not documentary artefacts."
+  ],
+  "result": "PASS — source-supported authoring content; no repository changes or publication performed",
+  "print_source_selection_note": "Six concise 4–7 word source labels; additional release chronology checks retained here."
+}
