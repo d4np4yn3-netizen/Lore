@@ -1,0 +1,110 @@
+{
+  "art": {
+    "path": "cards/crypto/season-01/taproot-activates-master-073/art.png",
+    "bytes": 2715691,
+    "sha256": "8a04b8dcddb62efde1c422d3bc25253eeda33e4a67fd06342807bccb8f121d75"
+  },
+  "book": {
+    "path": "book/crypto-season-01/histrove-v1/073-taproot-activates-histrove-v1.pdf",
+    "bytes": 5138541,
+    "sha256": "6cb48d63bddc67e52bf3c95c60adec33dbca8996821abae3d254c4a7c481e427"
+  },
+  "chapter": {
+    "path": "book/crypto-season-01/histrove-v1/chapters/073-taproot-activates.md",
+    "bytes": 3692,
+    "sha256": "211f22d9ab535040dfac4da0ae2296b99162062d5ee9b56ffb99f0d813d37f00"
+  },
+  "print": {
+    "png": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-073-Front-Print-v1.png",
+      "bytes": 1018331,
+      "sha256": "f12c56065d6fee7d1f740f669090f525b7ba4c8c590706079d4ea9bf1948ddce"
+    },
+    "pdf": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-073-Front-Print-v1.pdf",
+      "bytes": 4400795,
+      "sha256": "3f4568a28bdd89950a22412937c2c32e74c70fd299b90e0178c2950575c38273"
+    },
+    "svg": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-073-Front-Print-v1.svg",
+      "bytes": 4188660,
+      "sha256": "28bdd4fabd6e8698c2153c52244c1067ece9d15a7e58fb41fe659138b57117f8"
+    }
+  },
+  "assets": [
+    {
+      "path": "archive/073-histrove-border-card.webp",
+      "pack": "display-073.bin",
+      "offset": 0,
+      "length": 723920,
+      "sha256": "0a141568274d79188092ddb50f911e232e54f41b631c4c7906a69c1f25fa9678"
+    },
+    {
+      "path": "archive/073-art.webp",
+      "pack": "display-073.bin",
+      "offset": 723920,
+      "length": 2073518,
+      "sha256": "d3485535bd77f0b18e89a4bf437116ce8c167875ead862425a7a7e390973aad7"
+    },
+    {
+      "path": "archive/073-histrove-page-1.webp",
+      "pack": "display-073.bin",
+      "offset": 2797438,
+      "length": 1253322,
+      "sha256": "a533a68cf151e62f74f8d4c8d6acfac80d8952d996b2a0be2162f035f4e81bc5"
+    },
+    {
+      "path": "archive/073-histrove-page-2.webp",
+      "pack": "display-073.bin",
+      "offset": 4050760,
+      "length": 282306,
+      "sha256": "4fc85f2bf3e795a783074f5c483d55495ea6b877ef7d6c47a7eb6e428bb11715"
+    },
+    {
+      "path": "closeups/073-01.webp",
+      "pack": "display-073.bin",
+      "offset": 4333066,
+      "length": 66096,
+      "sha256": "ba58262b300a464dd3768841e4a3371f9240ba7398798a1de2be23a8a86096fc"
+    },
+    {
+      "path": "closeups/073-02.webp",
+      "pack": "display-073.bin",
+      "offset": 4399162,
+      "length": 13980,
+      "sha256": "56bea12393e83c2df22c236ca423be8abaceac0493b29679c465f0d4356809ea"
+    },
+    {
+      "path": "closeups/073-03.webp",
+      "pack": "display-073.bin",
+      "offset": 4413142,
+      "length": 102116,
+      "sha256": "2e81d78b8d5af8c2aa116bb4a8d5b7de5eda51a731f8eb25a56f51aa76847b13"
+    },
+    {
+      "path": "closeups/073-04.webp",
+      "pack": "display-073.bin",
+      "offset": 4515258,
+      "length": 18614,
+      "sha256": "a3069d5feedcceddade234bf2f672a6d7fa21e90a67136d719c4b4cf139d5728"
+    }
+  ],
+  "qr": "https://lore-site-v1.vercel.app/crypto/073/",
+  "artwork_transform": "Exact approved raw v7, default centered xMidYMid slice. Trim pixel-identical to approved proof v1.",
+  "web_border": {
+    "bounds": [
+      72.37923250565251,
+      72.37923250565251,
+      743.6207674946475,
+      1037.6207674947707
+    ],
+    "radius": 20.857787810392498,
+    "crop": [
+      72,
+      72,
+      744,
+      1038
+    ],
+    "mask": "8x supersampled exact outer stroked rounded rectangle"
+  }
+}

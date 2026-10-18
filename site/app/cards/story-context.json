@@ -1156,5 +1156,23 @@
         "reason": "A different force shaping miners’ economics."
       }
     ]
+  },
+  "taproot-activates": {
+    "lead": "On 14 November 2021, Bitcoin's Taproot soft fork activated at block 709,632. Bitcoin Core 0.21.1 had supplied the activation rules earlier that year. The change extended Bitcoin's existing network, introducing new ways to authorise spending. Older software remained compatible with the chain, while upgraded nodes enforced the new rules.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "segwit-activates",
+        "reason": "The earlier Bitcoin upgrade recalled by the train charm."
+      },
+      {
+        "slug": "the-whitepaper",
+        "reason": "The original peer-to-peer cash proposal beneath the evolving protocol."
+      },
+      {
+        "slug": "genesis-block",
+        "reason": "Bitcoin’s beginning, before its later upgrades."
+      }
+    ]
   }
 }
