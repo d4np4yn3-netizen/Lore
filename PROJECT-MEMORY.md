@@ -1,3 +1,11 @@
+# 072 published and digitally verified — 18 October 2026
+
+072 MINING CRACKDOWN is live at https://lore-site-v1.vercel.app/cards/china-s-mining-crackdown . Release bf6d8a49d1a171ebc870108fef9a65ef12bcf28b, tree 188327b87caa92fe2fd3908ba2f59af443d486c0, production deployment dpl_2n2ho3XeFkn1TQhbgejHF3jY6e4s: READY, with Vercel success. Verified at 2026-10-18T11:39:40Z. The release tree exactly matches the tested local tree.
+
+The exact approved raw v3 and framed proof v2, RARE rarity and THE MINERS MOVE ON. caption are preserved. Five local suites passed: full collection tests, production build, search, buyer journey and pack model. Public verification passed for all 71 card pages, both 072 QR redirects, eight new image hashes, six immutable source/print/book/chapter downloads, sitemap, book previews and 071↔072 navigation. Print PNG/PDF QR decoding, print PDF and both book pages were visually checked. Prior cards are preserved; 058 remains parked. Final collection review is deferred until 100 cards.
+
+History distinguishes the 24 September publication from the 3 September signature and earlier May/June restrictions. The workers, warehouse and shipment are fictional; the blank tag has no destination. Physical printer acceptance, native-resolution reproduction review, device-camera QR scanning, interactive browser gestures and commercial rights clearance are not claimed.
+
 ## 2026-10-18 — 072 release preparation
 
 072 MINING CRACKDOWN / CHINA / 24 SEP 2021 uses exact approved raw v3 and proof v2, RARE rarity and THE MINERS MOVE ON. editorial caption. Canonical print and two-page book prepared; raw/proof pixels preserved, QR PNG/PDF decoding and frame/book visual QA passed. History separates publication on 24 September from the signed 3 September notice and earlier May/June restrictions. Full test, build, search, buyer and pack suites passed; six immutable source/print/book/chapter downloads hash-verified. Production verification pending. Earlier cards preserved; 058 parked; final collection review at 100 cards.
