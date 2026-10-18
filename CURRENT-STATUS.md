@@ -1,3 +1,7 @@
+## 2026-10-18 — 072 release preparation
+
+072 MINING CRACKDOWN / CHINA / 24 SEP 2021 uses exact approved raw v3 and proof v2, RARE rarity and THE MINERS MOVE ON. editorial caption. Canonical print and two-page book prepared; raw/proof pixels preserved, QR PNG/PDF decoding and frame/book visual QA passed. History separates publication on 24 September from the signed 3 September notice and earlier May/June restrictions. Full test, build, search, buyer and pack suites passed; six immutable source/print/book/chapter downloads hash-verified. Production verification pending. Earlier cards preserved; 058 parked; final collection review at 100 cards.
+
 # 071 published and digitally verified — 18 October 2026
 
 071 LEGAL TENDER is published at https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender . Release a66cf4c44ef9316baed4a99f27f5be6f844b0869, tree 233b90e8c2a4a4baf56387bf7a36f90c931b9074, production deployment dpl_BYbxZVRTmbWjqY21gThY119YfmF9: READY. Verified at 2026-10-18T10:56:43Z. The release tree exactly matches the locally tested tree.

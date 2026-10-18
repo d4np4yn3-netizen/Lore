@@ -2,7 +2,7 @@
 
 **History Worth Holding**
 
-An illustrated, interactive timeline of 69 approved crypto-history moments, with full artwork, 291 linked art details and 138 companion-book page previews. The desktop/mobile editorial experience, reader controls and 69 stable printed QR redirects are preserved.
+An illustrated, interactive timeline of 71 approved crypto-history moments, with full artwork, 299 linked art details and 142 companion-book page previews. The desktop/mobile editorial experience, reader controls and 71 stable printed QR redirects are preserved.
 
 ## Run and verify
 
