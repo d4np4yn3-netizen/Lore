@@ -9127,9 +9127,9 @@
       "art_sha256": "8a04b8dcddb62efde1c422d3bc25253eeda33e4a67fd06342807bccb8f121d75",
       "artwork_sha256": "8a04b8dcddb62efde1c422d3bc25253eeda33e4a67fd06342807bccb8f121d75",
       "print_release": false,
-      "qr_status": "ROUTE_PENDING_PUBLICATION",
-      "qr_verification": "PNG/PDF/web QR decode verified; live route verification pending",
-      "qr_ownership_confirmation_scope": "Project-owned intended route; live verification pending",
+      "qr_status": "LIVE_VERIFIED",
+      "qr_verification": "PNG, PDF and web derivative decode correctly; both /crypto/073 routes redirect to the live canonical card page, HTTP 200",
+      "qr_ownership_confirmation_scope": "Project-owned route live and verified on 2026-10-18",
       "artwork_revision": "User-approved raw v7 and exact proof v1",
       "publication_approved": true,
       "book_approved": true,
@@ -9221,8 +9221,7 @@
   "pending_live_verification_numbers": [
     68,
     69,
-    70,
-    73
+    70
   ],
   "prepared_numbered_count": 72,
   "current_numbered_print_count": 72,

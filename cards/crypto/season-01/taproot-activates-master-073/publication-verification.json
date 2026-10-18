@@ -1,0 +1,174 @@
+{
+  "card": "073",
+  "verified_at_utc": "2026-10-18T12:23:04Z",
+  "release_commit": "989dcfe17c04a2c9e629e1821cd1b9964e16bb2f",
+  "release_tree": "94d9a04cf7f7adde3a2d366edff6357c9ff297ae",
+  "tested_local_tree_exact_remote": true,
+  "deployment_id": "dpl_A1fmYV8yuXoG4ZuFbCVSMjLpLpTm",
+  "deployment_state": "READY",
+  "github_vercel_status": "success",
+  "canonical_url": "https://lore-site-v1.vercel.app/cards/taproot-activates",
+  "local_suites_passed": [
+    "npm test",
+    "npm run build",
+    "npm run test:search",
+    "npm run test:buyer",
+    "npm run test:pack"
+  ],
+  "public_check_count": 82,
+  "public_card_pages_passed": 72,
+  "sitemap": "All 72 card routes present",
+  "navigation": "071\u2192072\u2192073 and 073\u2192072 verified",
+  "card_checks": [
+    {
+      "kind": "page",
+      "url": "https://lore-site-v1.vercel.app/cards/taproot-activates",
+      "final_url": "https://lore-site-v1.vercel.app/cards/taproot-activates",
+      "status": 200,
+      "sha256": "a35cc2201905c1a3b6533e19dba5c969939122faffeb21c575a1c6d3cd3e12a7",
+      "bytes": 71633
+    },
+    {
+      "kind": "route",
+      "url": "https://lore-site-v1.vercel.app/crypto/073",
+      "final_url": "https://lore-site-v1.vercel.app/cards/taproot-activates",
+      "status": 200,
+      "sha256": "a35cc2201905c1a3b6533e19dba5c969939122faffeb21c575a1c6d3cd3e12a7",
+      "bytes": 71633
+    },
+    {
+      "kind": "route",
+      "url": "https://lore-site-v1.vercel.app/crypto/073/",
+      "final_url": "https://lore-site-v1.vercel.app/cards/taproot-activates",
+      "status": 200,
+      "sha256": "a35cc2201905c1a3b6533e19dba5c969939122faffeb21c575a1c6d3cd3e12a7",
+      "bytes": 71633
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/073-histrove-border-card.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/073-histrove-border-card.webp",
+      "status": 200,
+      "sha256": "0a141568274d79188092ddb50f911e232e54f41b631c4c7906a69c1f25fa9678",
+      "bytes": 723920
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/073-art.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/073-art.webp",
+      "status": 200,
+      "sha256": "d3485535bd77f0b18e89a4bf437116ce8c167875ead862425a7a7e390973aad7",
+      "bytes": 2073518
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/073-histrove-page-1.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/073-histrove-page-1.webp",
+      "status": 200,
+      "sha256": "a533a68cf151e62f74f8d4c8d6acfac80d8952d996b2a0be2162f035f4e81bc5",
+      "bytes": 1253322
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/073-histrove-page-2.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/073-histrove-page-2.webp",
+      "status": 200,
+      "sha256": "4fc85f2bf3e795a783074f5c483d55495ea6b877ef7d6c47a7eb6e428bb11715",
+      "bytes": 282306
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/073-01.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/073-01.webp",
+      "status": 200,
+      "sha256": "ba58262b300a464dd3768841e4a3371f9240ba7398798a1de2be23a8a86096fc",
+      "bytes": 66096
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/073-02.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/073-02.webp",
+      "status": 200,
+      "sha256": "56bea12393e83c2df22c236ca423be8abaceac0493b29679c465f0d4356809ea",
+      "bytes": 13980
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/073-03.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/073-03.webp",
+      "status": 200,
+      "sha256": "2e81d78b8d5af8c2aa116bb4a8d5b7de5eda51a731f8eb25a56f51aa76847b13",
+      "bytes": 102116
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/073-04.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/073-04.webp",
+      "status": 200,
+      "sha256": "a3069d5feedcceddade234bf2f672a6d7fa21e90a67136d719c4b4cf139d5728",
+      "bytes": 18614
+    }
+  ],
+  "immutable_downloads": [
+    {
+      "kind": "hash",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/season-01/taproot-activates-master-073/art.png",
+      "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/season-01/taproot-activates-master-073/art.png",
+      "status": 200,
+      "sha256": "8a04b8dcddb62efde1c422d3bc25253eeda33e4a67fd06342807bccb8f121d75",
+      "bytes": 2715691
+    },
+    {
+      "kind": "hash",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/book/crypto-season-01/histrove-v1/073-taproot-activates-histrove-v1.pdf",
+      "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/book/crypto-season-01/histrove-v1/073-taproot-activates-histrove-v1.pdf",
+      "status": 200,
+      "sha256": "6cb48d63bddc67e52bf3c95c60adec33dbca8996821abae3d254c4a7c481e427",
+      "bytes": 5138541
+    },
+    {
+      "kind": "hash",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/book/crypto-season-01/histrove-v1/chapters/073-taproot-activates.md",
+      "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/book/crypto-season-01/histrove-v1/chapters/073-taproot-activates.md",
+      "status": 200,
+      "sha256": "211f22d9ab535040dfac4da0ae2296b99162062d5ee9b56ffb99f0d813d37f00",
+      "bytes": 3692
+    },
+    {
+      "kind": "hash",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-073-Front-Print-v1.png",
+      "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-073-Front-Print-v1.png",
+      "status": 200,
+      "sha256": "f12c56065d6fee7d1f740f669090f525b7ba4c8c590706079d4ea9bf1948ddce",
+      "bytes": 1018331
+    },
+    {
+      "kind": "hash",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-073-Front-Print-v1.pdf",
+      "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-073-Front-Print-v1.pdf",
+      "status": 200,
+      "sha256": "3f4568a28bdd89950a22412937c2c32e74c70fd299b90e0178c2950575c38273",
+      "bytes": 4400795
+    },
+    {
+      "kind": "hash",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-073-Front-Print-v1.svg",
+      "final_url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/7be0a36a641a576dce2fde12dca95d2aea928720/cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-073-Front-Print-v1.svg",
+      "status": 200,
+      "sha256": "28bdd4fabd6e8698c2153c52244c1067ece9d15a7e58fb41fe659138b57117f8",
+      "bytes": 4188660
+    }
+  ],
+  "approved_raw_preserved": true,
+  "approved_proof_pixels_preserved": true,
+  "qr_png_pdf_decode_verified": true,
+  "print_pdf_visually_reviewed": true,
+  "book_spread_visually_reviewed": true,
+  "unverified": [
+    "Physical print acceptance",
+    "Final native-resolution reproduction review",
+    "Device-camera QR scanning",
+    "Interactive browser gestures",
+    "Commercial rights clearance"
+  ]
+}

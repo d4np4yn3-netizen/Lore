@@ -1,3 +1,11 @@
+# 073 published and digitally verified — 18 October 2026
+
+073 TAPROOT ACTIVATES is live at https://lore-site-v1.vercel.app/cards/taproot-activates . Release 989dcfe17c04a2c9e629e1821cd1b9964e16bb2f, tree 94d9a04cf7f7adde3a2d366edff6357c9ff297ae, production deployment dpl_A1fmYV8yuXoG4ZuFbCVSMjLpLpTm: READY, with Vercel success. Verified at 2026-10-18T12:23:04Z. The release tree exactly matches the tested local tree.
+
+The exact approved raw v7 and framed proof v1, UNCOMMON rarity and NEW GROWTH, SAME ROOTS. caption are preserved. Five local suites passed: full collection tests, production build, search, buyer journey and pack model. Public verification passed for all 72 card pages, both 073 QR redirects, eight new image hashes, six immutable source/print/book/chapter downloads, sitemap, book previews and 072↔073 navigation. Print PNG/PDF QR decoding, print PDF and both book pages were visually checked. Prior cards are preserved; 058 remains parked. Final collection review is deferred until 100 cards.
+
+History records Taproot activation at block 709,632 on 14 November 2021, distinguishes BIPs 340/341/342 and keeps privacy and fee benefits conditional. The gardener and graft are fictional symbols; the four clues match the final approved artwork. Physical printer acceptance, native-resolution reproduction review, device-camera QR scanning, interactive browser gestures and commercial rights clearance are not claimed.
+
 # 072 published and digitally verified — 18 October 2026
 
 072 MINING CRACKDOWN is live at https://lore-site-v1.vercel.app/cards/china-s-mining-crackdown . Release bf6d8a49d1a171ebc870108fef9a65ef12bcf28b, tree 188327b87caa92fe2fd3908ba2f59af443d486c0, production deployment dpl_2n2ho3XeFkn1TQhbgejHF3jY6e4s: READY, with Vercel success. Verified at 2026-10-18T11:39:40Z. The release tree exactly matches the tested local tree.
