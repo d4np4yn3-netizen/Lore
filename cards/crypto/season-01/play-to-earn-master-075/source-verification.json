@@ -1,0 +1,372 @@
+{
+  "card": "HISTROVE 075 — Play to Earn",
+  "verified_at": "2026-10-18",
+  "canonical_date": "2021",
+  "date_precision": "year",
+  "event_date_basis": "The 2021 Axie Infinity play-to-earn and scholarship boom. The scene is not a launch day, a dated individual session, or one documented household.",
+  "canonical_records": {
+    "brief": "075-play-to-earn.md",
+    "research": "C2021-001",
+    "canonical": "LORE-CAN-2021-001"
+  },
+  "approved_frame": {
+    "rarity": "Common",
+    "date": "2021",
+    "top": "AXIE INFINITY",
+    "title": "PLAY TO EARN",
+    "caption": "THE BORROWED TEAM"
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card075-concept/HISTROVE-Crypto-075-Borrowed-Team-Raw-v4.png",
+    "sha256": "444dd2ecd5761f0a73a9819bdcd3181634bfca09dff05fa174d82a0c84f9c979",
+    "width": 1060,
+    "height": 1484,
+    "visually_inspected": true,
+    "version": "v4 revised windows"
+  },
+  "approved_proof": {
+    "path": "/workspace/scratch/58d5f7ed8606/card075-proof/HISTROVE-Crypto-075-Card-Proof-v3.png",
+    "sha256": "9d279ae2f5eb7edad1b83300254366bc7712d73097e7c4fb11534d3c7249729a",
+    "width": 816,
+    "height": 1110,
+    "visually_inspected": true,
+    "version": "v3"
+  },
+  "content_checks": {
+    "story_paragraphs": 5,
+    "story_word_count": 240,
+    "story_paragraph_word_counts": [
+      48,
+      49,
+      49,
+      44,
+      50
+    ],
+    "clue_count": 4,
+    "clue_text_word_count": 140,
+    "clue_text_word_counts": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "clue_order": [
+      "three-creature team",
+      "LOANED TEAM wall roster",
+      "PLAYER/OWNER notebook",
+      "landscape phone and hands"
+    ],
+    "verbatim_source_quotations": false,
+    "art_note_word_count": 45,
+    "print_source_labels": 6,
+    "source_label_word_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "word_count_method": "Whitespace-separated words; clue titles excluded",
+    "authoring_content_sha256": "a17144eb449b24b4662d04cecb36eab40e342320d48c50e1920990160614f8b8"
+  },
+  "clue_crops": [
+    {
+      "index": 0,
+      "label": "three-creature team",
+      "raw_image_xyxy": [
+        20,
+        740,
+        1045,
+        1220
+      ],
+      "verified_pixels": "Separate green, orange and blue creatures with glowing pixel edges"
+    },
+    {
+      "index": 1,
+      "label": "LOANED TEAM wall roster",
+      "raw_image_xyxy": [
+        900,
+        300,
+        1055,
+        470
+      ],
+      "verified_pixels": "LOANED TEAM above three matching creature portraits"
+    },
+    {
+      "index": 2,
+      "label": "PLAYER/OWNER notebook",
+      "raw_image_xyxy": [
+        890,
+        630,
+        1060,
+        810
+      ],
+      "verified_pixels": "PLAYER and OWNER column headings, simple marks, no numeric amounts or percentages"
+    },
+    {
+      "index": 3,
+      "label": "mobile session",
+      "raw_image_xyxy": [
+        385,
+        415,
+        610,
+        535
+      ],
+      "verified_pixels": "Two hands holding a landscape phone; rear of phone visible and screen facing player"
+    }
+  ],
+  "claim_audit": [
+    {
+      "claim": "Sky Mavis reported 38,000 daily active players in April and over two million in October 2021",
+      "locations": [
+        "story[0]"
+      ],
+      "status": "verified_as_first_party_report",
+      "source_indices": [
+        0
+      ],
+      "locator": "Leaving our Mark on History, first bullet",
+      "qualification": "The report was published 5 October 2021. The copy attributes these figures to Sky Mavis; it does not assert independent auditing."
+    },
+    {
+      "claim": "A battle team comprised three Axies; the creatures were NFT assets",
+      "locations": [
+        "story[1]",
+        "eggs[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1,
+        2
+      ],
+      "locator": "Alpha guide: Battle System Mechanics and Downloading the Application; YGG: opening statement on NFT asset loans"
+    },
+    {
+      "claim": "Battle play could generate SLP, which could be traded or used to breed Axies; breeding also required AXS",
+      "locations": [
+        "story[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1,
+        4,
+        5
+      ],
+      "supplemental_source_indices": [
+        0,
+        3
+      ],
+      "locator": "Alpha guide: Breeding & Earning; Season 18: Economic Adjustments; Breeding Fee Adjustment opening and core concepts",
+      "qualification": "Smooth Love Potion naming checked against the April migration and November Katana announcements. No fixed breeding cost, reward rate or guaranteed payout is stated."
+    },
+    {
+      "claim": "Scholarships lent NFT assets and divided gameplay rewards without transferring ownership to the player",
+      "locations": [
+        "story[2]",
+        "eggs[1]",
+        "eggs[2]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        2
+      ],
+      "supplemental_source_indices": [
+        1
+      ],
+      "locator": "YGG July report: opening paragraph and Scholarship Update; explainer: What is a Scholarship?",
+      "qualification": "YGG provides a documented example. Its particular three-way percentage split is neither reproduced nor treated as universal; the artwork simplifies the relationship into player and owner."
+    },
+    {
+      "claim": "YGG reported more than 10,000 Axie scholars at the end of 2021",
+      "locations": [
+        "story[2]"
+      ],
+      "status": "verified_as_first_party_report",
+      "source_indices": [
+        3
+      ],
+      "locator": "Community and Scholarships opening paragraph",
+      "qualification": "Published 7 January 2022 and expressly retrospective about the end of 2021; not evidence of that scale throughout the whole year."
+    },
+    {
+      "claim": "Axie reduced some SLP rewards in August and adjusted breeding costs in September 2021",
+      "locations": [
+        "story[3]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        4,
+        5
+      ],
+      "locator": "Season 18: Economic Adjustments; Breeding Fee Adjustment announcement",
+      "qualification": "Reward reductions were mode-specific, not a claim that every reward fell."
+    },
+    {
+      "claim": "The token economy was imbalanced and volatile; playing did not guarantee stable income",
+      "locations": [
+        "story[3]"
+      ],
+      "status": "verified_with_editorial_qualification",
+      "source_indices": [
+        4,
+        5
+      ],
+      "locator": "Season 18: mint/burn imbalance; Breeding Fee Adjustment: volatility, sustainability and growth discussion",
+      "qualification": "The no-guarantee statement is a cautious implication of variable token prices and changing reward rules, not a quantified livelihood assessment."
+    },
+    {
+      "claim": "The early Axie application supported mobile play",
+      "locations": [
+        "eggs[3]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1
+      ],
+      "locator": "Downloading the Application: Android and invitation-based iOS links",
+      "qualification": "No phone model, operating system, visible interface or particular battle is attributed to the fictional player."
+    },
+    {
+      "claim": "Three creatures, LOANED TEAM roster, PLAYER/OWNER notebook and landscape phone are present",
+      "locations": [
+        "story[4]",
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "eggs[3]"
+      ],
+      "status": "verified_by_direct_art_inspection",
+      "source": "Approved raw v4 and proof v3",
+      "qualification": "Text is checked in the raw master. Framing partly crops the notebook edge in the proof; do not manufacture additional visible figures or labels."
+    },
+    {
+      "claim": "The player, home, creatures in physical space, roster and notebook are editorial inventions",
+      "locations": [
+        "story[4]",
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "art_note"
+      ],
+      "status": "editorial_art_interpretation",
+      "source": "Approved artwork and art-worker handoff",
+      "qualification": "Fictional adult woman in a Philippine-inspired home veranda. No identifiable real player, family, exact location or documentary scene is asserted."
+    }
+  ],
+  "source_audit": [
+    {
+      "index": 0,
+      "type": "contemporaneous first-party Sky Mavis announcement",
+      "publication_date": "2021-10-05",
+      "access": "Publication date and reported player-growth passage read",
+      "scope_used": "Attributed player counts only; promotional claims about jobs or economic freedom are not adopted."
+    },
+    {
+      "index": 1,
+      "type": "first-party Alpha-era gameplay documentation",
+      "publication_date": "2020-01-08",
+      "access": "Battle System Mechanics, Breeding & Earning and Downloading the Application read",
+      "date_note": "The page contains later additions, including November 2020 and the 2021 documentary; its original date is not presented as the date of every sentence. Reward mechanics are independently cross-checked against 2021 announcements."
+    },
+    {
+      "index": 2,
+      "type": "contemporaneous guild operating report",
+      "publication_date": "2021-08-12",
+      "access": "Opening lending statement and Scholarship Update read",
+      "scope_used": "NFT lending, reward sharing and guild organisation; stated dollar valuations and financial performance are not repeated."
+    },
+    {
+      "index": 3,
+      "type": "guild first-party year-end retrospective",
+      "publication_date": "2022-01-07",
+      "access": "Community and Scholarships section read",
+      "scope_used": "Explicit end-2021 scholar count only."
+    },
+    {
+      "index": 4,
+      "type": "contemporaneous developer announcement",
+      "publication_date": "2021-08-09",
+      "access": "Key Points, Economic Adjustments, Arena For All and Axienomics read",
+      "scope_used": "SLP reward changes and token-creation/use imbalance."
+    },
+    {
+      "index": 5,
+      "type": "contemporaneous developer economic announcement",
+      "publication_date": "2021-09-23",
+      "access": "Fee changes, core economic concepts and volatility discussion read",
+      "scope_used": "Breeding inputs, September adjustments and conditional sustainability; forecasts for 2022 are not treated as outcomes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sky Mavis October 2021 growth",
+      "url": "https://blog.axieinfinity.com/p/seriesb"
+    },
+    {
+      "title": "Axie Infinity Alpha gameplay guide",
+      "url": "https://blog.axieinfinity.com/p/axie-infinity-community-alpha-guide"
+    },
+    {
+      "title": "YGG July 2021 scholarship report",
+      "url": "https://medium.com/yield-guild-games/yield-guild-games-asset-treasury-report-july-2021-62f3a969d223"
+    },
+    {
+      "title": "YGG 2021 year-end scholarship retrospective",
+      "url": "https://medium.com/yield-guild-games/ygg-2021-year-end-retrospective-5957dcafc212"
+    },
+    {
+      "title": "Axie Season 18 reward changes",
+      "url": "https://blog.axieinfinity.com/p/-axie-arena-season-18"
+    },
+    {
+      "title": "Axie September 2021 breeding economics",
+      "url": "https://blog.axieinfinity.com/p/breedingadjustment"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "title": "Axie Ronin migration announcement",
+      "url": "https://blog.axieinfinity.com/p/migration",
+      "publication_date": "2021-04-28",
+      "purpose": "Confirms the 2021 rebranding from Small Love Potion to Smooth Love Potion."
+    },
+    {
+      "title": "YGG scholarship explainer",
+      "url": "https://medium.com/yield-guild-games/yield-guild-explains-play-to-earn-and-scholarships-bb1e097c2a61",
+      "publication_date": "2021-07-07",
+      "updated_date": "2022-06-29",
+      "purpose": "Corroborates lending and reward sharing. Updated figures and precise percentages are not generalised to all 2021 scholarships."
+    },
+    {
+      "title": "YGG documentary production account",
+      "url": "https://medium.com/yield-guild-games/why-we-funded-the-playtoearn-documentary-f519501111fa",
+      "publication_date": "2021-05-25",
+      "purpose": "Background context for the Philippines setting; no real documentary participant or reported household is depicted."
+    },
+    {
+      "title": "Katana launch announcement",
+      "url": "https://blog.axieinfinity.com/p/katana",
+      "publication_date": "2021-11-04",
+      "purpose": "Contemporary cross-check of Smooth Love Potion naming, battle rewards and exchangeability."
+    }
+  ],
+  "retrieval_limitations": [
+    "Contemporary project and guild figures are first-party reports, not independently audited player or scholar counts.",
+    "The Alpha guide and YGG explainer have later edits. Version-sensitive claims are checked against dated 2021 announcements; 2022 mechanics and figures are not projected backwards.",
+    "This task verifies content and artwork identity only; it does not certify layout, final print readability, repository integration or live publication."
+  ],
+  "release_guardrails": [
+    "Keep the displayed event date at year precision: 2021. Do not invent a day for the scholarship boom or depicted session.",
+    "Retain approved frame copy: COMMON / 2021 / AXIE INFINITY / PLAY TO EARN / THE BORROWED TEAM.",
+    "THE BORROWED TEAM is editorial copy, not a historical quotation.",
+    "Do not promise profit, sustainable income, a fixed daily wage, a universal payout split or automatic ownership of borrowed Axies.",
+    "Keep Axie NFT assets, SLP rewards and the separate AXS breeding input conceptually distinct.",
+    "Use actual final-image clues only. No clock, calendar, controller or Ronin bridge token is present.",
+    "Do not imply literal holograms, a documented person or household, a screenshot of gameplay, or an authentic payout record.",
+    "The later-updated creature chart is an art-design reference only, not evidence for the historical claims.",
+    "The 2022 Ronin breach is outside this card’s scene and is not asserted to have affected the fictional player."
+  ],
+  "result": "PASS — source-supported authoring content prepared; no repository changes or publication performed",
+  "print_source_selection_note": "Six concise five-word labels, with supplemental checks retained in this audit."
+}

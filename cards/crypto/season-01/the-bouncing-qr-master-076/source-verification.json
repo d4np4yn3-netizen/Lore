@@ -1,0 +1,351 @@
+{
+  "card": "HISTROVE 076 — The Bouncing QR",
+  "verified_at": "2026-10-18",
+  "canonical_date": "2022-02-13",
+  "date_precision": "day",
+  "event_date_basis": "Coinbase's Super Bowl LVI broadcast commercial on 13 February 2022. The American sports bar is a fictional viewing scene, not a documented venue or an advertisement on a stadium screen.",
+  "canonical_records": {
+    "brief": "076-the-bouncing-qr.md",
+    "research": "C2022-017",
+    "canonical": "LORE-CAN-2022-017",
+    "source_event": "LORE-EVT-0802"
+  },
+  "approved_frame": {
+    "rarity": "Common",
+    "date": "13 FEB 2022",
+    "top": "COINBASE",
+    "title": "THE BOUNCING QR",
+    "caption": "SUPER BOWL LVI"
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card076-proof/HISTROVE-Crypto-076-Art-QR-v17.png",
+    "sha256": "d7abf80d1834cc68b3821fbc4e7cb9a454717e4de093ae60b7894f73fb30439a",
+    "width": 1033,
+    "height": 1523,
+    "visually_inspected": true,
+    "version": "v17 public digital variant"
+  },
+  "approved_proof": {
+    "path": "/workspace/scratch/58d5f7ed8606/card076-proof/HISTROVE-Crypto-076-Card-Proof-v17.png",
+    "sha256": "9d79d255948493f0ae738d8af538d372838973bac921ca8dd1d2fc68113b103a",
+    "width": 816,
+    "height": 1110,
+    "visually_inspected": true,
+    "version": "v17 public digital variant"
+  },
+  "content_checks": {
+    "story_paragraphs": 5,
+    "story_word_count": 240,
+    "story_paragraph_word_counts": [
+      48,
+      48,
+      48,
+      48,
+      48
+    ],
+    "clue_count": 4,
+    "clue_text_word_count": 140,
+    "clue_text_word_counts": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "clue_order": [
+      "television digital QR",
+      "sparse black television screen",
+      "opposing fan colours",
+      "football display case"
+    ],
+    "verbatim_source_quotations": false,
+    "art_note_word_count": 45,
+    "print_source_labels": 6,
+    "source_label_word_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "word_count_method": "Whitespace-separated words; clue titles excluded",
+    "authoring_content_sha256": "c497362c95aeb16aa91432895c1312164a100704e30c15e380e72c0b0d5e5550"
+  },
+  "clue_crops": [
+    {
+      "index": 0,
+      "label": "television digital QR",
+      "raw_image_xyxy": [
+        475,
+        255,
+        735,
+        540
+      ],
+      "verified_pixels": "One black-and-white QR on a white quadrilateral within the television; no phone or duplicate phone preview."
+    },
+    {
+      "index": 1,
+      "label": "sparse black television screen",
+      "raw_image_xyxy": [
+        230,
+        150,
+        465,
+        505
+      ],
+      "verified_pixels": "Broad black area left of the QR, bounded by the television frame; no text, corner-bounce trail or extra on-screen message."
+    },
+    {
+      "index": 2,
+      "label": "opposing fan colours",
+      "raw_image_xyxy": [
+        45,
+        690,
+        1015,
+        1035
+      ],
+      "verified_pixels": "Blue/gold shirts at left and black/orange shirts at right. Fan-shirt and hat emblems were removed in final v17; visible shirt numbers remain."
+    },
+    {
+      "index": 3,
+      "label": "football display case",
+      "raw_image_xyxy": [
+        545,
+        725,
+        653,
+        810
+      ],
+      "verified_pixels": "Brown football with light laces inside a clear rectangular case under the television; no readable signature or provenance label."
+    }
+  ],
+  "claim_audit": [
+    {
+      "claim": "Super Bowl LVI matched the Rams and Bengals on 13 February 2022",
+      "locations": [
+        "story[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        2
+      ],
+      "locator": "NFL game summary, page 1: teams, date and Super Bowl LVI heading"
+    },
+    {
+      "claim": "Coinbase's first Super Bowl commercial was a 60-second spot built around a bouncing QR",
+      "locations": [
+        "story[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        1
+      ],
+      "locator": "Coinbase opening; Wavemaker Insight+Strategy and Activation",
+      "qualification": "Duration describes the whole spot. The QR occupied almost all of it; no claim that every frame lacked branding."
+    },
+    {
+      "claim": "The original QR moved on black, changed colour at edges, evoked a DVD screensaver and led to a Coinbase promotional page",
+      "locations": [
+        "story[1]",
+        "eggs[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1,
+        5
+      ],
+      "locator": "Wavemaker Activation; Clio review opening description",
+      "qualification": "Historical behaviour is distinct from the still artwork and its replacement digital code."
+    },
+    {
+      "claim": "Coinbase reported over 20 million landing-page hits in one minute and temporary throttling",
+      "locations": [
+        "story[2]"
+      ],
+      "status": "verified_as_first_party_report",
+      "source_indices": [
+        0
+      ],
+      "locator": "Question on reports of user delays",
+      "qualification": "Hits are not unique people, signups or customers. No precise outage duration or independently audited total is claimed."
+    },
+    {
+      "claim": "Fan colours recall Rams and Bengals supporters without reproducing their exact game uniforms",
+      "locations": [
+        "story[3]",
+        "eggs[2]"
+      ],
+      "status": "verified_with_editorial_qualification",
+      "source_indices": [
+        2,
+        3,
+        4
+      ],
+      "locator": "Official matchup and team galleries; v17 pixels and provenance",
+      "qualification": "Rams game tops were white; blue/gold clothing here is stylised fan apparel. Emblem removal applies to fan shirts and hats, not every sports-decor element. No athlete likeness is claimed."
+    },
+    {
+      "claim": "Crypto advertisers sought attention beyond specialist communities",
+      "locations": [
+        "story[4]"
+      ],
+      "status": "supported_editorial_synthesis",
+      "source_indices": [
+        0,
+        1
+      ],
+      "locator": "Coinbase Crypto Bowl discussion; Wavemaker Challenge and Insight+Strategy",
+      "qualification": "Interpretation of marketing reach and intention, not proof of adoption, financial benefit or lasting customer growth."
+    },
+    {
+      "claim": "The QR, black screen, opposing fan colours and football case appear in final v17",
+      "locations": [
+        "story[3]",
+        "story[4]",
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "eggs[3]"
+      ],
+      "status": "verified_by_direct_art_inspection",
+      "source": "Approved Art-QR-v17 and Card-Proof-v17",
+      "qualification": "Use the listed crops. The superseded living-room brief's bounce trail, phone doorway and listing programme are absent."
+    },
+    {
+      "claim": "TV QR encodes public digital /scan/076/; footer encodes /crypto/076/",
+      "locations": [
+        "eggs[0]",
+        "art_note"
+      ],
+      "status": "verified_from_build_configuration_and_existing_decode_report",
+      "source": "build076v17.py, card-data-v17.json, provenance-v17.json and qa-qr-v17.json",
+      "qualification": "Existing v17 QA records both URLs at full, trim and half size. This authoring check did not independently rerun a decoder or test live routing."
+    },
+    {
+      "claim": "Bar, fans and memorabilia are fictional; TV code is HISTROVE's replacement",
+      "locations": [
+        "story[3]",
+        "story[4]",
+        "eggs[0]",
+        "eggs[2]",
+        "eggs[3]",
+        "art_note"
+      ],
+      "status": "editorial_art_interpretation",
+      "source": "Approved v17 artwork, provenance and parent task direction",
+      "qualification": "No documented venue, real spectator, signed match ball or stadium-screen installation is asserted."
+    }
+  ],
+  "source_audit": [
+    {
+      "index": 0,
+      "type": "contemporaneous first-party Coinbase announcement",
+      "publication_date": "2022-02-13",
+      "access": "Opening, traffic/throttling, campaign and inspiration sections read",
+      "scope_used": "First Super Bowl appearance, attributed traffic, temporary throttling and marketing context. Promotional assurances are not adopted."
+    },
+    {
+      "index": 1,
+      "type": "first-party campaign agency case study",
+      "publication_date": null,
+      "access": "Challenge, Insight+Strategy, Activation and Results read",
+      "scope_used": "60-second format, bouncing QR, landing-page mechanism and audience. Conversion, revenue and promotional assertions are not adopted."
+    },
+    {
+      "index": 2,
+      "type": "official NFL game summary",
+      "publication_date": "2022-02-13",
+      "access": "Page 1 extracted text read",
+      "scope_used": "Event date and competing teams. The actual game venue does not make the fictional scene a stadium interior."
+    },
+    {
+      "index": 3,
+      "type": "official Rams uniform photo gallery",
+      "publication_date": null,
+      "access": "Gallery context and captions read; official uniform reference cross-checked against v17 art-worker provenance",
+      "scope_used": "Distinguishes stylised fan clothing from actual game uniforms. No exact replica claim."
+    },
+    {
+      "index": 4,
+      "type": "official Bengals uniform photo gallery",
+      "publication_date": null,
+      "access": "Official gallery page retrieved; uniform reference cross-checked against v17 art-worker provenance",
+      "scope_used": "Team and game-uniform context, not evidence for fictional spectators."
+    },
+    {
+      "index": 5,
+      "type": "contemporaneous review from the award organiser's publication",
+      "publication_date": "2022-02-14",
+      "access": "Opening advert description and campaign account read",
+      "scope_used": "Black screen, colour changes at edges, screensaver resemblance and original destination. Awards and ad-spend estimates are outside the copy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Coinbase Super Bowl traffic report",
+      "url": "https://www.coinbase.com/blog/everyone-wins-at-super-bowl-lvi-wagmi"
+    },
+    {
+      "title": "Wavemaker Coinbase advertising case study",
+      "url": "https://wavemakerglobal.com/our-work/growth-stories/less-talk-more-bitcoin"
+    },
+    {
+      "title": "NFL Super Bowl LVI summary",
+      "url": "https://static.www.nfl.com/gamecenter/757bbb2a-71a2-11ec-8e86-ebe0df6765ab.pdf"
+    },
+    {
+      "title": "Rams Super Bowl uniform photographs",
+      "url": "https://www.therams.com/photos/uniform-rams-super-bowl-lvi-jerseys-sofi-stadium-cincinnati-bengals"
+    },
+    {
+      "title": "Bengals Super Bowl uniform photographs",
+      "url": "https://www.bengals.com/photos/photo-gallery-bengals-super-bowl-lvi-uniforms"
+    },
+    {
+      "title": "Clio review of Coinbase advert",
+      "url": "https://musebyclios.com/advertising/coinbase-and-its-qr-code-win-the-super-clio-as-super-bowls-best-ad/"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "title": "Coinbase 2026 retrospective on its 2022 ad",
+      "url": "https://investor.coinbase.com/news/news-details/2026/Everybody-Coinbase-Is-Back-Again-with-a-Karaoke-Ode-to-Crypto-in-Sundays-Big-Game/default.aspx",
+      "publication_date": "2026-02-09",
+      "purpose": "Retrospective corroboration of the 2022 colourful bouncing QR and landing-page-hit metric. The 2026 spot's details are not projected backwards."
+    }
+  ],
+  "qr_variant": {
+    "variant": "PUBLIC_DIGITAL",
+    "artwork_status_at_authoring": "Approved v17 digital artwork; no publication performed by this authoring task",
+    "tv_qr_url": "https://lore-site-v1.vercel.app/scan/076/",
+    "footer_story_qr_url": "https://lore-site-v1.vercel.app/crypto/076/",
+    "tv_qr_is_coinbase_original": false,
+    "physical_only_destination_exists": false,
+    "physical_only_secret_created": false,
+    "phone_preview_present": false,
+    "live_route_status": "Not tested by this task; no live availability claimed",
+    "existing_decode_report": "card076-proof/qa-qr-v17.json"
+  },
+  "retrieval_limitations": [
+    "Traffic is Coinbase's first-party report, not an audited count of people or customers.",
+    "The agency case study has no displayed publication date; format details are cross-checked with contemporary Clio reporting.",
+    "The original Coinbase YouTube asset could not be retrieved. Duration is supported by the campaign agency; screen behaviour by contemporary reporting.",
+    "Independent QR decoding was not rerun because this authoring environment lacked decoder modules. Existing v17 decode evidence and exact build URLs were inspected. Release-level QR and route QA remain with the publishing worker.",
+    "This task checks copy and asset identity only; it does not certify book layout, print readability, repository integration, live publication or physical scanning."
+  ],
+  "release_guardrails": [
+    "Keep COMMON / 13 FEB 2022 / COINBASE / THE BOUNCING QR / SUPER BOWL LVI.",
+    "Keep the day-precision broadcast event date. The bar is fictional; do not imply an in-stadium video-board advert.",
+    "Attribute the more-than-20-million one-minute landing-page-hit metric to Coinbase; never substitute customers, unique people, accounts or completed scans.",
+    "Distinguish the original colourful animated QR from this still artwork's replacement black-and-white code.",
+    "TV QR is public digital /scan/076/; footer is /crypto/076/. Neither is Coinbase's original signup destination.",
+    "No physical-only code or secret exists. Do not invent one, repurpose the public code as one, or suggest the variant split is already implemented.",
+    "Use digital art in public books/assets. Any future physical-only master or destination needs separate approval and an appropriately private destination.",
+    "Physical/private implementation details stay in the production audit, not public-facing book prose.",
+    "Make no claim that any route, puzzle, prize, reward, promotion or ownership check is live or available.",
+    "Use only actual final-image clues. There is no phone, QR miniature, moving-square trail, overloaded doorway or listing programme.",
+    "Rams blue/gold and Bengals black/orange are fan colours, not exact game uniforms. Do not restore removed shirt/hat emblems.",
+    "Bar, people, decor and football case are editorial inventions; no real spectator, signed ball or particular venue is identified."
+  ],
+  "result": "PASS — source-supported authoring content prepared for public digital v17; no repository changes or publication performed",
+  "print_source_selection_note": "Six five-word labels; primary event, advertiser and agency sources support the historical core, with official team references and contemporary reporting for visual context."
+}
