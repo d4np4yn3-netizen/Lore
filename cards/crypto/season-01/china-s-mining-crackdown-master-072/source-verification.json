@@ -1,0 +1,232 @@
+{
+  "card": "HISTROVE 072 — China's Mining Crackdown",
+  "verified_at": "2026-10-18",
+  "canonical_date": "2021-09-24",
+  "event_date_basis": "Publication date of NDRC Notice 1283; signed 2021-09-03",
+  "approved_frame": {
+    "rarity": "Rare",
+    "top": "CHINA",
+    "title": "MINING CRACKDOWN",
+    "caption": "THE MINERS MOVE ON"
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card072-concept/HISTROVE-072-Chinas-Mining-Crackdown-Art-v3-Card-Safe.png",
+    "sha256": "77bd23b912654197c1da769d0069eb7d63a648b87cc9d84bddbb40fd80876197",
+    "width": 1060,
+    "height": 1484,
+    "visually_inspected": true
+  },
+  "content_checks": {
+    "story_paragraphs": 5,
+    "story_word_count": 245,
+    "clue_count": 4,
+    "clue_text_word_count": 142,
+    "clue_order": [
+      "notice",
+      "MAY/JUN labels",
+      "ICO 2017 folder",
+      "right-crate shipping tag"
+    ],
+    "verbatim_source_quotations": false,
+    "art_note_word_count": 44,
+    "print_source_labels": 7
+  },
+  "claim_audit": [
+    {
+      "claim": "Publication 24 September; signature 3 September; number 1283; eleven departments",
+      "locations": [
+        "story[0]",
+        "eggs[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        1
+      ],
+      "locator": "NDRC page publication header, notice heading, signatories and closing date"
+    },
+    {
+      "claim": "New-project prohibition and orderly exit for existing operations",
+      "locations": [
+        "story[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0
+      ],
+      "locator": "Notice sections II(1)–(2), IV and V"
+    },
+    {
+      "claim": "May 21 national call and June 18 Sichuan supply restrictions",
+      "locations": [
+        "story[1]",
+        "eggs[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        2,
+        3
+      ],
+      "locator": "State Council meeting text; regulator's own response dated July 22, 2021"
+    },
+    {
+      "claim": "Official energy/carbon/financial rationale and implementation measures",
+      "locations": [
+        "story[2]"
+      ],
+      "status": "verified_as_official_position",
+      "source_indices": [
+        0,
+        1
+      ],
+      "locator": "Notice sections I, III and V; official explanation"
+    },
+    {
+      "claim": "June hashrate decline of 38%, subsequent rebound, August country rankings",
+      "locations": [
+        "story[3]"
+      ],
+      "status": "verified_as_cambridge_estimates",
+      "source_indices": [
+        4
+      ],
+      "locator": "Opening analysis and July–August recovery discussion",
+      "qualification": "Hashrate means aggregate mining computing power. Country estimates use participating mining-pool geolocation data, not a complete census."
+    },
+    {
+      "claim": "Overseas redeployment before September",
+      "locations": [
+        "story[3]",
+        "eggs[1]"
+      ],
+      "status": "supported_research_inference",
+      "source_indices": [
+        4,
+        5
+      ],
+      "locator": "Cambridge October 2021 recovery interpretation; May 2022 retrospective"
+    },
+    {
+      "claim": "Covert domestic activity continued",
+      "locations": [
+        "story[4]"
+      ],
+      "status": "supported_research_inference",
+      "source_indices": [
+        5
+      ],
+      "locator": "Defiance, methodological trade-offs, and anomalies",
+      "qualification": "Reported zeros in July/August were not proof that all mining ceased; location masking affects these estimates."
+    },
+    {
+      "claim": "2017 ICO intervention",
+      "locations": [
+        "eggs[2]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        6
+      ],
+      "locator": "Announcement sections II–III",
+      "qualification": "Historical token-financing and exchange restrictions; not a claim that this was the 2021 mining notice."
+    },
+    {
+      "claim": "Notice, month labels, ICO folder, blank tag, handling arrow and packed machine are visible",
+      "locations": [
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "eggs[3]"
+      ],
+      "status": "verified_by_direct_art_inspection",
+      "source": "approved raw image",
+      "qualification": "No destination, departure date, real person, named operator or universal shutdown is inferred from the image."
+    }
+  ],
+  "source_audit": [
+    {
+      "index": 0,
+      "type": "original official notice",
+      "access": "full text read",
+      "date_note": "Publication header and signature deliberately distinguished"
+    },
+    {
+      "index": 1,
+      "type": "original official explanation",
+      "access": "full text read"
+    },
+    {
+      "index": 2,
+      "type": "official government republication of original meeting text",
+      "access": "full text read",
+      "date_note": "Meeting May 21; republication May 22"
+    },
+    {
+      "index": 3,
+      "type": "original regulator response",
+      "access": "full text read",
+      "date_note": "Body dated July 22, 2021; URL's 202401 segment is not the event date",
+      "privacy_note": "Only the regulator's response is used; the complainant's identity and allegations are not used"
+    },
+    {
+      "index": 4,
+      "type": "original research team's contemporaneous analysis",
+      "access": "full text read",
+      "date_note": "Published October 13, 2021; data through August"
+    },
+    {
+      "index": 5,
+      "type": "original research team's subsequent analysis",
+      "access": "full text read",
+      "date_note": "Published May 17, 2022; used explicitly as later evidence"
+    },
+    {
+      "index": 6,
+      "type": "official government republication of original announcement",
+      "access": "full text read",
+      "date_note": "Republication dated September 5, 2017; clue only asserts year"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NDRC: Notice 1283 on cryptocurrency mining, published 24 September 2021; dated 3 September 2021",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202109/t20210924_1297474.html"
+    },
+    {
+      "title": "NDRC: Official explanation of the mining notice, 24 September 2021",
+      "url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202109/t20210924_1297478_ext.html"
+    },
+    {
+      "title": "State Council Financial Stability and Development Committee meeting, 21 May 2021 (official government republication)",
+      "url": "https://swj.shannan.gov.cn/xwzx/gwyxx/202105/t20210522_81914.html"
+    },
+    {
+      "title": "National Energy Administration, Sichuan office: confirmation of its 18 June 2021 mining-power notice",
+      "url": "https://scb.nea.gov.cn/hdhy/zxzx/202401/t20240119_228080.html"
+    },
+    {
+      "title": "Cambridge Centre for Alternative Finance: Geographic shift, 13 October 2021",
+      "url": "https://www.jbs.cam.ac.uk/2021/geographic-shift/"
+    },
+    {
+      "title": "Cambridge Centre for Alternative Finance: Bitcoin mining, an (un)surprising resurgence?, 17 May 2022",
+      "url": "https://www.jbs.cam.ac.uk/2022/bitcoin-mining-new-data-reveal-a-surprising-resurgence/"
+    },
+    {
+      "title": "2017 token-financing announcement (People's Bank of China text republished by Beijing's financial regulator)",
+      "url": "https://jrj.beijing.gov.cn/tztg/201709/t20170905_727525.html"
+    }
+  ],
+  "retrieval_limitations": [
+    "Original gov.cn May 21 meeting URL returned HTTP 403. Full official government republication was read instead.",
+    "Legacy PBOC 2017 announcement URL returned HTTP 404. Its full text on Beijing's financial-regulator website was read instead."
+  ],
+  "release_guardrails": [
+    "Retain the canonical September 24 publication date and September 3 signed date distinction.",
+    "Do not imply that migration began on the canonical card date.",
+    "Do not claim a complete or permanent nationwide disappearance of miners.",
+    "Do not infer a real operator, person, departure date, destination or endorsement from illustrative props."
+  ],
+  "result": "PASS — source-supported authoring content; no repository changes or publication performed",
+  "print_source_selection_note": "Authoring content carries seven concise source labels; this audit retains full bibliographic details."
+}
