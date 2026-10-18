@@ -1,0 +1,51 @@
+{
+  "story": [
+    "On 5 August 2021, Ethereum activated its London upgrade at block 12,965,000. Among its changes was EIP-1559, a new way to price transactions. A network-set base fee became part of the cost of using Ethereum, and that portion of each transaction fee was burned.",
+    "The base fee adjusted from block to block according to demand: it rose when the previous block used more gas than the target and fell when it used less. The protocol destroyed the base-fee payment. A separate priority fee, or tip, rewarded the miner who included the transaction.",
+    "Ethereum Mainnet still used proof-of-work when London arrived. The switch to proof-of-stake came with the Merge in September 2022. EIP-1559 made fee estimation more predictable, but busy periods could still be expensive. Burning ETH reduced supply relative to what it would otherwise have been; it did not guarantee that burning would exceed new issuance.",
+    "The artwork gives that invisible rule a fantasy setting. An enormous dragon breathes fire onto a coin in the BASE FEE bowl while an imagined traveller stands beside it. The separate TIP bowl holds unburned coins. Dragon, traveller and physical coins are storytelling symbols, not a reconstruction of people or machinery that operated Ethereum.",
+    "The Ethereum emblem on the dragon's forehead identifies the network, while distant Big Ben points to the upgrade's name. London was named after the city that hosted Devcon 1, not a fee-burning ceremony there. THE BASE FEE BURNS. is editorial wording, not a historical quotation; the two bowls make that fee distinction visible."
+  ],
+  "eggs": [
+    {
+      "title": "THE BASE FEE BOWL",
+      "text": "The dragon's flame meets the coin above the BASE FEE label. This visualises the protocol burn: the base-fee payment was destroyed rather than collected in a miner's wallet."
+    },
+    {
+      "title": "THE SEPARATE TIP BOWL",
+      "text": "Unburned coins sit in the smaller bowl marked TIP. Priority fees remained payable to miners in August 2021. The illustrated coin counts do not measure a real fee split."
+    },
+    {
+      "title": "THE FOREHEAD EMBLEM",
+      "text": "The Ethereum symbol on the dragon's forehead identifies the network behind the mechanism. The creature is an invented personification of the rule, not a historical actor."
+    },
+    {
+      "title": "BIG BEN IN THE DISTANCE",
+      "text": "The small clock tower names London through a recognisable landmark. It is a clue to the upgrade's title, not evidence that the network change happened at a London toll gate."
+    }
+  ],
+  "sources": [
+    {
+      "title": "EIP-1559 specification",
+      "url": "https://eips.ethereum.org/EIPS/eip-1559"
+    },
+    {
+      "title": "Ethereum Foundation: London Mainnet Announcement, 15 July 2021",
+      "url": "https://blog.ethereum.org/2021/07/15/london-mainnet-announcement"
+    },
+    {
+      "title": "Ethereum upgrade history: London",
+      "url": "https://ethereum.org/ethereum-forks/#london"
+    },
+    {
+      "title": "Ethereum.org: The Merge",
+      "url": "https://ethereum.org/roadmap/merge/"
+    },
+    {
+      "title": "Ethereum.org: Gas and fees",
+      "url": "https://ethereum.org/developers/docs/gas/"
+    }
+  ],
+  "art_note": "Historical details are checked against the EIP-1559 specification, the Ethereum Foundation's launch announcement and Ethereum.org's upgrade history. Miner terminology is specific to London in August 2021; the Merge followed in 2022. The dragon, traveller, bowls, coins and fantasy setting are interpretive artwork. Big Ben signals the upgrade's name. The caption is editorial, not a historical quotation. Artwork approval does not establish commercial rights clearance."
+}
+

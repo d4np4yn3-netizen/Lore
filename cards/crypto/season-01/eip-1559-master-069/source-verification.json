@@ -1,0 +1,225 @@
+{
+  "card": "069",
+  "title": "EIP-1559: London",
+  "verified_at_utc": "2026-10-18",
+  "scope": "Local-only story, source verification and actual-art clue preparation. No remote writes and no artwork edits.",
+  "approved_card_copy": {
+    "rarity": "RARE",
+    "subject": "ETHEREUM",
+    "title_line_1": "EIP-1559",
+    "title_line_2": "LONDON",
+    "context": "THE BASE FEE BURNS.",
+    "event_date": "05 AUG 2021"
+  },
+  "approved_art": {
+    "path": "../approved/HISTROVE-069-Dragons-Toll-Art-v10-Original-Closeup-London.png",
+    "sha256": "1efc6bd85a8a4c5e2aec5ab6d33de264c8104ad0842a066f4416411a6903f646",
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "visually_inspected": true,
+    "modified": false
+  },
+  "schema_references": [
+    {
+      "path": "site/app/cards/content/068.json",
+      "url": "https://github.com/d4np4yn3-netizen/Lore/blob/main/site/app/cards/content/068.json",
+      "github_blob_sha": "46c1b65779066e5ac35d8a7013e839e57a5f2473",
+      "keys": [
+        "story",
+        "eggs",
+        "sourceNote",
+        "sources"
+      ]
+    },
+    {
+      "path": "cards/crypto/season-01/the-shib-burn-master-068/authoring-content.json",
+      "url": "https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/the-shib-burn-master-068/authoring-content.json",
+      "github_blob_sha": "e6a92cbfef27dc948e16d90d5d3a14d7262b5f85",
+      "keys": [
+        "story",
+        "eggs",
+        "sources",
+        "art_note"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "EIP-1559 specification",
+      "url": "https://eips.ethereum.org/EIPS/eip-1559",
+      "kind": "Primary protocol specification",
+      "verified_sections": [
+        "Abstract",
+        "Motivation",
+        "Specification",
+        "ETH Burn Precludes Fixed Supply"
+      ],
+      "notes": "Directly read. Establishes fee adjustment, burn, miner priority fees, and the conditional relationship between burn and issuance. CC0 notice present."
+    },
+    {
+      "id": "S2",
+      "title": "Ethereum Foundation: London Mainnet Announcement",
+      "url": "https://blog.ethereum.org/2021/07/15/london-mainnet-announcement",
+      "published": "2021-07-15",
+      "kind": "Contemporaneous first-party announcement",
+      "verified_sections": [
+        "London",
+        "London EIPs",
+        "As a miner, what do I need to do?",
+        "Why London?"
+      ],
+      "notes": "Directly read. Specifies activation block, included EIP and Devcon-city naming. Its expected date range is not used alone to establish the actual activation day."
+    },
+    {
+      "id": "S3",
+      "title": "Ethereum upgrade history: London",
+      "url": "https://ethereum.org/ethereum-forks/#london",
+      "kind": "Official retrospective chronology",
+      "verified_sections": [
+        "London"
+      ],
+      "notes": "Directly read. Records the actual 5 August 2021 activation and block 12,965,000."
+    },
+    {
+      "id": "S4",
+      "title": "Ethereum.org: The Merge",
+      "url": "https://ethereum.org/roadmap/merge/",
+      "kind": "Official retrospective chronology and explanation",
+      "verified_sections": [
+        "When's it shipping?",
+        "What was The Merge?",
+        "Merging with Mainnet"
+      ],
+      "notes": "Directly read. Confirms Mainnet used proof-of-work until the 15 September 2022 transition; the story only specifies September 2022."
+    },
+    {
+      "id": "S5",
+      "title": "Ethereum.org: Gas and fees",
+      "url": "https://ethereum.org/developers/docs/gas/",
+      "kind": "Official current technical documentation",
+      "verified_sections": [
+        "Base fee",
+        "Block size",
+        "Why can gas fees get so high?"
+      ],
+      "notes": "Directly read for the continuing fee mechanism and demand-driven cost caveat. Present-day validator wording was not carried back into the 2021 story."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "London activated on 5 August 2021 at block 12,965,000 and included EIP-1559.",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C2",
+      "text": "The base fee follows prior-block gas use relative to the target and is burned; priority fees went to miners.",
+      "sources": [
+        "S1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C3",
+      "text": "London predates Mainnet's proof-of-stake transition in September 2022.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C4",
+      "text": "More predictable estimation does not ensure cheap transactions during high demand.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "status": "supported synthesis"
+    },
+    {
+      "id": "C5",
+      "text": "Burning does not guarantee an absolute fall in ETH supply; issuance also matters.",
+      "sources": [
+        "S1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C6",
+      "text": "London's upgrade name references the city that hosted Devcon 1.",
+      "sources": [
+        "S2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C7",
+      "text": "The dragon, traveller, bowls and physical coins are symbolic; Big Ben points to the name, not a physical activation site.",
+      "sources": [
+        "approved art visual inspection",
+        "editorial interpretation"
+      ],
+      "status": "clearly labelled interpretation"
+    },
+    {
+      "id": "C8",
+      "text": "THE BASE FEE BURNS. is approved editorial card copy, not presented as a historical quotation.",
+      "sources": [
+        "parent task approved card copy"
+      ],
+      "status": "editorial treatment"
+    }
+  ],
+  "art_clue_verification": [
+    {
+      "title": "THE BASE FEE BOWL",
+      "visible_region": "Lower centre, flame contact at the coin and BASE FEE inscription on the stone pedestal.",
+      "historical_link": "C2",
+      "visible": true
+    },
+    {
+      "title": "THE SEPARATE TIP BOWL",
+      "visible_region": "Lower right, separate shallow bowl with unburned Ethereum-emblem coins and TIP inscription.",
+      "historical_link": "C2",
+      "visible": true
+    },
+    {
+      "title": "THE FOREHEAD EMBLEM",
+      "visible_region": "Upper central dragon forehead, large purple Ethereum emblem.",
+      "historical_link": "C7",
+      "visible": true
+    },
+    {
+      "title": "BIG BEN IN THE DISTANCE",
+      "visible_region": "Upper left background beyond the traveller and left of the dragon, small clock tower.",
+      "historical_link": "C6",
+      "visible": true
+    }
+  ],
+  "editorial_guards": [
+    "Do not replace 2021 miner terminology with present-day validator terminology.",
+    "Do not describe London as the proof-of-stake transition.",
+    "Do not imply all transaction fees were burned.",
+    "Do not imply guaranteed cheap fees, deflation, price appreciation or investment returns.",
+    "Do not interpret pictured coin counts as amounts or percentage splits.",
+    "Do not describe the fantasy setting as a literal London activation event.",
+    "Do not relabel the editorial caption as a quotation.",
+    "Artwork approval, local QA, commercial rights clearance and physical print acceptance are separate statuses."
+  ],
+  "unverified_or_not_claimed": [
+    "No exact activation-time claim in story.",
+    "No aggregate burn total, price movement or fee-ratio claim.",
+    "No production publication or deployment claim.",
+    "No new artwork approval or commercial-rights clearance claim."
+  ]
+}
+
