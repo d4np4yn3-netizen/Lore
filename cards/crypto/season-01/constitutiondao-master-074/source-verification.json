@@ -1,0 +1,389 @@
+{
+  "card": "HISTROVE 074 — The People’s Bid",
+  "slug": "constitutiondao",
+  "verified_at": "2026-10-18",
+  "canonical_date": "2021-11-18",
+  "event_date_basis": "Sotheby's New York live auction on 18 November 2021, local EST; not the 19 November UTC close timestamp shown on the lot page or the separate 2022 sale.",
+  "approved_frame": {
+    "rarity": "Common",
+    "top": "CONSTITUTIONDAO",
+    "title": "THE PEOPLE’S BID",
+    "caption": "A COMMUNITY BIDS FOR HISTORY."
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card074-proof/art-framing-v1.png",
+    "sha256": "3cdcd2dc96a7a8c03315ddc0217d915b90c7cc81ef04491817dbbb4edff00816",
+    "width": 1060,
+    "height": 1484,
+    "visually_inspected": true,
+    "version": "approved framing derivative v1"
+  },
+  "proof": {
+    "path": "/workspace/scratch/58d5f7ed8606/card074-proof/HISTROVE-Crypto-074-Card-Proof-v1.png",
+    "sha256": "099bf258201b8e8dc33aadad3e73c6b1f46d3b9156357cc9f114894277fcb809",
+    "width": 816,
+    "height": 1110,
+    "visually_inspected": true,
+    "version": "approved card proof v1"
+  },
+  "content_checks": {
+    "story_paragraphs": 5,
+    "story_word_count": 242,
+    "story_paragraph_word_counts": [
+      48,
+      48,
+      49,
+      50,
+      47
+    ],
+    "clue_count": 4,
+    "clue_text_word_count": 140,
+    "clue_text_word_counts": [
+      35,
+      35,
+      35,
+      35
+    ],
+    "clue_order": [
+      "PEOPLE paddle",
+      "SOLD screen",
+      "1787 plaque",
+      "printed Constitution"
+    ],
+    "literal_art_labels_in_copy": [
+      "PEOPLE",
+      "SOLD",
+      "1787"
+    ],
+    "verbatim_source_quotations": false,
+    "art_note_word_count": 45,
+    "print_source_labels": 6,
+    "source_label_word_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "word_count_method": "Whitespace-separated words; clue titles excluded"
+  },
+  "clue_crop_references": [
+    {
+      "index": 0,
+      "subject": "PEOPLE paddle",
+      "box_xyxy": [
+        260,
+        975,
+        400,
+        1120
+      ]
+    },
+    {
+      "index": 1,
+      "subject": "SOLD screen",
+      "box_xyxy": [
+        700,
+        285,
+        940,
+        415
+      ]
+    },
+    {
+      "index": 2,
+      "subject": "1787 plaque",
+      "box_xyxy": [
+        318,
+        530,
+        398,
+        575
+      ]
+    },
+    {
+      "index": 3,
+      "subject": "printed Constitution",
+      "box_xyxy": [
+        240,
+        195,
+        475,
+        535
+      ]
+    }
+  ],
+  "claim_audit": [
+    {
+      "claim": "Auction at Sotheby’s New York on 18 November 2021",
+      "locations": [
+        "story[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        2
+      ],
+      "supplemental_source": "https://www.sothebys.com/en/press/newsflash-newsflash%20%28Sothebys.com%20-%20Permalink%29",
+      "locator": "Auction overview; same-day press release dateline and opening paragraph",
+      "qualification": "Use the local New York event date, despite the lot page showing a 19 November GMT closing timestamp."
+    },
+    {
+      "claim": "A printed first edition of the final Constitution text from 1787, made for the Convention and Congress",
+      "locations": [
+        "story[0]",
+        "eggs[2]",
+        "eggs[3]",
+        "art_note"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0,
+        4
+      ],
+      "supplemental_source": "https://www.sothebys.com/en/digital-catalogues/the-constitution-of-the-united-states",
+      "locator": "2021 lot title; 2021 digital catalogue opening paragraphs; retrospective section on the Official Edition",
+      "qualification": "This was the Goldman copy of the first printing, not the unique handwritten engrossed and signed document. No surviving-copy count is used because sources contain different counts."
+    },
+    {
+      "claim": "ConstitutionDAO was organised online to bid for the copy",
+      "locations": [
+        "story[0]",
+        "story[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        3,
+        4,
+        5
+      ],
+      "locator": "Project closing statement; Sotheby’s retrospective paragraphs on the 2021 crowdfund; development notes"
+    },
+    {
+      "claim": "More than 17,000 contributors pooled more than US$40 million in Ether, with social-media mobilisation",
+      "locations": [
+        "story[1]",
+        "story[4]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        4
+      ],
+      "locator": "2022 Sotheby’s retrospective paragraph on the 2021 ConstitutionDAO campaign",
+      "qualification": "Deliberately uses supported lower bounds. Dollar valuations varied with the ETH price and the time measured; no exact final fundraising total or final bidder budget is asserted."
+    },
+    {
+      "claim": "Juicebox held the crowdfunding mechanism and PEOPLE allocations corresponded to ETH contributions",
+      "locations": [
+        "story[1]",
+        "eggs[0]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        3,
+        5
+      ],
+      "locator": "Official project redemption statement and original contribution ratio; contemporary development notes’ Juicebox FAQs",
+      "qualification": "An allocation could be claimed or unclaimed. No claim that each contributor already held transferred tokens, or that tokens represented fractional ownership of the document."
+    },
+    {
+      "claim": "ConstitutionDAO lost and Kenneth Griffin acquired the copy",
+      "locations": [
+        "story[2]",
+        "eggs[1]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        3,
+        4
+      ],
+      "locator": "Project closing statement; Sotheby’s retrospective account of Griffin’s successful bid"
+    },
+    {
+      "claim": "Final sale result US$43,173,000 inclusive of Sotheby’s premiums",
+      "locations": [
+        "story[2]"
+      ],
+      "status": "verified_with_retrieval_limitation",
+      "source_indices": [
+        1,
+        2
+      ],
+      "locator": "Official 19 November results roundup: Constitution lot sale-price entry; auction overview results convention",
+      "qualification": "The exact figure was available in the indexed text of Sotheby’s results article; direct article retrieval timed out. Same-day official press release independently confirms the rounded US$43.2 million result. This is not the hammer price and excludes any applicable taxes and costs."
+    },
+    {
+      "claim": "Bidding lasted roughly eight minutes and established a contemporary record for a book, manuscript or printed text",
+      "locations": [
+        "story[2]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        1,
+        4
+      ],
+      "supplemental_source": "https://www.sothebys.com/en/press/newsflash-newsflash%20%28Sothebys.com%20-%20Permalink%29",
+      "locator": "Same-day press release opening paragraphs and record declaration",
+      "qualification": "Record language is explicitly confined to the time of the 2021 sale, not a present-day claim."
+    },
+    {
+      "claim": "Project wound down and enabled refunds through Juicebox at the original ETH/token ratio, with gas fees applying",
+      "locations": [
+        "story[3]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        3
+      ],
+      "locator": "Refunds, Redeem, and closing statement",
+      "qualification": "The mechanism returned ETH at the contribution ratio. No promise of an identical dollar refund, automatic payment, or recovery of network transaction fees is made."
+    },
+    {
+      "claim": "Closing statement disclaimed continuing token governance rights or utility beyond redemption",
+      "locations": [
+        "story[3]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        3
+      ],
+      "locator": "Post-loss wind-down statement",
+      "qualification": "Describes the original project’s statement; does not analyse later independent token communities or market activity."
+    },
+    {
+      "claim": "1787 also matches the Sotheby’s lot number",
+      "locations": [
+        "eggs[2]"
+      ],
+      "status": "verified",
+      "source_indices": [
+        0
+      ],
+      "locator": "Lot page heading and lot identifier"
+    },
+    {
+      "claim": "PEOPLE paddle, SOLD screen, 1787 plaque and framed single-column printed document are visible in final art",
+      "locations": [
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "eggs[3]"
+      ],
+      "status": "verified_by_direct_art_inspection",
+      "source": "approved framing derivative and approved card proof",
+      "qualification": "Only these four existing clues are described. No absent jar, envelope, book, pen, ledger or meeting-room prop is used."
+    },
+    {
+      "claim": "Lowered paddle, fictional bidder and staged display interpret the loss",
+      "locations": [
+        "story[4]",
+        "eggs[0]",
+        "eggs[1]",
+        "eggs[2]",
+        "eggs[3]",
+        "art_note"
+      ],
+      "status": "editorial_art_interpretation",
+      "source": "approved framing derivative and approved card proof",
+      "qualification": "No identifiable person, real paddle, exact room arrangement, authentic display scale or historical camera position is asserted. The drawn document is not a facsimile."
+    }
+  ],
+  "source_audit": [
+    {
+      "index": 0,
+      "type": "auction house’s original 2021 lot record",
+      "access": "Lot title, lot number, close timestamp and public image link read",
+      "date_note": "GMT timestamp displays 19 November; New York auction took place 18 November.",
+      "limitation": "Sale result and condition report are login-gated. Neither was accessed through the login gate."
+    },
+    {
+      "index": 1,
+      "type": "auction house’s contemporary results article, 19 November 2021",
+      "access": "Indexed article text and Constitution result entry read through web search",
+      "scope_used": "Exact sale result and cross-check of auction result",
+      "limitation": "Direct page reads and the in-page find request timed out. Search-result text explicitly exposed the exact Constitution sale price; no full-page retrieval is claimed."
+    },
+    {
+      "index": 2,
+      "type": "auction house’s original auction overview",
+      "access": "Auction location/date and results-premium convention read",
+      "scope_used": "Local event date, venue and price convention"
+    },
+    {
+      "index": 3,
+      "type": "original project’s retained closing and refund statement",
+      "access": "Full currently published statement read",
+      "scope_used": "Loss, wind-down, Juicebox, PEOPLE contribution/redemption relationship and gas-fee qualification",
+      "date_note": "The statement describes the ended 2021 project; the current page has no publication timestamp. It is not treated as proof of a specific wind-down day."
+    },
+    {
+      "index": 4,
+      "type": "auction house’s retrospective on the November 2021 sale, published 1 November 2022",
+      "access": "Paragraphs on the 2021 Goldman copy, fundraiser and buyer, and the Official Edition explanation read",
+      "scope_used": "2021 buyer, fundraising lower bounds, social-media context and first-printing background",
+      "qualification": "The page also promotes a different 2022 auction. Only passages explicitly about the 2021 Goldman copy and shared printing history are applied to this card."
+    },
+    {
+      "index": 5,
+      "type": "contemporary community-maintained development coordination record",
+      "access": "README: 13 November development update, Getting started, Juicebox FAQs and General FAQs read",
+      "scope_used": "Original planning evidence for using Juicebox and accepting ETH with contribution-token allocations",
+      "qualification": "The README says its experimental code was not used for the actual crowdfund and asks for the organisation to be renamed to avoid an official impression. It is not presented as deployed production code or an audited official implementation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sotheby's Constitution auction lot, 2021",
+      "url": "https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation/the-official-edition-of-the-united-states"
+    },
+    {
+      "title": "Sotheby's November 2021 sale results",
+      "url": "https://www.sothebys.com/en/articles/the-macklowe-collection-highlights-1-25-billion-week-and-counting"
+    },
+    {
+      "title": "Sotheby's auction date and premiums",
+      "url": "https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation"
+    },
+    {
+      "title": "ConstitutionDAO closing and refund statement",
+      "url": "https://www.constitutiondao.com/"
+    },
+    {
+      "title": "Sotheby's ConstitutionDAO and buyer retrospective",
+      "url": "https://www.sothebys.com/en/articles/sothebys-to-auction-one-of-only-two-first-printings-of-the-u-s-constitution-remaining-in-private-hands"
+    },
+    {
+      "title": "ConstitutionDAO contemporary developer coordination notes",
+      "url": "https://github.com/Constitution-DAO/contracts"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "title": "Sotheby’s same-day Constitution sale announcement, 18 November 2021",
+      "url": "https://www.sothebys.com/en/press/newsflash-newsflash%20%28Sothebys.com%20-%20Permalink%29",
+      "purpose": "Directly read contemporary confirmation of New York date, rounded US$43.2 million result, roughly eight-minute bidding contest and record at time of sale."
+    },
+    {
+      "title": "Sotheby’s 2021 Constitution digital catalogue",
+      "url": "https://www.sothebys.com/en/digital-catalogues/the-constitution-of-the-united-states",
+      "purpose": "Directly read original catalogue identifying the Goldman copy and the first printing issued for Congress and Convention delegates."
+    }
+  ],
+  "retrieval_limitations": [
+    "The lot page hides its result behind a login. Public Sotheby’s result reporting was used instead; no login or access-control bypass was attempted.",
+    "The exact US$43,173,000 result was retrieved from indexed text of Sotheby’s contemporary results roundup, whose direct page reads timed out. The opened official same-day announcement independently corroborates US$43.2 million rounded.",
+    "The original project’s retained closing statement is undated. No exact wind-down date is given in the companion.",
+    "No on-chain contribution total or unique-person count was independently reconstructed. The narrative uses Sotheby’s supported lower bounds rather than an exact final dollar total."
+  ],
+  "release_guardrails": [
+    "Keep 18 November 2021 as the local event date, with Common rarity and the approved title/caption.",
+    "The item is a first-edition printed copy of the Constitution’s final text from 1787, not the unique handwritten engrossed original.",
+    "Keep US$43,173,000 inclusive of premiums; do not call it the hammer price or imply taxes and every additional cost are included.",
+    "ConstitutionDAO lost. The SOLD screen must never be explained as a successful community purchase.",
+    "Do not equate the fundraising total with the available hammer-bid budget or invent a precise reason or numerical breakdown for stopping.",
+    "PEOPLE is the contribution-token reference; do not imply ownership of the document or ongoing governance guarantees.",
+    "Refunds were offered through an ETH redemption mechanism and were subject to network fees; do not promise automatic or dollar-equivalent full recovery.",
+    "Use the four actual visible clues in this order: PEOPLE paddle, SOLD screen, 1787 plaque, printed Constitution.",
+    "The room, characters, paddle, plaque and display are interpretive. Do not identify the fictional auctioneer or bidder as a real participant.",
+    "The 2022 Sotheby’s retrospective discusses another copy and auction; never import that sale’s date or provenance into the 2021 card.",
+    "The exact final art hash must remain 3cdcd2dc96a7a8c03315ddc0217d915b90c7cc81ef04491817dbbb4edff00816."
+  ],
+  "result": "PASS — source-supported authoring content with disclosed retrieval limitations; no repository edits or publication performed",
+  "print_source_selection_note": "Six concise five-word source labels; additional contemporary auction checks retained here."
+}

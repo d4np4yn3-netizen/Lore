@@ -1,0 +1,28 @@
+# 074 - The People’s Bid
+
+18 NOV 2021 / CONSTITUTIONDAO / COMMON
+
+A COMMUNITY BIDS FOR HISTORY.
+
+## The story
+
+On 18 November 2021, Sotheby's in New York offered a first-edition printed copy of the United States Constitution. Dating from 1787, this was the first printing of its final text, produced for the Constitutional Convention and Congress. ConstitutionDAO had formed online with a single purpose: to buy it.
+
+More than 17,000 contributors pooled over US$40 million in Ether. Using the Juicebox crowdfunding platform, they received allocations of PEOPLE tokens linked to their contributions. Social media helped turn a shared idea into a bid for a physical historical object, bringing an online crypto community to the auction.
+
+ConstitutionDAO lost. Kenneth Griffin acquired the document for US$43.173 million, including Sotheby's premiums, after roughly eight minutes of bidding. The result was a world auction record for a book, manuscript or printed text at the time. The collective raised substantial funds, but the winning bid belonged to another buyer.
+
+The core team subsequently wound down the project and made refunds available through Juicebox. Contributors could exchange their PEOPLE allocation for ETH at the original contribution ratio, with network transaction fees still applying. The project's closing statement said the tokens carried no governance rights or utility beyond the redemption mechanism.
+
+The imagined bidder's lowered PEOPLE paddle gives that loss a human scale. Behind it, the Constitution remains brightly lit as SOLD fills the screen. THE PEOPLE’S BID remembers an experiment in collective funding: thousands rallied around an ambitious purchase, while the auction's outcome remained beyond their control.
+
+## Details in the artwork
+
+1. **THE PEOPLE PADDLE** The foreground paddle reads PEOPLE, matching ConstitutionDAO's contribution token. Lowered in the bidder's hand, this invented prop stands for the many individual contributors behind the attempt. It is not an authentic paddle used at Sotheby's.
+2. **THE SOLD SCREEN** The large illuminated SOLD screen announces that the auction is over. It points to the moment ConstitutionDAO lost the contest, rather than a purchase by the community. The screen's placement and appearance are artistic inventions.
+3. **THE 1787 PLAQUE** The small brass plaque beneath the document reads 1787. It identifies the year of the Constitution's first printing and also echoes Sotheby's lot number for this sale. The plaque itself belongs to the imagined display.
+4. **THE PRINTED CONSTITUTION** The tall framed paper sheet recalls the first printing of the Constitution's final text. Its dense single-column layout distinguishes the printed document being auctioned from the familiar handwritten original. The illustration is not a facsimile.
+
+## Source and art note
+
+Sources: [Sotheby's Constitution auction lot, 2021](https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation/the-official-edition-of-the-united-states); [Sotheby's November 2021 sale results](https://www.sothebys.com/en/articles/the-macklowe-collection-highlights-1-25-billion-week-and-counting); [Sotheby's auction date and premiums](https://www.sothebys.com/en/buy/auction/2021/the-constitution-of-the-united-states-sold-to-benefit-the-dorothy-tapper-goldman-foundation); [ConstitutionDAO closing and refund statement](https://www.constitutiondao.com/); [Sotheby's ConstitutionDAO and buyer retrospective](https://www.sothebys.com/en/articles/sothebys-to-auction-one-of-only-two-first-printings-of-the-u-s-constitution-remaining-in-private-hands); [ConstitutionDAO contemporary developer coordination notes](https://github.com/Constitution-DAO/contracts). The auction room, bidder, staff and PEOPLE paddle are fictional editorial inventions. The scene interprets a real failed bid without portraying identifiable participants or reproducing the saleroom. The enlarged framed document evokes the printed 1787 edition; its display and the SOLD screen serve the story.
