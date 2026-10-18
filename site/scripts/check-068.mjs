@@ -10,15 +10,15 @@ assert.equal(m.art.sha256,'615ff09d85ba65ebb92316d40c09929a36c5298061136faeb5958
 assert.equal(m.print.png.sha256,'98851c0cd825243dd39a4f3da5b2851c338f1b2320e612226ce9b5cf38426c3d');
 assert.equal(c.story.length,5);assert.equal(c.eggs.length,4);assert.equal(c.sources.length,4);assert.equal(close['068'].length,4);assert(!close['058']);
 assert(c.story[0].includes('16 May 2021'));assert(c.story[0].includes('410 trillion'));assert(c.story[1].includes('remaining'));assert(c.story[1].includes('entire supply'));assert(c.story[2].includes('12 May'));assert(c.story[3].includes('metaphor'));assert(c.story[4].includes('does not guarantee'));
-assert.equal(Object.keys(media).length,69);assert.deepEqual(r.cards.filter(c=>c.moment_number).map(c=>c.moment_number).sort((a,b)=>a-b),[...Array.from({length:57},(_,i)=>i+1),59,60,61,62,63,64,65,66,67,68,69,70]);
-for(const k of ['approved_print_derivative_count','numbered_published_count','prepared_numbered_count','current_numbered_print_count'])assert.equal(r[k],69);
-assert.equal(r.approved_visual_count,71);assert.equal(read('../cards/crypto/print-ready/histrove-v1/manifest.json').front_count,69);
+assert.equal(Object.keys(media).length,70);assert.deepEqual(r.cards.filter(c=>c.moment_number).map(c=>c.moment_number).sort((a,b)=>a-b),[...Array.from({length:57},(_,i)=>i+1),59,60,61,62,63,64,65,66,67,68,69,70,71]);
+for(const k of ['approved_print_derivative_count','numbered_published_count','prepared_numbered_count','current_numbered_print_count'])assert.equal(r[k],70);
+assert.equal(r.approved_visual_count,72);assert.equal(read('../cards/crypto/print-ready/histrove-v1/manifest.json').front_count,70);
 for(const ext of ['png','pdf','svg'])assert.equal(hash(master+'HISTROVE-Crypto-068-Front-Print-v1.'+ext),m.print[ext].sha256);
 assert.equal(hash(master+'HISTROVE-068-The-SHIB-Burn-Book.pdf'),m.book.sha256);assert.deepEqual(read(master+'068.json'),c);assert.equal(hash(master+'068-the-shib-burn.md'),m.chapter.sha256);
 const svg=fs.readFileSync('../'+m.print.svg.path,'utf8');assert(svg.includes('xMidYMid slice'));assert(svg.includes('NO WAY BACK.'));
 const card=r.cards.find(c=>c.moment_number===68);assert.equal(card.creator,'SHIBA INU');assert.equal(card.rarity,'common');assert.equal(card.title_line_1,'THE SHIB');assert.equal(card.title_line_2,'BURN');assert.equal(card.context,'NO WAY BACK.');assert.equal(card.moment_label,'16 MAY 2021');assert.equal(card.art_preserve_aspect_ratio,'xMidYMid slice');assert.equal(card.publication_approved,true);assert.equal(card.print_release,false);assert.equal(read(master+'approval.json').publication_authorized,true);assert.equal(read(master+'book-qa.json').publication_authorized,true);
 assert(fs.readFileSync('app/crypto/068/page.js','utf8').includes('/cards/'+slug));for(const item of context[slug].related)assert(media[item.slug],item.slug);
-assert.equal(read('media/index.json').assets.length,723);assert.equal(Object.values(close).reduce((n,v)=>n+v.length,0),291);assert.equal(Object.values(media).reduce((n,v)=>n+v.pages.length,0),138);assert.equal(Object.values(context).reduce((n,v)=>n+v.related.length,0),177);
+assert.equal(read('media/index.json').assets.length,731);assert.equal(Object.values(close).reduce((n,v)=>n+v.length,0),295);assert.equal(Object.values(media).reduce((n,v)=>n+v.pages.length,0),140);assert.equal(Object.values(context).reduce((n,v)=>n+v.related.length,0),180);
 const prior=read('media/pre068-preservation.json');
 for(const [k,v] of Object.entries(prior.media))assert.deepEqual(media[k],v);
 for(const [k,v] of Object.entries(prior.closeups))assert.deepEqual(close[k],v);
@@ -29,11 +29,11 @@ for(const [path,expected] of Object.entries(prior.unchangedFileSHA256))assert.eq
 for(const [k,v] of Object.entries(prior.search))assert.deepEqual(read('app/cards/search-metadata.json')[k],v);
 const links=read('app/cards/print-files.json');for(const [k,v] of Object.entries(prior.printLinks.cards))assert.deepEqual(links.cards[k],v);assert.deepEqual(links.sharedBack,prior.printLinks.sharedBack);
 for(const [path,key,old] of [['../cards/crypto/print-ready/histrove-v1/manifest.json','fronts',prior.printFronts],['../book/crypto-season-01/histrove-v1/manifest.json','books',prior.books],['web-card-derivatives.json','cards',prior.webCards]])assert.deepEqual(read(path)[key].slice(0,old.length),old);
-const dataJS=fs.readFileSync('app/cards/data.js','utf8').replace("import chapter070 from './content/070.json';\n",'').split('\n').filter(line=>!line.includes("number: '070/100'")).join('\n').replace("import chapter069 from './content/069.json';\n",'').split('\n').filter(line=>!line.includes("number: '069/100'")).join('\n').replace("import chapter068 from './content/068.json';\n",'').split('\n').filter(line=>!line.includes("number: '068/100'")).join('\n');assert.equal(dataJS,prior.dataJS);
+const dataJS=fs.readFileSync('app/cards/data.js','utf8').replace("import chapter071 from './content/071.json';\n",'').split('\n').filter(line=>!line.includes("number: '071/100'")).join('\n').replace("import chapter070 from './content/070.json';\n",'').split('\n').filter(line=>!line.includes("number: '070/100'")).join('\n').replace("import chapter069 from './content/069.json';\n",'').split('\n').filter(line=>!line.includes("number: '069/100'")).join('\n').replace("import chapter068 from './content/068.json';\n",'').split('\n').filter(line=>!line.includes("number: '068/100'")).join('\n');assert.equal(dataJS,prior.dataJS);
 for(const src of ['app/cards/media.json','app/cards/print-files.json']){assert(!fs.readFileSync(src,'utf8').includes('0'.repeat(40)));assert(!fs.readFileSync(src,'utf8').includes('ASSET_COMMIT_SHA_PENDING'));}
 const q=read(master+'card-final-qa.json');assert.equal(q.approved_trim_pixel_match,true);assert.equal(q.source_art_unmodified,true);assert.deepEqual(q.qr,[m.qr]);assert.equal(hash(master+'HISTROVE-Crypto-068-Card-Review-v3.png'),'753921d49c90c01c1374c83b7c696206dd1115ffa3ec283f1f377f896a6b1118');
 assert.equal(media[slug].assetOrigin,media[slug].bookAssetOrigin);assert.match(media[slug].assetOrigin,/\/[0-9a-f]{40}\/$/);
 assert.equal(fs.readFileSync('app/cards/experience.js','utf8'),prior.experienceJS);
 for(const name of ['DejaVuSans.ttf','DejaVuSans-Bold.ttf','LICENSE.txt'])assert.equal(hash(master+'source/fonts/'+name),hash('../cards/crypto/season-01/bored-ape-yacht-club-master-066/source/fonts/'+name));
 assert.equal(read(master+'book-qa.json').native_effective_ppi,128.2095238095238);
-console.log('PASS:068 exact approved art/copy,69cards,291clues,138pages,723assets,177links, prior preservation');
+console.log('PASS:068 exact approved art/copy,70cards,295clues,140pages,731assets,180links, prior preservation');

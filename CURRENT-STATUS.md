@@ -1,3 +1,7 @@
+## 2026-10-18 — 071 release preparation
+
+071 LEGAL TENDER / EL SALVADOR / 07 SEP 2021 uses the exact approved v4 rectangular cash-box artwork, confirmed LEGENDARY rarity and A NEW WAY TO PAY. caption. Canonical print PNG/PDF/SVG and sourced two-page book prepared; visual frame/book review and QR decoding passed. Full local test/build/search/buyer/pack suites passed. Production verification pending. Other cards preserved; 058 remains parked. Final collection-wide review deferred until 100 cards by user instruction.
+
 # 069 and 070 published and digitally verified — 18 October 2026
 
 Release commit 950780de4b2b70317e14e7f3fdffd00ac0a102a2 is verified on main. Production deployment dpl_4Hme6nDdUR3paPxqNbn2pnhdpUGy is READY and its GitHub Vercel status is success. Live pages: https://lore-site-v1.vercel.app/cards/eip-1559 and https://lore-site-v1.vercel.app/cards/the-poly-network-exploit .

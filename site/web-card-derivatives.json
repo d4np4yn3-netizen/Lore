@@ -2211,6 +2211,53 @@
       ],
       "qr_pass": true,
       "print_source_unchanged": true
+    },
+    {
+      "number": "071",
+      "title": "LEGAL TENDER",
+      "rarity": "legendary",
+      "path": "site/public/archive/071-histrove-border-card.webp",
+      "public_path": "/archive/071-histrove-border-card.webp",
+      "sha256": "f6bbdbe847a35c93105be00b394d66d2ab3a7c198c17593c4dedb4db3104d139",
+      "bytes": 656552,
+      "dimensions_px": [
+        600,
+        863
+      ],
+      "source": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-071-Front-Print-v1.png",
+      "source_sha256": "09dabd03f27afaf06a27e337107d70fcd7877c12d41e5ff0a1cfcd6e511c3a71",
+      "source_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-071-Front-Print-v1.svg",
+      "source_svg_sha256": "8aacbd07896381a64254851df8c0f209c48813e6347d9e9c1e66fb1fb22a4386",
+      "source_dimensions_px": [
+        816,
+        1110
+      ],
+      "outer_border_bounds_ltrb": [
+        72.37923250565251,
+        72.37923250565251,
+        743.6207674946475,
+        1037.6207674947707
+      ],
+      "outer_radius_px": 20.857787810392498,
+      "conservative_crop_ltrb": [
+        72,
+        72,
+        744,
+        1038
+      ],
+      "crop_dimensions_px": [
+        672,
+        966
+      ],
+      "mask": "Exact outer stroked rounded rectangle, 8x supersampling, transparent exterior",
+      "resampling": "LANCZOS",
+      "lossless": true,
+      "complete_border_geometry_retained": true,
+      "qr_payloads": [
+        "https://lore-site-v1.vercel.app/crypto/071/"
+      ],
+      "qr_pass": true,
+      "print_source_unchanged": true
     }
   ]
 }
