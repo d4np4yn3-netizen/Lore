@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-18",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 69,
+  "approved_visual_count": 71,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -8733,6 +8733,194 @@
       "book_native_effective_ppi": 128.2095238095238,
       "qr_target": "https://lore-site-v1.vercel.app/cards/the-shib-burn",
       "rights_review": "Review required. Space-station setting, black hole, coins and stylized figure are symbolic interpretation, not documentary evidence of a physical event. No endorsement is implied; artwork approval does not establish copyright or commercial reproduction clearance."
+    },
+    {
+      "rarity": "rare",
+      "creator": "ETHEREUM",
+      "title_line_1": "EIP-1559",
+      "title_line_2": "LONDON",
+      "context": "THE BASE FEE BURNS.",
+      "moment_label": "05 AUG 2021",
+      "set_label": "CRYPTO • 069/100",
+      "artwork": "cards/crypto/season-01/eip-1559-master-069/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/069/",
+      "confirmed_lore_owned_route": true,
+      "status": "FRONT_APPROVED_SITE_AND_BOOK_AUTHORISED",
+      "rarity_status": "RARE_APPROVED",
+      "phrase_status": "APPROVED_EDITORIAL_NOT_HISTORICAL_QUOTATION",
+      "art_sha256": "1efc6bd85a8a4c5e2aec5ab6d33de264c8104ad0842a066f4416411a6903f646",
+      "artwork_sha256": "1efc6bd85a8a4c5e2aec5ab6d33de264c8104ad0842a066f4416411a6903f646",
+      "print_release": false,
+      "qr_status": "ROUTE_PENDING_PUBLICATION",
+      "qr_verification": "PNG, PDF and web derivative decode to the project-owned planned /crypto/069/ route; live verification remains pending",
+      "qr_ownership_confirmation_scope": "Domain ownership and intended future path only; no live-route claim",
+      "artwork_revision": "User-approved raw v10 and exact proof v7",
+      "publication_approved": true,
+      "book_approved": true,
+      "approved_at": "2026-10-17",
+      "art_preserve_aspect_ratio": "xMidYMid slice",
+      "id": "crypto-s01-eip-1559",
+      "moment_number": 69,
+      "collection": "crypto",
+      "season": 1,
+      "set_size": 100,
+      "event_date": "2021-08-05",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/eip-1559-master-069/art.png",
+        "bytes": 2790961,
+        "sha256": "1efc6bd85a8a4c5e2aec5ab6d33de264c8104ad0842a066f4416411a6903f646"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-069-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-069-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-069-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/069-eip-1559-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/069-eip-1559.md",
+      "artwork_status": "VISUALLY_APPROVED",
+      "approval_record": "cards/crypto/season-01/eip-1559-master-069/approval.json",
+      "qr_mode": "live",
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-069-Front-Print-v1.png",
+          "bytes": 976536,
+          "sha256": "55406f949952998a053a4df0542d3509594eca5ae5094393cad486b402c6028f"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-069-Front-Print-v1.pdf",
+          "bytes": 4230341,
+          "sha256": "b39b55966573b7ca15073a09e957161a40dfd498c4fcaee86b55b7d1d46464e7"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-069-Front-Print-v1.svg",
+          "bytes": 4288484,
+          "sha256": "177deb65a484b2d4c8fa11ed746b57cca766b759c3c28885d6d47f40cd243c29"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-069-Front-Print-v1.png",
+          "bytes": 976536,
+          "sha256": "55406f949952998a053a4df0542d3509594eca5ae5094393cad486b402c6028f"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-069-Front-Print-v1.pdf",
+          "bytes": 4230341,
+          "sha256": "b39b55966573b7ca15073a09e957161a40dfd498c4fcaee86b55b7d1d46464e7"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-069-Front-Print-v1.svg",
+          "bytes": 4288484,
+          "sha256": "177deb65a484b2d4c8fa11ed746b57cca766b759c3c28885d6d47f40cd243c29"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/069.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+      "book_native_effective_ppi": 128.2095238095238,
+      "qr_target": "https://lore-site-v1.vercel.app/cards/eip-1559",
+      "rights_review": "Fantasy dragon, traveller and bowls are interpretive. Ethereum branding and London landmark require appropriate commercial rights review."
+    },
+    {
+      "rarity": "uncommon",
+      "creator": "POLY NETWORK",
+      "title_line_1": "THE $610M",
+      "title_line_2": "RETURN",
+      "context": "THE STOLEN FORTUNE RETURNS.",
+      "moment_label": "10 AUG 2021",
+      "set_label": "CRYPTO • 070/100",
+      "artwork": "cards/crypto/season-01/the-poly-network-exploit-master-070/art.png",
+      "qr_url": "https://lore-site-v1.vercel.app/crypto/070/",
+      "confirmed_lore_owned_route": true,
+      "status": "FRONT_APPROVED_SITE_AND_BOOK_AUTHORISED",
+      "rarity_status": "UNCOMMON_APPROVED",
+      "phrase_status": "APPROVED_EDITORIAL_NOT_HISTORICAL_QUOTATION",
+      "art_sha256": "7f268a75fba03dc02198e0d571537a88dbe7f49d4e1aab238da9a85bcb5e21b6",
+      "artwork_sha256": "7f268a75fba03dc02198e0d571537a88dbe7f49d4e1aab238da9a85bcb5e21b6",
+      "print_release": false,
+      "qr_status": "ROUTE_PENDING_PUBLICATION",
+      "qr_verification": "PNG, PDF and web derivative decode to the project-owned planned /crypto/070/ route; live verification remains pending",
+      "qr_ownership_confirmation_scope": "Domain ownership and intended future path only; no live-route claim",
+      "artwork_revision": "User-approved raw v5 and exact proof v3",
+      "publication_approved": true,
+      "book_approved": true,
+      "approved_at": "2026-10-18",
+      "art_preserve_aspect_ratio": "xMidYMid slice",
+      "id": "crypto-s01-the-poly-network-exploit",
+      "moment_number": 70,
+      "collection": "crypto",
+      "season": 1,
+      "set_size": 100,
+      "event_date": "2021-08-10",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-poly-network-exploit-master-070/art.png",
+        "bytes": 2322976,
+        "sha256": "7f268a75fba03dc02198e0d571537a88dbe7f49d4e1aab238da9a85bcb5e21b6"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-070-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-070-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-070-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/070-the-poly-network-exploit-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/070-the-poly-network-exploit.md",
+      "artwork_status": "VISUALLY_APPROVED",
+      "approval_record": "cards/crypto/season-01/the-poly-network-exploit-master-070/approval.json",
+      "qr_mode": "live",
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-070-Front-Print-v1.png",
+          "bytes": 868688,
+          "sha256": "737dd92220de55750e8ee77b1910e2a855e87ff71891b50e6b12acc3aacd13a8"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-070-Front-Print-v1.pdf",
+          "bytes": 3758405,
+          "sha256": "9354839596a8dc92fb355eaa0ab56d859205971e89711c84a86fd09a8658e049"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-070-Front-Print-v1.svg",
+          "bytes": 3665084,
+          "sha256": "3eb9f7af036b167b46dd5ca46d6d2f1891ac4a42122497a7e691e9ec5d7c115b"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-070-Front-Print-v1.png",
+          "bytes": 868688,
+          "sha256": "737dd92220de55750e8ee77b1910e2a855e87ff71891b50e6b12acc3aacd13a8"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-070-Front-Print-v1.pdf",
+          "bytes": 3758405,
+          "sha256": "9354839596a8dc92fb355eaa0ab56d859205971e89711c84a86fd09a8658e049"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-070-Front-Print-v1.svg",
+          "bytes": 3665084,
+          "sha256": "3eb9f7af036b167b46dd5ca46d6d2f1891ac4a42122497a7e691e9ec5d7c115b"
+        },
+        "qa": "cards/crypto/print-ready/histrove-v1/qa/070.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+      "book_native_effective_ppi": 128.2095238095238,
+      "qr_target": "https://lore-site-v1.vercel.app/cards/the-poly-network-exploit",
+      "rights_review": "Fictional pirate, recipient, treasure and cabin are symbolic. Network emblems require appropriate commercial rights review. No real attacker identity or heroism is asserted."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -8745,14 +8933,16 @@
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
   "updated_at": "2026-10-16",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
-  "approved_print_derivative_count": 67,
-  "numbered_published_count": 67,
-  "numbering_gap_note": "Published numbered cards 001–057 and 059–068. Card 058 remains deferred; two unnumbered designs remain archived.",
+  "approved_print_derivative_count": 69,
+  "numbered_published_count": 69,
+  "numbering_gap_note": "Published numbered cards 001–057 and 059–070. Card 058 remains deferred; two unnumbered designs remain archived.",
   "pending_live_verification_numbers": [
-    68
+    68,
+    69,
+    70
   ],
-  "prepared_numbered_count": 67,
-  "current_numbered_print_count": 67,
+  "prepared_numbered_count": 69,
+  "current_numbered_print_count": 69,
   "print_ready_directory": "cards/crypto/print-ready/histrove-v1",
   "print_master_directory": "cards/crypto/master/histrove-print-v1",
   "shared_print_back": {
@@ -8782,5 +8972,5 @@
     "physical_print_release": false,
     "matches_approved_back_pixels": true
   },
-  "print_revision_note": "Current HISTROVE fronts 001–057 and 059–068 with unchanged shared back. Physical acceptance separate."
+  "print_revision_note": "Current HISTROVE fronts 001–057 and 059–070 with unchanged shared back. Physical acceptance separate."
 }

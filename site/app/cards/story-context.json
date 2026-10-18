@@ -1084,5 +1084,41 @@
         "reason": "The Ethereum network context around SHIB, an ERC-20 token."
       }
     ]
+  },
+  "eip-1559": {
+    "lead": "On 5 August 2021, Ethereum activated its London upgrade at block 12,965,000. Among its changes was EIP-1559, a new way to price transactions. A network-set base fee became part of the cost of using Ethereum, and that portion of each transaction fee was burned.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "The network launch before its fee-market redesign."
+      },
+      {
+        "slug": "beacon-chain",
+        "reason": "The separate proof-of-stake roadmap alongside London."
+      },
+      {
+        "slug": "the-shib-burn",
+        "reason": "A different kind of burn: voluntarily sent tokens rather than protocol transaction fees."
+      }
+    ]
+  },
+  "the-poly-network-exploit": {
+    "lead": "On 10 August 2021, an attacker exploited Poly Network, a protocol for moving assets between blockchains. More than $610 million in crypto assets was taken across Ethereum, Binance Smart Chain and Polygon. The date on this card marks the attack; the return of the stolen assets unfolded over the following weeks.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "the-dao-hack",
+        "reason": "An earlier smart-contract exploit and a different response."
+      },
+      {
+        "slug": "eip-1559",
+        "reason": "Ethereum’s fee-market upgrade five days before this cross-chain exploit."
+      },
+      {
+        "slug": "mt-gox",
+        "reason": "A different security and recovery story, involving an exchange."
+      }
+    ]
   }
 }

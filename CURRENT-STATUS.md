@@ -1,3 +1,13 @@
+# Current release — 069 EIP-1559 London and 070 The $610M Return
+
+Approved exact 069 raw v10 / proof v7 on 17 October 2026 and exact 070 corrected-left-thumb raw v5 / proof v3 on 18 October 2026. Artwork and approved card pixels are preserved. Both have canonical print fronts, outlined-text PDFs, two-page A4 companion books, four actual-art clues and stable printed QR routes.
+
+The prepared collection contains 69 numbered entries (001–057 and 059–070; 058 remains deferred), 291 art clues, 138 book previews, 723 packed display assets and 177 related-story links. Original downloads are pinned to verified asset commits 31512603f6ebd7282848fb2c6a11c0409cef5e36 (069) and 03a3bb1256358ff1a9cd18d4f2328af655aa9eb6 (070). All twelve original artwork/book/chapter/print downloads returned HTTP 200 with exact SHA-256 hashes. Local full-collection tests, production build, search, buyer navigation and pack checks pass; production integration verification follows separately.
+
+069 distinguishes the burned base fee from the separate miner tip in August 2021 and the later Merge. 070 separates the 10 August exploit, returns beginning 11 August, Tether release on 25 August and full recovery announced 26 August. The pirate and handover are fictional symbols, not an identified attacker or a claim of heroism. Existing 001–068 records and unrelated work are preserved; 071 is untouched. Native book art is 128.21 effective PPI. Physical print acceptance, final reproduction review and commercial rights clearance remain separate.
+
+## Historical status
+
 # Current release — 068 The SHIB Burn
 
 Approved 16 October 2026: exact straight-window art v7 and card proof v3. COMMON / SHIBA INU / THE SHIB BURN / NO WAY BACK. / 16 MAY 2021.
