@@ -1,3 +1,11 @@
+# 069 and 070 published and digitally verified — 18 October 2026
+
+Release commit 950780de4b2b70317e14e7f3fdffd00ac0a102a2 is verified on main. Production deployment dpl_4Hme6nDdUR3paPxqNbn2pnhdpUGy is READY and its GitHub Vercel status is success. Live pages: https://lore-site-v1.vercel.app/cards/eip-1559 and https://lore-site-v1.vercel.app/cards/the-poly-network-exploit .
+
+All 69 public card pages, four new slash/no-slash QR redirects, 16 new display-asset SHA-256 hashes, twelve immutable source/print/book/chapter downloads, the sitemap, book previews and 068→069→070 navigation pass. Full local collection tests, production build, search, buyer navigation and pack checks pass. The tested local Git tree is byte-identical to the release tree 66a0af6d955dd2e43848d3825f3924a1b2085444. Per-card publication-verification.json records the evidence and limits. Physical printer acceptance, native A4 reproduction review, device-camera scanning, interactive browser gestures and commercial rights clearance are not claimed by these automated checks. 071 remains untouched.
+
+## Release preparation record
+
 # Current release — 069 EIP-1559 London and 070 The $610M Return
 
 Approved exact 069 raw v10 / proof v7 on 17 October 2026 and exact 070 corrected-left-thumb raw v5 / proof v3 on 18 October 2026. Artwork and approved card pixels are preserved. Both have canonical print fronts, outlined-text PDFs, two-page A4 companion books, four actual-art clues and stable printed QR routes.
