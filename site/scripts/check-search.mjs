@@ -11,7 +11,7 @@ const tags = (html, tag) => [...html.matchAll(new RegExp(`<${tag}\\b[^>]*>`, 'g'
 const meta = (html, name) => tags(html, 'meta').find(tag => tag.name === name || tag.property === name)?.content;
 const canonical = html => tags(html, 'link').find(tag => tag.rel === 'canonical')?.href;
 const schema = html => [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m => JSON.parse(m[1]));
-assert.equal(Object.keys(search).length,72);
+assert.equal(Object.keys(search).length,75);
 assert.deepEqual(Object.keys(search).sort(), Object.keys(media).sort());
 const titles = new Set(), descriptions = new Set(), images = new Set();
 let clues = 0, books = 0;
@@ -61,8 +61,8 @@ for (const [slug, data] of Object.entries(search)) {
   for (const img of tags(cluePanel, 'img')) assert.equal(img.loading, 'lazy');
   books += 2;
 }
-assert.equal(titles.size,72); assert.equal(descriptions.size,72); assert.equal(images.size,72);
-assert.equal(clues,303); assert.equal(books,144);
+assert.equal(titles.size,75); assert.equal(descriptions.size,75); assert.equal(images.size,75);
+assert.equal(clues,315); assert.equal(books,150);
 const home = read('.next/server/app/index.html');
 assert.equal(new URL(canonical(home)).href, origin + '/');
 assert(home.includes('Email registration opens soon'));
@@ -85,7 +85,7 @@ assert(!shop.includes('<form') && !shop.includes('Add to cart') && !shop.include
 assert(home.includes('Discover the collection') && home.includes('Explore the timeline'));
 const sitemap = read('.next/server/app/sitemap.xml.body');
 const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => decode(m[1]));
-assert.equal(urls.length, 75); assert.equal(new Set(urls).size, 75); assert(urls.includes(origin + '/shop'));
+assert.equal(urls.length, 78); assert.equal(new Set(urls).size, 78); assert(urls.includes(origin + '/shop'));
 assert(urls.includes(origin + '/'));for (const slug of Object.keys(search)) assert(urls.includes(origin + '/cards/' + slug));
 assert(!sitemap.includes('<lastmod>') && !sitemap.includes('/crypto/'));
 const robots = read('.next/server/app/robots.txt.body');
@@ -93,5 +93,5 @@ assert(robots.includes('Allow: /') && robots.includes(`Sitemap: ${origin}/sitema
 const helper = read('app/seo.js').match(/export function jsonLd\(value\) \{(.*?)\}/s)[1];
 const safeJson = new Function('value', helper)({ text: '</script><script>alert(1)</script>' });
 assert(!safeJson.includes('<')); assert.equal(JSON.parse(safeJson).text, '</script><script>alert(1)</script>');
-console.log(`PASS: 75 canonical pages, 72 unique descriptive titles/descriptions/social images, 303 SSR clues, 144 lazy book previews, sitemap/robots, truthful closed signup and safe JSON-LD`);
+console.log(`PASS: 78 canonical pages, 75 unique descriptive titles/descriptions/social images, 315 SSR clues, 150 lazy book previews, sitemap/robots, truthful closed signup and safe JSON-LD`);
 const timeline = read('.next/server/app/timeline.html'); assert.equal(canonical(timeline),origin+'/timeline'); assert(urls.includes(origin+'/timeline'));
