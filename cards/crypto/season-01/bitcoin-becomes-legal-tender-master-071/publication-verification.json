@@ -1,0 +1,165 @@
+{
+  "card": "071",
+  "verified_at_utc": "2026-10-18T10:56:43Z",
+  "release_commit": "a66cf4c44ef9316baed4a99f27f5be6f844b0869",
+  "release_tree": "233b90e8c2a4a4baf56387bf7a36f90c931b9074",
+  "tested_local_tree_exact_remote": true,
+  "deployment_id": "dpl_BYbxZVRTmbWjqY21gThY119YfmF9",
+  "deployment_state": "READY",
+  "canonical_url": "https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender",
+  "local_suites_passed": [
+    "npm test",
+    "npm run build",
+    "npm run test:search",
+    "npm run test:buyer",
+    "npm run test:pack"
+  ],
+  "public_check_count": 80,
+  "public_card_pages_passed": 70,
+  "sitemap": "All 70 card routes present",
+  "navigation": "069\u2192070\u2192071 and 071\u2192070 verified",
+  "card_checks": [
+    {
+      "kind": "page",
+      "url": "https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender",
+      "final_url": "https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender",
+      "status": 200,
+      "sha256": "96f75c2f0ee7ed650d4ce5f248af6415926c5825a36094ce96b2648c9dcddf64",
+      "bytes": 66356
+    },
+    {
+      "kind": "route",
+      "url": "https://lore-site-v1.vercel.app/crypto/071",
+      "final_url": "https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender",
+      "status": 200,
+      "sha256": "96f75c2f0ee7ed650d4ce5f248af6415926c5825a36094ce96b2648c9dcddf64",
+      "bytes": 66356
+    },
+    {
+      "kind": "route",
+      "url": "https://lore-site-v1.vercel.app/crypto/071/",
+      "final_url": "https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender",
+      "status": 200,
+      "sha256": "96f75c2f0ee7ed650d4ce5f248af6415926c5825a36094ce96b2648c9dcddf64",
+      "bytes": 66356
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/071-histrove-border-card.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/071-histrove-border-card.webp",
+      "status": 200,
+      "sha256": "f6bbdbe847a35c93105be00b394d66d2ab3a7c198c17593c4dedb4db3104d139",
+      "bytes": 656552
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/071-art.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/071-art.webp",
+      "status": 200,
+      "sha256": "ea49a402b71e25296764af493eceb8fecb25ab5e4e7c8212e0c2e142b5e252cd",
+      "bytes": 2040262
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/071-histrove-page-1.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/071-histrove-page-1.webp",
+      "status": 200,
+      "sha256": "a368cdd89f4720def680602eeae17d8eb2a9f2c80625e986cc77cce362d84de6",
+      "bytes": 1202466
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/archive/071-histrove-page-2.webp",
+      "final_url": "https://lore-site-v1.vercel.app/archive/071-histrove-page-2.webp",
+      "status": 200,
+      "sha256": "e8a0a518f6bff3c40cb49e91795e05dca6388104aafc670d2ec6d02c9314fcb7",
+      "bytes": 244844
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/071-01.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/071-01.webp",
+      "status": 200,
+      "sha256": "927b4252abf84dddcdf8f2049a63a82f4a77cb3a63fbaeb3303d95c8abc3ae07",
+      "bytes": 128436
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/071-02.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/071-02.webp",
+      "status": 200,
+      "sha256": "a67a2039570ca537bb68b6a8e083798591fbfd55550444bb410db843082eb5fa",
+      "bytes": 29998
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/071-03.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/071-03.webp",
+      "status": 200,
+      "sha256": "c1a21cd0fd86b2a4a6025c973fc30fb9593fa5e67f5277e41e4531fc7fa22455",
+      "bytes": 63482
+    },
+    {
+      "kind": "hash",
+      "url": "https://lore-site-v1.vercel.app/closeups/071-04.webp",
+      "final_url": "https://lore-site-v1.vercel.app/closeups/071-04.webp",
+      "status": 200,
+      "sha256": "2d0823142abe5455255d463c4b3bec286b9321da7cc7f4eddc64ee85b5028c23",
+      "bytes": 121906
+    }
+  ],
+  "immutable_downloads": [
+    {
+      "card": "071",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/28f197b7f402a271b5c2a8dffb7f9790197d06b8/cards/crypto/season-01/bitcoin-becomes-legal-tender-master-071/art.png",
+      "status": 200,
+      "sha256": "3589c8434901d0ea86cd25e4ca7c42c233e16d7fef9496f314eb77f1a7870f21",
+      "bytes": 2484161
+    },
+    {
+      "card": "071",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/28f197b7f402a271b5c2a8dffb7f9790197d06b8/book/crypto-season-01/histrove-v1/071-bitcoin-becomes-legal-tender-histrove-v1.pdf",
+      "status": 200,
+      "sha256": "29da218322fd3df5f116da1a5133c6170054f095c129f06785f6c51fe194505b",
+      "bytes": 4882051
+    },
+    {
+      "card": "071",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/28f197b7f402a271b5c2a8dffb7f9790197d06b8/book/crypto-season-01/histrove-v1/chapters/071-bitcoin-becomes-legal-tender.md",
+      "status": 200,
+      "sha256": "bfa3b205dc31b8279c1935da67482dfab8d6805da514a35474fa6390d8608d39",
+      "bytes": 3180
+    },
+    {
+      "card": "071",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/28f197b7f402a271b5c2a8dffb7f9790197d06b8/cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-071-Front-Print-v1.png",
+      "status": 200,
+      "sha256": "09dabd03f27afaf06a27e337107d70fcd7877c12d41e5ff0a1cfcd6e511c3a71",
+      "bytes": 912751
+    },
+    {
+      "card": "071",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/28f197b7f402a271b5c2a8dffb7f9790197d06b8/cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-071-Front-Print-v1.pdf",
+      "status": 200,
+      "sha256": "d8a8d520538f9b5a438019ec29175e122489f6b196707633d847a4ea1c21b550",
+      "bytes": 4193828
+    },
+    {
+      "card": "071",
+      "url": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/28f197b7f402a271b5c2a8dffb7f9790197d06b8/cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-071-Front-Print-v1.svg",
+      "status": 200,
+      "sha256": "8aacbd07896381a64254851df8c0f209c48813e6347d9e9c1e66fb1fb22a4386",
+      "bytes": 3879920
+    }
+  ],
+  "approved_raw_preserved": true,
+  "qr_png_pdf_decode_verified": true,
+  "book_spread_visually_reviewed": true,
+  "unverified": [
+    "Physical print acceptance",
+    "Final native-resolution reproduction review",
+    "Device-camera QR scanning",
+    "Interactive browser gestures",
+    "Commercial rights clearance"
+  ]
+}

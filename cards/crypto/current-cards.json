@@ -8939,9 +8939,9 @@
       "art_sha256": "3589c8434901d0ea86cd25e4ca7c42c233e16d7fef9496f314eb77f1a7870f21",
       "artwork_sha256": "3589c8434901d0ea86cd25e4ca7c42c233e16d7fef9496f314eb77f1a7870f21",
       "print_release": false,
-      "qr_status": "ROUTE_PENDING_PUBLICATION",
-      "qr_verification": "PNG, PDF and web derivative decode to the project-owned planned /crypto/071/ route; live verification remains pending",
-      "qr_ownership_confirmation_scope": "Domain ownership and intended future path only; no live-route claim",
+      "qr_status": "LIVE_VERIFIED",
+      "qr_verification": "PNG, PDF and web derivative decode correctly; slash/no-slash /crypto/071 routes redirect to the live canonical card page, HTTP 200",
+      "qr_ownership_confirmation_scope": "Project-owned route live and verified on 2026-10-18",
       "artwork_revision": "User-approved raw v4 rectangular cash box; canonical frame rendered from separately confirmed rarity and caption",
       "publication_approved": true,
       "book_approved": true,
@@ -9033,8 +9033,7 @@
   "pending_live_verification_numbers": [
     68,
     69,
-    70,
-    71
+    70
   ],
   "prepared_numbered_count": 70,
   "current_numbered_print_count": 70,

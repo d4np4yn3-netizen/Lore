@@ -1,3 +1,11 @@
+# 071 published and digitally verified — 18 October 2026
+
+071 LEGAL TENDER is published at https://lore-site-v1.vercel.app/cards/bitcoin-becomes-legal-tender . Release a66cf4c44ef9316baed4a99f27f5be6f844b0869, tree 233b90e8c2a4a4baf56387bf7a36f90c931b9074, production deployment dpl_BYbxZVRTmbWjqY21gThY119YfmF9: READY. Verified at 2026-10-18T10:56:43Z. The release tree exactly matches the locally tested tree.
+
+Exact approved v4 rectangular cash-box artwork, confirmed LEGENDARY rarity and A NEW WAY TO PAY. caption are preserved. All five local suites pass: full collection tests, production build, search, buyer journey and pack model. Live checks cover 70 card pages, both 071 QR redirects, eight new display hashes, six immutable source/print/book/chapter hashes, sitemap, book previews and 070↔071 navigation. Canonical PNG/PDF QR decoding and both book pages were inspected. 058 remains parked; earlier cards are preserved. Final collection review is deferred until 100 cards as the user requested.
+
+Physical print acceptance, native-resolution reproduction review, device-camera QR scanning, interactive browser gestures and commercial rights clearance are not claimed.
+
 ## 2026-10-18 — 071 release preparation
 
 071 LEGAL TENDER / EL SALVADOR / 07 SEP 2021 uses the exact approved v4 rectangular cash-box artwork, confirmed LEGENDARY rarity and A NEW WAY TO PAY. caption. Canonical print PNG/PDF/SVG and sourced two-page book prepared; visual frame/book review and QR decoding passed. Full local test/build/search/buyer/pack suites passed. Production verification pending. Other cards preserved; 058 remains parked. Final collection-wide review deferred until 100 cards by user instruction.
