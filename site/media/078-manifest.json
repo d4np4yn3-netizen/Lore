@@ -1,0 +1,110 @@
+{
+  "art": {
+    "path": "cards/crypto/season-01/the-ronin-hack-master-078/art.png",
+    "bytes": 2334450,
+    "sha256": "0f7c1d557844135330b4e6821e77033fc5b7be4cd04f98bfb5558aa239800545"
+  },
+  "book": {
+    "path": "book/crypto-season-01/histrove-v1/078-the-ronin-hack-histrove-v1.pdf",
+    "bytes": 4256983,
+    "sha256": "c8018572b544dbf2a5c14be34581575961b2cc40667516916c64d60f64030894"
+  },
+  "chapter": {
+    "path": "book/crypto-season-01/histrove-v1/chapters/078-the-ronin-hack.md",
+    "bytes": 2744,
+    "sha256": "e4aa1ee576c0d01c6bae0ff257fdf71e9ede988d6c9b426ab494bd05ccc9c8e9"
+  },
+  "print": {
+    "png": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-078-Front-Print-v1.png",
+      "bytes": 871833,
+      "sha256": "280dd5ec540ac02c7260161c10110e6c9f198b837b48c4e737e1138c31bb047b"
+    },
+    "pdf": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-078-Front-Print-v1.pdf",
+      "bytes": 3694952,
+      "sha256": "5b645c5475de656aca2a6d9cd62a2549cfdfa00bf8753d1a70a1f3a489992324"
+    },
+    "svg": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-078-Front-Print-v1.svg",
+      "bytes": 3679834,
+      "sha256": "a140f6db39ecebb67c56a27ba52af3b415b46082b1d140d8bcb663db0397b15a"
+    }
+  },
+  "assets": [
+    {
+      "path": "archive/078-histrove-border-card.webp",
+      "pack": "display-078.bin",
+      "offset": 0,
+      "length": 625338,
+      "sha256": "315c37d7bdb482cf12fa3d6b82a3f442f2269d83dc31ccaf4b66a9e1638490b1"
+    },
+    {
+      "path": "archive/078-art.webp",
+      "pack": "display-078.bin",
+      "offset": 625338,
+      "length": 1930166,
+      "sha256": "7eb08dc07e4014f46f55166190c164653036ffd338fd791c1d438b67c73c5557"
+    },
+    {
+      "path": "archive/078-histrove-page-1.webp",
+      "pack": "display-078.bin",
+      "offset": 2555504,
+      "length": 1120560,
+      "sha256": "cf46f24633d6668926cd4f04cf7cc09312d98feb8b4398a25e6301772338ea70"
+    },
+    {
+      "path": "archive/078-histrove-page-2.webp",
+      "pack": "display-078.bin",
+      "offset": 3676064,
+      "length": 208742,
+      "sha256": "6a0c9803f3188c24378db296f2c64a803465e07f472a4d3ce214d2105eb6341e"
+    },
+    {
+      "path": "closeups/078-01.webp",
+      "pack": "display-078.bin",
+      "offset": 3884806,
+      "length": 564904,
+      "sha256": "17cda86b2d0e81b820b8eedd327fb3781a6f100d1a8641d6e4f77065170d910d"
+    },
+    {
+      "path": "closeups/078-02.webp",
+      "pack": "display-078.bin",
+      "offset": 4449710,
+      "length": 65302,
+      "sha256": "ac8d7b1e78b75f5993a2a71b3f71f4f87fb07a6b5d4e75b2e09fe125a6bcd7f4"
+    },
+    {
+      "path": "closeups/078-03.webp",
+      "pack": "display-078.bin",
+      "offset": 4515012,
+      "length": 67550,
+      "sha256": "ccbd0d78959f3e989a52d744e162ad06d716c1bf6b7591c10ced858e9250f124"
+    },
+    {
+      "path": "closeups/078-04.webp",
+      "pack": "display-078.bin",
+      "offset": 4582562,
+      "length": 10700,
+      "sha256": "d0814420dd8efdf657f7421efefdcc8d54cd6afff98dbe501c6f077da784c6d6"
+    }
+  ],
+  "qr": "https://lore-site-v1.vercel.app/crypto/078/",
+  "artwork_transform": "Exact approved puppet-master artwork and card proof; fixed approved template.",
+  "web_border": {
+    "bounds": [
+      72.37923250565251,
+      72.37923250565251,
+      743.6207674946475,
+      1037.6207674947707
+    ],
+    "radius": 20.857787810392498,
+    "crop": [
+      72,
+      72,
+      744,
+      1038
+    ],
+    "mask": "8x supersampled exact outer stroked rounded rectangle"
+  }
+}

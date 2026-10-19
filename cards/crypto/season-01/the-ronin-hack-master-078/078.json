@@ -1,0 +1,42 @@
+{
+  "story": [
+    "Ronin supported the Axie Infinity game and connected its network with Ethereum through a bridge. On 23 March 2022, attackers used two fraudulent withdrawals to steal 173,600 ETH and 25.5 million USDC from that bridge.",
+    "Withdrawals required approval from five of nine validators. The attackers compromised four Sky Mavis validators, then used access to the Axie DAO validator to obtain the fifth approval. Enough signing authority had fallen under their control to make the withdrawals pass.",
+    "The extra access came from a temporary arrangement introduced in November 2021 to handle heavy demand. Its use ended in December, but the permission was not revoked. A short-term operational exception remained available to the attackers months later.",
+    "The theft went undiscovered for six days. A failed attempt to withdraw 5,000 ETH triggered an investigation, and Ronin disclosed the breach on 29 March. The date on this card marks that public disclosure, rather than the earlier attack.",
+    "On 14 April 2022, the FBI attributed the theft to Lazarus Group and APT38, actors associated with North Korea. The faceless puppeteer is a metaphor for stolen control, not a portrait of any identified attacker. The guardians turn the signing threshold into a visible story."
+  ],
+  "eggs": [
+    {
+      "title": "FIVE OF NINE GUARDIANS",
+      "text": "Five red strings control five central guardians; four blue guardians stand free. This represents the five-of-nine validator threshold, not nine individual people."
+    },
+    {
+      "title": "THE ETHER RESERVE",
+      "text": "Violet Ethereum-shaped crystals and the 173,600 ETH label recall the stolen Ether. The physical treasure is symbolic."
+    },
+    {
+      "title": "THE USDC RESERVE",
+      "text": "Gold dollar-marked coins and 25.5M USDC identify the second stolen asset. The coins stand for digital USDC, not cash or gold."
+    },
+    {
+      "title": "THE TEMP TAG",
+      "text": "The small tag recalls temporary Axie DAO access that remained available after its intended use ended. The string is an invented visual explanation."
+    }
+  ],
+  "sourceNote": "Sources: [BlockSec fund tracing, 31 March 2022](https://blocksec.com/blog/tracing-the-stolen-fund-of-the-ronin-bridge); [Forta incident analysis, 20 April 2022](https://www.forta.org/blog/ronin-hack); [FBI attribution, 14 April 2022](https://www.fbi.gov/news/press-releases/fbi-statement-on-attribution-of-malicious-cyber-activity-posed-by-the-democratic-peoples-republic-of-korea). The theatre, marionettes, strings and treasury are fictional symbols. Decorative emblems are not attacker insignia. FIVE KEYS. ONE BREACH. is an editorial caption, not a historical quotation. The original Ronin incident post is currently unavailable; surviving security research supports the chronology.",
+  "sources": [
+    {
+      "title": "BlockSec fund tracing, 31 March 2022",
+      "url": "https://blocksec.com/blog/tracing-the-stolen-fund-of-the-ronin-bridge"
+    },
+    {
+      "title": "Forta incident analysis, 20 April 2022",
+      "url": "https://www.forta.org/blog/ronin-hack"
+    },
+    {
+      "title": "FBI attribution, 14 April 2022",
+      "url": "https://www.fbi.gov/news/press-releases/fbi-statement-on-attribution-of-malicious-cyber-activity-posed-by-the-democratic-peoples-republic-of-korea"
+    }
+  ]
+}
