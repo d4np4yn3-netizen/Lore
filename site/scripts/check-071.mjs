@@ -14,5 +14,5 @@ for(const [n,slug,artHash] of [['071','bitcoin-becomes-legal-tender','3589c84349
  assert(c.story[0].includes('7 September 2021'));assert(c.story[3].includes('invented'));assert.equal(read(master+'card-data.json').rarity,'legendary');assert.equal(read(master+'card-data.json').context,'A NEW WAY TO PAY.');
  const card=registry.cards.find(c=>c.moment_number===Number(n));assert.equal(card.publication_approved,true);assert.equal(card.print_release,false);
 }
-assert.equal(Object.keys(media).length,75);assert.equal(read('media/index.json').assets.length,771);assert.equal(registry.numbered_published_count,75);assert(!registry.cards.some(c=>c.moment_number===58));
-console.log('PASS: 071 approved raw v4, Legendary frame, source hashes, book, four actual-art clues, QR and 75-card collection');
+assert.equal(Object.keys(media).length,77);assert.equal(read('media/index.json').assets.length,787);assert.equal(registry.numbered_published_count,77);assert(!registry.cards.some(c=>c.moment_number===58));
+console.log('PASS: 071 approved raw v4, Legendary frame, source hashes, book, four actual-art clues, QR and 77-card collection');
