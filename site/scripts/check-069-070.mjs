@@ -16,5 +16,5 @@ for(const [n,slug,artHash,proofHash] of [
  if(n==='070'){assert.equal(m.art.sha256,artHash);assert.equal(m.print.png.sha256,proofHash);assert(c.story[0].includes('10 August 2021'));assert(c.story[2].includes('11 August'));assert(c.story[3].includes('26 August'));assert(c.story[4].includes('fictional pirate'));}
  const card=registry.cards.find(c=>c.moment_number===Number(n));assert.equal(card.publication_approved,true);assert.equal(card.print_release,false);
 }
-assert.equal(Object.keys(media).length,75);assert.equal(read('media/index.json').assets.length,771);assert.equal(registry.numbered_published_count,75);assert(!registry.cards.some(c=>c.moment_number===58));
-console.log('PASS: 069 and 070 exact approved source bytes, embedded art, print/book aliases, five-paragraph stories, four clues, QR evidence and 75-card collection');
+assert.equal(Object.keys(media).length,77);assert.equal(read('media/index.json').assets.length,787);assert.equal(registry.numbered_published_count,77);assert(!registry.cards.some(c=>c.moment_number===58));
+console.log('PASS: 069 and 070 exact approved source bytes, embedded art, print/book aliases, five-paragraph stories, four clues, QR evidence and 77-card collection');

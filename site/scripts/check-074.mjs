@@ -14,5 +14,5 @@ for(const [n,slug,artHash] of [['074','constitutiondao','3cdcd2dc96a7a8c03315ddc
  assert(c.story.join(' ').includes('18 November 2021'));assert(c.story.join(' ').includes('43.173'));assert.equal(read(master+'card-data.json').rarity,'common');assert.equal(read(master+'card-data.json').context,'A COMMUNITY BIDS FOR HISTORY.');
  const card=registry.cards.find(c=>c.moment_number===Number(n));assert.equal(card.publication_approved,true);assert.equal(card.print_release,false);
 }
-assert.equal(Object.keys(media).length,75);assert.equal(read('media/index.json').assets.length,771);assert.equal(registry.numbered_published_count,75);assert(!registry.cards.some(c=>c.moment_number===58));
-console.log('PASS: 074 approved framing derivative v1, Common frame, source hashes, book, four actual-art clues, QR and 75-card collection');
+assert.equal(Object.keys(media).length,77);assert.equal(read('media/index.json').assets.length,787);assert.equal(registry.numbered_published_count,77);assert(!registry.cards.some(c=>c.moment_number===58));
+console.log('PASS: 074 approved framing derivative v1, Common frame, source hashes, book, four actual-art clues, QR and 77-card collection');

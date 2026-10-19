@@ -1,0 +1,51 @@
+{
+  "verified_on": "2026-10-19",
+  "event_date": "2022-03-29",
+  "date_meaning": "Public disclosure",
+  "attack_date": "2022-03-23",
+  "assets_stolen": {
+    "ETH": 173600,
+    "USDC": 25500000
+  },
+  "withdrawals": 2,
+  "validator_threshold": {
+    "required": 5,
+    "total": 9
+  },
+  "compromise": "Four Sky Mavis validators plus Axie DAO approval obtained through unrevoked temporary access. The book does not claim physical extraction of a fifth private key.",
+  "temporary_access": {
+    "introduced": "November 2021",
+    "use_ended": "December 2021",
+    "permission_not_revoked": true
+  },
+  "discovery": "A failed 5,000 ETH withdrawal triggered investigation; public disclosure on 29 March, six days after the attack",
+  "attribution": {
+    "authority": "FBI",
+    "published": "2022-04-14",
+    "wording": "Lazarus Group and APT38, actors associated with North Korea"
+  },
+  "sources": [
+    {
+      "url": "https://blocksec.com/blog/tracing-the-stolen-fund-of-the-ronin-bridge",
+      "title": "BlockSec fund tracing, 31 March 2022"
+    },
+    {
+      "url": "https://www.forta.org/blog/ronin-hack",
+      "title": "Forta incident analysis, 20 April 2022"
+    },
+    {
+      "url": "https://www.fbi.gov/news/press-releases/fbi-statement-on-attribution-of-malicious-cyber-activity-posed-by-the-democratic-peoples-republic-of-korea",
+      "title": "FBI attribution, 14 April 2022"
+    }
+  ],
+  "caveats": [
+    "Original Ronin incident post/postmortem unavailable through current retrieval",
+    "Forta incident narrative supports access route and timeline; it is surviving security research, not direct operator testimony",
+    "Forta loss table uses rounded amounts; exact amounts from BlockSec original tracing",
+    "Ronin June 28 reopening article confirms quantities but conflates theft and disclosure dates, so not used for chronology",
+    "FBI Ethereum/dollar shorthand not used for asset composition",
+    "Decorative symbols are fictional heraldry, not Lazarus insignia"
+  ],
+  "phrase": "FIVE KEYS. ONE BREACH.",
+  "phrase_status": "Approved editorial caption, not quotation"
+}

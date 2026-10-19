@@ -14,5 +14,5 @@ for(const [n,slug,artHash] of [['073','taproot-activates','8a04b8dcddb62efde1c42
  assert(c.story.join(' ').includes('14 November 2021'));assert(c.story.join(' ').includes('709,632'));assert.equal(read(master+'card-data.json').rarity,'uncommon');assert.equal(read(master+'card-data.json').context,'NEW GROWTH, SAME ROOTS.');
  const card=registry.cards.find(c=>c.moment_number===Number(n));assert.equal(card.publication_approved,true);assert.equal(card.print_release,false);
 }
-assert.equal(Object.keys(media).length,75);assert.equal(read('media/index.json').assets.length,771);assert.equal(registry.numbered_published_count,75);assert(!registry.cards.some(c=>c.moment_number===58));
-console.log('PASS: 073 approved raw v7, Uncommon frame, source hashes, book, four actual-art clues, QR and 75-card collection');
+assert.equal(Object.keys(media).length,77);assert.equal(read('media/index.json').assets.length,787);assert.equal(registry.numbered_published_count,77);assert(!registry.cards.some(c=>c.moment_number===58));
+console.log('PASS: 073 approved raw v7, Uncommon frame, source hashes, book, four actual-art clues, QR and 77-card collection');
