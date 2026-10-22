@@ -1274,5 +1274,25 @@
         "reason": "Another approach to private transactions, explored through the Zcash launch."
       }
     ]
+  },
+  "the-depeg": {
+    "lead": "TerraUSD, known as UST, was designed to remain worth one US dollar. Its stability depended on a companion cryptocurrency, LUNA: holders could exchange one UST for one dollar’s worth of LUNA. Market incentives were supposed to pull deviations back toward the peg.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "the-ronin-hack",
+        "reason": "Another shock in 2022, caused by stolen signing authority rather than a failed peg."
+      }
+    ]
+  },
+  "withdrawals-paused": {
+    "lead": "Celsius offered cryptocurrency accounts that paid interest, alongside crypto-backed loans and other services. Customers placed assets with a platform that controlled access to them: a balance on a screen was not the same as coins held in a personal wallet.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "the-depeg",
+        "reason": "The earlier Terra collapse forms part of the wider 2022 crypto crisis."
+      }
+    ]
   }
 }
