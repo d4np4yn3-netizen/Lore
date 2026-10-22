@@ -11,10 +11,12 @@ const tags = (html, tag) => [...html.matchAll(new RegExp(`<${tag}\\b[^>]*>`, 'g'
 const meta = (html, name) => tags(html, 'meta').find(tag => tag.name === name || tag.property === name)?.content;
 const canonical = html => tags(html, 'link').find(tag => tag.rel === 'canonical')?.href;
 const schema = html => [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m => JSON.parse(m[1]));
-assert.equal(Object.keys(search).length,77);
+const cardCount = Object.keys(media).length;
+assert.equal(Object.keys(search).length,cardCount);
+assert.equal(Object.values(media).filter(card => Number(card.image.src.match(/\/(\d{3})-/)[1]) <= 78).length,77,'Original 001–078 archive retained');
 assert.deepEqual(Object.keys(search).sort(), Object.keys(media).sort());
 const titles = new Set(), descriptions = new Set(), images = new Set();
-let clues = 0, books = 0;
+let clues = 0, books = 0, legacyClues = 0, legacyBooks = 0;
 for (const [slug, data] of Object.entries(search)) {
   const html = read(`.next/server/app/cards/${slug}.html`);
   const url = `${origin}/cards/${slug}`;
@@ -54,15 +56,19 @@ for (const [slug, data] of Object.entries(search)) {
     assert(decode(cluePanel).includes(egg.title), `${slug}: clue title in HTML`);
     assert(decode(cluePanel).includes(egg.text.split(/\*|\[/)[0]), `${slug}: clue text in HTML`);
     clues++;
+    if (Number(number) <= 78) legacyClues++;
   }
   assert(decode(bookPanel).includes(media[slug].originalBook), slug + ': book PDF link in HTML');
   assert.equal(tags(bookPanel, 'img').length, 2);
   for (const img of tags(bookPanel, 'img')) assert.equal(img.loading, 'lazy');
   for (const img of tags(cluePanel, 'img')) assert.equal(img.loading, 'lazy');
   books += 2;
+  if (Number(number) <= 78) legacyBooks += 2;
 }
-assert.equal(titles.size,77); assert.equal(descriptions.size,77); assert.equal(images.size,77);
-assert.equal(clues,323); assert.equal(books,154);
+assert.equal(titles.size,cardCount); assert.equal(descriptions.size,cardCount); assert.equal(images.size,cardCount);
+assert.equal(legacyClues,323); assert.equal(legacyBooks,154);
+const expectedClues = Object.values(media).reduce((sum, card) => sum + JSON.parse(read('app/cards/content/' + card.image.src.match(/\/(\d{3})-/)[1] + '.json')).eggs.length, 0);
+assert.equal(clues,expectedClues); assert.equal(books,cardCount * 2);
 const home = read('.next/server/app/index.html');
 assert.equal(new URL(canonical(home)).href, origin + '/');
 assert(home.includes('Email registration opens soon'));
@@ -85,7 +91,8 @@ assert(!shop.includes('<form') && !shop.includes('Add to cart') && !shop.include
 assert(home.includes('Discover the collection') && home.includes('Explore the timeline'));
 const sitemap = read('.next/server/app/sitemap.xml.body');
 const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => decode(m[1]));
-assert.equal(urls.length, 80); assert.equal(new Set(urls).size, 80); assert(urls.includes(origin + '/shop'));
+const pageCount = cardCount + 3;
+assert.equal(urls.length, pageCount); assert.equal(new Set(urls).size, pageCount); assert(urls.includes(origin + '/shop'));
 assert(urls.includes(origin + '/'));for (const slug of Object.keys(search)) assert(urls.includes(origin + '/cards/' + slug));
 assert(!sitemap.includes('<lastmod>') && !sitemap.includes('/crypto/'));
 const robots = read('.next/server/app/robots.txt.body');
@@ -93,5 +100,5 @@ assert(robots.includes('Allow: /') && robots.includes(`Sitemap: ${origin}/sitema
 const helper = read('app/seo.js').match(/export function jsonLd\(value\) \{(.*?)\}/s)[1];
 const safeJson = new Function('value', helper)({ text: '</script><script>alert(1)</script>' });
 assert(!safeJson.includes('<')); assert.equal(JSON.parse(safeJson).text, '</script><script>alert(1)</script>');
-console.log(`PASS: 80 canonical pages, 77 unique descriptive titles/descriptions/social images, 323 SSR clues, 154 lazy book previews, sitemap/robots, truthful closed signup and safe JSON-LD`);
+console.log(`PASS: ${pageCount} canonical pages, ${cardCount} unique descriptive titles/descriptions/social images, ${clues} SSR clues, ${books} lazy book previews, sitemap/robots, truthful closed signup and safe JSON-LD`);
 const timeline = read('.next/server/app/timeline.html'); assert.equal(canonical(timeline),origin+'/timeline'); assert(urls.includes(origin+'/timeline'));

@@ -14,7 +14,13 @@ const qa=read(master+'card-final-qa.json');assert.equal(qa.art_unchanged,true);f
 assert.equal(read(master+'card-data.json').context,'FIVE KEYS. ONE BREACH.');assert.equal(read(master+'card-data.json').moment_label,'29 MAR 2022');assert(c.story.join(' ').includes('23 March'));assert.equal(hash(master+'HISTROVE-Crypto-078-Front-Print-v1.png'),'280dd5ec540ac02c7260161c10110e6c9f198b837b48c4e737e1138c31bb047b');
 const r=read('../cards/crypto/current-cards.json');assert.equal(r.numbered_published_count,77);assert(!r.cards.some(x=>x.moment_number===58));assert.equal(r.cards.find(x=>x.moment_number===78).publication_approved,true);
 assert.equal(r.cards.find(x=>x.moment_number===76).digital_only,true);assert.equal(read('app/cards/print-files.json').cards['076'],undefined);
-assert.equal(Object.keys(read('app/cards/media.json')).length,77);assert.equal(read('media/index.json').assets.length,787);
+const indexAssets=read('media/index.json').assets;
+for(const asset of m.assets){
+  const matches=indexAssets.filter(entry=>entry.path===asset.path);
+  assert.equal(matches.length,1,'078 display asset must remain uniquely indexed');
+  assert.deepEqual(matches[0],asset,'078 display asset record must remain unchanged');
+}
+assert.ok(Object.hasOwn(read('app/cards/media.json'),slug),'078 media entry must remain present');
 const media=read('app/cards/media.json')[slug];
 assert.equal(media.assetOrigin,media.bookAssetOrigin);
 // This release gate intentionally fails until an actual uploaded078asset commit is verified.
