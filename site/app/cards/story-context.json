@@ -1294,5 +1294,19 @@
         "reason": "The earlier Terra collapse forms part of the wider 2022 crypto crisis."
       }
     ]
+  },
+  "the-merge": {
+    "lead": "On 15 September 2022, Ethereum completed The Merge, joining its existing Mainnet execution layer to the Beacon Chain's proof-of-stake consensus system. The work had been years in preparation. Launched on 1 December 2020, the Beacon Chain had operated alongside Mainnet, establishing its validator network while the original chain continued handling transactions under proof-of-work. Two systems were ready to become one.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "beacon-chain",
+        "reason": "The Beacon Chain introduced the proof-of-stake consensus layer that Ethereum joined at The Merge."
+      },
+      {
+        "slug": "ethereum-goes-live",
+        "reason": "Ethereum launched in 2015 with proof-of-work before its 2022 transition."
+      }
+    ]
   }
 }
