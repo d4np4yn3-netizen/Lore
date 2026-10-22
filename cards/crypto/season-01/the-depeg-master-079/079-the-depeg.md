@@ -1,0 +1,28 @@
+# 079 - The Depeg
+
+09 MAY 2022 / TERRA / LUNA / RARE
+
+STEADY LADS.
+
+## The story
+
+TerraUSD, known as UST, was designed to remain worth one US dollar. Its stability depended on a companion cryptocurrency, LUNA: holders could exchange one UST for one dollar’s worth of LUNA. Market incentives were supposed to pull deviations back toward the peg.
+
+Before its collapse, UST reached a peak market value of $18.7 billion. Anchor, a lending protocol in the Terra ecosystem, attracted deposits with interest rates around 20%. The arrangement depended on continued confidence in UST’s stability and a market willing to buy LUNA.
+
+On 9 May 2022, as UST’s dollar peg came under severe pressure, Do Kwon posted: “Deploying more capital - steady lads.” This card fixes on that reassurance: one moment within a crisis that unfolded across several days, rather than a single instantaneous crash.
+
+As holders redeemed UST, the mechanism created more LUNA. Falling LUNA prices meant still more tokens were needed for each dollar redeemed, accelerating the spiral. Its supply expanded from roughly 365 million on May 9 to more than six trillion by May 13.
+
+Above Singapore’s Marina Bay, a moon bearing Terra’s emblem breaks apart as five figures run below. This is a fictional visual metaphor, not a record of a physical disaster or street panic. The exploding moon turns a financial collapse into an image of apparent permanence suddenly coming undone.
+
+## Details in the artwork
+
+1. **THE FAINT TERRA EMBLEM** The emblem sits within the cratered moon rather than floating above it. It identifies Terra in a fictional celestial metaphor for the ecosystem’s collapse.
+2. **THE BREAKING MOON** The fiery fracture and falling fragments evoke LUNA and a stability mechanism coming apart. No actual lunar event or physical destruction is implied.
+3. **THE MARINA BAY SKYLINE** Marina Bay Sands and the lotus-shaped ArtScience Museum make Singapore recognisable. They are an imagined setting, not evidence of an incident at those landmarks.
+4. **FIVE RUNNING FIGURES** The five fictional people convey fear and lost confidence. Their number is a composition choice, not a count of victims, founders or institutions.
+
+## Source and art note
+
+Sources: [BIS, Annual Economic Report 2022](https://www.bis.org/publications/aer-2022/future-monetary-system); [SEC trial exhibit P-353, 9 May post](https://www.sec.gov/files/terraform-trial-exhibit-p-353.pdf); [New York Fed, Runs on Stablecoins](https://libertystreeteconomics.newyorkfed.org/2023/07/runs-on-stablecoins/); [IMF, Cryptocurrencies and DeFi](https://www.imf.org/en/news/articles/2022/06/24/sp083022-cryptocurrencies-and-decentralized-finance). The moon, debris and fleeing figures are fictional symbols. Singapore landmarks identify the imagined setting, not a real disaster. STEADY LADS. excerpts Do Kwon’s reassurance, preserved in SEC trial exhibit P-353; 9 May dates that post within a multi-day collapse.
