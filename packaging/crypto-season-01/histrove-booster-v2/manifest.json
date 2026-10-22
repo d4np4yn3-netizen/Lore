@@ -1,0 +1,63 @@
+{
+  "source_sha256": "26965c3d43884a1c51b9b84f7304306022cb55544a46664b4f4176559927e83e",
+  "source_repository_path": "packaging/crypto-season-01/histrove-booster-v1/HISTROVE-Crypto-S01-Booster-Review-v1-Clean.pdf",
+  "changed_only": "Printed address lore-site-v1.vercel.app to histrove.co.uk",
+  "font": "Repository-pinned DejaVuSans.ttf, outlined",
+  "font_size_pt": 5.9,
+  "baseline_pt": 295,
+  "center_x_pt": 92,
+  "changed_pixel_bbox_300dpi": [
+    247,
+    1210,
+    521,
+    1235
+  ],
+  "all_pixels_outside_URL_region_identical": true,
+  "qr_pixels_identical": true,
+  "page_boxes_preserved": true,
+  "status": "USER_APPROVED_URL_EDIT_GITHUB_PUBLICATION_AUTHORISED",
+  "files": [
+    {
+      "name": "HISTROVE-Crypto-S01-Booster-URL-Update-v2-300dpi.png",
+      "bytes": 1424687,
+      "sha256": "a297eb29e037392bafa0e0deabb07950c5915ae72772adea34f2dd19e98a5f29"
+    },
+    {
+      "name": "HISTROVE-Crypto-S01-Booster-URL-Update-v2-Clean.pdf",
+      "bytes": 7272484,
+      "sha256": "e1aa6fb02b9b7ccdb293db2eb2515fe06f76a509ad0e7cd00ac2c1f0e34fab69"
+    },
+    {
+      "name": "review/HISTROVE-Crypto-S01-Booster-URL-Update-v2-Front-and-Back.png",
+      "bytes": 904622,
+      "sha256": "2d310473100dd4ef522fac2c6bf6d2990d762223ccd8254fa06242bbe62a5bd3"
+    },
+    {
+      "name": "review/HISTROVE-Crypto-S01-Booster-URL-Update-v2-Review.pdf",
+      "bytes": 8061963,
+      "sha256": "2bf70dcf5d01110e016ac15f829a90ad445af4149f0aa3890f2860d0c457c8dc"
+    },
+    {
+      "name": "source/update_url.py",
+      "bytes": 5515,
+      "sha256": "04fc7781464af59bf221491b54e0b0cfa88f7b3114e86dd070b0aaf76200a154"
+    },
+    {
+      "name": "source/url-overlay.svg",
+      "bytes": 4154,
+      "sha256": "c0cc356a5e2364559ffdb9d0c36e0e8e8ff6e7d1b75d2b1cea8bbaec194af79c"
+    }
+  ],
+  "embedded_image_streams_identical": true,
+  "visual_review": "Before/after URL crop, full assembled front/back and independent Poppler clean-PDF render inspected. No new collisions or clipping.",
+  "qr_payload": "https://lore-site-v1.vercel.app/ (unchanged; QR pixel identity checked, not freshly decoded)",
+  "method": "Removed only 23 outlined URL glyph fill operations from original PDF content stream. Added replacement outlined glyphs with exact repository font, colour, 5.9pt size, 295pt baseline and 92pt centre. All other original content retained.",
+  "approval": {
+    "approved_by": "Dan Payne",
+    "date": "2026-10-22",
+    "exact_message": "upload the ammend histrove.co.uk edit and we move on for now",
+    "scope": "Printed website text only; save amended package to GitHub. No other copy, QR or design changes. No physical manufacturing approval."
+  },
+  "physical_manufacturing_approved": false,
+  "previous_revision": "../histrove-booster-v1"
+}
