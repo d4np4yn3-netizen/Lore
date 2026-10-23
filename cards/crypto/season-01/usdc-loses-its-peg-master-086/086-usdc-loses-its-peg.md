@@ -1,0 +1,23 @@
+# 086 - USDC Loses Its Peg
+
+10–13 MAR 2023 / CIRCLE / UNCOMMON
+
+OFF PEG.
+
+## The story
+
+During 10–13 March 2023, USDC's promise of dollar stability faced a banking-system shock. Circle had $3.3 billion of its reserves at Silicon Valley Bank, about 8% of the total. Uncertainty about access to those funds helped push USDC below its dollar peg. Reserves caught in a failed bank were not the same as reserves proven permanently lost.
+
+On 12 March, the Treasury, Federal Reserve and FDIC announced that all SVB depositors would be protected, with access to their money beginning Monday, 13 March. Circle said its $3.3 billion would consequently be available when banks reopened. Deposit protection and the resumption of banking and redemption activity helped restore confidence as the depeg narrowed. Operational recovery continued beyond that weekend.
+
+The card's dollar shop is fictional editorial symbolism, not a documented incident. Its everyday setting makes an abstract question tangible: what happens when something labelled one dollar briefly commands less? The scene represents temporary uncertainty around a financial promise, rather than a shop that actually changed its prices or refused USDC.
+
+## Details in the artwork
+
+1. **The Doge keyring** A familiar Shiba Inu charm hangs from the shopper's bag. It is a playful collection crossover, not evidence that Dogecoin was involved in the USDC depeg.
+2. **The punk pin** The tiny pixel-style punk on the jacket links back to the collection's digital-art story. It is a designed accessory within a fictional scene, not a documented participant or product endorsement.
+3. **The HODL cup** A HODL-labelled cup rests on the upper-right shelf in the full artwork. Its message recalls crypto culture's instinct to hold through uncertainty. The tighter card crop partly hides this detail; the full-art book page preserves it.
+
+## Source and art note
+
+Sources: [Circle: $3.3 billion reserve risk removed](https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes); [Treasury, Federal Reserve and FDIC: joint statement, 12 March 2023](https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm); [Circle: 15 March operations update](https://www.circle.com/blog/march-15-update-on-usdc-operations). The shop, people, purchase and declined-payment display are fictional editorial symbolism. OFF PEG. is an editorial caption, not a historical quotation. Circle's reserve release has a 12 March dateline and displays 13 March on its page; banking recovery continued thereafter.
