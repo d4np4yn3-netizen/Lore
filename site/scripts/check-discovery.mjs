@@ -24,8 +24,8 @@ for(const [slug,card] of Object.entries(media)){
  assert.deepEqual(card.artwork,old.artwork);assert.equal(card.originalArt,old.originalArt);assert.equal(card.assetOrigin,old.assetOrigin);assert.equal(card.hashes.artwork,old.hashes.artwork);
  }
  assert(card.image.src.endsWith(id==='076'?'-digital-border-card.webp':'-histrove-border-card.webp'));assert.equal(card.image.width,600);assert.equal(card.image.height,863);
- assert.equal(card.pages.length,2);assert(card.originalBook.includes('/histrove-v1/'));assert.match(card.bookAssetOrigin,/^https:\/\/raw\.githubusercontent\.com\/d4np4yn3-netizen\/Lore\/[0-9a-f]{40}\/$/);
- assert.equal(crops.length,copy.eggs.length);clues+=crops.length;pages+=2;
+ if(card.bookAvailable===false){assert.equal(id,'085');assert.equal(card.originalBook,null);assert.deepEqual(card.pages,[]);}else{assert.equal(card.pages.length,2);assert(card.originalBook.includes('/histrove-v1/'));assert.match(card.bookAssetOrigin,/^https:\/\/raw\.githubusercontent\.com\/d4np4yn3-netizen\/Lore\/[0-9a-f]{40}\/$/);}
+ assert.equal(crops.length,copy.eggs.length);clues+=crops.length;pages+=card.pages.length;
  for(const asset of [card.image,card.artwork,...card.pages,...crops]){
   assert(fs.existsSync(path.join(root,'public',asset.src)),'Displayed asset '+asset.src);
   assert(index.assets.some(a=>'/'+a.path===asset.src),'Indexed display '+asset.src);
@@ -39,7 +39,7 @@ for(const [slug,card] of Object.entries(media)){
 assert.equal(ids.reduce((sum,id)=>sum+closeups[id].length,0),323,'Original 323 clues retained');
 assert.equal(ids.length*2,154,'Original 154 book previews retained');
 assert.equal(clues,Object.values(closeups).reduce((sum,crops)=>sum+crops.length,0));
-assert.equal(pages,currentIds.length*2);
+assert.equal(pages,Object.values(media).filter(card=>card.bookAvailable!==false).length*2);
 assert.equal(new Set(index.assets.map(a=>a.path)).size,index.assets.length,'Unique media paths');
 for(const asset of contract.originalIndex.assets)assert.deepEqual(index.assets.find(a=>a.path===asset.path),asset,'Historical display asset retained '+asset.path);
 for(const a of index.assets){const packed=fs.readFileSync(path.join(root,'media',a.pack)).subarray(a.offset,a.offset+a.length);assert.equal(hash(packed),a.sha256);assert.equal(hash(file('public/'+a.path)),a.sha256);}
