@@ -1,0 +1,117 @@
+{
+  "art": {
+    "path": "cards/crypto/season-01/usdc-loses-its-peg-master-086/art.png",
+    "bytes": 2371219,
+    "sha256": "bced3f5fd46fec1305db6a8af26948f7c83206ce10e8e6adcd367480b6e9e905"
+  },
+  "book": {
+    "path": "book/crypto-season-01/histrove-v1/086-usdc-loses-its-peg-histrove-v1.pdf",
+    "bytes": 4738836,
+    "sha256": "11aa00684e8ad78a76ae5a02b88a3e0defe4f50fd566ac396f3be8f72b650136"
+  },
+  "print": {
+    "png": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-086-Front-Print-v1.png",
+      "bytes": 982680,
+      "sha256": "701c62e86972b57bef410d668fb15b41f51a8c4638033099cb5adcc1775d31a1"
+    },
+    "pdf": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-086-Front-Print-v1.pdf",
+      "bytes": 4082525,
+      "sha256": "f107e95926ca38cecd218a69964d1a8a8913a5e72732869a4b5baf42f1a6d1dc"
+    },
+    "svg": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-086-Front-Print-v1.svg",
+      "bytes": 3727162,
+      "sha256": "1c2bfdcaa01d07eb543af71acc26ea76fd10e27518788d518ab717c83d5f8f60"
+    }
+  },
+  "assets": [
+    {
+      "path": "archive/086-histrove-border-card.webp",
+      "pack": "display-086.bin",
+      "offset": 0,
+      "length": 609160,
+      "sha256": "ba8e6a7acfba707b0d3a401e7c97739044ca7079f770272dd180e50f8f6fd496"
+    },
+    {
+      "path": "archive/086-art.webp",
+      "pack": "display-086.bin",
+      "offset": 609160,
+      "length": 1847446,
+      "sha256": "034da34f18429ea5a1a2670eb903527e675a3873c8e4ad64bc8b62d3fcaaf3ef"
+    },
+    {
+      "path": "archive/086-histrove-page-1.webp",
+      "pack": "display-086.bin",
+      "offset": 2456606,
+      "length": 1347296,
+      "sha256": "0a359d444b17f0cc7954ff340447c034eb84ddec67f97ab45f9c0ec48be68dd3"
+    },
+    {
+      "path": "archive/086-histrove-page-2.webp",
+      "pack": "display-086.bin",
+      "offset": 3803902,
+      "length": 56018,
+      "sha256": "154af518aa2e1df0b4677827fa7f48d2d1800689597592150b7c2320a1ff2291"
+    },
+    {
+      "path": "closeups/086-01.webp",
+      "pack": "display-086.bin",
+      "offset": 3859920,
+      "length": 38756,
+      "sha256": "56fb6cf4bdbdd0512a0422cabe388bc41854e675066b3ceca073c9fee85733e4"
+    },
+    {
+      "path": "closeups/086-02.webp",
+      "pack": "display-086.bin",
+      "offset": 3898676,
+      "length": 25350,
+      "sha256": "cbd7a6e893eb410a4272132f02f1a2b8abedac45653ae10151c3b67661ae461f"
+    },
+    {
+      "path": "closeups/086-03.webp",
+      "pack": "display-086.bin",
+      "offset": 3924026,
+      "length": 33512,
+      "sha256": "3aff8362b4973f837992c47c3132598b45cd85803d957b9398aef759de0c63a4"
+    }
+  ],
+  "qr": "https://www.histrove.co.uk/crypto/086/",
+  "canonical_url": "https://www.histrove.co.uk/cards/usdc-loses-its-peg",
+  "web_border": {
+    "source_sha256": "701c62e86972b57bef410d668fb15b41f51a8c4638033099cb5adcc1775d31a1",
+    "source_svg_sha256": "1c2bfdcaa01d07eb543af71acc26ea76fd10e27518788d518ab717c83d5f8f60",
+    "outer_border_bounds_ltrb": [
+      72.37923250565251,
+      72.37923250565251,
+      743.6207674946475,
+      1037.6207674947707
+    ],
+    "outer_radius_px": 20.857787810392498,
+    "conservative_crop_ltrb": [
+      72,
+      72,
+      744,
+      1038
+    ],
+    "dimensions_px": [
+      600,
+      863
+    ],
+    "qr_payloads": [
+      "https://www.histrove.co.uk/crypto/086/"
+    ],
+    "complete_border_geometry_retained": true,
+    "qr_verification": "Canonical086QR decoded in print and review",
+    "number": "086",
+    "title": "USDC LOSES ITS PEG",
+    "rarity": "uncommon",
+    "path": "site/public/archive/086-histrove-border-card.webp",
+    "public_path": "/archive/086-histrove-border-card.webp",
+    "sha256": "ba8e6a7acfba707b0d3a401e7c97739044ca7079f770272dd180e50f8f6fd496",
+    "bytes": 609160,
+    "source": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-086-Front-Print-v1.png",
+    "source_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-086-Front-Print-v1.svg"
+  }
+}
