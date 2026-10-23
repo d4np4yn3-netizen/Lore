@@ -20,13 +20,13 @@
   "source_count": 3,
   "story_word_count": 198,
   "event_date": "11 NOV 2022",
-  "rarity": "legendary",
+  "rarity": "mythic",
   "collector_number": "084/100",
   "card_phrase": "TRUST SHATTERED.",
   "phrase_status": "Approved editorial caption, not a historical quotation",
   "linked_source_annotations": 4,
-  "pdf_sha256": "a65a4fb2ae8196f52427f398704d7cdf9d71100d300ad70069e1aa12abec7195",
-  "visual_review": "PASS: both rendered pages inspected; complete artwork, legible columns, no collisions, four matching broken-X lobby details.",
+  "pdf_sha256": "c01b2ef489994c77b851636005c6234c7f7f9b5d022e968a2dad545c2ec11746",
+  "visual_review": "PASS: both rendered pages inspected; only rarity word changed, full artwork and all story/source text unchanged, no clipping or collisions.",
   "physical_print_acceptance": "Not claimed",
   "rights_clearance": "Not established; artwork approval does not imply rights clearance",
   "layout_reference": {
@@ -37,5 +37,10 @@
   "source_verification_date": "2026-10-22",
   "book_approval_status": "Prepared under approved publication request; technical QA separate",
   "publication_authorized": true,
-  "content_review": "The lobby, fallen sign and figure are fictional editorial symbolism. The CFTC source is a later complaint, not a filing-day judgment. TRUST SHATTERED. is an editorial caption, not a historical quotation."
+  "content_review": "The lobby, fallen sign and figure are fictional editorial symbolism. The CFTC source is a later complaint, not a filing-day judgment. TRUST SHATTERED. is an editorial caption, not a historical quotation.",
+  "rarity_correction": {
+    "from": "legendary",
+    "to": "mythic",
+    "method": "Only existing PDF text-stream rarity string changed; all other page content and linked sources preserved."
+  }
 }

@@ -1,6 +1,6 @@
 # 082 - Tornado Cash Sanctioned
 
-08 AUG 2022 / TORNADO CASH / RARE
+08 AUG 2022 / TORNADO CASH / UNCOMMON
 
 SEALED
 

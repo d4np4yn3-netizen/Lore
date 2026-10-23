@@ -34,7 +34,7 @@ source_pdf = 'Sources: ' + '; '.join(f'<link href="{html.escape(s["url"], quote=
 content = {'story': story, 'eggs': eggs, 'sourceNote': source_note, 'sources': sources}
 (B / '080.json').write_text(json.dumps(content, indent=2, ensure_ascii=False) + '\n')
 (B / 'sources.json').write_text(json.dumps(sources, indent=2, ensure_ascii=False) + '\n')
-(B / '080-withdrawals-paused.md').write_text('# 080 - Withdrawals Paused\n\n12 JUNE 2022 / CELSIUS / COMMON\n\nFROZEN OUT.\n\n## The story\n\n' + '\n\n'.join(story) + '\n\n## Details in the artwork\n\n' + '\n'.join(f"{i}. **{e['title']}** {e['text']}" for i, e in enumerate(eggs, 1)) + '\n\n## Source and art note\n\n' + source_note + '\n')
+(B / '080-withdrawals-paused.md').write_text('# 080 - Withdrawals Paused\n\n12 JUNE 2022 / CELSIUS / UNCOMMON\n\nFROZEN OUT.\n\n## The story\n\n' + '\n\n'.join(story) + '\n\n## Details in the artwork\n\n' + '\n'.join(f"{i}. **{e['title']}** {e['text']}" for i, e in enumerate(eggs, 1)) + '\n\n## Source and art note\n\n' + source_note + '\n')
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--content-only', action='store_true')
@@ -79,7 +79,7 @@ label('HISTROVE / CRYPTO SEASON ONE', 43, H - 39, 9, '#0B0B0B')
 c.setStrokeColor(HexColor('#886615'))
 c.line(43, H - 57, W - 43, H - 57)
 label('WITHDRAWALS PAUSED', 43, H - 102, 22, '#0B0B0B')
-label('080 / 12 JUNE 2022 / CELSIUS / COMMON', 43, H - 124, 8, '#5A574F')
+label('080 / 12 JUNE 2022 / CELSIUS / UNCOMMON', 43, H - 124, 8, '#5A574F')
 label('FROZEN OUT.', 43, H - 153, 14)
 y = H - 188
 for p in story:
@@ -127,7 +127,7 @@ qa = {
     'story_column_bottom_points': y, 'clues_column_bottom_points': z,
     'story_paragraphs': len(story), 'clue_count': len(eggs), 'source_count': len(sources),
     'story_word_count': sum(len(p.split()) for p in story),
-    'event_date': '12 JUNE 2022', 'rarity': 'common', 'collector_number': '080/100',
+    'event_date': '12 JUNE 2022', 'rarity': 'uncommon', 'collector_number': '080/100',
     'card_phrase': 'FROZEN OUT.',
     'phrase_status': 'User-approved editorial caption',
     'linked_source_annotations': len(doc[1].get_links()),
@@ -143,6 +143,7 @@ qa = {
 }
 (B/'book-qa.json').write_text(json.dumps(qa,indent=2)+'\n')
 print(json.dumps(qa,indent=2))
+
 
 
 

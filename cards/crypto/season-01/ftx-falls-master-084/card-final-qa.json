@@ -1,7 +1,7 @@
 {
-  "approved_card_bytes_identical": true,
+  "approved_card_bytes_identical": false,
   "approved_art_bytes_identical": true,
-  "print_png_sha256": "0409be76888dd523befd827479c6864a599b3528967912ef20a3639e3e8bc80f",
+  "print_png_sha256": "c14fdc5d912dd3d7e09951ae33316161d296b16306d1fe8ed2c75334f77e1a9c",
   "art_sha256": "0c36d01b5272adc745ed0fbb76c043293560118e15df4155117760a6ede4316e",
   "print_size": [
     816,
@@ -20,8 +20,15 @@
   ],
   "qr_payload": "https://www.histrove.co.uk/crypto/084/",
   "canonical_url": "https://www.histrove.co.uk/crypto/084/",
-  "visual_review": "PASS: logo, fallen sign and fractured X clear; standard full-bleed frame and bottom fade intact",
+  "visual_review": "PASS: Mythic label, pill width and pale foil accents match canonical template; artwork, typography, layout, crop and QR unchanged; PDF and PNG visually inspected.",
   "publication_authorized": true,
   "book_native_ppi": 131.36161616161615,
-  "book_resolution_note": "Native artwork remains1024x1536; A4 full-page fit is131.36PPI, not300PPI. Card print is300DPI."
+  "book_resolution_note": "Native artwork remains1024x1536; A4 full-page fit is131.36PPI, not300PPI. Card print is300DPI.",
+  "rarity_correction": {
+    "from": "legendary",
+    "to": "mythic",
+    "approved_original_print_sha256": "0409be76888dd523befd827479c6864a599b3528967912ef20a3639e3e8bc80f",
+    "source_template": "cards/crypto/master/histrove-print-v1/templates/mythic.svg",
+    "changes": "Rarity label, correct pill width and template-dependent accents only; fixed crown, artwork, QR, crop and other text unchanged."
+  }
 }
