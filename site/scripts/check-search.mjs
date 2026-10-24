@@ -49,6 +49,10 @@ for (const [slug, data] of Object.entries(search)) {
   assert.equal(graph.find(s => s['@type'] === 'BreadcrumbList').itemListElement[1].item, url);
   const number = media[slug].image.src.match(/\/(\d{3})-/)[1];
   const chapter = JSON.parse(read(`app/cards/content/${number}.json`));
+  const artPanel=html.match(/<section role="tabpanel" id="panel-art".*?<\/section>/s)?.[0];assert(artPanel);
+  const pending=['015','093'].includes(number);
+  if(pending){assert(artPanel.includes('Print files pending QA.'));for(const label of ['Print card PNG','Download print PDF','Editable card SVG','Download shared back PDF'])assert(!artPanel.includes(label),number+': no current printer downloads while QA pending');}
+  else if(number!=='076'){for(const label of ['Print card PNG','Download print PDF','Editable card SVG','Download shared back PDF'])assert(artPanel.includes(label),number+': unchanged printer downloads');}
   const cluePanel = html.match(/<section role="tabpanel" id="panel-clues".*?<\/section>/s)?.[0];
   const bookPanel = html.match(/<section role="tabpanel" id="panel-book".*?<\/section>/s)?.[0];
   assert(cluePanel && bookPanel, slug + ': server-rendered supplemental panels');
@@ -66,7 +70,10 @@ for (const [slug, data] of Object.entries(search)) {
   if (Number(number) <= 78) legacyBooks += 2;
 }
 assert.equal(titles.size,cardCount); assert.equal(descriptions.size,cardCount); assert.equal(images.size,cardCount);
-assert.equal(legacyClues,323); assert.equal(legacyBooks,154);
+const pair015=JSON.parse(read('media/015-golden-river-manifest.json'));
+assert.equal(pair015.supersedes.previous_closeups.length,5);
+const current015=JSON.parse(read('app/cards/content/015.json'));assert.equal(current015.eggs.length,4);
+assert.equal(legacyClues+pair015.supersedes.previous_closeups.length-current015.eggs.length,323,'Historical clue count preserved; current015 has four approved Golden River clues'); assert.equal(legacyBooks,154);
 const expectedClues = Object.values(media).reduce((sum, card) => sum + JSON.parse(read('app/cards/content/' + card.image.src.match(/\/(\d{3})-/)[1] + '.json')).eggs.length, 0);
 assert.equal(clues,expectedClues); assert.equal(books,cardCount * 2);
 const home = read('.next/server/app/index.html');

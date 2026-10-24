@@ -1,31 +1,36 @@
 {
   "story": [
-    "High above an imagined mountain valley, an enormous clockwork ring turns to 210,000. The two miners at its railing watch a reward mechanism change from 50 to 25 BTC. The setting is a metaphor: no such observatory controlled Bitcoin, and no one pulled a lever to make the network obey the rule.",
-    "On 28 November 2012, block 210,000 activated Bitcoin's first scheduled halving. The new bitcoins allowed in each block's subsidy fell from 50 to 25. Coins people already held were not cut in half. The following blocks carried on, and miners could still earn transaction fees on top of the newly reduced subsidy.",
-    "The milestone block came from Slush's Pool, whose earlier cooperative-mining moment appears on card 011. Slush wrote at the time that a newer pool member, known as \"laughingbear,\" had found it while mining with an ordinary GPU. Here the returning red-haired miner from card 011 and the beanie-wearing figure with a small bear patch stand in for a wider community, not a documented meeting or verified portraits of those people.",
-    "That block's fees were unusually striking: 13.56295554 BTC, besides the 25 BTC newly issued as subsidy. In the artwork, a little side tray keeps them separate while the linked belt rolls on. The clock's drama is not a crash or a coin being cleaved; it is a prearranged rule taking effect and the network continuing afterward."
+    "On 28 November 2012, Bitcoin reached block 210,000 and its first halving. The new-coin subsidy fell from 50 to 25 BTC per block. The network had reached the first milestone in a schedule that repeats every 210,000 blocks, approximately every four years. The date followed the arrival of the block, rather than triggering it.",
+    "A halving is part of Bitcoin's existing issuance rules, not a software upgrade or a calendar alarm. It reduces newly created bitcoin, not the coins people already hold. Transaction fees are separate from the subsidy. The rule does not itself restrict buying, determine mining difficulty or guarantee a higher market price.",
+    "The golden valley imagines new issuance as a tributary feeding a river that is already flowing. A young miner watches the first milestone from the left bank. Place card 015 beside card 093, with 015 on the left, and the two views reveal one wider landscape. The returning figure, mountain horizon and connected river link 2012 with 2024. This is a comparison across time, not a literal scene or a chart of Bitcoin's price."
   ],
   "eggs": [
     {
-      "title": "210,000.",
-      "text": "The counter marks the block height of Bitcoin's first subsidy halving, not an exact number of days on a calendar."
+      "title": "The first milestone",
+      "text": "210,000 is the first halving block. The plaque labels the flow NEW SUBSIDY, separating new issuance from existing bitcoin."
     },
     {
-      "title": "50 TO 25.",
-      "text": "This is the subsidy for a newly found block before and after the change. It does not halve existing balances or guarantee each miner receives exactly 25 BTC including fees."
+      "title": "50 to 25 BTC",
+      "text": "The plaque gives the exact reduction per block. The broad golden outlet is a metaphor, not a measured hydraulic model."
     },
     {
-      "title": "THE TWO MINERS.",
-      "text": "The red-haired headlamp-wearing miner returns from card 011's approved artwork; the other figure's little bear patch and modest GPU nod to Slush's contemporary account of \"laughingbear.\" Their appearances and shared location are fiction."
+      "title": "The single tally",
+      "text": "One engraved stroke above the plaque marks the first halving, echoed by four strokes on card 093."
     },
     {
-      "title": "13.56 BTC FEES.",
-      "text": "The small separate tray rounds the block's 13.56295554 BTC transaction fees. Added to the 25 BTC subsidy, the block's mining reward was 38.56295554 BTC; fees were not halved by the protocol rule."
-    },
-    {
-      "title": "THE CONTINUOUS BELT.",
-      "text": "The machine carries whole coins onward after the change. It is a visual metaphor for Bitcoin continuing to produce blocks, not a real machine that issued coins."
+      "title": "The returning explorer",
+      "text": "The headlamp, teal jacket and backpack connect the seated miner here with the standing figure across the paired panorama."
     }
   ],
-  "sourceNote": "[Bitcoin.org's halving history](https://bitcoin.org/en/halving) records 28 November 2012, block 210,000 and the 25 BTC subsidy. The [contemporary block discussion](https://bitcointalk.org/index.php?topic=128200.0) records the block's details and Slush's confirmation that his pool found it; [Slush's contemporary post](https://bitcointalk.org/index.php?topic=119168.msg1363895) identifies the pool member and ordinary GPU. The [block record](https://www.blockchain.com/en/explorer/blocks/btc/210000) reports 13.56295554 BTC fees and 25 BTC newly minted. The observatory, character gathering, recurring fictional miner, bear patch, clock and belt are art, not historical documentation. No real person's likeness is claimed."
+  "sourceNote": "Sources: [Bitcoin halving history](https://bitcoin.org/en/halving); [Bitcoin developer guide: block chain](https://developer.bitcoin.org/devguide/block_chain.html). Fictional editorial panorama, not a real location or price forecast. Native art: 750 x 1048 pixels; 90.71 effective PPI at this A4 fit. Print QA pending; no native-resolution enhancement claimed. The two illustrations share a horizon and river, but their separate Legendary and Common frames interrupt a literal edge-to-edge join.",
+  "sources": [
+    {
+      "title": "Bitcoin halving history",
+      "url": "https://bitcoin.org/en/halving"
+    },
+    {
+      "title": "Bitcoin developer guide: block chain",
+      "url": "https://developer.bitcoin.org/devguide/block_chain.html"
+    }
+  ]
 }

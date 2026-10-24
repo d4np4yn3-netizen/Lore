@@ -449,35 +449,38 @@
   },
   "the-first-halving": {
     "image": {
-      "src": "/archive/015-histrove-border-card.webp",
+      "src": "/archive/015-golden-river-histrove-border-card.webp",
       "width": 600,
       "height": 863
     },
     "artwork": {
-      "src": "/archive/015-art.webp",
-      "width": 1060,
-      "height": 1484
+      "src": "/archive/015-golden-river-art.webp",
+      "width": 750,
+      "height": 1048
     },
     "pages": [
       {
-        "src": "/archive/015-histrove-page-1.webp",
-        "width": 778,
-        "height": 1100
+        "src": "/archive/015-golden-river-histrove-page-1.webp",
+        "width": 893,
+        "height": 1263
       },
       {
-        "src": "/archive/015-histrove-page-2.webp",
-        "width": 778,
-        "height": 1100
+        "src": "/archive/015-golden-river-histrove-page-2.webp",
+        "width": 893,
+        "height": 1263
       }
     ],
-    "originalArt": "cards/crypto/season-01/first-halving-master-015/art.png",
-    "originalBook": "book/crypto-season-01/histrove-v1/015-the-first-halving-histrove-v1.pdf",
+    "originalArt": "cards/crypto/season-01/golden-river-first-halving-master-015/art.png",
+    "originalBook": "book/crypto-season-01/histrove-v1/015-first-halving-golden-river-histrove-v1.pdf",
+    "assetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/118ed2a7a891f86355f7bf39931186e8918969ec/",
+    "bookAssetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/118ed2a7a891f86355f7bf39931186e8918969ec/",
+    "printStatus": "pending-print-qa",
     "hashes": {
-      "image": "08f0313bc5e536f86534b052b6c48206feb602e5a2c6d7ce40bb3a31d59e2cc7",
-      "artwork": "dc81e6b806fe2a4069158624ebaf93b86ac1e0d3123d5e02f29ad200bd72faf7",
-      "webImage": "c183e4d02b872db3339140fb26770559ff2d1fb34f18112b7466dbec7dac1b1c"
-    },
-    "bookAssetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/937cbd36de92fd338fbc184ad3b2c29771d40812/"
+      "image": "3d406cafc605df61ca3460073b53bedb670cd2ae9008e81abdac9cb4209c28e7",
+      "artwork": "826f1945f0f8ebef5ce11b1d9a842dc80df014941c1355f6453096db54831085",
+      "book": "d2a8f140f1924c7c372e6f1109e0de2ebb00a95a149da3111a2edee79e3da162",
+      "webImage": "2375c703fd3f4b06cd38b32e81acbf8a895361fe33c50b1d2c47528fe2a3d6d1"
+    }
   },
   "silk-road-shutdown": {
     "image": {
@@ -2994,6 +2997,41 @@
       "artwork": "cf38d3ddacb4ed7bbd0365d08362cba1d81c6dc9d146fe1e87c7ac0f27f7afa3",
       "book": "0a99d43ab6bdfe0e930928ab24da66407d9375952089d1326eab39492421b44f",
       "webImage": "69f22804346ae41566418153112ab1da60d95f1be013b9e6cf41848df96a8271"
+    }
+  },
+  "the-fourth-halving": {
+    "image": {
+      "src": "/archive/093-golden-river-histrove-border-card.webp",
+      "width": 600,
+      "height": 863
+    },
+    "artwork": {
+      "src": "/archive/093-golden-river-art.webp",
+      "width": 750,
+      "height": 1048
+    },
+    "pages": [
+      {
+        "src": "/archive/093-golden-river-histrove-page-1.webp",
+        "width": 893,
+        "height": 1263
+      },
+      {
+        "src": "/archive/093-golden-river-histrove-page-2.webp",
+        "width": 893,
+        "height": 1263
+      }
+    ],
+    "originalArt": "cards/crypto/season-01/golden-river-fourth-halving-master-093/art.png",
+    "originalBook": "book/crypto-season-01/histrove-v1/093-fourth-halving-golden-river-histrove-v1.pdf",
+    "assetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/118ed2a7a891f86355f7bf39931186e8918969ec/",
+    "bookAssetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/118ed2a7a891f86355f7bf39931186e8918969ec/",
+    "printStatus": "pending-print-qa",
+    "hashes": {
+      "image": "9c2c059425dbc3337407ca0702eb7579735313eabe5474d4bfacfaf00197ffbc",
+      "artwork": "686acc062fa785db383e60040c75db2c524c91963ccccc65128cb26296f5f5b7",
+      "book": "a032c280430f5b1e11cca589ffd7945baef7340939c2ab5c86c2b051851e2f86",
+      "webImage": "96b6323a9c70605cab1b242f8289f7ec80e04267d6ec95b354799c75d13cfb59"
     }
   }
 }

@@ -1,3 +1,4 @@
+import chapter093 from './content/093.json';
 import chapter092 from './content/092.json';
 import chapter091 from './content/091.json';
 import chapter090 from './content/090.json';
@@ -270,15 +271,7 @@ export const cards = [
     ...chapter014,
     source: 'https://bitcointalk.org/index.php?topic=47417.0', number: '014/100',
   },
-  {
-    slug: 'the-first-halving', title: 'THE FIRST HALVING', rarity: 'LEGENDARY',
-    date: '28 NOV 2012', subject: 'BITCOIN', phrase: '50 TO 25.',
-    image: 'cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-015-Front-Print-v1.png',
-    artwork: 'cards/crypto/season-01/first-halving-master-015/art.png',
-    book: 'book/crypto-season-01/proofs/015-first-halving-full-art-spread-v1.pdf',
-    ...chapter015,
-    source: 'https://bitcoin.org/en/halving', number: '015/100',
-  },
+  {"slug": "the-first-halving", "title": "THE FIRST HALVING", "rarity": "LEGENDARY", "date": "28 NOV 2012", "subject": "BITCOIN", "phrase": "50 TO 25.", "image": "cards/crypto/season-01/golden-river-first-halving-master-015/HISTROVE-Crypto-015-Card.png", "artwork": "cards/crypto/season-01/golden-river-first-halving-master-015/art.png", "book": "book/crypto-season-01/histrove-v1/015-first-halving-golden-river-histrove-v1.pdf", "printStatus": "pending-print-qa", "source": "https://bitcoin.org/en/halving", ...chapter015, number: '015/100' },
   {
     slug: 'silk-road-shutdown', title: 'SILK ROAD SHUTDOWN', rarity: 'RARE',
     date: '01 OCT 2013', subject: 'BITCOIN', phrase: 'DREAD PIRATE ROBERTS.',
@@ -626,6 +619,7 @@ export const cards = [
   {"slug": "binance-settles", "title": "BINANCE SETTLES", "rarity": "UNCOMMON", "date": "21 NOV 2023", "subject": "CHANGPENG ZHAO", "phrase": "THE DOOR CLOSES.", "phraseKind": "Approved editorial caption, not a historical quotation", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-090-Front-Print-v1.png", "artwork": "cards/crypto/season-01/binance-settles-master-090/art.png", "book": "book/crypto-season-01/histrove-v1/090-binance-settles-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-090-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-090-Front-Print-v1.svg", "source": "https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution", ...chapter090, number: '090/100' },
   {"slug": "spot-bitcoin-etfs-approved", "title": "ETFS APPROVED", "rarity": "LEGENDARY", "date": "10 JAN 2024", "subject": "SPOT BITCOIN", "phrase": "FINALLY.", "phraseKind": "Approved editorial caption, not a historical quotation", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-091-Front-Print-v1.png", "artwork": "cards/crypto/season-01/spot-bitcoin-etfs-approved-master-091/art.png", "book": "book/crypto-season-01/histrove-v1/091-spot-bitcoin-etfs-approved-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-091-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-091-Front-Print-v1.svg", "source": "https://www.sec.gov/files/rules/sro/nysearca/2024/34-99306.pdf", ...chapter091, number: '091/100' },
   {"slug": "dencun", "title": "DENCUN", "rarity": "COMMON", "date": "13 MAR 2024", "subject": "ETHEREUM", "phrase": "ROOM TO BREATHE.", "phraseKind": "Approved editorial caption, not a historical quotation", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-092-Front-Print-v1.png", "artwork": "cards/crypto/season-01/dencun-master-092/art.png", "book": "book/crypto-season-01/histrove-v1/092-dencun-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-092-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-092-Front-Print-v1.svg", "source": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement", ...chapter092, number: '092/100' },
+  {"slug": "the-fourth-halving", "title": "THE FOURTH HALVING", "rarity": "COMMON", "date": "20 APR 2024", "subject": "BITCOIN", "phrase": "6.25 TO 3.125.", "image": "cards/crypto/season-01/golden-river-fourth-halving-master-093/HISTROVE-Crypto-093-Card.png", "artwork": "cards/crypto/season-01/golden-river-fourth-halving-master-093/art.png", "book": "book/crypto-season-01/histrove-v1/093-fourth-halving-golden-river-histrove-v1.pdf", "printStatus": "pending-print-qa", "source": "https://bitcoin.org/en/halving", ...chapter093, number: '093/100' },
 ];
 
 export const getCard = slug => cards.find(card => card.slug === slug);

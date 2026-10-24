@@ -212,8 +212,8 @@
     ]
   },
   "the-first-halving": {
-    "lead": "Bitcoin’s first halving on 28 November 2012 reduced the block subsidy from 50 to 25 BTC.",
-    "useLead": true,
+    "lead": "On 28 November 2012, Bitcoin reached block 210,000 and its first halving. The new-coin subsidy fell from 50 to 25 BTC per block. The network had reached the first milestone in a schedule that repeats every 210,000 blocks, approximately every four years. The date followed the arrival of the block, rather than triggering it.",
+    "useLead": false,
     "related": [
       {
         "slug": "slush-pool",
@@ -222,6 +222,10 @@
       {
         "slug": "genesis-block",
         "reason": "Return to the chain’s starting point and original 50 BTC output"
+      },
+      {
+        "slug": "the-fourth-halving",
+        "reason": "Place 015 on the left of 093 to discover the shared Golden River landscape across two historical chapters."
       }
     ]
   },
@@ -1358,5 +1362,15 @@
     "lead": "On 13 March 2024, Ethereum activated Dencun at epoch 269568. Its best-known change was EIP-4844, or proto-danksharding, which introduced temporary data blobs for rollups. These layer-2 networks process transactions away from Ethereum mainnet and publish data back to it. Blobs gave them a dedicated way to make that data available, designed to reduce a major operating cost and help lower fees for their users.",
     "useLead": false,
     "related": []
+  },
+  "the-fourth-halving": {
+    "lead": "On 20 April 2024, Bitcoin reached block 840,000 and its fourth halving. The new-coin subsidy fell from 6.25 to 3.125 BTC per block. Between the first and fourth milestones, the 2016 halving had reduced it from 25 to 12.5 BTC, and the 2020 halving from 12.5 to 6.25 BTC. Each step followed another 210,000 blocks.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "the-first-halving",
+        "reason": "Place 015 on the left of 093 to discover the shared Golden River landscape across two historical chapters."
+      }
+    ]
   }
 }
