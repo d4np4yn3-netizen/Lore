@@ -1,92 +1,64 @@
 # 092 — Dencun
 
-**Date:** 2024-03-13T13:55:35Z  ·  **Era:** Recovery and institutions
+**Date:** 13 March 2024  ·  **Subject:** Ethereum  ·  **Rarity:** Common  ·  **Collector number:** 092/100
 
-**Brief:** Draft for Dan’s review. New moment/scene proposal; no artwork approval.
+**Approved front:** ETHEREUM / DENCUN / 13 MAR 2024 / ROOM TO BREATHE.
 
-**Production hold:** No hold recorded in selection v1; artwork still requires its normal review.
+**Status:** Final v7 artwork, Common card and caption approved. Dan authorised brief, website, book and GitHub publication on 24 October 2026. Preparation and user approval do not certify live publication or physical printer/sample acceptance.
 
-**Record:** `BRIEF-C2024-013` → `LORE-CAN-2024-013` / `C2024-013`. Review order is not collector numbering.
+**Record:** `BRIEF-C2024-013` → `LORE-CAN-2024-013` / `C2024-013`. The original review order is now assigned collector number 092 by the approved collection workflow.
 
 ## The moment
 
-Ethereum's Dencun upgrade activated at epoch 269,568, introducing EIP-4844 blob transactions for cheaper temporary rollup data storage.
+Ethereum's Dencun upgrade activated on 13 March 2024 at epoch 269,568. EIP-4844 introduced blob-carrying transactions, giving rollups a separate way to make their data temporarily available. The change targeted the cost of posting rollup data; it did not make every Ethereum transaction free or move ordinary EVM execution into blobs.
 
-**Why it earns a card:** Blob transactions change Ethereum rollup economics.
+## Approved illustration
 
-## Illustration brief
+**Concept:** Room to Breathe.
 
-**Scene:** Ethereum rollup data gains a new temporary storage lane, reducing the burden of sending that data through the old route. Make the new blobs feel like labelled data bundles with expiry, not permanent archives or cryptocurrency coins.
+An orange-jacketed depot worker stands beside three glowing cyan data crates in a spacious loading bay. Crowded older shelves remain behind him. Warm lamps and cyan reflected light contrast with the violet Ethereum city beyond the open bay. The city recalls the collection's approved Merge artwork.
 
-**Composition:** A transit depot with two data routes; the new temporary lane is spacious and clearly marked.
+The worker, depot, city, pallet and truck are fictional metaphors, not a reconstruction of a real upgrade venue. The three drawn crates are an artistic arrangement, not a claim that every block contains exactly three blobs. The final approved artwork remains unchanged at 1060 × 1484 pixels; the crisp-detail revision did not increase its pixel dimensions.
 
-**Mood:** Practical capacity upgrade; soft cyan inside violet infrastructure.
+## Four details in the finished artwork
 
-**Factual boundaries:** Do not say all Ethereum fees vanished, execution moved into blobs, or blob data remains permanently stored by the protocol.
+### 1. Glowing data crates
 
-## Four Easter eggs
+**Type:** Symbolic detail grounded in the upgrade.
 
-Locations are illustration concepts unless explicitly marked as retained. Meaning and historical status must remain clear in the artist handoff.
+The luminous bundles represent the new blob data space used by rollups. They are not coins, permanent archives or containers for ordinary execution. The number of crates is compositional.
 
-### 1. Temporary data crate
+### 2. 269568 loading-bay plaque
 
-**Type:** Historical reference. **Status:** CONCEPT_FOR_REVIEW.
+**Type:** Historical reference on an invented prop.
 
-**Where:** A rounded crate carries an expiry-tag motif.
+The number references Dencun's activation epoch. It is fully visible in the unframed artwork and book, but the fixed HISTROVE logo partially obscures it in the approved card. A full-art close-up makes the clue discoverable without changing the approved composition.
 
-**Meaning:** References the temporary availability of blob data, distinct from permanent execution history.
+### 3. 4096 EPOCHS and the hourglass
 
-**Evidence:** Inherited event-research lead. Check the specific claim against the listed sources before final text/art; placement is illustrative.
+**Type:** Technical reference on an invented cargo tag.
 
-### 2. Rollup loading dock
+The tag refers to the original 4,096-epoch minimum blob-sidecar serving window, roughly 18 days. It suggests temporary availability rather than permanent storage. It does not assert that all copies are forcibly deleted at that exact age.
 
-**Type:** Historical reference. **Status:** CONCEPT_FOR_REVIEW.
+### 4. Star and CANCUN sticker
 
-**Where:** A small rollup vehicle uses the new lane while ordinary transactions have another route.
+**Type:** Symbolic naming reference.
 
-**Meaning:** Connects EIP-4844 to rollup data rather than claiming every transaction uses the same new format.
+The star-and-beach sticker alludes to the combined name: Deneb, a star, and Cancun, the execution-layer upgrade name. It is an illustrative label, not an astronomical depiction or a historical sticker.
 
-**Evidence:** Inherited event-research lead. Check the specific claim against the listed sources before final text/art; placement is illustrative.
-
-### 3. Reusable shelf space
-
-**Type:** Symbolic detail. **Status:** CONCEPT_FOR_REVIEW.
-
-**Where:** An emptied shelf is ready for a later bundle.
-
-**Meaning:** A metaphor for temporary storage capacity, not a literal deletion schedule.
-
-**Evidence:** Creative interpretation; no claim that this prop historically existed.
-
-### 4. Governance envelope rack
-
-**Type:** Collection crossover. **Status:** CONCEPT_FOR_REVIEW.
-
-**Where:** An envelope rack echoes the Arbitrum claim scene near the loading dock.
-
-**Meaning:** Connects an L2 community to the underlying Ethereum upgrade without implying this upgrade belongs only to Arbitrum.
-
-**Evidence:** Intentional collection reference, not an object documented at the event.
-
-**Collection link:** [087 — The Arbitrum Airdrop](https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/briefs/v1/087-the-arbitrum-airdrop.md). Intentional crossover; a forward reference is anachronistic.
+The earlier EIP-4844 plate and the proposed governance-envelope crossover are not present in the selected artwork and are not counted as visible clues.
 
 ## Copy and production handoff
 
-Working title above is proposed. No new final moment phrase is approved. Use the original event post, paper, recording or announcement for a short source-checked shortlist; record its exact location and let Dan agree the line. Brief prose is not a quotation. Rarity and collector number remain unassigned.
+ROOM TO BREATHE. is user-approved original editorial wording, not a quotation from an Ethereum announcement. Preserve the exact v7 artwork and approved Common frame, title baseline, logo, lower fade, QR and SEASON 01 footer. The official printer canvas is 816 × 1110 at 300 DPI, with the locked trim and safe areas. The collector QR is `https://www.histrove.co.uk/crypto/092/`; live activation is verified separately by publication checks.
 
-Apply the [shared brief standard](https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/briefs/v1/brief-standard.md): both pinned image references for actual generation, locked brand/layout/print geometry, natural clue placement and finished-size readability. Existing visual masters, QR and print-release states remain unchanged.
+Canonical master: `cards/crypto/season-01/dencun-master-092`. Historical generation and earlier review states are preserved in source records rather than relabelled as earlier approvals.
 
-## Evidence and open checks
+## Primary sources
 
-Inherited research status: **VERIFIED**. Assessment: **INHERITED_RESEARCH_WITH_SELECTION_REVIEW**. These are prior research labels, not certification of the new Easter egg props.
+- [Ethereum Foundation — Dencun Mainnet Announcement](https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement): date, epoch, naming and upgrade scope.
+- [Ethereum.org — Dencun](https://ethereum.org/roadmap/dencun/): historical purpose and rollup data-cost context.
+- [EIP-4844 — Shard Blob Transactions](https://eips.ethereum.org/EIPS/eip-4844): blob data, execution limits and the separate blob fee market.
+- [Deneb networking specification](https://ethereum.github.io/consensus-specs/specs/deneb/p2p-interface/): the original minimum blob-sidecar serving window.
 
-**Retained event flags:** No additional event flag in selection v1; targeted clue and final-copy checks still apply.
-
-Check exact text/numbers, technical or legal detail, and any recognisable period object before rendering. Symbolic props and crossovers must remain labelled interpretations.
-
-### Source leads
-
-- [Ethereum Foundation — Dencun Mainnet Announcement](https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement) — inherited type: PROJECT_PRIMARY.
-- [Ethereum.org — Dencun](https://ethereum.org/roadmap/dencun/) — inherited type: PROJECT_PRIMARY.
-
-[Canonical year research](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/years/2024.json); [selection record](https://github.com/d4np4yn3-netizen/Lore/blob/main/archive/crypto-history/selection/v1/selection-v1.json).
+These sources support the event and technical references, not the existence of the fictional scene or props. Physical reproduction, sample approval and commercial rights review remain separate.

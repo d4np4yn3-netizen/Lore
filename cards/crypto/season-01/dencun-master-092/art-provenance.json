@@ -1,0 +1,128 @@
+{
+  "card": "092",
+  "title": "DENCUN",
+  "concept": "Room to Breathe",
+  "date": "13 MAR 2024",
+  "rarity": "Common",
+  "status": "APPROVED_FOR_BRIEF_WEBSITE_BOOK_GITHUB",
+  "revision": "v7 clean-line and smooth-fill refinement, quieter original expression restored",
+  "generated_at": "2026-10-24T18:11:49Z",
+  "tool": "built-in image_gen.imagegen",
+  "prompt": "generation-prompt-v7b.txt",
+  "original_generated_file": "exec-3df8d310-aaff-4cce-b37a-31f0419153d0.png",
+  "output": {
+    "file": "HISTROVE-092-Dencun-Room-to-Breathe-Art-v7-Detail-Refinement.png",
+    "sha256": "cf38d3ddacb4ed7bbd0365d08362cba1d81c6dc9d146fe1e87c7ac0f27f7afa3",
+    "bytes": 2309584,
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "role": "final-review-candidate"
+  },
+  "actual_input_images": [
+    {
+      "file": "HISTROVE-092-Dencun-Room-to-Breathe-Art-v7a-Cleaner-Wide-Smile.png",
+      "sha256": "0c237db05f918896aee98d4825f60c03efbbec7048fbb9d63cc94a2e97a0b531",
+      "bytes": 2418517,
+      "dimensions_px": [
+        1060,
+        1484
+      ],
+      "role": "cleaner-first-pass-edit-target"
+    },
+    {
+      "file": "HISTROVE-092-Dencun-Room-to-Breathe-Art-v6-Cyan-Bounce.png",
+      "sha256": "a3755818130eeb9ae464565e1c3d56a5044da1d0cdcb003962e4dd05019e9d00",
+      "bytes": 2317377,
+      "dimensions_px": [
+        1060,
+        1484
+      ],
+      "role": "original-expression-reference"
+    },
+    {
+      "file": "references/021-hodl.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "bytes": 2365820,
+      "dimensions_px": [
+        1060,
+        1484
+      ],
+      "role": "mandatory-style-reference",
+      "source": "https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/birth-of-hodl-master-02/art.png"
+    },
+    {
+      "file": "references/038-cryptopunks.png",
+      "sha256": "21027f7ece79e3a6ca3b205f631cb4a648027d4028c27d77c760d36555728abb",
+      "bytes": 2455091,
+      "dimensions_px": [
+        1060,
+        1484
+      ],
+      "role": "mandatory-style-reference",
+      "source": "https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/cryptopunks-master-038/art.png"
+    },
+    {
+      "file": "references/046-cryptokitties.png",
+      "sha256": "6f40f58ba9e6ff9ac4b56f157e69a4225c20a1ec731e60405b796d40ea23231e",
+      "bytes": 2408921,
+      "dimensions_px": [
+        1060,
+        1484
+      ],
+      "role": "mandatory-style-reference",
+      "source": "https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/cryptokitties-master-046/art.png"
+    }
+  ],
+  "first_pass": {
+    "prompt": "generation-prompt-v7.txt",
+    "target": "HISTROVE-092-Dencun-Room-to-Breathe-Art-v6-Cyan-Bounce.png",
+    "actual_style_references": [
+      "references/021-hodl.png",
+      "references/020-doge.png",
+      "references/038-cryptopunks.png",
+      "references/046-cryptokitties.png"
+    ],
+    "requested_dimensions_px": [
+      2160,
+      3024
+    ],
+    "actual_returned_dimensions_px": [
+      1060,
+      1484
+    ],
+    "result": "Substantially cleaner contours/fills; unintended broader tooth-showing smile led to a second narrowly targeted correction."
+  },
+  "all_four_style_references_hash_verified_and_visually_inspected": true,
+  "all_four_directly_supplied_to_first_pass": true,
+  "final_pass_five_input_limit": "Final facial correction supplied cleaner target + original-expression reference + HODL, CryptoPunks and CryptoKitties. Doge was inspected and was supplied to the first cleanup pass, not the final facial edit.",
+  "source_artwork_approval": "Final v7 detail approved at18:15UTC; framed card and publication/book work approved at18:22UTC24October2026.",
+  "authorization_message_id": "Sentinel_f570146858088191aa0cbcdb7da48cc6",
+  "source_v6_library_file_id": "libfile_9351f7aba4848191b213778823dfe103",
+  "source_v6_zip_library_file_id": "libfile_fa1f77c660048191be42f62ba506d766",
+  "native_dimensions_increased": false,
+  "dpi_change_used": false,
+  "local_art_compositing_sharpening_or_upscaling_used": false,
+  "comparison": "HISTROVE-092-Dencun-v6-v7-Native-Detail-Comparison.png contains unchanged native-pixel crops on a labelled comparison canvas only.",
+  "prior_files_preserved": true,
+  "github_site_book_or_cardframe_changed": false,
+  "final_artwork_approved": true,
+  "pixel_identity_claimed": false,
+  "release_approval_message": "Sentinel_624bb8a0decc81919977447a2218d58c",
+  "source_art_approval_message": "Sentinel_1a0158553c6c819180f5857f6bd5a2d2",
+  "release_artwork": "art.png",
+  "release_artwork_sha256": "cf38d3ddacb4ed7bbd0365d08362cba1d81c6dc9d146fe1e87c7ac0f27f7afa3",
+  "generation_provenance_note": "Original v7 generation record is preserved unchanged in source/provenance-v7.json. Its review-pending flags describe generation-time state, superseded by this release approval.",
+  "release_artwork_edit": false,
+  "framing": "Exact HISTROVE Common template. Artwork bytes unchanged; display is directly vector-rendered at approximately original artwork scale.",
+  "print_resolution": "Official816x1110at300DPI. Native artwork1060x1484. Neither DPI metadata nor display rendering adds illustration detail.",
+  "historical_bounds": [
+    "Temporary data availability for rollups, not free fees for all Ethereum transactions.",
+    "Blob data is not ordinary permanent execution history and is not directly read by EVM execution.",
+    "4096epochs refers to the original minimum blob-sidecar serving window, not an enforced universal exact deletion time.",
+    "Three crates are composition, not a requirement that every block contains exactly three blobs.",
+    "The worker, depot, pallet truck and Ethereum city are fictional symbolic imagery."
+  ],
+  "clue_visibility": "269568 plaque visible in raw art/book and close-up, partially obscured by fixed card logo. 4096tag and star/Cancun sticker remain visible. 4844plate is not present and must not be listed."
+}

@@ -1,0 +1,33 @@
+{
+  "verified_on": "2026-10-24",
+  "primary_sources": [
+    {
+      "title": "Dencun mainnet announcement",
+      "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+      "locator": "Opening announcement, Upgrade Specification and Why Dencun sections",
+      "supports": "Mainnet activation scheduled for epoch 269568 on 13 March 2024. EIP-4844 introduced ephemeral blobs to help reduce L2 fees. Dencun combines Deneb, a star, and Cancun, the Devcon 3 city. Consensus and execution upgrade names are distinguished."
+    },
+    {
+      "title": "Ethereum Dencun overview",
+      "url": "https://ethereum.org/roadmap/dencun/",
+      "locator": "Introduction; activation date; What problem; How is old blob data accessed",
+      "supports": "Retrospective confirmation that Dencun activated at epoch 269568 on 13 March 2024. Rollups execute separately from Mainnet; the new temporary data space was intended to reduce rollup costs. Adoption timing varies by rollup. Older data may be retained by other services and individual operators."
+    },
+    {
+      "title": "EIP-4844 specification",
+      "url": "https://eips.ethereum.org/EIPS/eip-4844",
+      "locator": "Abstract, Parameters and Gas accounting",
+      "supports": "Blob-carrying transactions add data unavailable directly to EVM execution. Blob gas has a separate fee mechanism from ordinary gas. Parameter MIN_EPOCHS_FOR_BLOB_SIDECARS_REQUESTS is 4096. The illustration does not assert a block blob count."
+    },
+    {
+      "title": "Deneb networking specification",
+      "url": "https://ethereum.github.io/consensus-specs/specs/deneb/p2p-interface/",
+      "locator": "Configs and BlobSidecarsByRange",
+      "supports": "MIN_EPOCHS_FOR_BLOB_SIDECARS_REQUESTS is 4096 and is defined as the minimum epoch range over which a node must serve blob sidecars. This is not an instruction that all stored copies be destroyed at an identical timestamp."
+    }
+  ],
+  "artwork_interpretation": "The worker, depot, pallet jack and city are fictional editorial metaphors. The three cyan crates stand for temporary blob data; their count is composition, not a protocol assertion. Star and Cancun form one combined naming clue.",
+  "caption_status": "ROOM TO BREATHE. is user-approved editorial copy, not a quotation.",
+  "limits": "No claim that Dencun made all Ethereum transactions free, that blob contents execute transactions, that every blob copy must be deleted at exactly 18 days, that all rollups immediately adopted blobs, or that three illustrated crates are a fixed protocol count. No absent 4844 plate is described.",
+  "historical_scope": "The chapter describes the Dencun activation and original minimum serving window, not a claim about current throughput limits or later Ethereum upgrades."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "VISUALLY_REVIEWED_DETAIL_REFINEMENT_CANDIDATE",
+  "native_pixel_review": {
+    "source_dimensions_px": [
+      1060,
+      1484
+    ],
+    "final_dimensions_px": [
+      1060,
+      1484
+    ],
+    "resolution_increase": false,
+    "material_cleanliness_improvement": true,
+    "cleaner_jacket_seams_and_fasteners": true,
+    "cleaner_crate_corners_latches_bolts_and_grids": true,
+    "smoother_colour_fills_less_mottling": true,
+    "not_merely_amplified_sharpness_or_grain": true,
+    "quiet_original_expression_approximately_restored": true
+  },
+  "drift_checks": {
+    "same_character_identity_and_pose": true,
+    "hands_anatomically_readable": true,
+    "leg_boot_pallet_clearance_retained": true,
+    "equipment_and_handle_placement_substantially_preserved": true,
+    "three_crates_retained": true,
+    "warm_lamps_and_cyan_body_bounce_preserved": true,
+    "269568_correct": true,
+    "4096_EPOCHS_correct": true,
+    "CANCUN_star_beach_correct": true,
+    "no_frame_title_logo_QR_annotation": true
+  },
+  "limitations": [
+    "Both files remain1060 x1484. The first request for2160 x3024 was not honoured by the image tool; this is a cleaner redraw, not a higher-resolution master.",
+    "Cleaner result is more explicitly cel-shaded with stronger contours and slightly punchier orange/cyan contrast.",
+    "Small background and internal grid details vary. Exact pixel identity or forensic restoration is not claimed.",
+    "Residual purposeful texture remains chiefly in floor and distant city.",
+    "User approval was conditional on detail quality; the new candidate still needs review, not automatic publication."
+  ],
+  "comparison_method": "Same coordinate crop rectangles pasted at1:1 pixel scale from v6 and final v7; no resizing, sharpening or colour adjustment. Coordinates in native-comparison-regions-v7.json.",
+  "sources": [
+    "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+    "https://ethereum.org/roadmap/dencun/",
+    "https://eips.ethereum.org/EIPS/eip-4844"
+  ]
+}
