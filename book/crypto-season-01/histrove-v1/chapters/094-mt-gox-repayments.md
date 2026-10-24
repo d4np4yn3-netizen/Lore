@@ -1,0 +1,24 @@
+# 094 - Mt.Gox Repayments
+
+05 JUL 2024 / BITCOIN / COMMON
+
+THE WAIT BEGINS TO END.
+
+## The story
+
+On 5 July 2024, the MtGox rehabilitation trustee announced repayments in Bitcoin and Bitcoin Cash to some rehabilitation creditors through designated cryptocurrency exchanges. More than ten years after the exchange collapsed, a long-awaited stage of the rehabilitation plan had begun. This was a partial distribution process, not an announcement that every creditor had received funds or been made whole.
+
+Other eligible creditors were still asked to wait. The trustee listed account validation, arrangements with the designated exchanges, and checks that repayments could proceed safely and securely among the remaining conditions. The route through exchanges matters: the announcement did not describe customers collecting coins at a reopened MtGox office. The July notice records the start of these repayments, not the completion of every claim.
+
+The same fictional customer from card 024 returns to the same imagined building. His rain-soaked jacket and scarf have given way to a mustard jumper, sunlight and a quieter expression as he reads a letter. The red satchel now carries a cream 2024 envelope beside an old withdrawal paper. The doors are still chained. This paired scene suggests relief after a decade of waiting without turning that relief into a promise of full recovery. THE WAIT BEGINS TO END. is an editorial caption for the beginning of a process, not a declaration that the story is over.
+
+## Details in the artwork
+
+1. **The 2024 envelope** The cream envelope in the satchel answers the future-dated envelope on card 024. Its large 2024 marks the repayment year, not a claim that every case ended then.
+2. **Two assets and a route** Tiny asset markings and a boxed routing stamp on the envelope refer to Bitcoin, Bitcoin Cash and repayment through designated exchanges. These miniature clues need the enlarged artwork.
+3. **The old withdrawal paper** The worn sheet beside the envelope still reads WITHDRAWAL. It keeps the original problem beside the new correspondence, linking this scene to the customer's earlier wait.
+4. **The same locked building** The familiar sign, doorway and chained handles return in sunlight. The setting links the pair; the unchanged lock makes clear that the exchange has not reopened.
+
+## Source and art note
+
+Sources: [MtGox filing, 28 February 2014](https://www.mtgox.com/img/pdf/20140228-announcement_eng.pdf); [Repayments, 5 July 2024](https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf). Fictional customer, building and correspondence; not documentary evidence. The caption is editorial, not a quotation. Details are drawn from the approved full artwork, with tiny labels not guaranteed legible at card size. Native art: 1060 x 1484; 128.21 effective PPI at A4. Physical print acceptance remains pending.
