@@ -1,0 +1,24 @@
+# 093 - The Fourth Halving
+
+20 APR 2024 / BITCOIN / COMMON
+
+6.25 TO 3.125.
+
+## The story
+
+On 20 April 2024, Bitcoin reached block 840,000 and its fourth halving. The new-coin subsidy fell from 6.25 to 3.125 BTC per block. Between the first and fourth milestones, the 2016 halving had reduced it from 25 to 12.5 BTC, and the 2020 halving from 12.5 to 6.25 BTC. Each step followed another 210,000 blocks.
+
+A halving is part of Bitcoin's existing issuance rules, not a software upgrade or a calendar alarm. It reduces newly created bitcoin, not the coins people already hold. Transaction fees are separate from the subsidy. The rule does not itself restrict buying, determine mining difficulty or guarantee a higher market price.
+
+The smaller golden tributary revisits the same imagined valley twelve years after card 015. The main river continues: existing coins have not been cut in half. The standing miner recalls the earlier explorer through the headlamp, jacket and backpack. Put 015 on the left of 093 to discover the hidden landscape across their borders. The artwork compares two moments through one panorama; it does not depict simultaneous events or promise future wealth.
+
+## Details in the artwork
+
+1. **The fourth milestone** 840,000 identifies the fourth halving block. NEW SUBSIDY makes clear that the reduced flow represents newly issued bitcoin.
+2. **6.25 to 3.125 BTC** The inscription preserves the exact subsidy figures. The smaller outlet contrasts with 015 without shrinking the existing river.
+3. **Four tallies** Four engraved strokes above the plaque answer the single stroke on card 015 and mark the fourth milestone.
+4. **A familiar explorer** The standing miner repeats the headlamp, teal jacket and backpack from the earlier scene, tying the two cards together.
+
+## Source and art note
+
+Sources: [Bitcoin halving history](https://bitcoin.org/en/halving); [Bitcoin developer guide: block chain](https://developer.bitcoin.org/devguide/block_chain.html). Fictional editorial panorama, not a real location or price forecast. Native art: 750 x 1048 pixels; 90.71 effective PPI at this A4 fit. Print QA pending; no native-resolution enhancement claimed.

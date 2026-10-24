@@ -1,0 +1,57 @@
+{
+  "status": "Review only. No publication or print release.",
+  "source_pixels": [
+    1501,
+    1048
+  ],
+  "source_sha256": "c5406ebab1b49b6448c3c4bbe1ee4cf276b5dc89356b0918543ae6905b4d328f",
+  "split": "Removed one column from the far right outer edge only. Split the remaining 1500 pixels at x=750, preserving every centre pixel and common vertical alignment. Each art crop is 750 by 1048.",
+  "rendering": "Native image tool made the targeted right-outlet correction. The full panorama was then split identically and rendered through unchanged official templates. No detail upscaling is claimed.",
+  "cards": [
+    {
+      "number": "015",
+      "rarity": "legendary",
+      "native_crop_pixels": [
+        750,
+        1048
+      ],
+      "source_crop_box": [
+        0,
+        0,
+        750,
+        1048
+      ],
+      "template_geometry_unchanged": true,
+      "template_sha256": "daa36317500df84c88a79136c9007aa33a828e875dc2037019d86b586a2e156e",
+      "qr_decoded": [
+        "https://lore-site-v1.vercel.app/crypto/015/"
+      ],
+      "qr_status": "Existing approved 015 destination; this proof does not update its story.",
+      "caption_status": "EXISTING_APPROVED_EDITORIAL_COPY"
+    },
+    {
+      "number": "093",
+      "rarity": "common",
+      "native_crop_pixels": [
+        750,
+        1048
+      ],
+      "source_crop_box": [
+        750,
+        0,
+        1500,
+        1048
+      ],
+      "template_geometry_unchanged": true,
+      "template_sha256": "f949afaa887319b6ccb0a33cfeb5f4179370fdea98c51a52ab2b033c34ee7c79",
+      "qr_decoded": [
+        "https://www.histrove.co.uk/crypto/093/"
+      ],
+      "qr_status": "Intended future route, not published or activated by this proof.",
+      "caption_status": "USER_CONFIRMED_EXACT_EDITORIAL_NUMBERS"
+    }
+  ],
+  "visual_inspection": "The right stream now runs along a supported floor and steps through the outlet to the existing cascade. Plaque numbers, miners, continuous river and mountain composition visually preserved. Both rare-tier frames and complete plaques remain visible; both QR codes decoded. The edit is not claimed pixel-identical outside the outlet.",
+  "style_references": "All four current pinned raw references were hash-checked, visually inspected and supplied directly to this edit.",
+  "detail_note": "The close-up is a 4x display enlargement of a native 190x185 crop, not new image detail."
+}
