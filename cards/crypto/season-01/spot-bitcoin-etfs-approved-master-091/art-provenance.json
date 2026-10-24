@@ -1,0 +1,61 @@
+{
+  "sha256": "fcbe96d846a2a0de2e4520a0c7706cd0a923fe74f1c70e7a0761d4f4cc00d33b",
+  "final_input_confirmed": true,
+  "approval_condition_met": true,
+  "revision": "v10 label-only composite",
+  "native_dimensions": [
+    1060,
+    1484
+  ],
+  "generation": "Built-in image generation, followed by user-authorized local label-only compositing. No artwork regeneration at release.",
+  "approved_source_v8_sha256": "706953eedbc69fee46a2ebde8e0831ad3a06d8514afcd15cf6aba85211366bab",
+  "label_donor_v9_sha256": "988de8a8a551dab3df7f9b9cb9b45e0cb52f411b281b0ff6963e27186b4d31ec",
+  "label_patch": {
+    "bounds_xyxy_right_bottom_exclusive": [
+      369,
+      410,
+      400,
+      434
+    ],
+    "dimensions": [
+      31,
+      24
+    ],
+    "changed_pixels": 744,
+    "changed_pixels_outside_mask": 0,
+    "user_authorization_message": "Sentinel_a483d8c034d481918f8f6c47bf3926fe"
+  },
+  "release_approval": "Sentinel_fc410b4cfb788191b70ddcd0de44a9a9",
+  "character_references": [
+    {
+      "card": "021",
+      "path": "cards/crypto/season-01/birth-of-hodl-master-02/art.png",
+      "sha256": "412f3c10be87a73afbf04c292d5bae605382189f6f34bd925b6cfb77555632d1",
+      "role": "Original HODL character and whisky bottle callback"
+    },
+    {
+      "card": "055",
+      "path": "cards/crypto/season-01/black-thursday-master-055/art.png",
+      "sha256": "f694c4433f2271c5f3d26d53610573fba2f4e3f639681608c9ac6888632b2370",
+      "role": "Returning HODL character identity"
+    }
+  ],
+  "geography_reference": {
+    "title": "Lower Manhattan, New York skyline from Liberty Island 2021",
+    "author": "Percival Kestreltail",
+    "date": "2021-04-23",
+    "url": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan,_New_York_skyline_from_Liberty_Island_2021.jpg",
+    "license": "CC BY-SA 3.0 Unported",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sha256": "e6964ee90805691b2ccf3b3a891232b05c8821f75e1d34b05fe79c2396be9ebd",
+    "use": "Provided as a geographic reference to image generation; final skyline is an anime stylization. Unmodified reference photograph retained with attribution.",
+    "limits": "Fictional elevated paper mountain and artistic sunrise. Approximate northeast view toward Lower Manhattan; no claim of exact camera position or sunrise astronomy. The reference license is documented; this record is not a legal clearance opinion on the final illustration."
+  },
+  "historical_bounds": [
+    "The event is SEC approval of exchange rule changes for spot Bitcoin ETP shares, not endorsement of Bitcoin.",
+    "One order, Release 34-99306, approved eleven proposals; do not infer all eleven products began spot trading on 11 January.",
+    "The 2013 document is a filing, not a denial.",
+    "Document headings and dates are historical references; body copy is illustrative, not facsimile legal text."
+  ],
+  "resolution": "No upscaling or DPI change is represented as restored artwork detail."
+}

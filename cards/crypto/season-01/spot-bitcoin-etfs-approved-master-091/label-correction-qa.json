@@ -1,0 +1,39 @@
+{
+  "revision": "v10",
+  "method": "Paste existing imagegen-corrected cream-label interior onto unchanged approved v8.",
+  "authorization_message": "Sentinel_a483d8c034d481918f8f6c47bf3926fe",
+  "source_sha256": "706953eedbc69fee46a2ebde8e0831ad3a06d8514afcd15cf6aba85211366bab",
+  "donor_sha256": "988de8a8a551dab3df7f9b9cb9b45e0cb52f411b281b0ff6963e27186b4d31ec",
+  "output_sha256": "fcbe96d846a2a0de2e4520a0c7706cd0a923fe74f1c70e7a0761d4f4cc00d33b",
+  "output_dimensions": [
+    1060,
+    1484
+  ],
+  "patch_box_xyxy_right_bottom_exclusive": [
+    369,
+    410,
+    400,
+    434
+  ],
+  "mask_pixels": 744,
+  "changed_pixels": 744,
+  "changed_pixels_outside_mask": 0,
+  "outside_mask_exact_pixel_identity": true,
+  "patch_equals_generated_donor": true,
+  "art_scaling_or_sharpening": "None.",
+  "proof_magnification": "Label magnification uses nearest-neighbor only for inspection, not new image detail.",
+  "status": "Passed: composite and official native-card proof visually verified.",
+  "visual_qa": {
+    "spelling": "WHISKY confirmed in native crop and nearest-pixel magnification.",
+    "patch_edges": "No visible rectangle seam at native size; patch remains within existing cream-label interior.",
+    "geometry": "Bottle, label outline, pocket and all other scene geometry exactly unchanged outside patch.",
+    "sharpness": "Original v8 pixels retained everywhere outside label; softened v9 full artwork rejected as master."
+  },
+  "card_proof_qa": {
+    "legendary_template": "Preserved official geometry, date, title, FINALLY. caption, gold border, logo and QR.",
+    "logo_flag": "Clear gap unchanged.",
+    "bottle": "Same size and placement, label WHISKY visible at native display size.",
+    "print": "816 x 1110 at300DPI; no claims of additional detail from DPI."
+  },
+  "release_status": "Approved for site, GitHub and book on 24 October 2026; publication is performed separately."
+}
