@@ -708,35 +708,37 @@
   },
   "mt-gox": {
     "image": {
-      "src": "/archive/024-histrove-border-card.webp",
+      "src": "/archive/024-mt-gox-matched-histrove-border-card.webp",
       "width": 600,
       "height": 863
     },
     "artwork": {
-      "src": "/archive/024-art.webp",
+      "src": "/archive/024-mt-gox-matched-art.webp",
       "width": 1060,
       "height": 1484
     },
     "pages": [
       {
-        "src": "/archive/024-histrove-page-1.webp",
-        "width": 778,
-        "height": 1100
+        "src": "/archive/024-mt-gox-matched-histrove-page-1.webp",
+        "width": 893,
+        "height": 1263
       },
       {
-        "src": "/archive/024-histrove-page-2.webp",
-        "width": 778,
-        "height": 1100
+        "src": "/archive/024-mt-gox-matched-histrove-page-2.webp",
+        "width": 893,
+        "height": 1263
       }
     ],
-    "originalArt": "cards/crypto/season-01/mt-gox-master-024/art.png",
-    "originalBook": "book/crypto-season-01/histrove-v1/024-mt-gox-histrove-v1.pdf",
+    "originalArt": "cards/crypto/season-01/mt-gox-matched-master-024/art.png",
+    "originalBook": "book/crypto-season-01/histrove-v1/024-mt-gox-matched-histrove-v2.pdf",
+    "assetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/6d8235365629b07d22f7c1f87c5dfb21aea06468/",
+    "bookAssetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/6d8235365629b07d22f7c1f87c5dfb21aea06468/",
     "hashes": {
-      "image": "bf40731ddd2e2255cca578498d93a1500a5773359ac4d5cefccd4a32a052fb77",
-      "artwork": "70023926bec7e14197ec87c832e0ff84b857c099ad6bbe06ecc65722dfa81faf",
-      "webImage": "b8e51908788b0c9ab03f9b67380f423396ed2d8e832d086270d2f01b6e80e6df"
-    },
-    "bookAssetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/937cbd36de92fd338fbc184ad3b2c29771d40812/"
+      "image": "f4a8ef7c33651520b6c11069c85a0dd1a2d392c24161f8adcd7bfa6a40e841a2",
+      "artwork": "9a880c8477bae25a35dd91c083af25c8ef7df15a517a2c1344dff311f38735bc",
+      "book": "f332118a3a2673222438f79bf093c40dbb6844c968ec047eb454a8fb9925a5ec",
+      "webImage": "f95365be49e090e8d898600f63d5aaf9bfbb68410b102ef6378ab4127b8a9b9c"
+    }
   },
   "monero-launches": {
     "image": {
@@ -3032,6 +3034,40 @@
       "artwork": "686acc062fa785db383e60040c75db2c524c91963ccccc65128cb26296f5f5b7",
       "book": "a032c280430f5b1e11cca589ffd7945baef7340939c2ab5c86c2b051851e2f86",
       "webImage": "96b6323a9c70605cab1b242f8289f7ec80e04267d6ec95b354799c75d13cfb59"
+    }
+  },
+  "mt-gox-repayments": {
+    "image": {
+      "src": "/archive/094-mt-gox-repayments-histrove-border-card.webp",
+      "width": 600,
+      "height": 863
+    },
+    "artwork": {
+      "src": "/archive/094-mt-gox-repayments-art.webp",
+      "width": 1060,
+      "height": 1484
+    },
+    "pages": [
+      {
+        "src": "/archive/094-mt-gox-repayments-histrove-page-1.webp",
+        "width": 893,
+        "height": 1263
+      },
+      {
+        "src": "/archive/094-mt-gox-repayments-histrove-page-2.webp",
+        "width": 893,
+        "height": 1263
+      }
+    ],
+    "originalArt": "cards/crypto/season-01/mt-gox-repayments-master-094/art.png",
+    "originalBook": "book/crypto-season-01/histrove-v1/094-mt-gox-repayments-histrove-v1.pdf",
+    "assetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/6d8235365629b07d22f7c1f87c5dfb21aea06468/",
+    "bookAssetOrigin": "https://raw.githubusercontent.com/d4np4yn3-netizen/Lore/6d8235365629b07d22f7c1f87c5dfb21aea06468/",
+    "hashes": {
+      "image": "f682bee26cefd8e0522e7a73e33ab909c3f255d303fe8d3d691303b3ac2b503b",
+      "artwork": "ef1e4e79c53ed9de115bf0fe4381b25a90a8e22d5cb337ae44638a7fc847de51",
+      "book": "3d2a486cd4f8a78b36917ba94ac61c7e1ea91f7bb62b681706309c724b4b92d5",
+      "webImage": "33faca2c20f9bc0da328bbe0cd444fa5844b2f22156029bac6dd27e6c776c165"
     }
   }
 }

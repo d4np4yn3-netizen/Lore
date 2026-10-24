@@ -16,15 +16,18 @@ for(const id of ids)assert(currentIds.includes(id),'Historical card retained '+i
 assert.deepEqual(Object.keys(closeups).sort(),currentIds);
 const pair015=read('media/015-golden-river-manifest.json');
 assert.equal(pair015.number,'015');assert.equal(pair015.print_status,'pending-print-qa');assert.equal(pair015.supersedes.historical_assets_preserved,true);
+const pair024=read('media/024-mt-gox-matched-manifest.json');
+assert.equal(pair024.number,'024');assert.equal(pair024.supersedes.historical_assets_preserved,true);
 const originalClueIds=new Set(Object.keys(read('media/pre040-closeups.json')));
-assert.equal(hash(file('media/pre040-closeups.json')),contract.closeupsSHA256);assert.deepEqual(Object.fromEntries(Object.entries(closeups).filter(([id])=>originalClueIds.has(id)).map(([id,crops])=>[id,id==='015'?pair015.supersedes.previous_closeups:crops])),read('media/pre040-closeups.json'),'Prior39 clues preserved');
+assert.equal(hash(file('media/pre040-closeups.json')),contract.closeupsSHA256);assert.deepEqual(Object.fromEntries(Object.entries(closeups).filter(([id])=>originalClueIds.has(id)).map(([id,crops])=>[id,id==='015'?pair015.supersedes.previous_closeups:id==='024'?pair024.supersedes.previous_closeups:crops])),read('media/pre040-closeups.json'),'Prior39 clues preserved');
 let clues=0,pages=0,positions=0;
 for(const [slug,card] of Object.entries(media)){
  const id=card.image.src.match(/\/(\d{3})-/)[1],old=contract.originalMedia[slug],copy=read('app/cards/content/'+id+'.json'),crops=closeups[id];
- if(originalClueIds.has(id)){assert.equal(id==='015'?pair015.supersedes.previous_content_sha256:hash(file('app/cards/content/'+id+'.json')),contract.contentAfterBrandOnly[id],'Brand-only editorial change '+id);
+ if(originalClueIds.has(id)){assert.equal(id==='015'?pair015.supersedes.previous_content_sha256:id==='024'?pair024.supersedes.previous_content_sha256:hash(file('app/cards/content/'+id+'.json')),contract.contentAfterBrandOnly[id],'Brand-only editorial change '+id);
  assert.equal(hash(file('app/crypto/'+id+'/page.js')),contract.qrSourceSHA256[id],'Printed QR source unchanged '+id);
- const historical=id==='015'?pair015.supersedes.previous_media:card;
+ const historical=id==='015'?pair015.supersedes.previous_media:id==='024'?pair024.supersedes.previous_media:card;
  assert.deepEqual(historical.artwork,old.artwork);assert.equal(historical.originalArt,old.originalArt);assert.equal(historical.assetOrigin,old.assetOrigin);assert.equal(historical.hashes.artwork,old.hashes.artwork);
+ if(id==='024'){assert.equal(card.originalArt,pair024.art.path);assert.equal(card.hashes.artwork,pair024.art.sha256);assert.equal(card.assetOrigin,pair024.asset_origin);assert.equal(hash(file('app/cards/content/024.json')),pair024.current_site_content_sha256);}
  if(id==='015'){assert.equal(card.originalArt,pair015.art.path);assert.equal(card.hashes.artwork,pair015.art.sha256);assert.equal(card.assetOrigin,pair015.asset_origin);assert.equal(hash(file('app/cards/content/015.json')),pair015.current_site_content_sha256);}
  }
  assert(card.image.src.endsWith(id==='076'?'-digital-border-card.webp':'-histrove-border-card.webp'));assert.equal(card.image.width,600);assert.equal(card.image.height,863);
@@ -40,7 +43,7 @@ for(const [slug,card] of Object.entries(media)){
   points.forEach((p,i)=>{assert(p.x>=24&&p.x<=width-24&&p.y>=24&&p.y<=height-24);for(let j=0;j<i;j++)assert(Math.hypot(p.x-points[j].x,p.y-points[j].y)>=51.999);positions++;});
  }
 }
-assert.equal(ids.reduce((sum,id)=>sum+(id==='015'?pair015.supersedes.previous_closeups:closeups[id]).length,0),323,'Original 323 clues retained');
+assert.equal(ids.reduce((sum,id)=>sum+(id==='015'?pair015.supersedes.previous_closeups:id==='024'?pair024.supersedes.previous_closeups:closeups[id]).length,0),323,'Original 323 clues retained');
 assert.equal(ids.length*2,154,'Original 154 book previews retained');
 assert.equal(clues,Object.values(closeups).reduce((sum,crops)=>sum+crops.length,0));
 assert.equal(pages,Object.values(media).filter(card=>card.bookAvailable!==false).length*2);

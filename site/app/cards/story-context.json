@@ -354,8 +354,8 @@
     ]
   },
   "mt-gox": {
-    "lead": "Mt. Gox filed for civil rehabilitation on 28 February 2014, reporting missing bitcoins at the time.",
-    "useLead": true,
+    "lead": "On 28 February 2014, MtGox applied for civil rehabilitation at the Tokyo District Court. The exchange had closed its website three days earlier. Its announcement initially reported approximately 750,000 customer bitcoins and 100,000 of its own missing, while warning that the full extent was still under investigation. The card date marks the filing, not the first day withdrawals were suspended.",
+    "useLead": false,
     "related": [
       {
         "slug": "four-figures",
@@ -368,6 +368,10 @@
       {
         "slug": "keys-in-your-pocket",
         "reason": "Explore self-custody and the responsibilities of holding private keys"
+      },
+      {
+        "slug": "mt-gox-repayments",
+        "reason": "Return to the same fictional street ten years later, as repayments begin."
       }
     ]
   },
@@ -1370,6 +1374,16 @@
       {
         "slug": "the-first-halving",
         "reason": "Place 015 on the left of 093 to discover the shared Golden River landscape across two historical chapters."
+      }
+    ]
+  },
+  "mt-gox-repayments": {
+    "lead": "On 5 July 2024, the MtGox rehabilitation trustee announced repayments in Bitcoin and Bitcoin Cash to some rehabilitation creditors through designated cryptocurrency exchanges. More than ten years after the exchange collapsed, a long-awaited stage of the rehabilitation plan had begun. This was a partial distribution process, not an announcement that every creditor had received funds or been made whole.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "mt-gox",
+        "reason": "Revisit the 2014 filing and the beginning of the long wait."
       }
     ]
   }

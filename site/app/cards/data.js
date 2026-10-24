@@ -1,3 +1,4 @@
+import chapter094 from './content/094.json';
 import chapter093 from './content/093.json';
 import chapter092 from './content/092.json';
 import chapter091 from './content/091.json';
@@ -350,20 +351,7 @@ export const cards = [
     number: "023/100",
     ...chapter023,
   },
-  {
-    slug: "mt-gox",
-    title: "MT. GOX",
-    rarity: "EPIC",
-    date: "28 FEB 2014",
-    subject: "BITCOIN",
-    phrase: "WITHDRAWALS SUSPENDED.",
-    phraseKind: "editorial",
-    image: 'cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-024-Front-Print-v1.png',
-    artwork: "cards/crypto/season-01/mt-gox-master-024/art.png",
-    book: "book/crypto-season-01/proofs/024-mt-gox-full-art-spread-v1.pdf",
-    number: "024/100",
-    ...chapter024,
-  },
+  {"slug": "mt-gox", "title": "MT. GOX", "rarity": "EPIC", "date": "28 FEB 2014", "subject": "BITCOIN", "phrase": "WITHDRAWALS SUSPENDED.", "phraseKind": "editorial", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-024-Matched-Front-Print-v2.png", "artwork": "cards/crypto/season-01/mt-gox-matched-master-024/art.png", "book": "book/crypto-season-01/histrove-v1/024-mt-gox-matched-histrove-v2.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-024-Matched-Front-Print-v2.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-024-Matched-Front-Print-v2.svg", "source": "https://www.mtgox.com/img/pdf/20140228-announcement_eng.pdf", ...chapter024, number: '024/100' },
   {
     slug: "monero-launches",
     title: "MONERO LAUNCHES",
@@ -620,6 +608,7 @@ export const cards = [
   {"slug": "spot-bitcoin-etfs-approved", "title": "ETFS APPROVED", "rarity": "LEGENDARY", "date": "10 JAN 2024", "subject": "SPOT BITCOIN", "phrase": "FINALLY.", "phraseKind": "Approved editorial caption, not a historical quotation", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-091-Front-Print-v1.png", "artwork": "cards/crypto/season-01/spot-bitcoin-etfs-approved-master-091/art.png", "book": "book/crypto-season-01/histrove-v1/091-spot-bitcoin-etfs-approved-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-091-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-091-Front-Print-v1.svg", "source": "https://www.sec.gov/files/rules/sro/nysearca/2024/34-99306.pdf", ...chapter091, number: '091/100' },
   {"slug": "dencun", "title": "DENCUN", "rarity": "COMMON", "date": "13 MAR 2024", "subject": "ETHEREUM", "phrase": "ROOM TO BREATHE.", "phraseKind": "Approved editorial caption, not a historical quotation", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-092-Front-Print-v1.png", "artwork": "cards/crypto/season-01/dencun-master-092/art.png", "book": "book/crypto-season-01/histrove-v1/092-dencun-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-092-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-092-Front-Print-v1.svg", "source": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement", ...chapter092, number: '092/100' },
   {"slug": "the-fourth-halving", "title": "THE FOURTH HALVING", "rarity": "COMMON", "date": "20 APR 2024", "subject": "BITCOIN", "phrase": "6.25 TO 3.125.", "image": "cards/crypto/season-01/golden-river-fourth-halving-master-093/HISTROVE-Crypto-093-Card.png", "artwork": "cards/crypto/season-01/golden-river-fourth-halving-master-093/art.png", "book": "book/crypto-season-01/histrove-v1/093-fourth-halving-golden-river-histrove-v1.pdf", "printStatus": "pending-print-qa", "source": "https://bitcoin.org/en/halving", ...chapter093, number: '093/100' },
+  {"slug": "mt-gox-repayments", "title": "MT. GOX REPAYMENTS", "rarity": "COMMON", "date": "05 JUL 2024", "subject": "BITCOIN", "phrase": "THE WAIT BEGINS TO END.", "phraseKind": "editorial", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-094-Front-Print-v1.png", "artwork": "cards/crypto/season-01/mt-gox-repayments-master-094/art.png", "book": "book/crypto-season-01/histrove-v1/094-mt-gox-repayments-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-094-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-094-Front-Print-v1.svg", "source": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf", ...chapter094, number: '094/100' },
 ];
 
 export const getCard = slug => cards.find(card => card.slug === slug);
