@@ -5,6 +5,7 @@ export const ASSET_ORIGIN = 'https://raw.githubusercontent.com/d4np4yn3-netizen/
 export const archiveCards = cards.map(card => ({ ...card, id: card.number.split('/')[0], year: Number(card.date.match(/\d{4}/)[0]), media: media[card.slug], printFiles: printFiles.cards[card.number.split('/')[0]], printAssetOrigin: printFiles.cards[card.number.split('/')[0]]?.assetOrigin || printFiles.assetOrigin, sharedPrintBack: printFiles.sharedBack }));
 export const years = [...new Set(archiveCards.map(card => card.year))];
 export const yearNotes = {
+  2024: ['Spot Bitcoin funds reach US exchanges.', 'A decade of applications leads to approval for spot Bitcoin exchange-traded products.'],
   2023: ['Digital artifacts come to Bitcoin.', 'Ordinals opens a new collecting medium with its public mainnet-ready announcement.'],
   2022: ['Crypto reaches the big game.', 'A bouncing QR code brings Coinbase to a Super Bowl television audience.'],
   2021: ['Crypto reaches wider institutions.', 'Tesla adds bitcoin to its balance sheet, digital art reaches a major auction house, and Coinbase enters public markets.'],
