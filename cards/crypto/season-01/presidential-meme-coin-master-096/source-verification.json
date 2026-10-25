@@ -1,0 +1,56 @@
+{
+  "verified_date": "2026-10-25",
+  "scope": "Approved 096 artwork used for book-page preparation and review only. No GitHub, website or canonical book publication authorized.",
+  "approval_evidence": {
+    "user_timestamp_utc": "2026-10-25T11:45:15Z",
+    "message": "i thin kwe got it, approved for the book pages!",
+    "sentinel": "Sentinel_b53947c250c481918be02c7edfc7129c",
+    "scope": "Art v13/frame v5 approved for book preparation; not a final book-text or publication approval."
+  },
+  "approved_art": {
+    "path": "../096-fresh-portrait-free-art-v13.png",
+    "library_file_id": "libfile_0e13dd11d258819192e55222aef77c32",
+    "sha256": "415a3ed990cc89075e126731a99be8da0c0fd8b6a9e6563d3ecf96b539b30044",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "edits": "None"
+  },
+  "source_claims": [
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/truth-social-posts-january-17-2025",
+      "source_kind": "Archived original Truth Social post",
+      "supports": "Trump announced the official meme token on 17 January 2025. Archive explicitly timestamps Pacific time; 18:00 PST converts to 21:00 EST and 02:00 UTC on18 January. Card date follows US announcement date.",
+      "checked": "Full archive entry and timestamp note retrieved; zoneinfo conversion checked."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2083122/000199937125012002/trump-s1_082625.htm",
+      "source_kind": "Canary TRUMP Coin ETF S-1 applicant filing, filed26 August2025",
+      "supports": "Trump-affiliated entities introduced token17 January2025; SPL token onSolana, SOL used for network fees; branding and social/community sentiment central. Private token rather than government currency.",
+      "checked": "Registrant title/date checked. Sections $TRUMP, pp1-2 and12 retrieved. Filing itself explicitly disclaims SEC approval. No price or return claims reused."
+    },
+    {
+      "url": "https://www.senate.gov/art-artifacts/thematic-collections/historic-events/inauguration/2025.htm",
+      "source_kind": "US Senate historical event record",
+      "supports": "Second Trump inauguration took place20 January2025.",
+      "checked": "Official Senate page retrieved; date/location confirmed."
+    }
+  ],
+  "collection_references": {
+    "source": "Read-only local canonical site content in histrove-launch-prep/baseline/site/app/cards/content",
+    "cards": {
+      "038": "Original copper-haired CryptoPunks character",
+      "047": "Professor at Dai experiment",
+      "056": "Solana Mainnet Beta fairground and wheel",
+      "063": "Same professor at Tesla disclosure desk"
+    },
+    "visual_review": "Approved096 art directly inspected. Four details describe visible twoSolanaflags/wheel, professor, punk, 17JAN2025 and20JAN2025 notices."
+  },
+  "editorial_review": {
+    "parent": "Copy reads well, proceed rendering.",
+    "art_note": "Two concise sentences separate fictional venue/crossovers and applicant filing from official endorsement; no recurring legal caveats."
+  },
+  "publication_authorized": false,
+  "book_approval_status": "Prepared for user review; not yet approved for publication."
+}

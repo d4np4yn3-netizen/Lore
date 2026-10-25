@@ -1,0 +1,74 @@
+{
+  "status": "PREVIEW ONLY; no publication or book work",
+  "copy": {
+    "creator-name": "$TRUMP",
+    "title-line-1": "PRESIDENTIAL",
+    "title-line-2": "MEME COIN",
+    "moment-context": "POLITICS MEETS THE MARKET.",
+    "moment-number": "17 JAN 2025",
+    "set-number": "CRYPTO \u2022 SEASON 01 \u2022 096/100"
+  },
+  "copy_status": "Proposed preview copy, including shortened title and original editorial tagline; not a quotation or final approval",
+  "rarity": "Uncommon, proposed in rarity-allocation-review-v2.md",
+  "template_git_blob": "8741cc50f31edc1efc404a81a1129d8e7e854053",
+  "template_sha256": "ebd4a1d69d7495f7b1627e04e7374c379437728eff6087fd1092307a50b606df",
+  "template_audit": "PASS: exact canonical geometry, fonts, type sizes, brand and colour retained; only content slots populated",
+  "title_widths_px": {
+    "PRESIDENTIAL": 566.5625,
+    "MEME COIN": 454.8125
+  },
+  "title_allowance_px": 566,
+  "art_sha256": "415a3ed990cc89075e126731a99be8da0c0fd8b6a9e6563d3ecf96b539b30044",
+  "embedded_art_byte_identical": true,
+  "art_placement": {
+    "x": "14",
+    "y": "14",
+    "width": "872",
+    "height": "1259.625",
+    "preserveAspectRatio": "xMidYMid slice",
+    "id": "card-illustration"
+  },
+  "approved056_pdf_sha256": "2c1dcfbf177ff39b9fc872ae127b7e7a2fd79923013fb58734bfc2006b145fbb",
+  "approved056_source": "libfile_47d7da2fb9bc8191b0da5b6ff074621d",
+  "approved056_display": "Direct 816x1110 Poppler render of user-approved PDF; only page bleed cropped for display, content unedited",
+  "dimensions": {
+    "front": [
+      816,
+      1110
+    ],
+    "individual_card": [
+      672,
+      966
+    ],
+    "pair": [
+      1404,
+      1014
+    ]
+  },
+  "qr_decodes_096": [
+    "https://www.histrove.co.uk/crypto/096/"
+  ],
+  "qr_decodes_056": [
+    "https://lore-site-v1.vercel.app/crypto/056/"
+  ],
+  "qr_route_status": "096 intended collection route encoded for preview; not published or verified live in this task",
+  "files": {
+    "front": "/workspace/scratch/58d5f7ed8606/card096-new-attraction/card-preview/HISTROVE-Crypto-096-Front-Preview-v5.png",
+    "card": "/workspace/scratch/58d5f7ed8606/card096-new-attraction/card-preview/HISTROVE-Crypto-096-Card-Preview-v5.png",
+    "pair": "/workspace/scratch/58d5f7ed8606/card096-new-attraction/card-preview/HISTROVE-056-096-Fairground-Card-Pair-Preview-v5.png"
+  },
+  "framing_caveat": "Modest generative pullback rather than exact affine zoom; framing now gives clear sky behind the HISTROVE logo, separated from roof and flag details. No framing blockers observed.",
+  "font_note": "Canonical fontconfig aliases DejaVu Sans Condensed to bundled DejaVu Sans; actual rendered title/QR gap checked with Inkscape query bounds.",
+  "visual_qa": "PASS: logo clear against sky without roof/flag collision; professor and copper-haired punk remain prominent and inside queue rail; two Solana flags, circular wheel, coherent tent apex, $TRUMP, launch date and inauguration plaque visible. No title/QR collision.",
+  "pair_pixel_audit": "PASS: each pair panel is pixel-identical to the corresponding cropped canonical-card raster, no art retouching or resampling.",
+  "title_widths_px_note": "Advance widths; visible glyphs fit nominal left column. Inkscape actual rendered title right edge 535.915625px, QR left edge 555.14375px, clear gap 19.228125px.",
+  "title_to_qr_gap_print_px": 19.228125,
+  "revision": "v5 card preview, modest zoom-out artwork v13",
+  "art_library_id": "libfile_0e13dd11d258819192e55222aef77c32",
+  "art_local_path": "/workspace/scratch/58d5f7ed8606/card096-new-attraction/096-fresh-portrait-free-art-v13.png",
+  "art_change_authority": "User requested modest pullback for top-right breathing room; frame QA-confirmed v13 only",
+  "card_template_and_copy_audit": "PASS: SVG differs from prior v4 solely in embedded artwork bytes. Typography, rarity, date, title, tagline, QR and placement unchanged.",
+  "approved056_pair_pixel_audit": "PASS: pixel-identical approved056 panel to prior v4 pair",
+  "art_worker_qa_confirmation": "Worker confirmed v13 before framing: wheel visually about 7\u20138% smaller, pavilion pullback slightly greater than figures; characters, rail containment, single apex, two flags, portrait-free state and prior lantern removals retained.",
+  "v5_visual_qa": "Inspected actual pair after rendering on 2026-10-25; exact art embedded without regeneration; both panel pixel audits pass."
+}

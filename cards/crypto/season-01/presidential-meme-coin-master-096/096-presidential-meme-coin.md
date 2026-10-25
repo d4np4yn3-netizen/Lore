@@ -1,0 +1,26 @@
+# 096 - Presidential Meme Coin
+
+17 JAN 2025 / $TRUMP / UNCOMMON
+
+POLITICS MEETS THE MARKET.
+
+## The story
+
+The fairground is open after dark, and a new name dominates the midway. Beneath a glowing $TRUMP marquee, visitors follow red ropes towards a star-covered pavilion. The professor and the copper-haired punk have joined the line, with the familiar Solana wheel behind them.
+
+On 17 January 2025, Donald Trump announced his official meme coin on Truth Social, three days before his second inauguration. His post appeared at 9 p.m. Eastern time, already 2 a.m. on 18 January in UTC. The card follows the announcement's US date, placing the launch on the Friday evening before the presidential ceremony.
+
+$TRUMP was issued by Trump-affiliated entities as an SPL token on Solana. The existing network carried its transactions, with fees paid in SOL. The token brought a political name into a market shaped by online attention, community identity and trading. Its connection to the president-elect was central to the launch; it was a privately issued token, not US government currency.
+
+The new attraction carries that meeting of politics and crypto into the collection's fairground. The wheel recalls Solana's earlier Mainnet Beta card, while familiar visitors draw together other stories from the set. The launch date shines above the entrance; the inauguration is still three days away.
+
+## Details in the artwork
+
+1. **The Solana fairground** Two black Solana flags and the illuminated wheel recall card 056. The fairground once being prepared for visitors now has a new attraction.
+2. **The returning professor** White hair, brass goggles and a pale coat identify the professor from 047 and 063. Here he joins the queue rather than working at a desk or experiment.
+3. **The copper-haired punk** The orange hair and dark jacket bring back the original character from card 038, carrying the CryptoPunks story into the crowd.
+4. **Three days apart** 17 JAN 2025 sits beneath the main marquee. The smaller INAUGURATION / 20 JAN 2025 notice places the launch just before Trump's return to office.
+
+## Source and art note
+
+Sources: [Trump's 17 January post, UCSB archive](https://www.presidency.ucsb.edu/documents/truth-social-posts-january-17-2025); [Canary TRUMP Coin ETF S-1, 26 August 2025](https://www.sec.gov/Archives/edgar/data/2083122/000199937125012002/trump-s1_082625.htm); [US Senate, 2025 inauguration](https://www.senate.gov/art-artifacts/thematic-collections/historic-events/inauguration/2025.htm). The fairground and returning characters are fictional collection crossovers, not a real launch venue; the caption is editorial. The SEC-hosted filing is the applicant's account, not SEC endorsement.
