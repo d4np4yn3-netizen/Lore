@@ -1,0 +1,108 @@
+{
+  "card": "099",
+  "verified_utc": "2026-10-25T18:17:00Z",
+  "scope": "Book proof only; no GitHub/site publication.",
+  "event_date": {
+    "value": "2025-03-06",
+    "basis": "Executive Order 14233 date and signature block; contemporaneous White House fact sheet.",
+    "publication_date": "2025-03-11",
+    "note": "Card and plaque use signing date, not Federal Register publication date."
+  },
+  "caption": {
+    "text": "UNCLE SAM LEARNS TO HODL",
+    "status": "Original editorial caption inherited from card proof; not a quotation. Final book copy approval not asserted."
+  },
+  "claims": [
+    {
+      "claim": "Executive Order 14233 established the Strategic Bitcoin Reserve on 6 March 2025.",
+      "source": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/html/2025-03992.htm",
+      "location": "Heading, section 2 and signature block.",
+      "classification": "Primary presidential order"
+    },
+    {
+      "claim": "Initial capitalization uses eligible Treasury-held finally forfeited Bitcoin; other agencies review transfer authority.",
+      "source": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/html/2025-03992.htm",
+      "location": "Section 3(a).",
+      "classification": "Primary legal text"
+    },
+    {
+      "claim": "Reserve Bitcoin is retained; non-Bitcoin holdings belong to a distinct Digital Asset Stockpile.",
+      "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/",
+      "location": "Creating a Strategic Bitcoin Reserve and Digital Asset Stockpile bullets.",
+      "classification": "Contemporaneous official summary; controlling detail remains EO"
+    },
+    {
+      "claim": "Additional Bitcoin acquisition strategies must be budget neutral without incremental taxpayer costs.",
+      "source": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/",
+      "location": "Treasury and Commerce acquisition-strategy bullet.",
+      "classification": "Contemporaneous official summary; EO section 3(c)"
+    },
+    {
+      "claim": "Hamilton was the first Treasury Secretary; his statue stands on Treasury's south plaza.",
+      "source": "https://home.treasury.gov/south-plaza-hamilton-statue",
+      "location": "Alexander Hamilton (1) and dedication sections.",
+      "classification": "Primary departmental history"
+    },
+    {
+      "claim": "The Federal Register issue was published on 11 March 2025.",
+      "source": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/html/2025-03992.htm",
+      "location": "Issue heading.",
+      "classification": "Primary publication record"
+    }
+  ],
+  "precision_notes": [
+    "Initial reserve eligibility is narrower than all seized Bitcoin. Section 3(a) specifies finally forfeited holdings or holdings satisfying civil money penalties, excluding assets needed for statutory requirements or released under section 3(d).",
+    "Section 3(d) preserves court orders, legal requirements, victim returns and specified enforcement/distribution exceptions. The plaque is a concise reference to the reserve retention rule, not a blanket description of all government-held assets.",
+    "The separate non-Bitcoin stockpile has different stewardship rules; the order does not impose Bitcoin's same reserve-sale rule on every digital asset.",
+    "Budget-neutral strategy development is not evidence of immediate market purchases or an unlimited buying authorization.",
+    "No legal-tender, national currency, investment-return, fixed current reserve balance or current operational-status claim is made.",
+    "Uncle Sam, monumental coin and plaque are fictional visual symbols. Treasury and Hamilton provide a real location reference, not proof of an actual physical Bitcoin installation.",
+    "The removed FINALLY FORFEITED hanging tag, earlier records-room props and brief's El Salvador comparison folder are absent and not described.",
+    "Book uses the full approved v2 image. The card proof's separate 1.10 viewport crop is not applied."
+  ],
+  "brief": {
+    "repository": "d4np4yn3-netizen/Lore",
+    "path": "cards/crypto/season-01/briefs/v1/099-the-us-bitcoin-reserve.md",
+    "git_blob": "fff8bb8eb0ccb1b31be84041e7ca6fbaa66adbe2",
+    "access": "read only"
+  },
+  "rarity_reference": {
+    "path": "cards/crypto/season-01/rarity-allocation-review-v2.md",
+    "git_blob": "19fabd85d7aeee7ccab620bf9d94d7ad5b4207d3",
+    "row": "| 099 | The US Bitcoin Reserve | 2025-03-06 | **Epic** | Proposed |",
+    "note": "Epic used per approved card handoff; allocation review label preserved."
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card099-uncle-sam-hodl/099-uncle-sam-hodl-art-v2.png",
+    "sha256": "911d9600d6728bd1f3b6076cc62d8f4275c79092dd6f6b5198773bd075b4c19e",
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "library_file_id": "libfile_a7312cbea8a88191a0f550860d0c734a",
+    "file_id": "file_00000000cef481f5a6f937cc68c44700",
+    "library_version": 1,
+    "preservation": "Embed exact full native v2 pixels; no edit, crop or v1/v3 substitution."
+  },
+  "approval": {
+    "message_id": "Sentinel_872859b914a08191be05e763fc750998",
+    "time_utc": "2026-10-25T18:14:20Z",
+    "text": "99 approved for the book",
+    "scope": "Approved artwork/card for book preparation; final book proof and publication approval not asserted",
+    "publication_authorized": false
+  },
+  "sources": [
+    {
+      "title": "Executive Order 14233, official text",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-03-11/html/2025-03992.htm"
+    },
+    {
+      "title": "White House, 6 March fact sheet",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/"
+    },
+    {
+      "title": "Treasury, South Plaza and Hamilton statue",
+      "url": "https://home.treasury.gov/south-plaza-hamilton-statue"
+    }
+  ]
+}
