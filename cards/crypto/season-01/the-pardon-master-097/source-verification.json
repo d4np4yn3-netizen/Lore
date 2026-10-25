@@ -1,0 +1,103 @@
+{
+  "card": "097",
+  "verified_utc": "2026-10-25T14:43:00Z",
+  "scope": "Book proof only; no repository/site mutation or publication.",
+  "event_date": {
+    "value": "2025-01-21",
+    "basis": "Signed clemency warrant, page 2.",
+    "announcement_archive": "https://www.presidency.ucsb.edu/documents/truth-social-posts-january-21-2025",
+    "timezone_note": "UCSB archive states its times are Pacific. Pardon announcement at 16:12 PST on 21 January was 00:12 UTC on 22 January; the card uses the warrant date, not converted social-post date."
+  },
+  "claims": [
+    {
+      "claim": "Trump signed a full and unconditional pardon for Ross William Ulbricht on 21 January 2025.",
+      "source": "https://www.justice.gov/pardon/media/1386096/dl",
+      "location": "Page 1 grant line; page 2 date.",
+      "classification": "Primary legal record"
+    },
+    {
+      "claim": "The proposed caption FULL AND UNCONDITIONAL is a contiguous exact excerpt of the warrant's grant line.",
+      "source": "https://www.justice.gov/pardon/media/1386096/dl",
+      "location": "Page 1, line below grantee name.",
+      "quoted_excerpt": "A FULL AND UNCONDITIONAL PARDON",
+      "classification": "Primary legal record; proposed proof copy, user final approval pending"
+    },
+    {
+      "claim": "Ulbricht was arrested on 1 October 2013; the 2015 sentence was life imprisonment.",
+      "source": "https://www.fbi.gov/history/artifacts/ross-william-ulbrichts-laptop",
+      "classification": "Primary agency history"
+    },
+    {
+      "claim": "Silk Road used Tor and a Bitcoin payment system; unlawful goods including illegal drugs were traded.",
+      "source": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+      "location": "Case-history paragraphs and list of seven offences.",
+      "classification": "Primary prosecution account"
+    },
+    {
+      "claim": "Offences included drug trafficking and conspiracies involving computer hacking and money laundering.",
+      "source": "https://www.justice.gov/usao-sdny/pr/ross-ulbricht-aka-dread-pirate-roberts-sentenced-manhattan-federal-court-life-prison",
+      "location": "Seven-offence list near end; general categories corroborated by FBI artifact page.",
+      "classification": "Primary prosecution account"
+    },
+    {
+      "claim": "Ulbricht was released from federal prison in Arizona late on 21 January 2025.",
+      "source": "https://www.investing.com/news/world-news/trump-pardons-silk-road-founder-ulbricht-for-online-drug-scheme-3823505",
+      "location": "Reuters report by Nate Raymond, paragraph beginning with pardon description.",
+      "classification": "Reuters reporting citing Bureau of Prisons records; direct BOP record not retrieved"
+    },
+    {
+      "claim": "A pardon does not signify innocence or erase a federal conviction.",
+      "source": "https://www.justice.gov/pardon/frequently-asked-questions",
+      "location": "What is a pardon? and Does a presidential pardon expunge or erase the conviction?",
+      "classification": "Primary agency explanation"
+    },
+    {
+      "claim": "Ulbricht was held at USP Tucson before the pardon.",
+      "source": "https://freeross.org/exemplary-conduct/",
+      "location": "USP Tucson 2019 image caption and transfer paragraph.",
+      "classification": "Family/advocacy record; preserved pre-release content, not treated as current incarceration status"
+    },
+    {
+      "claim": "Tucson penitentiary facade is real; architect's project confirms Tucson AZ and Bureau of Prisons client.",
+      "source": "https://awarch.com/portfolio-posts/tucson-united-states-penitentiary-federal-prison-camp/",
+      "classification": "Primary architect/project record"
+    },
+    {
+      "claim": "The red shirt is an intentional collection callback to card 016.",
+      "source": "Local approved 016 reference artwork: card097-first-step/references/016-approved-art.png",
+      "classification": "Direct visual inspection, collection design detail"
+    }
+  ],
+  "precision_notes": [
+    "Use only 2015 for the sentencing year. DOJ's 2015 press release is dated 29 May while the pardon warrant names 1 June; this proof does not reconcile or repeat either exact sentencing date.",
+    "The copy says release from Arizona federal custody, rather than claiming direct BOP confirmation of the exact exit or release-night clothing.",
+    "The specific night scene, backpack, folded paper, clothing and lighting are illustrative. The real facade is an architectural reference, not release-night photographic documentation.",
+    "Older book/Glen Park/bookmark concepts from the canonical brief are superseded by current approved illustration; none is described as present.",
+    "No innocence, exoneration, expungement, investment performance, or political endorsement claim is made."
+  ],
+  "brief": {
+    "repository": "d4np4yn3-netizen/Lore",
+    "path": "cards/crypto/season-01/briefs/v1/097-the-pardon.md",
+    "git_blob": "40e05a09bf024045655f76858aadb5341b94a93c",
+    "access": "read only"
+  },
+  "final_art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card097-first-step/097-the-first-step-art-v13-second-lamp-removed.png",
+    "sha256": "5dda9d078303903aa19bd7e6fa7422e2e128196d65a810b6d06fbcc68b13a7ac",
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "library_file_id": "libfile_0785bd1e4eb48191b51dcfd28c148332",
+    "file_id": "file_00000000d57c8230bb1ecda5c2e817ee",
+    "image_policy": "Exact native image embedded; no edits."
+  },
+  "approval": {
+    "user_request": "then lets see the book pages",
+    "sentinel": "Sentinel_309764dfe00881918cce3e1f42f40f82",
+    "time_utc": "2026-10-25T14:35:53Z",
+    "parent_art_confirmation": "Final corrected v13 confirmed ready for book at 14:40 UTC.",
+    "copy_status": "Parent suitable for user proof, final user approval not asserted",
+    "publication_authorized": false
+  }
+}
