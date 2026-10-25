@@ -1,4 +1,7 @@
 import './globals.css';
+import AnalyticsConsentProvider from './components/AnalyticsConsent';
+import { WEB_ANALYTICS_ENABLED } from './analytics-config.mjs';
+import media from './cards/media.json';
 import { SITE_ORIGIN, SITE_TITLE as title, SITE_DESCRIPTION as description } from './site-config';
 import { websiteSchema, jsonLd } from './seo';
 export const metadata = {
@@ -8,4 +11,4 @@ export const metadata = {
   twitter: { card: 'summary_large_image', title, description, images: ['/brand/histrove-social-border.png'] },
   icons: { icon: [{ url: '/brand/histrove-crown.svg', type: 'image/svg+xml' }, { url: '/brand/histrove-icon.png', type: 'image/png', sizes: '192x192' }], apple: '/brand/histrove-apple-icon.png' },
 };
-export default function RootLayout({children}) { return <html lang="en"><body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteSchema) }}/>{children}</body></html>; }
+export default function RootLayout({children}) { return <html lang="en"><body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(websiteSchema) }}/>{WEB_ANALYTICS_ENABLED ? <AnalyticsConsentProvider allowedPaths={['/', '/timeline', '/shop', ...Object.keys(media).map(slug => `/cards/${slug}`)]}>{children}</AnalyticsConsentProvider> : children}</body></html>; }
