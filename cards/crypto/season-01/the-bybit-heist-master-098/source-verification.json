@@ -1,0 +1,116 @@
+{
+  "card": "098",
+  "verified_utc": "2026-10-25T16:35:00Z",
+  "scope": "User-requested book proof only. No GitHub/site publication authorized.",
+  "event_date": {
+    "value": "2025-02-21",
+    "basis": "Bybit incident timeline and Sygnia investigation; FBI describes theft on or about this date.",
+    "later_attribution_date": "2025-02-26",
+    "note": "FBI announcement date is not the card event date."
+  },
+  "caption": {
+    "text": "THE APPROVAL WAS THE DISGUISE",
+    "status": "Proposed editorial caption accepted by parent for user proof, not a source quotation or final user copy approval."
+  },
+  "claims": [
+    {
+      "claim": "Bybit lost approximately $1.5 billion in virtual assets in the 21 February 2025 incident.",
+      "source": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
+      "location": "FBI PSA dated 26 February 2025, opening paragraph.",
+      "classification": "Primary law-enforcement announcement; rounded estimate"
+    },
+    {
+      "claim": "A routine transfer was intended from an Ethereum cold wallet to a warm wallet.",
+      "source": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
+      "location": "Timeline for 21 February and How did the hack happen?",
+      "classification": "Company primary account"
+    },
+    {
+      "claim": "Safe interface resources were tampered with; malicious resources appeared in browser caches of three signers.",
+      "source": "https://www.sygnia.co/blog/sygnia-investigation-bybit-hack/",
+      "location": "JavaScript Resources Modification section.",
+      "classification": "Direct forensic findings"
+    },
+    {
+      "claim": "Three valid signatures authorised a transaction that replaced the wallet implementation with malicious logic.",
+      "source": "https://www.certik.com/blog/bybit-incident-technical-analysis",
+      "location": "Incident Summary and Attack Flow.",
+      "classification": "Original transaction analysis"
+    },
+    {
+      "claim": "After the controlling logic changed, attackers could transfer the wallet assets without additional multisignature approval.",
+      "source": "https://www.sygnia.co/blog/sygnia-investigation-bybit-hack/",
+      "location": "Transaction Execution section.",
+      "classification": "Forensic synthesis of transaction mechanism"
+    },
+    {
+      "claim": "The signing workflow was compromised, rather than Ethereum consensus.",
+      "source": "https://www.certik.com/blog/bybit-incident-technical-analysis",
+      "classification": "Editorial distinction inferred from the documented valid-signature and implementation-change mechanism, corroborated by Sygnia; not a quote"
+    },
+    {
+      "claim": "On 26 February 2025 the FBI attributed the theft to North Korean actors it identifies as TraderTraitor.",
+      "source": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack",
+      "location": "PSA date and first paragraph.",
+      "classification": "Primary attribution, explicitly attributed to FBI"
+    }
+  ],
+  "precision_notes": [
+    "Approximate dollar value is an incident-time loss estimate, not a current valuation. Bybit reports $1.46 billion; FBI rounds to approximately $1.5 billion.",
+    "Three green checks refer to the three actual signers described in forensic evidence, not an assertion about the full signer set or the wallet's general threshold.",
+    "The art is symbolic: no real courier, physical cash/ETH case, actual vault departure or complicit employee is asserted.",
+    "The illustrated figure is fictional, not a portrait or ethnic depiction of an identified attacker.",
+    "The narrative describes a compromised user interface and transaction approval; it does not claim Ethereum consensus, cryptographic signatures, or all Safe contracts were broken.",
+    "No guaranteed-prevention claim is made for Trezor, Ledger or any device. The brief's earlier independent-device sketch is not in the approved art and is not invented as a visible clue.",
+    "No operational exploit code, payload parameters or actionable intrusion sequence is included."
+  ],
+  "brief": {
+    "repository": "d4np4yn3-netizen/Lore",
+    "path": "cards/crypto/season-01/briefs/v1/098-the-bybit-heist.md",
+    "git_blob": "7e3b1cc60469536a3734839714c16144715be95c",
+    "access": "read only"
+  },
+  "rarity_reference": {
+    "path": "cards/crypto/season-01/rarity-allocation-review-v2.md",
+    "git_blob": "19fabd85d7aeee7ccab620bf9d94d7ad5b4207d3",
+    "row": "| 098 | The Bybit Heist | 2025-02-21 | **Rare** | Proposed |",
+    "note": "Allocation review label retained; parent confirmed Rare for this proof."
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card098-perfect-disguise/098-the-perfect-disguise-art-v6-manual-top-skirting.png",
+    "sha256": "5ab13fb73aebcbf6cb0f9e3713c2779f766730e086025cf144903fb607bfa40a",
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "library_file_id": "libfile_07e4af81cfcc81919b3cc35fe7eabfd9",
+    "file_id": "file_00000000eecc81fdaceae1a9fc9b3c3a",
+    "library_version": 1,
+    "preservation": "Exact native pixels must be embedded without edits."
+  },
+  "approval": {
+    "message_id": "Sentinel_27e4b871e3008191a965c025f6fb9e49",
+    "time_utc": "2026-10-25T16:31:48Z",
+    "text": "card appored for book page, looks amazing",
+    "scope": "Approved art for book preparation; book copy/final proof approval pending",
+    "publication_authorized": false
+  },
+  "sources": [
+    {
+      "title": "Sygnia, investigation findings",
+      "url": "https://www.sygnia.co/blog/sygnia-investigation-bybit-hack/"
+    },
+    {
+      "title": "Bybit, incident timeline",
+      "url": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline"
+    },
+    {
+      "title": "CertiK, transaction analysis",
+      "url": "https://www.certik.com/blog/bybit-incident-technical-analysis"
+    },
+    {
+      "title": "FBI, 26 February attribution",
+      "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/north-korea-responsible-for-1-5-billion-bybit-hack"
+    }
+  ]
+}
