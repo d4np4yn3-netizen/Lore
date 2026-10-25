@@ -1,3 +1,4 @@
+import chapter095 from './content/095.json';
 import chapter094 from './content/094.json';
 import chapter093 from './content/093.json';
 import chapter092 from './content/092.json';
@@ -291,15 +292,7 @@ export const cards = [
     ...chapter017,
     source: 'https://www.coindesk.com/markets/2013/10/30/robocoin-launches-bitcoin-atm-in-vancouver', number: '017/100',
   },
-  {
-    slug: 'four-figures', title: 'FOUR FIGURES', rarity: 'COMMON',
-    date: '27 NOV 2013', subject: 'BITCOIN', phrase: 'HOW DO I GET BITCOIN?',
-    image: 'cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-018-Front-Print-v1.png',
-    artwork: 'cards/crypto/season-01/four-figures-master-018/art.png',
-    book: 'book/crypto-season-01/proofs/018-four-figures-full-art-spread-v1.pdf',
-    ...chapter018,
-    source: 'https://www.coindesk.com/markets/2013/11/27/bitcoin-price-hits-1000-after-doubling-in-7-days-what-next', number: '018/100',
-  },
+  {"slug": "four-figures", "title": "FOUR FIGURES", "rarity": "COMMON", "date": "27 NOV 2013", "subject": "BITCOIN", "phrase": "A BULL TAKES ITS FIRST STEPS.", "phraseKind": "editorial", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-018-Front-Print-v2.png", "artwork": "cards/crypto/season-01/four-figures-bull-master-018/art.png", "book": "book/crypto-season-01/histrove-v1/018-four-figures-bull-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-018-Front-Print-v2.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-018-Front-Print-v2.svg", "source": "https://www.coindesk.com/markets/2013/11/27/bitcoin-price-hits-1000-after-doubling-in-7-days-what-next", ...chapter018, number: '018/100' },
   {
     slug: 'ethereum-whitepaper', title: 'ETHEREUM WHITEPAPER', rarity: 'EPIC',
     date: '27 NOV 2013', subject: 'ETHEREUM', phrase: 'MORE THAN JUST MONEY.',
@@ -609,6 +602,8 @@ export const cards = [
   {"slug": "dencun", "title": "DENCUN", "rarity": "COMMON", "date": "13 MAR 2024", "subject": "ETHEREUM", "phrase": "ROOM TO BREATHE.", "phraseKind": "Approved editorial caption, not a historical quotation", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-092-Front-Print-v1.png", "artwork": "cards/crypto/season-01/dencun-master-092/art.png", "book": "book/crypto-season-01/histrove-v1/092-dencun-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-092-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-092-Front-Print-v1.svg", "source": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement", ...chapter092, number: '092/100' },
   {"slug": "the-fourth-halving", "title": "THE FOURTH HALVING", "rarity": "COMMON", "date": "20 APR 2024", "subject": "BITCOIN", "phrase": "6.25 TO 3.125.", "image": "cards/crypto/season-01/golden-river-fourth-halving-master-093/HISTROVE-Crypto-093-Card.png", "artwork": "cards/crypto/season-01/golden-river-fourth-halving-master-093/art.png", "book": "book/crypto-season-01/histrove-v1/093-fourth-halving-golden-river-histrove-v1.pdf", "printStatus": "pending-print-qa", "source": "https://bitcoin.org/en/halving", ...chapter093, number: '093/100' },
   {"slug": "mt-gox-repayments", "title": "MT. GOX REPAYMENTS", "rarity": "COMMON", "date": "05 JUL 2024", "subject": "BITCOIN", "phrase": "THE WAIT BEGINS TO END.", "phraseKind": "editorial", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-094-Front-Print-v1.png", "artwork": "cards/crypto/season-01/mt-gox-repayments-master-094/art.png", "book": "book/crypto-season-01/histrove-v1/094-mt-gox-repayments-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-094-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-094-Front-Print-v1.svg", "source": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf", ...chapter094, number: '094/100' },
+  {"slug": "six-figures", "title": "SIX FIGURES", "rarity": "COMMON", "date": "05 DEC 2024", "subject": "BITCOIN", "phrase": "NOW THE HERD FOLLOWS.", "phraseKind": "editorial", "image": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-095-Front-Print-v1.png", "artwork": "cards/crypto/season-01/six-figures-master-095/art.png", "book": "book/crypto-season-01/histrove-v1/095-six-figures-histrove-v1.pdf", "printerPdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-095-Front-Print-v1.pdf", "editableSvg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-095-Front-Print-v1.svg", "source": "https://www.investing.com/news/stock-market-news/bitcoin-tops-100000-on-optimism-over-trump-crypto-plans-3755630", ...chapter095, number: '095/100' },
 ];
 
 export const getCard = slug => cards.find(card => card.slug === slug);
+

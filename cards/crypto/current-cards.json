@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-25",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 79,
+  "approved_visual_count": 80,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -3911,17 +3911,21 @@
       "creator": "BITCOIN",
       "title_line_1": "FOUR",
       "title_line_2": "FIGURES",
-      "context": "HOW DO I GET BITCOIN?",
+      "context": "A BULL TAKES ITS FIRST STEPS.",
       "moment_label": "27 NOV 2013",
       "set_label": "CRYPTO • SEASON 01 • 018/100",
-      "artwork": "cards/crypto/season-01/four-figures-master-018/art.png",
-      "qr_url": "https://lore-site-v1.vercel.app/crypto/018/",
-      "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
+      "qr_url": "https://www.histrove.co.uk/crypto/018/",
+      "artwork": "cards/crypto/season-01/four-figures-bull-master-018/art.png",
+      "confirmed_lore_owned_route": true,
+      "source_notes": "cards/crypto/season-01/four-figures-bull-master-018/sources.json",
+      "phrase_status": "APPROVED_EDITORIAL",
       "print_release": false,
       "review_only": false,
-      "phrase_status": "APPROVED_CONTINUOUS_EXCERPT_FROM_CONTEMPORARY_INTERVIEW",
-      "phrase_source": "https://www.wired.com/2013/11/bitcoin-one-thousand/",
-      "confirmed_lore_owned_route": true,
+      "qr_mode": "live",
+      "physical_trim_mm": [
+        63,
+        88
+      ],
       "id": "crypto-s01-four-figures",
       "collection": "crypto",
       "season": 1,
@@ -3931,110 +3935,43 @@
       "rarity_status": "APPROVED_COMMON",
       "status": "APPROVED_FOR_PUBLICATION",
       "approved_by": "Dan Payne",
-      "approved_at": "2026-09-30",
-      "approval_quote": "Great. Now all approved, upload to GitHub, make live on the site, and yeah, make the QR code live.",
+      "approved_at": "2026-10-25",
+      "approval_quote": "Approved",
+      "approval_message": "Sentinel_48c78cd237788191a45353c28e205322",
       "publication_approved": true,
-      "qr_mode": "live",
-      "front": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.png",
-      "editable_svg": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.svg",
-      "book_chapter": "book/crypto-season-01/018-four-figures.md",
-      "book_spread": "book/crypto-season-01/proofs/018-four-figures-full-art-spread-v1.pdf",
-      "source_notes": "cards/crypto/season-01/four-figures-master-018/source-notes.md",
-      "approval_record": "cards/crypto/season-01/four-figures-master-018/approval.json",
-      "style_revision": "LORE-CRYPTO-STYLE-v1.1",
-      "finishes": [
-        "standard",
-        "foil"
-      ],
-      "physical_trim_mm": [
-        63,
-        88
-      ],
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-018-Front-Print-v2.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-018-Front-Print-v2.svg",
+      "book_chapter": "book/crypto-season-01/histrove-v1/chapters/018-four-figures-bull.md",
+      "book_spread": "book/crypto-season-01/histrove-v1/018-four-figures-bull-histrove-v1.pdf",
+      "approval_record": "cards/crypto/season-01/four-figures-bull-master-018/approval.json",
       "artwork_file": {
-        "path": "cards/crypto/season-01/four-figures-master-018/art.png",
-        "bytes": 2059048,
-        "sha256": "abf7eb6f9073cd6ab7a93a3e203a86b4c44129da87075164e7ccc1de2d746198"
-      },
-      "current_files": [
-        {
-          "path": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.png",
-          "bytes": 823243,
-          "sha256": "03937a7d39ccfd9a1a8f8bfb80863bb300976313e47dc4dc44e3e6819af1ff5a"
-        },
-        {
-          "path": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.svg",
-          "bytes": 2781353,
-          "sha256": "d9c10c1238ebd799b379c3854e262c03207784cc4687032b4bbb0e3daf042e79"
-        }
-      ],
-      "print_derivative": {
-        "revision": "LORE-CRYPTO-PRINT-v1.0",
-        "canvas_px": [
-          816,
-          1110
-        ],
-        "dpi": 300,
-        "cut_px": [
-          744,
-          1038
-        ],
-        "safe_px": [
-          684,
-          981
-        ],
-        "transform": "translate(46.515 48.921) scale(0.8033)",
-        "print_release": false,
-        "front": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.png",
-        "editable_svg": "cards/crypto/season-01/four-figures-master-018/LORE-Four-Figures-Common-018-Print-v1.svg",
-        "manifest": "cards/crypto/season-01/four-figures-master-018/print-v1-manifest.json",
-        "qr_status": "LIVE_PUBLIC_ROUTE_TO_APPROVED_STORY",
-        "physical_qr_scan_test": false
+        "path": "cards/crypto/season-01/four-figures-bull-master-018/art.png",
+        "bytes": 2942213,
+        "sha256": "451ea95eefed84cfebe2dc11c87261e8d7e2341f3695f717d09a9fa55b0a7794"
       },
       "print_ready": {
         "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
         "png": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-018-Front-Print-v1.png",
-          "bytes": 767210,
-          "sha256": "58881f4ab003cf39ca41f56fd84f64736aac9eda22b42b627c43a36e714375b7"
-        },
-        "pdf": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-018-Front-Print-v1.pdf",
-          "bytes": 3498510,
-          "sha256": "ddf147b2b5eabd73104d245230f3b89a542b8eb6fa7b7dfe0b53f44561114b12"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-018-Front-Print-v2.png",
+          "bytes": 986874,
+          "sha256": "57e5720b193fcde765598bbca1ea689197a1e934a4b9628fa1a6c312c4077005"
         },
         "svg": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-018-Front-Print-v1.svg",
-          "bytes": 3312640,
-          "sha256": "c4cb358aad51b793c5f15b759f84ebd2201a84610012af5adebef565c8e13ac1"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-018-Front-Print-v2.svg",
+          "bytes": 4506672,
+          "sha256": "7eecdb3079646ec91d68ad8b28a4b65f72defa3e99817c2ee969e8b6bcfb7baf"
         },
-        "qa": "cards/crypto/print-ready/histrove-v1/qa/018.json",
-        "layout_approved_at": "2026-10-06",
-        "layout_approved_by": "Dan Payne",
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-018-Front-Print-v2.pdf",
+          "bytes": 4407814,
+          "sha256": "2babd77640dc0a5150b1c035be7f06bea95ec75e16265276b98e5a3e5130d2de"
+        },
+        "qa": "cards/crypto/season-01/four-figures-bull-master-018/card-final-qa.json",
         "physical_print_release": false
       },
-      "historical_print_ready": [
-        {
-          "revision": "LORE-CRYPTO-PRINT-v1.2",
-          "png": {
-            "path": "cards/crypto/print-ready/v1.2/fronts/png/LORE-Crypto-018-Front-Print-v1.2.png",
-            "bytes": 764686,
-            "sha256": "39313031839ea8ee4144e68a808e0ac20e874e0a44517a7152455f2df340b288"
-          },
-          "pdf": {
-            "path": "cards/crypto/print-ready/v1.2/fronts/pdf/LORE-Crypto-018-Front-Print-v1.2.pdf",
-            "bytes": 3205167,
-            "sha256": "77d0b535af11dd77f6207f207c9a5f7c3fce675f926aae6e617025f77650c827"
-          },
-          "svg": {
-            "path": "cards/crypto/print-ready/v1.2/fronts/svg/LORE-Crypto-018-Front-Print-v1.2.svg",
-            "bytes": 2781580,
-            "sha256": "0bc20409bb20b8a3680a99b697c0c9a7fe009eb5c6bdb68a6516982e13920457"
-          },
-          "qa": "cards/crypto/print-ready/v1.2/qa/018.json",
-          "layout_approved_at": "2026-10-06",
-          "layout_approved_by": "Dan Payne",
-          "physical_print_release": false
-        }
+      "finishes": [
+        "standard",
+        "foil"
       ]
     },
     {
@@ -9632,6 +9569,74 @@
       "book_native_effective_ppi": 128.2095238095238,
       "qr_target": "https://lore-site-v1.vercel.app/cards/the-ronin-hack",
       "rights_review": "Fictional puppet-master scene. Five controlled validators illustrate the threshold breach; 29 March marks public disclosure and 23 March the attack. Physical print acceptance and commercial rights remain separate."
+    },
+    {
+      "rarity": "common",
+      "creator": "BITCOIN",
+      "title_line_1": "SIX",
+      "title_line_2": "FIGURES",
+      "context": "NOW THE HERD FOLLOWS.",
+      "moment_label": "05 DEC 2024",
+      "set_label": "CRYPTO • SEASON 01 • 095/100",
+      "qr_url": "https://www.histrove.co.uk/crypto/095/",
+      "artwork": "cards/crypto/season-01/six-figures-master-095/art.png",
+      "confirmed_lore_owned_route": true,
+      "source_notes": "cards/crypto/season-01/six-figures-master-095/sources.json",
+      "phrase_status": "APPROVED_EDITORIAL",
+      "print_release": false,
+      "review_only": false,
+      "qr_mode": "live",
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "id": "crypto-s01-six-figures",
+      "collection": "crypto",
+      "season": 1,
+      "moment_number": 95,
+      "set_size": 100,
+      "event_date": "2024-12-05",
+      "rarity_status": "APPROVED_COMMON",
+      "status": "APPROVED_FOR_PUBLICATION",
+      "approved_by": "Dan Payne",
+      "approved_at": "2026-10-25",
+      "approval_quote": "Approved",
+      "approval_message": "Sentinel_48c78cd237788191a45353c28e205322",
+      "publication_approved": true,
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-095-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-095-Front-Print-v1.svg",
+      "book_chapter": "book/crypto-season-01/histrove-v1/chapters/095-six-figures.md",
+      "book_spread": "book/crypto-season-01/histrove-v1/095-six-figures-histrove-v1.pdf",
+      "approval_record": "cards/crypto/season-01/six-figures-master-095/approval.json",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/six-figures-master-095/art.png",
+        "bytes": 3073698,
+        "sha256": "d661a42587cf7933d4aa35f71b785aaa39a46580f5518ecf9011b32b1253220e"
+      },
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-095-Front-Print-v1.png",
+          "bytes": 1040674,
+          "sha256": "553d2b3a91334377471801f5b82e8446e4e8829e6d6c6cd225d8141bd7cb0437"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-095-Front-Print-v1.svg",
+          "bytes": 4682403,
+          "sha256": "8dd8837dcd16f026ae510786ae214542a079665b6e0e3f7e2f2b3ddc421f3a41"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-095-Front-Print-v1.pdf",
+          "bytes": 4540326,
+          "sha256": "2ee2fd3e5e16f138ea6581bac6d672dc0266e04471b6ede877cb0731fd337cbc"
+        },
+        "qa": "cards/crypto/season-01/six-figures-master-095/card-final-qa.json",
+        "physical_print_release": false
+      },
+      "finishes": [
+        "standard",
+        "foil"
+      ]
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",

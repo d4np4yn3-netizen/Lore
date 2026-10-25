@@ -258,9 +258,13 @@
     ]
   },
   "four-figures": {
-    "lead": "Bitcoin reached a US-dollar price of $1,000 on Mt. Gox on 27 November 2013.",
-    "useLead": true,
+    "lead": "A young bull stands beside a wooden gate, his white blaze bright in the morning light. The valley stretches behind him, quiet and open. On the sign beside the path, bitcoin has acquired a fourth digit.",
+    "useLead": false,
     "related": [
+      {
+        "slug": "six-figures",
+        "reason": "Follow the same bull between Bitcoin’s four-figure and six-figure milestones"
+      },
       {
         "slug": "mt-gox",
         "reason": "Follow the same exchange from a price milestone to insolvency"
@@ -1384,6 +1388,16 @@
       {
         "slug": "mt-gox",
         "reason": "Revisit the 2014 filing and the beginning of the long wait."
+      }
+    ]
+  },
+  "six-figures": {
+    "lead": "The bull from Four Figures returns to the same valley, now broad-shouldered and running at the head of a herd. His white blaze and white foreleg remain unmistakable. Dust rises around the charging animals, and the familiar wooden sign now reads $100,000.",
+    "useLead": false,
+    "related": [
+      {
+        "slug": "four-figures",
+        "reason": "Follow the same bull between Bitcoin’s four-figure and six-figure milestones"
       }
     ]
   }
