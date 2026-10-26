@@ -1,0 +1,142 @@
+{
+  "card": "081",
+  "checked_at_utc": "2026-10-26",
+  "status": "New fast-food book proof; raw art/card approved, book review pending",
+  "publication_authorized": false,
+  "authorization": {
+    "trusted_user_evidence": [
+      {
+        "time_utc": "2026-10-26T20:25:02Z",
+        "quote": "Approved, turn into our hardest ones to one of my favourite cards!",
+        "scope": "Current fast-food card and art approved"
+      },
+      {
+        "time_utc": "2026-10-26T20:25:17Z",
+        "quote": "Let’s see the book and let’s get it approved and uploaded",
+        "scope": "Prepare book for approval before publication"
+      }
+    ],
+    "publication_gate": "No GitHub or site publication until book approved.",
+    "prior_boat_book": "Preserve unchanged; create new fast-food Library identities."
+  },
+  "metadata": {
+    "title": "THREE ARROWS FALLS",
+    "eyebrow": "THREE ARROWS",
+    "date": "JULY 2022",
+    "date_precision": "month",
+    "event_date": "2022-07",
+    "rarity": "Rare",
+    "folio": 162,
+    "folio_rule": "Canonical even story-page folio: 2 times collector number",
+    "caption": "FROM FUND TO FRIES",
+    "caption_status": "Approved scene-linked editorial phrase, not a quotation.",
+    "current_card_qa": "/workspace/scratch/58d5f7ed8606/card081-three-arrows-fastfood/card-proof-v2/QA-v2.json",
+    "current_card_copy": {
+      "creator-name": "THREE ARROWS",
+      "title-line-1": "FALLS",
+      "moment-context": "FROM FUND TO FRIES",
+      "moment-number": "JULY 2022"
+    },
+    "rarity_map": "cards/crypto/season-01/rarity-allocation-review-v2.md",
+    "rarity_map_row": "| 081 | Three Arrows Falls | 2022-07 | **Rare** | Proposed |"
+  },
+  "art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card081-three-arrows-fastfood/081-three-arrows-fastfood-art-v4-card-fit.png",
+    "sha256": "5c644442062411b1179be26069c88ff89c0cd3ae7da36b3eeae06767c5e0fa63",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "library_file_id": "libfile_2cf07d1d64e48191a983421ea236ea9c",
+    "library_version": 3,
+    "file_id": "file_000000004be48209bdf5661f9be863cc",
+    "raw_art_approved": true,
+    "full_pixels_uncropped": true,
+    "card_review_library_id": "libfile_bbcc7d3fc7648191bb7a5761be6d2d3e",
+    "card_review_version": 1
+  },
+  "claims": [
+    {
+      "claim": "3AC entered BVI liquidation on 27 June 2022",
+      "sources": [
+        "https://3acliquidation.com/",
+        "https://www.afslaw.com/sites/default/files/2022-12/%5BDkt.%202%5D%203AC%20Chapter%2015%20Recognition%20Statement.pdf"
+      ],
+      "evidence": "Joint liquidators' official site explicitly states company placed into liquidation on 27 June 2022 pursuant to the BVI court's order. Recognition petition paragraph1 and18 describes proceeding commencing 27 June; it also notes order entry on29 June. Story uses liquidation commencement, not claiming every procedural step occurred27 June.",
+      "distinction": "Not conflated with July Chapter15 filing."
+    },
+    {
+      "claim": "Chapter15 petition filed 1 July 2022 in Southern District of New York",
+      "sources": [
+        "https://www.afslaw.com/sites/default/files/2022-12/%5BDkt.%201%5D%203AC%20Chapter%2015%20Petition.pdf",
+        "https://3acliquidation.com/wp-content/uploads/2022/07/QA-for-3AC-Liquidation-July-28-2022-Update.pdf"
+      ],
+      "evidence": "Filed court document22-10920-mg Doc1 bears Filed07/01/22 stamp; foreign representatives' signatures dated07/01/2022. Liquidator Q&A describes foreign-recognition purpose and asset-preservation/stay relief.",
+      "source_note": "Filed primary court document reproduced by ArentFox Schiff; not an inference from a press-report publication date.",
+      "distinction": "Petition for recognition of existing foreign proceeding, not a newly invented July liquidation date. Book header keeps approved month precision JULY2022."
+    },
+    {
+      "claim": "Voyager announced default on 15,250 BTC and350millionUSDC loan on27 June",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/voyager-digital-provides-market-update-301575492.html"
+      ],
+      "evidence": "Issuer's27 June2022 press release announces notice of default for failure to make required payments and gives exact loan principal15,250BTC and350millionUSDC.",
+      "distinction": "Story dates the announcement, not a claim about the earlier legal delivery date of the notice. No fluctuating USD equivalent, total AUM, or current recoveries claimed."
+    },
+    {
+      "claim": "Borrowing and creditor links transmitted distress; Voyager enteredChapter11 days later",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/voyager-digital-commences-financial-restructuring-process-to-maximize-value-for-all-stakeholders-301581177.html",
+        "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf"
+      ],
+      "evidence": "Voyager statement datelined5 July2022 (distributed6 July) describes Chapter11 petitions and cites prolonged crypto-market volatility/contagion and the3AC loan default. FSOC2022 BoxB printedpages38-40 (PDFpages40-42) documents reported counterparty links, lender losses and market exposures.",
+      "qualifiers": "Issuer explanation is attributed in story. FSOC's account summarizes public reports; it is not a judicial finding of every causal mechanism. Narrative connection between borrowing and transmitted losses is a synthesis of these documented links, not an assertion 3AC alone caused all2022 failures."
+    },
+    {
+      "claim": "Market falls and repayment demands strained3AC",
+      "sources": [
+        "https://www.afslaw.com/sites/default/files/2022-12/%5BDkt.%202%5D%203AC%20Chapter%2015%20Recognition%20Statement.pdf",
+        "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf"
+      ],
+      "evidence": "Verified petition paragraphs1 and18 describe collapse amid cryptocurrency market fluctuations, defaults on loan obligations, creditors' demands and liquidation proceedings. FSOCBoxB describes reported exposures and leverage.",
+      "omitted_to_avoid_overclaim": "No invented leverage ratio, precise Terra/GBTC loss amounts, founder culpability finding, lender conspiracy, guaranteed recoveries or broad claim every crypto firm failed because of3AC."
+    }
+  ],
+  "visual_details": [
+    {
+      "title": "THREE ARROWS DOWN",
+      "observed": "Three down arrows on wall sign, dark apron and red fries carton."
+    },
+    {
+      "title": "THE JACKET AND TIE",
+      "observed": "Dark suit jacket and red striped tie hanging behind worker at left."
+    },
+    {
+      "title": "THE RED CHART",
+      "observed": "Laptop left of composition displays illustrative descending red chart."
+    },
+    {
+      "title": "THE NEW UNIFORM",
+      "observed": "Paper serving cap, dark apron, burger, fries and full tray visible."
+    }
+  ],
+  "art_note": "A fictional worker and restaurant turn the bear-market fast-food meme into a scene; neither founder's employment nor a McDonald's affiliation is depicted. The chart and caption are editorial.",
+  "art_boundaries": [
+    "Worker is fictional; no claim SuZhu orKyleDavies worked in a fast-food restaurant.",
+    "No McDonald's affiliation or official brand partnership implied.",
+    "Illustrative red chart is not a documented price series.",
+    "No stale boat, crocodile, sinking-house or debt-ship details from prior concept."
+  ],
+  "copy_review": {
+    "parent_approved_for_proof": true,
+    "parent_message": "Draftgood proceed canonicalrender/sourceQA. ExactamountBTC/USDC sourced official asnoted. Keepfictionalnotactualfounder note clear. Needbookpreviewpromptly; usermoving100whilewaits.",
+    "book_final_user_approval": false
+  },
+  "canonical_layout": {
+    "reference": "/workspace/scratch/58d5f7ed8606/card058-empty-throne/book-proof/build_058_book_proof.py",
+    "original_template": "cards/crypto/season-01/mt-gox-repayments-master-094/build_book.py",
+    "original_template_sha256": "45b535e413ea2f93f38053230d969c473a6d4b83b0b42d09614577a2394425ef",
+    "layout": "Two A4 portrait pages: full proportional contain raw artwork then cream two-column story and details. Fonts and drawing coordinates unchanged."
+  }
+}
+
