@@ -1,0 +1,289 @@
+{
+  "status": "PASS",
+  "audit_kind": "Independent PDF/text/image/layout artifact audit",
+  "checks": {
+    "raw_file_sha256": {
+      "pass": true,
+      "details": "1fc66e1930fc1ca0e03ee69cde45328336eea84687f6a5f08e7f88f1a190aee5"
+    },
+    "raw_dimensions_and_mode": {
+      "pass": true,
+      "details": {
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "mode": "RGB"
+      }
+    },
+    "canonical_template_sha256": {
+      "pass": true
+    },
+    "unique_identifier_'HISTROVE-058-YFI-Book-PROOF.pdf'": {
+      "pass": true
+    },
+    "unique_identifier_'HISTROVE 058 - YFI - PROOF'": {
+      "pass": true
+    },
+    "unique_identifier_'YFI'": {
+      "pass": true
+    },
+    "unique_identifier_'058 / 17 JUL 2020 / YEARN FINANCE / COMMON'": {
+      "pass": true
+    },
+    "unique_identifier_'NO RESERVED SEAT.'": {
+      "pass": true
+    },
+    "unique_identifier_'058 / YFI'": {
+      "pass": true
+    },
+    "unique_identifier_'116'": {
+      "pass": true
+    },
+    "drawing_block_exact_except_identifiers": {
+      "pass": true
+    },
+    "two_a4_portrait_pages": {
+      "pass": true
+    },
+    "pdf_title_proof": {
+      "pass": true
+    },
+    "page1_no_overlay_text": {
+      "pass": true
+    },
+    "page1_one_native_rgb_image": {
+      "pass": true
+    },
+    "page1_full_art_proportional_contain": {
+      "pass": true,
+      "details": {
+        "actual": [
+          0.0,
+          4.25201416015625,
+          595.2755737304688,
+          837.6378173828125
+        ],
+        "expected": [
+          0,
+          4.251968503937007,
+          595.2755905511812,
+          837.6377952755906
+        ],
+        "effective_ppi": 128.2095238095238
+      }
+    },
+    "embedded_pixels_exactly_equal_raw": {
+      "pass": true,
+      "details": {
+        "embedded_rgb_sha256": "bf772b9ff9073ee00f3a8bfe19860a075d03899a312728e75f8869f5ac376b42",
+        "raw_rgb_sha256": "bf772b9ff9073ee00f3a8bfe19860a075d03899a312728e75f8869f5ac376b42"
+      }
+    },
+    "page1_only_background_then_image": {
+      "pass": true,
+      "details": [
+        "fill-path",
+        "fill-image"
+      ]
+    },
+    "page1_no_clip_operators": {
+      "pass": true
+    },
+    "page1_black_edge_fill": {
+      "pass": true
+    },
+    "page2_no_rasterized_text_or_extra_images": {
+      "pass": true
+    },
+    "page2_cream_background": {
+      "pass": true
+    },
+    "page2_canonical_rules": {
+      "pass": true
+    },
+    "fixed_label_HISTROVE / CRYPTO SEASON ONE": {
+      "pass": true
+    },
+    "fixed_label_YFI": {
+      "pass": true
+    },
+    "fixed_label_058 / 17 JUL 2020 / YEARN FINANCE / COMMON": {
+      "pass": true
+    },
+    "fixed_label_NO RESERVED SEAT.": {
+      "pass": true
+    },
+    "fixed_label_DETAILS IN THE ART": {
+      "pass": true
+    },
+    "fixed_label_058 / YFI": {
+      "pass": true
+    },
+    "fixed_label_116": {
+      "pass": true
+    },
+    "story_paragraph_1_exact_text": {
+      "pass": true
+    },
+    "story_paragraph_2_exact_text": {
+      "pass": true
+    },
+    "story_paragraph_3_exact_text": {
+      "pass": true
+    },
+    "story_paragraph_4_exact_text": {
+      "pass": true
+    },
+    "detail_1_exact_title": {
+      "pass": true
+    },
+    "detail_1_exact_text": {
+      "pass": true
+    },
+    "detail_2_exact_title": {
+      "pass": true
+    },
+    "detail_2_exact_text": {
+      "pass": true
+    },
+    "detail_3_exact_title": {
+      "pass": true
+    },
+    "detail_3_exact_text": {
+      "pass": true
+    },
+    "detail_4_exact_title": {
+      "pass": true
+    },
+    "detail_4_exact_text": {
+      "pass": true
+    },
+    "art_note_exact": {
+      "pass": true
+    },
+    "source_title_YFI token-transparency filing": {
+      "pass": true
+    },
+    "source_title_YFI and yTokens": {
+      "pass": true
+    },
+    "source_title_Proposal 0 (19 July 2020)": {
+      "pass": true
+    },
+    "source_title_Minting ownership (21 July)": {
+      "pass": true
+    },
+    "source_title_YIP-57: initial team allocation": {
+      "pass": true
+    },
+    "whole_page2_text_exact_order_no_extra_copy": {
+      "pass": true
+    },
+    "story_column_width_and_font": {
+      "pass": true
+    },
+    "details_column_width_and_fonts": {
+      "pass": true
+    },
+    "body_above_footer_clear_zone": {
+      "pass": true,
+      "details": {
+        "story_bottom": 588.3341674804688,
+        "detail_bottom": 513.1296997070312,
+        "limit": 769.8897637795277
+      }
+    },
+    "no_out_of_page_text": {
+      "pass": true
+    },
+    "story_no_vertical_text_overlap": {
+      "pass": true
+    },
+    "details_no_vertical_text_overlap": {
+      "pass": true
+    },
+    "all_five_source_urls_exact": {
+      "pass": true,
+      "details": {
+        "unique_sources": 5,
+        "annotations": 7,
+        "note": "Wrapped source labels create multiple annotations for the same URL."
+      }
+    },
+    "all_links_in_source_note_column": {
+      "pass": true
+    },
+    "editable_json_story": {
+      "pass": true
+    },
+    "editable_json_eggs": {
+      "pass": true
+    },
+    "editable_json_sources": {
+      "pass": true
+    },
+    "editable_json_art_note": {
+      "pass": true
+    },
+    "editable_json_source_verification": {
+      "pass": true
+    },
+    "editable_json_proof_only": {
+      "pass": true
+    },
+    "folio_116_two_times_058": {
+      "pass": true
+    },
+    "spread_exact_page_render_composite": {
+      "pass": true
+    },
+    "independent_poppler_renders_exist": {
+      "pass": true
+    },
+    "art_bytes_still_unchanged": {
+      "pass": true
+    },
+    "prior_proof_archive_exact_preservation": {
+      "pass": true
+    },
+    "unchanged_201_word_story": {
+      "pass": true
+    },
+    "unchanged_first_two_details_and_five_citations": {
+      "pass": true
+    },
+    "unchanged_historical_claim_verification": {
+      "pass": true
+    },
+    "unchanged_card_metadata": {
+      "pass": true
+    },
+    "new_callback_copy_exact": {
+      "pass": true
+    },
+    "fictional_callback_disclaimer_exact": {
+      "pass": true
+    },
+    "current_v14_provenance_not_stale": {
+      "pass": true
+    },
+    "callback_reference_bytes_verified": {
+      "pass": true
+    },
+    "lighting_qa_source_bytes_verified": {
+      "pass": true
+    },
+    "edit_marker_recorded": {
+      "pass": true
+    }
+  },
+  "check_count": 78,
+  "source_art_sha256": "1fc66e1930fc1ca0e03ee69cde45328336eea84687f6a5f08e7f88f1a190aee5",
+  "pdf_sha256": "c7d51844588f293465b80e8e2177103883a00e79ce8748e9b242915fb56122ba",
+  "spread_sha256": "005c892353bc9bf76861cb33714c2de83e540849260e026836461cffa83a0005",
+  "story_data_sha256": "ef9eba745d88f8e0f525f9ee4c1c4227d15838f52e019093436bdb8147d52fb5",
+  "visual_review": "PASS",
+  "final_approval_claimed": false,
+  "publication_authorized": false
+}
