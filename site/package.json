@@ -11,7 +11,8 @@
     "test:search": "node scripts/check-search.mjs",
     "test:buyer": "node scripts/check-buyer-preview.mjs",
     "test:pack": "node scripts/check-pack-model.mjs",
-    "test:analytics": "node --test scripts/check-analytics.mjs"
+    "test:analytics": "node --test scripts/check-analytics.mjs",
+    "test:rarity": "node --test scripts/check-rarity-filter.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "2.0.1",
