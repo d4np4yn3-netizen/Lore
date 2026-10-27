@@ -1,0 +1,174 @@
+{
+  "project": "HISTROVE Crypto Season 01",
+  "collector_number": "100",
+  "verified_at": "2026-10-27",
+  "purpose": "User book proof; no external publication authorized",
+  "trusted_request": {
+    "time": "2026-10-27 19:20:48 UTC",
+    "sentinel": "Sentinel_05ab7f3fc51481919b800bf25b62b283",
+    "text": "Let's see the perk, and then we'll see if we can improve it for the site and GitHub. And that's a hundred cards, and then we're going to start a review of all the cards. The first review will be we need to double check the rarities. Does it match what we've got on the site, what we expect it to have? How many commons, uncommons, legends, epics, etc.",
+    "interpretation": "Parent interpreted perk as book pages and communicated assumption. Book proof only; rarity audit separate."
+  },
+  "approved_copy_review": "Parent accepted draft for proof with statutory tense correction and verified 044 callback. This is not user approval for publication.",
+  "raw_art": {
+    "path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/100-the-new-sheriff-art-v6-pullback-candidate.png",
+    "sha256": "1062d25bce6e61747cf5dc0bbc06072d22d797e5ab235982e2b5c04df82124c4",
+    "width": 1060,
+    "height": 1484,
+    "library_file_id": "libfile_70574748f0748191a369ba312cc1c181",
+    "version": 5
+  },
+  "metadata": {
+    "title": "NEW SHERIFF IN TOWN",
+    "eyebrow": "GENIUS ACT",
+    "date": "18 JUL 2025",
+    "event_date": "2025-07-18",
+    "rarity": "RARE",
+    "folio": 200,
+    "tagline": "NEW RULES. SAME FRONTIER.",
+    "tagline_status": "Current framed card's editorial caption; not a historical quotation"
+  },
+  "claims": [
+    {
+      "claim": "GENIUS Act signed 18 July 2025; Public Law 119-27",
+      "sources": [
+        "https://www.whitehouse.gov/briefings-statements/2025/07/the-president-signed-into-law-s-1582/",
+        "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1582/all-actions"
+      ],
+      "verification": "White House signing statement and Congress actions agree. Date is enactment/signing, not later publication or implementation date."
+    },
+    {
+      "claim": "Payment stablecoin statutory subject and issuer redemption obligation",
+      "source": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+      "sections": [
+        "2"
+      ],
+      "verification": "Payment/settlement digital asset with issuer obligation to redeem for fixed amount of monetary value, plus stable-value representation conditions. Story is a concise description, not exhaustive statutory definition."
+    },
+    {
+      "claim": "Federal and qualifying state regulatory paths",
+      "source": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "verification": "Enacted law establishes permitted issuer classes and federal/state supervisory structure. No claim every issuer qualifies."
+    },
+    {
+      "claim": "At least one-to-one reserves, redemption policies, monthly reserve-composition disclosures",
+      "source": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+      "sections": [
+        "4(a)(1)(A)",
+        "4(a)(1)(B)",
+        "4(a)(1)(C)"
+      ],
+      "verification": "Reserve categories include specified eligible liquid assets, not cash-only backing. Uses sets requirements for, not required on signing day."
+    },
+    {
+      "claim": "Implementation remained ahead at signing",
+      "source": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+      "sections": [
+        "13",
+        "20"
+      ],
+      "verification": "Section 13 calls for regulations within one year. General effective date is earlier of 18 months after enactment or 120 days after primary federal regulators issue final implementing regulations. Narrative is historical to signing, not a claim about implementation status on research date."
+    },
+    {
+      "claim": "Payment stablecoins not made government-guaranteed money",
+      "source": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/html/PLAW-119publ27.htm",
+      "sections": [
+        "4(e)"
+      ],
+      "verification": "Law says payment stablecoins not backed by full faith and credit of United States, not guaranteed by US government, not subject to federal deposit/share insurance. Story avoids suggesting guaranteed value or blanket crypto approval."
+    },
+    {
+      "claim": "044 is The Missing Cryptoqueen, Ruja Ignatova",
+      "sources": [
+        "https://github.com/d4np4yn3-netizen/Lore/blob/main/cards/crypto/season-01/briefs/v1/044-the-missing-cryptoqueen.md",
+        "https://www.fbi.gov/wanted/topten/ruja-ignatova"
+      ],
+      "verification": "Canonical brief blob f4ade761b59762f24b0361f7a9f4313bd44382de confirms card identity; FBI record confirms named subject and wanted status. Parent confirms artwork's WANTED portrait intended callback. No claim GENIUS Act relates to her charges, disappearance or a new enforcement action."
+    }
+  ],
+  "project_sources": {
+    "brief": {
+      "path": "cards/crypto/season-01/briefs/v1/100-the-genius-act.md",
+      "local_copy": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v1/sources/100-the-genius-act.md",
+      "notes": "Event brief read. Earlier proposed prop details not in current art were not repeated."
+    },
+    "rarity": {
+      "path": "cards/crypto/season-01/rarity-allocation-review-v2.md",
+      "blob": "19fabd85d7aeee7ccab620bf9d94d7ad5b4207d3",
+      "row": "100 | The GENIUS Act | 2025-07-18 | Rare | Proposed",
+      "notes": "Current framed card Rare preserved. Separate collection audit may assess allocation; no rarity edits here."
+    },
+    "canonical_template": {
+      "path": "cards/crypto/season-01/mt-gox-repayments-master-094/build_book.py",
+      "blob": "744dc855a817e58f350aead35c25a7bfc8878470",
+      "sha256": "45b535e413ea2f93f38053230d969c473a6d4b83b0b42d09614577a2394425ef",
+      "notes": "Recovered read-only; exact established two-page A4 layout. Folio convention collector number times two gives 200."
+    }
+  },
+  "visual_details": [
+    {
+      "title": "THE SHERIFF'S STAR",
+      "text": "A plain gold star catches the sunset against the navy coat. The new sheriff gives regulatory oversight a familiar frontier face.",
+      "raw_crop_box": [
+        493,
+        565,
+        586,
+        672
+      ],
+      "status": "Actual visible detail; fictional Western staging. Crops are optional derivative assets only; full raw art embedded unchanged."
+    },
+    {
+      "title": "THE NOTICE ON THE WALL",
+      "text": "GENIUS ACT, PAYMENT STABLECOINS and 18 JUL 2025 keep the event, statutory subject and signing date visible together.",
+      "raw_crop_box": [
+        777,
+        405,
+        1011,
+        867
+      ],
+      "status": "Actual visible detail; fictional Western staging. Crops are optional derivative assets only; full raw art embedded unchanged."
+    },
+    {
+      "title": "THE OLDER WANTED POSTER",
+      "text": "The Cryptoqueen from 044 reappears on the WANTED poster behind the new notice. This collection callback brings an earlier unresolved story onto the final card's wall.",
+      "raw_crop_box": [
+        808,
+        225,
+        978,
+        510
+      ],
+      "status": "Actual visible detail; fictional Western staging. Crops are optional derivative assets only; full raw art embedded unchanged."
+    },
+    {
+      "title": "THE BLUE DOLLAR SIGN",
+      "text": "A small neon dollar glows farther down the street, linking the Western setting to digital money while keeping the sheriff and notice in the foreground.",
+      "raw_crop_box": [
+        78,
+        440,
+        156,
+        529
+      ],
+      "status": "Actual visible detail; fictional Western staging. Crops are optional derivative assets only; full raw art embedded unchanged."
+    }
+  ],
+  "art_note": "The sheriff, town and posted notices are a fictional Western metaphor, not a signing ceremony or an official enforcement notice. The caption is editorial.",
+  "library_identity_decision": "Search for 100, GENIUS and New Sheriff found current raw/card items and prior art concepts, but no existing card100 book PDF, spread or story JSON; create new book identities.",
+  "boundaries": [
+    "No guaranteed returns or general crypto endorsement",
+    "No statement every provision was effective on signing day",
+    "No actual historical sheriff, frontier town or official posted enforcement notice",
+    "No alteration, shading, crop or upscale of the raw image embedded in book",
+    "No GitHub/site writes",
+    "No changes to any other card"
+  ],
+  "story_word_count": 204
+}
