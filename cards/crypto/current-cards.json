@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "collection": "Crypto",
   "season": 1,
-  "approved_visual_count": 86,
+  "approved_visual_count": 87,
   "rules": "cards/crypto/COLLECTION-RULES.md",
   "set_size": null,
   "cards": [
@@ -10153,6 +10153,91 @@
         "standard",
         "foil"
       ]
+    },
+    {
+      "rarity": "rare",
+      "creator": "GENIUS ACT",
+      "title_line_1": "NEW SHERIFF",
+      "title_line_2": "IN TOWN",
+      "context": "NEW RULES. SAME FRONTIER.",
+      "moment_label": "18 JUL 2025",
+      "set_label": "CRYPTO • SEASON 01 • 100/100",
+      "qr_url": "https://www.histrove.co.uk/crypto/100/",
+      "artwork": "cards/crypto/season-01/new-sheriff-in-town-master-100/art.png",
+      "id": "crypto-s01-new-sheriff-in-town",
+      "moment_number": 100,
+      "collection": "crypto",
+      "season": 1,
+      "set_size": 100,
+      "event_date": "2025-07-18",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/new-sheriff-in-town-master-100/art.png",
+        "bytes": 2205765,
+        "sha256": "1062d25bce6e61747cf5dc0bbc06072d22d797e5ab235982e2b5c04df82124c4"
+      },
+      "art_sha256": "1062d25bce6e61747cf5dc0bbc06072d22d797e5ab235982e2b5c04df82124c4",
+      "status": "FRONT_APPROVED_SITE_AND_BOOK_AUTHORISED",
+      "publication_approved": true,
+      "book_approved": true,
+      "approved_at": "2026-10-27",
+      "artwork_status": "VISUALLY_APPROVED",
+      "rarity_status": "RARE_APPROVED",
+      "phrase_status": "APPROVED_EDITORIAL_NOT_HISTORICAL_QUOTATION",
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-100-Front-Print-v1.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-100-Front-Print-v1.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-100-Front-Print-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/100-new-sheriff-in-town-histrove-v1.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/100-new-sheriff-in-town.md",
+      "approval_record": "cards/crypto/season-01/new-sheriff-in-town-master-100/approval.json",
+      "current_files": [
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-100-Front-Print-v1.png",
+          "bytes": 818869,
+          "sha256": "5948fec1723889af16095306e9cd60c2adad758f6b3cca06a81f597bbdb6c211"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-100-Front-Print-v1.pdf",
+          "bytes": 3857613,
+          "sha256": "fd194f9806e62a647e1f4d47ffe64ccb9c18bc8f64493cabf53a02c050ddcdce"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-100-Front-Print-v1.svg",
+          "bytes": 3507287,
+          "sha256": "8dcac6db80765f82f1f400bcc070f4d5946b522e73da1187bf78a94c7f869897"
+        }
+      ],
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-100-Front-Print-v1.png",
+          "bytes": 818869,
+          "sha256": "5948fec1723889af16095306e9cd60c2adad758f6b3cca06a81f597bbdb6c211"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-100-Front-Print-v1.pdf",
+          "bytes": 3857613,
+          "sha256": "fd194f9806e62a647e1f4d47ffe64ccb9c18bc8f64493cabf53a02c050ddcdce"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-100-Front-Print-v1.svg",
+          "bytes": 3507287,
+          "sha256": "8dcac6db80765f82f1f400bcc070f4d5946b522e73da1187bf78a94c7f869897"
+        },
+        "qa": "cards/crypto/season-01/new-sheriff-in-town-master-100/card-final-qa.json",
+        "physical_print_release": false
+      },
+      "print_release": false,
+      "qr_mode": "planned",
+      "qr_status": "PREPARED_PENDING_LIVE_VERIFICATION",
+      "finishes": [
+        "standard",
+        "foil"
+      ],
+      "physical_trim_mm": [
+        63,
+        88
+      ],
+      "rights_review": "Fictional frontier metaphor; no claim of historical scene or rights clearance."
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
