@@ -1,3 +1,39 @@
+# HISTROVE — current status
+
+## Current snapshot
+
+**Checked 27 October 2026 · snapshot v1.0.** Repository baseline: [main at ebb3a832](https://github.com/d4np4yn3-netizen/Lore/commit/ebb3a8323322fd2e4d47ccd28f0fe81bd6c07d88). [Start-here index](PROJECT-MEMORY.md#task-index) · [Active work and holds](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds).
+
+This pass verified repository paths, selected records and catalogue contents, not a fresh live-site/printed-sample audit. Recent owner decisions are identified separately below. All other existing cards stay unchanged.
+
+| Area | Current state / version | Evidence and boundary |
+| --- | --- | --- |
+| Season One | 99 numbered catalogue entries, 001–099; only 100 unfinished. | Count and unique numbers checked in [site catalogue](site/app/cards/data.js) and [chapter directory](site/app/cards/content). Published state is also recorded in recent project history; this documentation pass did not repeat live route checks. |
+| 058 YFI | Approved and published 26 October: raw v14, card v6, frozen book/story. | [Exact approval](cards/crypto/season-01/yfi-master-058/approval.json), [selected-version note](cards/crypto/season-01/yfi-master-058/README.md), [immutable asset commit](https://github.com/d4np4yn3-netizen/Lore/commit/82d0a5e6e48fd47770c5e4f3fd2c4ab3d69f7b43), catalogue entry 058. Earlier parked/proof-only wording is historical. |
+| 081 Three Arrows Falls | Approved and published 26 October: fast-food raw v4-card-fit, card-proof v2, frozen book/story. | [Exact approval](cards/crypto/season-01/three-arrows-falls-fastfood-master-081/approval.json), [selected-version note](cards/crypto/season-01/three-arrows-falls-fastfood-master-081/README.md), [publication commit](https://github.com/d4np4yn3-netizen/Lore/commit/ebb3a8323322fd2e4d47ccd28f0fe81bd6c07d88). [Old boat master](cards/crypto/season-01/three-arrows-falls-master-081) and its derivatives remain archival, not current. |
+| 100 The GENIUS Act | Raw draft v3, female Western sheriff, delivered 27 October; awaiting lantern-position decision. **Not approved or published; no approved card/book.** | Recent owner review, 27 October. The selected draft is held outside this repository; [brief 100](cards/crypto/season-01/briefs/v1/100-the-genius-act.md) is background/proposal only, not that draft or approval evidence. |
+| Printing | 015 and 093 Golden River revisions await print QA; retain download suppression. 076 remains public digital only, with no physical master. | [015 approval](cards/crypto/season-01/golden-river-first-halving-master-015/approval.json), [093 approval](cards/crypto/season-01/golden-river-fourth-halving-master-093/approval.json), [print map and pendingArtworkRevisions](site/app/cards/print-files.json), [076 variant boundary](cards/crypto/season-01/the-bouncing-qr-master-076/variant-boundary.json). Historical print files do not clear these holds. |
+| Website | Rarity filtering and consent-first analytics are recorded as completed. | Implemented [rarity checks](site/scripts/check-rarity-filter.mjs), [analytics specification](site/ANALYTICS.md) and [test scripts](site/package.json) exist on checked main. Recent completion history is not a new runtime test in this docs pass. |
+| Shop / future work | Shop not open: no orders or preorders. Season Two is paused while the owner resolves the email issue; commercial/review decisions remain held or undecided. | [Current shop](site/app/shop/page.js); exact active/deferred scope is owned by the [work ledger](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds). |
+
+## Known conflicts and evidence limits
+
+| Record | Verified discrepancy | How to proceed |
+| --- | --- | --- |
+| [current-cards.json](cards/crypto/current-cards.json) | Unreliable for current totals and selected-art status until reconciled: top-level numbered_published_count is 77 and there are 86 total objects, while the site has 99 numbered entries. Its gap note still parks 058; its style summary lists only two references; its 015 artwork points to the older master. | Preserve this existing register, but do not use its summary as a current census or let it override later exact approvals. For current site selection use the catalogue, per-card approval/provenance and print holds; use the dedicated four-reference lock for style. Metadata reconciliation remains an explicit backlog item, not silently performed here. |
+| [081 release-status.json](cards/crypto/season-01/three-arrows-falls-fastfood-master-081/release-status.json) | Says publication was prepared, not performed by the asset worker. The subsequent publication commit and selected catalogue entry exist. | Read this as an asset-worker checkpoint, not proof that the later release is unpublished. Preserve its provenance. |
+| Root/section READMEs, earlier status/memory sections, historical print counts | Some open on 39, 52, 67 or 71-card milestones, or an old next event; historical approvals remain valuable but their active wording is stale. | This current snapshot owns active state. Read the dated older records only for their original scope. Do not rerun their historical generators against current maps. |
+| [Current print map](site/app/cards/print-files.json) versus retained 015 print QA | The old 015 print record remains present, while current Golden River 015/093 are pending print QA. | Honor current selected art and pendingArtworkRevisions; retain suppression. Existing digital checks do not establish printer acceptance, physical scans, rights or bulk production readiness. |
+| Recent owner-held work | 100 draft v3, the Season Two pause and deferred commercial/review choices have no new approved asset/manufacturing record in this repository. | Treat the dated owner direction as scope/status, not asset approval. Recheck the selected file and obtain the relevant decision before changing it. |
+
+Do not resolve an unknown by inventing approval, copying private draft assets into this public repository, or changing runtime/data files during memory maintenance. New user direction can supersede these records; preserve the decision provenance and exact scope.
+
+---
+
+## Historical status records
+
+The entries below are retained as dated release evidence. Their counts, “current”, “next” and paused wording describe their original milestone, not today's active queue. They were not all reverified on 27 October.
+
 # 073 published and digitally verified — 18 October 2026
 
 073 TAPROOT ACTIVATES is live at https://lore-site-v1.vercel.app/cards/taproot-activates . Release 989dcfe17c04a2c9e629e1821cd1b9964e16bb2f, tree 94d9a04cf7f7adde3a2d366edff6357c9ff297ae, production deployment dpl_A1fmYV8yuXoG4ZuFbCVSMjLpLpTm: READY, with Vercel success. Verified at 2026-10-18T12:23:04Z. The release tree exactly matches the tested local tree.
