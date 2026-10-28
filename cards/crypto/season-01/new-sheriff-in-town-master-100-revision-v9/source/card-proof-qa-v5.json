@@ -1,0 +1,171 @@
+{
+  "status": "PASS layout, QR and independent sharpness quality gate",
+  "scope": "Quality-restored source with three authorized localized edits, no publication by framing worker",
+  "source_raw": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/100-the-new-sheriff-art-v9-crisp-restored-candidate.png",
+  "raw_sha256": "97de5699a1187cbfdc092a34d81794eb0648891decd2fd8089b7c0f2f1a50a80",
+  "native_art_size": [
+    1060,
+    1484
+  ],
+  "template_library_id": "libfile_60e9598ca15081919ceb78a0aba90be4",
+  "template_library_version": 3,
+  "template_sha256": "147f9b28645568c857f30d9a07cf3f4c9fe9632721fd8984bbd6addb878333d5",
+  "only_svg_change": "embedded illustration bytes",
+  "copy": {
+    "creator-name": "GENIUS ACT",
+    "title-line-1": "NEW SHERIFF",
+    "title-line-2": "IN TOWN",
+    "moment-context": "NEW RULES. SAME FRONTIER.",
+    "moment-number": "18 JUL 2025",
+    "set-number": "CRYPTO \u2022 SEASON 01 \u2022 100/100",
+    "rarity-label": "RARE"
+  },
+  "art_transform_exact": "translate(-18 0) translate(450 14) scale(1.05) translate(-450 -14)",
+  "canvas_px": [
+    816,
+    1110
+  ],
+  "trim_px": [
+    744,
+    1038
+  ],
+  "safe_px": [
+    684,
+    981
+  ],
+  "dpi": 300,
+  "qr_payloads": {
+    "HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.png": [
+      "https://www.histrove.co.uk/crypto/100/"
+    ],
+    "HISTROVE-Crypto-100-New-Sheriff-Card-Review-v5.png": [
+      "https://www.histrove.co.uk/crypto/100/"
+    ]
+  },
+  "original_QR_node_unchanged": true,
+  "files": [
+    {
+      "path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v5/HISTROVE-Crypto-100-New-Sheriff-Card-Review-v5.png",
+      "sha256": "7328af4ad13108a82c3d34ef6cc7a9bfa7a6b65676eee235588e704010c8ea36"
+    },
+    {
+      "path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v5/HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.png",
+      "sha256": "862541eac03863ddab6b17491a7d84d34e6c8fd83086ab7c78ac3f966b29f305"
+    },
+    {
+      "path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v5/HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.svg",
+      "sha256": "76af4436c42b9037185f061bb7c2992d9c2889319fa47b0c19e2f4a26973d878"
+    }
+  ],
+  "no_publication_changes": true,
+  "source_quality_gate": "PASS restored original native detail; no artificial upscale or global sharpening",
+  "raw_library_id": "libfile_70574748f0748191a369ba312cc1c181",
+  "raw_library_version": 8,
+  "raw_attachment": "file_00000000b8dc823083f440378490d9f7",
+  "independent_source_mask_qa": {
+    "source_pixels": [
+      1060,
+      1484
+    ],
+    "changed_pixels": 43135,
+    "outside_authorized_mask_changes": 0,
+    "protected_regions_equal": {
+      "face_hair": {
+        "bounds": [
+          335,
+          305,
+          663,
+          590
+        ],
+        "equal": true
+      },
+      "raised_hand": {
+        "bounds": [
+          705,
+          405,
+          790,
+          574
+        ],
+        "equal": true
+      },
+      "main_text": {
+        "bounds": [
+          815,
+          535,
+          990,
+          800
+        ],
+        "equal": true
+      },
+      "wanted_portrait": {
+        "bounds": [
+          831,
+          350,
+          951,
+          474
+        ],
+        "equal": true
+      },
+      "lantern": {
+        "bounds": [
+          652,
+          111,
+          774,
+          309
+        ],
+        "equal": true
+      }
+    },
+    "broad_initial_box_note": "Initial larger test rectangle included exactly one corrected corner pixel at985,804, outside the actual text. Text-only region is byte-exact."
+  },
+  "native_face_patch_pixel_equal_to_published": {
+    "box": [
+      280,
+      300,
+      465,
+      460
+    ],
+    "equal": true
+  },
+  "visual_qa": {
+    "sharpness": "V9 restored crisp original linework; visibly sharper than v8 at same actual card pixels",
+    "localized_joins": "No objectionable seam at actual card size; WANTED direct on planks, horizontal GENIUS bottom, no dollar sign",
+    "header": "Previous logo/lantern gap retained",
+    "template": "Only embedded illustration bytes changed, all other SVG nodes unchanged"
+  },
+  "library_results": [
+    {
+      "local_path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v5/HISTROVE-Crypto-100-New-Sheriff-Card-Review-v5.png",
+      "purpose": "replace_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000fdf081fdb03f2537a4282b29",
+      "library_file_id": "libfile_b8e0c944a0c88191a497255c64b25275",
+      "file_name": "HISTROVE-Crypto-100-New-Sheriff-Card-Review-v5.png",
+      "local_metadata_applied": true,
+      "path": "/HISTROVE-Crypto-100-New-Sheriff-Card-Review-v5.png",
+      "current_version_number": 4
+    },
+    {
+      "local_path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v5/HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.png",
+      "purpose": "replace_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000008fb481fdaaeff2b71fa16bb9",
+      "library_file_id": "libfile_3cb90e5c186c8191b06c4e5225f5bf34",
+      "file_name": "HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.png",
+      "local_metadata_applied": true,
+      "path": "/HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.png",
+      "current_version_number": 4
+    },
+    {
+      "local_path": "/workspace/scratch/58d5f7ed8606/card100-new-sheriff/card-proof-v5/HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.svg",
+      "purpose": "replace_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000b60c81fda4e6abdfa484e58f",
+      "library_file_id": "libfile_60e9598ca15081919ceb78a0aba90be4",
+      "file_name": "HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.svg",
+      "local_metadata_applied": true,
+      "path": "/HISTROVE-Crypto-100-New-Sheriff-Front-Proof-v5.svg",
+      "current_version_number": 4
+    }
+  ]
+}

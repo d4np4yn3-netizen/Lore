@@ -1,0 +1,56 @@
+{
+  "source_pixels": [
+    1060,
+    1484
+  ],
+  "changed_pixels": 43135,
+  "outside_authorized_mask_changes": 0,
+  "protected_regions_equal": {
+    "face_hair": {
+      "bounds": [
+        335,
+        305,
+        663,
+        590
+      ],
+      "equal": true
+    },
+    "raised_hand": {
+      "bounds": [
+        705,
+        405,
+        790,
+        574
+      ],
+      "equal": true
+    },
+    "main_text": {
+      "bounds": [
+        815,
+        535,
+        990,
+        800
+      ],
+      "equal": true
+    },
+    "wanted_portrait": {
+      "bounds": [
+        831,
+        350,
+        951,
+        474
+      ],
+      "equal": true
+    },
+    "lantern": {
+      "bounds": [
+        652,
+        111,
+        774,
+        309
+      ],
+      "equal": true
+    }
+  },
+  "broad_initial_box_note": "Initial larger test rectangle included exactly one corrected corner pixel at985,804, outside the actual text. Text-only region is byte-exact."
+}
