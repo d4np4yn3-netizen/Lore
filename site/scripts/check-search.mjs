@@ -98,8 +98,9 @@ assert(!shop.includes('<form') && !shop.includes('Add to cart') && !shop.include
 assert(home.includes('Discover the collection') && home.includes('Explore the timeline'));
 const sitemap = read('.next/server/app/sitemap.xml.body');
 const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => decode(m[1]));
-const pageCount = cardCount + 3;
+const pageCount = cardCount + 4;
 assert.equal(urls.length, pageCount); assert.equal(new Set(urls).size, pageCount); assert(urls.includes(origin + '/shop'));
+assert(urls.includes(origin + '/season-two'));
 assert(urls.includes(origin + '/'));for (const slug of Object.keys(search)) assert(urls.includes(origin + '/cards/' + slug));
 assert(!sitemap.includes('<lastmod>') && !sitemap.includes('/crypto/'));
 const robots = read('.next/server/app/robots.txt.body');

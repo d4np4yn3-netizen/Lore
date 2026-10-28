@@ -10,6 +10,7 @@ import DiscoveryReveal from './components/DiscoveryReveal';
 import ComingSoon from './components/ComingSoon';
 import AboutHistrove from './components/AboutHistrove';
 import PackConfiguration from './components/PackConfiguration';
+import SeasonTwoTeaser from './components/SeasonTwoTeaser';
 const featured = ['cryptopunks','birth-of-hodl','cryptokitties'].map(slug=>archiveCards.find(c=>c.slug===slug));
 export default function Home(){
  useEffect(()=>{if(/^#(?:year-\d{4}|moment-[a-z0-9-]+)$/.test(window.location.hash))window.location.replace('/timeline'+window.location.search+window.location.hash);},[]);
@@ -31,6 +32,7 @@ export default function Home(){
  <DiscoveryReveal card={discoveryCard} onOpen={openCard}/>
  <PackConfiguration/>
  <section className="timeline-teaser" id="archive" aria-labelledby="teaser-title"><div className="timeline-teaser-copy"><span className="label gold">THE ONLINE TIMELINE</span><h2 id="teaser-title">Before the hype.<br/>Behind the history.</h2><p>From the ideas before Bitcoin to the culture that followed. Explore {archiveCards.length} illustrated moments, their source notes and the details you might have missed.</p><Link href="/timeline" className="gold-button">Explore the timeline <Arrow/></Link></div><div className="timeline-preview" aria-label="A few moments from the timeline">{['the-whitepaper','birth-of-hodl','cryptopunks'].map(slug=>{const c=archiveCards.find(c=>c.slug===slug);return <Link href={'/cards/'+slug} className="timeline-preview-item" key={slug}><span className="preview-year">{c.year}</span><Image src={c.media.artwork.src} width={c.media.artwork.width} height={c.media.artwork.height} alt="" sizes="120px"/><span><small>{c.date}</small><strong>{titleCase(c.title)}</strong></span><Arrow/></Link>;})}<Link className="timeline-all-link" href="/timeline">All {archiveCards.length} published moments <Arrow/></Link></div></section>
+ <SeasonTwoTeaser/>
  <AboutHistrove publishedCount={archiveCards.length}/><ComingSoon/>
  </main><Footer/>{card&&<CardDialog card={card} initialTab={entryTab} onClose={closeCard} onNavigate={c=>openCard(c,true)} previous={archiveCards[selectedIndex-1]} next={archiveCards[selectedIndex+1]}/>}</div>;
 }
