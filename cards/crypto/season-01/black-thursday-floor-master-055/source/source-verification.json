@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-10-28",
+  "canonical_authoring_git_blob": "ccfdb1f55907a7b8ba71be0ed8024750f0891080",
+  "canonical_story_git_blob": "ef432a1cde11425ab2bf96e95ec4c6495f93efa8",
+  "sources": [
+    {
+      "title": "CoinDesk, 12 March 2020",
+      "url": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off"
+    },
+    {
+      "title": "MakerDAO response thread",
+      "url": "https://forum.skyeco.com/t/black-thursday-response-thread/1433"
+    },
+    {
+      "title": "NYSE market review",
+      "url": "https://www.nyse.com/article/assessing-nyse-model-performance"
+    },
+    {
+      "title": "WHO, 11 March 2020",
+      "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020"
+    }
+  ],
+  "checks": [
+    {
+      "claim": "12 March 2020: Bitcoin below US$6,000 amid global equity sell-off",
+      "source": "https://www.coindesk.com/markets/2020/03/12/bitcoin-hits-10-month-low-below-6k-as-stocks-plunge-in-massive-sell-off",
+      "result": "CoinDesk contemporaneous report cites its Bitcoin Price Index low of $5,678; this exact low was not added to the copy."
+    },
+    {
+      "claim": "MakerDAO undercollateralized ETH vaults, network congestion, reduced keeper competition and zeroDAI auctions",
+      "source": "https://forum.skyeco.com/t/black-thursday-response-thread/1433",
+      "result": "Official community response thread summary states these mechanisms and the resulting system shortfall. No Bitcoin liquidation is implied."
+    },
+    {
+      "claim": "US equity market-wide circuit breaker paused trading for 15 minutes on 12 March",
+      "source": "https://www.nyse.com/article/assessing-nyse-model-performance",
+      "result": "NYSE review explicitly lists March 12 and 15-minute halts. Retained in the historical story; removed the stale monitor-label clue because it is absent from the new art."
+    },
+    {
+      "claim": "WHO characterised COVID-19 as a pandemic on 11 March 2020",
+      "source": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+      "result": "WHO Director-General remarks dated 11 March 2020 confirm this."
+    }
+  ],
+  "copy_changes": [
+    "story[4]: pose only, from a broken-desk brace to lying on the floor beneath a bear",
+    "eggs[1]: fallen calendar and red candlesticks instead of desk calendar and virus-shaped clouds",
+    "eggs[3]: actual bear-market detail instead of the absent 15 MIN HALT monitor label"
+  ],
+  "unchanged": [
+    "story[0:4] verbatim",
+    "eggs[0]: returning HODL character and 021 callback",
+    "eggs[2]: MAKER AUCTION / 0 DAI newspaper",
+    "all four sources",
+    "art_note",
+    "metadata, typography and page geometry"
+  ],
+  "art_provenance": {
+    "sha256": "29c8334a1d8b6bf0bea64f2b20d3df9ecde106ed13a968419d1313bbe3db80c5",
+    "source_path": "/workspace/scratch/58d5f7ed8606/card055-floor-experiment/HISTROVE-055-Bear-Crash-Floor-FINAL-Crisp-Calendar-v3.png",
+    "final_input_confirmed": true,
+    "source_dimensions": [
+      1060,
+      1484
+    ],
+    "library_file_id": "libfile_6ecd9fa548e081919a912f1075ac2291",
+    "library_version": 2,
+    "file_id": "file_000000009d3481f5be7051f1c404aef5",
+    "book_worker_art_edits": false,
+    "approval_evidence": [
+      {
+        "sentinel": "Sentinel_ba1adf961ca48191afc0555eadfdb60c",
+        "time": "2026-10-28 18:39:15 UTC",
+        "text": "just move the diary up a touch so it missed the title"
+      },
+      {
+        "sentinel": "Sentinel_585f9d7cf64881918244adfd9be54cdd",
+        "time": "2026-10-28 18:39:29 UTC",
+        "text": "then approved for the book and github and the site"
+      }
+    ],
+    "source_quality": "Artworker reports original floorv1 scene pixels exact outside calendar move masks; no softenedv2 used."
+  },
+  "publication_handling": "Parent/publisher owns external publication. Book worker has not published."
+}

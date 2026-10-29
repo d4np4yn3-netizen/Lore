@@ -35,8 +35,19 @@ test('preview prompts have explicit labels, accessible status and no private ide
     assert(main.includes(`id="suggestion-${field}"`));
   }
   assert(main.includes('aria-describedby="suggestion-status suggestion-privacy"'));
-  assert(main.includes('private keys, wallet details or other personal information'));
+  assert(main.includes('contact details, private keys, wallet details or other personal information'));
   assert(!main.includes('type="file"') && !main.includes('type="password"'));
+});
+
+test('draft privacy route explains verified storage and leaves unresolved choices visibly gated', () => {
+  const privacy = read('.next/server/app/season-two/privacy.html');
+  assert(main.includes('href="/season-two/privacy"'));
+  assert(main.includes('Private response storage has been set up and tested.'));
+  for (const phrase of ['Draft for review', 'Public suggestions remain closed.', 'not a final live privacy notice', '12 months', 'Google Forms', 'linked Google Sheet', 'not automatic deletion', 'not a promise of complete anonymity', 'Legitimate interests is proposed', 'It has not yet been adopted']) assert(privacy.includes(phrase), phrase);
+  assert(privacy.includes('name="robots" content="noindex, nofollow"'));
+  assert(privacy.includes('href="mailto:hello@histrove.co.uk"'));
+  assert(!/Dan Payne|Daniel Payne|1i_HeTd2|14nvZ0QMrj|<form\b|<iframe\b/.test(privacy));
+  assert(!read('.next/server/app/sitemap.xml.body').includes('/season-two/privacy'));
 });
 
 test('global navigation and contact destination are correct without changing the active collection', () => {
