@@ -1,0 +1,80 @@
+{
+  "card": "071",
+  "title": "Legal Tender",
+  "verified_at_utc": "2026-10-18T10:31:00Z",
+  "scope": "Canonical card, book, print, QR and site release",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "IMF mission concluding statement",
+      "published": "2021-11-22",
+      "url": "https://www.imf.org/en/news/articles/2021/11/22/mcs-el-salvador-staff-concluding-statement-of-the-2021-article-iv-mission",
+      "directly_read": true,
+      "verified_sections": [
+        "Bitcoin and e-wallet Chivo"
+      ],
+      "notes": "Confirms first-country September 7 adoption, dollar unit of account, Chivo dual-currency operation, conversion mechanism and staff assessment of inclusion and risks."
+    },
+    {
+      "id": "S2",
+      "title": "IMF Country Report 22/20",
+      "published": "2022-01",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2022/english/1slvea2022001.pdf",
+      "directly_read": true,
+      "verified_sections": [
+        "Paragraphs 45\u201347 and 49, printed pages 24\u201326"
+      ],
+      "notes": "Historical alongside-dollar legal-tender framework. June law passage is separate from September implementation. Report is not used as current legal guidance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "First country to adopt Bitcoin as legal tender on September 7, 2021",
+      "sources": [
+        "S1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "C2",
+      "text": "Dollar remained national accounting unit; Chivo supported dollars and Bitcoin with conversion",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "status": "verified historical framework"
+    },
+    {
+      "id": "C3",
+      "text": "IMF staff saw inclusion potential and warned of volatility-related risks",
+      "sources": [
+        "S1"
+      ],
+      "status": "verified attributed assessment"
+    },
+    {
+      "id": "C4",
+      "text": "Pupuseria, people and payment are fictional; flag, calendar, cashbox and blank notebook are visible",
+      "sources": [
+        "approved raw v4 visual inspection"
+      ],
+      "status": "labelled editorial interpretation"
+    }
+  ],
+  "editorial_guards": [
+    "No claim current legal rules are unchanged",
+    "Do not claim universal enthusiasm or successful transaction",
+    "No real person or business identified",
+    "Notebook has no legible prices or conversion calculation",
+    "Do not include decree number or 2025 US reserve crossover"
+  ],
+  "art_sha256": "3589c8434901d0ea86cd25e4ca7c42c233e16d7fef9496f314eb77f1a7870f21",
+  "approved_copy": {
+    "confirmed": true,
+    "rarity": "Legendary",
+    "caption": "A NEW WAY TO PAY.",
+    "source_message_id": "Sentinel_ef0cf20b69b88191b629a7e3962e1c0a",
+    "notes": "User affirmed Legendary and A New Way to Pay; collection-wide final review deferred until 100 cards."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reason": "Review renderer used system DejaVu Sans Condensed instead of repository-pinned DejaVu Sans alias. Restored canonical font environment; no redesign or copy changes.",
+  "canonical_fontconfig": "cards/master/front-v3/source/fontconfig.xml",
+  "affected": [
+    "064",
+    "071",
+    "093"
+  ],
+  "unchanged": [
+    "approved SVG bytes",
+    "approved book PDF bytes",
+    "art pixels",
+    "QR payload and pixels",
+    "date/logo/title/eyebrow/footer pixels"
+  ],
+  "pixel_gate": "Zero differences outside authorized rarity geometry masks versus original published native PNG for all three corrected frames. Independent report retained locally.",
+  "physical_print_acceptance": false,
+  "superseded_review_pngs": "Preserved in local original review and original frozen package; not final publication targets."
+}

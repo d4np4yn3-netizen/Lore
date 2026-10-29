@@ -1,0 +1,70 @@
+{
+  "base_commit": "8456f7f5216e7d391e10e0e48c1515be497f35af",
+  "changed_cards": [
+    [
+      "064/100",
+      "EPIC",
+      "COMMON"
+    ],
+    [
+      "071/100",
+      "LEGENDARY",
+      "EPIC"
+    ],
+    [
+      "093/100",
+      "COMMON",
+      "LEGENDARY"
+    ]
+  ],
+  "before_counts": {
+    "LEGENDARY": 8,
+    "EPIC": 13,
+    "RARE": 20,
+    "MYTHIC": 4,
+    "COMMON": 30,
+    "UNCOMMON": 25
+  },
+  "after_counts": {
+    "LEGENDARY": 8,
+    "EPIC": 13,
+    "RARE": 20,
+    "MYTHIC": 4,
+    "COMMON": 30,
+    "UNCOMMON": 25
+  },
+  "other_97_catalogue_rows_identical": true,
+  "015_and_046_unchanged": true,
+  "book_checks": {
+    "064": {
+      "page_count": 2,
+      "full_art_page_pixel_identical": true,
+      "text_difference_only_rarity": true,
+      "old": "epic",
+      "new": "common",
+      "physical_print_acceptance": false
+    },
+    "071": {
+      "page_count": 2,
+      "full_art_page_pixel_identical": true,
+      "text_difference_only_rarity": true,
+      "old": "legendary",
+      "new": "epic",
+      "physical_print_acceptance": false
+    },
+    "093": {
+      "page_count": 2,
+      "full_art_page_pixel_identical": true,
+      "text_difference_only_rarity": true,
+      "old": "common",
+      "new": "legendary",
+      "physical_print_acceptance": false
+    }
+  },
+  "publication": "NOT_PUBLISHED_LOCAL_REVIEW_ONLY",
+  "integration_pending": [
+    "Wire versioned frame, book and web image files into active media/print manifests and immutable asset origins as part of an authorised publication release.",
+    "Run full site build and package/archive checks after integration.",
+    "Physical print QA remains pending; no foil mask or foil test has been produced."
+  ]
+}
