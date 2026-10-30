@@ -13,7 +13,8 @@
     "test:pack": "node scripts/check-pack-model.mjs",
     "test:analytics": "node --test scripts/check-analytics.mjs",
     "test:rarity": "node --test scripts/check-rarity-filter.mjs",
-    "test:season-two": "node --test scripts/check-season-two.mjs"
+    "test:season-two": "node --test scripts/check-season-two.mjs",
+    "test:first-print": "node --test scripts/check-first-print.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "2.0.1",
