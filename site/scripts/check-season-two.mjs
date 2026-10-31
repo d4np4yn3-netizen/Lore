@@ -10,15 +10,16 @@ const anchors = html => [...html.matchAll(/<a\b([^>]*)>/g)].map(match => Object.
 
 test('Season Two describes the 50-card plan and truthful private editorial process', () => {
   assert(main.includes('50 new cards.'));
-  assert(main.includes('When submissions open'));
+  assert(main.includes('Which moments'));
+  assert(main.includes('make the cut?'));
   assert(main.includes('private editorial review'));
-  assert(main.includes('final selection remains editorial'));
-  assert(main.includes('not a binding vote or a competition'));
-  assert(main.includes('will not sign you up for marketing emails'));
+  assert(main.includes('Final selection remains editorial'));
+  assert(main.includes('this is not a competition'));
+  assert(main.includes('Four details. No marketing signup.'));
 });
 
 test('unconnected suggestion preview cannot accept, transmit or pretend to save data', () => {
-  assert(main.includes('Preview only · Suggestions are not open yet.'));
+  assert(main.includes('Suggestions open soon. These preview fields are disabled.'));
   assert(/<fieldset\b[^>]*disabled=""/.test(main));
   assert.equal((main.match(/<input\b/g) || []).length, 3);
   assert.equal((main.match(/<textarea\b/g) || []).length, 1);
@@ -35,7 +36,7 @@ test('preview prompts have explicit labels, accessible status and no private ide
     assert(main.includes(`id="suggestion-${field}"`));
   }
   assert(main.includes('aria-describedby="suggestion-status suggestion-privacy"'));
-  assert(main.includes('contact details, private keys, wallet details or other personal information'));
+  assert(main.includes('Please don’t include personal information or wallet details.'));
   assert(!main.includes('type="file"') && !main.includes('type="password"'));
 });
 
@@ -67,7 +68,7 @@ test('homepage invitation stays secondary to Season One products and timeline', 
   assert(position > home.indexOf('id="collection"'));
   assert(position > home.indexOf('id="teaser-title"'));
   assert(position < home.indexOf('id="coming-soon"'));
-  assert(home.includes('Email registration opens soon'));
+  assert(home.includes('Be there for the first print.'));
 });
 
 test('canonical metadata and sitemap include the new page without losing existing pages', () => {
@@ -78,4 +79,14 @@ test('canonical metadata and sitemap include the new page without losing existin
   assert.equal(urls.length, cards.length + 4);
   assert.equal(new Set(urls).size, urls.length);
   for (const path of ['/', '/shop', '/timeline', '/season-two', ...cards.map(slug => `/cards/${slug}`)]) assert(urls.includes('https://www.histrove.co.uk' + path), path);
+});
+
+test('approved art-led layout labels existing Season One art without implying Season Two art approval', () => {
+  for (const src of ['/archive/038-art.webp', '/archive/046-art.webp']) assert(main.includes(src), src);
+  assert(main.includes('A taste of our art: Season One illustrations. Season Two artwork is still to come.'));
+  for (const phrase of ['Pick a moment', 'Tell us why', 'We research &amp; select', 'Your idea could inspire']) assert(main.includes(phrase), phrase);
+  assert(!main.includes('MOMENTS TO CHOOSE'));
+  const css = read('app/season-two/season-two.module.css');
+  assert(css.includes('.artDuo img{display:block;width:100%;height:auto}'));
+  assert(css.includes('@media(max-width:760px)'));
 });
