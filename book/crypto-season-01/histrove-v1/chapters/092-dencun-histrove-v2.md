@@ -1,0 +1,26 @@
+# 092 - Dencun
+
+13 MARCH 2024 / ETHEREUM / COMMON
+
+ROOM TO BREATHE.
+
+## The story
+
+On 13 March 2024, Ethereum activated Dencun at epoch 269568. Its headline feature was EIP-4844, or proto-danksharding, which introduced temporary data blobs for rollups. These layer-2 networks process transactions away from Ethereum mainnet and publish data back to it. Dedicated blob space reduced the cost of making rollup data available, helping lower fees for their users.
+
+Blob gas has its own fee market, separate from ordinary execution gas, and blob contents are not directly readable by the Ethereum Virtual Machine. The minimum window for serving blob sidecars was 4096 epochs, about eighteen days. Other services or operators could keep older copies. Savings depended on rollups adopting the new format; Dencun did not make all Ethereum transactions free.
+
+The returning tortoise now pulls an ARB suitcase on a wheeled cart above glowing cyan data crates. Where card 087 made claiming an airdrop feel like lifting heavy luggage, this scene gives the traveller a way to carry the load. The crates stand for temporary blob data, not an exact count of blobs in a block.
+
+The wheels make lower data costs visible, not faster Ethereum blocks or guaranteed cheap L1 transactions. The Ethereum city beyond the warehouse sets the wider network context. ROOM TO BREATHE. describes relief for rollups: an illustrated metaphor, not a historical journey, a quoted promise or a fixed fee.
+
+## Details in the artwork
+
+1. **THE ACTIVATION PLAQUE** 269568 on the warehouse wall is the epoch at which Dencun activated on 13 March 2024. It is an epoch number, not a block height or shipment code.
+2. **THE HOURGLASS TAG** 4096 EPOCHS marks the minimum blob-sidecar retention and serving window, about eighteen days. It does not require every copy to disappear when that time is up.
+3. **THE ARB SUITCASE** ARB links the cargo to Arbitrum. The CANCUN sticker names the execution-layer half of Dencun, paired with Deneb on the consensus layer. The label is a naming clue, not a travel destination or upgrade venue.
+4. **THE RETURNING TRAVELLER** The 087 pocket badge recalls The Arbitrum Airdrop card. This fictional tortoise now uses wheels to carry the load. The callback connects two illustrations; it does not identify a historical actor or claim faster L1 block production.
+
+## Source and art note
+
+Sources: [Dencun mainnet announcement](https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement); [Ethereum Dencun overview](https://ethereum.org/roadmap/dencun/); [EIP-4844 specification](https://eips.ethereum.org/EIPS/eip-4844); [Deneb networking specification](https://ethereum.github.io/consensus-specs/specs/deneb/p2p-interface/). The tortoise, suitcase, cart, warehouse and city are fictional editorial metaphors. The 087 badge is a card callback, not a historical identity. ROOM TO BREATHE. is editorial wording, not a quotation or fee guarantee.
