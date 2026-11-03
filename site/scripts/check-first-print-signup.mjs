@@ -9,3 +9,6 @@ assert.match(source,/No automatic confirmation email is sent./);
 assert.match(source,/Opens Google Forms. Not an order or reservation./);
 assert.doesNotMatch(source,/<input|<form|disabled|NOT OPEN YET|Signup remains closed|onSubmit/);
 console.log('First-print signup source contracts pass: verified hosted-form link, no dummy fields or local submission, honest manual notice.');
+const css=readFileSync('app/globals.css','utf8');
+assert.match(css,/\.first-print-info \.launch-form-preview>a\.gold-button\{opacity:1;cursor:pointer/);
+assert.match(css,/\.launch-form-preview>a\.gold-button:focus-visible\{outline:3px solid var\(--bone\);outline-offset:4px\}/);

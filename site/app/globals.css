@@ -206,3 +206,7 @@
 
 /* Five approved featured cards, ascending rarity, no Mythic. */
 @media(min-width:761px){.product-home .hero-gallery{max-width:800px}.product-home .hero-card-stage{aspect-ratio:1.95}.product-home .hero-card{width:26%;max-width:215px}.product-home .hero-card-0{left:2%;top:13%;transform:rotate(-12deg);z-index:1}.product-home .hero-card-1{left:20%;top:5%;transform:rotate(-6deg);z-index:2}.product-home .hero-card-2{left:38%;top:2%;transform:rotate(0deg);z-index:3}.product-home .hero-card-3{left:56%;top:5%;transform:rotate(6deg);z-index:4}.product-home .hero-card-4{left:74%;top:13%;transform:rotate(12deg);z-index:5}.product-home .hero-card:hover,.product-home .hero-card:focus-visible{transform:translateY(-8px);z-index:7}}
+
+/* Active hosted first-print signup: override former disabled-preview treatment. */
+.first-print-info .launch-form-preview>a.gold-button{opacity:1;cursor:pointer;text-decoration:none;justify-content:space-between}
+.first-print-info .launch-form-preview>a.gold-button:focus-visible{outline:3px solid var(--bone);outline-offset:4px}
