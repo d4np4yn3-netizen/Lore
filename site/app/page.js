@@ -12,7 +12,7 @@ import AboutHistrove from './components/AboutHistrove';
 import PackConfiguration from './components/PackConfiguration';
 import SeasonTwoTeaser from './components/SeasonTwoTeaser';
 // Preview-only approved 087 card; the separate full card release remains independent.
-const archiveCards = collectionCards.map(c => c.slug === 'the-arbitrum-airdrop' ? {...c, title:'ARBITRUM AIRDROP', phrase:'WORTH THE WEIGHT.', media:{...c.media,image:{src:'/preview-087-approved.webp',width:600,height:863}}} : c);
+const archiveCards = collectionCards.map(c => c.slug === 'the-arbitrum-airdrop' ? {...c, title:'ARBITRUM AIRDROP', phrase:'WORTH THE WEIGHT.', media:{...c.media,image:{src:'/preview-087-approved.webp',width:600,height:863}}} : c.slug === 'three-arrows-falls' ? {...c,media:{...c.media,image:{src:'/preview-081-border.webp',width:600,height:863}}} : c);
 const featured = ['the-arbitrum-airdrop','slush-pool','three-arrows-falls','cryptokitties','the-first-transfer'].map(slug=>archiveCards.find(c=>c.slug===slug));
 export default function Home(){
  useEffect(()=>{if(/^#(?:year-\d{4}|moment-[a-z0-9-]+)$/.test(window.location.hash))window.location.replace('/timeline'+window.location.search+window.location.hash);},[]);
