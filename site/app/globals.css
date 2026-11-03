@@ -167,7 +167,7 @@
 @media(max-width:1100px) and (min-width:761px){.first-print-rarity-strip{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.coming-soon,.product-home .coming-soon{padding:25px 20px 40px}.first-print-banner-copy{display:block;padding:22px}.first-print-banner-copy h2{font-size:37px;letter-spacing:-1.7px;margin:8px 0 14px}.first-print-banner-copy p{max-width:none;font-size:13px}.first-print-banner-copy .label{font-size:9px;letter-spacing:1.1px}.first-print-panorama{grid-template-columns:repeat(2,minmax(0,1fr))}.first-print-panorama figcaption{font-size:8px;padding:22px 9px 9px}.first-print-art-credit{font-size:10px;line-height:1.5}.first-print-info{grid-template-columns:1fr;gap:28px;margin-top:22px}.first-print-numbers{gap:15px}.first-print-numbers dt{font-size:11px}.first-print-numbers dd{font-size:35px}.first-print-rarity-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.first-print-rarity-strip a{padding:12px 9px}.first-print-rarity-strip strong{font-size:24px}.first-print-rarity-strip .rarity{font-size:9px}.first-print-info .launch-list{padding:20px}.first-print-info .launch-list>.label{font-size:9px;letter-spacing:1.1px}}
 
-/* Shop prominence: a finite decorative border glint, never a looping flash. */
+/* Shop prominence: a brief decorative sweep followed by a six-second pause. */
 .shop-spotlight{position:relative;isolation:isolate;border-radius:5px}
 .site-header .header-nav .shop-action{min-height:48px;padding:12px 20px;font-weight:700;box-shadow:0 2px 14px #d4af3720}
 .site-header .header-nav .shop-action:focus-visible,.shop-spotlight:focus-visible,.hero-collection-link:focus-visible{outline:3px solid var(--bone);outline-offset:4px}
