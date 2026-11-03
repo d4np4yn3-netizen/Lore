@@ -1,0 +1,82 @@
+{
+  "archive_date": "2026-11-03",
+  "scope": "Archive the final family-photo assets on GitHub. No website integration or production release.",
+  "files": [
+    {
+      "name": "Family-Art-v6.png",
+      "size": 2334948,
+      "sha256": "1eea5802046eec0ebb15fb64e01b8978568a1041cd8ecd641999a7c7a62cf6bb",
+      "git_blob": "88d23a81a1d20dff0705f27a6b76a516f6a807dc",
+      "role": "Raw thirteen-character family illustration, 2172 \u00d7 724",
+      "dimensions_px": [
+        2172,
+        724
+      ],
+      "path": "Family-Art-v6.png"
+    },
+    {
+      "name": "HISTROVE-Family-Header-Source-v4.zip",
+      "size": 20512425,
+      "sha256": "e15056bed07a8a2987ddcdf194da1246140334e204674bbb20e97df6e229d7e7",
+      "git_blob": "cf4e6f04aff45827c96b2464af00848e5039c769",
+      "role": "X-header source package, including SVG, logo and reference images",
+      "storage": "Lossless ordered parts; run restore-header-source.py to recreate the original ZIP.",
+      "parts": [
+        {
+          "name": "HISTROVE-Family-Header-Source-v4.zip.part01",
+          "size": 10485760,
+          "sha256": "3e25e78107180188eaca9a6809e987b14b140bec270bf6ddad0170c1c38f38c2",
+          "git_blob": "608c312ca5636841062ee5a5ea009ac1126ee22c",
+          "path": "source-zip-parts/HISTROVE-Family-Header-Source-v4.zip.part01"
+        },
+        {
+          "name": "HISTROVE-Family-Header-Source-v4.zip.part02",
+          "size": 10026665,
+          "sha256": "3507a27b1cff5185b778407e38d81a1652cb041e6b182c3f36186c3d26d141a5",
+          "git_blob": "1ad55777f87af832d28fafe23f2432eabf1aebaf",
+          "path": "source-zip-parts/HISTROVE-Family-Header-Source-v4.zip.part02"
+        }
+      ]
+    },
+    {
+      "name": "HISTROVE-Family-Header-v4.png",
+      "size": 1266233,
+      "sha256": "b6cf30b410ab8d4b9f50ed1fc04c5dec74d53d03677b894997f985d65fa9386b",
+      "git_blob": "f8d23f22ecf4fdd877d5305cc14c859f75cc561a",
+      "role": "X header, 1500 \u00d7 500",
+      "dimensions_px": [
+        1500,
+        500
+      ],
+      "path": "HISTROVE-Family-Header-v4.png"
+    },
+    {
+      "name": "HISTROVE-Family-Website-Strip-Source-v1.zip",
+      "size": 8862702,
+      "sha256": "fe991833f00594374de26b1cf7a8c91a21f728dbce0632f6594b59046da7f30b",
+      "git_blob": "d4a5fbdf2c2c0e72e191d1a814d61b4e18ed8e36",
+      "role": "Website-strip source package",
+      "path": "HISTROVE-Family-Website-Strip-Source-v1.zip"
+    },
+    {
+      "name": "HISTROVE-Family-Website-Strip-v1.png",
+      "size": 2187118,
+      "sha256": "bac19b53d8dd97ad6606f9d7037aaebf386fb059b9ae53db26a3da7da42acc2c",
+      "git_blob": "fd50c52e8ff7fd1972051afc97bd64f8d65d0f00",
+      "role": "Website-strip layout, 2400 \u00d7 600; archive only, not installed on the site",
+      "dimensions_px": [
+        2400,
+        600
+      ],
+      "path": "HISTROVE-Family-Website-Strip-v1.png"
+    },
+    {
+      "name": "HISTROVE-Family-Website-Strip-v1.svg",
+      "size": 4506669,
+      "sha256": "019116a3514bbe5dd97b09ea8c6cfd311540f56e1ba5428647b0b998c80c1cc8",
+      "git_blob": "b07f7f4315315919e2a3fe58f259d8dea5178aa4",
+      "role": "Website-strip source assembly with embedded raster illustration",
+      "path": "HISTROVE-Family-Website-Strip-v1.svg"
+    }
+  ]
+}
