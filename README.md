@@ -1,3 +1,15 @@
+# HISTROVE — start here
+
+[Project memory and task index](PROJECT-MEMORY.md#task-index) · [Current status](CURRENT-STATUS.md#current-snapshot) · [Outstanding work](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds) · [Evidence-based lessons](PROJECT-MEMORY.md#evidence-based-lessons)
+
+Before a new task, read the current status and use the index to find the relevant artwork, approvals, printing, website, shop or project-history records. Update those existing records when a decision or verified result changes; do not create a competing memory master. See [project instructions](AGENTS.md).
+
+## Historical release notes and introduction
+
+The following release notes and legacy introduction are preserved history. Their counts, next steps, branding and production claims apply to their dated scope; the linked current records above resolve later changes. HISTROVE is the current identity; historical LORE source paths and stable QR URLs are intentional.
+
+---
+
 # Current release — 068 The SHIB Burn
 
 Approved 16 October 2026: exact straight-window art v7 and card proof v3. COMMON / SHIBA INU / THE SHIB BURN / NO WAY BACK. / 16 MAY 2021.
@@ -67,9 +79,9 @@ CryptoPunks (038) and Behind the Chair (039) complete the published 001–039 co
 
 **COLLECT THE INTERNET.**
 
-[![LORE — approved Rising Strokes identity](brand/previews/LORE-Brand-Guide.png)](brand/README.md)
+[![LORE — approved Rising Strokes identity](archive/brand/LORE-04-v1.0/previews/LORE-Brand-Guide.png)](brand/README.md)
 
-**Brand locked: 04 / Rising Strokes.** [Branding page](brand/README.md) · [PNG + SVG pack](brand/downloads/LORE-Brand-Pack-v1.0.zip) · [Individual assets](brand/assets/README.md)
+**Brand locked: 04 / Rising Strokes.** [Branding page](brand/README.md) · [PNG + SVG pack](archive/brand/LORE-04-v1.0/downloads/LORE-Brand-Pack-v1.0.zip) · [Individual assets](brand/assets/README.md)
 
 LORE is a premium internet-culture collectible brand that turns defining moments from internet culture into physical and digital collectible cards.
 

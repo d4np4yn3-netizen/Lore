@@ -1,3 +1,80 @@
+# HISTROVE project memory — start here
+
+Index version **1.0 · 27 October 2026**. Repository baseline checked: [ebb3a832](https://github.com/d4np4yn3-netizen/Lore/commit/ebb3a8323322fd2e4d47ccd28f0fe81bd6c07d88). This is the existing project-memory entrypoint, not another asset register or approval authority.
+
+## Start each task
+
+1. Read the [current snapshot](CURRENT-STATUS.md#current-snapshot), including its evidence limits and conflicts, and the applicable [project instructions](AGENTS.md).
+2. Use the task index below; load only the relevant standards, exact current files and approval evidence. Check the current branch before changing anything.
+3. Confirm the requested scope. A historical approval applies to its exact revision and purpose, not a new variant, publication, deployment or physical production.
+4. After a meaningful outcome, update the owning record and its index pointer using the [maintenance method](#updating-this-memory). Do not add another whole-project handover.
+
+Current user instructions and granted permissions take precedence over project memory. A dated record is evidence, not permission to resume paused work. Where evidence conflicts, use the [known-conflicts register](CURRENT-STATUS.md#known-conflicts-and-evidence-limits); do not silently choose or promote a file.
+
+## Task index
+
+| Task / search terms | Read first | Authoritative detail and boundary |
+| --- | --- | --- |
+| Artwork, raw art, style, revision | [Crypto art style](cards/crypto/ART-STYLE.md) | [Four-reference lock](cards/crypto/style-reference-lock.json) owns exact input paths/hashes; [Crypto instructions](cards/crypto/AGENTS.md) own the workflow. Use the selected card's approval/provenance, not the newest-looking folder. |
+| Approval, sign-off, publish, exact version | [Current releases and evidence](CURRENT-STATUS.md#current-snapshot) | [Card register](cards/crypto/current-cards.json) remains the existing register but has documented stale fields. Follow exact per-card approval records and reconcile with the [published catalogue](site/app/cards/data.js). QA, rights, digital publication and physical acceptance are separate. |
+| Printing, dimensions, fonts, QR, samples | [HISTROVE print master](cards/crypto/master/histrove-print-v1/README.md) | [Specification](cards/crypto/master/histrove-print-v1/print-spec.json) and [print manifest](cards/crypto/print-ready/histrove-v1/manifest.json) own geometry/files. [Current download map and holds](site/app/cards/print-files.json) prevents treating retained historical print assets as current. |
+| Website, build, search, rarity, analytics | [Site run/verify guide](site/README.md#run-and-verify) | [Catalogue](site/app/cards/data.js), [web derivatives](site/web-card-derivatives.json) and [package scripts](site/package.json) describe implementation. [Analytics](site/ANALYTICS.md) records consent and verification boundaries. Historical counts in prose are not a current census. |
+| Shop, packs, book, availability | [Current shop implementation](site/app/shop/page.js) | [Pack presentation](site/app/components/PackConfiguration.js) and [shop preview history](site/SHOP-PREVIEW-REVIEW.md) describe the concept. For pending commercial decisions and the closed-order boundary, use the [backlog](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds). |
+| Outstanding work, blocked, paused, next | [Current work and holds](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds) | The single active work ledger. Includes 100, print holds, the deferred whole-collection review, Season Two and unresolved metadata. A queue entry is not execution approval. |
+| Lessons, worked, failed, improvement | [Evidence-based lessons](#evidence-based-lessons) | Short reusable lessons with source, scope, outcome and next check. Hypotheses stay unproven; retired lessons point to their replacement. |
+| Brand, logo, tagline, packaging | [Brand lock](brand/brand-lock.json) | [Approved asset manifest](brand/assets/asset-manifest.json), [asset QA](brand/ASSET-QA.md) and [packaging index](packaging/crypto-season-01/README.md). Preserve historical LORE paths and stable QR hosts; do not globally rename. |
+| Book, copy, sources, clues, callbacks | [Current book edition](book/crypto-season-01/histrove-v1/README.md) | Exact card's chapter/source/approval records govern selected copy. [Cross-card inventory](cards/crypto/CROSS-CARD-ITEMS.md) records approved callbacks; the [brief pack](cards/crypto/season-01/briefs/v1/README.md) is proposal/history, not blanket approval. |
+
+## Source ownership and status vocabulary
+
+- **This file:** routing, durable lessons and the supersession map. It does not duplicate asset manifests.
+- **CURRENT-STATUS.md:** current state, verification date, evidence and unresolved record conflicts. Earlier release sections are historical snapshots.
+- **EDITORIAL-BACKLOG.md:** active next steps, dependencies and decisions still needed. Keep finished work out of the active queue; point to the outcome record instead.
+- **Exact approval/provenance and manifests:** selected version, authorized scope, hashes and factual evidence. Do not replace them with narrative summaries.
+- **Site catalogue and asset maps:** what the checked repository implementation selects. Repository presence does not by itself prove a fresh live deployment check.
+
+Use explicit labels: **proposed**, **draft / not approved**, **approved for a named scope**, **published in repository**, **live verified at a stated commit/time**, **paused**, **deferred**, **superseded / historical**, or **unknown / conflicting**. A document date, successful test or folder name is not approval.
+
+## Superseded directions
+
+| Older wording / trap | Current resolution | Provenance |
+| --- | --- | --- |
+| LORE name/tagline as the current Crypto identity | HISTROVE / History Worth Holding; retain historical source names and stable URLs. | [Brand lock](brand/brand-lock.json), [website rebrand scope](site/HISTROVE-REBRAND.md#scope-and-authorization). |
+| Crypto print-v1 / print-v1.2 as the latest master | HISTROVE print master retains approved v1.2 geometry with the selected brand layer. Creator masters are separate. | [Current master](cards/crypto/master/histrove-print-v1/README.md). |
+| HODL-only or HODL/Doge-only style inputs | All four pinned raw references are required; later card approvals and experiments do not replace the pack. | [Style v1.2](cards/crypto/ART-STYLE.md#the-four-exact-references). |
+| CASH OUT next; 058 parked; old partial collection totals | Historical milestones, not the current queue. Read current status and outstanding work. | [Snapshot and conflicts](CURRENT-STATUS.md#current-snapshot). |
+| Old boat 081 as current; old 015 as the selected art | Fast-food 081 and Golden River 015 are selected. Retain old assets, but do not promote them from archival paths. | [Current evidence](CURRENT-STATUS.md#current-snapshot). |
+| Earlier Season Two Gaming Creators plan as an instruction to start | The later 50-community-card direction is paused; neither old plans nor this index resume it. | [Current work and holds](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds). |
+| Approved artwork or a printer filename means production-ready | Physical samples, print QA, rights and commercial decisions remain separate, including specific 015/093/076 boundaries. | [Current print status](CURRENT-STATUS.md#current-snapshot). |
+
+The historical sections below preserve what was known at the time. They must not restart completed cards, override the current four-reference pack, or undo a later explicit user decision.
+
+## Evidence-based lessons
+
+| ID / type | What the evidence says | Apply next time / limit |
+| --- | --- | --- |
+| L01 · documented safeguard · artwork | [ART-STYLE workflow](cards/crypto/ART-STYLE.md#required-workflow) and [drift guidance](#how-to-avoid-drift) require original references even during edits. A chain of newer outputs is not a replacement style master. | Supply all four raw originals; keep content separate from style; inspect the whole scene and final crop. No claim that every edit necessarily degrades quality. The separate 081 style experiment is not an adopted standard. |
+| L02 · observed failure and correction · brand/export | [11 September incident](operations/09-ASSET-CORRECTION-2026-09-11.md#findings) records unapproved slogan reintroduction, clipping and sheet contamination; concept approval was mistaken for approval of exported files. | Use current locked components; inspect actual light/dark exports, borders and alpha; record exact revision/hash. Its old LORE wording and temporary hold are historical, not current brand rules. |
+| L03 · observed correction · web/print layout | [Card-edge correction](site/HISTROVE-REBRAND.md#card-edge-preview-correction--6-october-2026) distinguishes visible-frame web crops from physical trim/bleed. [015/093 approvals](cards/crypto/season-01/golden-river-first-halving-master-015/approval.json) still withhold print-ready status. | Compare at destination size, check clue/QR visibility and decode final derivatives. Preserve print geometry; digital approval cannot close physical QA. Do not infer native resolution from output DPI. |
+| L04 · recorded method · publication | [Compact working method](CURRENT-STATUS.md#compact-working-method) separates local files from remote hash verification and recommends resuming only missing work. [Site release verification](site/HISTROVE-REBRAND.md#reproduce-and-validate) separates build checks from production checks. | Check existing approval and remote outcome before retrying; verify the exact published commit/files, then deployment and live routes when in scope. State unrun checks and limits, not a generic all-passed claim. |
+
+These are scoped project lessons, not model retraining or proof that all later work improved. For a new lesson record: **date + task/revision; attempted approach; observed success/failure; evidence; context/limits; next action; status**. Label an untested idea **hypothesis**. Change it to validated only with evidence; mark obsolete lessons **retired**, with a reason and replacement pointer. Prefer updating an existing lesson over repeating it.
+
+## Updating this memory
+
+1. Start from the latest branch and preserve unrelated work. Update the owning record, not several competing copies of the same fact.
+2. In the current snapshot, replace stale active summaries in place; retain dated release evidence below the historical boundary. Record when checked, the exact source/commit, the outcome, and what remains unverified.
+3. Update the work ledger's status/dependency/next action. A paused or deferred entry stays that way until the user changes it. Record decisions as decisions, proposals as proposals, and user approval separately from technical checks.
+4. Add or amend a concise lesson only when an outcome supplies evidence. Link it to the detailed record and retire a superseded rule explicitly.
+5. Reconcile task routes and aliases (card number, title, topic); ensure one canonical pointer per owned fact. Check relative links, anchors, selected versions and conflicts. Never silently repair data/art/code under a documentation-only request.
+6. Report the exact changed documents, commit/PR and validation. Memory updates do not themselves authorize merge, deployment, purchases or publication of private material. Keep credentials, private assets and unrelated personal/work information out of this public repository.
+
+---
+
+## Historical release and decision records
+
+Preserved below without claiming a fresh verification of every historical statement. Start with the index and dated current snapshot above.
+
 # 073 published and digitally verified — 18 October 2026
 
 073 TAPROOT ACTIVATES is live at https://lore-site-v1.vercel.app/cards/taproot-activates . Release 989dcfe17c04a2c9e629e1821cd1b9964e16bb2f, tree 94d9a04cf7f7adde3a2d366edff6357c9ff297ae, production deployment dpl_A1fmYV8yuXoG4ZuFbCVSMjLpLpTm: READY, with Vercel success. Verified at 2026-10-18T12:23:04Z. The release tree exactly matches the tested local tree.

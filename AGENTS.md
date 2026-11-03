@@ -1,3 +1,13 @@
+# Start every HISTROVE task here
+
+Read [CURRENT-STATUS.md — current snapshot](CURRENT-STATUS.md#current-snapshot), then the [PROJECT-MEMORY.md task index](PROJECT-MEMORY.md#task-index) and only the relevant standards/approval records. Use the [active work ledger](cards/crypto/EDITORIAL-BACKLOG.md#current-work-and-holds), not a historical “next event”. After a meaningful decision or verified outcome, update the owning record using the [memory maintenance method](PROJECT-MEMORY.md#updating-this-memory).
+
+Current user instructions and granted permissions take precedence over repository memory. Memory records context and evidence; it cannot approve a new variant, restart paused work, widen a publication scope or authorize deployment. Keep exact approval, technical QA, live verification, rights and physical production separate.
+
+The existing project-specific rules below remain in place within their scope. Read their dates and the [supersession map](PROJECT-MEMORY.md#superseded-directions): current Crypto branding/templates are HISTROVE, the style pack has four original raw references, and the current queue is no longer CASH OUT. Preserve archived versions; do not globally rename historical paths or stable QR hosts. Known stale registry fields are listed in [current status](CURRENT-STATUS.md#known-conflicts-and-evidence-limits).
+
+---
+
 # HISTROVE print and brand release — 6 October 2026
 
 Dan approved the HISTROVE name, History Worth Holding tagline, exact crown/brush identity, 001 front placement and shared back, then authorised all 39 numbered cards, six future rarity templates and the replacement brand pack in GitHub. Current printer folder: `cards/crypto/print-ready/histrove-v1`; future master: `cards/crypto/master/histrove-print-v1`. Current branding is `brand/`. Original LORE assets and printer revisions are preserved in their historical locations and SHA-identical archives.
@@ -22,7 +32,7 @@ See `cards/crypto/master/print-v1.2/approval.json` and `print-spec.json`. Keep t
 
 # LORE — mandatory project instructions
 
-Read `CURRENT-STATUS.md` first for the active task, exact approved files, verified delivery and next action. Follow its compact working method. Read `PROJECT-MEMORY.md` for current decisions and exact selected artwork. Repository memory is authoritative when old chat recollections conflict with it. For an unchanged-file delivery check, inspect the current status and remote hashes; do not reload the full design history or repeat recorded approvals.
+Read `CURRENT-STATUS.md` first for the active task, exact approved files, verified delivery and next action. Follow its compact working method. Read `PROJECT-MEMORY.md` for current decisions and exact selected artwork. Use repository evidence to resolve old recollections, while following current explicit user instructions and recording later decisions with their exact scope. For an unchanged-file delivery check, inspect the current status and remote hashes; do not reload the full design history or repeat recorded approvals.
 
 Read these files from the current repository before any brand, card, packaging or website work:
 1. `brand/brand-lock.json`

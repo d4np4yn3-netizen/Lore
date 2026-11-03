@@ -1,3 +1,15 @@
+# Current Crypto task routing
+
+Read the root [current snapshot](../../CURRENT-STATUS.md#current-snapshot) and [task index](../../PROJECT-MEMORY.md#task-index) before work. The existing [art-style standard](ART-STYLE.md) and [four-reference lock](style-reference-lock.json) govern new art and edits; the [HISTROVE print master](master/histrove-print-v1/README.md) supersedes the historical LORE print masters below. Creator standards remain separate.
+
+Use the [current work ledger](EDITORIAL-BACKLOG.md#current-work-and-holds), not the old “Current next event” section. Preserve all approved cards and archives; the present 100 draft is not approved. Check the [known registry conflicts](../../CURRENT-STATUS.md#known-conflicts-and-evidence-limits) before resolving selected assets or print status. Current user instructions and permission limits take precedence; a memory entry is not new approval.
+
+---
+
+## Preserved instructions and historical milestones
+
+The original dated print-release and next-event notes below are retained for provenance. Their superseded paths/counts do not select today's print master or active task. The four-reference workflow and unchanged approval safeguards continue to apply.
+
 # Crypto print v1.2 — approved framing, 6 October 2026
 
 Dan approved the exact 001 v1.2 proof and authorised the 39-card rollout and a matching shared back. For **new Crypto print derivatives**, use `cards/crypto/master/print-v1.2` and its renderer/templates. This supersedes the 24 September print-v1.0 geometry below; creator masters and original approved artwork are unchanged.
