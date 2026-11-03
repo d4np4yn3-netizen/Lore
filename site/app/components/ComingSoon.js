@@ -10,7 +10,7 @@ const bannerArt = [
   ['much-wow', '020 / BIRTH OF DOGE'],
   ['cryptokitties', '046 / CRYPTOKITTIES'],
 ].map(([slug, caption]) => ({ card: archiveCards.find(card => card.slug === slug), caption }));
-// Private art-led proposal. No collection endpoint, submission handler or new artwork.
+// First-print interest uses the owner-managed Google Form; no local data collection.
 export default function ComingSoon() {
   const counts = rarityCounts(archiveCards);
   return <section className="coming-soon" id="coming-soon" aria-labelledby="launch-heading">
@@ -23,6 +23,18 @@ export default function ComingSoon() {
       <div className="launch-copy">
         <dl className="first-print-numbers"><div><dt>First-run interest target</dt><dd>1,000 <span>packs</span></dd></div><div><dt>Planned lifetime Season One cap</dt><dd>66,666 <span>packs</span></dd></div></dl>
         <p className="first-print-planning-note">A planning target, not current orders. The lifetime cap is not the first batch.</p>
+      </div>
+      <aside className="launch-list" aria-labelledby="launch-list-heading">
+        <span className="label">FIRST-PRINT INTEREST · NOW OPEN</span><h3 id="launch-list-heading">Be there for the first print.</h3>
+        <p className="first-print-purpose">One email when preorders open. No newsletter.</p>
+        <div className="launch-form-preview" aria-describedby="launch-privacy">
+          <a className="gold-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfFIPxtdKXZ__3x7PJQbEUJwSH_J0IhPK5h3cGlixnd00sqAw/viewform?usp=header">Register first-print interest <Arrow/></a>
+        </div>
+        <p className="first-print-no-order">Opens Google Forms. Not an order or reservation. No payment or guaranteed pack.</p>
+        <p id="launch-privacy" className="launch-privacy">The form explains how HISTROVE uses your details and asks for your one-off email request. No automatic confirmation email is sent.</p>
+      </aside>
+    </div>
+    <div className="first-print-rarities-after-signup">
         <div className="first-print-rarity-overview" aria-labelledby="first-print-rarity-heading">
           <h3 id="first-print-rarity-heading">{counts.all} card designs</h3>
           <ul className="first-print-rarity-strip">{rarities.map(label => <li key={label}><Link href={'/timeline?layout=grid&rarity=' + label.toLowerCase()} aria-label={'View all ' + counts[label.toLowerCase()] + ' ' + label + ' card designs'}><strong>{counts[label.toLowerCase()]}</strong><span className={'rarity ' + label.toLowerCase()}>{label}</span></Link></li>)}</ul>
@@ -31,19 +43,6 @@ export default function ComingSoon() {
         <details className="first-print-rarity-details"><summary>Print and foil details</summary>
           <p className="first-print-count-note">Design counts are not printed quantities or pack odds. Foil selection and odds are under review.</p>
         </details>
-      </div>
-      <aside className="launch-list" aria-labelledby="launch-list-heading">
-        <span className="label">FIRST-PRINT INTEREST · NOT OPEN YET</span><h3 id="launch-list-heading">Be there for the first print.</h3>
-        <p className="first-print-purpose">One email when preorders open. No newsletter.</p>
-        <div className="launch-form-preview" aria-describedby="launch-privacy">
-          <label htmlFor="launch-email">Email address</label><input id="launch-email" type="email" placeholder="you@example.com" autoComplete="off" disabled aria-describedby="launch-privacy"/>
-          <label htmlFor="launch-quantity">How many packs might you want? <small>(optional)</small></label><input id="launch-quantity" type="number" min="1" step="1" placeholder="e.g. 2" disabled aria-describedby="launch-quantity-note"/>
-          <p id="launch-quantity-note" className="first-print-quantity-note">Non-binding estimate. You can change your mind.</p>
-          <button className="gold-button" type="button" disabled>Notify me when preorders open <Arrow/></button>
-        </div>
-        <p className="first-print-no-order">Interest only — not an order, payment or reservation. No guaranteed pack.</p>
-        <p id="launch-privacy" className="launch-privacy">Signup remains closed; no details are collected.</p>
-      </aside>
     </div>
   </section>;
 }
