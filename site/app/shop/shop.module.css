@@ -1,6 +1,5 @@
-.shop{max-width:1440px;margin:auto;padding:0 5vw}.shop img,.reader img{display:block;max-width:100%;height:auto}.reader{margin:auto;padding:0 5vw}
+.shop{width:100%;max-width:none;margin:0;padding:0 var(--site-inline-padding)}.shop img,.reader img{display:block;max-width:100%;height:auto}.reader{margin:auto;padding:0 5vw}
 .eyebrow,.image-label{font-size:10px;font-weight:600;line-height:1.4;letter-spacing:.14em;text-transform:uppercase}
-.shop{max-width:1440px;margin:auto;padding:0 5vw}
 .shop-intro{padding:38px 0 32px;display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
 .eyebrow{color:var(--gold);margin:0 0 13px}
 .shop-intro h1{font-size:44px;letter-spacing:-.05em;line-height:1.05;margin:0}
@@ -56,7 +55,6 @@
 .flat-pages img{width:100%;background:white}
 .reader-note{font-size:12px;color:var(--muted);line-height:1.5}
 .reader-note a{color:var(--gold)}
-@media(min-width:1600px){.shop{padding-left:70px;padding-right:70px}}
 @media(max-width:1000px){.product h2{font-size:23px}
 .product-copy{padding:23px 20px 20px}
 .product-foot{gap:10px}
@@ -69,7 +67,6 @@
 .intro-copy br{display:none}
 .intro-copy{max-width:300px}
 .products{grid-template-columns:1fr;gap:24px}
-.shop{padding:0 20px}
 .product-copy{padding:23px 21px 20px}
 .product h2{font-size:24px}
 .product-copy>p:not(.eyebrow):not(.availability-note){font-size:13px;margin-bottom:23px}

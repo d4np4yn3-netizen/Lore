@@ -210,3 +210,29 @@
 /* Active hosted first-print signup: override former disabled-preview treatment. */
 .first-print-info .launch-form-preview>a.gold-button{opacity:1;cursor:pointer;text-decoration:none;justify-content:space-between}
 .first-print-info .launch-form-preview>a.gold-button:focus-visible{outline:3px solid var(--bone);outline-offset:4px}
+
+
+/* Shared page edges: preserve the approved 1800px hero shell and capped gutters.
+   Full-bleed section backgrounds remain full width; only their content is inset.
+   The centered inset grows outside the shell, never inside a second container. */
+:root{
+  --site-shell-max:1800px;
+  --site-gutter:clamp(24px,4.5vw,72px);
+  --site-inline-padding:max(var(--site-gutter),calc((100% - var(--site-shell-max))/2 + var(--site-gutter)));
+}
+.site-header,
+.site-footer,
+.product-home .hero,
+.product-home .family-preview,
+.product-home .coming-soon,
+.product-home .discovery,
+.product-home .pack-config,
+.product-home .timeline-teaser,
+.product-home .about-histrove{
+  width:100%;
+  max-width:none;
+  margin-left:0;
+  margin-right:0;
+  padding-left:var(--site-inline-padding);
+  padding-right:var(--site-inline-padding);
+}
