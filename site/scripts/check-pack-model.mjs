@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const source=fs.readFileSync('app/components/PackConfiguration.js','utf8');
 for(const path of ['index','shop']){
  const html=fs.readFileSync(`.next/server/app/${path}.html`,'utf8');
- assert(html.includes('Four Common, three Uncommon, two Rare and one premium card.'));
+ assert(/four Common, three Uncommon, two Rare and one premium card\./i.test(html));
  assert(html.includes('Foil selection and odds are under review.'));
  assert(html.includes('subject to printer collation and production quantities'));
  assert(!html.includes('1 in 40') && !html.includes('1 in 160') && !html.includes('TARGET ODDS PER PACK'));

@@ -1,3 +1,13 @@
+## 2026-11-03 — Approved shop and homepage presentation
+
+The collection has 100 published card entries. The approved 092 Dencun tortoise-pulling-wagon revision and matching two-page chapter were verified live on 3 November at release 430aa3c6b6ee0cc6253db22b27ab7cadf757f6c9. Its versioned card release record contains asset hashes and verification details.
+
+Dan approved the compact Shop History redesign for the main site, including the existing 10-card booster artwork, the black-and-gold hardback cover concept, the HODL/tortoise character banner and an open-book visualization using the actual 6 × 9 inch editorial draft Pizza Day spread. The draft interior remains review copy; cover finish and final manufacturing details are concepts rather than confirmed production specifications. Public repository use of the cover and draft-page images was explicitly approved.
+
+The homepage's duplicated booster/book product block is replaced by the character banner and a clear link to the shop. Both shop Buy now buttons retain the homepage's bright perimeter glint but remain disabled beside Coming soon. Reduced-motion users receive static lighting. No checkout, payment collection, product price or launch date is introduced.
+
+The first-print panel groups the existing 1,000-pack interest target and planned 66,666-pack lifetime Season One cap with all six design counts: 30 Common, 25 Uncommon, 20 Rare, 13 Epic, 8 Legendary and 4 Mythic. These are unique designs, not pack odds or printed quantities. The interest target is not current orders, and the lifetime cap is not the first batch. Foil selection, odds and final collation remain under review. The existing first-print interest form, consent explanation and no-reservation wording are preserved.
+
 # 073 published and digitally verified — 18 October 2026
 
 073 TAPROOT ACTIVATES is live at https://lore-site-v1.vercel.app/cards/taproot-activates . Release 989dcfe17c04a2c9e629e1821cd1b9964e16bb2f, tree 94d9a04cf7f7adde3a2d366edff6357c9ff297ae, production deployment dpl_A1fmYV8yuXoG4ZuFbCVSMjLpLpTm: READY, with Vercel success. Verified at 2026-10-18T12:23:04Z. The release tree exactly matches the tested local tree.

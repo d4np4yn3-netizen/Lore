@@ -7,7 +7,7 @@ assert.match(chrome,/className="header-action shop-action shop-spotlight" href="
 assert.match(home,/href="\/shop" className="gold-button shop-spotlight hero-shop-action"/);
 assert.match(home,/Explore the shop/);
 assert.match(home,/href="#collection" className="hero-collection-link"/);
-assert.match(home,/id="collection"/);
+const teaser=readFileSync('app/components/ShopCollectionTeaser.js','utf8');assert.match(home,/<ShopCollectionTeaser\/>/);assert.match(teaser,/id="collection"/);assert.match(teaser,/href="\/shop"/);
 assert(existsSync('app/shop/page.js'));
 for(const source of [home,chrome]) assert.match(source,/<span className="shop-glint" aria-hidden="true"\/>/);
 assert.match(css,/animation:shop-border-glint 8s linear infinite/);
