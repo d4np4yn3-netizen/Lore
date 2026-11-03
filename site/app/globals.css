@@ -174,9 +174,9 @@
 .shop-glint{display:none;position:absolute;inset:-2px;border-radius:7px;pointer-events:none;overflow:hidden}
 @supports(offset-path:inset(0 round 7px)){
  .shop-glint{display:block}
- .shop-glint::after{content:"";position:absolute;width:28px;height:2px;background:#fff9db;box-shadow:0 0 6px #fff4b0;offset-path:inset(1px round 6px);offset-rotate:auto;opacity:0;animation:shop-border-glint 2s linear 2}
+ .shop-glint::after{content:"";position:absolute;width:28px;height:2px;background:#fff9db;box-shadow:0 0 6px #fff4b0;offset-path:inset(1px round 6px);offset-rotate:auto;opacity:0;animation:shop-border-glint 8s linear infinite}
 }
-@keyframes shop-border-glint{0%{opacity:0;offset-distance:0%}10%,85%{opacity:1}100%{opacity:0;offset-distance:100%}}
+@keyframes shop-border-glint{0%{opacity:0;offset-distance:0%}2.5%,21%{opacity:1}25%,100%{opacity:0;offset-distance:100%}}
 .product-home .hero-shop-action{min-height:54px;font-size:13px;letter-spacing:.02em}
 .hero-collection-link{display:inline-flex;align-items:center;justify-content:space-between;gap:16px;min-height:54px;border:1px solid #77705a;border-radius:5px;padding:14px 20px;font-size:12px}
 .hero-collection-link:hover{border-color:var(--gold);color:var(--gold)}
@@ -186,3 +186,20 @@
 
 /* Family portrait placement: separate preview, not part of the Shop-only release. */
 .family-preview{margin:0 auto 80px;max-width:1360px;padding:0 4.5vw}.family-heading{display:flex;justify-content:space-between;gap:20px;margin-bottom:18px}.family-heading h2{font-size:11px;margin:0;font-weight:500}.family-panorama{overflow-x:auto;border:1px solid #4a4131;border-radius:14px;background:#061f23;scrollbar-color:var(--gold) #152124}.family-panorama:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.family-panorama img{display:block;width:100%;height:auto;max-width:none}.family-caption{font-size:14px;color:var(--muted);margin:15px 0 0;letter-spacing:.04em}.family-swipe{display:none}@media(max-width:760px){.family-preview{padding:0 6vw;margin-bottom:55px}.family-heading{display:block}.family-heading h2{font-size:10px;line-height:1.6;letter-spacing:.1em}.family-swipe{display:block;color:var(--muted);font-size:11px;margin-top:10px}.family-panorama img{width:920px;height:230px}.family-caption{font-size:12px}}
+
+/* Compact responsive hero: captions flow outside the card stage, never behind cards. */
+.product-home .hero,.product-home .family-preview{width:100%;max-width:1800px;margin-left:auto;margin-right:auto;padding-left:clamp(24px,4.5vw,72px);padding-right:clamp(24px,4.5vw,72px)}
+.product-home .hero{min-height:0;padding-top:34px;padding-bottom:32px;grid-template-columns:minmax(0,.95fr) minmax(0,1.15fr);gap:clamp(28px,4vw,64px)}
+.product-home .hero-copy{min-width:0}.product-home .hero h1{font-size:clamp(40px,4.2vw,64px);margin:18px 0 15px;line-height:1.04}.product-home .hero .home-tagline{font-size:15px;margin-bottom:12px}.product-home .hero-copy>p:not(.home-tagline){font-size:15px;margin-bottom:20px}.product-home .hero-note{margin-top:20px;gap:10px 16px}
+.product-home .hero-gallery{height:auto;margin:0;max-width:720px;width:100%;justify-self:end;display:grid;gap:12px;min-width:0}
+.product-home .hero-card-stage{position:relative;width:100%;aspect-ratio:1.75;min-height:0;isolation:isolate}
+.product-home .hero-card{width:31%;max-width:225px;top:10%;transform-origin:center center}
+.product-home .hero-card-0{left:3%;top:12%;transform:rotate(-11deg);z-index:1}.product-home .hero-card-1{left:24%;top:4%;transform:rotate(-4deg);z-index:2}.product-home .hero-card-2{left:45%;top:4%;transform:rotate(4deg);z-index:3}.product-home .hero-card-3{left:66%;top:12%;transform:rotate(11deg);z-index:4}
+.product-home .hero-card:hover,.product-home .hero-card:focus-visible{transform:translateY(-8px);z-index:6}
+.product-home .hero-gallery .gallery-coordinate,.product-home .hero-gallery .hero-gallery-note{position:static;inset:auto;line-height:1.6;text-align:right;justify-content:flex-end;max-width:100%;overflow-wrap:anywhere}
+.product-home .hero-gallery .top-coordinate{font-size:8px}.product-home .hero-gallery .bottom-coordinate{font-size:8px}.product-home .hero-gallery-note{font-size:11px}
+.product-home .family-preview{margin-bottom:54px}.family-panorama img{aspect-ratio:4/1;object-fit:contain}
+@media(max-width:1000px) and (min-width:761px){.product-home .hero{gap:24px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.product-home .hero h1{font-size:40px}}
+@media(max-width:760px){.product-home .hero{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:28px;padding-bottom:28px}.product-home .hero h1{font-size:clamp(37px,8.2vw,52px);margin-top:16px}.product-home .hero-gallery{max-width:none;gap:10px}.product-home .hero-card-stage{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x proximity;padding:12px 6px 18px;aspect-ratio:auto;scrollbar-color:var(--gold) #222}.product-home .hero-card-stage .hero-orbit{display:none}.product-home .hero-card-stage .hero-card{position:relative;inset:auto;width:180px;min-width:180px;max-width:none;flex:0 0 180px;transform:none;scroll-snap-align:start}.product-home .hero-card-stage .hero-card:hover,.product-home .hero-card-stage .hero-card:focus-visible{transform:none}.product-home .hero-gallery .gallery-coordinate,.product-home .hero-gallery .hero-gallery-note{text-align:left;justify-content:flex-start}.product-home .family-preview{margin-bottom:40px}.family-panorama img{aspect-ratio:4/1}}
+
+.product-home .coming-soon{padding-top:32px;padding-bottom:38px}.first-print-rarities-after-signup{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}

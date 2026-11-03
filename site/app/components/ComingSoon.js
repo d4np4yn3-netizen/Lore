@@ -23,14 +23,6 @@ export default function ComingSoon() {
       <div className="launch-copy">
         <dl className="first-print-numbers"><div><dt>First-run interest target</dt><dd>1,000 <span>packs</span></dd></div><div><dt>Planned lifetime Season One cap</dt><dd>66,666 <span>packs</span></dd></div></dl>
         <p className="first-print-planning-note">A planning target, not current orders. The lifetime cap is not the first batch.</p>
-        <div className="first-print-rarity-overview" aria-labelledby="first-print-rarity-heading">
-          <h3 id="first-print-rarity-heading">{counts.all} card designs</h3>
-          <ul className="first-print-rarity-strip">{rarities.map(label => <li key={label}><Link href={'/timeline?layout=grid&rarity=' + label.toLowerCase()} aria-label={'View all ' + counts[label.toLowerCase()] + ' ' + label + ' card designs'}><strong>{counts[label.toLowerCase()]}</strong><span className={'rarity ' + label.toLowerCase()}>{label}</span></Link></li>)}</ul>
-          <p className="first-print-count-label">Unique designs, not pack odds.</p>
-        </div>
-        <details className="first-print-rarity-details"><summary>Print and foil details</summary>
-          <p className="first-print-count-note">Design counts are not printed quantities or pack odds. Foil selection and odds are under review.</p>
-        </details>
       </div>
       <aside className="launch-list" aria-labelledby="launch-list-heading">
         <span className="label">FIRST-PRINT INTEREST · NOT OPEN YET</span><h3 id="launch-list-heading">Be there for the first print.</h3>
@@ -44,6 +36,16 @@ export default function ComingSoon() {
         <p className="first-print-no-order">Interest only — not an order, payment or reservation. No guaranteed pack.</p>
         <p id="launch-privacy" className="launch-privacy">Signup remains closed; no details are collected.</p>
       </aside>
+    </div>
+    <div className="first-print-rarities-after-signup">
+        <div className="first-print-rarity-overview" aria-labelledby="first-print-rarity-heading">
+          <h3 id="first-print-rarity-heading">{counts.all} card designs</h3>
+          <ul className="first-print-rarity-strip">{rarities.map(label => <li key={label}><Link href={'/timeline?layout=grid&rarity=' + label.toLowerCase()} aria-label={'View all ' + counts[label.toLowerCase()] + ' ' + label + ' card designs'}><strong>{counts[label.toLowerCase()]}</strong><span className={'rarity ' + label.toLowerCase()}>{label}</span></Link></li>)}</ul>
+          <p className="first-print-count-label">Unique designs, not pack odds.</p>
+        </div>
+        <details className="first-print-rarity-details"><summary>Print and foil details</summary>
+          <p className="first-print-count-note">Design counts are not printed quantities or pack odds. Foil selection and odds are under review.</p>
+        </details>
     </div>
   </section>;
 }
