@@ -7102,15 +7102,14 @@
       "context": "LIQUIDITY, PAIRED.",
       "moment_label": "02 NOV 2018",
       "set_label": "CRYPTO • SEASON 01 • 049/100",
-      "artwork": "cards/crypto/season-01/uniswap-launches-master-049/art.png",
+      "artwork": "cards/crypto/season-01/uniswap-launches-master-049-v2/HISTROVE-049-Seesaw-Composite-v1.png",
       "qr_url": "https://lore-site-v1.vercel.app/crypto/049/",
       "confirmed_lore_owned_route": true,
-      "status": "PUBLISHED_DIGITAL_VERIFIED",
+      "status": "APPROVED_ARCHIVED",
       "rarity_status": "APPROVED",
       "phrase_status": "APPROVED_EDITORIAL_WORDING",
-      "qr_destination_status": "VERIFIED_HTTP_200",
-      "artwork_revision": "zoomed-out-v9",
-      "artwork_transform": "translate(450 643.8125) scale(1.12) translate(-450 -643.8125)",
+      "qr_destination_status": "VERIFIED_EXISTING_ROUTE_HTTP_200",
+      "artwork_revision": "seesaw-manual-composite-v1",
       "id": "crypto-s01-uniswap-launches",
       "moment_number": 49,
       "collection": "crypto",
@@ -7118,60 +7117,90 @@
       "set_size": 100,
       "event_date": "2018-11-02",
       "artwork_file": {
-        "path": "cards/crypto/season-01/uniswap-launches-master-049/art.png",
-        "bytes": 2362250,
-        "sha256": "80a69feb4ecdadc0baa9e5bb38a23f359bba0d78e1984b5aa1eb22fa2433aea1"
+        "path": "cards/crypto/season-01/uniswap-launches-master-049-v2/HISTROVE-049-Seesaw-Composite-v1.png",
+        "bytes": 3039194,
+        "sha256": "59957f8fbaee51a26056571ba55ea67953c436ee7214e0d69be2c44f52ae5be9",
+        "git_blob": "33f1e6927cf01703a85cc34ce625f2532496203d"
       },
-      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v1.png",
-      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v1.svg",
-      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v1.pdf",
-      "book": "book/crypto-season-01/histrove-v1/049-uniswap-launches-histrove-v1.pdf",
-      "chapter": "book/crypto-season-01/histrove-v1/chapters/049-uniswap-launches.md",
-      "artwork_status": "VISUALLY_APPROVED",
-      "approved_at": "2026-10-08",
-      "approval_record": "cards/crypto/season-01/uniswap-launches-master-049/approval.json",
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v2.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v2.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v2.pdf",
+      "book": "book/crypto-season-01/histrove-v1/049-uniswap-launches-histrove-v2.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/049-uniswap-launches-histrove-v2.md",
+      "artwork_status": "APPROVED_EXACT_SOURCE",
+      "approved_at": "2026-11-03",
+      "approval_record": "cards/crypto/season-01/uniswap-launches-master-049-v2/approval.json",
       "qr_mode": "live",
-      "qr_status": "PUBLISHED_ROUTE",
+      "qr_status": "DIGITAL_PDF_DECODE_VERIFIED_EXISTING_ROUTE",
       "print_release": false,
       "publication_approved": true,
       "github_upload_authorised": true,
-      "website_publication_in_this_change": true,
       "current_files": [
         {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v1.png",
-          "bytes": 866271,
-          "sha256": "27eec60d057ca4a831aeaa43cc608feb81c9fc51645df705e45f933bfd08dd90"
+          "path": "cards/crypto/season-01/uniswap-launches-master-049-v2/HISTROVE-049-Seesaw-Composite-v1.png",
+          "bytes": 3039194,
+          "sha256": "59957f8fbaee51a26056571ba55ea67953c436ee7214e0d69be2c44f52ae5be9",
+          "git_blob": "33f1e6927cf01703a85cc34ce625f2532496203d"
         },
         {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v1.pdf",
-          "bytes": 4049066,
-          "sha256": "65265799ac28d5df91152212ba7346137e2791882dbdc3149dc9445336b1fa4c"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v2.png",
+          "bytes": 1083064,
+          "sha256": "8a02710f6dfb7f4cc42138ab12bf1afc04429c0c1e5e103ddf3be28b1cb15d89",
+          "git_blob": "4c6114cb600c99db9c18c4f64b7bd889533b3e55"
         },
         {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v1.svg",
-          "bytes": 3717456,
-          "sha256": "18c15d108b2b04992e23a3b1600a16afc3fc2c64a19dfa90cd3f2d0cba7d0e08"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v2.svg",
+          "bytes": 4619974,
+          "sha256": "0f10ea7c14681331b532c48c2a49cb64b1ae2298b8e65222c90e22d21797ca0d",
+          "git_blob": "730f79c0ac7bf9b003e2c828431149c41a5ce589"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v2.pdf",
+          "bytes": 4799792,
+          "sha256": "a3525206ec5282e965062983680052ea774099822ad940781f6ecc2f7a5b951e",
+          "git_blob": "a173cbe0d53fe1c9fb358d039b23d13b14afb521"
+        },
+        {
+          "path": "cards/crypto/season-01/uniswap-launches-master-049-v2/HISTROVE-049-Approved-Production-Source-v2.zip",
+          "bytes": 8349024,
+          "sha256": "77126dd51339cc0e4e2d9ecb2ce1470275c3c21ae61f83cfba82f160ae42eddc",
+          "git_blob": "a41a1cd779fe46fb5046b137bb82fb428af94ad8"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/049-uniswap-launches-histrove-v2.pdf",
+          "bytes": 5635066,
+          "sha256": "044f4639b9faa6ee499321ed32be87fe22cb706fa21faf7d4ef6405d09f9795b",
+          "git_blob": "85ef71d5c78b61fbea1d3ed14dc9c0cb2f9f670b"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/chapters/049-uniswap-launches-histrove-v2.md",
+          "bytes": 3567,
+          "sha256": "5dc7bffb6ad427ec1e1468886b7678ce0aea8ffa8df31af1906fb1c0b46d9cae",
+          "git_blob": "162eaf433de9b8cce0c66f43f0292db901b34b06"
         }
       ],
       "print_ready": {
         "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
         "png": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v1.png",
-          "bytes": 866271,
-          "sha256": "27eec60d057ca4a831aeaa43cc608feb81c9fc51645df705e45f933bfd08dd90"
-        },
-        "pdf": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v1.pdf",
-          "bytes": 4049066,
-          "sha256": "65265799ac28d5df91152212ba7346137e2791882dbdc3149dc9445336b1fa4c"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v2.png",
+          "bytes": 1083064,
+          "sha256": "8a02710f6dfb7f4cc42138ab12bf1afc04429c0c1e5e103ddf3be28b1cb15d89",
+          "git_blob": "4c6114cb600c99db9c18c4f64b7bd889533b3e55"
         },
         "svg": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v1.svg",
-          "bytes": 3717456,
-          "sha256": "18c15d108b2b04992e23a3b1600a16afc3fc2c64a19dfa90cd3f2d0cba7d0e08"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v2.svg",
+          "bytes": 4619974,
+          "sha256": "0f10ea7c14681331b532c48c2a49cb64b1ae2298b8e65222c90e22d21797ca0d",
+          "git_blob": "730f79c0ac7bf9b003e2c828431149c41a5ce589"
         },
-        "qa": "cards/crypto/print-ready/histrove-v1/qa/049.json",
-        "physical_print_release": false
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v2.pdf",
+          "bytes": 4799792,
+          "sha256": "a3525206ec5282e965062983680052ea774099822ad940781f6ecc2f7a5b951e",
+          "git_blob": "a173cbe0d53fe1c9fb358d039b23d13b14afb521"
+        },
+        "physical_print_release": false,
+        "digital_qr_decode_verified": true
       },
       "finishes": [
         "standard",
@@ -7181,12 +7210,127 @@
         63,
         88
       ],
-      "source_notes": "cards/crypto/season-01/uniswap-launches-master-049/source-notes.md",
-      "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
-      "book_native_effective_ppi": 128.2095238095238,
-      "rights_review": "Commercial reproduction review remains separate; unicorn and engine are original allegory.",
+      "book_native_effective_ppi": 131.36161616161615,
+      "rights_review": "Commercial reproduction review remains separate; unicorn, seesaw and harbour are original allegory. Artwork approval does not establish trademark or other rights clearance.",
       "qr_target": "https://lore-site-v1.vercel.app/cards/uniswap-launches",
-      "publication_verification": "cards/crypto/season-01/uniswap-launches-master-049/publication-verification.json"
+      "historical_release_files": [
+        {
+          "artwork": "cards/crypto/season-01/uniswap-launches-master-049/art.png",
+          "artwork_file": {
+            "path": "cards/crypto/season-01/uniswap-launches-master-049/art.png",
+            "bytes": 2362250,
+            "sha256": "80a69feb4ecdadc0baa9e5bb38a23f359bba0d78e1984b5aa1eb22fa2433aea1"
+          },
+          "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v1.png",
+          "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v1.svg",
+          "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v1.pdf",
+          "book": "book/crypto-season-01/histrove-v1/049-uniswap-launches-histrove-v1.pdf",
+          "chapter": "book/crypto-season-01/histrove-v1/chapters/049-uniswap-launches.md",
+          "current_files": [
+            {
+              "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v1.png",
+              "bytes": 866271,
+              "sha256": "27eec60d057ca4a831aeaa43cc608feb81c9fc51645df705e45f933bfd08dd90"
+            },
+            {
+              "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v1.pdf",
+              "bytes": 4049066,
+              "sha256": "65265799ac28d5df91152212ba7346137e2791882dbdc3149dc9445336b1fa4c"
+            },
+            {
+              "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v1.svg",
+              "bytes": 3717456,
+              "sha256": "18c15d108b2b04992e23a3b1600a16afc3fc2c64a19dfa90cd3f2d0cba7d0e08"
+            }
+          ],
+          "print_ready": {
+            "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+            "png": {
+              "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-049-Front-Print-v1.png",
+              "bytes": 866271,
+              "sha256": "27eec60d057ca4a831aeaa43cc608feb81c9fc51645df705e45f933bfd08dd90"
+            },
+            "pdf": {
+              "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-049-Front-Print-v1.pdf",
+              "bytes": 4049066,
+              "sha256": "65265799ac28d5df91152212ba7346137e2791882dbdc3149dc9445336b1fa4c"
+            },
+            "svg": {
+              "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-049-Front-Print-v1.svg",
+              "bytes": 3717456,
+              "sha256": "18c15d108b2b04992e23a3b1600a16afc3fc2c64a19dfa90cd3f2d0cba7d0e08"
+            },
+            "qa": "cards/crypto/print-ready/histrove-v1/qa/049.json",
+            "physical_print_release": false
+          },
+          "artwork_revision": "zoomed-out-v9",
+          "artwork_transform": "translate(450 643.8125) scale(1.12) translate(-450 -643.8125)",
+          "approval_record": "cards/crypto/season-01/uniswap-launches-master-049/approval.json",
+          "publication_verification": "cards/crypto/season-01/uniswap-launches-master-049/publication-verification.json",
+          "status": "PUBLISHED_DIGITAL_VERIFIED",
+          "approved_at": "2026-10-08",
+          "source_notes": "cards/crypto/season-01/uniswap-launches-master-049/source-notes.md",
+          "book_quality_status": "DEFERRED_TO_FINAL_COLLECTION_REVIEW",
+          "book_native_effective_ppi": 128.2095238095238,
+          "rights_review": "Commercial reproduction review remains separate; unicorn and engine are original allegory.",
+          "superseded_at": "2026-11-03"
+        }
+      ],
+      "title_lines": [
+        "UNISWAP",
+        "LAUNCHES"
+      ],
+      "event_date_display": "02 NOV 2018",
+      "footer": "CRYPTO • SEASON 01 • 049/100",
+      "artwork_sha256": "59957f8fbaee51a26056571ba55ea67953c436ee7214e0d69be2c44f52ae5be9",
+      "source_archive": "cards/crypto/season-01/uniswap-launches-master-049-v2/HISTROVE-049-Approved-Production-Source-v2.zip",
+      "book_spread": "book/crypto-season-01/histrove-v1/049-uniswap-launches-histrove-v2.pdf",
+      "book_runtime": "site/app/cards/content/049.json",
+      "book_sha256": "044f4639b9faa6ee499321ed32be87fe22cb706fa21faf7d4ef6405d09f9795b",
+      "output_sha256": "8a02710f6dfb7f4cc42138ab12bf1afc04429c0c1e5e103ddf3be28b1cb15d89",
+      "print_svg_sha256": "0f10ea7c14681331b532c48c2a49cb64b1ae2298b8e65222c90e22d21797ca0d",
+      "printer_pdf_sha256": "a3525206ec5282e965062983680052ea774099822ad940781f6ecc2f7a5b951e",
+      "approved_artwork_version": "Approved manual composite v1: unicorn exchanging existing ETH/ERC20 tokens on a wooden beam above a triangular stone fulcrum",
+      "approved_by": "Dan Payne",
+      "print_manifest": "cards/crypto/season-01/uniswap-launches-master-049-v2/release-manifest.json",
+      "source_commit": "4f6d52595d57924e126962324d0fe6be20e1d222",
+      "publication_status": "APPROVED_ARCHIVED_AWAITING_SITE_VERIFICATION",
+      "book_copy_status": "ARTWORK_EXPLANATION_ALIGNED_HISTORY_SOURCE_CHECKED",
+      "book_quality_status": "DIGITAL_ART_AND_LAYOUT_VERIFIED_PHYSICAL_PRINT_NOT_VERIFIED",
+      "qr_route_checked_at": "2026-11-03T14:54:57Z",
+      "qr_route_resolved_url": "https://www.histrove.co.uk/cards/uniswap-launches",
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+      "interpretation": "A fictional unicorn, paired ETH and ERC20 baskets, and a wooden seesaw visualise one Uniswap V1 liquidity pool. The traded coins represent existing assets, not minting; liquidity-share tokens are separate. Balance is a metaphor for changing reserves, not a fixed 1:1 exchange rate. The V1 plaque anchors the original 2018 protocol, not the 2020 UNI governance token.",
+      "artwork_clues": [
+        {
+          "detail": "THE PAIRED BASKETS",
+          "meaning": "ETH and ERC20 label the two baskets. They represent one V1 exchange's reserves: Ether paired with a particular ERC20 token. The generic token symbol does not identify UNI or a specific traded asset.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE TOKEN EXCHANGE",
+          "meaning": "The unicorn holds one coin above each reserve. This compresses a swap into a gesture: one asset enters the pool and some of the other leaves. The traded coins are existing assets; pool-share tokens issued to liquidity providers are separate.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE BEAM AND FULCRUM",
+          "meaning": "A wooden beam rests on a triangular stone support. Balancing evokes reserves whose ratio changes through trading. It is not a fixed 1:1 exchange rate, a promise of equal quantities or a literal diagram of the constant-product formula.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE V1 PLAQUE",
+          "meaning": "V1 identifies the original Uniswap protocol, launched in 2018. Its exchanges paired tokens with ETH, and token-to-token swaps could route through ETH. The plaque distinguishes this chapter from later versions.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        }
+      ],
+      "clue_review_status": "APPROVED_ART_AND_BOOK_DIGITALLY_VERIFIED",
+      "card_size_readability_note": "Digital clue crops verified against approved art. Physical print readability remains unverified."
     },
     {
       "rarity": "common",
