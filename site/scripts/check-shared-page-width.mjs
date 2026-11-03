@@ -33,3 +33,12 @@ test('shell arithmetic is fluid below cap, bounded above', () => {
   if(body>=1800)assert.equal(content,1656);
  }
 });
+
+test('internal column gaps stop growing with the capped page shell', () => {
+ const css=read('app/globals.css');
+ assert(css.includes('.discovery-layout{display:grid;grid-template-columns:1.25fr 1fr;gap:min(5vw,90px);'));
+ assert(css.includes('.about-histrove{padding:72px 6vw;display:grid;grid-template-columns:1fr 1fr;gap:min(9vw,162px);'));
+ assert(css.includes('.timeline-teaser{display:grid;grid-template-columns:1fr 1fr;gap:min(8vw,144px);'));
+ assert(css.includes('gap:min(8vw,144px)'));
+ assert(seasonTwo.includes('gap:min(7vw,126px)'));
+});
