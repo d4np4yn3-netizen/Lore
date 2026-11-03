@@ -1,25 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Arrow } from './Icons';
-import { archiveCards, titleCase } from '../cards/experience';
+import { archiveCards } from '../cards/experience';
 import { rarities, rarityCounts } from '../timeline/gallery-filters.mjs';
 import styles from './ComingSoon.module.css';
 
-const bannerArt = [
-  ['birth-of-hodl', '021 / BIRTH OF HODL'],
-  ['cryptopunks', '038 / CRYPTOPUNKS'],
-  ['much-wow', '020 / BIRTH OF DOGE'],
-  ['cryptokitties', '046 / CRYPTOKITTIES'],
-].map(([slug, caption]) => ({ card: archiveCards.find(card => card.slug === slug), caption }));
 // First-print interest uses the owner-managed Google Form; no local data collection.
 export default function ComingSoon() {
   const counts = rarityCounts(archiveCards);
   return <section className={`coming-soon ${styles.compact}`} id="coming-soon" aria-labelledby="launch-heading">
     <div className="first-print-banner">
       <div className="first-print-banner-copy"><div><span className="label">CRYPTO / SEASON ONE · PHYSICAL CARDS</span><h2 id="launch-heading">First print. Coming soon.</h2></div><p>100 moments of crypto history.<br/>History Worth Holding.</p></div>
-      <div className="first-print-panorama">{bannerArt.map(({ card, caption }) => <figure key={card.slug}><Image src={card.media.artwork.src} width={card.media.artwork.width} height={card.media.artwork.height} alt={titleCase(card.title) + ' — original Season One illustration, without the card frame.'} sizes="(max-width:760px) 44vw, 22vw"/><figcaption>{caption}</figcaption></figure>)}</div>
+      <Image className={styles.bannerArtwork} src="/first-print-workshop-v1.webp" width={2172} height={724} alt="An inventor and a bull inspect a colourful print beside a brass printing press in a lamp-lit workshop." sizes="(max-width:540px) calc(100vw - 48px), (max-width:1600px) 91vw, (max-width:1800px) calc(100vw - 144px), 1656px"/>
     </div>
-    <p className="first-print-art-credit">Original artwork from Crypto Season One.</p>
+    <p className="first-print-art-credit">First-print illustration. Final production details to be confirmed.</p>
     <div className="first-print-info">
       <div className="launch-copy">
         <dl className="first-print-numbers"><div><dt>First-run interest target</dt><dd>1,000 <span>packs</span></dd></div><div><dt>Planned lifetime Season One cap</dt><dd>66,666 <span>packs</span></dd></div></dl>

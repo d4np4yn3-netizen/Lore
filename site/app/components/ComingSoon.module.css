@@ -1,6 +1,6 @@
 .compact :global(.first-print-banner-copy){padding:22px 28px;align-items:center}
 .compact :global(.first-print-banner-copy h2){font-size:38px;letter-spacing:-1.6px;margin:9px 0 0}
-.compact :global(.first-print-panorama figure){aspect-ratio:1.5}
+.bannerArtwork{display:block;width:100%;height:auto;aspect-ratio:2172/724;object-fit:contain}
 .compact :global(.first-print-info){gap:30px;margin-top:24px;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}
 .compact :global(.first-print-numbers){gap:20px}
 .compact :global(.first-print-numbers dd){font-size:35px;margin-top:5px}
@@ -18,4 +18,4 @@
 .compact .rarityBlock :global(.first-print-rarity-details summary){font-size:11px;min-height:28px}
 .compact .rarityBlock :global(.first-print-rarity-details p){font-size:11px}
 .compact :global(.launch-list){padding:25px;align-self:stretch}
-@media(max-width:760px){.compact :global(.first-print-banner-copy){display:block;padding:19px}.compact :global(.first-print-banner-copy h2){font-size:29px;letter-spacing:-1.2px;margin:9px 0 10px}.compact :global(.first-print-banner-copy p){font-size:12px;margin-bottom:0}.compact :global(.first-print-panorama figure){aspect-ratio:1.4}.compact :global(.first-print-info){grid-template-columns:1fr;gap:22px;margin-top:21px}.compact :global(.first-print-numbers){gap:15px}.compact :global(.first-print-numbers dd){font-size:31px}.compact :global(.first-print-numbers dd span){font-size:13px}.compact :global(.launch-list){padding:20px}.compact .rarityBlock :global(.first-print-rarity-strip a){padding:10px 9px}.compact .rarityBlock :global(.first-print-rarity-strip .rarity){font-size:10px}}
+@media(max-width:760px){.compact :global(.first-print-banner-copy){display:block;padding:19px}.compact :global(.first-print-banner-copy h2){font-size:29px;letter-spacing:-1.2px;margin:9px 0 10px}.compact :global(.first-print-banner-copy p){font-size:12px;margin-bottom:0}.compact :global(.first-print-info){grid-template-columns:1fr;gap:22px;margin-top:21px}.compact :global(.first-print-numbers){gap:15px}.compact :global(.first-print-numbers dd){font-size:31px}.compact :global(.first-print-numbers dd span){font-size:13px}.compact :global(.launch-list){padding:20px}.compact .rarityBlock :global(.first-print-rarity-strip a){padding:10px 9px}.compact .rarityBlock :global(.first-print-rarity-strip .rarity){font-size:10px}}
