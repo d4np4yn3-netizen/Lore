@@ -6,11 +6,11 @@ const pages=['index','shop'].map(p=>read(`.next/server/app/${p}.html`));
 const section=html=>html.match(/<section class="coming-soon".*?<\/section>/s)[0];
 const source=read('app/components/ComingSoon.js');
 test('physical first-print purpose, distinct target and lifetime cap stay clear',()=>{
- for(const html of pages){const s=section(html);for(const text of ['PHYSICAL CARDS','66,666','Planned lifetime Season One cap','1,000','First-run interest target','not current orders','One email','No newsletter','not an order, payment or reservation','No guaranteed pack','Signup remains closed; no details are collected.'])assert(s.includes(text),text);assert(!/666,666|\$9\.99|\$1\.80|\$2|50 foil|Dan Payne|Daniel Payne|NFT|redeem/i.test(s));}
+ for(const html of pages){const s=section(html);for(const text of ['PHYSICAL CARDS','66,666','Planned lifetime Season One cap','1,000','First-run interest target','not current orders','One email','No newsletter','Not an order or reservation','No payment or guaranteed pack','No automatic confirmation email is sent.'])assert(s.includes(text),text);assert(!/666,666|\$9\.99|\$1\.80|\$2|50 foil|Dan Payne|Daniel Payne|NFT|redeem/i.test(s));}
 });
-test('disabled email and quantity have labels; no collection path or false success',()=>{
- for(const html of pages){const s=section(html);assert.equal((s.match(/<input\b/g)||[]).length,2);for(const id of ['launch-email','launch-quantity']){assert(s.includes(`for="${id}"`));assert(new RegExp(`<input[^>]*id="${id}"[^>]*disabled=""`).test(s));}assert(s.includes('Non-binding estimate'));assert(/<button[^>]*type="button"[^>]*disabled=""/.test(s));assert(!/<form\b|<iframe\b|type="checkbox"|\baction=/.test(s));}
- assert(!/\bfetch\s*\(|sendBeacon|onSubmit|onClick|localStorage|sessionStorage|google\.com\/forms/.test(source));
+test('hosted signup is explicit with no dummy fields or local submission',()=>{
+ for(const html of pages){const s=section(html);assert.equal((s.match(/<input\b/g)||[]).length,0);assert(s.includes('Register first-print interest'));assert(s.includes('Opens Google Forms'));assert(s.includes('https://docs.google.com/forms/d/e/1FAIpQLSfFIPxtdKXZ__3x7PJQbEUJwSH_J0IhPK5h3cGlixnd00sqAw/viewform?usp=header'));assert(!/<form\b|<iframe\b|type="checkbox"|\baction=/.test(s));}
+ assert(!/\bfetch\s*\(|sendBeacon|onSubmit|onClick|localStorage|sessionStorage/.test(source));
 });
 test('all six rarity counts remain visible outside expandable print details',()=>{
  for(const html of pages){const s=section(html);assert(/<details class="first-print-rarity-details"><summary>/.test(s));for(const [rarity,count]of [['Common',30],['Uncommon',25],['Rare',20],['Epic',13],['Legendary',8],['Mythic',4]]){assert(s.includes(`View all ${count} ${rarity} card designs`));assert(s.includes(`rarity=${rarity.toLowerCase()}`));}assert(s.includes('Unique designs, not pack odds.'));assert(s.replace(/<!--.*?-->/g,'').includes('100 card designs'));assert(s.indexOf('first-print-rarity-strip') < s.indexOf('<details'));assert(!s.match(/<details.*?<\/details>/s)[0].includes('View all 30'));assert(s.includes('Print and foil details'));}

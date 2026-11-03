@@ -67,7 +67,7 @@ test('homepage invitation stays secondary to Season One products and timeline', 
   const position = home.indexOf('id="season-two-teaser-title"');
   assert(position > home.indexOf('id="collection"'));
   assert(position > home.indexOf('id="teaser-title"'));
-  assert(position < home.indexOf('id="coming-soon"'));
+  assert(position > home.indexOf('id="coming-soon"')); // Approved signup now precedes collection and Season Two.
   assert(home.includes('Be there for the first print.'));
 });
 

@@ -21,7 +21,7 @@ export default function SuggestionsPrivacyPage() {
       <p>Google Forms also records the submission time. The form does not ask for a name or collect an email address with the response. Please don’t include contact details, private keys, wallet details or other private personal information. Free-text answers and linked sources can still contain personal information, so this is not a promise of complete anonymity.</p>
       <h2>Why suggestions are reviewed</h2>
       <p>Suggestions help HISTROVE research crypto-history moments and curate the planned 50-card collection. They are reviewed privately, not posted automatically or put to a binding vote. Selected moments may inform the collection; submitting does not guarantee inclusion or a prize.</p>
-      <p>A suggestion does not subscribe anyone to marketing emails. Email signup is a separate feature and remains closed.</p>
+      <p>A suggestion does not subscribe anyone to marketing emails. First-print interest registration is separate and has its own notice and consent on the linked Google Form.</p>
       <h2>Where responses are kept</h2>
       <p>Responses are stored in Google Forms and a linked Google Sheet. Direct access to both is restricted to the HISTROVE owner. Other respondents cannot view a response summary or the spreadsheet.</p>
       <p>Google operates these services and may process technical or account information under its service terms. Read <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s privacy information</a>. The applicable service terms and any international-transfer information will be checked before launch; this draft does not claim UK-only storage.</p>

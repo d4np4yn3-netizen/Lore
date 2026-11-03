@@ -1,27 +1,27 @@
 {
   "story": [
-    "Red warning lights fill the room. At the terminal, a young Vitalik-inspired figure watches windows multiply across a blue screen. Beyond it, Ether glows behind the glass of a locked cabinet. The imagined scene catches the first shock of The DAO crisis: the system is still running, but something inside it has gone badly wrong.",
-    "The DAO was an experiment in organising investment through code. Participants bought tokens with Ether and were meant to vote on projects to fund. On 17 June 2016, an attacker exploited a flaw in its smart contract. Recursive calls through the split function allowed Ether to be collected repeatedly in one transaction and diverted into a child DAO. The vulnerable application ran on Ethereum; the attack did not break Ethereum's underlying consensus.",
-    "The receiving contract imposed a delay. Buterin's alert reported that the attacker could not withdraw the diverted Ether for at least roughly another 27 days, giving the community time to consider a response. His advice to holders and users included two words that sit uneasily beneath the alarms: REMAIN CALM. The sealed cabinet turns that temporary restriction into a physical image.",
-    "The crisis forced a question that code alone could not settle: how should a community respond when a contract behaves exactly as written, with disastrous results? On 20 July, a hard fork moved DAO funds into a recovery contract. Others continued the original chain, later known as Ethereum Classic. That split belongs to the next chapter. This card stays with June's emergency, when an ambitious experiment had exposed how much depended on getting the contract right."
+    "A green octopus in a plum suit holds an Ether-marked bag while more tentacles reach into a stocked safe. Across the counter, an older clerk is still writing in a ledger marked PENDING. This imaginary bank makes a software flaw visible: funds keep moving before the first operation's bookkeeping is finished.",
+    "The DAO was an experiment in organising investment through code. Participants bought tokens with Ether and were meant to vote on projects to fund. On 17 June 2016, an attacker exploited a reentrancy flaw in its smart contract. A call back into the split function could move existing Ether again before the caller's token balance was reset. Repeated calls diverted funds into a child DAO. No new Ether was minted.",
+    "The diverted Ether was not immediately available to spend. Buterin's alert reported that the attacker could not withdraw it for at least roughly another 27 days. The bag in the octopus's arms compresses the diversion into a visual joke, rather than depicting unrestricted cash in hand. Buterin urged DAO token holders and Ethereum users to REMAIN CALM.",
+    "The vulnerable application ran on Ethereum; the exploit did not break the network's underlying consensus. On 20 July, a hard fork transferred DAO funds into a recovery contract. Others continued the original chain, later known as Ethereum Classic. That split belongs to the next chapter. This card stays with June's emergency and the danger of making an external call before finishing the contract's own accounting."
   ],
   "eggs": [
     {
-      "title": "The split function.",
-      "text": "The front window's split() label points to the contract operation involved in the exploit. It does not refer to the later Ethereum and Ethereum Classic fork."
+      "title": "The reaching tentacles.",
+      "text": "Several tentacles reach for more bags while one is already held. They visualise reentrant calls inside an unfinished operation, not parallel transactions. The number of arms is not a historical call count."
     },
     {
-      "title": "The repeated calls.",
-      "text": "Nested windows and the paper trail visualise recursion. Their repetition conveys the same operation happening again inside an unfinished call; the interface and receipts are invented."
+      "title": "The pending ledger.",
+      "text": "The thin open ledger faces the clerk, who is still writing. PENDING evokes accounting left unfinished during the vulnerable call. The book and its single numeral are invented props, not an actual DAO record."
     },
     {
-      "title": "The locked Ether.",
-      "text": "The cabinet and ≈27 DAYS display recall the temporary withdrawal restriction. The number is an approximate period reported during the attack, not a precise countdown to the hard fork."
+      "title": "The stocked safe.",
+      "text": "Ether-marked bags remain on both shelves of the open safe. These are existing reserves being diverted, not newly minted currency. The sacks do not depict immediately spendable proceeds from the child DAO."
     },
     {
-      "title": "The receiving address.",
-      "text": "The plate reads 0x304a…3490, abbreviating the child DAO address named in the contemporary alert. Its correctly retained beginning and ending anchor the fictional machinery to the historical record."
+      "title": "The Ethereum emblem.",
+      "text": "The gold diamond above the counter places the story in Ethereum. It identifies the platform on which The DAO ran; the bank is fictional, and the flaw was in the application rather than Ethereum consensus."
     }
   ],
-  "sourceNote": "[Buterin's 17 June alert](https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability) supports the exploit, address, waiting period and phrase. The [SEC's 2017 report, pp. 4 and 9](https://www.sec.gov/files/litigation/investreport/34-81207.pdf) supplies DAO context and chronology; the [20 July completion notice](https://blog.ethereum.org/2016/07/20/hard-fork-completed) records the fork. The Vitalik-inspired figure, room and response actions are illustrative, not a documented reconstruction or a portrayal of the attacker."
+  "sourceNote": "[Buterin's 17 June alert](https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability) records the recursive exploit, child DAO, waiting period and phrase. [The DAO's code](https://github.com/blockchainsllc/DAO/blob/master/DAO.sol#L600-L628) shows transfers and a reward call before the balance reset. The [SEC's report, pp. 4 and 9](https://www.sec.gov/files/litigation/investreport/34-81207.pdf) supplies context; the [20 July notice](https://blog.ethereum.org/2016/07/20/hard-fork-completed) records the fork. Characters, bank, bags and ledger are fictional. Neither character identifies a real participant or attacker. The caption capitalises and punctuates the source's words."
 }

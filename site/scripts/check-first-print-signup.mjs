@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+const source=readFileSync('app/components/ComingSoon.js','utf8');
+assert.match(source,/FIRST-PRINT INTEREST · NOW OPEN/);
+assert.match(source,/Register first-print interest/);
+assert.match(source,/https:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLSfFIPxtdKXZ__3x7PJQbEUJwSH_J0IhPK5h3cGlixnd00sqAw\/viewform\?usp=header/);
+assert.match(source,/One email when preorders open. No newsletter./);
+assert.match(source,/No automatic confirmation email is sent./);
+assert.match(source,/Opens Google Forms. Not an order or reservation./);
+assert.doesNotMatch(source,/<input|<form|disabled|NOT OPEN YET|Signup remains closed|onSubmit/);
+console.log('First-print signup source contracts pass: verified hosted-form link, no dummy fields or local submission, honest manual notice.');
+const css=readFileSync('app/globals.css','utf8');
+assert.match(css,/\.first-print-info \.launch-form-preview>a\.gold-button\{opacity:1;cursor:pointer/);
+assert.match(css,/\.launch-form-preview>a\.gold-button:focus-visible\{outline:3px solid var\(--bone\);outline-offset:4px\}/);
