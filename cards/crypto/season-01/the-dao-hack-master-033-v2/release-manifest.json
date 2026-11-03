@@ -1,0 +1,81 @@
+{
+  "card": "033",
+  "version": "Contrast B v1: green octopus, plum jacket, teal-and-stone room",
+  "files": [
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Art-v1.png",
+      "bytes": 2496087,
+      "sha256": "f412821ae926de3da88d3e4eccf0aa949951a9f65b93ef1255ddcb9c5e3e1711",
+      "git_blob": "218b0595b1d0ecf2ee927c17f14323554d093ddb"
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-033-Front-Print-v2.png",
+      "bytes": 864004,
+      "sha256": "e7c5ca0f39a94c56cfe08dd0d0cfe59b4a8af633be4b52a52a2cccef4ff5fe1e",
+      "git_blob": "219ae8e845bc355bbfb6e8ca6b47ef09e7323bcf"
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-033-Front-Print-v2.svg",
+      "bytes": 3895845,
+      "sha256": "2290171a81bf72e4cf44047f17ece9e4746d0f79e49ef12bf062a7f6575885e2",
+      "git_blob": "c354d0f57914232aaeee17b8db5cf9d5dda7696b"
+    },
+    {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-033-Front-Print-v2.pdf",
+      "bytes": 4058425,
+      "sha256": "c2f3aba66865e151b059f89fe58eaee850da18c9a10dcd7fe9593d529d125c25",
+      "git_blob": "687592d3138388c08fc669752fc485cc644410c2"
+    },
+    {
+      "path": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Production-Source-v1.zip",
+      "bytes": 11454850,
+      "sha256": "79e103422907a3c92b90b48c6b7141ab0774aed757476009c21a6dd1a2550f32",
+      "git_blob": "a80852eb0794318d8688c06b44db94fbfe84e7e4"
+    },
+    {
+      "path": "book/crypto-season-01/histrove-v1/033-the-dao-hack-histrove-v2.pdf",
+      "bytes": 4730726,
+      "sha256": "49a2f438e98d9ed7d4922820dbd0a5ca575c37450f4feceda2074ced59df28de",
+      "git_blob": "2d771accb402dd3f321c1d9f842433f98fe8642a"
+    }
+  ],
+  "print_ready": {
+    "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+    "png": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-033-Front-Print-v2.png",
+      "bytes": 864004,
+      "sha256": "e7c5ca0f39a94c56cfe08dd0d0cfe59b4a8af633be4b52a52a2cccef4ff5fe1e",
+      "git_blob": "219ae8e845bc355bbfb6e8ca6b47ef09e7323bcf"
+    },
+    "svg": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-033-Front-Print-v2.svg",
+      "bytes": 3895845,
+      "sha256": "2290171a81bf72e4cf44047f17ece9e4746d0f79e49ef12bf062a7f6575885e2",
+      "git_blob": "c354d0f57914232aaeee17b8db5cf9d5dda7696b"
+    },
+    "pdf": {
+      "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-033-Front-Print-v2.pdf",
+      "bytes": 4058425,
+      "sha256": "c2f3aba66865e151b059f89fe58eaee850da18c9a10dcd7fe9593d529d125c25",
+      "git_blob": "687592d3138388c08fc669752fc485cc644410c2"
+    },
+    "physical_print_release": false,
+    "digital_qr_decode_verified": true
+  },
+  "book": {
+    "path": "book/crypto-season-01/histrove-v1/033-the-dao-hack-histrove-v2.pdf",
+    "bytes": 4730726,
+    "sha256": "49a2f438e98d9ed7d4922820dbd0a5ca575c37450f4feceda2074ced59df28de",
+    "git_blob": "2d771accb402dd3f321c1d9f842433f98fe8642a"
+  },
+  "publication_status": "APPROVED_ARCHIVED_AWAITING_COMBINED_SITE_VERIFICATION",
+  "source_commit": "1822e11e362bba12cdb87d18195f40be80a07789",
+  "artwork_interpretation": "Fictional octopus and clerk in a bank visualise reentrancy before accounting completes. Existing Ether is diverted into a temporarily locked child DAO; no newly minted Ether or Ethereum consensus failure is depicted.",
+  "digital_qa": {
+    "approved_raw_preserved": true,
+    "canonical_frame_preserved": true,
+    "qr_decode_verified": true,
+    "matching_book_and_clues_verified": true
+  },
+  "physical_print_release": false
+}

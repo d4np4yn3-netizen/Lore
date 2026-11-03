@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-11-03",
   "collection": "Crypto",
   "season": 1,
   "approved_visual_count": 87,
@@ -1442,32 +1442,30 @@
         "standard",
         "foil"
       ],
-      "artwork": "cards/crypto/season-01/the-dao-hack-master-033/art.png",
-      "artwork_sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
-      "front": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png",
-      "editable_svg": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.svg",
-      "printer_pdf": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.pdf",
-      "book_spread": "book/crypto-season-01/proofs/033-the-dao-hack-full-art-spread-v1.pdf",
-      "chapter": "book/crypto-season-01/033-the-dao-hack.md",
+      "artwork": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Art-v1.png",
+      "artwork_sha256": "f412821ae926de3da88d3e4eccf0aa949951a9f65b93ef1255ddcb9c5e3e1711",
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-033-Front-Print-v2.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-033-Front-Print-v2.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-033-Front-Print-v2.pdf",
+      "book_spread": "book/crypto-season-01/histrove-v1/033-the-dao-hack-histrove-v2.pdf",
       "qr_url": "https://lore-site-v1.vercel.app/crypto/033/",
-      "qr_target": "https://lore-site-v1.vercel.app/cards/the-dao-hack",
+      "qr_target": "https://www.histrove.co.uk/cards/the-dao-hack",
       "confirmed_lore_owned_route": true,
-      "status": "PUBLISHED_VERIFIED",
-      "artwork_status": "EXACT_V5_USER_APPROVED",
+      "status": "APPROVED_ARCHIVED",
+      "artwork_status": "APPROVED_EXACT_SOURCE",
       "phrase_status": "APPROVED_PRIMARY_SOURCE_EXCERPT_CASE_AND_PUNCTUATION_NORMALISED",
       "rarity_status": "EPIC_APPROVED",
-      "book_copy_status": "APPROVED_BOOK_PROOF_STORY_PRESERVED",
-      "qr_status": "LIVE_ROUTE_AND_DIGITAL_DECODE_VERIFIED",
-      "template_revision": "LORE-CRYPTO-PRINT-v1.0",
+      "book_copy_status": "ARTWORK_EXPLANATION_ALIGNED_HISTORY_SOURCE_CHECKED",
+      "qr_status": "DIGITAL_PDF_DECODE_VERIFIED_EXISTING_ROUTE",
+      "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
       "canvas_px": [
         816,
         1110
       ],
-      "approval_record": "cards/crypto/season-01/the-dao-hack-master-033/approval.json",
-      "print_manifest": "cards/crypto/season-01/the-dao-hack-master-033/print-v1-manifest.json",
+      "approval_record": "cards/crypto/season-01/the-dao-hack-master-033-v2/approval.json",
       "publication_approved": true,
-      "publication_status": "PUBLISHED_VERIFIED",
-      "approved_at": "2026-10-04",
+      "publication_status": "APPROVED_ARCHIVED_AWAITING_COMBINED_SITE_VERIFICATION",
+      "approved_at": "2026-11-03",
       "approved_by": "Dan Payne",
       "print_release": false,
       "book_reproduction_release": false,
@@ -1495,58 +1493,76 @@
       ],
       "artwork_clues": [
         {
-          "detail": "The split function.",
-          "meaning": "The front window's split() label points to the contract operation involved in the exploit. It does not refer to the later Ethereum and Ethereum Classic fork.",
+          "detail": "The reaching tentacles.",
+          "meaning": "Several tentacles reach for more bags while one is already held. They visualise reentrant calls inside an unfinished operation, not parallel transactions. The number of arms is not a historical call count.",
           "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
         },
         {
-          "detail": "The repeated calls.",
-          "meaning": "Nested windows and the paper trail visualise recursion. Their repetition conveys the same operation happening again inside an unfinished call; the interface and receipts are invented.",
+          "detail": "The pending ledger.",
+          "meaning": "The thin open ledger faces the clerk, who is still writing. PENDING evokes accounting left unfinished during the vulnerable call. The book and its single numeral are invented props, not an actual DAO record.",
           "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
         },
         {
-          "detail": "The locked Ether.",
-          "meaning": "The cabinet and ≈27 DAYS display recall the temporary withdrawal restriction. The number is an approximate period reported during the attack, not a precise countdown to the hard fork.",
+          "detail": "The stocked safe.",
+          "meaning": "Ether-marked bags remain on both shelves of the open safe. These are existing reserves being diverted, not newly minted currency. The sacks do not depict immediately spendable proceeds from the child DAO.",
           "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
         },
         {
-          "detail": "The receiving address.",
-          "meaning": "The plate reads 0x304a…3490, abbreviating the child DAO address named in the contemporary alert. Its correctly retained beginning and ending anchor the fictional machinery to the historical record.",
+          "detail": "The Ethereum emblem.",
+          "meaning": "The gold diamond above the counter places the story in Ethereum. It identifies the platform on which The DAO ran; the bank is fictional, and the flaw was in the application rather than Ethereum consensus.",
           "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
         }
       ],
       "cross_card_cameo": null,
-      "interpretation": "Fictional young-Vitalik-inspired response scene. The room, terminal, nested windows, receipts, locked Ether cabinet, posture and response actions are invented symbolic staging, not documented actions or an identification of the attacker. The DAO application exploit is distinct from an Ethereum consensus failure. The split() contract function and 17 June exploit are distinct from the 20 July hard fork. The approximate 27-day display is a reported temporary withdrawal restriction, not a precise fork countdown.",
-      "clue_review_status": "VISUALLY_CHECKED_IN_APPROVED_REVIEW_CARD_AND_BOOK",
-      "card_size_readability_note": "Four clue areas are unobstructed in the reviewed card. The address and small nested labels are very fine at physical size; no unaided readability or phone-camera claim is made.",
-      "output_sha256": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
-      "print_svg_sha256": "a6218c993f691995b9f8eef53aa1d533475bd9e9a9038c4f8d80ac470dd8a5bb",
-      "printer_pdf_sha256": "b73b452403a9d82d750342fd315a381155c379c77087943bec01d36c940ea8d6",
+      "interpretation": "Fictional octopus and clerk in a bank visualise reentrancy before accounting completes. Existing Ether is diverted into a temporarily locked child DAO; no newly minted Ether or Ethereum consensus failure is depicted.",
+      "clue_review_status": "APPROVED_ART_AND_BOOK_DIGITALLY_VERIFIED",
+      "card_size_readability_note": "Digital clue crops verified against approved art. Physical print readability remains unverified.",
+      "output_sha256": "e7c5ca0f39a94c56cfe08dd0d0cfe59b4a8af633be4b52a52a2cccef4ff5fe1e",
+      "print_svg_sha256": "2290171a81bf72e4cf44047f17ece9e4746d0f79e49ef12bf062a7f6575885e2",
+      "printer_pdf_sha256": "c2f3aba66865e151b059f89fe58eaee850da18c9a10dcd7fe9593d529d125c25",
       "current_files": [
         {
-          "path": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png",
-          "bytes": 852909,
-          "sha256": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
-          "git_blob": "1e00c72cbda3e4524e09044de6ee750f7e2e90c7"
+          "path": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Art-v1.png",
+          "bytes": 2496087,
+          "sha256": "f412821ae926de3da88d3e4eccf0aa949951a9f65b93ef1255ddcb9c5e3e1711",
+          "git_blob": "218b0595b1d0ecf2ee927c17f14323554d093ddb"
         },
         {
-          "path": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.svg",
-          "bytes": 2870076,
-          "sha256": "a6218c993f691995b9f8eef53aa1d533475bd9e9a9038c4f8d80ac470dd8a5bb",
-          "git_blob": "778be598cd099bb1b0d75f2d1ef9cc51747c9d13"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-033-Front-Print-v2.png",
+          "bytes": 864004,
+          "sha256": "e7c5ca0f39a94c56cfe08dd0d0cfe59b4a8af633be4b52a52a2cccef4ff5fe1e",
+          "git_blob": "219ae8e845bc355bbfb6e8ca6b47ef09e7323bcf"
         },
         {
-          "path": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.pdf",
-          "bytes": 1557282,
-          "sha256": "b73b452403a9d82d750342fd315a381155c379c77087943bec01d36c940ea8d6",
-          "git_blob": "7d08730dccd046325c5b3f24fc0964a286b40441"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-033-Front-Print-v2.svg",
+          "bytes": 3895845,
+          "sha256": "2290171a81bf72e4cf44047f17ece9e4746d0f79e49ef12bf062a7f6575885e2",
+          "git_blob": "c354d0f57914232aaeee17b8db5cf9d5dda7696b"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-033-Front-Print-v2.pdf",
+          "bytes": 4058425,
+          "sha256": "c2f3aba66865e151b059f89fe58eaee850da18c9a10dcd7fe9593d529d125c25",
+          "git_blob": "687592d3138388c08fc669752fc485cc644410c2"
+        },
+        {
+          "path": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Production-Source-v1.zip",
+          "bytes": 11454850,
+          "sha256": "79e103422907a3c92b90b48c6b7141ab0774aed757476009c21a6dd1a2550f32",
+          "git_blob": "a80852eb0794318d8688c06b44db94fbfe84e7e4"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/033-the-dao-hack-histrove-v2.pdf",
+          "bytes": 4730726,
+          "sha256": "49a2f438e98d9ed7d4922820dbd0a5ca575c37450f4feceda2074ced59df28de",
+          "git_blob": "2d771accb402dd3f321c1d9f842433f98fe8642a"
         }
       ],
       "artwork_file": {
-        "path": "cards/crypto/season-01/the-dao-hack-master-033/art.png",
-        "bytes": 2125274,
-        "sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
-        "git_blob": "93edce692c5329c903cc90ce73795e3a8cee7096"
+        "path": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Art-v1.png",
+        "bytes": 2496087,
+        "sha256": "f412821ae926de3da88d3e4eccf0aa949951a9f65b93ef1255ddcb9c5e3e1711",
+        "git_blob": "218b0595b1d0ecf2ee927c17f14323554d093ddb"
       },
       "historical_versions": [
         {
@@ -1666,28 +1682,28 @@
           }
         }
       ],
-      "publication_verification": "cards/crypto/season-01/the-dao-hack-master-033/publication-verification.json",
       "print_ready": {
         "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
         "png": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-033-Front-Print-v1.png",
-          "bytes": 793603,
-          "sha256": "0eb999415491f9267a1961c59c316aff82aa0b488f60e1946e347c218ccf07f0"
-        },
-        "pdf": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-033-Front-Print-v1.pdf",
-          "bytes": 3585574,
-          "sha256": "2c4c34209b909ccab9ca21bf62f171910229b2d035e8ca6d85f7feb23c9965f4"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-033-Front-Print-v2.png",
+          "bytes": 864004,
+          "sha256": "e7c5ca0f39a94c56cfe08dd0d0cfe59b4a8af633be4b52a52a2cccef4ff5fe1e",
+          "git_blob": "219ae8e845bc355bbfb6e8ca6b47ef09e7323bcf"
         },
         "svg": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-033-Front-Print-v1.svg",
-          "bytes": 3401429,
-          "sha256": "ac20c651d2d4570a7223a12a3ba5e3cce3ca5506765aa5f87415faac3e891cc6"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-033-Front-Print-v2.svg",
+          "bytes": 3895845,
+          "sha256": "2290171a81bf72e4cf44047f17ece9e4746d0f79e49ef12bf062a7f6575885e2",
+          "git_blob": "c354d0f57914232aaeee17b8db5cf9d5dda7696b"
         },
-        "qa": "cards/crypto/print-ready/histrove-v1/qa/033.json",
-        "layout_approved_at": "2026-10-06",
-        "layout_approved_by": "Dan Payne",
-        "physical_print_release": false
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-033-Front-Print-v2.pdf",
+          "bytes": 4058425,
+          "sha256": "c2f3aba66865e151b059f89fe58eaee850da18c9a10dcd7fe9593d529d125c25",
+          "git_blob": "687592d3138388c08fc669752fc485cc644410c2"
+        },
+        "physical_print_release": false,
+        "digital_qr_decode_verified": true
       },
       "historical_print_ready": [
         {
@@ -1712,7 +1728,29 @@
           "layout_approved_by": "Dan Payne",
           "physical_print_release": false
         }
-      ]
+      ],
+      "historical_release_files": [
+        {
+          "artwork": "cards/crypto/season-01/the-dao-hack-master-033/art.png",
+          "front": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.png",
+          "editable_svg": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.svg",
+          "printer_pdf": "cards/crypto/season-01/the-dao-hack-master-033/LORE-Crypto-033-The-DAO-Hack-Epic-Print-v1.pdf",
+          "book_spread": "book/crypto-season-01/proofs/033-the-dao-hack-full-art-spread-v1.pdf",
+          "artwork_sha256": "f93c3d9bed56839609e27adc0919a3d3dd7680415e048b0d8ad3523ea26e63d5",
+          "output_sha256": "5e7db49668651d992aa31e0b7781155200bb43fbc6410b074e38240481dbf40d",
+          "print_svg_sha256": "a6218c993f691995b9f8eef53aa1d533475bd9e9a9038c4f8d80ac470dd8a5bb",
+          "printer_pdf_sha256": "b73b452403a9d82d750342fd315a381155c379c77087943bec01d36c940ea8d6",
+          "superseded_at": "2026-11-03",
+          "publication_verification": "cards/crypto/season-01/the-dao-hack-master-033/publication-verification.json"
+        }
+      ],
+      "source_archive": "cards/crypto/season-01/the-dao-hack-master-033-v2/HISTROVE-033-Contrast-B-Production-Source-v1.zip",
+      "book": "book/crypto-season-01/histrove-v1/033-the-dao-hack-histrove-v2.pdf",
+      "book_runtime": "site/app/cards/content/033.json",
+      "book_sha256": "49a2f438e98d9ed7d4922820dbd0a5ca575c37450f4feceda2074ced59df28de",
+      "source_commit": "1822e11e362bba12cdb87d18195f40be80a07789",
+      "approved_artwork_version": "Contrast B v1: green octopus, plum jacket, teal-and-stone room",
+      "print_manifest": "cards/crypto/season-01/the-dao-hack-master-033-v2/release-manifest.json"
     },
     {
       "id": "crypto-s01-the-depeg",
@@ -6418,44 +6456,155 @@
       "context": "OPEN FOR THE WORLD.",
       "moment_label": "14 JUL 2017",
       "set_label": "CRYPTO • SEASON 01 • 040/100",
-      "artwork": "cards/crypto/season-01/binance-launches-master-040/art.png",
+      "artwork": "cards/crypto/season-01/binance-launches-master-040-v2/HISTROVE-040-Broccoli-Art-v2.png",
       "qr_url": "https://lore-site-v1.vercel.app/crypto/040/",
-      "status": "PUBLISHED",
-      "artwork_status": "APPROVED_BY_DAN",
+      "status": "APPROVED_ARCHIVED",
+      "artwork_status": "APPROVED_EXACT_SOURCE",
       "phrase_status": "EDITORIAL_UNDER_PUBLICATION_REQUEST",
-      "qr_status": "LIVE_PUBLIC_ROUTE",
+      "qr_status": "DIGITAL_PDF_DECODE_VERIFIED_EXISTING_ROUTE",
       "print_release": false,
-      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v1.png",
-      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v1.svg",
-      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v1.pdf",
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v2.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v2.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v2.pdf",
       "artwork_file": {
-        "path": "cards/crypto/season-01/binance-launches-master-040/art.png",
-        "bytes": 2059933,
-        "sha256": "bd146617ae8b78edf5d7e19c451b7134f1686439755fdb05ab0a7ea8aadd94d8"
+        "path": "cards/crypto/season-01/binance-launches-master-040-v2/HISTROVE-040-Broccoli-Art-v2.png",
+        "bytes": 2437173,
+        "sha256": "e4313a851aa17fa36b2438e82c6a1cf2f5ea38d2c3bbd75eaf4e74e911bfd87b",
+        "git_blob": "b66e3d596b48772f573a21c9d8365a57420a36f9"
       },
       "print_ready": {
         "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
         "png": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v1.png",
-          "bytes": 741513,
-          "sha256": "ec0e291f50b229a02b0794b42f057186e838276ee64d2c87ae1b203492687dc4"
-        },
-        "pdf": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v1.pdf",
-          "bytes": 3739972,
-          "sha256": "91cbede771f0c765e7a421bcf3d53f8150a78917db26a465a0fd78d42b7a6db8"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v2.png",
+          "bytes": 849373,
+          "sha256": "91771b3f17c3e110e5ecd5b4bfbacd4223b4ef3b771a69086eb355d1aa41a950",
+          "git_blob": "9d7ad6eb8c45276458a9fe48a5dda707e8b6ae36"
         },
         "svg": {
-          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v1.svg",
-          "bytes": 3314243,
-          "sha256": "536f21eda019a84c79d2d31f19f0b5f07bf5216e9452461409a969cf662282b9"
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v2.svg",
+          "bytes": 3817228,
+          "sha256": "f65fec0b5f190511f6e33cd5c5fa60cfea909a5ce31cbb0026e8d4e55262089b",
+          "git_blob": "6400b0f253466fbd7afb00ed15aff40a94aa0475"
         },
-        "qa": "cards/crypto/print-ready/histrove-v1/qa/040.json",
-        "physical_print_release": false
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v2.pdf",
+          "bytes": 4085578,
+          "sha256": "6b0d3114c0dba39108ddcea1d521411fe784f5cdcce94409d15dece0405f319d",
+          "git_blob": "8748c7959b7ca2da2845b9ed023cd48906f8f4f4"
+        },
+        "physical_print_release": false,
+        "digital_qr_decode_verified": true
       },
-      "book": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v1.pdf",
+      "book": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v2.pdf",
       "rights_review": "BINANCE logo rights not cleared; user chose publication 6 October 2026 and will review before printing/launch.",
-      "publication_verification": "cards/crypto/season-01/binance-launches-master-040/publication-verification.json"
+      "historical_release_files": [
+        {
+          "artwork": "cards/crypto/season-01/binance-launches-master-040/art.png",
+          "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v1.png",
+          "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v1.svg",
+          "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v1.pdf",
+          "book": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v1.pdf",
+          "superseded_at": "2026-11-03",
+          "publication_verification": "cards/crypto/season-01/binance-launches-master-040/publication-verification.json"
+        }
+      ],
+      "set_size": 100,
+      "subject": "CHANGPENG ZHAO",
+      "title_lines": [
+        "BINANCE",
+        "LAUNCHES"
+      ],
+      "event_date_display": "14 JUL 2017",
+      "footer": "CRYPTO • SEASON 01 • 040/100",
+      "qr_target": "https://www.histrove.co.uk/cards/binance-launches",
+      "confirmed_lore_owned_route": true,
+      "artwork_sha256": "e4313a851aa17fa36b2438e82c6a1cf2f5ea38d2c3bbd75eaf4e74e911bfd87b",
+      "source_archive": "cards/crypto/season-01/binance-launches-master-040-v2/HISTROVE-040-Approved-Production-Source-v2.zip",
+      "book_spread": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v2.pdf",
+      "book_runtime": "site/app/cards/content/040.json",
+      "book_sha256": "4495770c4c36e472963e8108950b0c46f8c02cd13068f88fb664929de2773226",
+      "output_sha256": "91771b3f17c3e110e5ecd5b4bfbacd4223b4ef3b771a69086eb355d1aa41a950",
+      "print_svg_sha256": "f65fec0b5f190511f6e33cd5c5fa60cfea909a5ce31cbb0026e8d4e55262089b",
+      "printer_pdf_sha256": "6b0d3114c0dba39108ddcea1d521411fe784f5cdcce94409d15dece0405f319d",
+      "source_commit": "ff111ca1af25e4210456c80a29a790c4ac8e430f",
+      "approved_artwork_version": "Broccoli-inspired v2: open door, mirrored glass lettering, no placard",
+      "approved_at": "2026-11-03",
+      "approved_by": "Dan Payne",
+      "publication_approved": true,
+      "publication_status": "APPROVED_ARCHIVED_AWAITING_COMBINED_SITE_VERIFICATION",
+      "book_copy_status": "ARTWORK_EXPLANATION_ALIGNED_HISTORY_SOURCE_CHECKED",
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "interpretation": "Fictional Broccoli-inspired Belgian Malinois welcomes the viewer into a young exchange office. The pet was publicly introduced in 2025; the character is a retrospective symbol, not a depiction of the real pet at the 2017 launch.",
+      "artwork_clues": [
+        {
+          "detail": "THE WELCOMING HAND",
+          "meaning": "The open palm and hand on the door make the launch an invitation. The pose is fictional staging, not a documented gesture by Zhao.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE GLASS SIGN",
+          "meaning": "BINANCE reads in reverse from the back of the glass. The mirrored letters place the viewer inside the doorway; they do not change the exchange name.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE WORKING TEAM",
+          "meaning": "People remain at desks among boxes and plants. They evoke a small exchange startup, without identifying real employees or reconstructing a particular office.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE SYMBOLIC HOST",
+          "meaning": "The Belgian Malinois character links this card to the later departure in card 090. Broccoli became publicly known in 2025; this is a retrospective visual motif, not a depiction of the pet at the 2017 launch.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        }
+      ],
+      "clue_review_status": "APPROVED_ART_AND_BOOK_DIGITALLY_VERIFIED",
+      "card_size_readability_note": "Digital clue crops verified against approved art. Physical print readability remains unverified.",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+      "approval_record": "cards/crypto/season-01/binance-launches-master-040-v2/approval.json",
+      "print_manifest": "cards/crypto/season-01/binance-launches-master-040-v2/release-manifest.json",
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/binance-launches-master-040-v2/HISTROVE-040-Broccoli-Art-v2.png",
+          "bytes": 2437173,
+          "sha256": "e4313a851aa17fa36b2438e82c6a1cf2f5ea38d2c3bbd75eaf4e74e911bfd87b",
+          "git_blob": "b66e3d596b48772f573a21c9d8365a57420a36f9"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-040-Front-Print-v2.png",
+          "bytes": 849373,
+          "sha256": "91771b3f17c3e110e5ecd5b4bfbacd4223b4ef3b771a69086eb355d1aa41a950",
+          "git_blob": "9d7ad6eb8c45276458a9fe48a5dda707e8b6ae36"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-040-Front-Print-v2.svg",
+          "bytes": 3817228,
+          "sha256": "f65fec0b5f190511f6e33cd5c5fa60cfea909a5ce31cbb0026e8d4e55262089b",
+          "git_blob": "6400b0f253466fbd7afb00ed15aff40a94aa0475"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-040-Front-Print-v2.pdf",
+          "bytes": 4085578,
+          "sha256": "6b0d3114c0dba39108ddcea1d521411fe784f5cdcce94409d15dece0405f319d",
+          "git_blob": "8748c7959b7ca2da2845b9ed023cd48906f8f4f4"
+        },
+        {
+          "path": "cards/crypto/season-01/binance-launches-master-040-v2/HISTROVE-040-Approved-Production-Source-v2.zip",
+          "bytes": 10924398,
+          "sha256": "3332e7e0ad6a4b05bb38aac6838294a7a7c6816e83357670026f8ecbcdac36fa",
+          "git_blob": "4f30e7c886537bf9df58cfe7ddf4b118ab620c1b"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/040-binance-launches-histrove-v2.pdf",
+          "bytes": 4741912,
+          "sha256": "4495770c4c36e472963e8108950b0c46f8c02cd13068f88fb664929de2773226",
+          "git_blob": "c6d1ce0d0f37e8cfe2e3fd23b3b0876ede43b03d"
+        }
+      ]
     },
     {
       "id": "crypto-s01-bitcoin-cash-fork",
@@ -10253,6 +10402,305 @@
       ],
       "rights_review": "Fictional frontier metaphor; no claim of historical scene or rights clearance.",
       "artwork_revision": "Sharpness-restored raw v9, exact card-proof v5; three authorized source masks only"
+    },
+    {
+      "id": "crypto-s01-the-arbitrum-airdrop",
+      "collection": "crypto",
+      "season": 1,
+      "moment_number": 87,
+      "set_size": 100,
+      "rarity": "common",
+      "creator": "ARBITRUM",
+      "subject": "ARBITRUM",
+      "title_line_1": "ARBITRUM",
+      "title_line_2": "AIRDROP",
+      "title_lines": [
+        "ARBITRUM",
+        "AIRDROP"
+      ],
+      "context": "WORTH THE WEIGHT.",
+      "moment_label": "23 MAR 2023",
+      "event_date_display": "23 MAR 2023",
+      "set_label": "CRYPTO • SEASON 01 • 087/100",
+      "footer": "CRYPTO • SEASON 01 • 087/100",
+      "qr_url": "https://www.histrove.co.uk/crypto/087/",
+      "qr_target": "https://www.histrove.co.uk/cards/the-arbitrum-airdrop",
+      "confirmed_lore_owned_route": true,
+      "artwork": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/HISTROVE-087-Approved-Art.png",
+      "artwork_sha256": "53bb7b6940aaa70ac70f7af13b8ba5ffd7552ca8b9729c3738c7b459ecacbca3",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/HISTROVE-087-Approved-Art.png",
+        "bytes": 2497644,
+        "sha256": "53bb7b6940aaa70ac70f7af13b8ba5ffd7552ca8b9729c3738c7b459ecacbca3",
+        "git_blob": "f00d53910303b91b68a8a1f7a9eb16f9393950ff"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-087-Front-Print-v2.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-087-Front-Print-v2.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-087-Front-Print-v2.pdf",
+      "source_archive": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/HISTROVE-087-Approved-Production-Source-v2.zip",
+      "book": "book/crypto-season-01/histrove-v1/087-the-arbitrum-airdrop-histrove-v2.pdf",
+      "book_spread": "book/crypto-season-01/histrove-v1/087-the-arbitrum-airdrop-histrove-v2.pdf",
+      "book_runtime": "site/app/cards/content/087.json",
+      "book_sha256": "86e43eccbc2fb43beb01370afc00bdd7c9e71f238088d1bb13c97d3f5bd37b4b",
+      "output_sha256": "5bf7c03b88271a7555298ebc482ee1f9a30213b5561c0473bb2ffbbf7d86daac",
+      "print_svg_sha256": "068421d6c5e9876b0b8d04bcfcd42d4c93b6a49ceb54d7f7cb6aa79c7115ed02",
+      "printer_pdf_sha256": "aed018b44b2c6ad4e41dcff9b86d269ccfa2742ef965c9f6edb9ea9563401d76",
+      "source_commit": "ff111ca1af25e4210456c80a29a790c4ac8e430f",
+      "artwork_status": "APPROVED_EXACT_SOURCE",
+      "approved_artwork_version": "Original close-up tortoise, approved ARBITRUM AIRDROP / WORTH THE WEIGHT.",
+      "approved_at": "2026-11-03",
+      "approved_by": "Dan Payne",
+      "publication_approved": true,
+      "publication_status": "APPROVED_ARCHIVED_AWAITING_COMBINED_SITE_VERIFICATION",
+      "status": "APPROVED_ARCHIVED",
+      "book_copy_status": "ARTWORK_EXPLANATION_ALIGNED_HISTORY_SOURCE_CHECKED",
+      "qr_status": "DIGITAL_PDF_DECODE_VERIFIED_EXISTING_ROUTE",
+      "print_release": false,
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "interpretation": "A fictional tortoise at baggage claim struggles with an oversized ARB suitcase. Matching 087 tags identify the card, not a token amount, wallet or eligibility score. The weight joke is not a valuation or investment promise.",
+      "artwork_clues": [
+        {
+          "detail": "THE ARB SUITCASE",
+          "meaning": "ARB identifies the governance token distributed in the airdrop. The oversized case makes the reward tangible, without representing a fixed allocation, value or physical weight.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE LUGGAGE TAG",
+          "meaning": "The large tag reads 087, the collector number of this card. It is not a wallet address, an eligibility score or the amount of ARB claimed.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE MATCHING TAG",
+          "meaning": "A second 087 tag sits in the traveller's pocket. Matching tags connect the tortoise to the case in the baggage-claim joke; they are invented props.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE BLUE CHEVRONS",
+          "meaning": "The blue diagonal accents echo Arbitrum's visual identity. They locate the metaphor without depicting a transaction interface, gas charge or network launch.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        }
+      ],
+      "clue_review_status": "APPROVED_ART_AND_BOOK_DIGITALLY_VERIFIED",
+      "card_size_readability_note": "Digital clue crops verified against approved art. Physical print readability remains unverified.",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+      "approval_record": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/approval.json",
+      "print_manifest": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/release-manifest.json",
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-087-Front-Print-v2.png",
+          "bytes": 836697,
+          "sha256": "5bf7c03b88271a7555298ebc482ee1f9a30213b5561c0473bb2ffbbf7d86daac",
+          "git_blob": "f21c78bcb3976d01753c3b43599bc5f57096646d"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-087-Front-Print-v2.svg",
+          "bytes": 3915235,
+          "sha256": "068421d6c5e9876b0b8d04bcfcd42d4c93b6a49ceb54d7f7cb6aa79c7115ed02",
+          "git_blob": "1c5356670476ac6a223c7e9a2f643618f040b4ae"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-087-Front-Print-v2.pdf",
+          "bytes": 4048179,
+          "sha256": "aed018b44b2c6ad4e41dcff9b86d269ccfa2742ef965c9f6edb9ea9563401d76",
+          "git_blob": "c985201d8f860f26d36ac1c54d7ccdd43fe506ce"
+        },
+        "physical_print_release": false,
+        "digital_qr_decode_verified": true
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/HISTROVE-087-Approved-Art.png",
+          "bytes": 2497644,
+          "sha256": "53bb7b6940aaa70ac70f7af13b8ba5ffd7552ca8b9729c3738c7b459ecacbca3",
+          "git_blob": "f00d53910303b91b68a8a1f7a9eb16f9393950ff"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-087-Front-Print-v2.png",
+          "bytes": 836697,
+          "sha256": "5bf7c03b88271a7555298ebc482ee1f9a30213b5561c0473bb2ffbbf7d86daac",
+          "git_blob": "f21c78bcb3976d01753c3b43599bc5f57096646d"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-087-Front-Print-v2.svg",
+          "bytes": 3915235,
+          "sha256": "068421d6c5e9876b0b8d04bcfcd42d4c93b6a49ceb54d7f7cb6aa79c7115ed02",
+          "git_blob": "1c5356670476ac6a223c7e9a2f643618f040b4ae"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-087-Front-Print-v2.pdf",
+          "bytes": 4048179,
+          "sha256": "aed018b44b2c6ad4e41dcff9b86d269ccfa2742ef965c9f6edb9ea9563401d76",
+          "git_blob": "c985201d8f860f26d36ac1c54d7ccdd43fe506ce"
+        },
+        {
+          "path": "cards/crypto/season-01/the-arbitrum-airdrop-master-087-v2/HISTROVE-087-Approved-Production-Source-v2.zip",
+          "bytes": 10999916,
+          "sha256": "ce54aa3ab0cd860eace929ceac3866eed99f531925587698217cffc5550c4863",
+          "git_blob": "76f3474b3f2f1fa5e1e2b51ddbd78b16151f6b2a"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/087-the-arbitrum-airdrop-histrove-v2.pdf",
+          "bytes": 4702422,
+          "sha256": "86e43eccbc2fb43beb01370afc00bdd7c9e71f238088d1bb13c97d3f5bd37b4b",
+          "git_blob": "3d66cbcec81bd6f5036bfc1974f7fadb02f57791"
+        }
+      ],
+      "phrase_status": "APPROVED_EDITORIAL_CAPTION"
+    },
+    {
+      "id": "crypto-s01-binance-settles",
+      "collection": "crypto",
+      "season": 1,
+      "moment_number": 90,
+      "set_size": 100,
+      "rarity": "uncommon",
+      "creator": "CHANGPENG ZHAO",
+      "subject": "CHANGPENG ZHAO",
+      "title_line_1": "BINANCE",
+      "title_line_2": "SETTLES",
+      "title_lines": [
+        "BINANCE",
+        "SETTLES"
+      ],
+      "context": "THE DOOR CLOSES.",
+      "moment_label": "21 NOV 2023",
+      "event_date_display": "21 NOV 2023",
+      "set_label": "CRYPTO • SEASON 01 • 090/100",
+      "footer": "CRYPTO • SEASON 01 • 090/100",
+      "qr_url": "https://www.histrove.co.uk/crypto/090/",
+      "qr_target": "https://www.histrove.co.uk/cards/binance-settles",
+      "confirmed_lore_owned_route": true,
+      "artwork": "cards/crypto/season-01/binance-settles-master-090-v2/HISTROVE-090-Broccoli-Art-v4.png",
+      "artwork_sha256": "11ec7ba69bd06f45ea5c36150e48b6f967084a6b6e655759e473b046891dea9d",
+      "artwork_file": {
+        "path": "cards/crypto/season-01/binance-settles-master-090-v2/HISTROVE-090-Broccoli-Art-v4.png",
+        "bytes": 2225828,
+        "sha256": "11ec7ba69bd06f45ea5c36150e48b6f967084a6b6e655759e473b046891dea9d",
+        "git_blob": "149c16cc65890d478473925e4fa254b0a406bca8"
+      },
+      "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-090-Front-Print-v2.png",
+      "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-090-Front-Print-v2.svg",
+      "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-090-Front-Print-v2.pdf",
+      "source_archive": "cards/crypto/season-01/binance-settles-master-090-v2/HISTROVE-090-Approved-Production-Source-v2.zip",
+      "book": "book/crypto-season-01/histrove-v1/090-binance-settles-histrove-v2.pdf",
+      "book_spread": "book/crypto-season-01/histrove-v1/090-binance-settles-histrove-v2.pdf",
+      "book_runtime": "site/app/cards/content/090.json",
+      "book_sha256": "2f4293bcdbbcd91c2fd890031a19ff8af973c17ed99dffd85dad470f16dde4c7",
+      "output_sha256": "14b6f5d6dbae5340729aeb3871ef01a27820c53cba312c2366742e7f81f3727b",
+      "print_svg_sha256": "212055687d3ad5eacc9606d5102d8d68dd302cf0ff14c3d77c8cf7550f41b61d",
+      "printer_pdf_sha256": "8bf2b98444cd7c2cf8dd581a2168cf8f5da5c58725ba4f1305e268bd77c9d98e",
+      "source_commit": "ff111ca1af25e4210456c80a29a790c4ac8e430f",
+      "artwork_status": "APPROVED_EXACT_SOURCE",
+      "approved_artwork_version": "Broccoli-inspired v4: frontal departure, shut glass doors, active office",
+      "approved_at": "2026-11-03",
+      "approved_by": "Dan Payne",
+      "publication_approved": true,
+      "publication_status": "APPROVED_ARCHIVED_AWAITING_COMBINED_SITE_VERIFICATION",
+      "status": "APPROVED_ARCHIVED",
+      "book_copy_status": "ARTWORK_EXPLANATION_ALIGNED_HISTORY_SOURCE_CHECKED",
+      "qr_status": "DIGITAL_PDF_DECODE_VERIFIED_EXISTING_ROUTE",
+      "print_release": false,
+      "book_reproduction_release": false,
+      "physical_qr_scan_test": false,
+      "interpretation": "The same fictional Broccoli-inspired character leaves with paperwork while the office remains active. This symbolises the CEO departure following the 2023 settlement, not exchange closure, arrest or the real pet attending the event.",
+      "artwork_clues": [
+        {
+          "detail": "THE DEPARTING FIGURE",
+          "meaning": "The same symbolic host from card 040 now walks towards the viewer. His departure stands for Zhao leaving the CEO role; it does not portray a real journey or an arrest.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE CLOSED GLASS DOORS",
+          "meaning": "The entrance behind him is shut, but the office remains occupied. THE DOOR CLOSES. refers to a leadership chapter ending, not Binance shutting down.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE WORK CONTINUES",
+          "meaning": "Colleagues are still at their screens beyond the glass. Their presence distinguishes the company's continuing operations from its founder's resignation.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        },
+        {
+          "detail": "THE PAPERWORK",
+          "meaning": "The plain folder and loose papers suggest a formal departure. They bear no agency or BNB labels and are not authenticated settlement documents or a record of a particular charge.",
+          "kind": "SOURCE_QUALIFIED_SYMBOLIC_INTERPRETATION"
+        }
+      ],
+      "clue_review_status": "APPROVED_ART_AND_BOOK_DIGITALLY_VERIFIED",
+      "card_size_readability_note": "Digital clue crops verified against approved art. Physical print readability remains unverified.",
+      "canvas_px": [
+        816,
+        1110
+      ],
+      "template_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+      "approval_record": "cards/crypto/season-01/binance-settles-master-090-v2/approval.json",
+      "print_manifest": "cards/crypto/season-01/binance-settles-master-090-v2/release-manifest.json",
+      "print_ready": {
+        "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
+        "png": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-090-Front-Print-v2.png",
+          "bytes": 791421,
+          "sha256": "14b6f5d6dbae5340729aeb3871ef01a27820c53cba312c2366742e7f81f3727b",
+          "git_blob": "3206f005ed0dbfd254a4fa93883b67b445e61f9b"
+        },
+        "svg": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-090-Front-Print-v2.svg",
+          "bytes": 3553168,
+          "sha256": "212055687d3ad5eacc9606d5102d8d68dd302cf0ff14c3d77c8cf7550f41b61d",
+          "git_blob": "df83a68b6520ee730d9dc602c0fd68aa626e8a5f"
+        },
+        "pdf": {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-090-Front-Print-v2.pdf",
+          "bytes": 3946983,
+          "sha256": "8bf2b98444cd7c2cf8dd581a2168cf8f5da5c58725ba4f1305e268bd77c9d98e",
+          "git_blob": "221fc8de2f2c7a3c967fa97aaf5f41edc53eb256"
+        },
+        "physical_print_release": false,
+        "digital_qr_decode_verified": true
+      },
+      "current_files": [
+        {
+          "path": "cards/crypto/season-01/binance-settles-master-090-v2/HISTROVE-090-Broccoli-Art-v4.png",
+          "bytes": 2225828,
+          "sha256": "11ec7ba69bd06f45ea5c36150e48b6f967084a6b6e655759e473b046891dea9d",
+          "git_blob": "149c16cc65890d478473925e4fa254b0a406bca8"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-090-Front-Print-v2.png",
+          "bytes": 791421,
+          "sha256": "14b6f5d6dbae5340729aeb3871ef01a27820c53cba312c2366742e7f81f3727b",
+          "git_blob": "3206f005ed0dbfd254a4fa93883b67b445e61f9b"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-090-Front-Print-v2.svg",
+          "bytes": 3553168,
+          "sha256": "212055687d3ad5eacc9606d5102d8d68dd302cf0ff14c3d77c8cf7550f41b61d",
+          "git_blob": "df83a68b6520ee730d9dc602c0fd68aa626e8a5f"
+        },
+        {
+          "path": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-090-Front-Print-v2.pdf",
+          "bytes": 3946983,
+          "sha256": "8bf2b98444cd7c2cf8dd581a2168cf8f5da5c58725ba4f1305e268bd77c9d98e",
+          "git_blob": "221fc8de2f2c7a3c967fa97aaf5f41edc53eb256"
+        },
+        {
+          "path": "cards/crypto/season-01/binance-settles-master-090-v2/HISTROVE-090-Approved-Production-Source-v2.zip",
+          "bytes": 10272246,
+          "sha256": "290fc172b205bb11852342d8ba2cc6ac4ad9bd2a2154f062b40220ce452108c5",
+          "git_blob": "c492370b73b98d375cb480ae256c99056ab31ce2"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/090-binance-settles-histrove-v2.pdf",
+          "bytes": 4572588,
+          "sha256": "2f4293bcdbbcd91c2fd890031a19ff8af973c17ed99dffd85dad470f16dde4c7",
+          "git_blob": "1fd8221ce64dfe930b01a17aa50072281d1dd560"
+        }
+      ]
     }
   ],
   "style_revision": "LORE-CRYPTO-STYLE-v1.1",
@@ -10263,7 +10711,7 @@
     "cards/crypto/season-01/birth-of-doge-master-02/art.png"
   ],
   "reference_policy_note": "Both references required for new generations/edits from 20 September 2026; existing per-card provenance and visuals remain unchanged.",
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-11-03",
   "print_revision": "HISTROVE-CRYPTO-PRINT-v1.0",
   "approved_print_derivative_count": 76,
   "numbered_published_count": 77,
@@ -10306,5 +10754,7 @@
     "physical_print_release": false,
     "matches_approved_back_pixels": true
   },
-  "print_revision_note": "Current HISTROVE physical-layout fronts 001–057 and 059–075. Card 076 is public digital only; its distinct physical puzzle QR has not been created."
+  "print_revision_note": "Current HISTROVE physical-layout fronts 001–057 and 059–075. Card 076 is public digital only; its distinct physical puzzle QR has not been created.",
+  "registry_entry_count": 89,
+  "legacy_aggregate_counts_status": "Legacy collection-wide counters and numbering notes have not been reconciled by this four-card metadata update."
 }
