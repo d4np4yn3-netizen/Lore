@@ -8147,8 +8147,8 @@
       "front": "cards/crypto/print-ready/histrove-v1/fronts/png/HISTROVE-Crypto-058-Front-Print-v3.png",
       "editable_svg": "cards/crypto/print-ready/histrove-v1/fronts/svg/HISTROVE-Crypto-058-Front-Print-v3.svg",
       "printer_pdf": "cards/crypto/print-ready/histrove-v1/fronts/pdf/HISTROVE-Crypto-058-Front-Print-v3.pdf",
-      "book": "book/crypto-season-01/histrove-v1/058-yfi-histrove-v1.pdf",
-      "chapter": "book/crypto-season-01/histrove-v1/chapters/058-yfi.md",
+      "book": "book/crypto-season-01/histrove-v1/058-yfi-histrove-v3.pdf",
+      "chapter": "book/crypto-season-01/histrove-v1/chapters/058-yfi-v3.md",
       "approval_record": "cards/crypto/season-01/yfi-master-058-chameleon-v3/approval.json",
       "current_files": [
         {
@@ -8175,6 +8175,21 @@
           "path": "cards/crypto/season-01/yfi-master-058-chameleon-v3/HISTROVE-058-YFI-Approved-Production-Source-v3.zip",
           "bytes": 10579568,
           "sha256": "2134435d9328223f9eceebd2744ca0226977458602a270f605dd8ba821df821a"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/058-yfi-histrove-v3.pdf",
+          "bytes": 3784957,
+          "sha256": "02f0b9e764de8918b915572da388504cd7716a3d938c73d61db51f51384bb676"
+        },
+        {
+          "path": "book/crypto-season-01/histrove-v1/chapters/058-yfi-v3.md",
+          "bytes": 2665,
+          "sha256": "4127b843ac9d12fa23cc9ef051be0378e9e5198ccb71afc76c9eea529abe4dc2"
+        },
+        {
+          "path": "cards/crypto/season-01/yfi-master-058-chameleon-v3/HISTROVE-058-YFI-Book-Source-v3.zip",
+          "bytes": 2289427,
+          "sha256": "b97e724003e499edfa97e3bc04f4b326020717b78e0fbf3fa8d388d1a0f5c40e"
         }
       ],
       "print_ready": {
@@ -8221,7 +8236,6 @@
       "historical_master": "cards/crypto/season-01/yfi-master-058",
       "physical_print_release": false,
       "latest_art_correction": "Approved hidden cobalt chameleon with continuous tail and removed interior gold branch.",
-      "companion_book_revision_note": "Existing published book and its artwork are unchanged by this card-only release.",
       "historical_print_ready": [
         {
           "revision": "HISTROVE-CRYPTO-PRINT-v1.0",
@@ -8243,7 +8257,10 @@
           "qa": "cards/crypto/season-01/yfi-master-058/card-final-qa.json",
           "physical_print_release": false
         }
-      ]
+      ],
+      "book_publication_authorized_at": "2026-11-04",
+      "book_copy_status": "EXISTING_APPROVED_COPY_UNCHANGED",
+      "book_native_effective_ppi": 128.21
     },
     {
       "rarity": "rare",

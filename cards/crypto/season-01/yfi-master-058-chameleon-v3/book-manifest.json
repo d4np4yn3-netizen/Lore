@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "collector_number": "058",
+  "title": "YFI",
+  "revision": "approved-art-v3",
+  "scope": "Matching two-page companion book, illustration-only update; all approved story copy and four clue descriptions preserved.",
+  "source_repository": "d4np4yn3-netizen/Lore",
+  "source_commit": "1ef8ea3d323fc9bfe3359d95a803f2d48882a900",
+  "original_pdf": {
+    "repository_path": "cards/crypto/season-01/yfi-master-058/HISTROVE-058-YFI-Book.pdf",
+    "git_blob_sha1": "a4ad232902ccf6d54aa7a0920c6248a3d36516ba",
+    "sha256": "c7d51844588f293465b80e8e2177103883a00e79ce8748e9b242915fb56122ba"
+  },
+  "layout_template": {
+    "file": "source/book-layout-template.pdf",
+    "sha256": "0b0211ea9147cc02f38eb17bda6a7e364721be9bc06cd4ea5232f92606e99c63",
+    "derivation": "Original PDF with its sole page-one image XObject replaced by one white RGB pixel and proof title/metadata cleaned. Page content streams, fonts, text, geometry and link targets unchanged."
+  },
+  "art": {
+    "file": "art.png",
+    "sha256": "4f103cf4080b9ae50ffb85096f64098b38dc3b20c61d59ff8c9fdf48ef85ae0e",
+    "dimensions_px": [
+      1060,
+      1484
+    ],
+    "mode": "RGB",
+    "embedding": "Lossless FlateDecode RGB image XObject. Decoded pixel bytes match the approved PNG exactly; the original PNG file is included byte-for-byte. No crop, overlays, recoloring or resampling."
+  },
+  "content_sha256": {
+    "058.json": "d1f667919e454fe57cc4d60226113a18f93ac74bc1ddeea8374f8d824c532e13",
+    "058-yfi.md": "4127b843ac9d12fa23cc9ef051be0378e9e5198ccb71afc76c9eea529abe4dc2",
+    "authoring-content.json": "6c59a45bbcfbdd73fcbfa70ff2d4364f2e470127d5b8d0b65b989251864782c6"
+  },
+  "content_preservation": {
+    "058.json": "Byte-identical to source commit",
+    "058-yfi.md": "Byte-identical to source commit",
+    "authoring-content.json": "Story, four clues, source list, art note and chapter identifiers unchanged. Only obsolete proof authorization/status metadata removed."
+  },
+  "page_count": 2,
+  "page_size_points": [
+    595.2756,
+    841.8898
+  ],
+  "folio": "116",
+  "source_link_annotations": 7,
+  "build": {
+    "command": "python source/build_book.py",
+    "dependencies": {
+      "pypdf": "6.10.0",
+      "Pillow": "13.0.0",
+      "PyMuPDF": "1.26.6"
+    },
+    "deterministic_metadata_date": "2000-01-01T00:00:00Z"
+  },
+  "technical_limits": {
+    "physical_print_acceptance": "Not claimed",
+    "rights_clearance": "Not independently established",
+    "no_factual_research_or_copy_revision": true
+  },
+  "builder_sha256": "b408f7f7fc19f5974494d5a17acc5a40576ee62dde458f13e07ac6b87cd98aad",
+  "artifacts": {
+    "book/HISTROVE-058-YFI-Book.pdf": {
+      "bytes": 3784957,
+      "sha256": "02f0b9e764de8918b915572da388504cd7716a3d938c73d61db51f51384bb676"
+    },
+    "book/book-page-1.png": {
+      "bytes": 1643436,
+      "sha256": "568c7a771b0c5c41b4a6e53a22d4dc468795c3a00a61758c805e0cc0f4566fcd"
+    },
+    "book/book-page-1.webp": {
+      "bytes": 1321074,
+      "sha256": "21b1d64bb173a23313a41e882adea93867f3e4e4de173dafc968a6130dacd8a4"
+    },
+    "book/book-page-2.png": {
+      "bytes": 224366,
+      "sha256": "cc13400e8ad077dfa3c727ae8c399e307a2b8a1cedc3e76f6eb31013f518777b"
+    },
+    "book/book-page-2.webp": {
+      "bytes": 55946,
+      "sha256": "57f0c09c01b7548ad4e3fa60d40411955d1614d98f7527ed3fc58cff7dd7a8b0"
+    },
+    "book/book-spread.png": {
+      "bytes": 1960884,
+      "sha256": "dd8a291e302a64ca152ebaee8ed957a46b6e57122cfcc43450dc5c80be51c773"
+    }
+  },
+  "verification": {
+    "report": "verification.json",
+    "sha256": "0f284d2589ee05b41b67c0b8915346e569c94c1c512f7ed5a7c5325f076b941e",
+    "result": "PASS",
+    "page2_pixel_identical_to_original": true,
+    "all_original_page_content_streams_identical": true,
+    "exact_approved_art_pixels": true,
+    "no_material_copy_change": true
+  }
+}
